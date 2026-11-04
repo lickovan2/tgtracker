@@ -26,6 +26,7 @@ ANDROID_BETA_JSON = "https://telegram.org/dl/android/apk-public-beta.json"
 ANDROID_STABLE_APK = "https://telegram.org/dl/android/apk"
 MACOS_FEED = "https://osx.telegram.org/updates/versions.xml"
 DOWNLOAD_TIMEOUT = aiohttp.ClientTimeout(total=1500)
+DOWNLOAD_ATTEMPTS = 3
 
 TL_CLASS = re.compile(r"Lorg/telegram/tgnet/(?:TLRPC\$|tl/TL_\w+\$|tl/)(\w+);")
 NAMED_CLASS = re.compile(r"L(org/telegram/[\w/$]+);")
@@ -168,14 +169,23 @@ def snapshot_macos(path: str, root: Path) -> None:
 
 
 async def _download(session: aiohttp.ClientSession, url: str, path: Path) -> None:
-    async with session.get(url, timeout=DOWNLOAD_TIMEOUT) as resp:
-        resp.raise_for_status()
-        expected = resp.content_length
-        with path.open("wb") as handle:
-            async for chunk in resp.content.iter_chunked(1 << 20):
-                handle.write(chunk)
-    if expected is not None and path.stat().st_size != expected:
-        raise RuntimeError(f"{url}: скачано {path.stat().st_size} из {expected}")
+    """CDN иногда обрывает соединение посреди файла, поэтому загрузка повторяется."""
+    for attempt in range(1, DOWNLOAD_ATTEMPTS + 1):
+        try:
+            async with session.get(url, timeout=DOWNLOAD_TIMEOUT) as resp:
+                resp.raise_for_status()
+                expected = resp.content_length
+                with path.open("wb") as handle:
+                    async for chunk in resp.content.iter_chunked(1 << 20):
+                        handle.write(chunk)
+            if expected is None or path.stat().st_size == expected:
+                return
+            error: Exception = RuntimeError(f"скачано {path.stat().st_size} из {expected}")
+        except (aiohttp.ClientError, asyncio.TimeoutError) as e:
+            error = e
+        logger.warning("%s: попытка %d: %s", url.split("?")[0], attempt, error)
+        await asyncio.sleep(5 * attempt)
+    raise RuntimeError(f"{url.split('?')[0]}: не скачан за {DOWNLOAD_ATTEMPTS} попыток")
 
 
 async def _update(session: aiohttp.ClientSession, root: Path, version: str, url: str, snapshot) -> None:

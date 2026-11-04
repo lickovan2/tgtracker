@@ -70,10 +70,16 @@ VOLATILE = [
     (re.compile(r'data-cdata="[^"]+"'), 'data-cdata="X"'),
     (re.compile(r"passport_ssid=[a-z0-9_]+"), "passport_ssid=X"),
     (re.compile(r"apk\?token=[^\"'&\s]+"), "apk?token=X"),
+    (re.compile(r"(/file/\d+/\d+/[^/\"'\s]+)/[0-9a-f]+"), r"\1/X"),
+    # Сервер отдаёт канонический адрес то со слешем, то без него.
+    (re.compile(r"<link rel=\"canonical\"[^>]*>"), ""),
     (re.compile(r"(cdn\d*\.(?:telesco\.pe|cdn-telegram\.org)/file/[^\"'\s?]+)\?token=[^\"'\s]+"), r"\1"),
 ]
 LINK_RE = re.compile(r"""<a\b[^>]*?href\s*=\s*["']([^"'#]+)""", re.I)
-ASSET_RE = re.compile(r"""<(?:link|script|img|source)\b[^>]*?(?:href|src)\s*=\s*["']([^"'#]+)""", re.I)
+ASSET_TAG = re.compile(r"""<(?:link|script|img|source)\b[^>]*>""", re.I)
+ASSET_SOURCE = re.compile(r"""\b(?:href|src)\s*=\s*["']([^"'#]+)""", re.I)
+PAGE_LINK_REL = re.compile(r"""\brel\s*=\s*["'](?:alternate|canonical|next|prev|dns-prefetch|preconnect)""", re.I)
+SIGNED_FILE_PATH = re.compile(r"/file/\d+/")
 TEXT_TYPES = ("text/", "javascript", "json", "xml", "svg")
 
 logger = logging.getLogger("track")
@@ -105,9 +111,17 @@ def is_link_trap(path: str) -> bool:
 def links_of(page: str, base: str) -> tuple[set[str], set[str]]:
     """(страницы для обхода, ресурсы страницы) с абсолютными адресами без якорей."""
     pages, assets = set(), set()
-    for raw in ASSET_RE.findall(page):
-        url = urljoin(base, html.unescape(raw).strip())
-        if urlsplit(url).scheme == "https":
+    for tag in ASSET_TAG.findall(page):
+        # <link rel="alternate"> и подобные указывают на страницы, а не на файлы.
+        if PAGE_LINK_REL.search(tag):
+            continue
+        source = ASSET_SOURCE.search(tag)
+        if not source:
+            continue
+        url = urljoin(base, html.unescape(source.group(1)).strip())
+        parts = urlsplit(url)
+        # Картинки блога отдаются по подписанным адресам, подпись меняется сама по себе.
+        if parts.scheme == "https" and not SIGNED_FILE_PATH.match(parts.path):
             assets.add(url)
     for raw in LINK_RE.findall(page):
         url = urljoin(base, html.unescape(raw).strip())

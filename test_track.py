@@ -26,6 +26,20 @@ def test_links_keep_only_crawlable_pages_without_query():
     }
 
 
+def test_alternate_language_links_are_not_assets():
+    page = '<link rel="alternate" hreflang="it" href="/blog/x/it"><link rel="stylesheet" href="/css/a.css">'
+    _pages, assets = track.links_of(page, "https://telegram.org/blog/x")
+    assert assets == {"https://telegram.org/css/a.css"}
+
+
+def test_signed_blog_files_are_neither_tracked_nor_noisy():
+    page = '<img src="/file/811140058/2/7GzMJk4Ij54/a1649c56fa9f"><img src="/img/a.png">'
+    _pages, assets = track.links_of(page, "https://telegram.org/blog/x")
+    assert assets == {"https://telegram.org/img/a.png"}
+    other = page.replace("a1649c56fa9f", "bb0011223344")
+    assert track.normalize_html(page) == track.normalize_html(other)
+
+
 def test_links_skip_user_generated_pages():
     page = (
         '<a href="https://instantview.telegram.org/contest/x.com/">c</a><a href="https://instantview.telegram.org/docs">d</a>'
