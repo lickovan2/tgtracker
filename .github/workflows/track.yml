@@ -1,0 +1,48 @@
+name: Track Telegram
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '*/10 * * * *'
+
+# Новый запуск ждёт предыдущий: два обхода подряд пытались бы записать одно и то же.
+concurrency:
+  group: track
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  track:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    strategy:
+      fail-fast: false
+      matrix:
+        mode: [web, translations, tl, clients]
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Install
+        run: pip install -q -r requirements.txt
+
+      - name: Snapshot
+        run: python track.py ${{ matrix.mode }}
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          git commit -q -m "Update ${{ matrix.mode }}" || exit 0
+          # Режимы пишут в разные папки, поэтому rebase поверх соседнего задания не конфликтует.
+          for attempt in 1 2 3 4 5; do
+            git pull -q --rebase origin main && git push -q origin HEAD:main && exit 0
+            sleep $((attempt * 5))
+          done
+          exit 1

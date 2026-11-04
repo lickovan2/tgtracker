@@ -1,0 +1,3 @@
+aiohttp>=3.9
+androguard>=4.1
+loguru>=0.7
