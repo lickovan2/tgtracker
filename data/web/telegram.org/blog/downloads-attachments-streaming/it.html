@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html class="" data-theme="light">
+<head>
+<meta charset="utf-8">
+<title>Gestione dei download, Nuovo menu degli allegati, Dirette streaming con altre app e altro</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:title" content="Gestione dei download, Nuovo menu degli allegati, Dirette streaming con altre app e altro">
+<meta property="og:image" content="https://telegram.org/file/464001418/12513/cF-RXvZE-6U.103646/9abb402fe4e74b126f">
+<meta property="og:site_name" content="Telegram">
+<meta property="og:description" content="L&#39;aggiornamento di oggi introduce strumenti per aiutarti a controllare i tuoi download, per inviare documenti con un tocco, per riorganizzare gli album di contenuti multimediali prima dell&#39;invio, per trasformare il tuo canale in una stazione TV, e altro ancora.">
+<meta property="article:published_time" content="2022-03-11T10:14:29+00:00">
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://telegram.org/file/464001418/12513/cF-RXvZE-6U.103646/9abb402fe4e74b126f" />
+<meta property="fb:app_id" content="254098051407226">
+<meta property="vk:app_id" content="3782569">
+<meta name="apple-itunes-app" content="app-id=686449807">
+<meta name="telegram:channel" content="@telegram">
+<link rel="canonical" href="https://telegram.org/blog/downloads-attachments-streaming/it" />
+<link rel="icon" type="image/svg+xml" href="/img/website_icon.svg?4">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="alternate icon" href="/img/favicon.ico" type="image/x-icon" />
+<link href="/css/bootstrap.min.css?3" rel="stylesheet">
+<link href="/css/telegram.css?256" rel="stylesheet" media="screen">
+<link href="/css/telegram-theme.css?9" rel="stylesheet" media="screen">
+</head>
+<body class="preload">
+<div id="fb-root">
+</div>
+<button class="theme-toggle theme-toggle--static" type="button" title="Toggle theme" aria-label="Toggle light/dark theme">
+</button>
+<div class="tl_page_wrap">
+<div class="tl_page_head navbar navbar-static-top navbar navbar-tg">
+<div class="navbar-inner">
+<div class="container clearfix">
+<ul class="nav navbar-nav navbar-right">
+<li class="dropdown top_lang_select">
+<a class="dropdown-toggle" onclick="return dropdownClick(this, event)" href="#">
+<i class="dev_top_lang_icon">
+</i>
+<b class="minicaret">
+</b>
+</a>
+<ul class="dropdown-menu">
+<li class="">
+<a href="?setln=en">English</a>
+</li>
+<li class="long ">
+<a href="?setln=id">Bahasa Indonesia</a>
+</li>
+<li class="long ">
+<a href="?setln=ms">Bahasa Melayu</a>
+</li>
+<li class="">
+<a href="?setln=de">Deutsch</a>
+</li>
+<li class="">
+<a href="?setln=es">Español</a>
+</li>
+<li class="">
+<a href="?setln=fr">Français</a>
+</li>
+<li class="">
+<a href="?setln=it">Italiano</a>
+</li>
+<li class="">
+<a href="?setln=nl">Nederlands</a>
+</li>
+<li class="">
+<a href="?setln=uz">O‘zbek</a>
+</li>
+<li class="">
+<a href="?setln=pl">Polski</a>
+</li>
+<li class="long ">
+<a href="?setln=pt-br">Português (Brasil)</a>
+</li>
+<li class="">
+<a href="?setln=tr">Türkçe</a>
+</li>
+<li class="">
+<a href="?setln=be">Беларуская</a>
+</li>
+<li class="">
+<a href="?setln=ru">Русский</a>
+</li>
+<li class="">
+<a href="?setln=uk">Українська</a>
+</li>
+<li class="">
+<a href="?setln=kk">Қазақша</a>
+</li>
+<li class="">
+<a href="?setln=ar">العربية</a>
+</li>
+<li class="">
+<a href="?setln=fa">فارسی</a>
+</li>
+<li class="">
+<a href="?setln=ko">한국어</a>
+</li>
+</ul>
+</li>
+<li class="navbar-twitter hidden-xs">
+<a href="https://x.com/telegram" target="_blank" data-track="Follow/Twitter" onclick="trackDlClick(this, event)">
+<i class="icon icon-twitter">
+</i> Follow on X</a>
+</li>
+</ul>
+<ul class="nav navbar-nav">
+<li class="">
+<a href="/">Home</a>
+</li>
+<li class="">
+<a href="/faq">FAQ</a>
+</li>
+<li class="">
+<a href="/apps">Apps</a>
+</li>
+<li class="hidden-xs ">
+<a href="//core.telegram.org/api">API</a>
+</li>
+<li class="hidden-xs ">
+<a href="/safety">Safety</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="container clearfix tl_page_container ">
+<div class="tl_page">
+<div class="tl_contest_page_wrap">
+<div class="tl_blog_side_blog">
+<div class="side_blog_wrap">
+<div class="side_blog">
+<a href="/blog" class="side_blog_header">Recent News</a>
+<div class="side_blog_entries">
+<a href="/blog/welcome-messages-buttons-TG-13" class="side_blog_entry">
+<div class="side_blog_date">Aug 25</div>
+<div class="side_blog_title">Welcome Messages, Buttons in Messages and Signed Gifts</div>
+</a>
+<a href="/blog/communities-editor-invisible-messages" class="side_blog_entry">
+<div class="side_blog_date">Jul 14</div>
+<div class="side_blog_title">Rich Text Editor, Communities, Ephemeral Messages in Groups, 350 Million GIFs</div>
+</a>
+<a href="/blog/watch-apps-and-more" class="side_blog_entry">
+<div class="side_blog_date">Jun 11</div>
+<div class="side_blog_title">Smartwatch Apps, Rich Text for Bots, AI Guardians for Groups, and Much More</div>
+</a>
+<a href="/blog/ai-bot-revolution-11-new-features" class="side_blog_entry">
+<div class="side_blog_date">May 7</div>
+<div class="side_blog_title">Guest AI Bots, Bot-to-Bot Chats, Chat Automation, Custom AI Styles, 100M+ Emoji &amp; Sticker Search and Much More</div>
+</a>
+<a href="/blog/ai-editor-mighty-polls-and-more" class="side_blog_entry">
+<div class="side_blog_date">Mar 31</div>
+<div class="side_blog_title">AI Editor, Mighty Polls, Live Photos, Bots Managed by Bots, and More</div>
+</a>
+<a href="/blog/member-tags-disable-sharing-and-more" class="side_blog_entry">
+<div class="side_blog_date">Mar 1</div>
+<div class="side_blog_title">Member Tags, Login with Telegram, Disable Sharing, GIF Editing, Date Formatting, Voting Timestamps</div>
+</a>
+<a href="/blog/crafting-android-design-and-more" class="side_blog_entry">
+<div class="side_blog_date">Feb 9</div>
+<div class="side_blog_title">Android Redesign, Group Ownership Transfer, Gift Crafting, Colored Bot Buttons</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div id="dev_page_content_wrap" class=" ">
+<div class="dev_page_bread_crumbs">
+</div>
+<h1 id="dev_page_title">Gestione dei download, Nuovo menu degli allegati, Dirette streaming con altre app e altro</h1>
+<blockquote class="blog_lang_original">
+<a href="/blog/downloads-attachments-streaming?ln=r">Leggi l&#39;annuncio originale in Inglese</a>
+</blockquote>
+<div id="dev_page_content">
+<div class="blog_side_image_wrap">
+<picture class="dev_page_tgsticker blog_side_image js-tgsticker_image" style="width:160px;">
+<div style="padding-top:100%">
+</div>
+<source type="application/x-tgsticker" srcset="/file/464001017/1062d/zO3i3A21xFI.13270/86b16cd7779b2c6622">
+<img src="/file/464001017/1062e/D8qDJySfDg4.27253.png/e4e45c07e42762949d" />
+</picture>
+</div>
+<div class="blog_wide_image legacy">
+<a href="/file/464001512/11ecc/VrmK4ykBNYc.306395/ea2078f7918f0250aa" target="_blank">
+<img src="/file/464001418/12513/cF-RXvZE-6U.103646/9abb402fe4e74b126f" srcset="/file/464001512/11ecc/VrmK4ykBNYc.306395/ea2078f7918f0250aa, 1200w" title="" alt="Gestione dei download, Nuovo menu degli allegati, Dirette streaming con altre app e altro"/>
+</a>
+</div>
+<p>L&#39;aggiornamento di oggi introduce strumenti per aiutarti a controllare i tuoi <strong>download</strong>, per inviare documenti con un tocco, per riorganizzare gli <strong>album di contenuti multimediali</strong> prima dell&#39;invio, per trasformare il tuo canale in una <strong>stazione TV</strong>, e altro ancora. </p>
+<h3>
+<a class="anchor" name="gestione-dei-download" href="#gestione-dei-download">
+<i class="anchor-icon">
+</i>
+</a>Gestione dei download</h3>
+<p>Gli utenti Telegram possono inviare file di qualsiasi tipo fino a <strong>2 GB</strong> ciascuno e accedervi da qualsiasi dispositivo – grazie a un <strong>archivio cloud illimitato</strong>. Quando i file vengono scaricati manualmente, ora appare una <strong>nuova icona</strong> nella barra di ricerca.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001743/111ef/5kQ3Ucj2V7I.94214/7aad2c6f307a74add5" style="max-width: 600px;" title="" alt="Gestione dei download">
+<source src="/file/464001138/10dd2/YrRloAIWrPo.5072038.mp4/ea5c01ffb71bd4aa22" type="video/mp4">
+</video>
+</div>
+<p>Tocca l&#39;icona o vai nella scheda <em>&#39;Download&#39;</em> all&#39;interno dell&#39;area di Ricerca per visualizzarli e gestirli - <strong>metti in pausa e riprendi</strong> tutti i download o i singoli elementi, e selezionali singolarmente per <strong>aumentare la priorità</strong> o visualizzarli nella chat.</p>
+<h3>
+<a class="anchor" name="nuovo-menu-degli-allegati" href="#nuovo-menu-degli-allegati">
+<i class="anchor-icon">
+</i>
+</a>Nuovo menu degli allegati</h3>
+<p>Quando invii <strong>foto o video multipli</strong>, tocca <em>&#39;… selezionati&#39;</em> nella parte superiore del pannello per <strong>vedere l&#39;anteprima</strong> dell&#39;album prima che venga inviato – e per <strong>riorganizzare</strong> o <strong>rimuovere</strong> i media selezionati.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001487/10da5/wbyM-xIi8rw.28153/83b52d0d81ad1450ba" style="max-width: 600px;" title="" alt="Nuovo menu degli allegati">
+<source src="/file/464001769/10547/v-4JMF_DxM8.7145206.mp4/53cda6e74691e35572" type="video/mp4">
+</video>
+</div>
+<p>Su iOS, il <img class="icon" src="/file/464001085/2/E4hNXSNQimQ.2503/bf6ffcab3cb3afd43d" alt="Attach"> menu degli allegati è stato <strong>completamente ridisegnato</strong> per <a href="https://telegram.org/blog/silent-messages-slow-mode#android-39s-new-attachment-menu">raggiungere</a> l&#39;app Android. L&#39;opzione della fotocamera è ora <strong>meravigliosamente integrata</strong> nella galleria e una nuova <strong>barra di navigazione</strong> consente l&#39;accesso rapido a foto, file, condivisione della posizione e altro.</p>
+<p>La scheda <em>File</em> aggiornata mostra i file <strong>inviati di recente</strong> e ti permette di <strong>cercarli</strong> per nome.</p>
+<h3>
+<a class="anchor" name="interfaccia-semitrasparente-su-android" href="#interfaccia-semitrasparente-su-android">
+<i class="anchor-icon">
+</i>
+</a>Interfaccia semitrasparente su Android</h3>
+<p>Con la modalità notturna, i pannelli e le intestazioni hanno un sottile <strong>effetto di trasparenza</strong> - che permette di intravedere gli sfondi della chat, gli sticker e i media mentre si scorre.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001861/10d8a/RdPbG_hgVu4.71346/8b1bbdf80c687937cd" style="max-width: 600px;" title="" alt="Interfaccia semitrasparente su Android">
+<source src="/file/464001377/10a93/Zc7Q7xaaX4I.6200750.mp4/28e1edd066f1f39a9c" type="video/mp4">
+</video>
+</div>
+<p>Non abbiamo visto effetti di questo tipo utilizzati in nessun&#39;altra app Android. Questo aggiornamento introduce altre delle migliori tecnologie visive del mondo da altre piattaforme su Android.</p>
+<blockquote>
+<p>Gli utenti iOS dispongono degli effetti semistrasparenti su Telegram da <a href="https://telegram.org/blog/animated-backgrounds/it?ln=a#ios-semi-trasparenza-e-nuove-icone-dell-39app">Giugno 2021</a>.</p>
+</blockquote>
+<h3>
+<a class="anchor" name="producedura-di-accesso-ridisegnata" href="#producedura-di-accesso-ridisegnata">
+<i class="anchor-icon">
+</i>
+</a>Producedura di accesso ridisegnata</h3>
+<p>Su Android e MacOS, la procedura di accesso è stata ridisegnata con <strong>nuove eleganti animazioni</strong>. Su Android, osserva come le cifre del tuo codice di accesso scivolano al loro posto.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001038/11276/9dJSZO6k0eQ.63160/9681f78b7c5282b374" style="max-width: 600px;" title="" alt="Producedura di accesso ridisegnata su Android">
+<source src="/file/464001722/111de/w2VKdUfwLMY.5336934.mp4/e4560770dd47fcc088" type="video/mp4">
+</video>
+</div>
+<p>Su <a href="https://macos.telegram.org">Telegram per macOS</a>, osserva come il codice in stile Matrix cade nella schermata di accesso con il codice QR. Segui l&#39;anatra bianca, Neo. </p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001234/ff72/0iRCSu5EBpo.106390/f7f3cf3d3b407eacdd" style="max-width: 600px;" title="" alt="Producedura di accesso ridisegnata su macOS">
+<source src="/file/464001214/103ac/DERQ2OSfuKs.5974300.mp4/7d78960ad2220ba137" type="video/mp4">
+</video>
+</div>
+<blockquote>
+<p>Le app di Telegram permettono agli utenti di eseguire l&#39;accesso a <strong>più account contemporaneamente</strong> - con diversi numeri di telefono.</p>
+</blockquote>
+<h3>
+<a class="anchor" name="link-con-i-numeri-di-telefono" href="#link-con-i-numeri-di-telefono">
+<i class="anchor-icon">
+</i>
+</a>Link con i numeri di telefono</h3>
+<p>Chiunque può creare un <a href="https://t.me/TelegramTipsIT/4">@username</a> unico dalla pagina delle Impostazioni – dando agli altri un modo facile per essere contattati tramite la Ricerca o il link <code>t.me/username</code>, senza condividere il numero di telefono.</p>
+<p>Questo aggiornamento ti permette anche di condividere un <strong>link</strong> diretto al tuo <strong>numero di telefono</strong> che <strong>apre</strong> istantaneamente <strong>una chat</strong> con te.</p>
+<div class="blog_image_wrap blog_medium_image_wrap">
+<a href="/file/464001266/11d2f/OxIh8RDFqSw.260534/225ceff778e0ed9706" target="_blank">
+<img src="/file/464001266/11d2f/OxIh8RDFqSw.260534/225ceff778e0ed9706" title="" alt="Link con i numeri di telefono" srcset="/file/464001266/11d2f/OxIh8RDFqSw.260534/225ceff778e0ed9706 , 2x" />
+</a>
+</div>
+<blockquote>
+<p>Il formato per questi link è t.me/+39123456789, con il numero di telefono completo in <strong>formato internazionale</strong>. </p>
+</blockquote>
+<p>Naturalmente, il link funzionerà solo se le tue impostazioni della privacy permettono agli altri di trovarti attraverso il tuo numero di telefono.</p>
+<h3>
+<a class="anchor" name="dirette-streaming-con-altre-app" href="#dirette-streaming-con-altre-app">
+<i class="anchor-icon">
+</i>
+</a>Dirette streaming con altre app</h3>
+<p>I gruppi e canali supportano le <a href="https://telegram.org/blog/live-streams-forwarding-next-channel/it?ln=a#dirette-streaming-illimitate">trasmissioni di video in diretta</a> con un <strong>numero illimitato di spettatori</strong>. Abbiamo notato che i blogger professionisti e i giornalisti usano sempre più spesso <strong>le dirette streaming di Telegram</strong> per raggiungere i loro iscritti.</p>
+<p>Con questo aggiornamento, puoi <strong>trasmettere da strumenti di streaming</strong> come <strong>OBS Studio</strong> e <strong>XSplit Broadcaster</strong> - così da poter aggiungere overlay e layout multi-schermo con facilità, trasformando qualsiasi canale Telegram in una <strong>emittente televisiva</strong> professionale.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001412/10500/7xg_vnVbHUQ.223124/52abe0950878a544c0" style="max-width: 600px;" title="" alt="Dirette streaming con altre app">
+<source src="/file/464001078/11893/tibnvBNStMc.7234664.mp4/080941a2b937720909" target="_blank" type="video/mp4">
+</video>
+</div>
+<p>Per trasmettere da questi strumenti, inizia una nuova Chat video nel tuo gruppo o una nuova Diretta streaming nel tuo canale, tocca il pulsante <em>&#39;Trasmetti con&#39;</em> e inserisci le informazioni che compaiono su Telegram nel tuo software di streaming.</p>
+<blockquote>
+<p>Per una migliore qualità, si consiglia di utilizzare la codifica software (x264 in OBS).</p>
+<p>I tuoi spettatori dovranno aggiornare le loro app all&#39;ultima versione per guardare il tuo stream.</p>
+</blockquote>
+<h3>
+<a class="anchor" name="nuove-pagine-t-me" href="#nuove-pagine-t-me">
+<i class="anchor-icon">
+</i>
+</a>Nuove pagine t.me</h3>
+<p>Con i <strong>link t.me</strong> come <a href="https://t.me/durov">t.me/durov</a>, chiunque può vedere l&#39;anteprima di profili, <a href="https://t.me/telegramIT/158">post</a> o interi <a href="https://t.me/s/durov">canali pubblici</a> nel suo browser – anche se non è ancora iscritto a Telegram.</p>
+<p>Queste anteprime web hanno un <strong>nuovo look</strong>, con l&#39;aggiunta di sfondi chat ed elementi di design dall&#39;app <a href="https://web.telegram.org">Telegram Web</a>.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001063/11725/BMP0m8u5vrg.283123/10750e7eb539082a4f" style="max-width: 600px;" title="" alt="Nuove pagine t.me">
+<source src="/file/464001213/10ed4/AzQQVzW4EVo.4983866.mp4/740dbdcd2739a71924" type="video/mp4">
+</video>
+</div>
+<hr>
+<p>Il team internazionale di Telegram include molti membri dall&#39;Ucraina. Ci auguriamo una fine immediata del conflitto. In questi tempi difficili, troviamo consolazione nel fatto che il nostro lavoro con Telegram aiuti le persone ad avere un rapido accesso alle informazioni critiche - dalle dichiarazioni ufficiali verificate agli avvisi di attacchi aerei che permettono di portare i civili in salvo. I nostri cuori vanno a tutte le persone colpite da questa guerra.</p>
+<p>Continueremo a migliorare la capacità di Telegram di connettere le persone in aree con copertura limitata e resistendo alle interruzioni del servizio.</p>
+<div>
+<br>
+</div>
+<p>
+<em>11 Marzo 2022<br>il team di Telegram</em>
+</p>
+<!--
+###Square Video
+
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="PHOTO" style="max-width: 600px;" title="TITLE" alt="TITLE">
+<source src="VIDEO" type="video/mp4">
+</video>
+</div>
+
+###Image
+
+<div class="blog_image_wrap blog_medium_image_wrap">
+<a href="LARGE" target="_blank">
+<img src="SMALL" title="TITLE" alt="TITLE" srcset="LARGE , 2x" />
+</a>
+</div>
+-->
+</div>
+</div>
+<div class="tl_main_share clearfix">
+<a href="https://t.me/share/url?url=https%3A%2F%2Ftelegram.org%2Fblog%2Fdownloads-attachments-streaming%2Fit&text=Controlla%20i%20download%2C%20condividi%20rapidamente%20i%20documenti%2C%20riordina%20gli%20album%20prima%20di%20inviarli%2C%20trasforma%20il%20tuo%20canale%20in%20una%20emittente%20televisiva%20e%20altro%20ancora." class="tl_telegram_share_btn" id="tl_telegram_share_btn" data-text="Controlla i download, condividi rapidamente i documenti, riordina gli album prima di inviarli, trasforma il tuo canale in una emittente televisiva e altro ancora." data-url="https://telegram.org/blog/downloads-attachments-streaming/it">
+<i class="tl_telegram_share_icon">
+</i>
+<span class="tl_telegram_share_label" target="_blank">Forward</span>
+</a>
+<a href="https://twitter.com/share" class="tl_twitter_share_btn" id="tl_twitter_share_btn" data-text="Controlla i download, condividi rapidamente i documenti, riordina gli album prima di inviarli, trasforma il tuo canale in una emittente televisiva e altro ancora." data-url="https://telegram.org/blog/downloads-attachments-streaming/it" data-via="Telegram">Tweet <span class="tl_twitter_share_cnt">
+</span>
+</a>
+</div>
+</div>
+<div class="tl_main_recent_news_wrap tlb_other_news_wrap tl_blog_list_page_wrap">
+<h3 class="tl_main_recent_news_header">
+<a href="/blog">Other News</a>
+</h3>
+<div class="tl_main_recent_news_cards clearfix">
+<a class="dev_blog_card_link_wrap" href="/blog/welcome-messages-buttons-TG-13/it">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400741/6/aFBFZ5lNqO8.66680.webp/0e567958d5b96a2184" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">Messaggi di benvenuto, Pulsanti nei messaggi e Regali firmati</h4>
+<div class="dev_blog_card_lead">Introduciamo i messaggi di benvenuto per salutare i nuovi membri di gruppi o canali, i pulsanti nei messaggi per rendere interattivo qualsiasi…</div>
+</div>
+<div class="dev_blog_card_date">Aug 25, 2026</div>
+</div>
+</a>
+<a class="dev_blog_card_link_wrap" href="/blog/communities-editor-invisible-messages/it">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400405/7/AQNnD9itI5s.338570.webp/ec0155605bac60bd43" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">Editor di testo avanzato, Community, Messaggi effimeri nei gruppi, 350 milioni di GIF</h4>
+<div class="dev_blog_card_lead">Introduzione di un editor di testo avanzato per formattare e generare testo, community Telegram…</div>
+</div>
+<div class="dev_blog_card_date">Jul 14, 2026</div>
+</div>
+</a>
+<a class="dev_blog_card_link_wrap" href="/blog/watch-apps-and-more/it">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400535/2/fkUcVRnSU-M.140100.webp/10c066db41f83e6d5e" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">App per smartwatch, Testo formattato per i bot, Guardiani IA per i gruppi e molto altro</h4>
+<div class="dev_blog_card_lead">L&#39;aggiornamento di oggi porta Telegram su Apple Watch e smartwatch Android, aggiunge il testo…</div>
+</div>
+<div class="dev_blog_card_date">Jun 11, 2026</div>
+</div>
+</a>
+<a class="dev_blog_card_link_wrap" href="/blog/ai-bot-revolution-11-new-features/it">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400475/2/BwY041V7nZg.149454.webp/873ed0c0321c7633e7" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">Bot IA ospiti, Chat tra bot, Automazione chat, Ricerca di oltre 100 milioni di emoji e sticker, Stili IA personalizzati, Statistiche per i sondaggi, Messaggi programmati silenziosi, Rimozione delle reazioni</h4>
+<div class="dev_blog_card_lead">Nell&#39;aggiornamento di oggi, Telegram introduce…</div>
+</div>
+<div class="dev_blog_card_date">May 7, 2026</div>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer_wrap">
+<div class="footer_columns_wrap footer_desktop">
+<div class="footer_column footer_column_telegram">
+<h5>Telegram</h5>
+<div class="footer_telegram_description">
+</div>
+      Telegram is a cloud-based mobile and desktop messaging app with a focus on security and speed.
+    </div>
+<div class="footer_column">
+<h5>
+<a href="/faq">About</a>
+</h5>
+<ul>
+<li>
+<a href="/faq">FAQ</a>
+</li>
+<li>
+<a href="/privacy">Privacy</a>
+</li>
+<li>
+<a href="/press">Press</a>
+</li>
+</ul>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/apps#mobile-apps">Mobile Apps</a>
+</h5>
+<ul>
+<li>
+<a href="/dl/ios">iPhone/iPad</a>
+</li>
+<li>
+<a href="/android">Android</a>
+</li>
+<li>
+<a href="/dl/web">Mobile Web</a>
+</li>
+</ul>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/apps#desktop-apps">Desktop Apps</a>
+</h5>
+<ul>
+<li>
+<a href="//desktop.telegram.org/">PC/Mac/Linux</a>
+</li>
+<li>
+<a href="//macos.telegram.org/">macOS</a>
+</li>
+<li>
+<a href="/dl/web">Web-browser</a>
+</li>
+</ul>
+</div>
+<div class="footer_column footer_column_platform">
+<h5>
+<a href="//core.telegram.org/">Platform</a>
+</h5>
+<ul>
+<li>
+<a href="//core.telegram.org/api">API</a>
+</li>
+<li>
+<a href="//translations.telegram.org/">Translations</a>
+</li>
+<li>
+<a href="//instantview.telegram.org/">Instant View</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="footer_columns_wrap footer_mobile">
+<div class="footer_column">
+<h5>
+<a href="/faq">About</a>
+</h5>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/blog">Blog</a>
+</h5>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/press">Press</a>
+</h5>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/safety">Safety</a>
+</h5>
+</div>
+</div>
+</div>
+<script src="/js/main.js?49">
+</script>
+<script src="/js/tgsticker.js?32">
+</script>
+<script src="/js/main-theme.js?6">
+</script>
+<script>initScrollVideos(true);
+mainInitTgStickers({"maxDeviceRatio":2,"cachingModulo":4});
+twitterCustomShareInit();
+blogSideImageInit();
+backToTopInit("Go up");
+removePreloadInit();
+</script>
+</body>
+</html>

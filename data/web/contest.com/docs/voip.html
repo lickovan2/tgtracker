@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>VoIP Contest: Round 1 – Developer Challenges</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta name="format-detection" content="telephone=no" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="MobileOptimized" content="176" />
+<meta name="HandheldFriendly" content="True" />
+<meta name="twitter:card" content="summary">
+</meta>
+<meta property="og:title" content="VoIP Contest: Round 1">
+<meta property="og:description" content="General info about the contest is available on @contest. See also: This page in Russian
+The task in this round of the VoIP…">
+<link rel="shortcut icon" href="/img/cd_favicon.ico" type="image/x-icon" />
+<link rel="mask-icon" href="/img/cd_icon.svg" color="#299ed8">
+<script>document.cookie="stel_dt="+encodeURIComponent((new Date).getTimezoneOffset())+";path=/;max-age=31536000;samesite=None;secure"</script>
+<link href="/css/font-roboto.css?1" rel="stylesheet" type="text/css">
+<link href="/css/bootstrap.min.css?3" rel="stylesheet">
+<link href="/css/bootstrap-extra.css?2" rel="stylesheet">
+<link href="/css/telegram.css?256" rel="stylesheet">
+<link href="/css/contest.css?41" rel="stylesheet">
+<link href="/css/contest-zoo.css?7" rel="stylesheet">
+<link href="/css/jquery-ui.min.css?1" rel="stylesheet">
+</head>
+<body class="emoji_image no-transition">
+<div id="aj_progress" class="progress-bar">
+</div>
+<div id="aj_content">
+<div class="cd-container">
+<header>
+<div class="container">
+<div class="header-wrap">
+<div id="header-panel" class="header-panel">
+<div class="header-auth">
+<div class="header-auth-item">
+<a class="header-auth-link login-link" href="/auth">Login</a>
+</div>
+</div>
+<div class="header-breadcrumb header-breadcrumb-simple">
+<ol id="breadcrumb" class="header-nav breadcrumb">
+<li class="cd-logo">
+<a href="/">
+<i class="cd-icon">
+</i>
+<span class="cd-logo-title">Developer Challenges</span>
+</a>
+</li>
+<li class="active">VoIP Contest: Round 1</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+</header>
+<main class="container">
+<section class="cd-content">
+<div id="dev_page_content_wrap" class=" ">
+<div class="dev_page_bread_crumbs">
+</div>
+<h1 id="dev_page_title">VoIP Contest: Round 1</h1>
+<div id="dev_page_content">
+<blockquote>
+<p>General info about the contest is available on <a href="https://t.me/contest/108">@contest</a>. See also: <a href="http://contest.com/docs/voip/ru">This page in Russian</a>
+</p>
+</blockquote>
+<p>The task in this round of the <strong>VoIP Contest</strong> is to build a system for <strong>testing voice calls</strong> with two participants.</p>
+<h3>
+<a class="anchor-link" href="#contest-overview">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="contest-overview">
+</a>Contest Overview</h3>
+<ul>
+<li>A is a user making a voice call (caller).</li>
+<li>B is a user receiving a voice call from A (callee).</li>
+<li>The VoIP Relay is an intermediary server, which takes data from each of the participants and relays it to the other party. The relay has an IP-address, a port, and 2 “tags” per call – to distinguish between different calls and different participant roles in each of the calls (caller/callee).</li>
+<li>All data exchanged by A and B is encrypted. For the call to work, both parties must use the same encryption key.</li>
+<li>Depending on the network conditions (Edge, 3G, LTE, Wi-Fi) data packets may be lost or reordered and the sound may get distorted.</li>
+<li>Your goal is to automate the process of testing sound transmission under various conditions.</li>
+</ul>
+<p>
+<code>[ Caller A ] &lt;-&gt; [ VoIP Relay ] &lt;-&gt; [ Callee B ]</code>
+</p>
+<h3>
+<a class="anchor-link" href="#you-will-use">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="you-will-use">
+</a>You Will Use</h3>
+<ul>
+<li>The <a href="https://github.com/telegramdesktop/libtgvoip">
+<strong>libtgvoip</strong>
+</a> library. For the purposes of the contest, please use the commit <a href="https://github.com/telegramdesktop/libtgvoip/tree/d4a0f719ffd8d29e88474f67abc9fc862661c3b9">d4a0f719</a> version of the code.</li>
+<li>An <strong>HTTP API</strong> for receiving configuration data and credentials for the VoIP Relay (<a href="#voip-contest-api">see below</a>).</li>
+<li>A collection of <strong>53</strong> sample audio files in the <strong>OPUS</strong> format, <strong>5-60</strong> seconds long (the files were recorded as voice messages using official Telegram apps). Download <a href="/file/464001434/2/vtJf5HOa288.6805900.zip/ed190876358dda5d96">VoIP_Round1_Test_Sounds.zip, 6.49MB</a>
+</li>
+<li>You will <strong>not</strong> need the Telegram API.</li>
+</ul>
+<h3>
+<a class="anchor-link" href="#the-task">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="the-task">
+</a>The Task</h3>
+<ul>
+<li>Build <strong>libtgvoip</strong> for Linux.</li>
+<li>Create the standalone application <strong>tgvoipcall</strong> with a Command-Line interface <a href="#tgvoipcall-interface">as described below</a>, which uses <strong>libtgvoip</strong> to simulate a call from user A to user B. For outgoing sound, the app should use one of the OPUS files provided as its input. Incoming sound should be encoded to OPUS files. Call statistics should also be written to STDOUT in JSON format.</li>
+<li>Create the standalone application <strong>tgvoiprate</strong>  with a Command-Line interface <a href="#tgvoiprate-interface">as described below</a>, which will <strong>rate</strong> the quality of the call by comparing the original file to its modified copy received by the callee. The rating should be expressed as a real number from <strong>1.0</strong> to <strong>5.0</strong>. Criteria for the rating are up to you and your common sense (<a href="#evaluation-criteria">note</a> how we will evaluate this task).</li>
+<li>Keep changes in the <strong>libtgvoip</strong> library to a minimum.</li>
+<li>Keep external dependencies in both apps to a minimum.</li>
+</ul>
+<h3>
+<a class="anchor-link" href="#voip-contest-api">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="voip-contest-api">
+</a>VoIP Contest API</h3>
+<p>To help you test your application, we created a simple API with one GET-endpoint which can initialize calls and provide VoIP Relay addresses and tags, encryption keys and config data. To work with the API you&#39;ll need a unique <code>{auth_token}</code> in the format <code>12345:c56d836270d512a6ac1a6ef78c4132ba14</code>.</p>
+<blockquote>
+<p>You can get your token from <a href="https://t.me/jobs_bot">@jobs_bot</a> (the token was included with the contest announcement – or will be sent to you by the bot as soon as you join this contest).</p>
+</blockquote>
+<p>Each new call is defined by a random string of <strong>1-128 bytes</strong>, passed to the GET-parameter <code>call</code>. Repeating the call with the same <code>call</code> value within <strong>300</strong> seconds will fetch an identical result.</p>
+<pre>
+<code>GET https://api.contest.com/voip{auth_token}/getConnection?call={call}</code>
+</pre>
+<p>The response will have the following structure:</p>
+<pre>
+<code>{  
+   &quot;ok&quot;:true,
+   &quot;result&quot;:{
+      &quot;id&quot;:1117254731,
+      &quot;date&quot;:1570802828,
+      &quot;p2p_allowed&quot;:false,
+      &quot;config&quot;:{
+         &quot;audio_frame_size&quot;:60,
+         ...
+         &quot;audio_strong_fec_bitrate&quot;:7000
+      },
+      &quot;encryption_key&quot;:&quot;61362f271d0e13c59...c5eb9ba9ca9daa06c9f&quot;,
+      &quot;endpoints&quot;:[  
+         {  
+            &quot;id&quot;:&quot;2377378803836&quot;,
+            &quot;ip&quot;:&quot;134.209.176.124&quot;,
+            &quot;port&quot;:&quot;553&quot;,
+            &quot;peer_tags&quot;:{  
+               &quot;caller&quot;:&quot;fedd4f39ea...89991f1d7b1&quot;,
+               &quot;callee&quot;:&quot;fabd4f39ea...89991f1d7b1&quot;
+            }
+         }
+      ]
+   }
+}</code>
+</pre>
+<h3>
+<a class="anchor-link" href="#tgvoipcall-interface">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="tgvoipcall-interface">
+</a>Tgvoipcall Interface</h3>
+<p>Two clients, A (caller) and B (callee) are transmitting the sounds <em>sound_A.opus</em> and <em>sound_B.opus</em> respectively.</p>
+<p>In the example below, the file <code>config.json</code> contains the configuration from the <code>config</code> field in the API&#39;s response.</p>
+<p>The program <strong>tgvoipcall</strong> is launched simultaneously in two instances (one for each participant of the call) with the following parameters for A and B, respectively:</p>
+<pre>
+<code>tgvoipcall reflector:port tag_caller_hex -k encryption_key_hex -i /path/to/sound_A.opus -o /path/to/sound_output_B.opus -c config.json -r caller
+tgvoipcall reflector:port tag_callee_hex -k encryption_key_hex -i /path/to/sound_B.opus -o /path/to/sound_output_A.opus -c config.json -r callee
+
+e.g.
+$ tgvoipcall 134.209.176.124:553 fedd4f39e89991f1d7b1 -k 61362f271d0e13c59...c5eb9ba9ca9daa06c9f -i sound_B.opus -o sound_output_A.opus -c config.json -r caller
+{&quot;libtgvoip_version&quot;:&quot;2.4.4&quot;,&quot;log_type&quot;:&quot;call_stats&quot;,&quot;network&quot;:{&quot;type&quot;:&quot;wifi&quot;},&quot;p2p_type&quot;:&quot;inet&quot;,&quot;packet_stats&quot;:{&quot;in&quot;:1049,&quot;lost_in&quot;:4,&quot;lost_out&quot;:0,&quot;out&quot;:1042},&quot;pref_relay&quot;:&quot;2243506735106&quot;,&quot;problems&quot;:[],&quot;protocol_version&quot;:9,&quot;relay_rtt&quot;:87,&quot;rtt&quot;:5,&quot;tcp_used&quot;:false,&quot;udp_avail&quot;:false}    </code>
+</pre>
+<p>
+<strong>tgvoipcall</strong> establishes a connection with the other participant and transmits its audio file in full, then waits for 3 seconds to finish receiving data from the other participant (you should choose audio files of similar lengths). Once done, the program exits and writes call statistics to STDOUT (see <code>VoIPController::GetDebugLog</code>).</p>
+<p>The sound received from the other party should be encoded to an OPUS file with the following settings: <code>mono, bit_rate 64000, sample_rate 48000</code>, <a href="https://github.com/telegramdesktop/tdesktop/blob/4ad293e2aed81cb402e11df0babbe53b3433d0cb/Telegram/SourceFiles/media/audio/media_audio_capture.cpp#L252-L256">TDesktop Source</a>).</p>
+<p>If it&#39;s not possible to establish a connection within the timeout limit (5 seconds), the application writes an error to STDERR and exits with a non-zero exit code.</p>
+<h3>
+<a class="anchor-link" href="#tgvoiprate-interface">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="tgvoiprate-interface">
+</a>Tgvoiprate Interface</h3>
+<p>A <strong>tgvoiprate</strong> launch should not be linked to a previous launch of <strong>tgvoipcall</strong>, as the sound files may be generated by a different application.</p>
+<pre>
+<code>$ tgvoiprate /path/to/sound_A.opus /path/to/sound_output_A.opus
+4.6324</code>
+</pre>
+<p>If for some reason you can&#39;t avoid external dependencies, you may list them in a text file (see <a href="#notes">deb-packages.txt</a> below). These dependencies will be installed using <code>sudo apt-get install ...</code> before your app is tested. Available package names and versions can be found <a href="https://packages.debian.org/stable/allpackages?format=txt.gz">here</a>.</p>
+<h3>
+<a class="anchor-link" href="#notes">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="notes">
+</a>Notes</h3>
+<ul>
+<li>We recommend using <a href="https://wiki.linuxfoundation.org/networking/netem">
+<strong>netem</strong>
+</a> for testing under different network conditions.</li>
+<li>P2P connections are outside the scope of the contest, you should disable P2P using the library parameters.</li>
+<li>IPv6 connections are outside the scope of the contest, IPv6 will be unavailable on our server during testing.</li>
+<li>OPUS files from the sample set are encoded with different settings, you should check that each of them works.</li>
+<li>The applications will be tested under Debian GNU/Linux 10.1 (buster), x86-64.</li>
+<li>
+<p>As a result, you should get a ZIP-file with the following structure</p>
+<pre>
+<code>result.zip
+  -&gt; tgvoipcall - an executable binary file with the interface as described above
+  -&gt; tgvoiprate - an executable binary file with the interface as described above
+  -&gt; src - a directory with the source code of the applications
+  -&gt; deb-packages.txt - a text file with line-break separated debian package names</code>
+</pre>
+</li>
+</ul>
+<h3>
+<a class="anchor-link" href="#evaluation-criteria">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="evaluation-criteria">
+</a>Evaluation Criteria</h3>
+<p>To win in this round you will need to:</p>
+<ul>
+<li>Complete the entire task</li>
+<li>Pay special attention to the <a href="#notes">notes</a>
+</li>
+<li>Keep your code compact and efficient (size matters!)</li>
+<li>Minimize external dependencies</li>
+</ul>
+<p>When evaluating <strong>tgvoiprate</strong> submissions, we will first choose several high quality <strong>tgvoipcall</strong> submissions and use these applications to generate distorted sound samples.</p>
+<ul>
+<li>When generating sound samples, netem will be used to emulate the properties of wide area networks (Rate control, Delays, Packet loss, duplication, re-ordering), and generate distortions up to complete degradation of the audio signal.</li>
+<li>Up to two different properties will be affected in each individual test run.</li>
+<li>The resulting audio files will be offered to a group of testers, who will rate their quality with integers from 0 to 6.</li>
+<li>We will then compute the modified mean squared error of the application&#39;s rating from the mean human ratings using the formula <code>sum(max(|x_i - y_i| - 0.3, 0.0)^2)</code>.</li>
+</ul>
+</div>
+</div>
+</section>
+</main>
+</div>
+<div class="popup-container login-popup-container hide" id="login-popup-container">
+<div class="popup">
+<div class="popup-body">
+<section>
+<h2>Log In</h2>
+<p>Log in here to leave comments and take part in the Telegram Competitions. Please enter your <b>phone number</b> in the <a target="_blank" rel="noopener" href="https://telegram.org/faq#login-and-sms">international format</a> and we will send a confirmation message to your account via Telegram.</p>
+<form id="send-form" class="login-form">
+<div class="form-group">
+<input type="tel" class="form-control cd-form-control input-lg" id="phone-number" placeholder="+12223334455" autocomplete="off"/>
+</div>
+<div class="popup-buttons">
+<a class="btn btn-link btn-lg login-cancel-btn">Cancel</a>
+<button type="submit" class="btn btn-link btn-lg">Next</button>
+</div>
+</form>
+<div id="login-form" class="hide">
+<div class="form-group">
+<span class="form-control cd-form-control input input-lg input-disabled">
+<strong id="phone-number-field">
+</strong> (<a class="login-back" href="/auth">Incorrect?</a>)</span>
+<p class="help-block dots-animated">We&#39;ve just sent you a message.<br/>Please confirm access via Telegram</p>
+</div>
+<div class="popup-buttons">
+<a class="btn btn-link btn-lg login-cancel-btn">Cancel</a>
+<a class="btn btn-link btn-lg login-back">Back</a>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+</div>
+<script src="/js/jquery.min.js?1">
+</script>
+<script src="/js/bootstrap.min.js">
+</script>
+<script src="/js/main-aj.js?76">
+</script>
+<script src="/js/contest.js?25">
+</script>
+<script src="/js/jquery-ui.min.js?1">
+</script>
+<script src="/js/tgsticker.js?32">
+</script>
+<script>ajInit({"version":701,"apiUrl":"\/api?hash=X","unauth":true});</script>
+<script id="aj_script">Aj._useScrollHack=true;
+Aj.onLoad(function(state) {
+  function requestConfirmation(event) {
+    event && event.preventDefault();
+    var phone = $('#phone-number').val();
+    $.ajax({
+      type: 'POST',
+      url: '/auth/request',
+      data: {
+        phone: phone
+      },
+      success: function(result) {
+        $('#phone-number-field').text(phone);
+        $('#send-form').addClass('hide');
+        $('#login-form').removeClass('hide');
+        checkAuth(result.temp_session);
+      },
+      error: function(xhr) {
+        showAlert(xhr.responseText || 'Server error');
+      },
+      dataType: 'json'
+    });
+    return false;
+  }
+  function cancelConfirmation(event) {
+    event && event.preventDefault();
+    $('#phone-number-field').text('');
+    $('#send-form').removeClass('hide');
+    $('#login-form').addClass('hide');
+    $('#phone-number').focus();
+    clearTimeout(window.authTimeout);
+    return false;
+  }
+  function checkAuth(temp_session) {
+    clearTimeout(window.authTimeout);
+    window.authTimeout = setTimeout(function doCheckAuth() {
+      $.ajax({
+        type: 'POST',
+        url: '/auth/login',
+        data: {
+          temp_session: temp_session
+        },
+        success: function(result) {
+          if (result) {
+            location.reload();
+          } else {
+            checkAuth(temp_session);
+          }
+        },
+        error: function (xhr) {
+          showAlert(xhr.responseText || 'Server error');
+        },
+        dataType: 'json'
+      });
+    }, 700);
+  }
+  $('#login-popup-container').on('popup:open', function() {
+    $('#phone-number').focus();
+  });
+  $('#login-popup-container').on('popup:close', function() {
+    cancelConfirmation();
+    if (location.pathname == '/auth') {
+      window.history && history.replaceState(null, null, '/');
+    }
+  });
+  $('#login-popup-container #send-form').on('submit', requestConfirmation);
+  $('#login-popup-container .login-cancel-btn').on('click', function(e) {
+    e.preventDefault();
+    closePopup('#login-popup-container');
+  });
+  $('#login-popup-container .login-back').on('click', cancelConfirmation);
+  $('.login-link').on('click', function(e) {
+    e.stopImmediatePropagation();
+    e.preventDefault();
+    openPopup('#login-popup-container');
+  });
+});
+Aj.onUnload(function(state) {
+  $('#login-popup-container').off('popup:open');
+  $('#login-popup-container').off('popup:close');
+  $('#login-popup-container #send-form').off('submit');
+  $('#login-popup-container .login-cancel-btn').off('click');
+  $('#login-popup-container .login-back').off('click');
+  $('.login-link').off('click');
+});
+</script>
+<script>Aj.pageLoaded();</script>
+</body>
+</html>

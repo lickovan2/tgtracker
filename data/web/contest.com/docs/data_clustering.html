@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Data Clustering Contest: Round 1 – Developer Challenges</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta name="format-detection" content="telephone=no" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="MobileOptimized" content="176" />
+<meta name="HandheldFriendly" content="True" />
+<meta name="twitter:card" content="summary">
+</meta>
+<meta property="og:title" content="Data Clustering Contest: Round 1">
+<meta property="og:description" content="General info about the contest is available on @contest. See also: This page in Russian
+The task for this contest is to…">
+<link rel="shortcut icon" href="/img/cd_favicon.ico" type="image/x-icon" />
+<link rel="mask-icon" href="/img/cd_icon.svg" color="#299ed8">
+<script>document.cookie="stel_dt="+encodeURIComponent((new Date).getTimezoneOffset())+";path=/;max-age=31536000;samesite=None;secure"</script>
+<link href="/css/font-roboto.css?1" rel="stylesheet" type="text/css">
+<link href="/css/bootstrap.min.css?3" rel="stylesheet">
+<link href="/css/bootstrap-extra.css?2" rel="stylesheet">
+<link href="/css/telegram.css?256" rel="stylesheet">
+<link href="/css/contest.css?41" rel="stylesheet">
+<link href="/css/contest-zoo.css?7" rel="stylesheet">
+<link href="/css/jquery-ui.min.css?1" rel="stylesheet">
+</head>
+<body class="emoji_image no-transition">
+<div id="aj_progress" class="progress-bar">
+</div>
+<div id="aj_content">
+<div class="cd-container">
+<header>
+<div class="container">
+<div class="header-wrap">
+<div id="header-panel" class="header-panel">
+<div class="header-auth">
+<div class="header-auth-item">
+<a class="header-auth-link login-link" href="/auth">Login</a>
+</div>
+</div>
+<div class="header-breadcrumb header-breadcrumb-simple">
+<ol id="breadcrumb" class="header-nav breadcrumb">
+<li class="cd-logo">
+<a href="/">
+<i class="cd-icon">
+</i>
+<span class="cd-logo-title">Developer Challenges</span>
+</a>
+</li>
+<li class="active">Data Clustering Contest: Round 1</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+</header>
+<main class="container">
+<section class="cd-content">
+<div id="dev_page_content_wrap" class=" ">
+<div class="dev_page_bread_crumbs">
+</div>
+<h1 id="dev_page_title">Data Clustering Contest: Round 1</h1>
+<div id="dev_page_content">
+<blockquote>
+<p>General info about the contest is available on <a href="https://t.me/contest/131">@contest</a>. See also: <a href="https://contest.com/docs/data_clustering/ru">This page in Russian</a>
+</p>
+</blockquote>
+<p>The task for this contest is to create a grouping and sorting algorithm for news articles.</p>
+<h4>
+<a class="anchor-link" href="#source-data">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="source-data">
+</a>Source Data</h4>
+<p>A test data set is available in HTML format:</p>
+<ul>
+<li>
+<a href="https://data-static.usercontent.dev/DataClusteringSample0107.tar.gz">Sample 1, 01-07</a>
+</li>
+<li>
+<a href="https://data-static.usercontent.dev/DataClusteringSample0817.tar.gz">Sample 2, 08-17</a>
+</li>
+<li>
+<a href="https://data-static.usercontent.dev/DataClusteringSample1821.tar.gz">Sample 3, 18-21</a>
+</li>
+<li>
+<a href="https://data-static.usercontent.dev/DataClusteringSample2225.tar.gz">Sample 4, 22-25</a>
+</li>
+</ul>
+<p>We will publish additional data sets during the course of the contest.</p>
+<blockquote>
+<p>We will use a different data set for evaluating submissions. The evaluation data set may also include articles from domains not present in the test data set.</p>
+</blockquote>
+<h4>
+<a class="anchor-link" href="#the-task">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="the-task">
+</a>The Task</h4>
+<ol>
+<li>
+<p>
+<strong>Isolate articles in English and Russian.</strong> Your algorithm must sort articles by language, filtering English and Russian articles. Articles in other languages are not relevant for this stage of the contest and may be discarded.</p>
+</li>
+<li>
+<p>
+<strong>Isolate news articles.</strong> Your algorithm must discard everything except for news articles.</p>
+</li>
+<li>
+<p>
+<strong>Group news articles by category.</strong> Your algorithm must place news articles into the following <strong>7</strong> categories: </p>
+<ul>
+<li>Society (includes Politics, Elections, Legislation, Incidents, Crime)</li>
+<li>Economy (includes Markets, Finance, Business)</li>
+<li>Technology (includes Gadgets, Auto, Apps, Internet services)</li>
+<li>Sports (includes E-Sports)</li>
+<li>Entertainment (includes Movies, Music, Games, Books, Arts)</li>
+<li>Science (includes Health, Biology, Physics, Genetics)</li>
+<li>Other (news articles that don&#39;t fall into any of the above categories)</li>
+</ul>
+</li>
+<li>
+<p>
+<strong>Group similar news into threads.</strong> Your algorithm must identify news articles about the same event and group them together into threads, selecting a relevant title for each thread. News articles inside each thread must be sorted according to their relevance (most relevant at the top).</p>
+</li>
+<li>
+<p>
+<strong>Sort threads by their relative importance.</strong> Your algorithm must sort news threads in each of the categories based on perceived importance (important at the top). In addition, the algorithm must build a global list of threads, indepedent of category, sorted by perceived importance (important at the top).</p>
+</li>
+</ol>
+<h4>
+<a class="anchor-link" href="#submitting-your-work">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="submitting-your-work">
+</a>Submitting Your Work</h4>
+<p>You must submit a standalone app with the name <strong>tgnews</strong> and a command line interface as described below. During <a href="#evaluation-process">evaluation</a>, the app will be launched with the following parameters:</p>
+<pre>
+<code>tgnews languages source_dir
+tgnews news source_dir
+tgnews categories source_dir
+tgnews threads source_dir
+tgnews top source_dir</code>
+</pre>
+<p>
+<strong>source_dir</strong> – path to the folder with HTML-files containing article texts.</p>
+<h5>
+<a class="anchor-link" href="#requirements">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="requirements">
+</a>Requirements</h5>
+<ul>
+<li>Your app must work locally (no network usage).</li>
+<li>Speed is of utmost importance (this may give an edge to apps written in <strong>C++</strong>).</li>
+<li>External dependencies should be kept to a minimum. If you can&#39;t avoid external dependencies, please list them in a text file named <strong>deb-packages.txt</strong>. These dependencies will be installed using <code>sudo apt-get install ...</code> before your app is tested.</li>
+<li>Applications will be tested under Debian GNU/Linux 10.1 (buster), x86-64 with 8 cores and 16 GB RAM. Before submitting, please make sure that your app works correctly on a clean system.</li>
+<li>We will not evaluate apps that require more than <strong>60</strong> seconds for each batch of <strong>1000</strong> files passed in source_dir. This restriction must be met for each of the 5 script launches during <a href="#evaluation-process">evaluation</a>.</li>
+<li>
+<p>You must submit a ZIP-file (submissions that exceed 200 MB are likely to be penalized) with the following structure:</p>
+<pre>
+<code>submission.zip
+  -&gt; tgnews - executable binary file with an interface as described below
+  -&gt; src - folder with the app&#39;s source code
+  -&gt; deb-packages.txt - a text file with line-break separated debian package names of all external dependencies
+  -&gt; * - any additional resources your app requires to work (please use relative paths to access them)</code>
+</pre>
+</li>
+</ul>
+<h4>
+<a class="anchor-link" href="#evaluation-process">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="evaluation-process">
+</a>Evaluation Process</h4>
+<p>Each of the submitted apps will be checked in several stages. The app will be launched several times with different parameters described below.</p>
+<blockquote>
+<p>We expect the algorithm to be able to identify and work with articles in English and Russian.</p>
+</blockquote>
+<h5>
+<a class="anchor-link" href="#1-isolate-articles-in-english-and-russian">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="1-isolate-articles-in-english-and-russian">
+</a>1. Isolate articles in English and Russian</h5>
+<p>Launch parameters:</p>
+<pre>
+<code>tgnews languages source_dir</code>
+</pre>
+<p>The result must be output to STDOUT in JSON format.</p>
+<p>Output format:</p>
+<pre>
+<code>[
+  {
+    &quot;lang_code&quot;: &quot;en&quot;,
+    &quot;articles&quot;: [
+      &quot;981787246124324.html&quot;,
+      &quot;239748235923753.html&quot;,
+      ...
+    ]
+  },
+  {
+    &quot;lang_code&quot;: &quot;ru&quot;,
+    &quot;articles&quot;: [
+      &quot;273612748127432.html&quot;,
+      ...
+    ]
+  },
+  ...
+]</code>
+</pre>
+<p>where:</p>
+<ul>
+<li>
+<strong>lang_code</strong> – ISO 639-1 two-letter language code</li>
+<li>
+<strong>articles</strong> – list of file names containing texts in <strong>lang_code</strong> language</li>
+</ul>
+<h5>
+<a class="anchor-link" href="#2-isolate-news-articles">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="2-isolate-news-articles">
+</a>2. Isolate news articles</h5>
+<p>Launch parameters:</p>
+<pre>
+<code>tgnews news source_dir</code>
+</pre>
+<p>The result must be output to STDOUT in JSON format.</p>
+<p>Output format:</p>
+<pre>
+<code>{
+  &quot;articles&quot;: [
+    &quot;981787246124324.html&quot;,
+    ...
+  ]
+}</code>
+</pre>
+<p>where:</p>
+<ul>
+<li>
+<strong>articles</strong> – list of file names containing news</li>
+</ul>
+<h5>
+<a class="anchor-link" href="#3-group-news-articles-by-category">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="3-group-news-articles-by-category">
+</a>3. Group news articles by category</h5>
+<p>Launch parameters:</p>
+<pre>
+<code>tgnews categories source_dir</code>
+</pre>
+<p>The result must be output to STDOUT in JSON format.</p>
+<p>Output format:</p>
+<pre>
+<code>[
+  {
+    &quot;category&quot;: &quot;society&quot;,
+    &quot;articles&quot;: [
+      &quot;981787246124324.html&quot;,
+      ...
+    ]
+  },
+  {
+    &quot;category&quot;: &quot;sports&quot;,
+    &quot;articles&quot;: [
+      &quot;2348972396239813.html&quot;,
+      ...
+    ]
+  },
+  ...
+]</code>
+</pre>
+<p>where:</p>
+<ul>
+<li>
+<strong>category</strong> – <code>&quot;society&quot;</code>, <code>&quot;economy&quot;</code>, <code>&quot;technology&quot;</code>, <code>&quot;sports&quot;</code>, <code>&quot;entertainment&quot;</code>, <code>&quot;science&quot;</code> or <code>&quot;other&quot;</code>
+</li>
+<li>
+<strong>articles</strong> – list of file names containing news articles that match the <strong>category</strong>
+</li>
+</ul>
+<h5>
+<a class="anchor-link" href="#4-group-similar-news-into-threads">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="4-group-similar-news-into-threads">
+</a>4. Group similar news into threads</h5>
+<p>Launch parameters:</p>
+<pre>
+<code>tgnews threads source_dir</code>
+</pre>
+<p>The result must be output to STDOUT in JSON format.</p>
+<p>Output format:</p>
+<pre>
+<code>[
+  {
+    &quot;title&quot;: &quot;Telegram announced Data Clustering Contest&quot;,
+    &quot;articles&quot;: [
+      &quot;6354183719539252.html&quot;,
+      ...
+    ]
+  },
+  {
+    &quot;title&quot;: &quot;Apple reveals new AirPods Pro&quot;,
+    &quot;articles&quot;: [
+      &quot;9436743547232134.html&quot;,
+      ...
+    ]
+  },
+  ...
+]</code>
+</pre>
+<p>where:</p>
+<ul>
+<li>
+<strong>title</strong> – thread title</li>
+<li>
+<strong>articles</strong> – list of file names containing articles in the thread, sorted by their relevance (most relevant at the top)</li>
+</ul>
+<h5>
+<a class="anchor-link" href="#5-sort-threads-by-their-relative-importance">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="5-sort-threads-by-their-relative-importance">
+</a>5. Sort threads by their relative importance</h5>
+<p>Launch parameters:</p>
+<pre>
+<code>tgnews top source_dir</code>
+</pre>
+<p>The result must be output to STDOUT in JSON format.</p>
+<p>Output format:</p>
+<pre>
+<code>[
+  {
+    &quot;category&quot;: &quot;any&quot;,
+    &quot;threads&quot;: [
+      {
+        &quot;title&quot;: &quot;Telegram announces Data Clustering Contest&quot;,
+        &quot;category&quot;: &quot;technology&quot;,
+        &quot;articles&quot;: [
+          &quot;6354183719539252.html&quot;,
+          ...
+        ]
+      },
+      {
+        &quot;title&quot;: &quot;Apple reveals new AirPods Pro&quot;,
+        &quot;category&quot;: &quot;technology&quot;,
+        &quot;articles&quot;: [
+          &quot;9436743547232134.html&quot;,
+          ...
+        ]
+      },
+      ...
+    ]
+  },
+  {
+    &quot;category&quot;: &quot;technology&quot;,
+    &quot;threads&quot;: [
+      {
+        &quot;title&quot;: &quot;Telegram announces Data Clustering Contest&quot;,
+        &quot;articles&quot;: [
+          &quot;6354183719539252.html&quot;,
+          ...
+        ]
+      },
+      ...
+    ]
+  },
+  {
+    &quot;category&quot;: &quot;sports&quot;,
+    &quot;threads&quot;: [
+      ...
+    ]
+  },
+  ...
+]</code>
+</pre>
+<p>where:</p>
+<ul>
+<li>
+<strong>category</strong> – <code>&quot;society&quot;</code>, <code>&quot;economy&quot;</code>, <code>&quot;technology&quot;</code>, <code>&quot;sports&quot;</code>, <code>&quot;entertainment&quot;</code>, <code>&quot;science&quot;</code> or <code>&quot;other&quot;</code>. You must also include a block with <code>category=&quot;any&quot;</code>, containing a list of threads, indepedent of category, sorted by relevance (most relevant at the top).</li>
+<li>
+<strong>threads</strong> – list of threads, sorted by relevance (most relevant at the top). Each thread contains a title and list of articles. If <code>category=&quot;any&quot;</code>, also includes <strong>category</strong>.</li>
+<li>
+<strong>title</strong> – thread title.</li>
+<li>
+<strong>articles</strong> – list of names of files containing articles from the thread, sorted by relevance (most relevant at the top).</li>
+</ul>
+<h4>
+<a class="anchor-link" href="#clarifications">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="clarifications">
+</a>Clarifications</h4>
+<ul>
+<li>The recommended size for your resulting archive is below 200 MB. You can submit an archive of up to 1,5 GB but submissions exceeding 200 MB are likely to be penalized during evaluation.</li>
+<li>The 60 seconds per 1000 files restriction must be met for each of the 5 script launches during <a href="#evaluation-process">evaluation</a>.</li>
+</ul>
+</div>
+</div>
+</section>
+</main>
+</div>
+<div class="popup-container login-popup-container hide" id="login-popup-container">
+<div class="popup">
+<div class="popup-body">
+<section>
+<h2>Log In</h2>
+<p>Log in here to leave comments and take part in the Telegram Competitions. Please enter your <b>phone number</b> in the <a target="_blank" rel="noopener" href="https://telegram.org/faq#login-and-sms">international format</a> and we will send a confirmation message to your account via Telegram.</p>
+<form id="send-form" class="login-form">
+<div class="form-group">
+<input type="tel" class="form-control cd-form-control input-lg" id="phone-number" placeholder="+12223334455" autocomplete="off"/>
+</div>
+<div class="popup-buttons">
+<a class="btn btn-link btn-lg login-cancel-btn">Cancel</a>
+<button type="submit" class="btn btn-link btn-lg">Next</button>
+</div>
+</form>
+<div id="login-form" class="hide">
+<div class="form-group">
+<span class="form-control cd-form-control input input-lg input-disabled">
+<strong id="phone-number-field">
+</strong> (<a class="login-back" href="/auth">Incorrect?</a>)</span>
+<p class="help-block dots-animated">We&#39;ve just sent you a message.<br/>Please confirm access via Telegram</p>
+</div>
+<div class="popup-buttons">
+<a class="btn btn-link btn-lg login-cancel-btn">Cancel</a>
+<a class="btn btn-link btn-lg login-back">Back</a>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+</div>
+<script src="/js/jquery.min.js?1">
+</script>
+<script src="/js/bootstrap.min.js">
+</script>
+<script src="/js/main-aj.js?76">
+</script>
+<script src="/js/contest.js?25">
+</script>
+<script src="/js/jquery-ui.min.js?1">
+</script>
+<script src="/js/tgsticker.js?32">
+</script>
+<script>ajInit({"version":701,"apiUrl":"\/api?hash=X","unauth":true});</script>
+<script id="aj_script">Aj._useScrollHack=true;
+Aj.onLoad(function(state) {
+  function requestConfirmation(event) {
+    event && event.preventDefault();
+    var phone = $('#phone-number').val();
+    $.ajax({
+      type: 'POST',
+      url: '/auth/request',
+      data: {
+        phone: phone
+      },
+      success: function(result) {
+        $('#phone-number-field').text(phone);
+        $('#send-form').addClass('hide');
+        $('#login-form').removeClass('hide');
+        checkAuth(result.temp_session);
+      },
+      error: function(xhr) {
+        showAlert(xhr.responseText || 'Server error');
+      },
+      dataType: 'json'
+    });
+    return false;
+  }
+  function cancelConfirmation(event) {
+    event && event.preventDefault();
+    $('#phone-number-field').text('');
+    $('#send-form').removeClass('hide');
+    $('#login-form').addClass('hide');
+    $('#phone-number').focus();
+    clearTimeout(window.authTimeout);
+    return false;
+  }
+  function checkAuth(temp_session) {
+    clearTimeout(window.authTimeout);
+    window.authTimeout = setTimeout(function doCheckAuth() {
+      $.ajax({
+        type: 'POST',
+        url: '/auth/login',
+        data: {
+          temp_session: temp_session
+        },
+        success: function(result) {
+          if (result) {
+            location.reload();
+          } else {
+            checkAuth(temp_session);
+          }
+        },
+        error: function (xhr) {
+          showAlert(xhr.responseText || 'Server error');
+        },
+        dataType: 'json'
+      });
+    }, 700);
+  }
+  $('#login-popup-container').on('popup:open', function() {
+    $('#phone-number').focus();
+  });
+  $('#login-popup-container').on('popup:close', function() {
+    cancelConfirmation();
+    if (location.pathname == '/auth') {
+      window.history && history.replaceState(null, null, '/');
+    }
+  });
+  $('#login-popup-container #send-form').on('submit', requestConfirmation);
+  $('#login-popup-container .login-cancel-btn').on('click', function(e) {
+    e.preventDefault();
+    closePopup('#login-popup-container');
+  });
+  $('#login-popup-container .login-back').on('click', cancelConfirmation);
+  $('.login-link').on('click', function(e) {
+    e.stopImmediatePropagation();
+    e.preventDefault();
+    openPopup('#login-popup-container');
+  });
+});
+Aj.onUnload(function(state) {
+  $('#login-popup-container').off('popup:open');
+  $('#login-popup-container').off('popup:close');
+  $('#login-popup-container #send-form').off('submit');
+  $('#login-popup-container .login-cancel-btn').off('click');
+  $('#login-popup-container .login-back').off('click');
+  $('.login-link').off('click');
+});
+</script>
+<script>Aj.pageLoaded();</script>
+</body>
+</html>

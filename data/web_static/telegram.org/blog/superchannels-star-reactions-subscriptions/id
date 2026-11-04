@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html class="" data-theme="light">
+<head>
+<meta charset="utf-8">
+<title>Super Channel, Langganan, dan Reaksi Stars</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:title" content="Super Channel, Langganan, dan Reaksi Stars">
+<meta property="og:image" content="https://telegram.org/file/400780400436/1/AFpKVW0u5fw.267441/5fd61b6d2531113c45">
+<meta property="og:site_name" content="Telegram">
+<meta property="og:description" content="Hari ini merupakan hari ulang tahun Telegram yang ke-11.  Temui fitur-fitur terbaru kami: Reaksi Stars dan Langganan Stars yang yang dapat Anda gunakan untuk mendukung pembuat konten, media berbayar untuk Bot dan Akun Bisnis, dan mode baru untuk Channel Telegram yang memungkinkan admin memposting sebagai channel lain atau profil pribadi.">
+<meta property="article:published_time" content="2024-08-14T11:46:52+00:00">
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://telegram.org/file/400780400436/1/AFpKVW0u5fw.267441/5fd61b6d2531113c45" />
+<meta property="fb:app_id" content="254098051407226">
+<meta property="vk:app_id" content="3782569">
+<meta name="apple-itunes-app" content="app-id=686449807">
+<meta name="telegram:channel" content="@telegram">
+<link rel="canonical" href="https://telegram.org/blog/superchannels-star-reactions-subscriptions/id" />
+<link rel="icon" type="image/svg+xml" href="/img/website_icon.svg?4">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="alternate icon" href="/img/favicon.ico" type="image/x-icon" />
+<link href="/css/bootstrap.min.css?3" rel="stylesheet">
+<link href="/css/telegram.css?256" rel="stylesheet" media="screen">
+<link href="/css/telegram-theme.css?9" rel="stylesheet" media="screen">
+</head>
+<body class="preload">
+<div id="fb-root">
+</div>
+<button class="theme-toggle theme-toggle--static" type="button" title="Toggle theme" aria-label="Toggle light/dark theme">
+</button>
+<div class="tl_page_wrap">
+<div class="tl_page_head navbar navbar-static-top navbar navbar-tg">
+<div class="navbar-inner">
+<div class="container clearfix">
+<ul class="nav navbar-nav navbar-right">
+<li class="dropdown top_lang_select">
+<a class="dropdown-toggle" onclick="return dropdownClick(this, event)" href="#">
+<i class="dev_top_lang_icon">
+</i>
+<b class="minicaret">
+</b>
+</a>
+<ul class="dropdown-menu">
+<li class="">
+<a href="?setln=en">English</a>
+</li>
+<li class="long ">
+<a href="?setln=id">Bahasa Indonesia</a>
+</li>
+<li class="long ">
+<a href="?setln=ms">Bahasa Melayu</a>
+</li>
+<li class="">
+<a href="?setln=de">Deutsch</a>
+</li>
+<li class="">
+<a href="?setln=es">Español</a>
+</li>
+<li class="">
+<a href="?setln=fr">Français</a>
+</li>
+<li class="">
+<a href="?setln=it">Italiano</a>
+</li>
+<li class="">
+<a href="?setln=nl">Nederlands</a>
+</li>
+<li class="">
+<a href="?setln=uz">O‘zbek</a>
+</li>
+<li class="">
+<a href="?setln=pl">Polski</a>
+</li>
+<li class="long ">
+<a href="?setln=pt-br">Português (Brasil)</a>
+</li>
+<li class="">
+<a href="?setln=tr">Türkçe</a>
+</li>
+<li class="">
+<a href="?setln=be">Беларуская</a>
+</li>
+<li class="">
+<a href="?setln=ru">Русский</a>
+</li>
+<li class="">
+<a href="?setln=uk">Українська</a>
+</li>
+<li class="">
+<a href="?setln=kk">Қазақша</a>
+</li>
+<li class="">
+<a href="?setln=ar">العربية</a>
+</li>
+<li class="">
+<a href="?setln=fa">فارسی</a>
+</li>
+<li class="">
+<a href="?setln=ko">한국어</a>
+</li>
+</ul>
+</li>
+<li class="navbar-twitter hidden-xs">
+<a href="https://x.com/telegram" target="_blank" data-track="Follow/Twitter" onclick="trackDlClick(this, event)">
+<i class="icon icon-twitter">
+</i> Follow on X</a>
+</li>
+</ul>
+<ul class="nav navbar-nav">
+<li class="">
+<a href="/">Home</a>
+</li>
+<li class="">
+<a href="/faq">FAQ</a>
+</li>
+<li class="">
+<a href="/apps">Apps</a>
+</li>
+<li class="hidden-xs ">
+<a href="//core.telegram.org/api">API</a>
+</li>
+<li class="hidden-xs ">
+<a href="/safety">Safety</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="container clearfix tl_page_container ">
+<div class="tl_page">
+<div class="tl_contest_page_wrap">
+<div class="tl_blog_side_blog">
+<div class="side_blog_wrap">
+<div class="side_blog">
+<a href="/blog" class="side_blog_header">Recent News</a>
+<div class="side_blog_entries">
+<a href="/blog/welcome-messages-buttons-TG-13" class="side_blog_entry">
+<div class="side_blog_date">Aug 25</div>
+<div class="side_blog_title">Welcome Messages, Buttons in Messages and Signed Gifts</div>
+</a>
+<a href="/blog/communities-editor-invisible-messages" class="side_blog_entry">
+<div class="side_blog_date">Jul 14</div>
+<div class="side_blog_title">Rich Text Editor, Communities, Ephemeral Messages in Groups, 350 Million GIFs</div>
+</a>
+<a href="/blog/watch-apps-and-more" class="side_blog_entry">
+<div class="side_blog_date">Jun 11</div>
+<div class="side_blog_title">Smartwatch Apps, Rich Text for Bots, AI Guardians for Groups, and Much More</div>
+</a>
+<a href="/blog/ai-bot-revolution-11-new-features" class="side_blog_entry">
+<div class="side_blog_date">May 7</div>
+<div class="side_blog_title">Guest AI Bots, Bot-to-Bot Chats, Chat Automation, Custom AI Styles, 100M+ Emoji &amp; Sticker Search and Much More</div>
+</a>
+<a href="/blog/ai-editor-mighty-polls-and-more" class="side_blog_entry">
+<div class="side_blog_date">Mar 31</div>
+<div class="side_blog_title">AI Editor, Mighty Polls, Live Photos, Bots Managed by Bots, and More</div>
+</a>
+<a href="/blog/member-tags-disable-sharing-and-more" class="side_blog_entry">
+<div class="side_blog_date">Mar 1</div>
+<div class="side_blog_title">Member Tags, Login with Telegram, Disable Sharing, GIF Editing, Date Formatting, Voting Timestamps</div>
+</a>
+<a href="/blog/crafting-android-design-and-more" class="side_blog_entry">
+<div class="side_blog_date">Feb 9</div>
+<div class="side_blog_title">Android Redesign, Group Ownership Transfer, Gift Crafting, Colored Bot Buttons</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div id="dev_page_content_wrap" class=" ">
+<div class="dev_page_bread_crumbs">
+</div>
+<h1 id="dev_page_title">Super Channel, Langganan, dan Reaksi Stars</h1>
+<blockquote class="blog_lang_original">
+<a href="/blog/superchannels-star-reactions-subscriptions?ln=r">Baca pengumuman resmi dalam Bahasa Inggris</a>
+</blockquote>
+<div id="dev_page_content">
+<div class="blog_side_image_wrap">
+<picture class="dev_page_tgsticker blog_side_image js-tgsticker_image" style="width:160px;">
+<div style="padding-top:100%">
+</div>
+<source type="application/x-tgsticker" srcset="/file/400780400660/2/i4brRbcAcek.17088/ea12408bca847f3c5b">
+<img src="/file/400780400660/3/cfh35xyFQL0.31279.png/de06b7554074d2d7ee">
+</picture>
+</div>
+<div class="blog_wide_image">
+<a href="/file/400780400305/1/lZHz272NlAw.1280829/51a8b6de27821df538" target="_blank">
+<img src="/file/400780400216/4/8qpiEMtitzo.129248.webp/fcb684762baf994dc7" srcset="/file/400780400091/5/Vd-NYoRw_DM.375222.webp/546cecfb9992414458, 1200w" alt="Memperkenalkan Super Channels, Star Reactions, dan Subscriptions">
+</a>
+</div>
+<p>Hari ini merupakan <strong>hari ulang tahun Telegram yang ke-11</strong>. Semenjak Agustus 2013, kami telah mempelopori <strong>ratusan fitur</strong> dan bertumbuh hingga memiliki <a href="https://t.me/durov/337">satu miliar pengguna</a>
+<strong>tanpa anggaran pemasaran</strong>. Semua pencapaian ini adalah berkat dukungan Anda, pengguna dan pembuat konten kami yang terhormat.</p>
+<p>Dengan pembaruan hari ini, seperti biasanya, kami melanjutkan tradisi memberikan kembali kepada komunitas. Temui fitur-fitur terbaru kami: <strong>Reaksi Stars</strong> dan <strong>Langganan Stars</strong> yang yang dapat Anda gunakan untuk <strong>mendukung pembuat konten</strong>, <a href="https://telegram.org/blog/mini-app-bar-paid-media-and-more/id?ln=a#bayar-konten-dengan-telegram-stars">media berbayar</a> untuk <strong>Bot</strong> dan <strong>Akun Bisnis</strong>, dan mode baru untuk Channel Telegram yang memungkinkan admin memposting sebagai <strong>channel lain</strong> atau <strong>profil pribadi</strong>.</p>
+<h4>
+<a class="anchor" name="reaksi-stars" href="#reaksi-stars">
+<i class="anchor-icon">
+</i>
+</a>Reaksi Stars</h4>
+<p>Sekarang, pengguna dapat <strong>mendukung langsung</strong> channel dan konten kreator favorit mereka dengan mengirimkan <a href="https://telegram.org/blog/telegram-stars/id?ln=a">Telegram Stars</a> menggunakan <strong>reaksi Stars</strong> yang baru.</p>
+<p>Pemilik channel akan menerima <strong>100%</strong> dari Stars yang diberikan — dan dapat mengubahnya menjadi hadiah berupa mata uang kripto <a href="https://ton.org">Toncoin</a> atau iklan bersubsidi.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<div>
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/400780400254/1/vjYftHLkX4c.58786/af9db86fd2e9ad5b7d" style="max-width: 600px;" alt="Reaksi Stars">
+<source src="/file/400780400928/2/MQjjEqPTPNQ.9718624.mp4/d4437f2ae2169b8d31" type="video/mp4">
+</video>
+</div>
+<p>Untuk berjaga-jaga jika Anda ingin menekan tombol yang memiliki animasi yang indah. <img class="emoji" src="//telegram.org/img/emoji/40/F09FA4A9.png" width="20" height="20" alt="🤩" />
+</p>
+</div>
+<p>
+<strong>Papan peringkat</strong> berisi <strong>pengirim teratas</strong> akan muncul pada postingan yang memiliki reaksi Stars, tetapi pengguna dapat memilih untuk tidak muncul jika menginginkan privasi.</p>
+<div class="blog_image_wrap blog_wide_image_wrap">
+<a href="/file/400780400333/2/6viOxAwlmIo.105864/c23b6aac179c3fb1ee" target="_blank">
+<img src="/file/400780400736/1/LTIMn0Fdjzk.70666/8f5275c066d867aca7" alt="Papan Peringkat Reaksi" srcset="/file/400780400333/2/6viOxAwlmIo.105864/c23b6aac179c3fb1ee , 2x">
+</a>
+<p>Saat Anda ingin menonjol — dan saat Anda tidak ingin. <img class="emoji" src="//telegram.org/img/emoji/40/F09FA5B8.png" width="20" height="20" alt="🥸" />
+</p>
+</div>
+<blockquote>
+<p>Untuk mengaktifkan Reaksi Stars pada postingan Anda, buka <em>Pengaturan Channel &gt; Reaksi &gt; Aktifkan Reaksi Berbayar</em>.</p>
+</blockquote>
+<h4>
+<a class="anchor" name="langganan-stars" href="#langganan-stars">
+<i class="anchor-icon">
+</i>
+</a>Langganan Stars</h4>
+<p>Pembuat konten sekarang dapat membuat <strong>tautan undangan</strong> khusus yang memungkinkan pengikut mereka untuk bergabung dalam channel dengan <strong>biaya bulanan</strong>
+<a href="https://telegram.org/blog/telegram-stars/id?ln=a">Telegram Stars</a>.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<div>
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/400780400061/1/PYVdBL-QAEU.49156/6be4c71b52cfd38ada" style="max-width: 600px;" alt="Langganan Stars">
+<source src="/file/400780400405/4/zQWtbI2a3WQ.3302805.mp4/78c57cf6fe420b0c46" type="video/mp4">
+</video>
+</div>
+<p>Bilamana Anda sendiri adalah seorang bintang. <img class="emoji" src="//telegram.org/img/emoji/40/F09F988C.png" width="20" height="20" alt="😌" />
+</p>
+</div>
+<p>Hanya perlu beberapa ketukan untuk membuat <strong>channel eksklusif</strong> yang berisi konten tambahan, media akses dini, atau tayangan langsung VIP.</p>
+<blockquote>
+<p>Untuk membuat tautan berbayar, buka <em>Pengaturan Channel &gt; Jenis Channel &gt; Kelola Tautan Undangan &gt; Buat Tautan Baru</em> dan aktifkan <em>Memerlukan Biaya Bulanan</em>. </p>
+</blockquote>
+<h4>
+<a class="anchor" name="media-berbayar-untuk-bot" href="#media-berbayar-untuk-bot">
+<i class="anchor-icon">
+</i>
+</a>Media Berbayar untuk Bot</h4>
+<p>Pemilik channel dapat <strong>memonetisasi konten mereka</strong> dengan memposting <a href="https://telegram.org/blog/mini-app-bar-paid-media-and-more/id?ln=a#bayar-konten-dengan-telegram-stars">foto dan video berbayar</a> dalam channel.</p>
+<p>Dengan pembaruan ini, postingan berbayar juga akan tersedia untuk <strong>bot</strong> — termasuk <strong>bot admin</strong> dalam channel dan bot yang <a href="https://telegram.org/blog/telegram-business/id?ln=a#chatbot-untuk-bisnis">mengurus</a> akun <strong>Telegram Business</strong>.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<div>
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/400780400928/3/eu-pAwgeg3k.64855/6be3cd07f67c10ccc3" style="max-width: 600px;" alt="Media Berbayar untuk Bot">
+<source src="/file/400780400101/6/TNOjCB_wGvE.1724721.mp4/778a427b95515f486e" type="video/mp4">
+</video>
+</div>
+<p>Apabila konten Anda sedang menunggu revolusi industri. <img class="emoji" src="//telegram.org/img/emoji/40/F09FA790.png" width="20" height="20" alt="🧐" />
+</p>
+</div>
+<p>Hal ini membuka cara baru untuk <strong>mengotomatisasi channel</strong> dan <strong>bisnis</strong> — atau membangun <strong>layanan berkelanjutan</strong> seperti penciptaan gambar, peningkatan resolusi video, dan sebagainya.</p>
+<blockquote>
+<p>Pengembang dapat mengetahui lebih lanjut tentang penerapan fitur ini <a href="https://core.telegram.org/bots/api-changelog#august-14-2024">di sini</a>.</p>
+</blockquote>
+<h4>
+<a class="anchor" name="kuasa-untuk-pembuat-konten" href="#kuasa-untuk-pembuat-konten">
+<i class="anchor-icon">
+</i>
+</a>Kuasa untuk Pembuat Konten</h4>
+<p>Telegram tidak membebankan komisi ketika pengembang atau pemilik channel menggunakan Stars mereka untuk <strong>menerima hadiah</strong>
+<a href="https://telegram.org/blog/mini-app-bar-paid-media-and-more/id?ln=a#hadiah-toncoin">dalam Toncoin</a>.</p>
+<p>Jika pembuat konten memutuskan untuk <strong>menginvestasikan kembali Stars</strong> mereka untuk promosi channel dengan iklan Telegram, kami akan mensubsidi iklan tersebut dengan ekstra <a href="https://telegram.org/blog/mini-app-bar-paid-media-and-more/id?ln=a#subsidi-iklan-untuk-kreator-dan-pengembang">diskon 30%</a>.</p>
+<h4>
+<a class="anchor" name="super-channel" href="#super-channel">
+<i class="anchor-icon">
+</i>
+</a>Super Channel</h4>
+<p>Ketika Anda memposting di channel Telegram, pelanggan biasanya akan melihat nama dan gambar channel tersebut sebagai pengirimnya.</p>
+<p>Mulai hari ini, Anda dapat membuat channel Anda terlihat seperti <strong>grup</strong>. Admin dapat memposting sebagai <strong>diri mereka sendiri</strong> atau bahkan sebagai <strong>channel mereka yang lain</strong>.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<div>
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/400780400584/3/p_UUNfCREeI.98316/4a6f0deeb5aea321a0" style="max-width: 600px;" alt="Super Channel">
+<source src="/file/400780400595/3/w4hAkw6GFJw.3754705.mp4/c53d8938054367ab67" type="video/mp4">
+</video>
+</div>
+<p>Jikalau Anda suka menyisipkan channel dalam channel. <img class="emoji" src="//telegram.org/img/emoji/40/F09F90B6.png" width="20" height="20" alt="🐶" />
+</p>
+</div>
+<p>Admin channel dapat mengubah identitas mereka sebelum meposting <strong>kapan pun saja</strong> dengan mengetuk <strong>foto profil</strong> dalam kolom masukan. Admin <strong>tidak akan pernah terlihat</strong> kecuali jika mereka secara eksplisit memilih untuk memposting sebagai profil mereka sendiri.</p>
+<blockquote>
+<p>Untuk mengubah channel Anda menjadi Super Channel, buka <em>Pengaturan Channel &gt; Admin</em> dan aktifkan <em>Tandai Pesan</em> dan <em>Tampilkan Profil Penulis</em>.</p>
+</blockquote>
+<h4>
+<a class="anchor" name="penampil-dokumen-di-ios" href="#penampil-dokumen-di-ios">
+<i class="anchor-icon">
+</i>
+</a>Penampil Dokumen di iOS</h4>
+<p>Di perangkat iOS, dokumen seperti <strong>.pdf</strong>, <strong>.xls</strong>, atau <strong>.docx</strong> kini dibuka dalam <strong>tab terpisah</strong> di <a href="https://telegram.org/blog/w3-browser-mini-app-store/id?ln=a#peramban-telegram">peramban Telegram</a> untuk membantu Anda dengan mudah beralih dari satu berkas ke berkas yang lain atau ke obrolan.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<div>
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/400780400383/4/pNv92TJ5nUI.120781/31d68883fae7378b4e" style="max-width: 600px;" alt="Penampil Dokumen di iOS">
+<source src="/file/400780400457/3/G4GegRFJQh8.4112978.mp4/8ea3c0de0712d94732" type="video/mp4">
+</video>
+</div>
+<p>Sekiranya Anda ingin "excel". <img class="emoji" src="//telegram.org/img/emoji/40/F09F938E.png" width="20" height="20" alt="📎" />
+</p>
+</div>
+<p>Sejak ulang tahun sebelumnya, Telegram telah mengajukan <strong>17 pembaruan besar</strong> yang memperkenalkan <a href="https://telegram.org/blog/stories?ln=a">Cerita</a>, <a href="https://telegram.org/blog/telegram-stars?ln=a">Stars</a>, <a href="https://telegram.org/blog/reply-revolution?ln=a">Kutipan</a>, <a href="https://telegram.org/blog/my-profile-and-15-more?ln=a">Profil</a>, <a href="https://telegram.org/blog/my-profile-and-15-more#recommended-channels?ln=a">Rekomendasi</a>, <a href="https://telegram.org/blog/telegram-business?ln=a">Telegram Business</a>, <a href="https://telegram.org/blog/sticker-maker?ln=a">Pembuat Stiker</a>, <a href="https://telegram.org/blog/giveaways?ln=a">Platform Giveaway</a>, <a href="https://telegram.org/blog/new-saved-messages-and-9-more?ln=a">Bookmark</a>, <a href="https://telegram.org/blog/monetization-for-channels?ln=a">Hadiah Kreator</a>, dan <strong>masih</strong>
+<a href="https://telegram.org/evolution#a-not-so-brief-history-of-telegram?ln=a">banyak lagi</a>.</p>
+<p>Sementara itu, kami sudah mulai bekerja untuk <strong>tahun Telegram yang berikutnya</strong>.</p>
+<!--
+#### Cara Mendapatkan Pembaruan Ini
+
+Pembaruan ini sudah tersedia bagi pengguna iOS dan semua yang mengunduh Telegram untuk Android lamgsung dari [telegram.org/android](https://telegram.org/android). Versi Google Play sedang ditinjau oleh pihak yang berwenang dan akan tersedia nanti.
+-->
+<div>
+<br>
+</div>
+<p>
+<em>14 Agustus 2024,<br>Tim Telegram</em>
+</p>
+</div>
+</div>
+<div class="tl_main_share clearfix">
+<a href="https://t.me/share/url?url=https%3A%2F%2Ftelegram.org%2Fblog%2Fsuperchannels-star-reactions-subscriptions%2Fid&text=Hari%20ini%20merupakan%20hari%20ulang%20tahun%20Telegram%20yang%20ke-11.%20%20Temui%20fitur-fitur%20terbaru%20kami%3A%20Reaksi%20Stars%20dan%20Langganan%20Stars%20yang%20yang%20dapat%20Anda%20gunakan%20untuk%20mendukung%20pembuat%20konten%2C%20media%20berbayar%20untuk%20Bot%20dan%20Akun%20Bisnis%2C%20dan%20mode%20baru%20untuk%20Channel%20Telegram%20yang%20memungkinkan%20admin%20memposting%20sebagai%20channel%20lain%20atau%20profil%20pribadi." class="tl_telegram_share_btn" id="tl_telegram_share_btn" data-text="Hari ini merupakan hari ulang tahun Telegram yang ke-11.  Temui fitur-fitur terbaru kami: Reaksi Stars dan Langganan Stars yang yang dapat Anda gunakan untuk mendukung pembuat konten, media berbayar untuk Bot dan Akun Bisnis, dan mode baru untuk Channel Telegram yang memungkinkan admin memposting sebagai channel lain atau profil pribadi." data-url="https://telegram.org/blog/superchannels-star-reactions-subscriptions/id">
+<i class="tl_telegram_share_icon">
+</i>
+<span class="tl_telegram_share_label" target="_blank">Forward</span>
+</a>
+<a href="https://twitter.com/share" class="tl_twitter_share_btn" id="tl_twitter_share_btn" data-text="Hari ini merupakan hari ulang tahun Telegram yang ke-11.  Temui fitur-fitur terbaru kami: Reaksi Stars dan Langganan Stars yang yang dapat Anda gunakan untuk mendukung pembuat konten, media berbayar untuk Bot dan Akun Bisnis, dan mode baru untuk Channel Telegram yang memungkinkan admin memposting sebagai channel lain atau profil pribadi." data-url="https://telegram.org/blog/superchannels-star-reactions-subscriptions/id" data-via="Telegram">Tweet <span class="tl_twitter_share_cnt">
+</span>
+</a>
+</div>
+</div>
+<div class="tl_main_recent_news_wrap tlb_other_news_wrap tl_blog_list_page_wrap">
+<h3 class="tl_main_recent_news_header">
+<a href="/blog">Other News</a>
+</h3>
+<div class="tl_main_recent_news_cards clearfix">
+<a class="dev_blog_card_link_wrap" href="/blog/welcome-messages-buttons-TG-13/id">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400741/6/aFBFZ5lNqO8.66680.webp/0e567958d5b96a2184" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">Pesan Sambutan, Tombol dalam Pesan, dan Hadiah dengan Salam</h4>
+<div class="dev_blog_card_lead">Memperkenalkan Pesan Sambutan untuk sapa anggota baru grup atau channel, Tombol dalam Pesan untuk buat teks interaktif, Dokumen Sebaris…</div>
+</div>
+<div class="dev_blog_card_date">Aug 25, 2026</div>
+</div>
+</a>
+<a class="dev_blog_card_link_wrap" href="/blog/communities-editor-invisible-messages/id">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400366/6/dI0zgi0mM5s.323818.webp/6a362dadee6e7e6011" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">Editor Teks Kaya, Komunitas, Pesan Tersembunyi dalam Grup, 350 Juta GIF</h4>
+<div class="dev_blog_card_lead">Memperkenalkan editor teks kaya untuk memformat dan menghasilkan teks; Komunitas Telegram yang menggandengkan beberapa grup, channel, dan…</div>
+</div>
+<div class="dev_blog_card_date">Jul 14, 2026</div>
+</div>
+</a>
+<a class="dev_blog_card_link_wrap" href="/blog/watch-apps-and-more/id">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400535/2/fkUcVRnSU-M.140100.webp/10c066db41f83e6d5e" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">Aplikasi Smartwatch, Teks Kaya untuk Bot, AI Guardian untuk Grup, dan Sebagainya</h4>
+<div class="dev_blog_card_lead">Pembaruan hari ini menghadirkan Telegram di Apple Watch dan smartwatch Android dan menambahkan fitur-fitur seperti teks kaya untuk bot…</div>
+</div>
+<div class="dev_blog_card_date">Jun 11, 2026</div>
+</div>
+</a>
+<a class="dev_blog_card_link_wrap" href="/blog/ai-bot-revolution-11-new-features/id">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400475/2/BwY041V7nZg.149454.webp/873ed0c0321c7633e7" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">Bot AI Tamu, Komunikasi Antar Bot, Percakapan Otomatis, Pencarian Emoji &amp; Stiker 100J+, dan Sebagainya</h4>
+<div class="dev_blog_card_lead">Dalam pembaruan hari ini, Telegram menambahkan lebih dari 10 fitur baru. Pengguna akan dapat…</div>
+</div>
+<div class="dev_blog_card_date">May 7, 2026</div>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer_wrap">
+<div class="footer_columns_wrap footer_desktop">
+<div class="footer_column footer_column_telegram">
+<h5>Telegram</h5>
+<div class="footer_telegram_description">
+</div>
+      Telegram is a cloud-based mobile and desktop messaging app with a focus on security and speed.
+    </div>
+<div class="footer_column">
+<h5>
+<a href="/faq">About</a>
+</h5>
+<ul>
+<li>
+<a href="/faq">FAQ</a>
+</li>
+<li>
+<a href="/privacy">Privacy</a>
+</li>
+<li>
+<a href="/press">Press</a>
+</li>
+</ul>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/apps#mobile-apps">Mobile Apps</a>
+</h5>
+<ul>
+<li>
+<a href="/dl/ios">iPhone/iPad</a>
+</li>
+<li>
+<a href="/android">Android</a>
+</li>
+<li>
+<a href="/dl/web">Mobile Web</a>
+</li>
+</ul>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/apps#desktop-apps">Desktop Apps</a>
+</h5>
+<ul>
+<li>
+<a href="//desktop.telegram.org/">PC/Mac/Linux</a>
+</li>
+<li>
+<a href="//macos.telegram.org/">macOS</a>
+</li>
+<li>
+<a href="/dl/web">Web-browser</a>
+</li>
+</ul>
+</div>
+<div class="footer_column footer_column_platform">
+<h5>
+<a href="//core.telegram.org/">Platform</a>
+</h5>
+<ul>
+<li>
+<a href="//core.telegram.org/api">API</a>
+</li>
+<li>
+<a href="//translations.telegram.org/">Translations</a>
+</li>
+<li>
+<a href="//instantview.telegram.org/">Instant View</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="footer_columns_wrap footer_mobile">
+<div class="footer_column">
+<h5>
+<a href="/faq">About</a>
+</h5>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/blog">Blog</a>
+</h5>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/press">Press</a>
+</h5>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/safety">Safety</a>
+</h5>
+</div>
+</div>
+</div>
+<script src="/js/main.js?49">
+</script>
+<script src="/js/tgsticker.js?32">
+</script>
+<script src="/js/main-theme.js?6">
+</script>
+<script>initScrollVideos(true);
+mainInitTgStickers({"maxDeviceRatio":2,"cachingModulo":4});
+twitterCustomShareInit();
+blogSideImageInit();
+backToTopInit("Go up");
+removePreloadInit();
+</script>
+</body>
+</html>

@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html class="" data-theme="light">
+<head>
+<meta charset="utf-8">
+<title>Pesan Sambutan, Tombol dalam Pesan, dan Hadiah dengan Salam</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:title" content="Pesan Sambutan, Tombol dalam Pesan, dan Hadiah dengan Salam">
+<meta property="og:image" content="https://telegram.org/file/400780400741/6/aFBFZ5lNqO8.66680.webp/0e567958d5b96a2184">
+<meta property="og:site_name" content="Telegram">
+<meta property="og:description" content="Memperkenalkan Pesan Sambutan untuk sapa anggota baru grup atau channel, Tombol dalam Pesan untuk buat teks interaktif, Dokumen Sebaris dalam Pesan, dan sebagainya.">
+<meta property="article:published_time" content="2026-08-25T14:24:48+00:00">
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://telegram.org/file/400780400741/6/aFBFZ5lNqO8.66680.webp/0e567958d5b96a2184" />
+<meta property="fb:app_id" content="254098051407226">
+<meta property="vk:app_id" content="3782569">
+<meta name="apple-itunes-app" content="app-id=686449807">
+<meta name="telegram:channel" content="@telegram">
+<link rel="canonical" href="https://telegram.org/blog/welcome-messages-buttons-TG-13/id" />
+<link rel="icon" type="image/svg+xml" href="/img/website_icon.svg?4">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="alternate icon" href="/img/favicon.ico" type="image/x-icon" />
+<link href="/css/bootstrap.min.css?3" rel="stylesheet">
+<link href="/css/telegram.css?256" rel="stylesheet" media="screen">
+<link href="/css/telegram-theme.css?9" rel="stylesheet" media="screen">
+</head>
+<body class="preload">
+<div id="fb-root">
+</div>
+<button class="theme-toggle theme-toggle--static" type="button" title="Toggle theme" aria-label="Toggle light/dark theme">
+</button>
+<div class="tl_page_wrap">
+<div class="tl_page_head navbar navbar-static-top navbar navbar-tg">
+<div class="navbar-inner">
+<div class="container clearfix">
+<ul class="nav navbar-nav navbar-right">
+<li class="dropdown top_lang_select">
+<a class="dropdown-toggle" onclick="return dropdownClick(this, event)" href="#">
+<i class="dev_top_lang_icon">
+</i>
+<b class="minicaret">
+</b>
+</a>
+<ul class="dropdown-menu">
+<li class="">
+<a href="?setln=en">English</a>
+</li>
+<li class="long ">
+<a href="?setln=id">Bahasa Indonesia</a>
+</li>
+<li class="long ">
+<a href="?setln=ms">Bahasa Melayu</a>
+</li>
+<li class="">
+<a href="?setln=de">Deutsch</a>
+</li>
+<li class="">
+<a href="?setln=es">Español</a>
+</li>
+<li class="">
+<a href="?setln=fr">Français</a>
+</li>
+<li class="">
+<a href="?setln=it">Italiano</a>
+</li>
+<li class="">
+<a href="?setln=nl">Nederlands</a>
+</li>
+<li class="">
+<a href="?setln=uz">O‘zbek</a>
+</li>
+<li class="">
+<a href="?setln=pl">Polski</a>
+</li>
+<li class="long ">
+<a href="?setln=pt-br">Português (Brasil)</a>
+</li>
+<li class="">
+<a href="?setln=tr">Türkçe</a>
+</li>
+<li class="">
+<a href="?setln=be">Беларуская</a>
+</li>
+<li class="">
+<a href="?setln=ru">Русский</a>
+</li>
+<li class="">
+<a href="?setln=uk">Українська</a>
+</li>
+<li class="">
+<a href="?setln=kk">Қазақша</a>
+</li>
+<li class="">
+<a href="?setln=ar">العربية</a>
+</li>
+<li class="">
+<a href="?setln=fa">فارسی</a>
+</li>
+<li class="">
+<a href="?setln=ko">한국어</a>
+</li>
+</ul>
+</li>
+<li class="navbar-twitter hidden-xs">
+<a href="https://x.com/telegram" target="_blank" data-track="Follow/Twitter" onclick="trackDlClick(this, event)">
+<i class="icon icon-twitter">
+</i> Follow on X</a>
+</li>
+</ul>
+<ul class="nav navbar-nav">
+<li class="">
+<a href="/">Home</a>
+</li>
+<li class="">
+<a href="/faq">FAQ</a>
+</li>
+<li class="">
+<a href="/apps">Apps</a>
+</li>
+<li class="hidden-xs ">
+<a href="//core.telegram.org/api">API</a>
+</li>
+<li class="hidden-xs ">
+<a href="/safety">Safety</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="container clearfix tl_page_container ">
+<div class="tl_page">
+<div class="tl_contest_page_wrap">
+<div class="tl_blog_side_blog">
+<div class="side_blog_wrap">
+<div class="side_blog">
+<a href="/blog" class="side_blog_header">Recent News</a>
+<div class="side_blog_entries">
+<a href="/blog/welcome-messages-buttons-TG-13" class="side_blog_entry">
+<div class="side_blog_date">Aug 25</div>
+<div class="side_blog_title">Welcome Messages, Buttons in Messages and Signed Gifts</div>
+</a>
+<a href="/blog/communities-editor-invisible-messages" class="side_blog_entry">
+<div class="side_blog_date">Jul 14</div>
+<div class="side_blog_title">Rich Text Editor, Communities, Ephemeral Messages in Groups, 350 Million GIFs</div>
+</a>
+<a href="/blog/watch-apps-and-more" class="side_blog_entry">
+<div class="side_blog_date">Jun 11</div>
+<div class="side_blog_title">Smartwatch Apps, Rich Text for Bots, AI Guardians for Groups, and Much More</div>
+</a>
+<a href="/blog/ai-bot-revolution-11-new-features" class="side_blog_entry">
+<div class="side_blog_date">May 7</div>
+<div class="side_blog_title">Guest AI Bots, Bot-to-Bot Chats, Chat Automation, Custom AI Styles, 100M+ Emoji &amp; Sticker Search and Much More</div>
+</a>
+<a href="/blog/ai-editor-mighty-polls-and-more" class="side_blog_entry">
+<div class="side_blog_date">Mar 31</div>
+<div class="side_blog_title">AI Editor, Mighty Polls, Live Photos, Bots Managed by Bots, and More</div>
+</a>
+<a href="/blog/member-tags-disable-sharing-and-more" class="side_blog_entry">
+<div class="side_blog_date">Mar 1</div>
+<div class="side_blog_title">Member Tags, Login with Telegram, Disable Sharing, GIF Editing, Date Formatting, Voting Timestamps</div>
+</a>
+<a href="/blog/crafting-android-design-and-more" class="side_blog_entry">
+<div class="side_blog_date">Feb 9</div>
+<div class="side_blog_title">Android Redesign, Group Ownership Transfer, Gift Crafting, Colored Bot Buttons</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div id="dev_page_content_wrap" class=" ">
+<div class="dev_page_bread_crumbs">
+</div>
+<h1 id="dev_page_title">Pesan Sambutan, Tombol dalam Pesan, dan Hadiah dengan Salam</h1>
+<blockquote class="blog_lang_original">
+<a href="/blog/welcome-messages-buttons-TG-13?ln=r">Baca pengumuman resmi dalam Bahasa Inggris</a>
+</blockquote>
+<div id="dev_page_content">
+<div class="blog_side_image_wrap">
+<picture class="dev_page_tgsticker blog_side_image js-tgsticker_image" style="width:160px;">
+<div style="padding-top:100%">
+</div>
+<source type="application/x-tgsticker" srcset="/file/400780400625/3/zftpJO2eKHM.9317/ccd323380b11fcb034">
+<img src="/file/400780400625/4/4ZrkP1SAUWU.28584.png/886ebee14c1e390d06" />
+</picture>
+</div>
+<div class="blog_wide_image">
+<a href="/file/400780400279/3/9RLd370Z4So.216424.webp/1d36bd42bb83091c2b" target="_blank">
+<img src="/file/400780400741/6/aFBFZ5lNqO8.66680.webp/0e567958d5b96a2184" srcset="/file/400780400279/3/9RLd370Z4So.216424.webp/1d36bd42bb83091c2b, 1200w" alt="Pesan Sambutan, Tombol dalam Pesan, dan 13 Tahun Telegram"/>
+</a>
+</div>
+<p>Telegram menginjak usia <strong>13 tahun</strong> hari ini — tetapi kami tidak dapat berhenti menambahkan fitur:   </p>
+<ul>
+<li>
+<strong>Pesan Sambutan</strong>: Secara pribadi sapa anggota baru dalam obrolan.<ul>
+<li>Buat pesan sambutan khusus untuk <strong>grup atau channel</strong>.</li>
+<li>Lampirkan media atau kirim <strong>beberapa pesan</strong> sekaligus.</li>
+<li>Tambahkan <strong>pemformatan kaya</strong> via editor teks.</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>
+<strong>Tombol dalam Pesan</strong>: Buat pesan interaktif.<ul>
+<li>Tambahkan tombol <strong>ke dalam teks</strong> dalam <strong>grup dan channel</strong>.</li>
+<li>Susun <strong>alur otomatis</strong> dengan pesan tersembunyi.</li>
+<li>Kirim survei, adakan permainan, atau buat kuis.</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>
+<strong>Dokumen Sebaris dalam Pesan</strong>: Tempatkan berkas di dalam blok teks.<ul>
+<li>Imbuhkan dokumen, berkas, dan musik <strong>di samping teks Anda</strong>.</li>
+<li>Lampirkan berkas sebaris dengan <strong>dua ketukan</strong>.</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>
+<strong>Hadiah dengan Salam</strong>: Tambahkan komentar saat mengirim Hadiah melalui <a href="https://telegram.org/blog/gift-marketplace-and-more/id?ln=a#beli-hadiah-langka-di-pasar-hadiah">Telegram Marketplace</a>.</li>
+</ul>
+<hr>
+<h4>
+<a class="anchor" name="pesan-sambutan" href="#pesan-sambutan">
+<i class="anchor-icon">
+</i>
+</a>Pesan Sambutan</h4>
+<p>Grup dan channel mendukung <strong>pesan sambutan</strong> untuk memberikan anggota baru informasi tambahan tanpa menyela percakapan anggota lain. Saat pengguna bergabung, <strong>hanya mereka</strong> yang dapat melihat pesan tersebut.</p>
+<div class="blog_image_wrap blog_wide_image_wrap">
+<a href="/file/400780400574/2/xgp5YtIa1-U.154021.jpg/a16b0a9fb9c0d88847" target="_blank">
+<img src="SMALL" alt="TITLE" srcset="/file/400780400574/2/xgp5YtIa1-U.154021.jpg/a16b0a9fb9c0d88847 , 2x" />
+</a>
+</div>
+<p>
+<strong>Lebih dari satu pesan</strong> dan <strong>media</strong> dapat ditambahkan ke paket sambutan. <a href="https://telegram.org/blog/communities-editor-invisible-messages/id?ln=a#editor-teks-kaya">Pemformatan kaya</a> juga berfungsi di sini — tambahkan tabel, media sebaris, dan cara-cara gaib lainnya untuk menakuti anggota baru.</p>
+<h5>
+<a class="anchor" name="bagaimana-menambahkan-pesan-sambutan" href="#bagaimana-menambahkan-pesan-sambutan">
+<i class="anchor-icon">
+</i>
+</a>Bagaimana Menambahkan Pesan Sambutan?</h5>
+<p>Mudah! Tidak perlu bot ataupun sihir. Untuk menambahkan pesan sambutan dalam grup atau channel, cukup buka profil lalu pilih <em>Edit &gt; Pesan Sambutan</em> — dan kirim beberapa pesan:</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<div>
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/400780400992/8/IE2p82bnRTQ.75475.jpg/2d5ded71fc1253025f" style="max-width: 600px;" alt="TITLE">
+<source src="/file/400780400607/4/1NdVJSSPrCQ.5535652.mp4/e9d9f4244828a5e01f" type="video/mp4">
+</video>
+</div>
+</div>
+<h4>
+<a class="anchor" name="tombol-dalam-pesan" href="#tombol-dalam-pesan">
+<i class="anchor-icon">
+</i>
+</a>Tombol dalam Pesan</h4>
+<p>
+<a href="https://telegram.org/evolution#june-2015">Sebelas tahun yang lalu</a>, bot Telegram memungkinkan pembuatan aplikasi dalam obrolan biasa. Mulai hari ini, Anda dapat membuat aplikasi yang muat dalam <strong>satu pesan</strong>. (Hentikan kami sebelum kami memampatkan seluruh alam semesta ke dalam satu stiker.)</p>
+<p>Pengembang dapat meletakkan <strong>beberapa tombol</strong> langsung <strong>di dalam pesan</strong>. Dikombinasikan dengan <a href="https://telegram.org/blog/communities-editor-invisible-messages/id?ln=a#pesan-bot-tersembunyi">pesan tersembunyi</a>, fitur ini memungkinkan Anda <strong>menyusun alur</strong> untuk berbagai keperluan seperti survei, permainan, dan horoskop, hingga penampilan dan pemesanan produk.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<div>
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/400780400707/6/59tqj-7zkUI.67925.jpg/8f9328dc5077455151" style="max-width: 600px;" alt="Tombol dalam Pesan">
+<source src="/file/400780400139/7/vJgWIvqqzxA.3710126.mp4/718db1a1f9ad8f5cdf" type="video/mp4">
+</video>
+</div>
+</div>
+<p>Pesan tersebut dapat diposting <strong>di mana pun</strong>, termasuk dalam <strong>grup dan channel</strong>, dan dipergunakan berapa pun pengguna untuk — misalnya, <a href="https://t.me/RichChessBot">bermain catur</a> dengan bot bersama anggota lain.</p>
+<p>Anda bahkan dapat menggunakannya sebagai pesan sambutan untuk membantu anggota mengenali <em>Jenis Panda Apa Mereka Itu</em> — atau mengarahkannya melewati prasasti gelap Ketentuan Penggunaan grup Anda.</p>
+<h5>
+<a class="anchor" name="bagaimana-menambahkan-alur-otomatis-dalam-pesan" href="#bagaimana-menambahkan-alur-otomatis-dalam-pesan">
+<i class="anchor-icon">
+</i>
+</a>Bagaimana Menambahkan Alur Otomatis Dalam Pesan?</h5>
+<p>Tidak perlu sihir di sini juga — tetapi Anda memerlukan sedikit pemrograman. Hal ini tidak menakutkan bagi siapa pun di era <em>vibe-coding</em> seperti sekarang, kan?</p>
+<blockquote>
+<p>Informasi lebih lanjut bagi pengembang <a href="https://core.telegram.org/bots/api-changelog#august-24-2026">tersedia di sini</a>.</p>
+</blockquote>
+<h4>
+<a class="anchor" name="dokumen-sebaris-dalam-pesan" href="#dokumen-sebaris-dalam-pesan">
+<i class="anchor-icon">
+</i>
+</a>Dokumen Sebaris dalam Pesan</h4>
+<p>
+<a href="https://telegram.org/blog/communities-editor-invisible-messages/id?ln=a#editor-teks-kaya">Editor teks kaya</a> mendukung <strong>lebih banyak jenis media sebaris</strong>, sehingga Anda dapat menyertakan <strong>dokumen</strong>, <strong>file</strong>, dan <strong>musik</strong> di mana pun dalam teks Anda. Karena tidak ada yang mengumandangkan “Aku mencintaimu” lebih dari <em>spreadsheet</em> Excel setelah setiap kata.</p>
+<div class="blog_image_wrap blog_wide_image_wrap">
+<a href="/file/400780400089/4/0a1wLsafITE.134879.jpg/3cdb063db1083fe45d" target="_blank">
+<img src="/file/400780400089/4/0a1wLsafITE.134879.jpg/3cdb063db1083fe45d" alt="Dokumen Sebaris dalam Pesan" srcset="/file/400780400089/4/0a1wLsafITE.134879.jpg/3cdb063db1083fe45d , 2x" />
+</a>
+</div>
+<blockquote>
+<p>Untuk membuka editor teks, ketuk ikon ⛶ yang muncul setelah mengetik <strong>lebih dari 3 baris teks</strong> dalam kolom masukan.</p>
+</blockquote>
+<h4>
+<a class="anchor" name="placeholder-untuk-pembaruan-aplikasi" href="#placeholder-untuk-pembaruan-aplikasi">
+<i class="anchor-icon">
+</i>
+</a>Placeholder untuk Pembaruan Aplikasi</h4>
+<p>Setiap orang pasti memiliki teman yang tidak mengaktifkan pembaruan otomatis. Oleh karena itu, desainer kami menambahkan <strong>
+<em>placeholder</em> (tempat penampung) cantik</strong> yang muncul saat aplikasi versi lama tidak dapat menampilkan fitur baru — juga tombol untuk langsung <strong>mengunduh</strong> pembaruan terkini.</p>
+<div class="blog_image_wrap blog_wide_image_wrap">
+<a href="/file/400780400367/3/o3OLm-ol2tI.131234.jpg/25e473c413e20725f6" target="_blank">
+<img src="/file/400780400367/3/o3OLm-ol2tI.131234.jpg/25e473c413e20725f6" title="Placeholder untuk Pembaruan Aplikasi" srcset="/file/400780400367/3/o3OLm-ol2tI.131234.jpg/25e473c413e20725f6 , 2x" />
+</a>
+</div>
+<p>Tugas Anda adalah untuk membuat mereka memperbarui, sehingga mereka dapat menikmati efek-efek keren yang kami tambahkan <em>berikutnya</em>.</p>
+<blockquote>
+<p>Untuk mengaktifkan pembaruan otomatis di Android, buka Play Store dan ketuk <em>Setelan &gt; Preferensi Jaringan &gt; Update aplikasi otomatis</em>. Di iOS, buka <em>Pengaturan &gt; Aplikasi &gt; App Store</em> dan aktifkan <em>&#39;Pembaruan Aplikasi&#39;</em>.</p>
+</blockquote>
+<h4>
+<a class="anchor" name="hadiah-dengan-salam-dari-pasar" href="#hadiah-dengan-salam-dari-pasar">
+<i class="anchor-icon">
+</i>
+</a>Hadiah dengan Salam dari Pasar</h4>
+<p>Anda dapat menggunakan Telegram Stars untuk membeli <strong>ribuan hadiah langka</strong> dari pengguna lain di <a href="https://telegram.org/blog/gift-marketplace-and-more/id?ln=a#beli-hadiah-langka-di-pasar-hadiah">pasar hadiah</a> yang aman dan mudah digunakan. Sekarang, Anda juga dapat menambahkan <strong>tanda tangan serta komentar</strong> pada hadiah yang Anda beli dari sana.</p>
+<div class="blog_image_wrap blog_wide_image_wrap">
+<a href="/file/400780400967/6/ec-fxbaUMSU.137936.jpg/f964539b65ad6e4332" target="_blank">
+<img src="/file/400780400967/6/ec-fxbaUMSU.137936.jpg/f964539b65ad6e4332" alt="Hadiah dengan Salam" srcset="/file/400780400967/6/ec-fxbaUMSU.137936.jpg/f964539b65ad6e4332 , 2x" />
+</a>
+</div>
+<p>Karena tidak ada yang menyatakan “I love you” lebih dari sebuah Plush Pepe <em>pre-loved</em> yang <strong>benar-benar</strong> mengatakan &quot;I love you!&quot;</p>
+<h5>
+<a class="anchor" name="bagaimana-mengirim-hadiah-dengan-salam" href="#bagaimana-mengirim-hadiah-dengan-salam">
+<i class="anchor-icon">
+</i>
+</a>Bagaimana Mengirim Hadiah dengan Salam?</h5>
+<p>Untuk mengirim hadiah dari Telegram Marketplace, buka profil pengguna dan ketuk ⋮ / ⋯ <em>&gt; &#39;Kirim Hadiah&#39;</em>, lalu pilih filter <em>&#39;Koleksi&#39;</em> untuk membeli hadiah langka yang telah ditingkatkan.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<div>
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/400780400703/6/MnEUWh4hTxA.48692.jpg/67d11614abe5decfec" style="max-width: 600px;" alt="TITLE">
+<source src="/file/400780400902/4/OVbanwij1uw.6450422.mp4/3653a5baf7db181d01" type="video/mp4">
+</video>
+</div>
+</div>
+<h4>
+<a class="anchor" name="13-tahun-telegram" href="#13-tahun-telegram">
+<i class="anchor-icon">
+</i>
+</a>13 Tahun Telegram</h4>
+<p>Telegram berusia <strong>13 tahun</strong>! Telegram masih belum dapat menyetir atau memberikan suara (saat ada yang mengawasi), tetapi setidaknya <a href="https://x.com/telegram">akun media sosial</a> kami akhirnya keluar dari zona abu-abu — atau setidaknya begitulah jika tidak dikelola anak-anak berusia 8 tahun.</p>
+<p>Selama setahun terakhir, kami merilis <strong>12 pembaruan besar</strong> yang mencakup <a href="https://telegram.org/evolution">lebih dari 55 fitur</a> — berikut favorit kami:</p>
+<ul>
+<li>
+<a href="https://telegram.org/blog/communities-editor-invisible-messages/id">Pemformatan Teks Kaya</a>
+</li>
+<li>
+<a href="https://telegram.org/blog/new-design-ai-summaries/id?ln=a#desain-baru">Desain Liquid Glass di iOS</a> dan <a href="https://telegram.org/blog/crafting-android-design-and-more/id?ln=a#desain-ulang-terbesar">Desain Ulang Terbesar di Android</a>
+</li>
+<li>
+<a href="https://telegram.org/blog/ai-bot-revolution-11-new-features/id?ln=a#percakapan-otomatis-dalam-profil">Percakapan Otomatis</a>
+</li>
+<li>
+<a href="https://telegram.org/blog/ai-bot-revolution-11-new-features/id?ln=a#pencarian-emoji-dan-stiker-diperluas">Pencarian Stiker &amp; Emoji 100JT+</a>
+</li>
+<li>
+<a href="https://telegram.org/blog/watch-apps-and-more/id?ln=a#aplikasi-smartwatch-untuk-semuanya">Telegram untuk Smartwatch</a>
+</li>
+<li>
+<a href="https://telegram.org/blog/comments-in-video-chats-threads-for-bots/id?ln=a#utas-dan-pengaliran-respons-untuk-bot-ai">Dukungan untuk Bot AI</a>
+</li>
+<li>
+<a href="https://telegram.org/blog/ai-editor-mighty-polls-and-more/id?ln=a#10-fitur-baru-untuk-pol">Pol Lanjutan</a>
+</li>
+<li>
+<a href="https://telegram.org/blog/member-tags-disable-sharing-and-more/id?ln=a#peran-anggota">Peran Anggota dalam Grup</a>
+</li>
+<li>
+<a href="https://telegram.org/blog/communities-editor-invisible-messages/id?ln=a#komunitas-telegram">Komunitas</a>
+</li>
+<li>
+<a href="https://telegram.org/blog/passkeys-and-gift-offers/id?ln=a#passkey">Passkey</a>
+</li>
+<li>
+<a href="https://telegram.org/blog/profile-music-gift-themes/id?ln=a#musik-di-profil">Musik di Profil</a>
+</li>
+</ul>
+<p>Sekarang, kami kembali bekerja, dan Anda — pergilah merayakan dan suarakan kebebasan berpendapat.<br>
+<a href="https://www.youtube.com/watch?v=1Yq_5aDdJ24">Tidak akan terucap sendirinya!</a>
+</p>
+<div>
+<br>
+</div>
+<p>
+<em>25 Agustus 2026<br>Tim Telegram</em>
+</p>
+</div>
+</div>
+<div class="tl_main_share clearfix">
+<a href="https://t.me/share/url?url=https%3A%2F%2Ftelegram.org%2Fblog%2Fwelcome-messages-buttons-TG-13%2Fid&text=Memperkenalkan%20Pesan%20Sambutan%20untuk%20sapa%20anggota%20baru%20grup%20atau%20channel%2C%20Tombol%20dalam%20Pesan%20untuk%20buat%20teks%20interaktif%2C%20Dokumen%20Sebaris%20dalam%20Pesan%2C%20dan%20sebagainya." class="tl_telegram_share_btn" id="tl_telegram_share_btn" data-text="Memperkenalkan Pesan Sambutan untuk sapa anggota baru grup atau channel, Tombol dalam Pesan untuk buat teks interaktif, Dokumen Sebaris dalam Pesan, dan sebagainya." data-url="https://telegram.org/blog/welcome-messages-buttons-TG-13/id">
+<i class="tl_telegram_share_icon">
+</i>
+<span class="tl_telegram_share_label" target="_blank">Forward</span>
+</a>
+<a href="https://twitter.com/share" class="tl_twitter_share_btn" id="tl_twitter_share_btn" data-text="Memperkenalkan Pesan Sambutan untuk sapa anggota baru grup atau channel, Tombol dalam Pesan untuk buat teks interaktif, Dokumen Sebaris dalam Pesan, dan sebagainya." data-url="https://telegram.org/blog/welcome-messages-buttons-TG-13/id" data-via="Telegram">Tweet <span class="tl_twitter_share_cnt">
+</span>
+</a>
+</div>
+</div>
+<div class="tl_main_recent_news_wrap tlb_other_news_wrap tl_blog_list_page_wrap">
+<h3 class="tl_main_recent_news_header">
+<a href="/blog">Other News</a>
+</h3>
+<div class="tl_main_recent_news_cards clearfix">
+<a class="dev_blog_card_link_wrap" href="/blog/welcome-messages-buttons-TG-13/id">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400741/6/aFBFZ5lNqO8.66680.webp/0e567958d5b96a2184" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">Pesan Sambutan, Tombol dalam Pesan, dan Hadiah dengan Salam</h4>
+<div class="dev_blog_card_lead">Memperkenalkan Pesan Sambutan untuk sapa anggota baru grup atau channel, Tombol dalam Pesan untuk buat teks interaktif, Dokumen Sebaris…</div>
+</div>
+<div class="dev_blog_card_date">Aug 25, 2026</div>
+</div>
+</a>
+<a class="dev_blog_card_link_wrap" href="/blog/communities-editor-invisible-messages/id">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400366/6/dI0zgi0mM5s.323818.webp/6a362dadee6e7e6011" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">Editor Teks Kaya, Komunitas, Pesan Tersembunyi dalam Grup, 350 Juta GIF</h4>
+<div class="dev_blog_card_lead">Memperkenalkan editor teks kaya untuk memformat dan menghasilkan teks; Komunitas Telegram yang menggandengkan beberapa grup, channel, dan…</div>
+</div>
+<div class="dev_blog_card_date">Jul 14, 2026</div>
+</div>
+</a>
+<a class="dev_blog_card_link_wrap" href="/blog/watch-apps-and-more/id">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400535/2/fkUcVRnSU-M.140100.webp/10c066db41f83e6d5e" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">Aplikasi Smartwatch, Teks Kaya untuk Bot, AI Guardian untuk Grup, dan Sebagainya</h4>
+<div class="dev_blog_card_lead">Pembaruan hari ini menghadirkan Telegram di Apple Watch dan smartwatch Android dan menambahkan fitur-fitur seperti teks kaya untuk bot…</div>
+</div>
+<div class="dev_blog_card_date">Jun 11, 2026</div>
+</div>
+</a>
+<a class="dev_blog_card_link_wrap" href="/blog/ai-bot-revolution-11-new-features/id">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400475/2/BwY041V7nZg.149454.webp/873ed0c0321c7633e7" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">Bot AI Tamu, Komunikasi Antar Bot, Percakapan Otomatis, Pencarian Emoji &amp; Stiker 100J+, dan Sebagainya</h4>
+<div class="dev_blog_card_lead">Dalam pembaruan hari ini, Telegram menambahkan lebih dari 10 fitur baru. Pengguna akan dapat…</div>
+</div>
+<div class="dev_blog_card_date">May 7, 2026</div>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer_wrap">
+<div class="footer_columns_wrap footer_desktop">
+<div class="footer_column footer_column_telegram">
+<h5>Telegram</h5>
+<div class="footer_telegram_description">
+</div>
+      Telegram is a cloud-based mobile and desktop messaging app with a focus on security and speed.
+    </div>
+<div class="footer_column">
+<h5>
+<a href="/faq">About</a>
+</h5>
+<ul>
+<li>
+<a href="/faq">FAQ</a>
+</li>
+<li>
+<a href="/privacy">Privacy</a>
+</li>
+<li>
+<a href="/press">Press</a>
+</li>
+</ul>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/apps#mobile-apps">Mobile Apps</a>
+</h5>
+<ul>
+<li>
+<a href="/dl/ios">iPhone/iPad</a>
+</li>
+<li>
+<a href="/android">Android</a>
+</li>
+<li>
+<a href="/dl/web">Mobile Web</a>
+</li>
+</ul>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/apps#desktop-apps">Desktop Apps</a>
+</h5>
+<ul>
+<li>
+<a href="//desktop.telegram.org/">PC/Mac/Linux</a>
+</li>
+<li>
+<a href="//macos.telegram.org/">macOS</a>
+</li>
+<li>
+<a href="/dl/web">Web-browser</a>
+</li>
+</ul>
+</div>
+<div class="footer_column footer_column_platform">
+<h5>
+<a href="//core.telegram.org/">Platform</a>
+</h5>
+<ul>
+<li>
+<a href="//core.telegram.org/api">API</a>
+</li>
+<li>
+<a href="//translations.telegram.org/">Translations</a>
+</li>
+<li>
+<a href="//instantview.telegram.org/">Instant View</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="footer_columns_wrap footer_mobile">
+<div class="footer_column">
+<h5>
+<a href="/faq">About</a>
+</h5>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/blog">Blog</a>
+</h5>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/press">Press</a>
+</h5>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/safety">Safety</a>
+</h5>
+</div>
+</div>
+</div>
+<script src="/js/main.js?49">
+</script>
+<script src="/js/tgsticker.js?32">
+</script>
+<script src="/js/main-theme.js?6">
+</script>
+<script>initScrollVideos(true);
+mainInitTgStickers({"maxDeviceRatio":2,"cachingModulo":4});
+twitterCustomShareInit();
+blogSideImageInit();
+backToTopInit("Go up");
+removePreloadInit();
+</script>
+</body>
+</html>

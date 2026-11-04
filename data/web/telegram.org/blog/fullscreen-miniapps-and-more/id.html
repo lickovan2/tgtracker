@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html class="" data-theme="light">
+<head>
+<meta charset="utf-8">
+<title>Mini App 2.0: Mode Layar Penuh, Ikon Beranda, Geolokasi, dan 10 fitur lainnya</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:title" content="Mini App 2.0: Mode Layar Penuh, Ikon Beranda, Geolokasi, dan 10 fitur lainnya">
+<meta property="og:image" content="https://telegram.org/file/400780400836/1/pf8Tnc3fxBI.260468/01084a12b6e470638c">
+<meta property="og:site_name" content="Telegram">
+<meta property="og:description" content="Hari ini, kami meluncurkan pembaruan terbesar dalam sejarah Mini App. Kami menambahkan mode layar penuh, paket berlangganan, pintasan beranda, pengiriman hadiah, pembagian media, pembuatan dokumen, akses geolokasi, pelacakan gerakan, penyetelan status emoji -- dan masih banyak lagi&#33;">
+<meta property="article:published_time" content="2024-11-17T11:41:02+00:00">
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://telegram.org/file/400780400836/1/pf8Tnc3fxBI.260468/01084a12b6e470638c" />
+<meta property="fb:app_id" content="254098051407226">
+<meta property="vk:app_id" content="3782569">
+<meta name="apple-itunes-app" content="app-id=686449807">
+<meta name="telegram:channel" content="@telegram">
+<link rel="canonical" href="https://telegram.org/blog/fullscreen-miniapps-and-more/id" />
+<link rel="icon" type="image/svg+xml" href="/img/website_icon.svg?4">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="alternate icon" href="/img/favicon.ico" type="image/x-icon" />
+<link href="/css/bootstrap.min.css?3" rel="stylesheet">
+<link href="/css/telegram.css?256" rel="stylesheet" media="screen">
+<link href="/css/telegram-theme.css?9" rel="stylesheet" media="screen">
+</head>
+<body class="preload">
+<div id="fb-root">
+</div>
+<button class="theme-toggle theme-toggle--static" type="button" title="Toggle theme" aria-label="Toggle light/dark theme">
+</button>
+<div class="tl_page_wrap">
+<div class="tl_page_head navbar navbar-static-top navbar navbar-tg">
+<div class="navbar-inner">
+<div class="container clearfix">
+<ul class="nav navbar-nav navbar-right">
+<li class="dropdown top_lang_select">
+<a class="dropdown-toggle" onclick="return dropdownClick(this, event)" href="#">
+<i class="dev_top_lang_icon">
+</i>
+<b class="minicaret">
+</b>
+</a>
+<ul class="dropdown-menu">
+<li class="">
+<a href="?setln=en">English</a>
+</li>
+<li class="long ">
+<a href="?setln=id">Bahasa Indonesia</a>
+</li>
+<li class="long ">
+<a href="?setln=ms">Bahasa Melayu</a>
+</li>
+<li class="">
+<a href="?setln=de">Deutsch</a>
+</li>
+<li class="">
+<a href="?setln=es">Español</a>
+</li>
+<li class="">
+<a href="?setln=fr">Français</a>
+</li>
+<li class="">
+<a href="?setln=it">Italiano</a>
+</li>
+<li class="">
+<a href="?setln=nl">Nederlands</a>
+</li>
+<li class="">
+<a href="?setln=uz">O‘zbek</a>
+</li>
+<li class="">
+<a href="?setln=pl">Polski</a>
+</li>
+<li class="long ">
+<a href="?setln=pt-br">Português (Brasil)</a>
+</li>
+<li class="">
+<a href="?setln=tr">Türkçe</a>
+</li>
+<li class="">
+<a href="?setln=be">Беларуская</a>
+</li>
+<li class="">
+<a href="?setln=ru">Русский</a>
+</li>
+<li class="">
+<a href="?setln=uk">Українська</a>
+</li>
+<li class="">
+<a href="?setln=kk">Қазақша</a>
+</li>
+<li class="">
+<a href="?setln=ar">العربية</a>
+</li>
+<li class="">
+<a href="?setln=fa">فارسی</a>
+</li>
+<li class="">
+<a href="?setln=ko">한국어</a>
+</li>
+</ul>
+</li>
+<li class="navbar-twitter hidden-xs">
+<a href="https://x.com/telegram" target="_blank" data-track="Follow/Twitter" onclick="trackDlClick(this, event)">
+<i class="icon icon-twitter">
+</i> Follow on X</a>
+</li>
+</ul>
+<ul class="nav navbar-nav">
+<li class="">
+<a href="/">Home</a>
+</li>
+<li class="">
+<a href="/faq">FAQ</a>
+</li>
+<li class="">
+<a href="/apps">Apps</a>
+</li>
+<li class="hidden-xs ">
+<a href="//core.telegram.org/api">API</a>
+</li>
+<li class="hidden-xs ">
+<a href="/safety">Safety</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="container clearfix tl_page_container ">
+<div class="tl_page">
+<div class="tl_contest_page_wrap">
+<div class="tl_blog_side_blog">
+<div class="side_blog_wrap">
+<div class="side_blog">
+<a href="/blog" class="side_blog_header">Recent News</a>
+<div class="side_blog_entries">
+<a href="/blog/welcome-messages-buttons-TG-13" class="side_blog_entry">
+<div class="side_blog_date">Aug 25</div>
+<div class="side_blog_title">Welcome Messages, Buttons in Messages and Signed Gifts</div>
+</a>
+<a href="/blog/communities-editor-invisible-messages" class="side_blog_entry">
+<div class="side_blog_date">Jul 14</div>
+<div class="side_blog_title">Rich Text Editor, Communities, Ephemeral Messages in Groups, 350 Million GIFs</div>
+</a>
+<a href="/blog/watch-apps-and-more" class="side_blog_entry">
+<div class="side_blog_date">Jun 11</div>
+<div class="side_blog_title">Smartwatch Apps, Rich Text for Bots, AI Guardians for Groups, and Much More</div>
+</a>
+<a href="/blog/ai-bot-revolution-11-new-features" class="side_blog_entry">
+<div class="side_blog_date">May 7</div>
+<div class="side_blog_title">Guest AI Bots, Bot-to-Bot Chats, Chat Automation, Custom AI Styles, 100M+ Emoji &amp; Sticker Search and Much More</div>
+</a>
+<a href="/blog/ai-editor-mighty-polls-and-more" class="side_blog_entry">
+<div class="side_blog_date">Mar 31</div>
+<div class="side_blog_title">AI Editor, Mighty Polls, Live Photos, Bots Managed by Bots, and More</div>
+</a>
+<a href="/blog/member-tags-disable-sharing-and-more" class="side_blog_entry">
+<div class="side_blog_date">Mar 1</div>
+<div class="side_blog_title">Member Tags, Login with Telegram, Disable Sharing, GIF Editing, Date Formatting, Voting Timestamps</div>
+</a>
+<a href="/blog/crafting-android-design-and-more" class="side_blog_entry">
+<div class="side_blog_date">Feb 9</div>
+<div class="side_blog_title">Android Redesign, Group Ownership Transfer, Gift Crafting, Colored Bot Buttons</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div id="dev_page_content_wrap" class=" ">
+<div class="dev_page_bread_crumbs">
+</div>
+<h1 id="dev_page_title">Mini App 2.0: Mode Layar Penuh, Ikon Beranda, Geolokasi, dan 10 fitur lainnya</h1>
+<blockquote class="blog_lang_original">
+<a href="/blog/fullscreen-miniapps-and-more?ln=r">Baca pengumuman resmi dalam Bahasa Inggris</a>
+</blockquote>
+<div id="dev_page_content">
+<div class="blog_side_image_wrap">
+<picture class="dev_page_tgsticker blog_side_image js-tgsticker_image" style="width:160px;">
+<div style="padding-top:100%">
+</div>
+<source type="application/x-tgsticker" srcset="/file/400780400659/1/X8QynUce4FU.17370/29dde491f46e9b6d84">
+<img src="/file/400780400659/2/0wC0J6QfOS0.22537.png/5fb9f786e4db70fc04" />
+</picture>
+</div>
+<div class="blog_wide_image">
+<a href="/file/400780400141/2/1pxhnZe0Tls.415926.webp/2f307b34a3bbe34dc3" target="_blank">
+<img src="/file/400780400735/3/bkmI2NPDTfg.131944.webp/1e2ab7ed8fd7bcd9b5" srcset="/file/400780400141/2/1pxhnZe0Tls.415926.webp/2f307b34a3bbe34dc3, 1200w" title="" alt="Mini Apps 2.0: Full-Screen Mode, Home Screen Icons, Geolocation and 7 more features"/>
+</a>
+</div>
+<p>Hari ini, kami meluncurkan <strong>pembaruan terbesar</strong> dalam sejarah Mini App. Kami menambahkan mode layar penuh, paket berlangganan, pintasan beranda, pengiriman hadiah, pembagian media, pembuatan dokumen, akses geolokasi, pelacakan gerakan, penyetelan status emoji — dan masih banyak lagi!</p>
+<h4>
+<a class="anchor" name="mode-layar-penuh" href="#mode-layar-penuh">
+<i class="anchor-icon">
+</i>
+</a>Mode Layar Penuh</h4>
+<p>Mini App sekarang dapat menggunakan <strong>layar secara penuh</strong> baik dalam <strong>orientasi portrait</strong> maupun <strong>landscape</strong>. Hal ini memungkinkan aplikasi untuk merancang <strong>game/permainan yang lebih interaktif dan bervariasi</strong> berkat perluasan gestur dan antarmuka.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<div>
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/400780400978/2/DBP3J35bdpk.40489/3d98524f7a0706a481" style="max-width: 600px;" alt="Mode Layar Penuh">
+<source src="/file/400780400987/2/iCXS7IFB7Xs.8013492.mp4/c495193d239ce08990" type="video/mp4">
+</video>
+</div>
+<!--<p>
+</p>-->
+</div>
+<h4>
+<a class="anchor" name="pelacakan-gerakan-perangkat-motion-tracking" href="#pelacakan-gerakan-perangkat-motion-tracking">
+<i class="anchor-icon">
+</i>
+</a>Pelacakan Gerakan Perangkat (Motion Tracking)</h4>
+<p>Mini App dapat menerima informasi <strong>gerakan</strong> perangkat Anda untuk menghadirkan <strong>kontrol yang unik</strong> untuk game/permainan dan <strong>pengalaman VR yang imersif</strong>.               </p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<div>
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/400780400579/5/PfP8hFLhBv8.104935/03e0bc7d20d6ce4d98" style="max-width: 600px;" alt="Pelacakan Gerakan Perangkat">
+<source src="/file/400780400159/2/Kzdm3KQIU18.4723735.mp4/e112d04952765b971a" type="video/mp4">
+</video>
+</div>
+<!--<p>
+</p>-->
+</div>
+<p>Pengembang dapat <strong>mengunci</strong> orientasi layar untuk memastikan tidak terjadinya rotasi saat aplikasi merekam pergerakan perangkat sebagai kendali.</p>
+<h4>
+<a class="anchor" name="pintasan-beranda" href="#pintasan-beranda">
+<i class="anchor-icon">
+</i>
+</a>Pintasan Beranda</h4>
+<p>Anda dapat menempatkan <strong>pintasan langsung</strong> ke Mini App tertentu di <strong>layar beranda</strong> perangkat Anda. Akses permainan dan layanan kesukaan Anda dalam <strong>satu ketukan</strong>.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<div>
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/400780400665/3/ZuHweGNPf7A.70269/25510c5b11eae9f59c" style="max-width: 600px;" alt="Pintasan Beranda">
+<source src="/file/400780400367/2/-_xiH7WxmNQ.4594686.mp4/5cd62ffa43c2e738cf" type="video/mp4">
+</video>
+</div>
+<!--<p>TITLE</p>-->
+</div>
+<h4>
+<a class="anchor" name="akses-geolokasi" href="#akses-geolokasi">
+<i class="anchor-icon">
+</i>
+</a>Akses Geolokasi</h4>
+<p>Anda dapat <strong>membagikan lokasi Anda</strong> dengan Mini App sehingga pengembang dapat membuat <strong>permainan berbasis lokasi</strong> dengan destinasi menarik atau membangun <strong>peta interaktif</strong> untuk berbagai acara.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<div>
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/400780400471/4/NxjzOa07Eyc.38651/62c7f445e0e06a4452" style="max-width: 600px;" alt="Akses Geolokasi">
+<source src="/file/400780400995/4/5X1SreBoHEY.1731682.mp4/0e2f79c91e61b21b58" type="video/mp4">
+</video>
+</div>
+<!--<p>TITLE</p>-->
+</div>
+<blockquote>
+<p>Akses data geolokasi <strong>dinonaktifkan secara bawaan</strong> — Anda harus secara khusus memberikan izin lokasi ke <strong>setiap Mini App</strong> yang Anda percayai.</p>
+</blockquote>
+<h4>
+<a class="anchor" name="hadiah-dari-aplikasi" href="#hadiah-dari-aplikasi">
+<i class="anchor-icon">
+</i>
+</a>Hadiah dari Aplikasi</h4>
+<p>Aplikasi sekarang dapat menggunakan Stars yang mereka punya untuk <strong>mengirim Anda hadiah</strong> sebagai hadiah untuk merayakan pencapaian.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<div>
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/400780400202/4/MSVgIAZ6_rI.103173/ae2e299f54527b86dc" style="max-width: 600px;" alt="Hadiah dari Aplikasi">
+<source src="/file/400780400812/2/d3vTWpiGxlY.1808151.mp4/df11d2454b136a0cf0" type="video/mp4">
+</video>
+</div>
+<!--<p>TITLE</p>-->
+</div>
+<p>Kami juga telah menambahkan <strong>pengaturan privasi</strong> yang mengizinkan Anda mengendalikan siapa saja yang dapat mengirim Anda hadiah yang akan <strong>muncul dalam profil Anda</strong>.</p>
+<!--Hal ini juga memungkinkan pembuatan aplikasi yang dapat membantu Anda mengirim hadiah bersubsidi atau anonim ke pengguna lain.-->
+<!--Ketika mengirim hadiah ke orang lain pada [hari ulang tahunnya](https://telegram.org/blog/my-profile-and-15-more/id?ln=a#ulang-tahun), panel akan menayangkan **hadiah bertema ulang tahun** di atas. Sebagai tambahan, pengguna juga memiliki **pengaturan privasi** yang baru untuk mengendalikan hadiah dari siapa saja yang dapat **muncul dalam profil mereka**.
+
+`media`
+
+> Untuk mengubah hadiah siapa saja yang dapat muncul dalam profil Anda, buka *Pengaturan > Privasi dan Keamanan > Hadiah*.
+
+-->
+<h4>
+<a class="anchor" name="status-emoji-dari-aplikasi" href="#status-emoji-dari-aplikasi">
+<i class="anchor-icon">
+</i>
+</a>Status Emoji dari Aplikasi</h4>
+<p>Dengan pembaruan ini, pengguna Telegram Premium dapat <strong>memasang status emoji</strong> dari dalam Mini App, menunjukkan orang lain bahwa mereka sedang dalam permainan <img class="emoji" src="//telegram.org/img/emoji/40/F09F8EAE.png" width="20" height="20" alt="🎮" /> atau taksi <img class="emoji" src="//telegram.org/img/emoji/40/F09F9A95.png" width="20" height="20" alt="🚕" />.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<div>
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/400780400234/2/uDKud852DCw.39458/e632391b3beadeff09" style="max-width: 600px;" alt="Status Emoji dari Aplikasi">
+<source src="/file/400780400124/6/8n9m2O9VeUI.3087497.mp4/7cb84d10c693d53820" type="video/mp4">
+</video>
+</div>
+<!--<p>TITLE</p>-->
+</div>
+<p>Mini App dapat mengintegrasikan API dari <strong>layanan lainnya</strong>, dengan instan memperbarui status emoji pengguna saat mereka memutar musik <img class="emoji" src="//telegram.org/img/emoji/40/F09F8EB6.png" width="20" height="20" alt="🎶" />, membuka buku <img class="emoji" src="//telegram.org/img/emoji/40/F09F939A.png" width="20" height="20" alt="📚" />, atau menyalakan film <img class="emoji" src="//telegram.org/img/emoji/40/F09F8DBF.png" width="20" height="20" alt="🍿" />.</p>
+<p>Aplikasi dengan <a href="#akses-geolokasi">izin lokasi</a> juga dapat digunakan untuk <strong>memperbarui status Anda</strong> saat Anda bekerja <img class="emoji" src="//telegram.org/img/emoji/40/F09F92BC.png" width="20" height="20" alt="💼" /> atau berlibur <img class="emoji" src="//telegram.org/img/emoji/40/F09F8F96.png" width="20" height="20" alt="🏖" />.</p>
+<blockquote>
+<p>Pengembang dapat membuat <a href="https://core.telegram.org/stickers#animated-stickers-and-emoji">paket kustom emoji</a> mereka sendiri untuk ditawarkan sebagai opsi status, meningkatkan <strong>potensi</strong> aplikasi mini menjadi <strong>viral</strong>.</p>
+</blockquote>
+<h4>
+<a class="anchor" name="pembagian-media" href="#pembagian-media">
+<i class="anchor-icon">
+</i>
+</a>Pembagian Media</h4>
+<p>Anda kini dapat membagikan media langsung dari dalam <strong>Mini App</strong> — mengirim <strong>kode rujukan (referral code)</strong>, meme kustom, dan banyak kreasi lainnya ke <strong>obrolan apa pun</strong>.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<div>
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/400780400834/4/CMJLT3B0KV0.120338/ed91037a804d009c3b" style="max-width: 600px;" alt="Media Sharing">
+<source src="/file/400780400591/1/4qe849xUzik.3804401.mp4/30d752d975f834f124" type="video/mp4">
+</video>
+</div>
+<!--<p>
+</p>-->
+</div>
+<blockquote>
+<p>Mini App dapat juga menciptakan media bagi Anda untuk diposting <a href="https://telegram.org/blog/w3-browser-mini-app-store/id?ln=a#fungsi-bagikan-dari-mini-app-ke-cerita">dalam cerita</a>.</p>
+</blockquote>
+<h4>
+<a class="anchor" name="pembuatan-dokumen" href="#pembuatan-dokumen">
+<i class="anchor-icon">
+</i>
+</a>Pembuatan Dokumen</h4>
+<p>Mini App juga dapat membuat dokumen dan berkat yang dapat Anda unduh — seperti foto profil atau berkas audio yang dihasilkan AI.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<div>
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/400780400040/2/oqh87lVOVYM.37106/8864a07b1b2da5ba7c" style="max-width: 600px;" alt="Pembuatan Dokumen">
+<source src="/file/400780400228/5/vmw5F-lsffk.3558116.mp4/c34b9149f04cecce0c" type="video/mp4">
+</video>
+</div>
+<!--<p>TITLE</p>-->
+</div>
+<h4>
+<a class="anchor" name="paket-berlangganan" href="#paket-berlangganan">
+<i class="anchor-icon">
+</i>
+</a>Paket Berlangganan</h4>
+<p>Pengembang dapat menghadirkan <strong>fitur berlangganan</strong> dalam Mini App mereka menggunakan Telegram Stars, <strong>memonetisasi usaha mereka</strong> dengan berbagai tingkat konten dan fitur.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<div>
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/400780400439/3/fsIQBVDv8iM.42498/fb93eac0593624c6ff" style="max-width: 600px;" alt="Paket Berlangganan untuk Mini App">
+<source src="/file/400780400502/3/yVyvz2IBzwk.3397983.mp4/b34526a4a87a0e18cc" type="video/mp4">
+</video>
+</div>
+<!--<p>TITLE</p>-->
+</div>
+<p>Telegram Stars yang didapatkan dari <strong>produk digital</strong> dan <strong>langganan</strong> dapat digunakan untuk <a href="https://telegram.org/blog/dynamic-video-quality-and-more/id?ln=a#peningkatan-limit-pesan-bagi-bot">meningkatkan limit pesan</a> aplikasi atau untuk <a href="https://telegram.org/blog/mini-app-bar-paid-media-and-more/id?ln=a#hadiah-toncoin">mengambil hadiah</a>.</p>
+<blockquote>
+<p>Pengembang juga berhak <strong>mendapatkan hadiah</strong> dari Iklan Telegram dalam <a href="https://telegram.org/blog/dynamic-video-quality-and-more/id?ln=a#iklan-telegram-dalam-bot">bot dan Mini App</a>
+</p>
+</blockquote>
+<h4>
+<a class="anchor" name="kustomisasi-layar-muat-loading-screen" href="#kustomisasi-layar-muat-loading-screen">
+<i class="anchor-icon">
+</i>
+</a>Kustomisasi Layar Muat (Loading Screen)</h4>
+<p>Pengembang dapat lebih lanjut kustomisasi <strong>layar muat</strong> Mini App mereka dalam <a href="https://t.me/botfather">@BotFather</a> — menambahkan <strong>ikon mereka sendiri</strong> dan <strong>warna tertentu</strong> yang akan ditampilkan sebelum aplikasi mulai memuat.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<div>
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/400780400835/2/aRhKl3FcZ3E.36465/301b9f47850fd6a489" style="max-width: 600px;" alt="Kustomisasi Layar Muat">
+<source src="/file/400780400886/3/bjpTPLexlrk.1338212.mp4/77874dd70d1c0099e1" target="_blank" type="video/mp4">
+</video>
+</div>
+<!--<p>TITLE</p>-->
+</div>
+<h4>
+<a class="anchor" name="info-perangkat-keras-perangkat" href="#info-perangkat-keras-perangkat">
+<i class="anchor-icon">
+</i>
+</a>Info Perangkat Keras Perangkat</h4>
+<p>Untuk <strong>mengoptimalkan grafis</strong> dan <strong>meningkatkan performa</strong> dengan lebih baik, Mini App dapat mengakses <strong>informasi perangkat keras dasar</strong> perangkat Anda, seperti daya pemrosesan dan kapasitas memori — lalu <strong>secara otomatis menyesuaikan</strong> pengaturan untuk pengalaman terbaik.</p>
+<h4>
+<a class="anchor" name="dan-sebagainya" href="#dan-sebagainya">
+<i class="anchor-icon">
+</i>
+</a>Dan Sebagainya</h4>
+<p>Pengembang kini dapat mengetahui kapan Mini App mereka diminimalkan dan diperbesar kembali dari <a href="https://telegram.org/blog/mini-app-bar-paid-media-and-more#mini-app-bar">Mini App Bar</a> dan memastikan transisi ditangani dengan benar.</p>
+<blockquote>
+<p>Jika Anda seorang pengembang, kunjungi <a href="https://core.telegram.org/bots/api-changelog#november-17-2024">halaman ini</a> untuk dokumentasi dan daftar perubahan penuh, termasuk cara yang baru bagi Mini App untuk mengakses foto profil serta dukungan validasi pihak ketiga data Mini App.</p>
+</blockquote>
+<!--
+###Square Video, 600x600
+
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<div>
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="PHOTO" style="max-width: 600px;" alt="TITLE">
+<source src="VIDEO" type="video/mp4">
+</video>
+</div>
+<p>TITLE</p>
+</div>
+-->
+<p>Semua orang sudah bisa mencoba implementasi awal dari beberapa fitur baru di atas di aplikasi seperti <a href="https://t.me/playdeckbot">@playdeckbot</a>, <a href="https://t.me/tverse">@tverse</a>, dan <a href="https://t.me/major">@major</a> (game <em>Major Maze</em> di tab <em>Game</em>).</p>
+<p>Demikian semuanya untuk pembaruan hari ini. Kami telah memulai mengerjakan hal besar berikutnya untuk Mini App dan selebihnya.</p>
+<div>
+<br>
+</div>
+<p>
+<em>17 November 2024<br>Tim Telegram</em>
+</p>
+<!--
+###Square Video, 600x600
+
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<div>
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="PHOTO" style="max-width: 600px;" alt="TITLE">
+<source src="VIDEO" type="video/mp4">
+</video>
+</div>
+<p>TITLE</p>
+</div>
+-->
+<!--
+###Image, 600x600
+
+<div class="blog_image_wrap blog_wide_image_wrap">
+<a href="LARGE" target="_blank">
+<img src="SMALL" title="TITLE" alt="TITLE" srcset="LARGE , 2x" />
+</a>
+<p>TITLE</p>
+</div>
+-->
+</div>
+</div>
+<div class="tl_main_share clearfix">
+<a href="https://t.me/share/url?url=https%3A%2F%2Ftelegram.org%2Fblog%2Ffullscreen-miniapps-and-more%2Fid&text=Hari%20ini%2C%20kami%20meluncurkan%20pembaruan%20terbesar%20dalam%20sejarah%20Mini%20App.%20Kami%20menambahkan%20mode%20layar%20penuh%2C%20paket%20berlangganan%2C%20pintasan%20beranda%2C%20pengiriman%20hadiah%2C%20pembagian%20media%2C%20pembuatan%20dokumen%2C%20akses%20geolokasi%2C%20pelacakan%20gerakan%2C%20penyetelan%20status%20emoji%20--%20dan%20masih%20banyak%20lagi%21" class="tl_telegram_share_btn" id="tl_telegram_share_btn" data-text="Hari ini, kami meluncurkan pembaruan terbesar dalam sejarah Mini App. Kami menambahkan mode layar penuh, paket berlangganan, pintasan beranda, pengiriman hadiah, pembagian media, pembuatan dokumen, akses geolokasi, pelacakan gerakan, penyetelan status emoji -- dan masih banyak lagi&#33;" data-url="https://telegram.org/blog/fullscreen-miniapps-and-more/id">
+<i class="tl_telegram_share_icon">
+</i>
+<span class="tl_telegram_share_label" target="_blank">Forward</span>
+</a>
+<a href="https://twitter.com/share" class="tl_twitter_share_btn" id="tl_twitter_share_btn" data-text="Hari ini, kami meluncurkan pembaruan terbesar dalam sejarah Mini App. Kami menambahkan mode layar penuh, paket berlangganan, pintasan beranda, pengiriman hadiah, pembagian media, pembuatan dokumen, akses geolokasi, pelacakan gerakan, penyetelan status emoji -- dan masih banyak lagi&#33;" data-url="https://telegram.org/blog/fullscreen-miniapps-and-more/id" data-via="Telegram">Tweet <span class="tl_twitter_share_cnt">
+</span>
+</a>
+</div>
+</div>
+<div class="tl_main_recent_news_wrap tlb_other_news_wrap tl_blog_list_page_wrap">
+<h3 class="tl_main_recent_news_header">
+<a href="/blog">Other News</a>
+</h3>
+<div class="tl_main_recent_news_cards clearfix">
+<a class="dev_blog_card_link_wrap" href="/blog/welcome-messages-buttons-TG-13/id">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400741/6/aFBFZ5lNqO8.66680.webp/0e567958d5b96a2184" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">Pesan Sambutan, Tombol dalam Pesan, dan Hadiah dengan Salam</h4>
+<div class="dev_blog_card_lead">Memperkenalkan Pesan Sambutan untuk sapa anggota baru grup atau channel, Tombol dalam Pesan untuk buat teks interaktif, Dokumen Sebaris…</div>
+</div>
+<div class="dev_blog_card_date">Aug 25, 2026</div>
+</div>
+</a>
+<a class="dev_blog_card_link_wrap" href="/blog/communities-editor-invisible-messages/id">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400366/6/dI0zgi0mM5s.323818.webp/6a362dadee6e7e6011" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">Editor Teks Kaya, Komunitas, Pesan Tersembunyi dalam Grup, 350 Juta GIF</h4>
+<div class="dev_blog_card_lead">Memperkenalkan editor teks kaya untuk memformat dan menghasilkan teks; Komunitas Telegram yang menggandengkan beberapa grup, channel, dan…</div>
+</div>
+<div class="dev_blog_card_date">Jul 14, 2026</div>
+</div>
+</a>
+<a class="dev_blog_card_link_wrap" href="/blog/watch-apps-and-more/id">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400535/2/fkUcVRnSU-M.140100.webp/10c066db41f83e6d5e" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">Aplikasi Smartwatch, Teks Kaya untuk Bot, AI Guardian untuk Grup, dan Sebagainya</h4>
+<div class="dev_blog_card_lead">Pembaruan hari ini menghadirkan Telegram di Apple Watch dan smartwatch Android dan menambahkan fitur-fitur seperti teks kaya untuk bot…</div>
+</div>
+<div class="dev_blog_card_date">Jun 11, 2026</div>
+</div>
+</a>
+<a class="dev_blog_card_link_wrap" href="/blog/ai-bot-revolution-11-new-features/id">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400475/2/BwY041V7nZg.149454.webp/873ed0c0321c7633e7" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">Bot AI Tamu, Komunikasi Antar Bot, Percakapan Otomatis, Pencarian Emoji &amp; Stiker 100J+, dan Sebagainya</h4>
+<div class="dev_blog_card_lead">Dalam pembaruan hari ini, Telegram menambahkan lebih dari 10 fitur baru. Pengguna akan dapat…</div>
+</div>
+<div class="dev_blog_card_date">May 7, 2026</div>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer_wrap">
+<div class="footer_columns_wrap footer_desktop">
+<div class="footer_column footer_column_telegram">
+<h5>Telegram</h5>
+<div class="footer_telegram_description">
+</div>
+      Telegram is a cloud-based mobile and desktop messaging app with a focus on security and speed.
+    </div>
+<div class="footer_column">
+<h5>
+<a href="/faq">About</a>
+</h5>
+<ul>
+<li>
+<a href="/faq">FAQ</a>
+</li>
+<li>
+<a href="/privacy">Privacy</a>
+</li>
+<li>
+<a href="/press">Press</a>
+</li>
+</ul>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/apps#mobile-apps">Mobile Apps</a>
+</h5>
+<ul>
+<li>
+<a href="/dl/ios">iPhone/iPad</a>
+</li>
+<li>
+<a href="/android">Android</a>
+</li>
+<li>
+<a href="/dl/web">Mobile Web</a>
+</li>
+</ul>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/apps#desktop-apps">Desktop Apps</a>
+</h5>
+<ul>
+<li>
+<a href="//desktop.telegram.org/">PC/Mac/Linux</a>
+</li>
+<li>
+<a href="//macos.telegram.org/">macOS</a>
+</li>
+<li>
+<a href="/dl/web">Web-browser</a>
+</li>
+</ul>
+</div>
+<div class="footer_column footer_column_platform">
+<h5>
+<a href="//core.telegram.org/">Platform</a>
+</h5>
+<ul>
+<li>
+<a href="//core.telegram.org/api">API</a>
+</li>
+<li>
+<a href="//translations.telegram.org/">Translations</a>
+</li>
+<li>
+<a href="//instantview.telegram.org/">Instant View</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="footer_columns_wrap footer_mobile">
+<div class="footer_column">
+<h5>
+<a href="/faq">About</a>
+</h5>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/blog">Blog</a>
+</h5>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/press">Press</a>
+</h5>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/safety">Safety</a>
+</h5>
+</div>
+</div>
+</div>
+<script src="/js/main.js?49">
+</script>
+<script src="/js/tgsticker.js?32">
+</script>
+<script src="/js/main-theme.js?6">
+</script>
+<script>initScrollVideos(true);
+mainInitTgStickers({"maxDeviceRatio":2,"cachingModulo":4});
+twitterCustomShareInit();
+blogSideImageInit();
+backToTopInit("Go up");
+removePreloadInit();
+</script>
+</body>
+</html>

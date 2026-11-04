@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html class="" data-theme="light">
+<head>
+<meta charset="utf-8">
+<title>Редактор стикеров — создавайте свои стикеры</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:title" content="Редактор стикеров — создавайте свои стикеры">
+<meta property="og:image" content="https://telegram.org/file/400780400906/1/nG_ME-jFfII.256820/2569601ad1ecf4c3c2">
+<meta property="og:site_name" content="Telegram">
+<meta property="og:description" content="С сегодняшнего дня все пользователи могут легко и быстро создавать собственные стикеры и целые наборы стикеров с помощью нового мощного редактора прямо в Telegram.">
+<meta property="article:published_time" content="2024-04-14T12:37:40+00:00">
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://telegram.org/file/400780400906/1/nG_ME-jFfII.256820/2569601ad1ecf4c3c2" />
+<meta property="fb:app_id" content="254098051407226">
+<meta property="vk:app_id" content="3782569">
+<meta name="apple-itunes-app" content="app-id=686449807">
+<meta name="telegram:channel" content="@telegram">
+<link rel="canonical" href="https://telegram.org/blog/sticker-maker/ru" />
+<link rel="icon" type="image/svg+xml" href="/img/website_icon.svg?4">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="alternate icon" href="/img/favicon.ico" type="image/x-icon" />
+<link href="/css/bootstrap.min.css?3" rel="stylesheet">
+<link href="/css/telegram.css?256" rel="stylesheet" media="screen">
+<link href="/css/telegram-theme.css?9" rel="stylesheet" media="screen">
+</head>
+<body class="preload">
+<div id="fb-root">
+</div>
+<button class="theme-toggle theme-toggle--static" type="button" title="Toggle theme" aria-label="Toggle light/dark theme">
+</button>
+<div class="tl_page_wrap">
+<div class="tl_page_head navbar navbar-static-top navbar navbar-tg">
+<div class="navbar-inner">
+<div class="container clearfix">
+<ul class="nav navbar-nav navbar-right">
+<li class="dropdown top_lang_select">
+<a class="dropdown-toggle" onclick="return dropdownClick(this, event)" href="#">
+<i class="dev_top_lang_icon">
+</i>
+<b class="minicaret">
+</b>
+</a>
+<ul class="dropdown-menu">
+<li class="">
+<a href="?setln=en">English</a>
+</li>
+<li class="long ">
+<a href="?setln=id">Bahasa Indonesia</a>
+</li>
+<li class="long ">
+<a href="?setln=ms">Bahasa Melayu</a>
+</li>
+<li class="">
+<a href="?setln=de">Deutsch</a>
+</li>
+<li class="">
+<a href="?setln=es">Español</a>
+</li>
+<li class="">
+<a href="?setln=fr">Français</a>
+</li>
+<li class="">
+<a href="?setln=it">Italiano</a>
+</li>
+<li class="">
+<a href="?setln=nl">Nederlands</a>
+</li>
+<li class="">
+<a href="?setln=uz">O‘zbek</a>
+</li>
+<li class="">
+<a href="?setln=pl">Polski</a>
+</li>
+<li class="long ">
+<a href="?setln=pt-br">Português (Brasil)</a>
+</li>
+<li class="">
+<a href="?setln=tr">Türkçe</a>
+</li>
+<li class="">
+<a href="?setln=be">Беларуская</a>
+</li>
+<li class="">
+<a href="?setln=ru">Русский</a>
+</li>
+<li class="">
+<a href="?setln=uk">Українська</a>
+</li>
+<li class="">
+<a href="?setln=kk">Қазақша</a>
+</li>
+<li class="">
+<a href="?setln=ar">العربية</a>
+</li>
+<li class="">
+<a href="?setln=fa">فارسی</a>
+</li>
+<li class="">
+<a href="?setln=ko">한국어</a>
+</li>
+</ul>
+</li>
+<li class="navbar-twitter hidden-xs">
+<a href="https://x.com/telegram" target="_blank" data-track="Follow/Twitter" onclick="trackDlClick(this, event)">
+<i class="icon icon-twitter">
+</i> Follow on X</a>
+</li>
+</ul>
+<ul class="nav navbar-nav">
+<li class="">
+<a href="/">Home</a>
+</li>
+<li class="">
+<a href="/faq">FAQ</a>
+</li>
+<li class="">
+<a href="/apps">Apps</a>
+</li>
+<li class="hidden-xs ">
+<a href="//core.telegram.org/api">API</a>
+</li>
+<li class="hidden-xs ">
+<a href="/safety">Safety</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="container clearfix tl_page_container ">
+<div class="tl_page">
+<div class="tl_contest_page_wrap">
+<div class="tl_blog_side_blog">
+<div class="side_blog_wrap">
+<div class="side_blog">
+<a href="/blog" class="side_blog_header">Recent News</a>
+<div class="side_blog_entries">
+<a href="/blog/welcome-messages-buttons-TG-13" class="side_blog_entry">
+<div class="side_blog_date">Aug 25</div>
+<div class="side_blog_title">Welcome Messages, Buttons in Messages and Signed Gifts</div>
+</a>
+<a href="/blog/communities-editor-invisible-messages" class="side_blog_entry">
+<div class="side_blog_date">Jul 14</div>
+<div class="side_blog_title">Rich Text Editor, Communities, Ephemeral Messages in Groups, 350 Million GIFs</div>
+</a>
+<a href="/blog/watch-apps-and-more" class="side_blog_entry">
+<div class="side_blog_date">Jun 11</div>
+<div class="side_blog_title">Smartwatch Apps, Rich Text for Bots, AI Guardians for Groups, and Much More</div>
+</a>
+<a href="/blog/ai-bot-revolution-11-new-features" class="side_blog_entry">
+<div class="side_blog_date">May 7</div>
+<div class="side_blog_title">Guest AI Bots, Bot-to-Bot Chats, Chat Automation, Custom AI Styles, 100M+ Emoji &amp; Sticker Search and Much More</div>
+</a>
+<a href="/blog/ai-editor-mighty-polls-and-more" class="side_blog_entry">
+<div class="side_blog_date">Mar 31</div>
+<div class="side_blog_title">AI Editor, Mighty Polls, Live Photos, Bots Managed by Bots, and More</div>
+</a>
+<a href="/blog/member-tags-disable-sharing-and-more" class="side_blog_entry">
+<div class="side_blog_date">Mar 1</div>
+<div class="side_blog_title">Member Tags, Login with Telegram, Disable Sharing, GIF Editing, Date Formatting, Voting Timestamps</div>
+</a>
+<a href="/blog/crafting-android-design-and-more" class="side_blog_entry">
+<div class="side_blog_date">Feb 9</div>
+<div class="side_blog_title">Android Redesign, Group Ownership Transfer, Gift Crafting, Colored Bot Buttons</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div id="dev_page_content_wrap" class=" ">
+<div class="dev_page_bread_crumbs">
+</div>
+<h1 id="dev_page_title">Редактор стикеров — создавайте свои стикеры</h1>
+<blockquote class="blog_lang_original">
+<a href="/blog/sticker-maker?ln=r">Читать в оригинале на английском</a>
+</blockquote>
+<div id="dev_page_content">
+<div class="blog_side_image_wrap">
+<picture class="dev_page_tgsticker blog_side_image js-tgsticker_image" style="width:160px;">
+<div style="padding-top:100%">
+</div>
+<source type="application/x-tgsticker" srcset="/file/400780400696/2/NABhQD_E72Y.17755/286307d744547d7e57">
+<img src="/file/400780400696/3/wM1ZiEBvCl0.28499.png/3da12629baed252c85" />
+</picture>
+</div>
+<div class="blog_wide_image">
+<a href="/file/400780400871/4/q9zdwRLX6RY.341490.webp/dc471636ccb0748dbc" target="_blank">
+<img src="/file/400780400016/3/Tj1KUF-3Tds.114474.webp/265a8ce297ffb38c8a" srcset="/file/400780400871/4/q9zdwRLX6RY.341490.webp/dc471636ccb0748dbc, 1200w" title="" alt="Редактор стикеров"/>
+</a>
+</div>
+<p>С сегодняшнего дня все пользователи могут легко и быстро создавать <strong>собственные стикеры</strong> и целые <strong>наборы стикеров</strong> с помощью нового <strong>мощного редактора</strong> прямо в Telegram.</p>
+<h4>
+<a class="anchor" name="sozdanie-stikera" href="#sozdanie-stikera">
+<i class="anchor-icon">
+</i>
+</a>Создание стикера</h4>
+<p>Возьмите <strong>любую фотографию</strong> и добавьте к ней <strong>надпись</strong>, <strong>рисунок</strong> или любые <strong>анимированные стикеры</strong>, <strong>эмодзи</strong> и <strong>GIF</strong>, уже существующие на платформе Telegram. Превратить Вашего кота в произведение искусства никогда не было так просто.</p>
+<!--«превратить пса в палимпсест»-->
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/400780400092/3/De_kw7Y6soc.42920/d7985249c460031b98" style="max-width: 600px;" title="" alt="Создание стикера">
+<source src="/file/400780400575/1/RiTI5hhBHxs.5364408.mp4/fc4535d49ea0d8c0ec" type="video/mp4">
+</video>
+</div>
+<p>Одним касанием Вы можете <strong>вырезать объект</strong> на фотографии и убрать фон. Также можно <strong>удалять</strong> и <strong>восстанавливать</strong> части фотографии вручную. К вырезанному объекту можно добавить классический белый <strong>контур</strong>.</p>
+<div class="blog_image_wrap blog_wide_image_wrap">
+<a href="/file/400780400793/3/OTp3UjWz9a0.140239/76b2ae611f6f0e9433" target="_blank">
+<img src="/file/400780400793/3/OTp3UjWz9a0.140239/76b2ae611f6f0e9433" title="" alt="Кнопка для перехода к редактору стикеров" srcset="/file/400780400793/3/OTp3UjWz9a0.140239/76b2ae611f6f0e9433 , 2x" />
+</a>
+</div>
+<blockquote>
+<p>Чтобы создать новый стикер, нажмите на кнопку с изображением стикера в строке ввода в любом чате. В появившейся панели нажмите на кнопку <strong>(+)</strong> для перехода к редактору.</p>
+</blockquote>
+<h4>
+<a class="anchor" name="dobavlenie-stikera-v-nabor" href="#dobavlenie-stikera-v-nabor">
+<i class="anchor-icon">
+</i>
+</a>Добавление стикера в набор</h4>
+<p>Готовый стикер можно сразу отправить — или создать <strong>набор стикеров</strong>, чтобы друзья могли использовать Ваши творения в своих чатах.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/400780400919/2/U2lYVUqrgYM.165093/a8638b8845cbf51a81" style="max-width: 600px;" title="" alt="Добавление стикера в набор">
+<source src="/file/400780400593/8/DvM7H4axK64.4832881.mp4/9f58afe487f6d2f42f" type="video/mp4">
+</video>
+</div>
+<p>Чтобы добавить стикер в набор, <strong>выберите эмодзи</strong>, которые подходят ему по настроению. Telegram предложит некоторые эмодзи на основании анализа фотографии с помощью <strong>искусственного интеллекта</strong> — например, кота, собаку или автомобиль.  </p>
+<blockquote>
+<p>В Telegram можно использовать эмодзи для быстрой отправки стикеров: когда Вы добавляете эмодзи в строку ввода, Telegram автоматически предлагает стикеры, которые ему соответствуют.</p>
+</blockquote>
+<h4>
+<a class="anchor" name="rasshirenie-nabora" href="#rasshirenie-nabora">
+<i class="anchor-icon">
+</i>
+</a>Расширение набора</h4>
+<p>С <a href="https://telegram.org/evolution#january-2015">2015</a> года миллионы художников и мемотворцев пользуются открытой платформой Telegram для создания стикеров, чтобы поделиться своими произведениями с пользователями.</p>
+<p>Вы можете добавлять в свои наборы <strong>любые из существующих стикеров</strong>. Например, чтобы собрать вместе любимые — или создавать тематические подборки.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/400780400579/4/rUqlTI1bU-o.23910/895eaff868ceae4a3e" style="max-width: 600px;" title="" alt="Добавление существующих стикеров в набор">
+<source src="/file/400780400864/3/WRJQD5KpEs0.3220743.mp4/7491c537f2df3cbb71" type="video/mp4">
+</video>
+</div>
+<h4>
+<a class="anchor" name="kak-podelitsya-naborom" href="#kak-podelitsya-naborom">
+<i class="anchor-icon">
+</i>
+</a>Как поделиться набором</h4>
+<p>Если Вы хотите <strong>поделиться</strong> своим набором, просто отправьте в чат один из стикеров. Собеседнику достаточно нажать на него, чтобы добавить весь набор. Каждому набору также соответствует <strong>уникальная ссылка</strong> вида <strong>t.me/название</strong>.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/400780400267/2/TFHNOwiiN54.35001/9855647e42d7a8e465" style="max-width: 600px;" title="" alt="Как поделиться набором">
+<source src="/file/400780400204/3/f5g3L4wA-as.3545233.mp4/d9349564763781c847" type="video/mp4">
+</video>
+</div>
+<blockquote>
+<p>В этом обновлении мы также добавили <strong>предпросмотр для ссылок</strong> на наборы стикеров и эмодзи.</p>
+</blockquote>
+<p>В этом месяце мы объявим ещё о <strong>16</strong> новых функциях. Но пока что не будем Вас отвлекать — новые стикеры сами себя не сделают.</p>
+<div>
+<br>
+</div>
+<p>
+<em>14 апреля 2024,<br>Команда Telegram</em>
+</p>
+</div>
+</div>
+<div class="tl_main_share clearfix">
+<a href="https://t.me/share/url?url=https%3A%2F%2Ftelegram.org%2Fblog%2Fsticker-maker%2Fru&text=%D0%A1%20%D1%81%D0%B5%D0%B3%D0%BE%D0%B4%D0%BD%D1%8F%D1%88%D0%BD%D0%B5%D0%B3%D0%BE%20%D0%B4%D0%BD%D1%8F%20%D0%B2%D1%81%D0%B5%20%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D0%B8%20%D0%BC%D0%BE%D0%B3%D1%83%D1%82%20%D0%BB%D0%B5%D0%B3%D0%BA%D0%BE%20%D0%B8%20%D0%B1%D1%8B%D1%81%D1%82%D1%80%D0%BE%20%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D0%B2%D0%B0%D1%82%D1%8C%20%D1%81%D0%BE%D0%B1%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D1%82%D0%B8%D0%BA%D0%B5%D1%80%D1%8B%20%D0%B8%20%D1%86%D0%B5%D0%BB%D1%8B%D0%B5%20%D0%BD%D0%B0%D0%B1%D0%BE%D1%80%D1%8B%20%D1%81%D1%82%D0%B8%D0%BA%D0%B5%D1%80%D0%BE%D0%B2%20%D1%81%20%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D1%8C%D1%8E%20%D0%BD%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D0%BC%D0%BE%D1%89%D0%BD%D0%BE%D0%B3%D0%BE%20%D1%80%D0%B5%D0%B4%D0%B0%D0%BA%D1%82%D0%BE%D1%80%D0%B0%20%D0%BF%D1%80%D1%8F%D0%BC%D0%BE%20%D0%B2%20Telegram." class="tl_telegram_share_btn" id="tl_telegram_share_btn" data-text="С сегодняшнего дня все пользователи могут легко и быстро создавать собственные стикеры и целые наборы стикеров с помощью нового мощного редактора прямо в Telegram." data-url="https://telegram.org/blog/sticker-maker/ru">
+<i class="tl_telegram_share_icon">
+</i>
+<span class="tl_telegram_share_label" target="_blank">Forward</span>
+</a>
+<a href="https://twitter.com/share" class="tl_twitter_share_btn" id="tl_twitter_share_btn" data-text="С сегодняшнего дня все пользователи могут легко и быстро создавать собственные стикеры и целые наборы стикеров с помощью нового мощного редактора прямо в Telegram." data-url="https://telegram.org/blog/sticker-maker/ru" data-via="Telegram">Tweet <span class="tl_twitter_share_cnt">
+</span>
+</a>
+</div>
+</div>
+<div class="tl_main_recent_news_wrap tlb_other_news_wrap tl_blog_list_page_wrap">
+<h3 class="tl_main_recent_news_header">
+<a href="/blog">Other News</a>
+</h3>
+<div class="tl_main_recent_news_cards clearfix">
+<a class="dev_blog_card_link_wrap" href="/blog/welcome-messages-buttons-TG-13/ru">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400741/6/aFBFZ5lNqO8.66680.webp/0e567958d5b96a2184" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">Приветственные сообщения, кнопки в сообщениях и подписи к подаркам</h4>
+<div class="dev_blog_card_lead">В этом обновлении — приветственные сообщения для новых участников групп и каналов, кнопки в сообщениях, которые позволяют сделать любой…</div>
+</div>
+<div class="dev_blog_card_date">Aug 25, 2026</div>
+</div>
+</a>
+<a class="dev_blog_card_link_wrap" href="/blog/communities-editor-invisible-messages/ru">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400366/6/dI0zgi0mM5s.323818.webp/6a362dadee6e7e6011" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">Расширенный текстовый редактор, сообщества, исчезающие сообщения в группах, 350 миллионов GIF-анимаций</h4>
+<div class="dev_blog_card_lead">В сегодняшнем обновлении: расширенный редактор текста для создания и оформления сообщений…</div>
+</div>
+<div class="dev_blog_card_date">Jul 14, 2026</div>
+</div>
+</a>
+<a class="dev_blog_card_link_wrap" href="/blog/watch-apps-and-more/ru">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400535/2/fkUcVRnSU-M.140100.webp/10c066db41f83e6d5e" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">Приложения для смарт-часов, форматирование текста для ботов, ИИ-защитники групп и многое другое</h4>
+<div class="dev_blog_card_lead">В сегодняшнем обновлении — Telegram для Apple Watch и смарт-часов на Android, расширенное…</div>
+</div>
+<div class="dev_blog_card_date">Jun 11, 2026</div>
+</div>
+</a>
+<a class="dev_blog_card_link_wrap" href="/blog/ai-bot-revolution-11-new-features/ru">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400475/2/BwY041V7nZg.149454.webp/873ed0c0321c7633e7" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">Гостевой режим для ИИ-ботов, общение ботов, автоматизация чатов, создание ИИ-стилей, поиск по 100+ млн эмодзи и стикеров и многое другое</h4>
+<div class="dev_blog_card_lead">Сегодня Telegram представляет более 10 нововведений:…</div>
+</div>
+<div class="dev_blog_card_date">May 7, 2026</div>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer_wrap">
+<div class="footer_columns_wrap footer_desktop">
+<div class="footer_column footer_column_telegram">
+<h5>Telegram</h5>
+<div class="footer_telegram_description">
+</div>
+      Telegram is a cloud-based mobile and desktop messaging app with a focus on security and speed.
+    </div>
+<div class="footer_column">
+<h5>
+<a href="/faq">About</a>
+</h5>
+<ul>
+<li>
+<a href="/faq">FAQ</a>
+</li>
+<li>
+<a href="/privacy">Privacy</a>
+</li>
+<li>
+<a href="/press">Press</a>
+</li>
+</ul>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/apps#mobile-apps">Mobile Apps</a>
+</h5>
+<ul>
+<li>
+<a href="/dl/ios">iPhone/iPad</a>
+</li>
+<li>
+<a href="/android">Android</a>
+</li>
+<li>
+<a href="/dl/web">Mobile Web</a>
+</li>
+</ul>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/apps#desktop-apps">Desktop Apps</a>
+</h5>
+<ul>
+<li>
+<a href="//desktop.telegram.org/">PC/Mac/Linux</a>
+</li>
+<li>
+<a href="//macos.telegram.org/">macOS</a>
+</li>
+<li>
+<a href="/dl/web">Web-browser</a>
+</li>
+</ul>
+</div>
+<div class="footer_column footer_column_platform">
+<h5>
+<a href="//core.telegram.org/">Platform</a>
+</h5>
+<ul>
+<li>
+<a href="//core.telegram.org/api">API</a>
+</li>
+<li>
+<a href="//translations.telegram.org/">Translations</a>
+</li>
+<li>
+<a href="//instantview.telegram.org/">Instant View</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="footer_columns_wrap footer_mobile">
+<div class="footer_column">
+<h5>
+<a href="/faq">About</a>
+</h5>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/blog">Blog</a>
+</h5>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/press">Press</a>
+</h5>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/safety">Safety</a>
+</h5>
+</div>
+</div>
+</div>
+<script src="/js/main.js?49">
+</script>
+<script src="/js/tgsticker.js?32">
+</script>
+<script src="/js/main-theme.js?6">
+</script>
+<script>initScrollVideos(true);
+mainInitTgStickers({"maxDeviceRatio":2,"cachingModulo":4});
+twitterCustomShareInit();
+blogSideImageInit();
+backToTopInit("Go up");
+removePreloadInit();
+</script>
+</body>
+</html>

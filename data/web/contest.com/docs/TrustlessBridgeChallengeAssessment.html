@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>TON Trustless Bridge Challenge Assessment  – Developer Challenges</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta name="format-detection" content="telephone=no" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="MobileOptimized" content="176" />
+<meta name="HandheldFriendly" content="True" />
+<meta name="twitter:card" content="summary">
+</meta>
+<meta property="og:title" content="TON Trustless Bridge Challenge Assessment ">
+<meta property="og:description" content="Regularly, when discussing various high-frequency trading, SocialFi, and other tasks, the question of creating a TVM-sidechain…">
+<link rel="shortcut icon" href="/img/cd_favicon.ico" type="image/x-icon" />
+<link rel="mask-icon" href="/img/cd_icon.svg" color="#299ed8">
+<script>document.cookie="stel_dt="+encodeURIComponent((new Date).getTimezoneOffset())+";path=/;max-age=31536000;samesite=None;secure"</script>
+<link href="/css/font-roboto.css?1" rel="stylesheet" type="text/css">
+<link href="/css/bootstrap.min.css?3" rel="stylesheet">
+<link href="/css/bootstrap-extra.css?2" rel="stylesheet">
+<link href="/css/telegram.css?256" rel="stylesheet">
+<link href="/css/contest.css?41" rel="stylesheet">
+<link href="/css/contest-zoo.css?7" rel="stylesheet">
+<link href="/css/jquery-ui.min.css?1" rel="stylesheet">
+</head>
+<body class="emoji_image no-transition">
+<div id="aj_progress" class="progress-bar">
+</div>
+<div id="aj_content">
+<div class="cd-container">
+<header>
+<div class="container">
+<div class="header-wrap">
+<div id="header-panel" class="header-panel">
+<div class="header-auth">
+<div class="header-auth-item">
+<a class="header-auth-link login-link" href="/auth">Login</a>
+</div>
+</div>
+<div class="header-breadcrumb header-breadcrumb-simple">
+<ol id="breadcrumb" class="header-nav breadcrumb">
+<li class="cd-logo">
+<a href="/">
+<i class="cd-icon">
+</i>
+<span class="cd-logo-title">Developer Challenges</span>
+</a>
+</li>
+<li class="active">TON Trustless Bridge Challenge Assessment </li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+</header>
+<main class="container">
+<section class="cd-content">
+<div id="dev_page_content_wrap" class=" ">
+<div class="dev_page_bread_crumbs">
+</div>
+<h1 id="dev_page_title">TON Trustless Bridge Challenge Assessment </h1>
+<div id="dev_page_content">
+<p>Regularly, when discussing various high-frequency trading, SocialFi, and other tasks, the question of creating a TVM-sidechain comes up. Previously, such development stumbled over the fact that those who need a sidechain do not have the expertise to create it, it is unclear where to start looking for a team with expertise, and how to assess the scale of development.</p>
+<p>In this context, this task at the competition had several goals at once:</p>
+<ul>
+<li>Highlight the bright developers in the ecosystem capable of creating secure sidechains and other complex developments that require a profound understanding of how TON works, in particular for subsequent recruitment to various teams, including TON Core.</li>
+<li>Show that even one of the most difficult parts of such a sidechain, the trustless bridge, has finite complexity and can be implemented in a few weeks.</li>
+<li>Raise the level of expertise in proving mechanisms in TON.</li>
+<li>Lower the threshold for creating secure and fast sidechains.<br>We were surprised and very happy to receive many good solutions. Thus, the competition between top-tier solutions was based not only on simple verification but also on additional criteria such as clarity of code, scripts, tests, and documentation.</li>
+</ul>
+<p>At the same time, competing in the contest is not the same task as creating a production-ready solution. There were requirements that may not be expedient for a real bridge but were introduced for unification and simplicity of assessment. For instance, interaction between the lite-client and tx-checker may be implemented in many ways, with the most convenient way yet to be found. Thus, the only part of the interaction we checked for was the authorization of Liteclient on the tx-checker side (thus, dictionary-based query-remembering mechanisms, as well as using the block as proof, etc., are acceptable).<br>The same stands for the lack of convenient tools for end users, the lack of UX optimization, and the verification of additional parameters (for example, transactions in workchains), etc.: having them is nice, but not having them is not a disadvantage.</p>
+<p>There were a few common mistakes present in the solutions. For the sake of understanding our assessment, we will present them here in detail:</p>
+<blockquote>
+<p>
+<strong>Max_main_validators logic:</strong> Masterchain blocks are signed not by all validators but only by main validators, which are the top (by weight) N validators from the whole validator set. N can be parsed from config34. This logic has two consequences: first, you need to only reach 2/3 of main_weight, and second, you should only accept signatures from main validators (signatures of validators below top N should be discarded).</p>
+<p>
+<strong>Signature deduplication:</strong> The contract should not allow the same signature (from the same validator) to be counted in weight two or more times.</p>
+<p>
+<strong>Signature absence resistance:</strong> You should expect that some validators may sometimes misbehave and not generate a signature. The absence of less than 1/3 (by weight) of signatures (even if the signature from the top validator is absent) should not affect block validation.</p>
+<p>
+<strong>Checking prev_key_block, global_id, validator_set, etc.:</strong> Theoretically, proper checks of some additional parameters don’t increase the security of the system compared to just checking that “current validators generated enough signatures.” In practice, such checks are helpful during operation. So, the absence of these checks was taken into account but considered a very minor issue. The same stands for check_block operations.</p>
+</blockquote>
+<p>In the transaction checker, there was a clever-but-insecure optimization. We call it a “hints”-based search, where instead of properly looking up accounts-blocks to find the target account block and then searching inside for the target lt, the contract accepts “hints” about the path to the target transaction (e.g., in the first cell, use the 0th ref; in the next cell, use the 1st ref, and so on) and then just compares the hash of the cell reached with the hash of the transaction.<br>The problem with such a solution is that (without additional checks) it doesn&#39;t guarantee that the path leads to the transaction cell. An attacker can craft a custom transaction cell (never executed on-chain) and then just send it from his wallet somewhere else. This way, the cell containing the attacking transaction will be included in the block as content of the message in one of the transactions. So, the existence of such a cell in an arbitrary place in the BoC does not guarantee that the transaction was executed.<br>The same issue is relevant for a full-cell scan of the block when we just recursively compare the hashes of all cells with a given transaction cell.</p>
+<p>Another common issue with the transaction checker is that the contract checks the proof for a transaction and asks the LC about the correctness of the block but never checks that the proof and block correspond to each other.</p>
+<p>Two solutions tried to implement proving shard-transactions. Unfortunately, it requires a more complicated approach. The thing is that not every shard block is committed to the masterchain directly. Some blocks are committed through their children. There is a maximal length of a chain of blocks not committed to the masterchain, and this length is equal to 8.<br>Proper proof of a shardchain transaction requires up to 5 parts:</p>
+<ul>
+<li>Proof of the transaction&#39;s existence in some shard block.</li>
+<li>Optionally, a chain of shard blocks referencing each other until some block that is committed to the masterchain (can be empty if the block itself is committed but can also contain up to 8 blocks).</li>
+<li>Proof that the tip shard-block is committed to some masterchain block.</li>
+<li>Proof that this masterchain block is a child of the latest known masterchain block (this can be done since the masterchain state has the full list of all masterchain blocks in OldMcBlocksInfo).</li>
+<li>Optionally, proof for the latest block (can be empty if it is already proven).</li>
+</ul>
+<p>Since this logic is quite complicated, we decided not to include it in the task and mentioned that only transactions in the masterchain should be proven. Kudos to those who dared, though.</p>
+</div>
+</div>
+</section>
+</main>
+</div>
+<div class="popup-container login-popup-container hide" id="login-popup-container">
+<div class="popup">
+<div class="popup-body">
+<section>
+<h2>Log In</h2>
+<p>Log in here to leave comments and take part in the Telegram Competitions. Please enter your <b>phone number</b> in the <a target="_blank" rel="noopener" href="https://telegram.org/faq#login-and-sms">international format</a> and we will send a confirmation message to your account via Telegram.</p>
+<form id="send-form" class="login-form">
+<div class="form-group">
+<input type="tel" class="form-control cd-form-control input-lg" id="phone-number" placeholder="+12223334455" autocomplete="off"/>
+</div>
+<div class="popup-buttons">
+<a class="btn btn-link btn-lg login-cancel-btn">Cancel</a>
+<button type="submit" class="btn btn-link btn-lg">Next</button>
+</div>
+</form>
+<div id="login-form" class="hide">
+<div class="form-group">
+<span class="form-control cd-form-control input input-lg input-disabled">
+<strong id="phone-number-field">
+</strong> (<a class="login-back" href="/auth">Incorrect?</a>)</span>
+<p class="help-block dots-animated">We&#39;ve just sent you a message.<br/>Please confirm access via Telegram</p>
+</div>
+<div class="popup-buttons">
+<a class="btn btn-link btn-lg login-cancel-btn">Cancel</a>
+<a class="btn btn-link btn-lg login-back">Back</a>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+</div>
+<script src="/js/jquery.min.js?1">
+</script>
+<script src="/js/bootstrap.min.js">
+</script>
+<script src="/js/main-aj.js?76">
+</script>
+<script src="/js/contest.js?25">
+</script>
+<script src="/js/jquery-ui.min.js?1">
+</script>
+<script src="/js/tgsticker.js?32">
+</script>
+<script>ajInit({"version":701,"apiUrl":"\/api?hash=X","unauth":true});</script>
+<script id="aj_script">Aj._useScrollHack=true;
+Aj.onLoad(function(state) {
+  function requestConfirmation(event) {
+    event && event.preventDefault();
+    var phone = $('#phone-number').val();
+    $.ajax({
+      type: 'POST',
+      url: '/auth/request',
+      data: {
+        phone: phone
+      },
+      success: function(result) {
+        $('#phone-number-field').text(phone);
+        $('#send-form').addClass('hide');
+        $('#login-form').removeClass('hide');
+        checkAuth(result.temp_session);
+      },
+      error: function(xhr) {
+        showAlert(xhr.responseText || 'Server error');
+      },
+      dataType: 'json'
+    });
+    return false;
+  }
+  function cancelConfirmation(event) {
+    event && event.preventDefault();
+    $('#phone-number-field').text('');
+    $('#send-form').removeClass('hide');
+    $('#login-form').addClass('hide');
+    $('#phone-number').focus();
+    clearTimeout(window.authTimeout);
+    return false;
+  }
+  function checkAuth(temp_session) {
+    clearTimeout(window.authTimeout);
+    window.authTimeout = setTimeout(function doCheckAuth() {
+      $.ajax({
+        type: 'POST',
+        url: '/auth/login',
+        data: {
+          temp_session: temp_session
+        },
+        success: function(result) {
+          if (result) {
+            location.reload();
+          } else {
+            checkAuth(temp_session);
+          }
+        },
+        error: function (xhr) {
+          showAlert(xhr.responseText || 'Server error');
+        },
+        dataType: 'json'
+      });
+    }, 700);
+  }
+  $('#login-popup-container').on('popup:open', function() {
+    $('#phone-number').focus();
+  });
+  $('#login-popup-container').on('popup:close', function() {
+    cancelConfirmation();
+    if (location.pathname == '/auth') {
+      window.history && history.replaceState(null, null, '/');
+    }
+  });
+  $('#login-popup-container #send-form').on('submit', requestConfirmation);
+  $('#login-popup-container .login-cancel-btn').on('click', function(e) {
+    e.preventDefault();
+    closePopup('#login-popup-container');
+  });
+  $('#login-popup-container .login-back').on('click', cancelConfirmation);
+  $('.login-link').on('click', function(e) {
+    e.stopImmediatePropagation();
+    e.preventDefault();
+    openPopup('#login-popup-container');
+  });
+});
+Aj.onUnload(function(state) {
+  $('#login-popup-container').off('popup:open');
+  $('#login-popup-container').off('popup:close');
+  $('#login-popup-container #send-form').off('submit');
+  $('#login-popup-container .login-cancel-btn').off('click');
+  $('#login-popup-container .login-back').off('click');
+  $('.login-link').off('click');
+});
+</script>
+<script>Aj.pageLoaded();</script>
+</body>
+</html>

@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html class="" data-theme="light">
+<head>
+<meta charset="utf-8">
+<title>Barra mini app, Media a pagamento, Ricerca storie e altro</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:title" content="Barra mini app, Media a pagamento, Ricerca storie e altro">
+<meta property="og:image" content="https://telegram.org/file/400780400026/1/xwmW8Qofk5M.263566/16218cb12e7549e76b">
+<meta property="og:site_name" content="Telegram">
+<meta property="og:description" content="Il nostro aggiornamento di giugno aggiunge un modo per minimizzare le mini app in una barra compatta, aiuta i creatori di contenuti a monetizzare i loro canali con foto e video a pagamento, e migliora le storie introducendo la ricerca per hashtag o posizione, oltre a un nuovo widget per i link.">
+<meta property="article:published_time" content="2024-06-30T14:08:42+00:00">
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://telegram.org/file/400780400026/1/xwmW8Qofk5M.263566/16218cb12e7549e76b" />
+<meta property="fb:app_id" content="254098051407226">
+<meta property="vk:app_id" content="3782569">
+<meta name="apple-itunes-app" content="app-id=686449807">
+<meta name="telegram:channel" content="@telegram">
+<link rel="canonical" href="https://telegram.org/blog/mini-app-bar-paid-media-and-more/it" />
+<link rel="icon" type="image/svg+xml" href="/img/website_icon.svg?4">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="alternate icon" href="/img/favicon.ico" type="image/x-icon" />
+<link href="/css/bootstrap.min.css?3" rel="stylesheet">
+<link href="/css/telegram.css?256" rel="stylesheet" media="screen">
+<link href="/css/telegram-theme.css?9" rel="stylesheet" media="screen">
+</head>
+<body class="preload">
+<div id="fb-root">
+</div>
+<button class="theme-toggle theme-toggle--static" type="button" title="Toggle theme" aria-label="Toggle light/dark theme">
+</button>
+<div class="tl_page_wrap">
+<div class="tl_page_head navbar navbar-static-top navbar navbar-tg">
+<div class="navbar-inner">
+<div class="container clearfix">
+<ul class="nav navbar-nav navbar-right">
+<li class="dropdown top_lang_select">
+<a class="dropdown-toggle" onclick="return dropdownClick(this, event)" href="#">
+<i class="dev_top_lang_icon">
+</i>
+<b class="minicaret">
+</b>
+</a>
+<ul class="dropdown-menu">
+<li class="">
+<a href="?setln=en">English</a>
+</li>
+<li class="long ">
+<a href="?setln=id">Bahasa Indonesia</a>
+</li>
+<li class="long ">
+<a href="?setln=ms">Bahasa Melayu</a>
+</li>
+<li class="">
+<a href="?setln=de">Deutsch</a>
+</li>
+<li class="">
+<a href="?setln=es">Español</a>
+</li>
+<li class="">
+<a href="?setln=fr">Français</a>
+</li>
+<li class="">
+<a href="?setln=it">Italiano</a>
+</li>
+<li class="">
+<a href="?setln=nl">Nederlands</a>
+</li>
+<li class="">
+<a href="?setln=uz">O‘zbek</a>
+</li>
+<li class="">
+<a href="?setln=pl">Polski</a>
+</li>
+<li class="long ">
+<a href="?setln=pt-br">Português (Brasil)</a>
+</li>
+<li class="">
+<a href="?setln=tr">Türkçe</a>
+</li>
+<li class="">
+<a href="?setln=be">Беларуская</a>
+</li>
+<li class="">
+<a href="?setln=ru">Русский</a>
+</li>
+<li class="">
+<a href="?setln=uk">Українська</a>
+</li>
+<li class="">
+<a href="?setln=kk">Қазақша</a>
+</li>
+<li class="">
+<a href="?setln=ar">العربية</a>
+</li>
+<li class="">
+<a href="?setln=fa">فارسی</a>
+</li>
+<li class="">
+<a href="?setln=ko">한국어</a>
+</li>
+</ul>
+</li>
+<li class="navbar-twitter hidden-xs">
+<a href="https://x.com/telegram" target="_blank" data-track="Follow/Twitter" onclick="trackDlClick(this, event)">
+<i class="icon icon-twitter">
+</i> Follow on X</a>
+</li>
+</ul>
+<ul class="nav navbar-nav">
+<li class="">
+<a href="/">Home</a>
+</li>
+<li class="">
+<a href="/faq">FAQ</a>
+</li>
+<li class="">
+<a href="/apps">Apps</a>
+</li>
+<li class="hidden-xs ">
+<a href="//core.telegram.org/api">API</a>
+</li>
+<li class="hidden-xs ">
+<a href="/safety">Safety</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="container clearfix tl_page_container ">
+<div class="tl_page">
+<div class="tl_contest_page_wrap">
+<div class="tl_blog_side_blog">
+<div class="side_blog_wrap">
+<div class="side_blog">
+<a href="/blog" class="side_blog_header">Recent News</a>
+<div class="side_blog_entries">
+<a href="/blog/welcome-messages-buttons-TG-13" class="side_blog_entry">
+<div class="side_blog_date">Aug 25</div>
+<div class="side_blog_title">Welcome Messages, Buttons in Messages and Signed Gifts</div>
+</a>
+<a href="/blog/communities-editor-invisible-messages" class="side_blog_entry">
+<div class="side_blog_date">Jul 14</div>
+<div class="side_blog_title">Rich Text Editor, Communities, Ephemeral Messages in Groups, 350 Million GIFs</div>
+</a>
+<a href="/blog/watch-apps-and-more" class="side_blog_entry">
+<div class="side_blog_date">Jun 11</div>
+<div class="side_blog_title">Smartwatch Apps, Rich Text for Bots, AI Guardians for Groups, and Much More</div>
+</a>
+<a href="/blog/ai-bot-revolution-11-new-features" class="side_blog_entry">
+<div class="side_blog_date">May 7</div>
+<div class="side_blog_title">Guest AI Bots, Bot-to-Bot Chats, Chat Automation, Custom AI Styles, 100M+ Emoji &amp; Sticker Search and Much More</div>
+</a>
+<a href="/blog/ai-editor-mighty-polls-and-more" class="side_blog_entry">
+<div class="side_blog_date">Mar 31</div>
+<div class="side_blog_title">AI Editor, Mighty Polls, Live Photos, Bots Managed by Bots, and More</div>
+</a>
+<a href="/blog/member-tags-disable-sharing-and-more" class="side_blog_entry">
+<div class="side_blog_date">Mar 1</div>
+<div class="side_blog_title">Member Tags, Login with Telegram, Disable Sharing, GIF Editing, Date Formatting, Voting Timestamps</div>
+</a>
+<a href="/blog/crafting-android-design-and-more" class="side_blog_entry">
+<div class="side_blog_date">Feb 9</div>
+<div class="side_blog_title">Android Redesign, Group Ownership Transfer, Gift Crafting, Colored Bot Buttons</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div id="dev_page_content_wrap" class=" ">
+<div class="dev_page_bread_crumbs">
+</div>
+<h1 id="dev_page_title">Barra mini app, Media a pagamento, Ricerca storie e altro</h1>
+<blockquote class="blog_lang_original">
+<a href="/blog/mini-app-bar-paid-media-and-more?ln=r">Leggi l&#39;annuncio originale in Inglese</a>
+</blockquote>
+<div id="dev_page_content">
+<div class="blog_side_image_wrap">
+<picture class="dev_page_tgsticker blog_side_image js-tgsticker_image" style="width:160px;">
+<div style="padding-top:100%">
+</div>
+<source type="application/x-tgsticker" srcset="/file/400780400992/3/uatrNUZv1s8.8365/0925f4ec656ab40064">
+<img src="/file/400780400992/4/hDfL5m57tPU.24624.png/cd0f8ddccb31a671f9" />
+</picture>
+</div>
+<div class="blog_wide_image">
+<a href="/file/400780400497/5/6Z6OJcxWuEg.384900.webp/706d9f923f9aa3f7ae" target="_blank">
+<img src="/file/400780400402/3/w__p4EpxlRU.132796.webp/ec997822ec7e0d6243" srcset="/file/400780400497/5/6Z6OJcxWuEg.384900.webp/706d9f923f9aa3f7ae, 1200w" title="" alt="Introduciamo la barra delle mini app, i media a pagamento, la ricerca delle storie e altro"/>
+</a>
+</div>
+<p>Il nostro aggiornamento di giugno aggiunge un modo per <strong>minimizzare le mini app</strong> in una <strong>barra compatta</strong>, aiuta i creatori di contenuti a monetizzare i loro canali con <strong>foto e video a pagamento</strong>, e migliora le storie introducendo <strong>la ricerca per hashtag o posizione</strong>, oltre a un nuovo <strong>widget per i link</strong>.</p>
+<p>A partire da oggi, gli sviluppatori di mini app e i creatori di contenuti possono utilizzare le <a href="https://telegram.org/blog/telegram-stars/it">Stelle</a> che hanno guadagnato per <a href="#ricompense-per-creatori-di-contenuti-e-sviluppatori">ricevere ricompense in Toncoin</a>, o acquistare le <strong>Inserzioni di Telegram</strong> a <a href="#inserzioni-agevolate-per-creatori-e-sviluppatori">tariffe speciali scontate</a>.</p>
+<h4>
+<a class="anchor" name="barra-mini-app" href="#barra-mini-app">
+<i class="anchor-icon">
+</i>
+</a>Barra mini app</h4>
+<p>Più di <strong>500 milioni</strong> di utenti Telegram ora interagiscono mensilmente con le mini app per acquistare prodotti, accedere a servizi e <a href="https://t.me/durov/294">giocare</a>.</p>
+<p>A partire da oggi, puoi <strong>ridurre le mini app</strong> in una <strong>barra</strong> nella parte inferiore dello schermo. Questo ti permette di <strong>rispondere ai messaggi</strong> o aprire <strong>altre mini app</strong>, e <strong>tornare</strong> poi a una mini app senza dover aspettare che si carichi di nuovo. </p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<div>
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/400780400287/3/foH2LQqT4CM.33371/9b4b585516eee8d310" style="max-width: 600px;" title="" alt="Barra multitasking mini app">
+<source src="/file/400780400813/2/VxL-AJAImGk.6155854.mp4/fecebdfb4edd40faa3" type="video/mp4">
+</video>
+</div>
+<p>Nel caso in cui tu debba tenere d'occhio qualche criceto. <img class="emoji" src="//telegram.org/img/emoji/40/F09F988C.png" width="20" height="20" alt="😌" />
+</p>
+</div>
+<p>Per minimizzare un&#39;app, semplicemente <em>scorri verso il basso</em> sul suo titolo. Per riaprirla, <em>tocca la barra delle app</em> nella parte bassa dello schermo e seleziona una delle tue app attive.</p>
+<blockquote>
+<p>Se sei uno sviluppatore, consulta <a href="https://core.telegram.org/bots/webapps">questa pagina</a> per i dettagli.</p>
+</blockquote>
+<h4>
+<a class="anchor" name="paga-i-contenuti-con-le-stelle-di-telegram" href="#paga-i-contenuti-con-le-stelle-di-telegram">
+<i class="anchor-icon">
+</i>
+</a>Paga i contenuti con le Stelle di Telegram</h4>
+<p>Il mese scorso abbiamo introdotto le <a href="https://telegram.org/blog/telegram-stars/it">Stelle di Telegram</a> per <strong>acquistare prodotti digitali</strong> nelle mini app.</p>
+<p>Ora, i creatori di contenuti possono <strong>accettare stelle</strong> pubblicando <strong>foto o video a pagamento</strong> sui loro canali. Gli abbonati potranno visualizzare tali post solo dopo aver pagato l&#39;autore per sbloccarli.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<div>
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/400780400191/2/d1Up_PAMRtA.54872/9d7869171e596471c0" style="max-width: 600px;" title="" alt="Paga i contenuti con le Stelle di Telegram">
+<source src="/file/400780400689/3/O_choNcIqzQ.3512508.mp4/70ade9ae08c6c523d7" type="video/mp4">
+</video>
+</div>
+<p>Nel caso in cui tu voglia far pagare le persone per guardare la tua stella marina. <img class="emoji" src="//telegram.org/img/emoji/40/F09F988C.png" width="20" height="20" alt="😌" />
+</p>
+</div>
+<!--If the starfish joke doesn't work in your language, just drop this line.-->
+<p>I creatori possono usare le stelle per ottenere <a href="#ricompense-per-creatori-di-contenuti-e-sviluppatori">ricompense in criptovaluta</a> in Toncoin, o usarle per <a href="#inserzioni-agevolate-per-creatori-e-sviluppatori">pubblicizzare il loro canale</a> e ottenere ancora più abbonati, il tutto con una commissione quasi <strong>pari a 0</strong> da parte di Telegram.</p>
+<h4>
+<a class="anchor" name="ricerca-storie-per-hashtag" href="#ricerca-storie-per-hashtag">
+<i class="anchor-icon">
+</i>
+</a>Ricerca storie per hashtag</h4>
+<p>Toccando un <code>#hashtag</code> in qualsiasi chat puoi <strong>vedere i risultati di ricerca</strong> per quel tag dalle tue chat e dai <strong>canali pubblici</strong>. Con questo aggiornamento, toccando gli hashtag nelle <strong>didascalie delle storie</strong> potrai sfogliare le <strong>storie pubbliche</strong> con i tag corrispondenti.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<div>
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/400780400136/1/DIZNmveEQGM.70542/79bf2097aaa4e7e77f" style="max-width: 600px;" title="" alt="Ricerca storie per hashtag">
+<source src="/file/400780400194/7/fUCubhOpyNk.2959043.mp4/03faa683788ba5cda8" type="video/mp4">
+</video>
+</div>
+<p>Nel caso in cui tu voglia #altro. <img class="emoji" src="//telegram.org/img/emoji/40/F09F988C.png" width="20" height="20" alt="😌" />
+</p>
+</div>
+<p>Se sei un creatore di contenuti o un&#39;azienda, puoi usare gli hashtag per far <strong>crescere il tuo pubblico</strong>, dando agli utenti di Telegram un modo per <strong>scoprire in modo organico</strong> il tuo profilo o canale.</p>
+<blockquote>
+<p>
+<a href="https://telegram.org/blog/telegram-business/it">Telegram Business</a> offre <strong>potenzi funzioni</strong> per creatori e aziende, ed è incluso <strong>gratuitamente</strong> con Telegram Premium.</p>
+</blockquote>
+<h4>
+<a class="anchor" name="ricerca-storie-per-posizione" href="#ricerca-storie-per-posizione">
+<i class="anchor-icon">
+</i>
+</a>Ricerca storie per posizione</h4>
+<p>Gli utenti in vacanza, a un evento, o semplicemente fuori a mangiare possono aggiungere un <strong>tag di posizione</strong> alla loro storia per mostrare agli altri dove trovare viste mozzafiato e prelibatezze.</p>
+<p>Come gli hashtag, toccando un tag di posizione potrai <strong>sfogliare le storie pubbliche</strong> dallo <strong>stesso posto</strong>, così potrai rivivere il concerto di ieri sera o dare un&#39;occhiata alla tua prossima destinazione di viaggio.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<div>
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/400780400429/1/lQrW2e_HnvM.69200/294232cc983a2b7feb" style="max-width: 600px;" title="" alt="Ricerca storie per posizione">
+<source src="/file/400780400454/1/uAiKXd6PlVE.3244570.mp4/aaabb6af9102df4d16" type="video/mp4">
+</video>
+</div>
+<p>Nel caso in cui non fossimo soli nell'Universo. <img class="emoji" src="//telegram.org/img/emoji/40/F09F988C.png" width="20" height="20" alt="😌" />
+</p>
+</div>
+<p>Solo le storie che sei <strong>autorizzato a vedere</strong> appaiono nelle ricerche per hashtag o posizione. Le storie private <strong>non appaino mai</strong> nei risultati di ricerca.</p>
+<h4>
+<a class="anchor" name="widget-per-i-link-nelle-storie" href="#widget-per-i-link-nelle-storie">
+<i class="anchor-icon">
+</i>
+</a>
+<img class="icon" src="/file/464001305/110b0/-bpC5P3HJp4.6317/a2b79589744c739331" alt="Premium:"> Widget per i link nelle storie</h4>
+<p>Gli utenti Premium possono far risaltare un link aggiungendo un <strong>widget per i link</strong> alle loro storie. Questo crea un <strong>elegante anteprima del link</strong> sulla tua foto o video, e supporta sia gli <strong>sfondi chiari</strong> che <strong>scuri</strong> per adattarsi ai tuoi media.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<div>
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/400780400376/5/2qUuJVxwxtY.89516/30b8e83b8c05e4d899" style="max-width: 600px;" title="" alt="Widget per i link nelle storie">
+<source src="/file/400780400492/3/kURSCiYq7js.6323795.mp4/f89f865e0f82f2ba43" type="video/mp4">
+</video>
+</div>
+<p>Nel dubbio, un link enorme è meglio di 1000 immagini. <img class="emoji" src="//telegram.org/img/emoji/40/F09F988C.png" width="20" height="20" alt="😌" />
+</p>
+</div>
+<!--This plays with the idea of "a picture is better than a 1000 words".-->
+<p>Il widget per i link ti permette di aggiungere un <strong>nome personalizzato al link</strong>, che sostituisce il testo dell&#39;URL nella parte superiore dell&#39;anteprima.</p>
+<h4>
+<a class="anchor" name="ricompense-per-creatori-di-contenuti-e-sviluppatori" href="#ricompense-per-creatori-di-contenuti-e-sviluppatori">
+<i class="anchor-icon">
+</i>
+</a>Ricompense per creatori di contenuti e sviluppatori</h4>
+<p>Gli sviluppatori di bot che offrono <strong>beni e servizi digitali</strong> e i creatori che <strong>monetizzano</strong> i loro canali con <a href="#paga-i-contenuti-con-le-stelle-di-telegram">post a pagamento</a> ora possono usare le <a href="https://telegram.org/blog/telegram-stars/it">Stelle di Telegram</a> che guadagnano per ricevere <a href="#ricompense-in-toncoin">ricompense in Toncoin</a> o <a href="#inserzioni-agevolate-per-creatori-e-sviluppatori">acquistare Inserzioni di Telegram</a>.</p>
+<p>Telegram non prende praticamente <strong>alcuna commissione</strong> dalle transazioni in stelle, quindi saranno applicate solo le <strong>tasse</strong> e le <strong>commissioni del sistema di pagamento</strong>. Quando trasferisci le stelle nel tuo account per le inserzioni di Telegram, Telegram aggiunge persino uno <strong>sconto del 30%</strong> per coprire tutte le commissioni del sistema di pagamento di terze parti.</p>
+<h4>
+<a class="anchor" name="ricompense-in-toncoin" href="#ricompense-in-toncoin">
+<i class="anchor-icon">
+</i>
+</a>Ricompense in Toncoin</h4>
+<p>Se il tuo canale o bot ha delle stelle nel suo saldo, puoi ritirarle come <strong>ricompensa Toncoin</strong> tramite <a href="https://fragment.com/">Fragment</a>. I Toncoin sono la valuta principale su <strong>The Open Network</strong>, la <a href="https://t.me/durov/232">blockchain più veloce del mondo</a>. Puoi facilmente <a href="https://ton.org/en/buy-toncoin?filters[exchange_groups][slug][$eq]=exchange-with-your-crypto&amp;pagination[page]=1&amp;pagination[pageSize]=100">scambiarli</a> con qualsiasi altra criptovaluta.</p>
+<div class="blog_image_wrap blog_wide_image_wrap">
+<a href="/file/400780400296/3/gxdJYNSAgsg.335683/d6be0165da6f79d605" target="_blank">
+<img src="/file/400780400296/3/gxdJYNSAgsg.335683/d6be0165da6f79d605" title="" alt="Ricompense in Toncoin" srcset="/file/400780400296/3/gxdJYNSAgsg.335683/d6be0165da6f79d605 , 2x">
+</a>
+<p>Nel caso in cui raccogliere stelle non fosse il tuo obiettivo finale. <img class="emoji" src="//telegram.org/img/emoji/40/F09F988C.png" width="20" height="20" alt="😌" />
+</p>
+</div>
+<blockquote>
+<p>Per visualizzare il saldo delle stelle del tuo <strong>bot</strong>, apri il suo <em>Profilo &gt; tocca “Modifica” &gt; Saldo</em>. Per i <strong>canali</strong>, vai sul loro <em>Profilo &gt; Statistiche &gt; Monetizzazione</em>.</p>
+</blockquote>
+<h4>
+<a class="anchor" name="inserzioni-agevolate-per-creatori-e-sviluppatori" href="#inserzioni-agevolate-per-creatori-e-sviluppatori">
+<i class="anchor-icon">
+</i>
+</a>Inserzioni agevolate per creatori e sviluppatori</h4>
+<p>Chiunque può inserire <a href="https://ads.telegram.org/">inserzioni rispettose della privacy</a> nei <strong>canali pubblici di Telegram</strong> per promuovere il proprio bot, canale o gruppo.</p>
+<p>Gli sviluppatori di bot e i creatori di contenuti possono anche utilizzare le <strong>Stelle</strong> per promuovere il loro bot o canale con una tariffa speciale che include uno <strong>sconto del 30%</strong>, creando un <strong>modo conveniente</strong> per raggiungere nuovi utenti.</p>
+<div class="blog_image_wrap blog_wide_image_wrap">
+<a href="/file/400780400490/3/vIzacfHWMPo.411569/528ac79084bda14c1c" target="_blank">
+<img src="/file/400780400490/3/vIzacfHWMPo.411569/528ac79084bda14c1c" title="" alt="Inserzioni agevolate per creatori e sviluppatori" srcset="/file/400780400490/3/vIzacfHWMPo.411569/528ac79084bda14c1c , 2x">
+</a>
+<p>Nel caso tu abbia superato il <a href="https://en.wikipedia.org/wiki/Stanford_marshmallow_experiment">test del marshmallow</a>. <img class="emoji" src="//telegram.org/img/emoji/40/F09F988C.png" width="20" height="20" alt="😌" />
+</p>
+</div>
+<p>Per utilizzare le stelle per le inserzioni, vai nella sezione <em>Saldo</em> o <em>Monetizzazione</em> del tuo bot o canale e tocca <em>“Acquista inserzioni”</em>. Le stelle possono essere usate solo per pubblicizzare <strong>lo stesso bot o canale</strong> che le ha guadagnate.</p>
+<blockquote>
+<p>Per ulteriori dettagli sulla gestione delle tue stelle, la ricezione di ricompense e la pubblicazione di inserzioni, consulta i <a href="https://telegram.org/tos/bot-developers#6-2-digital-goods-and-services">Termini di servizio per gli sviluppatori di bot</a> e i <a href="https://telegram.org/tos/content-creator-rewards">Creatori di contenuti</a>.</p>
+</blockquote>
+<p>Questo è tutto per oggi; saremo occupati a sfogliare storie e a giocare invece di lavorare al prossimo aggiornamento.</p>
+<div>
+<br>
+</div>
+<p>
+<em>30 giugno 2024,<br>il team di Telegram</em>
+</p>
+</div>
+</div>
+<div class="tl_main_share clearfix">
+<a href="https://t.me/share/url?url=https%3A%2F%2Ftelegram.org%2Fblog%2Fmini-app-bar-paid-media-and-more%2Fit&text=Il%20nostro%20aggiornamento%20di%20giugno%20aggiunge%20un%20modo%20per%20minimizzare%20le%20mini%20app%20in%20una%20barra%20compatta%2C%20aiuta%20i%20creatori%20di%20contenuti%20a%20monetizzare%20i%20loro%20canali%20con%20foto%20e%20video%20a%20pagamento%2C%20e%20migliora%20le%20storie%20introducendo%20la%20ricerca%20per%20hashtag%20o%20posizione%2C%20oltre%20a%20un%20nuovo%20widget%20per%20i%20link." class="tl_telegram_share_btn" id="tl_telegram_share_btn" data-text="Il nostro aggiornamento di giugno aggiunge un modo per minimizzare le mini app in una barra compatta, aiuta i creatori di contenuti a monetizzare i loro canali con foto e video a pagamento, e migliora le storie introducendo la ricerca per hashtag o posizione, oltre a un nuovo widget per i link." data-url="https://telegram.org/blog/mini-app-bar-paid-media-and-more/it">
+<i class="tl_telegram_share_icon">
+</i>
+<span class="tl_telegram_share_label" target="_blank">Forward</span>
+</a>
+<a href="https://twitter.com/share" class="tl_twitter_share_btn" id="tl_twitter_share_btn" data-text="Il nostro aggiornamento di giugno aggiunge un modo per minimizzare le mini app in una barra compatta, aiuta i creatori di contenuti a monetizzare i loro canali con foto e video a pagamento, e migliora le storie introducendo la ricerca per hashtag o posizione, oltre a un nuovo widget per i link." data-url="https://telegram.org/blog/mini-app-bar-paid-media-and-more/it" data-via="Telegram">Tweet <span class="tl_twitter_share_cnt">
+</span>
+</a>
+</div>
+</div>
+<div class="tl_main_recent_news_wrap tlb_other_news_wrap tl_blog_list_page_wrap">
+<h3 class="tl_main_recent_news_header">
+<a href="/blog">Other News</a>
+</h3>
+<div class="tl_main_recent_news_cards clearfix">
+<a class="dev_blog_card_link_wrap" href="/blog/welcome-messages-buttons-TG-13/it">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400741/6/aFBFZ5lNqO8.66680.webp/0e567958d5b96a2184" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">Messaggi di benvenuto, Pulsanti nei messaggi e Regali firmati</h4>
+<div class="dev_blog_card_lead">Introduciamo i messaggi di benvenuto per salutare i nuovi membri di gruppi o canali, i pulsanti nei messaggi per rendere interattivo qualsiasi…</div>
+</div>
+<div class="dev_blog_card_date">Aug 25, 2026</div>
+</div>
+</a>
+<a class="dev_blog_card_link_wrap" href="/blog/communities-editor-invisible-messages/it">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400405/7/AQNnD9itI5s.338570.webp/ec0155605bac60bd43" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">Editor di testo avanzato, Community, Messaggi effimeri nei gruppi, 350 milioni di GIF</h4>
+<div class="dev_blog_card_lead">Introduzione di un editor di testo avanzato per formattare e generare testo, community Telegram…</div>
+</div>
+<div class="dev_blog_card_date">Jul 14, 2026</div>
+</div>
+</a>
+<a class="dev_blog_card_link_wrap" href="/blog/watch-apps-and-more/it">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400535/2/fkUcVRnSU-M.140100.webp/10c066db41f83e6d5e" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">App per smartwatch, Testo formattato per i bot, Guardiani IA per i gruppi e molto altro</h4>
+<div class="dev_blog_card_lead">L&#39;aggiornamento di oggi porta Telegram su Apple Watch e smartwatch Android, aggiunge il testo…</div>
+</div>
+<div class="dev_blog_card_date">Jun 11, 2026</div>
+</div>
+</a>
+<a class="dev_blog_card_link_wrap" href="/blog/ai-bot-revolution-11-new-features/it">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400475/2/BwY041V7nZg.149454.webp/873ed0c0321c7633e7" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">Bot IA ospiti, Chat tra bot, Automazione chat, Ricerca di oltre 100 milioni di emoji e sticker, Stili IA personalizzati, Statistiche per i sondaggi, Messaggi programmati silenziosi, Rimozione delle reazioni</h4>
+<div class="dev_blog_card_lead">Nell&#39;aggiornamento di oggi, Telegram introduce…</div>
+</div>
+<div class="dev_blog_card_date">May 7, 2026</div>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer_wrap">
+<div class="footer_columns_wrap footer_desktop">
+<div class="footer_column footer_column_telegram">
+<h5>Telegram</h5>
+<div class="footer_telegram_description">
+</div>
+      Telegram is a cloud-based mobile and desktop messaging app with a focus on security and speed.
+    </div>
+<div class="footer_column">
+<h5>
+<a href="/faq">About</a>
+</h5>
+<ul>
+<li>
+<a href="/faq">FAQ</a>
+</li>
+<li>
+<a href="/privacy">Privacy</a>
+</li>
+<li>
+<a href="/press">Press</a>
+</li>
+</ul>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/apps#mobile-apps">Mobile Apps</a>
+</h5>
+<ul>
+<li>
+<a href="/dl/ios">iPhone/iPad</a>
+</li>
+<li>
+<a href="/android">Android</a>
+</li>
+<li>
+<a href="/dl/web">Mobile Web</a>
+</li>
+</ul>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/apps#desktop-apps">Desktop Apps</a>
+</h5>
+<ul>
+<li>
+<a href="//desktop.telegram.org/">PC/Mac/Linux</a>
+</li>
+<li>
+<a href="//macos.telegram.org/">macOS</a>
+</li>
+<li>
+<a href="/dl/web">Web-browser</a>
+</li>
+</ul>
+</div>
+<div class="footer_column footer_column_platform">
+<h5>
+<a href="//core.telegram.org/">Platform</a>
+</h5>
+<ul>
+<li>
+<a href="//core.telegram.org/api">API</a>
+</li>
+<li>
+<a href="//translations.telegram.org/">Translations</a>
+</li>
+<li>
+<a href="//instantview.telegram.org/">Instant View</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="footer_columns_wrap footer_mobile">
+<div class="footer_column">
+<h5>
+<a href="/faq">About</a>
+</h5>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/blog">Blog</a>
+</h5>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/press">Press</a>
+</h5>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/safety">Safety</a>
+</h5>
+</div>
+</div>
+</div>
+<script src="/js/main.js?49">
+</script>
+<script src="/js/tgsticker.js?32">
+</script>
+<script src="/js/main-theme.js?6">
+</script>
+<script>initScrollVideos(true);
+mainInitTgStickers({"maxDeviceRatio":2,"cachingModulo":4});
+twitterCustomShareInit();
+blogSideImageInit();
+backToTopInit("Go up");
+removePreloadInit();
+</script>
+</body>
+</html>

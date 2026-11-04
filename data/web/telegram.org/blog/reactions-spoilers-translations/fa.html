@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html class="" data-theme="light">
+<head>
+<meta charset="utf-8">
+<title>واکنش‌ها، اسپویلرها، ترجمه و کدهای QR</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:title" content="واکنش‌ها، اسپویلرها، ترجمه و کدهای QR">
+<meta property="og:image" content="https://telegram.org/file/464001488/d35b/oNi_rR0In0o.124097/c74f7d759893b78bfb">
+<meta property="og:site_name" content="Telegram">
+<meta property="og:description" content="در دوازدهمین به‌روزرسانی امسال، قابلیت‌های واکنش با اموجی برای بازخوردی سریع، قالب‌بندی متن مخفی شده (اسپویلر)، کدهای QR، دکمه‌ای برای ترجمه‌ی مستقیم پیام‌ها در اپلیکیشن و… را به تلگرام اضافه کرده‌ایم.">
+<meta property="article:published_time" content="2021-12-30T10:34:47+00:00">
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://telegram.org/file/464001488/d35b/oNi_rR0In0o.124097/c74f7d759893b78bfb" />
+<meta property="fb:app_id" content="254098051407226">
+<meta property="vk:app_id" content="3782569">
+<meta name="apple-itunes-app" content="app-id=686449807">
+<meta name="telegram:channel" content="@telegram">
+<link rel="canonical" href="https://telegram.org/blog/reactions-spoilers-translations/fa" />
+<link rel="icon" type="image/svg+xml" href="/img/website_icon.svg?4">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="alternate icon" href="/img/favicon.ico" type="image/x-icon" />
+<link href="/css/bootstrap.min.css?3" rel="stylesheet">
+<link href="/css/telegram.css?256" rel="stylesheet" media="screen">
+<link href="/css/telegram-theme.css?9" rel="stylesheet" media="screen">
+</head>
+<body class="preload">
+<div id="fb-root">
+</div>
+<button class="theme-toggle theme-toggle--static" type="button" title="Toggle theme" aria-label="Toggle light/dark theme">
+</button>
+<div class="tl_page_wrap">
+<div class="tl_page_head navbar navbar-static-top navbar navbar-tg">
+<div class="navbar-inner">
+<div class="container clearfix">
+<ul class="nav navbar-nav navbar-right">
+<li class="dropdown top_lang_select">
+<a class="dropdown-toggle" onclick="return dropdownClick(this, event)" href="#">
+<i class="dev_top_lang_icon">
+</i>
+<b class="minicaret">
+</b>
+</a>
+<ul class="dropdown-menu">
+<li class="">
+<a href="?setln=en">English</a>
+</li>
+<li class="long ">
+<a href="?setln=id">Bahasa Indonesia</a>
+</li>
+<li class="long ">
+<a href="?setln=ms">Bahasa Melayu</a>
+</li>
+<li class="">
+<a href="?setln=de">Deutsch</a>
+</li>
+<li class="">
+<a href="?setln=es">Español</a>
+</li>
+<li class="">
+<a href="?setln=fr">Français</a>
+</li>
+<li class="">
+<a href="?setln=it">Italiano</a>
+</li>
+<li class="">
+<a href="?setln=nl">Nederlands</a>
+</li>
+<li class="">
+<a href="?setln=uz">O‘zbek</a>
+</li>
+<li class="">
+<a href="?setln=pl">Polski</a>
+</li>
+<li class="long ">
+<a href="?setln=pt-br">Português (Brasil)</a>
+</li>
+<li class="">
+<a href="?setln=tr">Türkçe</a>
+</li>
+<li class="">
+<a href="?setln=be">Беларуская</a>
+</li>
+<li class="">
+<a href="?setln=ru">Русский</a>
+</li>
+<li class="">
+<a href="?setln=uk">Українська</a>
+</li>
+<li class="">
+<a href="?setln=kk">Қазақша</a>
+</li>
+<li class="">
+<a href="?setln=ar">العربية</a>
+</li>
+<li class="">
+<a href="?setln=fa">فارسی</a>
+</li>
+<li class="">
+<a href="?setln=ko">한국어</a>
+</li>
+</ul>
+</li>
+<li class="navbar-twitter hidden-xs">
+<a href="https://x.com/telegram" target="_blank" data-track="Follow/Twitter" onclick="trackDlClick(this, event)">
+<i class="icon icon-twitter">
+</i> Follow on X</a>
+</li>
+</ul>
+<ul class="nav navbar-nav">
+<li class="">
+<a href="/">Home</a>
+</li>
+<li class="">
+<a href="/faq">FAQ</a>
+</li>
+<li class="">
+<a href="/apps">Apps</a>
+</li>
+<li class="hidden-xs ">
+<a href="//core.telegram.org/api">API</a>
+</li>
+<li class="hidden-xs ">
+<a href="/safety">Safety</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="container clearfix tl_page_container ">
+<div class="tl_page">
+<div class="tl_contest_page_wrap">
+<div class="tl_blog_side_blog">
+<div class="side_blog_wrap">
+<div class="side_blog">
+<a href="/blog" class="side_blog_header">Recent News</a>
+<div class="side_blog_entries">
+<a href="/blog/welcome-messages-buttons-TG-13" class="side_blog_entry">
+<div class="side_blog_date">Aug 25</div>
+<div class="side_blog_title">Welcome Messages, Buttons in Messages and Signed Gifts</div>
+</a>
+<a href="/blog/communities-editor-invisible-messages" class="side_blog_entry">
+<div class="side_blog_date">Jul 14</div>
+<div class="side_blog_title">Rich Text Editor, Communities, Ephemeral Messages in Groups, 350 Million GIFs</div>
+</a>
+<a href="/blog/watch-apps-and-more" class="side_blog_entry">
+<div class="side_blog_date">Jun 11</div>
+<div class="side_blog_title">Smartwatch Apps, Rich Text for Bots, AI Guardians for Groups, and Much More</div>
+</a>
+<a href="/blog/ai-bot-revolution-11-new-features" class="side_blog_entry">
+<div class="side_blog_date">May 7</div>
+<div class="side_blog_title">Guest AI Bots, Bot-to-Bot Chats, Chat Automation, Custom AI Styles, 100M+ Emoji &amp; Sticker Search and Much More</div>
+</a>
+<a href="/blog/ai-editor-mighty-polls-and-more" class="side_blog_entry">
+<div class="side_blog_date">Mar 31</div>
+<div class="side_blog_title">AI Editor, Mighty Polls, Live Photos, Bots Managed by Bots, and More</div>
+</a>
+<a href="/blog/member-tags-disable-sharing-and-more" class="side_blog_entry">
+<div class="side_blog_date">Mar 1</div>
+<div class="side_blog_title">Member Tags, Login with Telegram, Disable Sharing, GIF Editing, Date Formatting, Voting Timestamps</div>
+</a>
+<a href="/blog/crafting-android-design-and-more" class="side_blog_entry">
+<div class="side_blog_date">Feb 9</div>
+<div class="side_blog_title">Android Redesign, Group Ownership Transfer, Gift Crafting, Colored Bot Buttons</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div id="dev_page_content_wrap" class="is_rtl ">
+<div class="dev_page_bread_crumbs">
+</div>
+<h1 id="dev_page_title">واکنش‌ها، اسپویلرها، ترجمه و کدهای QR</h1>
+<blockquote class="blog_lang_original">
+<a href="/blog/reactions-spoilers-translations?ln=r">متن اصلی اعلامیه به زبان انگلیسی را بخوانید</a>
+</blockquote>
+<div id="dev_page_content">
+<div class="blog_side_image_wrap">
+<picture class="dev_page_tgsticker blog_side_image js-tgsticker_image" style="width:160px;">
+<div style="padding-top:100%">
+</div>
+<source type="application/x-tgsticker" srcset="/file/464001045/ea80/mMVQUWrC-d8.13395/560c813997c259ff20">
+<img src="/file/464001045/ea81/tKdbJo1Q-z8.31803.png/cf0f518823450ac2e0" />
+</picture>
+</div>
+<div class="blog_wide_image legacy">
+<a href="/file/464001589/dab7/u5N6uxxkYN0.353972/141063396c8524879c" target="_blank">
+<img src="/file/464001488/d35b/oNi_rR0In0o.124097/c74f7d759893b78bfb" srcset="/file/464001589/dab7/u5N6uxxkYN0.353972/141063396c8524879c, 1200w" title="The Matrix has you, what did you think?" alt="Reactions, Spoilers, Translation and QR Codes"/>
+</a>
+</div>
+<p>در <a href="https://telegram.org/blog">دوازدهمین به‌روزرسانی</a> امسال، قابلیت‌های <strong>واکنش با اموجی برای بازخوردی سریع</strong>، <strong>قالب‌بندی متن مخفی شده (اسپویلر)</strong>، <strong>کدهای QR، </strong>دکمه‌ای برای <strong>ترجمه‌ی مستقیم پیام‌ها در اپلیکیشن</strong> و… را به تلگرام اضافه کرده‌ایم.</p>
+<h3>
+<a class="anchor" name="1409186060" href="#1409186060">
+<i class="anchor-icon">
+</i>
+</a>واکنش‌ها</h3>
+<p>تلگرام نخستین اپلیکیشن پیام‌رسانی بود که اموجی‌های <a href="https://t.me/TelegramTips/219">متحرک</a> و <a href="https://t.me/TelegramTips/297">تعاملی</a> را اضافه کرد و به کاربران راه‌های منحصر به فردی جهت ابراز احساساتشان در گفتگو ارائه داد. از این پس می‌توانید برخی از این اموجی‌ها را به عنوان <strong>واکنش‌هایی</strong> برای نمایش احساسات و بازخورد (بدون ارسال هیچ پیامی) استفاده کنید. </p>
+<div class="blog_video_player_wrap" style="max-width: 400px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001407/dbda/RmqlLDIAXj0.254306/91a6046617d9a0ae4e" style="max-width: 400px;" title="The thumbs up gesture has been saving words (and lives) since the days of the Roman Empire. Now it's just a double tap away." alt="Emoji reactions">
+<source src="/file/464001145/d54d/icUJTT9eAGQ.6974633.mp4/acd3bd566805acc02f" type="video/mp4">
+</video>
+</div>
+<p>
+<strong>دوبار</strong> روی هر پیامی زده و آن را <img class="emoji" src="//telegram.org/img/emoji/40/F09F918D.png" width="20" height="20" alt="👍" /> کنید. برای انتخاب <strong>واکنش‌های بیشتری</strong> مانند <img class="emoji" src="//telegram.org/img/emoji/40/F09F9881.png" width="20" height="20" alt="😁" />
+<img class="emoji" src="//telegram.org/img/emoji/40/F09F8E89.png" width="20" height="20" alt="🎉" />
+<img class="emoji" src="//telegram.org/img/emoji/40/F09F98B1.png" width="20" height="20" alt="😱" />
+<img class="emoji" src="//telegram.org/img/emoji/40/F09F94A5.png" width="20" height="20" alt="🔥" />
+<img class="emoji" src="//telegram.org/img/emoji/40/F09F92A9.png" width="20" height="20" alt="💩" />، روی پیام مورد نظر بزنید (یا در iOS دست خود را روی پیام نگه دارید). هر واکنش، با <strong>انیمیشن منحصر به فرد</strong> خود نمایش داده خواهد شد. </p>
+<blockquote>
+<p>از تنظیمات تلگرام می‌توانید واکنش پیش‌فرض خود را به اموجی دیگری تغییر دهید. <strong>اندروید</strong>: <em>تنظیمات گفتگو &gt; واکنش سریع</em>. <strong>iOS</strong>: <em>استیکرها و اموجی &gt; واکنش سریع</em>.</p>
+</blockquote>
+<p>واکنش‌ها به طور پیش‌فرض در تمام <strong>گفتگوهای دونفره</strong> فعال هستند. در <strong>گروه‌ها و کانال‌ها</strong>، مدیران می‌توانند واکنش‌ها را غیرفعال کرده و یا اموجی‌های قابل استفاده در گفتگو را تغییر دهند. بدین ترتیب، راه‌های مختلفی برای دریافت بازخورد از کاربران (از یک لایک <img class="emoji" src="//telegram.org/img/emoji/40/E29DA4.png" width="20" height="20" alt="❤️" /> ساده گرفته تا سیستم موافق <img class="emoji" src="//telegram.org/img/emoji/40/F09F918D.png" width="20" height="20" alt="👍" /> و مخالف <img class="emoji" src="//telegram.org/img/emoji/40/F09F918E.png" width="20" height="20" alt="👎" /> و روش‌های دیگر) فراهم خواهد شد. </p>
+<!--
+<div class="blog_image_wrap blog_medium_image_wrap">
+<a href="LARGE" target="_blank">
+<img src="SMALL" title="Switching off piles of poo is not guaranteed to affect your lawn." alt="Reaction settings in a channel" srcset="LARGE , 2x" />
+</a>
+</div>
+-->
+<blockquote>
+<p>مدیران گروه و کانال می‌توانند از صفحه‌ی <em>اطلاعات گفتگو &gt; «ویرایش» &gt; «واکنش‌ها»</em>، قابلیت واکنش را فعال یا غیرفعال کنند. برای دریافت بازخوردهای بیشتر می‌توانید <a href="https://t.me/TelegramTips/209">دیدگاه‌های کانال</a> را فعال کرده و یا از <a href="https://t.me/TelegramTips/207">نظرسنجی‌های قدرتمند</a> ما استفاده کنید. </p>
+</blockquote>
+<h3>
+<a class="anchor" name="1728268035" href="#1728268035">
+<i class="anchor-icon">
+</i>
+</a>اسپویلر</h3>
+<p> اگر می‌خواهید بدون لو دادن داستان فیلم جدید مرد عنکبوتی یا سریال ویچر، درباره‌ی آن‌ها بحث کنید، می‌توانید هنگام نوشتن پیام، بخشی از متن را انتخاب کرده و با <strong>گزینه‌ی «اسپویلر»</strong> آن را مخفی کنید. با انتخاب حالت اسپویلر، پیام شما علاوه بر گفتگوی مورد نظر، در فهرست گفتگوها و در اعلان‌ها نیز <strong>مخفی خواهد شد</strong>. </p>
+<div class="blog_video_player_wrap" style="max-width: 400px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001469/d419/unZr9SxPrtw.250733/7329c220ed42ab3c8e" style="max-width: 400px;" title="In the final episode █████ totally ██████ the █████." alt="Hidden text for spoilers">
+<source src="/file/464001868/e120/lqGJzUrzb6U.2717520.mp4/5b7ac809540c228988" type="video/mp4">
+</video>
+</div>
+<p>برای نمایش بخش مخفی شده، روی انیمیشن اسپویلر که روی پیام قرار گرفته است <strong>بزنید</strong>. </p>
+<h3>
+<a class="anchor" name="108913991" href="#108913991">
+<i class="anchor-icon">
+</i>
+</a>ترجمه‌ی پیام‌ها</h3>
+<p>بیش از <strong>نیم میلیارد</strong> کاربر در سرتاسر جهان، جهت برقراری ارتباط با دوستان، گفتگو در <a href="https://t.me/TelegramTips/300">گروه‌های عمومی</a> و به مشاهده‌ی مطالب کانال‌ها (به زبان‌های مختلف) از تلگرام استفاده می‌کنند. از این پس می‌توانید پیام‌ها را مستقیما درون تلگرام، به‌ زبان دیگری ترجمه کنید.</p>
+<div class="blog_video_player_wrap" style="max-width: 400px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001019/eb11/9Ps5WL0dexE.178503/aa228060ea001adeb8" style="max-width: 400px;" title="For relaxing times..." alt="Message translation">
+<source src="/file/464001292/efe8/6V7dYceAPno.8965113.mp4/dbce8b900a791bd93b" type="video/mp4">
+</video>
+</div>
+<p>با فعال کردن گزینه‌ی <strong>«ترجمه‌ی پیام‌ها»</strong> از بخش <em>تنظیمات &gt; «زبان»</em>، گزینه‌ی جدیدی به نام <strong>«ترجمه» </strong>به منوی پیام (که با انتخاب کردن آن نمایش داده می‌شود) اضافه خواهد شد. همچنین می‌توانید این گزینه را برای زبان‌هایی که به آن‌ها مسلط هستید <strong>غیرفعال کنید</strong>. </p>
+<blockquote>
+<p>این قابلیت برای همه‌ی دستگاه‌های اندروید در دسترس بوده، ولی در دستگاه‌های اپل، نیازمند نسخه‌ی iOS 15 به بالا است. لیست زبان‌های قابل ترجمه، به سیستم عامل دستگاهتان بستگی خواهد داشت.</p>
+</blockquote>
+<h3>
+<a class="anchor" name="qr" href="#qr">
+<i class="anchor-icon">
+</i>
+</a>کدهای QR</h3>
+<p>می‌توانید برای <strong>هر</strong> کاربری که <a href="https://t.me/TelegramTips/44">نام کاربری</a> دارد، یک کد QR بسازید. کدهای QR برای <strong>گروه‌ها</strong>، <strong>کانال‌ها</strong> و <strong>ربات‌ها</strong> نیز قابل استفاده بوده و می‌توانید به راحتی گروه یا کانال موردعلاقه‌ی خود را با دیگران به اشتراک بگذارید. </p>
+<div class="blog_video_player_wrap" style="max-width: 400px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001257/e836/266KS2_-H_4.201434/0da022649c9a206d06" style="max-width: 400px;" title="Something to set as your profile picture in that old messenger you don't use anymore." alt="Themed QR Codes">
+<source src="/file/464001755/cba5/h0BTOwDLwl4.7024447.mp4/db4440d7439aacd9c0" type="video/mp4">
+</video>
+</div>
+<p>بر روی <strong>آیکون جدید کد QR</strong> که در کنار نام کاربری یک شخص (یا یک گروه) اضافه شده است بزنید، <strong>رنگ</strong> و <strong>طرح</strong> مورد علاقه‌ی خود را انتخاب کرده و سپس آن را چاپ کنید یا در تلگرام و اپلیکیشن‌های دیگر به اشتراک بگذارید. </p>
+<blockquote>
+<p>کد QR مخصوص خودتان را می‌توانید در بخش <em>تنظیمات تلگرام</em> بسازید. </p>
+</blockquote>
+<h3>
+<a class="anchor" name="macos" href="#macos">
+<i class="anchor-icon">
+</i>
+</a>منوهای جدید برای macOS</h3>
+<p>ما ظاهر همه‌ی منوهای <a href="https://macos.telegram.org/">تلگرام macOS</a> را تغییر داده، تعدادی میانبر جدید اضافه کرده و آیکون‌های تک تک منوهای درون نرم‌افزار را متحرک کرده‌ایم. </p>
+<div class="blog_video_player_wrap" style="max-width: 400px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001873/dd5a/cSI1iI-N2MA.296588/d75ee0e02f527cd5ff" style="max-width: 400px;" title="Gotta catch em all!" alt="New menus in the macOS app">
+<source src="/file/464001259/d3a8/TPZOLOQaymg.9068597.mp4/a0fb7c7382c1575676" type="video/mp4">
+</video>
+</div>
+<h3>
+<a class="anchor" name="1162988822" href="#1162988822">
+<i class="anchor-icon">
+</i>
+</a>اموجی های تعاملی بیشتر</h3>
+<p>اموجی‌های <img class="emoji" src="//telegram.org/img/emoji/40/F09F94A5.png" width="20" height="20" alt="🔥" />
+<img class="emoji" src="//telegram.org/img/emoji/40/F09F9881.png" width="20" height="20" alt="😁" />
+<img class="emoji" src="//telegram.org/img/emoji/40/F09FA4A9.png" width="20" height="20" alt="🤩" />
+<img class="emoji" src="//telegram.org/img/emoji/40/F09F98A2.png" width="20" height="20" alt="😢" />
+<img class="emoji" src="//telegram.org/img/emoji/40/F09F98AD.png" width="20" height="20" alt="😭" />
+<img class="emoji" src="//telegram.org/img/emoji/40/F09F98B1.png" width="20" height="20" alt="😱" />
+<img class="emoji" src="//telegram.org/img/emoji/40/E29D84.png" width="20" height="20" alt="❄️" /> به لیست <a href="https://telegram.org/blog/chat-themes-interactive-emoji-read-receipts#interactive-emoji">اموجی‌های تعاملی</a> اضافه شده و می‌توانید از آن‌ها در <strong>گفتگوهای دو نفره</strong> استفاده کنید. هر یک از این اموجی‌ها را بدون هیچ متن دیگری فرستاده و روی آن بزنید تا یک جلوه‌ی تمام صفحه نمایش داده شود.</p>
+<div class="blog_video_player_wrap" style="max-width: 400px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001566/c001/BVsBImeLDg4.210817/40e7142c19bb77bfed" style="max-width: 400px;" title="Let it snow, orr set fire to the rain – entirely up to you." alt="More interactive emoji">
+<source src="/file/464001694/e6b8/z4Jk-LNeVe8.5995598.mp4/860ab28db42e6d5802" type="video/mp4">
+</video>
+</div>
+<p>از همراهی شما ممنونیم، امیدواریم سال <strong>2022</strong> از <a href="https://t.me/durov/173">امسال</a> هم بهتر باشد.</p>
+<div>
+<br>
+</div>
+<p>
+<em>۳۰ دسامبر، ۲۰۲۱،<br>تیم تلگرام</em>
+</p>
+<!--
+###Video
+
+<div class="blog_video_player_wrap" style="max-width: 400px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="PHOTO" style="max-width: 400px;" title="TITLE" alt="TITLE">
+<source src="VIDEO" type="video/mp4">
+</video>
+</div>
+
+###Image
+
+<div class="blog_image_wrap blog_medium_image_wrap">
+<a href="LARGE" target="_blank">
+<img src="SMALL" title="TITLE" alt="TITLE" srcset="LARGE , 2x" />
+</a>
+</div>
+-->
+</div>
+</div>
+<div class="tl_main_share clearfix">
+<a href="https://t.me/share/url?url=https%3A%2F%2Ftelegram.org%2Fblog%2Freactions-spoilers-translations%2Ffa&text=%D8%AF%D8%B1%20%D8%AF%D9%88%D8%A7%D8%B2%D8%AF%D9%87%D9%85%DB%8C%D9%86%20%D8%A8%D9%87%E2%80%8C%D8%B1%D9%88%D8%B2%D8%B1%D8%B3%D8%A7%D9%86%DB%8C%20%D8%A7%D9%85%D8%B3%D8%A7%D9%84%D8%8C%20%D9%82%D8%A7%D8%A8%D9%84%DB%8C%D8%AA%E2%80%8C%D9%87%D8%A7%DB%8C%20%D9%88%D8%A7%DA%A9%D9%86%D8%B4%20%D8%A8%D8%A7%20%D8%A7%D9%85%D9%88%D8%AC%DB%8C%20%D8%A8%D8%B1%D8%A7%DB%8C%20%D8%A8%D8%A7%D8%B2%D8%AE%D9%88%D8%B1%D8%AF%DB%8C%20%D8%B3%D8%B1%DB%8C%D8%B9%D8%8C%20%D9%82%D8%A7%D9%84%D8%A8%E2%80%8C%D8%A8%D9%86%D8%AF%DB%8C%20%D9%85%D8%AA%D9%86%20%D9%85%D8%AE%D9%81%DB%8C%20%D8%B4%D8%AF%D9%87%20%28%D8%A7%D8%B3%D9%BE%D9%88%DB%8C%D9%84%D8%B1%29%D8%8C%20%DA%A9%D8%AF%D9%87%D8%A7%DB%8C%20QR%D8%8C%20%D8%AF%DA%A9%D9%85%D9%87%E2%80%8C%D8%A7%DB%8C%20%D8%A8%D8%B1%D8%A7%DB%8C%20%D8%AA%D8%B1%D8%AC%D9%85%D9%87%E2%80%8C%DB%8C%20%D9%85%D8%B3%D8%AA%D9%82%DB%8C%D9%85%20%D9%BE%DB%8C%D8%A7%D9%85%E2%80%8C%D9%87%D8%A7%20%D8%AF%D8%B1%20%D8%A7%D9%BE%D9%84%DB%8C%DA%A9%DB%8C%D8%B4%D9%86%20%D9%88%E2%80%A6%20%D8%B1%D8%A7%20%D8%A8%D9%87%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85%20%D8%A7%D8%B6%D8%A7%D9%81%D9%87%20%DA%A9%D8%B1%D8%AF%D9%87%E2%80%8C%D8%A7%DB%8C%D9%85." class="tl_telegram_share_btn" id="tl_telegram_share_btn" data-text="در دوازدهمین به‌روزرسانی امسال، قابلیت‌های واکنش با اموجی برای بازخوردی سریع، قالب‌بندی متن مخفی شده (اسپویلر)، کدهای QR، دکمه‌ای برای ترجمه‌ی مستقیم پیام‌ها در اپلیکیشن و… را به تلگرام اضافه کرده‌ایم." data-url="https://telegram.org/blog/reactions-spoilers-translations/fa">
+<i class="tl_telegram_share_icon">
+</i>
+<span class="tl_telegram_share_label" target="_blank">Forward</span>
+</a>
+<a href="https://twitter.com/share" class="tl_twitter_share_btn" id="tl_twitter_share_btn" data-text="در دوازدهمین به‌روزرسانی امسال، قابلیت‌های واکنش با اموجی برای بازخوردی سریع، قالب‌بندی متن مخفی شده (اسپویلر)، کدهای QR، دکمه‌ای برای ترجمه‌ی مستقیم پیام‌ها در اپلیکیشن و… را به تلگرام اضافه کرده‌ایم." data-url="https://telegram.org/blog/reactions-spoilers-translations/fa" data-via="Telegram">Tweet <span class="tl_twitter_share_cnt">
+</span>
+</a>
+</div>
+</div>
+<div class="tl_main_recent_news_wrap tlb_other_news_wrap tl_blog_list_page_wrap">
+<h3 class="tl_main_recent_news_header">
+<a href="/blog">Other News</a>
+</h3>
+<div class="tl_main_recent_news_cards clearfix">
+<a class="dev_blog_card_link_wrap" href="/blog/welcome-messages-buttons-TG-13/fa">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400741/6/aFBFZ5lNqO8.66680.webp/0e567958d5b96a2184" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">پیام‌های خوش‌آمدگویی، دکمه‌ها در پیام‌ها و هدایای امضا شده</h4>
+<div class="dev_blog_card_lead">معرفی می کنیم: پیام‌های خوش‌آمدگویی برای استقبال از اعضای جدید گروه‌ها یا کانال‌ها، دکمه‌ها در پیام‌ها برای تعاملی کردن هر متنی، اسناد…</div>
+</div>
+<div class="dev_blog_card_date">Aug 25, 2026</div>
+</div>
+</a>
+<a class="dev_blog_card_link_wrap" href="/blog/communities-editor-invisible-messages/fa">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400366/6/dI0zgi0mM5s.323818.webp/6a362dadee6e7e6011" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">ویرایشگر متن غنی، انجمن‌ها، پیام‌های نامرئی در  گروه‌ها و ۳۵۰ میلیون گیف</h4>
+<div class="dev_blog_card_lead">معرفی یک ویرایشگر متن غنی برای قالب‌بندی و تولید متن، جوامع تلگرام که چندین گروه، کانال و ربات را به هم متصل می‌کنند، جستجو در میان بیش…</div>
+</div>
+<div class="dev_blog_card_date">Jul 14, 2026</div>
+</div>
+</a>
+<a class="dev_blog_card_link_wrap" href="/blog/watch-apps-and-more/fa">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400535/2/fkUcVRnSU-M.140100.webp/10c066db41f83e6d5e" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">اپلیکیشن‌های ساعت هوشمند، متن غنی برای ربات‌ها، نگهبانان هوش مصنوعی برای گروه‌ها و بسیاری امکانات دیگر</h4>
+<div class="dev_blog_card_lead">به‌روزرسانی امروز تلگرام را به اپل واچ و ساعت‌های هوشمند اندرویدی می‌آورد، متن غنی فوق‌العاده…</div>
+</div>
+<div class="dev_blog_card_date">Jun 11, 2026</div>
+</div>
+</a>
+<a class="dev_blog_card_link_wrap" href="/blog/ai-bot-revolution-11-new-features/fa">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400475/2/BwY041V7nZg.149454.webp/873ed0c0321c7633e7" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">ربات‌های هوش مصنوعی مهمان، گفتگوی ربات با ربات، اتوماسیون گفتگو، سبک‌های سفارشی هوش مصنوعی، جستجوی بیش از ١۰۰ میلیون اموجی و استیکر و موارد بیشتر</h4>
+<div class="dev_blog_card_lead">به‌روزرسانی امروز یک انقلاب در ربات‌های هوش مصنوعی…</div>
+</div>
+<div class="dev_blog_card_date">May 7, 2026</div>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer_wrap">
+<div class="footer_columns_wrap footer_desktop">
+<div class="footer_column footer_column_telegram">
+<h5>Telegram</h5>
+<div class="footer_telegram_description">
+</div>
+      Telegram is a cloud-based mobile and desktop messaging app with a focus on security and speed.
+    </div>
+<div class="footer_column">
+<h5>
+<a href="/faq">About</a>
+</h5>
+<ul>
+<li>
+<a href="/faq">FAQ</a>
+</li>
+<li>
+<a href="/privacy">Privacy</a>
+</li>
+<li>
+<a href="/press">Press</a>
+</li>
+</ul>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/apps#mobile-apps">Mobile Apps</a>
+</h5>
+<ul>
+<li>
+<a href="/dl/ios">iPhone/iPad</a>
+</li>
+<li>
+<a href="/android">Android</a>
+</li>
+<li>
+<a href="/dl/web">Mobile Web</a>
+</li>
+</ul>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/apps#desktop-apps">Desktop Apps</a>
+</h5>
+<ul>
+<li>
+<a href="//desktop.telegram.org/">PC/Mac/Linux</a>
+</li>
+<li>
+<a href="//macos.telegram.org/">macOS</a>
+</li>
+<li>
+<a href="/dl/web">Web-browser</a>
+</li>
+</ul>
+</div>
+<div class="footer_column footer_column_platform">
+<h5>
+<a href="//core.telegram.org/">Platform</a>
+</h5>
+<ul>
+<li>
+<a href="//core.telegram.org/api">API</a>
+</li>
+<li>
+<a href="//translations.telegram.org/">Translations</a>
+</li>
+<li>
+<a href="//instantview.telegram.org/">Instant View</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="footer_columns_wrap footer_mobile">
+<div class="footer_column">
+<h5>
+<a href="/faq">About</a>
+</h5>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/blog">Blog</a>
+</h5>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/press">Press</a>
+</h5>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/safety">Safety</a>
+</h5>
+</div>
+</div>
+</div>
+<script src="/js/main.js?49">
+</script>
+<script src="/js/tgsticker.js?32">
+</script>
+<script src="/js/main-theme.js?6">
+</script>
+<script>initScrollVideos(true);
+mainInitTgStickers({"maxDeviceRatio":2,"cachingModulo":4});
+twitterCustomShareInit();
+blogSideImageInit();
+backToTopInit("Go up");
+removePreloadInit();
+</script>
+</body>
+</html>

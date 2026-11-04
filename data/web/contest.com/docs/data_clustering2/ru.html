@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Data Clustering Contest: Round 2 – Developer Challenges</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta name="format-detection" content="telephone=no" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="MobileOptimized" content="176" />
+<meta name="HandheldFriendly" content="True" />
+<meta name="twitter:card" content="summary">
+</meta>
+<meta property="og:title" content="Data Clustering Contest: Round 2">
+<meta property="og:description" content="В рамках второго этапа конкурса участникам предлагается создать модуль, на базе которого может быть запущен агрегатор новостей.…">
+<link rel="shortcut icon" href="/img/cd_favicon.ico" type="image/x-icon" />
+<link rel="mask-icon" href="/img/cd_icon.svg" color="#299ed8">
+<script>document.cookie="stel_dt="+encodeURIComponent((new Date).getTimezoneOffset())+";path=/;max-age=31536000;samesite=None;secure"</script>
+<link href="/css/font-roboto.css?1" rel="stylesheet" type="text/css">
+<link href="/css/bootstrap.min.css?3" rel="stylesheet">
+<link href="/css/bootstrap-extra.css?2" rel="stylesheet">
+<link href="/css/telegram.css?256" rel="stylesheet">
+<link href="/css/contest.css?41" rel="stylesheet">
+<link href="/css/contest-zoo.css?7" rel="stylesheet">
+<link href="/css/jquery-ui.min.css?1" rel="stylesheet">
+</head>
+<body class="emoji_image no-transition">
+<div id="aj_progress" class="progress-bar">
+</div>
+<div id="aj_content">
+<div class="cd-container">
+<header>
+<div class="container">
+<div class="header-wrap">
+<div id="header-panel" class="header-panel">
+<div class="header-auth">
+<div class="header-auth-item">
+<a class="header-auth-link login-link" href="/auth">Login</a>
+</div>
+</div>
+<div class="header-breadcrumb header-breadcrumb-simple">
+<ol id="breadcrumb" class="header-nav breadcrumb">
+<li class="cd-logo">
+<a href="/">
+<i class="cd-icon">
+</i>
+<span class="cd-logo-title">Developer Challenges</span>
+</a>
+</li>
+<li class="active">Data Clustering Contest: Round 2</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+</header>
+<main class="container">
+<section class="cd-content">
+<div id="dev_page_content_wrap" class=" ">
+<div class="dev_page_bread_crumbs">
+</div>
+<h1 id="dev_page_title">Data Clustering Contest: Round 2</h1>
+<div id="dev_page_content">
+<!-- scroll_nav -->
+<p>В рамках второго этапа конкурса участникам предлагается создать модуль, на базе которого может быть запущен агрегатор новостей. Этап продлится <strong>две недели</strong> и открыт для <strong>всех желающих</strong>, включая тех, кто не принимал участие в <a href="https://contest.com/docs/data_clustering/ru">первом этапе</a>.</p>
+<blockquote>
+<p>Общая информация о конкурсе — в канале <a href="https://t.me/contest/169">@contest</a>.</p>
+<p>Версия документа на английском доступна <a href="https://contest.com/docs/data_clustering2">здесь</a>. Изучение английской версии не является необходимым для участия в конкурсе. </p>
+</blockquote>
+<h3>
+<a class="anchor-link" href="#ishodnie-dannie">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="ishodnie-dannie">
+</a>Исходные данные</h3>
+<p>Участникам предлагается тестовый набор данных в формате HTML:</p>
+<ul>
+<li>
+<a href="https://data-static.usercontent.dev/DataClusteringSample2703.tar.gz">Архив 1, 27-03</a> (856 Мб)</li>
+<li>
+<a href="https://data-static.usercontent.dev/DataClusteringSample0410.tar.gz">Архив 2, 04-10</a> (876 Мб)</li>
+<li>
+<a href="https://data-static.usercontent.dev/DataClusteringSample1117.tar.gz">Архив 3, 11-17</a> (869 Мб)</li>
+</ul>
+<p>В ходе конкурса будут периодически публиковаться дополнительные наборы данных.</p>
+<blockquote>
+<p>Для проверки работ будет использоваться набор данных, отличный от тестовых. Он может содержать, в том числе, тексты с доменов, отсутствующих в тестовом наборе.</p>
+</blockquote>
+<h3>
+<a class="anchor-link" href="#zadaniya-konkursa">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="zadaniya-konkursa">
+</a>Задания конкурса</h3>
+<ol>
+<li>
+<p>
+<strong>Создание или усовершенствование алгоритмов кластеризации.</strong> Необходимо, опираясь на <a href="#rekomendatsii-po-klasterizatsii">рекомендации</a>, создать или улучшить качество работы созданных в <a href="https://contest.com/docs/data_clustering/ru">первом этапе конкурса</a> алгоритмов для:</p>
+<ul>
+<li>Выделения статей на <strong>английском</strong> и <strong>русском</strong> языках</li>
+<li>Выделения <strong>новостей</strong> из других материалов</li>
+<li>Группировки новостей по <strong>категориям</strong> и <strong>сюжетам</strong>
+</li>
+</ul>
+</li>
+<li>
+<p>
+<strong>Анализ статей и их индексирование.</strong> Алгоритм должен анализировать, хранить и индексировать поступающие статьи, а также оптимизировать индекс для последующих запросов.</p>
+</li>
+<li>
+<p>
+<strong>Выдача ранжированных сюжетов за период времени.</strong> Алгоритм должен уметь формировать список сюжетов по указанной тематике за указанный период времени, отсортированный по важности. При этом сюжеты на русском должны быть актуальны для читателя из России, а сюжеты на английском — для широкого круга международных читателей.</p>
+</li>
+</ol>
+<blockquote>
+<p>Более подробно задачи описаны ниже, в разделе <a href="#proverka-rabot">проверка работ</a>. Для удобства участников, также прилагаются критерии, рекомендованные для оценки качества <a href="#rekomendatsii-po-klasterizatsii">
+<strong>кластеризации</strong>
+</a> и <a href="#rekomendatsii-po-ranzhirovaniyu">
+<strong>ранжирования</strong>
+</a>.</p>
+</blockquote>
+<h3>
+<a class="anchor-link" href="#priem-rabot">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="priem-rabot">
+</a>Прием работ</h3>
+<p>Работы будут приниматься в виде standalone приложения <strong>tgnews</strong>. Приложение должно уметь работать в двух режимах:</p>
+<ul>
+<li>
+<strong>CLI-интерфейс.</strong> Для проверки качества кластеризации приложение будет запускаться несколько раз с различными параметрами, описанными <a href="#etap-1-klasterizatsiya">ниже</a>. В этом режиме приложение должно вывести результат работы алгоритма в формате JSON в STDOUT и завершить работу. При этом приложение не должно кешировать и переиспользовать никаких данных между запусками. Запуски могут быть выполнены в произвольном порядке, и это не должно влиять на результат работы алгоритма.</li>
+<li>
+<strong>HTTP-сервер.</strong> Приложение должно уметь работать в режиме HTTP/1.1 сервера с поддержкой Keep-Alive. Для индексации и выдачи ранжированных списков новостей к серверу будут выполняться HTTP-запросы, описанные <a href="#etap-2-indeksatsiya-i-ranzhirovanie">ниже</a>. Приложение должно хранить проиндексированные данные на диске в рабочей директории приложения и быть готово к тому, что HTTP-сервер может быть перезапущен в любой момент между запросами.</li>
+</ul>
+<h4>
+<a class="anchor-link" href="#obschie-trebovaniya-k-rabotam">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="obschie-trebovaniya-k-rabotam">
+</a>Общие требования к работам</h4>
+<ul>
+<li>Приложение в режиме CLI не должно использовать сеть.</li>
+<li>Приложение в режиме HTTP-сервера не должно создавать исходящих соединений. Оно может обрабатывать входящие соединения только на указанном в параметрах порту.</li>
+<li>Процесс <strong>tgnews</strong> должен оставаться активным, пока работает HTTP-сервер. При убийстве процесса <strong>tgnews</strong> убивается HTTP-сервер и все порождённые им дочерние процессы. Если вы используете внешний скрипт для запуска веб-сервера, то мы рекомендуем использовать <code>exec</code>.</li>
+<li>Приложение должно отличаться высокой относительной скоростью работы (по этой причине приложения, написанные на <strong>C++</strong>, могут получить преимущество).</li>
+<li>Использование внешних зависимостей рекомендуется свести к минимуму. Зависимости, которые все же необходимы, нужно перечислить в текстовом файле <strong>deb-packages.txt</strong>. Они будут установлены перед запуском командой <code>sudo apt-get install ...</code>
+</li>
+<li>Приложения будут тестироваться на серверах с Debian GNU/Linux 10.1 (buster), x86-64 с 8 ядрами и 16 GB RAM. Обязательно проверьте корректность работы программы на чистой системе перед отправкой работы.</li>
+<li>Приложения в режиме CLI, выполняющиеся дольше 60 секунд на каждые 1000 файлов, переданных в source_dir, рассматриваться не будут. Это ограничение должно выполняться для каждого запуска скрипта в режиме CLI.</li>
+<li>Приложение в режиме HTTP-сервера должно успешно обрабатывать до 1000 запросов в 60 секунд. При этом время инициализации не должно превышать 60 секунд на каждые 1000 файлов в индексе.</li>
+<li>
+<p>На выходе требуется ZIP-файл со следующей структурой.</p>
+<pre>
+<code>submission.zip
+  -&gt; tgnews - запускаемый бинарный файл с интерфейсом, описанным ниже
+  -&gt; src - директория с исходным кодом приложения
+  -&gt; deb-packages.txt - текстовый файл с названиями пакетов внешних зависимостей, разделенных переводом строки
+  -&gt; * - дополнительные файлы, необходимые для работы программы (используйте относительные пути для доступа к ним)</code>
+</pre>
+</li>
+</ul>
+<blockquote>
+<p>Перед отправкой работы на конкурс, мы настоятельно рекомендуем воспользоваться нашим <a href="#skript-dlya-proverki">
+<strong>скриптом для проверки</strong>
+</a>, чтобы убедиться, что приложение поддерживает необходимый формат запросов и ответов.</p>
+</blockquote>
+<hr>
+<h3>
+<a class="anchor-link" href="#proverka-rabot">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="proverka-rabot">
+</a>Проверка работ</h3>
+<p>Проверка работ будет происходить в два этапа.</p>
+<h4>
+<a class="anchor-link" href="#etap-1-klasterizatsiya">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="etap-1-klasterizatsiya">
+</a>Этап 1. Кластеризация</h4>
+<p>Для проверки качества кластеризации алгоритм будет запускаться в режиме CLI со следующими параметрами: </p>
+<h5>
+<a class="anchor-link" href="#1-1-videlenie-tekstov-na-russkom-i-angliiskom-yazikah">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="1-1-videlenie-tekstov-na-russkom-i-angliiskom-yazikah">
+</a>1.1. Выделение текстов на русском и английском языках</h5>
+<pre>
+<code>tgnews languages &lt;source_dir&gt;</code>
+</pre>
+<p>где:</p>
+<ul>
+<li>
+<strong>&lt;source_dir&gt;</strong> – путь до директории с HTML-файлами, содержащими тексты статей. Может содержать поддиректории с HTML-файлами, которые также необходимо обработать. </li>
+</ul>
+<p>Результат должен быть выведен в формате JSON в STDOUT. Формат ответа:</p>
+<pre>
+<code>[
+  {
+    &quot;lang_code&quot;: &quot;en&quot;,
+    &quot;articles&quot;: [
+      &quot;981787246124324.html&quot;,
+      &quot;239748235923753.html&quot;,
+      ...
+    ]
+  },
+  {
+    &quot;lang_code&quot;: &quot;ru&quot;,
+    &quot;articles&quot;: [
+      &quot;273612748127432.html&quot;,
+      ...
+    ]
+  },
+  ...
+]</code>
+</pre>
+<p>где:</p>
+<ul>
+<li>
+<strong>lang_code</strong> – ISO 639-1 two-letter language code (обязательны en и ru, остальные опциональны)</li>
+<li>
+<strong>articles</strong> – список имен файлов (без указания относительного или абсолютного пути), содержащих тексты на языке <strong>lang_code</strong>
+</li>
+</ul>
+<h5>
+<a class="anchor-link" href="#1-2-otdelenie-novostei-ot-drugih-materialov">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="1-2-otdelenie-novostei-ot-drugih-materialov">
+</a>1.2. Отделение новостей от других материалов</h5>
+<pre>
+<code>tgnews news &lt;source_dir&gt;</code>
+</pre>
+<p>где:</p>
+<ul>
+<li>
+<strong>&lt;source_dir&gt;</strong> – путь до директории с HTML-файлами, содержащими тексты статей. Может содержать поддиректории с HTML-файлами, которые также необходимо обработать. Тексты статей могут быть на английском и/или русском языках.</li>
+</ul>
+<p>Результат должен быть выведен в формате JSON в STDOUT. Формат ответа:</p>
+<pre>
+<code>{
+  &quot;articles&quot;: [
+    &quot;981787246124324.html&quot;,
+    ...
+  ]
+}</code>
+</pre>
+<p>где:</p>
+<ul>
+<li>
+<strong>articles</strong> – список имен файлов (без указания относительного или абсолютного пути), содержащих новости</li>
+</ul>
+<blockquote>
+<p>
+<a href="#opredelenie-novostei">Подробные рекомендации для определения новостей »</a>
+</p>
+</blockquote>
+<h5>
+<a class="anchor-link" href="#1-3-gruppirovka-po-tematike">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="1-3-gruppirovka-po-tematike">
+</a>1.3. Группировка по тематике</h5>
+<pre>
+<code>tgnews categories &lt;source_dir&gt;</code>
+</pre>
+<p>где:</p>
+<ul>
+<li>
+<strong>&lt;source_dir&gt;</strong> – путь до директории с HTML-файлами, содержащими тексты статей. Может содержать поддиректории с HTML-файлами, которые также необходимо обработать. Тексты статей могут быть на английском и/или русском языках.</li>
+</ul>
+<p>Результат должен быть выведен в формате JSON в STDOUT. Формат ответа:</p>
+<pre>
+<code>[
+  {
+    &quot;category&quot;: &quot;society&quot;,
+    &quot;articles&quot;: [
+      &quot;981787246124324.html&quot;,
+      ...
+    ]
+  },
+  {
+    &quot;category&quot;: &quot;sports&quot;,
+    &quot;articles&quot;: [
+      &quot;2348972396239813.html&quot;,
+      ...
+    ]
+  },
+  ...
+]</code>
+</pre>
+<p>где:</p>
+<ul>
+<li>
+<strong>category</strong> – <code>&quot;society&quot;</code>, <code>&quot;economy&quot;</code>, <code>&quot;technology&quot;</code>, <code>&quot;sports&quot;</code>, <code>&quot;entertainment&quot;</code>, <code>&quot;science&quot;</code> или <code>&quot;other&quot;</code>
+</li>
+<li>
+<strong>articles</strong> – список имен файлов (без указания относительного или абсолютного пути), содержащих статьи по тематике <strong>category</strong>
+</li>
+</ul>
+<blockquote>
+<p>Обратите внимание, что во втором этапе разрешается помещать статьи в несколько категорий (не более трёх), однако делать это рекомендуется только в редких пограничных случаях. Суть группировки не в том, чтобы перечислить все тематические оттенки статьи, а в том чтобы определить <strong>одну</strong> наиболее релевантную.</p>
+<p>
+<a href="#gruppirovka-po-kategoriyam">Подробные рекомендации для группировки по категориям »</a>
+</p>
+</blockquote>
+<h5>
+<a class="anchor-link" href="#1-4-gruppirovka-pohozhih-novostei-v-syuzheti">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="1-4-gruppirovka-pohozhih-novostei-v-syuzheti">
+</a>1.4. Группировка похожих новостей в сюжеты</h5>
+<pre>
+<code>tgnews threads &lt;source_dir&gt;</code>
+</pre>
+<p>где:</p>
+<ul>
+<li>
+<strong>&lt;source_dir&gt;</strong> – путь до директории с HTML-файлами, содержащими тексты статей. Может содержать поддиректории с HTML-файлами, которые также необходимо обработать. Тексты статей могут быть на английском и/или русском языках.</li>
+</ul>
+<p>Результат должен быть выведен в формате JSON в STDOUT. Формат ответа:</p>
+<pre>
+<code>[
+  {
+    &quot;title&quot;: &quot;Telegram announces Data Clustering Contest&quot;,
+    &quot;articles&quot;: [
+      &quot;6354183719539252.html&quot;,
+      ...
+    ]
+  },
+  {
+    &quot;title&quot;: &quot;Apple reveals new AirPods Pro&quot;,
+    &quot;articles&quot;: [
+      &quot;9436743547232134.html&quot;,
+      ...
+    ]
+  },
+  ...
+]</code>
+</pre>
+<p>где:</p>
+<ul>
+<li>
+<strong>title</strong> – общий заголовок для сгруппированного набора новостей</li>
+<li>
+<strong>articles</strong> – список имен файлов (без указания относительного или абсолютного пути), содержащих похожие новости, отсортированный по релевантности (релевантные выше)</li>
+</ul>
+<blockquote>
+<p>
+<a href="#gruppirovka-po-syuzhetam">Подробные рекомендации для группировки по сюжетам »</a>
+</p>
+<p>Обратите внимание, что при выполнении команд из пунктов <strong>1.1-1.4</strong> приложение не должно кешировать и переиспользовать никаких данных. Данные команды могут быть выполнены в произвольном порядке и это не должно влиять на результат работы алгоритма.</p>
+</blockquote>
+<h4>
+<a class="anchor-link" href="#etap-2-indeksatsiya-i-ranzhirovanie">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="etap-2-indeksatsiya-i-ranzhirovanie">
+</a>Этап 2. Индексация и ранжирование</h4>
+<p>Для проверки индексации и ранжирования приложение будет запускаться со следующими параметрами:</p>
+<pre>
+<code>tgnews server &lt;port&gt;</code>
+</pre>
+<p>где:</p>
+<ul>
+<li>
+<strong>&lt;port&gt;</strong> – номер порта.</li>
+</ul>
+<p>Приложение должно поднять HTTP-сервер на порту <strong>port</strong> и подготовиться к получению HTTP-запросов (например, подгрузить индекс с диска). Пока сервер не готов, он должен отвечать 503 ошибкой. Пример ответа:</p>
+<pre>
+<code>HTTP/1.1 503 Service Unavailable</code>
+</pre>
+<p>HTTP-запросы, отправляемые приложению, описаны далее. Гарантируется, что параллельно будет отправляться не более 100 запросов.</p>
+<h5>
+<a class="anchor-link" href="#2-1-indeksatsiya">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="2-1-indeksatsiya">
+</a>2.1. Индексация</h5>
+<p>HTTP-запрос:</p>
+<pre>
+<code>PUT /article.html HTTP/1.1
+Content-Type: text/html
+Cache-Control: max-age=&lt;seconds&gt;
+Content-Length: 9
+
+&lt;content&gt;</code>
+</pre>
+<p>где:</p>
+<ul>
+<li>
+<strong>article.html</strong> – имя HTML-файла,</li>
+<li>
+<strong>&lt;seconds&gt;</strong> – время жизни статьи в секундах (от 5 минут до 30 дней),</li>
+<li>
+<strong>&lt;content&gt;</strong> - содержимое HTML-файла.</li>
+</ul>
+<p>Приложение должно проиндексировать файл со статьей, содержащийся в теле запроса. Гарантируется, что статья содержит метатег <code>&lt;meta property=&quot;article:published_time&quot;&gt;</code> c датой публикации статьи. В заголовке Cache-control: max-age будет передано время жизни статьи в индексе в секундах. Если от даты публикации текущей статьи до даты публикации самой поздней статьи в индексе прошло больше <strong>&lt;seconds&gt;</strong> секунд, текущая статья должна быть удалена из индекса. </p>
+<p>HTTP-сервер должен ответить кодом 201, если статьи еще не было в индексе, или 204, если статья была обновлена в индексе. Пример ответа:</p>
+<pre>
+<code>HTTP/1.1 201 Created</code>
+</pre>
+<blockquote>
+<p>Обратите внимание, что текст статьи в запросе может быть на любом языке и содержать в себе как новость, так и не новость. Для ранжирования актуальны только новости на русском и английском языках.</p>
+</blockquote>
+<h5>
+<a class="anchor-link" href="#2-2-udalenie-iz-indeksa">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="2-2-udalenie-iz-indeksa">
+</a>2.2. Удаление из индекса</h5>
+<p>HTTP-запрос:</p>
+<pre>
+<code>DELETE /article.html HTTP/1.1</code>
+</pre>
+<p>где:</p>
+<ul>
+<li>
+<strong>article.html</strong> – имя HTML-файла.</li>
+</ul>
+<p>Приложение должно удалить файл со статьей из индекса.</p>
+<p>HTTP-сервер должен ответить кодом 204, если статья была успешно удалена, или 404, если статья отсутствует в индексе. Пример ответа:</p>
+<pre>
+<code>HTTP/1.1 204 No Content</code>
+</pre>
+<h5>
+<a class="anchor-link" href="#2-3-ranzhirovanie-syuzhetov">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="2-3-ranzhirovanie-syuzhetov">
+</a>2.3. Ранжирование сюжетов</h5>
+<p>HTTP-запрос:</p>
+<pre>
+<code>GET /threads?period=&lt;period&gt;&amp;lang_code=&lt;lang_code&gt;&amp;category=&lt;category&gt; HTTP/1.1</code>
+</pre>
+<p>где:</p>
+<ul>
+<li>
+<strong>&lt;period&gt;</strong> – период времени в секундах (от 5 минут до 30 дней),</li>
+<li>
+<strong>&lt;lang_code&gt;</strong> – язык статей, <code>en</code> или <code>ru</code>,</li>
+<li>
+<strong>&lt;category&gt;</strong> – тематика (<code>society</code>, <code>economy</code>, <code>technology</code>, <code>sports</code>, <code>entertainment</code>, <code>science</code>, <code>other</code>) или <code>any</code>.</li>
+</ul>
+<p>Приложение должно вернуть отсортированный по важности список сюжетов из индекса, относящихся к указанной в <strong>category</strong> тематике, актуальный для языка <strong>lang_code</strong> и временного промежутка в <strong>period</strong> секунд до момента публикации самой поздней статьи в индексе.</p>
+<blockquote>
+<p>
+<a href="#rekomendatsii-po-ranzhirovaniyu">Рекомендации для определения важности и актуальности сюжетов »</a>
+</p>
+</blockquote>
+<p>Если <code>category=any</code>, то список сюжетов должен быть построен вне зависимости от тематики по всем новостям, актуальным в указанный период и для указанного языка.</p>
+<p>В списке всегда должны быть только <strong>новости</strong>, на указанном <strong>языке</strong>. Если сюжетов получается больше 1000, алгоритм может вернуть первые 1000 сюжетов (сюжетов, не статей). Гарантируется, что в запросе будут присутствовать все указанные параметры и они будут иметь валидные значения.</p>
+<p>HTTP-сервер должен ответить кодом 200. Данные должны быть возвращены в формате JSON в теле ответа. Пример ответа:</p>
+<pre>
+<code>HTTP/1.1 200 OK
+Content-type: application/json
+Content-length: 373
+
+{
+  &quot;threads&quot;: [
+    {
+      &quot;title&quot;: &quot;Telegram announces Data Clustering Contest&quot;,
+      &quot;category&quot;: &quot;technology&quot;,
+      &quot;articles&quot;: [
+        &quot;6354183719539252.html&quot;,
+        ...
+      ]
+    },
+    {
+      &quot;title&quot;: &quot;Apple reveals new AirPods Pro&quot;,
+      &quot;category&quot;: &quot;technology&quot;,
+      &quot;articles&quot;: [
+        &quot;9436743547232134.html&quot;,
+        ...
+      ]
+    },
+    ...
+  ]
+}</code>
+</pre>
+<p>где:</p>
+<ul>
+<li>
+<strong>threads</strong> – список сюжетов, отсортированный по важности (важные выше). Каждый сюжет содержит название и список статей. Если был запрошен <code>category=any</code>, также содержит поле <strong>category</strong>.</li>
+<li>
+<strong>title</strong> – общий заголовок для сюжета.</li>
+<li>
+<strong>category</strong> – <code>&quot;society&quot;</code>, <code>&quot;economy&quot;</code>, <code>&quot;technology&quot;</code>, <code>&quot;sports&quot;</code>, <code>&quot;entertainment&quot;</code>, <code>&quot;science&quot;</code> или <code>&quot;other&quot;</code>. Только для <code>category=any</code>.</li>
+<li>
+<strong>articles</strong> – список имен файлов статей по этому сюжету (без указания относительного или абсолютного пути), отсортированных по релевантности (релевантные выше).</li>
+</ul>
+<h3>
+<a class="anchor-link" href="#skript-dlya-proverki">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="skript-dlya-proverki">
+</a>Скрипт для проверки</h3>
+<p>Для проверки приложения на соответствие указанным выше форматам запросов и ответов, вы можете использовать <a href="https://data-static.usercontent.dev/dc-check.tar.gz">скрипт на языке PHP</a>
+<em>(дата последнего обновления: 25.05.2020 15:15 UTC)</em>, который запускает приложение во всех необходимых режимах:</p>
+<pre>
+<code>php dc-check.php &lt;binary&gt; all &lt;port&gt; &lt;source_dir&gt;</code>
+</pre>
+<p>где:</p>
+<ul>
+<li>
+<strong>&lt;binary&gt;</strong> – путь до запускаемого бинарного файла <strong>tgnews</strong>.</li>
+<li>
+<strong>&lt;port&gt;</strong> – номер любого свободного порта.</li>
+<li>
+<strong>&lt;source_dir&gt;</strong> – путь до директории с HTML-файлами, содержащими тексты статей, на которых будет произведено тестирование.</li>
+</ul>
+<p>Вы также можете использовать одну из следующих команд, чтобы протестировать только одно из заданий конкурса:</p>
+<pre>
+<code>php dc-check.php &lt;binary&gt; languages &lt;source_dir&gt;
+php dc-check.php &lt;binary&gt; news &lt;source_dir&gt;
+php dc-check.php &lt;binary&gt; categories &lt;source_dir&gt;
+php dc-check.php &lt;binary&gt; threads &lt;source_dir&gt;
+php dc-check.php &lt;binary&gt; server &lt;port&gt; &lt;source_dir&gt;</code>
+</pre>
+<blockquote>
+<p>Обратите внимание, что скрипт проверяет только корректность запуска и формат ответа и НЕ оценивает качество работы программы. Работа скрипта тестировалась на сервере с Debian GNU/Linux 10.1 (buster), x86-64. Если вы используете внешний скрипт для запуска приложения, то мы рекомендуем использовать <code>exec</code>.</p>
+</blockquote>
+<hr>
+<h3>
+<a class="anchor-link" href="#rekomendatsii-po-klasterizatsii">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="rekomendatsii-po-klasterizatsii">
+</a>Рекомендации по кластеризации</h3>
+<p>При разметке данных, модераторы опираются на следующие инструкции:</p>
+<h4>
+<a class="anchor-link" href="#opredelenie-novostei">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="opredelenie-novostei">
+</a>Определение новостей</h4>
+<p>Новости описывают события, изменения и происшествия в широком смысле, происходящие в данный момент или случившиеся в недавнем прошлом (относительно момента публикации). Как правило, прочитав новостную статью, можно ответить одним предложением на вопрос: “Что случилось?” Часто именно такое предложение будет являться заголовком статьи (впрочем, исключения нередки, и опираться на один заголовок не следует).</p>
+<p>Масштаб новости не имеет значения. Крошечная заметка “В Малых Вершках восстановили электроснабжение” или “Овощной склад на западе городка переоборудуют в квартиры” — это всё равно новости.</p>
+<p>Примеры статей, не являющихся новостями:</p>
+<ul>
+<li>Относительно безвременные статьи-рассуждения (“Почему демократия плоха для Африки?”)</li>
+<li>Исторические статьи (“Как Наполеон переходил Альпы”, “В 1914-м году средние заработки рабочих в Российской Империи начали падать”). </li>
+<li>Энциклопедические, справочные и обучающие материалы (“Виды короедов России”, “Как выбрать шкаф?”, “Решение уравнений с тремя неизвестными”).</li>
+<li>Списки, не относящиеся к событиям (“Шесть способов отдохнуть от работы в этот понедельник”, “Лучшие роутеры 2019-го”). Здесь стоит отметить, что “Опубликован полный список номинантов на Золотой Глобус” или “Павел Дуров рассказал о 7 причинах не ехать в Кремниевую Долину” — это новости).</li>
+</ul>
+<h4>
+<a class="anchor-link" href="#gruppirovka-po-kategoriyam">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="gruppirovka-po-kategoriyam">
+</a>Группировка по категориям</h4>
+<blockquote>
+<p>Обратите внимание, что во втором этапе разрешается помещать статьи в несколько категорий (не более трёх), однако делать это рекомендуется только в редких пограничных случаях. Суть группировки не в том, чтобы перечислить все тематические оттенки статьи, а в том чтобы определить <strong>одну</strong> наиболее релевантную.</p>
+</blockquote>
+<p>Статьи, принадлежащие к трём категориям, крайне редки. Особенно не рекомендуется добавлять Society как третью категорию (например статью “Курс акций Tesla упал после пожара на заводе” можно отнести к категориям <em>Экономика</em> и <em>Технологии</em>, но не <em>Общество</em>).</p>
+<ul>
+<li>
+<p>
+<strong>Society:</strong> политика, выборы, законодательство, происшествия, преступления и т.д. Самая обширная категория. Включает принятые и планирующиеся законы, любые политические события, преступления, происшествия и несчастные случаи любого масштаба и так далее.</p>
+</li>
+<li>
+<p>
+<strong>Economy:</strong> рынки, финансы, бизнес и т.д. Также новости компаний, рынки, акции, кризисы, экономические показатели. “Уровень безработицы вырос на 15%” и т.д.</p>
+</li>
+<li>
+<p>
+<strong>Technology:</strong> устройства, автомобили, приложения, сервисы в интернете и т.д. Компьютерные игры относятся к развлечениям, в категории Entertainment, а не к “Технологиям”. В качестве второй категории, “Технологии” могут быть добавлены к новостям об играх в редких исключениях, когда в новости важен именно технологический компонент — например, “Первой игрой, поддержавшей Direct X 18, стала Assassin&#39;s Creed 33”).</p>
+</li>
+<li>
+<p>
+<strong>Sports:</strong> всевозможный спорт, включая киберспорт.</p>
+</li>
+<li>
+<p>
+<strong>Entertainment:</strong> кино, музыка, игры, книги, выставки и прочее искусство, еда, рестораны, знаменитости, светская хроника и т.д. Сюда же относятся животные (исключения: если животных вывели в лаборатории это “Наука”, если они затоптали 100 человек, это “Общество” — и т.д.).</p>
+</li>
+<li>
+<p>
+<strong>Science:</strong> здоровье, биология, физика, генетика и т.д.</p>
+</li>
+<li>
+<p>
+<strong>Other:</strong> всё остальное. Сюда, в частности, относятся прогнозы погоды (если они не достаточно катастрофические, чтобы попасть в “Общество” или научные-аномальные, чтобы попасть в “Науку”), а также эзотерика, гороскопы, не-технологическая реклама и т.д. Категория Other не может быть присвоена статье, которая относится к любой другой категории.</p>
+</li>
+</ul>
+<p>К примеру, так можно было бы разобрать по категориям различные новости о коронавирусе:</p>
+<ul>
+<li>
+<em>Science:</em> Новости про симптомы, советы как не заболеть, поиски вакцины и т.д.</li>
+<li>
+<em>Society:</em> Карантинные меры в разных регионах, заболевшие политики, обращение королевы и т.д.</li>
+<li>
+<em>Economy:</em> Проблемы малого бизнеса, предприниматели получат компенсации и т.д.</li>
+<li>
+<em>Entertainment:</em> Заболевшие знаменитости (не политики),  новое граффити Бэнкси о пандемии, концерт в поддержку врачей и т.д.</li>
+<li>
+<em>Sports:</em> Перенос Олимпиады в Токио из-за пандемии и т.д.</li>
+<li>
+<em>Technology:</em> Apple и Google готовят приложение, предупреждающее о контактах с зараженными, WHO запустила бота и т.д.</li>
+</ul>
+<h4>
+<a class="anchor-link" href="#gruppirovka-po-syuzhetam">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="gruppirovka-po-syuzhetam">
+</a>Группировка по сюжетам</h4>
+<p>В сюжеты объединяются похожие статьи, дающие приблизительно одну и ту же информацию. Чтобы ознакомиться со всем сюжетом, как правило, достаточно одной статьи из него. Чтобы ознакомиться с темой целиком, как правило, необходимо изучить несколько сюжетов.</p>
+<p>Несколько примеров возможных сюжетов внутри темы <strong>“эпидемия коронавируса”</strong>:</p>
+<p>
+<strong>Один сюжет:</strong> “В Москве вводится обязательное ношение масок и перчаток”, “Мэр Сергей Собянин объявил о режиме обязательного ношения масок и перчаток”, “Москвичей будут штрафовать за отсутствие масок и перчаток”.<br>
+<strong>Другой сюжет:</strong> “В Московской области отложили штрафы за отсутствие масок”</p>
+<p>
+<strong>Один сюжет:</strong> “Трамп прокомментировал версию о намеренном создании коронавируса Китаем”, “Президент США заявил, что не верит в преднамеренное распространение Китаем коронавируса”, “Трамп: Китай сделал ужасную вещь с коронавирусом, но нечаянно”.<br>
+<strong>Другой сюжет:</strong> “В Германии назвали обвинения США против Китая отвлечением внимания от ошибок”</p>
+<p>
+<strong>Один сюжет:</strong> “В Турции рассказали, когда смогут принимать российских туристов”, “Турция рассчитывает на российских туристов с июля”, “Из России в Турцию: возобновление международных рейсов возможно в середине июля”.<br>
+<strong>Другой сюжет:</strong> “Политолог объяснил, почему Турция не откажется от системы «всё включено»”.</p>
+<p>Агрегационные статьи, освещающие несколько заведомо разных сюжетов (“Главные новости за выходные” и т.д.), не должны объединяться в один сюжет ни с одним из упоминаемых в них сюжетов.</p>
+<h4>
+<a class="anchor-link" href="#zagolovok-syuzheta">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="zagolovok-syuzheta">
+</a>Заголовок сюжета</h4>
+<p>Заголовок сюжета должен отражать тему каждой из статей, объединенных в сюжет. Желательно, чтобы он был кратким и нейтральным, называл героев сюжета и факты.</p>
+<p>Пример хорошего заголовка сюжета:<br>“Актёр Том Хэнкс стал донором плазмы для больных COVID-19”.</p>
+<p>Неудачный заголовок сюжета:<br>“«Это так же просто, как вздремнуть». Звезда фильмов «Зеленая миля» и «Форест Гамп» о донорстве для получения вакцины от COVID-19 (5 фото)”.</p>
+<h3>
+<a class="anchor-link" href="#rekomendatsii-po-ranzhirovaniyu">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="rekomendatsii-po-ranzhirovaniyu">
+</a>Рекомендации по ранжированию</h3>
+<p>Мы не ограничиваем участников в способах определения относительной <strong>важности</strong> сюжета и его <strong>актуальности</strong> для выбранного языкового раздела и временного отрезка.</p>
+<h4>
+<a class="anchor-link" href="#aktualnost-dlya-vremennogo-perioda">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="aktualnost-dlya-vremennogo-perioda">
+</a>Актуальность для временного периода</h4>
+<p>Алгоритм должен вернуть не просто статьи, которые <em>опубликованы</em> в указанный период, а те, которые являются <strong>актуальными в этот период времени</strong>. Например, простой алгоритм мог бы, как минимум, включать все сюжеты, в которых хотя бы одна статья была опубликована в течение заданного периода. В более основательном алгоритме новости и сюжеты могли бы также набирать вес в зависимости от количества упоминаний, веса изданий и т.п. и терять актуальность с разной скоростью в зависимости от веса.</p>
+<blockquote>
+<p>Алгоритм <strong>НЕ</strong> должен возвращать новости, не актуальные для временного периода.</p>
+</blockquote>
+<h4>
+<a class="anchor-link" href="#aktualnost-dlya-angliiskogo-razdela">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="aktualnost-dlya-angliiskogo-razdela">
+</a>Актуальность для английского раздела</h4>
+<p>Сюжеты на <strong>английском языке</strong> должны быть актуальны для широкого круга международных читателей, без локальных новостей отдельных стран, которые могут быть интересны лишь их гражданам или жителям близлежащих стран. Как правило, такие новости освещаются широким кругом изданий из самых разнообразных регионов.</p>
+<p>
+<strong>Актуально:</strong>
+<br>“China Reports First New COVID-19 Case In Wuhan”, “Hundreds gather in Hong Kong malls as anti-gov&#39;t rallies reemerge”, “World’s biggest lockdown: 1.3 billion Indians ordered to stay home”, “Xbox exec says it ‘set some wrong expectations’ for Xbox Series X game reveals”.</p>
+<p>
+<strong>Не актуально:</strong>
+<br>“Amash&#39;s candidacy injects uncertainty for Trump in key swing state of Michigan”, “Lagos governor pledges &#39;maximum&#39; health funding”, “Yogi Adityanath asks high-level teams to camp in Agra, Meerut, Kanpur”, “Made in Qatar 2020&#39; expo to open in Kuwait”.</p>
+<blockquote>
+<p>Алгоритм <strong>может</strong> возвращать новости не актуальные для раздела, но они должны быть <strong>пессимизированы</strong> в выдаче.</p>
+</blockquote>
+<h4>
+<a class="anchor-link" href="#aktualnost-dlya-russkogo-razdela">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="aktualnost-dlya-russkogo-razdela">
+</a>Актуальность для русского раздела</h4>
+<p>На данном этапе конкурса, сюжеты на <strong>русском языке</strong> должны быть актуальны для читателя из России. Это могут быть новости из России, важные новости из сопредельных стран и общемировые новости.</p>
+<p>
+<strong>Актуально:</strong>
+<br>“Отрицатели коронавируса сожгли вышку сотовой связи”, “Little Big представит Россию на Евровидении”, “Извержение вулкана в Новой Зеландии”, “Власти Уханя рассказали о новой вспышке коронавируса”, “Скандальный разговор Трампа и Зеленского”.</p>
+<p>
+<strong>Не актуально:</strong>
+<br>“Белорусская авиакомпания забрала граждан из Судана и Анголы”, “Украинская киноакадемия назвала победителей кинопремии «Золотая Дзига»”, “Масштабный пожар в Одесской области: горел торговый центр, погибших нет”, “С начала года в Минское агентство по госрегистрации обратились более 100 тыс. посетителей”.</p>
+<blockquote>
+<p>Алгоритм <strong>может</strong> возвращать новости не актуальные для раздела, но они должны быть <strong>пессимизированы</strong> в выдаче.</p>
+</blockquote>
+</div>
+</div>
+</section>
+</main>
+</div>
+<div class="popup-container login-popup-container hide" id="login-popup-container">
+<div class="popup">
+<div class="popup-body">
+<section>
+<h2>Log In</h2>
+<p>Log in here to leave comments and take part in the Telegram Competitions. Please enter your <b>phone number</b> in the <a target="_blank" rel="noopener" href="https://telegram.org/faq#login-and-sms">international format</a> and we will send a confirmation message to your account via Telegram.</p>
+<form id="send-form" class="login-form">
+<div class="form-group">
+<input type="tel" class="form-control cd-form-control input-lg" id="phone-number" placeholder="+12223334455" autocomplete="off"/>
+</div>
+<div class="popup-buttons">
+<a class="btn btn-link btn-lg login-cancel-btn">Cancel</a>
+<button type="submit" class="btn btn-link btn-lg">Next</button>
+</div>
+</form>
+<div id="login-form" class="hide">
+<div class="form-group">
+<span class="form-control cd-form-control input input-lg input-disabled">
+<strong id="phone-number-field">
+</strong> (<a class="login-back" href="/auth">Incorrect?</a>)</span>
+<p class="help-block dots-animated">We&#39;ve just sent you a message.<br/>Please confirm access via Telegram</p>
+</div>
+<div class="popup-buttons">
+<a class="btn btn-link btn-lg login-cancel-btn">Cancel</a>
+<a class="btn btn-link btn-lg login-back">Back</a>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+</div>
+<script src="/js/jquery.min.js?1">
+</script>
+<script src="/js/bootstrap.min.js">
+</script>
+<script src="/js/main-aj.js?76">
+</script>
+<script src="/js/contest.js?25">
+</script>
+<script src="/js/jquery-ui.min.js?1">
+</script>
+<script src="/js/tgsticker.js?32">
+</script>
+<script>ajInit({"version":701,"apiUrl":"\/api?hash=X","unauth":true});</script>
+<script id="aj_script">Aj._useScrollHack=true;
+window.initDevPageNav&&initDevPageNav();
+Aj.onLoad(function(state) {
+  function requestConfirmation(event) {
+    event && event.preventDefault();
+    var phone = $('#phone-number').val();
+    $.ajax({
+      type: 'POST',
+      url: '/auth/request',
+      data: {
+        phone: phone
+      },
+      success: function(result) {
+        $('#phone-number-field').text(phone);
+        $('#send-form').addClass('hide');
+        $('#login-form').removeClass('hide');
+        checkAuth(result.temp_session);
+      },
+      error: function(xhr) {
+        showAlert(xhr.responseText || 'Server error');
+      },
+      dataType: 'json'
+    });
+    return false;
+  }
+  function cancelConfirmation(event) {
+    event && event.preventDefault();
+    $('#phone-number-field').text('');
+    $('#send-form').removeClass('hide');
+    $('#login-form').addClass('hide');
+    $('#phone-number').focus();
+    clearTimeout(window.authTimeout);
+    return false;
+  }
+  function checkAuth(temp_session) {
+    clearTimeout(window.authTimeout);
+    window.authTimeout = setTimeout(function doCheckAuth() {
+      $.ajax({
+        type: 'POST',
+        url: '/auth/login',
+        data: {
+          temp_session: temp_session
+        },
+        success: function(result) {
+          if (result) {
+            location.reload();
+          } else {
+            checkAuth(temp_session);
+          }
+        },
+        error: function (xhr) {
+          showAlert(xhr.responseText || 'Server error');
+        },
+        dataType: 'json'
+      });
+    }, 700);
+  }
+  $('#login-popup-container').on('popup:open', function() {
+    $('#phone-number').focus();
+  });
+  $('#login-popup-container').on('popup:close', function() {
+    cancelConfirmation();
+    if (location.pathname == '/auth') {
+      window.history && history.replaceState(null, null, '/');
+    }
+  });
+  $('#login-popup-container #send-form').on('submit', requestConfirmation);
+  $('#login-popup-container .login-cancel-btn').on('click', function(e) {
+    e.preventDefault();
+    closePopup('#login-popup-container');
+  });
+  $('#login-popup-container .login-back').on('click', cancelConfirmation);
+  $('.login-link').on('click', function(e) {
+    e.stopImmediatePropagation();
+    e.preventDefault();
+    openPopup('#login-popup-container');
+  });
+});
+Aj.onUnload(function(state) {
+  $('#login-popup-container').off('popup:open');
+  $('#login-popup-container').off('popup:close');
+  $('#login-popup-container #send-form').off('submit');
+  $('#login-popup-container .login-cancel-btn').off('click');
+  $('#login-popup-container .login-back').off('click');
+  $('.login-link').off('click');
+});
+</script>
+<script>Aj.pageLoaded();</script>
+</body>
+</html>

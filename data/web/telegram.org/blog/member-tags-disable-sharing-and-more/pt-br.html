@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html class="" data-theme="light">
+<head>
+<meta charset="utf-8">
+<title>Etiquetas de Membros, Login com Telegram, Desativar Compartilhamento, Edição de GIFs, Formatação de Data e Horários nas Enquetes</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:title" content="Etiquetas de Membros, Login com Telegram, Desativar Compartilhamento, Edição de GIFs, Formatação de Data e Horários nas Enquetes">
+<meta property="og:image" content="https://telegram.org/file/400780400115/5/Cv5ZyIIoOC0.324347.jpg/9b317921d13d7c6dda">
+<meta property="og:site_name" content="Telegram">
+<meta property="og:description" content="Na atualização de hoje, adicionamos etiquetas para ajudar os membros de grupos a mostrarem quem são, uma configuração para desativar o compartilhamento de mensagens em chats privados específicos, edição e legendas para GIFs, novas ferramentas para se cadastrar e fazer login em apps e sites com o Telegram — e mais.">
+<meta property="article:published_time" content="2026-03-01T09:23:51+00:00">
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://telegram.org/file/400780400115/5/Cv5ZyIIoOC0.324347.jpg/9b317921d13d7c6dda" />
+<meta property="fb:app_id" content="254098051407226">
+<meta property="vk:app_id" content="3782569">
+<meta name="apple-itunes-app" content="app-id=686449807">
+<meta name="telegram:channel" content="@telegram">
+<link rel="canonical" href="https://telegram.org/blog/member-tags-disable-sharing-and-more/pt-br" />
+<link rel="icon" type="image/svg+xml" href="/img/website_icon.svg?4">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="alternate icon" href="/img/favicon.ico" type="image/x-icon" />
+<link href="/css/bootstrap.min.css?3" rel="stylesheet">
+<link href="/css/telegram.css?256" rel="stylesheet" media="screen">
+<link href="/css/telegram-theme.css?9" rel="stylesheet" media="screen">
+</head>
+<body class="preload">
+<div id="fb-root">
+</div>
+<button class="theme-toggle theme-toggle--static" type="button" title="Toggle theme" aria-label="Toggle light/dark theme">
+</button>
+<div class="tl_page_wrap">
+<div class="tl_page_head navbar navbar-static-top navbar navbar-tg">
+<div class="navbar-inner">
+<div class="container clearfix">
+<ul class="nav navbar-nav navbar-right">
+<li class="dropdown top_lang_select">
+<a class="dropdown-toggle" onclick="return dropdownClick(this, event)" href="#">
+<i class="dev_top_lang_icon">
+</i>
+<b class="minicaret">
+</b>
+</a>
+<ul class="dropdown-menu">
+<li class="">
+<a href="?setln=en">English</a>
+</li>
+<li class="long ">
+<a href="?setln=id">Bahasa Indonesia</a>
+</li>
+<li class="long ">
+<a href="?setln=ms">Bahasa Melayu</a>
+</li>
+<li class="">
+<a href="?setln=de">Deutsch</a>
+</li>
+<li class="">
+<a href="?setln=es">Español</a>
+</li>
+<li class="">
+<a href="?setln=fr">Français</a>
+</li>
+<li class="">
+<a href="?setln=it">Italiano</a>
+</li>
+<li class="">
+<a href="?setln=nl">Nederlands</a>
+</li>
+<li class="">
+<a href="?setln=uz">O‘zbek</a>
+</li>
+<li class="">
+<a href="?setln=pl">Polski</a>
+</li>
+<li class="long ">
+<a href="?setln=pt-br">Português (Brasil)</a>
+</li>
+<li class="">
+<a href="?setln=tr">Türkçe</a>
+</li>
+<li class="">
+<a href="?setln=be">Беларуская</a>
+</li>
+<li class="">
+<a href="?setln=ru">Русский</a>
+</li>
+<li class="">
+<a href="?setln=uk">Українська</a>
+</li>
+<li class="">
+<a href="?setln=kk">Қазақша</a>
+</li>
+<li class="">
+<a href="?setln=ar">العربية</a>
+</li>
+<li class="">
+<a href="?setln=fa">فارسی</a>
+</li>
+<li class="">
+<a href="?setln=ko">한국어</a>
+</li>
+</ul>
+</li>
+<li class="navbar-twitter hidden-xs">
+<a href="https://x.com/telegram" target="_blank" data-track="Follow/Twitter" onclick="trackDlClick(this, event)">
+<i class="icon icon-twitter">
+</i> Follow on X</a>
+</li>
+</ul>
+<ul class="nav navbar-nav">
+<li class="">
+<a href="/">Home</a>
+</li>
+<li class="">
+<a href="/faq">FAQ</a>
+</li>
+<li class="">
+<a href="/apps">Apps</a>
+</li>
+<li class="hidden-xs ">
+<a href="//core.telegram.org/api">API</a>
+</li>
+<li class="hidden-xs ">
+<a href="/safety">Safety</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="container clearfix tl_page_container ">
+<div class="tl_page">
+<div class="tl_contest_page_wrap">
+<div class="tl_blog_side_blog">
+<div class="side_blog_wrap">
+<div class="side_blog">
+<a href="/blog" class="side_blog_header">Recent News</a>
+<div class="side_blog_entries">
+<a href="/blog/welcome-messages-buttons-TG-13" class="side_blog_entry">
+<div class="side_blog_date">Aug 25</div>
+<div class="side_blog_title">Welcome Messages, Buttons in Messages and Signed Gifts</div>
+</a>
+<a href="/blog/communities-editor-invisible-messages" class="side_blog_entry">
+<div class="side_blog_date">Jul 14</div>
+<div class="side_blog_title">Rich Text Editor, Communities, Ephemeral Messages in Groups, 350 Million GIFs</div>
+</a>
+<a href="/blog/watch-apps-and-more" class="side_blog_entry">
+<div class="side_blog_date">Jun 11</div>
+<div class="side_blog_title">Smartwatch Apps, Rich Text for Bots, AI Guardians for Groups, and Much More</div>
+</a>
+<a href="/blog/ai-bot-revolution-11-new-features" class="side_blog_entry">
+<div class="side_blog_date">May 7</div>
+<div class="side_blog_title">Guest AI Bots, Bot-to-Bot Chats, Chat Automation, Custom AI Styles, 100M+ Emoji &amp; Sticker Search and Much More</div>
+</a>
+<a href="/blog/ai-editor-mighty-polls-and-more" class="side_blog_entry">
+<div class="side_blog_date">Mar 31</div>
+<div class="side_blog_title">AI Editor, Mighty Polls, Live Photos, Bots Managed by Bots, and More</div>
+</a>
+<a href="/blog/member-tags-disable-sharing-and-more" class="side_blog_entry">
+<div class="side_blog_date">Mar 1</div>
+<div class="side_blog_title">Member Tags, Login with Telegram, Disable Sharing, GIF Editing, Date Formatting, Voting Timestamps</div>
+</a>
+<a href="/blog/crafting-android-design-and-more" class="side_blog_entry">
+<div class="side_blog_date">Feb 9</div>
+<div class="side_blog_title">Android Redesign, Group Ownership Transfer, Gift Crafting, Colored Bot Buttons</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div id="dev_page_content_wrap" class=" ">
+<div class="dev_page_bread_crumbs">
+</div>
+<h1 id="dev_page_title">Etiquetas de Membros, Login com Telegram, Desativar Compartilhamento, Edição de GIFs, Formatação de Data e Horários nas Enquetes</h1>
+<blockquote class="blog_lang_original">
+<a href="/blog/member-tags-disable-sharing-and-more?ln=r">Leia o anúncio original em Inglês</a>
+</blockquote>
+<div id="dev_page_content">
+<div class="blog_side_image_wrap">
+<picture class="dev_page_tgsticker blog_side_image js-tgsticker_image" style="width:160px;">
+<div style="padding-top:100%">
+</div>
+<source type="application/x-tgsticker" srcset="/file/400780400366/3/0KgVOrAp_Ss.7106/fc890989166c76e009">
+<img src="/file/400780400366/4/p5sPiCkIR8M.16212.png/c2c151574bf5030318" />
+</picture>
+</div>
+<div class="blog_wide_image">
+<a href="/file/400780400129/4/MTNblLntG40.366666.webp/a528c6f3d687d32cb5" target="_blank">
+<img src="/file/400780400834/7/MQdIKV-2jjI.128980.webp/c956eabae5ac0307fc" srcset="/file/400780400129/4/MTNblLntG40.366666.webp/a528c6f3d687d32cb5, 1200w" title="" alt="Etiquetas de Membros, Login com Telegram, Desativar Compartilhamento, Edição de GIFs, Formatação de Data e Horários nas Enquetes"/>
+</a>
+</div>
+<p>Na atualização de hoje, adicionamos <strong>etiquetas</strong> para ajudar os membros de grupos a mostrarem quem são, uma configuração para <strong>desativar o compartilhamento de mensagens</strong> em chats privados específicos, <strong>edição e legendas para GIFs</strong>, novas ferramentas para <strong>se cadastrar</strong> e <strong>fazer login</strong> em apps e sites com o Telegram — e mais.</p>
+<h4>
+<a class="anchor" name="etiquetas-de-membros" href="#etiquetas-de-membros">
+<i class="anchor-icon">
+</i>
+</a>Etiquetas de Membros</h4>
+<p>Membros de chats em grupo agora podem <strong>adicionar uma etiqueta</strong> ao lado do nome — para <strong>mostrar sua função</strong> no trabalho, <strong>o que estudam</strong> na faculdade e mais. Isso ajuda você a <strong>se apresentar</strong> em chats da vizinhança ou a <strong>destacar seus interesses</strong> em comunidades online.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<div>
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/400780400297/5/WnCKCyjaPcg.73507.jpg/22791f279bef63f5cc" style="max-width: 600px;" alt="Etiquetas de Membros">
+<source src="/file/400780400523/4/PMLKEzzfEJg.6540784.mp4/e92e84be89b454ea65" type="video/mp4">
+</video>
+</div>
+</div>
+<p>Admins podem escolher se os membros do grupo podem <strong>definir as próprias etiquetas</strong> ou se <strong>apenas admins</strong> podem atribuí-las. As etiquetas dos membros administradores do grupo são sempre exibidas em uma <strong>cor diferente</strong> para deixar suas funções claras.</p>
+<blockquote>
+<p>Para permitir que os membros definam as próprias etiquetas no seu grupo, vá para <em>Configurações do Grupo &gt; Permissões</em> e ative <em>&#39;Editar as Próprias Etiquetas&#39;</em>.</p>
+</blockquote>
+<h4>
+<a class="anchor" name="desativar-compartilhamento-em-chats-privados" href="#desativar-compartilhamento-em-chats-privados">
+<i class="anchor-icon">
+</i>
+</a>
+<img class="icon" src="/file/464001305/110b0/-bpC5P3HJp4.6317/a2b79589744c739331" alt="Premium:"> Desativar Compartilhamento em Chats Privados</h4>
+<p>Em 2021, o Telegram adicionou <a href="https://telegram.org/blog/protected-content-delete-by-date-and-more/pt-br?ln=a#conteudo-protegido-em-grupos-e-canais">configurações de proteção de conteúdo</a> para <strong>grupos e canais</strong>, que ajudam comunidades e criadores de conteúdo a tornar suas postagens <strong>mais exclusivas</strong>.</p>
+<p>Com a atualização de hoje, os usuários agora podem desativar o compartilhamento <strong>em qualquer chat privado</strong> para promover uma atmosfera de confiança mútua. Isso <strong>restringe o encaminhamento de mensagens</strong> e <strong>impede capturas de tela</strong> e o <strong>salvamento de mídias</strong> do chat.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<div>
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/400780400359/4/1GnghQ2Ng58.72446.jpg/12704e9101375c174e" style="max-width: 600px;" alt="Desativar Compartilhamento em Chats Privados">
+<source src="/file/400780400262/2/JsTVdkg80_s.7083436.mp4/49b41cf88543ff98a5" type="video/mp4">
+</video>
+</div>
+</div>
+<blockquote>
+<p>Para desativar o compartilhamento em um chat, abra o perfil de um usuário, toque em ⋯ ou ⋮ e selecione <em>&#39;Desativar Compartilhamento&#39;</em>. Este recurso está atualmente disponível para usuários do <a href="https://t.me/premium">Telegram Premium</a>.</p>
+</blockquote>
+<h4>
+<a class="anchor" name="legendas-para-gifs" href="#legendas-para-gifs">
+<i class="anchor-icon">
+</i>
+</a>Legendas para GIFs</h4>
+<p>Ao selecionar um GIF no painel de GIFs, agora você pode <strong>adicionar uma legenda</strong> diretamente a ele — e enviar tudo como <strong>uma única mensagem</strong>. Assim como acontece com <a href="https://telegram.org/blog/message-effects-and-more/pt-br?ln=a#legendas-acima-das-midias">outras mídias</a>, sua legenda pode ser colocada <strong>acima</strong> ou <strong>abaixo</strong> do GIF para memes perfeitamente formatados.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<div>
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/400780400354/4/_aapIRnXJSY.62265.jpg/f1fb41b65e0d1a5a8e" style="max-width: 600px;" alt="GIF Captions">
+<source src="/file/400780400992/6/dVF5GyuaGQ4.6907460.mp4/9c070628f38ea21873" type="video/mp4">
+</video>
+</div>
+</div>
+<blockquote>
+<p>Para adicionar uma legenda, pressione e segure no painel de GIFs e selecione <em>&#39;Adicionar Legenda&#39;</em>.</p>
+</blockquote>
+<h4>
+<a class="anchor" name="stickers-instantaneos-a-partir-de-fotos" href="#stickers-instantaneos-a-partir-de-fotos">
+<i class="anchor-icon">
+</i>
+</a>Stickers Instantâneos A Partir De Fotos</h4>
+<p>As fotos que você abre no visualizador de mídia agora podem ser <strong>convertidas em stickers</strong> com apenas <strong>um toque</strong>. Esses stickers <a href="https://telegram.org/blog/sticker-maker/pt-br">podem ser editados</a> para <strong>recortar objetos</strong>, <strong>adicionar texto</strong>, <strong>emojis</strong> e muito mais antes de enviar.</p>
+<div class="blog_image_wrap blog_wide_image_wrap">
+<a href="/file/400780400954/7/VJb3o2nsQ8Q.667262.jpg/6212ac211a87f2b399" target="_blank">
+<img src="/file/400780400954/7/VJb3o2nsQ8Q.667262.jpg/6212ac211a87f2b399" alt="Criando Stickers" srcset="/file/400780400954/7/VJb3o2nsQ8Q.667262.jpg/6212ac211a87f2b399 , 2x" />
+</a>
+</div>
+<blockquote>
+<p>Os stickers que você cria podem ser <strong>salvos nos seus favoritos</strong> ou adicionados a pacotes de stickers.</p>
+</blockquote>
+<h4>
+<a class="anchor" name="editando-gifs-e-stickers" href="#editando-gifs-e-stickers">
+<i class="anchor-icon">
+</i>
+</a>Editando GIFs e stickers</h4>
+<p>Agora é possível editar <strong>GIFs e stickers</strong> do painel no <a href="https://telegram.org/blog/hidden-media-zero-storage-profile-pics/pt-br?ln=a#novas-ferramentas-de-desenho-e-texto">poderoso editor de mídias</a> do Telegram — para <strong>adicionar texto, desenhos e emojis</strong>, ou para cortar GIFs e <strong>alterar sua duração</strong>.</p>
+<div class="blog_image_wrap blog_wide_image_wrap">
+<a href="/file/400780400372/4/gRsa4_5qsI8.442994.jpg/b03237c389d760dbcd" target="_blank">
+<img src="/file/400780400372/4/gRsa4_5qsI8.442994.jpg/b03237c389d760dbcd" alt="Editando stickers" srcset="/file/400780400372/4/gRsa4_5qsI8.442994.jpg/b03237c389d760dbcd , 2x" />
+</a>
+</div>
+<blockquote>
+<p>Para editar um GIF ou sticker no painel, toque e segure, e depois selecione <em>&#39;Editar&#39;</em>.</p>
+</blockquote>
+<h4>
+<a class="anchor" name="registro-de-horario-nas-enquetes" href="#registro-de-horario-nas-enquetes">
+<i class="anchor-icon">
+</i>
+</a>Registro de Horário nas Enquetes</h4>
+<p>As enquetes com votos visíveis agora <strong>mostram um registro de data e hora</strong> para cada usuário que votou, para que os participantes possam ver quando cada voto foi computado.</p>
+<div class="blog_image_wrap blog_wide_image_wrap">
+<a href="/file/400780400000/3/YolqlGRFywo.434478.jpg/0175b11b6dc0c204a6" target="_blank">
+<img src="/file/400780400000/3/YolqlGRFywo.434478.jpg/0175b11b6dc0c204a6" alt="Registro de Horário nas Enquetes" srcset="/file/400780400000/3/YolqlGRFywo.434478.jpg/0175b11b6dc0c204a6 , 2x" />
+</a>
+</div>
+<h4>
+<a class="anchor" name="streaming-de-respostas-nos-bots" href="#streaming-de-respostas-nos-bots">
+<i class="anchor-icon">
+</i>
+</a>Streaming de Respostas nos Bots</h4>
+<p>No ano passado, demos aos <a href="https://telegram.org/blog/comments-in-video-chats-threads-for-bots/pt-br?ln=a#topicos-e-streaming-de-respostas-para-bots-de-ia">bots de IA</a> a capacidade de <strong>exibir texto</strong> enquanto geram uma resposta. Com a atualização de hoje, <strong>todos os bots</strong> no Telegram podem ativar esse recurso — para <strong>respostas satisfatórias</strong> que rolam pela tela.</p>
+<h4>
+<a class="anchor" name="login-com-o-telegram" href="#login-com-o-telegram">
+<i class="anchor-icon">
+</i>
+</a>Login com o Telegram</h4>
+<p>Agora é possível usar sua conta do Telegram para <strong>se cadastrar</strong> e <strong>fazer login em apps e sites</strong> com apenas alguns toques – sem preencher formulários ou criar senhas.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<div>
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/400780400374/5/0BP2y09Wxws.49592.jpg/74278cda319d681042" style="max-width: 600px;" alt="Login com o Telegram">
+<source src="/file/400780400232/4/wpUPbbooUJY.7426390.mp4/8a8e497d6868d0a9ff" type="video/mp4">
+</video>
+</div>
+</div>
+<p>Você pode <strong>compartilhar seu número de telefone</strong> para evitar etapas extras de verificação. Você também pode permitir que serviços <strong>enviem mensagens para você no Telegram</strong> para ter notificações convenientes.</p>
+<blockquote>
+<p>Desenvolvedores podem encontrar mais informações sobre como integrar o Login com o Telegram neste <a href="https://core.telegram.org/bots/telegram-login">guia detalhado</a>.</p>
+</blockquote>
+<h4>
+<a class="anchor" name="formatacao-de-hora-e-data" href="#formatacao-de-hora-e-data">
+<i class="anchor-icon">
+</i>
+</a>Formatação de Hora e Data</h4>
+<p>Você pode usar a nova opção de formatação de <strong>&#39;Data&#39;</strong> para enviar uma <strong>hora e data específicas</strong> em uma mensagem. Os destinatários podem tocar nela para <strong>adicionar um evento</strong> ao calendário ou definir um <strong>lembrete rápido</strong>.</p>
+<p>A formatação de data <strong>adapta-se automaticamente</strong> à <strong>data e hora local</strong> de cada destinatário — assim ninguém precisa fazer cálculos de fuso horário.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<div>
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/400780400140/7/jch43CUma_8.40877.jpg/72d966bb6ac44132ab" style="max-width: 600px;" alt="Formatação de Hora e Data">
+<source src="/file/400780400265/5/FSHgno8iGiw.6674762.mp4/6c033e5408da8c9f61" type="video/mp4">
+</video>
+</div>
+</div>
+<p>As mensagens de bots também podem utilizar <strong>variáveis de tempo dinâmicas</strong> para fornecer aos usuários uma data e hora precisas em uma mensagem, adaptadas ao fuso horário deles.</p>
+<blockquote>
+<p>Para todas as atualizações recentes da API de Bots do Telegram, confira o <a href="https://core.telegram.org/bots/api-changelog">registro de mudanças mais recente</a>.</p>
+</blockquote>
+<p>Março dá as boas-vindas, e as atualizações de outono estão chegando! <img class="emoji" src="//telegram.org/img/emoji/40/F09F8D82.png" width="20" height="20" alt="🍂" />
+</p>
+<div>
+<br>
+</div>
+<p>
+<em>1 de março 2026,<br>A Equipe do Telegram</em>.</p>
+</div>
+</div>
+<div class="tl_main_share clearfix">
+<a href="https://t.me/share/url?url=https%3A%2F%2Ftelegram.org%2Fblog%2Fmember-tags-disable-sharing-and-more%2Fpt-br&text=Etiquetas%20de%20Membros%2C%20Login%20com%20Telegram%2C%20Desativar%20Compartilhamento%2C%20Edi%C3%A7%C3%A3o%20de%20GIFs%2C%20Formata%C3%A7%C3%A3o%20de%20Data%20e%20Hor%C3%A1rios%20nas%20Enquetes" class="tl_telegram_share_btn" id="tl_telegram_share_btn" data-text="Etiquetas de Membros, Login com Telegram, Desativar Compartilhamento, Edição de GIFs, Formatação de Data e Horários nas Enquetes" data-url="https://telegram.org/blog/member-tags-disable-sharing-and-more/pt-br">
+<i class="tl_telegram_share_icon">
+</i>
+<span class="tl_telegram_share_label" target="_blank">Forward</span>
+</a>
+<a href="https://twitter.com/share" class="tl_twitter_share_btn" id="tl_twitter_share_btn" data-text="Etiquetas de Membros, Login com Telegram, Desativar Compartilhamento, Edição de GIFs, Formatação de Data e Horários nas Enquetes" data-url="https://telegram.org/blog/member-tags-disable-sharing-and-more/pt-br" data-via="Telegram">Tweet <span class="tl_twitter_share_cnt">
+</span>
+</a>
+</div>
+</div>
+<div class="tl_main_recent_news_wrap tlb_other_news_wrap tl_blog_list_page_wrap">
+<h3 class="tl_main_recent_news_header">
+<a href="/blog">Other News</a>
+</h3>
+<div class="tl_main_recent_news_cards clearfix">
+<a class="dev_blog_card_link_wrap" href="/blog/welcome-messages-buttons-TG-13/pt-br">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400741/6/aFBFZ5lNqO8.66680.webp/0e567958d5b96a2184" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">Mensagens de Boas-Vindas, Botões nas Mensagens e Presentes Assinados</h4>
+<div class="dev_blog_card_lead">Apresentamos as Mensagens de Boas-Vindas para receber novos membros de grupos ou canais, os Botões nas Mensagens para tornar qualquer texto…</div>
+</div>
+<div class="dev_blog_card_date">Aug 25, 2026</div>
+</div>
+</a>
+<a class="dev_blog_card_link_wrap" href="/blog/communities-editor-invisible-messages/pt-br">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400366/6/dI0zgi0mM5s.323818.webp/6a362dadee6e7e6011" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">Editor de Texto Formatado, Comunidades, Mensagens Efêmeras em Grupos, 350 Milhões de GIFs</h4>
+<div class="dev_blog_card_lead">Apresentando o Editor de Texto Formatado para formatar e gerar texto, as Comunidades do Telegram…</div>
+</div>
+<div class="dev_blog_card_date">Jul 14, 2026</div>
+</div>
+</a>
+<a class="dev_blog_card_link_wrap" href="/blog/watch-apps-and-more/pt-br">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400535/2/fkUcVRnSU-M.140100.webp/10c066db41f83e6d5e" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">Apps para Smartwatch, Texto Formatado para Bots, Guardiões de IA para Grupos e Muito Mais</h4>
+<div class="dev_blog_card_lead">A atualização de hoje leva o Telegram ao Apple Watch e a smartwatches Android, adiciona recursos…</div>
+</div>
+<div class="dev_blog_card_date">Jun 11, 2026</div>
+</div>
+</a>
+<a class="dev_blog_card_link_wrap" href="/blog/ai-bot-revolution-11-new-features/pt-br">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400475/2/BwY041V7nZg.149454.webp/873ed0c0321c7633e7" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">Bots de IA Convidados, Chats Entre Bots, Automação de Chats, Estilos de IA Personalizados, Busca de +100 Milhões de Emojis e Stickers, e Muito Mais</h4>
+<div class="dev_blog_card_lead">Na atualização de hoje, o Telegram adiciona mais…</div>
+</div>
+<div class="dev_blog_card_date">May 7, 2026</div>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer_wrap">
+<div class="footer_columns_wrap footer_desktop">
+<div class="footer_column footer_column_telegram">
+<h5>Telegram</h5>
+<div class="footer_telegram_description">
+</div>
+      Telegram is a cloud-based mobile and desktop messaging app with a focus on security and speed.
+    </div>
+<div class="footer_column">
+<h5>
+<a href="/faq">About</a>
+</h5>
+<ul>
+<li>
+<a href="/faq">FAQ</a>
+</li>
+<li>
+<a href="/privacy">Privacy</a>
+</li>
+<li>
+<a href="/press">Press</a>
+</li>
+</ul>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/apps#mobile-apps">Mobile Apps</a>
+</h5>
+<ul>
+<li>
+<a href="/dl/ios">iPhone/iPad</a>
+</li>
+<li>
+<a href="/android">Android</a>
+</li>
+<li>
+<a href="/dl/web">Mobile Web</a>
+</li>
+</ul>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/apps#desktop-apps">Desktop Apps</a>
+</h5>
+<ul>
+<li>
+<a href="//desktop.telegram.org/">PC/Mac/Linux</a>
+</li>
+<li>
+<a href="//macos.telegram.org/">macOS</a>
+</li>
+<li>
+<a href="/dl/web">Web-browser</a>
+</li>
+</ul>
+</div>
+<div class="footer_column footer_column_platform">
+<h5>
+<a href="//core.telegram.org/">Platform</a>
+</h5>
+<ul>
+<li>
+<a href="//core.telegram.org/api">API</a>
+</li>
+<li>
+<a href="//translations.telegram.org/">Translations</a>
+</li>
+<li>
+<a href="//instantview.telegram.org/">Instant View</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="footer_columns_wrap footer_mobile">
+<div class="footer_column">
+<h5>
+<a href="/faq">About</a>
+</h5>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/blog">Blog</a>
+</h5>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/press">Press</a>
+</h5>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/safety">Safety</a>
+</h5>
+</div>
+</div>
+</div>
+<script src="/js/main.js?49">
+</script>
+<script src="/js/tgsticker.js?32">
+</script>
+<script src="/js/main-theme.js?6">
+</script>
+<script>initScrollVideos(true);
+mainInitTgStickers({"maxDeviceRatio":2,"cachingModulo":4});
+twitterCustomShareInit();
+blogSideImageInit();
+backToTopInit("Go up");
+removePreloadInit();
+</script>
+</body>
+</html>

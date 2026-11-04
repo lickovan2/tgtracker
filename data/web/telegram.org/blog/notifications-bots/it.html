@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html class="" data-theme="light">
+<head>
+<meta charset="utf-8">
+<title>Suoni di notifica, Rivoluzione dei bot e molto altro</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:title" content="Suoni di notifica, Rivoluzione dei bot e molto altro">
+<meta property="og:image" content="https://telegram.org/file/464001531/fb90/y871yZUW70Y.372928/9fdf3a084a04b47ec8">
+<meta property="og:site_name" content="Telegram">
+<meta property="og:description" content="L&#39;aggiornamento di oggi aggiunge la creazione di toni di notifica individuali, l&#39;impostazione di valori personalizzati per silenziare le chat o per la cancellazione automatica dei messaggi, così come bot sovralimentati pronti a superare qualsiasi sito web, un inoltro migliorato che conserva le risposte, e molto altro.">
+<meta property="article:published_time" content="2022-04-16T13:55:47+00:00">
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://telegram.org/file/464001531/fb90/y871yZUW70Y.372928/9fdf3a084a04b47ec8" />
+<meta property="fb:app_id" content="254098051407226">
+<meta property="vk:app_id" content="3782569">
+<meta name="apple-itunes-app" content="app-id=686449807">
+<meta name="telegram:channel" content="@telegram">
+<link rel="canonical" href="https://telegram.org/blog/notifications-bots/it" />
+<link rel="icon" type="image/svg+xml" href="/img/website_icon.svg?4">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="alternate icon" href="/img/favicon.ico" type="image/x-icon" />
+<link href="/css/bootstrap.min.css?3" rel="stylesheet">
+<link href="/css/telegram.css?256" rel="stylesheet" media="screen">
+<link href="/css/telegram-theme.css?9" rel="stylesheet" media="screen">
+</head>
+<body class="preload">
+<div id="fb-root">
+</div>
+<button class="theme-toggle theme-toggle--static" type="button" title="Toggle theme" aria-label="Toggle light/dark theme">
+</button>
+<div class="tl_page_wrap">
+<div class="tl_page_head navbar navbar-static-top navbar navbar-tg">
+<div class="navbar-inner">
+<div class="container clearfix">
+<ul class="nav navbar-nav navbar-right">
+<li class="dropdown top_lang_select">
+<a class="dropdown-toggle" onclick="return dropdownClick(this, event)" href="#">
+<i class="dev_top_lang_icon">
+</i>
+<b class="minicaret">
+</b>
+</a>
+<ul class="dropdown-menu">
+<li class="">
+<a href="?setln=en">English</a>
+</li>
+<li class="long ">
+<a href="?setln=id">Bahasa Indonesia</a>
+</li>
+<li class="long ">
+<a href="?setln=ms">Bahasa Melayu</a>
+</li>
+<li class="">
+<a href="?setln=de">Deutsch</a>
+</li>
+<li class="">
+<a href="?setln=es">Español</a>
+</li>
+<li class="">
+<a href="?setln=fr">Français</a>
+</li>
+<li class="">
+<a href="?setln=it">Italiano</a>
+</li>
+<li class="">
+<a href="?setln=nl">Nederlands</a>
+</li>
+<li class="">
+<a href="?setln=uz">O‘zbek</a>
+</li>
+<li class="">
+<a href="?setln=pl">Polski</a>
+</li>
+<li class="long ">
+<a href="?setln=pt-br">Português (Brasil)</a>
+</li>
+<li class="">
+<a href="?setln=tr">Türkçe</a>
+</li>
+<li class="">
+<a href="?setln=be">Беларуская</a>
+</li>
+<li class="">
+<a href="?setln=ru">Русский</a>
+</li>
+<li class="">
+<a href="?setln=uk">Українська</a>
+</li>
+<li class="">
+<a href="?setln=kk">Қазақша</a>
+</li>
+<li class="">
+<a href="?setln=ar">العربية</a>
+</li>
+<li class="">
+<a href="?setln=fa">فارسی</a>
+</li>
+<li class="">
+<a href="?setln=ko">한국어</a>
+</li>
+</ul>
+</li>
+<li class="navbar-twitter hidden-xs">
+<a href="https://x.com/telegram" target="_blank" data-track="Follow/Twitter" onclick="trackDlClick(this, event)">
+<i class="icon icon-twitter">
+</i> Follow on X</a>
+</li>
+</ul>
+<ul class="nav navbar-nav">
+<li class="">
+<a href="/">Home</a>
+</li>
+<li class="">
+<a href="/faq">FAQ</a>
+</li>
+<li class="">
+<a href="/apps">Apps</a>
+</li>
+<li class="hidden-xs ">
+<a href="//core.telegram.org/api">API</a>
+</li>
+<li class="hidden-xs ">
+<a href="/safety">Safety</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="container clearfix tl_page_container ">
+<div class="tl_page">
+<div class="tl_contest_page_wrap">
+<div class="tl_blog_side_blog">
+<div class="side_blog_wrap">
+<div class="side_blog">
+<a href="/blog" class="side_blog_header">Recent News</a>
+<div class="side_blog_entries">
+<a href="/blog/welcome-messages-buttons-TG-13" class="side_blog_entry">
+<div class="side_blog_date">Aug 25</div>
+<div class="side_blog_title">Welcome Messages, Buttons in Messages and Signed Gifts</div>
+</a>
+<a href="/blog/communities-editor-invisible-messages" class="side_blog_entry">
+<div class="side_blog_date">Jul 14</div>
+<div class="side_blog_title">Rich Text Editor, Communities, Ephemeral Messages in Groups, 350 Million GIFs</div>
+</a>
+<a href="/blog/watch-apps-and-more" class="side_blog_entry">
+<div class="side_blog_date">Jun 11</div>
+<div class="side_blog_title">Smartwatch Apps, Rich Text for Bots, AI Guardians for Groups, and Much More</div>
+</a>
+<a href="/blog/ai-bot-revolution-11-new-features" class="side_blog_entry">
+<div class="side_blog_date">May 7</div>
+<div class="side_blog_title">Guest AI Bots, Bot-to-Bot Chats, Chat Automation, Custom AI Styles, 100M+ Emoji &amp; Sticker Search and Much More</div>
+</a>
+<a href="/blog/ai-editor-mighty-polls-and-more" class="side_blog_entry">
+<div class="side_blog_date">Mar 31</div>
+<div class="side_blog_title">AI Editor, Mighty Polls, Live Photos, Bots Managed by Bots, and More</div>
+</a>
+<a href="/blog/member-tags-disable-sharing-and-more" class="side_blog_entry">
+<div class="side_blog_date">Mar 1</div>
+<div class="side_blog_title">Member Tags, Login with Telegram, Disable Sharing, GIF Editing, Date Formatting, Voting Timestamps</div>
+</a>
+<a href="/blog/crafting-android-design-and-more" class="side_blog_entry">
+<div class="side_blog_date">Feb 9</div>
+<div class="side_blog_title">Android Redesign, Group Ownership Transfer, Gift Crafting, Colored Bot Buttons</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div id="dev_page_content_wrap" class=" ">
+<div class="dev_page_bread_crumbs">
+</div>
+<h1 id="dev_page_title">Suoni di notifica, Rivoluzione dei bot e molto altro</h1>
+<blockquote class="blog_lang_original">
+<a href="/blog/notifications-bots?ln=r">Leggi l&#39;annuncio originale in Inglese</a>
+</blockquote>
+<div id="dev_page_content">
+<div class="blog_side_image_wrap">
+<picture class="dev_page_tgsticker blog_side_image js-tgsticker_image" style="width:160px;">
+<div style="padding-top:100%">
+</div>
+<source type="application/x-tgsticker" srcset="/file/464001596/103d2/ob0W1muRSwU.11451/7afd4506e891f49d28">
+<img src="/file/464001596/103d3/moogfkDbOx4.34496.png/7ecba522471a47c481" />
+</picture>
+</div>
+<div class="blog_wide_image legacy">
+<a href="/file/464001428/10620/86jRmfg4YJ4.880366/7b335c46d6d2fcfe69" target="_blank">
+<img src="/file/464001531/fb90/y871yZUW70Y.372928/9fdf3a084a04b47ec8" srcset="/file/464001428/10620/86jRmfg4YJ4.880366/7b335c46d6d2fcfe69, 1200w" title="Sounds like teen spirit" alt="Suoni di notifica, Rivoluzione dei bot e molto altroe"/>
+</a>
+</div>
+<p>L&#39;aggiornamento di oggi aggiunge la <strong>creazione di toni di notifica individuali</strong>, l&#39;impostazione di <strong>valori personalizzati</strong> per silenziare le chat o per la cancellazione automatica dei messaggi, così come <strong>bot potenziati</strong> pronti a superare qualsiasi sito web, un inoltro migliorato che <strong>conserva le risposte</strong>, e molto altro.</p>
+<h3>
+<a class="anchor" name="suoni-di-notifica-personalizzati" href="#suoni-di-notifica-personalizzati">
+<i class="anchor-icon">
+</i>
+</a>Suoni di notifica personalizzati</h3>
+<p>Ora puoi trasformare <strong>qualsiasi suono</strong> in un <strong>tono di notifica</strong>, creando avvisi personalizzati dalla tua musica preferita o persino dai tuoi meme (e <a href="https://t.me/CustomNotificationSounds/81">
+<em>miao</em>
+</a>). Tocca un <strong>breve file audio</strong> o un <strong>messaggio vocale</strong> in chat per aggiungerlo istantaneamente alla tua lista di suoni di notifica, che potrai assegnare a qualsiasi chat.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001152/12951/hNdmjw6fs_E.25108/8133f587e2172ab98f" style="max-width: 600px;" title="Tutti i nostri starnazzi e miagolii sono organici al 100%." alt="Suoni di notifica personalizzati">
+<source src="/file/464001560/10ed8/75EhRz6_ci4.4802304.mp4/c2fdcf80ae7910e45c" type="video/mp4">
+</video>
+</div>
+<p>I toni di Telegram sono <strong>multipiattaforma</strong> e <strong>completamente gratuiti</strong> - come dovrebbero essere.</p>
+<p>Puoi accedere ai tuoi suoni su tutti i tuoi dispositivi da <em>Impostazioni &gt; Notifiche e suoni</em>. Lì puoi <strong>aggiungere nuovi toni</strong> e impostare suoni per singole chat o per intere tipologie di chat.</p>
+<blockquote>
+<p>I toni al momento supportano file audio e messaggi vocali fino a <strong>5 secondi</strong> e fino a <strong>300 KB</strong> di dimensione. Prova alcuni <strong>esempi</strong> creati dal nostro team (e dai loro animali domestici) nel canale <a href="https://t.me/CustomNotificationSounds">Notification Sounds</a>.</p>
+</blockquote>
+<h3>
+<a class="anchor" name="silenzia-le-chat-con-valori-personalizzati" href="#silenzia-le-chat-con-valori-personalizzati">
+<i class="anchor-icon">
+</i>
+</a>Silenzia le chat con valori personalizzati</h3>
+<p>Per anni, gli utenti di Telegram sono stati in grado di silenziare temporaneamente le chat per prendersi una pausa dalle notifiche, ad esempio per <strong>8 ore</strong> o <strong>2 giorni</strong>. Ora è anche possibile mettere in pausa le notifiche per una <strong>durata specifica</strong>, come la durata di un pisolino pomeridiano o di una vacanza prolungata.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001442/10ad7/SJpUVTqQOZ8.18366/24fcb9a3d7ee1945cd" style="max-width: 600px;" title="Imposta un valore personalizzato, o valle abbondante!" alt="Silenzia le chat con valori personalizzati">
+<source src="/file/464001297/1197b/DyWlezeYmec.3292082.mp4/98598de1d64c01c114" type="video/mp4">
+</video>
+</div>
+<p>Ogni chat ha un <strong>menu semplificato</strong> per modificare gli avvisi - scegli <em>Disattiva suono</em> per ricevere le notifiche <strong>silenziosamente</strong>, o una delle opzioni <em>Silenzia</em> per disattivare completamente le notifiche.</p>
+<blockquote>
+<p>Su Android, tocca <em>&#39;Notifiche&#39;</em> nella pagina di info di una chat o <img class="icon" src="/file/464001466/3/TUYKwGzdaIM.984/c472ac8f01ebdd57c8" alt="Menu Android">
+<em>&gt; Silenzia</em> nel titolo della chat. Su iOS, tocca &#39;Silenzia&#39; nella pagina di info di una chat.</p>
+</blockquote>
+<h3>
+<a class="anchor" name="nuovo-menu-di-autoeliminazione-nei-profili" href="#nuovo-menu-di-autoeliminazione-nei-profili">
+<i class="anchor-icon">
+</i>
+</a>Nuovo menu di autoeliminazione nei profili</h3>
+<p>L&#39;<a href="https://telegram.org/blog/autodelete-inv2/it?ln=a#autoelimina-i-messaggi">Autoeliminazione</a> può essere attivata in qualsiasi chat per rendere una conversazione più riservata o meno ingombrante. Ora servono <strong>meno tocchi</strong> per attivarla e supporta <strong>impostazioni flessibili del timer</strong> - come 2 giorni, 3 settimane, 4 mesi e altro.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001825/102a1/4JyE20_qvHE.587603/c40ae325dbe4f51885" style="max-width: 600px;" title="Sing for the Moment" alt="Nuovo menu di autoeliminazione nei profili">
+<source src="/file/464001729/10c73/103UY0IEhKU.6888678.mp4/d5c73fff2f605535b1" type="video/mp4">
+</video>
+</div>
+<blockquote>
+<p>Attiva l&#39;Autoeliminazione da <img class="icon" src="/file/464001466/3/TUYKwGzdaIM.984/c472ac8f01ebdd57c8" alt="Menu Android"> o <img class="icon" src="/file/464001448/2/VHd-rEO8AMI.2898/1d9c403b5d0d54dbb0" alt="Menu iOS"> nella pagina di info delle chat.</p>
+</blockquote>
+<h3>
+<a class="anchor" name="risposte-nei-messaggi-inoltrati" href="#risposte-nei-messaggi-inoltrati">
+<i class="anchor-icon">
+</i>
+</a>Risposte nei messaggi inoltrati</h3>
+<p>Telegram è stata la prima app a rendere le risposte facili ed immediate da navigare (<a href="https://telegram.org/blog/replies-mentions-hashtags">2015</a>). <strong>Scorri il dito verso sinistra</strong> su qualsiasi messaggio per rispondere. La tua risposta includerà una <strong>piccola anteprima</strong> che puoi toccare per saltare istantaneamente al messaggio originale.</p>
+<p>Queste stesse anteprime di risposta sono ora incluse quando vengono <strong>inoltrati i messaggi</strong> in altre chat, in modo che tutti possano vedere il contesto completo delle vostre battute.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001487/10da6/odBPXSsEPzg.766439/f1c42197de32aaa773" style="max-width: 600px;" title="Un trenino di giochi di parole" alt="Risposte nei messaggi inoltrati">
+<source src="/file/464001731/1010d/7_d4SJfms70.3972328.mp4/d9c8e9c7b8816e56cd" type="video/mp4">
+</video>
+</div>
+<blockquote>
+<p>Puoi sempre <a href="https://telegram.org/blog/live-streams-forwarding-next-channel/it?ln=a#inoltro-flessibile">nascondere il nome del mittente</a> o le didascalie dei media se vuoi inoltrare un messaggio in modo anonimo.</p>
+</blockquote>
+<h3>
+<a class="anchor" name="rivoluzione-dei-bot" href="#rivoluzione-dei-bot">
+<i class="anchor-icon">
+</i>
+</a>Rivoluzione dei bot</h3>
+<p>Dal <a href="https://telegram.org/evolution#june-2015">2015</a>, milioni di persone hanno usato i <a href="https://t.me/TelegramTipsIT/186">bot</a> per convertire file, fare acquisti online e anche pagare le tasse. I bot di Telegram supportano già <a href="https://telegram.org/blog/privacy-discussions-web-bots#meet-seamless-web-bots">l&#39;autorizzazione senza interruzioni</a>, l&#39;elaborazione di <a href="https://telegram.org/blog/payments-2-0-scheduled-voice-chats/it?ln=a#pagamenti-2-0">pagamenti</a> tramite <strong>15</strong> fornitori di pagamento integrati (con <em>Google Pay</em> e <em>Apple Pay</em> supportati direttamente), la raccolta di feedback, la consegna di notifiche su misura per gli utenti e molto altro.</p>
+<p>Oggi stiamo aggiungendo un&#39;intera nuova dimensione, dando agli sviluppatori di bot gli strumenti per creare <strong>interfacce infinitamente flessibili</strong> con <em>JavaScript</em>, il linguaggio di programmazione più popolare al mondo. Con questo, i bot di Telegram possono sostituire completamente <strong>qualsiasi sito web</strong>.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001434/100bf/eWprjdgzEbE.100386/644bbea83084f44c8f" style="max-width: 600px;" title="console.log('Viva la rivoluzione')" alt=" Rivoluzione dei bot">
+<source src="/file/464001679/11aa9/KQx_BlPVXRo.4922145.mp4/c65433c8ac11a347a8" type="video/mp4">
+</video>
+</div>
+<p>Per avere un&#39;idea di cosa aspettarsi dai bot Telegram di terze parti, prova a ordinare da un fast food finto con il nostro esempio <a href="https://t.me/durgerkingbot">@DurgerKingBot</a>.</p>
+<blockquote>
+<p>Gli sviluppatori sono invitati a controllare la <a href="https://core.telegram.org/bots/webapps">documentazione dell&#39;API dei Bot</a> - e a dar sfogo alla loro immaginazione.</p>
+</blockquote>
+<p>Queste interfacce possono essere programmate per corrispondere al tema di un utente - <strong>regolando i colori</strong> in tempo reale, per esempio quando si passa tra le modalità <strong>Giorno e Notte</strong> o si impostano <a href="https://telegram.org/blog/protected-content-delete-by-date-and-more/it?ln=a#temi-della-chat-globali-su-android">temi personalizzati</a>.</p>
+<h3>
+<a class="anchor" name="configura-immediatamente-i-bot-amministratori" href="#configura-immediatamente-i-bot-amministratori">
+<i class="anchor-icon">
+</i>
+</a>Configura immediatamente i bot amministratori</h3>
+<p>I bot di Telegram possono anche svolgere piccoli compiti come la gestione della chat aggiungendo funzioni extra, automatizzando i processi o aiutando i moderatori. Gli utenti possono ora rapidamente <strong>aggiungere bot</strong> ai loro gruppi o canali direttamente dal profilo del bot e <strong>configurare</strong> immediatamente <strong>diritti e permessi</strong> per il bot.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001644/11c74/zEsyDJV-Ylg.394291/de3dabcd737d9ec454" style="max-width: 600px;" title="I bot devono combattere... per il loro diritto... di festeggiare." alt="Configura immediatamente i bot amministratori">
+<source src="/file/464001508/10265/9s2PGXyzQW0.3317857.mp4/f2d60efe6ca5d1fae2" type="video/mp4">
+</video>
+</div>
+<blockquote>
+<p>I bot possono essere aggiunti ai canali solo come amministratori, mentre possono essere aggiunti ai gruppi sia come membri che come amministratori.</p>
+</blockquote>
+<h3>
+<a class="anchor" name="traduzione-dei-messaggi-migliorata-su-ios" href="#traduzione-dei-messaggi-migliorata-su-ios">
+<i class="anchor-icon">
+</i>
+</a>Traduzione dei messaggi migliorata su iOS</h3>
+<p>La funzione di <a href="https://telegram.org/blog/reactions-spoilers-translations/it#traduzione-dei-messaggi">traduzione in-app</a> per i dispositivi iOS è stata ampliata per supportare <strong>traduzioni di migliore qualità</strong> da <strong>molte altre lingue</strong>, come l&#39;ucraino - e ora è in grado di tradurre le stesse lingue dell&#39;<strong>app Android</strong>.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001693/10449/5C5CqELP7qs.89969/ef2eb63d76b28571bd" style="max-width: 600px;" title="Come se la Torre di Babele non fosse mai caduta" alt="Traduzione dei messaggi migliorata su iOS">
+<source src="/file/464001602/12562/Yu_rf1khOfY.4744725.mp4/bb0d176dd3043898e0" type="video/mp4">
+</video>
+</div>
+<p>Attiva le Traduzioni in <em>Impostazioni &gt; Lingua</em> per aggiungere un <strong>pulsante Traduci</strong> dedicato nel menu contestuale quando selezioni un messaggio. Puoi anche escludere qualsiasi lingua che parli in modo fluente – in modo da <strong>nascondere il pulsante di traduzione</strong> per quei messaggi.</p>
+<h3>
+<a class="anchor" name="picture-in-picture-migliorato-su-android" href="#picture-in-picture-migliorato-su-android">
+<i class="anchor-icon">
+</i>
+</a>Picture-in-picture migliorato su Android</h3>
+<p>Qualsiasi video sulle app mobili di Telegram può essere visualizzato con la modalità <strong>Picture-in-Picture</strong>, in modo da poter continuare a chattare mentre guardi le dirette streaming o le compilation di gatti. Questo aggiornamento aggiunge miglioramenti alla <strong>finestra del lettore multimediale</strong> su Android - <strong>pizzica per cambiarne le dimensioni</strong>, tocca <em>X</em> per <strong>chiuderlo</strong> rapidamente, e goditi il <strong>nuovo design arrotondato</strong>.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001441/10569/0oKwNLTNjLI.153180/3ac123cec470b711b6" style="max-width: 600px;" title="Yo dawg, ho sentito che ti piacciono le foto." alt="Picture-in-picture migliorato su Android">
+<source src="/file/464001796/11529/xTTGnnKxLQU.4321943.mp4/736e1ed847c029ce1b" type="video/mp4">
+</video>
+</div>
+<blockquote>
+<p>I video Picture-in-picture funzionano nelle app di Telegram su qualsiasi piattaforma, inclusi iOS, macOS e Telegram Desktop.</p>
+</blockquote>
+<h3>
+<a class="anchor" name="nuove-animazioni" href="#nuove-animazioni">
+<i class="anchor-icon">
+</i>
+</a>Nuove animazioni</h3>
+<p>L&#39;interfaccia per cambiare il tuo numero di telefono nelle Impostazioni ha un nuovo look, con <strong>papere animate</strong> per guidarti attraverso il processo. La modifica del numero di telefono del tuo account aggiorna solo il numero a cui invieremo i futuri codici di accesso - tutte le tue chat, i media e le altre impostazioni rimarranno <strong>esattamente le stesse</strong>.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001981/1047b/iMjzdJVVbNw.312778/3e6c76809952e701d2" style="max-width: 600px;" title="Cos'hanno in comune una papera e un telefono? Il conto." alt="Animazione per il cambio del numero di telefono">
+<source src="/file/464001757/1258a/NEzljhC7aik.1511533.mp4/30d3a905060630bf8e" type="video/mp4">
+</video>
+</div>
+<blockquote>
+<p>Mantenere il tuo numero aggiornato è essenziale, in modo da poter sempre ricevere i codici di accesso e accedere al tuo account. Puoi cambiarlo senza problemi toccando il tuo numero di telefono in Impostazioni.</p>
+</blockquote>
+<h3>
+<a class="anchor" name="altre-emoji-animate" href="#altre-emoji-animate">
+<i class="anchor-icon">
+</i>
+</a>Altre emoji animate</h3>
+<p>Nel caso in cui tu stia cercando del cibo che si muove, basta inviare un messaggio con una <strong>singola emoji</strong> per ottenere una di queste all&#39;interno di una chat:</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001844/10e19/mijGCbOei-0.76454/266bf887561edca3de" style="max-width: 600px;" title="Nessuno finisce la lettura di questo blog senza essere affamato." alt="Emoji animate, classe di Aprile 2022">
+<source src="/file/464001382/11717/xFY4eK68IH0.3466833.mp4/a4ab30bf845cec2ba8" type="video/mp4">
+</video>
+</div>
+<p>E questo è tutto per il secondo aggiornamento primaverile di Telegram di quest&#39;anno. Restate sintonizzati per altro!</p>
+<div>
+<br>
+</div>
+<p>
+<em>16 Aprile 2022<br>il team di Telegram</em>
+</p>
+<!--
+### Video
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="PHOTO" style="max-width: 600px;" title="TITLE" alt="TITLE">
+<source src="VIDEO" type="video/mp4">
+</video>
+</div>
+-->
+<!--
+### Image
+
+<div class="blog_image_wrap blog_medium_image_wrap">
+<a href="LARGE" target="_blank">
+<img src="SMALL" title="TITLE" alt="TITLE" srcset="LARGE , 2x" />
+</a>
+</div>
+
+-->
+</div>
+</div>
+<div class="tl_main_share clearfix">
+<a href="https://t.me/share/url?url=https%3A%2F%2Ftelegram.org%2Fblog%2Fnotifications-bots%2Fit&text=Crea%20i%20tuoi%20toni%20di%20avviso%2C%20integra%20app%20web%20complete%20nei%20bot%2C%20imposta%20durate%20personalizzate%20per%20silenziare%20le%20chat%20e%20per%20la%20cancellazione%20automatica%20e%20molto%20altro." class="tl_telegram_share_btn" id="tl_telegram_share_btn" data-text="Crea i tuoi toni di avviso, integra app web complete nei bot, imposta durate personalizzate per silenziare le chat e per la cancellazione automatica e molto altro." data-url="https://telegram.org/blog/notifications-bots/it">
+<i class="tl_telegram_share_icon">
+</i>
+<span class="tl_telegram_share_label" target="_blank">Forward</span>
+</a>
+<a href="https://twitter.com/share" class="tl_twitter_share_btn" id="tl_twitter_share_btn" data-text="Crea i tuoi toni di avviso, integra app web complete nei bot, imposta durate personalizzate per silenziare le chat e per la cancellazione automatica e molto altro." data-url="https://telegram.org/blog/notifications-bots/it" data-via="Telegram">Tweet <span class="tl_twitter_share_cnt">
+</span>
+</a>
+</div>
+</div>
+<div class="tl_main_recent_news_wrap tlb_other_news_wrap tl_blog_list_page_wrap">
+<h3 class="tl_main_recent_news_header">
+<a href="/blog">Other News</a>
+</h3>
+<div class="tl_main_recent_news_cards clearfix">
+<a class="dev_blog_card_link_wrap" href="/blog/welcome-messages-buttons-TG-13/it">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400741/6/aFBFZ5lNqO8.66680.webp/0e567958d5b96a2184" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">Messaggi di benvenuto, Pulsanti nei messaggi e Regali firmati</h4>
+<div class="dev_blog_card_lead">Introduciamo i messaggi di benvenuto per salutare i nuovi membri di gruppi o canali, i pulsanti nei messaggi per rendere interattivo qualsiasi…</div>
+</div>
+<div class="dev_blog_card_date">Aug 25, 2026</div>
+</div>
+</a>
+<a class="dev_blog_card_link_wrap" href="/blog/communities-editor-invisible-messages/it">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400405/7/AQNnD9itI5s.338570.webp/ec0155605bac60bd43" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">Editor di testo avanzato, Community, Messaggi effimeri nei gruppi, 350 milioni di GIF</h4>
+<div class="dev_blog_card_lead">Introduzione di un editor di testo avanzato per formattare e generare testo, community Telegram…</div>
+</div>
+<div class="dev_blog_card_date">Jul 14, 2026</div>
+</div>
+</a>
+<a class="dev_blog_card_link_wrap" href="/blog/watch-apps-and-more/it">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400535/2/fkUcVRnSU-M.140100.webp/10c066db41f83e6d5e" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">App per smartwatch, Testo formattato per i bot, Guardiani IA per i gruppi e molto altro</h4>
+<div class="dev_blog_card_lead">L&#39;aggiornamento di oggi porta Telegram su Apple Watch e smartwatch Android, aggiunge il testo…</div>
+</div>
+<div class="dev_blog_card_date">Jun 11, 2026</div>
+</div>
+</a>
+<a class="dev_blog_card_link_wrap" href="/blog/ai-bot-revolution-11-new-features/it">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400475/2/BwY041V7nZg.149454.webp/873ed0c0321c7633e7" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">Bot IA ospiti, Chat tra bot, Automazione chat, Ricerca di oltre 100 milioni di emoji e sticker, Stili IA personalizzati, Statistiche per i sondaggi, Messaggi programmati silenziosi, Rimozione delle reazioni</h4>
+<div class="dev_blog_card_lead">Nell&#39;aggiornamento di oggi, Telegram introduce…</div>
+</div>
+<div class="dev_blog_card_date">May 7, 2026</div>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer_wrap">
+<div class="footer_columns_wrap footer_desktop">
+<div class="footer_column footer_column_telegram">
+<h5>Telegram</h5>
+<div class="footer_telegram_description">
+</div>
+      Telegram is a cloud-based mobile and desktop messaging app with a focus on security and speed.
+    </div>
+<div class="footer_column">
+<h5>
+<a href="/faq">About</a>
+</h5>
+<ul>
+<li>
+<a href="/faq">FAQ</a>
+</li>
+<li>
+<a href="/privacy">Privacy</a>
+</li>
+<li>
+<a href="/press">Press</a>
+</li>
+</ul>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/apps#mobile-apps">Mobile Apps</a>
+</h5>
+<ul>
+<li>
+<a href="/dl/ios">iPhone/iPad</a>
+</li>
+<li>
+<a href="/android">Android</a>
+</li>
+<li>
+<a href="/dl/web">Mobile Web</a>
+</li>
+</ul>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/apps#desktop-apps">Desktop Apps</a>
+</h5>
+<ul>
+<li>
+<a href="//desktop.telegram.org/">PC/Mac/Linux</a>
+</li>
+<li>
+<a href="//macos.telegram.org/">macOS</a>
+</li>
+<li>
+<a href="/dl/web">Web-browser</a>
+</li>
+</ul>
+</div>
+<div class="footer_column footer_column_platform">
+<h5>
+<a href="//core.telegram.org/">Platform</a>
+</h5>
+<ul>
+<li>
+<a href="//core.telegram.org/api">API</a>
+</li>
+<li>
+<a href="//translations.telegram.org/">Translations</a>
+</li>
+<li>
+<a href="//instantview.telegram.org/">Instant View</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="footer_columns_wrap footer_mobile">
+<div class="footer_column">
+<h5>
+<a href="/faq">About</a>
+</h5>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/blog">Blog</a>
+</h5>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/press">Press</a>
+</h5>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/safety">Safety</a>
+</h5>
+</div>
+</div>
+</div>
+<script src="/js/main.js?49">
+</script>
+<script src="/js/tgsticker.js?32">
+</script>
+<script src="/js/main-theme.js?6">
+</script>
+<script>initScrollVideos(true);
+mainInitTgStickers({"maxDeviceRatio":2,"cachingModulo":4});
+twitterCustomShareInit();
+blogSideImageInit();
+backToTopInit("Go up");
+removePreloadInit();
+</script>
+</body>
+</html>

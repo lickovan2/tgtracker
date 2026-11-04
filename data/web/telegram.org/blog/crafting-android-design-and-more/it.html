@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html class="" data-theme="light">
+<head>
+<meta charset="utf-8">
+<title>Restyling Android, Trasferimento proprietà gruppi, Creazione di regali, Pulsanti colorati per i bot</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:title" content="Restyling Android, Trasferimento proprietà gruppi, Creazione di regali, Pulsanti colorati per i bot">
+<meta property="og:image" content="https://telegram.org/file/400780400229/3/96ausyGOrFI.476954.jpg/0660bf9f92b06db07c">
+<meta property="og:site_name" content="Telegram">
+<meta property="og:description" content="Questo aggiornamento introduce il più grande aggiornamento dell&#39;interfaccia nella storia di Telegram per Android, un sistema di creazione per generare nuovi regali esclusivi, e molto altro.">
+<meta property="article:published_time" content="2026-02-09T11:38:33+00:00">
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://telegram.org/file/400780400229/3/96ausyGOrFI.476954.jpg/0660bf9f92b06db07c" />
+<meta property="fb:app_id" content="254098051407226">
+<meta property="vk:app_id" content="3782569">
+<meta name="apple-itunes-app" content="app-id=686449807">
+<meta name="telegram:channel" content="@telegram">
+<link rel="canonical" href="https://telegram.org/blog/crafting-android-design-and-more/it" />
+<link rel="icon" type="image/svg+xml" href="/img/website_icon.svg?4">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="alternate icon" href="/img/favicon.ico" type="image/x-icon" />
+<link href="/css/bootstrap.min.css?3" rel="stylesheet">
+<link href="/css/telegram.css?256" rel="stylesheet" media="screen">
+<link href="/css/telegram-theme.css?9" rel="stylesheet" media="screen">
+</head>
+<body class="preload">
+<div id="fb-root">
+</div>
+<button class="theme-toggle theme-toggle--static" type="button" title="Toggle theme" aria-label="Toggle light/dark theme">
+</button>
+<div class="tl_page_wrap">
+<div class="tl_page_head navbar navbar-static-top navbar navbar-tg">
+<div class="navbar-inner">
+<div class="container clearfix">
+<ul class="nav navbar-nav navbar-right">
+<li class="dropdown top_lang_select">
+<a class="dropdown-toggle" onclick="return dropdownClick(this, event)" href="#">
+<i class="dev_top_lang_icon">
+</i>
+<b class="minicaret">
+</b>
+</a>
+<ul class="dropdown-menu">
+<li class="">
+<a href="?setln=en">English</a>
+</li>
+<li class="long ">
+<a href="?setln=id">Bahasa Indonesia</a>
+</li>
+<li class="long ">
+<a href="?setln=ms">Bahasa Melayu</a>
+</li>
+<li class="">
+<a href="?setln=de">Deutsch</a>
+</li>
+<li class="">
+<a href="?setln=es">Español</a>
+</li>
+<li class="">
+<a href="?setln=fr">Français</a>
+</li>
+<li class="">
+<a href="?setln=it">Italiano</a>
+</li>
+<li class="">
+<a href="?setln=nl">Nederlands</a>
+</li>
+<li class="">
+<a href="?setln=uz">O‘zbek</a>
+</li>
+<li class="">
+<a href="?setln=pl">Polski</a>
+</li>
+<li class="long ">
+<a href="?setln=pt-br">Português (Brasil)</a>
+</li>
+<li class="">
+<a href="?setln=tr">Türkçe</a>
+</li>
+<li class="">
+<a href="?setln=be">Беларуская</a>
+</li>
+<li class="">
+<a href="?setln=ru">Русский</a>
+</li>
+<li class="">
+<a href="?setln=uk">Українська</a>
+</li>
+<li class="">
+<a href="?setln=kk">Қазақша</a>
+</li>
+<li class="">
+<a href="?setln=ar">العربية</a>
+</li>
+<li class="">
+<a href="?setln=fa">فارسی</a>
+</li>
+<li class="">
+<a href="?setln=ko">한국어</a>
+</li>
+</ul>
+</li>
+<li class="navbar-twitter hidden-xs">
+<a href="https://x.com/telegram" target="_blank" data-track="Follow/Twitter" onclick="trackDlClick(this, event)">
+<i class="icon icon-twitter">
+</i> Follow on X</a>
+</li>
+</ul>
+<ul class="nav navbar-nav">
+<li class="">
+<a href="/">Home</a>
+</li>
+<li class="">
+<a href="/faq">FAQ</a>
+</li>
+<li class="">
+<a href="/apps">Apps</a>
+</li>
+<li class="hidden-xs ">
+<a href="//core.telegram.org/api">API</a>
+</li>
+<li class="hidden-xs ">
+<a href="/safety">Safety</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="container clearfix tl_page_container ">
+<div class="tl_page">
+<div class="tl_contest_page_wrap">
+<div class="tl_blog_side_blog">
+<div class="side_blog_wrap">
+<div class="side_blog">
+<a href="/blog" class="side_blog_header">Recent News</a>
+<div class="side_blog_entries">
+<a href="/blog/welcome-messages-buttons-TG-13" class="side_blog_entry">
+<div class="side_blog_date">Aug 25</div>
+<div class="side_blog_title">Welcome Messages, Buttons in Messages and Signed Gifts</div>
+</a>
+<a href="/blog/communities-editor-invisible-messages" class="side_blog_entry">
+<div class="side_blog_date">Jul 14</div>
+<div class="side_blog_title">Rich Text Editor, Communities, Ephemeral Messages in Groups, 350 Million GIFs</div>
+</a>
+<a href="/blog/watch-apps-and-more" class="side_blog_entry">
+<div class="side_blog_date">Jun 11</div>
+<div class="side_blog_title">Smartwatch Apps, Rich Text for Bots, AI Guardians for Groups, and Much More</div>
+</a>
+<a href="/blog/ai-bot-revolution-11-new-features" class="side_blog_entry">
+<div class="side_blog_date">May 7</div>
+<div class="side_blog_title">Guest AI Bots, Bot-to-Bot Chats, Chat Automation, Custom AI Styles, 100M+ Emoji &amp; Sticker Search and Much More</div>
+</a>
+<a href="/blog/ai-editor-mighty-polls-and-more" class="side_blog_entry">
+<div class="side_blog_date">Mar 31</div>
+<div class="side_blog_title">AI Editor, Mighty Polls, Live Photos, Bots Managed by Bots, and More</div>
+</a>
+<a href="/blog/member-tags-disable-sharing-and-more" class="side_blog_entry">
+<div class="side_blog_date">Mar 1</div>
+<div class="side_blog_title">Member Tags, Login with Telegram, Disable Sharing, GIF Editing, Date Formatting, Voting Timestamps</div>
+</a>
+<a href="/blog/crafting-android-design-and-more" class="side_blog_entry">
+<div class="side_blog_date">Feb 9</div>
+<div class="side_blog_title">Android Redesign, Group Ownership Transfer, Gift Crafting, Colored Bot Buttons</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div id="dev_page_content_wrap" class=" ">
+<div class="dev_page_bread_crumbs">
+</div>
+<h1 id="dev_page_title">Restyling Android, Trasferimento proprietà gruppi, Creazione di regali, Pulsanti colorati per i bot</h1>
+<blockquote class="blog_lang_original">
+<a href="/blog/crafting-android-design-and-more?ln=r">Leggi l&#39;annuncio originale in Inglese</a>
+</blockquote>
+<div id="dev_page_content">
+<div class="blog_side_image_wrap">
+<picture class="dev_page_tgsticker blog_side_image js-tgsticker_image" style="width:160px;">
+<div style="padding-top:100%">
+</div>
+<source type="application/x-tgsticker" srcset="/file/400780400956/6/1vMfQdkDwtA.20055/b5841e2c28de12a0a9">
+<img src="/file/400780400956/7/pP-He-72dF8.50176.png/ed9282a66d8d6a38c9">
+</picture>
+</div>
+<div class="blog_wide_image">
+<a href="/file/400780400104/3/SxX6LrBsZ68.365390.webp/3b0f890052ca2e202b" target="_blank">
+<img src="/file/400780400497/4/qqRyv1ZECac.122844.webp/9d93bb004f4a8c6419" srcset="/file/400780400104/3/SxX6LrBsZ68.365390.webp/3b0f890052ca2e202b, 1200w" title="Nuovi modi per far tintinnare le tue campanelle" alt="Nuovo design, Creazione e altro">
+</a>
+</div>
+<p>Questo aggiornamento introduce il <strong>più grande aggiornamento dell&#39;interfaccia</strong> nella storia di <strong>Telegram per Android</strong>, un <strong>sistema di creazione</strong> per generare nuovi regali esclusivi, e molto altro.</p>
+<h4>
+<a class="anchor" name="profondo-restyling" href="#profondo-restyling">
+<i class="anchor-icon">
+</i>
+</a>Profondo restyling</h4>
+<p>Telegram per Android ha un&#39;interfaccia <strong>completamente ridisegnata</strong> che rende la navigazione e la ricerca <strong>ancora più rapide</strong> e <strong>intuitive</strong>. La nuova <strong>barra inferiore</strong> ti permette di passare facilmente tra le chat, le impostazioni, il profilo e altro ancora con <strong>un singolo tocco</strong>.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<div>
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/400780400761/5/NUQtbBXaUtw.48273.jpg/7966009f2fbda9e53b" style="max-width: 600px;" alt="Profondo restyling">
+<source src="/file/400780400904/4/DWawl_4TMA4.10093975.mp4/37c041443749d21609" type="video/mp4">
+</video>
+</div>
+</div>
+<p>Insieme alle modifiche di design, i nostri sviluppatori Android hanno <strong>completamente ricostruito</strong> il codice dell’interfaccia, per <strong>massimizzare l’efficienza</strong> e renderla ancora <strong>più reattiva</strong> di prima.</p>
+<blockquote>
+<p>Puoi controllare gli effetti dell’interfaccia per <strong>massimizzare le prestazioni</strong> e <strong>prolungare la durata della batteria</strong> in <em>Impostazioni &gt; Risparmio energetico</em>.</p>
+</blockquote>
+<p>I nostri sviluppatori iOS hanno aggiunto ancora più Liquid Glass all&#39;app, come il <strong>visualizzatore multimediale</strong> ridisegnato, i nuovi <strong>pannelli di anteprima</strong> per set di sticker ed emoji, oltre ai <strong>menu contestuali</strong> aggiornati nei profili utente e nella selezione dei messaggi.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<div>
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/400780400003/4/-brS8MsTvQc.60648.jpg/e54cbbc810d23ac921" style="max-width: 600px;" alt="Design iOS">
+<source src="/file/400780400533/3/e2TxxiMGcgs.5166663.mp4/42ec81cc99e5aaa9db" type="video/mp4">
+</video>
+</div>
+</div>
+<p>Su iPad, c&#39;è anche una <strong>nuova impostazione della tastiera</strong> per inviare messaggi con la scorciatoia <strong>⌘+Invio</strong>.</p>
+<h4>
+<a class="anchor" name="lasciare-i-gruppi-a-un-nuovo-amministratore" href="#lasciare-i-gruppi-a-un-nuovo-amministratore">
+<i class="anchor-icon">
+</i>
+</a>Lasciare i gruppi a un nuovo amministratore</h4>
+<p>Se il proprietario di un gruppo lascia la chat, la proprietà del gruppo sarà <strong>trasferita automaticamente</strong> a uno degli amministratori dopo una settimana.</p>
+<p>Per un controllo ancora maggiore, ai proprietari del gruppo viene ora mostrata una <strong>finestra di conferma</strong> quando lasciano il gruppo, dove possono <strong>scegliere immediatamente</strong> un nuovo proprietario.</p>
+<div class="blog_image_wrap blog_wide_image_wrap">
+<a href="/file/400780400412/2/gneEuPYJBdk.126356.jpg/3b24d66564736ca831" target="_blank">
+<img src="/file/400780400412/2/gneEuPYJBdk.126356.jpg/3b24d66564736ca831" alt="Lasciare i gruppi a un nuovo amministratore" srcset="/file/400780400412/2/gneEuPYJBdk.126356.jpg/3b24d66564736ca831 , 2x">
+</a>
+</div>
+<blockquote>
+<p>I proprietari di gruppi e canali possono anche <a href="https://telegram.org/evolution#june-2019">trasferire la proprietà</a> a un altro membro <strong>in qualsiasi momento</strong>, senza lasciare la chat.</p>
+</blockquote>
+<!--
+#### Accedi con Telegram
+
+Ora è possibile usare il proprio account Telegram per **registrarsi** e **accedere ad app e siti web** in pochi tocchi, senza compilare moduli o creare password.
+
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<div>
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/400780400046/6/lzgRh3Hn0Ec.49953.jpg/d6bd5793f35f463749" style="max-width: 600px;" alt="Accesso a Telegram">
+<source src="/file/400780400885/2/Qc3SOZNZOLA.3171201.mp4/da53cf9e54f1eeab73" type="video/mp4">
+</video>
+</div>
+</div>
+
+Puoi **condividere il tuo numero di telefono** per evitare passaggi di verifica aggiuntivi. Puoi anche permettere ai servizi di **scriverti su Telegram** per ricevere notifiche convenienti.
+
+> Gli sviluppatori possono trovare maggiori informazioni su come integrare l’accesso con Telegram in questa [guida dettagliata](https://core.telegram.org/bots/telegram-login).
+-->
+<h4>
+<a class="anchor" name="creazione-di-regali" href="#creazione-di-regali">
+<i class="anchor-icon">
+</i>
+</a>Creazione di regali</h4>
+<p>Dalla pubblicazione dei <a href="https://telegram.org/evolution#january-2025-first-update">regali collezionabili</a>, gli utenti di Telegram hanno creato <strong>milioni di regali</strong> provenienti da <strong>oltre 100 raccolte</strong>.</p>
+<p>Questo aggiornamento introduce un <strong>sistema di creazione</strong> in cui i regali collezionabili esistenti possono essere combinati per creare versioni <em>Non comuni</em>, <em>Rare</em>, <em>Epiche</em> o <em>Leggendarie</em>, con <strong>grafiche mozzafiato</strong> ed <strong>effetti unici</strong>.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<div>
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/400780400883/2/4KkQv5jfOCk.65326.jpg/ffd8b7caca2837cd28" style="max-width: 600px;" alt="Creazione di regali">
+<source src="/file/400780400018/4/_OlRljSexMo.7405612.mp4/ddbb08bf8b55d27074" type="video/mp4">
+</video>
+</div>
+</div>
+<p>L&#39;interfaccia di creazione ti permette di aggiungere <strong>fino a 4 regali</strong>, con ogni regalo aggiuntivo che <strong>aumenta le tue probabilità</strong> di successo. Usare più regali con le <strong>stesse caratteristiche</strong> rende anche <strong>più probabile</strong> che tali caratteristiche compaiano nell&#39;oggetto finale.</p>
+<blockquote>
+<p>Chiunque può acquistare e vendere in modo sicuro regali collezionabili nel <a href="https://telegram.org/blog/gift-marketplace-and-more/it#acquista-regali-rari-nel-marketplace">marketplace dei regali</a> su Telegram.</p>
+</blockquote>
+<h4>
+<a class="anchor" name="pulsanti-colorati-per-i-bot" href="#pulsanti-colorati-per-i-bot">
+<i class="anchor-icon">
+</i>
+</a>Pulsanti colorati per i bot</h4>
+<p>Gli sviluppatori di bot ora possono <strong>assegnare colori ed emoji</strong> ai loro pulsanti, per rendere le interfacce <strong>più intuitive</strong> o per <strong>evidenziare azioni specifiche</strong>.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<div>
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/400780400769/6/DHsWHT20HBY.53810.jpg/7356d58d133bbd8cc0" style="max-width: 600px;" alt="Pulsanti bot colorati">
+<source src="/file/400780400492/5/ih31pB_nCBs.1842304.mp4/8aa448bf0fa729f8d3" type="video/mp4">
+</video>
+</div>
+</div>
+<blockquote>
+<p>Per tutti i dettagli sugli ultimi aggiornamenti dei bot, consulta il <a href="https://core.telegram.org/bots/api">changelog dedicato</a> per l&#39;API dei bot.</p>
+</blockquote>
+<p>È tutto per questo aggiornamento, torneremo presto dopo aver terminato di creare il prossimo set di funzioni leggendarie.</p>
+<div>
+<br>
+</div>
+<p>
+<em>9 febbraio 2026<br>il team di Telegram</em>
+</p>
+</div>
+</div>
+<div class="tl_main_share clearfix">
+<a href="https://t.me/share/url?url=https%3A%2F%2Ftelegram.org%2Fblog%2Fcrafting-android-design-and-more%2Fit&text=Questo%20aggiornamento%20introduce%20il%20pi%C3%B9%20grande%20aggiornamento%20dell%27interfaccia%20nella%20storia%20di%20Telegram%20per%20Android%2C%20un%20sistema%20di%20creazione%20per%20generare%20nuovi%20regali%20esclusivi%2C%20e%20molto%20altro." class="tl_telegram_share_btn" id="tl_telegram_share_btn" data-text="Questo aggiornamento introduce il più grande aggiornamento dell&#39;interfaccia nella storia di Telegram per Android, un sistema di creazione per generare nuovi regali esclusivi, e molto altro." data-url="https://telegram.org/blog/crafting-android-design-and-more/it">
+<i class="tl_telegram_share_icon">
+</i>
+<span class="tl_telegram_share_label" target="_blank">Forward</span>
+</a>
+<a href="https://twitter.com/share" class="tl_twitter_share_btn" id="tl_twitter_share_btn" data-text="Questo aggiornamento introduce il più grande aggiornamento dell&#39;interfaccia nella storia di Telegram per Android, un sistema di creazione per generare nuovi regali esclusivi, e molto altro." data-url="https://telegram.org/blog/crafting-android-design-and-more/it" data-via="Telegram">Tweet <span class="tl_twitter_share_cnt">
+</span>
+</a>
+</div>
+</div>
+<div class="tl_main_recent_news_wrap tlb_other_news_wrap tl_blog_list_page_wrap">
+<h3 class="tl_main_recent_news_header">
+<a href="/blog">Other News</a>
+</h3>
+<div class="tl_main_recent_news_cards clearfix">
+<a class="dev_blog_card_link_wrap" href="/blog/welcome-messages-buttons-TG-13/it">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400741/6/aFBFZ5lNqO8.66680.webp/0e567958d5b96a2184" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">Messaggi di benvenuto, Pulsanti nei messaggi e Regali firmati</h4>
+<div class="dev_blog_card_lead">Introduciamo i messaggi di benvenuto per salutare i nuovi membri di gruppi o canali, i pulsanti nei messaggi per rendere interattivo qualsiasi…</div>
+</div>
+<div class="dev_blog_card_date">Aug 25, 2026</div>
+</div>
+</a>
+<a class="dev_blog_card_link_wrap" href="/blog/communities-editor-invisible-messages/it">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400405/7/AQNnD9itI5s.338570.webp/ec0155605bac60bd43" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">Editor di testo avanzato, Community, Messaggi effimeri nei gruppi, 350 milioni di GIF</h4>
+<div class="dev_blog_card_lead">Introduzione di un editor di testo avanzato per formattare e generare testo, community Telegram…</div>
+</div>
+<div class="dev_blog_card_date">Jul 14, 2026</div>
+</div>
+</a>
+<a class="dev_blog_card_link_wrap" href="/blog/watch-apps-and-more/it">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400535/2/fkUcVRnSU-M.140100.webp/10c066db41f83e6d5e" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">App per smartwatch, Testo formattato per i bot, Guardiani IA per i gruppi e molto altro</h4>
+<div class="dev_blog_card_lead">L&#39;aggiornamento di oggi porta Telegram su Apple Watch e smartwatch Android, aggiunge il testo…</div>
+</div>
+<div class="dev_blog_card_date">Jun 11, 2026</div>
+</div>
+</a>
+<a class="dev_blog_card_link_wrap" href="/blog/ai-bot-revolution-11-new-features/it">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400475/2/BwY041V7nZg.149454.webp/873ed0c0321c7633e7" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">Bot IA ospiti, Chat tra bot, Automazione chat, Ricerca di oltre 100 milioni di emoji e sticker, Stili IA personalizzati, Statistiche per i sondaggi, Messaggi programmati silenziosi, Rimozione delle reazioni</h4>
+<div class="dev_blog_card_lead">Nell&#39;aggiornamento di oggi, Telegram introduce…</div>
+</div>
+<div class="dev_blog_card_date">May 7, 2026</div>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer_wrap">
+<div class="footer_columns_wrap footer_desktop">
+<div class="footer_column footer_column_telegram">
+<h5>Telegram</h5>
+<div class="footer_telegram_description">
+</div>
+      Telegram is a cloud-based mobile and desktop messaging app with a focus on security and speed.
+    </div>
+<div class="footer_column">
+<h5>
+<a href="/faq">About</a>
+</h5>
+<ul>
+<li>
+<a href="/faq">FAQ</a>
+</li>
+<li>
+<a href="/privacy">Privacy</a>
+</li>
+<li>
+<a href="/press">Press</a>
+</li>
+</ul>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/apps#mobile-apps">Mobile Apps</a>
+</h5>
+<ul>
+<li>
+<a href="/dl/ios">iPhone/iPad</a>
+</li>
+<li>
+<a href="/android">Android</a>
+</li>
+<li>
+<a href="/dl/web">Mobile Web</a>
+</li>
+</ul>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/apps#desktop-apps">Desktop Apps</a>
+</h5>
+<ul>
+<li>
+<a href="//desktop.telegram.org/">PC/Mac/Linux</a>
+</li>
+<li>
+<a href="//macos.telegram.org/">macOS</a>
+</li>
+<li>
+<a href="/dl/web">Web-browser</a>
+</li>
+</ul>
+</div>
+<div class="footer_column footer_column_platform">
+<h5>
+<a href="//core.telegram.org/">Platform</a>
+</h5>
+<ul>
+<li>
+<a href="//core.telegram.org/api">API</a>
+</li>
+<li>
+<a href="//translations.telegram.org/">Translations</a>
+</li>
+<li>
+<a href="//instantview.telegram.org/">Instant View</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="footer_columns_wrap footer_mobile">
+<div class="footer_column">
+<h5>
+<a href="/faq">About</a>
+</h5>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/blog">Blog</a>
+</h5>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/press">Press</a>
+</h5>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/safety">Safety</a>
+</h5>
+</div>
+</div>
+</div>
+<script src="/js/main.js?49">
+</script>
+<script src="/js/tgsticker.js?32">
+</script>
+<script src="/js/main-theme.js?6">
+</script>
+<script>initScrollVideos(true);
+mainInitTgStickers({"maxDeviceRatio":2,"cachingModulo":4});
+twitterCustomShareInit();
+blogSideImageInit();
+backToTopInit("Go up");
+removePreloadInit();
+</script>
+</body>
+</html>

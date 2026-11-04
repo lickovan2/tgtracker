@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html class="" data-theme="light">
+<head>
+<meta charset="utf-8">
+<title>معرفی تلگرام بیزینس</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:title" content="معرفی تلگرام بیزینس">
+<meta property="og:image" content="https://telegram.org/file/400780400268/1/6Avx2xeE-E8.239216/5a7f21012854ea61ce">
+<meta property="og:site_name" content="Telegram">
+<meta property="og:description" content=" از امروز به بعد، هر کس می‌تواند حساب کاربری خود را به حساب بیزینس تبدیل کرده و به **قابلیت‌های مخصوص کسب و کار**، از جمله ساعات کاری، موقعیت مکانی، پاسخ سریع، پیام‌های خودکار، مقدمه سفارشی، پشتیبانی از ربات‌های گفتگو و... دسترسی پیدا کند. ">
+<meta property="article:published_time" content="2024-03-31T16:32:30+00:00">
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://telegram.org/file/400780400268/1/6Avx2xeE-E8.239216/5a7f21012854ea61ce" />
+<meta property="fb:app_id" content="254098051407226">
+<meta property="vk:app_id" content="3782569">
+<meta name="apple-itunes-app" content="app-id=686449807">
+<meta name="telegram:channel" content="@telegram">
+<link rel="canonical" href="https://telegram.org/blog/telegram-business/fa" />
+<link rel="icon" type="image/svg+xml" href="/img/website_icon.svg?4">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="alternate icon" href="/img/favicon.ico" type="image/x-icon" />
+<link href="/css/bootstrap.min.css?3" rel="stylesheet">
+<link href="/css/telegram.css?256" rel="stylesheet" media="screen">
+<link href="/css/telegram-theme.css?9" rel="stylesheet" media="screen">
+</head>
+<body class="preload">
+<div id="fb-root">
+</div>
+<button class="theme-toggle theme-toggle--static" type="button" title="Toggle theme" aria-label="Toggle light/dark theme">
+</button>
+<div class="tl_page_wrap">
+<div class="tl_page_head navbar navbar-static-top navbar navbar-tg">
+<div class="navbar-inner">
+<div class="container clearfix">
+<ul class="nav navbar-nav navbar-right">
+<li class="dropdown top_lang_select">
+<a class="dropdown-toggle" onclick="return dropdownClick(this, event)" href="#">
+<i class="dev_top_lang_icon">
+</i>
+<b class="minicaret">
+</b>
+</a>
+<ul class="dropdown-menu">
+<li class="">
+<a href="?setln=en">English</a>
+</li>
+<li class="long ">
+<a href="?setln=id">Bahasa Indonesia</a>
+</li>
+<li class="long ">
+<a href="?setln=ms">Bahasa Melayu</a>
+</li>
+<li class="">
+<a href="?setln=de">Deutsch</a>
+</li>
+<li class="">
+<a href="?setln=es">Español</a>
+</li>
+<li class="">
+<a href="?setln=fr">Français</a>
+</li>
+<li class="">
+<a href="?setln=it">Italiano</a>
+</li>
+<li class="">
+<a href="?setln=nl">Nederlands</a>
+</li>
+<li class="">
+<a href="?setln=uz">O‘zbek</a>
+</li>
+<li class="">
+<a href="?setln=pl">Polski</a>
+</li>
+<li class="long ">
+<a href="?setln=pt-br">Português (Brasil)</a>
+</li>
+<li class="">
+<a href="?setln=tr">Türkçe</a>
+</li>
+<li class="">
+<a href="?setln=be">Беларуская</a>
+</li>
+<li class="">
+<a href="?setln=ru">Русский</a>
+</li>
+<li class="">
+<a href="?setln=uk">Українська</a>
+</li>
+<li class="">
+<a href="?setln=kk">Қазақша</a>
+</li>
+<li class="">
+<a href="?setln=ar">العربية</a>
+</li>
+<li class="">
+<a href="?setln=fa">فارسی</a>
+</li>
+<li class="">
+<a href="?setln=ko">한국어</a>
+</li>
+</ul>
+</li>
+<li class="navbar-twitter hidden-xs">
+<a href="https://x.com/telegram" target="_blank" data-track="Follow/Twitter" onclick="trackDlClick(this, event)">
+<i class="icon icon-twitter">
+</i> Follow on X</a>
+</li>
+</ul>
+<ul class="nav navbar-nav">
+<li class="">
+<a href="/">Home</a>
+</li>
+<li class="">
+<a href="/faq">FAQ</a>
+</li>
+<li class="">
+<a href="/apps">Apps</a>
+</li>
+<li class="hidden-xs ">
+<a href="//core.telegram.org/api">API</a>
+</li>
+<li class="hidden-xs ">
+<a href="/safety">Safety</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="container clearfix tl_page_container ">
+<div class="tl_page">
+<div class="tl_contest_page_wrap">
+<div class="tl_blog_side_blog">
+<div class="side_blog_wrap">
+<div class="side_blog">
+<a href="/blog" class="side_blog_header">Recent News</a>
+<div class="side_blog_entries">
+<a href="/blog/welcome-messages-buttons-TG-13" class="side_blog_entry">
+<div class="side_blog_date">Aug 25</div>
+<div class="side_blog_title">Welcome Messages, Buttons in Messages and Signed Gifts</div>
+</a>
+<a href="/blog/communities-editor-invisible-messages" class="side_blog_entry">
+<div class="side_blog_date">Jul 14</div>
+<div class="side_blog_title">Rich Text Editor, Communities, Ephemeral Messages in Groups, 350 Million GIFs</div>
+</a>
+<a href="/blog/watch-apps-and-more" class="side_blog_entry">
+<div class="side_blog_date">Jun 11</div>
+<div class="side_blog_title">Smartwatch Apps, Rich Text for Bots, AI Guardians for Groups, and Much More</div>
+</a>
+<a href="/blog/ai-bot-revolution-11-new-features" class="side_blog_entry">
+<div class="side_blog_date">May 7</div>
+<div class="side_blog_title">Guest AI Bots, Bot-to-Bot Chats, Chat Automation, Custom AI Styles, 100M+ Emoji &amp; Sticker Search and Much More</div>
+</a>
+<a href="/blog/ai-editor-mighty-polls-and-more" class="side_blog_entry">
+<div class="side_blog_date">Mar 31</div>
+<div class="side_blog_title">AI Editor, Mighty Polls, Live Photos, Bots Managed by Bots, and More</div>
+</a>
+<a href="/blog/member-tags-disable-sharing-and-more" class="side_blog_entry">
+<div class="side_blog_date">Mar 1</div>
+<div class="side_blog_title">Member Tags, Login with Telegram, Disable Sharing, GIF Editing, Date Formatting, Voting Timestamps</div>
+</a>
+<a href="/blog/crafting-android-design-and-more" class="side_blog_entry">
+<div class="side_blog_date">Feb 9</div>
+<div class="side_blog_title">Android Redesign, Group Ownership Transfer, Gift Crafting, Colored Bot Buttons</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div id="dev_page_content_wrap" class="is_rtl ">
+<div class="dev_page_bread_crumbs">
+</div>
+<h1 id="dev_page_title">معرفی تلگرام بیزینس</h1>
+<blockquote class="blog_lang_original">
+<a href="/blog/telegram-business?ln=r">متن اصلی اعلامیه به زبان انگلیسی را بخوانید</a>
+</blockquote>
+<div id="dev_page_content">
+<div class="blog_side_image_wrap">
+<picture class="dev_page_tgsticker blog_side_image js-tgsticker_image" style="width:160px;">
+<div style="padding-top:100%">
+</div>
+<source type="application/x-tgsticker" srcset="/file/400780400799/5/JMfroLl_-Vk.12159/9b57943e4a4e32b1d6">
+<img src="/file/400780400799/6/pHpzdwV-5fs.40285.png/c7526b789ccbc8499e" />
+</picture>
+</div>
+<div class="blog_wide_image">
+<a href="/file/400780400156/3/FKlm3CvW_dM.364472.webp/9892ea053f6bf6884e" target="_blank">
+<img src="/file/400780400382/4/tRV9EDeaYK4.118510.webp/c0d57e2dd018cb7d52" srcset="/file/400780400156/3/FKlm3CvW_dM.364472.webp/9892ea053f6bf6884e, 1200w" title="Introducing Telegram Business" alt=""/>
+</a>
+</div>
+<p>از امروز به بعد، هر کس می‌تواند حساب کاربری خود را به حساب بیزینس تبدیل کرده و به <strong>قابلیت‌های مخصوص کسب و کار</strong>، از جمله ساعات کاری، موقعیت مکانی، پاسخ سریع، پیام‌های خودکار، مقدمه سفارشی، پشتیبانی از ربات‌های گفتگو و… دسترسی پیدا کند. </p>
+<h4>
+<a class="anchor" name="1249247047" href="#1249247047">
+<i class="anchor-icon">
+</i>
+</a>معرفی تلگرام بیزینس</h4>
+<p>مدت‌هاست که برنامه‌نویسان می‌توانند ساخت <a href="https://core.telegram.org/bots/features">ربات‌های قدرتمند</a> و <a href="https://core.telegram.org/bots/webapps">مینی‌اپلیکیشن‌هایی بی‌نهایت انعطاف پذیر</a> بر روی پلتفرم رایگان و عمومی تلگرام بسازند – این ربات‌ها و مینی‌اپ‌ها توسط کسب و کارهای فراوانی در سراسر جهان به منظور هماهنگی بهتر استفاده می‌شوند. </p>
+<p>از امروز، کاربران می‌توانند بدون هیچگونه مهارت کدنویسی، به <strong>ویژگی‌های مخصوص کسب و کار</strong> که به طور مستقیم در اپلیکیشن‌های تلگرام تعبیه شده‌اند، دسترسی داشته باشند.</p>
+<!--
+- [موقعیت مکانی]()
+- [صفحه معرفی]()
+- [پاسخ سریع]()
+- [پیام خوش‌آمدگویی ]()
+- [پیام عدم حضور ]()
+- [برچسب برای گفتگوها]()
+- [لینک به گفتگوها]()
+- [ربات‌های گفتگو]() 
+-->
+<h3>
+<a class="anchor" name="1054525430" href="#1054525430">
+<i class="anchor-icon">
+</i>
+</a>ساعت و مکان</h3>
+<p>کسب و کارها می‌توانند ساعات کاری خود را اضافه کرده و موقعیت مکانی خود را روی نقشه نمایش دهند. </p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/400780400228/3/GeLUshkkPmE.91233/4469f52fd3666f3e54" style="max-width: 600px;" title="" alt="Business Hours">
+<source src="/file/400780400514/5/zacKKdn_sck.2300897.mp4/e8b20c77452efb5cd4"  type="video/mp4">
+</video>
+</div>
+<p>بدین صورت کاربران می‌توانند به راحتی محل کار شما را پیدا کرده و ببینند تا چه زمانی باز هستید. </p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/400780400228/3/GeLUshkkPmE.91233/4469f52fd3666f3e54" style="max-width: 600px;" title="" alt="Business Hours">
+<source src="/file/400780400514/5/zacKKdn_sck.2300897.mp4/e8b20c77452efb5cd4"  type="video/mp4">
+</video>
+</div>
+<h4>
+<a class="anchor" name="1878506520" href="#1878506520">
+<i class="anchor-icon">
+</i>
+</a>صفحه‌ی شروع</h4>
+<p>کسب‌وکارها می‌توانند <strong>صفحات شروع</strong> خود در گفتگوهای خالی را سفارشی کرده و انتخاب کنند چه <strong>استیکر</strong> یا <strong>متنی</strong> قبل از شروع مکالمه به افراد نشان داده شود. </p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/400780400032/3/FD5uJjgpZjo.43495/eba719c9a653debbc3" style="max-width: 600px;" title="" alt="Start Page">
+<source src="/file/400780400013/5/q2T4Xmu4dXw.2919196.mp4/a03520f5c150f52c0e" type="video/mp4">
+</video>
+</div>
+<p>بدین صورت می‌توانید اطلاعات مربوط به محصولات و خدمات خود را به نمایش گذاشته و یا با آثار هنری خاص به استقبال مشتریان بروید. </p>
+<!--
+می‌توانید به راحتی و با چند دکمه، هر عکسی را به استیکر تبدیل کنید.
+-->
+<h4>
+<a class="anchor" name="774120167" href="#774120167">
+<i class="anchor-icon">
+</i>
+</a>پاسخ سریع</h4>
+<p>با تلگرام بیزینس می‌توانید <strong>پاسخ سریع</strong> بسازید. این پاسخ‌های آماده، از قالب‌بندی متن، لینک، استیکر، رسانه و فایل پشتیبانی کرده و همچنین می‌توانند شامل چندین پیام باشند. </p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/400780400569/1/tvZOu9aKUDE.48221/b835f4a8cd625f8bc2" style="max-width: 600px;" title="" alt="Quick Replies">
+<source src="/file/400780400123/2/Ibe-DNsF8e4.2512631.mp4/4e44a0349abcbe3abc" type="video/mp4">
+</video>
+</div>
+<p>به کمک این پاسخ‌ها می‌توانید به راحتی اطلاعاتی که مشتریان شما اغلب به آن‌ها نیاز دارند، مانند برنامه‌ی کلاسی یا یک فایل PDF از منوی رستوران خود را ارسال کنید. </p>
+<blockquote>
+<p>با تایپ کردن حرف / در نوار پیام، یک <strong>پنل</strong> شامل تمامی پاسخ‌های سریع شما باز خواهد شد و می‌توانید با <strong>یک دکمه</strong>، به راحتی آن‌ها را ارسال یا ویرایش کنید. </p>
+</blockquote>
+<h4>
+<a class="anchor" name="573223841" href="#573223841">
+<i class="anchor-icon">
+</i>
+</a>پیام خوش‌آمدگویی</h4>
+<p>به منظور خودکارسازی هرچه بیشتر، می‌توانید یک <strong>پیام خوش‌آمدگویی</strong> تنظیم کنید تا برای کاربرانی که برای اولین بار به شما پیام می‌دهند، ارسال شود. بدین صورت، اطمینان خواهید داشت که مشتری‌های شما یک <strong>پاسخ فوری</strong> حاوی اطلاعات مهم و یا صرفا یک احوال‌پرسی ساده دریافت خواهند کرد. </p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/400780400924/1/QUV0eNZfTrU.63933/53dff22fc20198b128" style="max-width: 600px;" title="" alt="Greeting Message">
+<source src="/file/400780400989/5/DGdQ5_dVTro.2990720.mp4/bc55cdb8aca4662584" type="video/mp4">
+</video>
+</div>
+<p>می‌توانید در پیام خوش‌آمدگویی خود به پرسش‌های پر تکرار پاسخ داده و یا جزییات بیشتری درباره‌ی کسب و کار خود بنویسید. </p>
+<blockquote>
+<p>همچنین می‌توانید <strong>مدت زمانی را مشخص کنید</strong> که پس از آن، با دریافت پیام جدید از کاربر، پیام خوش‌آمدگویی شما <strong>دوباره ارسال شود</strong>. </p>
+</blockquote>
+<h4>
+<a class="anchor" name="561022967" href="#561022967">
+<i class="anchor-icon">
+</i>
+</a>پیام عدم حضور</h4>
+<p>می‌توانید یک <strong>پیام عدم حضور</strong> تنظیم کنید که <strong>زمان تعطیل بودن</strong> کسب و کارتان، به طور خودکار ارسال شود. </p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/400780400279/2/f8CF9XNCg3g.71575/96d622ec6068910d54" style="max-width: 600px;" title="" alt="Away Message">
+<source src="/file/400780400402/1/Iaoy5vAS9oM.3056160.mp4/e0c850015dde60e317" type="video/mp4">
+</video>
+</div>
+<p>بدین ترتیب کاربران همیشه می‌دانند که چه زمانی می‌توانند از شما انتظار دریافت پاسخ داشته باشند. </p>
+<blockquote>
+<p>جهت جلوگیری از ارسال پیام‌های کاری به دوستان، خانواده یا کارمندان، می‌توانید برای هرکدام از پیام‌های خودکار، <strong>گفتگو یا پوشه‌های گفتگوی مورد نظر</strong> خود را به عنوان استثنا قرار دهید. </p>
+</blockquote>
+<h4>
+<a class="anchor" name="540128051" href="#540128051">
+<i class="anchor-icon">
+</i>
+</a>برچسب برای گفتگوها</h4>
+<p>با تلگرام بیزینس یا تلگرام پرمیوم می‌توانید بر اساس <a href="https://telegram.org/tour/chat-folders/fa">پوشه‌های هر گفتگو</a>، به آن‌ها <strong>لیبل‌های رنگی</strong> و برچسب‌های خاص اضافه کنید. </p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/400780400313/3/kLuKPKjpwNA.75534/f2d1b60fa8987afc0b" style="max-width: 600px;" title="TITLE" alt="TITLE">
+<source src="/file/400780400655/1/6OnmkgzaE3A.2232737.mp4/1ed089e4c74c58ecbb" type="video/mp4">
+</video>
+</div>
+<p>به کمک این قابلیت، به راحتی می‌توانید مشتریان خود را بر اساس وضعیت، نیازها و یا سطح اولویت آن‌ها دسته‌بندی کنید. </p>
+<blockquote>
+<p>تمامی کاربران تلگرام می‌توانند <a href="https://telegram.org/tour/chat-folders/fa">پوشه‌های گفتگوی سفارشی</a> ساخته و گفتگوهای خود را مرتب کنند. به کمک پوشه‌ها می‌توانید گفتگوهای خود را در <strong>دسته‌های مختلفی</strong> مانند <em>کاری</em>، <em>مدرسه</em>، <em>خبری</em> و… قرار دهید. </p>
+</blockquote>
+<h4>
+<a class="anchor" name="2054010875" href="#2054010875">
+<i class="anchor-icon">
+</i>
+</a>لینک به گفتگوها</h4>
+<p>جهت آسان‌تر کردن دسترسی مشتریان، می‌توانید <strong>لینک‌های خاصی</strong> مانند یک دکمه برای <strong>رزرو میز</strong> یا <strong>پیگیری سفارش</strong>، به گفتگوهای خود اضافه کنید. با انتخاب این لینک‌ها، بلافاصله <strong>یک گفتگو با شما باز شده</strong> و یک <strong>پیام پیشنهادی</strong> برای کاربر در آن قرار می‌گیرد.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/400780400168/1/juKEOD7nWWE.70157/29f26f9acea85e4053" style="max-width: 600px;" title="" alt="Links to Chat">
+<source src="/file/400780400433/1/nZ8iPTCdJjM.5758915.mp4/d8cf4de67c1f44d515" type="video/mp4">
+</video>
+</div>
+<p>این لینک‌ها را می‌توانید هم داخل و هم <strong>خارج از تلگرام</strong> استفاده کنید – برای نمونه می‌توانید آن‌ها را در سایت خود قرار داده و یا به صورت <strong>کد QR</strong> در منوی رستوران چاپ کنید. </p>
+<blockquote>
+<p>همچنین می‌توانید <strong>عملکرد و آمار</strong> لینک‌ها را بررسی و <strong>تعداد کلیک‌های هر لینک</strong> را مشاهده کنید. </p>
+</blockquote>
+<h4>
+<a class="anchor" name="543352452" href="#543352452">
+<i class="anchor-icon">
+</i>
+</a>ربات‌های گفتگو برای کسب و کار</h4>
+<p>کاربران تلگرام بیزینس می‌توانند به حساب خود ربات‌های تلگرامی متصل کنند که <strong>از طرف آن‌ها</strong> پیام‌ها را پردازش کرده و پاسخ خواهد داد. کسب و کارها می‌توانند به کمک این ربات‌ها، هر ابزار یا سرویسی را به طور <strong>یکپارچه با سیستم خود ادغام کرده</strong> و یا دستیار <strong>هوش مصنوعی جدیدی</strong> را به منظور افزایش بهره‌وری به حساب خود اضافه کنند. </p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/400780400238/1/x875tPT245w.58064/1b426d3eda0a923c03" style="max-width: 600px;" title="" alt="Chatbots for Business">
+<source src="/file/400780400792/3/Y8CWkKZOVHM.3771962.mp4/044a6d7645581d8bf6" type="video/mp4">
+</video>
+</div>
+<p>هنگام افزودن یک ربات گفتگو، می‌توانید اجازه‌ی دسترسی به گفتگو با <strong>مخاطبین خود</strong> را از او بگیرید و یا فقط اجازه‌ی پاسخ دادن به <strong>گفتگوهای جدید</strong> را بدهید. </p>
+<blockquote>
+<p>این قابلیت، ربات‌های تلگرام را وارد <strong>عصر جدیدی</strong> خواهد کرد. ما تمامی برنامه‌نویسان را به ساخت سرویس‌های جدید دعوت می‌کنیم تا به کسب و کارها کمک کنند ارتباطات خود را با کاربران تلگرام خودکار کرده و بهبود بخشند. برای کسب اطلاعات بیشتر، به <a href="https://core.telegram.org/bots">راهنمای ربات ما</a> مراجعه کنید. </p>
+</blockquote>
+<p>تلگرام در به‌روزرسانی‌های آینده ویژگی‌های جدیدی را برای کسب و کارها معرفی خواهد کرد. در حال حاضر، تمام ویژگی‌های <strong>تلگرام بیزینس</strong> به صورت <strong>رایگان</strong> برای مشترکین <strong>پرمیوم</strong> در دسترس هستند. این ویژگی‌ها را می‌توانید در <em>تنظیمات &gt; تلگرام بیزینس</em> مشاهده کنید.</p>
+<!--
+#### چگونه این به‌روزرسانی را دریافت کنم؟
+
+کاربران اندروید می‌توانند نسخه جدید شامل این قابلیت ها از [گوگل پلی](https://telegram.org/dl/android) یا [مستقیما](https://telegram.org/android) از تلگرام دریافت کنید. نسخه iOS از طرف فروشگاه Apple مورد بررسی قرار گرفته است و بعداً قابل دسترسی خواهد بود.
+-->
+<div>
+<br>
+</div>
+<p>
+<em>۳۱ مارس ۲۰۲۴،<br>تیم تلگرام</em>
+</p>
+</div>
+</div>
+<div class="tl_main_share clearfix">
+<a href="https://t.me/share/url?url=https%3A%2F%2Ftelegram.org%2Fblog%2Ftelegram-business%2Ffa&text=%20%D8%A7%D8%B2%20%D8%A7%D9%85%D8%B1%D9%88%D8%B2%20%D8%A8%D9%87%20%D8%A8%D8%B9%D8%AF%D8%8C%20%D9%87%D8%B1%20%DA%A9%D8%B3%20%D9%85%DB%8C%E2%80%8C%D8%AA%D9%88%D8%A7%D9%86%D8%AF%20%D8%AD%D8%B3%D8%A7%D8%A8%20%DA%A9%D8%A7%D8%B1%D8%A8%D8%B1%DB%8C%20%D8%AE%D9%88%D8%AF%20%D8%B1%D8%A7%20%D8%A8%D9%87%20%D8%AD%D8%B3%D8%A7%D8%A8%20%D8%A8%DB%8C%D8%B2%DB%8C%D9%86%D8%B3%20%D8%AA%D8%A8%D8%AF%DB%8C%D9%84%20%DA%A9%D8%B1%D8%AF%D9%87%20%D9%88%20%D8%A8%D9%87%20%2A%2A%D9%82%D8%A7%D8%A8%D9%84%DB%8C%D8%AA%E2%80%8C%D9%87%D8%A7%DB%8C%20%D9%85%D8%AE%D8%B5%D9%88%D8%B5%20%DA%A9%D8%B3%D8%A8%20%D9%88%20%DA%A9%D8%A7%D8%B1%2A%2A%D8%8C%20%D8%A7%D8%B2%20%D8%AC%D9%85%D9%84%D9%87%20%D8%B3%D8%A7%D8%B9%D8%A7%D8%AA%20%DA%A9%D8%A7%D8%B1%DB%8C%D8%8C%20%D9%85%D9%88%D9%82%D8%B9%DB%8C%D8%AA%20%D9%85%DA%A9%D8%A7%D9%86%DB%8C%D8%8C%20%D9%BE%D8%A7%D8%B3%D8%AE%20%D8%B3%D8%B1%DB%8C%D8%B9%D8%8C%20%D9%BE%DB%8C%D8%A7%D9%85%E2%80%8C%D9%87%D8%A7%DB%8C%20%D8%AE%D9%88%D8%AF%DA%A9%D8%A7%D8%B1%D8%8C%20%D9%85%D9%82%D8%AF%D9%85%D9%87%20%D8%B3%D9%81%D8%A7%D8%B1%D8%B4%DB%8C%D8%8C%20%D9%BE%D8%B4%D8%AA%DB%8C%D8%A8%D8%A7%D9%86%DB%8C%20%D8%A7%D8%B2%20%D8%B1%D8%A8%D8%A7%D8%AA%E2%80%8C%D9%87%D8%A7%DB%8C%20%DA%AF%D9%81%D8%AA%DA%AF%D9%88%20%D9%88...%20%D8%AF%D8%B3%D8%AA%D8%B1%D8%B3%DB%8C%20%D9%BE%DB%8C%D8%AF%D8%A7%20%DA%A9%D9%86%D8%AF.%20" class="tl_telegram_share_btn" id="tl_telegram_share_btn" data-text=" از امروز به بعد، هر کس می‌تواند حساب کاربری خود را به حساب بیزینس تبدیل کرده و به **قابلیت‌های مخصوص کسب و کار**، از جمله ساعات کاری، موقعیت مکانی، پاسخ سریع، پیام‌های خودکار، مقدمه سفارشی، پشتیبانی از ربات‌های گفتگو و... دسترسی پیدا کند. " data-url="https://telegram.org/blog/telegram-business/fa">
+<i class="tl_telegram_share_icon">
+</i>
+<span class="tl_telegram_share_label" target="_blank">Forward</span>
+</a>
+<a href="https://twitter.com/share" class="tl_twitter_share_btn" id="tl_twitter_share_btn" data-text=" از امروز به بعد، هر کس می‌تواند حساب کاربری خود را به حساب بیزینس تبدیل کرده و به **قابلیت‌های مخصوص کسب و کار**، از جمله ساعات کاری، موقعیت مکانی، پاسخ سریع، پیام‌های خودکار، مقدمه سفارشی، پشتیبانی از ربات‌های گفتگو و... دسترسی پیدا کند. " data-url="https://telegram.org/blog/telegram-business/fa" data-via="Telegram">Tweet <span class="tl_twitter_share_cnt">
+</span>
+</a>
+</div>
+</div>
+<div class="tl_main_recent_news_wrap tlb_other_news_wrap tl_blog_list_page_wrap">
+<h3 class="tl_main_recent_news_header">
+<a href="/blog">Other News</a>
+</h3>
+<div class="tl_main_recent_news_cards clearfix">
+<a class="dev_blog_card_link_wrap" href="/blog/welcome-messages-buttons-TG-13/fa">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400741/6/aFBFZ5lNqO8.66680.webp/0e567958d5b96a2184" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">پیام‌های خوش‌آمدگویی، دکمه‌ها در پیام‌ها و هدایای امضا شده</h4>
+<div class="dev_blog_card_lead">معرفی می کنیم: پیام‌های خوش‌آمدگویی برای استقبال از اعضای جدید گروه‌ها یا کانال‌ها، دکمه‌ها در پیام‌ها برای تعاملی کردن هر متنی، اسناد…</div>
+</div>
+<div class="dev_blog_card_date">Aug 25, 2026</div>
+</div>
+</a>
+<a class="dev_blog_card_link_wrap" href="/blog/communities-editor-invisible-messages/fa">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400366/6/dI0zgi0mM5s.323818.webp/6a362dadee6e7e6011" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">ویرایشگر متن غنی، انجمن‌ها، پیام‌های نامرئی در  گروه‌ها و ۳۵۰ میلیون گیف</h4>
+<div class="dev_blog_card_lead">معرفی یک ویرایشگر متن غنی برای قالب‌بندی و تولید متن، جوامع تلگرام که چندین گروه، کانال و ربات را به هم متصل می‌کنند، جستجو در میان بیش…</div>
+</div>
+<div class="dev_blog_card_date">Jul 14, 2026</div>
+</div>
+</a>
+<a class="dev_blog_card_link_wrap" href="/blog/watch-apps-and-more/fa">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400535/2/fkUcVRnSU-M.140100.webp/10c066db41f83e6d5e" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">اپلیکیشن‌های ساعت هوشمند، متن غنی برای ربات‌ها، نگهبانان هوش مصنوعی برای گروه‌ها و بسیاری امکانات دیگر</h4>
+<div class="dev_blog_card_lead">به‌روزرسانی امروز تلگرام را به اپل واچ و ساعت‌های هوشمند اندرویدی می‌آورد، متن غنی فوق‌العاده…</div>
+</div>
+<div class="dev_blog_card_date">Jun 11, 2026</div>
+</div>
+</a>
+<a class="dev_blog_card_link_wrap" href="/blog/ai-bot-revolution-11-new-features/fa">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400475/2/BwY041V7nZg.149454.webp/873ed0c0321c7633e7" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">ربات‌های هوش مصنوعی مهمان، گفتگوی ربات با ربات، اتوماسیون گفتگو، سبک‌های سفارشی هوش مصنوعی، جستجوی بیش از ١۰۰ میلیون اموجی و استیکر و موارد بیشتر</h4>
+<div class="dev_blog_card_lead">به‌روزرسانی امروز یک انقلاب در ربات‌های هوش مصنوعی…</div>
+</div>
+<div class="dev_blog_card_date">May 7, 2026</div>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer_wrap">
+<div class="footer_columns_wrap footer_desktop">
+<div class="footer_column footer_column_telegram">
+<h5>Telegram</h5>
+<div class="footer_telegram_description">
+</div>
+      Telegram is a cloud-based mobile and desktop messaging app with a focus on security and speed.
+    </div>
+<div class="footer_column">
+<h5>
+<a href="/faq">About</a>
+</h5>
+<ul>
+<li>
+<a href="/faq">FAQ</a>
+</li>
+<li>
+<a href="/privacy">Privacy</a>
+</li>
+<li>
+<a href="/press">Press</a>
+</li>
+</ul>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/apps#mobile-apps">Mobile Apps</a>
+</h5>
+<ul>
+<li>
+<a href="/dl/ios">iPhone/iPad</a>
+</li>
+<li>
+<a href="/android">Android</a>
+</li>
+<li>
+<a href="/dl/web">Mobile Web</a>
+</li>
+</ul>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/apps#desktop-apps">Desktop Apps</a>
+</h5>
+<ul>
+<li>
+<a href="//desktop.telegram.org/">PC/Mac/Linux</a>
+</li>
+<li>
+<a href="//macos.telegram.org/">macOS</a>
+</li>
+<li>
+<a href="/dl/web">Web-browser</a>
+</li>
+</ul>
+</div>
+<div class="footer_column footer_column_platform">
+<h5>
+<a href="//core.telegram.org/">Platform</a>
+</h5>
+<ul>
+<li>
+<a href="//core.telegram.org/api">API</a>
+</li>
+<li>
+<a href="//translations.telegram.org/">Translations</a>
+</li>
+<li>
+<a href="//instantview.telegram.org/">Instant View</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="footer_columns_wrap footer_mobile">
+<div class="footer_column">
+<h5>
+<a href="/faq">About</a>
+</h5>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/blog">Blog</a>
+</h5>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/press">Press</a>
+</h5>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/safety">Safety</a>
+</h5>
+</div>
+</div>
+</div>
+<script src="/js/main.js?49">
+</script>
+<script src="/js/tgsticker.js?32">
+</script>
+<script src="/js/main-theme.js?6">
+</script>
+<script>initScrollVideos(true);
+mainInitTgStickers({"maxDeviceRatio":2,"cachingModulo":4});
+twitterCustomShareInit();
+blogSideImageInit();
+backToTopInit("Go up");
+removePreloadInit();
+</script>
+</body>
+</html>

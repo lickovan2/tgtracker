@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Data Clustering Contest: Round 1 – Developer Challenges</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta name="format-detection" content="telephone=no" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="MobileOptimized" content="176" />
+<meta name="HandheldFriendly" content="True" />
+<meta name="twitter:card" content="summary">
+</meta>
+<meta property="og:title" content="Data Clustering Contest: Round 1">
+<meta property="og:description" content="Перейти к английской версии документа
+Задача конкурса – создание алгоритма ранжирования новостей.
+Исходные данные
+Участникам…">
+<link rel="shortcut icon" href="/img/cd_favicon.ico" type="image/x-icon" />
+<link rel="mask-icon" href="/img/cd_icon.svg" color="#299ed8">
+<script>document.cookie="stel_dt="+encodeURIComponent((new Date).getTimezoneOffset())+";path=/;max-age=31536000;samesite=None;secure"</script>
+<link href="/css/font-roboto.css?1" rel="stylesheet" type="text/css">
+<link href="/css/bootstrap.min.css?3" rel="stylesheet">
+<link href="/css/bootstrap-extra.css?2" rel="stylesheet">
+<link href="/css/telegram.css?256" rel="stylesheet">
+<link href="/css/contest.css?41" rel="stylesheet">
+<link href="/css/contest-zoo.css?7" rel="stylesheet">
+<link href="/css/jquery-ui.min.css?1" rel="stylesheet">
+</head>
+<body class="emoji_image no-transition">
+<div id="aj_progress" class="progress-bar">
+</div>
+<div id="aj_content">
+<div class="cd-container">
+<header>
+<div class="container">
+<div class="header-wrap">
+<div id="header-panel" class="header-panel">
+<div class="header-auth">
+<div class="header-auth-item">
+<a class="header-auth-link login-link" href="/auth">Login</a>
+</div>
+</div>
+<div class="header-breadcrumb header-breadcrumb-simple">
+<ol id="breadcrumb" class="header-nav breadcrumb">
+<li class="cd-logo">
+<a href="/">
+<i class="cd-icon">
+</i>
+<span class="cd-logo-title">Developer Challenges</span>
+</a>
+</li>
+<li class="active">Data Clustering Contest: Round 1</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+</header>
+<main class="container">
+<section class="cd-content">
+<div id="dev_page_content_wrap" class=" ">
+<div class="dev_page_bread_crumbs">
+</div>
+<h1 id="dev_page_title">Data Clustering Contest: Round 1</h1>
+<div id="dev_page_content">
+<blockquote>
+<p>
+<a href="https://contest.com/docs/data_clustering">Перейти к английской версии документа</a>
+</p>
+</blockquote>
+<p>Задача конкурса – создание алгоритма ранжирования новостей.</p>
+<h4>
+<a class="anchor-link" href="#ishodnye-dannye">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="ishodnye-dannye">
+</a>Исходные данные</h4>
+<p>Участникам предлагается тестовый набор данных в формате HTML:</p>
+<ul>
+<li>
+<a href="https://data-static.usercontent.dev/DataClusteringSample0107.tar.gz">Архив 1, 01-07</a>
+</li>
+<li>
+<a href="https://data-static.usercontent.dev/DataClusteringSample0817.tar.gz">Архив 2, 08-17</a>
+</li>
+<li>
+<a href="https://data-static.usercontent.dev/DataClusteringSample1821.tar.gz">Архив 3, 18-21</a>
+</li>
+<li>
+<a href="https://data-static.usercontent.dev/DataClusteringSample2225.tar.gz">Архив 4, 22-25</a>
+</li>
+</ul>
+<p>В ходе конкурса будут периодически публиковаться дополнительные наборы данных.</p>
+<blockquote>
+<p>Для проверки работ будет использоваться набор данных, отличный от тестовых. Он может содержать, в том числе, тексты с доменов, отсутствующих в тестовом наборе.</p>
+</blockquote>
+<h4>
+<a class="anchor-link" href="#zadaniya-konkursa">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="zadaniya-konkursa">
+</a>Задания конкурса</h4>
+<ol>
+<li>
+<p>
+<strong>Выделение текстов на русском и английском языках.</strong> Алгоритм должен выделить все англо- и русскоязычные тексты, остальные языки не являются релевантными для данного этапа конкурса.</p>
+</li>
+<li>
+<p>
+<strong>Отделение новостей от других материалов.</strong> Алгоритм должен оставить в списке только новости, отсеяв посторонние тексты, энциклопедические и справочные материалы и т.д.</p>
+</li>
+<li>
+<p>
+<strong>Группировка новостей по тематике.</strong> Алгоритм должен распределить новости по следующим <strong>7-ми</strong> тематикам: </p>
+<ul>
+<li>Society (включает Politics, Elections, Legislation, Incidents, Crime)</li>
+<li>Economy (включает Markets, Finance, Business)</li>
+<li>Technology (включает Gadgets, Auto, Apps, Internet services)</li>
+<li>Sports (включает  E-Sports)</li>
+<li>Entertainment (включает Movies, Music, Games, Books, Arts)</li>
+<li>Science (включает Health, Biology, Physics, Genetics)</li>
+<li>Other (новостные статьи, не попавшие в перечисленные выше категории)</li>
+</ul>
+</li>
+<li>
+<p>
+<strong>Группировка похожих новостей в сюжеты.</strong> Алгоритм должен сгруппировать новости, написанные об одном событии/инфоповоде/сюжете, выбрав общий заголовок для группы новостей. Новости внутри сюжета должны быть отсортированы по релевантности.</p>
+</li>
+<li>
+<p>
+<strong>Ранжирование сюжетов.</strong> Алгоритм должен сформировать списки сюжетов по тематикам, отсортированные по важности. Кроме того, нужно сформировать отсортированный по релевантности список сюжетов вне зависимости от тематики.</p>
+</li>
+</ol>
+<h4>
+<a class="anchor-link" href="#priem-rabot">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="priem-rabot">
+</a>Прием работ</h4>
+<p>Работы будут приниматься в виде standalone приложения <strong>tgnews</strong> с CLI-интерфейсом. Приложение <a href="#proverka-rabot">будет запускаться</a> со следующими параметрами: </p>
+<pre>
+<code>tgnews languages source_dir
+tgnews news source_dir
+tgnews categories source_dir
+tgnews threads source_dir
+tgnews top source_dir</code>
+</pre>
+<p>где <strong>source_dir</strong> – путь до директории с HTML-файлами, содержащими тексты статей.</p>
+<h5>
+<a class="anchor-link" href="#trebovaniya-k-rabotam">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="trebovaniya-k-rabotam">
+</a>Требования к работам</h5>
+<ul>
+<li>Приложение не должно использовать сеть.</li>
+<li>Приложение должно отличаться высокой относительной скоростью работы (по этой причине приложения, написанные на <strong>C++</strong>, могут получить преимущество).</li>
+<li>Использование внешних зависимостей рекомендуется свести к минимуму. Зависимости, которые все же необходимы, нужно перечислить в текстовом файле <strong>deb-packages.txt</strong>. Они будут установлены перед запуском командой <code>sudo apt-get install ...</code>
+</li>
+<li>Приложения будут тестироваться на серверах с Debian GNU/Linux 10.1 (buster), x86-64 с 8 ядрами и 16 GB RAM. Обязательно проверьте корректность работы программы на чистой системе перед отправкой работы.</li>
+<li>Приложения, выполняющиеся дольше 60 секунд на каждые 1000 файлов, переданных в source_dir, рассматриваться не будут. Это ограничение должно выполняться для каждого из 5 запусков скрипта в процессе <a href="#proverka-rabot">проверки работ</a>.</li>
+<li>
+<p>На выходе требуется ZIP-файл (работы с размером архива, превышающим 200MB, с большой вероятностью будут оценены ниже) со следующей структурой.</p>
+<pre>
+<code>submission.zip
+  -&gt; tgnews - запускаемый бинарный файл с интерфейсом, описанным ниже
+  -&gt; src - директория с исходным кодом приложения
+  -&gt; deb-packages.txt - текстовый файл с названиями пакетов внешних зависимостей, разделенных переводом строки
+  -&gt; * - дополнительные файлы, необходимые для работы программы (используйте относительные пути для доступа к ним)</code>
+</pre>
+</li>
+</ul>
+<h4>
+<a class="anchor-link" href="#proverka-rabot">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="proverka-rabot">
+</a>Проверка работ</h4>
+<p>Проверка каждой работы будет происходить поэтапно. Приложение будет запускаться несколько раз с разными параметрами, описанными ниже.</p>
+<blockquote>
+<p>Работы будут проверяться на <strong>англо-</strong> и <strong>русскоязычных текстах</strong>.</p>
+</blockquote>
+<h5>
+<a class="anchor-link" href="#1-gruppirovka-po-yazykam">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="1-gruppirovka-po-yazykam">
+</a>1. Группировка по языкам</h5>
+<p>Запуск приложения:</p>
+<pre>
+<code>tgnews languages source_dir</code>
+</pre>
+<p>Результат должен быть выведен в формате JSON в STDOUT.</p>
+<p>Формат ответа:</p>
+<pre>
+<code>[
+  {
+    &quot;lang_code&quot;: &quot;en&quot;,
+    &quot;articles&quot;: [
+      &quot;981787246124324.html&quot;,
+      &quot;239748235923753.html&quot;,
+      ...
+    ]
+  },
+  {
+    &quot;lang_code&quot;: &quot;ru&quot;,
+    &quot;articles&quot;: [
+      &quot;273612748127432.html&quot;,
+      ...
+    ]
+  },
+  ...
+]</code>
+</pre>
+<p>где:</p>
+<ul>
+<li>
+<strong>lang_code</strong> – ISO 639-1 two-letter language code</li>
+<li>
+<strong>articles</strong> – список имен файлов, содержащих тексты на языке <strong>lang_code</strong>
+</li>
+</ul>
+<h5>
+<a class="anchor-link" href="#2-otdelenie-novostey-ot-drugih-materialov">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="2-otdelenie-novostey-ot-drugih-materialov">
+</a>2. Отделение новостей от других материалов</h5>
+<p>Запуск приложения:</p>
+<pre>
+<code>tgnews news source_dir</code>
+</pre>
+<p>Результат должен быть выведен в формате JSON в STDOUT.</p>
+<p>Формат ответа:</p>
+<pre>
+<code>{
+  &quot;articles&quot;: [
+    &quot;981787246124324.html&quot;,
+    ...
+  ]
+}</code>
+</pre>
+<p>где:</p>
+<ul>
+<li>
+<strong>articles</strong> – список имен файлов, содержащих новости</li>
+</ul>
+<h5>
+<a class="anchor-link" href="#3-gruppirovka-po-tematike">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="3-gruppirovka-po-tematike">
+</a>3. Группировка по тематике</h5>
+<p>Запуск приложения: </p>
+<pre>
+<code>tgnews categories source_dir</code>
+</pre>
+<p>Результат должен быть выведен в формате JSON в STDOUT.</p>
+<p>Формат ответа:</p>
+<pre>
+<code>[
+  {
+    &quot;category&quot;: &quot;society&quot;,
+    &quot;articles&quot;: [
+      &quot;981787246124324.html&quot;,
+      ...
+    ]
+  },
+  {
+    &quot;category&quot;: &quot;sports&quot;,
+    &quot;articles&quot;: [
+      &quot;2348972396239813.html&quot;,
+      ...
+    ]
+  },
+  ...
+]</code>
+</pre>
+<p>где:</p>
+<ul>
+<li>
+<strong>category</strong> – <code>&quot;society&quot;</code>, <code>&quot;economy&quot;</code>, <code>&quot;technology&quot;</code>, <code>&quot;sports&quot;</code>, <code>&quot;entertainment&quot;</code>, <code>&quot;science&quot;</code> или <code>&quot;other&quot;</code>
+</li>
+<li>
+<strong>articles</strong> – список имен файлов, содержащих новости по тематике <strong>category</strong>
+</li>
+</ul>
+<h5>
+<a class="anchor-link" href="#4-gruppirovka-pohozhih-novostey-v-syuzhety">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="4-gruppirovka-pohozhih-novostey-v-syuzhety">
+</a>4. Группировка похожих новостей в сюжеты</h5>
+<p>Запуск приложения: </p>
+<pre>
+<code>tgnews threads source_dir</code>
+</pre>
+<p>Результат должен быть выведен в формате JSON в STDOUT.</p>
+<p>Формат ответа:</p>
+<pre>
+<code>[
+  {
+    &quot;title&quot;: &quot;Telegram announces Data Clustering Contest&quot;,
+    &quot;articles&quot;: [
+      &quot;6354183719539252.html&quot;,
+      ...
+    ]
+  },
+  {
+    &quot;title&quot;: &quot;Apple reveals new AirPods Pro&quot;,
+    &quot;articles&quot;: [
+      &quot;9436743547232134.html&quot;,
+      ...
+    ]
+  },
+  ...
+]</code>
+</pre>
+<p>где:</p>
+<ul>
+<li>
+<strong>title</strong> – общий заголовок для сгруппированного набора новостей</li>
+<li>
+<strong>articles</strong> – список имен файлов, содержащих похожие новости, отсортированный по релевантности (релевантные выше)</li>
+</ul>
+<h5>
+<a class="anchor-link" href="#5-ranzhirovanie-syuzhetov">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="5-ranzhirovanie-syuzhetov">
+</a>5. Ранжирование сюжетов</h5>
+<p>Запуск приложения: </p>
+<pre>
+<code>tgnews top source_dir</code>
+</pre>
+<p>Результат должен быть выведен в формате JSON в STDOUT.</p>
+<p>Формат ответа:</p>
+<pre>
+<code>[
+  {
+    &quot;category&quot;: &quot;any&quot;,
+    &quot;threads&quot;: [
+      {
+        &quot;title&quot;: &quot;Telegram announces Data Clustering Contest&quot;,
+        &quot;category&quot;: &quot;technology&quot;,
+        &quot;articles&quot;: [
+          &quot;6354183719539252.html&quot;,
+          ...
+        ]
+      },
+      {
+        &quot;title&quot;: &quot;Apple reveals new AirPods Pro&quot;,
+        &quot;category&quot;: &quot;technology&quot;,
+        &quot;articles&quot;: [
+          &quot;9436743547232134.html&quot;,
+          ...
+        ]
+      },
+      ...
+    ]
+  },
+  {
+    &quot;category&quot;: &quot;technology&quot;,
+    &quot;threads&quot;: [
+      {
+        &quot;title&quot;: &quot;Telegram announces Data Clustering Contest&quot;,
+        &quot;articles&quot;: [
+          &quot;6354183719539252.html&quot;,
+          ...
+        ]
+      },
+      ...
+    ]
+  },
+  {
+    &quot;category&quot;: &quot;sports&quot;,
+    &quot;threads&quot;: [
+      ...
+    ]
+  },
+  ...
+]</code>
+</pre>
+<p>где:</p>
+<ul>
+<li>
+<strong>category</strong> – <code>&quot;society&quot;</code>, <code>&quot;economy&quot;</code>, <code>&quot;technology&quot;</code>, <code>&quot;sports&quot;</code>, <code>&quot;entertainment&quot;</code>, <code>&quot;science&quot;</code> или <code>&quot;other&quot;</code>. Также обязательно должен присутствовать блок с <code>category=&quot;any&quot;</code>, содержащий отсортированный по важности (важные выше) список сюжетов вне зависимости от тематики.</li>
+<li>
+<strong>threads</strong> – список сюжетов, отсортированный по важности (важные выше). Каждый сюжет содержит название и список статей. Для блока <code>category=&quot;any&quot;</code> также содержит поле <strong>category</strong>.</li>
+<li>
+<strong>title</strong> – общий заголовок для сюжета.</li>
+<li>
+<strong>articles</strong> – список имен файлов статей по этому сюжету, отсортированных по релевантности (релевантные выше).</li>
+</ul>
+<h4>
+<a class="anchor-link" href="#poyasneniya">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="poyasneniya">
+</a>Пояснения</h4>
+<ul>
+<li>Рекомендуемый размер итогового архива – меньше 200 MB. Вы можете отправить файл до 1,5 GB, но такие работы с большой вероятностью будут оценены ниже.</li>
+<li>Ограничение на 60 секунд / 1000 файлов должно выполняться для каждого из 5 запусков скрипта в процессе <a href="#proverka-rabot">проверки работ</a>.</li>
+</ul>
+</div>
+</div>
+</section>
+</main>
+</div>
+<div class="popup-container login-popup-container hide" id="login-popup-container">
+<div class="popup">
+<div class="popup-body">
+<section>
+<h2>Log In</h2>
+<p>Log in here to leave comments and take part in the Telegram Competitions. Please enter your <b>phone number</b> in the <a target="_blank" rel="noopener" href="https://telegram.org/faq#login-and-sms">international format</a> and we will send a confirmation message to your account via Telegram.</p>
+<form id="send-form" class="login-form">
+<div class="form-group">
+<input type="tel" class="form-control cd-form-control input-lg" id="phone-number" placeholder="+12223334455" autocomplete="off"/>
+</div>
+<div class="popup-buttons">
+<a class="btn btn-link btn-lg login-cancel-btn">Cancel</a>
+<button type="submit" class="btn btn-link btn-lg">Next</button>
+</div>
+</form>
+<div id="login-form" class="hide">
+<div class="form-group">
+<span class="form-control cd-form-control input input-lg input-disabled">
+<strong id="phone-number-field">
+</strong> (<a class="login-back" href="/auth">Incorrect?</a>)</span>
+<p class="help-block dots-animated">We&#39;ve just sent you a message.<br/>Please confirm access via Telegram</p>
+</div>
+<div class="popup-buttons">
+<a class="btn btn-link btn-lg login-cancel-btn">Cancel</a>
+<a class="btn btn-link btn-lg login-back">Back</a>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+</div>
+<script src="/js/jquery.min.js?1">
+</script>
+<script src="/js/bootstrap.min.js">
+</script>
+<script src="/js/main-aj.js?76">
+</script>
+<script src="/js/contest.js?25">
+</script>
+<script src="/js/jquery-ui.min.js?1">
+</script>
+<script src="/js/tgsticker.js?32">
+</script>
+<script>ajInit({"version":701,"apiUrl":"\/api?hash=X","unauth":true});</script>
+<script id="aj_script">Aj._useScrollHack=true;
+Aj.onLoad(function(state) {
+  function requestConfirmation(event) {
+    event && event.preventDefault();
+    var phone = $('#phone-number').val();
+    $.ajax({
+      type: 'POST',
+      url: '/auth/request',
+      data: {
+        phone: phone
+      },
+      success: function(result) {
+        $('#phone-number-field').text(phone);
+        $('#send-form').addClass('hide');
+        $('#login-form').removeClass('hide');
+        checkAuth(result.temp_session);
+      },
+      error: function(xhr) {
+        showAlert(xhr.responseText || 'Server error');
+      },
+      dataType: 'json'
+    });
+    return false;
+  }
+  function cancelConfirmation(event) {
+    event && event.preventDefault();
+    $('#phone-number-field').text('');
+    $('#send-form').removeClass('hide');
+    $('#login-form').addClass('hide');
+    $('#phone-number').focus();
+    clearTimeout(window.authTimeout);
+    return false;
+  }
+  function checkAuth(temp_session) {
+    clearTimeout(window.authTimeout);
+    window.authTimeout = setTimeout(function doCheckAuth() {
+      $.ajax({
+        type: 'POST',
+        url: '/auth/login',
+        data: {
+          temp_session: temp_session
+        },
+        success: function(result) {
+          if (result) {
+            location.reload();
+          } else {
+            checkAuth(temp_session);
+          }
+        },
+        error: function (xhr) {
+          showAlert(xhr.responseText || 'Server error');
+        },
+        dataType: 'json'
+      });
+    }, 700);
+  }
+  $('#login-popup-container').on('popup:open', function() {
+    $('#phone-number').focus();
+  });
+  $('#login-popup-container').on('popup:close', function() {
+    cancelConfirmation();
+    if (location.pathname == '/auth') {
+      window.history && history.replaceState(null, null, '/');
+    }
+  });
+  $('#login-popup-container #send-form').on('submit', requestConfirmation);
+  $('#login-popup-container .login-cancel-btn').on('click', function(e) {
+    e.preventDefault();
+    closePopup('#login-popup-container');
+  });
+  $('#login-popup-container .login-back').on('click', cancelConfirmation);
+  $('.login-link').on('click', function(e) {
+    e.stopImmediatePropagation();
+    e.preventDefault();
+    openPopup('#login-popup-container');
+  });
+});
+Aj.onUnload(function(state) {
+  $('#login-popup-container').off('popup:open');
+  $('#login-popup-container').off('popup:close');
+  $('#login-popup-container #send-form').off('submit');
+  $('#login-popup-container .login-cancel-btn').off('click');
+  $('#login-popup-container .login-back').off('click');
+  $('.login-link').off('click');
+});
+</script>
+<script>Aj.pageLoaded();</script>
+</body>
+</html>

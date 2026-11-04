@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Data Clustering Contest 2021. Round 2 – Developer Challenges</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta name="format-detection" content="telephone=no" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="MobileOptimized" content="176" />
+<meta name="HandheldFriendly" content="True" />
+<meta name="twitter:card" content="summary">
+</meta>
+<meta property="og:title" content="Data Clustering Contest 2021. Round 2">
+<meta property="og:description" content="The task in the second round is to improve the C/C++ library you created in the previous round that can determine the topic…">
+<link rel="shortcut icon" href="/img/cd_favicon.ico" type="image/x-icon" />
+<link rel="mask-icon" href="/img/cd_icon.svg" color="#299ed8">
+<script>document.cookie="stel_dt="+encodeURIComponent((new Date).getTimezoneOffset())+";path=/;max-age=31536000;samesite=None;secure"</script>
+<link href="/css/font-roboto.css?1" rel="stylesheet" type="text/css">
+<link href="/css/bootstrap.min.css?3" rel="stylesheet">
+<link href="/css/bootstrap-extra.css?2" rel="stylesheet">
+<link href="/css/telegram.css?256" rel="stylesheet">
+<link href="/css/contest.css?41" rel="stylesheet">
+<link href="/css/contest-zoo.css?7" rel="stylesheet">
+<link href="/css/jquery-ui.min.css?1" rel="stylesheet">
+</head>
+<body class="emoji_image no-transition">
+<div id="aj_progress" class="progress-bar">
+</div>
+<div id="aj_content">
+<div class="cd-container">
+<header>
+<div class="container">
+<div class="header-wrap">
+<div id="header-panel" class="header-panel">
+<div class="header-auth">
+<div class="header-auth-item">
+<a class="header-auth-link login-link" href="/auth">Login</a>
+</div>
+</div>
+<div class="header-breadcrumb header-breadcrumb-simple">
+<ol id="breadcrumb" class="header-nav breadcrumb">
+<li class="cd-logo">
+<a href="/">
+<i class="cd-icon">
+</i>
+<span class="cd-logo-title">Developer Challenges</span>
+</a>
+</li>
+<li class="active">Data Clustering Contest 2021. Round 2</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+</header>
+<main class="container">
+<section class="cd-content">
+<div id="dev_page_content_wrap" class=" ">
+<div class="dev_page_bread_crumbs">
+</div>
+<h1 id="dev_page_title">Data Clustering Contest 2021. Round 2</h1>
+<div id="dev_page_content">
+<!-- scroll_nav -->
+<p>The task in the second round is to improve the <strong>C/C++</strong> library you created in the <a href="/docs/dc2021-r1">previous round</a> that can determine the topic of a Telegram channel.</p>
+<p>The deadline for the second round is <strong>May 2, 2021</strong> at <strong>23:50 Dubai time</strong>. <strong>Everyone who participated in the <a href="/docs/dc2021-r1">first round</a>
+</strong> is welcome to take part.</p>
+<blockquote>
+<p>General info about this contest is available on <a href="https://t.me/contest/250">@contest</a>. Feel free to check out the <a href="https://contest.com/docs/dc2021-r2/ru">Russian version</a> of this document.</p>
+</blockquote>
+<h3>
+<a class="anchor-link" href="#the-task">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="the-task">
+</a>The Task</h3>
+<p>
+<strong>Improve topic detection.</strong> In this round, you will need to improve topic detection for channels in English and Russian and determine the topic of channels in three additional languages. Required languages:</p>
+<ul>
+<li>English</li>
+<li>Russian</li>
+<li>Arabic</li>
+<li>Persian</li>
+<li>Uzbek</li>
+</ul>
+<p>The algorithm must determine the <strong>relative weight</strong> for each of the topics identified in the channel.</p>
+<h4>
+<a class="anchor-link" href="#new-categories-and-types-of-content">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="new-categories-and-types-of-content">
+</a>New categories and types of content</h4>
+<p>The data sets in this round are likely to contain more samples from <strong>banned channels</strong>. The list of possible topics was expanded with <em>Drug Sale</em>, <em>Forgery</em>, <em>Hacked Accounts</em>, <em>Personal Data</em>, <em>Pirated Content</em>, <em>Prostitution</em>, <em>Spam &amp; Fake Followers</em>, <em>Weapon Sale</em>.</p>
+<h4>
+<a class="anchor-link" href="#list-of-categories">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="list-of-categories">
+</a>List of Categories</h4>
+<p>Below is the full list of possible topics for this round. The list also includes some of the sorting recommendations used by human moderators to sort the evaluation datasets.</p>
+<ul>
+<li>Art &amp; Design </li>
+<li>Bets &amp; Gambling <em>– includes sports bets</em>
+</li>
+<li>Books</li>
+<li>Business &amp; Entrepreneurship</li>
+<li>Cars &amp; Other Vehicles</li>
+<li>Celebrities &amp; Lifestyle</li>
+<li>Cryptocurrencies</li>
+<li>Culture &amp; Events</li>
+<li>Curious Facts</li>
+<li>Directories of Channels &amp; Bots</li>
+<li>Drug Sale</li>
+<li>Economy &amp; Finance</li>
+<li>Education </li>
+<li>Erotic Content</li>
+<li>Fashion &amp; Beauty</li>
+<li>Fitness</li>
+<li>Forgery <em>– includes fake documents, fake money, etc.</em>
+</li>
+<li>Food &amp; Cooking</li>
+<li>Foreign Language Learning</li>
+<li>Hacked Accounts &amp; Software <em>– includes carding, passwords for subscription services, etc.</em>
+</li>
+<li>Health &amp; Medicine</li>
+<li>History </li>
+<li>Hobbies &amp; Activities</li>
+<li>Home &amp; Architecture</li>
+<li>Humor &amp; Memes</li>
+<li>Investments</li>
+<li>Job Listings</li>
+<li>Kids &amp; Parenting</li>
+<li>Marketing &amp; PR</li>
+<li>Motivation &amp; Self-development <em>- includes inspirational quotes and poetry</em>
+</li>
+<li>Movies</li>
+<li>Music</li>
+<li>Offers &amp; Promotions <em>– includes products or services for sale, unless they fall under the newly added categories</em>
+</li>
+<li>Personal Data <em>– includes doxxing, databases</em>
+</li>
+<li>Pets</li>
+<li>Pirated Content <em>– films, music, books, but not software</em>
+</li>
+<li>Politics &amp; Incidents</li>
+<li>Prostitution</li>
+<li>Psychology &amp; Relationships</li>
+<li>Real Estate</li>
+<li>Recreation &amp; Entertainment</li>
+<li>Religion &amp; Spirituality</li>
+<li>Science</li>
+<li>Spam &amp; Fake Followers <em>– includes spam tools and services, boosting followers, likes, etc.</em>
+</li>
+<li>Sports <em>– includes e-sports</em>
+</li>
+<li>Technology &amp; Internet</li>
+<li>Travel &amp; Tourism</li>
+<li>Video Games</li>
+<li>Weapon Sale</li>
+<li>Other</li>
+</ul>
+<h4>
+<a class="anchor-link" href="#sorting-recommendations">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="sorting-recommendations">
+</a>Sorting Recommendations</h4>
+<p>Below are some of the recommendations used by human moderators to sort evaluation datasets.</p>
+<p>
+<strong>1.</strong> The <strong>most specific</strong> category should carry the most weight.</p>
+<p>*For example, if a channel is about investing in cryptocurrencies, “Cryptocurrencies” should carry a higher weight than “Investment”. If a channel is about the evolution of cars in the 20th century, its primary category is “Cars &amp; Vehicles”, not “History”.</p>
+<p>
+<strong>2.</strong> Channels of a person or dedicated to a person may be categorized by what kind of a person it is.</p>
+<p>
+<em>For example, a politician =&gt; “Politics &amp; Incidents”, a movie star =&gt; “Celebrities”, an athlete =&gt; “Sports”. Naturally, if it&#39;s a channel with investment tips from a football star, Recommendation 1 applies and it should go to “Investments”</em>.</p>
+<h3>
+<a class="anchor-link" href="#source-data">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="source-data">
+</a>Source Data</h3>
+<p>Contestants are welcome to use this test data set:</p>
+<ul>
+<li>
+<a href="https://data-static.usercontent.dev/dc0415-input.tar.gz">Sample 1, 15-04</a>
+</li>
+<li>
+<a href="https://data-static.usercontent.dev/dc0421-input.tar.gz">Sample 2, 21-04</a>
+</li>
+<li>
+<a href="https://data-static.usercontent.dev/dc0428-input.tar.gz">Sample 3, 28-04</a>
+</li>
+</ul>
+<p>The archive includes a text file with channel data in all languages supported in this round, along with separate files with channel data for each specific language. The language-specific files are included for your convenience only – evaluation data will not be pre-sorted by language and can potentially contain channels in <strong>any</strong> language.</p>
+<h4>
+<a class="anchor-link" href="#machine-translations">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="machine-translations">
+</a>Machine Translations</h4>
+<p>For each file, we&#39;ve also included a version with <strong>machine translations</strong> of all texts into English. Note that your algorithm must work with texts <strong>in the original language</strong>. The English version may only be used for ease of understanding the original text.</p>
+<h4>
+<a class="anchor-link" href="#new-data">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="new-data">
+</a>New data</h4>
+<p>Additional data has been added in this round to help improve the quality of topic detection, such as the number of subscribers and the total number of text posts and posts containing media in a channel. We&#39;re also including metadata for media and links.</p>
+<h4>
+<a class="anchor-link" href="#data-format">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="data-format">
+</a>Data Format</h4>
+<p>The data set is a text file, where each line contains information about a channel in JSON format. <strong>All fields are optional.</strong>
+</p>
+<pre>
+<code>{
+  title: &quot;Channel title&quot;,
+  description: &quot;Channel description&quot;,
+  subscribers: 123400,
+  counters: [
+    posts: 100,
+    photos: 20,
+    videos: 10,
+    audios: 3,
+    files: 0
+  ],
+  recent_posts: [
+    {
+      type: &quot;text&quot;,
+      text: &quot;text of message&quot;, 
+      link_preview: {
+        url: &quot;https://example.com/&quot;,
+        title: &quot;Title of link preview&quot;,
+        description: &quot;Description of link preview&quot;
+      }
+    },
+      {
+      type: &quot;photo&quot;,
+      text: &quot;Photo caption&quot;
+    },
+      {
+      type: &quot;video&quot;,
+      text: &quot;Video caption&quot;,
+      duration: 65,
+      file_name: &quot;video.mp4&quot;,
+      file_size: 23982347
+    },
+      {
+      type: &quot;audio&quot;,
+      text: &quot;Audio caption&quot;,
+      performer: &quot;Performer&quot;,
+      title: &quot;Title&quot;,
+      duration: 183,
+      file_size: 1236123
+    },
+      {
+      type: &quot;file&quot;,
+      text: &quot;File caption&quot;,
+      file_name: &quot;test.pdf&quot;,
+      file_size: 1236
+    },
+    ...
+  ]
+}</code>
+</pre>
+<p>where:</p>
+<ul>
+<li>
+<strong>title</strong> – title of the channel,</li>
+<li>
+<strong>description</strong> – description of the channel,</li>
+<li>
+<strong>subscribers</strong> – rounded number of channel subscribers,</li>
+<li>
+<p>
+<strong>counters</strong> – channel counters, where:</p>
+<ul>
+<li>
+<strong>posts</strong> – total number of posts in the channel,</li>
+<li>
+<strong>photos</strong> – number of photos in the channel,</li>
+<li>
+<strong>videos</strong> – number of videos in the channel,</li>
+<li>
+<strong>audios</strong> – number of audio files in the channel,</li>
+<li>
+<strong>files</strong> – number of files in the channel,</li>
+</ul>
+</li>
+<li>
+<p>
+<strong>recent_posts</strong> – several posts from the channel, where:</p>
+<ul>
+<li>
+<strong>type</strong> – type of the post: <em>text</em>, <em>photo</em>, <em>video</em>, <em>audio</em> or <em>file</em>,</li>
+<li>
+<strong>text</strong> – text of the post or caption of the media,</li>
+<li>
+<strong>link_preview</strong> – data from link preview (if exists),</li>
+<li>
+<strong>duration</strong> – duration of the video or audio track in seconds,</li>
+<li>
+<strong>file_name</strong> – name of the file,</li>
+<li>
+<strong>file_size</strong> – size of the file in bytes,</li>
+<li>
+<strong>performer</strong> – performer of the audio track,</li>
+<li>
+<strong>title</strong> – title of the audio track.</li>
+</ul>
+</li>
+</ul>
+<p>We will publish additional data sets over the course of the contest.</p>
+<blockquote>
+<p>A different data set will be used for evaluating submissions.</p>
+</blockquote>
+<h3>
+<a class="anchor-link" href="#development-and-testing">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="development-and-testing">
+</a>Development and Testing</h3>
+<p>You can download a sample library here: <a href="https://data-static.usercontent.dev/libtgcat-r2.tar.gz">libtgcat-r2.tar.gz</a>. <code>tgcat.h</code> describes the interface you are required to implement in this contest. Use the following commands to build the library:</p>
+<pre>
+<code>mkdir build
+cd build
+cmake -DCMAKE_BUILD_TYPE=Release ..
+cmake --build .</code>
+</pre>
+<p>You can test the resulting library file <code>libtgcat.so</code> on the <a href="#source-data">test data</a> using the test script <a href="https://data-static.usercontent.dev/libtgcat-tester-r2.tar.gz">libtgcat-tester-r2.tar.gz</a>. To do this, copy <code>libtgcat.so</code> into the directory containing the test script, then build with cmake in the standard way:</p>
+<pre>
+<code>mkdir build
+cd build
+cmake -DCMAKE_BUILD_TYPE=Release ..
+cmake --build .</code>
+</pre>
+<p>To test the library output, launch the resulting binary file <code>tgcat-tester</code> with the following parameters:</p>
+<pre>
+<code>tgcat-tester &lt;mode&gt; &lt;input_file&gt; &lt;output_file&gt;</code>
+</pre>
+<p>where:</p>
+<ul>
+<li>
+<strong>&lt;mode&gt;</strong> – <code>category</code>, </li>
+<li>
+<strong>&lt;input_file&gt;</strong> – path to file containing input data, </li>
+<li>
+<strong>&lt;output_file&gt;</strong> – path to file containing output data. </li>
+</ul>
+<p>Output data is presented as a text file where each line represents processed channel data in JSON format:</p>
+<pre>
+<code>{
+  &quot;lang_code&quot;: &quot;en&quot;,
+  &quot;category&quot;: {
+    &quot;Art &amp; Design&quot;: 0.9,
+    &quot;Other&quot;: 0.1
+  }
+}</code>
+</pre>
+<p>where: </p>
+<ul>
+<li>
+<strong>lang_code</strong> – ISO 639-1 language code or “other”; your library should return the language it detected, even if it&#39;s not one of the target languages in this round.</li>
+<li>
+<strong>category</strong> – object with each key containing one of the topics (<a href="#the-task">see above</a>) and the values containing the relative weight of the topic. Categories should be returned for each item, even if the language detected by your library is not one of the target languages in this round.</li>
+</ul>
+<blockquote>
+<p>Please note that the input data can contain channels in different languages, the library must determine the language of the channel by itself before determining the relative weight for each of the topics.</p>
+<p>
+<strong>Note:</strong> Your output data should include the detected language, even if it&#39;s not one of the 5 target languages. In this round, we will not evaluate the quality of language detection.</p>
+</blockquote>
+<p>
+<strong>Script launch example:</strong>
+</p>
+<pre>
+<code>$ ./tgcat-tester category dc0415-input.txt dc0415-category-output.txt
+Processed 50297 queries in 0.033010 seconds</code>
+</pre>
+<h4>
+<a class="anchor-link" href="#general-requirements">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="general-requirements">
+</a>General Requirements</h4>
+<ul>
+<li>Your library must work locally (no network usage including localhost).</li>
+<li>Relative speed is of critical importance.</li>
+<li>External dependencies should be kept to a minimum. If you can&#39;t avoid external dependencies, please list them in a text file named <strong>deb-packages.txt</strong>. These dependencies will be installed using <code>sudo apt-get install ...</code> before your app is tested.</li>
+<li>The library will be tested on servers running <a href="https://www.debian.org/releases/buster/">Debian GNU/Linux 10 (buster)</a>, x86-64 with 8 cores and 16 GB RAM. Before submitting, please make sure that your app works correctly on a clean system.</li>
+<li>Make sure the library was built on <a href="https://www.debian.org/releases/buster/">Debian GNU/Linux 10 (buster)</a>.</li>
+<li>
+<p>You must submit a ZIP-file (the maximum limit for a file sent to the bot is 2 GB) with the following structure:</p>
+<pre>
+<code>submission.zip
+  -&gt; src - folder with the app&#39;s source code (obligatory)
+  -&gt; libtgcat.so - library (obligatory)
+  -&gt; resources - folder with additional files which your library requires to work (please use relative paths to access them) (optional)
+  -&gt; deb-packages.txt - a text file with line-break separated debian package names of all external dependencies (optional)</code>
+</pre>
+</li>
+</ul>
+<h4>
+<a class="anchor-link" href="#evaluation">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="evaluation">
+</a>Evaluation</h4>
+<p>When evaluating submissions we will prioritize the <strong>speed</strong> and <strong>accuracy</strong> of the algorithms. Accuracy will have the <strong>highest priority</strong>.</p>
+<p>Note that we will <strong>not</strong> evaluate libraries that take more than 60 seconds to process any batch of 1000 channels.</p>
+</div>
+</div>
+</section>
+</main>
+</div>
+<div class="popup-container login-popup-container hide" id="login-popup-container">
+<div class="popup">
+<div class="popup-body">
+<section>
+<h2>Log In</h2>
+<p>Log in here to leave comments and take part in the Telegram Competitions. Please enter your <b>phone number</b> in the <a target="_blank" rel="noopener" href="https://telegram.org/faq#login-and-sms">international format</a> and we will send a confirmation message to your account via Telegram.</p>
+<form id="send-form" class="login-form">
+<div class="form-group">
+<input type="tel" class="form-control cd-form-control input-lg" id="phone-number" placeholder="+12223334455" autocomplete="off"/>
+</div>
+<div class="popup-buttons">
+<a class="btn btn-link btn-lg login-cancel-btn">Cancel</a>
+<button type="submit" class="btn btn-link btn-lg">Next</button>
+</div>
+</form>
+<div id="login-form" class="hide">
+<div class="form-group">
+<span class="form-control cd-form-control input input-lg input-disabled">
+<strong id="phone-number-field">
+</strong> (<a class="login-back" href="/auth">Incorrect?</a>)</span>
+<p class="help-block dots-animated">We&#39;ve just sent you a message.<br/>Please confirm access via Telegram</p>
+</div>
+<div class="popup-buttons">
+<a class="btn btn-link btn-lg login-cancel-btn">Cancel</a>
+<a class="btn btn-link btn-lg login-back">Back</a>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+</div>
+<script src="/js/jquery.min.js?1">
+</script>
+<script src="/js/bootstrap.min.js">
+</script>
+<script src="/js/main-aj.js?76">
+</script>
+<script src="/js/contest.js?25">
+</script>
+<script src="/js/jquery-ui.min.js?1">
+</script>
+<script src="/js/tgsticker.js?32">
+</script>
+<script>ajInit({"version":701,"apiUrl":"\/api?hash=X","unauth":true});</script>
+<script id="aj_script">Aj._useScrollHack=true;
+window.initDevPageNav&&initDevPageNav();
+Aj.onLoad(function(state) {
+  function requestConfirmation(event) {
+    event && event.preventDefault();
+    var phone = $('#phone-number').val();
+    $.ajax({
+      type: 'POST',
+      url: '/auth/request',
+      data: {
+        phone: phone
+      },
+      success: function(result) {
+        $('#phone-number-field').text(phone);
+        $('#send-form').addClass('hide');
+        $('#login-form').removeClass('hide');
+        checkAuth(result.temp_session);
+      },
+      error: function(xhr) {
+        showAlert(xhr.responseText || 'Server error');
+      },
+      dataType: 'json'
+    });
+    return false;
+  }
+  function cancelConfirmation(event) {
+    event && event.preventDefault();
+    $('#phone-number-field').text('');
+    $('#send-form').removeClass('hide');
+    $('#login-form').addClass('hide');
+    $('#phone-number').focus();
+    clearTimeout(window.authTimeout);
+    return false;
+  }
+  function checkAuth(temp_session) {
+    clearTimeout(window.authTimeout);
+    window.authTimeout = setTimeout(function doCheckAuth() {
+      $.ajax({
+        type: 'POST',
+        url: '/auth/login',
+        data: {
+          temp_session: temp_session
+        },
+        success: function(result) {
+          if (result) {
+            location.reload();
+          } else {
+            checkAuth(temp_session);
+          }
+        },
+        error: function (xhr) {
+          showAlert(xhr.responseText || 'Server error');
+        },
+        dataType: 'json'
+      });
+    }, 700);
+  }
+  $('#login-popup-container').on('popup:open', function() {
+    $('#phone-number').focus();
+  });
+  $('#login-popup-container').on('popup:close', function() {
+    cancelConfirmation();
+    if (location.pathname == '/auth') {
+      window.history && history.replaceState(null, null, '/');
+    }
+  });
+  $('#login-popup-container #send-form').on('submit', requestConfirmation);
+  $('#login-popup-container .login-cancel-btn').on('click', function(e) {
+    e.preventDefault();
+    closePopup('#login-popup-container');
+  });
+  $('#login-popup-container .login-back').on('click', cancelConfirmation);
+  $('.login-link').on('click', function(e) {
+    e.stopImmediatePropagation();
+    e.preventDefault();
+    openPopup('#login-popup-container');
+  });
+});
+Aj.onUnload(function(state) {
+  $('#login-popup-container').off('popup:open');
+  $('#login-popup-container').off('popup:close');
+  $('#login-popup-container #send-form').off('submit');
+  $('#login-popup-container .login-cancel-btn').off('click');
+  $('#login-popup-container .login-back').off('click');
+  $('.login-link').off('click');
+});
+</script>
+<script>Aj.pageLoaded();</script>
+</body>
+</html>

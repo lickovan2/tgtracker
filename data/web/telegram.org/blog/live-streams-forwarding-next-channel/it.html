@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html class="" data-theme="light">
+<head>
+<meta charset="utf-8">
+<title>Dirette streaming, Inoltro flessibile, Passa al canale successivo e Sticker in primo piano</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:title" content="Dirette streaming, Inoltro flessibile, Passa al canale successivo e Sticker in primo piano">
+<meta property="og:image" content="https://telegram.org/file/464001784/4/IlXX31YWz5U.92729/eabf233f3635354560">
+<meta property="og:site_name" content="Telegram">
+<meta property="og:description" content="Telegram è stato lanciato poco più di 8 anni fa e oggi continuiamo la nostra tradizione di aggiornamenti mensili con la versione 8.0. Questo aggiornamento introduce le dirette streaming con un numero illimitato di spettatori in gruppi e canali, opzioni per rimuovere le didascalie dai contenuti multimediali e nascondere i nomi dei mittenti quando si inoltra, un modo semplice per passare al successivo canale non letto senza tornare nella tua lista chat, un pannello sticker migliorato, nuove emoji animate e altro ancora.">
+<meta property="article:published_time" content="2021-08-31T19:08:29+00:00">
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://telegram.org/file/464001784/4/IlXX31YWz5U.92729/eabf233f3635354560" />
+<meta property="fb:app_id" content="254098051407226">
+<meta property="vk:app_id" content="3782569">
+<meta name="apple-itunes-app" content="app-id=686449807">
+<meta name="telegram:channel" content="@telegram">
+<link rel="canonical" href="https://telegram.org/blog/live-streams-forwarding-next-channel/it" />
+<link rel="icon" type="image/svg+xml" href="/img/website_icon.svg?4">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="alternate icon" href="/img/favicon.ico" type="image/x-icon" />
+<link href="/css/bootstrap.min.css?3" rel="stylesheet">
+<link href="/css/telegram.css?256" rel="stylesheet" media="screen">
+<link href="/css/telegram-theme.css?9" rel="stylesheet" media="screen">
+</head>
+<body class="preload">
+<div id="fb-root">
+</div>
+<button class="theme-toggle theme-toggle--static" type="button" title="Toggle theme" aria-label="Toggle light/dark theme">
+</button>
+<div class="tl_page_wrap">
+<div class="tl_page_head navbar navbar-static-top navbar navbar-tg">
+<div class="navbar-inner">
+<div class="container clearfix">
+<ul class="nav navbar-nav navbar-right">
+<li class="dropdown top_lang_select">
+<a class="dropdown-toggle" onclick="return dropdownClick(this, event)" href="#">
+<i class="dev_top_lang_icon">
+</i>
+<b class="minicaret">
+</b>
+</a>
+<ul class="dropdown-menu">
+<li class="">
+<a href="?setln=en">English</a>
+</li>
+<li class="long ">
+<a href="?setln=id">Bahasa Indonesia</a>
+</li>
+<li class="long ">
+<a href="?setln=ms">Bahasa Melayu</a>
+</li>
+<li class="">
+<a href="?setln=de">Deutsch</a>
+</li>
+<li class="">
+<a href="?setln=es">Español</a>
+</li>
+<li class="">
+<a href="?setln=fr">Français</a>
+</li>
+<li class="">
+<a href="?setln=it">Italiano</a>
+</li>
+<li class="">
+<a href="?setln=nl">Nederlands</a>
+</li>
+<li class="">
+<a href="?setln=uz">O‘zbek</a>
+</li>
+<li class="">
+<a href="?setln=pl">Polski</a>
+</li>
+<li class="long ">
+<a href="?setln=pt-br">Português (Brasil)</a>
+</li>
+<li class="">
+<a href="?setln=tr">Türkçe</a>
+</li>
+<li class="">
+<a href="?setln=be">Беларуская</a>
+</li>
+<li class="">
+<a href="?setln=ru">Русский</a>
+</li>
+<li class="">
+<a href="?setln=uk">Українська</a>
+</li>
+<li class="">
+<a href="?setln=kk">Қазақша</a>
+</li>
+<li class="">
+<a href="?setln=ar">العربية</a>
+</li>
+<li class="">
+<a href="?setln=fa">فارسی</a>
+</li>
+<li class="">
+<a href="?setln=ko">한국어</a>
+</li>
+</ul>
+</li>
+<li class="navbar-twitter hidden-xs">
+<a href="https://x.com/telegram" target="_blank" data-track="Follow/Twitter" onclick="trackDlClick(this, event)">
+<i class="icon icon-twitter">
+</i> Follow on X</a>
+</li>
+</ul>
+<ul class="nav navbar-nav">
+<li class="">
+<a href="/">Home</a>
+</li>
+<li class="">
+<a href="/faq">FAQ</a>
+</li>
+<li class="">
+<a href="/apps">Apps</a>
+</li>
+<li class="hidden-xs ">
+<a href="//core.telegram.org/api">API</a>
+</li>
+<li class="hidden-xs ">
+<a href="/safety">Safety</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="container clearfix tl_page_container ">
+<div class="tl_page">
+<div class="tl_contest_page_wrap">
+<div class="tl_blog_side_blog">
+<div class="side_blog_wrap">
+<div class="side_blog">
+<a href="/blog" class="side_blog_header">Recent News</a>
+<div class="side_blog_entries">
+<a href="/blog/welcome-messages-buttons-TG-13" class="side_blog_entry">
+<div class="side_blog_date">Aug 25</div>
+<div class="side_blog_title">Welcome Messages, Buttons in Messages and Signed Gifts</div>
+</a>
+<a href="/blog/communities-editor-invisible-messages" class="side_blog_entry">
+<div class="side_blog_date">Jul 14</div>
+<div class="side_blog_title">Rich Text Editor, Communities, Ephemeral Messages in Groups, 350 Million GIFs</div>
+</a>
+<a href="/blog/watch-apps-and-more" class="side_blog_entry">
+<div class="side_blog_date">Jun 11</div>
+<div class="side_blog_title">Smartwatch Apps, Rich Text for Bots, AI Guardians for Groups, and Much More</div>
+</a>
+<a href="/blog/ai-bot-revolution-11-new-features" class="side_blog_entry">
+<div class="side_blog_date">May 7</div>
+<div class="side_blog_title">Guest AI Bots, Bot-to-Bot Chats, Chat Automation, Custom AI Styles, 100M+ Emoji &amp; Sticker Search and Much More</div>
+</a>
+<a href="/blog/ai-editor-mighty-polls-and-more" class="side_blog_entry">
+<div class="side_blog_date">Mar 31</div>
+<div class="side_blog_title">AI Editor, Mighty Polls, Live Photos, Bots Managed by Bots, and More</div>
+</a>
+<a href="/blog/member-tags-disable-sharing-and-more" class="side_blog_entry">
+<div class="side_blog_date">Mar 1</div>
+<div class="side_blog_title">Member Tags, Login with Telegram, Disable Sharing, GIF Editing, Date Formatting, Voting Timestamps</div>
+</a>
+<a href="/blog/crafting-android-design-and-more" class="side_blog_entry">
+<div class="side_blog_date">Feb 9</div>
+<div class="side_blog_title">Android Redesign, Group Ownership Transfer, Gift Crafting, Colored Bot Buttons</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div id="dev_page_content_wrap" class=" ">
+<div class="dev_page_bread_crumbs">
+</div>
+<h1 id="dev_page_title">Dirette streaming, Inoltro flessibile, Passa al canale successivo e Sticker in primo piano</h1>
+<blockquote class="blog_lang_original">
+<a href="/blog/live-streams-forwarding-next-channel?ln=r">Leggi l&#39;annuncio originale in Inglese</a>
+</blockquote>
+<div id="dev_page_content">
+<div class="blog_side_image_wrap">
+<picture class="dev_page_tgsticker blog_side_image js-tgsticker_image" style="width:160px;">
+<div style="padding-top:100%">
+</div>
+<source type="application/x-tgsticker" srcset="/file/464001599/2/yw6qrL_dW4w.34313/940752768cf68e2014">
+<img src="/file/464001599/3/kmvcgrDN6TM.43642.png/5cc9ca0b7a8acb3599" />
+</picture>
+</div>
+<div class="blog_wide_image legacy">
+<a href="/file/464001903/1/SL0zEMFHRvE.290665/aed1cb7af8c96e961b" target="_blank">
+<img src="/file/464001784/4/IlXX31YWz5U.92729/eabf233f3635354560" srcset="/file/464001903/1/SL0zEMFHRvE.290665/aed1cb7af8c96e961b, 1200w" title="Non preoccuparti delle persone sullo sfondo, stanno guardando dal loro telefono." alt="Dirette streaming, Inoltro flessibile, Passa al canale successivo, Sticker in primo piano e altro"/>
+</a>
+</div>
+<p>Telegram è stato lanciato poco più di <strong>8 anni fa</strong> e oggi continuiamo la nostra tradizione di aggiornamenti mensili con la versione <strong>8.0</strong>. Questo aggiornamento introduce le <strong>dirette streaming</strong> con un numero illimitato di spettatori in <strong>gruppi e canali</strong>, opzioni per rimuovere le didascalie dai contenuti multimediali e nascondere i nomi dei mittenti quando si <strong>inoltra</strong>, un modo semplice per <strong>passare al successivo canale non letto</strong> senza tornare nella tua lista chat, un <strong>pannello sticker migliorato</strong>, nuove emoji animate e altro ancora.</p>
+<h3>
+<a class="anchor" name="dirette-streaming-illimitate" href="#dirette-streaming-illimitate">
+<i class="anchor-icon">
+</i>
+</a>Dirette streaming illimitate</h3>
+<p>Il nostro <a href="https://telegram.org/blog/video-1000/it">aggiornamento precedente</a> ha trasformato le <a href="https://telegram.org/blog/group-video-calls/it">Videochiamate di gruppo</a> in un potente strumento per le trasmissioni dal vivo — e ora possono avere un pubblico <strong>illimitato</strong> (tranne che per la popolarità del tuo canale, o per il numero di abitanti della Terra, a seconda di quello più rilevante nel tuo caso).</p>
+<p>Avvia una <strong>Diretta streaming</strong> in un canale o una <strong>Chat video</strong> in un gruppo - entrambe ora supportano un <strong>numero illimitato di spettatori</strong>. Il potere per gestire la tua stazione TV è qui, proprio nella tua tasca.</p>
+<div class="blog_video_player_wrap" style="max-width: 400px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001382/2/DGRb5SQ4czs.122609/fc01c1bdc09cb55623" style="max-width: 400px;" title="Invita gli alieni dallo spazio su Telegram per avere oltre 8 miliardi di partecipanti alla tua diretta streaming." alt="Diretta streaming in un canale con spettatori illimitati">
+<source src="/file/464001045/3/_qQ1MAPZs1M.5133581.mp4/f7adcb2ec0ecbed20f" type="video/mp4">
+</video>
+</div>
+<blockquote>
+<p>Per iniziare, tocca “Chat video” (nei gruppi) o “Diretta streaming” (nei canali) sulla pagina profilo di una community in cui sei amministratore.</p>
+</blockquote>
+<p>Gli spettatori della tua Diretta streaming possono <a href="https://telegram.org/blog/voice-chats-on-steroids/it?ln=a#alza-la-mano">alzare la mano</a> e unirsi alla tua trasmissione se li autorizzi.</p>
+<h3>
+<a class="anchor" name="inoltro-flessibile" href="#inoltro-flessibile">
+<i class="anchor-icon">
+</i>
+</a>Inoltro flessibile</h3>
+<p>L&#39;inoltro è diventato un&#39;esperienza molto più rilassante. Tocca l&#39;etichetta <em>&#39;Inoltra messaggio&#39;</em> sopra la barra di scrittura per aprire una <strong>finestra di anteprima</strong>, che mostra come saranno i messaggi dopo l&#39;invio - insieme a diverse <strong>opzioni di personalizzazione</strong>.</p>
+<div class="blog_video_player_wrap" style="max-width: 400px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001086/4/A_zeKMpcDKU.153210/d7e10057fc07fa2748" style="max-width: 400px;" title="Attenzione! Quando fissi a lungo il cucciolo, il cucciolo fissa anche te." alt="Opzioni di inoltro flessibile">
+<source src="/file/464001257/4/z0SWQjUmM3Q.4967346.mp4/956430b770bbc0bf41" type="video/mp4">
+</video>
+</div>
+<p>Puoi scegliere di nascondere il <strong>nome del mittente</strong> o nascondere le <strong>didascalie</strong> dei messaggi multimediali. Puoi anche <strong>deselezionare i messaggi</strong> che non vuoi inviare o <strong>cambiare il destinatario</strong> se hai toccato la chat sbagliata.</p>
+<h3>
+<a class="anchor" name="passa-al-canale-successivo" href="#passa-al-canale-successivo">
+<i class="anchor-icon">
+</i>
+</a>Passa al canale successivo</h3>
+<p>Ci sono milioni di <a href="https://telegram.org/tour/channels/it?ln=a">canali da-uno-a-molti</a> su Telegram seguiti dagli utenti per notizie, eventi e contenuti.</p>
+<p>Per stare al passo con le notizie facilmente, ora puoi scorrere i canali che segui senza tornare alla tua lista chat. Quando raggiungi la fine di un canale, tira verso l&#39;alto per andare al <strong>successivo canale non letto</strong>.</p>
+<div class="blog_video_player_wrap" style="max-width: 400px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001221/4/rCtRSrxZeTE.193642/7cc93ac7b2d60d11cb" style="max-width: 400px;" title="Cattura le notizie del mattino da Bali e un meme dall'Australia senza una sosta nella tua lista chat." alt="Tira verso l'alto per il prossimo canale non letto">
+<source src="/file/464001111/5/G4Cka-PEa_M.3415525.mp4/86e38d267890c5fc79" type="video/mp4">
+</video>
+</div>
+<p>Se hai organizzato la tua lista chat con <a href="https://telegram.org/blog/folders/it?ln=a">Cartelle</a> o <a href="https://telegram.org/blog/folders/it?ln=a#chat-archiviate">Chat archiviate</a>, l&#39;app seguirà la struttura che hai impostato: i canali nella cartella attuale, poi all&#39;interno di ogni cartella, infine quelli rimasti in Tutte le chat e nell&#39;Archivio. Basta aprire un canale dalla cartella “Studio” per leggerli tutti senza farsi distrarre dai meme - e viceversa.</p>
+<h3>
+<a class="anchor" name="sticker-in-primo-piano" href="#sticker-in-primo-piano">
+<i class="anchor-icon">
+</i>
+</a>Sticker in primo piano</h3>
+<p>Grazie a una <a href="https://telegram.org/blog/stickers-revolution">piattaforma aperta</a> e a migliaia di sticker gratuiti e di alta qualità nell&#39;<a href="https://telegram.org/blog/400-million/it?ln=a#20-000-sticker">elenco degli adesivi</a>, c&#39;è uno sticker perfetto per ogni situazione. Questo aggiornamento rende più facile trovare quello giusto.</p>
+<p>Gli <strong>Sticker in primo piano</strong> sono ora mostrati sopra quelli “Usati di recente” nel tuo pannello degli sticker. Tocca “Aggiungi” per salvare un set per il futuro - la sezione degli sticker in primo piano è una delle poche cose in questo mondo che viene aggiornata più spesso delle app di Telegram.</p>
+<p>Quando scorri i tuoi set nella parte superiore del pannello, le miniature <strong>si ingrandiscono</strong> e mostrano i <strong>nomi</strong> dei tuoi set di sticker.</p>
+<div class="blog_video_player_wrap" style="max-width: 400px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001833/5/dQgnfl_9PYc.191885/dd27dc4b936f9d6c63" style="max-width: 400px;" title="Eravamo da qualche parte intorno a Barstow, ai margini del deserto, quando gli sticker hanno cominciato a prendere il sopravvento." alt="Pannello degli sticker migliorato">
+<source src="/file/464001638/2/x9ECs2u1R3A.4447006.mp4/3ed15b74b8556545e0" type="video/mp4">
+</video>
+</div>
+<p>Telegram per Android ha anche <strong>anteprime più grandi</strong> per i suggerimenti degli sticker. Per ottenere suggerimenti, inserisci <strong>un&#39;emoji</strong> nel campo di scrittura. Per vedere più sticker suggeriti, tira verso l&#39;alto il pannello dei suggerimenti.</p>
+<blockquote>
+<p>Se hai un&#39;idea particolare in mente ma non la trovi tra i tuoi set, digita una parola nel campo di ricerca per trovare le corrispondenze dall&#39;elenco degli sticker. Prova &#39;giallo&#39;, &#39;animale&#39;, &#39;cane&#39;, ecc.</p>
+</blockquote>
+<h3>
+<a class="anchor" name="sta-scegliendo-uno-sticker" href="#sta-scegliendo-uno-sticker">
+<i class="anchor-icon">
+</i>
+</a>Sta scegliendo uno sticker</h3>
+<p>Così come <em>&#39;Sta scrivendo…&#39;</em> o <em>&#39;Sta registrando un messaggio vocale&#39;</em>, le app ora mostrano uno stato <strong>&#39;Sta scegliendo uno sticker&#39;</strong> in cima alla chat — così saprai che il tuo interlocutore è ancora lì, alla ricerca della perfetta risposta animata.</p>
+<div class="blog_video_player_wrap" style="max-width: 400px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001393/2/WbrkNQs3A1o.140377/25f904f2abda7bbc3e" style="max-width: 400px;" title="Sì, abbiamo anche lo sticker perfetto per 'Sto scegliendo uno sticker'." alt="Nuovo stato 'Sta scegliendo uno sticker'">
+<source src="/file/464001924/2/nqesB1F-7Cc.1426913.mp4/4244c8d3f50aa6d502" type="video/mp4">
+</video>
+</div>
+<h3>
+<a class="anchor" name="contatore-commenti-non-letti" href="#contatore-commenti-non-letti">
+<i class="anchor-icon">
+</i>
+</a>Contatore commenti non letti</h3>
+<p>Molti canali hanno abilitato i commenti per i loro post in modo che gli iscritti possano interagire e condividere i loro pensieri. Recentemente abbiamo avuto una grande opportunità di sperimentarlo con migliaia di <a href="https://t.me/durov/164">auguri di compleanno</a> — grazie a tutti per il vostro supporto.</p>
+<p>Proprio come nelle chat, quando si apre la <a href="https://telegram.org/blog/filters-anonymous-admins-comments/it?ln=a">sezione dei commenti</a> che ha nuovi messaggi, ora apparirà un <strong>contatore</strong> che mostrerà il numero dei <strong>commenti non letti</strong>.</p>
+<div class="blog_image_wrap blog_medium_image_wrap">
+<a href="/file/464001469/2/vbkz0hIlpD4.68844/b6aedbcfc85b34dc22" target="_blank">
+<img src="/file/464001378/1/1YN05N-gbL0.31751/1399d266af331ab568" title="Dal primo all'ultimo." alt="Commenti non letti in un thread appena aperto" srcset="/file/464001469/2/vbkz0hIlpD4.68844/b6aedbcfc85b34dc22 , 2x" />
+</a>
+</div>
+<h3>
+<a class="anchor" name="nuove-emoji-animate" href="#nuove-emoji-animate">
+<i class="anchor-icon">
+</i>
+</a>Nuove emoji animate</h3>
+<p>Questo mese ci siamo chiesti: “Dovremmo smettere di animare sempre più emoji ad ogni aggiornamento?” Dopo un&#39;accesa discussione siamo arrivati a questa risposta: “Probabilmente no”. Invia un messaggio con una sola emoji per ottenere uno di questi nuovi capolavori nella chat:</p>
+<div class="blog_video_player_wrap" style="max-width: 400px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001986/3/NRHgm5dbAF4.101751/0ccf05a08dd6a9567f" style="max-width: 400px;" title="Quando hai così tante piante animate, conviene avere una nonna animata che se ne prenda cura." alt="Nuove emoji animate">
+<source src="/file/464001852/1/a0shVTR7-xU.3964197.mp4/d4b9130b1463c584b3" type="video/mp4">
+</video>
+</div>
+<p>Questo è tutto per oggi - ma abbiamo già alcune cose interessanti in sviluppo per il prossimo aggiornamento. Ci vediamo presto!</p>
+<div>
+<br>
+</div>
+<p>
+<em>31 agosto 2021<br>il team di Telegram</em>
+</p>
+<!--<div>
+<br>
+</div>
+
+**P.S.** Questo aggiornamento è già disponibile per tutti gli utenti **iOS** e per tutti coloro che hanno scaricato Telegram per **Android** direttamente da [telegram.org/android](https://telegram.org/android). La versione per Google Play è in fase di revisione da parte dello store e sarà disponibile più tardi.-->
+</div>
+</div>
+<div class="tl_main_share clearfix">
+<a href="https://t.me/share/url?url=https%3A%2F%2Ftelegram.org%2Fblog%2Flive-streams-forwarding-next-channel%2Fit&text=Presentiamo%20le%20dirette%20streaming%2C%20l%27inoltro%20flessibile%2C%20il%20passaggio%20rapido%20al%20canale%20successivo%2C%20gli%20sticker%20in%20primo%20piano%20e%20altro%20in%20Telegram%208.0" class="tl_telegram_share_btn" id="tl_telegram_share_btn" data-text="Presentiamo le dirette streaming, l&#39;inoltro flessibile, il passaggio rapido al canale successivo, gli sticker in primo piano e altro in Telegram 8.0" data-url="https://telegram.org/blog/live-streams-forwarding-next-channel/it">
+<i class="tl_telegram_share_icon">
+</i>
+<span class="tl_telegram_share_label" target="_blank">Forward</span>
+</a>
+<a href="https://twitter.com/share" class="tl_twitter_share_btn" id="tl_twitter_share_btn" data-text="Presentiamo le dirette streaming, l&#39;inoltro flessibile, il passaggio rapido al canale successivo, gli sticker in primo piano e altro in Telegram 8.0" data-url="https://telegram.org/blog/live-streams-forwarding-next-channel/it" data-via="Telegram">Tweet <span class="tl_twitter_share_cnt">
+</span>
+</a>
+</div>
+</div>
+<div class="tl_main_recent_news_wrap tlb_other_news_wrap tl_blog_list_page_wrap">
+<h3 class="tl_main_recent_news_header">
+<a href="/blog">Other News</a>
+</h3>
+<div class="tl_main_recent_news_cards clearfix">
+<a class="dev_blog_card_link_wrap" href="/blog/welcome-messages-buttons-TG-13/it">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400741/6/aFBFZ5lNqO8.66680.webp/0e567958d5b96a2184" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">Messaggi di benvenuto, Pulsanti nei messaggi e Regali firmati</h4>
+<div class="dev_blog_card_lead">Introduciamo i messaggi di benvenuto per salutare i nuovi membri di gruppi o canali, i pulsanti nei messaggi per rendere interattivo qualsiasi…</div>
+</div>
+<div class="dev_blog_card_date">Aug 25, 2026</div>
+</div>
+</a>
+<a class="dev_blog_card_link_wrap" href="/blog/communities-editor-invisible-messages/it">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400405/7/AQNnD9itI5s.338570.webp/ec0155605bac60bd43" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">Editor di testo avanzato, Community, Messaggi effimeri nei gruppi, 350 milioni di GIF</h4>
+<div class="dev_blog_card_lead">Introduzione di un editor di testo avanzato per formattare e generare testo, community Telegram…</div>
+</div>
+<div class="dev_blog_card_date">Jul 14, 2026</div>
+</div>
+</a>
+<a class="dev_blog_card_link_wrap" href="/blog/watch-apps-and-more/it">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400535/2/fkUcVRnSU-M.140100.webp/10c066db41f83e6d5e" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">App per smartwatch, Testo formattato per i bot, Guardiani IA per i gruppi e molto altro</h4>
+<div class="dev_blog_card_lead">L&#39;aggiornamento di oggi porta Telegram su Apple Watch e smartwatch Android, aggiunge il testo…</div>
+</div>
+<div class="dev_blog_card_date">Jun 11, 2026</div>
+</div>
+</a>
+<a class="dev_blog_card_link_wrap" href="/blog/ai-bot-revolution-11-new-features/it">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400475/2/BwY041V7nZg.149454.webp/873ed0c0321c7633e7" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">Bot IA ospiti, Chat tra bot, Automazione chat, Ricerca di oltre 100 milioni di emoji e sticker, Stili IA personalizzati, Statistiche per i sondaggi, Messaggi programmati silenziosi, Rimozione delle reazioni</h4>
+<div class="dev_blog_card_lead">Nell&#39;aggiornamento di oggi, Telegram introduce…</div>
+</div>
+<div class="dev_blog_card_date">May 7, 2026</div>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer_wrap">
+<div class="footer_columns_wrap footer_desktop">
+<div class="footer_column footer_column_telegram">
+<h5>Telegram</h5>
+<div class="footer_telegram_description">
+</div>
+      Telegram is a cloud-based mobile and desktop messaging app with a focus on security and speed.
+    </div>
+<div class="footer_column">
+<h5>
+<a href="/faq">About</a>
+</h5>
+<ul>
+<li>
+<a href="/faq">FAQ</a>
+</li>
+<li>
+<a href="/privacy">Privacy</a>
+</li>
+<li>
+<a href="/press">Press</a>
+</li>
+</ul>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/apps#mobile-apps">Mobile Apps</a>
+</h5>
+<ul>
+<li>
+<a href="/dl/ios">iPhone/iPad</a>
+</li>
+<li>
+<a href="/android">Android</a>
+</li>
+<li>
+<a href="/dl/web">Mobile Web</a>
+</li>
+</ul>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/apps#desktop-apps">Desktop Apps</a>
+</h5>
+<ul>
+<li>
+<a href="//desktop.telegram.org/">PC/Mac/Linux</a>
+</li>
+<li>
+<a href="//macos.telegram.org/">macOS</a>
+</li>
+<li>
+<a href="/dl/web">Web-browser</a>
+</li>
+</ul>
+</div>
+<div class="footer_column footer_column_platform">
+<h5>
+<a href="//core.telegram.org/">Platform</a>
+</h5>
+<ul>
+<li>
+<a href="//core.telegram.org/api">API</a>
+</li>
+<li>
+<a href="//translations.telegram.org/">Translations</a>
+</li>
+<li>
+<a href="//instantview.telegram.org/">Instant View</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="footer_columns_wrap footer_mobile">
+<div class="footer_column">
+<h5>
+<a href="/faq">About</a>
+</h5>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/blog">Blog</a>
+</h5>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/press">Press</a>
+</h5>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/safety">Safety</a>
+</h5>
+</div>
+</div>
+</div>
+<script src="/js/main.js?49">
+</script>
+<script src="/js/tgsticker.js?32">
+</script>
+<script src="/js/main-theme.js?6">
+</script>
+<script>initScrollVideos(true);
+mainInitTgStickers({"maxDeviceRatio":2,"cachingModulo":4});
+twitterCustomShareInit();
+blogSideImageInit();
+backToTopInit("Go up");
+removePreloadInit();
+</script>
+</body>
+</html>

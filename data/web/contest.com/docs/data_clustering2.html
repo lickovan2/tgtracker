@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Data Clustering Contest: Round 2 – Developer Challenges</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta name="format-detection" content="telephone=no" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="MobileOptimized" content="176" />
+<meta name="HandheldFriendly" content="True" />
+<meta name="twitter:card" content="summary">
+</meta>
+<meta property="og:title" content="Data Clustering Contest: Round 2">
+<meta property="og:description" content="The task in the second round is to create a module that could be used to power a news aggregator. The round will last for…">
+<link rel="shortcut icon" href="/img/cd_favicon.ico" type="image/x-icon" />
+<link rel="mask-icon" href="/img/cd_icon.svg" color="#299ed8">
+<script>document.cookie="stel_dt="+encodeURIComponent((new Date).getTimezoneOffset())+";path=/;max-age=31536000;samesite=None;secure"</script>
+<link href="/css/font-roboto.css?1" rel="stylesheet" type="text/css">
+<link href="/css/bootstrap.min.css?3" rel="stylesheet">
+<link href="/css/bootstrap-extra.css?2" rel="stylesheet">
+<link href="/css/telegram.css?256" rel="stylesheet">
+<link href="/css/contest.css?41" rel="stylesheet">
+<link href="/css/contest-zoo.css?7" rel="stylesheet">
+<link href="/css/jquery-ui.min.css?1" rel="stylesheet">
+</head>
+<body class="emoji_image no-transition">
+<div id="aj_progress" class="progress-bar">
+</div>
+<div id="aj_content">
+<div class="cd-container">
+<header>
+<div class="container">
+<div class="header-wrap">
+<div id="header-panel" class="header-panel">
+<div class="header-auth">
+<div class="header-auth-item">
+<a class="header-auth-link login-link" href="/auth">Login</a>
+</div>
+</div>
+<div class="header-breadcrumb header-breadcrumb-simple">
+<ol id="breadcrumb" class="header-nav breadcrumb">
+<li class="cd-logo">
+<a href="/">
+<i class="cd-icon">
+</i>
+<span class="cd-logo-title">Developer Challenges</span>
+</a>
+</li>
+<li class="active">Data Clustering Contest: Round 2</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+</header>
+<main class="container">
+<section class="cd-content">
+<div id="dev_page_content_wrap" class=" ">
+<div class="dev_page_bread_crumbs">
+</div>
+<h1 id="dev_page_title">Data Clustering Contest: Round 2</h1>
+<div id="dev_page_content">
+<!-- scroll_nav -->
+<p>The task in the second round is to create a module that could be used to power a news aggregator. The round will last for <strong>two weeks</strong>, and <strong>everyone</strong> is welcome to participate, including those who did not take part in the <a href="https://contest.com/docs/data_clustering">previous round</a>.</p>
+<blockquote>
+<p>General info about the contest is available on <a href="https://t.me/contest/169">@contest</a>. The <a href="https://contest.com/docs/data_clustering2/ru">Russian version</a> of this document should be used as reference in case of discrepancies.</p>
+</blockquote>
+<h3>
+<a class="anchor-link" href="#source-data">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="source-data">
+</a>Source Data</h3>
+<p>A test data set is available in HTML format:</p>
+<ul>
+<li>
+<a href="https://data-static.usercontent.dev/DataClusteringSample2703.tar.gz">Sample 1, 27-03</a> (856 MB)</li>
+<li>
+<a href="https://data-static.usercontent.dev/DataClusteringSample0410.tar.gz">Sample 2, 04-10</a> (876 MB)</li>
+<li>
+<a href="https://data-static.usercontent.dev/DataClusteringSample1117.tar.gz">Sample 3, 11-17</a> (869 MB)</li>
+</ul>
+<p>We will publish additional data sets over the course of the contest.</p>
+<blockquote>
+<p>We will use a different data set for evaluating submissions. The evaluation data set may include articles from domains not present in the test data set.</p>
+</blockquote>
+<h3>
+<a class="anchor-link" href="#the-task">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="the-task">
+</a>The Task</h3>
+<ol>
+<li>
+<p>
+<strong>Create or improve clustering algorithms.</strong> Use our <a href="#clustering-recommendations">recommendations</a> to improve algorithms from the <a href="https://contest.com/docs/data_clustering">previous round</a> or build new ones. The algorithms must perform the following tasks:</p>
+<ul>
+<li>Isolate articles in <strong>English</strong> and <strong>Russian</strong>
+</li>
+<li>Isolate <strong>news articles</strong>
+</li>
+<li>Group articles into <strong>categories</strong>
+</li>
+<li>Group articles into <strong>threads</strong>
+</li>
+</ul>
+</li>
+<li>
+<p>
+<strong>Analyze and index articles.</strong> Your algorithm must analyze, store and index articles, as well as optimize the index for future requests.</p>
+</li>
+<li>
+<p>
+<strong>Return threads for a particular period, sorted by relative importance.</strong> Threads in English must be relevant to a global audience, threads in Russian must be relevant for readers from Russia.</p>
+</li>
+</ol>
+<blockquote>
+<p>For more details about the tasks, please see the <a href="#evaluation">Evaluation</a> section below. For your convenience, we&#39;ve also included recommendations on <a href="#clustering-recommendations">clustering</a> and <a href="#ranking-recommendations">ranking</a>.</p>
+</blockquote>
+<h4>
+<a class="anchor-link" href="#submitting-your-work">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="submitting-your-work">
+</a>Submitting Your Work</h4>
+<p>You should submit a standalone app with the name <strong>tgnews</strong>. The app should support two modes:</p>
+<ul>
+<li>
+<strong>CLI Mode.</strong> To evaluate clustering quality, the app will be launched several times with different parameters, as described <a href="#stage-1-clustering">below</a>. In CLI mode, the app should output the results in JSON format to STDOUT and terminate. The app must not cache or reuse any data across launches. Launches with different parameters may occur in an arbitrary order and this should not affect the results.</li>
+<li>
+<strong>HTTP Server Mode.</strong> The app should work as an HTTP/1.1 server with keep-alive support. For indexing and returning sorted lists of news, the server will receive HTTP queries as <a href="#stage-2-indexing-and-ranking">described below</a>. The app must store indexed data in the app&#39;s working directory and should be prepared for the HTTP server to be restarted at any time between queries.</li>
+</ul>
+<h4>
+<a class="anchor-link" href="#general-requirements">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="general-requirements">
+</a>General Requirements</h4>
+<ul>
+<li>In CLI mode, your app must work locally (no network usage).</li>
+<li>In HTTP server mode, the app must not create outgoing connections. It may only process incoming connections, and only on the port specified by the launch parameters.</li>
+<li>The <strong>tgnews</strong> process must remain active while the HTTP server is working. When <strong>tgnews</strong> is terminated, the HTTP server and all its child processes should also be terminated. If you&#39;re using an external script to launch the web-server, we recommend to use <code>exec</code>.</li>
+<li>App speed is of utmost importance (this may give an edge to apps written in <strong>C++</strong>).</li>
+<li>External dependencies should be kept to a minimum. If you can&#39;t avoid external dependencies, please list them in a text file named <strong>deb-packages.txt</strong>. These dependencies will be installed using <code>sudo apt-get install ...</code> before your app is tested.</li>
+<li>Applications will be tested under Debian GNU/Linux 10.1 (buster), x86-64 with 8 cores and 16 GB RAM. Before submitting, please make sure that your app works correctly on a clean install.</li>
+<li>Apps that require more than <strong>60</strong> seconds to process each <strong>1000</strong> files passed in source_dir in <strong>CLI Mode</strong> will not be evaluated. This restriction applies to each individual script launch, regardless of the parameters.</li>
+<li>In <strong>HTTP Server Mode</strong>, apps must be able to process up to <strong>1000</strong> requests per <strong>60</strong> seconds. Initialization time must not exceed 60 seconds per each 1000  files stored in the index.</li>
+<li>
+<p>You must submit a ZIP file up to 1500 MB with the following structure:</p>
+<pre>
+<code>submission.zip
+  -&gt; tgnews - executable file with an interface as described below
+  -&gt; src - folder with the app&#39;s source code
+  -&gt; deb-packages.txt - a text file with newline separated debian package names of all external dependencies
+  -&gt; * - any additional resources your app requires to work (please use relative paths to access them)</code>
+</pre>
+</li>
+</ul>
+<p>Before submitting your archive, we strongly suggest you to use this <a href="#testing-script">testing script</a> to confirm that your app is using the correct input and output formats.</p>
+<hr>
+<h3>
+<a class="anchor-link" href="#evaluation">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="evaluation">
+</a>Evaluation</h3>
+<p>We will evaluate submissions in two stages.</p>
+<h4>
+<a class="anchor-link" href="#stage-1-clustering">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="stage-1-clustering">
+</a>Stage 1. Clustering</h4>
+<p>To check clustering quality, the algorithm will be launched in CLI mode with the following parameters:</p>
+<h5>
+<a class="anchor-link" href="#1-1-isolating-articles-in-english-and-russian">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="1-1-isolating-articles-in-english-and-russian">
+</a>1.1. Isolating articles in English and Russian</h5>
+<pre>
+<code>tgnews languages &lt;source_dir&gt;</code>
+</pre>
+<p>where:</p>
+<ul>
+<li>
+<strong>&lt;source_dir&gt;</strong> – path to the folder with HTML-files contaning article texts. The folder may include subfolders which also need to be processed.</li>
+</ul>
+<p>The result must be sent to STDOUT in JSON format, using the following template:</p>
+<pre>
+<code>[
+  {
+    &quot;lang_code&quot;: &quot;en&quot;,
+    &quot;articles&quot;: [
+      &quot;981787246124324.html&quot;,
+      &quot;239748235923753.html&quot;,
+      ...
+    ]
+  },
+  {
+    &quot;lang_code&quot;: &quot;ru&quot;,
+    &quot;articles&quot;: [
+      &quot;273612748127432.html&quot;,
+      ...
+    ]
+  },
+  ...
+]</code>
+</pre>
+<p>where:</p>
+<ul>
+<li>
+<strong>lang_code</strong> – two-letter ISO 639-1 language code (<code>en</code> and <code>ru</code>, the rest are optional)</li>
+<li>
+<strong>articles</strong> – list of file names (without relative or absolute paths, just the file names) containing texts in <strong>lang_code</strong> language</li>
+</ul>
+<h5>
+<a class="anchor-link" href="#1-2-isolating-news-articles">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="1-2-isolating-news-articles">
+</a>1.2. Isolating news articles</h5>
+<pre>
+<code>tgnews news &lt;source_dir&gt;</code>
+</pre>
+<p>where:</p>
+<ul>
+<li>
+<strong>&lt;source_dir&gt;</strong> – path to the folder with HTML-files contaning article texts. The folder may include subfolders which also need to be processed. Article text may be in English <em>and/or</em> Russian.</li>
+</ul>
+<p>The result must be sent to STDOUT in JSON format, using the following template:</p>
+<pre>
+<code>{
+  &quot;articles&quot;: [
+    &quot;981787246124324.html&quot;,
+    ...
+  ]
+}</code>
+</pre>
+<p>where:</p>
+<ul>
+<li>
+<strong>articles</strong> – list of file names (without relative or absolute paths, just the file names) containing news articles</li>
+</ul>
+<blockquote>
+<p>See also: <a href="#isolating-news">Recommendations for Isolating News</a>
+</p>
+</blockquote>
+<h5>
+<a class="anchor-link" href="#1-3-grouping-by-category">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="1-3-grouping-by-category">
+</a>1.3. Grouping by category</h5>
+<pre>
+<code>tgnews categories &lt;source_dir&gt;</code>
+</pre>
+<p>where:</p>
+<ul>
+<li>
+<strong>&lt;source_dir&gt;</strong> – path to the folder with HTML-files contaning article texts. The folder may include subfolders which also need to be processed. Article text may be in English <em>and/or</em> Russian.</li>
+</ul>
+<p>The result must be sent to STDOUT in JSON format, using the following template:</p>
+<pre>
+<code>[
+  {
+    &quot;category&quot;: &quot;society&quot;,
+    &quot;articles&quot;: [
+      &quot;981787246124324.html&quot;,
+      ...
+    ]
+  },
+  {
+    &quot;category&quot;: &quot;sports&quot;,
+    &quot;articles&quot;: [
+      &quot;2348972396239813.html&quot;,
+      ...
+    ]
+  },
+  ...
+]</code>
+</pre>
+<p>where:</p>
+<ul>
+<li>
+<strong>category</strong> – <code>&quot;society&quot;</code>, <code>&quot;economy&quot;</code>, <code>&quot;technology&quot;</code>, <code>&quot;sports&quot;</code>, <code>&quot;entertainment&quot;</code>, <code>&quot;science&quot;</code> or <code>&quot;other&quot;</code>
+</li>
+<li>
+<strong>articles</strong> – list of file names (without relative or absolute paths, just the file names) containing articles corresponding to <strong>category</strong>
+</li>
+</ul>
+<blockquote>
+<p>Note that in this stage of the contest you are allowed to tag articles with multiple categories (up to three) but we only recommend doing this in rare borderline cases. The goal of this grouping is not to list all the possible topics the article might belong to, but rather identify <strong>one</strong> category for which it is most relevant.</p>
+<p>See also: <a href="#grouping-by-category">Recommendations on Grouping by Category</a>
+</p>
+</blockquote>
+<h5>
+<a class="anchor-link" href="#1-4-grouping-similar-news-into-threads">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="1-4-grouping-similar-news-into-threads">
+</a>1.4. Grouping similar news into threads</h5>
+<pre>
+<code>tgnews threads &lt;source_dir&gt;</code>
+</pre>
+<p>where:</p>
+<ul>
+<li>
+<strong>&lt;source_dir&gt;</strong> – path to the folder with HTML-files contaning article texts. The folder may include subfolders which also need to be processed. Article text may be in English <em>and/or</em> Russian.</li>
+</ul>
+<p>The result must be sent to STDOUT in JSON format, using the following template:</p>
+<pre>
+<code>[
+  {
+    &quot;title&quot;: &quot;Telegram announces Data Clustering Contest&quot;,
+    &quot;articles&quot;: [
+      &quot;6354183719539252.html&quot;,
+      ...
+    ]
+  },
+  {
+    &quot;title&quot;: &quot;Apple reveals new AirPods Pro&quot;,
+    &quot;articles&quot;: [
+      &quot;9436743547232134.html&quot;,
+      ...
+    ]
+  },
+  ...
+]</code>
+</pre>
+<p>where:</p>
+<ul>
+<li>
+<strong>title</strong> – thread title, relevant for all articles in the thread</li>
+<li>
+<strong>articles</strong> – list of file names (without relative or absolute paths, just the file names) containing articles in the thread, sorted by their relevance (most relevant at the top)</li>
+</ul>
+<blockquote>
+<p>Please note that the app must not cache or reuse any data when performing clustering tasks. Clustering commands may be run in an arbitrary order and this should not affect the results.</p>
+<p>See also: <a href="#grouping-into-threads">Recommendations on Grouping into Threads</a>
+</p>
+</blockquote>
+<h4>
+<a class="anchor-link" href="#stage-2-indexing-and-ranking">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="stage-2-indexing-and-ranking">
+</a>Stage 2. Indexing and Ranking</h4>
+<p>To evaluate indexing and ranking, the app will be run with the following parameters:</p>
+<pre>
+<code>tgnews server &lt;port&gt;</code>
+</pre>
+<p>where:</p>
+<ul>
+<li>
+<strong>&lt;port&gt;</strong> – port number.</li>
+</ul>
+<p>The app must run an HTTP server on the port <strong>port</strong> and prepare to receive HTTP queries (e.g. by loading the index from disk). The server must respond with error 503 until it&#39;s ready. Sample response:</p>
+<pre>
+<code>HTTP/1.1 503 Service Unavailable</code>
+</pre>
+<p>HTTP queries that will be sent to the app during evaluation are desribed below. It is guaranteed that the app will receive no more than 100 parallel requests.</p>
+<h5>
+<a class="anchor-link" href="#2-1-indexing">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="2-1-indexing">
+</a>2.1. Indexing</h5>
+<p>HTTP request:</p>
+<pre>
+<code>PUT /article.html HTTP/1.1
+Content-Type: text/html
+Cache-Control: max-age=&lt;seconds&gt;
+Content-Length: 9
+
+&lt;content&gt;</code>
+</pre>
+<p>where:</p>
+<ul>
+<li>
+<strong>article.html</strong> – name of the HTML file,</li>
+<li>
+<strong>&lt;seconds&gt;</strong> – article TTL in seconds (from 5 minutes to 30 days),</li>
+<li>
+<strong>&lt;content&gt;</strong> - contents of the HTML file.</li>
+</ul>
+<p>The app should index the article file from the body of the request. It is guaranteed that all articles will contain the meta-tag <code>&lt;meta property=&quot;article:published_time&quot;&gt;</code> with their publishing date. Article TTL for indexing purposes in seconds will be passed in the header <code>Cache-control: max-age</code>. If more than TTL seconds passed between the publishing date of the current article and the latest article in the index, the current article should be removed from the index.</p>
+<p>The HTTP server should respond with the code 201 if the article hasn&#39;t been indexed before or with the code 204 if the article was updated in the index. Sample response:</p>
+<pre>
+<code>HTTP/1.1 201 Created</code>
+</pre>
+<blockquote>
+<p>Please note that the text of the article in the query can be in <strong>any language</strong> and the article can be either a news or a non-news article. Only <strong>news articles</strong> in <strong>English</strong> and <strong>Russian</strong> languages are relevant for ranking.</p>
+</blockquote>
+<h5>
+<a class="anchor-link" href="#2-2-removing-from-the-index">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="2-2-removing-from-the-index">
+</a>2.2. Removing from the index</h5>
+<p>HTTP request:</p>
+<pre>
+<code>DELETE /article.html HTTP/1.1</code>
+</pre>
+<p>where:</p>
+<ul>
+<li>
+<strong>article.html</strong> – name of the HTML file.</li>
+</ul>
+<p>The app must remove the article file from the index.</p>
+<p>The HTTP server should respond with the code 204 if the article has been removed successfully or with the code 404 if the article is not present in the index. Sample response:</p>
+<pre>
+<code>HTTP/1.1 204 No Content</code>
+</pre>
+<h5>
+<a class="anchor-link" href="#2-3-thread-ranking">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="2-3-thread-ranking">
+</a>2.3. Thread ranking</h5>
+<p>HTTP query:</p>
+<pre>
+<code>GET /threads?period=&lt;period&gt;&amp;lang_code=&lt;lang_code&gt;&amp;category=&lt;category&gt; HTTP/1.1</code>
+</pre>
+<p>where:</p>
+<ul>
+<li>
+<strong>&lt;period&gt;</strong> – time range in seconds (from 5 minutes to 30 days),</li>
+<li>
+<strong>&lt;lang_code&gt;</strong> – article language, <code>en</code> or <code>ru</code>,</li>
+<li>
+<strong>&lt;category&gt;</strong> – category (<code>society</code>, <code>economy</code>, <code>technology</code>, <code>sports</code>, <code>entertainment</code>, <code>science</code>, <code>other</code>) or <code>any</code>.</li>
+</ul>
+<p>The app should return a list of threads from the index that are related to the category specified in <strong>category</strong>, relevant for the language <strong>lang_code</strong> and for the period of <strong>period</strong> seconds prior to the publication date of the newest article in the index. Threads in the list should be ranked by relative importance.</p>
+<blockquote>
+<p>See also: <a href="#ranking-recommendations">Recommendations for determining importance and relevance</a>
+</p>
+</blockquote>
+<p>If <code>category=any</code>, the list of threads should be created for all relevant news during the specified period, regardless of their category.</p>
+<p>In all cases, the list should contain <strong>news articles</strong> only, and only in the specified language. If the resulting list contains more than 1000 threads, the algorithm may return the top 1000 threads (threads, not articles). It is guaranteed that the request will contain all the specified parameters and they will contain valid values.</p>
+<p>The HTTP server should respond with the code 200. Data should be returned in JSON format in the body of the response. Sample response:</p>
+<pre>
+<code>HTTP/1.1 200 OK
+Content-type: application/json
+Content-length: 373
+
+{
+  &quot;threads&quot;: [
+    {
+      &quot;title&quot;: &quot;Telegram announces Data Clustering Contest&quot;,
+      &quot;category&quot;: &quot;technology&quot;,
+      &quot;articles&quot;: [
+        &quot;6354183719539252.html&quot;,
+        ...
+      ]
+    },
+    {
+      &quot;title&quot;: &quot;Apple reveals new AirPods Pro&quot;,
+      &quot;category&quot;: &quot;technology&quot;,
+      &quot;articles&quot;: [
+        &quot;9436743547232134.html&quot;,
+        ...
+      ]
+    },
+    ...
+  ]
+}</code>
+</pre>
+<p>where:</p>
+<ul>
+<li>
+<strong>threads</strong> – list of threads ranked by importance (important at the top). Each thread contains a title and a list of articles. If list <code>category=any</code> was requested, also contains the field <strong>category</strong>.</li>
+<li>
+<strong>title</strong> – common thread title, relevant for all articles in the thread.</li>
+<li>
+<strong>category</strong> – <code>&quot;society&quot;</code>, <code>&quot;economy&quot;</code>, <code>&quot;technology&quot;</code>, <code>&quot;sports&quot;</code>, <code>&quot;entertainment&quot;</code>, <code>&quot;science&quot;</code> or <code>&quot;other&quot;</code>. Should only be returned if <code>category=any</code>.</li>
+<li>
+<strong>articles</strong> – list of file names (names only, no absolute or relative paths) corresponding to the thread, sorted by relevance (most relevant at the top).</li>
+</ul>
+<h3>
+<a class="anchor-link" href="#testing-script">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="testing-script">
+</a>Testing Script</h3>
+<p>To ensure that your app is using the correct input and output formats, you can use this <a href="https://data-static.usercontent.dev/dc-check.tar.gz">PHP script</a>
+<em>(last edited: 25.05.2020 15:15 UTC)</em>, which attempts to launch the app in each of the required modes:</p>
+<pre>
+<code>php dc-check.php &lt;binary&gt; all &lt;port&gt; &lt;source_dir&gt;</code>
+</pre>
+<p>where:</p>
+<ul>
+<li>
+<strong>&lt;binary&gt;</strong> – path to the executable binary file  <strong>tgnews</strong>.</li>
+<li>
+<strong>&lt;port&gt;</strong> – number of any unsued port.</li>
+<li>
+<strong>&lt;source_dir&gt;</strong> – path to a directory with HTML files containing article texts, which will be used as testing targets.</li>
+</ul>
+<p>You can also use the following commands to test a particular evalution stage:</p>
+<pre>
+<code>php dc-check.php &lt;binary&gt; languages &lt;source_dir&gt;
+php dc-check.php &lt;binary&gt; news &lt;source_dir&gt;
+php dc-check.php &lt;binary&gt; categories &lt;source_dir&gt;
+php dc-check.php &lt;binary&gt; threads &lt;source_dir&gt;
+php dc-check.php &lt;binary&gt; server &lt;port&gt; &lt;source_dir&gt;</code>
+</pre>
+<blockquote>
+<p>Note that the script only checks that the app launches correctly and uses the correct output format. It does NOT evaluate the quality of the app. This script was tested on servers running Debian GNU/Linux 10.1 (buster), x86-64. If you&#39;re using an external script to launch your app, we recommend to use <code>exec</code>.</p>
+</blockquote>
+<h3>
+<a class="anchor-link" href="#clustering-recommendations">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="clustering-recommendations">
+</a>Clustering Recommendations</h3>
+<p>When preparing evalution datasets, our moderators will use criteria similar to what is listed below:</p>
+<h4>
+<a class="anchor-link" href="#isolating-news">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="isolating-news">
+</a>Isolating News</h4>
+<p>News describe changes and events in a broad sense, which are either ongoing or happened in the recent past (relative to the moment of publication). After reading a news article, one can usually answer the question “what happened?” In most cases, the article&#39;s title will be an answer to that question (but there may be exceptions, so one shouldn&#39;t rely on the title alone).</p>
+<p>Scale doesn&#39;t matter. A drunk raccoon spotted in Germany, or a power outage in a small village – both are news.</p>
+<p>
+<strong>Non-News Examples:</strong>
+</p>
+<ul>
+<li>Timeless opinion articles (“Why democracy isn&#39;t suitable for the Middle East”).</li>
+<li>Historical articles (“How the Portuguese first went around Africa”).</li>
+<li>Encyclopedia-style articles, reference, tips, how-to&#39;s (“Kenyan wildlife”, “How to choose a router”).</li>
+<li>Lists without anything happening (“Six reasons to stay home for Christmas”, “7 wonders of the modern world”, “Best laptops of 2019”). But if something happened, it may be news. E.g., “Here&#39;s a list of Golden Globes nominees.”</li>
+</ul>
+<h4>
+<a class="anchor-link" href="#grouping-by-category">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="grouping-by-category">
+</a>Grouping by Category</h4>
+<blockquote>
+<p>Note that in this stage of the contest you are allowed to tag articles with multiple categories (up to three) but we only recommend doing this in rare borderline cases. The goal of this grouping is not to list all the possible topics the article might belong to, but rather identify <strong>one</strong> category for which it is most relevant.</p>
+</blockquote>
+<p>Articles that belong in three categories are very rare. We especially don&#39;t recommend adding &#39;Society&#39; as the third category. For example, “Tesla stock plummets after factory fire” could be tagged <em>Economy</em> and <em>Technology</em> but not <em>Society</em>.</p>
+<ul>
+<li>
+<p>
+<strong>Society:</strong> Politics, elections, legislation, incidents, crime and so on. The biggest category. Includes laws passed and planned, debates in government and other political occurrences, crimes, disasters of any scope, etc.</p>
+</li>
+<li>
+<p>
+<strong>Economy:</strong> Markets, finance, business, companies, shares, crises. “Unemployment up 15%” is Economy.</p>
+</li>
+<li>
+<p>
+<strong>Technology:</strong> Gadgets, auto, apps, internet services and so on. Games are Entertainment.</p>
+</li>
+<li>
+<p>
+<strong>Sports:</strong> Sports of any kind, including E-Sports.</p>
+</li>
+<li>
+<p>
+<strong>Entertainment:</strong> Movies, music, games, books, art, restaurants, celebreties, etc. Also animals (unless they were just made in a lab =&gt; &#39;Science&#39;, trampled 100 people in a stampede =&gt; &#39;Society&#39; and so on).</p>
+</li>
+<li>
+<p>
+<strong>Science:</strong> Health, biology, physics, genetics.</p>
+</li>
+<li>
+<p>
+<strong>Other:</strong> Everything else. Among other things, weather forecast (unless they are catastrophic enough to make it into &#39;Society&#39;), as well as esotericism, horoscopes, non-tech ads. &#39;Other&#39; should never be used as a second second category.</p>
+</li>
+</ul>
+<p>Below is an example of how various coronavirus-related news could be sorted by category:</p>
+<ul>
+<li>
+<em>Science:</em> News about symptoms, tips on staying healthy, search for vaccines, etc.</li>
+<li>
+<em>Society:</em> Qurantines and lockdowns in various countries, politicians tested postive, an address from the Queen, etc.</li>
+<li>
+<em>Economy:</em> Small business issues, compensations for entrepreneurs, etc.</li>
+<li>
+<em>Entertainment:</em> Celebreties tested positive (not politicians), new Banksy graffiti about the pandemic, Jennifer Lopez cancels wedding due to coronavirus, etc.</li>
+<li>
+<em>Sports:</em> Tokyo Olympics moved due to the pandemic, etc.</li>
+<li>
+<em>Technology:</em> Apple and Google working on an app that warns you about contacting infected people, WHO launched a bot, etc.</li>
+</ul>
+<h4>
+<a class="anchor-link" href="#grouping-into-threads">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="grouping-into-threads">
+</a>Grouping into Threads</h4>
+<p>Threads are sets of articles about the same event or topic, revealing very similar information. Generally, it should be enough for the reader to read one article from a thread to learn everything (or nearly everything) from that thread. But to learn everything about the topic – they’ll need to read several threads. </p>
+<p>For example, various articles about the Coronavirus have the same general topic, but there should be multiple different threads about it:</p>
+<ol>
+<li>The World Health Organization declared a global emergency over the new coronavirus.</li>
+<li>Nations should avoid overreacting on coronavirus, says China as WHO declares global emergency.</li>
+<li>The UK has confirmed four cases of the virus.</li>
+<li>Coronavirus: number of confirmed UK cases rises to eight.</li>
+<li>Japan may call off Tokyo Olympics over coronavirus fears.</li>
+<li>Tokyo Olympic organisers emphasise the Games will go ahead despite coronavirus.</li>
+<li>40,000 workers on virus lockdown at China-backed plant in Indonesia.</li>
+<li>…and so on.</li>
+</ol>
+<p>Articles that are covering multiple threads (“Top news this weekend”) should not be joined into one thread with any of the threads they cover.</p>
+<h4>
+<a class="anchor-link" href="#thread-titles">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="thread-titles">
+</a>Thread titles</h4>
+<p>The thread title must reflect the topic of all articles that go into it. A good thread title is short and neutral and mentions the most important people and facts in the thread.</p>
+<p>
+<strong>Good thread title:</strong> “Elon Musk wants to name his newborn son X Æ A-12”</p>
+<p>
+<strong>Poor thread title:</strong> &quot;Tesla Billionaire authors the craziest celebrity baby name to date [photo]&quot;</p>
+<h3>
+<a class="anchor-link" href="#ranking-recommendations">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="ranking-recommendations">
+</a>Ranking Recommendations</h3>
+<p>You are welcome to choose your own approach for determining the relative <strong>importance</strong> of threads and their <strong>relevance</strong> for the specified language and time period.</p>
+<h4>
+<a class="anchor-link" href="#relevance-for-time-period">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="relevance-for-time-period">
+</a>Relevance for Time Period</h4>
+<p>The algorithm should return not the articles that were merely <em>published</em> in the specified period, but articles that are <em>relevant</em> for this period. For example, a simple algorithm could at least include all threads in which at least one article was published in the specified period. A more substatial algorithm could also assign weights to news articles and threads based on total number or mentions, weight of the respective media publications, etc. – and make them lose relevance over time at weight-dependent speeds.</p>
+<blockquote>
+<p>Your algorithm may <strong>NOT</strong> return news not relevant for time period.</p>
+</blockquote>
+<h4>
+<a class="anchor-link" href="#relevance-for-the-english-section">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="relevance-for-the-english-section">
+</a>Relevance for the English Section</h4>
+<p>Threads in <strong>English</strong> must be relevant for a wide audience of international readers. Local news that is only notable for citizens of a particular country and its immediate neighbors should be excluded. Global news is usually covered by many media organizations from many different regions (instead of, say, one or two regions).</p>
+<p>
+<strong>Relevant:</strong>
+<br>“China Reports First New COVID-19 Case In Wuhan”, “Hundreds gather in Hong Kong malls as anti-gov&#39;t rallies reemerge”, “World’s biggest lockdown: 1.3 billion Indians ordered to stay home”, “Xbox exec says it ‘set some wrong expectations’ for Xbox Series X game reveals”.</p>
+<p>
+<strong>Not Relevant:</strong>
+<br>“Amash&#39;s candidacy injects uncertainty for Trump in key swing state of Michigan”, “Lagos governor pledges &#39;maximum&#39; health funding”, “Yogi Adityanath asks high-level teams to camp in Agra, Meerut, Kanpur”, “&#39;Made in Qatar 2020&#39; expo to open in Kuwait”.</p>
+<blockquote>
+<p>Your algorithm may return news not relevant for the section, but any such results must be penalized in the algorithm’s ranking.</p>
+</blockquote>
+<h4>
+<a class="anchor-link" href="#relevance-for-the-russian-section">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="relevance-for-the-russian-section">
+</a>Relevance for the Russian Section</h4>
+<p>For this round of the contest, threads in <strong>Russian</strong> must be relevant to readers from Russia – covering news from Russia and neighboring countries, as well as world news (see <a href="#relevance-for-the-english-section">above</a>).</p>
+<p>
+<strong>Relevant:</strong>
+<br>“Отрицатели коронавируса сожгли вышку сотовой связи”, “Little Big представит Россию на Евровидении”, “Извержение вулкана в Новой Зеландии”, “Власти Уханя рассказали о новой вспышке коронавируса”, “Скандальный разговор Трампа и Зеленского”, “Трамп наложил вето на запрет применения силы против Ирана”, “Умер Эдуард Лимонов”.</p>
+<p>
+<strong>Not Relevant:</strong>
+<br>“Белорусская авиакомпания забрала граждан из Судана и Анголы”, “Украинская киноакадемия назвала победителей кинопремии «Золотая Дзига»”, “Масштабный пожар в Одесской области: горел торговый центр, погибших нет”, “Жээнбеков поручил Нацбанку ускорить переход финансовой системы на новые технологии”, “ С начала года в Минское агентство по госрегистрации обратились более 100 тыс. посетителей”.</p>
+<blockquote>
+<p>Your algorithm may return news not relevant for the section, but any such results must be penalized in the algorithm’s ranking.</p>
+</blockquote>
+</div>
+</div>
+</section>
+</main>
+</div>
+<div class="popup-container login-popup-container hide" id="login-popup-container">
+<div class="popup">
+<div class="popup-body">
+<section>
+<h2>Log In</h2>
+<p>Log in here to leave comments and take part in the Telegram Competitions. Please enter your <b>phone number</b> in the <a target="_blank" rel="noopener" href="https://telegram.org/faq#login-and-sms">international format</a> and we will send a confirmation message to your account via Telegram.</p>
+<form id="send-form" class="login-form">
+<div class="form-group">
+<input type="tel" class="form-control cd-form-control input-lg" id="phone-number" placeholder="+12223334455" autocomplete="off"/>
+</div>
+<div class="popup-buttons">
+<a class="btn btn-link btn-lg login-cancel-btn">Cancel</a>
+<button type="submit" class="btn btn-link btn-lg">Next</button>
+</div>
+</form>
+<div id="login-form" class="hide">
+<div class="form-group">
+<span class="form-control cd-form-control input input-lg input-disabled">
+<strong id="phone-number-field">
+</strong> (<a class="login-back" href="/auth">Incorrect?</a>)</span>
+<p class="help-block dots-animated">We&#39;ve just sent you a message.<br/>Please confirm access via Telegram</p>
+</div>
+<div class="popup-buttons">
+<a class="btn btn-link btn-lg login-cancel-btn">Cancel</a>
+<a class="btn btn-link btn-lg login-back">Back</a>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+</div>
+<script src="/js/jquery.min.js?1">
+</script>
+<script src="/js/bootstrap.min.js">
+</script>
+<script src="/js/main-aj.js?76">
+</script>
+<script src="/js/contest.js?25">
+</script>
+<script src="/js/jquery-ui.min.js?1">
+</script>
+<script src="/js/tgsticker.js?32">
+</script>
+<script>ajInit({"version":701,"apiUrl":"\/api?hash=X","unauth":true});</script>
+<script id="aj_script">Aj._useScrollHack=true;
+window.initDevPageNav&&initDevPageNav();
+Aj.onLoad(function(state) {
+  function requestConfirmation(event) {
+    event && event.preventDefault();
+    var phone = $('#phone-number').val();
+    $.ajax({
+      type: 'POST',
+      url: '/auth/request',
+      data: {
+        phone: phone
+      },
+      success: function(result) {
+        $('#phone-number-field').text(phone);
+        $('#send-form').addClass('hide');
+        $('#login-form').removeClass('hide');
+        checkAuth(result.temp_session);
+      },
+      error: function(xhr) {
+        showAlert(xhr.responseText || 'Server error');
+      },
+      dataType: 'json'
+    });
+    return false;
+  }
+  function cancelConfirmation(event) {
+    event && event.preventDefault();
+    $('#phone-number-field').text('');
+    $('#send-form').removeClass('hide');
+    $('#login-form').addClass('hide');
+    $('#phone-number').focus();
+    clearTimeout(window.authTimeout);
+    return false;
+  }
+  function checkAuth(temp_session) {
+    clearTimeout(window.authTimeout);
+    window.authTimeout = setTimeout(function doCheckAuth() {
+      $.ajax({
+        type: 'POST',
+        url: '/auth/login',
+        data: {
+          temp_session: temp_session
+        },
+        success: function(result) {
+          if (result) {
+            location.reload();
+          } else {
+            checkAuth(temp_session);
+          }
+        },
+        error: function (xhr) {
+          showAlert(xhr.responseText || 'Server error');
+        },
+        dataType: 'json'
+      });
+    }, 700);
+  }
+  $('#login-popup-container').on('popup:open', function() {
+    $('#phone-number').focus();
+  });
+  $('#login-popup-container').on('popup:close', function() {
+    cancelConfirmation();
+    if (location.pathname == '/auth') {
+      window.history && history.replaceState(null, null, '/');
+    }
+  });
+  $('#login-popup-container #send-form').on('submit', requestConfirmation);
+  $('#login-popup-container .login-cancel-btn').on('click', function(e) {
+    e.preventDefault();
+    closePopup('#login-popup-container');
+  });
+  $('#login-popup-container .login-back').on('click', cancelConfirmation);
+  $('.login-link').on('click', function(e) {
+    e.stopImmediatePropagation();
+    e.preventDefault();
+    openPopup('#login-popup-container');
+  });
+});
+Aj.onUnload(function(state) {
+  $('#login-popup-container').off('popup:open');
+  $('#login-popup-container').off('popup:close');
+  $('#login-popup-container #send-form').off('submit');
+  $('#login-popup-container .login-cancel-btn').off('click');
+  $('#login-popup-container .login-back').off('click');
+  $('.login-link').off('click');
+});
+</script>
+<script>Aj.pageLoaded();</script>
+</body>
+</html>

@@ -1,0 +1,1752 @@
+<!DOCTYPE html>
+<html class="" data-theme="light">
+<head>
+<meta charset="utf-8">
+<title>Telegram FAQ</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:title" content="Telegram FAQ">
+<meta property="og:image" content="">
+<meta property="og:site_name" content="Telegram">
+<meta property="og:description" content="FAQ ini menyediakan jawaban untuk pertanyaan mendasar mengenai Telegram.
+Kunjungi FAQ Lanjutan kami untuk informasi yang…">
+<meta property="fb:app_id" content="254098051407226">
+<meta property="vk:app_id" content="3782569">
+<meta name="apple-itunes-app" content="app-id=686449807">
+<meta name="telegram:channel" content="@telegram">
+<link rel="icon" type="image/svg+xml" href="/img/website_icon.svg?4">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="alternate icon" href="/img/favicon.ico" type="image/x-icon" />
+<link href="/css/bootstrap.min.css?3" rel="stylesheet">
+<link href="/css/telegram.css?256" rel="stylesheet" media="screen">
+<link href="/css/telegram-theme.css?9" rel="stylesheet" media="screen">
+</head>
+<body class="preload">
+<div id="fb-root">
+</div>
+<button class="theme-toggle theme-toggle--static" type="button" title="Toggle theme" aria-label="Toggle light/dark theme">
+</button>
+<div class="tl_page_wrap">
+<div class="tl_page_head navbar navbar-static-top navbar navbar-tg">
+<div class="navbar-inner">
+<div class="container clearfix">
+<ul class="nav navbar-nav navbar-right">
+<li class="dropdown top_lang_select">
+<a class="dropdown-toggle" onclick="return dropdownClick(this, event)" href="#">
+<i class="dev_top_lang_icon">
+</i>
+<b class="minicaret">
+</b>
+</a>
+<ul class="dropdown-menu">
+<li class="">
+<a href="?setln=en">English</a>
+</li>
+<li class="long ">
+<a href="?setln=id">Bahasa Indonesia</a>
+</li>
+<li class="long ">
+<a href="?setln=ms">Bahasa Melayu</a>
+</li>
+<li class="">
+<a href="?setln=de">Deutsch</a>
+</li>
+<li class="">
+<a href="?setln=es">Español</a>
+</li>
+<li class="">
+<a href="?setln=fr">Français</a>
+</li>
+<li class="">
+<a href="?setln=it">Italiano</a>
+</li>
+<li class="">
+<a href="?setln=nl">Nederlands</a>
+</li>
+<li class="">
+<a href="?setln=uz">O‘zbek</a>
+</li>
+<li class="">
+<a href="?setln=pl">Polski</a>
+</li>
+<li class="long ">
+<a href="?setln=pt-br">Português (Brasil)</a>
+</li>
+<li class="">
+<a href="?setln=tr">Türkçe</a>
+</li>
+<li class="">
+<a href="?setln=be">Беларуская</a>
+</li>
+<li class="">
+<a href="?setln=ru">Русский</a>
+</li>
+<li class="">
+<a href="?setln=uk">Українська</a>
+</li>
+<li class="">
+<a href="?setln=kk">Қазақша</a>
+</li>
+<li class="">
+<a href="?setln=ar">العربية</a>
+</li>
+<li class="">
+<a href="?setln=fa">فارسی</a>
+</li>
+<li class="">
+<a href="?setln=ko">한국어</a>
+</li>
+</ul>
+</li>
+<li class="navbar-twitter hidden-xs">
+<a href="https://x.com/telegram" target="_blank" data-track="Follow/Twitter" onclick="trackDlClick(this, event)">
+<i class="icon icon-twitter">
+</i> Follow on X</a>
+</li>
+</ul>
+<ul class="nav navbar-nav">
+<li class="">
+<a href="/">Home</a>
+</li>
+<li class="active">
+<a href="/faq">FAQ</a>
+</li>
+<li class="">
+<a href="/apps">Apps</a>
+</li>
+<li class="hidden-xs ">
+<a href="//core.telegram.org/api">API</a>
+</li>
+<li class="hidden-xs ">
+<a href="/safety">Safety</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="container clearfix tl_page_container ">
+<div class="tl_page">
+<div id="dev_page_content_wrap" class=" dev_faq_page">
+<div class="dev_page_bread_crumbs">
+</div>
+<h1 id="dev_page_title">Telegram FAQ</h1>
+<div id="dev_page_content">
+<blockquote>
+<p>FAQ ini menyediakan jawaban untuk pertanyaan mendasar mengenai Telegram.<br>Kunjungi <a href="https://core.telegram.org/techfaq">FAQ Lanjutan</a> kami untuk informasi yang lebih teknis.</p>
+</blockquote>
+<hr>
+<blockquote>
+<p>Telegram terus berevolusi dan menambah fitur baru, jadi dokumen ini mungkin mengandung informasi yang sudah tidak berlaku. Kami berencana FAQ, Manual Bot, dan dokumen lainnya dapat selesai diperbarui dalam beberapa bulan.</p>
+</blockquote>
+<hr>
+<p>
+<div class="dev_page_nav_wrap">
+</p>
+<p>
+<a href="#pertanyaan-umum">
+<strong>Umum</strong>
+</a>
+</p>
+<ul>
+<li>
+<a href="#q-apa-itu-telegram-apa-yang-saya-lakukan-di-sini">Apa itu Telegram?</a>
+</li>
+<li>
+<a href="#q-untuk-siapakah-telegram">Untuk siapakah Telegram?</a>
+</li>
+<li>
+<a href="#q-apa-yang-membedakan-telegram-dan-whatsapp">Apa yang membedakan Telegram dan WhatsApp?</a>
+</li>
+<li>
+<a href="#q-berapakah-umur-telegram">Berapakah umur Telegram?</a>
+</li>
+<li>
+<a href="#q-perangkat-yang-mana-yang-dapat-saya-gunakan">Apakah tersedia untuk perangkat saya?</a>
+</li>
+<li>
+<a href="#q-siapakah-orang-di-balik-telegram">Siapakah orang di balik Telegram?</a>
+</li>
+<li>
+<a href="#q-di-mana-kantor-pusat-telegram">Di mana kantor pusat Telegram?</a>
+</li>
+<li>
+<a href="#q-bagaimana-anda-akan-menghasilkan-uang-dari-ini">Bagaimana Anda akan menghasilkan uang dari ini?</a>
+</li>
+<li>
+<a href="#q-apa-pendapat-anda-mengenai-privasi-internet">Apa pendapat Anda mengenai privasi internet?</a>
+</li>
+<li>
+<a href="#q-bagaimana-dengan-gdpr">Bagaimana dengan GDPR?</a>
+</li>
+<li>
+<a href="#q-terdapat-konten-ilegal-di-telegram-bagaimana-saya-menghapusnya">Apakah Anda memproses permintaan penghapusan/pencabutan konten?</a>
+</li>
+<li>
+<a href="#q-apakah-anda-memproses-permintaan-data">Apakah Anda memproses permintaan data?</a>
+</li>
+</ul>
+<p>
+<a href="#dasar-telegram">
+<strong>Dasar Telegram</strong>
+</a>
+</p>
+<ul>
+<li>
+<a href="#q-saya-dapat-mengirim-pesan-ke-siapa">Saya dapat mengirim pesan ke siapa?</a>
+</li>
+<li>
+<a href="#q-siapa-dapat-menghubungi-saya">Siapa dapat mengirim pesan ke saya?</a>
+</li>
+<li>
+<a href="#q-apakah-telegram-mengirim-kode-verifikasi-untuk-aplikasi-lain">Apakah Telegram mengirim kode verifikasi untuk aplikasi lain?</a>
+</li>
+<li>
+<a href="#q-bagaimana-saya-dapat-tahu-siapa-saja-dalam-kontak-saya-memilik">Siapa saja punya Telegram?</a>
+</li>
+<li>
+<a href="#q-bagaimana-saya-dapat-mengundang-teman-saya">Mengundang teman</a>
+</li>
+<li>
+<a href="#q-apa-yang-dimaksud-dengan-centang">Apa yang dimaksud dengan centang di Telegram?</a>
+</li>
+<li>
+<a href="#q-apakah-saya-dapat-menyembunyikan-waktu-terlihat-saya">Dapatkah saya menyembunyikan status &#39;terakhir terlihat&#39;?</a>
+</li>
+<li>
+<a href="#q-siapa-dapat-melihat-saya-39online-39">Siapa dapat melihat saya &#39;online&#39;?</a>
+</li>
+<li>
+<a href="#q-dapatkah-saya-menghapus-pesan-saya">Dapatkah saya menghapus pesan saya?</a>
+</li>
+<li>
+<a href="#q-dapatkah-saya-membuat-panggilan-via-telegram">Panggilan Suara, Video, dan Grup</a>
+</li>
+<li>
+<a href="#q-bagaimana-saya-dapat-menggunakan-emotikon">Menggunakan emotikon</a>
+</li>
+</ul>
+<p>
+<a href="#grup-dan-channel">
+<strong>Grup dan Channel</strong>
+</a>
+</p>
+<ul>
+<li>
+<a href="#q-apa-yang-membuat-grup-telegram-keren">Apa yang membuat grup Telegram keren?</a>
+</li>
+<li>
+<a href="#q-apa-perbedaan-grup-dan-channel">Apa perbedaan grup dan channel?</a>
+</li>
+<li>
+<a href="#q-bagaimana-saya-dapat-membuat-grup">Membuat grup</a>
+</li>
+<li>
+<a href="#q-bagaimana-saya-dapat-menambah-lebih-banyak-anggota-apa-itu-tau">Menambah anggota dan menggunakan tautan undangan</a>
+</li>
+</ul>
+<p>
+<a href="#usernames-dan-t-me">
+<strong>Username dan t.me</strong>
+</a>
+</p>
+<ul>
+<li>
+<a href="#q-apa-itu-username-bagaimana-saya-mendapatkannya">Apa itu username? Bagaimana saya mendapatkannya?</a>
+</li>
+<li>
+<a href="#q-apa-itu--apa-yang-membedakannya-dari-usern">Apa itu Username Eksklusif? Apa yang membedakannya dari username biasa?</a>
+</li>
+<li>
+<a href="#q-bagaimana-cara-kerja-t-me">Bagaimana cara kerja t.me?</a>
+</li>
+<li>
+<a href="#q-apa-yang-dapat-saya-pakai-untuk-username">Apa yang dapat saya pakai untuk username?</a>
+</li>
+<li>
+<a href="#q-apakah-saya-butuh-username">Apakah saya butuh username?</a>
+</li>
+<li>
+<a href="#q-jika-seseorang-menemukan-saya-dengan-username-mengirim-pesan-d">Akankah orang lain mengetahui nomor saya?</a>
+</li>
+<li>
+<a href="#q-bagaimana-saya-dapat-menghapus-username-saya">Bagaimana saya dapat menghapus username saya?</a>
+</li>
+<li>
+<a href="#q-apa-yang-saya-lakukan-apabila-username-saya-sudah-terambil">Apa yang saya lakukan apabila username saya sudah terambil?</a>
+</li>
+<li>
+<a href="#q-bagaimana-jika-seseorang-berpura-pura-menjadi-saya">Bagaimana jika seseorang berpura-pura menjadi saya?</a>
+</li>
+</ul>
+<p>
+<a href="#keamanan">
+<strong>Keamanan</strong>
+</a>
+</p>
+<ul>
+<li>
+<a href="#q-seberapa-amankah-telegram">Seberapa amankah Telegram?</a>
+</li>
+<li>
+<a href="#q-jadi-bagaimana-anda-mengenkripsi-data">Bagaimana Anda mengenkripsi data?</a>
+</li>
+<li>
+<a href="#q-mengapa-saya-harus-percaya-anda">Mengapa saya harus percaya Anda?</a>
+</li>
+<li>
+<a href="#q-apakah-saya-perlu-memercayai-telegram-agar-hal-ini-aman">Apakah saya perlu memercayai Telegram agar hal ini aman?</a>
+</li>
+<li>
+<a href="#q-bagaimana-jika-teman-saya-seorang-peretas-mengatakan-bahwa-mer">Bagaimana jika teman saya, seorang peretas, meragukan Anda?</a>
+</li>
+<li>
+<a href="#q-dapatkah-telegram-melindungi-saya-dari-semuanya">Dapatkah Telegram melindungi saya dari semuanya?</a>
+</li>
+<li>
+<a href="#q-bagaimana-cara-kerja-verifikasi-dua-langkah">Bagaimana cara kerja Verifikasi Dua Langkah?</a>
+</li>
+<li>
+<a href="#q-apa-itu-cocoon">Apa itu Cocoon?</a>
+</li>
+<li>
+<a href="#q-apakah-fitur-ai-telegram-mengunggah-data-ke-pihak-ketiga">Apakah fitur AI Telegram mengunggah data ke pihak ketiga?</a>
+</li>
+<li>
+<a href="#q-model-ai-apa-yang-digunakan-telegram">Model AI apa yang digunakan Telegram?</a>
+</li>
+</ul>
+<p>
+<a href="#secret-chat">
+<strong>Secret Chat</strong>
+</a>
+</p>
+<ul>
+<li>
+<a href="#q-mengapa-secret-chat-berbeda">Apa itu <em>Secret Chat?</em>
+</a>
+</li>
+<li>
+<a href="#q-bagaimana-saya-dapat-memulai-secret-chat">Memulai Secret Chat</a>
+</li>
+<li>
+<a href="#q-bagaimana-cara-kerja-pesan-yang-hancur-sendirinya">Menggunakan timer penghancur otomatis</a>
+</li>
+<li>
+<a href="#q-bagaimana-saya-dapat-yakin-bahwa-lawan-percakapan-saya-tidak-m">Peringatan tangkapan layar</a>
+</li>
+<li>
+<a href="#q-apa-itu-39kunci-enkripsi-39">Gambar kunci enkripsi</a>
+</li>
+<li>
+<a href="#q-mengapa-tidak-semua-obrolan-dibuat-39secret-39">Mengapa tidak semua obrolan dibuat &#39;Secret&#39;?</a>
+</li>
+</ul>
+<p>
+<a href="#akun-anda">
+<strong>Akun Anda</strong>
+</a>
+</p>
+<ul>
+<li>
+<a href="#q-siapa-yang-dapat-melihat-nomor-saya">Siapa yang dapat melihat nomor saya?</a>
+</li>
+<li>
+<a href="#q-saya-mempunyai-nomor-telepon-baru-apa-yang-dapat-saya-lakukan">Saya mempunyai nomor telepon baru. Apa yang dapat saya lakukan?</a>
+</li>
+<li>
+<a href="#q-bagaimana-saya-dapat-keluar-dari-akun">Keluar dari akun Telegram</a>
+</li>
+<li>
+<a href="#q-bagaimana-saya-dapat-mengganti-nomor-telepon">Mengganti nomor telepon Anda</a>
+</li>
+<li>
+<a href="#q-bagaimana-saya-dapat-menghapus-akun">Menghapus akun Telegram Anda</a>
+</li>
+<li>
+<a href="#q-bagaimana-cara-kerja-penghancuran-akun-otormatis">Bagaimana cara kerja penghancuran akun otomatis?</a>
+</li>
+<li>
+<a href="#q-ponsel-saya-dicuri-apa-yang-dapat-saya-lakukan">Ponsel saya dicuri. Apa yang dapat saya lakukan?</a>
+</li>
+<li>
+<a href="#q-apa-arti-rating-profil">Apa arti Rating Profil?</a>
+</li>
+<li>
+<a href="#q-apa-itu-passkey">Apa itu Passkey?</a>
+</li>
+</ul>
+<p>
+<a href="#bot">
+<strong>Bot</strong>
+</a>
+</p>
+<ul>
+<li>
+<a href="#q-bagaimana-saya-dapat-membuat-bot">Bagaimana saya dapat membuat bot?</a>
+</li>
+<li>
+<a href="#q-sebuah-bot-terus-menerus-mengirim-saya-pesan-bagaimana-saya-da">Bagaimana saya dapat mengusir bot?</a>
+</li>
+<li>
+<a href="#q-apakah-bot-aman">Apakah bot aman?</a>
+</li>
+<li>
+<a href="#q-apakah-itu-mini-app">Apakah itu Mini App?</a>
+</li>
+</ul>
+<p>
+<a href="#pertanyaan-mendalam">
+<strong>Pertanyaan Mendalam</strong>
+</a>
+</p>
+<ul>
+<li>
+<a href="#q-bisakah-saya-mendapatkan-kode-server-side-telegram">Bisakah saya mendapatkan kode server-side Telegram?</a>
+</li>
+<li>
+<a href="#q-dapatkah-saya-menjalankan-telegram-menggunakan-server-saya-sen">Dapatkah saya menggunakan server saya sendiri?</a>
+</li>
+<li>
+<a href="#q-dapatkah-saya-menggunakan-api-telegram">Dapatkah saya menggunakan API Telegram?</a>
+</li>
+<li>
+<a href="#q-apakah-anda-memiliki-kebijakan-privasi">Apakah Anda memiliki Kebijakan Privasi?</a>
+</li>
+<li>
+<a href="#q-apakah-yang-dimaksud-dengan-laporan-privasi-ios">Apakah yang dimaksud dengan laporan privasi iOS?</a>
+</li>
+<li>
+<a href="#q-mengapa-anda-mempunyai-dua-aplikasi-di-mac-app-store">Mengapa Anda mempunyai dua aplikasi di Mac App Store?</a>
+</li>
+<li>
+<a href="#q-dapatkah-saya-menerjemahkan-telegram">Dapatkah saya menerjemahkan Telegram?</a>
+</li>
+<li>
+<a href="#q-dapatkah-saya-membantu">Dapatkah saya membantu?</a>
+</li>
+</ul>
+<p>
+<a href="#troubleshooting">
+<strong>Troubleshooting</strong>
+</a>
+</p>
+<ul>
+<li>
+<a href="#masuk-ke-akun-dan-sms">SMS, masuk ke akun, daftar akun baru</a>
+</li>
+<li>
+<a href="#penerimaan-kode-melalui-panggilan">Penerimaan kode masuk via panggilan</a>
+</li>
+<li>
+<a href="#penerimaan-kode-via-telegram">Penerimaan kode via Telegram</a>
+</li>
+<li>
+<a href="#permasalahan-notifikasi">Permasalahan notifikasi</a>
+</li>
+<li>
+<a href="#permasalahan-kontak">Permasalahan kontak</a>
+</li>
+<li>
+<a href="#menghapus-kontak-di-android">Penghapusan kontak di Android</a>
+</li>
+<li>
+<a href="#ke-mana-perginya-secret-chat-saya">Secret Chat</a>
+</li>
+<li>
+<a href="#tidak-dapat-mengirim-pesan-ke-non-kontak">Tidak dapat mengirim pesan ke non-kontak</a>
+</li>
+<li>
+<a href="#telegram-menggunakan-kamera-atau-mikrofon-di-belakang-layar">Telegram menggunakan kamera atau mikrofon di belakang layar</a>
+</li>
+</ul>
+<p>
+<a href="#telegram-support">
+<strong>Hubungi Telegram Support</strong>
+</a>
+<br>
+<a href="#twitter">
+<strong>Ikuti kami di Twitter</strong>
+</a>
+<br>
+<a href="#facebook-atau-platform-lainnya">
+<strong>Facebook</strong>
+</a>
+<br>
+<a href="https://core.telegram.org/techfaq">
+<strong>FAQ Lanjutan</strong>
+</a>
+</p>
+<p>
+</div>
+</p>
+<hr>
+<h3>
+<a class="anchor" name="pertanyaan-umum" href="#pertanyaan-umum">
+<i class="anchor-icon">
+</i>
+</a>Pertanyaan Umum</h3>
+<h4>
+<a class="anchor" name="q-apa-itu-telegram-apa-yang-saya-lakukan-di-sini" href="#q-apa-itu-telegram-apa-yang-saya-lakukan-di-sini">
+<i class="anchor-icon">
+</i>
+</a>Q: Apa itu Telegram? Apa yang saya lakukan di sini?</h4>
+<p>Telegram adalah aplikasi olahpesan berfokus pada kecepatan dan keamanan. Telegram sangat cepat, sederhana, dan gratis. Anda dapat menggunakan Telegram di semua perangkat <strong>pada waktu yang sama</strong>, dan semua pesan akan tersinkronisasi secara otomatis di semua ponsel, tablet, atau komputer Anda. Telegram memiliki lebih dari <strong>1 miliar</strong> pengguna aktif bulanan dan merupakan salah satu dari <strong>5 aplikasi yang diunduh terbanyak</strong> di dunia.</p>
+<p>Dengan Telegram, Anda dapat mengirim pesan, foto, video, dan <a href="/blog/channels">
+<strong>berkas</strong>](/blog/shared-files) dalam format apa pun (doc, zip, mp3, dan sebagainya), juga membuat grup dengan jumlah anggota sampai <strong>200,000</strong> orang atau channel</a> untuk penyiaran ke pelanggan dengan jumlah <strong>tak terbatas</strong>. Anda dapat menulis pesan ke kontak ponsel Anda dan mencari pengguna dengan <a href="#usernames-and-t-me">
+<strong>username</strong>
+</a> mereka. Sebagai hasilnya, Telegram seperti SMS dan surel dicampur dan dapat menangani semua keperluan berpesan pribadi dan juga bisnis Anda. Selain itu, kami juga mendukung <a href="https://telegram.org/blog/calls">
+<strong>panggilan suara</strong>
+</a> dan <a href="https://telegram.org/blog/video-calls">
+<strong>video</strong>
+</a> terenkripsi secara end-to-end, <a href="/blog/group-calls-made-easy">
+<strong>panggilan grup</strong>
+</a> dengan hingga 200 peserta, dan <a href="https://telegram.org/blog/voice-chats">
+<strong>obrolan suara dalam grup</strong>
+</a> yang terbuka untuk anggota kapan pun.</p>
+<blockquote>
+<p>Ikuti <a href="https://t.me/TelegramTipsID">
+<strong>Channel Tips</strong>
+</a> kami untuk mempelajari fitur Telegram lebih lanjut.</p>
+</blockquote>
+<h4>
+<a class="anchor" name="q-untuk-siapakah-telegram" href="#q-untuk-siapakah-telegram">
+<i class="anchor-icon">
+</i>
+</a>Q: Untuk siapakah Telegram?</h4>
+<p>Telegram untuk semuanya yang ingin mengirim pesan dan <a href="https://telegram.org/blog/calls">bertelepon</a> dengan cepat dan andal. Pengguna bisnis dan tim kecil mungkin menyukai grup yang besar, <a href="https://telegram.org/faq#usernames-and-t-me">username</a>, <a href="https://desktop.telegram.org">aplikasi desktop</a> dan fitur <a href="https://telegram.org/blog/shared-files">pembagian berkas</a> yang kuat.</p>
+<p>Karena Grup Telegram dapat menampung hingga <a href="https://telegram.org/blog/replies-mentions-stickers">200,000 anggota</a>, kami mendukung <a href="https://telegram.org/blog/replies-mentions-hashtags">balasan, sebutan, dan tagar</a> yang dapat membantu menjaga ketertiban dan membuat komunikasi dalam komunitas besar lebih <a href="https://telegram.org/blog/replies-mentions-stickers">efisien</a>. Anda juga dapat mengangkat <a href="https://telegram.org/blog/admin-revolution">admin dengan fungsi lanjutan</a> untuk membantu memelihara kedamaian. <a href="https://telegram.org/blog/supergroups5k">Grup publik</a> dapat dimasuki oleh siapa pun dan adalah platform yang kuat untuk diskusi dan mengumpulkan masukan.</p>
+<p>Apabila Anda lebih suka gambar, Telegram juga mempunyai fitur <a href="/blog/gif-revolution">pencarian GIF</a>, <a href="https://telegram.org/blog/photo-editor-and-passcodes">editor foto</a> yang canggih, dan sebuah <a href="/blog/stickers-revolution">platform stiker terbuka</a> (temukan stiker keren <a href="https://t.me/durov/40">di sini</a> atau <a href="https://t.me/sticker">di sini</a>). Bahkan, Anda tidak perlu lagi khawatir tentang ruang penyimpanan perangkat. Dengan dukungan awan Telegram dan <a href="https://telegram.org/blog/cache-and-stickers">opsi pengelolaan cache</a>, ukuran aplikasi Telegram di perangkat dapat mendekati <strong>nol</strong>. </p>
+<p>Bagi semua yang membutuhkan privasi tambahan, kami menyediakan <a href="/blog/privacy-revolution">pengaturan lanjutan</a> dan <a href="/privacy">kebijakan</a> yang revolusioner. Selain itu, jika Anda menginginkan kerahasiaan, cobalah <a href="#secret-chats">Secret Chat</a> perangkat-spesifik kami dengan pesan, foto, dan video yang dapat hancur otomatis, juga kuncilah aplikasi Anda dengan <a href="https://telegram.org/blog/photo-editor-and-passcodes">kode sandi</a> tambahan.</p>
+<blockquote>
+<p>Kami selalu berevolusi. Kunjungi <a href="https://telegram.org/evolution">Sejarah Singkat Telegram</a> kami dan ikuti kami di <a href="https://twitter.com/telegram">Twitter</a> dan <a href="https://t.me/telegram">Telegram</a> agar tetap terhubung.</p>
+</blockquote>
+<h4>
+<a class="anchor" name="q-apa-yang-membedakan-telegram-dan-whatsapp" href="#q-apa-yang-membedakan-telegram-dan-whatsapp">
+<i class="anchor-icon">
+</i>
+</a>Q: Apa yang membedakan Telegram dan WhatsApp?</h4>
+<p>Tidak seperti WhatsApp, Telegram adalah aplikasi olahpesan awan dengan sinkronikasi kontinu. Sebagai hasilnya, Anda dapat mengakses pesan dari berbagai perangkat secara bersamaan, termasuk tablet dan komputer. Anda dapat membagikan foto, video, dan berkas (doc, zip, mp3, dan lainnya) dengan jumlah tak terbatas, masing-masing dengan ukuran hingga <strong>2 GB</strong>.</p>
+<p>Telegram memerlukan kurang dari <strong>100 MB</strong> di perangkat Anda. Anda dapat menyimpan <strong>semua media</strong> di awan tanpa perlu sibuk menghapusnya. Cukup <a href="https://t.me/TelegramTips/206">bersihkan cache Anda untuk kosongkan penyimpanan</a>.</p>
+<p>Berkat infrastruktur pusat data ganda dan enkripsi, Telegram lebih cepat dan jauh lebih <a href="#keamanan">aman</a>. Lebih lagi, pengiriman pesan secara privat di Telegram gratis dan akan tetap gratis. Tanpa iklan, tanpa biaya langganan, selamanya.</p>
+<p>API dan kode Telegram terbuka, dan pengembang bebas membuat aplikasi Telegram mereka sendiri. <a href="https://core.telegram.org/bots">Bot API</a>, sebuah platform bagi developer yang memungkinkan siapa pun untuk membangun fungsi khusus untuk Telegram, <a href="https://telegram.org/blog/inline-bots">mengintegrasikan segala layanan</a> dan bahkan <a href="https://telegram.org/blog/payments">menerima pembayaran</a> dari pengguna di seluruh dunia.</p>
+<p>Dan itu hanyalah permukaannya saja.</p>
+<blockquote>
+<p>Ikuti <a href="https://t.me/TelegramTips">
+<strong>Tips Channel</strong>
+</a> kami untuk mempelajari fitur Telegram dengan lebih lanjut.</p>
+</blockquote>
+<h4>
+<a class="anchor" name="q-berapakah-umur-telegram" href="#q-berapakah-umur-telegram">
+<i class="anchor-icon">
+</i>
+</a>Q: Berapakah umur Telegram?</h4>
+<p>Telegram untuk perangkat iOS diluncurkan pada tanggal <strong>14 Agustus 2013</strong>. Versi alpha Telegram untuk perangkat Android diluncurkan pada tanggal 20 Oktober 2013. Banyak <a href="/apps">klien Telegram</a> mulai bermunculan, dibangun oleh pengembang independen menggunakan <a href="//core.telegram.org/api">platform terbuka</a> Telegram.</p>
+<h4>
+<a class="anchor" name="q-perangkat-yang-mana-yang-dapat-saya-gunakan" href="#q-perangkat-yang-mana-yang-dapat-saya-gunakan">
+<i class="anchor-icon">
+</i>
+</a>Q: Perangkat yang mana yang dapat saya gunakan?</h4>
+<p>Anda dapat menggunakan Telegram di ponsel pintar, tablet, dan bahkan komputer Anda. Kami mempunyai aplikasi untuk <a href="https://telegram.org/dl/ios">iOS</a> (13.0 dan lebih baru), <a href="https://telegram.org/dl/android">Android</a> (5.0 dan lebih baru), <a href="https://macos.telegram.org">aplikasi macOS</a> bawaan, dan sebuah <a href="https://desktop.telegram.org">aplikasi desktop</a> universal untuk Windows, macOS, dan Linux. <a href="https://web.telegram.org">Telegram Web</a> juga dapat membantu melakukan sesuatu dengan cepat saat bepergian.</p>
+<blockquote>
+<p>Anda dapat masuk ke Telegram dari perangkat sebanyak yang Anda inginkan, semua secara bersamaan. Cukup gunakan nomor ponsel utama untuk masuk di mana pun. Obrolan awan Anda akan tersinkron secara instan.</p>
+</blockquote>
+<p>
+<a href="//core.telegram.org/api">API Telegram</a> terbuka bagi pengembang, semisal Anda ingin membuat aplikasi Anda sendiri untuk platform lainnya.</p>
+<h4>
+<a class="anchor" name="q-siapakah-orang-di-balik-telegram" href="#q-siapakah-orang-di-balik-telegram">
+<i class="anchor-icon">
+</i>
+</a>Q: Siapakah orang di balik Telegram?</h4>
+<p>Telegram didukung oleh <a href="https://en.wikipedia.org/wiki/Pavel_Durov">Pavel Durov</a> dan saudara laki-lakinya, yakni Nikolai. Pavel mendukung Telegram secara finansial dan ideologis, sedangkan Nikolai memberi masukan dalam bidang teknologi. Agar Telegram dapat hadir, Nikolai mengembangkan suatu protokol data khusus yang unik, yang terbuka, aman, dan dioptimalkan untuk pekerjaan dengan pusat data ganda. Alhasil, Telegram menggabungkan keamanan, keandalan, dan kecepatan melalui jaringan apa pun.</p>
+<blockquote>
+<p>Lihat juga: <a href="/press">artikel tentang Telegram</a>
+</p>
+</blockquote>
+<h4>
+<a class="anchor" name="q-di-mana-kantor-pusat-telegram" href="#q-di-mana-kantor-pusat-telegram">
+<i class="anchor-icon">
+</i>
+</a>Q: Di mana kantor pusat Telegram?</h4>
+<p>Tim pengembang Telegram berbasis di Dubai.</p>
+<p>Mayoritas pengembang di balik Telegram pada mulanya berasal dari St. Petersburg, kota yang terkenal akan jumlah <a href="https://en.wikipedia.org/wiki/ACM_International_Collegiate_Programming_Contest#Winners">insinyur perangkat lunak yang sangat terampilnya</a> yang besar. Tim Telegram harus meninggalkan Russia oleh karena undang-undang TI (Teknologi Informasi) lokal dan telah mencoba beberapa lokasi untuk dijadikan pangkalan, termasuk Berlin, London, dan Singapura. Kami saat ini senang dengan Dubai meskipun kami siap untuk berpindah tempat lagi apabila undang-undang lokal berubah.</p>
+<h4>
+<a class="anchor" name="q-akankah-anda-menambahkan-iklan-dalam-obrolan-dan-grup-privat-a" href="#q-akankah-anda-menambahkan-iklan-dalam-obrolan-dan-grup-privat-a">
+<i class="anchor-icon">
+</i>
+</a>Q: Akankah Anda menambahkan iklan dalam obrolan dan grup privat? Atau menjual data saya? Atau mencuri kekasih saya atau memperbudak anak saya?</h4>
+<p>Tidak. Lihat <a href="https://t.me/durov/142">postingan ini</a> untuk penjelasan.</p>
+<h4>
+<a class="anchor" name="q-bagaimana-anda-akan-menghasilkan-uang-dari-ini" href="#q-bagaimana-anda-akan-menghasilkan-uang-dari-ini">
+<i class="anchor-icon">
+</i>
+</a>Q: Bagaimana Anda akan menghasilkan uang dari ini?</h4>
+<p>Kami percaya dalam pengiriman pesan yang cepat dan aman dan juga 100% gratis.</p>
+<p>Pendiri dan CEO kami <a href="/press">Pavel Durov</a>, yang membiayai Telegram sepanjang sejarah, telah mengikhtisarkan sebuah <strong>strategi untuk membuat Telegram lestari</strong> dalam <a href="https://t.me/durov/142">postingan ini</a>.</p>
+<p>Walaupun Telegram akan memperkenalkan monetisasi pada tahun 2021 untuk menutup biaya infrastruktur dan gaji pengembang, meraup keuntungan tidak akan pernah menjadi tujuan akhir kami.</p>
+<h4>
+<a class="anchor" name="q-apa-pendapat-anda-mengenai-privasi-internet" href="#q-apa-pendapat-anda-mengenai-privasi-internet">
+<i class="anchor-icon">
+</i>
+</a>Q: Apa pendapat Anda mengenai privasi internet?</h4>
+<p>Kami berpendapat bahwa dua komponen terpenting dalam privasi Internet adalah:</p>
+<ol>
+<li>Melindungi percakapan privat Anda dari pihak ketiga yang ingin mengintip, seperti pejabat, majikan, dll.</li>
+<li>Melindungi data pribadi Anda dari pihak ketiga, seperti pemasar, pemasang iklan, dll.</li>
+</ol>
+<p>Tujuan Telegram adalah untuk membuat aplikasi olahpesan yang benar-benar gratis, dengan <a href="/privacy">kebijakan privasi</a> yang revolusioner.</p>
+<h4>
+<a class="anchor" name="q-bagaimana-dengan-gdpr" href="#q-bagaimana-dengan-gdpr">
+<i class="anchor-icon">
+</i>
+</a>Q: Bagaimana dengan GDPR?</h4>
+<p>General Data Protection Regulation (GDPR) berlaku di Eropa mulai tanggal 25 Mei 2018. Karena menarik kembali hak privasi kami adalah alasan kami membuat Telegram, tidak terjadi banyak perubahan. Kami tidak menggunakan data Anda untuk penargetan iklan; kami tidak menjualnya ke pihak lain; dan kami bukan bagian dari “keluarga perusahaan” <del>keluarga mafia</del>. </p>
+<p>Telegram hanya menyimpan informasi yang dibutuhkan untuk berfungsi sebagai layanan awan penuh fitur. Sebagai contoh, obrolan awan Anda – agar Anda dapat mengaksesnya dari perangkat apa pun tanpa perlu cadangan dari pihak ketiga – agar Abda dapat mengandalkan grafik sosial Anda yang sudah ada ketika berkirim pesan di Telegram. Harap kunjungi <a href="https://telegram.org/privacy">Kebijakan Privasi</a> untuk informasi lebih lanjut.</p>
+<p>Anda dapat menggunakan <a href="https://t.me/EURegulation">
+<strong>@EURegulation</strong>
+</a> untuk:</p>
+<ul>
+<li>Meminta salinan seluruh data Anda yang disimpan Telegram.</li>
+<li>Menghubungi kami mengenai Privasi Data.</li>
+</ul>
+<h4>
+<a class="anchor" name="q-terdapat-konten-ilegal-di-telegram-bagaimana-saya-menghapusnya" href="#q-terdapat-konten-ilegal-di-telegram-bagaimana-saya-menghapusnya">
+<i class="anchor-icon">
+</i>
+</a>Q: Terdapat konten ilegal di Telegram. Bagaimana saya menghapusnya?</h4>
+<p>Semua aplikasi Telegram menyediakan tombol <strong>&#39;Laporkan&#39;</strong> yang mengizinkan Anda menandai konten ilegal bagi moderator kami — hanya dalam beberapa ketukan.</p>
+<p>Di Telegram untuk Android, ketuk pesan dan pilih <em>Laporkan</em> dalam menu. Di iOS, ketuk dan tahan pesan. Di Telegram Desktop, Web, atau Telegram untuk macOS, klik kanan pesan dan pilih <em>Laporkan</em>. Kemudian, pilih alasan yang sesuai.</p>
+<p>Anda juga dapat menggunakan alamat email penurunan konten otomatis kami <a href="mailto:abuse@telegram.org">abuse@telegram.org</a>. Saat mengirimkan email permintaan penurunan konten, mohon pastikan untuk menyertakan <strong>tautan</strong> (seperti <code>t.me/...</code> atau <code>@...</code>) ke konten tersebut di Telegram yang menurut Anda memerlukan perhatian moderator kami.</p>
+<p>Pengguna dari wilayah EU dipersilakan mempelajari <a href="https://telegram.org/tos/eu-dsa">Panduan Pengguna untuk EU Digital Services Act</a> untuk opsi pelaporan yang relevan.</p>
+<blockquote>
+<p>Catatan: Jika seorang penipu berpura-pura menjadi Anda, hubungi <a href="https://t.me/notoscam">@NoToScam</a>.</p>
+</blockquote>
+<h4>
+<a class="anchor" name="q-bagaimana-saya-dapat-mengirim-permintaan-di-bawah-eu-regulatio" href="#q-bagaimana-saya-dapat-mengirim-permintaan-di-bawah-eu-regulatio">
+<i class="anchor-icon">
+</i>
+</a>Q: Bagaimana saya dapat mengirim permintaan di bawah EU Regulation 2021/784?</h4>
+<p>The Regulation (EU) 2021/784 oleh Parlemen Eropa dan Dewan tertanggal 29 April 2021 tentang penanganan penyebaran konten terorisme secara online (Terrorist Content Online Regulation, atau TCO) mengizinkan otoritas dalam negara-negara EU untuk mengirim permintaan pencabutan konten terorisme, apabila ditemukan dalam platform publik Telegram. Kami juga telah menunjuk pihak ketiga, European Digital Services Representative (EDSR), untuk membantu kami dalam komunikasi terkait TCO.</p>
+<p>Pengguna yang publikasinya dihapus sehubungan dengan Peraturan TCO dapat meminta perincian tentang alasan publikasi mereka dianggap mengandung unsur terorisme dan cara merundingkan penghapusan tersebut:</p>
+<ul>
+<li>dengan menulis surat ke EDSR yang beralamat di Avenue Huart Hamoir 71, 1030 Brussels, Belgium, atau</li>
+<li>menghubungi bot <a href="https://t.me/EURegulation">@EURegulation</a> di Telegram dan menggunakan perintah <code>/tco_ask</code>.</li>
+</ul>
+<p>Permintaan dapat diterima dalam bahasa Inggris dan Perancis.</p>
+<p>
+</p>
+<h4>
+<a class="anchor" name="q-sebuah-bot-atau-channel-melanggar-hak-cipta-saya-apa-yang-dapa" href="#q-sebuah-bot-atau-channel-melanggar-hak-cipta-saya-apa-yang-dapa">
+<i class="anchor-icon">
+</i>
+</a>Q: Sebuah bot atau channel melanggar hak cipta saya. Apa yang dapat saya lakukan?</h4>
+<p>Semua obrolan dan obrolan grup Telegram bersifat privat di antara pesertanya. Kami tidak memproses permintaan apa pun terkait hal tersebut.</p>
+<p>Jika Anda mendapati sebuah grup, channel, atau set stiker melanggar hak cipta, harap ajukan pengaduan ke <a href="mailto:dmca@telegram.org">dmca@telegram.org</a>. Catat bahwa permintaan tersebut harus diserahkan oleh pemilik hak cipta atau agen berkuasa untuk bertindak atas nama pemilik.</p>
+<h4>
+<a class="anchor" name="q-tunggu-0-o-apakah-anda-memproses-permintaan-penghapusan-dari-p" href="#q-tunggu-0-o-apakah-anda-memproses-permintaan-penghapusan-dari-p">
+<i class="anchor-icon">
+</i>
+</a>Q: Tunggu! 0_o Apakah Anda memproses permintaan penghapusan dari pihak ketiga?</h4>
+<p>Misi kami adalah untuk menyediakan jalur komunikasi yang tersedia di seluruh dunia. Agar hal ini dapat terwujud dalam wilayah yang paling membutuhkan prasarana ini (dan untuk tetap mendistribusikan Telegram melalui App Store dan Google Play), kami harus memproses permintaan penghapusan konten <strong>publik</strong> ilegal (seperti set stiker, bot, dan channel) di dalam aplikasi. Sebagai contoh, kami dapat menghapus set stiker yang melanggar hak kekayaan intelektual atau bot pornografi.</p>
+<p>Set stiker, channel, dan bot yang diunggah oleh pengembang pihak ketiga bukan bagian dari UI Telegram inti. Sewaktu-waktu kami menerima pengaduan di <a href="mailto:abuse@telegram.org">abuse@telegram.org</a> atau <a href="mailto:dmca@telegram.org">dmca@telegram.org</a> mengenai legalitas konten publik, kami akan melaksanakan pemeriksaan perkara secara hukum dan menghapusnya apabila diperlukan.</p>
+<p>Harap perhatikan bahwa hal ini <strong>tidak</strong> berlaku untuk pembatasan kebebasan berbicara lokal. Sebagai contoh, apabila mengkritik pemerintah ilegal di beberapa negara, Telegram tidak akan menjadi bagian dari penyensoran bermotif politik seperti itu. Insiden ini menentang <a href="https://mashable.com/2015/05/18/russias-mark-zuckerberg-pavel-durov/">prinsip</a> pendiri kami. Meskipun kami memblokir bot dan channel teroris (seperti yang berhubungan dengan ISIS), kami tidak akan memblokir siapa pun yang mengekspresikan opini alternatif dengan damai.</p>
+<h4>
+<a class="anchor" name="q-bot-atau-set-stiker-saya-telah-dicabut-dan-diblokir-dengan-tid" href="#q-bot-atau-set-stiker-saya-telah-dicabut-dan-diblokir-dengan-tid">
+<i class="anchor-icon">
+</i>
+</a>Q: Bot atau set stiker saya telah dicabut dan diblokir dengan tidak adil. Apa yang dapat saya lakukan?</h4>
+<p>Jika menurut Anda kami telah mencabut dan memblokir bot, channel, atau set stiker Anda tanpa alasan yang jelas, hubungi kami di <a href="mailto:abuse@telegram.org">abuse@telegram.org</a>.</p>
+<h4>
+<a class="anchor" name="q-apakah-anda-memproses-permintaan-data" href="#q-apakah-anda-memproses-permintaan-data">
+<i class="anchor-icon">
+</i>
+</a>Q: Apakah Anda memproses permintaan data?</h4>
+<p>
+<a href="#secret-chat">Secret Chat</a> menggunakan enkripsi end-to-end sehingga tidak ada data yang dapat disingkapkan.</p>
+<p>Guna melindungi data yang tidak diproteksi enkripsi end-to-end, Telegram menggunakan infrastruktur terdistribusi. Data obrolan awan disimpan dalam beberapa pusat data di seluruh dunia yang dikelola oleh entitas hukum berbeda lintas berbagai yurisdiksi. Kunci enkripsi yang relevan dibagi menjadi beberapa bagian dan tidak pernah disimpan dalam tempat yang sama dengan data yang diproteksi. Sebagai hasilnya, lebih dari satu perintah pengadilan dari berbagai yurisdiksi diperlukan untuk memaksa kami menyingkapkan data apa pun.</p>
+<p>Berkat struktur ini, kami dapat memastikan bahwa tiada satu pun instansi pemerintahan atau blok negara dengan pola pikir yang sama dapat melanggar privasi dan membatasi kebebasan berekspresi. Telegram dapat dipaksa menyingkapkan data hanya jika isu yang bersangkutan cukup parah dan universal untuk melewati pemeriksaan berbagai sistem hukum yang berbeda di seluruh dunia.</p>
+<p>Sampai hari ini, kami telah menyingkapkan <strong>0 bita</strong> pesan pengguna ke pihak ketiga, termasuk pemerintah.</p>
+<blockquote>
+<p>Untuk informasi lebih lanjut mengenai bagaimana data Anda dilindungi, silakan lihat <a href="https://telegram.org/privacy">Kebijakan Privasi Telegram</a> dan <a href="https://t.me/durov/345">postingan ini</a> oleh Telegram CEO.</p>
+</blockquote>
+<h3>
+<a class="anchor" name="dasar-telegram" href="#dasar-telegram">
+<i class="anchor-icon">
+</i>
+</a>Dasar Telegram</h3>
+<blockquote>
+<p>Ikuti <a href="https://t.me/TelegramTipsID">
+<strong>Channel Tips</strong>
+</a> kami untuk mempelajari fitur Telegram selengkapnya.</p>
+</blockquote>
+<h4>
+<a class="anchor" name="q-saya-dapat-mengirim-pesan-ke-siapa" href="#q-saya-dapat-mengirim-pesan-ke-siapa">
+<i class="anchor-icon">
+</i>
+</a>Q: Saya dapat mengirim pesan ke siapa?</h4>
+<p>Anda dapat mengirim pesan ke orang-orang yang ada di dalam kontak telepon Anda dan memiliki Telegram. Cara lain untuk menghubungi orang lain adalah dengan mengetik <a href="#username-dan-t-me">username</a> mereka. Anda tidak perlu mengetahui nomor telepon untuk melakukan hal ini.</p>
+<h4>
+<a class="anchor" name="q-siapa-dapat-menghubungi-saya" href="#q-siapa-dapat-menghubungi-saya">
+<i class="anchor-icon">
+</i>
+</a>Q: Siapa dapat menghubungi saya?</h4>
+<p>Orang lain dapat menghubungi Anda di Telegram jika mereka <strong>mengetahui nomor telepon Anda</strong> atau jika Anda <strong>mengirim pesan ke mereka terlebih dahulu</strong>.</p>
+<p>Jika mereka tidak mengetahui nomor telepon Anda, mereka dapat menemukan Anda dalam kasus-kasus ini:</p>
+<ul>
+<li>Ketika Anda dan mereka ada dalam <strong>grup yang sama</strong>.</li>
+<li>Jika Anda mengatur <a href="#username-dan-t-me">
+<strong>username publik</strong>
+</a>. Orang lain dapat menggunakan <strong>Pencarian Global</strong> dan menemukan Anda berdasarkan username.</li>
+</ul>
+<!-- - Jika Anda **memilih** untuk tampak dalam fitur [Pengguna Sekitar](#q-apa-itu-pengguna-sekitar) (opsi ini **dinonaktifkan** dalam pengaturan bawaan).-->
+<h5>
+<a class="anchor" name="q-apakah-telegram-mengirim-kode-verifikasi-untuk-aplikasi-lain" href="#q-apakah-telegram-mengirim-kode-verifikasi-untuk-aplikasi-lain">
+<i class="anchor-icon">
+</i>
+</a>Q: Apakah Telegram mengirim Kode Verifikasi untuk aplikasi lain?</h5>
+<p>Telegram mengizinkan layanan pihak ketiga untuk <a href="https://telegram.org/blog/gifts-verification-platform/id?ln=a#platform-verifikasi">mengirim kode verifikasi</a> kepada penggunanya via Telegram. Kode tersebut hanya muncul dalam <strong>obrolan <em>&#39;Kode Verifikasi&#39;</em> yang terverifikasi</strong>, dan Anda dapat menyalinnya secara langsung.</p>
+<div>
+<a href="/file/400780400405/5/DJtYqf_wYiU.829923/a5d5fc8092802cab46" target="_blank">
+<img src="/file/400780400405/5/DJtYqf_wYiU.829923/a5d5fc8092802cab46" title="verif codes.png, 437.12KB" width="480" class="dev_page_image" />
+</a>
+</div>
+<blockquote>
+<p>Layanan yang tidak menentukan nama atau foto profil untuk kode mereka akan muncul dengan nama dan foto bawaan <em>&#39;Kode Verifikasi&#39;</em>. </p>
+</blockquote>
+<p>JIka Anda menerima kode dalam obrolan <em>&#39;Kode Verifikasi&#39;</em>, kemungkinan Anda baru saja meminta untuk masuk/login ke layanan pihak ketiga, seperti <strong>situs web, aplikasi, atau lokapasar eksternal</strong>. Ada juga kemungkinan orang lain secara tidak sengaja memasukkan nomor telepon Anda saat masuk ke layanan lain. <strong>Bagaimanapun juga, akun Telegram Anda tetap aman</strong> — jika Anda tidak meminta kode, cukup ketuk dan pilih <em>&#39;Laporkan&#39;</em> — Anda tidak perlu melakukan hal lain.</p>
+<p>Layanan pihak ketiga menentukan metode pengiriman kode verifikasi Anda – dan Telegram tidak dapat mengendalikan hal ini atau membuat suatu layanan sadar akan preferensi Anda. Berbeda dengan kode SMS yang sering tidak sampai dan dapat disadap, kode verifikasi yang dikirim via Telegram <strong>terkirim secara instan</strong> dan <strong>terenkripsi dengan aman</strong> – menjadikannya lebih aman dan terpercaya baik bagi pengguna maupun layanan.</p>
+<p>Obrolan <em>&#39;Kode Verifikasi&#39;</em> hanya digunakan untuk kode yang datang dari <strong>layanan pihak ketiga</strong>. Sementara itu, kode masuk untuk <a href="#penerimaan-kode-via-telegram">akun Telegram</a> dikirim ke obrolan <strong>pemberitahuan layanan terverifikasi</strong> bernama <em>&#39;Telegram&#39;</em> dalam daftar obrolan Anda dan <strong>tidak boleh dibagikan</strong> dengan siapa pun, termasuk layanan atau aplikasi lain.</p>
+<blockquote>
+<p>JIka Anda ingin menghemat uang dan meningkatkan efisiensi dengan mengirimkan kode verifikasi untuk aplikasi atau layanan Anda melalui Telegram, lihat <a href="https://core.telegram.org/gateway">Telegram Gateway</a>.</p>
+</blockquote>
+<h4>
+<a class="anchor" name="q-bagaimana-saya-dapat-tahu-siapa-saja-dalam-kontak-saya-memilik" href="#q-bagaimana-saya-dapat-tahu-siapa-saja-dalam-kontak-saya-memilik">
+<i class="anchor-icon">
+</i>
+</a>Q: Bagaimana saya dapat tahu siapa saja dalam kontak saya memiliki Telegram?</h4>
+<p>Kontak Anda, yang memiliki Telegram, akan ditampilkan di atas Kontak Anda. Mereka juga mempunyai gambar.</p>
+<h4>
+<a class="anchor" name="q-bagaimana-saya-dapat-mengundang-teman-saya" href="#q-bagaimana-saya-dapat-mengundang-teman-saya">
+<i class="anchor-icon">
+</i>
+</a>Q: Bagaimana saya dapat mengundang teman saya?</h4>
+<p>
+<em>iOS:</em> Metode mengundang paling sederhana adalah melalui pesan SMS. Mereka akan dikenakan biaya seperti SMS keluar standar dari operator Anda (kecuali jika dikirim via iMessage). Tentunya, Anda memiliki opsi lain untuk membawa teman Anda ke sini. Coba mengirim mereka tautan unduhan via layanan olahpesan yang lain: email, Facebook, WhatsApp, telegram yang asli — Anda pilih. Tautan: <a href="https://telegram.org/dl/">
+<strong>
+<a href="https://telegram.org/dl/">https://telegram.org/dl/</a>
+</strong>
+</a>
+</p>
+<p>
+<em>Android:</em> Buka menu aplikasi (geser kanan dalam daftar obrolan) &gt; Undang Teman. Kemudian, pilih aplikasi yang diinginkan untuk mengirim undangan.</p>
+<blockquote>
+<p>Anda dapat memberikan teman <a href="#q-bagaimana-cara-kerja-t-me">tautan t.me</a> dengan username Anda sehingga mereka dapat dengan mudah menemukan Anda di Telegram meskipun tidak memiliki nomor telepon Anda.</p>
+</blockquote>
+<h4>
+<a class="anchor" name="q-apa-yang-dimaksud-dengan-centang" href="#q-apa-yang-dimaksud-dengan-centang">
+<i class="anchor-icon">
+</i>
+</a>Q: Apa yang dimaksud dengan centang?</h4>
+<p>
+<em>Satu centang</em> — pesan terkirim ke awan Telegram, dan teman Anda telah diberi tahu apabila notifikasinya menyala.<br>
+<em>Dua centang</em> — pesan dibaca (teman Anda membuka Telegram dan membuka halaman percakapan tempat pesan tersebut berada)</p>
+<p>Kami tidak menyediakan status &#39;terkirim ke perangkat&#39; untuk pesan karena Telegram dapat beroperasi di lebih dari satu perangkat secara bersamaan. Jadi, untuk perangkat yang mana centang tersebut diperuntukkan?</p>
+<h4>
+<a class="anchor" name="q-apakah-saya-dapat-menyembunyikan-waktu-terlihat-saya" href="#q-apakah-saya-dapat-menyembunyikan-waktu-terlihat-saya">
+<i class="anchor-icon">
+</i>
+</a>Q: Apakah saya dapat menyembunyikan Waktu Terlihat saya?</h4>
+<p>Anda dapat menetapkan siapa saja yang dapat melihat informasi di pengaturan <a href="https://telegram.org/blog/privacy-revolution">Privasi dan Keamanan</a>.</p>
+<p>Ingat bahwa Anda juga tidak akan dapat melihat Waktu Terlihat orang tertentu apabila Anda tidak membagikan milik Anda dengan mereka. Namun demikian, Anda dapat melihat perkiraan waktu terlihat. Hal ini dapat mengusir penguntit, tetapi juga memungkinkan Anda untuk mengetahui apabila seseorang dapat dihubungi melalui Telegram. Terdapat empat perkiraan yang tersedia:</p>
+<ul>
+<li>
+<strong>Terlihat belakangan ini</strong> — untuk semuanya dari 1 detik hingga 2-3 hari ke depannya</li>
+<li>
+<strong>Terlihat seminggu yang lalu</strong> — antara 2-3 dan tujuh hari</li>
+<li>
+<strong> Terlihat sebulan yang lalu</strong> — antara 6-7 hari dan satu bulan</li>
+<li>
+<strong> Tak terlihat sangat lama</strong> — lebih dari satu bulan (perkiraan ini juga ditampilkan bagi pengguna yang diblokir)</li>
+</ul>
+<h4>
+<a class="anchor" name="q-siapa-dapat-melihat-saya-39online-39" href="#q-siapa-dapat-melihat-saya-39online-39">
+<i class="anchor-icon">
+</i>
+</a>Q: Siapa dapat melihat saya &#39;online&#39;?</h4>
+<p>Pengaturan <a href="#q-apakah-saya-dapat-menyembunyikan-waktu-terakhir-terlihat-saya">waktu terlihat</a> juga berlaku untuk status online Anda. Orang hanya dapat melihat Anda online apabila Anda membagikan status waktu terlihat dengan mereka.</p>
+<p>Terdapat beberapa pengecualian karena terkadang tampak jelas bahwa Anda sedang online. Tanpa menghiraukan pengaturan waktu terlihat, orang dapat melihat Anda online untuk waktu sementara (~30 detik) jika Anda bertindak seperti berikut:</p>
+<ul>
+<li>Mengirim mereka pesan dalam obrolan pribadi atau dalam grup beranggotakan Anda dan mereka.</li>
+<li>Membaca pesan yang dikirimkan mereka ke Anda dalam obrolan pribadi.</li>
+<li>Menyiarkan status “mengetik…” ke obrolan mereka dengan Anda atau ke dalam grup beranggotakan Anda dan mereka</li>
+</ul>
+<p>Apabila Anda tidak membagikan waktu terlihat Anda dengan siapa pun dan tidak melakukan apa pun sebagaimana tertulis di atas, mereka tidak akan pernah melihat Anda online. Metode lain adalah memblokir orang terkait.</p>
+<h4>
+<a class="anchor" name="q-dapatkah-saya-menghapus-pesan-saya" href="#q-dapatkah-saya-menghapus-pesan-saya">
+<i class="anchor-icon">
+</i>
+</a>Q: Dapatkah saya menghapus pesan saya?</h4>
+<p>Ya. Anda selalu dapat menghapus pesan apa pun yang Anda <strong>kirim</strong> atau <strong>terima</strong> bagi <strong>kedua pihak</strong> dalam percakapan satu-lawan-satu (dalam grup, hanya pesan Anda saja). Anda juga dapat membersihkan seluruh riwayat obrolan bagi kedua pihak. Di Telegram, pesan yang dihapus tidak meninggalkan jejak dalam obrolan.</p>
+<div class="blog_video_player_wrap" style="max-width: 480px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/811140695/1947/Mc6JXlUuMPQ.58001/3107f1f4ed0eb44baf" style="max-width: 480px;" title="Batal kirim pesan apa pun" alt=" Batal kirim pesan apa pun">
+<source src="/file/811140386/137b/JsWWEUuVuKE.867807.mp4/09a0afd95f3285e521" type="video/mp4">
+</video>
+</div>
+<p>Bersamaan dengan pengaturan privasi untuk <a href="/blog/unsend-privacy-emoji#anonymous-forwarding">pesan yang diteruskan] </a>, hal ini membuat bertukar pesan di Telegram mirip dengan percakapan di dunia nyata (tanpa alat perekam). Alhasil, pengguna tidak perlu lagi khawatir akan data terakumulasi dalam obrolan mereka bertahun-tahun. Kedua belah pihak dalam percakapan memiliki kendali penuh atas yang berasal dan tidak berasal dari identitas online mereka.</p>
+<h4>
+<a class="anchor" name="q-dapatkah-saya-membuat-panggilan-via-telegram" href="#q-dapatkah-saya-membuat-panggilan-via-telegram">
+<i class="anchor-icon">
+</i>
+</a>Q: Dapatkah saya membuat panggilan via Telegram?</h4>
+<p>Ya! Anda dapat membuat <a href="https://telegram.org/blog/calls">Panggilan Suara</a> dan <a href="https://telegram.org/blog/video-calls">Panggilan Video</a> yang terenkripsi secara end-to-end. Anda juga dapat mengubah panggilan apa pun menjadi <a href="/blog/group-calls-made-easy">Panggilan Grup</a> dengan hingga <strong>200 peserta</strong> — juga dilindungi oleh enkripsi end-to-end, yang dapat Anda verifikasi kapan pun.</p>
+<p>Peserta dapat <a href="/blog/comments-in-video-chats-threads-for-bots#comments-and-reactions-in-group-calls">mengirim komentar dan reaksi</a> langsung dari dalam panggilan tanpa menyela percakapan.</p>
+<p>Jika Anda menginginkan obrolan audio berkelanjutan yang terbuka untuk anggota grup kapan pun, Anda dapat memulai <a href="/blog/voice-chats">Obrolan Suara</a> — cocok untuk yang menginginkan suasana kantor virtual atau tempat nongkrong santai.</p>
+<h4>
+<a class="anchor" name="q-dapatkah-saya-melakukan-siaran-kepada-hadirin-yang-besar" href="#q-dapatkah-saya-melakukan-siaran-kepada-hadirin-yang-besar">
+<i class="anchor-icon">
+</i>
+</a>Q: Dapatkah saya melakukan siaran kepada hadirin yang besar?</h4>
+<p>Ya. Setiap pengguna dapat menyelenggarakan <strong>Cerita Langsung</strong> — siaran langsung yang muncul sebagai Cerita. Pemirsa dapat <a href="/blog/live-stories-gift-auctions#live-stories">mengirim komentar dan menyumbang Stars</a> selama siaran berlangsung.</p>
+<p>Pemilik channel dapat menyelenggarakan <strong>Tayangan Langsung</strong> dengan jumlah penonton tanpa batas. Gunakan untuk  menyiarkan acara, kuliah, pengumuman, atau konser. Lakukan langsung dari ponsel atau gunakan <a href="/blog/downloads-attachments-streaming#live-streaming-with-other-apps">perangkat lunak penyiaran</a> seperti OBS untuk produksi lengkap.</p>
+<h4>
+<a class="anchor" name="q-bagaimana-saya-dapat-menggunakan-emotikon" href="#q-bagaimana-saya-dapat-menggunakan-emotikon">
+<i class="anchor-icon">
+</i>
+</a>Q: Bagaimana saya dapat menggunakan emotikon?</h4>
+<p>Ketik <strong>satu kata</strong> dalam <em>input field</em> untuk mendapatkan <a href="https://t.me/TelegramTips/221">saran emoji</a> yang relevan. Anda juga dapat mengetik “:” diikuti dengan kata kunci apa pun untuk membuka <strong>pencarian emoji</strong>, seperti <em>:heart</em>.</p>
+<p>Anda dapat menyarankan kata kunci emoji yang belum ada dalam bahasa Anda menggunakan <a href="https://translations.telegram.org/en/emoji">antarmuka ini</a> (tindakan ini akan membuka halaman saran untuk <em>bahasa Inggris</em>, jangan lupa untuk beralih ke <em>bahasa</em> Anda di menu kiri).</p>
+<h3>
+<a class="anchor" name="grup-dan-channel" href="#grup-dan-channel">
+<i class="anchor-icon">
+</i>
+</a>Grup dan Channel</h3>
+<h4>
+<a class="anchor" name="q-apa-yang-membuat-grup-telegram-keren" href="#q-apa-yang-membuat-grup-telegram-keren">
+<i class="anchor-icon">
+</i>
+</a>Q: Apa yang membuat grup Telegram keren?</h4>
+<p>Masing-masing grup Telegram dapat menampung hingga <em>200.000 anggota</em> dan merupakan media komunikasi yang sangat kuat. Berikut adalah beberapa fitur utama yang membuat grup Telegram menonjol dalam dunia pengiriman pesan.</p>
+<p>
+<strong>Riwayat terpadu</strong>
+<br>Edit pesan Anda setelah diposting atau hapus agar hilang bagi semuanya.</p>
+<p>
+<strong>Ketersediaan lintas platform</strong>
+<br>Akses pesan Anda kapan pun, dari nomor apa pun di ponsel atau perangkat desktop Anda.</p>
+<p>
+<strong>Pencarian instan</strong>
+<br>Temukan pesan yang Anda sedang cari di antara jutaan lainnya. Saring berdasarkan pengirim untuk mempermudah pencarian.</p>
+<p>
+<strong>Balasan, sebutan, tagar</strong>
+<br>Secara mudah telusuri percakapan dan pertahankan komunikasi yang efisien, terlepas dari ukuran grup. </p>
+<p>
+<strong>Notifikasi cerdas</strong>
+<br>Senyapkan grup untuk mendapat notifikasi hanya saat orang lain menyebut Anda atau membalas pesan Anda.</p>
+<p>
+<strong>Pesan tersemat</strong>
+<br>Anda dapat menyemat pesan apa pun untuk ditampilkan di atas halaman obrolan. Semua anggota akan mendapat notifikasi meskipun mereka membisukan pesan biasa dalam grup Anda.</p>
+<p>
+<strong>Fungsi moderasi</strong>
+<br>Angkat administrator yang dapat menghapus pesan secara massal, mengelola keanggotaan, dan menyemat pesan yang penting. Definisikan hak admin mereka dengan rinci.</p>
+<p>
+<strong>Fitur anti-spam</strong>
+<br>Dalam grup besar, aktifkan <a href="/blog/ultimate-privacy-topics-2-0#aggressive-anti-spam">Anti-Spam Agresif</a> untuk memanfaatkan seluruh fitur anti-spam Telegram.</p>
+<p>
+<strong>Perizinan grup</strong>
+<br>Atur perizinan awal untuk membatasi kemampuan semua anggota untuk memposting jenis konten tertentu. Atau bahkan batasi kemampuan anggota untuk mengirim pesan apa pun – dan biarkan admin bercakap-cakap dengan satu sama lain, sementara yang lain menonton.</p>
+<p>
+<strong>Pembagian berkas</strong>
+<br>Kirim dan terima berkas bertipe apa pun, masing-masing berukuran hingga 2 GB, dan akses secara instan dari perangkat lain Anda.</p>
+<p>
+<strong>Topik</strong>
+<br>Pilah diskusi grup menjadi beberapa <a href="/blog/topics-in-groups-collectible-usernames#topics-in-groups">topik</a> — masing-masing dengan riwayat obrolan, media bersama, dan pengaturan notifikasi sendiri, seperti forum klasik.</p>
+<p>
+<strong>Grup publik</strong>
+<br>Dapatkan <a href="#username-dan-t-me">tautan pendek</a> bagi grup Anda dan jadikan publik, seperti <a href="https://t.me/publictestgroup">t.me/publictestgroup</a>. Dengan demikian, siapa pun dapat melihat seluruh riwayat obrolan grup dan bergabung untuk memposting pesan.</p>
+<p>
+<strong>Boost untuk grup</strong>
+<br>Boost merupakan fitur grup Telegram yang membuka utilitas baru dengan mengandalkan bantuan anggota melalui <a href="/faq_premium">Langganan Premium</a>. Contoh manfaat program: <a href="/blog/february2024#stories-from-groups">postingan cerita</a>, <a href="/blog/february2024#group-emoji-packs">paket emoji kustom</a>, <a href="/blog/february2024#voice-to-text-and-more">konversi audio ke teks</a>, dan <a href="/blog/february2024#emoji-status-covers-wallpapers-and-link-styles">tampilan grup kustom</a>.</p>
+<p>
+<strong>Kustomisasi via bot</strong>
+<br>Buat peralatan khusus untuk kebutuhan spesifik dengan <a href="https://core.telegram.org/bots">Bot API</a> dan <a href="https://core.telegram.org/bots/inline">Inline Bot</a> kami.</p>
+<p>
+<strong>Meninggalkan grup dengan tertib</strong>
+<br>Jika Anda pemilik dan ingin meninggalkan grup, <a href="/blog/crafting-android-design-and-more#leaving-groups-to-a-new-admin">pilih pemilik baru</a> seiring Anda keluar agar grup tetap berjalan.</p>
+<h4>
+<a class="anchor" name="q-apa-perbedaan-grup-dan-channel" href="#q-apa-perbedaan-grup-dan-channel">
+<i class="anchor-icon">
+</i>
+</a>Q: Apa perbedaan grup dan channel?</h4>
+<p>
+<strong>Grup</strong> Telegram cocok untuk membagikan informasi dengan teman atau keluarga atau berkolaborasi dalam tim kecil. Namun, grup juga dapat bertumbuh sangat besar dan mendukung komunitas beranggotakan hingga 200.000 anggota. Anda dapat menjadikan grup apa pun <strong>publik</strong>, menyalakan atau mematikan <strong>riwayat persisten</strong> untuk mengontrol akses anggota ke pesan sebelumnya, dan mengangkat <strong>administrator</strong> dengan hak istimewa terperinci. Anda dapat juga menyemat pesan yang penting ke atas layar sehingga seluruh anggota dapat melihatnya, termasuk mereka yang baru saja bergabung.</p>
+<p>
+<strong>Channel</strong> adalah alat penyiaran pesan untuk pelanggan berjumlah besar. Faktanya, sebuah channel dapat menampung pelanggan dengan jumlah tak terbatas. Ketika Anda memposting dalam sebuah channel, pesan ditandatangani dengan nama dan foto channel dan bukan Anda. Tiap pesan dalam sebuah channel mempunyai <strong>penghitung jumlah lihat</strong> yang akan diperbarui setiap kali pesan dilihat, termasuk salinan terusannya.</p>
+<blockquote>
+<p>
+<a href="/faq_channels">Baca selengkapnya tentang channel di Channel FAQ »</a>
+</p>
+</blockquote>
+<h4>
+<a class="anchor" name="q-bagaimana-saya-dapat-membuat-grup" href="#q-bagaimana-saya-dapat-membuat-grup">
+<i class="anchor-icon">
+</i>
+</a>Q: Bagaimana saya dapat membuat grup?</h4>
+<p>
+<em>iOS:</em> Mulai pesan baru (ketuk ikon di pojok kanan atas daftar Obrolan) &gt; &#39;Grup Baru&#39;.<br>
+<em>Android:</em> Ketuk ikon pensil bundar  &gt; &#39;Grup Baru&#39;.<br>
+<em>Telegram Desktop:</em> Klik tombol menu di pojok kiri atas &gt; &#39;Grup Baru&#39;.</p>
+<h4>
+<a class="anchor" name="q-dapatkah-saya-mengangkat-administrator" href="#q-dapatkah-saya-mengangkat-administrator">
+<i class="anchor-icon">
+</i>
+</a>Q: Dapatkah saya mengangkat administrator?</h4>
+<p>Anda dapat menambah administrator untuk membantu Anda mengelola grup dan mendefinisikan hak istimewa mereka dengan rinci.</p>
+<p>
+<em>iOS:</em> Buka Info Grup (ketuk foto di pojok kanan atas dalam layar obrolan grup) &gt; Edit &gt; Administrator.<br>
+<em>Android:</em> Buka Info Grup (ketuk nama dalam tajuk) &gt; ikon pensil (di pojok kanan atas) &gt; Administrator.<br>
+<em>Telegram Desktop:</em> Ketika dalam grup, klik &#39;…&#39; di pojok kanan atas &gt; Kelola grup &gt; Administrator.</p>
+<h4>
+<a class="anchor" name="q-bagaimana-saya-dapat-menambah-lebih-banyak-anggota-apa-itu-tau" href="#q-bagaimana-saya-dapat-menambah-lebih-banyak-anggota-apa-itu-tau">
+<i class="anchor-icon">
+</i>
+</a>Q: Bagaimana saya dapat menambah lebih banyak anggota? Apa itu tautan undangan?</h4>
+<p>Anda dapat menambahkan kontak Anda atau menggunakan pencarian berdasarkan <a href="#q-apa-itu-username-bagaimana-saya-mendapatkannya">username</a>.</p>
+<p>Sangatlah mudah untuk memigrasikan grup yang sudah ada ke Telegram dengan mengirim orang <strong>tautan undangan</strong>. Untuk membuat tautan undangan, buka Info Grup &gt; Tambah Anggota &gt; Undang ke Grup via Tautan.</p>
+<p>Siapa pun yang telah memasang Telegram akan dapat masuk grup Anda dengan mengikuti tautan ini. Tautan akan langsung berhenti berfungsi seketika Anda mencabutnya. </p>
+<blockquote>
+<p>
+<a href="/blog/invite-links">Baca tentang tautan undangan selengkapnya dalam blog kami »</a>
+</p>
+</blockquote>
+<h3>
+<a class="anchor" name="q-dapatkah-channel-dan-pelanggan-berbicara-dengan-satu-sama-lain" href="#q-dapatkah-channel-dan-pelanggan-berbicara-dengan-satu-sama-lain">
+<i class="anchor-icon">
+</i>
+</a>Q: Dapatkah channel dan pelanggan berbicara dengan satu sama lain?</h3>
+<p>Ya. Pemilik channel dapat mengaktifkan <a href="/blog/direct-to-channel-trim-voice-and-more#send-direct-messages-to-channels">Pesan Langsung</a> sehingga pelanggan dapat mengirim pesan pribadi kepada mereka. Pemilik channel tidak akan perlu membagikan akun pribadi mereka.</p>
+<p>Pelanggan juga dapat <a href="/blog/checklists-suggested-posts#suggest-posts-in-channels">menyarankan postingan</a> — yang dapat berbayar. Pemilik dapat meninjau, mengedit, menjadwalkan, atau menolaknya. Hal ini akan memudahkan pengumpulan konten dari banyak orang dan kolaborasi dengan merek.</p>
+<h3>
+<a class="anchor" name="username-dan-t-me" href="#username-dan-t-me">
+<i class="anchor-icon">
+</i>
+</a>Username dan t.me</h3>
+<h4>
+<a class="anchor" name="q-apa-itu-username-bagaimana-saya-mendapatkannya" href="#q-apa-itu-username-bagaimana-saya-mendapatkannya">
+<i class="anchor-icon">
+</i>
+</a>Q: Apa itu username? Bagaimana saya mendapatkannya?</h4>
+<p>Anda dapat mengatur username <strong>publik</strong> di Telegram yang akan memungkinkan pengguna lain untuk menemukan Anda dengannya. Anda akan muncul dalam pencarian kontak di bawah ‘hasil global’. Ingat bahwa orang yang menemukan Anda dapat mengirim Anda pesan meskipun tidak tahu nomor telepon Anda. Jika Anda tidak nyaman dengan hal ini, kami sarankan untuk tidak mengatur username di Telegram.</p>
+<p>Anda dapat mengatur username di Pengaturan dan menggunakan kotak pencarian universal dalam daftar obrolan untuk mencari obrolan, pesan, dan username.</p>
+<h4>
+<a class="anchor" name="q-apa-itu-username-eksklusif-apa-yang-membedakannya-dari-usernam" href="#q-apa-itu-username-eksklusif-apa-yang-membedakannya-dari-usernam">
+<i class="anchor-icon">
+</i>
+</a>Q: Apa itu Username Eksklusif? Apa yang membedakannya dari username biasa?</h4>
+<p>Username eksklusif bekerja sama seperti <a href="#q-apa-itu-username-bagaimana-saya-mendapatkannya">username biasa</a>, muncul dalam hasil Pencarian Global dan mempunyai tautan tersendiri yang dapat digunakan di luar Telegram: username.t.me dan t.me/username.</p>
+<p>Username eksklusif dapat dibeli dan dijual melalui <a href="https://fragment.com/">platform lelang Fragment</a>, yang memberikan cara yang sederhana dan aman untuk memperoleh dan bertukar domain berharga Telegram. Perolehan username melalui platform memberikan kepemilikan secara permanen, diverifikasi dengan blockchain TON. Pemilik username eksklusif dapat dengan bebas <strong>memasangnya</strong> untuk obrolan, <strong>menjualnya</strong> ke orang lain, atau <strong>menyimpannya</strong> untuk penggunaan di masa mendatang.</p>
+<p>Seorang pengguna, grup, atau channel dapat memiliki beberapa username eksklusif yang mengarah ke profil mereka sekaligus. Masing-masing memiliki tautan <code>t.me/username</code> dan alamat <code>username.t.me</code> sendiri.</p>
+<h4>
+<a class="anchor" name="q-bagaimana-cara-kerja-t-me" href="#q-bagaimana-cara-kerja-t-me">
+<i class="anchor-icon">
+</i>
+</a>Q: Bagaimana cara kerja t.me?</h4>
+<p>Setelah Anda mengatur username, Anda dapat memberi orang sebuah tautan <a href="https://t.me/username">t.me/username</a> atau <a href="https://username.t.me">username.t.me</a>. Kedua tautan tersebut akan secara otomatis membawa mereka ke aplikasi Telegram dan membuka obrolan dengan Anda. Anda dapat membagikan tautan username dengan teman, menulisnya di kartu nama, atau memajangnya di website Anda.</p>
+<p>Dengan demikian, orang lain dapat menghubungi Anda di Telegram tanpa perlu nomor telepon Anda.<br>Jika Anda tidak ingin mengatur username publik dan tidak keberatan membagikan nomor telepon, Anda juga dapat membuat tautan t.me <a href="/blog/downloads-attachments-streaming#phone-number-links">menggunakan nomor telepon Anda</a> dalam <strong>format internasional</strong>, misalnya <strong>t.me/+123456789</strong>. Tipe tautan ini dapat dengan cepat membuka obrolan dengan Anda dari aplikasi apa pun, namun hanya akan berfungsi jika [pengaturan privasi](#q-siapa-yang-dapat-melihat-nomor-saya Anda) mengizinkan orang lain menemukan Anda berdasarkan nomor telepon.</p>
+<h4>
+<a class="anchor" name="q-apa-yang-dapat-saya-pakai-untuk-username" href="#q-apa-yang-dapat-saya-pakai-untuk-username">
+<i class="anchor-icon">
+</i>
+</a>Q: Apa yang dapat saya pakai untuk username?</h4>
+<p>Anda dapat menggunakan a-z, 0-9, dan garis bawah. Username tidak peka kapital (huruf besar dan kecil tidak diperhatikan), tetapi Telegram akan menyimpan preferensi kapitalisasi Anda (sebagai contoh, Telegram dan TeleGram adalah pengguna yang sama). Username biasa wajib memiliki minimal 5 karakter, tetapi panjang <a href="#q-apa-itu-username-eksklusif-apa-yang-membedakannya-dari-usernam">username eksklusif</a> dapat lebih pendek.</p>
+<h4>
+<a class="anchor" name="q-apakah-saya-butuh-username" href="#q-apakah-saya-butuh-username">
+<i class="anchor-icon">
+</i>
+</a>Q: Apakah saya butuh username?</h4>
+<p>Anda tidak harus memiliki username. Ingat bahwa username Telegram bersifat publik. Mengatur username di Telegram memungkingkan orang lain untuk menemukan Anda dalam pencarian global dan mengirim Anda pesan meskipun tidak memiliki nomor Anda. Jika Anda tidak nyaman dengan hal ini, kami sarankan untuk tidak mengatur username.</p>
+<h4>
+<a class="anchor" name="q-jika-seseorang-menemukan-saya-dengan-username-mengirim-pesan-d" href="#q-jika-seseorang-menemukan-saya-dengan-username-mengirim-pesan-d">
+<i class="anchor-icon">
+</i>
+</a>Q: Jika seseorang menemukan saya dengan username, mengirim pesan, dan saya membalasnya — akankah mereka mengetahui nomor saya?</h4>
+<p>Tidak. Kedua belah pihak tidak akan melihat nomor telepon satu sama lain (kecuali jika diizinkan dalam <a href="#q-siapa-yang-dapat-melihat-nomor-saya">pengaturan privasi</a>). Hal ini mirip dengan kasus yang melibatkan Anda mengirim pesan ke seseorang yang telah Anda temui dalam sebuah grup Telegram.</p>
+<h4>
+<a class="anchor" name="q-bagaimana-saya-dapat-menghapus-username-saya" href="#q-bagaimana-saya-dapat-menghapus-username-saya">
+<i class="anchor-icon">
+</i>
+</a>Q: Bagaimana saya dapat menghapus username saya?</h4>
+<p>Buka Pengaturan dan kosongkan username. Hal ini akan menghapus username Anda sehingga orang lain tidak akan dapat lagi menemukan Anda via pencarian. Tindakan ini tidak akan mempengaruhi percakapan yang sudah ada.</p>
+<h4>
+<a class="anchor" name="q-apa-yang-saya-lakukan-apabila-username-saya-sudah-terambil" href="#q-apa-yang-saya-lakukan-apabila-username-saya-sudah-terambil">
+<i class="anchor-icon">
+</i>
+</a>Q: Apa yang saya lakukan apabila username saya sudah terambil?</h4>
+<p>Terdapat dua tipe username di Telegram, <a href="#q-apa-itu-username-bagaimana-saya-mendapatkannya">username biasa</a> dan <a href="#q-apa-itu-username-eksklusif-apa-yang-membedakannya-dari-usernam">username eksklusif</a>.</p>
+<p>
+<strong>Username Biasa</strong>
+</p>
+<p>Pendistribusian username <strong>biasa</strong> Telegram bersifat pertama datang — pertama dilayani.</p>
+<p>Kami paham bahwa username tertentu merupakan bagian dari identitas online bagi beberapa orang. Apabila username yang diinginkan telah terambil, kami bersedia membantu mendapatkannya untuk akun atau channel Anda, namun Anda perlu menunjukkan bahwa Anda memiliki username yang sama di minimal <strong>dua</strong> layanan berikut: Facebook, Twitter, Instagram.</p>
+<p>Karena satu akun dapat mendaftarkan lebih dari satu username bot dan channel, kami berhak mengambil alih username yang dipadankan dengan bot atau channel yang sudah tidak terpakai, termasuk username yang ilegal.</p>
+<p>Untuk meminta sebuah username, hubungi <a href="https://t.me/username_bot">@Username_bot</a>.</p>
+<p>
+<strong>Username Eksklusif</strong>
+<br>Jika Anda ingin suatu username eksklusif yang sudah terambil, Anda perlu memeriksa apakah username tersebut sedang <a href="https://fragment.com/">dijual</a>. Kami tidak dapat memasang username eksklusif karena hanya dapat dikelola oleh <strong>pemiliknya masing-masing</strong>.</p>
+<h4>
+<a class="anchor" name="q-bagaimana-jika-seseorang-berpura-pura-menjadi-saya" href="#q-bagaimana-jika-seseorang-berpura-pura-menjadi-saya">
+<i class="anchor-icon">
+</i>
+</a>Q: Bagaimana jika seseorang berpura-pura menjadi saya?</h4>
+<p>Jika seorang penipu berpura-pura menjadi Anda, harap hubungi <a href="https://t.me/notoscam">@NoToScam</a>.</p>
+<h3>
+<a class="anchor" name="keamanan" href="#keamanan">
+<i class="anchor-icon">
+</i>
+</a>Keamanan</h3>
+<blockquote>
+<p>Jika Anda merupakan pengguna lanjutan, Anda mungkin mendapati <a href="https://core.telegram.org/techfaq">FAQ Bagi Orang Teknis</a> bermanfaat.</p>
+</blockquote>
+<h4>
+<a class="anchor" name="q-seberapa-amankah-telegram" href="#q-seberapa-amankah-telegram">
+<i class="anchor-icon">
+</i>
+</a>Q: Seberapa amankah Telegram?</h4>
+<p>Telegram lebih aman dari aplikasi olahpesan ramai seperti WhatsApp dan Line. Kami dibangun di atas protokol MTProto (lihat <a href="https://core.telegram.org/mtproto">deskripsi</a> dan [FAQ lanjutan(https://core.telegram.org/techfaq)), yang dibentuk melalui algoritma teruji waktu untuk membuat keamanan kompatibel dengan pengantaran cepat dan keandalan dalam koneksi lemah. Kami terus berusaha untuk meningkatkan keamanan protokol dan klien bersama komunitas kami.</p>
+<h4>
+<a class="anchor" name="q-bagaimana-jika-saya-lebih-khawatir-daripada-pengguna-umum-anda" href="#q-bagaimana-jika-saya-lebih-khawatir-daripada-pengguna-umum-anda">
+<i class="anchor-icon">
+</i>
+</a>Q: Bagaimana jika saya lebih khawatir daripada pengguna umum Anda?</h4>
+<p>Kami bersedia menolong Anda. Telegram memiliki <a href="#secret-chat">Secret Chat</a>, fitur obrolan spesial yang menggunakan enkripsi end-to-end, tidak meninggalkan jejak dalam server kami, dan mendukung pesan sementara yang dapat hancur sendirinya dan tidak dapat diteruskan. Selain itu, Secret Chat bukanlah bagian dari awan Telegram dan dapat diakses hanya dari perangkat asal.</p>
+<h4>
+<a class="anchor" name="q-jadi-bagaimana-anda-mengenkripsi-data" href="#q-jadi-bagaimana-anda-mengenkripsi-data">
+<i class="anchor-icon">
+</i>
+</a>Q: Jadi, bagaimana Anda mengenkripsi data?</h4>
+<p>Kami mendukung dua lapis enkripsi aman. <a href="https://core.telegram.org/mtproto">Enkripsi server-klien</a> dipakai dalam Obrolan Awan (privat dan obrolan grup), sedangkan Secret Chat menggunakan lapis <a href="https://core.telegram.org/api/end-to-end">enkripsi klien-klien</a> tambahan. Seluruh data, terlepas dari tipenya, termasuk teks, media, atau berkas, dienkripsi dengan metode yang sama.</p>
+<p>Enkripsi kami didasarkan pada enkripsi AES 256-bit, enkripsi RSA 2048-bit, dan pertukaran kunci Diffie-Hellman. Anda dapat membaca info tambahan di <a href="https://core.telegram.org/techfaq">FAQ Lanjutan</a>.</p>
+<blockquote>
+<p>Lihat pula: <a href="https://telegram.org/faq#q-do-you-process-data-requests">Apakah Anda memproses permintaan data?</a>
+</p>
+</blockquote>
+<h4>
+<a class="anchor" name="q-mengapa-saya-harus-percaya-anda" href="#q-mengapa-saya-harus-percaya-anda">
+<i class="anchor-icon">
+</i>
+</a>Q: Mengapa saya harus percaya Anda?</h4>
+<p>Telegram bersifat terbuka. Siapa pun dapat memeriksa <a href="/apps#source-code">kode sumber</a>, <a href="//core.telegram.org/mtproto">protokol</a>, dan <a href="//core.telegram.org/api">API</a> kami, melihat cara kerjanya, lalu membuat keputusan yang bijak. Telegram mendukung <a href="https://telegram.org/blog/verifiable-apps-and-more">build yang dapat diverifikasi] </a>, yang memungkinkan ahli untuk secara independen memverifikasi bahwa kode yang kami terbitkan di Github adalah kode yang sama yang digunakan untuk membangun aplikasi dari App Store atau Google Play.</p>
+<p>Kami menyambut ahli keamanan untuk mengaudit sistem kami. Kami menghargai setiap masukan yang dikumpulkan ke <a href="mailto:security@telegram.org">security@telegram.org</a>.</p>
+<p>Di atas semuanya, fokus utama Telegram bukanlah untuk <a href="#q-bagaimana-anda-akan-menghasilkan-uang-dari-ini">menghasilkan keuntungan</a> sehingga kepentingan komersial tidak akan menghalangi misi kami.</p>
+<blockquote>
+<p>Lihat pula: <a href="/press">artikel tentang Telegram</a>
+</p>
+</blockquote>
+<h4>
+<a class="anchor" name="q-apakah-saya-perlu-memercayai-telegram-agar-hal-ini-aman" href="#q-apakah-saya-perlu-memercayai-telegram-agar-hal-ini-aman">
+<i class="anchor-icon">
+</i>
+</a>Q: Apakah saya perlu memercayai Telegram agar hal ini aman?</h4>
+<p>Mengenai <a href="#secret-chat">Secret Chat</a>, Anda tidak perlu — cukup pastikan bahwa kunci yang ditampilkan dalam Secret Chat Anda sama dengan yang ada dalam pengaturan Secret Chat teman Anda. <a href="faq#q-apa-itu-kunci-enkripsi">Selebihnya di bawah</a>.</p>
+<h4>
+<a class="anchor" name="q-bagaimana-jika-teman-saya-seorang-peretas-mengatakan-bahwa-mer" href="#q-bagaimana-jika-teman-saya-seorang-peretas-mengatakan-bahwa-mer">
+<i class="anchor-icon">
+</i>
+</a>Q: Bagaimana jika teman saya, seorang peretas, mengatakan bahwa mereka dapat memecahkan pesan Telegram?</h4>
+<blockquote>
+<p>Kunjungi <a href="https://core.telegram.org/bug-bounty">halaman ini</a> untuk rincian terbaru mengenai <a href="https://core.telegram.org/bug-bounty">Program Bug Bounty Telegram</a>.</p>
+</blockquote>
+<p>Siapa pun yang mengklaim bahwa pesan Telegram dapat dipecahkan diperbolehkan membuktikan klaim tersebut dalam kompetisi kami dan <a href="https://telegram.org/blog/cryptocontest">memenangkan $300,000</a>. Anda dapat mengunjungi <a href="https://core.telegram.org/contest300K">Deskripsi Kontes Peretasan</a> untuk mempelajari selengkapnya.</p>
+<p>Komentar apa pun mengenai keamanan Telegram dapat dikirim ke <a href="mailto:security@telegram.org">security@telegram.org</a>. Pengumpulan yang berakhir dengan perubahan kode atau konfigurasi berhak mendapat hadiah, mulai dari <strong>$100</strong> hingga <a href="https://telegram.org/blog/crowdsourcing-a-more-secure-future">
+<strong>$100,000</strong>
+</a> atau lebih, tergantung keparahan isunya. Harap ingat bahwa kami tidak memberikan hadiah untuk isu yang disingkapkan ke publik sebelum diperbaiki.</p>
+<h4>
+<a class="anchor" name="q-dapatkah-telegram-melindungi-saya-dari-semuanya" href="#q-dapatkah-telegram-melindungi-saya-dari-semuanya">
+<i class="anchor-icon">
+</i>
+</a>Q: Dapatkah Telegram melindungi saya dari semuanya?</h4>
+<p>Telegram dapat membantu dalam bidang transfer data dan komunikasi yang aman. Hal ini berarti semua data (termasuk media dan berkas) yang Anda kirim dan terima via Telegram tidak dapat dipecahkan meskipun dicegat penyedia layanan internet, pemilik router Wi-Fi yang terhubung, atau pihak ketiga lainnya.</p>
+<p>Namun, ingat bahwa kami tidak dapat melindungi Anda dari ibu Anda apabila ia mengambil ponsel Anda yang tidak terkunci dengan kode sandi. Atau dari departemen IT jika mereka mengakses komputer Anda di kantor. Atau dari orang lainnya yang mendapat akses fisik atau<a href="https://en.wikipedia.org/wiki/Superuser">root</a> ke ponsel atau komputer tempat Telegram Anda berjalan.</p>
+<p>Jika Anda mempunyai alasan untuk khawatir tentang keamanan pribadi, kami menyarankan untuk menggunakan <a href="#secret-chat">Secret Chat</a> dalam aplikasi sumber-terbuka resmi atau terverifikasi untuk informasi sensitif, sebaiknya dengan <a href="#q-bagaimana-cara-kerja-pesan-yang-hancur-sendirinya">timer penghancur otomatis</a>. Kami juga menyarankan pengaktifan Verifikasi Dua Langkah dan menyiapkan kode sandi yang kuat untuk mengunci aplikasi. Anda dapat menemukan kedua opsi dalam Pengaturan &gt; Privasi dan Keamanan.</p>
+<h4>
+<a class="anchor" name="q-bagaimana-cara-kerja-verifikasi-dua-langkah" href="#q-bagaimana-cara-kerja-verifikasi-dua-langkah">
+<i class="anchor-icon">
+</i>
+</a>Q: Bagaimana cara kerja Verifikasi Dua Langkah?</h4>
+<p>Masuk ke akun dengan kode SMS merupakan standar industri olahpesan, tetapi jika Anda menginginkan keamanan yang lebih kuat atau mempunyai alasan untuk mencurigai operator ponsel atau pemerintah Anda, kami sarankan untuk melindungi obrolan awan Anda dengan kata sandi tambahan.</p>
+<p>Anda dapat melakukan hal ini di <strong>Pengaturan &gt; Privasi dan Keamanan &gt; Verifikasi Dua Langkah</strong>. Setelah diaktifkan, Anda akan perlu baik kode SMS maupun kata sandi untuk masuk ke akun. Anda dapat juga mengatur surel pemulihan apabila Anda lupa kata sandi. Jika demikian, harap ingat bahwa penting untuk memastikan akun surel pemulihan tersebut dilindungi dengan kata sandi yang kuat dan Verifikasi Dua Langkah apabila mungkin.</p>
+<p>
+<a href="https://xkcd.com/936/">Kunjungi situs ini</a> untuk tips pembuatan kata sandi yang kuat dan juga mudah diingat.</p>
+<p>Anda juga dapat mengatur <a href="#q-apa-itu-kode-sandi">Kode Sandi</a> untuk masuk tanpa kode SMS dan sebagai gantinya menggunakan PIN perangkat, sidik jari, atau pemindaian wajah.</p>
+<h4>
+<a class="anchor" name="q-mengapa-perangkat-yang-sudah-ter-jailbreak-atau-ter-root-berba" href="#q-mengapa-perangkat-yang-sudah-ter-jailbreak-atau-ter-root-berba">
+<i class="anchor-icon">
+</i>
+</a>Q: Mengapa perangkat yang sudah ter-jailbreak atau ter-root berbahaya?</h4>
+<p>Menggunakan perangkat yang ter-root atau ter-jailbreak memungkinkan penyerang untuk mendapatkan kelola administratif perangkat Anda dengan mudah — <a href="https://en.wikipedia.org/wiki/Superuser">akses root</a>.</p>
+<p>Pengguna dengan akses root dapat dengan mudah menembus fitur keamanan yang ada dalam sistem operasi, membaca memori proses, atau mengakses area terlarang, seperti <a href="https://developer.android.com/training/data-storage#filesInternal">penyimpanan internal</a>. Setelah penyerang mendapatkan akses root, semua aksi pencegahan ancaman akan menjadi percuma. Tiada satu pun aplikasi dapat dikatakan aman dalam keadaan ini, terlepas dari seberapa kuat enkripsi yang ada.</p>
+<h4>
+<a class="anchor" name="q-apa-itu-cocoon" href="#q-apa-itu-cocoon">
+<i class="anchor-icon">
+</i>
+</a>Q: Apa itu Cocoon?</h4>
+<p>
+<a href="https://cocoon.org">Cocoon</a> merupakan platform AI terdesentralisasi yang aman dan bersifat sumber terbuka, yang memungkinkan aplikasi yang memperhatikan privasi seperti Telegram untuk menggunakan model AI terbaru.</p>
+<p>Telegram mengembangkan Cocoon dan menggunakannya untuk secara aman mentenagai fitur AI tanpa bergantung pada pihak ketiga, memastikan data Anda tetap <strong>terlindungi</strong> dan <strong>tidak dapat diakses</strong>.</p>
+<h4>
+<a class="anchor" name="q-apakah-fitur-ai-telegram-mengunggah-data-ke-pihak-ketiga" href="#q-apakah-fitur-ai-telegram-mengunggah-data-ke-pihak-ketiga">
+<i class="anchor-icon">
+</i>
+</a>Q: Apakah fitur AI Telegram mengunggah data ke pihak ketiga?</h4>
+<p>
+<strong>Tidak</strong>. Fitur AI Telegram seperti penerjemahan, gaya tulisan, <a href="/blog/new-design-ai-summaries#ai-summaries">ringkasan AI</a> untuk postingan channel panjang dan artikel Tampilan Instan, dan <a href="/blog/affiliate-programs-ai-sticker-search#ai-powered-sticker-search">pencarian stiker bertenaga AI</a> — ditenagai <a href="#q-apa-itu-cocoon">Cocoon</a> dan <strong>tidak pernah mengunggah data apa pun</strong> ke pihak ketiga.</p>
+<p>Saat Anda menggunakan fitur AI yang disediakan Telegram, pemrosesan terjadi dalam lingkungan yang sangat aman, terisolasi, dan terenkripsi – data Anda tetap tidak dapat diakses.</p>
+<blockquote>
+<p>Jika Anda menggunakan AI melalui <a href="#q-apakah-bot-dibuat-oleh-telegram">bot</a> atau Mini App pihak ketiga, Anda menggunakan <strong>layanan pihak ketiga</strong>, bukan Telegram. Periksa kebijakan privasi bot tersebut untuk detailnya.</p>
+</blockquote>
+<h4>
+<a class="anchor" name="q-model-ai-apa-yang-digunakan-telegram" href="#q-model-ai-apa-yang-digunakan-telegram">
+<i class="anchor-icon">
+</i>
+</a>Q: Model AI apa yang digunakan Telegram?</h4>
+<p>Fitur AI Telegram seperti penerjemahan dan gaya tulisan ditenagai <a href="#q-apa-itu-cocoon">Cocoon</a>. Cocoon merupakan platform AI terdesentralisasi yang aman dan bersifat sumber terbuka, yang memungkinkan aplikasi yang memperhatikan privasi seperti Telegram untuk menggunakan model AI terbaru.</p>
+<p>Saat Anda menggunakan fitur AI yang disediakan Telegram, pemrosesan terjadi dalam lingkungan yang sangat aman, terisolasi, dan terenkripsi – data Anda tetap tidak dapat diakses.</p>
+<blockquote>
+<p>Jika Anda menggunakan AI melalui <a href="#q-apakah-bot-dibuat-oleh-telegram">bot</a> atau Mini App pihak ketiga, Anda menggunakan <strong>layanan pihak ketiga</strong>, bukan Telegram. Periksa kebijakan privasi bot tersebut untuk detailnya.</p>
+</blockquote>
+<h3>
+<a class="anchor" name="secret-chat" href="#secret-chat">
+<i class="anchor-icon">
+</i>
+</a>Secret Chat</h3>
+<h4>
+<a class="anchor" name="q-mengapa-secret-chat-berbeda" href="#q-mengapa-secret-chat-berbeda">
+<i class="anchor-icon">
+</i>
+</a>Q: Mengapa Secret Chat berbeda?</h4>
+<p>Secret Chat diperuntukkan bagi pengguna yang menginginkan kerahasiaan lebih daripada umumnya. Semua pesan dalam Secret Chat menggunakan enkripsi end-to-end. Hal ini berarti hanya Anda dan penerima yang dapat membaca pesan tersebut. Orang lain tidak dapat memecahkannya, termasuk kami di Telegram (<a href="#q-dapatkah-telegram-melindungi-saya-dari-semuanya">selengkapnya di sini</a>). Selanjutnya, pesan dalam Secret Chat tidak dapat diteruskan ke luar. Selain itu, saat Anda menghapus pesan dari sisi Anda, pesan juga akan dihapus dari sisi lawan bicara juga. </p>
+<p>Anda dapat menyetel pesan, foto, video, dan berkas Anda untuk <a href="#q-bagaimana-cara-kerja-pesan-yang-hancur-sendirinya">hancur dengan sendirinya</a> dalam jangka waktu tertentu setelah dibaca atau dibuka penerima. Pesan terkait akan hilang dari perangkat Anda dan teman Anda.</p>
+<p>Semua Secret Chat di Telegram hanya dapat diakses di perangkat asalnya dan bukan bagian dari awan Telegram. Hal ini berarti Anda hanya dapat mengakses pesan dalam Secret Chat dari perangkat asalnya. Secret Chat aman selama perangkat Anda tidak hilang.</p>
+<h4>
+<a class="anchor" name="q-bagaimana-saya-dapat-memulai-secret-chat" href="#q-bagaimana-saya-dapat-memulai-secret-chat">
+<i class="anchor-icon">
+</i>
+</a>Q: Bagaimana saya dapat memulai Secret Chat?</h4>
+<p>Buka profil pengguna yang Anda ingin hubungi. Ketuk ‘…’, lalu ‘Mulai Secret Chat’.</p>
+<p>Ingat bahwa Secret Chat Telegram hanya dapat diakses di perangkat asalnya. Jika Anda memulai Secret Chat dengan teman di salah satu perangkat Anda, obrolan tersebut hanya akan tersedia di perangkat itu saja. Jika Anda keluar dari akun, Anda akan kehilangan semua Secret Chat. Anda dapat membuat Secret Chat sebanyak apa pun dengan kontak yang sama.</p>
+<h4>
+<a class="anchor" name="q-bagaimana-cara-kerja-pesan-yang-hancur-sendirinya" href="#q-bagaimana-cara-kerja-pesan-yang-hancur-sendirinya">
+<i class="anchor-icon">
+</i>
+</a>Q: Bagaimana cara kerja pesan yang hancur sendirinya?</h4>
+<p>Timer Penghancur Otomatis tersedia untuk <strong>semua pesan</strong> dalam Secret Chat dan untuk <strong>media</strong> dalam obrolan awan privat.</p>
+<p>Untuk mengatur timer, cukup ketuk ikon jam (dalam <em>input field</em> di iOS, di bilah atas untuk Android), lalu pilih batas waktu yang diinginkan. Waktu akan mulai bergerak sejak pesan ditampilkan di layar penerima (mendapat centang dua). Seketika waktu habis, pesan akan menghilang dari <strong>kedua</strong> perangkat. Kami akan mengirim Anda notifikasi jika ada yang mengambil tangkapan layar.</p>
+<p>Harap ingat bahwa timer dalam Secret Chat hanya berlaku untuk pesan yang dikirimkan <strong>setelah</strong> timer diatur. Pesan sebelumnya tidak terpengaruh.</p>
+<h4>
+<a class="anchor" name="q-bagaimana-saya-dapat-yakin-bahwa-lawan-percakapan-saya-tidak-m" href="#q-bagaimana-saya-dapat-yakin-bahwa-lawan-percakapan-saya-tidak-m">
+<i class="anchor-icon">
+</i>
+</a>Q: Bagaimana saya dapat yakin bahwa lawan percakapan saya tidak mengambil tangkapan layar?</h4>
+<p>Sayangnya, tidak ada cara terjamin untuk mendeteksi pengambilan tangkapan layar dalam sistem tertentu (terutama beberapa perangkat Android dan Windows Phone). Kami akan berusaha dengan semaksimal mungkin untuk mengingatkan Anda apabila tangkapan layar diambil dalam Secret Chat, tetapi tetap ada kemungkinan bahwa notifikasi dapat dikelabui dan tangkapan layar dapat diambil secara diam-diam. Oleh karena itu, kami menyarankan Anda untuk membagikan informasi sensitif hanya dengan orang-orang yang Anda percayai. Lagi pula, tiada seorang pun dapat menghentikan seseorang dari mengambil foto layar mereka dengan perangkat lainnya atau dengan kamera.</p>
+<h4>
+<a class="anchor" name="q-apa-itu-39kunci-enkripsi-39" href="#q-apa-itu-39kunci-enkripsi-39">
+<i class="anchor-icon">
+</i>
+</a>Q: Apa itu &#39;Kunci Enkripsi&#39;?</h4>
+<p>Ketika Secret Chat dibuat, perangkat yang berpartisipasi bertukar kunci enkripsi menggunakan <a href="https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange">pertukaran kunci Diffie-Hellman</a>. Setelah koneksi end-to-end aman tercapai, kami menampilkan gambar yang memvisualisasikan kunci enkripsi di obrolan Anda. Anda dapat kemudian membandingkan gambar ini dengan yang dimiliki teman Anda. Jika kedua gambar sama, Anda dapat yakin bahwa Secret Chat tersebut aman, dan tidak ada <a href="https://en.wikipedia.org/wiki/Man-in-the-middle_attack">serangan man-in-the-middle</a> yang berhasil.</p>
+<p>Versi aplikasi Telegram yang lebih baru akan menampilkan gambar yang lebih besar beserta representasi teks dari kunci tersebut (bukan kunci aslinya, tentunya!) saat kedua partisipan menggunakan aplikasi terbaru.</p>
+<p>Selalu bandingkan visualisasi menggunakan channel yang diketahui aman. Cara paling aman adalah dengan membandingkannya dengan bertemu secara fisik atau dengan rapat offline dengan lawan percakapan.</p>
+<h4>
+<a class="anchor" name="q-mengapa-tidak-semua-obrolan-dibuat-39secret-39" href="#q-mengapa-tidak-semua-obrolan-dibuat-39secret-39">
+<i class="anchor-icon">
+</i>
+</a>Q: Mengapa tidak semua obrolan dibuat &#39;Secret&#39;?</h4>
+<p>Semua pesan Telegram selalu dienkripsi dengan aman. Pesan dalam Secret Chat menggunakan enkripsi <strong>klien-klien</strong>, sedangkan Obrolan Awan menggunakan enkripsi <strong>klien-server/server-klien</strong> dan disimpan terenkripsi dalam Awan Telegram (selengkapnya <a href="https://telegram.org/privacy#4-1-storing-data">di sini</a>). Hal ini membuat pesan awan Anda <a href="#q-bagaimana-anda-memproses-permintaan-data">aman</a> dan juga tersedia di semua perangkat, termasuk ketika Anda kehilangan perangkat Anda.</p>
+<p>Masalah mengembalikan akses ke riwayat percakapan dalam perangkat yang baru saja terhubung (seperti ketika Anda kehilangan ponsel Anda) tidak memiliki solusi elegan dengan paradigma enkripsi end-to-end. Secara bersamaan, cadangan andal adalah fitur penting bagi semua aplikasi olahpesan massal. Untuk memecahkan masalah ini, beberapa aplikasi (seperti Whatsapp dan Viber) mengizinkan <a href="https://www.eff.org/deeplinks/2016/10/where-whatsapp-went-wrong-effs-four-biggest-security-concerns">cadangan yang dapat didekripsi</a> yang dapat membahayakan privasi pengguna, termasuk saat cadangan tidak diaktifkan. Aplikasi lainnya mengabaikan pentingnya cadangan dan meninggalkan penggunanya rentan terhadap hilangnya data.</p>
+<p>Kami memilih pendekatan ketiga yaitu dengan menyediakan dua tipe obrolan terpisah. Telegram menonaktifkan cadangan sistem bawaan dan menyediakan solusi cadangan berfokus keamanan kepada seluruh penggunanya dalam bentuk Obrolan Awan. Sementara itu, entitas terpisah Secret Chat memberikan Anda kelola penuh atas data yang Anda minta tidak disimpan.</p>
+<p>Hal ini memungkinkan Telegram untuk diterapkan dalam lingkungan yang lebih luas, tidak hanya bagi aktivis atau pembangkang, sehingga penggunaan Telegram tidak mendefinisikan pengguna sebagai target pengawasan lebih di negara tertentu. Kami sepenuhnya yakin bahwa pemisahan percakapan menjadi Obrolan Awan dan Secret Chat adalah solusi paling aman yang mungkin untuk aplikasi olahpesan yang populer.</p>
+<blockquote>
+<p>Lihat juga: <a href="https://telegra.ph/Why-Isnt-Telegram-End-to-End-Encrypted-by-Default-08-14">Mengapa Telegram Tidak Terenkripsi End-to-End “secara Default”</a>
+</p>
+</blockquote>
+<h3>
+<a class="anchor" name="akun-anda" href="#akun-anda">
+<i class="anchor-icon">
+</i>
+</a>Akun Anda</h3>
+<h4>
+<a class="anchor" name="q-siapa-yang-dapat-melihat-nomor-saya" href="#q-siapa-yang-dapat-melihat-nomor-saya">
+<i class="anchor-icon">
+</i>
+</a>Q: Siapa yang dapat melihat nomor saya?</h4>
+<p>Di Telegram, Anda dapat mengirim pesan dalam obrolan dan grup privat tanpa perlu menampilkan nomor ponsel Anda. Secara default, nomor Anda hanya tampak untuk pengguna yang sudah Anda tambahkan ke buku alamat. Anda dapat mengubah pengaturan ini di <em>Pengaturan &gt; Privasi dan Keamanan &gt; Nomor Ponsel</em>.</p>
+<blockquote>
+<p>Ingat bahwa orang lain akan selalu dapat melihat nomor Anda jika sudah tahu dan <strong>menyimpannya</strong> dalam buku alamat mereka.</p>
+</blockquote>
+<h4>
+<a class="anchor" name="q-saya-mempunyai-nomor-telepon-baru-apa-yang-dapat-saya-lakukan" href="#q-saya-mempunyai-nomor-telepon-baru-apa-yang-dapat-saya-lakukan">
+<i class="anchor-icon">
+</i>
+</a>Q: Saya mempunyai nomor telepon baru. Apa yang dapat saya lakukan?</h4>
+<p>Setiap nomor telepon adalah akun yang <strong>terpisah</strong> di Telegram. Anda mempunyai beberapa opsi jika Anda menggunakan beberapa nomor ponsel:</p>
+<ul>
+<li>Jika Anda <strong>tidak akan lagi menggunakan nomor lama Anda</strong> (seperti ketika berpindah ke negara baru atau mengubah nomor), cukup buka Pengaturan dan <a href="#q-bagaimana-saya-dapat-mengganti-nomor-telepon">ganti nomor</a> yang terhubung dengan akun Telegram Anda menjadi nomor baru Anda. <strong>Penting:</strong> Pastikan Anda dapat mengakses nomor telepon yang terhubung. Jika tidak, Anda dapat kehilangan akses akun Anda.</li>
+<li>Jika Anda akan menggunakan nomor baru hanya untuk <strong>sementara</strong> (seperti saat sedang bertamasya), Anda tidak perlu melakukan apa-apa.</li>
+<li>Jika Anda ingin tetap menggunakan <strong>kedua nomor</strong> (seperti nomor telepon dan nomor pribadi), pilih salah satu sebagai nomor Telegram. Anda juga <em>dapat</em> membuat akun Telegram yang lain menggunakan nomor kedua, jika Anda ingin memisahkan obrolan pekerjaan dan pribadi. Anda juga dapat masuk ke aplikasi Telegram menggunakan beberapa <a href="https://telegram.org/blog/autoplay#multiple-account-support">akun</a> berbeda sekaligus.</li>
+</ul>
+<h4>
+<a class="anchor" name="q-bagaimana-saya-dapat-keluar-dari-akun" href="#q-bagaimana-saya-dapat-keluar-dari-akun">
+<i class="anchor-icon">
+</i>
+</a>Q: Bagaimana saya dapat keluar dari akun?</h4>
+<p>Mayoritas pengguna tidak perlu keluar dari akun Telegram:</p>
+<ul>
+<li>Anda dapat menggunakan Telegram di banyak perangkat <strong>sekaligus</strong>. Cukup gunakan nomor telepon yang sama untuk masuk ke akun di semua perangkat.</li>
+<li>Anda dapat buka <em>Pengaturan &gt; Data dan Penyimpanan &gt; Pemakaian Penyimpanan &gt; Bersihkan cache</em> untuk <em>menyediakan ruang</em> di perangkat tanpa perlu keluar dari akun.</li>
+<li>Jika Anda menggunakan Telegram dengan <strong>beberapa nomor telepon</strong>, Anda dapat <a href="https://telegram.org/blog/themes-accounts#multiple-accounts">berpindah dari akun satu ke yang lain</a> tanpa perlu keluar.</li>
+<li>Jika Anda menggunakan Telegram di <strong>perangkat bersama</strong>, Anda dapat mengatur kode sandi di <em>Pengaturan &gt; Privasi dan Keamanan</em> untuk memastikan bahwa hanya Anda yang dapat mengakses akun Anda.</li>
+</ul>
+<p>Jika Anda ingin tetap keluar untuk alasan tertentu, ini cara melakukannya:</p>
+<p>
+<em>iOS:</em> Buka Pengaturan &gt; Edit &gt; Keluar.<br>
+<em>Android</em>, <em>Telegram Desktop</em>: Buka Pengaturan &gt; … (pojok kanan atas) &gt; Keluar.</p>
+<p>Jika Anda keluar dari akun, Anda akan tetap menyimpan semua pesan awan. Namun demikian, Anda <strong>akan kehilangan</strong> semua <strong>Secret Chat</strong> dan <strong>semua pesan</strong> di dalam Secret Chat tersebut jika keluar.</p>
+<blockquote>
+<p>Ingat bahwa tindakan keluar dari akun <strong>tidak</strong> memicu penghapusan jarak jauh pesan Secret Chat di perangkat lawan percakapan Anda. Untuk melakukan hal tersebut, pilih ‘Bersihkan Riwayat’ terlebih dahulu.</p>
+</blockquote>
+<h4>
+<a class="anchor" name="q-bagaimana-saya-dapat-mengganti-nomor-telepon" href="#q-bagaimana-saya-dapat-mengganti-nomor-telepon">
+<i class="anchor-icon">
+</i>
+</a>Q: Bagaimana saya dapat mengganti nomor telepon?</h4>
+<p>Anda dapat mengganti nomor Anda di Telegram dan menyimpan <strong>semuanya</strong>, termasuk semua kontak, pesan, dan media dari awan Telegram, beserta semua Secret Chat di semua perangkat.</p>
+<p>Untuk mengganti nomor Anda, buka Pengaturan, lalu ketuk nomor telepon Anda (tepat di atas username) dan ‘Ganti Nomor’. Jika Anda sudah memiliki akun Telegram yang berbeda untuk nomor target, Anda perlu <a href="#q-bagaimana-saya-dapat-menghapus-akun">menghapus</a> akun tersebut terlebih dahulu.</p>
+<h4>
+<a class="anchor" name="q-bagaimana-saya-dapat-menghapus-akun" href="#q-bagaimana-saya-dapat-menghapus-akun">
+<i class="anchor-icon">
+</i>
+</a>Q: Bagaimana saya dapat menghapus akun?</h4>
+<p>Jika Anda ingin menghapus akun, Anda dapat melakukan hal ini di <a href="https://telegram.org/deactivate">halaman deaktivasi</a>. Penghapusan akun akan secara permanen menghapus semua <strong>pesan</strong> dan <strong>kontak</strong> Anda. Seluruh grup dan channel yang Anda telah buat akan kehilangan pemilik dan ditinggalkan, tetapi admin akan tetap merpertahankan hak mereka.</p>
+<p>Tindakan ini harus dikonfirmasi via akun Telegram Anda dan tidak dapat dikembalikan.</p>
+<blockquote>
+<p>Kami sarankan menggunakan browser non-ponsel untuk proses ini.<br>Ingat bahwa Anda akan menerima <strong>kode</strong> via <strong>Telegram</strong>, bukan SMS.</p>
+</blockquote>
+<h4>
+<a class="anchor" name="q-apa-yang-terjadi-jika-saya-menghapus-akun-saya" href="#q-apa-yang-terjadi-jika-saya-menghapus-akun-saya">
+<i class="anchor-icon">
+</i>
+</a>Q: Apa yang terjadi jika saya menghapus akun saya?</h4>
+<p>Seperti yang disebutkan di atas, semua data Anda akan dibuang dari sistem kami: semua pesan, grup, dan kontak yang berhubungan dengan akun Anda akan dihapus. Meski demikian, kontak Anda akan tetap dapat mengobrol dalam grup yang dibuat Anda, dan mereka akan tetap memiliki salinan pesan yang Anda kirim ke mereka. Oleh karena itu, jika Anda ingin mengirim pesan yang dapat menghilang tanpa jejak, coba gunakan <a href="#q-bagaimana-cara-kerja-pesan-yang-hancur-sendirinya">timer penghancur otomatis</a> kami.</p>
+<p>Terminasi akun Telegram tidak dapat diputar kembali. Jika Anda mendaftar lagi, Anda akan muncul sebagai pengguna baru dan tidak mendapat riwayat, kontak, atau grup Anda kembali. Orang lain yang memiliki nomor telepon Anda akan diberi tahu. Pengguna yang baru tersebut akan ditampilkan sebagai percakapan terpisah di daftar pesan mereka, dan riwayat percakapan dengan pengguna baru ini akan kosong.</p>
+<h4>
+<a class="anchor" name="q-bagaimana-cara-kerja-penghancuran-akun-otomatis" href="#q-bagaimana-cara-kerja-penghancuran-akun-otomatis">
+<i class="anchor-icon">
+</i>
+</a>Q: Bagaimana cara kerja penghancuran akun otomatis?</h4>
+<p>Telegram bukan organisasi komersial, dan kami sangat menghargai penyimpanan perangkat kami. Jika Anda berhenti menggunakan Telegram dan tidak kembali online untuk sekurang-kurangnya 18 bulan, akun Anda akan dihapus bersamaan dengan semua pesan, media, kontak, dan data lain yang tersimpan di awan Telegram. Anda dapat mengubah periode penghancuran spesifik ini di Pengaturan.</p>
+<h4>
+<a class="anchor" name="q-ponsel-saya-dicuri-apa-yang-dapat-saya-lakukan" href="#q-ponsel-saya-dicuri-apa-yang-dapat-saya-lakukan">
+<i class="anchor-icon">
+</i>
+</a>Q: Ponsel saya dicuri. Apa yang dapat saya lakukan?</h4>
+<p>Pertama-tama, kami sedih mendengar hal itu. Sayangnya, nomor telepon hanyalah cara satu-satunya kami dapat mengenali pengguna Telegram saat ini. Kami tidak mengumpulkan informasi lebih dalam tentang Anda sehingga siapa pun yang memiliki nomor Anda mempunyai akun tersebut. Hal ini berarti kami tidak dapat menolong Anda kecuali apabila Anda memiliki akses ke nomor telepon atau Telegram di salah satu perangkat Anda.</p>
+<h6>
+<a class="anchor" name="saya-memiliki-akses-ke-telegram-di-perangkat-lain" href="#saya-memiliki-akses-ke-telegram-di-perangkat-lain">
+<i class="anchor-icon">
+</i>
+</a>Saya memiliki akses ke Telegram di perangkat lain</h6>
+<ol>
+<li>Buka Pengaturan Telegram &gt; Privasi dan Keamanan dan nyalakan Verifikasi Dua Langkah. Dengan demikian, nomor telepon tidak akan cukup untuk masuk ke akun Anda.</li>
+<li>Buka Pengaturan &gt; Perangkat (atau Privasi &amp; Keamanan &gt; Sesi Aktif) dan hentikan sesi Telegram Anda di perangkat yang lama. Siapa pun yang memiliki ponsel Anda tidak akan dapat masuk kembali karena mereka tidak mengetahui kata sandi Anda.</li>
+<li>Hubungi operator nomor telepon Anda sehingga mereka dapat memblokir SIM lama Anda dan mengeluarkan yang baru untuk nomor Anda.</li>
+<li>Jika Anda memilih untuk beralih ke nomor telepon yang baru, jangan lupa untuk buka Pengaturan, ketuk nomor telepon, dan ganti nomor Telegram ke yang baru.</li>
+</ol>
+<h6>
+<a class="anchor" name="saya-tidak-memiliki-akses-ke-telegram-di-perangkat-lainnya" href="#saya-tidak-memiliki-akses-ke-telegram-di-perangkat-lainnya">
+<i class="anchor-icon">
+</i>
+</a>Saya tidak memiliki akses ke Telegram di perangkat lainnya</h6>
+<ol>
+<li>Pertama dan yang terutama, Anda perlu menghubungi operator nomor telepon Anda sehingga mereka dapat memblokir SIM lama Anda dan mengeluarkan yang baru untuk nomor Anda.</li>
+<li>Tunggu sampai Anda mendapat SIM baru Anda dengan nomor yang lama, masuk ke Telegram, lalu buka Pengaturan &gt; Perangkat (atau Privasi &amp; Keamanan &gt; Sesi Aktif) dan hentikan sesi Telegram Anda di perangkat yang lama.</li>
+</ol>
+<h6>
+<a class="anchor" name="penghapusan-data-sensitif" href="#penghapusan-data-sensitif">
+<i class="anchor-icon">
+</i>
+</a>Penghapusan data sensitif</h6>
+<p>Umumnya, pencuri akan langsung membuang kartu SIM agar ponselnya lebih sulit dilacak, lalu menghapus tuntas perangkat tersebut dan menjualnya. Maka dari itu, tidak ada risiko besar mengenai data dalam pencurian biasa. Jika Anda mempunyai alasan untuk khawatir tentang data di perangkat tersebut dan tidak dapat <a href="#saya-memiliki-akses-ke-telegram-di-perangkat-lain">keluar dari perangkat yang lain</a>, Anda sebaiknya menghapus tuntas perangkat itu dari jarak jauh. Anda dapat mempelajari selengkapnya di sini: <a href="https://support.apple.com/kb/PH2701">Apple iOS</a>, <a href="https://www.google.com/android/devicemanager">Android</a>. Sayangnya, tindakan ini memerlukan persiapan awal untuk skenario ini.</p>
+<p>Anda dapat <a href="#q-bagaimana-saya-dapat-menghapus-akun">menghapus akun Telegram Anda</a> jika Anda telah masuk di salah satu perangkat Anda yang lain (ponsel atau desktop). Ingat bahwa akun Telegram yang tidak aktif akan hancur secara otomatis setelah jangka waktu tertentu — 6 bulan dalam pengaturan bawaan.</p>
+<h4>
+<a class="anchor" name="q-apa-arti-rating-profil" href="#q-apa-arti-rating-profil">
+<i class="anchor-icon">
+</i>
+</a>Q: Apa arti Rating Profil?</h4>
+<p>Telegram menampilkan lencana numerik berdasarkan jumlah transaksi yang berhasil oleh pengguna menggunakan Stars.</p>
+<p>Rating profil menunjukkan level Telegram Anda dan membantu pemilik channel mengetahui apakah Anda dapat dipercaya untuk <a href="https://telegram.org/blog/checklists-suggested-posts/id?ln=a#penyaranan-postingan-dalam-channel">Saran Postingan</a> dan permintaan lainnya.</p>
+<p>Membeli Hadiah, mengirim <a href="https://telegram.org/blog/star-messages-gateway-2-0-and-more/id?ln=a#pegang-kendali-inbox-anda-dengan-pesan-stars">Pesan Berbayar</a>, dan mendanai <a href="https://telegram.org/blog/checklists-suggested-posts/id?ln=a#penyaranan-postingan-dalam-channel">Saran Postingan</a> dengan Stars meningkatkan rating. Sementara itu, jika Anda meminta pengembalian Stars atau mengubah Hadiah menjadi Stars, rating Anda akan menurun.</p>
+<h4>
+<a class="anchor" name="q-apa-itu-passkey" href="#q-apa-itu-passkey">
+<i class="anchor-icon">
+</i>
+</a>Q: Apa itu Passkey?</h4>
+<p>Jika Anda sudah masuk ke Telegram di perangkat, Anda dapat <strong>membuat passkey</strong> yang membantu Anda masuk ke akun Telegram dengan cara yang sama seperti Anda <strong>membuka kunci perangkat</strong>. Dengan passkey, Anda dapat masuk ke perangkat hanya dengan memasukkan <strong>kode PIN</strong> atau <strong>data biometrik</strong> seperti Face ID atau pemindaian sidik jari.</p>
+<p>Passkey merupakan <strong>metode masuk tambahan</strong> yang dapat digunakan <strong>sebagai ganti SMS</strong> untuk dengan instan masuk ke akun Anda – bahkan jika Anda sedang bepergian atau tidak memiliki layanan SMS. Passkey juga <strong>lebih aman</strong> daripada kode SMS, membantu <strong>melindungi pengguna</strong> dari akses tidak sah ke akun mereka.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<div>
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/400780400876/4/0W8yu8Yn5Aw.39054.jpg/0f875debd431bfe573" style="max-width: 600px;" alt="Passkey">
+<source src="/file/400780400419/4/mcnSe9NxPy4.1437516.mp4/672b9e27512ca78eda" type="video/mp4">
+</video>
+</div>
+</div>
+<blockquote>
+<p>Passkey Anda dapat dikelola di <em>Pengaturan &gt; Privasi dan Keamanan &gt; Passkey</em> dari aplikasi mana pun — yang <strong>menunjukkan informasi detail</strong> untuk setiap passkey Anda, seperti <strong>tanggal pembuatan</strong> dan kapan <strong>terakhir digunakan</strong> untuk masuk.</p>
+</blockquote>
+<p>Jika Anda memiliki pengelola kata sandi seperti iCloud Keychain, Google Password Manager, atau layanan pihak ketiga lainnya, Anda dapat menggunakannya untuk <strong>mencadangkan passkey Anda</strong> seandainya Anda melakukan peningkatan atau kehilangan akses ke perangkat Anda.</p>
+<blockquote>
+<p>Dengan passkey, Anda masih dapat <strong>meminta kode SMS</strong> untuk masuk – jadi selalu pastikan akun Anda menggunakan <a href="https://telegram.org/faq#q-bagaimana-saya-dapat-mengganti-nomor-telepon">nomor telepon terbaru</a> yang <strong>dikendalikan oleh Anda</strong>. Untuk keamanan lebih, Anda dapat menambahkan <a href="https://telegram.org/faq#q-bagaimana-cara-kerja-verifikasi-dua-langkah">kata sandi tambahan</a> ke akun Anda yang diperlukan <strong>setiap kali</strong> Anda masuk.</p>
+</blockquote>
+<h4>
+<a class="anchor" name="q-apa-itu-pembekuan-akun" href="#q-apa-itu-pembekuan-akun">
+<i class="anchor-icon">
+</i>
+</a>Q: Apa itu Pembekuan Akun?</h4>
+<p>Jika akun Anda dibatasi karena laporan pengguna lain, akun Anda <strong>dibekukan</strong>. Saat dibekukan, Anda masih dapat membaca obrolan, tetapi tidak dapat mengirim pesan atau memposting konten.</p>
+<p>Anda dapat <a href="/blog/group-calls-made-easy#appeal-account-restrictions-with-frozen-accounts">mengajukan banding atas pembatasan tersebut</a> langsung dari aplikasi. Moderator Telegram akan meninjau kasus Anda. Jika pembatasan tersebut merupakan kesalahan, akun Anda akan dibuka kembali.</p>
+<h3>
+<a class="anchor" name="bot" href="#bot">
+<i class="anchor-icon">
+</i>
+</a>Bot</h3>
+<blockquote>
+<p>Jika Anda seorang pengembang, mungkin <a href="https://core.telegram.org/bots/faq">FAQ Bot</a> lebih bermanfaat bagi Anda.</p>
+</blockquote>
+<h4>
+<a class="anchor" name="q-apakah-itu-bot" href="#q-apakah-itu-bot">
+<i class="anchor-icon">
+</i>
+</a>Q: Apakah itu bot?</h4>
+<p>Bot adalah program kecil yang berjalan di samping Telegram. Mereka dibuat oleh pengembang pihak ketiga menggunakan <a href="https://core.telegram.org/bots">API Bot Telegram</a>.</p>
+<p>Bot modern dapat melakukan lebih dari sekadar membalas pesan. Bot dapat membuka penuh <strong>
+<a href="#q-apakah-itu-mini-app">Mini App</a>
+</strong> dengan antarmuka mereka sendiri, menjalankan <a href="/blog/comments-in-video-chats-threads-for-bots#threads-and-streaming-responses-for-ai-bots">asisten AI</a> dengan utas percakapan dan pengaliran respons – dan <a href="https://core.telegram.org/bots/features">masih banyak lagi</a>.</p>
+<h4>
+<a class="anchor" name="q-bagaimana-saya-dapat-membuat-bot" href="#q-bagaimana-saya-dapat-membuat-bot">
+<i class="anchor-icon">
+</i>
+</a>Q: Bagaimana saya dapat membuat bot?</h4>
+<p>Pembuatan bot Telegram sungguh mudah, tetapi memerlukan keahlian pemrograman komputer. Jika Anda bersedia, <a href="https://core.telegram.org/bots">
+<strong>Pengenalan bagi Pengembang</strong>
+</a> merupakan tempat yang tepat untuk memulai.</p>
+<p>Sayangnya, tidak ada jalan pintas untuk membuat bot yang berfungsi jika Anda bukan seorang pengembang. Namun, kami yakin terdapat beberapa bot yang dibuat oleh orang lain yang akan menarik perhatian Anda.</p>
+<h4>
+<a class="anchor" name="q-sebuah-bot-terus-menerus-mengirim-saya-pesan-bagaimana-saya-da" href="#q-sebuah-bot-terus-menerus-mengirim-saya-pesan-bagaimana-saya-da">
+<i class="anchor-icon">
+</i>
+</a>Q: Sebuah bot terus-menerus mengirim saya pesan. Bagaimana saya dapat menghentikannya?</h4>
+<p>Jika Anda tidak ingin sebuah bot mengirim Anda pesan, Anda dapat memblokirnya, sama seperti saat memblokir pengguna manusia. Beberapa klien Telegram memiliki tombol ‘Hentikan Bot’ dalam profil bot.</p>
+<p>Meski demikian, kebanyakan pengembang bot menyediakan perintah yang dapat membisukan bot mereka. Periksa <em>/help</em> untuk petunjuk.</p>
+<h4>
+<a class="anchor" name="q-apakah-bot-aman" href="#q-apakah-bot-aman">
+<i class="anchor-icon">
+</i>
+</a>Q: Apakah bot aman?</h4>
+<p>Ya. Bot tidak berbeda dari pengguna manusia yang ditemui dalam grup. Mereka dapat melihat nama publik, username, dan foto profil Anda, dan mereka dapat melihat pesan yang dikirimkan ke mereka, hanya itu. Mereka tidak dapat mengakses status terakhir terlihat Anda dan <strong>tidak</strong> melihat nomor telepon Anda (kecuali jika Anda sendiri memilih untuk memberikannya).</p>
+<p>Pada umumnya, semua bot harus diperlakukan sebagai orang asing. Jangan berikan mereka kata sandi, kode Telegram, atau nomor akun bank Anda, meski jika mereka menanyakannya dengan sopan. Selain itu, berhati-hatilah ketika membuka berkas yang dikirim oleh bot, seperti yang Anda juga akan lakukan terhadap manusia biasa. Contoh: Jika sebuah bot mengirim kami berkas bernama <em>OpenMe.exe</em>, kami mungkin tidak akan membukanya.</p>
+<h4>
+<a class="anchor" name="q-apabila-saya-menambahkan-bot-ke-dalam-grup-dapatkah-bot-terseb" href="#q-apabila-saya-menambahkan-bot-ke-dalam-grup-dapatkah-bot-terseb">
+<i class="anchor-icon">
+</i>
+</a>Q: Apabila saya menambahkan bot ke dalam grup, dapatkah bot tersebut membaca pesan saya?</h4>
+<p>Bot dapat berfungsi dalam dua mode saat Anda menambahkannya ke dalam grup. Secara default, bot hanya melihat pesan yang ditujukan ke mereka. Dalam kasus ini, Anda akan melihat ‘tidak memiliki akses ke pesan’ dalam daftar anggota grup di samping bot yang dimaksud.</p>
+<p>Beberapa bot butuh lebih banyak informasi untuk berfungsi sehingga pengembang mungkin menonaktifkan mode privasi ini. Dalam kasus ini, bot akan melihat semua pesan yang terkirim ke grup, dan Anda akan melihat ‘memiliki akses ke pesan’ dalam daftar anggota di samping bot yang dimaksud.</p>
+<p>
+<a href="https://core.telegram.org/bots#privacy-mode">Pelajari selengkapnya tentang mode privasi bot »</a>
+</p>
+<p>Jika grup Anda mengandung informasi yang sangat sensitif, lebih baik untuk menghindari penambahan bot yang Anda tak percayai sepenuhnya.</p>
+<h4>
+<a class="anchor" name="q-apakah-bot-dibuat-oleh-telegram" href="#q-apakah-bot-dibuat-oleh-telegram">
+<i class="anchor-icon">
+</i>
+</a>Q: Apakah bot dibuat oleh Telegram?</h4>
+<p>Tidak. Walau kami memiliki beberapa bot resmi untuk tujuan tertentu (seperti <a href="https://t.me/gif">@gif</a> atau <a href="https://t.me/Stickers">@Stickers</a>), kami biasanya tidak membuat bot. Bot dibuat oleh pengembang pihak ketiga menggunakan <a href="https://core.telegram.org/bots">API Bot Telegram dan platform</a>.</p>
+<h4>
+<a class="anchor" name="q-apakah-itu-mini-app" href="#q-apakah-itu-mini-app">
+<i class="anchor-icon">
+</i>
+</a>Q: Apakah itu Mini App?</h4>
+<p>Mini App adalah aplikasi utuh yang berjalan di dalam Telegram, dibangun oleh pengembang pihak ketiga di atas <a href="https://core.telegram.org/bots">platform Bot</a>. Aplikasi terlihat dan terasa layaknya aplikasi biasa, dengan antarmuka, pembayaran, langganan, dan lainnya. Anda dapat membuka Mini App dalam <a href="/blog/fullscreen-miniapps-and-more#full-screen-mode">mode layar penuh</a> dan bahkan menambahkan <a href="/blog/fullscreen-miniapps-and-more#home-screen-shortcuts">pintasan</a> ke layar beranda ponsel Anda.</p>
+<p>Jelajahi berbagai Mini App di <strong>
+<a href="/blog/w3-browser-mini-app-store#mini-app-store">Mini App Store</a>
+</strong> dengan membuka tab <em>Aplikasi</em> dalam Pencarian.</p>
+<p>Mini App dapat menjual barang digital dan langganan dengan harga Telegram Stars. Beberapa Mini App juga menawarkan <strong>program afiliasi</strong> — yang dapat Anda ikuti untuk <a href="/blog/affiliate-programs-ai-sticker-search#affiliate-programs">peroleh Stars</a> atas pembelanjaan orang yang dirujuk.</p>
+<h3>
+<a class="anchor" name="pertanyaan-mendalam" href="#pertanyaan-mendalam">
+<i class="anchor-icon">
+</i>
+</a>Pertanyaan Mendalam</h3>
+<h4>
+<a class="anchor" name="q-bisakah-saya-mendapatkan-kode-server-side-telegram" href="#q-bisakah-saya-mendapatkan-kode-server-side-telegram">
+<i class="anchor-icon">
+</i>
+</a>Q: Bisakah saya mendapatkan kode server-side Telegram?</h4>
+<p>Aplikasi klien Telegram sepenuhnya bersumber terbuka. Kami menyediakan <a href="https://core.telegram.org/reproducible-builds">build yang dapat diverifikasi untuk iOS dan Android</a>. Teknologi ini memungkinkan verifikasi independen bahwa aplikasi yang diunduh dari app store dibangun dari kode yang sama dengan yang kami terbitkan.</p>
+<p>Sebaliknya, penerbitan kode server tidak memberikan jaminan keamanan baik untuk Secret Chat maupun untuk Obrolan Awan. Hal ini dikarenakan, tidak seperti kode client-side, tidak ada cara untuk memverifikasi <strong>kode yang sama</strong> tersebut dijalankan di server.</p>
+<p>Mengenai Secret Chat, Anda tidak perlu kode server-side untuk memeriksa integritasnya. Inti dari enkripsi end-to-end adalah fakta bahwa enkripsi tersebut harus <em>solid</em> terlepas dari cara server bekerja.</p>
+<blockquote>
+<p>Dalam sebuah <a href="https://t.me/durov/146">postingan di channelnya</a>, Pavel Durov menjelaskan bahwa Telegram belum pernah menerbitkan kode servernya, bahkan sebagai aksi publisitas.  </p>
+</blockquote>
+<p>
+<a href="https://core.telegram.org/mtproto">Enkripsi</a> dan <a href="https://core.telegram.org">API</a> yang dipakai server Telegram sepenuhnya terdokumentasi dan terbuka untuk diulas oleh ahli keamanan. Kami akan dengan senang membaca komentar apa pun yang dikirim ke <em>security@telegram.org</em>
+</p>
+<h4>
+<a class="anchor" name="q-dapatkah-saya-menjalankan-telegram-menggunakan-server-saya-sen" href="#q-dapatkah-saya-menjalankan-telegram-menggunakan-server-saya-sen">
+<i class="anchor-icon">
+</i>
+</a>Q: Dapatkah saya menjalankan Telegram menggunakan server saya sendiri?</h4>
+<p>Arsitektur kami masih belum mendukung federasi. Telegram merupakan layanan awan terpadu sehingga pembuatan fork yang memungkinkan dua pengguna untuk berakhir di dua awan Telegram yang berbeda tidak dapat diterima. Agar Anda dapat menjalankan server Telegram Anda sendiri sambil mempertahankan baik kecepatan dan keamanan adalah tugas yang sulit. Untuk saat ini, kami tidak memiliki rencana untuk berkembang ke arah ini. </p>
+<h4>
+<a class="anchor" name="q-dapatkah-saya-menggunakan-api-telegram" href="#q-dapatkah-saya-menggunakan-api-telegram">
+<i class="anchor-icon">
+</i>
+</a>Q: Dapatkah saya menggunakan API Telegram?</h4>
+<p>Ya. Pengembang di semua platform diizinkan untuk menggunakan <a href="//core.telegram.org/mtproto">protokol</a>, <a href="//core.telegram.org/api">API</a> dan bahkan <a href="https://telegram.org/apps#source-code">kode sumber</a> kami. Silakan kunjungi bagian <a href="//core.telegram.org/api#getting-started">Persiapan</a> dalam dokumentasi.</p>
+<blockquote>
+<p>Ingat juga <a href="https://core.telegram.org/bots">API Bot</a> kami yang memungkinkan Anda membangun sesuatu yang keren di platform kami.</p>
+</blockquote>
+<h4>
+<a class="anchor" name="q-apakah-anda-memiliki-kebijakan-privasi" href="#q-apakah-anda-memiliki-kebijakan-privasi">
+<i class="anchor-icon">
+</i>
+</a>Q: Apakah Anda memiliki Kebijakan Privasi?</h4>
+<p>Ya. Kunjungi <a href="/privacy">halaman ini</a>.</p>
+<h4>
+<a class="anchor" name="q-apakah-yang-dimaksud-dengan-laporan-privasi-ios" href="#q-apakah-yang-dimaksud-dengan-laporan-privasi-ios">
+<i class="anchor-icon">
+</i>
+</a>Q: Apakah yang dimaksud dengan laporan privasi iOS?</h4>
+<p>Apple membuat laporan privasi untuk memberi tahu penggunanya data apa saja yang dipungut aplikasi, tetapi informasi yang tertera di sana tidak jelas dan dapat menyesatkan. Anda dapat melihat penjelasan komplet laporan Telegram <a href="https://telegram.org/apple_privacy">di sini</a>.</p>
+<h4>
+<a class="anchor" name="q-mengapa-anda-mempunyai-dua-aplikasi-di-mac-app-store" href="#q-mengapa-anda-mempunyai-dua-aplikasi-di-mac-app-store">
+<i class="anchor-icon">
+</i>
+</a>Q: Mengapa Anda mempunyai dua aplikasi di Mac App Store?</h4>
+<p>Salah satunya adalah <a href="https://macos.telegram.org">aplikasi untuk macOS</a>, sedangkan yang lain adalah Telegram Lite, versi macOS dari <a href="https://desktop.telegram.org">klien multi-platform</a> kami. Kedua aplikasi bersifat resmi. Kedua-duanya bermulai sebagai aplikasi tidak resmi yang bervariasi secara desain dan kegunaan dan dibangun oleh dua pengembang yang berbeda. </p>
+<p>
+<a href="https://macos.telegram.org">Telegram untuk macOS</a> mendukung berbagai fitur spesifik platform, seperti MacBook Pro Touch Bar, navigasi gestur, integrasi dengan menu pembagian Mac, dan masih banyak lagi. Aplikasi ini memiliki setiap fitur dari versi iOS aplikasi, termasuk Secret Chat.</p>
+<p>
+<a href="https://desktop.telegram.org">Telegram Lite</a> adalah aplikasi secepat kilat, dioptimisasi untuk pengerjaan tugas dan penanganan komunitas besar. Aplikasi ini menyediakan antarmuka tiga kolom, sempurna untuk multitasking dan akses media, berkas, dan tautan yang dibagikan dalam obrolan dengan cepat.</p>
+<h4>
+<a class="anchor" name="q-dapatkah-saya-menerjemahkan-telegram" href="#q-dapatkah-saya-menerjemahkan-telegram">
+<i class="anchor-icon">
+</i>
+</a>Q: Dapatkah saya menerjemahkan Telegram?</h4>
+<p>Telegram tersedia secara resmi dalam banyak bahasa di mayoritas platform, dan kami secara perlahan memperluasnya.</p>
+<p>Jika Anda tidak suka terjemahan elemen antarmuka Telegram tertentu dalam bahasa Anda, atau ingin membantu kami menjaga kualitas terjemahan, kunjungi <a href="https://translations.telegram.org">platform lokalisasi</a> kami. Siapa saja dapat menyarankan terjemahan dan memberi suara untuk yang terbaik. Hal ini dirancang agar lokalisasi Telegram merupakan dorongan upaya komunitas.</p>
+<p>Jika Anda ingin melampaui hal ini dan membantu kami mempertahankan kualitas terjemahan resmi ke bahasa Anda secara berkelanjutan, Anda dapat hubungi <a href="https://t.me/telegramauditions">@TelegramAuditions</a>. Harap lampirkan pula tagar dengan nama bahasa Inggris bahasa Anda (misal #Indonesian) dan beberapa tautan menuju frasa di platform ini dengan <strong>saran terjemahan</strong> atau <strong>komentar</strong> Anda. Pastikan Anda telah membaca <a href="https://translations.telegram.org/#style-guide">
+<strong>Tata Bahasa</strong>
+</a> dengan teliti sebelum melamar.</p>
+<h4>
+<a class="anchor" name="q-dapatkah-saya-membantu" href="#q-dapatkah-saya-membantu">
+<i class="anchor-icon">
+</i>
+</a>Q: Dapatkah saya membantu?</h4>
+<p>Ya, kami terus mencari relawan yang ingin membantu kami melayani pengguna. Jika Anda tertarik menjawab pertanyaan seputar Telegram dari pengguna negara Anda, hubungi akun audisi kami.</p>
+<p>Sebelum melamar, harap kunjungi <a href="https://core.telegram.org/tsi">Inisiatif Telegram Support</a>.</p>
+<h3>
+<a class="anchor" name="paspor" href="#paspor">
+<i class="anchor-icon">
+</i>
+</a>Paspor</h3>
+<p>
+<strong>Paspor Telegram</strong> adalah metode otorisasi terpadu untuk layanan yang membutuhkan identifikasi personal. Dengan Paspor Telegram, Anda dapat mengunggah dokumen Anda sekali, lalu dengan instan membagikan data Anda dengan layanan yang membutuhkan ID dunia nyata (finance, ICO, dan lainnya).</p>
+<p>Dokumen identitas dan data pribadi Anda akan disimpan di awan Telegram menggunakan <strong>Enkripsi End-to-End</strong>. Bagi Telegram, data ini tidak dapat dipahami atau dikenali, dan kami tidak memiliki akses ke informasi yang tersimpan di Paspor Telegram. Ketika Anda membagikan data, data tersebut langsung terkirim ke penerima. </p>
+<blockquote>
+<p>Anda dapat menemukan informasi lengkap tentang Paspor Telegram di <a href="https://telegram.org/blog/passport">blog</a> kami.</p>
+</blockquote>
+<p>Jika Anda seorang pengembang atau pemilik layanan yang memerlukan ID dunia nyata, silakan kunjungi <a href="https://core.telegram.org/passport">
+<strong>manual ini</strong>
+</a>. Anda juga dapat bereksperimen dengan meminta data Paspor Telegram lewat <a href="https://core.telegram.org/passport/example">halaman ini</a>.</p>
+<hr>
+<h3>
+<a class="anchor" name="troubleshooting" href="#troubleshooting">
+<i class="anchor-icon">
+</i>
+</a>Troubleshooting</h3>
+<h4>
+<a class="anchor" name="masuk-ke-akun-dan-sms" href="#masuk-ke-akun-dan-sms">
+<i class="anchor-icon">
+</i>
+</a>Masuk ke Akun dan SMS</h4>
+<p>Harap pastikan Anda memasukkan nomor ponsel Anda dalam format internasional.<br>mis: <code>+(kode negara)(kode kota atau operator)(nomor Anda)</code>
+</p>
+<p>Jika Anda kesulitan mendaftar atau masuk ke akun, harap hubungi kami melalui <a href="https://telegram.org/support">form ini</a>.</p>
+<h4>
+<a class="anchor" name="penerimaan-kode-melalui-panggilan" href="#penerimaan-kode-melalui-panggilan">
+<i class="anchor-icon">
+</i>
+</a>Penerimaan kode melalui panggilan</h4>
+<p>Untuk alasan keamanan, kode masuk yang dieja dalam panggilan mungkin tidak tersedia untuk operator tertentu atau memerlukan aktivasi <strong>verifikasi dua langkah</strong> (Pengaturan &gt; Privasi &amp; Keamanan &gt; Verifikasi Dua Langkah).</p>
+<p>Harap perhatikan bahwa akun Telegram hanya dapat disambungkan dengan nomor ponsel. Kami tidak mendukung nomor telepon rumah untuk saat ini.</p>
+<h4>
+<a class="anchor" name="penerimaan-kode-via-telegram" href="#penerimaan-kode-via-telegram">
+<i class="anchor-icon">
+</i>
+</a>Penerimaan kode via Telegram</h4>
+<p>Jika belakangan ini Anda menggunakan salah satu aplikasi kami di <strong>perangkat lain</strong> (aplikasi yang berbeda di perangkat yang sama juga termasuk), kami mungkin akan mengirimkan kode masuk <strong>via Telegram</strong> dan bukan SMS.</p>
+<p>Untuk menerima kode seperti ini, cukup periksa Telegram di salah satu perangkat Anda yang terhubung. Anda akan menemukannya dalam obrolan dengan Telegram, profil terverifikasi dengan centang biru:</p>
+<div class="blog_image_wrap">
+<a href="/file/811140682/1a34/C6cNb93Sl4w.36331/8d856ce132fda22ee0" target="_blank">
+<img src="/file/811140682/1a34/C6cNb93Sl4w.36331/8d856ce132fda22ee0" title="Masuk via Telegram" />
+</a>
+<p>Kode masuk dikirim via Telegram</p>
+</div>
+<p>
+<strong>PERHATIAN!</strong> Harap ingat bahwa penerimaan kode via Telegram tidak seharusnya menjadi alasan untuk tidak menggunakan <strong>nomor telepon terbaru</strong>. Apabila terdapat pergantian nomor, selalu pastikan <a href="#q-bagaimana-saya-dapat-mengganti-nomor-telepon">Telegram tersambung</a> dengan nomor telepon yang <strong>Anda kelola</strong>. Jika tidak, Anda berisiko kehilangan akun Anda.</p>
+<h4>
+<a class="anchor" name="permasalahan-notifikasi" href="#permasalahan-notifikasi">
+<i class="anchor-icon">
+</i>
+</a>Permasalahan notifikasi</h4>
+<blockquote>
+<p>Jika tips di bawah ini tidak membantu, kunjungi panduan lengkap ini di <a href="https://telegra.ph/Notifications-FIX">
+<strong>Troubleshooting Permasalahan Notifikasi</strong>
+</a>.</p>
+</blockquote>
+<p>
+<strong>ANDROID</strong>
+</p>
+<ol>
+<li>Buka Pengaturan Telegram — Notifikasi dan Suara, pastikan notifikasi <strong>HIDUP</strong> dan Prioritas diatur menjadi <strong>”Tinggi”</strong> atau lebih.  </li>
+<li>Periksa apakah kontak atau grup <em>disenyapkan</em>.</li>
+<li>Pastikan <a href="https://play.google.com/store/apps/details?id=com.google.android.gms">Google Play Services</a> terpasang dalam ponsel Anda.</li>
+<li>Periksa <strong>prioritas notifikasi</strong> untuk Telegram dalam <strong>pengaturan Android</strong> atau sinonimnya. Istilah mungkin berbeda tergantung perangkat.</li>
+<li>Jika ponsel Anda menggunakan <strong>perangkat lunak penghemat baterai (battery saving)</strong>, pastikan Telegram di-whitelist dalam aplikasi tersebut.</li>
+</ol>
+<blockquote>
+<p>PERHATIAN: Perangkat <strong>Huawei</strong> dan <strong>Xiaomi</strong> mempunyai lawanan task killer yang dapat menghalangi layanan notifikasi Telegram. Agar notifikasi kami dapat berfungsi, Anda perlu menambahkan Telegram ke dalam daftar aplikasi yang diizinkan dalam pengaturan keamanan perangkat di atas. Huawei: Aplikasi Phone Manager &gt; Protected Apps &gt; Tambahkan Telegram ke dalam daftar. Xiaomi: Layanan &gt; Keamanan &gt; Izin &gt; Autostart, temukan Telegram dan aktifkan Autostart.</p>
+</blockquote>
+<p>
+<strong>iOS</strong>
+</p>
+<ol>
+<li>Buka Pengaturan Telegram — Notifikasi dan Suara, pastikan notifikasi HIDUP di Telegram.</li>
+<li>Periksa apakah notifikasi <strong>HIDUP</strong> dalam Pengaturan ponsel.</li>
+<li>Periksa apakah kontak atau grup <em>disenyapkan</em>.</li>
+<li>Tutup Telegram (pergi ke layar beranda, ketuk tombol beranda dua kali, geser atas Telegram), lalu buka pengaturan ponsel, atur gaya pengingat Telegram menjadi TIDAK ADA (NONE). Luncurkan kembali Telegram, buka pengaturan ponsel, atur gaya pengingat kembali menjadi banner.</li>
+</ol>
+<h4>
+<a class="anchor" name="permasalahan-kontak" href="#permasalahan-kontak">
+<i class="anchor-icon">
+</i>
+</a>Permasalahan kontak</h4>
+<p>Jika Anda tahu teman Anda mempunyai Telegram, tetapi tidak dapat melihat mereka, atau mereka tertera sebagai nomor dan bukan nama.</p>
+<p>
+<em>Android:</em>
+</p>
+<ol>
+<li>Pastikan Anda menggunakan versi aplikasi terbaru.</li>
+<li>Luncurkan kembali aplikasi (dengan menghentikannya dalam daftar proses dan meluncurkannya lagi).</li>
+<li>Ganti sementara nama kontak yang diinginkan dalam daftar kontak ponsel (tambahkan beberapa simbol, lalu kembalikan seperti semula).</li>
+<li>Jika metode ini tidak membantu, keluar dan masuk ulang ke akun. Ingat bahwa Secret Chat hancur apabila Anda keluar.</li>
+</ol>
+<p>
+<em>iOS:</em>
+</p>
+<ol>
+<li>Paksa keluar atau <em>force quit</em> aplikasi (ketuk tombol beranda dua kali, lalu geser atas Telegram). Kemudian, luncurkan kembali aplikasi dan periksa apakah masalah terselesaikan.</li>
+<li>Jika metode ini tidak membantu, ganti sementara nama kontak di daftar kontak ponsel (tambahkan beberapa simbol, lalu kembalikan seperti semula).</li>
+<li>Jika metode ini masih tidak membantu, keluar dan masuk ulang ke akun: Pengaturan &gt; Edit &gt; Keluar. Ingat bahwa Secret Chat hancur apabila Anda keluar.</li>
+</ol>
+<h4>
+<a class="anchor" name="penghapusan-kontak-di-android" href="#penghapusan-kontak-di-android">
+<i class="anchor-icon">
+</i>
+</a>Penghapusan kontak di Android</h4>
+<p>Untuk menghapus kontak, buka obrolan dengan orang tersebut, ketuk judul di bagian atas layar obrolan untuk membuka profilnya, lalu ketuk (⋮) di pojok kanan atas &gt; ‘Hapus kontak’. </p>
+<p>Jika Anda ingin menghapus kontak sepenuhnya, pastikan Anda juga menghapusnya dari daftar kontak ponsel. Telegram tetap tersinkronisasi dan akan menambahkan kontak tersebut kembali jika tidak. </p>
+<h4>
+<a class="anchor" name="ke-mana-perginya-secret-chat-saya" href="#ke-mana-perginya-secret-chat-saya">
+<i class="anchor-icon">
+</i>
+</a>Ke mana perginya Secret Chat saya?</h4>
+<p>Secret Chat menghubungkan dua perangkat tempat Secret Chat tersebut dibuat. Hal ini berarti semua pesan di dalamnya tidak tersedia di awan dan tidak dapat diakses dari perangkat lain.</p>
+<p>Bahkan, Secret Chat juga terikat dengan sesi masuk Anda saat itu di perangkat. Jika Anda keluar dari akun dan masuk kembali, Anda akan kehilangan semua Secret Chat.</p>
+<h4>
+<a class="anchor" name="tidak-dapat-mengirim-pesan-ke-non-kontak" href="#tidak-dapat-mengirim-pesan-ke-non-kontak">
+<i class="anchor-icon">
+</i>
+</a>Tidak dapat mengirim pesan ke non-kontak</h4>
+<p>Ketika pengguna melaporkan pesan yang tidak diinginkan dari sebuah akun Telegram, kami memasang batasan: Akun terlapor hanya dapat mengirim pesan ke orang yang mempunyai nomornya dan menyimpannya sebagai kontak.</p>
+<p>Hal ini berarti jika Anda secara acak menghubungi orang lain yang tidak dikenal dan mengirim mereka pesan yang mengganggu, Anda dapat kehilangan kemampuan untuk melakukannya di masa depan.</p>
+<p>Jika Anda mengira batas ini telah ditempatkan pada akun Anda secara salah atau tidak adil, harap kunjungi <a href="/faq_spam">halaman ini</a>.</p>
+<h4>
+<a class="anchor" name="q-tidak-dapat-kirim-pesan-saya-diminta-stars" href="#q-tidak-dapat-kirim-pesan-saya-diminta-stars">
+<i class="anchor-icon">
+</i>
+</a>Q: Tidak dapat kirim pesan. Saya diminta Stars.</h4>
+<p>Beberapa pengguna mengenakan biaya kecil — dibayar dengan Telegram Stars — untuk pesan dari orang di luar kontak mereka. Program ini disebut <a href="/blog/star-messages-gateway-2-0-and-more#stay-in-control-of-your-inbox-with-star-messages">Pesan Stars</a>. Program ini bertujuan untuk membantu orang mengurangi spam dalam kotak masuk mereka.</p>
+<p>Anda akan melihat berapa banyak Stars yang dibutuhkan sebelum mengirim pesan. Jika penerima membalas, mereka dapat memilih untuk mengembalikan biaya.</p>
+<p>Jika Anda tidak ingin membayar, Anda dapat menunggu orang tersebut mengirim pesan kepada Anda terlebih dahulu, atau meminta mereka untuk menambahkan Anda ke kontak mereka.</p>
+<h4>
+<a class="anchor" name="telegram-menggunakan-kamera-atau-mikrofon-di-belakang-layar" href="#telegram-menggunakan-kamera-atau-mikrofon-di-belakang-layar">
+<i class="anchor-icon">
+</i>
+</a>Telegram menggunakan kamera atau mikrofon di belakang layar!</h4>
+<p>Telegram dapat menggunakan <strong>mikrofon</strong> di belakang layar jika Anda meminimalkan aplikasi ketika membuat panggilan, merekam video, atau merekam sebuah pesan suara/video.</p>
+<p>Pemantau izin di Samsung dan Xiaomi dapat secara tidak sengaja menandai dan memberi tahu Anda apabila Telegram meminta akses ke <strong>kamera</strong> di belakang layar. Hal ini terjadi ketika aplikasi meminta info kamera walaupun sedang tidak menggunakan kamera. Sayangnya, hal ini dapat terlihat sama di pemantau izin Samsung dan Xiaomi.</p>
+<p>Aplikasi meminta info kamera ketika Anda mengetuk tombol lampiran, atau memulai perekaman video atau pesan video. Jika Anda melakukan hal ini dan segera menutup aplikasi, permintaan tadi mungkin akan berjalan secara tidak sinkron saat aplikasi sudah di belakang layar, atau terkirim saat sistem membangunkan aplikasi untuk menampilkan notifikasi pesan baru. Bagaimanapun itu, permintaan ini hanya untuk info kamera, dan aplikasi <em>tidak pernah</em> menggunakan kamera di belakang layar.</p>
+<p>Siapa pun dapat memeriksa <a href="https://telegram.org/apps#source-code">kode sumber terbuka</a> Telegram dan mengonfirmasi bahwa aplikasi tidak melakukan apa pun diam-diam di belakang. Kami juga menyediakan <a href="https://telegram.org/blog/verifiable-apps-and-more">build yang dapat direproduksi</a> yang akan membantu membuktikan versi unduhan dari App Store atau Google Play dibuat dari kode sumber yang sama seperti yang diterbitkan. </p>
+<hr>
+<h3>
+<a class="anchor" name="telegram-support" href="#telegram-support">
+<i class="anchor-icon">
+</i>
+</a>Telegram Support</h3>
+<p>Jika Anda mempunyai pertanyaan lain, harap hubungi Telegram Support (dalam Telegram, buka Pengaturan — Kirim Pertanyaan). Ingat bahwa kami mengandalkan relawan untuk bantuan.</p>
+<p>Jika Anda tidak dapat masuk ke akun Anda, mohon gunakan <a href="https://telegram.org/support">form ini</a>.</p>
+<blockquote>
+<p>Untuk <strong>permintaan media</strong>, mohon hubungi <a href="https://t.me/pressbot">@PressBot</a> di Telegram.</p>
+</blockquote>
+<h3>
+<a class="anchor" name="twitter" href="#twitter">
+<i class="anchor-icon">
+</i>
+</a>Twitter?</h3>
+<p>Ya. Ikuti kami! <a href="https://twitter.com/telegram">
+<strong>@telegram</strong>
+</a>
+<br>Akun Twitter kami dalam bahasa Spanyol: <a href="https://twitter.com/telegram_es">@telegram_es</a>
+<br>Dalam bahasa Italia: <a href="https://twitter.com/telegram_it">@telegram_it</a>
+<br>Dalam bahasa Korea: <a href="https://twitter.com/telegram_kr">@Telegram_kr</a>
+<br>Dalam bahasa Jerman: <a href="https://twitter.com/de_telegram">@de_telegram</a>
+<br>Bagi pengguna dari Brazil: <a href="https://twitter.com/telegram_br">@Telegram_br</a>
+<br>Pengguna berbahasa Arab mungkin lebih tertarik ke <a href="https://twitter.com/telegram_arabic">@telegram_arabic</a>.</p>
+<h3>
+<a class="anchor" name="smstelegram-bantuan-masuk-di-twitter" href="#smstelegram-bantuan-masuk-di-twitter">
+<i class="anchor-icon">
+</i>
+</a>@SmsTelegram, bantuan masuk di Twitter</h3>
+<p>Kami mempunyai akun spesial yang dapat membantu Anda dengan permasalahan masuk, <a href="https://twitter.com/smstelegram">
+<strong>@smstelegram</strong>
+</a>. Akun ini resmi. Jangan takut untuk men-DM nomor Telegram Anda karena kami membutuhkan info ini untuk menyelidiki isu Anda.</p>
+<p>Berhati-hatilah, kami tidak mempunyai akun bantuan lain di platform sosial media mana pun.</p>
+<h3>
+<a class="anchor" name="facebook-atau-platform-lainnya" href="#facebook-atau-platform-lainnya">
+<i class="anchor-icon">
+</i>
+</a>Facebook atau platform lainnya?</h3>
+<p>Jika seseorang di Facebook atau platform lainnya memberi tahu Anda bahwa mereka pihak Telegram, mereka <em>bukan</em>.</p>
+<p>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer_wrap">
+<div class="footer_columns_wrap footer_desktop">
+<div class="footer_column footer_column_telegram">
+<h5>Telegram</h5>
+<div class="footer_telegram_description">
+</div>
+      Telegram is a cloud-based mobile and desktop messaging app with a focus on security and speed.
+    </div>
+<div class="footer_column">
+<h5>
+<a href="/faq">About</a>
+</h5>
+<ul>
+<li>
+<a href="/faq">FAQ</a>
+</li>
+<li>
+<a href="/privacy">Privacy</a>
+</li>
+<li>
+<a href="/press">Press</a>
+</li>
+</ul>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/apps#mobile-apps">Mobile Apps</a>
+</h5>
+<ul>
+<li>
+<a href="/dl/ios">iPhone/iPad</a>
+</li>
+<li>
+<a href="/android">Android</a>
+</li>
+<li>
+<a href="/dl/web">Mobile Web</a>
+</li>
+</ul>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/apps#desktop-apps">Desktop Apps</a>
+</h5>
+<ul>
+<li>
+<a href="//desktop.telegram.org/">PC/Mac/Linux</a>
+</li>
+<li>
+<a href="//macos.telegram.org/">macOS</a>
+</li>
+<li>
+<a href="/dl/web">Web-browser</a>
+</li>
+</ul>
+</div>
+<div class="footer_column footer_column_platform">
+<h5>
+<a href="//core.telegram.org/">Platform</a>
+</h5>
+<ul>
+<li>
+<a href="//core.telegram.org/api">API</a>
+</li>
+<li>
+<a href="//translations.telegram.org/">Translations</a>
+</li>
+<li>
+<a href="//instantview.telegram.org/">Instant View</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="footer_columns_wrap footer_mobile">
+<div class="footer_column">
+<h5>
+<a href="/faq">About</a>
+</h5>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/blog">Blog</a>
+</h5>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/press">Press</a>
+</h5>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/safety">Safety</a>
+</h5>
+</div>
+</div>
+</div>
+<script src="/js/main.js?49">
+</script>
+<script src="/js/tgsticker.js?32">
+</script>
+<script src="/js/main-theme.js?6">
+</script>
+<script>initScrollVideos(true);
+backToTopInit("Go up");
+removePreloadInit();
+</script>
+</body>
+</html>

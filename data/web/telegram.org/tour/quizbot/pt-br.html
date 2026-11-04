@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html class="" data-theme="light">
+<head>
+<meta charset="utf-8">
+<title>Quizzes</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:title" content="Quizzes">
+<meta property="og:image" content="https://telegram.org/file/464001802/1/fwR7FzJKx2g.142023/3262deaf7701aed468">
+<meta property="og:site_name" content="Telegram">
+<meta property="og:description" content="O Telegram tem enquetes poderosas para grupos e canais, que podem ser usadas para tudo, desde decidir onde almoçar até organizar provas de serviços públicos ou protestos sem líderes. Conheça mais sobre eles aqui.">
+<meta property="article:published_time" content="2020-12-22T20:28:12+00:00">
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://telegram.org/file/464001802/1/fwR7FzJKx2g.142023/3262deaf7701aed468" />
+<meta property="fb:app_id" content="254098051407226">
+<meta property="vk:app_id" content="3782569">
+<meta name="apple-itunes-app" content="app-id=686449807">
+<meta name="telegram:channel" content="@telegram">
+<link rel="canonical" href="https://telegram.org/tour/quizbot/pt-br" />
+<link rel="icon" type="image/svg+xml" href="/img/website_icon.svg?4">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="alternate icon" href="/img/favicon.ico" type="image/x-icon" />
+<link href="/css/bootstrap.min.css?3" rel="stylesheet">
+<link href="/css/telegram.css?256" rel="stylesheet" media="screen">
+<link href="/css/telegram-theme.css?9" rel="stylesheet" media="screen">
+</head>
+<body class="preload">
+<div id="fb-root">
+</div>
+<button class="theme-toggle theme-toggle--static" type="button" title="Toggle theme" aria-label="Toggle light/dark theme">
+</button>
+<div class="tl_page_wrap">
+<div class="tl_page_head navbar navbar-static-top navbar navbar-tg">
+<div class="navbar-inner">
+<div class="container clearfix">
+<ul class="nav navbar-nav navbar-right">
+<li class="dropdown top_lang_select">
+<a class="dropdown-toggle" onclick="return dropdownClick(this, event)" href="#">
+<i class="dev_top_lang_icon">
+</i>
+<b class="minicaret">
+</b>
+</a>
+<ul class="dropdown-menu">
+<li class="">
+<a href="?setln=en">English</a>
+</li>
+<li class="long ">
+<a href="?setln=id">Bahasa Indonesia</a>
+</li>
+<li class="long ">
+<a href="?setln=ms">Bahasa Melayu</a>
+</li>
+<li class="">
+<a href="?setln=de">Deutsch</a>
+</li>
+<li class="">
+<a href="?setln=es">Español</a>
+</li>
+<li class="">
+<a href="?setln=fr">Français</a>
+</li>
+<li class="">
+<a href="?setln=it">Italiano</a>
+</li>
+<li class="">
+<a href="?setln=nl">Nederlands</a>
+</li>
+<li class="">
+<a href="?setln=uz">O‘zbek</a>
+</li>
+<li class="">
+<a href="?setln=pl">Polski</a>
+</li>
+<li class="long ">
+<a href="?setln=pt-br">Português (Brasil)</a>
+</li>
+<li class="">
+<a href="?setln=tr">Türkçe</a>
+</li>
+<li class="">
+<a href="?setln=be">Беларуская</a>
+</li>
+<li class="">
+<a href="?setln=ru">Русский</a>
+</li>
+<li class="">
+<a href="?setln=uk">Українська</a>
+</li>
+<li class="">
+<a href="?setln=kk">Қазақша</a>
+</li>
+<li class="">
+<a href="?setln=ar">العربية</a>
+</li>
+<li class="">
+<a href="?setln=fa">فارسی</a>
+</li>
+<li class="">
+<a href="?setln=ko">한국어</a>
+</li>
+</ul>
+</li>
+<li class="navbar-twitter hidden-xs">
+<a href="https://x.com/telegram" target="_blank" data-track="Follow/Twitter" onclick="trackDlClick(this, event)">
+<i class="icon icon-twitter">
+</i> Follow on X</a>
+</li>
+</ul>
+<ul class="nav navbar-nav">
+<li class="">
+<a href="/">Home</a>
+</li>
+<li class="">
+<a href="/faq">FAQ</a>
+</li>
+<li class="">
+<a href="/apps">Apps</a>
+</li>
+<li class="hidden-xs ">
+<a href="//core.telegram.org/api">API</a>
+</li>
+<li class="hidden-xs ">
+<a href="/safety">Safety</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="container clearfix tl_page_container ">
+<div class="tl_page">
+<div class="tl_contest_page_wrap">
+<div class="tl_blog_side_blog">
+<div class="side_blog_wrap">
+<div class="side_blog">
+<a href="/tour" class="side_blog_header">More Features</a>
+<div class="side_blog_entries">
+<a href="/tour/affiliate-programs" class="side_blog_entry side_tour_entry">
+<div class="side_blog_title">Affiliate Programs</div>
+</a>
+<a href="/tour/stories" class="side_blog_entry side_tour_entry">
+<div class="side_blog_title">Telegram Stories</div>
+</a>
+<a href="/tour/chat-folders" class="side_blog_entry side_tour_entry">
+<div class="side_blog_title">Shareable Chat Folders</div>
+</a>
+<a href="/tour/quizbot" class="side_blog_entry side_tour_entry">
+<div class="side_blog_title">Quizzes</div>
+</a>
+<a href="/tour/groups" class="side_blog_entry side_tour_entry">
+<div class="side_blog_title">Groups</div>
+</a>
+<a href="/tour/channels" class="side_blog_entry side_tour_entry">
+<div class="side_blog_title">Channels</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div id="dev_page_content_wrap" class=" ">
+<div class="dev_page_bread_crumbs">
+</div>
+<h1 id="dev_page_title">Quizzes</h1>
+<blockquote class="blog_lang_original">
+<a href="/tour/quizbot?ln=r">Leia o anúncio original em Inglês</a>
+</blockquote>
+<div id="dev_page_content">
+<div class="blog_side_image_wrap">
+<img src="/file/464001373/1/GCHmCtOxlu0.23341.gif/fbdf290c3e3f6a7df5" class="blog_side_image"/>
+</div>
+<blockquote>
+<p>Visite o <a href="https://quiz.directory/">
+<strong>Diretório de Quizzes</strong>
+</a> para experimentar milhares de Quizzes criados por participantes do Concurso de Quizzes de 2020.</p>
+</blockquote>
+<p>O Telegram tem enquetes poderosas para <a href="https://telegram.org/tour/groups?setln=pt-br">grupos</a> e <a href="https://telegram.org/tour/channels?setln=pt-br">canais</a>, que podem ser usadas para tudo, desde decidir onde almoçar até organizar provas de serviços públicos ou <a href="https://www.bbc.com/news/technology-48802125">protestos sem líderes</a>.</p>
+<p>
+<strong>Enquetes no estilo de quiz</strong> são um tipo especial de enquete que possui somente uma <strong>resposta correta</strong> e uma <strong>explicação</strong> opcional, o que as torna ideais para fins educacionais.</p>
+<div class="blog_video_player_wrap" style="max-width: 400px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001868/2/KZBX97HI604.80848/bf8cfe3af04a1076d7" style="max-width: 400px;" title="Apresentando três novos recursos para redefinir o que é uma enquete." alt="TITLE">
+<source src="/file/464001951/2/9xlNwOwspBk.6603257.mp4/cea1f0c88c8e7d0726" type="video/mp4">
+</video>
+</div>
+<h3>
+<a class="anchor" name="quiz-bot" href="#quiz-bot">
+<i class="anchor-icon">
+</i>
+</a>Quiz Bot</h3>
+<p>Com a ajuda do <a href="https://t.me/quizbot">
+<strong>Quiz Bot</strong>
+</a>, você pode criar <strong>quizzes com várias perguntas</strong> e compartilhá-los com outros. O bot permite que você adicione texto ou mídia <em>antes</em> das perguntas para ajudar a criar enunciados no estilo de <strong>provas</strong> com gráficos e tabelas – ou testes de <a href="https://t.me/QuizBot?start=MemeQuiz">
+<em>Conheça o Seu Meme</em>
+</a>.</p>
+<div class="blog_image_wrap blog_medium_image_wrap">
+<a href="/file/464001279/1/5aDOxFSwPfY.190469/28f40c248f5a1f917c" target="_blank">
+<img src="/file/464001785/4/kYO0qdirU6I.45883/bc573a60a08e26efcd" title="Some like it bot" alt="TITLE" srcset="/file/464001279/1/5aDOxFSwPfY.190469/28f40c248f5a1f917c , 2x" />
+</a>
+</div>
+<p>Você pode definir um <strong>limite de tempo</strong> para cada pergunta. O bot acompanhará quantas perguntas os usuários acertaram e quanto tempo levaram para completar o quiz. Ele também mantém um <strong>ranking global</strong> para cada quiz que você criar.</p>
+<h3>
+<a class="anchor" name="criando-um-quiz" href="#criando-um-quiz">
+<i class="anchor-icon">
+</i>
+</a>Criando um Quiz</h3>
+<p>Criar um quiz é muito fácil, basta abrir o <a href="https://t.me/quizbot">@quizbot</a> no Telegram, usar a opção &#39;INICIAR&#39; e seguir as instruções. Se você estiver tendo alguma dificuldade, dê uma olhada em nossas <a href="https://telegram.org/tour/quizbot#criando-um-quiz-passo-a-passo">Instruções Passo a Passo</a>.</p>
+<h3>
+<a class="anchor" name="compartilhando-o-seu-quiz" href="#compartilhando-o-seu-quiz">
+<i class="anchor-icon">
+</i>
+</a>Compartilhando o Seu Quiz</h3>
+<p>Depois que o seu quiz estiver pronto, você pode <strong>compartilhá-lo</strong> em um grupo ou canal – ou convidar os usuários para responderem às perguntas em particular em uma conversa com o bot. Para ver como isso funciona, experimente o nosso quiz de demonstração: <a href="https://t.me/quizbot?start=GrandesMentes">Quem é Quem no pacote de stickers &#39;Grandes Mentes&#39;</a>.</p>
+<blockquote>
+<p>Você pode navegar por <strong>milhares de quizzes</strong> criados durante o <a href="https://telegram.org/blog/400-million/pt-br?setln=pt-br#400-mil-para-criadores-de-testes">Concurso de Quizzes de 2020</a> em <a href="https://quiz.directory">
+<em>quiz.directory</em>
+</a>.</p>
+</blockquote>
+<h3>
+<a class="anchor" name="criando-o-seu-proprio-bot-de-quiz" href="#criando-o-seu-proprio-bot-de-quiz">
+<i class="anchor-icon">
+</i>
+</a>Criando o Seu Próprio Bot de Quiz</h3>
+<p>Se você é uma pessoa desenvolvedora, você é bem-vinda a usar a <a href="https://core.telegram.org/bots">
+<strong>API de Bots do Telegram</strong>
+</a> para criar o seu próprio bot que suporta <a href="https://core.telegram.org/bots/api-changelog#april-24-2020">enquetes e quizzes</a>.</p>
+<hr>
+<h3>
+<a class="anchor" name="criando-um-quiz-passo-a-passo" href="#criando-um-quiz-passo-a-passo">
+<i class="anchor-icon">
+</i>
+</a>Criando um Quiz, Passo a Passo</h3>
+<p>Criar um quiz é muito fácil, basta abrir o <a href="https://t.me/quizbot">@quizbot</a> no Telegram, usar a opção &#39;INICIAR&#39; e seguir as instruções.</p>
+<p>
+<strong>1. Nome e descrição.</strong> Primeiro, você dará um <strong>nome</strong> ao seu quiz e uma <strong>descrição</strong> opcional – para testes educacionais, é melhor usar o assunto, como <em>Química Orgânica I</em> ou <em>História Real Britânica</em>. A descrição pode conter informações ou instruções como “você precisará de uma calculadora científica para este teste”.</p>
+<p>
+<strong>2. Texto pré-pergunta ou mídia.</strong> Agora é a hora de criar as <strong>perguntas</strong> do quiz. Use o botão &#39;Criar uma pergunta&#39; para abrir o modelo e criar a primeira pergunta. No entanto, se você quiser que <strong>texto</strong> ou <strong>mídia</strong> apareçam antes de uma pergunta, envie isso primeiro, <em>antes</em> de usar a opção &#39;Criar uma pergunta&#39;.</p>
+<p>
+<strong>3. Perguntas.</strong> Uma vez na interface de nova pergunta, basta <strong>preencher os campos</strong> sobre a pergunta, bem como suas possíveis respostas. Selecione a <strong>resposta certa</strong>, que será marcada com um check verde.</p>
+<p>
+<strong>4. Explicações.</strong> As explicações aparecerão depois que os usuários escolherem uma resposta. Elas podem ser usadas para dar <strong>mais informações</strong>, esclarecer <strong>erros comuns</strong> e suportam <strong>formatação de texto completa</strong>, incluindo <strong>links</strong>. Quando terminar, toque em &#39;Enviar&#39; para adicionar a pergunta ao seu teste. Repita o processo de criação de perguntas até adicionar todas as perguntas do seu quiz, e depois envie <strong>/done</strong> no chat para concluir.</p>
+<p>
+<strong>5. Temporizador.</strong> Em seguida, o bot perguntará quanto tempo os usuários terão para responder a cada pergunta. Para perguntas que não exigem cálculos, <strong>10</strong> ou <strong>15 segundos</strong> geralmente são suficientes. Mas para algo como matemática, temporizadores mais longos como <strong>3</strong> a <strong>5 minutos</strong> são melhores. Você sempre pode alterar essa configuração posteriormente, então não se preocupe.</p>
+<p>
+<strong>6. Embaralhando perguntas ou opções de respostas.</strong> O bot perguntará se você deseja embaralhar as perguntas e opções de respostas – isso significa que as perguntas serão apresentadas em uma ordem aleatória, e as respostas para perguntas individuais também estarão em uma ordem aleatória. Normalmente, é uma boa ideia dizer &#39;Sim&#39; aqui, para que os estudantes possam refazer o quiz para praticar sem simplesmente memorizar a ordem. No entanto, se você tiver respostas do tipo “todas as anteriores” ou perguntas que funcionem melhor se apresentadas em uma ordem específica, selecione &#39;Não&#39;. Novamente, essa configuração pode ser alterada no futuro, se necessário.</p>
+<p>
+<strong>7. Enviando o seu quiz para o concurso</strong>. O bot perguntará se você gostaria de enviar o seu quiz para o concurso. Se você escolher sim, ele fará algumas perguntas adicionais para confirmar o envio.</p>
+<p>
+<strong>8. Testando ou compartilhando o seu quiz.</strong> Seu quiz está completo! A partir daqui, você verá uma <strong>visão geral</strong> do seu novo quiz, mostrando o número de perguntas e suas configurações. Você pode &#39;Iniciar este quiz&#39;, que o iniciará em um chat privado com o QuizBot, iniciá-lo em um grupo ou encaminhar o quiz para alguém via &#39;Compartilhar quiz&#39;. Para copiar o link único para o seu quiz, toque e segure em &#39;Iniciar quiz em um grupo&#39;.</p>
+<p>
+<strong>9. Editando os seus quizzes.</strong> Tocar em &#39;Editar quiz&#39; permitirá que você altere qualquer uma das perguntas ou configurações do quiz, incluindo o título e a descrição. Em &#39;Editar perguntas&#39;, você pode adicionar texto pré-pergunta ou mídia, substituir a pergunta com respostas melhoradas ou até mesmo adicionar perguntas adicionais. Para selecionar uma pergunta individual para editar, toque no link /view dela no painel.</p>
+<p>
+<strong>10. Estatísticas do quiz.</strong> Por fim, você pode ver as Estatísticas do Quiz. Isso mostra quantas pessoas fizeram o quiz, junto com quem respondeu às perguntas da forma mais correta e mais rápida. Agora você entende tudo sobre quiz, e está tudo pronto para você fazer os seus testes.</p>
+</div>
+</div>
+<div class="tl_main_share clearfix">
+<a href="https://t.me/share/url?url=https%3A%2F%2Ftelegram.org%2Ftour%2Fquizbot%2Fpt-br&text=Conhe%C3%A7a%20os%20Quizzes%20do%20Telegram" class="tl_telegram_share_btn" id="tl_telegram_share_btn" data-text="Conheça os Quizzes do Telegram" data-url="https://telegram.org/tour/quizbot/pt-br">
+<i class="tl_telegram_share_icon">
+</i>
+<span class="tl_telegram_share_label" target="_blank">Forward</span>
+</a>
+<a href="https://twitter.com/share" class="tl_twitter_share_btn" id="tl_twitter_share_btn" data-text="Conheça os Quizzes do Telegram" data-url="https://telegram.org/tour/quizbot/pt-br" data-via="Telegram">Tweet <span class="tl_twitter_share_cnt">
+</span>
+</a>
+</div>
+</div>
+<div class="tl_main_recent_news_wrap tlb_other_news_wrap tl_blog_list_page_wrap">
+<h3 class="tl_main_recent_news_header">
+<a href="/blog">Other News</a>
+</h3>
+<div class="tl_main_recent_news_cards clearfix">
+<a class="dev_blog_card_link_wrap" href="/tour/affiliate-programs/pt-br">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image legacy" src="https://telegram.org/file/400780400281/1/_y09CatUzzs.1118766/a88b4c33161a899f2b" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">Programas de Afiliados</h4>
+<div class="dev_blog_card_lead">Desenvolvedores podem abrir programas de afiliados para seus miniapps – permitindo que criadores de conteúdo, outros desenvolvedores de miniapps e qualquer usuário do Telegram os promovam…</div>
+</div>
+<div class="dev_blog_card_date">Dec 4, 2024</div>
+</div>
+</a>
+<a class="dev_blog_card_link_wrap" href="/tour/stories/pt-br">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image legacy" src="https://telegram.org/file/400780400224/1/emnnuRWj7G8.38085/c7f3b7729e58e45def" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">Stories do Telegram</h4>
+<div class="dev_blog_card_lead">Os stories do Telegram são uma perspectiva nova e com a privacidade em primeiro lugar de um formato popular, repleto de opções criativas de mídia – permitindo a qualquer pessoa compartilhar…</div>
+</div>
+<div class="dev_blog_card_date">Aug 14, 2023</div>
+</div>
+</a>
+<a class="dev_blog_card_link_wrap" href="/tour/chat-folders/pt-br">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image legacy" src="https://telegram.org/file/464001783/10fa6/ls2Fg-_IdC0.96989/a427f8cced6c041a64" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">Pastas Compartilháveis</h4>
+<div class="dev_blog_card_lead">Qualquer usuário pode criar facilmente uma pasta personalizada com até 200 chats e compartilhá-la com amigos, colegas ou seguidores por meio de um único link. Com apenas um toque,…</div>
+</div>
+<div class="dev_blog_card_date">Apr 21, 2023</div>
+</div>
+</a>
+<a class="dev_blog_card_link_wrap" href="/tour/quizbot/pt-br">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image legacy" src="https://telegram.org/file/464001802/1/fwR7FzJKx2g.142023/3262deaf7701aed468" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">Quizzes</h4>
+<div class="dev_blog_card_lead">O Telegram tem enquetes poderosas para grupos e canais, que podem ser usadas para tudo, desde decidir onde almoçar até organizar provas de serviços públicos ou protestos sem líderes.…</div>
+</div>
+<div class="dev_blog_card_date">Dec 22, 2020</div>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer_wrap">
+<div class="footer_columns_wrap footer_desktop">
+<div class="footer_column footer_column_telegram">
+<h5>Telegram</h5>
+<div class="footer_telegram_description">
+</div>
+      Telegram is a cloud-based mobile and desktop messaging app with a focus on security and speed.
+    </div>
+<div class="footer_column">
+<h5>
+<a href="/faq">About</a>
+</h5>
+<ul>
+<li>
+<a href="/faq">FAQ</a>
+</li>
+<li>
+<a href="/privacy">Privacy</a>
+</li>
+<li>
+<a href="/press">Press</a>
+</li>
+</ul>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/apps#mobile-apps">Mobile Apps</a>
+</h5>
+<ul>
+<li>
+<a href="/dl/ios">iPhone/iPad</a>
+</li>
+<li>
+<a href="/android">Android</a>
+</li>
+<li>
+<a href="/dl/web">Mobile Web</a>
+</li>
+</ul>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/apps#desktop-apps">Desktop Apps</a>
+</h5>
+<ul>
+<li>
+<a href="//desktop.telegram.org/">PC/Mac/Linux</a>
+</li>
+<li>
+<a href="//macos.telegram.org/">macOS</a>
+</li>
+<li>
+<a href="/dl/web">Web-browser</a>
+</li>
+</ul>
+</div>
+<div class="footer_column footer_column_platform">
+<h5>
+<a href="//core.telegram.org/">Platform</a>
+</h5>
+<ul>
+<li>
+<a href="//core.telegram.org/api">API</a>
+</li>
+<li>
+<a href="//translations.telegram.org/">Translations</a>
+</li>
+<li>
+<a href="//instantview.telegram.org/">Instant View</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="footer_columns_wrap footer_mobile">
+<div class="footer_column">
+<h5>
+<a href="/faq">About</a>
+</h5>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/blog">Blog</a>
+</h5>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/press">Press</a>
+</h5>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/safety">Safety</a>
+</h5>
+</div>
+</div>
+</div>
+<script src="/js/main.js?49">
+</script>
+<script src="/js/tgsticker.js?32">
+</script>
+<script src="/js/main-theme.js?6">
+</script>
+<script>initScrollVideos(true);
+twitterCustomShareInit();
+blogSideImageInit();
+backToTopInit("Go up");
+removePreloadInit();
+</script>
+</body>
+</html>

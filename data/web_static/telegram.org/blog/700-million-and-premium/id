@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html class="" data-theme="light">
+<head>
+<meta charset="utf-8">
+<title>700 Juta Pengguna dan Telegram Premium</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:title" content="700 Juta Pengguna dan Telegram Premium">
+<meta property="og:image" content="https://telegram.org/file/464001006/1044e/ZDyna5YyQwE.51909/a7532c511d9bab9ea9">
+<meta property="og:site_name" content="Telegram">
+<meta property="og:description" content="Telegram sekarang sudah memiliki 700 juta pengguna aktif tiap bulannya. Hari ini kami meluncurkan Telegram Premium, layanan berlangganan sebagai bentuk dukungan Anda terhadap pengembangan Telegram yang terus berkelanjutan dan memberikan akses untuk fitur tambahan eksklusif.">
+<meta property="article:published_time" content="2022-06-21T10:49:44+00:00">
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://telegram.org/file/464001006/1044e/ZDyna5YyQwE.51909/a7532c511d9bab9ea9" />
+<meta property="fb:app_id" content="254098051407226">
+<meta property="vk:app_id" content="3782569">
+<meta name="apple-itunes-app" content="app-id=686449807">
+<meta name="telegram:channel" content="@telegram">
+<link rel="canonical" href="https://telegram.org/blog/700-million-and-premium/id" />
+<link rel="icon" type="image/svg+xml" href="/img/website_icon.svg?4">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="alternate icon" href="/img/favicon.ico" type="image/x-icon" />
+<link href="/css/bootstrap.min.css?3" rel="stylesheet">
+<link href="/css/telegram.css?256" rel="stylesheet" media="screen">
+<link href="/css/telegram-theme.css?9" rel="stylesheet" media="screen">
+</head>
+<body class="preload">
+<div id="fb-root">
+</div>
+<button class="theme-toggle theme-toggle--static" type="button" title="Toggle theme" aria-label="Toggle light/dark theme">
+</button>
+<div class="tl_page_wrap">
+<div class="tl_page_head navbar navbar-static-top navbar navbar-tg">
+<div class="navbar-inner">
+<div class="container clearfix">
+<ul class="nav navbar-nav navbar-right">
+<li class="dropdown top_lang_select">
+<a class="dropdown-toggle" onclick="return dropdownClick(this, event)" href="#">
+<i class="dev_top_lang_icon">
+</i>
+<b class="minicaret">
+</b>
+</a>
+<ul class="dropdown-menu">
+<li class="">
+<a href="?setln=en">English</a>
+</li>
+<li class="long ">
+<a href="?setln=id">Bahasa Indonesia</a>
+</li>
+<li class="long ">
+<a href="?setln=ms">Bahasa Melayu</a>
+</li>
+<li class="">
+<a href="?setln=de">Deutsch</a>
+</li>
+<li class="">
+<a href="?setln=es">Español</a>
+</li>
+<li class="">
+<a href="?setln=fr">Français</a>
+</li>
+<li class="">
+<a href="?setln=it">Italiano</a>
+</li>
+<li class="">
+<a href="?setln=nl">Nederlands</a>
+</li>
+<li class="">
+<a href="?setln=uz">O‘zbek</a>
+</li>
+<li class="">
+<a href="?setln=pl">Polski</a>
+</li>
+<li class="long ">
+<a href="?setln=pt-br">Português (Brasil)</a>
+</li>
+<li class="">
+<a href="?setln=tr">Türkçe</a>
+</li>
+<li class="">
+<a href="?setln=be">Беларуская</a>
+</li>
+<li class="">
+<a href="?setln=ru">Русский</a>
+</li>
+<li class="">
+<a href="?setln=uk">Українська</a>
+</li>
+<li class="">
+<a href="?setln=kk">Қазақша</a>
+</li>
+<li class="">
+<a href="?setln=ar">العربية</a>
+</li>
+<li class="">
+<a href="?setln=fa">فارسی</a>
+</li>
+<li class="">
+<a href="?setln=ko">한국어</a>
+</li>
+</ul>
+</li>
+<li class="navbar-twitter hidden-xs">
+<a href="https://x.com/telegram" target="_blank" data-track="Follow/Twitter" onclick="trackDlClick(this, event)">
+<i class="icon icon-twitter">
+</i> Follow on X</a>
+</li>
+</ul>
+<ul class="nav navbar-nav">
+<li class="">
+<a href="/">Home</a>
+</li>
+<li class="">
+<a href="/faq">FAQ</a>
+</li>
+<li class="">
+<a href="/apps">Apps</a>
+</li>
+<li class="hidden-xs ">
+<a href="//core.telegram.org/api">API</a>
+</li>
+<li class="hidden-xs ">
+<a href="/safety">Safety</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="container clearfix tl_page_container ">
+<div class="tl_page">
+<div class="tl_contest_page_wrap">
+<div class="tl_blog_side_blog">
+<div class="side_blog_wrap">
+<div class="side_blog">
+<a href="/blog" class="side_blog_header">Recent News</a>
+<div class="side_blog_entries">
+<a href="/blog/welcome-messages-buttons-TG-13" class="side_blog_entry">
+<div class="side_blog_date">Aug 25</div>
+<div class="side_blog_title">Welcome Messages, Buttons in Messages and Signed Gifts</div>
+</a>
+<a href="/blog/communities-editor-invisible-messages" class="side_blog_entry">
+<div class="side_blog_date">Jul 14</div>
+<div class="side_blog_title">Rich Text Editor, Communities, Ephemeral Messages in Groups, 350 Million GIFs</div>
+</a>
+<a href="/blog/watch-apps-and-more" class="side_blog_entry">
+<div class="side_blog_date">Jun 11</div>
+<div class="side_blog_title">Smartwatch Apps, Rich Text for Bots, AI Guardians for Groups, and Much More</div>
+</a>
+<a href="/blog/ai-bot-revolution-11-new-features" class="side_blog_entry">
+<div class="side_blog_date">May 7</div>
+<div class="side_blog_title">Guest AI Bots, Bot-to-Bot Chats, Chat Automation, Custom AI Styles, 100M+ Emoji &amp; Sticker Search and Much More</div>
+</a>
+<a href="/blog/ai-editor-mighty-polls-and-more" class="side_blog_entry">
+<div class="side_blog_date">Mar 31</div>
+<div class="side_blog_title">AI Editor, Mighty Polls, Live Photos, Bots Managed by Bots, and More</div>
+</a>
+<a href="/blog/member-tags-disable-sharing-and-more" class="side_blog_entry">
+<div class="side_blog_date">Mar 1</div>
+<div class="side_blog_title">Member Tags, Login with Telegram, Disable Sharing, GIF Editing, Date Formatting, Voting Timestamps</div>
+</a>
+<a href="/blog/crafting-android-design-and-more" class="side_blog_entry">
+<div class="side_blog_date">Feb 9</div>
+<div class="side_blog_title">Android Redesign, Group Ownership Transfer, Gift Crafting, Colored Bot Buttons</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div id="dev_page_content_wrap" class=" ">
+<div class="dev_page_bread_crumbs">
+</div>
+<h1 id="dev_page_title">700 Juta Pengguna dan Telegram Premium</h1>
+<blockquote class="blog_lang_original">
+<a href="/blog/700-million-and-premium?ln=r">Baca pengumuman resmi dalam Bahasa Inggris</a>
+</blockquote>
+<div id="dev_page_content">
+<div class="blog_side_image_wrap">
+<picture class="dev_page_tgsticker blog_side_image js-tgsticker_image" style="width:160px;">
+<div style="padding-top:100%">
+</div>
+<source type="application/x-tgsticker" srcset="/file/464001455/11a8f/5NKmV6LQ9Jk.17155/4d196b78a6c41a9211">
+<img src="/file/464001455/11a90/g2JfUcIjUek.17037.png/60a682a4ba46d1114e" />
+</picture>
+</div>
+<div class="blog_wide_image legacy">
+<a href="/file/464001533/1130b/LOLHYtTvIyg.5632468/765938e39b6572ef3c" target="_blank">
+<img src="/file/464001006/1044e/ZDyna5YyQwE.51909/a7532c511d9bab9ea9" srcset="/file/464001280/fced/equ3GxdRm38.136219/85d4b9a1e7aae4c322, 1200w" title="Terima kasih sudah menjadi bagian keren dari Telegram." alt="700 Juta Pengguna dan Telegram Premium"/>
+</a>
+</div>
+<p>Telegram telah mencapai peringkat <strong>kelima teratas</strong> sebagai aplikasi yang diunduh terbanyak di dunia dan sekarang memiliki lebih dari <strong>700 juta pengguna aktif</strong> tiap bulan. Pertumbuhan ini berkat dukungan serta <strong>rekomendasi pengguna pribadi</strong> karena selama ini Telegram tidak pernah mengeluarkan biaya untuk iklan apapun.</p>
+<p>Telegram yang terus bergerak secepat roket. Banyak pengguna yang sudah menyampaikan keinginan mereka untuk mendukung tim kami. Hari ini kami meluncurkan <img class="icon" src="/file/464001305/110b0/-bpC5P3HJp4.6317/a2b79589744c739331" alt="Premium">
+<strong>Telegram Premium</strong>, layanan berlangganan sebagai bentuk dukungan Anda terhadap pengembangan Telegram yang terus berkelanjutan dan memberikan akses untuk <strong>fitur tambahan eksklusif</strong>. </p>
+<p>Hal ini membantu kami untuk menawarkan semua fitur yang sudah diajukan oleh pengguna selama bertahun-tahun, sambil <strong>menjaga akses gratis</strong> ke layanan paling kuat di planet ini. </p>
+<h3>
+<a class="anchor" name="telegram-premium" href="#telegram-premium">
+<i class="anchor-icon">
+</i>
+</a>
+<img class="icon" src="/file/464001305/110b0/-bpC5P3HJp4.6317/a2b79589744c739331" alt="Premium"> Telegram Premium</h3>
+<p>Dengan berlangganan Telegram Premium, pengguna dapat menikmati layanan <strong>limit dua kali lipat</strong>, <strong>mengunggah berkas hingga 4GB</strong>, <strong>unduh lebih cepat</strong>, <strong>stiker eksklusif</strong> dan <strong>reaksi</strong>, <strong>manajemen  obrolan yang ditingkatkan</strong> dan masih banyak lagi. </p>
+<p>Pada saat yang sama, <strong>fitur tersedia</strong> yang sudah digunakan oleh pengguna selama nyaris satu dekade <strong>akan tetap gratis</strong>. Selain itu, pengguna non-premium akan dapat menikmati beberapa manfaat Premium, misalnya mengunduh <a href="#4-gb-uploads">berkas ekstra besar</a> dan melihat <a href="#unik-stiker">stiker</a> yang dikirim oleh pengguna premium, serta ketuk untuk memberikan <a href="#reaksi-unik">reaksi premium</a> yang telah ditambahkan ke pesan.</p>
+<blockquote>
+<p>Kontribusi dari pelanggan premium akan membantu Telegram dalam meningkatkan layanan aplikasi untuk beberapa dekade ke depan, sementara Telegram akan tetap bebas, mandiri dan menjunjung tinggi nilai utama pengguna, di mana perusahaan teknologi harus beroperasi.</p>
+</blockquote>
+<h4>
+<a class="anchor" name="unggahan-4gb" href="#unggahan-4gb">
+<i class="anchor-icon">
+</i>
+</a>
+<img class="icon" src="/file/464001305/110b0/-bpC5P3HJp4.6317/a2b79589744c739331" alt="Premium"> Unggahan 4GB</h4>
+<p>Semua pengguna dapat mengunggah berkas dan media berukuran besar, masing-masing hingga 4 GB dan menikmati Penyimpanan Awan Telegram dengan gratis. Dengan Telegram Premium, pelanggan akan dapat mengirim berkas berukuran <strong>4 GB</strong>, cukup untuk video 1080p berdurasi 4 jam atau video berkualitas tinggi yang berdurasi 18 hari.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001289/12561/px2hpHauo_A.53400/d398de310bd104abbe" style="max-width: 600px;" title="Wow! Besar Sekali!" alt="Unggahan 4GB">
+<source src="/file/464001664/1045d/3SwMs59cUuM.2769916.mp4/435611f5ae12a0a9c0" type="video/mp4">
+</video>
+</div>
+<blockquote>
+<p>
+<strong>Semua</strong> pengguna Telegram dapat mengunduh dokumen ekstra besar ini, tidak peduli apabila mereka berlangganan Telegram Premium atau tidak.</p>
+</blockquote>
+<h4>
+<a class="anchor" name="pengunduhan-lebih-cepat" href="#pengunduhan-lebih-cepat">
+<i class="anchor-icon">
+</i>
+</a>
+<img class="icon" src="/file/464001305/110b0/-bpC5P3HJp4.6317/a2b79589744c739331" alt="Premium"> Pengunduhan Lebih Cepat</h4>
+<p>Pelanggan Premium juga akan dapat mengunduh media dan berkas dengan <strong>kecepatan tertinggi</strong>. Anda dapat mengakses semuanya di penyimpanan awan secepat koneksi internet Anda.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001069/10957/Zw6lkD5YYMg.51833/6882e77ffee072d9e3" style="max-width: 600px;" title="Unduh lebih cepat dari Utiya Duck!" alt="Unduh Lebih Cepat">
+<source src="/file/464001202/fd45/pIXb3O5SQEs.3604627.mp4/c02b8496b5adb2b3b1" type="video/mp4">
+</video>
+</div>
+<h4>
+<a class="anchor" name="limit-dua-kali-lipat" href="#limit-dua-kali-lipat">
+<i class="anchor-icon">
+</i>
+</a>
+<img class="icon" src="/file/464001305/110b0/-bpC5P3HJp4.6317/a2b79589744c739331" alt="Premium"> Limit Dua Kali Lipat</h4>
+<p>Pengguna Premium mendapatkan limit tambahan untuk hampir segalanya di aplikasi. Dengan Premium, Anda dapat mengikuti hingga <strong>1.000 channel</strong>, membuat hingga <strong>20 folder</strong> obrolan masing-masing dengan maksimum <strong>200 obrolan</strong>, menambah <strong>akun keempat</strong> di aplikasi Telegram apapun, menyemat <strong>10 obrolan</strong> dalam daftar obrolan utama, dan menyimpan hingga <strong>10 stiker favorit</strong>.</p>
+<div class="blog_image_wrap blog_wide_image_wrap">
+<a href="/file/464001879/1169b/0Tk59b1Omvc.119016/b15ee6405e996617af" target="_blank">
+<img src="/file/464001879/1169b/0Tk59b1Omvc.119016/b15ee6405e996617af" title="Dua kali lipat lebih baik!" alt="Limit Dua Kali Lipat untuk semuanya" srcset="/file/464001879/1169b/0Tk59b1Omvc.119016/b15ee6405e996617af , 2x" />
+</a>
+</div>
+<p>Anda juga dapat menulis <strong>bio yang lebih panjang</strong> dan menyisipkan tautan di dalamnya. Sama halnya, Premium juga memungkinkan penambahan karakter lebih banyak di keterangan media. Mencari cara untuk merespon pesan juga lebih mudah berkat <strong>400 GIF favorit</strong>. Terakhir, pengguna Premium juga dapat memiliki hingga <strong>20 tautan publik t.me</strong> sehingga setiap grup dan channel Anda dapat mempunyai tautan singkat dan padat.</p>
+<h4>
+<a class="anchor" name="transkripsi-audio" href="#transkripsi-audio">
+<i class="anchor-icon">
+</i>
+</a>
+<img class="icon" src="/file/464001305/110b0/-bpC5P3HJp4.6317/a2b79589744c739331" alt="Premium"> Transkripsi Audio</h4>
+<p>Pesan suara sekarang dapat <strong>diubah menjadi teks</strong> apabila Anda tidak tertarik mendengarkannya, tetapi ingin tahu isinya. Anda juga dapat memberi <strong>penilaian</strong> untuk membantu mengembangkan fitur baru ini.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001063/11726/uJIoQT3Dgv8.53047/66765c97c4d467b423" style="max-width: 600px;" title="Bim salabim abrakadabra!" alt="Transkripsi Suara">
+<source src="/file/464001784/fd9e/iUUK-DeE1oc.1804283.mp4/f4f7b9b7d2c825b314" type="video/mp4">
+</video>
+</div>
+<h4>
+<a class="anchor" name="stiker-unik" href="#stiker-unik">
+<i class="anchor-icon">
+</i>
+</a>
+<img class="icon" src="/file/464001305/110b0/-bpC5P3HJp4.6317/a2b79589744c739331" alt="Premium"> Stiker Unik</h4>
+<p>Sejumlah besar stiker sekarang memiliki <strong>animasi layar penuh</strong> yang menakjubkan, yang dapat dikirim pengguna Premium dalam obrolan apapun untuk memeriahkan suasana dan efek ekspresi yang terlihat bagi <strong>semua pengguna</strong>. Koleksi stiker premium akan diperbarui setiap bulan oleh kreator stiker Telegram.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001168/10888/kjDCfhNOJf4.41225/8e943def4722ffbc46" style="max-width: 600px;" title="DENGAN KEKUATAN PENUH!" alt="Stiker dengan efek layar penuh">
+<source src="/file/464001001/11413/Sq77P9zLuX4.4596955.mp4/283d7c08f8e2d2a421" type="video/mp4">
+</video>
+</div>
+<blockquote>
+<p>Anda dapat mencari Stiker Premium dalam semua set Anda di bagian khusus dalam panel stiker Anda, di bawah &#39;Terakhir Digunakan&#39;.</p>
+</blockquote>
+<h4>
+<a class="anchor" name="reaksi-unik" href="#reaksi-unik">
+<i class="anchor-icon">
+</i>
+</a>
+<img class="icon" src="/file/464001305/110b0/-bpC5P3HJp4.6317/a2b79589744c739331" alt="Premium"> Reaksi Unik</h4>
+<p>Pengguna Premium juga dapat menikmati beraneka cara untuk bereaksi pada pesan dengan lebih dari <strong>10 emoji baru</strong> seperti <img class="emoji" src="//telegram.org/img/emoji/40/F09F918C.png" width="20" height="20" alt="👌" />
+<img class="emoji" src="//telegram.org/img/emoji/40/F09F988D.png" width="20" height="20" alt="😍" />
+<img class="emoji" src="//telegram.org/img/emoji/40/E29DA4E2808DF09F94A5.png" width="20" height="20" alt="❤️‍🔥" />
+<img class="emoji" src="//telegram.org/img/emoji/40/F09F92AF.png" width="20" height="20" alt="💯" /> ( dan emoji favorit terbaru <img class="emoji" src="//telegram.org/img/emoji/40/F09FA4A1.png" width="20" height="20" alt="🤡" />
+<img class="emoji" src="//telegram.org/img/emoji/40/F09F8CAD.png" width="20" height="20" alt="🌭" />
+<img class="emoji" src="//telegram.org/img/emoji/40/F09F90B3.png" width="20" height="20" alt="🐳" />).</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001603/fe2c/9H_C0OxONUo.21028/cfdf6f678e6cead9bc" style="max-width: 600px;" title="'Bayangkan jika pesan ini mendapatkan 1.000 emoji hati...'" alt="Reaksi Unik">
+<source src="/file/464001463/11e1e/W28mJJA7X1U.4467566.mp4/134a6e46c6b4c215ee" type="video/mp4">
+</video>
+</div>
+<h4>
+<a class="anchor" name="manajemen-obrolan" href="#manajemen-obrolan">
+<i class="anchor-icon">
+</i>
+</a>
+<img class="icon" src="/file/464001305/110b0/-bpC5P3HJp4.6317/a2b79589744c739331" alt="Premium"> Manajemen Obrolan</h4>
+<p>Telegram Premium sekarang menyediakan fungsi untuk mengelola daftar obrolan, seperti mengubah <strong>folder obrolan utama</strong> sehingga aplikasi Anda selalu terbuka dalam tampilan <strong>folder khusus</strong> atau misalnya <em>Belum Dibaca</em> daripada <em>Semua Obrolan</em>. </p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001352/11049/u4ThRws4vWE.63910/ebddab84c92366a193" style="max-width: 600px;" title="Hidup lebih indah jika obrolan lebiih rapi." alt="Manajemen Obrolan">
+<source src="/file/464001453/109e9/1tWYH1FEOKw.1609494.mp4/a4eb185aa0e30b7781" type="video/mp4">
+</video>
+</div>
+<blockquote>
+<p>Untuk mengubah folder utama Anda, tekan dan tahan folder dalam daftar obrolan &gt; Atur ulang &gt; dan geser folder tersebut ke slot pertama.</p>
+</blockquote>
+<p>Selain itu, di pengaturan <em>Privasi dan Keamanan</em>, pelanggan dapat mengaktifkan fitur untuk mengarsipkan dan senyapkan obrolan baru, yang akan membuat tampilan obrolan Anda menjadi lebih rapi di tengah hiruk pikuknya percakapan.</p>
+<h4>
+<a class="anchor" name="foto-profil-beranimasi" href="#foto-profil-beranimasi">
+<i class="anchor-icon">
+</i>
+</a>
+<img class="icon" src="/file/464001305/110b0/-bpC5P3HJp4.6317/a2b79589744c739331" alt="Premium"> Foto Profil Beranimasi</h4>
+<p>
+<a href="https://telegram.org/blog/profile-videos-people-nearby-and-more/id?ln=a#profile-videos/id">Video Profil</a> pelanggan Premium akan tampak bergerak bagi semua <strong>pengguna aplikasi</strong>, termasuk <strong>dalam obrolan</strong> dan <strong>daftar obrolan</strong>. Pamerkan rupa baru dan kreativitas Anda dengan sebuah animasi berulang yang unik.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001423/fa25/ANFkramBMcA.37928/2e33c103a2a7b3c441" style="max-width: 600px;" title="Buat foto ala suasana Hogwarts." alt="Foto Profil Animasi">
+<source src="/file/464001243/12471/TMp00bcLY80.968143.mp4/92886916c05087c701" type="video/mp4">
+</video>
+</div>
+<h4>
+<a class="anchor" name="lambang-premium" href="#lambang-premium">
+<i class="anchor-icon">
+</i>
+</a>
+<img class="icon" src="/file/464001305/110b0/-bpC5P3HJp4.6317/a2b79589744c739331" alt="Premium"> Lambang Premium</h4>
+<p>Semua pengguna premium mendapat emblem khusus <img class="icon" src="/file/464001986/11e90/OcmtMKhW_l8.1793/8c1c37d18dc5a0cabe" alt="Premium"> yang muncul di sebelah nama mereka pada di daftar obrolan, <em>header</em> obrolan dan daftar anggota di grup yang menunjukkan bahwa mereka telah memberikan dukungan untuk Telegram dan menjadi bagian dari kelompok pertama yang mendapatkan fitur baru.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001947/105e1/AJZl0skcJb4.48751/b8c4c3e357a59438da" style="max-width: 600px;" title="Ada bintang baru di sini!" alt="Emblem Premium">
+<source src="/file/464001274/fb28/tao0HzFiaaI.1612341.mp4/5edb74fcb9e9738c2f" type="video/mp4">
+</video>
+</div>
+<h4>
+<a class="anchor" name="ikon-aplikasi-premium" href="#ikon-aplikasi-premium">
+<i class="anchor-icon">
+</i>
+</a>
+<img class="icon" src="/file/464001305/110b0/-bpC5P3HJp4.6317/a2b79589744c739331" alt="Premium"> Ikon Aplikasi Premium</h4>
+<p>Pengguna premium akan dapat menambahkan <strong>ikon aplikasi baru</strong> ke Layar Beranda atau <em>wallpaper</em> sesuai selera mereka. Pilih salah satunya dari bentuk bintang premium, langit malam atau pesawat turbo. Di luar itu, semua pengguna juga akan dapat mengenakan sebuah logo emas. </p>
+<div class="blog_image_wrap blog_wide_image_wrap">
+<a href="/file/464001851/10bd5/g0G8pN89a9g.64157/09a447002e2a55b58f" target="_blank">
+<img src="/file/464001851/10bd5/g0G8pN89a9g.64157/09a447002e2a55b58f" title="Pilih ikon sesuai selera." alt="Ikon aplikasi premium" srcset="/file/464001851/10bd5/g0G8pN89a9g.64157/09a447002e2a55b58f , 2x" />
+</a>
+</div>
+<h4>
+<a class="anchor" name="tanpa-iklan" href="#tanpa-iklan">
+<i class="anchor-icon">
+</i>
+</a>
+<img class="icon" src="/file/464001305/110b0/-bpC5P3HJp4.6317/a2b79589744c739331" alt="Premium"> Tanpa Iklan</h4>
+<p>Di beberapa negara, Pesan Sponsor akan ditampilkan dalam channel publik yang besar. Iklan minimalis yang menghargai privasi ini membantu menutup biaya pengoperasian Telegram, tetapi tidak akan muncul bagi pelanggan Telegram Premium.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001307/10742/fNYrtwQiMWU.47990/c23b16d041b0ac7201" style="max-width: 600px;" title="Lebih baik seperti ini." alt="Tanpa Iklan">
+<source src="/file/464001861/10d8b/6HwUUM-8tvg.2196854.mp4/4200788edba0b2bded" type="video/mp4">
+</video>
+</div>
+<blockquote>
+<p>Dengan berlangganan Telegram Premium, Anda membantu menutup biaya yang dikeluarkan Telegram untuk menyediakan fitur-fitur premium ini dan juga mendukung versi gratis Telegram bagi semuanya.</p>
+</blockquote>
+<h3>
+<a class="anchor" name="peningkatan-bagi-semuanya" href="#peningkatan-bagi-semuanya">
+<i class="anchor-icon">
+</i>
+</a>Peningkatan bagi Semuanya</h3>
+<p>Di satu sisi, kami memang merilis banyak fitur menarik bagi pelanggan Premium. Namun di sisi lain, kami akan tetap menerapkan fitur gratis bagi semuanya, jauh lebih cepat daripada aplikasi raksasa lainnya. Pembaruan kali ini salah satu contohnya. Sekarang, Anda dapat mengaktifkan fitur <strong>permintaan masuk</strong> untuk grup publik dan menikmati layar beranimasi saat <strong>berbagi dari luar Telegram</strong>. <strong>Deskripsi bot</strong> juga telah ditingkatkan, dan masih banyak fitur lainnya yang kami belum sempat sebut di sini.</p>
+<h4>
+<a class="anchor" name="permintaan-masuk-untuk-grup-publik" href="#permintaan-masuk-untuk-grup-publik">
+<i class="anchor-icon">
+</i>
+</a>Permintaan Masuk untuk Grup Publik</h4>
+<p>Sekarang grup publik dapat mengaktifkan fitur permintaan masuk yang memungkinkan admin grup untuk meninjau anggota baru sebelum mereka diizinkan mengirim pesan. Pengguna yang membuka grup dapat mengetuk Minta Izin Masuk untuk ditambahkan ke daftar yang hanya admin dapat lihat.</p>
+<div class="blog_image_wrap blog_wide_image_wrap">
+<a href="/file/464001999/11ac9/8LcPPr0Bers.142998/554b563068dd4a2829" target="_blank">
+<img src="/file/464001999/11ac9/8LcPPr0Bers.142998/554b563068dd4a2829" title="Halo-halo apakah ada orang?" alt="Permintaan Masuk Ke Grup Publik" srcset="/file/464001999/11ac9/8LcPPr0Bers.142998/554b563068dd4a2829 , 2x" />
+</a>
+</div>
+<p>Admin dapat menjangkau pengguna yang ingin bergabung dan mengobrol tentang peraturan grup, memastikan bahwa mereka cocok, atau bahkan menyiapkan pesta kedatangan. Saat seorang admin menjangkau seorang pengguna, Telegram akan memberitahu penggunanya bahwa mereka sedang dijangkau oleh grup admin.</p>
+<blockquote>
+<p>Pemilik grup publik dapat mengaktifkan permintaan masuk via <em>Info Grup &gt; Edit &gt; Tipe Grup &gt; Siapa yang Dapat Mengirim Pesan &gt;</em> pilih <em>Hanya Anggota</em> &gt; aktifkan <em>Setujui Anggota Baru</em>.</p>
+</blockquote>
+<h4>
+<a class="anchor" name="emblem-terverifikasi-dalam-obrolan" href="#emblem-terverifikasi-dalam-obrolan">
+<i class="anchor-icon">
+</i>
+</a>Emblem Terverifikasi dalam Obrolan</h4>
+<p>Figur dan organisasi publik dapat memverifikasi grup, channel, atau bot mereka untuk mendapatkan <img class="icon" src="/file/464001906/107ca/Y-sn47RDLAk.1898/a6ad0e5cfb2699cf01" alt="Emblem Terverifikasi"> yang menunjukkan bahwa mereka adalah sumber terpercaya. Emblem ini tampak di profil, hasil pencarian, daftar obrolan, dan juga di atas halaman obrolan terkait. Hal ini memudahkan pengguna untuk mengonfirmasi sumber suatu pesan.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001065/1085b/eyYpGT2_Yq0.49371/188f657ae7aee1b44e" style="max-width: 600px;" title="Benar-benar sangat terverifikasi." alt="Emblem Verifikasi di Obrolan">
+<source src="/file/464001486/10d8b/XPjDnSBGl6E.187867.mp4/c8b51e4dc87c2bfd48" type="video/mp4">
+</video>
+</div>
+<blockquote>
+<p>Apabila Anda terverifikasi di paling tidak dua media sosial, Anda dapat <a href="https://telegram.org/verify">memverifikasi grup, channel, atau bot Anda.</a>
+</p>
+</blockquote>
+<h4>
+<a class="anchor" name="bot-lebih-baik" href="#bot-lebih-baik">
+<i class="anchor-icon">
+</i>
+</a>Bot Lebih Baik</h4>
+<p>Bot di Telegram kini dapat membawa Anda ke situs web, menerima pembayaran dan bahkan mengganti sebuah situs web secara menyeluruh. Pengembang bot dapat sekarang memuat <strong>foto dan video</strong> dalam bagian <strong>“Apa yang bot ini dapat lakukan?”</strong> untuk memamerkan fitur bot mereka.</p>
+<div class="blog_image_wrap blog_wide_image_wrap">
+<a href="/file/464001620/10581/TgmgQQ-u2yw.148291/608ebf5909f28d53c5" target="_blank">
+<img src="/file/464001620/10581/TgmgQQ-u2yw.148291/608ebf5909f28d53c5" title="Aku suka burger." alt="Apa yang bot ini dapat lakukan?" srcset="/file/464001620/10581/TgmgQQ-u2yw.148291/608ebf5909f28d53c5 , 2x" />
+</a>
+</div>
+<p>Bot yang terintegrasi ke dalam menu <img class="icon" src="/file/464001085/2/E4hNXSNQimQ.2503/bf6ffcab3cb3afd43d" alt="Lampiran"> dapat sekarang berfungsi tidak hanya dalam obrolan langsung, tetapi juga dalam grup dan channel.</p>
+<blockquote>
+<p>Bot API gratis dan terbuka, tersedia untuk semua pengguna. Jika Anda ingin mengembangkan bot Anda sendiri, <a href="https://core.telegram.org/bots">cek halaman ini</a>.</p>
+</blockquote>
+<h4>
+<a class="anchor" name="peningkatkan-pratinjau-obrolan-di-android" href="#peningkatkan-pratinjau-obrolan-di-android">
+<i class="anchor-icon">
+</i>
+</a>Peningkatkan Pratinjau Obrolan di Android</h4>
+<p>Pembaruan ini juga membawa <strong>peningkatan pratinjau obrolan</strong> ke Android setara dengan iOS. Sekarang Anda dapat menggulir dan <strong>membaca seluruh percakapan</strong> tanpa perlu menandainya sudah dibaca. Berbagai tombol baru juga telah ditambah untuk memungkinkan Anda menandai suatu obrolan sudah dibaca, membuat senyap, menyematkan atau menghapus.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001121/1145e/qQ3N9lbNVYM.56572/80ac2ff07d570e8581" style="max-width: 600px;" title= "Bisa intip lebih baik." alt="tinjauan obrolan lebih baik">
+<source src="/file/464001427/114de/_Qsp46gfXgw.2253966.mp4/9c7a813e1fff41d6f2" type="video/mp4">
+</video>
+</div>
+<blockquote>
+<p>Untuk melihat pratinjau obrolan, cukup tekan dan tahan foto profilnya di dalam daftar obrolan.</p>
+</blockquote>
+<h4>
+<a class="anchor" name="penyimpanan-otomatis-ke-galeri-di-android" href="#penyimpanan-otomatis-ke-galeri-di-android">
+<i class="anchor-icon">
+</i>
+</a>Penyimpanan Otomatis ke Galeri di Android</h4>
+<p>Opsi ini untuk <strong>menyimpan media ke galeri secara otomatis</strong> dengan suasana baru: penyimpanan media sekarang dapat diaktifkan dan dinonaktifkan secara terpisah untuk masing-masing obrolan dengan <strong>pengguna, grup, atau channel</strong>.</p>
+<div class="blog_image_wrap blog_wide_image_wrap">
+<a href="/file/464001394/11c35/F7XU_28_SHU.86718/4e580f61c05a6276ff" target="_blank">
+<img src="/file/464001394/11c35/F7XU_28_SHU.86718/4e580f61c05a6276ff" title="Banyak Media, sedikit usaha." alt="Simpan ke Galeri Otomatis" srcset="/file/464001394/11c35/F7XU_28_SHU.86718/4e580f61c05a6276ff , 2x" />
+</a>
+</div>
+<h4>
+<a class="anchor" name="peningkatan-fitur-berbagi-eksternal-di-ios" href="#peningkatan-fitur-berbagi-eksternal-di-ios">
+<i class="anchor-icon">
+</i>
+</a>Peningkatan Fitur Berbagi Eksternal di iOS</h4>
+<p>Dengan kemampuan untuk mengirim berkas hingga <strong>2 GB</strong> (<a href="#4-gb-uploads">atau 4 GB</a>), pengguna dapat dengan mudah membagikan berkas media berukuran besar langsung dari <strong>aplikasi lain</strong> ke Telegram di semua platform ponsel. Hal ini menghemat waktu dan ruang penyimpanan, karena Anda tidak perlu lagi menyimpan berkasnya sebelum mengirim di Telegram.</p>
+<p>Ketika membagikan berkas berukuran besar dari aplikasi lain di iOS, Anda sekarang dapat menyaksikan bar <strong>progres animasi</strong> untuk mengetahui apabila terdapat cukup waktu untuk bermain game atau membuat kopi.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001728/fe97/BDrmr9JKW34.38597/f54a44cf612b5060f4" style="max-width: 600px;" title="Hah! Kamu pakai aplikasi lain?" alt="Berbagi Eksternal Lebih baik di IPS">
+<source src="/file/464001454/11447/spnWsPnfSWM.978789.mp4/1daeef5e5b911e08db" type="video/mp4">
+</video>
+</div>
+<h4>
+<a class="anchor" name="stiker-dan-foto-emoji-profil-di-macos" href="#stiker-dan-foto-emoji-profil-di-macos">
+<i class="anchor-icon">
+</i>
+</a>Stiker dan Foto Emoji Profil di macOS</h4>
+<p>Pengguna macOS sekarang dapat dengan cepat membuat foto profil khusus. Pilih sebuah stiker atau emoji beranimasi dan tambahkan latar gradasi kaya warna. Setelah itu, Anda dapat memasangnya sebagai foto profil Anda atau sebagai foto grup atau channel. Hal ini tentunya memudahkan Anda untuk membuat ikon obrolan bertema tanpa perlu mencari gambar yang cocok.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001599/11376/lKgoNItH6LU.33849/f746d770ab23a9b3bb" style="max-width: 600px;" title="Yuhuu, aku menjadi stiker." alt="Membuat Foto profil Animasi di MacOS">
+<source src="/file/464001576/1024a/nK_t1F4MA0E.5805881.mp4/efbd263416af07a3b9" type="video/mp4">
+</video>
+</div>
+<blockquote>
+<p>Untuk membuat foto seperti ini, buka Pengaturan atau Info Obrolan, klik Edit &gt; klik Foto Profil &gt; pilih Stiker atau Emoji.</p>
+</blockquote>
+<h4>
+<a class="anchor" name="lebih-cepat-dan-kuat" href="#lebih-cepat-dan-kuat">
+<i class="anchor-icon">
+</i>
+</a>Lebih Cepat dan Kuat</h4>
+<p>Pembaruan ini termasuk <strong>100 perbaikan dan optimisasi</strong> untuk aplikasi ponsel dan desktop: perbaikan <em>bugs</em>, peningkatan kecepatan dan penambahan fitur minor. Pengguna iPhone dan iPad terkini juga dapat menikmati <strong>animasi yang lebih mulus</strong> (120 FPS). Sementara itu, pengguna Android dapat menikmati <strong>peningkatan kualitas pesan suara dan video</strong> bersama dengan opsi untuk <strong>memakai ikon aplikasi alternatif</strong>, membersihkan stiker terkini secara instan, dan menerjemahkan bio pengguna atau deskripsi obrolan</p>
+<blockquote>
+<p>Semua perubahan ini akan dirilis secara perlahan. Jika Anda masih belum melihat pembaruan ini, mohon tunggu sebentar.</p>
+</blockquote>
+<h4>
+<a class="anchor" name="terima-kasih" href="#terima-kasih">
+<i class="anchor-icon">
+</i>
+</a>Terima Kasih</h4>
+<p>Hari ini merupakan hari penting dalam sejarah Telegram, menandai awal era baru dan memulai langkah untuk <strong>monetisasi yang berkelanjutan</strong> di Telegram. Kami percaya bahwa pengembangan Telegram harus didorong oleh penggunanya, bukan <strong>pengiklan</strong>. Dengan demikian, pengguna akan selalu menjadi <strong>prioritas utama kami</strong>.</p>
+<div>
+<br>
+</div>
+<p>
+<em>19 Juni 2022<br>Tim Telegram</em>
+</p>
+<!--
+
+###Square Video, 600x600
+
+<!--
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="PHOTO" style="max-width: 600px;" title="TITLE" alt="TITLE">
+<source src="VIDEO" type="video/mp4">
+</video>
+</div>
+-->
+<!--
+###Image
+
+<div class="blog_image_wrap blog_medium_image_wrap">
+<a href="LARGE" target="_blank">
+<img src="SMALL" title="TITLE" alt="TITLE" srcset="LARGE , 2x" />
+</a>
+</div>
+
+-->
+</div>
+</div>
+<div class="tl_main_share clearfix">
+<a href="https://t.me/share/url?url=https%3A%2F%2Ftelegram.org%2Fblog%2F700-million-and-premium%2Fid&text=%20" class="tl_telegram_share_btn" id="tl_telegram_share_btn" data-text=" " data-url="https://telegram.org/blog/700-million-and-premium/id">
+<i class="tl_telegram_share_icon">
+</i>
+<span class="tl_telegram_share_label" target="_blank">Forward</span>
+</a>
+<a href="https://twitter.com/share" class="tl_twitter_share_btn" id="tl_twitter_share_btn" data-text=" " data-url="https://telegram.org/blog/700-million-and-premium/id" data-via="Telegram">Tweet <span class="tl_twitter_share_cnt">
+</span>
+</a>
+</div>
+</div>
+<div class="tl_main_recent_news_wrap tlb_other_news_wrap tl_blog_list_page_wrap">
+<h3 class="tl_main_recent_news_header">
+<a href="/blog">Other News</a>
+</h3>
+<div class="tl_main_recent_news_cards clearfix">
+<a class="dev_blog_card_link_wrap" href="/blog/welcome-messages-buttons-TG-13/id">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400741/6/aFBFZ5lNqO8.66680.webp/0e567958d5b96a2184" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">Pesan Sambutan, Tombol dalam Pesan, dan Hadiah dengan Salam</h4>
+<div class="dev_blog_card_lead">Memperkenalkan Pesan Sambutan untuk sapa anggota baru grup atau channel, Tombol dalam Pesan untuk buat teks interaktif, Dokumen Sebaris…</div>
+</div>
+<div class="dev_blog_card_date">Aug 25, 2026</div>
+</div>
+</a>
+<a class="dev_blog_card_link_wrap" href="/blog/communities-editor-invisible-messages/id">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400366/6/dI0zgi0mM5s.323818.webp/6a362dadee6e7e6011" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">Editor Teks Kaya, Komunitas, Pesan Tersembunyi dalam Grup, 350 Juta GIF</h4>
+<div class="dev_blog_card_lead">Memperkenalkan editor teks kaya untuk memformat dan menghasilkan teks; Komunitas Telegram yang menggandengkan beberapa grup, channel, dan…</div>
+</div>
+<div class="dev_blog_card_date">Jul 14, 2026</div>
+</div>
+</a>
+<a class="dev_blog_card_link_wrap" href="/blog/watch-apps-and-more/id">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400535/2/fkUcVRnSU-M.140100.webp/10c066db41f83e6d5e" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">Aplikasi Smartwatch, Teks Kaya untuk Bot, AI Guardian untuk Grup, dan Sebagainya</h4>
+<div class="dev_blog_card_lead">Pembaruan hari ini menghadirkan Telegram di Apple Watch dan smartwatch Android dan menambahkan fitur-fitur seperti teks kaya untuk bot…</div>
+</div>
+<div class="dev_blog_card_date">Jun 11, 2026</div>
+</div>
+</a>
+<a class="dev_blog_card_link_wrap" href="/blog/ai-bot-revolution-11-new-features/id">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400475/2/BwY041V7nZg.149454.webp/873ed0c0321c7633e7" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">Bot AI Tamu, Komunikasi Antar Bot, Percakapan Otomatis, Pencarian Emoji &amp; Stiker 100J+, dan Sebagainya</h4>
+<div class="dev_blog_card_lead">Dalam pembaruan hari ini, Telegram menambahkan lebih dari 10 fitur baru. Pengguna akan dapat…</div>
+</div>
+<div class="dev_blog_card_date">May 7, 2026</div>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer_wrap">
+<div class="footer_columns_wrap footer_desktop">
+<div class="footer_column footer_column_telegram">
+<h5>Telegram</h5>
+<div class="footer_telegram_description">
+</div>
+      Telegram is a cloud-based mobile and desktop messaging app with a focus on security and speed.
+    </div>
+<div class="footer_column">
+<h5>
+<a href="/faq">About</a>
+</h5>
+<ul>
+<li>
+<a href="/faq">FAQ</a>
+</li>
+<li>
+<a href="/privacy">Privacy</a>
+</li>
+<li>
+<a href="/press">Press</a>
+</li>
+</ul>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/apps#mobile-apps">Mobile Apps</a>
+</h5>
+<ul>
+<li>
+<a href="/dl/ios">iPhone/iPad</a>
+</li>
+<li>
+<a href="/android">Android</a>
+</li>
+<li>
+<a href="/dl/web">Mobile Web</a>
+</li>
+</ul>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/apps#desktop-apps">Desktop Apps</a>
+</h5>
+<ul>
+<li>
+<a href="//desktop.telegram.org/">PC/Mac/Linux</a>
+</li>
+<li>
+<a href="//macos.telegram.org/">macOS</a>
+</li>
+<li>
+<a href="/dl/web">Web-browser</a>
+</li>
+</ul>
+</div>
+<div class="footer_column footer_column_platform">
+<h5>
+<a href="//core.telegram.org/">Platform</a>
+</h5>
+<ul>
+<li>
+<a href="//core.telegram.org/api">API</a>
+</li>
+<li>
+<a href="//translations.telegram.org/">Translations</a>
+</li>
+<li>
+<a href="//instantview.telegram.org/">Instant View</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="footer_columns_wrap footer_mobile">
+<div class="footer_column">
+<h5>
+<a href="/faq">About</a>
+</h5>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/blog">Blog</a>
+</h5>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/press">Press</a>
+</h5>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/safety">Safety</a>
+</h5>
+</div>
+</div>
+</div>
+<script src="/js/main.js?49">
+</script>
+<script src="/js/tgsticker.js?32">
+</script>
+<script src="/js/main-theme.js?6">
+</script>
+<script>initScrollVideos(true);
+mainInitTgStickers({"maxDeviceRatio":2,"cachingModulo":4});
+twitterCustomShareInit();
+blogSideImageInit();
+backToTopInit("Go up");
+removePreloadInit();
+</script>
+</body>
+</html>

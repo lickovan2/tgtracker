@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html class="" data-theme="light">
+<head>
+<meta charset="utf-8">
+<title>Miniaplikacje 2.0: tryb pełnoekranowy, ikony ekranu głównego, geolokalizacja i 10 innych funkcji</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:title" content="Miniaplikacje 2.0: tryb pełnoekranowy, ikony ekranu głównego, geolokalizacja i 10 innych funkcji">
+<meta property="og:image" content="https://telegram.org/file/400780400836/1/pf8Tnc3fxBI.260468/01084a12b6e470638c">
+<meta property="og:site_name" content="Telegram">
+<meta property="og:description" content="Dzisiaj uruchamiamy największą aktualizację w historii miniaplikacji. Otrzymują tryb pełnoekranowy, plany subskrypcyjne, skróty na ekranie głównym, wysyłanie prezentów, udostępnianie multimediów, tworzenie dokumentów, dostęp do lokalizacji, śledzenie ruchu, ustawianie statusów emoji i więcej.">
+<meta property="article:published_time" content="2024-11-17T11:41:02+00:00">
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://telegram.org/file/400780400836/1/pf8Tnc3fxBI.260468/01084a12b6e470638c" />
+<meta property="fb:app_id" content="254098051407226">
+<meta property="vk:app_id" content="3782569">
+<meta name="apple-itunes-app" content="app-id=686449807">
+<meta name="telegram:channel" content="@telegram">
+<link rel="canonical" href="https://telegram.org/blog/fullscreen-miniapps-and-more/pl" />
+<link rel="icon" type="image/svg+xml" href="/img/website_icon.svg?4">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="alternate icon" href="/img/favicon.ico" type="image/x-icon" />
+<link href="/css/bootstrap.min.css?3" rel="stylesheet">
+<link href="/css/telegram.css?256" rel="stylesheet" media="screen">
+<link href="/css/telegram-theme.css?9" rel="stylesheet" media="screen">
+</head>
+<body class="preload">
+<div id="fb-root">
+</div>
+<button class="theme-toggle theme-toggle--static" type="button" title="Toggle theme" aria-label="Toggle light/dark theme">
+</button>
+<div class="tl_page_wrap">
+<div class="tl_page_head navbar navbar-static-top navbar navbar-tg">
+<div class="navbar-inner">
+<div class="container clearfix">
+<ul class="nav navbar-nav navbar-right">
+<li class="dropdown top_lang_select">
+<a class="dropdown-toggle" onclick="return dropdownClick(this, event)" href="#">
+<i class="dev_top_lang_icon">
+</i>
+<b class="minicaret">
+</b>
+</a>
+<ul class="dropdown-menu">
+<li class="">
+<a href="?setln=en">English</a>
+</li>
+<li class="long ">
+<a href="?setln=id">Bahasa Indonesia</a>
+</li>
+<li class="long ">
+<a href="?setln=ms">Bahasa Melayu</a>
+</li>
+<li class="">
+<a href="?setln=de">Deutsch</a>
+</li>
+<li class="">
+<a href="?setln=es">Español</a>
+</li>
+<li class="">
+<a href="?setln=fr">Français</a>
+</li>
+<li class="">
+<a href="?setln=it">Italiano</a>
+</li>
+<li class="">
+<a href="?setln=nl">Nederlands</a>
+</li>
+<li class="">
+<a href="?setln=uz">O‘zbek</a>
+</li>
+<li class="">
+<a href="?setln=pl">Polski</a>
+</li>
+<li class="long ">
+<a href="?setln=pt-br">Português (Brasil)</a>
+</li>
+<li class="">
+<a href="?setln=tr">Türkçe</a>
+</li>
+<li class="">
+<a href="?setln=be">Беларуская</a>
+</li>
+<li class="">
+<a href="?setln=ru">Русский</a>
+</li>
+<li class="">
+<a href="?setln=uk">Українська</a>
+</li>
+<li class="">
+<a href="?setln=kk">Қазақша</a>
+</li>
+<li class="">
+<a href="?setln=ar">العربية</a>
+</li>
+<li class="">
+<a href="?setln=fa">فارسی</a>
+</li>
+<li class="">
+<a href="?setln=ko">한국어</a>
+</li>
+</ul>
+</li>
+<li class="navbar-twitter hidden-xs">
+<a href="https://x.com/telegram" target="_blank" data-track="Follow/Twitter" onclick="trackDlClick(this, event)">
+<i class="icon icon-twitter">
+</i> Follow on X</a>
+</li>
+</ul>
+<ul class="nav navbar-nav">
+<li class="">
+<a href="/">Home</a>
+</li>
+<li class="">
+<a href="/faq">FAQ</a>
+</li>
+<li class="">
+<a href="/apps">Apps</a>
+</li>
+<li class="hidden-xs ">
+<a href="//core.telegram.org/api">API</a>
+</li>
+<li class="hidden-xs ">
+<a href="/safety">Safety</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="container clearfix tl_page_container ">
+<div class="tl_page">
+<div class="tl_contest_page_wrap">
+<div class="tl_blog_side_blog">
+<div class="side_blog_wrap">
+<div class="side_blog">
+<a href="/blog" class="side_blog_header">Recent News</a>
+<div class="side_blog_entries">
+<a href="/blog/welcome-messages-buttons-TG-13" class="side_blog_entry">
+<div class="side_blog_date">Aug 25</div>
+<div class="side_blog_title">Welcome Messages, Buttons in Messages and Signed Gifts</div>
+</a>
+<a href="/blog/communities-editor-invisible-messages" class="side_blog_entry">
+<div class="side_blog_date">Jul 14</div>
+<div class="side_blog_title">Rich Text Editor, Communities, Ephemeral Messages in Groups, 350 Million GIFs</div>
+</a>
+<a href="/blog/watch-apps-and-more" class="side_blog_entry">
+<div class="side_blog_date">Jun 11</div>
+<div class="side_blog_title">Smartwatch Apps, Rich Text for Bots, AI Guardians for Groups, and Much More</div>
+</a>
+<a href="/blog/ai-bot-revolution-11-new-features" class="side_blog_entry">
+<div class="side_blog_date">May 7</div>
+<div class="side_blog_title">Guest AI Bots, Bot-to-Bot Chats, Chat Automation, Custom AI Styles, 100M+ Emoji &amp; Sticker Search and Much More</div>
+</a>
+<a href="/blog/ai-editor-mighty-polls-and-more" class="side_blog_entry">
+<div class="side_blog_date">Mar 31</div>
+<div class="side_blog_title">AI Editor, Mighty Polls, Live Photos, Bots Managed by Bots, and More</div>
+</a>
+<a href="/blog/member-tags-disable-sharing-and-more" class="side_blog_entry">
+<div class="side_blog_date">Mar 1</div>
+<div class="side_blog_title">Member Tags, Login with Telegram, Disable Sharing, GIF Editing, Date Formatting, Voting Timestamps</div>
+</a>
+<a href="/blog/crafting-android-design-and-more" class="side_blog_entry">
+<div class="side_blog_date">Feb 9</div>
+<div class="side_blog_title">Android Redesign, Group Ownership Transfer, Gift Crafting, Colored Bot Buttons</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div id="dev_page_content_wrap" class=" ">
+<div class="dev_page_bread_crumbs">
+</div>
+<h1 id="dev_page_title">Miniaplikacje 2.0: tryb pełnoekranowy, ikony ekranu głównego, geolokalizacja i 10 innych funkcji</h1>
+<blockquote class="blog_lang_original">
+<a href="/blog/fullscreen-miniapps-and-more?ln=r">Przeczytaj oryginalny tekst w języku angielskim</a>
+</blockquote>
+<div id="dev_page_content">
+<div class="blog_side_image_wrap">
+<picture class="dev_page_tgsticker blog_side_image js-tgsticker_image" style="width:160px;">
+<div style="padding-top:100%">
+</div>
+<source type="application/x-tgsticker" srcset="/file/400780400659/1/X8QynUce4FU.17370/29dde491f46e9b6d84">
+<img src="/file/400780400659/2/0wC0J6QfOS0.22537.png/5fb9f786e4db70fc04" />
+</picture>
+</div>
+<div class="blog_wide_image">
+<a href="/file/400780400141/2/1pxhnZe0Tls.415926.webp/2f307b34a3bbe34dc3" target="_blank">
+<img src="/file/400780400735/3/bkmI2NPDTfg.131944.webp/1e2ab7ed8fd7bcd9b5" srcset="/file/400780400141/2/1pxhnZe0Tls.415926.webp/2f307b34a3bbe34dc3, 1200w" title="" alt="Miniaplikacje 2.0: tryb pełnoekranowy, ikony ekranu głównego, geolokalizacja i 10 innych funkcji"/>
+</a>
+</div>
+<p>Dzisiaj uruchamiamy <strong>największą aktualizację</strong> w historii miniaplikacji. Otrzymują tryb pełnoekranowy, plany subskrypcyjne, skróty na ekranie głównym, wysyłanie prezentów, udostępnianie multimediów, tworzenie dokumentów, dostęp do lokalizacji, śledzenie ruchu, ustawianie statusów emoji i więcej.</p>
+<h4>
+<a class="anchor" name="tryb-pelnoekranowy" href="#tryb-pelnoekranowy">
+<i class="anchor-icon">
+</i>
+</a>Tryb pełnoekranowy</h4>
+<p>Miniaplikacje mogą teraz używać <strong>całego ekranu</strong> w pionowej lub <strong>poziomej orientacji</strong>, umożliwiając aplikacjom obsługę <strong>większej ilości gatunków gier</strong> z rozszerzonymi gestami i interfejsami.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<div>
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/400780400978/2/DBP3J35bdpk.40489/3d98524f7a0706a481" style="max-width: 600px;" alt="Tryb pełnoekranowy">
+<source src="/file/400780400987/2/iCXS7IFB7Xs.8013492.mp4/c495193d239ce08990" type="video/mp4">
+</video>
+</div>
+<!--<p>
+</p>-->
+</div>
+<h4>
+<a class="anchor" name="sledzenie-ruchow-urzadzenia" href="#sledzenie-ruchow-urzadzenia">
+<i class="anchor-icon">
+</i>
+</a>Śledzenie ruchów urządzenia</h4>
+<p>Miniaplikacje mogą otrzymywać informacje o <strong>ruchu</strong> twojego urządzenia, aby dodawać <strong>unikalne sterowanie</strong> do gier lub budować <strong>pochłaniające doświadczenia VR</strong>.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<div>
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/400780400579/5/PfP8hFLhBv8.104935/03e0bc7d20d6ce4d98" style="max-width: 600px;" alt="Śledzenie ruchów urządzenia">
+<source src="/file/400780400159/2/Kzdm3KQIU18.4723735.mp4/e112d04952765b971a" type="video/mp4">
+</video>
+</div>
+<!--<p>
+</p>-->
+</div>
+<p>Programiści mogą <strong>zablokować</strong> orientację ekranu, aby uniknąć niepotrzebnych obrotów, jeśli ich aplikacja wykorzystuje ruchy urządzenia do sterowania.</p>
+<h4>
+<a class="anchor" name="skroty-na-ekranie-glownym" href="#skroty-na-ekranie-glownym">
+<i class="anchor-icon">
+</i>
+</a>Skróty na ekranie głównym</h4>
+<p>Możesz teraz umieszczać <strong>bezpośrednie skróty</strong> do określonych miniaplikacji na <strong>ekranie głównym</strong> swojego urządzenia, uzyskując dostęp do swoich ulubionych gier i usług <strong>jednym dotknięciem</strong>.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<div>
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/400780400665/3/ZuHweGNPf7A.70269/25510c5b11eae9f59c" style="max-width: 600px;" alt="Skróty na ekranie głównym">
+<source src="/file/400780400367/2/-_xiH7WxmNQ.4594686.mp4/5cd62ffa43c2e738cf" type="video/mp4">
+</video>
+</div>
+<!--<p>TITLE</p>-->
+</div>
+<h4>
+<a class="anchor" name="dostep-do-lokalizacji" href="#dostep-do-lokalizacji">
+<i class="anchor-icon">
+</i>
+</a>Dostęp do lokalizacji</h4>
+<p>Możesz teraz <strong>udostępniać swoją lokalizację</strong> w miniaplikacjach, co daje programistom możliwość tworzenia <strong>gier opartych na lokalizacji</strong> z ciekawymi miejscami lub <strong>interaktywnymi mapami</strong> wydarzeń.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<div>
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/400780400471/4/NxjzOa07Eyc.38651/62c7f445e0e06a4452" style="max-width: 600px;" alt="Dostęp do lokalizacji">
+<source src="/file/400780400995/4/5X1SreBoHEY.1731682.mp4/0e2f79c91e61b21b58" type="video/mp4">
+</video>
+</div>
+<!--<p>TITLE</p>-->
+</div>
+<blockquote>
+<p>Dostęp do danych lokalizacji jest <strong>domyślnie wyłączony</strong> — musisz wyraźnie nadać uprawnienia lokalizacji każdej <strong>indywidualnej miniaplikacji</strong>, z którą chcesz dzielić się tymi danymi.</p>
+</blockquote>
+<h4>
+<a class="anchor" name="prezenty-od-aplikacji" href="#prezenty-od-aplikacji">
+<i class="anchor-icon">
+</i>
+</a>Prezenty od aplikacji</h4>
+<p>Aplikacje mogą teraz używać swoich gwiazdek do <strong>wysyłania ci prezentów</strong> jako nagród w ramach świętowania osiągnięć.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<div>
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/400780400202/4/MSVgIAZ6_rI.103173/ae2e299f54527b86dc" style="max-width: 600px;" alt="Prezenty od aplikacji">
+<source src="/file/400780400812/2/d3vTWpiGxlY.1808151.mp4/df11d2454b136a0cf0" type="video/mp4">
+</video>
+</div>
+<!--<p>TITLE</p>-->
+</div>
+<p>Dodaliśmy także nowe <strong>ustawienie prywatności</strong>, które pozwala zarządzać tym, kto może wysyłać ci prezenty, które będą <strong>wyświetlane na twoim profilu</strong>.</p>
+<h4>
+<a class="anchor" name="statusy-emoji-z-aplikacji" href="#statusy-emoji-z-aplikacji">
+<i class="anchor-icon">
+</i>
+</a>Statusy emoji z aplikacji</h4>
+<p>W tej aktualizacji użytkownicy Telegram Premium mogą <strong>ustawiać statusy emoji</strong> poprzez miniaplikacje, pokazując innym, że grają <img class="emoji" src="//telegram.org/img/emoji/40/F09F8EAE.png" width="20" height="20" alt="🎮" /> lub są w taksówce <img class="emoji" src="//telegram.org/img/emoji/40/F09F9A95.png" width="20" height="20" alt="🚕" />.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<div>
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/400780400234/2/uDKud852DCw.39458/e632391b3beadeff09" style="max-width: 600px;" alt="Statusy emoji z aplikacji">
+<source src="/file/400780400124/6/8n9m2O9VeUI.3087497.mp4/7cb84d10c693d53820" type="video/mp4">
+</video>
+</div>
+<!--<p>TITLE</p>-->
+</div>
+<p>Miniaplikacje mogą integrować interfejsy API <strong>innych usług</strong>, natychmiastowo aktualizując status emoji użytkownika, kiedy zacznie on odtwarzać muzykę <img class="emoji" src="//telegram.org/img/emoji/40/F09F8EB6.png" width="20" height="20" alt="🎶" />, otworzy książkę <img class="emoji" src="//telegram.org/img/emoji/40/F09F939A.png" width="20" height="20" alt="📚" /> lub włączy film <img class="emoji" src="//telegram.org/img/emoji/40/F09F8DBF.png" width="20" height="20" alt="🍿" />.</p>
+<p>Aplikacje z <a href="#dostep-do-lokalizacji">uprawnieniami lokalizacji</a> mogą być także używane do <strong>aktualizowania twojego statusu</strong>, kiedy jesteś w pracy <img class="emoji" src="//telegram.org/img/emoji/40/F09F92BC.png" width="20" height="20" alt="💼" /> lub poza biurem <img class="emoji" src="//telegram.org/img/emoji/40/F09F8F96.png" width="20" height="20" alt="🏖" />.</p>
+<blockquote>
+<p>Programiści mogą także tworzyć <a href="https://core.telegram.org/stickers#animated-stickers-and-emoji">własne pakiety emoji</a>, aby oferować je jako opcje statusu, zwiększając <strong>wiralowy potencjał</strong> miniaplikacji.</p>
+</blockquote>
+<h4>
+<a class="anchor" name="udostepnianie-multimediow" href="#udostepnianie-multimediow">
+<i class="anchor-icon">
+</i>
+</a>Udostępnianie multimediów</h4>
+<p>Możesz teraz udostępniać multimedia bezpośrednio z <strong>miniaplikacji</strong>, wysyłając kody zaproszeń, własne memy i nie tylko do <strong>dowolnego czatu</strong>.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<div>
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/400780400834/4/CMJLT3B0KV0.120338/ed91037a804d009c3b" style="max-width: 600px;" alt="Udostępnianie multimediów">
+<source src="/file/400780400591/1/4qe849xUzik.3804401.mp4/30d752d975f834f124" type="video/mp4">
+</video>
+</div>
+<!--<p>
+</p>-->
+</div>
+<blockquote>
+<p>Miniaplikacje mogą także tworzyć multimedia do udostępniania <a href="https://telegram.org/blog/w3-browser-mini-app-store/pl#udostepnianie-z-miniaplikacji-w-relacjach">w twoich relacjach</a>.</p>
+</blockquote>
+<h4>
+<a class="anchor" name="tworzenie-dokumentow" href="#tworzenie-dokumentow">
+<i class="anchor-icon">
+</i>
+</a>Tworzenie dokumentów</h4>
+<p>Miniaplikacje mogą także generować dokumenty i pliki, które możesz pobrać, np. wygenerowane przez sztuczną inteligencję zdjęcia profilowe lub pliki audio.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<div>
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/400780400040/2/oqh87lVOVYM.37106/8864a07b1b2da5ba7c" style="max-width: 600px;" alt="Tworzenie dokumentów">
+<source src="/file/400780400228/5/vmw5F-lsffk.3558116.mp4/c34b9149f04cecce0c" type="video/mp4">
+</video>
+</div>
+<!--<p>TITLE</p>-->
+</div>
+<h4>
+<a class="anchor" name="plany-subskrypcyjne" href="#plany-subskrypcyjne">
+<i class="anchor-icon">
+</i>
+</a>Plany subskrypcyjne</h4>
+<p>Programiści mogą oferować <strong>subskrypcje</strong> swojej miniaplikacji używając Gwiazdek Telegrama, <strong>monetyzując swój wysiłek</strong> dzięki wielu poziomom treści i funkcji.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<div>
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/400780400439/3/fsIQBVDv8iM.42498/fb93eac0593624c6ff" style="max-width: 600px;" alt="Plany subskrypcyjne miniaplikacji">
+<source src="/file/400780400502/3/yVyvz2IBzwk.3397983.mp4/b34526a4a87a0e18cc" type="video/mp4">
+</video>
+</div>
+<!--<p>TITLE</p>-->
+</div>
+<p>Gwiazdki Telegrama zarobione z <strong>produktów cyfrowych</strong> i <strong>subskrypcji</strong> mogą być użyte do <a href="https://telegram.org/blog/dynamic-video-quality-and-more/pl#zwiekszone-limity-wiadomosci-dla-botow">zwiększenia limitów wiadomości</a> dla aplikacji lub <a href="https://telegram.org/blog/mini-app-bar-paid-media-and-more/pl#nagrody-toncoin">odebrania nagród</a>.</p>
+<blockquote>
+<p>Programiści mogą także <strong>zdobywać nagrody</strong> z Reklam Telegrama w <a href="https://telegram.org/blog/dynamic-video-quality-and-more/pl#reklamy-telegrama-w-botach">botach i miniaplikacjach</a>.</p>
+</blockquote>
+<h4>
+<a class="anchor" name="dostosowywanie-ekranu-wczytywania" href="#dostosowywanie-ekranu-wczytywania">
+<i class="anchor-icon">
+</i>
+</a>Dostosowywanie ekranu wczytywania</h4>
+<p>Programiści mogą dodatkowo dostosować <strong>ekran wczytywania</strong> swoich miniaplikacji w <a href="https://t.me/botfather">@BotFather</a>, dodając <strong>swoją własną ikonę</strong> i <strong>określone kolory</strong>, które będą wyświetlane, zanim aplikacja zacznie się wczytywać.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<div>
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/400780400835/2/aRhKl3FcZ3E.36465/301b9f47850fd6a489" style="max-width: 600px;" alt="Dostosowywanie ekranu wczytywania">
+<source src="/file/400780400886/3/bjpTPLexlrk.1338212.mp4/77874dd70d1c0099e1" target="_blank" type="video/mp4">
+</video>
+</div>
+<!--<p>TITLE</p>-->
+</div>
+<h4>
+<a class="anchor" name="informacje-o-podzespolach-urzadzenia" href="#informacje-o-podzespolach-urzadzenia">
+<i class="anchor-icon">
+</i>
+</a>Informacje o podzespołach urządzenia</h4>
+<p>Aby lepiej <strong>zoptymalizować grafikę</strong> i <strong>zwiększyć wydajność</strong>, miniaplikacje mogą uzyskać dostęp do <strong>podstawowych informacji o podzespołach</strong> twojego urządzenia, takich jak jego moc obliczeniowa i rozmiar pamięci, a następnie <strong>automatycznie dostosować</strong> ustawienia, aby zapewnić płynność działania.</p>
+<h4>
+<a class="anchor" name="i-wiecej" href="#i-wiecej">
+<i class="anchor-icon">
+</i>
+</a>I więcej</h4>
+<p>Programiści mogą teraz wiedzieć, kiedy ich miniaplikacja jest minimalizowana i przywracana z <a href="https://telegram.org/blog/mini-app-bar-paid-media-and-more/pl?ln=a#pasek-miniaplikacji">paska aplikacji</a> i mieć pewność, że poprawnie obsługują przejścia.</p>
+<blockquote>
+<p>Jeśli jesteś programistą, na <a href="https://core.telegram.org/bots/api-changelog#november-17-2024">tej stronie</a> znajdziesz szczegółową dokumentację i pełną listę zmian, w tym łatwiejszy sposób uzyskiwania przez miniaplikacje dostępu do zdjęć profilowych oraz obsługę sprawdzania danych miniaplikacji przez strony trzecie.</p>
+</blockquote>
+<p>Każdy może już wypróbować wczesne wdrożenia niektórych nowych funkcji w aplikacjach takich jak <a href="https://t.me/playdeckbot">@playdeckbot</a>, <a href="https://t.me/tverse">@tverse</a> i <a href="https://t.me/major">@major</a> (gra Major Maze w zakładce Gry). </p>
+<p>To wszystko w dzisiejszej aktualizacji. Już pracujemy nad kolejną wielką rzeczą dla miniaplikacji i nie tylko.</p>
+<div>
+<br>
+</div>
+<p>
+<em>17 listopada 2024<br>Zespół Telegrama</em>
+</p>
+</div>
+</div>
+<div class="tl_main_share clearfix">
+<a href="https://t.me/share/url?url=https%3A%2F%2Ftelegram.org%2Fblog%2Ffullscreen-miniapps-and-more%2Fpl&text=Dzisiaj%20uruchamiamy%20najwi%C4%99ksz%C4%85%20aktualizacj%C4%99%20w%20historii%20miniaplikacji.%20Otrzymuj%C4%85%20tryb%20pe%C5%82noekranowy%2C%20plany%20subskrypcyjne%2C%20skr%C3%B3ty%20na%20ekranie%20g%C5%82%C3%B3wnym%2C%20wysy%C5%82anie%20prezent%C3%B3w%2C%20udost%C4%99pnianie%20multimedi%C3%B3w%2C%20tworzenie%20dokument%C3%B3w%2C%20dost%C4%99p%20do%20lokalizacji%2C%20%C5%9Bledzenie%20ruchu%2C%20ustawianie%20status%C3%B3w%20emoji%20i%20wi%C4%99cej." class="tl_telegram_share_btn" id="tl_telegram_share_btn" data-text="Dzisiaj uruchamiamy największą aktualizację w historii miniaplikacji. Otrzymują tryb pełnoekranowy, plany subskrypcyjne, skróty na ekranie głównym, wysyłanie prezentów, udostępnianie multimediów, tworzenie dokumentów, dostęp do lokalizacji, śledzenie ruchu, ustawianie statusów emoji i więcej." data-url="https://telegram.org/blog/fullscreen-miniapps-and-more/pl">
+<i class="tl_telegram_share_icon">
+</i>
+<span class="tl_telegram_share_label" target="_blank">Forward</span>
+</a>
+<a href="https://twitter.com/share" class="tl_twitter_share_btn" id="tl_twitter_share_btn" data-text="Dzisiaj uruchamiamy największą aktualizację w historii miniaplikacji. Otrzymują tryb pełnoekranowy, plany subskrypcyjne, skróty na ekranie głównym, wysyłanie prezentów, udostępnianie multimediów, tworzenie dokumentów, dostęp do lokalizacji, śledzenie ruchu, ustawianie statusów emoji i więcej." data-url="https://telegram.org/blog/fullscreen-miniapps-and-more/pl" data-via="Telegram">Tweet <span class="tl_twitter_share_cnt">
+</span>
+</a>
+</div>
+</div>
+<div class="tl_main_recent_news_wrap tlb_other_news_wrap tl_blog_list_page_wrap">
+<h3 class="tl_main_recent_news_header">
+<a href="/blog">Other News</a>
+</h3>
+<div class="tl_main_recent_news_cards clearfix">
+<a class="dev_blog_card_link_wrap" href="/blog/welcome-messages-buttons-TG-13/pl">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400741/6/aFBFZ5lNqO8.66680.webp/0e567958d5b96a2184" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">Wiadomości powitalne, przyciski w wiadomościach i podpisane prezenty</h4>
+<div class="dev_blog_card_lead">Przedstawiamy wiadomości powitalne, które pozwalają powitać nowych członków grup lub kanałów, przyciski w wiadomościach, które czynią tekst…</div>
+</div>
+<div class="dev_blog_card_date">Aug 25, 2026</div>
+</div>
+</a>
+<a class="dev_blog_card_link_wrap" href="/blog/communities-editor-invisible-messages/pl">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400366/6/dI0zgi0mM5s.323818.webp/6a362dadee6e7e6011" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">Edytor bogatego tekstu, społeczności, tymczasowe wiadomości w grupach, 350 milionów GIFów</h4>
+<div class="dev_blog_card_lead">Przedstawiamy edytor do formatowania i generowania bogatego tekstu, Społeczności Telegrama…</div>
+</div>
+<div class="dev_blog_card_date">Jul 14, 2026</div>
+</div>
+</a>
+<a class="dev_blog_card_link_wrap" href="/blog/watch-apps-and-more/pl">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400535/2/fkUcVRnSU-M.140100.webp/10c066db41f83e6d5e" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">Aplikacje na smartwatche, bogato sformatowany tekst dla botów, opiekuni AI w grupach i znacznie więcej</h4>
+<div class="dev_blog_card_lead">Dzisiejsza aktualizacja wprowadza Telegrama na Apple Watch i smartwatche z Androidem, obrzydliwie…</div>
+</div>
+<div class="dev_blog_card_date">Jun 11, 2026</div>
+</div>
+</a>
+<a class="dev_blog_card_link_wrap" href="/blog/ai-bot-revolution-11-new-features/pl">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400475/2/BwY041V7nZg.149454.webp/873ed0c0321c7633e7" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">Gościnne boty AI, czaty bot-z-botem, automatyzacja czatów, wyszukiwarka ponad 100 milionów emoji i naklejek, własne style AI, statystyki ankiet, ciche zaplanowane wiadomości, usuwanie reakcji</h4>
+<div class="dev_blog_card_lead">W dzisiejszej aktualizacji Telegram dodaje ponad…</div>
+</div>
+<div class="dev_blog_card_date">May 7, 2026</div>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer_wrap">
+<div class="footer_columns_wrap footer_desktop">
+<div class="footer_column footer_column_telegram">
+<h5>Telegram</h5>
+<div class="footer_telegram_description">
+</div>
+      Telegram is a cloud-based mobile and desktop messaging app with a focus on security and speed.
+    </div>
+<div class="footer_column">
+<h5>
+<a href="/faq">About</a>
+</h5>
+<ul>
+<li>
+<a href="/faq">FAQ</a>
+</li>
+<li>
+<a href="/privacy">Privacy</a>
+</li>
+<li>
+<a href="/press">Press</a>
+</li>
+</ul>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/apps#mobile-apps">Mobile Apps</a>
+</h5>
+<ul>
+<li>
+<a href="/dl/ios">iPhone/iPad</a>
+</li>
+<li>
+<a href="/android">Android</a>
+</li>
+<li>
+<a href="/dl/web">Mobile Web</a>
+</li>
+</ul>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/apps#desktop-apps">Desktop Apps</a>
+</h5>
+<ul>
+<li>
+<a href="//desktop.telegram.org/">PC/Mac/Linux</a>
+</li>
+<li>
+<a href="//macos.telegram.org/">macOS</a>
+</li>
+<li>
+<a href="/dl/web">Web-browser</a>
+</li>
+</ul>
+</div>
+<div class="footer_column footer_column_platform">
+<h5>
+<a href="//core.telegram.org/">Platform</a>
+</h5>
+<ul>
+<li>
+<a href="//core.telegram.org/api">API</a>
+</li>
+<li>
+<a href="//translations.telegram.org/">Translations</a>
+</li>
+<li>
+<a href="//instantview.telegram.org/">Instant View</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="footer_columns_wrap footer_mobile">
+<div class="footer_column">
+<h5>
+<a href="/faq">About</a>
+</h5>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/blog">Blog</a>
+</h5>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/press">Press</a>
+</h5>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/safety">Safety</a>
+</h5>
+</div>
+</div>
+</div>
+<script src="/js/main.js?49">
+</script>
+<script src="/js/tgsticker.js?32">
+</script>
+<script src="/js/main-theme.js?6">
+</script>
+<script>initScrollVideos(true);
+mainInitTgStickers({"maxDeviceRatio":2,"cachingModulo":4});
+twitterCustomShareInit();
+blogSideImageInit();
+backToTopInit("Go up");
+removePreloadInit();
+</script>
+</body>
+</html>

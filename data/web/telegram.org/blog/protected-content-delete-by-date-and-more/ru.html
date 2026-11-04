@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html class="" data-theme="light">
+<head>
+<meta charset="utf-8">
+<title>Защита контента в группах и каналах, удаление переписки за указанный период, управление устройствами и другие нововведения</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:title" content="Защита контента в группах и каналах, удаление переписки за указанный период, управление устройствами и другие нововведения">
+<meta property="og:image" content="https://telegram.org/file/464001572/2/u_lvhH-CjJ0.99595/a7fca60f9c9e6e193c">
+<meta property="og:site_name" content="Telegram">
+<meta property="og:description" content="В новой версии Telegram появились инструменты для защиты контента из групп и каналов от сохранения и копирования, возможность удалять сообщения за определенный период, новые возможности для управления подключенными устройствами, анонимные комментарии в публичных группах от лица каналов и другие нововведения.">
+<meta property="article:published_time" content="2021-12-07T12:00:28+00:00">
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://telegram.org/file/464001572/2/u_lvhH-CjJ0.99595/a7fca60f9c9e6e193c" />
+<meta property="fb:app_id" content="254098051407226">
+<meta property="vk:app_id" content="3782569">
+<meta name="apple-itunes-app" content="app-id=686449807">
+<meta name="telegram:channel" content="@telegram">
+<link rel="canonical" href="https://telegram.org/blog/protected-content-delete-by-date-and-more/ru" />
+<link rel="icon" type="image/svg+xml" href="/img/website_icon.svg?4">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="alternate icon" href="/img/favicon.ico" type="image/x-icon" />
+<link href="/css/bootstrap.min.css?3" rel="stylesheet">
+<link href="/css/telegram.css?256" rel="stylesheet" media="screen">
+<link href="/css/telegram-theme.css?9" rel="stylesheet" media="screen">
+</head>
+<body class="preload">
+<div id="fb-root">
+</div>
+<button class="theme-toggle theme-toggle--static" type="button" title="Toggle theme" aria-label="Toggle light/dark theme">
+</button>
+<div class="tl_page_wrap">
+<div class="tl_page_head navbar navbar-static-top navbar navbar-tg">
+<div class="navbar-inner">
+<div class="container clearfix">
+<ul class="nav navbar-nav navbar-right">
+<li class="dropdown top_lang_select">
+<a class="dropdown-toggle" onclick="return dropdownClick(this, event)" href="#">
+<i class="dev_top_lang_icon">
+</i>
+<b class="minicaret">
+</b>
+</a>
+<ul class="dropdown-menu">
+<li class="">
+<a href="?setln=en">English</a>
+</li>
+<li class="long ">
+<a href="?setln=id">Bahasa Indonesia</a>
+</li>
+<li class="long ">
+<a href="?setln=ms">Bahasa Melayu</a>
+</li>
+<li class="">
+<a href="?setln=de">Deutsch</a>
+</li>
+<li class="">
+<a href="?setln=es">Español</a>
+</li>
+<li class="">
+<a href="?setln=fr">Français</a>
+</li>
+<li class="">
+<a href="?setln=it">Italiano</a>
+</li>
+<li class="">
+<a href="?setln=nl">Nederlands</a>
+</li>
+<li class="">
+<a href="?setln=uz">O‘zbek</a>
+</li>
+<li class="">
+<a href="?setln=pl">Polski</a>
+</li>
+<li class="long ">
+<a href="?setln=pt-br">Português (Brasil)</a>
+</li>
+<li class="">
+<a href="?setln=tr">Türkçe</a>
+</li>
+<li class="">
+<a href="?setln=be">Беларуская</a>
+</li>
+<li class="">
+<a href="?setln=ru">Русский</a>
+</li>
+<li class="">
+<a href="?setln=uk">Українська</a>
+</li>
+<li class="">
+<a href="?setln=kk">Қазақша</a>
+</li>
+<li class="">
+<a href="?setln=ar">العربية</a>
+</li>
+<li class="">
+<a href="?setln=fa">فارسی</a>
+</li>
+<li class="">
+<a href="?setln=ko">한국어</a>
+</li>
+</ul>
+</li>
+<li class="navbar-twitter hidden-xs">
+<a href="https://x.com/telegram" target="_blank" data-track="Follow/Twitter" onclick="trackDlClick(this, event)">
+<i class="icon icon-twitter">
+</i> Follow on X</a>
+</li>
+</ul>
+<ul class="nav navbar-nav">
+<li class="">
+<a href="/">Home</a>
+</li>
+<li class="">
+<a href="/faq">FAQ</a>
+</li>
+<li class="">
+<a href="/apps">Apps</a>
+</li>
+<li class="hidden-xs ">
+<a href="//core.telegram.org/api">API</a>
+</li>
+<li class="hidden-xs ">
+<a href="/safety">Safety</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="container clearfix tl_page_container ">
+<div class="tl_page">
+<div class="tl_contest_page_wrap">
+<div class="tl_blog_side_blog">
+<div class="side_blog_wrap">
+<div class="side_blog">
+<a href="/blog" class="side_blog_header">Recent News</a>
+<div class="side_blog_entries">
+<a href="/blog/welcome-messages-buttons-TG-13" class="side_blog_entry">
+<div class="side_blog_date">Aug 25</div>
+<div class="side_blog_title">Welcome Messages, Buttons in Messages and Signed Gifts</div>
+</a>
+<a href="/blog/communities-editor-invisible-messages" class="side_blog_entry">
+<div class="side_blog_date">Jul 14</div>
+<div class="side_blog_title">Rich Text Editor, Communities, Ephemeral Messages in Groups, 350 Million GIFs</div>
+</a>
+<a href="/blog/watch-apps-and-more" class="side_blog_entry">
+<div class="side_blog_date">Jun 11</div>
+<div class="side_blog_title">Smartwatch Apps, Rich Text for Bots, AI Guardians for Groups, and Much More</div>
+</a>
+<a href="/blog/ai-bot-revolution-11-new-features" class="side_blog_entry">
+<div class="side_blog_date">May 7</div>
+<div class="side_blog_title">Guest AI Bots, Bot-to-Bot Chats, Chat Automation, Custom AI Styles, 100M+ Emoji &amp; Sticker Search and Much More</div>
+</a>
+<a href="/blog/ai-editor-mighty-polls-and-more" class="side_blog_entry">
+<div class="side_blog_date">Mar 31</div>
+<div class="side_blog_title">AI Editor, Mighty Polls, Live Photos, Bots Managed by Bots, and More</div>
+</a>
+<a href="/blog/member-tags-disable-sharing-and-more" class="side_blog_entry">
+<div class="side_blog_date">Mar 1</div>
+<div class="side_blog_title">Member Tags, Login with Telegram, Disable Sharing, GIF Editing, Date Formatting, Voting Timestamps</div>
+</a>
+<a href="/blog/crafting-android-design-and-more" class="side_blog_entry">
+<div class="side_blog_date">Feb 9</div>
+<div class="side_blog_title">Android Redesign, Group Ownership Transfer, Gift Crafting, Colored Bot Buttons</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div id="dev_page_content_wrap" class=" ">
+<div class="dev_page_bread_crumbs">
+</div>
+<h1 id="dev_page_title">Защита контента в группах и каналах, удаление переписки за указанный период, управление устройствами и другие нововведения</h1>
+<blockquote class="blog_lang_original">
+<a href="/blog/protected-content-delete-by-date-and-more?ln=r">Читать в оригинале на английском</a>
+</blockquote>
+<div id="dev_page_content">
+<div class="blog_side_image_wrap">
+<picture class="dev_page_tgsticker blog_side_image js-tgsticker_image" style="width:160px;">
+<div style="padding-top:100%">
+</div>
+<source type="application/x-tgsticker" srcset="/file/464001772/5/6NPiPz1wqFE.20038/1b7bea2f93a71c3dfb">
+<img src="/file/464001772/6/TmJVepIlYGI.28638.png/e4e68a2ad1bd01da57" />
+</picture>
+</div>
+<div class="blog_wide_image legacy">
+<a href="/file/464001093/3/3w2T4z1jfJk.285686/f22a13a4bc87f71b1e" target="_blank">
+<img src="/file/464001572/2/u_lvhH-CjJ0.99595/a7fca60f9c9e6e193c" srcset="/file/464001093/3/3w2T4z1jfJk.285686/f22a13a4bc87f71b1e, 1200w" title="Редакция напоминает: баклажаны — Матисс, персики — Серов." alt="Защита контента в группах и каналах, удаление переписки за определенный период и другие нововведения"/>
+</a>
+</div>
+<p>В новой версии Telegram появились инструменты для защиты контента из групп и каналов от сохранения и копирования, возможность удалять сообщения за определенный период, новые возможности для управления подключенными устройствами, анонимные комментарии в публичных группах от лица каналов и другие нововведения.</p>
+<h3>
+<a class="anchor" name="zaschita-kontenta-v-gruppah-i-kanalah" href="#zaschita-kontenta-v-gruppah-i-kanalah">
+<i class="anchor-icon">
+</i>
+</a>Защита контента в группах и каналах</h3>
+<p>Теперь создатели каналов и групп могут запретить своим подписчикам <strong>сохранять фотографии и видеозаписи</strong>, <strong>пересылать сообщения</strong> и <strong>делать снимки экрана</strong>.</p>
+<div class="blog_video_player_wrap" style="max-width: 400px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001096/3/xHO-vgJCp1E.105558/947130c8cf5186d559" style="max-width: 400px;" title="" alt="Защита контента в группах и каналах">
+<source src="/file/464001239/2/-1LUqzYCJm8.10187057.mp4/51109a30fbf90d7bdb" type="video/mp4">
+</video>
+</div>
+<blockquote>
+<p>Включить защиту от копирования и пересылки можно в профиле чата, нажав на  пункт <em>«Тип группы/канала» &gt; «Запретить копирование».</em>
+</p>
+</blockquote>
+<h3>
+<a class="anchor" name="udalenie-perepiski-za-opredelennii-period" href="#udalenie-perepiski-za-opredelennii-period">
+<i class="anchor-icon">
+</i>
+</a>Удаление переписки за определенный период</h3>
+<p>Пользователи Telegram <a href="https://t.me/durov/102">полностью контролируют</a> историю своей переписки и могут бесследно удалять сообщения для всех участников беседы. Сегодняшнее обновление позволяет удалить историю сообщений в том или ином <strong>личном чате</strong> за <strong>конкретный день</strong> или <strong>промежуток времени</strong>.</p>
+<div class="blog_video_player_wrap" style="max-width: 400px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001586/4/Wh1y-z0bTdE.64157/231d61046c974abe87" style="max-width: 400px;" title="" alt="Удаление переписки за определенный период">
+<source src="/file/464001774/5/3uOP_i9TZnY.7982341.mp4/544a2756a8983fd45e" type="video/mp4">
+</video>
+</div>
+<p>Чтобы открыть календарь, нажмите на <strong>плашку с датой</strong>, которую видно при прокрутке сообщений в чате. Затем выберите период для очистки.</p>
+<blockquote>
+<p>Удаление сообщений за определенные дни доступно только в личных чатах, однако в любом чате можно настроить <a href="https://telegram.org/blog/autodelete-inv2#auto-delete-messages">автоматическое удаление сообщений</a> через день, неделю или месяц после публикации.</p>
+</blockquote>
+<h3>
+<a class="anchor" name="upravlenie-podklyuchennimi-ustroistvami" href="#upravlenie-podklyuchennimi-ustroistvami">
+<i class="anchor-icon">
+</i>
+</a>Управление подключенными устройствами</h3>
+<p>Вы можете пользоваться Telegram со всех своих устройств одновременно и управлять активными сеансами через меню <strong>Устройства</strong> в настройках. Новая кнопка в этом разделе поможет моментально зайти в Telegram на <a href="https://desktop.telegram.org/">компьютере</a> или через <a href="https://web.telegram.org">браузер</a>. Кроме того, теперь Вы можете выбрать, через какой период неактивности <strong>автоматически завершать сеансы</strong> на Ваших старых устройствах. </p>
+<div class="blog_video_player_wrap" style="max-width: 400px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001754/2/N9RC5VkFt54.228705/d0174fce27ce0e8d52" style="max-width: 400px;" title="" alt="Управление подключенными устройствами">
+<source src="/file/464001650/4/KrNMWP_zHkY.8086842.mp4/ae781504c62acbcf52" type="video/mp4">
+</video>
+</div>
+<p>Нажав на устройство в списке, можно установить, разрешено ли этому устройству <strong>принимать звонки</strong> и <strong>новые секретные чаты</strong>.</p>
+<blockquote>
+<p>Telegram поддерживает любые платформы. Загрузить версию для нужного устройства можно здесь: <a href="https://telegram.org/apps">telegram.org/apps</a>
+</p>
+</blockquote>
+<h3>
+<a class="anchor" name="anonimnie-kommentarii-v-publichnih-gruppah" href="#anonimnie-kommentarii-v-publichnih-gruppah">
+<i class="anchor-icon">
+</i>
+</a>Анонимные комментарии в публичных группах</h3>
+<p>
+<a href="https://t.me/TelegramTips/300">Публичные группы</a> и <a href="https://t.me/TelegramTips/209">комментарии в каналах</a> позволяют обсудить любую тему с тысячами людей: провести встречу с соратниками, дебаты с оппонентами или просто пообщаться с фанатами. Чтобы избежать нежелательного внимания к личной учётной записи, теперь можно отправлять сообщения <strong>от лица одного из своих каналов</strong>.</p>
+<div class="blog_video_player_wrap" style="max-width: 400px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001338/2/6spBxs7fO2w.282379/5c1e1d388995b86f7f" style="max-width: 400px;" title="" alt="Анонимные комментарии в публичных группах">
+<source src="/file/464001296/1/SO0sLo16Iw4.2959685.mp4/9a3017dce957800c23" type="video/mp4">
+</video>
+</div>
+<p>Чтобы выбрать канал, от лица которого будут отправлены сообщения, нажмите на изображение слева от поля ввода. Все последующие сообщения, отправленные в этом чате, будут подписаны названием и изображением выбранного канала вместо Вашего имени и фотографии.</p>
+<blockquote>
+<p>При отправке сообщений от имени канала Вы также будете видеть название этого канала над блоками своих сообщений.</p>
+</blockquote>
+<h3>
+<a class="anchor" name="novie-sposobi-avtorizatsii-cherez-zvonok" href="#novie-sposobi-avtorizatsii-cherez-zvonok">
+<i class="anchor-icon">
+</i>
+</a>Новые способы авторизации через звонок</h3>
+<p>На некоторых устройствах теперь возможен быстрый вход <strong>без СМС</strong> – при помощи <strong>ввода последних цифр номера</strong>, с которого поступил звонок от Telegram.</p>
+<div class="blog_video_player_wrap" style="max-width: 400px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001210/3/0aQ_aYbZNGc.28779/43923146c760e2b94b" style="max-width: 400px;" title="" alt="Для авторизации необходимо ввести последние цифры номера, с которого звонили">
+<source src="/file/464001873/1/HDMTH71Xe50.1858492.mp4/cf1fd0661d0c8225c3" type="video/mp4">
+</video>
+</div>
+<h3>
+<a class="anchor" name="otveti-na-zayavki-v-gruppi" href="#otveti-na-zayavki-v-gruppi">
+<i class="anchor-icon">
+</i>
+</a>Ответы на заявки в группы</h3>
+<p>Если после отправки <a href="https://telegram.org/blog/shared-media-scrolling-calendar-join-requests-and-more#join-requests-for-groups-and-channels">заявки на вступление</a> в группу с Вами связался её администратор, на плашке вверху чата будет указано <strong>название группы</strong>.</p>
+<div class="blog_video_player_wrap" style="max-width: 400px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001999/4/I_2N9jOCEkc.174764/5785cd42d78b771fe9" style="max-width: 400px;" title="" alt="Ответы на заявки в группы">
+<source src="/file/464001536/2/xFH2HvdhEAo.755282.mp4/f5d9bab6452ea62269" type="video/mp4">
+</video>
+</div>
+<p>
+<strong>Администраторы-боты</strong> также получили возможность написать пользователям, которые не писали боту первыми, но подали заявку в чат, где бот является администратором. Благодаря этому боты становятся гибким инструментом для управления заявками: например, они могут попросить пользователя <strong>принять правила сообщества</strong> перед вступлением, <a href="https://telegram.org/tour/quizbot">пройти тест</a> или <a href="https://t.me/donate">сделать небольшое пожертвование</a>, чтобы поддержать авторов.</p>
+<h3>
+<a class="anchor" name="globalnie-tsvetovie-temi" href="#globalnie-tsvetovie-temi">
+<i class="anchor-icon">
+</i>
+</a>Глобальные цветовые темы</h3>
+<p>В сентябрьском обновлении мы представили <a href="https://telegram.org/blog/chat-themes-interactive-emoji-read-receipts/ru#tsvetovie-temi-dlya-chatov">восемь новых цветовых тем</a>, которые можно установить для конкретных личных чатов. Теперь эти же темы можно применить и для <strong>всего приложения</strong> Telegram для Android (приложение для iOS уже поддержало их ранее). </p>
+<p>Новые темы созданы дизайнерами из команды Telegram, у каждой из тем есть <strong>дневная и ночная</strong> версии, используются цветные градиенты для блоков сообщений и анимированные фоны с уникальными узорами. Мы также переработали раздел «Настройки чатов», чтобы сделать выбор темы удобнее.</p>
+<p>Вы можете изменить любые элементы новых тем на свой вкус, например выбрать другие цвета или узор. Расширенные настройки можно найти по кнопке <em>Настройки темы</em>.</p>
+<div class="blog_video_player_wrap" style="max-width: 400px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001739/2/fyEWpI6hQr4.80950/c51457ec9ac0430a5b" style="max-width: 400px;" title="" alt="Глобальные цветовые темы">
+<source src="/file/464001862/1/_3rqczRPTcU.9740462.mp4/5f2f19a36d525cc37a" type="video/mp4">
+</video>
+</div>
+<h2>
+<a class="anchor" name="raspoznavanie-teksta-dlya-ios-13" href="#raspoznavanie-teksta-dlya-ios-13">
+<i class="anchor-icon">
+</i>
+</a>Распознавание текста для iOS 13+</h2>
+<p>Для устройств с iOS 13 и выше теперь поддерживается распознавание англоязычного текста на полученных или отправленных фотографиях — таким образом можно быстро выделить или скопировать нужный фрагмент, не перепечатывая его вручную. Распознавание изображения полностью конфиденциально и происходит на Вашем устройстве без отправки данных на сервер. </p>
+<div class="blog_video_player_wrap" style="max-width: 400px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001446/1/mChxUs-HJlg.327714/0e08e0fe00d98eab23" style="max-width: 400px;" title="" alt="Распознавание текста на iOS">
+<source src="/file/464001405/3/paoyTIzmnY0.3066598.mp4/6bd48546d95f9a59ba" type="video/mp4">
+</video>
+</div>
+<p>Apple пока <a href="https://support.apple.com/en-vn/HT212630">не поддерживает</a> распознавание текста для русского языка, но список поддерживаемых языков может быть расширен в будущих обновлениях iOS.</p>
+<h3>
+<a class="anchor" name="formatirovanie-teksta-v-podpisyah-k-media-na-ios" href="#formatirovanie-teksta-v-podpisyah-k-media-na-ios">
+<i class="anchor-icon">
+</i>
+</a>Форматирование текста в подписях к медиа на iOS</h3>
+<p>В подписях к медиа теперь поддерживается любое форматирование: <strong>жирный</strong> и <em>курсивный</em> текст, текстовые ссылки и все остальные возможности, ранее доступные для текстов обычных сообщений.</p>
+<div class="blog_video_player_wrap" style="max-width: 400px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001548/3/JgHiQfIZmbw.303277/ec2743de0cb2c9f9d5" style="max-width: 400px;" title="" alt="Форматирование текста в подписях к медиа">
+<source src="/file/464001531/3/17NhbEYcGfw.3235870.mp4/5dd9ce4ea471bb7b71" type="video/mp4">
+</video>
+</div>
+<p>В Telegram для Android эта возможность стала доступной в одном из предыдущих обновлений.</p>
+<h3>
+<a class="anchor" name="obnovlennii-dizain-profilei-i-drugoe" href="#obnovlennii-dizain-profilei-i-drugoe">
+<i class="anchor-icon">
+</i>
+</a>Обновленный дизайн профилей и другое</h3>
+<p>Профили пользователей, групп и каналов на iOS были обновлены в соответствии со стандартами <strong>iOS 15</strong>.</p>
+<div class="blog_image_wrap blog_medium_image_wrap">
+<a href="/file/464001060/3/QC-Rf29SkZI.79997/621b97e1d8c65987c5" target="_blank">
+<img src="/file/464001263/2/Lse-7vtHFa8.32181/6ebc8fd5691eb2ccfc" title="" alt="Обновленный дизайн профилей на iOS" srcset="/file/464001060/3/QC-Rf29SkZI.79997/621b97e1d8c65987c5 , 2x" />
+</a>
+</div>
+<p>И это все новости на сегодня — а мы уже работаем над следующими нововведениями.</p>
+<div>
+<br>
+</div>
+<p>
+<em>7 декабря 2021<br>Команда Telegram</em>
+</p>
+</div>
+</div>
+<div class="tl_main_share clearfix">
+<a href="https://t.me/share/url?url=https%3A%2F%2Ftelegram.org%2Fblog%2Fprotected-content-delete-by-date-and-more%2Fru&text=%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D0%BA%D0%BE%D0%BD%D1%82%D0%B5%D0%BD%D1%82%D0%B0%20%D0%B2%20%D0%B3%D1%80%D1%83%D0%BF%D0%BF%D0%B0%D1%85%20%D0%B8%20%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B0%D1%85%2C%20%D1%83%D0%B4%D0%B0%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BF%D0%B5%D1%80%D0%B5%D0%BF%D0%B8%D1%81%D0%BA%D0%B8%20%D0%B7%D0%B0%20%D0%BE%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9%20%D0%BF%D0%B5%D1%80%D0%B8%D0%BE%D0%B4%20%D0%B8%20%D0%B4%D1%80%D1%83%D0%B3%D0%B8%D0%B5%20%D0%BD%D0%BE%D0%B2%D0%BE%D0%B2%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F" class="tl_telegram_share_btn" id="tl_telegram_share_btn" data-text="Защита контента в группах и каналах, удаление переписки за определенный период и другие нововведения" data-url="https://telegram.org/blog/protected-content-delete-by-date-and-more/ru">
+<i class="tl_telegram_share_icon">
+</i>
+<span class="tl_telegram_share_label" target="_blank">Forward</span>
+</a>
+<a href="https://twitter.com/share" class="tl_twitter_share_btn" id="tl_twitter_share_btn" data-text="Защита контента в группах и каналах, удаление переписки за определенный период и другие нововведения" data-url="https://telegram.org/blog/protected-content-delete-by-date-and-more/ru" data-via="Telegram">Tweet <span class="tl_twitter_share_cnt">
+</span>
+</a>
+</div>
+</div>
+<div class="tl_main_recent_news_wrap tlb_other_news_wrap tl_blog_list_page_wrap">
+<h3 class="tl_main_recent_news_header">
+<a href="/blog">Other News</a>
+</h3>
+<div class="tl_main_recent_news_cards clearfix">
+<a class="dev_blog_card_link_wrap" href="/blog/welcome-messages-buttons-TG-13/ru">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400741/6/aFBFZ5lNqO8.66680.webp/0e567958d5b96a2184" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">Приветственные сообщения, кнопки в сообщениях и подписи к подаркам</h4>
+<div class="dev_blog_card_lead">В этом обновлении — приветственные сообщения для новых участников групп и каналов, кнопки в сообщениях, которые позволяют сделать любой…</div>
+</div>
+<div class="dev_blog_card_date">Aug 25, 2026</div>
+</div>
+</a>
+<a class="dev_blog_card_link_wrap" href="/blog/communities-editor-invisible-messages/ru">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400366/6/dI0zgi0mM5s.323818.webp/6a362dadee6e7e6011" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">Расширенный текстовый редактор, сообщества, исчезающие сообщения в группах, 350 миллионов GIF-анимаций</h4>
+<div class="dev_blog_card_lead">В сегодняшнем обновлении: расширенный редактор текста для создания и оформления сообщений…</div>
+</div>
+<div class="dev_blog_card_date">Jul 14, 2026</div>
+</div>
+</a>
+<a class="dev_blog_card_link_wrap" href="/blog/watch-apps-and-more/ru">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400535/2/fkUcVRnSU-M.140100.webp/10c066db41f83e6d5e" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">Приложения для смарт-часов, форматирование текста для ботов, ИИ-защитники групп и многое другое</h4>
+<div class="dev_blog_card_lead">В сегодняшнем обновлении — Telegram для Apple Watch и смарт-часов на Android, расширенное…</div>
+</div>
+<div class="dev_blog_card_date">Jun 11, 2026</div>
+</div>
+</a>
+<a class="dev_blog_card_link_wrap" href="/blog/ai-bot-revolution-11-new-features/ru">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400475/2/BwY041V7nZg.149454.webp/873ed0c0321c7633e7" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">Гостевой режим для ИИ-ботов, общение ботов, автоматизация чатов, создание ИИ-стилей, поиск по 100+ млн эмодзи и стикеров и многое другое</h4>
+<div class="dev_blog_card_lead">Сегодня Telegram представляет более 10 нововведений:…</div>
+</div>
+<div class="dev_blog_card_date">May 7, 2026</div>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer_wrap">
+<div class="footer_columns_wrap footer_desktop">
+<div class="footer_column footer_column_telegram">
+<h5>Telegram</h5>
+<div class="footer_telegram_description">
+</div>
+      Telegram is a cloud-based mobile and desktop messaging app with a focus on security and speed.
+    </div>
+<div class="footer_column">
+<h5>
+<a href="/faq">About</a>
+</h5>
+<ul>
+<li>
+<a href="/faq">FAQ</a>
+</li>
+<li>
+<a href="/privacy">Privacy</a>
+</li>
+<li>
+<a href="/press">Press</a>
+</li>
+</ul>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/apps#mobile-apps">Mobile Apps</a>
+</h5>
+<ul>
+<li>
+<a href="/dl/ios">iPhone/iPad</a>
+</li>
+<li>
+<a href="/android">Android</a>
+</li>
+<li>
+<a href="/dl/web">Mobile Web</a>
+</li>
+</ul>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/apps#desktop-apps">Desktop Apps</a>
+</h5>
+<ul>
+<li>
+<a href="//desktop.telegram.org/">PC/Mac/Linux</a>
+</li>
+<li>
+<a href="//macos.telegram.org/">macOS</a>
+</li>
+<li>
+<a href="/dl/web">Web-browser</a>
+</li>
+</ul>
+</div>
+<div class="footer_column footer_column_platform">
+<h5>
+<a href="//core.telegram.org/">Platform</a>
+</h5>
+<ul>
+<li>
+<a href="//core.telegram.org/api">API</a>
+</li>
+<li>
+<a href="//translations.telegram.org/">Translations</a>
+</li>
+<li>
+<a href="//instantview.telegram.org/">Instant View</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="footer_columns_wrap footer_mobile">
+<div class="footer_column">
+<h5>
+<a href="/faq">About</a>
+</h5>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/blog">Blog</a>
+</h5>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/press">Press</a>
+</h5>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/safety">Safety</a>
+</h5>
+</div>
+</div>
+</div>
+<script src="/js/main.js?49">
+</script>
+<script src="/js/tgsticker.js?32">
+</script>
+<script src="/js/main-theme.js?6">
+</script>
+<script>initScrollVideos(true);
+mainInitTgStickers({"maxDeviceRatio":2,"cachingModulo":4});
+twitterCustomShareInit();
+blogSideImageInit();
+backToTopInit("Go up");
+removePreloadInit();
+</script>
+</body>
+</html>

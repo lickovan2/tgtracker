@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html class="" data-theme="light">
+<head>
+<meta charset="utf-8">
+<title>Editor AI, Pol Lanjutan, Live Photo, Bot Pengelola Bot, dan Sebagainya</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:title" content="Editor AI, Pol Lanjutan, Live Photo, Bot Pengelola Bot, dan Sebagainya">
+<meta property="og:image" content="https://telegram.org/file/400780400931/3/L6HFfelQm5E.394826.jpg/c82f3df5fb2bdde5f3">
+<meta property="og:site_name" content="Telegram">
+<meta property="og:description" content="Dalam pembaruan hari ini, kami memperkenalkan Editor AI yang dapat menerjemahkan, mengubah, atau memperbaiki teks Anda dalam dua ketukan; fitur baru untuk Pol seperti pelampiran media dan penyaranan opsi tambahan untuk pol aktif; dukungan untuk Live Photo dan Foto Motion di semua aplikasi; bot yang dapat membuat dan mengelola bot lain — dan sebagainya.">
+<meta property="article:published_time" content="2026-03-31T21:14:14+00:00">
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://telegram.org/file/400780400931/3/L6HFfelQm5E.394826.jpg/c82f3df5fb2bdde5f3" />
+<meta property="fb:app_id" content="254098051407226">
+<meta property="vk:app_id" content="3782569">
+<meta name="apple-itunes-app" content="app-id=686449807">
+<meta name="telegram:channel" content="@telegram">
+<link rel="canonical" href="https://telegram.org/blog/ai-editor-mighty-polls-and-more/id" />
+<link rel="icon" type="image/svg+xml" href="/img/website_icon.svg?4">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="alternate icon" href="/img/favicon.ico" type="image/x-icon" />
+<link href="/css/bootstrap.min.css?3" rel="stylesheet">
+<link href="/css/telegram.css?256" rel="stylesheet" media="screen">
+<link href="/css/telegram-theme.css?9" rel="stylesheet" media="screen">
+</head>
+<body class="preload">
+<div id="fb-root">
+</div>
+<button class="theme-toggle theme-toggle--static" type="button" title="Toggle theme" aria-label="Toggle light/dark theme">
+</button>
+<div class="tl_page_wrap">
+<div class="tl_page_head navbar navbar-static-top navbar navbar-tg">
+<div class="navbar-inner">
+<div class="container clearfix">
+<ul class="nav navbar-nav navbar-right">
+<li class="dropdown top_lang_select">
+<a class="dropdown-toggle" onclick="return dropdownClick(this, event)" href="#">
+<i class="dev_top_lang_icon">
+</i>
+<b class="minicaret">
+</b>
+</a>
+<ul class="dropdown-menu">
+<li class="">
+<a href="?setln=en">English</a>
+</li>
+<li class="long ">
+<a href="?setln=id">Bahasa Indonesia</a>
+</li>
+<li class="long ">
+<a href="?setln=ms">Bahasa Melayu</a>
+</li>
+<li class="">
+<a href="?setln=de">Deutsch</a>
+</li>
+<li class="">
+<a href="?setln=es">Español</a>
+</li>
+<li class="">
+<a href="?setln=fr">Français</a>
+</li>
+<li class="">
+<a href="?setln=it">Italiano</a>
+</li>
+<li class="">
+<a href="?setln=nl">Nederlands</a>
+</li>
+<li class="">
+<a href="?setln=uz">O‘zbek</a>
+</li>
+<li class="">
+<a href="?setln=pl">Polski</a>
+</li>
+<li class="long ">
+<a href="?setln=pt-br">Português (Brasil)</a>
+</li>
+<li class="">
+<a href="?setln=tr">Türkçe</a>
+</li>
+<li class="">
+<a href="?setln=be">Беларуская</a>
+</li>
+<li class="">
+<a href="?setln=ru">Русский</a>
+</li>
+<li class="">
+<a href="?setln=uk">Українська</a>
+</li>
+<li class="">
+<a href="?setln=kk">Қазақша</a>
+</li>
+<li class="">
+<a href="?setln=ar">العربية</a>
+</li>
+<li class="">
+<a href="?setln=fa">فارسی</a>
+</li>
+<li class="">
+<a href="?setln=ko">한국어</a>
+</li>
+</ul>
+</li>
+<li class="navbar-twitter hidden-xs">
+<a href="https://x.com/telegram" target="_blank" data-track="Follow/Twitter" onclick="trackDlClick(this, event)">
+<i class="icon icon-twitter">
+</i> Follow on X</a>
+</li>
+</ul>
+<ul class="nav navbar-nav">
+<li class="">
+<a href="/">Home</a>
+</li>
+<li class="">
+<a href="/faq">FAQ</a>
+</li>
+<li class="">
+<a href="/apps">Apps</a>
+</li>
+<li class="hidden-xs ">
+<a href="//core.telegram.org/api">API</a>
+</li>
+<li class="hidden-xs ">
+<a href="/safety">Safety</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="container clearfix tl_page_container ">
+<div class="tl_page">
+<div class="tl_contest_page_wrap">
+<div class="tl_blog_side_blog">
+<div class="side_blog_wrap">
+<div class="side_blog">
+<a href="/blog" class="side_blog_header">Recent News</a>
+<div class="side_blog_entries">
+<a href="/blog/welcome-messages-buttons-TG-13" class="side_blog_entry">
+<div class="side_blog_date">Aug 25</div>
+<div class="side_blog_title">Welcome Messages, Buttons in Messages and Signed Gifts</div>
+</a>
+<a href="/blog/communities-editor-invisible-messages" class="side_blog_entry">
+<div class="side_blog_date">Jul 14</div>
+<div class="side_blog_title">Rich Text Editor, Communities, Ephemeral Messages in Groups, 350 Million GIFs</div>
+</a>
+<a href="/blog/watch-apps-and-more" class="side_blog_entry">
+<div class="side_blog_date">Jun 11</div>
+<div class="side_blog_title">Smartwatch Apps, Rich Text for Bots, AI Guardians for Groups, and Much More</div>
+</a>
+<a href="/blog/ai-bot-revolution-11-new-features" class="side_blog_entry">
+<div class="side_blog_date">May 7</div>
+<div class="side_blog_title">Guest AI Bots, Bot-to-Bot Chats, Chat Automation, Custom AI Styles, 100M+ Emoji &amp; Sticker Search and Much More</div>
+</a>
+<a href="/blog/ai-editor-mighty-polls-and-more" class="side_blog_entry">
+<div class="side_blog_date">Mar 31</div>
+<div class="side_blog_title">AI Editor, Mighty Polls, Live Photos, Bots Managed by Bots, and More</div>
+</a>
+<a href="/blog/member-tags-disable-sharing-and-more" class="side_blog_entry">
+<div class="side_blog_date">Mar 1</div>
+<div class="side_blog_title">Member Tags, Login with Telegram, Disable Sharing, GIF Editing, Date Formatting, Voting Timestamps</div>
+</a>
+<a href="/blog/crafting-android-design-and-more" class="side_blog_entry">
+<div class="side_blog_date">Feb 9</div>
+<div class="side_blog_title">Android Redesign, Group Ownership Transfer, Gift Crafting, Colored Bot Buttons</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div id="dev_page_content_wrap" class=" ">
+<div class="dev_page_bread_crumbs">
+</div>
+<h1 id="dev_page_title">Editor AI, Pol Lanjutan, Live Photo, Bot Pengelola Bot, dan Sebagainya</h1>
+<blockquote class="blog_lang_original">
+<a href="/blog/ai-editor-mighty-polls-and-more?ln=r">Baca pengumuman resmi dalam Bahasa Inggris</a>
+</blockquote>
+<div id="dev_page_content">
+<div class="blog_side_image_wrap">
+<picture class="dev_page_tgsticker blog_side_image js-tgsticker_image" style="width:160px;">
+<div style="padding-top:100%">
+</div>
+<source type="application/x-tgsticker" srcset="/file/400780400253/4/jpb3Nc2jjVo.26162/19a17329c929a51f41">
+<img src="/file/400780400253/5/l-0KBCXHbAk.44699.png/297113f6ff2561f01a" />
+</picture>
+</div>
+<div class="blog_wide_image">
+<a href="/file/400780400883/4/E0j-vjAOYxI.361376.webp/56ad9ae1d83300f10a" target="_blank">
+<img src="/file/400780400265/6/d3selCTkp-A.127004.webp/d63597a9e82f35e48b" srcset="/file/400780400883/4/E0j-vjAOYxI.361376.webp/56ad9ae1d83300f10a, 1200w" title="" alt="Editor AI, Pol Lanjutan, Live Photo, Bot Pengelola Bot, Pemindai Dokumen, dan Sebagainya"/>
+</a>
+</div>
+<p>Dalam pembaruan hari ini, kami memperkenalkan <strong>Editor AI</strong> yang dapat <strong>menerjemahkan</strong>, <strong>mengubah</strong>, atau <strong>memperbaiki</strong> teks Anda dalam dua ketukan; fitur baru untuk Pol seperti <strong>pelampiran media</strong> dan <strong>penyaranan opsi tambahan</strong> untuk pol aktif; dukungan untuk <strong>Live Photo dan Foto Motion</strong> di semua aplikasi; bot yang dapat <strong>membuat dan mengelola</strong> bot lain — dan sebagainya.</p>
+<h4>
+<a class="anchor" name="editor-teks-ai" href="#editor-teks-ai">
+<i class="anchor-icon">
+</i>
+</a>Editor Teks AI</h4>
+<p>Bilah pesan kini memiliki editor bawaan yang dapat dengan instan <strong>memperbaiki grammar/tata bahasa</strong>, menulis ulang teks dengan <strong>gaya berbeda</strong>, atau menerjemahkan pesan ke dalam <strong>bahasa lain</strong> — semuanya ditenagai oleh <a href="https://cocoon.org/">Cocoon AI Telegram</a>.</p>
+<p>Editor teks menawarkan <strong>berbagai gaya</strong> seperti <em>Formal</em>, <em>Short</em>, <em>Tribal</em>, <em>Corp</em>, <em>Zen</em>, <em>Biblical</em>, dan <em>Viking</em> — yang dapat Anda gunakan untuk membuat komunikasi Anda <strong>lebih efisien</strong> atau <strong>lebih unik</strong>.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<div>
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/400780400458/3/BmOVxBg-orM.62184.jpg/0987e9953f21093f15" style="max-width: 600px;" alt="Editor Teks AI">
+<source src="/file/400780400578/3/NFuL_cGUDHg.9627902.mp4/ec2f9d13dd6816e82a" type="video/mp4">
+</video>
+</div>
+</div>
+<blockquote>
+<p>Editor teks juga memungkinkan Anda untuk <strong>menambahkan gaya</strong> saat <strong>menerjemahkan</strong> teks Anda — membuat Anda seakan-akan bangsawan asing atau poliglot.</p>
+</blockquote>
+<p>Seperti semua <a href="https://telegram.org/blog/new-design-ai-summaries/id?ln=a#ringkasan-ai">fitur AI</a> Telegram, editor teks menggunakan <a href="https://cocoon.org/">Cocoon Network</a> untuk memberikan <strong>privasi lengkap</strong> kepada pengguna. Permintaan diproses dalam <strong>lingkungan rahasia</strong>, <strong>tanpa akses</strong> ke data pengguna.</p>
+<blockquote>
+<p>Saat menulis pesan, ketuk ikon <em>&#39;Ai&#39;</em> yang muncul di atas panah <em>&#39;Kirim&#39;</em> setelah mengetik <strong>lebih dari 3 baris</strong> teks.</p>
+</blockquote>
+<h4>
+<a class="anchor" name="10-fitur-baru-untuk-pol" href="#10-fitur-baru-untuk-pol">
+<i class="anchor-icon">
+</i>
+</a>10+ Fitur Baru untuk Pol</h4>
+<p>Kami telah menambahkan banyak fitur pol baru — berikut yang dapat Anda lakukan sekarang:</p>
+<ul>
+<li>
+<strong>Lampirkan media atau lokasi</strong> ke pertanyaan dan pilihan.</li>
+<li>
+<strong>Tambahkan deskripsi</strong> sebagai konteks.</li>
+<li>
+<strong>Izinkan pengguna menyarankan opsi baru</strong> dalam pol aktif.</li>
+<li>
+<strong>Tampilkan siapa yang memilih</strong> di samping setiap opsi.</li>
+<li>
+<strong>Nonaktifkan pengubahan pilihan</strong> untuk hasil tetap.</li>
+<li>
+<strong>Acak opsi</strong> untuk setiap pengguna.</li>
+<li>
+<strong>Tetapkan batas waktu</strong> untuk pol.</li>
+<li>
+<strong>Sembunyikan hasil</strong> hingga waktu habis.</li>
+<li>
+<strong>Lihat hasil tanpa memberikan suara</strong> sebagai pembuat pol.</li>
+</ul>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<div>
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/400780400259/3/6devMXGy5_4.64419.jpg/daf64674e5523b9426" style="max-width: 600px;" alt="Pol Lanjutan">
+<source src="/file/400780400118/1/j6mkunphO2E.7657802.mp4/b669e7300f659bd00a" type="video/mp4">
+</video>
+</div>
+</div>
+<p>Pengaturan pol yang sederhana sekarang juga memungkinkan Anda untuk membuat <strong>jenis kuis baru</strong> – misalnya dengan <strong>mengizinkan pengubahan pilihan</strong> atau <strong>menetapkan beberapa jawaban benar</strong>.</p>
+<p>Jika Anda membuat pol dengan <strong>visibilitas suara umum</strong> dalam obrolan grup, Anda akan <strong>menerima notifikasi</strong> setiap kali seseorang memilih, memberi tahu Anda <strong>opsi apa yang mereka pilih</strong>.</p>
+<div class="blog_image_wrap blog_wide_image_wrap">
+<a href="/file/400780400889/6/wVjbxk1OKKA.139267.jpg/752ccbfb0670faeb23" target="_blank">
+<img src="/file/400780400889/6/wVjbxk1OKKA.139267.jpg/752ccbfb0670faeb23" title="" alt="Notifikasi Pol" srcset="/file/400780400889/6/wVjbxk1OKKA.139267.jpg/752ccbfb0670faeb23 , 2x" />
+</a>
+</div>
+<p>Baik pol lama maupun <strong>yang sedang berlangsung</strong> kini muncul dalam <strong>tab khusus</strong> di profil grup dan channel — sehingga mudah untuk menemukan <strong>pol yang aktif</strong> atau meninjau ulang hasil pol yang sudah lalu.</p>
+<h4>
+<a class="anchor" name="live-photo-dan-foto-motion" href="#live-photo-dan-foto-motion">
+<i class="anchor-icon">
+</i>
+</a>Live Photo dan Foto Motion</h4>
+<p>Telegram kini <strong>mendukung Live Photo iOS</strong> dan <strong>Motion Photos Android secara native/bawaan</strong> — sehingga pengguna dapat mengirim <strong>foto berulang</strong> yang dapat dilihat <strong>di aplikasi Telegram mana pun</strong>.</p>
+<p>Pengirim dapat memilih dari <strong>3 gaya berbeda</strong> dalam editor media: <em>Live</em>, <em>Loop</em>, dan <em>Bounce</em>. <em>Live</em> memutar foto <strong>sekali</strong> saat dibuka, <em>Loop</em>
+<strong>memutar terus-menerus</strong>, sementara <em>Bounce</em> memutar <strong>maju dan mundur</strong> secara berulang.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<div>
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/400780400645/2/KJSuP7na3nY.63428.jpg/5bee0074b97571feb1" style="max-width: 600px;" alt="Live Photo">
+<source src="/file/400780400607/3/DyZaAN7_tWw.6352123.mp4/17bd9b603a88ed1e08" type="video/mp4">
+</video>
+</div>
+</div>
+<blockquote>
+<p>Untuk mengirim Live Photo, ketuk tombol <em>&#39;Live&#39;</em> di pojok atas editor media dan pilih gaya.</p>
+</blockquote>
+<h4>
+<a class="anchor" name="bot-pengelola-bot" href="#bot-pengelola-bot">
+<i class="anchor-icon">
+</i>
+</a>Bot Pengelola Bot</h4>
+<p>Pengguna sekarang dapat membuat bot yang dipersonalisasi hanya dengan beberapa ketukan. Dengan pembaruan terbaru <a href="https://core.telegram.org/bots/features#managed-bots">API Bot Telegram</a>, bot dapat <strong>membuat dan mengelola bot lain</strong> mewakili Anda.</p>
+<p>Hal ini memungkinkan siapa pun untuk <strong>memanfaatkan bot AI</strong> untuk dengan mudah <strong>mengembangkan dan meluncurkan</strong> bot mereka sendiri — tanpa <strong>memerlukan pemrograman</strong>.</p>
+<div class="blog_image_wrap blog_wide_image_wrap">
+<a href="/file/400780400977/2/gsQwfw-tXP0.80171.jpg/bacd420a9682b4fcda" target="_blank">
+<img src="/file/400780400977/2/gsQwfw-tXP0.80171.jpg/bacd420a9682b4fcda" title="" alt="Bot Pengelola Bot" srcset="/file/400780400977/2/gsQwfw-tXP0.80171.jpg/bacd420a9682b4fcda , 2x" />
+</a>
+</div>
+<blockquote>
+<p>Pengembang dapat mempelajari panduan terperinci kami <a href="https://core.telegram.org/bots/features#managed-bots">di sini</a>.</p>
+</blockquote>
+<h4>
+<a class="anchor" name="pemindai-dokumen-di-ios" href="#pemindai-dokumen-di-ios">
+<i class="anchor-icon">
+</i>
+</a>Pemindai Dokumen di iOS</h4>
+<p>Telegram iOS kini memungkinkan pengguna untuk <strong>memindai dokumen</strong> dengan kamera ponsel mereka — dan dapat <strong>menggabungkan beberapa tangkapan</strong> menjadi satu berkas.</p>
+<p>Pemindai dokumen dengan langsung <strong>menghapus latar belakang</strong>, memotong pindaian, dan mengonversinya ke <strong>format PDF</strong>. Saat memindai, Anda dapat mengetuk gambar untuk melakukan <strong>penyesuaian manual</strong> — seperti mengubah <em>border</em>, <strong>menambahkan filter</strong>, atau memutar gambar.</p>
+<div class="blog_image_wrap blog_wide_image_wrap">
+<a href="/file/400780400813/3/FWgEpcUB8uA.110036.jpg/0eb685731e4b2a0e35" target="_blank">
+<img src="/file/400780400813/3/FWgEpcUB8uA.110036.jpg/0eb685731e4b2a0e35" title="" alt="Pemindai Dokumen" srcset="/file/400780400813/3/FWgEpcUB8uA.110036.jpg/0eb685731e4b2a0e35 , 2x" />
+</a>
+</div>
+<blockquote>
+<p>Untuk memindai dokumen, buka menu lampiran dan pilih <em>Berkas &gt; Pindai Dokumen</em>.</p>
+</blockquote>
+<h4>
+<a class="anchor" name="peringatan-tentang-aplikasi-tidak-resmi" href="#peringatan-tentang-aplikasi-tidak-resmi">
+<i class="anchor-icon">
+</i>
+</a>Peringatan Tentang Aplikasi Tidak Resmi</h4>
+<p>
+<a href="https://telegram.org/apps">Aplikasi resmi</a> Telegram <strong>sepenuhnya bersifat sumber terbuka</strong> dengan <em>build</em> yang dapat diverifikasi dan protokol enkripsi — untuk <strong>kepercayaan</strong> dan <strong>transparansi maksimum</strong>.</p>
+<p>Telegram juga menyediakan platform bagi <strong>pengembang independen</strong> untuk membuat <strong>versi pihak ketiga</strong> aplikasi Telegram. <strong>Peringatan keamanan baru</strong> sekarang muncul di profil pengguna yang menggunakan <strong>aplikasi pihak ketiga</strong> — mengingatkan pengguna lain bahwa pesan yang dikirim kepada mereka mungkin kurang aman.</p>
+<div class="blog_image_wrap blog_wide_image_wrap">
+<a href="/file/400780400726/2/1RYtkPJGkqA.109509.jpg/35db1e0b7d939a745b" target="_blank">
+<img src="/file/400780400726/2/1RYtkPJGkqA.109509.jpg/35db1e0b7d939a745b" title="" alt="Peringatan Risiko Keamanan" srcset="/file/400780400726/2/1RYtkPJGkqA.109509.jpg/35db1e0b7d939a745b , 2x" />
+</a>
+</div>
+<p>Demikianlah berakhir kabar hari ini; kami akan segera kembali dengan keajaiban yang lebih dahsyat.</p>
+<div>
+<br>
+</div>
+<p>
+<em>31 Maret 2026<br>Tim Telegram</em>
+</p>
+</div>
+</div>
+<div class="tl_main_share clearfix">
+<a href="https://t.me/share/url?url=https%3A%2F%2Ftelegram.org%2Fblog%2Fai-editor-mighty-polls-and-more%2Fid&text=Dalam%20pembaruan%20hari%20ini%2C%20kami%20memperkenalkan%20Editor%20AI%20yang%20dapat%20menerjemahkan%2C%20mengubah%2C%20atau%20memperbaiki%20teks%20Anda%20dalam%20dua%20ketukan%3B%20fitur%20baru%20untuk%20Pol%20seperti%20pelampiran%20media%20dan%20penyaranan%20opsi%20tambahan%20untuk%20pol%20aktif%3B%20dukungan%20untuk%20Live%20Photo%20dan%20Foto%20Motion%20di%20semua%20aplikasi%3B%20bot%20yang%20dapat%20membuat%20dan%20mengelola%20bot%20lain%20%E2%80%94%20dan%20sebagainya." class="tl_telegram_share_btn" id="tl_telegram_share_btn" data-text="Dalam pembaruan hari ini, kami memperkenalkan Editor AI yang dapat menerjemahkan, mengubah, atau memperbaiki teks Anda dalam dua ketukan; fitur baru untuk Pol seperti pelampiran media dan penyaranan opsi tambahan untuk pol aktif; dukungan untuk Live Photo dan Foto Motion di semua aplikasi; bot yang dapat membuat dan mengelola bot lain — dan sebagainya." data-url="https://telegram.org/blog/ai-editor-mighty-polls-and-more/id">
+<i class="tl_telegram_share_icon">
+</i>
+<span class="tl_telegram_share_label" target="_blank">Forward</span>
+</a>
+<a href="https://twitter.com/share" class="tl_twitter_share_btn" id="tl_twitter_share_btn" data-text="Dalam pembaruan hari ini, kami memperkenalkan Editor AI yang dapat menerjemahkan, mengubah, atau memperbaiki teks Anda dalam dua ketukan; fitur baru untuk Pol seperti pelampiran media dan penyaranan opsi tambahan untuk pol aktif; dukungan untuk Live Photo dan Foto Motion di semua aplikasi; bot yang dapat membuat dan mengelola bot lain — dan sebagainya." data-url="https://telegram.org/blog/ai-editor-mighty-polls-and-more/id" data-via="Telegram">Tweet <span class="tl_twitter_share_cnt">
+</span>
+</a>
+</div>
+</div>
+<div class="tl_main_recent_news_wrap tlb_other_news_wrap tl_blog_list_page_wrap">
+<h3 class="tl_main_recent_news_header">
+<a href="/blog">Other News</a>
+</h3>
+<div class="tl_main_recent_news_cards clearfix">
+<a class="dev_blog_card_link_wrap" href="/blog/welcome-messages-buttons-TG-13/id">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400741/6/aFBFZ5lNqO8.66680.webp/0e567958d5b96a2184" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">Pesan Sambutan, Tombol dalam Pesan, dan Hadiah dengan Salam</h4>
+<div class="dev_blog_card_lead">Memperkenalkan Pesan Sambutan untuk sapa anggota baru grup atau channel, Tombol dalam Pesan untuk buat teks interaktif, Dokumen Sebaris…</div>
+</div>
+<div class="dev_blog_card_date">Aug 25, 2026</div>
+</div>
+</a>
+<a class="dev_blog_card_link_wrap" href="/blog/communities-editor-invisible-messages/id">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400366/6/dI0zgi0mM5s.323818.webp/6a362dadee6e7e6011" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">Editor Teks Kaya, Komunitas, Pesan Tersembunyi dalam Grup, 350 Juta GIF</h4>
+<div class="dev_blog_card_lead">Memperkenalkan editor teks kaya untuk memformat dan menghasilkan teks; Komunitas Telegram yang menggandengkan beberapa grup, channel, dan…</div>
+</div>
+<div class="dev_blog_card_date">Jul 14, 2026</div>
+</div>
+</a>
+<a class="dev_blog_card_link_wrap" href="/blog/watch-apps-and-more/id">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400535/2/fkUcVRnSU-M.140100.webp/10c066db41f83e6d5e" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">Aplikasi Smartwatch, Teks Kaya untuk Bot, AI Guardian untuk Grup, dan Sebagainya</h4>
+<div class="dev_blog_card_lead">Pembaruan hari ini menghadirkan Telegram di Apple Watch dan smartwatch Android dan menambahkan fitur-fitur seperti teks kaya untuk bot…</div>
+</div>
+<div class="dev_blog_card_date">Jun 11, 2026</div>
+</div>
+</a>
+<a class="dev_blog_card_link_wrap" href="/blog/ai-bot-revolution-11-new-features/id">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400475/2/BwY041V7nZg.149454.webp/873ed0c0321c7633e7" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">Bot AI Tamu, Komunikasi Antar Bot, Percakapan Otomatis, Pencarian Emoji &amp; Stiker 100J+, dan Sebagainya</h4>
+<div class="dev_blog_card_lead">Dalam pembaruan hari ini, Telegram menambahkan lebih dari 10 fitur baru. Pengguna akan dapat…</div>
+</div>
+<div class="dev_blog_card_date">May 7, 2026</div>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer_wrap">
+<div class="footer_columns_wrap footer_desktop">
+<div class="footer_column footer_column_telegram">
+<h5>Telegram</h5>
+<div class="footer_telegram_description">
+</div>
+      Telegram is a cloud-based mobile and desktop messaging app with a focus on security and speed.
+    </div>
+<div class="footer_column">
+<h5>
+<a href="/faq">About</a>
+</h5>
+<ul>
+<li>
+<a href="/faq">FAQ</a>
+</li>
+<li>
+<a href="/privacy">Privacy</a>
+</li>
+<li>
+<a href="/press">Press</a>
+</li>
+</ul>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/apps#mobile-apps">Mobile Apps</a>
+</h5>
+<ul>
+<li>
+<a href="/dl/ios">iPhone/iPad</a>
+</li>
+<li>
+<a href="/android">Android</a>
+</li>
+<li>
+<a href="/dl/web">Mobile Web</a>
+</li>
+</ul>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/apps#desktop-apps">Desktop Apps</a>
+</h5>
+<ul>
+<li>
+<a href="//desktop.telegram.org/">PC/Mac/Linux</a>
+</li>
+<li>
+<a href="//macos.telegram.org/">macOS</a>
+</li>
+<li>
+<a href="/dl/web">Web-browser</a>
+</li>
+</ul>
+</div>
+<div class="footer_column footer_column_platform">
+<h5>
+<a href="//core.telegram.org/">Platform</a>
+</h5>
+<ul>
+<li>
+<a href="//core.telegram.org/api">API</a>
+</li>
+<li>
+<a href="//translations.telegram.org/">Translations</a>
+</li>
+<li>
+<a href="//instantview.telegram.org/">Instant View</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="footer_columns_wrap footer_mobile">
+<div class="footer_column">
+<h5>
+<a href="/faq">About</a>
+</h5>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/blog">Blog</a>
+</h5>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/press">Press</a>
+</h5>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/safety">Safety</a>
+</h5>
+</div>
+</div>
+</div>
+<script src="/js/main.js?49">
+</script>
+<script src="/js/tgsticker.js?32">
+</script>
+<script src="/js/main-theme.js?6">
+</script>
+<script>initScrollVideos(true);
+mainInitTgStickers({"maxDeviceRatio":2,"cachingModulo":4});
+twitterCustomShareInit();
+blogSideImageInit();
+backToTopInit("Go up");
+removePreloadInit();
+</script>
+</body>
+</html>

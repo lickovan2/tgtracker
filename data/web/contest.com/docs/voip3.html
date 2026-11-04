@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>VoIP Contest: Stage 3 – Developer Challenges</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta name="format-detection" content="telephone=no" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="MobileOptimized" content="176" />
+<meta name="HandheldFriendly" content="True" />
+<meta name="twitter:card" content="summary">
+</meta>
+<meta property="og:title" content="VoIP Contest: Stage 3">
+<meta property="og:description" content="General info about the contest is available on @contest. See also: This page in Russian
+The task in this round of the VoIP…">
+<link rel="shortcut icon" href="/img/cd_favicon.ico" type="image/x-icon" />
+<link rel="mask-icon" href="/img/cd_icon.svg" color="#299ed8">
+<script>document.cookie="stel_dt="+encodeURIComponent((new Date).getTimezoneOffset())+";path=/;max-age=31536000;samesite=None;secure"</script>
+<link href="/css/font-roboto.css?1" rel="stylesheet" type="text/css">
+<link href="/css/bootstrap.min.css?3" rel="stylesheet">
+<link href="/css/bootstrap-extra.css?2" rel="stylesheet">
+<link href="/css/telegram.css?256" rel="stylesheet">
+<link href="/css/contest.css?41" rel="stylesheet">
+<link href="/css/contest-zoo.css?7" rel="stylesheet">
+<link href="/css/jquery-ui.min.css?1" rel="stylesheet">
+</head>
+<body class="emoji_image no-transition">
+<div id="aj_progress" class="progress-bar">
+</div>
+<div id="aj_content">
+<div class="cd-container">
+<header>
+<div class="container">
+<div class="header-wrap">
+<div id="header-panel" class="header-panel">
+<div class="header-auth">
+<div class="header-auth-item">
+<a class="header-auth-link login-link" href="/auth">Login</a>
+</div>
+</div>
+<div class="header-breadcrumb header-breadcrumb-simple">
+<ol id="breadcrumb" class="header-nav breadcrumb">
+<li class="cd-logo">
+<a href="/">
+<i class="cd-icon">
+</i>
+<span class="cd-logo-title">Developer Challenges</span>
+</a>
+</li>
+<li class="active">VoIP Contest: Stage 3</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+</header>
+<main class="container">
+<section class="cd-content">
+<div id="dev_page_content_wrap" class=" ">
+<div class="dev_page_bread_crumbs">
+</div>
+<h1 id="dev_page_title">VoIP Contest: Stage 3</h1>
+<div id="dev_page_content">
+<blockquote>
+<p>General info about the contest is available on <a href="https://t.me/contest/161">@contest</a>. See also: <a href="https://contest.com/docs/voip3/ru">This page in Russian</a>
+</p>
+</blockquote>
+<p>The task in this round of the <strong>VoIP Contest</strong> is to build a system for making high-quality audio calls between two participants, using a predefined interface and the testing tools provided.</p>
+<p>
+<strong>Everyone</strong> is welcome to participate, including contestants who didn’t take part in the first two rounds of the VoIP Contest. The deadline for this stage is in <strong>three weeks</strong>: 20:59:00 UTC on <strong>March 30, 2020</strong>. </p>
+<h3>
+<a class="anchor-link" href="#differences-from-the-previous-round">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="differences-from-the-previous-round">
+</a>Differences from the previous round</h3>
+<p>If you participated in <a href="https://contest.com/docs/voip2">Round 2</a> of this contest, please note the following changes:</p>
+<ul>
+<li>Updated base version of the libtgvoip library (use commit <a href="https://github.com/telegramdesktop/libtgvoip/tree/6d21427">6d21427</a>). The new version features some of the changes suggested by the participants of the second round, as well as some minor changes to the public interface <a href="https://github.com/telegramdesktop/libtgvoip/blob/6d21427c6cceb8b47443ae45565ae2b6819f7955/TgVoip.h">TgVoip.h</a> required for implementing it in Telegram mobile clients and tgvoipcall.</li>
+<li>Updated tgvoip-test-suite. <a href="https://github.com/telegramdesktop/tgvoip-test-suite">Download new version on GitHub »</a>.<br>— Added new tools for rating calls (used some of the apps created during the <a href="https://contest.com/voip-contest">first round</a>)<br>— Added latency monitoring during calls. For an example of latency analysis, check out the Jupyter Notebook with the results of the second round: <a href="https://data-static.usercontent.dev/VoIP-Stage2-Dataset.tar.gz">VoIP-Stage2-Dataset.tar.gz</a>.<br>— Added support for calls between two different physical servers.<br>— Updated the netns configuration script <code>tests/setup-netns.sh</code> (launch before you start testing).<br>— Changed output of call.php and mean.php, now showing two 2 rating tables: by library/rater version and by library version/network conditions.</li>
+</ul>
+<h3>
+<a class="anchor-link" href="#you-will-use">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="you-will-use">
+</a>You Will Use</h3>
+<ul>
+<li>The <a href="https://github.com/telegramdesktop/libtgvoip">
+<strong>libtgvoip</strong>
+</a> library. For the purposes of the contest, please use the commit <a href="https://github.com/telegramdesktop/libtgvoip/tree/6d21427">6d21427</a>. version of the code.</li>
+<li>A public interface for calls between two users in the header file <a href="https://github.com/telegramdesktop/libtgvoip/blob/6d21427c6cceb8b47443ae45565ae2b6819f7955/TgVoip.h">TgVoip.h</a>. The testing client <em>tgvoipcall</em> connects to the library using this interface; the same interface will also be implemented in Telegram mobile clients.</li>
+<li>A <a href="#test-suite">set of tools</a> and sound samples that can be used for testing calls and evaluating their quality.</li>
+<li>You will <strong>not</strong> need the Telegram API.</li>
+</ul>
+<h3>
+<a class="anchor-link" href="#the-task">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="the-task">
+</a>The Task</h3>
+<ul>
+<li>Improve the implementation of voice calls using one of the <a href="#possible-approaches">possible strategies</a>.</li>
+<li>Keep the public interface <a href="https://github.com/telegramdesktop/libtgvoip/blob/6d21427c6cceb8b47443ae45565ae2b6819f7955/TgVoip.h">TgVoip.h</a> unchanged.</li>
+</ul>
+<h3>
+<a class="anchor-link" href="#conditions">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="conditions">
+</a>Conditions</h3>
+<ul>
+<li>You must only use <strong>C++</strong> (except for compilation scripts and testing), with code portability in mind.  Bonus points will be awarded if your library can be built for Android.</li>
+<li>It is acceptable to modify the data transfer protocol, use an alternative protocol, or even create your own. End-to-End Encryption must be preserved (plaintext voice data must never reach any server; the encryption key must be derived from the <em>encryption_key</em> passed to the library). Compatibility with the current implementation will bring bonus points.</li>
+<li>It is acceptable to ignore the address and tag parameters of the Telegram Relay server,  and instead use your own or a third-party Relay server (STUN, TURN, xirsys, etc). When publishing your submission, we recommend hosting your server in Amsterdam or Central Europe to minimize latency for our judges during testing.</li>
+<li>You should keep external dependencies to a minimum.</li>
+<li>Third-party code may be used only if it&#39;s published under GPL-compatible licenses.</li>
+<li>The following functionality is outside of the scope of this contest: P2P (<code>TgVoipEndpointType::Inet</code>, <code>TgVoipEndpointType::Lan</code>), TCP Relay (<code>TgVoipEndpointType::TcpRelay</code>), SOCKS proxy (<code>TgVoipProxy</code>), Data saving mode (<code>TgVoipDataSaving</code>), Traffic stats (<code>TgVoipTrafficStats</code>), as well as the functions <code>setGlobalServerConfig</code>, <code>onSignalBarsUpdated</code>, <code>setMuteMicrophone</code>, and the flag <code>TGVOIP_USE_CUSTOM_CRYPTO</code>. They will not be taken into account or used during testing and may be ignored.</li>
+<li>Your app must support <code>TgVoipState</code>, <code>onStateUpdated</code> and <code>TgVoipAudioDataCallbacks</code>.</li>
+<li>You must pay close attention to the thread safety of your code, avoid deadlocks, etc.</li>
+<li>Participants of the <a href="https://contest.com/docs/voip2">previous stage</a> should focus on the priorities outlined by our judges in their comments on <a href="https://contest.com/voip-contest-2">contest.com</a>. Other participants are welcome to choose any of the <a href="#possible-approaches">possible approaches</a>.</li>
+</ul>
+<h3>
+<a class="anchor-link" href="#notes">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="notes">
+</a>Notes</h3>
+<ul>
+<li>P2P must be disabled using the library parameters.</li>
+<li>IPv6 connections are outside the scope of the contest, IPv6 will be unavailable on our server during testing.</li>
+<li>We recommend using the UDP protocol.</li>
+<li>Submissions will be tested under Debian GNU/Linux 10.1 (buster), x86-64. Kindly ensure that your library works on a clean setup before submitting.</li>
+<li>We will only test calls between clients using code from the same submission. Compatibility with the current Telegram implementation is optional (but will positively affect the judges&#39; opinion).</li>
+<li>Clients from one call may be launched from different physical servers.</li>
+<li>
+<p>As a result, you should get a ZIP-file with the following structure:</p>
+<pre>
+<code>submission.zip
+  -&gt; libtgvoip.so - compiled library module
+  -&gt; README - build instructions, description of what you implemented
+  -&gt; src - a directory with your source code
+  -&gt; deb-packages.txt - a text file with a list of dependencies, formatted as line-break separated debian package names</code>
+</pre>
+</li>
+</ul>
+<h3>
+<a class="anchor-link" href="#possible-approaches">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="possible-approaches">
+</a>Possible Approaches</h3>
+<p>There are several ways of approaching the contest task. Each of them has its benefits and may get you a prize, provided a sufficient amount of quality work goes into your submission. Here&#39;s what you can do, sorted from the most cautious to the most ambitious:</p>
+<ul>
+<li>Find and fix issues in the current implementation of the library. For example, eliminate potential deadlocks or identify network conditions where voice quality or latency can be improved. For each issue you&#39;ve identified, provide reproduction steps and a detailed description of the solution you implemented.</li>
+<li>Rewrite the library, maintaining compatibility with the current clients (leaving network protocols unchanged).</li>
+<li>Use third-party libraries and protocols for your implementation, losing compatibility. Optionally, you could also use your own Relay server.</li>
+</ul>
+<h3>
+<a class="anchor-link" href="#evaluation-criteria">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="evaluation-criteria">
+</a>Evaluation Criteria</h3>
+<p>To win in this round you will need to:</p>
+<ul>
+<li>Meet all <a href="#conditions">conditions</a>
+</li>
+<li>Pay special attention to the <a href="#notes">notes</a>
+</li>
+<li>Keep your code compact and efficient (size matters!)</li>
+<li>Minimize external dependencies</li>
+</ul>
+<p>All submissions will be tested on the same input data (audio samples and network conditions). Output files will be passed to <em>tgvoiprate</em> – the resulting ratings will be noted by the judges, but will not be the main criteria in the final scoring.</p>
+<h3>
+<a class="anchor-link" href="#test-suite">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="test-suite">
+</a>Test Suite</h3>
+<p>To help you test your library during development, we include a selection of tools and sound samples. <a href="https://github.com/telegramdesktop/tgvoip-test-suite">Download from GitHub »</a>
+</p>
+<p>These tools allow you to:</p>
+<ul>
+<li>Simulate voip calls using a binary .so file with the library. Instead of real microphone input, sound samples with speech or silence are used for each of the call participants. Output on the recipient&#39;s side is in turn recorded to an audio file.</li>
+<li>Programmatically choose network conditions for one of the participants: packet loss, high latency, or limited bandwidth. Programmatically modify these conditions during the call.</li>
+<li>Receive a numerical score for the quality of the output audio file on the recipient&#39;s side, compared to the original file and the preprocessed file that was actually sent over the network.</li>
+<li>Write input and output filenames with respective scores to a CSV file for further analysis.</li>
+<li>Control the above using PHP-scripts.</li>
+<li>Calculate aggregated scores grouped by library version.</li>
+</ul>
+<p>The instructions below are relevant for Debian GNU/Linux 10.1 (buster), x86-64.</p>
+<h4>
+<a class="anchor-link" href="#preparing-your-system">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="preparing-your-system">
+</a>Preparing your system</h4>
+<p>
+<strong>1.</strong> Install deb-packages:</p>
+<pre>
+<code>$ sudo apt-get install php libssl-dev libopus-dev libavcodec-dev libavutil-dev libavformat-dev libavresample-dev libasound-dev python3 python-pip opus-tools libopusfile-dev pocketsphinx build-essential automake libtool libsphinxbase-dev libpocketsphinx-dev pkg-config sphinxbase-utils sphinxtrain libopusfile0 ffmpeg</code>
+</pre>
+<p>
+<strong>2.</strong>
+<em>Netem</em> is used to emulate different network conditions, <em>ip-netns</em> is used to apply these conditions to just one of the two proccesses (the caller&#39;s side). The following commands must be run once before first launch:</p>
+<pre>
+<code>$ sudo bash ./tests/setup-netns.sh
+$ sudo tc qdisc list</code>
+</pre>
+<p>This will set up the network namespace <code>client1</code> with the virtual network interface <code>v-peer1</code>, which is needed for the calling software to work. Under normal conditions, you won&#39;t need to call it again. If any of the commands results in an error, you may need to install/enable netem or ip-netns on your system.</p>
+<p>
+<strong>3.</strong> We&#39;ll often need to modify network conditions via netem, which requires root access/sudo, therefore it is neccessary to disable password prompts for sudo when launching those commands. To do this:</p>
+<pre>
+<code>$ whoami
+  user
+$ sudo visudo</code>
+</pre>
+<p>At the end of the file, add this line:</p>
+<pre>
+<code>user ALL=(ALL) NOPASSWD: /usr/bin/ip netns exec client1 *</code>
+</pre>
+<p>replacing <code>user</code> with the output of the <code>whoami</code> command. Save the file.</p>
+<p>
+<strong>4.</strong> Lastly, you need to set your token to work with the VoIP Contest API. To do this, replace the default value <code>111222333444:AAABBBCCCDDD</code> in the <a href="https://github.com/telegramdesktop/tgvoip-test-suite/blob/master/tests/token.php">tests/token.php</a> file with the token value you received <a href="https://t.me/jobs_bot">@jobs_bot</a> when joining this round of the contest.</p>
+<h4>
+<a class="anchor-link" href="#call-rate">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="call-rate">
+</a>Call + Rate</h4>
+<p>The main file that contains the testing script is <a href="https://github.com/telegramdesktop/tgvoip-test-suite/blob/master/tests/call.php">tests/call.php</a>. It manages the list of library .so files to be tested, number of call iterations, and sets of network conditions. The file is pre-filled with a sample scenario; we recommend modifying it according to your specific testing needs.</p>
+<p>To launch:</p>
+<pre>
+<code>$ php tests/call.php</code>
+</pre>
+<p>This will run the complete test scenario. It might take a long time, since each iteration can take about 10-20 seconds depending on the chosen audio sample&#39;s duration. The folders <em>preprocessed</em> and <em>out</em> will be filled with files containing audio data sent over the network and received by the recipient. Each call will be immediately rated, with the results written to a .csv file. If you‘re accessing the server over SSH, we recommend using nohup/screen to ensure that long testing sessions don’t get interrupted by connection losses.</p>
+<p>At the end, the script will also output average call ratings for each of the library versions tested, e.g.:</p>
+<pre>
+<code>Version newunstable (12 ratings)
+=============================================
+ScoreFinal:         mean 3.58, stddev: 1.136
+ScoreCombined:      mean 3.522, stddev: 1.265
+ScoreOutput:        mean 3.713, stddev: 1.315
+Score1010:          mean 3.615, stddev: 1.189
+Score1012:          mean 3.298, stddev: 1.621
+Score1002:          mean 2.413, stddev: 1.009
+Score997:           mean 3.807, stddev: 0.923
+
+....
+
+Scores by network
+
+Network             |   stable   |  unstable  |newunstable 
+===========================================================
+WiFi                |   4.604    |   4.798    |   4.794    
+3G1                 |   4.874    |   4.636    |   4.727    
+3G2                 |    4.48    |   3.722    |   4.242    
+3G3                 |   4.822    |   4.023    |   4.209    
+3G4                 |   4.369    |   3.696    |   4.274    
+3GDelay             |     4      |   3.987    |   3.792    
+3GOutage            |    3.97    |   3.877    |   4.029    
+EDGE1               |   3.355    |   3.871    |   4.183    
+EDGE2               |   2.859    |   2.366    |   2.564    
+GPRS1               |   2.316    |   3.088    |   2.982    
+GPRS2               |   1.752    |   1.651    |   1.785    
+GPRS3               |   1.367    |   1.154    |   1.374    
+-----------------------------------------------------------
+Overall             |   3.564    |   3.406    |    3.58 
+
+....</code>
+</pre>
+<p>Here <strong>ScorePreprocess</strong> shows the degradation of sound quality in the preprocessed file compared to the input sample. On the scale of 1.0-5.0, where 1.0 means <em>complete degradation</em> and 5.0 means <em>unchanged</em>.<br>
+<strong>ScoreOutput</strong> shows the degradation of sound quality on the recipient‘s side compared to the preprocessed file on the sender’s side. 1.0-5.0, where 1.0 means <em>complete degradation</em> and 5.0 means <em>unchanged</em>.<br>
+<strong>ScoreCombined</strong> shows the degradation of sound quality on the recipient‘s side compared to the original input file on the recipient’s side. This is a sort of aggregated rating for <strong>ScorePreprocess</strong> and <strong>ScoreOutput</strong>.  1.0-5.0, where 1.0 means <em>complete degradation</em> and 5.0 means <em>unchanged</em>.<br>The values <strong>Score1010</strong>, <strong>Score1012</strong>, <strong>Score1002</strong> represent <strong>ScoreCombined</strong> values from different implementations of the rater.<br>
+<strong>ScoreFinal</strong> is the weighted sum of the above values; it should be used as your primary indicator for evaluating call quality.</p>
+<p>You can always get these stats from the .csv file later:</p>
+<pre>
+<code>$ php tests/mean.php</code>
+</pre>
+<p>To clear all accumulated preprocessed and output files as well as the .csv file you can run:</p>
+<pre>
+<code>$ sh tests/clean.sh</code>
+</pre>
+<h4>
+<a class="anchor-link" href="#suggested-usage">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="suggested-usage">
+</a>Suggested usage</h4>
+<p>One of the possible ways of using the test suite while developing your library could be as follows.</p>
+<p>
+<strong>1.</strong> Develop your library in a separate directory. Write verbose logs to stdout/stderr during development.<br>
+<strong>2.</strong> Build library after each significant change, run <code>git commit</code>, and copy the output library .so file into the Test Suite&#39;s <code>lib</code> subdirectory with a unique name, e.g. libtgvoip.COMMIT.so. Then add it to the list of libraries to be tested in <a href="https://github.com/telegramdesktop/tgvoip-test-suite/blob/master/tests/call.php">tests/call.php</a>.<br>
+<strong>3.</strong> Launch a testing session for the changes in the background, while continuing development (since the testing process might take a while).<br>
+<strong>4.</strong> Inspect library output logs (they are written to the corresponding .log files in the <em>out</em> subfolder), if necessary, listen to the audio files from the lowest-rated calls.<br>
+<strong>5.</strong> Find and fix bugs. Jump back to 2.</p>
+<p>Once call quality reaches satisfactory levels, focus on finding new network conditions where quality degrades significantly, e.g. highly variable bandwidth, packet loss, and fix where possible.</p>
+</div>
+</div>
+</section>
+</main>
+</div>
+<div class="popup-container login-popup-container hide" id="login-popup-container">
+<div class="popup">
+<div class="popup-body">
+<section>
+<h2>Log In</h2>
+<p>Log in here to leave comments and take part in the Telegram Competitions. Please enter your <b>phone number</b> in the <a target="_blank" rel="noopener" href="https://telegram.org/faq#login-and-sms">international format</a> and we will send a confirmation message to your account via Telegram.</p>
+<form id="send-form" class="login-form">
+<div class="form-group">
+<input type="tel" class="form-control cd-form-control input-lg" id="phone-number" placeholder="+12223334455" autocomplete="off"/>
+</div>
+<div class="popup-buttons">
+<a class="btn btn-link btn-lg login-cancel-btn">Cancel</a>
+<button type="submit" class="btn btn-link btn-lg">Next</button>
+</div>
+</form>
+<div id="login-form" class="hide">
+<div class="form-group">
+<span class="form-control cd-form-control input input-lg input-disabled">
+<strong id="phone-number-field">
+</strong> (<a class="login-back" href="/auth">Incorrect?</a>)</span>
+<p class="help-block dots-animated">We&#39;ve just sent you a message.<br/>Please confirm access via Telegram</p>
+</div>
+<div class="popup-buttons">
+<a class="btn btn-link btn-lg login-cancel-btn">Cancel</a>
+<a class="btn btn-link btn-lg login-back">Back</a>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+</div>
+<script src="/js/jquery.min.js?1">
+</script>
+<script src="/js/bootstrap.min.js">
+</script>
+<script src="/js/main-aj.js?76">
+</script>
+<script src="/js/contest.js?25">
+</script>
+<script src="/js/jquery-ui.min.js?1">
+</script>
+<script src="/js/tgsticker.js?32">
+</script>
+<script>ajInit({"version":701,"apiUrl":"\/api?hash=X","unauth":true});</script>
+<script id="aj_script">Aj._useScrollHack=true;
+Aj.onLoad(function(state) {
+  function requestConfirmation(event) {
+    event && event.preventDefault();
+    var phone = $('#phone-number').val();
+    $.ajax({
+      type: 'POST',
+      url: '/auth/request',
+      data: {
+        phone: phone
+      },
+      success: function(result) {
+        $('#phone-number-field').text(phone);
+        $('#send-form').addClass('hide');
+        $('#login-form').removeClass('hide');
+        checkAuth(result.temp_session);
+      },
+      error: function(xhr) {
+        showAlert(xhr.responseText || 'Server error');
+      },
+      dataType: 'json'
+    });
+    return false;
+  }
+  function cancelConfirmation(event) {
+    event && event.preventDefault();
+    $('#phone-number-field').text('');
+    $('#send-form').removeClass('hide');
+    $('#login-form').addClass('hide');
+    $('#phone-number').focus();
+    clearTimeout(window.authTimeout);
+    return false;
+  }
+  function checkAuth(temp_session) {
+    clearTimeout(window.authTimeout);
+    window.authTimeout = setTimeout(function doCheckAuth() {
+      $.ajax({
+        type: 'POST',
+        url: '/auth/login',
+        data: {
+          temp_session: temp_session
+        },
+        success: function(result) {
+          if (result) {
+            location.reload();
+          } else {
+            checkAuth(temp_session);
+          }
+        },
+        error: function (xhr) {
+          showAlert(xhr.responseText || 'Server error');
+        },
+        dataType: 'json'
+      });
+    }, 700);
+  }
+  $('#login-popup-container').on('popup:open', function() {
+    $('#phone-number').focus();
+  });
+  $('#login-popup-container').on('popup:close', function() {
+    cancelConfirmation();
+    if (location.pathname == '/auth') {
+      window.history && history.replaceState(null, null, '/');
+    }
+  });
+  $('#login-popup-container #send-form').on('submit', requestConfirmation);
+  $('#login-popup-container .login-cancel-btn').on('click', function(e) {
+    e.preventDefault();
+    closePopup('#login-popup-container');
+  });
+  $('#login-popup-container .login-back').on('click', cancelConfirmation);
+  $('.login-link').on('click', function(e) {
+    e.stopImmediatePropagation();
+    e.preventDefault();
+    openPopup('#login-popup-container');
+  });
+});
+Aj.onUnload(function(state) {
+  $('#login-popup-container').off('popup:open');
+  $('#login-popup-container').off('popup:close');
+  $('#login-popup-container #send-form').off('submit');
+  $('#login-popup-container .login-cancel-btn').off('click');
+  $('#login-popup-container .login-back').off('click');
+  $('.login-link').off('click');
+});
+</script>
+<script>Aj.pageLoaded();</script>
+</body>
+</html>

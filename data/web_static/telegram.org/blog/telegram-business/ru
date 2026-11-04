@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html class="" data-theme="light">
+<head>
+<meta charset="utf-8">
+<title>Telegram для бизнеса</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:title" content="Telegram для бизнеса">
+<meta property="og:image" content="https://telegram.org/file/400780400268/1/6Avx2xeE-E8.239216/5a7f21012854ea61ce">
+<meta property="og:site_name" content="Telegram">
+<meta property="og:description" content="С сегодняшнего дня каждый может превратить свой аккаунт в Telegram в бизнес-аккаунт — и получить доступ к таким функциям для бизнеса, как часы работы и адрес, быстрые ответы, автоматические сообщения, настройка сообщения на пустой странице чата, поддержка чат-ботов и многое другое.">
+<meta property="article:published_time" content="2024-03-31T16:32:30+00:00">
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://telegram.org/file/400780400268/1/6Avx2xeE-E8.239216/5a7f21012854ea61ce" />
+<meta property="fb:app_id" content="254098051407226">
+<meta property="vk:app_id" content="3782569">
+<meta name="apple-itunes-app" content="app-id=686449807">
+<meta name="telegram:channel" content="@telegram">
+<link rel="canonical" href="https://telegram.org/blog/telegram-business/ru" />
+<link rel="icon" type="image/svg+xml" href="/img/website_icon.svg?4">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="alternate icon" href="/img/favicon.ico" type="image/x-icon" />
+<link href="/css/bootstrap.min.css?3" rel="stylesheet">
+<link href="/css/telegram.css?256" rel="stylesheet" media="screen">
+<link href="/css/telegram-theme.css?9" rel="stylesheet" media="screen">
+</head>
+<body class="preload">
+<div id="fb-root">
+</div>
+<button class="theme-toggle theme-toggle--static" type="button" title="Toggle theme" aria-label="Toggle light/dark theme">
+</button>
+<div class="tl_page_wrap">
+<div class="tl_page_head navbar navbar-static-top navbar navbar-tg">
+<div class="navbar-inner">
+<div class="container clearfix">
+<ul class="nav navbar-nav navbar-right">
+<li class="dropdown top_lang_select">
+<a class="dropdown-toggle" onclick="return dropdownClick(this, event)" href="#">
+<i class="dev_top_lang_icon">
+</i>
+<b class="minicaret">
+</b>
+</a>
+<ul class="dropdown-menu">
+<li class="">
+<a href="?setln=en">English</a>
+</li>
+<li class="long ">
+<a href="?setln=id">Bahasa Indonesia</a>
+</li>
+<li class="long ">
+<a href="?setln=ms">Bahasa Melayu</a>
+</li>
+<li class="">
+<a href="?setln=de">Deutsch</a>
+</li>
+<li class="">
+<a href="?setln=es">Español</a>
+</li>
+<li class="">
+<a href="?setln=fr">Français</a>
+</li>
+<li class="">
+<a href="?setln=it">Italiano</a>
+</li>
+<li class="">
+<a href="?setln=nl">Nederlands</a>
+</li>
+<li class="">
+<a href="?setln=uz">O‘zbek</a>
+</li>
+<li class="">
+<a href="?setln=pl">Polski</a>
+</li>
+<li class="long ">
+<a href="?setln=pt-br">Português (Brasil)</a>
+</li>
+<li class="">
+<a href="?setln=tr">Türkçe</a>
+</li>
+<li class="">
+<a href="?setln=be">Беларуская</a>
+</li>
+<li class="">
+<a href="?setln=ru">Русский</a>
+</li>
+<li class="">
+<a href="?setln=uk">Українська</a>
+</li>
+<li class="">
+<a href="?setln=kk">Қазақша</a>
+</li>
+<li class="">
+<a href="?setln=ar">العربية</a>
+</li>
+<li class="">
+<a href="?setln=fa">فارسی</a>
+</li>
+<li class="">
+<a href="?setln=ko">한국어</a>
+</li>
+</ul>
+</li>
+<li class="navbar-twitter hidden-xs">
+<a href="https://x.com/telegram" target="_blank" data-track="Follow/Twitter" onclick="trackDlClick(this, event)">
+<i class="icon icon-twitter">
+</i> Follow on X</a>
+</li>
+</ul>
+<ul class="nav navbar-nav">
+<li class="">
+<a href="/">Home</a>
+</li>
+<li class="">
+<a href="/faq">FAQ</a>
+</li>
+<li class="">
+<a href="/apps">Apps</a>
+</li>
+<li class="hidden-xs ">
+<a href="//core.telegram.org/api">API</a>
+</li>
+<li class="hidden-xs ">
+<a href="/safety">Safety</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="container clearfix tl_page_container ">
+<div class="tl_page">
+<div class="tl_contest_page_wrap">
+<div class="tl_blog_side_blog">
+<div class="side_blog_wrap">
+<div class="side_blog">
+<a href="/blog" class="side_blog_header">Recent News</a>
+<div class="side_blog_entries">
+<a href="/blog/welcome-messages-buttons-TG-13" class="side_blog_entry">
+<div class="side_blog_date">Aug 25</div>
+<div class="side_blog_title">Welcome Messages, Buttons in Messages and Signed Gifts</div>
+</a>
+<a href="/blog/communities-editor-invisible-messages" class="side_blog_entry">
+<div class="side_blog_date">Jul 14</div>
+<div class="side_blog_title">Rich Text Editor, Communities, Ephemeral Messages in Groups, 350 Million GIFs</div>
+</a>
+<a href="/blog/watch-apps-and-more" class="side_blog_entry">
+<div class="side_blog_date">Jun 11</div>
+<div class="side_blog_title">Smartwatch Apps, Rich Text for Bots, AI Guardians for Groups, and Much More</div>
+</a>
+<a href="/blog/ai-bot-revolution-11-new-features" class="side_blog_entry">
+<div class="side_blog_date">May 7</div>
+<div class="side_blog_title">Guest AI Bots, Bot-to-Bot Chats, Chat Automation, Custom AI Styles, 100M+ Emoji &amp; Sticker Search and Much More</div>
+</a>
+<a href="/blog/ai-editor-mighty-polls-and-more" class="side_blog_entry">
+<div class="side_blog_date">Mar 31</div>
+<div class="side_blog_title">AI Editor, Mighty Polls, Live Photos, Bots Managed by Bots, and More</div>
+</a>
+<a href="/blog/member-tags-disable-sharing-and-more" class="side_blog_entry">
+<div class="side_blog_date">Mar 1</div>
+<div class="side_blog_title">Member Tags, Login with Telegram, Disable Sharing, GIF Editing, Date Formatting, Voting Timestamps</div>
+</a>
+<a href="/blog/crafting-android-design-and-more" class="side_blog_entry">
+<div class="side_blog_date">Feb 9</div>
+<div class="side_blog_title">Android Redesign, Group Ownership Transfer, Gift Crafting, Colored Bot Buttons</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div id="dev_page_content_wrap" class=" ">
+<div class="dev_page_bread_crumbs">
+</div>
+<h1 id="dev_page_title">Telegram для бизнеса</h1>
+<blockquote class="blog_lang_original">
+<a href="/blog/telegram-business?ln=r">Читать в оригинале на английском</a>
+</blockquote>
+<div id="dev_page_content">
+<div class="blog_side_image_wrap">
+<picture class="dev_page_tgsticker blog_side_image js-tgsticker_image" style="width:160px;">
+<div style="padding-top:100%">
+</div>
+<source type="application/x-tgsticker" srcset="/file/400780400799/5/JMfroLl_-Vk.12159/9b57943e4a4e32b1d6">
+<img src="/file/400780400799/6/pHpzdwV-5fs.40285.png/c7526b789ccbc8499e" />
+</picture>
+</div>
+<div class="blog_wide_image">
+<a href="/file/400780400156/3/FKlm3CvW_dM.364472.webp/9892ea053f6bf6884e" target="_blank">
+<img src="/file/400780400382/4/tRV9EDeaYK4.118510.webp/c0d57e2dd018cb7d52" srcset="/file/400780400156/3/FKlm3CvW_dM.364472.webp/9892ea053f6bf6884e, 1200w" title="Представляем Telegram для бизнеса" alt=""/>
+</a>
+</div>
+<p>С сегодняшнего дня каждый может превратить свой аккаунт в Telegram в бизнес-аккаунт — и получить доступ к таким <strong>функциям для бизнеса</strong>, как часы работы и адрес, быстрые ответы, автоматические сообщения, настройка сообщения на пустой странице чата, поддержка чат-ботов и многое другое.</p>
+<h4>
+<a class="anchor" name="predstavlyaem-telegram-dlya-biznesa" href="#predstavlyaem-telegram-dlya-biznesa">
+<i class="anchor-icon">
+</i>
+</a>Представляем Telegram для бизнеса</h4>
+<p>Разработчики давно могли создавать в Telegram <a href="https://core.telegram.org/bots/features">мощных ботов</a> и <a href="https://core.telegram.org/bots/webapps">мини-приложения</a>, которыми активно пользуются компании.</p>
+<p>Начиная с сегодняшнего обновления <strong>функции для бизнеса</strong> может использовать любой пользователь — для этого не нужны навыки программирования.</p>
+<!--
+- [Часы работы и адрес]()
+- [Вид нового чата]()
+- [Быстрые ответы]()
+- [Приветственные сообщения]()
+- [«Нет на месте»]()
+- [Теги для чатов]()
+- [Ссылки на чат]()
+- [Чат-боты]() 
+-->
+<h4>
+<a class="anchor" name="chasi-raboti-i-adres" href="#chasi-raboti-i-adres">
+<i class="anchor-icon">
+</i>
+</a>Часы работы и адрес</h4>
+<p>Теперь Вы можете указать в профиле <strong>часы работы</strong> и <strong>адрес</strong> своей компании, а также отметить её <strong>местоположение</strong> на карте.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/400780400771/1/jlpXI8h2sQs.91442/7ba1f0b654e1be0805" style="max-width: 600px;" title="" alt="Location">
+<source src="/file/400780400102/5/V6S2rpxNYOg.2335835.mp4/6dd11a30eeee7fb4e3" type="video/mp4">
+</video>
+</div>
+<p>Пользователи сразу увидят, где Вас найти и открыты ли Вы в данный момент.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/400780400228/3/GeLUshkkPmE.91233/4469f52fd3666f3e54" style="max-width: 600px;" title="" alt="Business Hours">
+<source src="/file/400780400514/5/zacKKdn_sck.2300897.mp4/e8b20c77452efb5cd4"  type="video/mp4">
+</video>
+</div>
+<h4>
+<a class="anchor" name="vid-novogo-chata" href="#vid-novogo-chata">
+<i class="anchor-icon">
+</i>
+</a>Вид нового чата</h4>
+<p>Владелец бизнес-аккаунта может добавить собственный <strong>текст</strong> и <strong>стикер</strong> на страницу пустого чата, в котором пока нет ни одного сообщения.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/400780400032/3/FD5uJjgpZjo.43495/eba719c9a653debbc3" style="max-width: 600px;" title="" alt="Вид нового чата">
+<source src="/file/400780400013/5/q2T4Xmu4dXw.2919196.mp4/a03520f5c150f52c0e" type="video/mp4">
+</video>
+</div>
+<p>Здесь можно, например, разместить информацию о товарах и услугах или приветствовать новых клиентов стикером с символикой бренда.</p>
+<!--
+>Любую фотографию можно [превратить в стикер](LINK) всего парой касаний.
+-->
+<h4>
+<a class="anchor" name="bistrie-otveti" href="#bistrie-otveti">
+<i class="anchor-icon">
+</i>
+</a>Быстрые ответы</h4>
+<p>Telegram для бизнеса позволяет создавать <strong>быстрые ответы</strong>. Это короткие команды для отправки заранее заготовленных сообщений, в которых поддерживаются форматирование текста, ссылки, стикеры, файлы и медиафайлы.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/400780400569/1/tvZOu9aKUDE.48221/b835f4a8cd625f8bc2" style="max-width: 600px;" title="" alt="Быстрые ответы">
+<source src="/file/400780400123/2/Ibe-DNsF8e4.2512631.mp4/4e44a0349abcbe3abc" type="video/mp4">
+</video>
+</div>
+<p>Так Вы сможете быстро отправлять клиентам часто запрашиваемую информацию — например, расписание занятий или меню в формате PDF.</p>
+<blockquote>
+<p>Если ввести в любом личном чате символ «<code>/</code>», появится <strong>панель</strong> со списком Ваших быстрых ответов. Вы можете отправить готовый ответ или изменить его всего <strong>одним касанием</strong>.</p>
+</blockquote>
+<h4>
+<a class="anchor" name="privetstvennie-soobscheniya" href="#privetstvennie-soobscheniya">
+<i class="anchor-icon">
+</i>
+</a>Приветственные сообщения</h4>
+<p>Дополнительно автоматизировать общение с клиентами поможет <strong>приветственное сообщение</strong>. Оно будет отправляться всем пользователям, которые пишут Вам <strong>впервые</strong> — так они <strong>сразу</strong> получат <strong>в ответ</strong> самую важную информацию или просто вежливое приветствие. <img class="emoji" src="//telegram.org/img/emoji/40/F09F918B.png" width="20" height="20" alt="👋" />
+</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/400780400924/1/QUV0eNZfTrU.63933/53dff22fc20198b128" style="max-width: 600px;" title="" alt="Greeting Message">
+<source src="/file/400780400989/5/DGdQ5_dVTro.2990720.mp4/bc55cdb8aca4662584" type="video/mp4">
+</video>
+</div>
+<p>В приветственном сообщении также можно дать ответы на часто задаваемые вопросы или указать дополнительную информацию о Вашей компании.</p>
+<blockquote>
+<p>Вы можете выбрать, <strong>сколько дней</strong> должно пройти с последнего сообщения, прежде чем в чат с пользователем будет <strong>снова отправлено</strong> приветствие.</p>
+</blockquote>
+<h4>
+<a class="anchor" name="net-na-meste" href="#net-na-meste">
+<i class="anchor-icon">
+</i>
+</a>«Нет на месте»</h4>
+<p>Вы также можете настроить автоматическое сообщение о том, что Вас нет на месте — например, в <strong>нерабочие часы</strong> или на время <strong>отпуска</strong>.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/400780400279/2/f8CF9XNCg3g.71575/96d622ec6068910d54" style="max-width: 600px;" title="" alt="Away Message">
+<source src="/file/400780400402/1/Iaoy5vAS9oM.3056160.mp4/e0c850015dde60e317" type="video/mp4">
+</video>
+</div>
+<p>Так обратившиеся к Вам клиенты всегда будут знать, когда им стоит ждать ответа.</p>
+<blockquote>
+<p>Чтобы автоматические ответы, предназначенные клиентам, не отправлялись родным, друзьям или сотрудникам, Вы можете <strong>исключить</strong> из списка получателей <strong>отдельные чаты</strong> или целые <strong>категории чатов</strong>.</p>
+</blockquote>
+<h4>
+<a class="anchor" name="tegi-dlya-chatov" href="#tegi-dlya-chatov">
+<i class="anchor-icon">
+</i>
+</a>Теги для чатов</h4>
+<p>С Telegram для бизнеса или подпиской Telegram Premium к чатам можно добавлять <strong>цветные теги</strong> с названиями <a href="https://telegram.org/tour/chat-folders/ru">папок</a>, в которых они находятся. </p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/400780400313/3/kLuKPKjpwNA.75534/f2d1b60fa8987afc0b" style="max-width: 600px;" title="TITLE" alt="TITLE">
+<source src="/file/400780400655/1/6OnmkgzaE3A.2232737.mp4/1ed089e4c74c58ecbb" type="video/mp4">
+</video>
+</div>
+<p>Теги позволяют различать клиентов в списке чатов — например, быстро понять, на какой стадии находится их заказ, или по какому поводу они к вам обратились.</p>
+<blockquote>
+<p>Все пользователи Telegram могут группировать свои чаты с помощью настраиваемых <a href="https://telegram.org/tour/chat-folders/ru">папок</a>, которые выглядят как <strong>вкладки</strong> в списке чатов — например, <em>«работа»</em>, <em>«учёба»</em>, <em>«новости»</em> и так далее.</p>
+</blockquote>
+<h4>
+<a class="anchor" name="ssilki-na-chat" href="#ssilki-na-chat">
+<i class="anchor-icon">
+</i>
+</a>Ссылки на чат</h4>
+<p>Чтобы клиентам было ещё проще связаться с Вами, Вы можете создавать <strong>ссылки на чат</strong> со своим бизнес-аккаунтом — и размещать их, например, в виде кнопки <strong>«Забронировать столик»</strong> или <strong>«Узнать статус заказа»</strong>. При нажатии на такую ссылку сразу <strong>откроется чат</strong> в Telegram, а в поле ввода у пользователя появится текст <strong>предложенного Вами сообщения</strong>.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/400780400168/1/juKEOD7nWWE.70157/29f26f9acea85e4053" style="max-width: 600px;" title="" alt="Ссылки на чат">
+<source src="/file/400780400403/3/v6u75i_FgAQ.5750575.mp4/384c0cd8cf52d3d4a1" type="video/mp4">
+</video>
+</div>
+<p>Ссылки на чат можно размещать как в Telegram, так и на <strong>любых других платформах</strong> в различных форматах — от обычной ссылки на сайте компании до <strong>QR-кода</strong> в меню ресторана.</p>
+<blockquote>
+<p>Для каждой ссылки доступен <strong>счётчик нажатий</strong>, который позволяет <strong>отслеживать её эффективность</strong>.</p>
+</blockquote>
+<h4>
+<a class="anchor" name="chat-boti-dlya-biznesa" href="#chat-boti-dlya-biznesa">
+<i class="anchor-icon">
+</i>
+</a>Чат-боты для бизнеса</h4>
+<p>Бизнес-пользователи могут подключать к своему аккаунту <strong>ботов</strong>, которые будут анализировать полученные сообщения и отвечать на них <strong>от имени аккаунта</strong>. Это позволит <strong>интегрировать</strong> существующие инструменты и рабочие процессы — или передать управление чатами помощнику на базе <strong>искусственного интеллекта</strong>.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/400780400238/1/x875tPT245w.58064/1b426d3eda0a923c03" style="max-width: 600px;" title="" alt="Чат-боты для бизнеса">
+<source src="/file/400780400792/3/Y8CWkKZOVHM.3771962.mp4/044a6d7645581d8bf6" type="video/mp4">
+</video>
+</div>
+<p>При подключении бота Вы можете выбрать, к <strong>каким чатам</strong> он получит доступ — например, добавить в исключения всех пользователей из <strong>Вашего списка контактов</strong> или разрешить боту отвечать только на <strong>новые чаты</strong>.</p>
+<blockquote>
+<p>Это изменение открывает <strong>новую эпоху</strong> в истории Telegram-ботов. Мы приглашаем всех разработчиков создавать сервисы, которые помогут компаниям автоматизировать и упростить общение с пользователями Telegram. Все подробности можно узнать в нашем <a href="https://core.telegram.org/bots">руководстве по созданию ботов</a>.</p>
+</blockquote>
+<p>В предстоящих обновлениях в Telegram появится ещё больше возможностей для бизнеса. В течение ограниченного периода все преимущества <strong>Telegram для бизнеса</strong> доступны пользователям с подпиской <strong>Premium</strong> совершенно <strong>бесплатно</strong>. Новый раздел находится в меню <em>Настройки &gt; Telegram для бизнеса</em>.</p>
+<!--
+#### Как установить это обновление
+
+Версия приложения со всеми нововведениями уже доступна пользователям Telegram для Android в каталоге [Google Play](https://telegram.org/dl/android) и [на сайте Telegram](https://telegram.org/android). Владельцам iOS-устройств, к сожалению, придётся подождать, пока модераторы Apple не закончат проверку обновления.
+-->
+<div>
+<br>
+</div>
+<p>
+<em>31 марта 2024<br>Команда Telegram</em>
+</p>
+</div>
+</div>
+<div class="tl_main_share clearfix">
+<a href="https://t.me/share/url?url=https%3A%2F%2Ftelegram.org%2Fblog%2Ftelegram-business%2Fru&text=%D0%A1%20%D1%81%D0%B5%D0%B3%D0%BE%D0%B4%D0%BD%D1%8F%D1%88%D0%BD%D0%B5%D0%B3%D0%BE%20%D0%B4%D0%BD%D1%8F%20%D0%BA%D0%B0%D0%B6%D0%B4%D1%8B%D0%B9%20%D0%BC%D0%BE%D0%B6%D0%B5%D1%82%20%D0%BF%D1%80%D0%B5%D0%B2%D1%80%D0%B0%D1%82%D0%B8%D1%82%D1%8C%20%D1%81%D0%B2%D0%BE%D0%B9%20%D0%B0%D0%BA%D0%BA%D0%B0%D1%83%D0%BD%D1%82%20%D0%B2%20Telegram%20%D0%B2%20%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81-%D0%B0%D0%BA%D0%BA%D0%B0%D1%83%D0%BD%D1%82%20%E2%80%94%20%D0%B8%20%D0%BF%D0%BE%D0%BB%D1%83%D1%87%D0%B8%D1%82%D1%8C%20%D0%B4%D0%BE%D1%81%D1%82%D1%83%D0%BF%20%D0%BA%20%D1%82%D0%B0%D0%BA%D0%B8%D0%BC%20%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D1%8F%D0%BC%20%D0%B4%D0%BB%D1%8F%20%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81%D0%B0%2C%20%D0%BA%D0%B0%D0%BA%20%D1%87%D0%B0%D1%81%D1%8B%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B%20%D0%B8%20%D0%B0%D0%B4%D1%80%D0%B5%D1%81%2C%20%D0%B1%D1%8B%D1%81%D1%82%D1%80%D1%8B%D0%B5%20%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D1%8B%2C%20%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5%20%D1%81%D0%BE%D0%BE%D0%B1%D1%89%D0%B5%D0%BD%D0%B8%D1%8F%2C%20%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0%20%D1%81%D0%BE%D0%BE%D0%B1%D1%89%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%BD%D0%B0%20%D0%BF%D1%83%D1%81%D1%82%D0%BE%D0%B9%20%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B5%20%D1%87%D0%B0%D1%82%D0%B0%2C%20%D0%BF%D0%BE%D0%B4%D0%B4%D0%B5%D1%80%D0%B6%D0%BA%D0%B0%20%D1%87%D0%B0%D1%82-%D0%B1%D0%BE%D1%82%D0%BE%D0%B2%20%D0%B8%20%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE%D0%B5%20%D0%B4%D1%80%D1%83%D0%B3%D0%BE%D0%B5." class="tl_telegram_share_btn" id="tl_telegram_share_btn" data-text="С сегодняшнего дня каждый может превратить свой аккаунт в Telegram в бизнес-аккаунт — и получить доступ к таким функциям для бизнеса, как часы работы и адрес, быстрые ответы, автоматические сообщения, настройка сообщения на пустой странице чата, поддержка чат-ботов и многое другое." data-url="https://telegram.org/blog/telegram-business/ru">
+<i class="tl_telegram_share_icon">
+</i>
+<span class="tl_telegram_share_label" target="_blank">Forward</span>
+</a>
+<a href="https://twitter.com/share" class="tl_twitter_share_btn" id="tl_twitter_share_btn" data-text="С сегодняшнего дня каждый может превратить свой аккаунт в Telegram в бизнес-аккаунт — и получить доступ к таким функциям для бизнеса, как часы работы и адрес, быстрые ответы, автоматические сообщения, настройка сообщения на пустой странице чата, поддержка чат-ботов и многое другое." data-url="https://telegram.org/blog/telegram-business/ru" data-via="Telegram">Tweet <span class="tl_twitter_share_cnt">
+</span>
+</a>
+</div>
+</div>
+<div class="tl_main_recent_news_wrap tlb_other_news_wrap tl_blog_list_page_wrap">
+<h3 class="tl_main_recent_news_header">
+<a href="/blog">Other News</a>
+</h3>
+<div class="tl_main_recent_news_cards clearfix">
+<a class="dev_blog_card_link_wrap" href="/blog/welcome-messages-buttons-TG-13/ru">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400741/6/aFBFZ5lNqO8.66680.webp/0e567958d5b96a2184" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">Приветственные сообщения, кнопки в сообщениях и подписи к подаркам</h4>
+<div class="dev_blog_card_lead">В этом обновлении — приветственные сообщения для новых участников групп и каналов, кнопки в сообщениях, которые позволяют сделать любой…</div>
+</div>
+<div class="dev_blog_card_date">Aug 25, 2026</div>
+</div>
+</a>
+<a class="dev_blog_card_link_wrap" href="/blog/communities-editor-invisible-messages/ru">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400366/6/dI0zgi0mM5s.323818.webp/6a362dadee6e7e6011" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">Расширенный текстовый редактор, сообщества, исчезающие сообщения в группах, 350 миллионов GIF-анимаций</h4>
+<div class="dev_blog_card_lead">В сегодняшнем обновлении: расширенный редактор текста для создания и оформления сообщений…</div>
+</div>
+<div class="dev_blog_card_date">Jul 14, 2026</div>
+</div>
+</a>
+<a class="dev_blog_card_link_wrap" href="/blog/watch-apps-and-more/ru">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400535/2/fkUcVRnSU-M.140100.webp/10c066db41f83e6d5e" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">Приложения для смарт-часов, форматирование текста для ботов, ИИ-защитники групп и многое другое</h4>
+<div class="dev_blog_card_lead">В сегодняшнем обновлении — Telegram для Apple Watch и смарт-часов на Android, расширенное…</div>
+</div>
+<div class="dev_blog_card_date">Jun 11, 2026</div>
+</div>
+</a>
+<a class="dev_blog_card_link_wrap" href="/blog/ai-bot-revolution-11-new-features/ru">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400475/2/BwY041V7nZg.149454.webp/873ed0c0321c7633e7" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">Гостевой режим для ИИ-ботов, общение ботов, автоматизация чатов, создание ИИ-стилей, поиск по 100+ млн эмодзи и стикеров и многое другое</h4>
+<div class="dev_blog_card_lead">Сегодня Telegram представляет более 10 нововведений:…</div>
+</div>
+<div class="dev_blog_card_date">May 7, 2026</div>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer_wrap">
+<div class="footer_columns_wrap footer_desktop">
+<div class="footer_column footer_column_telegram">
+<h5>Telegram</h5>
+<div class="footer_telegram_description">
+</div>
+      Telegram is a cloud-based mobile and desktop messaging app with a focus on security and speed.
+    </div>
+<div class="footer_column">
+<h5>
+<a href="/faq">About</a>
+</h5>
+<ul>
+<li>
+<a href="/faq">FAQ</a>
+</li>
+<li>
+<a href="/privacy">Privacy</a>
+</li>
+<li>
+<a href="/press">Press</a>
+</li>
+</ul>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/apps#mobile-apps">Mobile Apps</a>
+</h5>
+<ul>
+<li>
+<a href="/dl/ios">iPhone/iPad</a>
+</li>
+<li>
+<a href="/android">Android</a>
+</li>
+<li>
+<a href="/dl/web">Mobile Web</a>
+</li>
+</ul>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/apps#desktop-apps">Desktop Apps</a>
+</h5>
+<ul>
+<li>
+<a href="//desktop.telegram.org/">PC/Mac/Linux</a>
+</li>
+<li>
+<a href="//macos.telegram.org/">macOS</a>
+</li>
+<li>
+<a href="/dl/web">Web-browser</a>
+</li>
+</ul>
+</div>
+<div class="footer_column footer_column_platform">
+<h5>
+<a href="//core.telegram.org/">Platform</a>
+</h5>
+<ul>
+<li>
+<a href="//core.telegram.org/api">API</a>
+</li>
+<li>
+<a href="//translations.telegram.org/">Translations</a>
+</li>
+<li>
+<a href="//instantview.telegram.org/">Instant View</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="footer_columns_wrap footer_mobile">
+<div class="footer_column">
+<h5>
+<a href="/faq">About</a>
+</h5>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/blog">Blog</a>
+</h5>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/press">Press</a>
+</h5>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/safety">Safety</a>
+</h5>
+</div>
+</div>
+</div>
+<script src="/js/main.js?49">
+</script>
+<script src="/js/tgsticker.js?32">
+</script>
+<script src="/js/main-theme.js?6">
+</script>
+<script>initScrollVideos(true);
+mainInitTgStickers({"maxDeviceRatio":2,"cachingModulo":4});
+twitterCustomShareInit();
+blogSideImageInit();
+backToTopInit("Go up");
+removePreloadInit();
+</script>
+</body>
+</html>

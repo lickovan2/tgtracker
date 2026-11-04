@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html class="" data-theme="light">
+<head>
+<meta charset="utf-8">
+<title>Chat vocali 2.0: Canali, Milioni di ascoltatori, Chat registrate, Strumenti per gli amministratori</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:title" content="Chat vocali 2.0: Canali, Milioni di ascoltatori, Chat registrate, Strumenti per gli amministratori">
+<meta property="og:image" content="https://telegram.org/file/464001855/3/O31CcF_-a20.86962/cafa0c3d7dd2df1134">
+<meta property="og:site_name" content="Telegram">
+<meta property="og:description" content="Le chat vocali sono apparse per la prima volta a Dicembre, aggiungendo uno strato di conversazione reale ai gruppi Telegram. A partire da oggi, diventano disponibili anche nei canali – e non avranno limiti sul numero dei partecipanti.  Questo aggiornamento introduce anche le chat vocali registrabili, le liste dei partecipanti con maggiori dettagli, delle meccaniche per “alzare la mano”, i link d&#39;invito per speaker e ascoltatori, i titoli per le chat vocali, e uno strumento per i personaggi pubblici di unirsi alle chat vocali come se fossero i loro canali.">
+<meta property="article:published_time" content="2021-03-19T10:18:35+00:00">
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://telegram.org/file/464001855/3/O31CcF_-a20.86962/cafa0c3d7dd2df1134" />
+<meta property="fb:app_id" content="254098051407226">
+<meta property="vk:app_id" content="3782569">
+<meta name="apple-itunes-app" content="app-id=686449807">
+<meta name="telegram:channel" content="@telegram">
+<link rel="canonical" href="https://telegram.org/blog/voice-chats-on-steroids/it" />
+<link rel="icon" type="image/svg+xml" href="/img/website_icon.svg?4">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="alternate icon" href="/img/favicon.ico" type="image/x-icon" />
+<link href="/css/bootstrap.min.css?3" rel="stylesheet">
+<link href="/css/telegram.css?256" rel="stylesheet" media="screen">
+<link href="/css/telegram-theme.css?9" rel="stylesheet" media="screen">
+</head>
+<body class="preload">
+<div id="fb-root">
+</div>
+<button class="theme-toggle theme-toggle--static" type="button" title="Toggle theme" aria-label="Toggle light/dark theme">
+</button>
+<div class="tl_page_wrap">
+<div class="tl_page_head navbar navbar-static-top navbar navbar-tg">
+<div class="navbar-inner">
+<div class="container clearfix">
+<ul class="nav navbar-nav navbar-right">
+<li class="dropdown top_lang_select">
+<a class="dropdown-toggle" onclick="return dropdownClick(this, event)" href="#">
+<i class="dev_top_lang_icon">
+</i>
+<b class="minicaret">
+</b>
+</a>
+<ul class="dropdown-menu">
+<li class="">
+<a href="?setln=en">English</a>
+</li>
+<li class="long ">
+<a href="?setln=id">Bahasa Indonesia</a>
+</li>
+<li class="long ">
+<a href="?setln=ms">Bahasa Melayu</a>
+</li>
+<li class="">
+<a href="?setln=de">Deutsch</a>
+</li>
+<li class="">
+<a href="?setln=es">Español</a>
+</li>
+<li class="">
+<a href="?setln=fr">Français</a>
+</li>
+<li class="">
+<a href="?setln=it">Italiano</a>
+</li>
+<li class="">
+<a href="?setln=nl">Nederlands</a>
+</li>
+<li class="">
+<a href="?setln=uz">O‘zbek</a>
+</li>
+<li class="">
+<a href="?setln=pl">Polski</a>
+</li>
+<li class="long ">
+<a href="?setln=pt-br">Português (Brasil)</a>
+</li>
+<li class="">
+<a href="?setln=tr">Türkçe</a>
+</li>
+<li class="">
+<a href="?setln=be">Беларуская</a>
+</li>
+<li class="">
+<a href="?setln=ru">Русский</a>
+</li>
+<li class="">
+<a href="?setln=uk">Українська</a>
+</li>
+<li class="">
+<a href="?setln=kk">Қазақша</a>
+</li>
+<li class="">
+<a href="?setln=ar">العربية</a>
+</li>
+<li class="">
+<a href="?setln=fa">فارسی</a>
+</li>
+<li class="">
+<a href="?setln=ko">한국어</a>
+</li>
+</ul>
+</li>
+<li class="navbar-twitter hidden-xs">
+<a href="https://x.com/telegram" target="_blank" data-track="Follow/Twitter" onclick="trackDlClick(this, event)">
+<i class="icon icon-twitter">
+</i> Follow on X</a>
+</li>
+</ul>
+<ul class="nav navbar-nav">
+<li class="">
+<a href="/">Home</a>
+</li>
+<li class="">
+<a href="/faq">FAQ</a>
+</li>
+<li class="">
+<a href="/apps">Apps</a>
+</li>
+<li class="hidden-xs ">
+<a href="//core.telegram.org/api">API</a>
+</li>
+<li class="hidden-xs ">
+<a href="/safety">Safety</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="container clearfix tl_page_container ">
+<div class="tl_page">
+<div class="tl_contest_page_wrap">
+<div class="tl_blog_side_blog">
+<div class="side_blog_wrap">
+<div class="side_blog">
+<a href="/blog" class="side_blog_header">Recent News</a>
+<div class="side_blog_entries">
+<a href="/blog/welcome-messages-buttons-TG-13" class="side_blog_entry">
+<div class="side_blog_date">Aug 25</div>
+<div class="side_blog_title">Welcome Messages, Buttons in Messages and Signed Gifts</div>
+</a>
+<a href="/blog/communities-editor-invisible-messages" class="side_blog_entry">
+<div class="side_blog_date">Jul 14</div>
+<div class="side_blog_title">Rich Text Editor, Communities, Ephemeral Messages in Groups, 350 Million GIFs</div>
+</a>
+<a href="/blog/watch-apps-and-more" class="side_blog_entry">
+<div class="side_blog_date">Jun 11</div>
+<div class="side_blog_title">Smartwatch Apps, Rich Text for Bots, AI Guardians for Groups, and Much More</div>
+</a>
+<a href="/blog/ai-bot-revolution-11-new-features" class="side_blog_entry">
+<div class="side_blog_date">May 7</div>
+<div class="side_blog_title">Guest AI Bots, Bot-to-Bot Chats, Chat Automation, Custom AI Styles, 100M+ Emoji &amp; Sticker Search and Much More</div>
+</a>
+<a href="/blog/ai-editor-mighty-polls-and-more" class="side_blog_entry">
+<div class="side_blog_date">Mar 31</div>
+<div class="side_blog_title">AI Editor, Mighty Polls, Live Photos, Bots Managed by Bots, and More</div>
+</a>
+<a href="/blog/member-tags-disable-sharing-and-more" class="side_blog_entry">
+<div class="side_blog_date">Mar 1</div>
+<div class="side_blog_title">Member Tags, Login with Telegram, Disable Sharing, GIF Editing, Date Formatting, Voting Timestamps</div>
+</a>
+<a href="/blog/crafting-android-design-and-more" class="side_blog_entry">
+<div class="side_blog_date">Feb 9</div>
+<div class="side_blog_title">Android Redesign, Group Ownership Transfer, Gift Crafting, Colored Bot Buttons</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div id="dev_page_content_wrap" class=" ">
+<div class="dev_page_bread_crumbs">
+</div>
+<h1 id="dev_page_title">Chat vocali 2.0: Canali, Milioni di ascoltatori, Chat registrate, Strumenti per gli amministratori</h1>
+<blockquote class="blog_lang_original">
+<a href="/blog/voice-chats-on-steroids?ln=r">Leggi l&#39;annuncio originale in Inglese</a>
+</blockquote>
+<div id="dev_page_content">
+<div class="blog_side_image_wrap">
+<picture class="dev_page_tgsticker blog_side_image js-tgsticker_image" style="width:160px;">
+<div style="padding-top:100%">
+</div>
+<source type="application/x-tgsticker" srcset="/file/464001846/2/a2cdkP7qe84.14136/61d6fc984cb003c004">
+<img src="/file/464001588/2/yQTe48dXBXE.37270.png/ecd08be3364364a507" />
+</picture>
+</div>
+<div class="blog_wide_image legacy">
+<a href="/file/464001284/3/rHzxN3afclE.253809/78fbb9de14cac31e08" target="_blank">
+<img src="/file/464001855/3/O31CcF_-a20.86962/cafa0c3d7dd2df1134" srcset="/file/464001284/3/rHzxN3afclE.253809/78fbb9de14cac31e08, 1200w" title="Abbiamo chiesto al nostro artista di immaginare una chat vocale ENORME. Questo è il livello massimo." alt="Chat vocali 2.0: Canali, Milioni di ascoltatori, Chat registrate, Strumenti per gli amministratori"/>
+</a>
+</div>
+<p>Le chat vocali sono apparse per la prima volta <a href="https://telegram.org/blog/voice-chats/it">a Dicembre</a>, aggiungendo uno strato di conversazione reale ai gruppi Telegram. A partire da oggi, diventano disponibili anche nei <strong>canali</strong> – e <strong>non avranno limiti</strong> sul numero dei partecipanti.</p>
+<p>Questo aggiornamento introduce anche le chat vocali registrabili, le liste dei partecipanti con maggiori dettagli, delle meccaniche per “alzare la mano”, i link d&#39;invito per speaker e ascoltatori, i titoli per le chat vocali, e uno strumento per i <strong>personaggi pubblici</strong> di unirsi alle chat vocali <strong>come se fossero i loro canali</strong>.</p>
+<h3>
+<a class="anchor" name="chat-vocali-senza-limiti" href="#chat-vocali-senza-limiti">
+<i class="anchor-icon">
+</i>
+</a>Chat vocali senza limiti</h3>
+<p>Gli amministratori dei <a href="https:/telegram.org/tour/channels">
+<strong>canali</strong>
+</a> e dei <strong>gruppi pubblici</strong> ora possono ospitare chat vocali per <strong>milioni di ascoltatori</strong>. Non importa quanto popolare diventi il tuo discorso, chiunque sarà in grado di sintonizzarsi. È come una radio pubblica reinventata per il 21° secolo.</p>
+<div class="blog_video_player_wrap" style="max-width: 400px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001863/3/vVs9uj8F0H0.69088/73478846bbc4f6ae3d" style="max-width: 400px;" title="Chiunque può ambire al Guinness World Record per il pubblico più vasto. Tanto per dire." alt="Chat vocali 2.0">
+<source src="/file/464001257/3/9RRakw5NvsI.4831704.mp4/f1a2562ed60b00cb6e" type="video/mp4">
+</video>
+</div>
+<blockquote>
+<p>Per avviare una chat vocale, apri il profilo di qualsiasi <strong>gruppo</strong> o <strong>canale</strong> di cui sei <strong>amministratore</strong>, tocca (⋮) o (⋯) e seleziona <em>Avvia chat vocale</em>.</p>
+</blockquote>
+<h3>
+<a class="anchor" name="chat-registrate" href="#chat-registrate">
+<i class="anchor-icon">
+</i>
+</a>Chat registrate</h3>
+<p>Mentre alcune conversazioni sono <a href="https://telegram.org/blog/autodelete-inv2/it#autoelimina-i-messaggi">destinate ad essere temporanee</a>, altre meritano di essere conservate e tramandate. Gli amministratori ora possono <strong>registrare l&#39;audio</strong> delle chat vocali per <strong>salvare le conversazioni</strong> e pubblicarle per i follower che hanno perso l&#39;evento dal vivo.</p>
+<div class="blog_video_player_wrap" style="max-width: 400px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001664/1/8HAOkAE1RvQ.61897/930102909347ca492c" style="max-width: 400px;" title="Attenzione: I punti rossi rendono le chat vocali pericolosamente attraenti per i gatti." alt="Registrazione di una chat vocale">
+<source src="/file/464001665/3/cRmb5QTKbhs.4703131.mp4/5847830e8f89f2b0b4" type="video/mp4">
+</video>
+</div>
+<p>Una volta terminata la registrazione, il file audio diventa <strong>immediatamente disponibile</strong> nei tuoi <a href="https://t.me/TelegramTipsIT/128">Messaggi salvati</a>. Per evitare sorprese, le chat che vengono registrate sono contrassegnate da una <strong>luce rossa</strong> accanto al loro titolo.</p>
+<h3>
+<a class="anchor" name="alza-la-mano" href="#alza-la-mano">
+<i class="anchor-icon">
+</i>
+</a>Alza la mano</h3>
+<p>Nelle chat in cui i <strong>partecipanti sono silenziati</strong>, gli ascoltatori possono toccare per <strong>alzare la mano</strong> e avvisare gli amministratori che vogliono parlare. Proprio come una chiamata durante un talk show - ma con animazioni più coinvolgenti.</p>
+<div class="blog_video_player_wrap" style="max-width: 400px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001008/3/DOSvKPyWTOQ.150431/219a98435d1f8f4224" style="max-width: 400px;" title="Avviso per l'amministratore: se fari parlare qualcuno e senti 'Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn', potrebbe essere una buona idea silenziarlo subito." alt="Permettere a un utente di parlare">
+<source src="/file/464001036/2/IaS7zh198Jc.4811592.mp4/f09c7e9572de74e042" type="video/mp4">
+</video>
+</div>
+<p>Il <strong>testo della tua bio</strong> ora è visibile nella lista dei partecipanti, e può essere usato per indicare dettagli come le tue competenze, interessi, o solo per parlare un po&#39; di te. Queste informazioni potrebbero aiutare gli amministratori a trovare un buon posto per le tue domande o commenti.</p>
+<h3>
+<a class="anchor" name="link-per-speaker-e-ascoltatori" href="#link-per-speaker-e-ascoltatori">
+<i class="anchor-icon">
+</i>
+</a>Link per speaker e ascoltatori</h3>
+<p>Gli amministratori di gruppi e canali <strong>pubblici</strong> possono ora creare link d&#39;invito che <strong>aprono subito la chat vocale</strong>. Si possono creare link separati per <strong>speaker</strong> e <strong>ascoltatori</strong>. In questo modo non sarà necessario riattivare l&#39;audio quando le persone si uniscono - e potrà essere usato un link diverso per promuovere la chat che sta per iniziare tra le varie community.</p>
+<div class="blog_video_player_wrap" style="max-width: 400px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001725/2/R7dhU03uykI.245962/d788b4abf685c38846" style="max-width: 400px;" title="Dona +10 carisma a tutti i membri del gruppo" alt="Strumenti di amministrazione: link per speaker e ascoltatori, titoli delle chat e altro ancora">
+<source src="/file/464001045/2/UGlOXuiqVAQ.4847654.mp4/880d60e6db6e45baa0" type="video/mp4">
+</video>
+</div>
+<p>Le chat vocali hanno inoltre dei <strong>titoli</strong> opzionali che aiutano gli utenti a vedere gli <strong>argomenti</strong> delle conversazioni prima di partecipare.</p>
+<h3>
+<a class="anchor" name="unisciti-come" href="#unisciti-come">
+<i class="anchor-icon">
+</i>
+</a>Unisciti come…</h3>
+<p>Quando si entra in una chat vocale in un <em>canale</em>, gli utenti hanno l&#39;opzione di entrare con il loro account personale o <strong>apparire come uno dei loro canali</strong>. Le celebrità e i personaggi pubblici possono usare questo per evitare di attirare troppa attenzione sui loro account personali.</p>
+<div class="blog_image_wrap blog_medium_image_wrap">
+<a href="/file/464001305/4/mLAGs_eJ4h4.98472/c3b8a619c32ca54cab" target="_blank">
+<img src="/file/464001224/4/co_N6utxsG0.38857/fdc5bd32c4f5d30f26" title="La prima regola dell'unirsi come canale..." alt="Unirsi a una chat vocale come canale" srcset="/file/464001305/4/mLAGs_eJ4h4.98472/c3b8a619c32ca54cab , 2x" />
+</a>
+</div>
+<blockquote>
+<p>Per esempio, i presidenti di <a href="https://t.me/emmanuelmacron">Francia</a> e <a href="https://t.me/bnetanyahu">Israele</a> potrebbero incontrarsi per un discorso nel <a href="https://t.me/durov">canale di Pavel Durov</a> e rispondere alle domande degli utenti senza il rischio di avere la loro lista chat inondata di messaggi dei fan.</p>
+</blockquote>
+<h3>
+<a class="anchor" name="e-altro" href="#e-altro">
+<i class="anchor-icon">
+</i>
+</a>E altro</h3>
+<p>Se scegli per errore la chat sbagliata quando <strong>inoltri i messaggi</strong>, premi il pulsante <strong>X</strong> prima di inviarli - per annullare l&#39;inoltro o <strong>scegliere una chat diversa</strong>.</p>
+<div class="blog_image_wrap blog_medium_image_wrap">
+<a href="/file/464001284/4/radytJhwK-c.52636/0afbf0d4080e59767f" target="_blank">
+<img src="/file/464001986/1/CdZ9t05Ivek.21564/d204b69f4a8337b1a3" title="Speriamo di non essere troppo futuristici." alt="Scegli una chat diversa o annulla l'inoltro" srcset="/file/464001284/4/radytJhwK-c.52636/0afbf0d4080e59767f , 2x" />
+</a>
+</div>
+<p>È inoltre possibile <strong>riprendere la riproduzione</strong> da dove è stata interrotta quando si ascoltano <strong>messaggi vocali di lunga durata</strong>. Questo era già disponibile per video e tracce musicali di lunga durata, e pensavamo di aver risolto tutto - ma poi nostra nonna si è iscritta.</p>
+<p>Ultimo ma non meno importante, gli utenti <strong>Android</strong> possono scegliere quale azione viene assegnata allo <strong>scorrimento a sinistra nella lista chat</strong>: archiviare le chat, fissarle, silenziarle, eliminarle o segnarle come lette. (Su iOS, tutte queste azioni di scorrimento sono sempre disponibili, a seconda del verso in cui scorri.)</p>
+<div class="blog_video_player_wrap" style="max-width: 400px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001205/2/x-He9U5kKGY.146619/21bff9f3f33230d66d" style="max-width: 400px;" title="Nessuna emoji animata questa volta, ma l'interfaccia utente è stata in parte ispirata dalla slot machine." alt="Impostazioni del gesto di scorrimento su Android">
+<source src="/file/464001932/3/wmEE8TxY7VA.1313859.mp4/89dcca1685b58808b4" type="video/mp4">
+</video>
+</div>
+<p>Questo è tutto per oggi, rimanete sintonizzati per il prossimo aggiornamento!</p>
+<div>
+<br>
+</div>
+<p>
+<em>19 marzo 2021<br>il Team di Telegram</em>
+</p>
+</div>
+</div>
+<div class="tl_main_share clearfix">
+<a href="https://t.me/share/url?url=https%3A%2F%2Ftelegram.org%2Fblog%2Fvoice-chats-on-steroids%2Fit&text=Introduciamo%20le%20Chat%20vocali%202.0%3A%20Canali%2C%20Milioni%20di%20ascoltatori%2C%20Chat%20registrate%2C%20Strumenti%20per%20gli%20amministratori" class="tl_telegram_share_btn" id="tl_telegram_share_btn" data-text="Introduciamo le Chat vocali 2.0: Canali, Milioni di ascoltatori, Chat registrate, Strumenti per gli amministratori" data-url="https://telegram.org/blog/voice-chats-on-steroids/it">
+<i class="tl_telegram_share_icon">
+</i>
+<span class="tl_telegram_share_label" target="_blank">Forward</span>
+</a>
+<a href="https://twitter.com/share" class="tl_twitter_share_btn" id="tl_twitter_share_btn" data-text="Introduciamo le Chat vocali 2.0: Canali, Milioni di ascoltatori, Chat registrate, Strumenti per gli amministratori" data-url="https://telegram.org/blog/voice-chats-on-steroids/it" data-via="Telegram">Tweet <span class="tl_twitter_share_cnt">
+</span>
+</a>
+</div>
+</div>
+<div class="tl_main_recent_news_wrap tlb_other_news_wrap tl_blog_list_page_wrap">
+<h3 class="tl_main_recent_news_header">
+<a href="/blog">Other News</a>
+</h3>
+<div class="tl_main_recent_news_cards clearfix">
+<a class="dev_blog_card_link_wrap" href="/blog/welcome-messages-buttons-TG-13/it">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400741/6/aFBFZ5lNqO8.66680.webp/0e567958d5b96a2184" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">Messaggi di benvenuto, Pulsanti nei messaggi e Regali firmati</h4>
+<div class="dev_blog_card_lead">Introduciamo i messaggi di benvenuto per salutare i nuovi membri di gruppi o canali, i pulsanti nei messaggi per rendere interattivo qualsiasi…</div>
+</div>
+<div class="dev_blog_card_date">Aug 25, 2026</div>
+</div>
+</a>
+<a class="dev_blog_card_link_wrap" href="/blog/communities-editor-invisible-messages/it">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400405/7/AQNnD9itI5s.338570.webp/ec0155605bac60bd43" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">Editor di testo avanzato, Community, Messaggi effimeri nei gruppi, 350 milioni di GIF</h4>
+<div class="dev_blog_card_lead">Introduzione di un editor di testo avanzato per formattare e generare testo, community Telegram…</div>
+</div>
+<div class="dev_blog_card_date">Jul 14, 2026</div>
+</div>
+</a>
+<a class="dev_blog_card_link_wrap" href="/blog/watch-apps-and-more/it">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400535/2/fkUcVRnSU-M.140100.webp/10c066db41f83e6d5e" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">App per smartwatch, Testo formattato per i bot, Guardiani IA per i gruppi e molto altro</h4>
+<div class="dev_blog_card_lead">L&#39;aggiornamento di oggi porta Telegram su Apple Watch e smartwatch Android, aggiunge il testo…</div>
+</div>
+<div class="dev_blog_card_date">Jun 11, 2026</div>
+</div>
+</a>
+<a class="dev_blog_card_link_wrap" href="/blog/ai-bot-revolution-11-new-features/it">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400475/2/BwY041V7nZg.149454.webp/873ed0c0321c7633e7" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">Bot IA ospiti, Chat tra bot, Automazione chat, Ricerca di oltre 100 milioni di emoji e sticker, Stili IA personalizzati, Statistiche per i sondaggi, Messaggi programmati silenziosi, Rimozione delle reazioni</h4>
+<div class="dev_blog_card_lead">Nell&#39;aggiornamento di oggi, Telegram introduce…</div>
+</div>
+<div class="dev_blog_card_date">May 7, 2026</div>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer_wrap">
+<div class="footer_columns_wrap footer_desktop">
+<div class="footer_column footer_column_telegram">
+<h5>Telegram</h5>
+<div class="footer_telegram_description">
+</div>
+      Telegram is a cloud-based mobile and desktop messaging app with a focus on security and speed.
+    </div>
+<div class="footer_column">
+<h5>
+<a href="/faq">About</a>
+</h5>
+<ul>
+<li>
+<a href="/faq">FAQ</a>
+</li>
+<li>
+<a href="/privacy">Privacy</a>
+</li>
+<li>
+<a href="/press">Press</a>
+</li>
+</ul>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/apps#mobile-apps">Mobile Apps</a>
+</h5>
+<ul>
+<li>
+<a href="/dl/ios">iPhone/iPad</a>
+</li>
+<li>
+<a href="/android">Android</a>
+</li>
+<li>
+<a href="/dl/web">Mobile Web</a>
+</li>
+</ul>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/apps#desktop-apps">Desktop Apps</a>
+</h5>
+<ul>
+<li>
+<a href="//desktop.telegram.org/">PC/Mac/Linux</a>
+</li>
+<li>
+<a href="//macos.telegram.org/">macOS</a>
+</li>
+<li>
+<a href="/dl/web">Web-browser</a>
+</li>
+</ul>
+</div>
+<div class="footer_column footer_column_platform">
+<h5>
+<a href="//core.telegram.org/">Platform</a>
+</h5>
+<ul>
+<li>
+<a href="//core.telegram.org/api">API</a>
+</li>
+<li>
+<a href="//translations.telegram.org/">Translations</a>
+</li>
+<li>
+<a href="//instantview.telegram.org/">Instant View</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="footer_columns_wrap footer_mobile">
+<div class="footer_column">
+<h5>
+<a href="/faq">About</a>
+</h5>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/blog">Blog</a>
+</h5>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/press">Press</a>
+</h5>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/safety">Safety</a>
+</h5>
+</div>
+</div>
+</div>
+<script src="/js/main.js?49">
+</script>
+<script src="/js/tgsticker.js?32">
+</script>
+<script src="/js/main-theme.js?6">
+</script>
+<script>initScrollVideos(true);
+mainInitTgStickers({"maxDeviceRatio":2,"cachingModulo":4});
+twitterCustomShareInit();
+blogSideImageInit();
+backToTopInit("Go up");
+removePreloadInit();
+</script>
+</body>
+</html>

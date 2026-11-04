@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>iOS Animation Contest 2021 – Developer Challenges</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta name="format-detection" content="telephone=no" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="MobileOptimized" content="176" />
+<meta name="HandheldFriendly" content="True" />
+<meta name="twitter:card" content="summary">
+</meta>
+<meta property="og:title" content="iOS Animation Contest 2021">
+<meta property="og:description" content="The task in this contest is to implement animations in Telegram for iOS based on the mockups provided, optimize them to…">
+<link rel="shortcut icon" href="/img/cd_favicon.ico" type="image/x-icon" />
+<link rel="mask-icon" href="/img/cd_icon.svg" color="#299ed8">
+<script>document.cookie="stel_dt="+encodeURIComponent((new Date).getTimezoneOffset())+";path=/;max-age=31536000;samesite=None;secure"</script>
+<link href="/css/font-roboto.css?1" rel="stylesheet" type="text/css">
+<link href="/css/bootstrap.min.css?3" rel="stylesheet">
+<link href="/css/bootstrap-extra.css?2" rel="stylesheet">
+<link href="/css/telegram.css?256" rel="stylesheet">
+<link href="/css/contest.css?41" rel="stylesheet">
+<link href="/css/contest-zoo.css?7" rel="stylesheet">
+<link href="/css/jquery-ui.min.css?1" rel="stylesheet">
+</head>
+<body class="emoji_image no-transition">
+<div id="aj_progress" class="progress-bar">
+</div>
+<div id="aj_content">
+<div class="cd-container">
+<header>
+<div class="container">
+<div class="header-wrap">
+<div id="header-panel" class="header-panel">
+<div class="header-auth">
+<div class="header-auth-item">
+<a class="header-auth-link login-link" href="/auth">Login</a>
+</div>
+</div>
+<div class="header-breadcrumb header-breadcrumb-simple">
+<ol id="breadcrumb" class="header-nav breadcrumb">
+<li class="cd-logo">
+<a href="/">
+<i class="cd-icon">
+</i>
+<span class="cd-logo-title">Developer Challenges</span>
+</a>
+</li>
+<li class="active">iOS Animation Contest 2021</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+</header>
+<main class="container">
+<section class="cd-content">
+<div id="dev_page_content_wrap" class=" ">
+<div class="dev_page_bread_crumbs">
+</div>
+<h1 id="dev_page_title">iOS Animation Contest 2021</h1>
+<div id="dev_page_content">
+<p>The task in this contest is to implement animations in <a href="#telegram-for-ios">Telegram for iOS</a> based on the mockups provided, optimize them to run on older devices, and create an editor that allows tweaking their parameters. </p>
+<p>
+<strong>Round 1:</strong> 16 full days, until <strong>23:59 Dubai Time</strong> on the <strong>31st of January</strong>.<br>
+<strong>Prize fund for this round:</strong> $50,000</p>
+<hr>
+<blockquote>
+<p>
+<a href="https://t.me/contest/204">Download demo materials for Round 1</a>
+</p>
+</blockquote>
+<hr>
+<h3>
+<a class="anchor-link" href="#the-task">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="the-task">
+</a>The Task</h3>
+<p>You should use the <a href="https://github.com/TelegramMessenger/Telegram-iOS">Telegram for iOS</a> code available on GitHub and the <a href="https://github.com/TelegramMessenger/Telegram-iOS#telegram-ios-source-code-compilation-guide">updated build instructions</a>.</p>
+<ol>
+<li>Modify Telegram for iOS to display the <a href="#required-animations">animations</a> provided in the <strong>demo videos</strong> when messages are sent.</li>
+<li>Ensure that the animations are <strong>optimized to run smoothly</strong> on all devices.</li>
+<li>Include an <a href="#editor">editor</a> that allows <strong>tweaking</strong> each of the components.</li>
+<li>Support exporting and importing animation parameters.</li>
+</ol>
+<p>Your code must be written in <strong>Swift</strong>. <strong>Do not</strong> use third-party UI frameworks (e.g. Flutter or React Native).</p>
+<h2>
+<a class="anchor-link" href="#required-animations">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="required-animations">
+</a>Required Animations</h2>
+<h3>
+<a class="anchor-link" href="#message-bubble-animations">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="message-bubble-animations">
+</a>Message Bubble Animations</h3>
+<p>Your app should display <strong>message sending effects</strong> from <code>Animations.mp4</code> for messages of the following types:</p>
+<ul>
+<li>Small message that fits in the input field</li>
+<li>Large message that is too large to fit in the input field</li>
+<li>Message containing a link preview</li>
+<li>Message with a single emoji that turns into an animated emoji</li>
+<li>Sticker selected from the sticker panel</li>
+<li>Voice message</li>
+<li>Video message</li>
+<li>Multiple messages sent one after another</li>
+</ul>
+<p>All message sending effects should be optimized for both <strong>standalone messages</strong> and messages <strong>sent as a reply</strong>.</p>
+<blockquote>
+<p>Make sure that your animations are as true as possible to the mockups provided in the demo videos.</p>
+</blockquote>
+<h3>
+<a class="anchor-link" href="#animation-editor">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="animation-editor">
+</a>Animation Editor</h3>
+<p>Tapping the header in any chat (top bar with the chat name) should open <strong>Animation Settings</strong> (<code>Editor_example1.png</code>, <code>Editor_example2.png</code>).</p>
+<p>
+<em>Animation Type</em> opens the list from <code>EditorExample_Animations.png</code>.</p>
+<h3>
+<a class="anchor-link" href="#background-animations">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="background-animations">
+</a>Background Animations</h3>
+<p>Your app should display the background shown in <code>Animations.mp4</code>. Sending any message should <strong>animate</strong> it like in the video.</p>
+<p>Opening <a href="#animation-editor">Animation Settings</a> and choosing <em>Background</em> under <em>Animation Type</em> should open <code>Editor_exampleBG1.png</code>. <em>Open full screen</em> shows the interface from <code>BackgroundPreview.png</code>.</p>
+<p>Tapping the <em>Animate</em> button plays the background animation, see <code>BackgroundPreview.mp4</code>
+</p>
+<p>
+<code>Background_Animation.mp4</code> provides a visual explanation of how the animation was put together. You will need to come up with your own model to achieve the same or similar result.</p>
+<h3>
+<a class="anchor-link" href="#evaluation">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="evaluation">
+</a>Evaluation</h3>
+<p>During evaluation we will focus on the following aspects:</p>
+<ul>
+<li>How close your animations are to the mockups provided</li>
+<li>How smoothly they play on modern devices</li>
+<li>How smoothly they play on older devices (including iPhone 6 and SE1)</li>
+</ul>
+<p>Authors of the best submissions in this round of the contest will be able to participate in <strong>Round 2</strong>.</p>
+<h3>
+<a class="anchor-link" href="#submitting-your-work">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="submitting-your-work">
+</a>Submitting Your Work</h3>
+<p>You will be able to submit your application to <a href="https://t.me/contestbot">@ContestBot</a> closer to the end of the contest. Watch out for announcements in <a href="https://t.me/contest">@contest</a>.</p>
+</div>
+</div>
+</section>
+</main>
+</div>
+<div class="popup-container login-popup-container hide" id="login-popup-container">
+<div class="popup">
+<div class="popup-body">
+<section>
+<h2>Log In</h2>
+<p>Log in here to leave comments and take part in the Telegram Competitions. Please enter your <b>phone number</b> in the <a target="_blank" rel="noopener" href="https://telegram.org/faq#login-and-sms">international format</a> and we will send a confirmation message to your account via Telegram.</p>
+<form id="send-form" class="login-form">
+<div class="form-group">
+<input type="tel" class="form-control cd-form-control input-lg" id="phone-number" placeholder="+12223334455" autocomplete="off"/>
+</div>
+<div class="popup-buttons">
+<a class="btn btn-link btn-lg login-cancel-btn">Cancel</a>
+<button type="submit" class="btn btn-link btn-lg">Next</button>
+</div>
+</form>
+<div id="login-form" class="hide">
+<div class="form-group">
+<span class="form-control cd-form-control input input-lg input-disabled">
+<strong id="phone-number-field">
+</strong> (<a class="login-back" href="/auth">Incorrect?</a>)</span>
+<p class="help-block dots-animated">We&#39;ve just sent you a message.<br/>Please confirm access via Telegram</p>
+</div>
+<div class="popup-buttons">
+<a class="btn btn-link btn-lg login-cancel-btn">Cancel</a>
+<a class="btn btn-link btn-lg login-back">Back</a>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+</div>
+<script src="/js/jquery.min.js?1">
+</script>
+<script src="/js/bootstrap.min.js">
+</script>
+<script src="/js/main-aj.js?76">
+</script>
+<script src="/js/contest.js?25">
+</script>
+<script src="/js/jquery-ui.min.js?1">
+</script>
+<script src="/js/tgsticker.js?32">
+</script>
+<script>ajInit({"version":701,"apiUrl":"\/api?hash=X","unauth":true});</script>
+<script id="aj_script">Aj._useScrollHack=true;
+Aj.onLoad(function(state) {
+  function requestConfirmation(event) {
+    event && event.preventDefault();
+    var phone = $('#phone-number').val();
+    $.ajax({
+      type: 'POST',
+      url: '/auth/request',
+      data: {
+        phone: phone
+      },
+      success: function(result) {
+        $('#phone-number-field').text(phone);
+        $('#send-form').addClass('hide');
+        $('#login-form').removeClass('hide');
+        checkAuth(result.temp_session);
+      },
+      error: function(xhr) {
+        showAlert(xhr.responseText || 'Server error');
+      },
+      dataType: 'json'
+    });
+    return false;
+  }
+  function cancelConfirmation(event) {
+    event && event.preventDefault();
+    $('#phone-number-field').text('');
+    $('#send-form').removeClass('hide');
+    $('#login-form').addClass('hide');
+    $('#phone-number').focus();
+    clearTimeout(window.authTimeout);
+    return false;
+  }
+  function checkAuth(temp_session) {
+    clearTimeout(window.authTimeout);
+    window.authTimeout = setTimeout(function doCheckAuth() {
+      $.ajax({
+        type: 'POST',
+        url: '/auth/login',
+        data: {
+          temp_session: temp_session
+        },
+        success: function(result) {
+          if (result) {
+            location.reload();
+          } else {
+            checkAuth(temp_session);
+          }
+        },
+        error: function (xhr) {
+          showAlert(xhr.responseText || 'Server error');
+        },
+        dataType: 'json'
+      });
+    }, 700);
+  }
+  $('#login-popup-container').on('popup:open', function() {
+    $('#phone-number').focus();
+  });
+  $('#login-popup-container').on('popup:close', function() {
+    cancelConfirmation();
+    if (location.pathname == '/auth') {
+      window.history && history.replaceState(null, null, '/');
+    }
+  });
+  $('#login-popup-container #send-form').on('submit', requestConfirmation);
+  $('#login-popup-container .login-cancel-btn').on('click', function(e) {
+    e.preventDefault();
+    closePopup('#login-popup-container');
+  });
+  $('#login-popup-container .login-back').on('click', cancelConfirmation);
+  $('.login-link').on('click', function(e) {
+    e.stopImmediatePropagation();
+    e.preventDefault();
+    openPopup('#login-popup-container');
+  });
+});
+Aj.onUnload(function(state) {
+  $('#login-popup-container').off('popup:open');
+  $('#login-popup-container').off('popup:close');
+  $('#login-popup-container #send-form').off('submit');
+  $('#login-popup-container .login-cancel-btn').off('click');
+  $('#login-popup-container .login-back').off('click');
+  $('.login-link').off('click');
+});
+</script>
+<script>Aj.pageLoaded();</script>
+</body>
+</html>

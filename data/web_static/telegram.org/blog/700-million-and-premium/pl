@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html class="" data-theme="light">
+<head>
+<meta charset="utf-8">
+<title>700 milionów użytkowników i Telegram Premium</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:title" content="700 milionów użytkowników i Telegram Premium">
+<meta property="og:image" content="https://telegram.org/file/464001006/1044e/ZDyna5YyQwE.51909/a7532c511d9bab9ea9">
+<meta property="og:site_name" content="Telegram">
+<meta property="og:description" content="Telegram ma teraz ponad 700 milionów aktywnych użytkowników miesięcznie. Dziś uruchamiamy Telegram Premium — subskrypcję, która pozwala wspierać ciągły rozwój Telegrama i daje dostęp do ekskluzywnych dodatkowych funkcji.">
+<meta property="article:published_time" content="2022-06-21T10:49:44+00:00">
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://telegram.org/file/464001006/1044e/ZDyna5YyQwE.51909/a7532c511d9bab9ea9" />
+<meta property="fb:app_id" content="254098051407226">
+<meta property="vk:app_id" content="3782569">
+<meta name="apple-itunes-app" content="app-id=686449807">
+<meta name="telegram:channel" content="@telegram">
+<link rel="canonical" href="https://telegram.org/blog/700-million-and-premium/pl" />
+<link rel="icon" type="image/svg+xml" href="/img/website_icon.svg?4">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="alternate icon" href="/img/favicon.ico" type="image/x-icon" />
+<link href="/css/bootstrap.min.css?3" rel="stylesheet">
+<link href="/css/telegram.css?256" rel="stylesheet" media="screen">
+<link href="/css/telegram-theme.css?9" rel="stylesheet" media="screen">
+</head>
+<body class="preload">
+<div id="fb-root">
+</div>
+<button class="theme-toggle theme-toggle--static" type="button" title="Toggle theme" aria-label="Toggle light/dark theme">
+</button>
+<div class="tl_page_wrap">
+<div class="tl_page_head navbar navbar-static-top navbar navbar-tg">
+<div class="navbar-inner">
+<div class="container clearfix">
+<ul class="nav navbar-nav navbar-right">
+<li class="dropdown top_lang_select">
+<a class="dropdown-toggle" onclick="return dropdownClick(this, event)" href="#">
+<i class="dev_top_lang_icon">
+</i>
+<b class="minicaret">
+</b>
+</a>
+<ul class="dropdown-menu">
+<li class="">
+<a href="?setln=en">English</a>
+</li>
+<li class="long ">
+<a href="?setln=id">Bahasa Indonesia</a>
+</li>
+<li class="long ">
+<a href="?setln=ms">Bahasa Melayu</a>
+</li>
+<li class="">
+<a href="?setln=de">Deutsch</a>
+</li>
+<li class="">
+<a href="?setln=es">Español</a>
+</li>
+<li class="">
+<a href="?setln=fr">Français</a>
+</li>
+<li class="">
+<a href="?setln=it">Italiano</a>
+</li>
+<li class="">
+<a href="?setln=nl">Nederlands</a>
+</li>
+<li class="">
+<a href="?setln=uz">O‘zbek</a>
+</li>
+<li class="">
+<a href="?setln=pl">Polski</a>
+</li>
+<li class="long ">
+<a href="?setln=pt-br">Português (Brasil)</a>
+</li>
+<li class="">
+<a href="?setln=tr">Türkçe</a>
+</li>
+<li class="">
+<a href="?setln=be">Беларуская</a>
+</li>
+<li class="">
+<a href="?setln=ru">Русский</a>
+</li>
+<li class="">
+<a href="?setln=uk">Українська</a>
+</li>
+<li class="">
+<a href="?setln=kk">Қазақша</a>
+</li>
+<li class="">
+<a href="?setln=ar">العربية</a>
+</li>
+<li class="">
+<a href="?setln=fa">فارسی</a>
+</li>
+<li class="">
+<a href="?setln=ko">한국어</a>
+</li>
+</ul>
+</li>
+<li class="navbar-twitter hidden-xs">
+<a href="https://x.com/telegram" target="_blank" data-track="Follow/Twitter" onclick="trackDlClick(this, event)">
+<i class="icon icon-twitter">
+</i> Follow on X</a>
+</li>
+</ul>
+<ul class="nav navbar-nav">
+<li class="">
+<a href="/">Home</a>
+</li>
+<li class="">
+<a href="/faq">FAQ</a>
+</li>
+<li class="">
+<a href="/apps">Apps</a>
+</li>
+<li class="hidden-xs ">
+<a href="//core.telegram.org/api">API</a>
+</li>
+<li class="hidden-xs ">
+<a href="/safety">Safety</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="container clearfix tl_page_container ">
+<div class="tl_page">
+<div class="tl_contest_page_wrap">
+<div class="tl_blog_side_blog">
+<div class="side_blog_wrap">
+<div class="side_blog">
+<a href="/blog" class="side_blog_header">Recent News</a>
+<div class="side_blog_entries">
+<a href="/blog/welcome-messages-buttons-TG-13" class="side_blog_entry">
+<div class="side_blog_date">Aug 25</div>
+<div class="side_blog_title">Welcome Messages, Buttons in Messages and Signed Gifts</div>
+</a>
+<a href="/blog/communities-editor-invisible-messages" class="side_blog_entry">
+<div class="side_blog_date">Jul 14</div>
+<div class="side_blog_title">Rich Text Editor, Communities, Ephemeral Messages in Groups, 350 Million GIFs</div>
+</a>
+<a href="/blog/watch-apps-and-more" class="side_blog_entry">
+<div class="side_blog_date">Jun 11</div>
+<div class="side_blog_title">Smartwatch Apps, Rich Text for Bots, AI Guardians for Groups, and Much More</div>
+</a>
+<a href="/blog/ai-bot-revolution-11-new-features" class="side_blog_entry">
+<div class="side_blog_date">May 7</div>
+<div class="side_blog_title">Guest AI Bots, Bot-to-Bot Chats, Chat Automation, Custom AI Styles, 100M+ Emoji &amp; Sticker Search and Much More</div>
+</a>
+<a href="/blog/ai-editor-mighty-polls-and-more" class="side_blog_entry">
+<div class="side_blog_date">Mar 31</div>
+<div class="side_blog_title">AI Editor, Mighty Polls, Live Photos, Bots Managed by Bots, and More</div>
+</a>
+<a href="/blog/member-tags-disable-sharing-and-more" class="side_blog_entry">
+<div class="side_blog_date">Mar 1</div>
+<div class="side_blog_title">Member Tags, Login with Telegram, Disable Sharing, GIF Editing, Date Formatting, Voting Timestamps</div>
+</a>
+<a href="/blog/crafting-android-design-and-more" class="side_blog_entry">
+<div class="side_blog_date">Feb 9</div>
+<div class="side_blog_title">Android Redesign, Group Ownership Transfer, Gift Crafting, Colored Bot Buttons</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div id="dev_page_content_wrap" class=" ">
+<div class="dev_page_bread_crumbs">
+</div>
+<h1 id="dev_page_title">700 milionów użytkowników i Telegram Premium</h1>
+<blockquote class="blog_lang_original">
+<a href="/blog/700-million-and-premium?ln=r">Przeczytaj oryginalny tekst w języku angielskim</a>
+</blockquote>
+<div id="dev_page_content">
+<div class="blog_side_image_wrap">
+<picture class="dev_page_tgsticker blog_side_image js-tgsticker_image" style="width:160px;">
+<div style="padding-top:100%">
+</div>
+<source type="application/x-tgsticker" srcset="/file/464001455/11a8f/5NKmV6LQ9Jk.17155/4d196b78a6c41a9211">
+<img src="/file/464001455/11a90/g2JfUcIjUek.17037.png/60a682a4ba46d1114e" />
+</picture>
+</div>
+<div class="blog_wide_image legacy">
+<a href="/file/464001533/1130b/LOLHYtTvIyg.5632468/765938e39b6572ef3c" target="_blank">
+<img src="/file/464001006/1044e/ZDyna5YyQwE.51909/a7532c511d9bab9ea9" srcset="/file/464001280/fced/equ3GxdRm38.136219/85d4b9a1e7aae4c322, 1200w" title="Kosmos jest jedną z rzeczy, z których słynie Telegram." alt="700 milionów użytkowników i Telegram Premium"/>
+</a>
+</div>
+<p>Telegram stał się jedną z <strong>5 najczęściej</strong> pobieranych aplikacji na świecie w 2022 roku, a obecnie ma ponad <strong>700 milionów aktywnych użytkowników miesięcznie</strong>. Ten wzrost jest wynikiem wyłącznie <strong>osobistych rekomendacji</strong> – Telegram nigdy nie płacił za reklamowanie swoich aplikacji.</p>
+<p>Ponieważ Telegram rozwija się z prędkością rakiety, wielu użytkowników wyraziło chęć wspierania naszego zespołu. Dzisiaj uruchamiamy <img class="icon" src="/file/464001305/110b0/-bpC5P3HJp4.6317/a2b79589744c739331" alt="Premium">
+<strong>Telegram Premium</strong> – subskrypcję, która pozwala wspierać <strong>ciągły rozwój</strong> Telegrama i zapewnia dostęp do dodatkowych <strong>ekskluzywnych funkcji</strong>.</p>
+<p>Dzięki temu będziemy mogli zaoferować wszystkie funkcje wymagające dużych ilości zasobów, o które użytkownicy prosili przez lata, przy jednoczesnym <strong>zachowaniu bezpłatnego dostępu</strong> do najpotężniejszego komunikatora na planecie. </p>
+<h3>
+<a class="anchor" name="telegram-premium" href="#telegram-premium">
+<i class="anchor-icon">
+</i>
+</a>
+<img class="icon" src="/file/464001305/110b0/-bpC5P3HJp4.6317/a2b79589744c739331" alt="Premium"> Telegram Premium</h3>
+<p>Subskrybując Telegram Premium, użytkownicy odblokowują <strong>podwojone limity</strong>, <strong>przesyłanie plików o wielkości 4 GB</strong>, <strong>szybsze pobieranie</strong>, <strong>ekskluzywne naklejki</strong> i <strong>reakcje</strong>, <strong>ulepszone zarządzanie czatem</strong> i wiele więcej.</p>
+<p>Jednocześnie <strong>wszystkie istniejące funkcje</strong>, których użytkownicy oczekują i na których polegają przez prawie dekadę, <strong>pozostają bezpłatne</strong>. Co więcej, użytkownicy niekorzystający z usługi Premium będą mogli korzystać z niektórych jej zalet: na przykład pobierać <a href="#przesylanie-plikow-o-wielkosci-4-gb">bardzo duże dokumenty</a> i oglądać <a href="#wyjatkowe-naklejki">naklejki</a> wysłane przez użytkowników Premium, a także dotykać <a href="#unikalne-reakcje">reakcji premium</a>, które zostały już dodane do wiadomości, aby zwiększyć ich liczniki.</p>
+<blockquote>
+<p>Wkład subskrybentów usługi Premium pomoże ulepszać i rozwijać aplikację przez kolejne dziesięciolecia, podczas gdy Telegram pozostanie darmowy, niezależny i będzie przestrzegał swoich wartości, które stawiają użytkowników na pierwszym miejscu, definiując na nowo sposób działania firmy technologicznej.</p>
+</blockquote>
+<h4>
+<a class="anchor" name="przesylanie-plikow-o-wielkosci-4-gb" href="#przesylanie-plikow-o-wielkosci-4-gb">
+<i class="anchor-icon">
+</i>
+</a>
+<img class="icon" src="/file/464001305/110b0/-bpC5P3HJp4.6317/a2b79589744c739331" alt="Premium"> Przesyłanie plików o wielkości 4 GB</h4>
+<p>Każdy użytkownik może przesyłać duże pliki i multimedia, każdy o wielkości do 2 GB, i bezpłatnie korzystać z nieograniczonego miejsca w chmurze Telegrama. Dzięki usłudze Telegram Premium subskrybenci będą teraz mogli wysyłać <strong>pliki o wielkości 4 GB</strong> – to wystarczająco dużo miejsca na 4 godziny wideo w jakości 1080p lub 18 dni wysokiej jakości dźwięku.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001434/100c0/XZWys7AIPaI.53535/846bce4f7caab2d593" style="max-width: 600px;" title="To jest duże." alt="Przesyłanie plików o wielkości 4 GB">
+<source src="/file/464001228/10ca9/Uu6RNHjZDoY.2770198.mp4/1f217c2fbec058d5e2" type="video/mp4">
+</video>
+</div>
+<blockquote>
+<p>
+<strong>Wszyscy</strong> użytkownicy Telegrama mogą <strong>pobierać</strong> te bardzo duże dokumenty, niezależnie od tego, czy subskrybują Telegram Premium.</p>
+</blockquote>
+<h4>
+<a class="anchor" name="szybsze-pobieranie" href="#szybsze-pobieranie">
+<i class="anchor-icon">
+</i>
+</a>
+<img class="icon" src="/file/464001305/110b0/-bpC5P3HJp4.6317/a2b79589744c739331" alt="Premium"> Szybsze pobieranie</h4>
+<p>Subskrybenci usługi Premium mogą pobierać multimedia i pliki z <strong>największą możliwą prędkością</strong>. Możesz uzyskać dostęp do wszystkiego, co znajduje się w twojej nieograniczonej przestrzeni dyskowej w chmurze, tak szybko, jak twoja sieć może nadążyć.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001069/10957/Zw6lkD5YYMg.51833/6882e77ffee072d9e3" style="max-width: 600px;" title="Chcesz zobaczyć, jak biegnę na serwer i z powrotem? Chcesz zobaczyć, jak robię to jeszcze raz?" alt="Szybsze pobieranie">
+<source src="/file/464001202/fd45/pIXb3O5SQEs.3604627.mp4/c02b8496b5adb2b3b1" type="video/mp4">
+</video>
+</div>
+<h4>
+<a class="anchor" name="podwojone-limity" href="#podwojone-limity">
+<i class="anchor-icon">
+</i>
+</a>
+<img class="icon" src="/file/464001305/110b0/-bpC5P3HJp4.6317/a2b79589744c739331" alt="Premium"> Podwojone limity</h4>
+<p>Użytkownicy usługi Premium otrzymują zwiększone limity dla niemal wszystkich funkcji aplikacji. Dzięki usłudze Premium możesz śledzić do <strong>1000 kanałów</strong>, utworzyć do <strong>20 folderów czatów</strong> z maksymalnie <strong>200 czatami</strong> każdy, dodać <strong>czwarte konto</strong> do dowolnej aplikacji Telegram, przypiąć <strong>10 czatów</strong> na głównej liście i zapisać do <strong>10 ulubionych naklejek</strong>.</p>
+<div class="blog_image_wrap blog_wide_image_wrap">
+<a href="/file/464001879/1169b/0Tk59b1Omvc.119016/b15ee6405e996617af" target="_blank">
+<img src="/file/464001879/1169b/0Tk59b1Omvc.119016/b15ee6405e996617af" title="W nieskończoność i dalej!" alt="Podwojone limity dla prawie wszystkiego w aplikacji" srcset="/file/464001879/1169b/0Tk59b1Omvc.119016/b15ee6405e996617af , 2x" />
+</a>
+</div>
+<p>Możesz też napisać <strong>dłuższą biografię</strong> i zamieścić w niej link. Podobnie usługa Premium umożliwia dodawanie większej liczby znaków do podpisów pod multimediami. Znalezienie właściwego sposobu odpowiedzi na dowolną wiadomość będzie łatwiejsze dzięki nawet <strong>400 ulubionym GIFom</strong>. Wreszcie, użytkownicy Premium mogą zarezerwować do <strong>20 publicznych linków t.me</strong>, dzięki czemu każda utworzona przez ciebie grupa lub kanał będzie wyróżniać się krótkim i zwięzłym linkiem. </p>
+<h4>
+<a class="anchor" name="przeksztalcanie-glosu-w-tekst" href="#przeksztalcanie-glosu-w-tekst">
+<i class="anchor-icon">
+</i>
+</a>
+<img class="icon" src="/file/464001305/110b0/-bpC5P3HJp4.6317/a2b79589744c739331" alt="Premium"> Przekształcanie głosu w tekst</h4>
+<p>Wiadomości głosowe można <strong>przekonwertować na tekst</strong>, gdy nie chcesz ich słuchać, ale chcesz zobaczyć, co jest w nich napisane. Możesz <strong>oceniać</strong> transkrypcje, aby je doskonalić.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001063/11726/uJIoQT3Dgv8.53047/66765c97c4d467b423" style="max-width: 600px;" title="Tak, przetestowaliśmy to z Rickiem Astleyem. Po prostu kliknij, hmm, ten zupełnie niepowiązany link, aby sprawdzić, czy działa." alt="Przekształcanie głosu w tekst dla wiadomości głosowych">
+<source src="/file/464001784/fd9e/iUUK-DeE1oc.1804283.mp4/f4f7b9b7d2c825b314" type="video/mp4">
+</video>
+</div>
+<h4>
+<a class="anchor" name="wyjatkowe-naklejki" href="#wyjatkowe-naklejki">
+<i class="anchor-icon">
+</i>
+</a>
+<img class="icon" src="/file/464001305/110b0/-bpC5P3HJp4.6317/a2b79589744c739331" alt="Premium"> Wyjątkowe naklejki</h4>
+<p>Dziesiątki naklejek mają teraz imponujące <strong>pełnoekranowe animacje</strong>, które użytkownicy usługi Premium mogą wysyłać na dowolny czat, aby dodać dodatkowe emocje i ekspresyjne efekty widoczne dla <strong>wszystkich użytkowników</strong>. Ta kolekcja naklejek premium będzie aktualizowana co miesiąc przez artystów Telegrama.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001168/10888/kjDCfhNOJf4.41225/8e943def4722ffbc46" style="max-width: 600px;" title="PRZYTŁACZAJĄCA MOC" alt="Naklejki z pełnoekranowym efektem">
+<source src="/file/464001001/11413/Sq77P9zLuX4.4596955.mp4/283d7c08f8e2d2a421" type="video/mp4">
+</video>
+</div>
+<blockquote>
+<p>Naklejki Premium ze wszystkich swoich pakietów można szybko znaleźć w specjalnej sekcji panelu naklejek, poniżej sekcji „Ostatnio używane”.</p>
+</blockquote>
+<h4>
+<a class="anchor" name="unikalne-reakcje" href="#unikalne-reakcje">
+<i class="anchor-icon">
+</i>
+</a>
+<img class="icon" src="/file/464001305/110b0/-bpC5P3HJp4.6317/a2b79589744c739331" alt="Premium"> Unikalne reakcje</h4>
+<p>Użytkownicy usługi Premium odblokują też więcej sposobów reagowania na wiadomości, dzięki <strong>ponad 10</strong> nowym emoji, takim jak <img class="emoji" src="//telegram.org/img/emoji/40/F09F918C.png" width="20" height="20" alt="👌" />
+<img class="emoji" src="//telegram.org/img/emoji/40/F09F988D.png" width="20" height="20" alt="😍" />
+<img class="emoji" src="//telegram.org/img/emoji/40/E29DA4E2808DF09F94A5.png" width="20" height="20" alt="❤️‍🔥" />
+<img class="emoji" src="//telegram.org/img/emoji/40/F09F92AF.png" width="20" height="20" alt="💯" /> (oraz nowym ulubionym <img class="emoji" src="//telegram.org/img/emoji/40/F09FA4A1.png" width="20" height="20" alt="🤡" />
+<img class="emoji" src="//telegram.org/img/emoji/40/F09F8CAD.png" width="20" height="20" alt="🌭" />
+<img class="emoji" src="//telegram.org/img/emoji/40/F09F90B3.png" width="20" height="20" alt="🐳" />).</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001603/fe2c/9H_C0OxONUo.21028/cfdf6f678e6cead9bc" style="max-width: 600px;" title="Jeśli ta wiadomość dostanie 1000 hot-dogów i 5000 wielorybów..." alt="Unikalne reakcje">
+<source src="/file/464001463/11e1e/W28mJJA7X1U.4467566.mp4/134a6e46c6b4c215ee" type="video/mp4">
+</video>
+</div>
+<h4>
+<a class="anchor" name="zarzadzanie-czatami" href="#zarzadzanie-czatami">
+<i class="anchor-icon">
+</i>
+</a>
+<img class="icon" src="/file/464001305/110b0/-bpC5P3HJp4.6317/a2b79589744c739331" alt="Premium"> Zarządzanie czatami</h4>
+<p>Telegram Premium zawiera nowe narzędzia do porządkowania listy czatów, takie jak zmiana <strong>domyślnego folderu czatów</strong>, aby aplikacja zawsze otwierała się w <strong>niestandardowym folderze</strong> lub, powiedzmy, <em>Nieprzeczytane</em> zamiast <em>Wszystkie czaty</em>.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001352/11049/u4ThRws4vWE.63910/ebddab84c92366a193" style="max-width: 600px;" title="Nie ma wrażenia, że lista czatów jest czysta." alt="Zarządzanie czatami">
+<source src="/file/464001453/109e9/1tWYH1FEOKw.1609494.mp4/a4eb185aa0e30b7781" type="video/mp4">
+</video>
+</div>
+<blockquote>
+<p>Aby zmienić domyślny folder, naciśnij i przytrzymaj folder na liście czatów » Zmień kolejność » i przeciągnij preferowany folder na pierwsze miejsce.</p>
+</blockquote>
+<p>Ponadto subskrybenci mogą włączyć ustawienie w sekcji <em>Prywatność i bezpieczeństwo</em>, aby automatycznie <strong>archiwizować i wyciszać</strong> nowe czaty, co pomaga uporządkować nawet najbardziej zapracowane listy czatów.</p>
+<h4>
+<a class="anchor" name="animowane-zdjecia-profilowe" href="#animowane-zdjecia-profilowe">
+<i class="anchor-icon">
+</i>
+</a>
+<img class="icon" src="/file/464001305/110b0/-bpC5P3HJp4.6317/a2b79589744c739331" alt="Premium"> Animowane zdjęcia profilowe</h4>
+<p>
+<a href="https://telegram.org/blog/profile-videos-people-nearby-and-more/pl?ln=a#wideo-profilowe">Filmy profilowe</a> użytkowników Premium będą animowane <strong>dla wszystkich</strong> w całej aplikacji – także <strong>w czatach</strong> i na <strong>liście czatów</strong>. Pozwól wszystkim zobaczyć swój nowy wygląd lub wykaż się kreatywnością, tworząc unikalną, zapętloną animację.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001423/fa25/ANFkramBMcA.37928/2e33c103a2a7b3c441" style="max-width: 600px;" title="Wibracje Hogwartu nasilają się." alt="Animowane zdjęcia profilowe">
+<source src="/file/464001243/12471/TMp00bcLY80.968143.mp4/92886916c05087c701" type="video/mp4">
+</video>
+</div>
+<h4>
+<a class="anchor" name="odznaki-premium" href="#odznaki-premium">
+<i class="anchor-icon">
+</i>
+</a>
+<img class="icon" src="/file/464001305/110b0/-bpC5P3HJp4.6317/a2b79589744c739331" alt="Premium"> Odznaki Premium</h4>
+<p>Wszyscy użytkownicy Premium otrzymują <strong>specjalną odznakę</strong>
+<img class="icon" src="/file/464001986/11e90/OcmtMKhW_l8.1793/8c1c37d18dc5a0cabe" alt="Premium">, która pojawia się obok ich nazwy na <strong>liście czatów</strong>, w <strong>nagłówkach czatów</strong> i na <strong>listach członków</strong> w grupach – pokazując, że pomagają wspierać Telegram i są częścią klubu, który jako pierwszy otrzymuje nowe funkcje.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001947/105e1/AJZl0skcJb4.48751/b8c4c3e357a59438da" style="max-width: 600px;" title="W mieście jest nowy szeryf." alt="Odznaki Premium">
+<source src="/file/464001274/fb28/tao0HzFiaaI.1612341.mp4/5edb74fcb9e9738c2f" type="video/mp4">
+</video>
+</div>
+<h4>
+<a class="anchor" name="ikony-premium-aplikacji" href="#ikony-premium-aplikacji">
+<i class="anchor-icon">
+</i>
+</a>
+<img class="icon" src="/file/464001305/110b0/-bpC5P3HJp4.6317/a2b79589744c739331" alt="Premium"> Ikony Premium aplikacji</h4>
+<p>Dostępne są <strong>nowe ikony</strong>, które użytkownicy Premium mogą dodać do swojego ekranu głównego, aby lepiej pasowały do ich osobowości lub tapety. Do wyboru jest gwiazda premium, nocne niebo lub turbo samolot.</p>
+<div class="blog_image_wrap blog_wide_image_wrap">
+<a href="/file/464001851/10bd5/g0G8pN89a9g.64157/09a447002e2a55b58f" target="_blank">
+<img src="/file/464001851/10bd5/g0G8pN89a9g.64157/09a447002e2a55b58f" title="Pozytywnie ikoniczny." alt="Ikony Premium aplikacji" srcset="/file/464001851/10bd5/g0G8pN89a9g.64157/09a447002e2a55b58f , 2x" />
+</a>
+</div>
+<h4>
+<a class="anchor" name="bez-reklam" href="#bez-reklam">
+<i class="anchor-icon">
+</i>
+</a>
+<img class="icon" src="/file/464001305/110b0/-bpC5P3HJp4.6317/a2b79589744c739331" alt="Premium"> Bez reklam</h4>
+<p>W niektórych krajach wiadomości sponsorowane są wyświetlane w dużych, publicznych kanałach typu „jeden do wielu”. Te minimalistyczne, dbające o prywatność reklamy pomagają wesprzeć koszty operacyjne Telegrama, ale nie będą już wyświetlane subskrybentom Telegram Premium.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001307/10742/fNYrtwQiMWU.47990/c23b16d041b0ac7201" style="max-width: 600px;" title="Nie będzie to wyglądało dokładnie tak — zwykle karmimy kaczki poza ekranem." alt="Bez reklam">
+<source src="/file/464001861/10d8b/6HwUUM-8tvg.2196854.mp4/4200788edba0b2bded" type="video/mp4">
+</video>
+</div>
+<blockquote>
+<p>Subskrypcje Premium pomagają Telegramowi nie tylko pokryć dodatkowe koszty funkcji Premium, ale także wspierać bezpłatną wersję Telegrama dla wszystkich.</p>
+</blockquote>
+<h3>
+<a class="anchor" name="ulepszenia-dla-wszystkich" href="#ulepszenia-dla-wszystkich">
+<i class="anchor-icon">
+</i>
+</a>Ulepszenia dla wszystkich</h3>
+<p>Podczas gdy zamierzamy udostępniać więcej ekscytujących funkcji dla subskrybentów Premium, będziemy nadal wprowadzać bezpłatne funkcje dostępne dla wszystkich i robimy to szybciej niż jakakolwiek inna popularna aplikacja. Ta aktualizacja nie jest wyjątkiem — dodaje <strong>prośby o dołączenie</strong> do grup publicznych, animowany ekran dla <strong>zewnętrznych udostępnień</strong>, <strong>ulepszone opisy botów</strong> i wiele więcej.</p>
+<h4>
+<a class="anchor" name="prosby-o-dolaczenie-do-grup-publicznych" href="#prosby-o-dolaczenie-do-grup-publicznych">
+<i class="anchor-icon">
+</i>
+</a>Prośby o dołączenie do grup publicznych</h4>
+<p>Grupy publiczne mogą teraz włączać prośby o dołączenie, umożliwiając administratorom grup sprawdzanie nowych członków przed zatwierdzeniem ich do pisania na czacie. Użytkownicy, którzy otworzą grupę, mogą dotknąć „Poproś o dołączenie do grupy”, dodając swoją prośbę do listy, do której dostęp mają tylko administratorzy.</p>
+<div class="blog_image_wrap blog_wide_image_wrap">
+<a href="/file/464001999/11ac9/8LcPPr0Bers.142998/554b563068dd4a2829" target="_blank">
+<img src="/file/464001999/11ac9/8LcPPr0Bers.142998/554b563068dd4a2829" title="Puk puk, kto tam?" alt="Prośby o dołączenie do grup publicznych" srcset="/file/464001999/11ac9/8LcPPr0Bers.142998/554b563068dd4a2829 , 2x" />
+</a>
+</div>
+<p>Administratorzy mogą skontaktować się z członkami, którzy chcą dołączyć i porozmawiać na czacie, aby omówić zasady, upewnić się, że pasują, a nawet zaplanować przyjęcie powitalne. Gdy administrator wysyła wiadomość, Telegram informuje użytkownika, że wysyła ją jako administrator grupy.</p>
+<blockquote>
+<p>Właściciele grup publicznych mogą włączyć prośby o dołączenie za pomocą opcji <em>Informacje o grupie » Edytuj » Typ grupy » Kto może wysyłać wiadomości? »</em> wybierz <em>Tylko członkowie »</em> włącz <em>Zatwierdź nowych członków</em>.</p>
+</blockquote>
+<h4>
+<a class="anchor" name="plakietki-weryfikacyjne-w-czatach" href="#plakietki-weryfikacyjne-w-czatach">
+<i class="anchor-icon">
+</i>
+</a>Plakietki weryfikacyjne w czatach</h4>
+<p>Osoby publiczne i organizacje mogą zweryfikować swoją grupę, kanał lub bota otrzymując plakietkę weryfikacyjną <img class="icon" src="/file/464001906/107ca/Y-sn47RDLAk.1898/a6ad0e5cfb2699cf01" alt="Verification Check">, aby pokazać użytkownikom, że wiadomości pochodzą z potwierdzonego źródła. Oprócz profili, wyników wyszukiwania i listy czatów te odznaki pojawiają się teraz w górnej części czatu. Dzięki temu jeszcze łatwiej jest zidentyfikować zweryfikowane źródła informacji.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001065/1085b/eyYpGT2_Yq0.49371/188f657ae7aee1b44e" style="max-width: 600px;" title="Bardzo zweryfikowane." alt="Plakietki weryfikacyjne w czatach">
+<source src="/file/464001486/10d8b/XPjDnSBGl6E.187867.mp4/c8b51e4dc87c2bfd48" type="video/mp4">
+</video>
+</div>
+<blockquote>
+<p>Jeśli jesteś zweryfikowany w co najmniej dwóch sieciach społecznościowych, możesz <a href="https://telegram.org/verify">zweryfikować swoją grupę, kanał lub bota</a>.</p>
+</blockquote>
+<h4>
+<a class="anchor" name="lepsze-boty" href="#lepsze-boty">
+<i class="anchor-icon">
+</i>
+</a>Lepsze boty</h4>
+<p>Boty w Telegramie mogą pomóc ci w rozwiązywaniu quizów, przyjmowaniu płatności, a nawet zastępować całe strony internetowe. Twórcy botów mogą teraz umieścić <strong>zdjęcie lub film</strong> w sekcji <strong>„Co może robić ten bot?”</strong> swoich botów, aby zaprezentować ich funkcje.</p>
+<div class="blog_image_wrap blog_wide_image_wrap">
+<a href="/file/464001620/10581/TgmgQQ-u2yw.148291/608ebf5909f28d53c5" target="_blank">
+<img src="/file/464001620/10581/TgmgQQ-u2yw.148291/608ebf5909f28d53c5" title="Kup, użyj, zniszcz, napraw, rozbij, zmień, teraz ulepsz." alt="Co może robić ten bot?" srcset="/file/464001620/10581/TgmgQQ-u2yw.148291/608ebf5909f28d53c5 , 2x" />
+</a>
+</div>
+<p>Boty zintegrowane z <img class="icon" src="/file/464001085/2/E4hNXSNQimQ.2503/bf6ffcab3cb3afd43d" alt="Attach"> menu załączników oprócz czatów jeden na jeden mogą teraz działać również w grupach i kanałach. </p>
+<blockquote>
+<p>Bot API to bezpłatna i otwarta platforma, dostępna dla wszystkich. Jeśli chcesz zbudować własnego bota, zapoznaj się z <a href="https://core.telegram.org/bots">tą stroną</a>.</p>
+</blockquote>
+<h4>
+<a class="anchor" name="ulepszone-podglady-czatow-na-androidzie" href="#ulepszone-podglady-czatow-na-androidzie">
+<i class="anchor-icon">
+</i>
+</a>Ulepszone podglądy czatów na Androidzie</h4>
+<p>Ta aktualizacja wnosi <strong>ulepszone podglądy czatów</strong> podobnie jak w systemie iOS. Teraz możesz je przewijać, aby <strong>zobaczyć cały czat</strong> bez oznaczania go jako przeczytany. Dodano <strong>nowe przyciski</strong>, które pozwalają oznaczyć czat jako przeczytany, wyciszyć go, przypiąć lub usunąć.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001121/1145e/qQ3N9lbNVYM.56572/80ac2ff07d570e8581" style="max-width: 600px;" title="Tylko mały rzut oka. Dobra, może duży podgląd." alt="Ulepszone podglądy czatów na Androidzie">
+<source src="/file/464001427/114de/_Qsp46gfXgw.2253966.mp4/9c7a813e1fff41d6f2" type="video/mp4">
+</video>
+</div>
+<blockquote>
+<p>Aby wyświetlić podgląd czatu, po prostu naciśnij i przytrzymaj jego zdjęcie profilowe na liście czatów.</p>
+</blockquote>
+<h4>
+<a class="anchor" name="automatyczne-zapisywanie-w-galerii-na-androidzie" href="#automatyczne-zapisywanie-w-galerii-na-androidzie">
+<i class="anchor-icon">
+</i>
+</a>Automatyczne zapisywanie w galerii na Androidzie</h4>
+<p>Opcja automatycznego <strong>zapisywania multimediów w Galerii</strong> powraca z nową energią: zapisywanie multimediów można teraz włączać i wyłączać osobno dla czatów z <strong>użytkownikami, grup lub kanałów</strong>.</p>
+<div class="blog_image_wrap blog_wide_image_wrap">
+<a href="/file/464001394/11c35/F7XU_28_SHU.86718/4e580f61c05a6276ff" target="_blank">
+<img src="/file/464001394/11c35/F7XU_28_SHU.86718/4e580f61c05a6276ff" title="Więcej multimediów, mniej stuknięć." alt="Ustawienie zapisywania w galerii na Androidzie" srcset="/file/464001394/11c35/F7XU_28_SHU.86718/4e580f61c05a6276ff , 2x" />
+</a>
+</div>
+<h4>
+<a class="anchor" name="ulepszone-udostepnianie-z-zewnatrz-na-ios" href="#ulepszone-udostepnianie-z-zewnatrz-na-ios">
+<i class="anchor-icon">
+</i>
+</a>Ulepszone udostępnianie z zewnątrz na iOS</h4>
+<p>Dzięki możliwości wysyłania plików o wielkości do <strong>2 GB</strong> (<a href="#przesylanie-plikow-o-wielkosci-4-gb">lub 4 GB</a>) użytkownicy mogą łatwo udostępniać duże elementy multimedialne z <strong>innych aplikacji</strong> bezpośrednio do Telegrama na dowolnej platformie mobilnej. Oszczędza to zarówno czas, jak i miejsce do przechowywania więc nie musisz zapisywać pliku w Telegramie przed wysłaniem go.</p>
+<p>Podczas wysyłania dużych plików udostępnionych z innej aplikacji na iOS możesz teraz obserwować <strong>animowany pasek postępu</strong>, aby dowiedzieć się, czy masz wystarczająco dużo czasu na herbatę, czy może powinieneś pozostać przy espresso.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001728/fe97/BDrmr9JKW34.38597/f54a44cf612b5060f4" style="max-width: 600px;" title="Używasz innych aplikacji?" alt="Ulepszone udostępnianie z zewnątrz na iOS">
+<source src="/file/464001454/11447/spnWsPnfSWM.978789.mp4/1daeef5e5b911e08db" type="video/mp4">
+</video>
+</div>
+<h4>
+<a class="anchor" name="kreator-animowanych-zdjec-profilowych-na-macos" href="#kreator-animowanych-zdjec-profilowych-na-macos">
+<i class="anchor-icon">
+</i>
+</a>Kreator animowanych zdjęć profilowych na macOS</h4>
+<p>Użytkownicy systemu macOS mają teraz szybki sposób na wygenerowanie własnego zdjęcia profilowego — wybierz dowolną naklejkę lub animowane emoji jako fokus i dodaj kolorowe tło gradientowe. Możesz je ustawić dla własnego profilu lub jako zdjęcie grupy, lub kanału – co ułatwia tworzenie tematycznych ikon do czatów bez wyszukiwania zdjęć stockowych.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001599/11376/lKgoNItH6LU.33849/f746d770ab23a9b3bb" style="max-width: 600px;" title="Stałem się naklejką." alt="Kreator animowanych zdjęć profilowych na macOS">
+<source src="/file/464001576/1024a/nK_t1F4MA0E.5805881.mp4/efbd263416af07a3b9" type="video/mp4">
+</video>
+</div>
+<blockquote>
+<p>Aby utworzyć taką ikonę, przejdź do strony Ustawienia lub Informacje o czacie » kliknij Edytuj » kliknij Zdjęcie profilowe » wybierz Naklejka lub emoji. </p>
+</blockquote>
+<h4>
+<a class="anchor" name="szybciej-i-mocniej" href="#szybciej-i-mocniej">
+<i class="anchor-icon">
+</i>
+</a>Szybciej i mocniej</h4>
+<p>Ta aktualizacja zawiera ponad <strong>100 poprawek i optymalizacji</strong> aplikacji mobilnych i komputerowych — eliminuj błędy, poprawia szybkość działania i rozszerza drobne funkcje. Użytkownicy iOS z najnowszymi iPhone&#39;ami i iPadami otrzymują <strong>znacznie płynniejsze animacje</strong> (120 FPS) w całej aplikacji. Użytkownicy Androida zauważą <strong>lepszą jakość dźwięku i obrazu</strong> w wiadomościach głosowych i wideo, a także opcje <strong>ustawiania alternatywnych ikon aplikacji</strong>, usuwania wszystkich ostatnich naklejek naraz i tłumaczenia biografii użytkowników lub opisów czatów.</p>
+<blockquote>
+<p>Ta aktualizacja jest wprowadzana stopniowo. Jeśli twoja aplikacja nie oferuje aktualizacji, poczekaj – nowa wersja będzie dostępna wkrótce.</p>
+</blockquote>
+<h4>
+<a class="anchor" name="dziekujemy" href="#dziekujemy">
+<i class="anchor-icon">
+</i>
+</a>Dziękujemy</h4>
+<p>Dzisiaj jest ważny dzień w historii Telegrama – wyznacza on nie tylko nowy kamień milowy, ale także początek <strong>zrównoważonej monetyzacji</strong> Telegrama. Uważamy, że rozwój Telegrama powinien być napędzany głównie przez jego <strong>użytkowników</strong>, a nie reklamodawców. W ten sposób nasi użytkownicy zawsze <strong>pozostaną naszym głównym priorytetem</strong>.</p>
+<div>
+<br>
+</div>
+<p>
+<em>19 czerwca 2022<br>Zespół Telegrama</em>
+</p>
+</div>
+</div>
+<div class="tl_main_share clearfix">
+<a href="https://t.me/share/url?url=https%3A%2F%2Ftelegram.org%2Fblog%2F700-million-and-premium%2Fpl&text=Telegram%20ma%20teraz%20ponad%20700%20milion%C3%B3w%20aktywnych%20u%C5%BCytkownik%C3%B3w%20miesi%C4%99cznie.%20Dzi%C5%9B%20uruchamiamy%20Telegram%20Premium%20%E2%80%94%20subskrypcj%C4%99%2C%20kt%C3%B3ra%20pozwala%20wspiera%C4%87%20ci%C4%85g%C5%82y%20rozw%C3%B3j%20Telegrama%20i%20daje%20dost%C4%99p%20do%20ekskluzywnych%20dodatkowych%20funkcji." class="tl_telegram_share_btn" id="tl_telegram_share_btn" data-text="Telegram ma teraz ponad 700 milionów aktywnych użytkowników miesięcznie. Dziś uruchamiamy Telegram Premium — subskrypcję, która pozwala wspierać ciągły rozwój Telegrama i daje dostęp do ekskluzywnych dodatkowych funkcji." data-url="https://telegram.org/blog/700-million-and-premium/pl">
+<i class="tl_telegram_share_icon">
+</i>
+<span class="tl_telegram_share_label" target="_blank">Forward</span>
+</a>
+<a href="https://twitter.com/share" class="tl_twitter_share_btn" id="tl_twitter_share_btn" data-text="Telegram ma teraz ponad 700 milionów aktywnych użytkowników miesięcznie. Dziś uruchamiamy Telegram Premium — subskrypcję, która pozwala wspierać ciągły rozwój Telegrama i daje dostęp do ekskluzywnych dodatkowych funkcji." data-url="https://telegram.org/blog/700-million-and-premium/pl" data-via="Telegram">Tweet <span class="tl_twitter_share_cnt">
+</span>
+</a>
+</div>
+</div>
+<div class="tl_main_recent_news_wrap tlb_other_news_wrap tl_blog_list_page_wrap">
+<h3 class="tl_main_recent_news_header">
+<a href="/blog">Other News</a>
+</h3>
+<div class="tl_main_recent_news_cards clearfix">
+<a class="dev_blog_card_link_wrap" href="/blog/welcome-messages-buttons-TG-13/pl">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400741/6/aFBFZ5lNqO8.66680.webp/0e567958d5b96a2184" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">Wiadomości powitalne, przyciski w wiadomościach i podpisane prezenty</h4>
+<div class="dev_blog_card_lead">Przedstawiamy wiadomości powitalne, które pozwalają powitać nowych członków grup lub kanałów, przyciski w wiadomościach, które czynią tekst…</div>
+</div>
+<div class="dev_blog_card_date">Aug 25, 2026</div>
+</div>
+</a>
+<a class="dev_blog_card_link_wrap" href="/blog/communities-editor-invisible-messages/pl">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400366/6/dI0zgi0mM5s.323818.webp/6a362dadee6e7e6011" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">Edytor bogatego tekstu, społeczności, tymczasowe wiadomości w grupach, 350 milionów GIFów</h4>
+<div class="dev_blog_card_lead">Przedstawiamy edytor do formatowania i generowania bogatego tekstu, Społeczności Telegrama…</div>
+</div>
+<div class="dev_blog_card_date">Jul 14, 2026</div>
+</div>
+</a>
+<a class="dev_blog_card_link_wrap" href="/blog/watch-apps-and-more/pl">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400535/2/fkUcVRnSU-M.140100.webp/10c066db41f83e6d5e" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">Aplikacje na smartwatche, bogato sformatowany tekst dla botów, opiekuni AI w grupach i znacznie więcej</h4>
+<div class="dev_blog_card_lead">Dzisiejsza aktualizacja wprowadza Telegrama na Apple Watch i smartwatche z Androidem, obrzydliwie…</div>
+</div>
+<div class="dev_blog_card_date">Jun 11, 2026</div>
+</div>
+</a>
+<a class="dev_blog_card_link_wrap" href="/blog/ai-bot-revolution-11-new-features/pl">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400475/2/BwY041V7nZg.149454.webp/873ed0c0321c7633e7" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">Gościnne boty AI, czaty bot-z-botem, automatyzacja czatów, wyszukiwarka ponad 100 milionów emoji i naklejek, własne style AI, statystyki ankiet, ciche zaplanowane wiadomości, usuwanie reakcji</h4>
+<div class="dev_blog_card_lead">W dzisiejszej aktualizacji Telegram dodaje ponad…</div>
+</div>
+<div class="dev_blog_card_date">May 7, 2026</div>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer_wrap">
+<div class="footer_columns_wrap footer_desktop">
+<div class="footer_column footer_column_telegram">
+<h5>Telegram</h5>
+<div class="footer_telegram_description">
+</div>
+      Telegram is a cloud-based mobile and desktop messaging app with a focus on security and speed.
+    </div>
+<div class="footer_column">
+<h5>
+<a href="/faq">About</a>
+</h5>
+<ul>
+<li>
+<a href="/faq">FAQ</a>
+</li>
+<li>
+<a href="/privacy">Privacy</a>
+</li>
+<li>
+<a href="/press">Press</a>
+</li>
+</ul>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/apps#mobile-apps">Mobile Apps</a>
+</h5>
+<ul>
+<li>
+<a href="/dl/ios">iPhone/iPad</a>
+</li>
+<li>
+<a href="/android">Android</a>
+</li>
+<li>
+<a href="/dl/web">Mobile Web</a>
+</li>
+</ul>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/apps#desktop-apps">Desktop Apps</a>
+</h5>
+<ul>
+<li>
+<a href="//desktop.telegram.org/">PC/Mac/Linux</a>
+</li>
+<li>
+<a href="//macos.telegram.org/">macOS</a>
+</li>
+<li>
+<a href="/dl/web">Web-browser</a>
+</li>
+</ul>
+</div>
+<div class="footer_column footer_column_platform">
+<h5>
+<a href="//core.telegram.org/">Platform</a>
+</h5>
+<ul>
+<li>
+<a href="//core.telegram.org/api">API</a>
+</li>
+<li>
+<a href="//translations.telegram.org/">Translations</a>
+</li>
+<li>
+<a href="//instantview.telegram.org/">Instant View</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="footer_columns_wrap footer_mobile">
+<div class="footer_column">
+<h5>
+<a href="/faq">About</a>
+</h5>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/blog">Blog</a>
+</h5>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/press">Press</a>
+</h5>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/safety">Safety</a>
+</h5>
+</div>
+</div>
+</div>
+<script src="/js/main.js?49">
+</script>
+<script src="/js/tgsticker.js?32">
+</script>
+<script src="/js/main-theme.js?6">
+</script>
+<script>initScrollVideos(true);
+mainInitTgStickers({"maxDeviceRatio":2,"cachingModulo":4});
+twitterCustomShareInit();
+blogSideImageInit();
+backToTopInit("Go up");
+removePreloadInit();
+</script>
+</body>
+</html>

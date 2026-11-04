@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>TON Block Validation Challenge – Developer Challenges</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta name="format-detection" content="telephone=no" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="MobileOptimized" content="176" />
+<meta name="HandheldFriendly" content="True" />
+<meta name="twitter:card" content="summary">
+</meta>
+<meta property="og:title" content="TON Block Validation Challenge">
+<meta property="og:description" content="Overview
+In the TON blockchain, validators are responsible for maintaining the network by generating and validating blocks.…">
+<link rel="shortcut icon" href="/img/cd_favicon.ico" type="image/x-icon" />
+<link rel="mask-icon" href="/img/cd_icon.svg" color="#299ed8">
+<script>document.cookie="stel_dt="+encodeURIComponent((new Date).getTimezoneOffset())+";path=/;max-age=31536000;samesite=None;secure"</script>
+<link href="/css/font-roboto.css?1" rel="stylesheet" type="text/css">
+<link href="/css/bootstrap.min.css?3" rel="stylesheet">
+<link href="/css/bootstrap-extra.css?2" rel="stylesheet">
+<link href="/css/telegram.css?256" rel="stylesheet">
+<link href="/css/contest.css?41" rel="stylesheet">
+<link href="/css/contest-zoo.css?7" rel="stylesheet">
+<link href="/css/jquery-ui.min.css?1" rel="stylesheet">
+<link href="/css/highlight.min.css?1" rel="stylesheet">
+</head>
+<body class="emoji_image no-transition">
+<div id="aj_progress" class="progress-bar">
+</div>
+<div id="aj_content">
+<div class="cd-container">
+<header>
+<div class="container">
+<div class="header-wrap">
+<div id="header-panel" class="header-panel">
+<div class="header-auth">
+<div class="header-auth-item">
+<a class="header-auth-link login-link" href="/auth">Login</a>
+</div>
+</div>
+<div class="header-breadcrumb header-breadcrumb-simple">
+<ol id="breadcrumb" class="header-nav breadcrumb">
+<li class="cd-logo">
+<a href="/">
+<i class="cd-icon">
+</i>
+<span class="cd-logo-title">Developer Challenges</span>
+</a>
+</li>
+<li class="active">TON Block Validation Challenge</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+</header>
+<main class="container">
+<section class="cd-content">
+<div id="dev_page_content_wrap" class=" ">
+<div class="dev_page_bread_crumbs">
+</div>
+<h1 id="dev_page_title">TON Block Validation Challenge</h1>
+<div id="dev_page_content">
+<h2>
+<a class="anchor-link" href="#overview">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="overview">
+</a>Overview</h2>
+<p>In the TON blockchain, validators are responsible for maintaining the network by generating and validating blocks.<br>Effective validation of new blocks is crucial for the performance of the network. Your task in this contest is to optimize the algorithm for block validation.</p>
+<p>The TON Blockchain consists of multiple <strong>shards</strong>, each containing a subset of accounts. All states of these accounts, along with queues of pending messages and various metadata, are stored in the shard&#39;s <strong>shard state</strong>.</p>
+<p>A <strong>block</strong> in TON is a fundamental data structure that represents a transition between the previous and the next shard state. It consists of:<br>
+<strong>1.</strong> A list of transactions.<br>
+<strong>2.</strong> A list of messages created or processed in the block.<br>
+<strong>3.</strong> Metadata, such as a timestamp and identifiers of previous blocks.<br>
+<strong>4.</strong>
+<strong>Merkle update</strong> of the shard state, which represents the difference between the previous and the next shard states.</p>
+<p>To verify the validity of the block, validators take the previous shard state and perform multiple checks, such as:<br>
+<strong>1.</strong> Verifying metadata.<br>
+<strong>2.</strong> Executing all transactions in the block and generating the updated account states.<br>
+<strong>3.</strong> Checking the list of messages, confirming that messages from the queues and newly generated messages are processed in the correct order.<br>
+<strong>4.</strong> Verifying the Merkle update, checking that the new shard state reflects all changes in account states and message queues.</p>
+<h2>
+<a class="anchor-link" href="#task-description">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="task-description">
+</a>Task description</h2>
+<p>In this task, you will be given the block and the collated data. Collated data contains Merkle proofs of all required shard states, therefore eliminating the need to have the full shard states. The block will be given <strong>without the Merkle update</strong>.<br>In addition to validating the block, your task is to reconstruct the new shard state and output the Merkle update.</p>
+<p>You are given the reference implementation based on the original block validation algorithm in TON.<br>Your task is to optimize the implementation. It should be consistent with the reference algorithm and will be scored based on execution time.</p>
+<p>You will have full access to the main TON repository, meaning that you can use and modify existing code for block validation.</p>
+<h2>
+<a class="anchor-link" href="#technical-details">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="technical-details">
+</a>Technical details</h2>
+<h3>
+<a class="anchor-link" href="#solution-format">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="solution-format">
+</a>Solution format</h3>
+<p>Clone the ton repository and checkout the branch:</p>
+<pre>
+<code class="lang-bash">git clone --recursive https://github.com/ton-blockchain/ton.git
+cd ton
+git checkout validation-contest</code>
+</pre>
+<p>Your solution will be the <code>contest/solution/contest-solution</code> CMake target.<br>The entry point of the solution is <code>run_contest_solution</code> in <code>contest/solution/solution.cpp</code>. It takes:<br>
+<strong>1.</strong>
+<code>block_id</code> - id of the block (shard, seqno and hashes).<br>
+<strong>2.</strong>
+<code>block_data</code> - serialized block data, but without state update (it is replaced with an empty cell).<br>
+<strong>3.</strong>
+<code>collated_data</code> - serialized collated data (Merkle proofs of shard states).<br>
+<strong>4.</strong>
+<code>promise</code> - the Promise object to return the result to.<br>    4a) If the block is valid, the solution should return the serialized Merkle update.<br>    4b) If the block is invalid, the solution should return any <code>td::Status::Error</code>.</p>
+<p>The reference solution is implemented in <code>contest/solution/contest-validate-query.cpp</code>. It is based on the original validation algorithm (see <code>validator/impl/validate-query.cpp</code>), but with the following differences:<br>
+<strong>1.</strong> It uses shard states from the collated data instead of the database.<br>
+<strong>2.</strong> It not only validates the block, but also reconstructs the Merkle update.<br>    2a) Block hashes are not checked, because the block is modified (no Merkle update).<br>    2b) Obviously, the new shard state is not checked, because it is not given.<br>    2c) “Overload”/“underload” flags and “processed upto” for the new state are given in the collated data because they cannot be reliably reconstructed.<br>
+<strong>3.</strong> Only basechain blocks (<code>workchain=0</code>) are supported. No masterchain blocks will be given in this contest.<br>
+<strong>4.</strong> Outbound queue size is expected to be present in the previous shard state, <code>capStoreOutMsgQueueSize</code> flag is expected to be set.</p>
+<p>You can use and modify any files in the repository.<br>To submit your solution, create a git patch of the repository and submit it to the testing system. Please include a brief description of the optimizations you made.</p>
+<h3>
+<a class="anchor-link" href="#multi-threading">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="multi-threading">
+</a>Multi-threading</h3>
+<p>The original implementation of the validation algorithm runs in one thread.<br>Your solution, however, can create multiple threads to run validation in parallel.<br>The number of available CPU cores in the testing environment will be 8.</p>
+<blockquote>
+<p>
+<strong>Note:</strong> the reference implementation uses <code>vm::CellUsageTree</code> to build the Merkle update. <code>CellUsageTree</code> is <strong>not thread-safe</strong>. Solving this issue is a part of the task if you choose to implement a multi-threaded solution.</p>
+</blockquote>
+<h3>
+<a class="anchor-link" href="#scoring">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="scoring">
+</a>Scoring</h3>
+<p>Your solution will be executed on a set of tests, which contains both valid and invalid blocks.<br>The solution passes the test if it correctly answers whether the block is valid and (if valid) outputs the correct Merkle update.</p>
+<p>For each test, the real running time and the total CPU time for all threads is measured.<br>The final result consists of:<br>
+<strong>1.</strong> The number of passed tests.<br>
+<strong>2.</strong> The sum of the real time for all passed tests where the block is <strong>valid</strong>.<br>
+<strong>3.</strong> The sum of the CPU time for all passed tests where the block is <strong>valid</strong>.</p>
+<p>There will be two leaderboards: one for the total real time, one for the total CPU time.<br>
+<strong>1.</strong> In each leaderboard the participants are ranked by the number of passed tests.<br>
+<strong>2.</strong> Participants with an equal number of passed tests are ranked by total time.</p>
+<blockquote>
+<p>
+<strong>Note:</strong> tests with <strong>invalid</strong> blocks do not affect the total time. However, each test will have a time limit of 5 seconds.</p>
+</blockquote>
+<p>The set of tests can be downloaded with <code>3F6F8A16AF136828601A8787E510FE6FFDFCF0FA44F4D66446AE72CDE7F4EEDD</code> via <strong>TON-Torrent</strong>: <a href="https://github.com/xssnick/TON-Torrent?tab=readme-ov-file#ton-torrent">GUI</a> or <a href="https://github.com/xssnick/tonutils-storage?tab=readme-ov-file#quick-start">CLI</a>.</p>
+<h3>
+<a class="anchor-link" href="#local-run">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="local-run">
+</a>Local run</h3>
+<p>
+<a href="https://t.me/contest/394">Download</a> and extract archive <code>validation-contest-tests.zip</code>.</p>
+<p>Build and run your solution:</p>
+<pre>
+<code class="lang-bash">sudo apt-get update
+sudo apt-get install -y build-essential cmake ninja-build zlib1g-dev libsecp256k1-dev libmicrohttpd-dev libsodium-dev liblz4-dev autoconf libtool libssl-dev
+
+mkdir build &amp;&amp; cd build
+cmake ../ton -DCMAKE_BUILD_TYPE=Release
+cmake --build . --target contest-grader
+./contest/grader/contest-grader --threads 8 --tests &lt;tests-dir&gt;</code>
+</pre>
+<p>The grader outputs real and CPU time for all tests.</p>
+</div>
+</div>
+</section>
+</main>
+</div>
+<div class="popup-container login-popup-container hide" id="login-popup-container">
+<div class="popup">
+<div class="popup-body">
+<section>
+<h2>Log In</h2>
+<p>Log in here to leave comments and take part in the Telegram Competitions. Please enter your <b>phone number</b> in the <a target="_blank" rel="noopener" href="https://telegram.org/faq#login-and-sms">international format</a> and we will send a confirmation message to your account via Telegram.</p>
+<form id="send-form" class="login-form">
+<div class="form-group">
+<input type="tel" class="form-control cd-form-control input-lg" id="phone-number" placeholder="+12223334455" autocomplete="off"/>
+</div>
+<div class="popup-buttons">
+<a class="btn btn-link btn-lg login-cancel-btn">Cancel</a>
+<button type="submit" class="btn btn-link btn-lg">Next</button>
+</div>
+</form>
+<div id="login-form" class="hide">
+<div class="form-group">
+<span class="form-control cd-form-control input input-lg input-disabled">
+<strong id="phone-number-field">
+</strong> (<a class="login-back" href="/auth">Incorrect?</a>)</span>
+<p class="help-block dots-animated">We&#39;ve just sent you a message.<br/>Please confirm access via Telegram</p>
+</div>
+<div class="popup-buttons">
+<a class="btn btn-link btn-lg login-cancel-btn">Cancel</a>
+<a class="btn btn-link btn-lg login-back">Back</a>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+</div>
+<script src="/js/jquery.min.js?1">
+</script>
+<script src="/js/bootstrap.min.js">
+</script>
+<script src="/js/main-aj.js?76">
+</script>
+<script src="/js/contest.js?25">
+</script>
+<script src="/js/jquery-ui.min.js?1">
+</script>
+<script src="/js/tgsticker.js?32">
+</script>
+<script src="/js/highlight.min.js?1">
+</script>
+<script>ajInit({"version":703,"apiUrl":"\/api?hash=X","unauth":true});</script>
+<script id="aj_script">Aj._useScrollHack=true;
+hljs.highlightAll();
+Aj.onLoad(function(state) {
+  function requestConfirmation(event) {
+    event && event.preventDefault();
+    var phone = $('#phone-number').val();
+    $.ajax({
+      type: 'POST',
+      url: '/auth/request',
+      data: {
+        phone: phone
+      },
+      success: function(result) {
+        $('#phone-number-field').text(phone);
+        $('#send-form').addClass('hide');
+        $('#login-form').removeClass('hide');
+        checkAuth(result.temp_session);
+      },
+      error: function(xhr) {
+        showAlert(xhr.responseText || 'Server error');
+      },
+      dataType: 'json'
+    });
+    return false;
+  }
+  function cancelConfirmation(event) {
+    event && event.preventDefault();
+    $('#phone-number-field').text('');
+    $('#send-form').removeClass('hide');
+    $('#login-form').addClass('hide');
+    $('#phone-number').focus();
+    clearTimeout(window.authTimeout);
+    return false;
+  }
+  function checkAuth(temp_session) {
+    clearTimeout(window.authTimeout);
+    window.authTimeout = setTimeout(function doCheckAuth() {
+      $.ajax({
+        type: 'POST',
+        url: '/auth/login',
+        data: {
+          temp_session: temp_session
+        },
+        success: function(result) {
+          if (result) {
+            location.reload();
+          } else {
+            checkAuth(temp_session);
+          }
+        },
+        error: function (xhr) {
+          showAlert(xhr.responseText || 'Server error');
+        },
+        dataType: 'json'
+      });
+    }, 700);
+  }
+  $('#login-popup-container').on('popup:open', function() {
+    $('#phone-number').focus();
+  });
+  $('#login-popup-container').on('popup:close', function() {
+    cancelConfirmation();
+    if (location.pathname == '/auth') {
+      window.history && history.replaceState(null, null, '/');
+    }
+  });
+  $('#login-popup-container #send-form').on('submit', requestConfirmation);
+  $('#login-popup-container .login-cancel-btn').on('click', function(e) {
+    e.preventDefault();
+    closePopup('#login-popup-container');
+  });
+  $('#login-popup-container .login-back').on('click', cancelConfirmation);
+  $('.login-link').on('click', function(e) {
+    e.stopImmediatePropagation();
+    e.preventDefault();
+    openPopup('#login-popup-container');
+  });
+});
+Aj.onUnload(function(state) {
+  $('#login-popup-container').off('popup:open');
+  $('#login-popup-container').off('popup:close');
+  $('#login-popup-container #send-form').off('submit');
+  $('#login-popup-container .login-cancel-btn').off('click');
+  $('#login-popup-container .login-back').off('click');
+  $('.login-link').off('click');
+});
+</script>
+<script>Aj.pageLoaded();</script>
+</body>
+</html>

@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Конкурс на Кластеризацию Данных 2021. Этап 2 – Developer Challenges</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta name="format-detection" content="telephone=no" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="MobileOptimized" content="176" />
+<meta name="HandheldFriendly" content="True" />
+<meta name="twitter:card" content="summary">
+</meta>
+<meta property="og:title" content="Конкурс на Кластеризацию Данных 2021. Этап 2">
+<meta property="og:description" content="В рамках второго этапа участникам предлагается доработать свою библиотеку на C/C++ для определения тематики каналов.
+Второй…">
+<link rel="shortcut icon" href="/img/cd_favicon.ico" type="image/x-icon" />
+<link rel="mask-icon" href="/img/cd_icon.svg" color="#299ed8">
+<script>document.cookie="stel_dt="+encodeURIComponent((new Date).getTimezoneOffset())+";path=/;max-age=31536000;samesite=None;secure"</script>
+<link href="/css/font-roboto.css?1" rel="stylesheet" type="text/css">
+<link href="/css/bootstrap.min.css?3" rel="stylesheet">
+<link href="/css/bootstrap-extra.css?2" rel="stylesheet">
+<link href="/css/telegram.css?256" rel="stylesheet">
+<link href="/css/contest.css?41" rel="stylesheet">
+<link href="/css/contest-zoo.css?7" rel="stylesheet">
+<link href="/css/jquery-ui.min.css?1" rel="stylesheet">
+</head>
+<body class="emoji_image no-transition">
+<div id="aj_progress" class="progress-bar">
+</div>
+<div id="aj_content">
+<div class="cd-container">
+<header>
+<div class="container">
+<div class="header-wrap">
+<div id="header-panel" class="header-panel">
+<div class="header-auth">
+<div class="header-auth-item">
+<a class="header-auth-link login-link" href="/auth">Login</a>
+</div>
+</div>
+<div class="header-breadcrumb header-breadcrumb-simple">
+<ol id="breadcrumb" class="header-nav breadcrumb">
+<li class="cd-logo">
+<a href="/">
+<i class="cd-icon">
+</i>
+<span class="cd-logo-title">Developer Challenges</span>
+</a>
+</li>
+<li class="active">Конкурс на Кластеризацию Данных 2021. Этап 2</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+</header>
+<main class="container">
+<section class="cd-content">
+<div id="dev_page_content_wrap" class=" ">
+<div class="dev_page_bread_crumbs">
+</div>
+<h1 id="dev_page_title">Конкурс на Кластеризацию Данных 2021. Этап 2</h1>
+<div id="dev_page_content">
+<!-- scroll_nav -->
+<p>В рамках второго этапа участникам предлагается доработать свою библиотеку на <strong>C/C++</strong> для определения тематики каналов.</p>
+<p>Второй этап продлится до <strong>23:50, 2 мая 2021</strong> (<a href="https://www.google.com/search?q=time+in+dubai+now&amp;oq=time+in+dubai+now&amp;aqs=chrome.0.69i59j0i433j0l5j69i60.2194j0j7&amp;sourceid=chrome&amp;ie=UTF-8">дубайское</a> время) и открыт <strong>только для участников <a href="/docs/dc2021-r1">первого этапа</a> конкурса</strong>. </p>
+<h3>
+<a class="anchor-link" href="#zadachi-etapa">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="zadachi-etapa">
+</a>Задачи этапа</h3>
+<p>
+<strong>Доработка алгоритма определения тематики канала.</strong> В этом этапе расширен набор языков, для которых требуется определение тематики. Список необходимых языков представлен ниже:</p>
+<ul>
+<li>Английский</li>
+<li>Русский</li>
+<li>Арабский</li>
+<li>Персидский</li>
+<li>Узбекский</li>
+</ul>
+<p>Для указанных языков алгоритм должен определить относительный вес для каждой выделенной тематики.</p>
+<h4>
+<a class="anchor-link" href="#novie-kategorii">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="novie-kategorii">
+</a>Новые категории</h4>
+<p>Наборы данных во втором раунде с большей вероятностью будут содержать <strong>заблокированный контент</strong>. Список возможных тематик был расширен соответствующим образом: добавлены <em>Drug Sale</em>, <em>Forgery</em>, <em>Hacked Accounts</em>, <em>Personal Data</em>, <em>Pirated Content</em>, <em>Prostitution</em>, <em>Spam &amp; Fake Followers</em>, <em>Weapon Sale</em>.</p>
+<h4>
+<a class="anchor-link" href="#spisok">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="spisok">
+</a>Список</h4>
+<p>Полный список возможных тематик с учетом добавленных перечислен ниже. В списке также представлены некоторые рекомендации, которыми руководствуются модераторы при разметке наборов данных, используемых для проверки работ.</p>
+<ul>
+<li>Art &amp; Design </li>
+<li>Bets &amp; Gambling <em>– включает ставки на спорт</em>
+</li>
+<li>Books</li>
+<li>Business &amp; Entrepreneurship</li>
+<li>Cars &amp; Other Vehicles</li>
+<li>Celebrities &amp; Lifestyle</li>
+<li>Cryptocurrencies</li>
+<li>Culture &amp; Events</li>
+<li>Curious Facts</li>
+<li>Directories of Channels &amp; Bots</li>
+<li>Drug Sale</li>
+<li>Economy &amp; Finance</li>
+<li>Education </li>
+<li>Erotic Content</li>
+<li>Fashion &amp; Beauty</li>
+<li>Fitness</li>
+<li>Forgery <em>– включает поддельные документы, фальшивые деньги и т.д.</em>
+</li>
+<li>Food &amp; Cooking</li>
+<li>Foreign Language Learning</li>
+<li>Hacked Accounts &amp; Software <em>– включает взломанное ПО, кардинг, пароли от сервисов по подписке и т.д.</em>
+</li>
+<li>Health &amp; Medicine</li>
+<li>History </li>
+<li>Hobbies &amp; Activities</li>
+<li>Home &amp; Architecture</li>
+<li>Humor &amp; Memes</li>
+<li>Investments</li>
+<li>Job Listings</li>
+<li>Kids &amp; Parenting</li>
+<li>Marketing &amp; PR</li>
+<li>Motivation &amp; Self-development <em>— включает вдохновляющие цитаты и поэзию</em>
+</li>
+<li>Movies</li>
+<li>Music</li>
+<li>Offers &amp; Promotions <em>– включает продажу любых товаров и услуг, кроме относящихся к новым категориям</em>
+</li>
+<li>Personal Data <em>– включает раскрытие личных данных, утёкшие базы и т.д</em>
+</li>
+<li>Pets</li>
+<li>Pirated Content <em>– фильмы, музыка, книга, но не ПО</em>
+</li>
+<li>Politics &amp; Incidents</li>
+<li>Prostitution</li>
+<li>Psychology &amp; Relationships</li>
+<li>Real Estate</li>
+<li>Recreation &amp; Entertainment</li>
+<li>Religion &amp; Spirituality</li>
+<li>Science</li>
+<li>Spam &amp; Fake followers <em>– включает услуги и инструменты для спама, накрутки подписчиков и т.д.</em>
+</li>
+<li>Sports <em>– включает e-sports</em>
+</li>
+<li>Technology &amp; Internet</li>
+<li>Travel &amp; Tourism</li>
+<li>Video Games</li>
+<li>Weapon Sale</li>
+<li>Other</li>
+</ul>
+<h4>
+<a class="anchor-link" href="#rekomendatsii-dlya-sortirovki">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="rekomendatsii-dlya-sortirovki">
+</a>Рекомендации для сортировки</h4>
+<p>Ниже приведены некоторые рекомендации, на которые опираются модераторы при разметке данных для анализа результатов этапа.</p>
+<p>
+<strong>1.</strong> Наибольший вес должна иметь наиболее узкая категория.</p>
+<p>*Например, если канал посвящен инвестициям в криптовалюты, категория “Cryptocurrencies” должна иметь больший вес, чем “Investment”. Если канал посвящен историческому развитию автомобилей в 20-м веке, это в первую очередь “Cars &amp; Vehicles”, а не “History”.</p>
+<p>
+<strong>2.</strong> Категорию личных каналов людей или каналов, посвященных тому или иному человеку, может помочь определить род деятельности человека.</p>
+<p>
+<em>Например, политик =&gt; “Politics &amp; Incidents”, кинозвезда =&gt; “Celebrities”, атлет =&gt; “Sports”. Разумеется, для финансовых советов от футболиста должна использоваться в первую очередь категория “Investments”</em>, а для кулинарного канала депутата — <em>Food &amp; Cooking</em>  (см. пункт 1).</p>
+<h3>
+<a class="anchor-link" href="#ishodnie-dannie">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="ishodnie-dannie">
+</a>Исходные данные</h3>
+<p>Участникам предлагаются тестовые наборы данных на актуальных для конкурса языках:</p>
+<ul>
+<li>
+<a href="https://data-static.usercontent.dev/dc0415-input.tar.gz">Sample 1, 15-04</a>
+</li>
+<li>
+<a href="https://data-static.usercontent.dev/dc0421-input.tar.gz">Sample 2, 21-04</a>
+</li>
+<li>
+<a href="https://data-static.usercontent.dev/dc0428-input.tar.gz">Sample 3, 28-04</a>
+</li>
+</ul>
+<p>Для Вашего удобства, кроме текстового файла, который содержит данные каналов на всех требуемых языках, в архив также добавлены отдельные файлы с данными каналов на каждом конкретном языке. Обратите внимание, что работа алгоритмов будет оцениваться на наборах данных, не отсортированных по языку — и проверочные наборы могут содержать данные из каналов на <strong>любом</strong> языке.</p>
+<h4>
+<a class="anchor-link" href="#mashinnii-perevod">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="mashinnii-perevod">
+</a>Машинный перевод</h4>
+<p>Для каждого файла в архиве есть версия с текстовыми данными, автоматически переведенными на английский язык. Обратите внимание, что Ваш алгоритм должен работать с текстами <strong>на оригинальном языке</strong>. Версию на английском языке можно использовать только для ознакомления с текстом.</p>
+<h4>
+<a class="anchor-link" href="#novie-dannie">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="novie-dannie">
+</a>Новые данные</h4>
+<p>В этом раунде были добавлены дополнительные данные, которые могут помочь улучшить качество определения тематики. Например, количество подписчиков канала, общее количество текстовых постов и файлов разных типов в канале. Кроме того, в наборе данных представлены метаданные файлов и ссылок.</p>
+<h4>
+<a class="anchor-link" href="#format-dannih">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="format-dannih">
+</a>Формат данных</h4>
+<p>Набор данных представляет из себя текстовый файл, где каждая строка – это данные канала в формате JSON. Обратите внимание, что <strong>любое из полей может отсутствовать</strong>:</p>
+<pre>
+<code>{
+  title: &quot;Channel title&quot;,
+  description: &quot;Channel description&quot;,
+  subscribers: 123400,
+  counters: [
+    posts: 100,
+    photos: 20,
+    videos: 10,
+    audios: 3,
+    files: 0
+  ],
+  recent_posts: [
+    {
+      type: &quot;text&quot;,
+      text: &quot;text of message&quot;, 
+      link_preview: {
+        url: &quot;https://example.com/&quot;,
+        title: &quot;Title of link preview&quot;,
+        description: &quot;Description of link preview&quot;
+      }
+    },
+      {
+      type: &quot;photo&quot;,
+      text: &quot;Photo caption&quot;
+    },
+      {
+      type: &quot;video&quot;,
+      text: &quot;Video caption&quot;,
+      duration: 65,
+      file_name: &quot;video.mp4&quot;,
+      file_size: 23982347
+    },
+      {
+      type: &quot;audio&quot;,
+      text: &quot;Audio caption&quot;,
+      performer: &quot;Performer&quot;,
+      title: &quot;Title&quot;,
+      duration: 183,
+      file_size: 1236123
+    },
+      {
+      type: &quot;file&quot;,
+      text: &quot;File caption&quot;,
+      file_name: &quot;test.pdf&quot;,
+      file_size: 1236
+    },
+    ...
+  ]
+}</code>
+</pre>
+<p>где:</p>
+<ul>
+<li>
+<strong>title</strong> – название канала,</li>
+<li>
+<strong>description</strong> – описание канала,</li>
+<li>
+<strong>subscribers</strong> – примерное количество подписчиков канала,</li>
+<li>
+<p>
+<strong>counters</strong> – счетчики канала, где:</p>
+<ul>
+<li>
+<strong>posts</strong> – общее количество постов в канале,</li>
+<li>
+<strong>photos</strong> – количество фотографий в канале,</li>
+<li>
+<strong>videos</strong> – количество видео в канале,</li>
+<li>
+<strong>audios</strong> – количество аудио в канале,</li>
+<li>
+<strong>files</strong> – количество файлов в канале,</li>
+</ul>
+</li>
+<li>
+<p>
+<strong>recent_posts</strong> – несколько постов из канала, где:</p>
+<ul>
+<li>
+<strong>type</strong> – тип поста: <em>text</em>, <em>photo</em>, <em>video</em>, <em>audio</em> или <em>file</em>,</li>
+<li>
+<strong>text</strong> – текст поста или подпись к медиа,    </li>
+<li>
+<strong>link_preview</strong> – данные из предпросмотра ссылки (если есть),</li>
+<li>
+<strong>duration</strong> – длительность видео или аудио в секундах,</li>
+<li>
+<strong>file_name</strong> – имя файла,</li>
+<li>
+<strong>file_size</strong> – размер файла в байтах,</li>
+<li>
+<strong>performer</strong> – название артиста,</li>
+<li>
+<strong>title</strong> – название трека.</li>
+</ul>
+</li>
+</ul>
+<p>В ходе конкурса будут периодически публиковаться дополнительные наборы данных.</p>
+<blockquote>
+<p>Для проверки работ будет использоваться набор данных, отличный от тестовых.</p>
+</blockquote>
+<h3>
+<a class="anchor-link" href="#razrabotka-i-testirovanie">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="razrabotka-i-testirovanie">
+</a>Разработка и тестирование</h3>
+<p>Участникам доступен простейший пример реализации библиотеки <a href="https://data-static.usercontent.dev/libtgcat-r2.tar.gz">libtgcat-r2.tar.gz</a>. В файле <code>tgcat.h</code> описан интерфейс библиотеки, который необходимо реализовать в рамках конкурса. Для сборки библиотеки можно использовать следующий код:</p>
+<pre>
+<code>mkdir build
+cd build
+cmake -DCMAKE_BUILD_TYPE=Release ..
+cmake --build .</code>
+</pre>
+<p>Полученный файл библиотеки <code>libtgcat.so</code> можно протестировать на <a href="#ishodnie-dannie">тестовых данных</a>, используя тестовый скрипт <a href="https://data-static.usercontent.dev/libtgcat-tester-r2.tar.gz">libtgcat-tester-r2.tar.gz</a>. Для этого нужно скопировать полученный файл <code>libtgcat.so</code> в папку с тестовым скриптом, после чего собирать с помощью cmake стандартным образом:</p>
+<pre>
+<code>mkdir build
+cd build
+cmake -DCMAKE_BUILD_TYPE=Release ..
+cmake --build .</code>
+</pre>
+<p>Для тестирования библиотеки следует запускать полученный бинарный файл <code>tgcat-tester</code> со следующими параметрами:</p>
+<pre>
+<code>tgcat-tester &lt;mode&gt; &lt;input_file&gt; &lt;output_file&gt;</code>
+</pre>
+<p>где:</p>
+<ul>
+<li>
+<strong>&lt;mode&gt;</strong> – <code>category</code>, </li>
+<li>
+<strong>&lt;input_file&gt;</strong> – путь до файла с тестовым набором входных данных, </li>
+<li>
+<strong>&lt;output_file&gt;</strong> – путь до файла с соответствующим набором выходных данных. </li>
+</ul>
+<p>Файл с выходными данными представляет из себя текстовый файл, где каждая строка это результат обработки данных канала в формате JSON:</p>
+<pre>
+<code>{
+  &quot;lang_code&quot;: &quot;en&quot;,
+  &quot;category&quot;: {
+    &quot;Art &amp; Design&quot;: 0.9,
+    &quot;Other&quot;: 0.1
+  }
+}</code>
+</pre>
+<p>где: </p>
+<ul>
+<li>
+<strong>lang_code</strong> – ISO 639-1 language code или “other”; библиотека должна возвращать тот язык, который определила — даже если этот язык не из списка целевых языков этапа.</li>
+<li>
+<strong>category</strong> – объект, ключом которого является одна из тематик (<a href="#zadaniya-konkursa">см. выше</a>), значением – вес этой тематики. Категории должны быть возвращены для каждого объекта, даже если библиотека определила язык не из списка целевых языков этапа.</li>
+</ul>
+<blockquote>
+<p>Обратите внимание, что во входных данных одновременно могут быть каналы на разных языках, библиотека должна сама определить язык канала, прежде чем определять категорию.</p>
+<p>
+<strong>Внимание:</strong> в выходных данных всегда должен содержаться язык, даже если библиотека определила язык, отличный от 5 целевых языков этапа. При подведении итогов этапа оценка качества определения языка проводиться не будет.</p>
+</blockquote>
+<p>
+<strong>Пример вызова скрипта:</strong>
+</p>
+<pre>
+<code>$ ./tgcat-tester category dc0415-input.txt dc0415-category-output.txt
+Processed 50297 queries in 0.033010 seconds</code>
+</pre>
+<h4>
+<a class="anchor-link" href="#obschie-trebovaniya-k-rabotam">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="obschie-trebovaniya-k-rabotam">
+</a>Общие требования к работам</h4>
+<ul>
+<li>Библиотека не должна использовать сеть (в том числе localhost).</li>
+<li>Библиотека должна отличаться высокой относительной скоростью работы.</li>
+<li>Использование внешних зависимостей рекомендуется свести к минимуму. Зависимости, которые все же необходимы, нужно перечислить в текстовом файле <strong>deb-packages.txt</strong>. Они будут установлены перед запуском командой <code>sudo apt-get install ...</code>
+</li>
+<li>Библиотека будет тестироваться на серверах с <a href="https://www.debian.org/releases/buster/">Debian GNU/Linux 10 (buster)</a>, x86-64 с 8 ядрами и 16 GB RAM. Обязательно проверьте корректность ее работы на чистой системе перед отправкой работы. </li>
+<li>Убедитесь, что библиотека собрана в системе <a href="https://www.debian.org/releases/buster/">Debian GNU/Linux 10 (buster)</a>.</li>
+<li>
+<p>На выходе требуется ZIP-файл (максимальный размер файла, который может принять бот, 2 Гб) со следующей структурой:</p>
+<pre>
+<code>submission.zip
+  -&gt; src - директория с исходным кодом приложения (обязательно)
+  -&gt; libtgcat.so - библиотека (обязательно)
+  -&gt; resources - директория с дополнительными файлами, необходимыми для работы библиотеки (используйте относительные пути для доступа к ним) (опционально)
+  -&gt; deb-packages.txt - текстовый файл с названиями пакетов внешних зависимостей, разделенных переводом строки (опционально)</code>
+</pre>
+</li>
+</ul>
+<h3>
+<a class="anchor-link" href="#otsenka-rabot">
+<i class="anchor-icon">
+</i>
+</a>
+<a class="anchor" name="otsenka-rabot">
+</a>Оценка работ</h3>
+<p>При оценке работ будет сделан упор на <strong>скорость</strong> и <strong>точность</strong> работы алгоритмов. Точность будет иметь наивысший приоритет.</p>
+<p>Библиотеки, обрабатывающие каждую 1000 каналов более чем за 60 секунд, рассматриваться не будут. </p>
+</div>
+</div>
+</section>
+</main>
+</div>
+<div class="popup-container login-popup-container hide" id="login-popup-container">
+<div class="popup">
+<div class="popup-body">
+<section>
+<h2>Log In</h2>
+<p>Log in here to leave comments and take part in the Telegram Competitions. Please enter your <b>phone number</b> in the <a target="_blank" rel="noopener" href="https://telegram.org/faq#login-and-sms">international format</a> and we will send a confirmation message to your account via Telegram.</p>
+<form id="send-form" class="login-form">
+<div class="form-group">
+<input type="tel" class="form-control cd-form-control input-lg" id="phone-number" placeholder="+12223334455" autocomplete="off"/>
+</div>
+<div class="popup-buttons">
+<a class="btn btn-link btn-lg login-cancel-btn">Cancel</a>
+<button type="submit" class="btn btn-link btn-lg">Next</button>
+</div>
+</form>
+<div id="login-form" class="hide">
+<div class="form-group">
+<span class="form-control cd-form-control input input-lg input-disabled">
+<strong id="phone-number-field">
+</strong> (<a class="login-back" href="/auth">Incorrect?</a>)</span>
+<p class="help-block dots-animated">We&#39;ve just sent you a message.<br/>Please confirm access via Telegram</p>
+</div>
+<div class="popup-buttons">
+<a class="btn btn-link btn-lg login-cancel-btn">Cancel</a>
+<a class="btn btn-link btn-lg login-back">Back</a>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+</div>
+<script src="/js/jquery.min.js?1">
+</script>
+<script src="/js/bootstrap.min.js">
+</script>
+<script src="/js/main-aj.js?76">
+</script>
+<script src="/js/contest.js?25">
+</script>
+<script src="/js/jquery-ui.min.js?1">
+</script>
+<script src="/js/tgsticker.js?32">
+</script>
+<script>ajInit({"version":701,"apiUrl":"\/api?hash=X","unauth":true});</script>
+<script id="aj_script">Aj._useScrollHack=true;
+window.initDevPageNav&&initDevPageNav();
+Aj.onLoad(function(state) {
+  function requestConfirmation(event) {
+    event && event.preventDefault();
+    var phone = $('#phone-number').val();
+    $.ajax({
+      type: 'POST',
+      url: '/auth/request',
+      data: {
+        phone: phone
+      },
+      success: function(result) {
+        $('#phone-number-field').text(phone);
+        $('#send-form').addClass('hide');
+        $('#login-form').removeClass('hide');
+        checkAuth(result.temp_session);
+      },
+      error: function(xhr) {
+        showAlert(xhr.responseText || 'Server error');
+      },
+      dataType: 'json'
+    });
+    return false;
+  }
+  function cancelConfirmation(event) {
+    event && event.preventDefault();
+    $('#phone-number-field').text('');
+    $('#send-form').removeClass('hide');
+    $('#login-form').addClass('hide');
+    $('#phone-number').focus();
+    clearTimeout(window.authTimeout);
+    return false;
+  }
+  function checkAuth(temp_session) {
+    clearTimeout(window.authTimeout);
+    window.authTimeout = setTimeout(function doCheckAuth() {
+      $.ajax({
+        type: 'POST',
+        url: '/auth/login',
+        data: {
+          temp_session: temp_session
+        },
+        success: function(result) {
+          if (result) {
+            location.reload();
+          } else {
+            checkAuth(temp_session);
+          }
+        },
+        error: function (xhr) {
+          showAlert(xhr.responseText || 'Server error');
+        },
+        dataType: 'json'
+      });
+    }, 700);
+  }
+  $('#login-popup-container').on('popup:open', function() {
+    $('#phone-number').focus();
+  });
+  $('#login-popup-container').on('popup:close', function() {
+    cancelConfirmation();
+    if (location.pathname == '/auth') {
+      window.history && history.replaceState(null, null, '/');
+    }
+  });
+  $('#login-popup-container #send-form').on('submit', requestConfirmation);
+  $('#login-popup-container .login-cancel-btn').on('click', function(e) {
+    e.preventDefault();
+    closePopup('#login-popup-container');
+  });
+  $('#login-popup-container .login-back').on('click', cancelConfirmation);
+  $('.login-link').on('click', function(e) {
+    e.stopImmediatePropagation();
+    e.preventDefault();
+    openPopup('#login-popup-container');
+  });
+});
+Aj.onUnload(function(state) {
+  $('#login-popup-container').off('popup:open');
+  $('#login-popup-container').off('popup:close');
+  $('#login-popup-container #send-form').off('submit');
+  $('#login-popup-container .login-cancel-btn').off('click');
+  $('#login-popup-container .login-back').off('click');
+  $('.login-link').off('click');
+});
+</script>
+<script>Aj.pageLoaded();</script>
+</body>
+</html>

@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html class="" data-theme="light">
+<head>
+<meta charset="utf-8">
+<title>Odpowiedzi 2.0, konfigurowalne podglądy linków, kolory nazw i wiele więcej</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:title" content="Odpowiedzi 2.0, konfigurowalne podglądy linków, kolory nazw i wiele więcej">
+<meta property="og:image" content="https://telegram.org/file/400780400780/1/g_radu3Y0M8.287207/035dae82b433286e51">
+<meta property="og:site_name" content="Telegram">
+<meta property="og:description" content="Dzisiejsza aktualizacja umożliwia cytowanie wybranych fragmentów wiadomości podczas odpowiadania, wysyłanie odpowiedzi do innych czatów, dodawanie formatowania „cytat” do dowolnego tekstu, konfigurowanie podglądu linków, wybieranie koloru konta i wiele więcej.">
+<meta property="article:published_time" content="2023-10-28T19:33:17+00:00">
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://telegram.org/file/400780400780/1/g_radu3Y0M8.287207/035dae82b433286e51" />
+<meta property="fb:app_id" content="254098051407226">
+<meta property="vk:app_id" content="3782569">
+<meta name="apple-itunes-app" content="app-id=686449807">
+<meta name="telegram:channel" content="@telegram">
+<link rel="canonical" href="https://telegram.org/blog/reply-revolution/pl" />
+<link rel="icon" type="image/svg+xml" href="/img/website_icon.svg?4">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="alternate icon" href="/img/favicon.ico" type="image/x-icon" />
+<link href="/css/bootstrap.min.css?3" rel="stylesheet">
+<link href="/css/telegram.css?256" rel="stylesheet" media="screen">
+<link href="/css/telegram-theme.css?9" rel="stylesheet" media="screen">
+</head>
+<body class="preload">
+<div id="fb-root">
+</div>
+<button class="theme-toggle theme-toggle--static" type="button" title="Toggle theme" aria-label="Toggle light/dark theme">
+</button>
+<div class="tl_page_wrap">
+<div class="tl_page_head navbar navbar-static-top navbar navbar-tg">
+<div class="navbar-inner">
+<div class="container clearfix">
+<ul class="nav navbar-nav navbar-right">
+<li class="dropdown top_lang_select">
+<a class="dropdown-toggle" onclick="return dropdownClick(this, event)" href="#">
+<i class="dev_top_lang_icon">
+</i>
+<b class="minicaret">
+</b>
+</a>
+<ul class="dropdown-menu">
+<li class="">
+<a href="?setln=en">English</a>
+</li>
+<li class="long ">
+<a href="?setln=id">Bahasa Indonesia</a>
+</li>
+<li class="long ">
+<a href="?setln=ms">Bahasa Melayu</a>
+</li>
+<li class="">
+<a href="?setln=de">Deutsch</a>
+</li>
+<li class="">
+<a href="?setln=es">Español</a>
+</li>
+<li class="">
+<a href="?setln=fr">Français</a>
+</li>
+<li class="">
+<a href="?setln=it">Italiano</a>
+</li>
+<li class="">
+<a href="?setln=nl">Nederlands</a>
+</li>
+<li class="">
+<a href="?setln=uz">O‘zbek</a>
+</li>
+<li class="">
+<a href="?setln=pl">Polski</a>
+</li>
+<li class="long ">
+<a href="?setln=pt-br">Português (Brasil)</a>
+</li>
+<li class="">
+<a href="?setln=tr">Türkçe</a>
+</li>
+<li class="">
+<a href="?setln=be">Беларуская</a>
+</li>
+<li class="">
+<a href="?setln=ru">Русский</a>
+</li>
+<li class="">
+<a href="?setln=uk">Українська</a>
+</li>
+<li class="">
+<a href="?setln=kk">Қазақша</a>
+</li>
+<li class="">
+<a href="?setln=ar">العربية</a>
+</li>
+<li class="">
+<a href="?setln=fa">فارسی</a>
+</li>
+<li class="">
+<a href="?setln=ko">한국어</a>
+</li>
+</ul>
+</li>
+<li class="navbar-twitter hidden-xs">
+<a href="https://x.com/telegram" target="_blank" data-track="Follow/Twitter" onclick="trackDlClick(this, event)">
+<i class="icon icon-twitter">
+</i> Follow on X</a>
+</li>
+</ul>
+<ul class="nav navbar-nav">
+<li class="">
+<a href="/">Home</a>
+</li>
+<li class="">
+<a href="/faq">FAQ</a>
+</li>
+<li class="">
+<a href="/apps">Apps</a>
+</li>
+<li class="hidden-xs ">
+<a href="//core.telegram.org/api">API</a>
+</li>
+<li class="hidden-xs ">
+<a href="/safety">Safety</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="container clearfix tl_page_container ">
+<div class="tl_page">
+<div class="tl_contest_page_wrap">
+<div class="tl_blog_side_blog">
+<div class="side_blog_wrap">
+<div class="side_blog">
+<a href="/blog" class="side_blog_header">Recent News</a>
+<div class="side_blog_entries">
+<a href="/blog/welcome-messages-buttons-TG-13" class="side_blog_entry">
+<div class="side_blog_date">Aug 25</div>
+<div class="side_blog_title">Welcome Messages, Buttons in Messages and Signed Gifts</div>
+</a>
+<a href="/blog/communities-editor-invisible-messages" class="side_blog_entry">
+<div class="side_blog_date">Jul 14</div>
+<div class="side_blog_title">Rich Text Editor, Communities, Ephemeral Messages in Groups, 350 Million GIFs</div>
+</a>
+<a href="/blog/watch-apps-and-more" class="side_blog_entry">
+<div class="side_blog_date">Jun 11</div>
+<div class="side_blog_title">Smartwatch Apps, Rich Text for Bots, AI Guardians for Groups, and Much More</div>
+</a>
+<a href="/blog/ai-bot-revolution-11-new-features" class="side_blog_entry">
+<div class="side_blog_date">May 7</div>
+<div class="side_blog_title">Guest AI Bots, Bot-to-Bot Chats, Chat Automation, Custom AI Styles, 100M+ Emoji &amp; Sticker Search and Much More</div>
+</a>
+<a href="/blog/ai-editor-mighty-polls-and-more" class="side_blog_entry">
+<div class="side_blog_date">Mar 31</div>
+<div class="side_blog_title">AI Editor, Mighty Polls, Live Photos, Bots Managed by Bots, and More</div>
+</a>
+<a href="/blog/member-tags-disable-sharing-and-more" class="side_blog_entry">
+<div class="side_blog_date">Mar 1</div>
+<div class="side_blog_title">Member Tags, Login with Telegram, Disable Sharing, GIF Editing, Date Formatting, Voting Timestamps</div>
+</a>
+<a href="/blog/crafting-android-design-and-more" class="side_blog_entry">
+<div class="side_blog_date">Feb 9</div>
+<div class="side_blog_title">Android Redesign, Group Ownership Transfer, Gift Crafting, Colored Bot Buttons</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div id="dev_page_content_wrap" class=" ">
+<div class="dev_page_bread_crumbs">
+</div>
+<h1 id="dev_page_title">Odpowiedzi 2.0, konfigurowalne podglądy linków, kolory nazw i wiele więcej</h1>
+<blockquote class="blog_lang_original">
+<a href="/blog/reply-revolution?ln=r">Przeczytaj oryginalny tekst w języku angielskim</a>
+</blockquote>
+<div id="dev_page_content">
+<picture class="dev_page_tgsticker blog_side_image js-tgsticker_image" style="width:160px;">
+<div style="padding-top:100%">
+</div>
+<source type="application/x-tgsticker" srcset="/file/400780400989/1/le4Nwg8nXyY.15444/b3cbce6fe1805ac28a">
+<img src="/file/400780400989/2/2PR8iRESWXQ.28772.png/9c58b09f5fe30a661b" />
+</picture>
+<div class="blog_wide_image">
+<a href="/file/400780400121/5/206IaXUF2nc.398076.webp/75d605e2b683e7b76e" target="_blank">
+<img src="/file/400780400548/6/S0vPfsiQQDI.135126.webp/e2bcacb0207f38968b" srcset="/file/400780400121/5/206IaXUF2nc.398076.webp/75d605e2b683e7b76e, 1200w" title="Odpowiedzi 2.0, modyfikowalne podglądy linków, kolory nazw i wiele więcej" alt="Odpowiedzi 2.0, modyfikowalne podglądy linków, kolory nazw i wiele więcej"/>
+</a>
+</div>
+<p>Dzisiejsza aktualizacja umożliwia <strong>cytowanie wybranych fragmentów wiadomości</strong> podczas odpowiadania, wysyłanie odpowiedzi do <strong>innych czatów</strong>, dodawanie <strong>formatowania tekstu „cytat”</strong> do dowolnego tekstu, konfigurację <strong>podglądu linków</strong>, wybór <strong>koloru swojego konta</strong> i wiele więcej.</p>
+<h3>
+<a class="anchor" name="rewolucja-w-odpowiedziach" href="#rewolucja-w-odpowiedziach">
+<i class="anchor-icon">
+</i>
+</a>Rewolucja w odpowiedziach</h3>
+<p>Już w <a href="https://telegram.org/evolution?setln=pl#marzec-2015-pierwsza-aktualizacja">2015 r.</a> Telegram został pionierem funkcji odpowiadania, po raz pierwszy pozwalając ludziom w intuicyjny sposób śledzić złożone rozmowy w czatach. Każdy komunikator zaadoptował standard Telegrama, a dziś przesuwamy granice jeszcze dalej.</p>
+<p>Teraz użytkownicy mogą <strong>cytować wybrane fragmenty</strong> dowolnej wiadomości, dzięki czemu ich odpowiedzi mogą być w 100% precyzyjne. Dotknięcie cytatu podświetla dokładną lokalizację w oryginalnej wiadomości z <strong>piękną animacją</strong>.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/400780400639/2/Nn5n-JnPXgk.173217/5dce1482fa368e77ac" style="max-width: 600px;" title="" alt="Rewolucja w odpowiedziach">
+<source src="/file/400780400092/2/RV8KlkKGdiI.3694128.mp4/0c3e69b6a82592e2da" type="video/mp4">
+</video>
+</div>
+<blockquote>
+<p>Aby zacytować wiadomość, dotknij (w systemie iOS, przytrzymaj) wiadomość, a następnie przytrzymaj i przeciągnij, aby zaznaczyć tekst, i wybierz <em>„Cytuj”</em>.</p>
+</blockquote>
+<p>Od dzisiaj odpowiedzi mogą być również <strong>wysyłane do innych czatów</strong> — jeśli chcesz <strong>odpowiedzieć prywatnie</strong> albo przenieść dyskusję do <strong>innej grupy</strong> lub <strong>kanału</strong>. Dotknięcie odpowiedzi z innego czatu otwiera wiadomość w jej <strong>czacie źródłowym</strong>, jeśli masz do niego dostęp.</p>
+<blockquote>
+<p>Aby odpowiedzieć w innym czacie, dotknij paska odpowiedzi powyżej pola wprowadzania, wybierz <em>„Odpowiedz w innym czacie”</em>, a następnie wybierz, gdzie chcesz wysłać odpowiedź.</p>
+</blockquote>
+<h3>
+<a class="anchor" name="formatowanie-tekstu-cytat" href="#formatowanie-tekstu-cytat">
+<i class="anchor-icon">
+</i>
+</a>Formatowanie tekstu „cytat”</h3>
+<p>Poza bezpośrednim cytowaniem innych wiadomości możesz dodawać <strong>formatowanie „cytat”</strong> do <strong>dowolnego tekstu</strong>, a nawet <strong>wiele cytatów</strong> w jednej odpowiedzi.</p>
+<div class="blog_image_wrap blog_wide_image_wrap">
+<a href="/file/400780400340/1/Ijksx7aiG2w.37380/73ba12ea0df1cb89c7" target="_blank">
+<img src="/file/400780400812/1/uMNj18yfYMU.15175/a7cd589300d0ada51b" title="" alt="Formatowanie tekstu „cytat”" srcset="/file/400780400340/1/Ijksx7aiG2w.37380/73ba12ea0df1cb89c7 , 2x" />
+</a>
+</div>
+<p>Ulepszyliśmy także menu kontekstowe, by ułatwić dostęp do opcji formatowania.</p>
+<h3>
+<a class="anchor" name="konfigurowalne-podglady-linkow" href="#konfigurowalne-podglady-linkow">
+<i class="anchor-icon">
+</i>
+</a>Konfigurowalne podglądy linków</h3>
+<p>W <a href="https://telegram.org/evolution?setln=pl#kwiecien-2015">2015 r.</a> Telegram był również pierwszym komunikatorem, który wprowadził szczegółowe <strong>podglądy linków</strong> pokazujące tytuł, opis i multimedia strony.</p>
+<p>Ta aktualizacja daje ci niespotykaną dotąd kontrolę nad podglądami linków w wiadomościach. Możesz zmienić <strong>rozmiar multimediów</strong>, wybrać czy podgląd wyświetli się <strong>powyżej</strong>, czy <strong>poniżej twojej wiadomości</strong> i wybrać <strong>którego linku podgląd wyświetlić</strong>, jeśli jest ich kilka.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/400780400994/1/oycmcf0p90c.69447/eb996807247b875949" style="max-width: 600px;" title="" alt="Konfigurowalne podglądy linków">
+<source src="/file/400780400363/2/ihqW4SPjpgw.3369686.mp4/3f37cc1ce8e46ad080" type="video/mp4">
+</video>
+</div>
+<p>
+<strong>Otwieranie</strong> linków stało się łatwiejsze, ponieważ możesz teraz <strong>dotknąć gdziekolwiek</strong> w obszarze podglądu.</p>
+<h3>
+<a class="anchor" name="ustawienia-odpowiedzi-przekazywania-i-linkow" href="#ustawienia-odpowiedzi-przekazywania-i-linkow">
+<i class="anchor-icon">
+</i>
+</a>Ustawienia odpowiedzi, przekazywania i linków</h3>
+<p>Niezależnie czy odpowiadasz podczas przekazywania wiadomości, dodajesz linki w odpowiedzi lub robisz <strong>wszystkie trzy rzeczy na raz</strong>, możesz teraz uzyskać dostęp do wszystkich ustawień za pomocą nowych kart w menu.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/400780400827/1/h_6iZKp3x7k.139993/b75d4ea8cb0e94d951" style="max-width: 600px;" title="" alt="Ustawienia odpowiedzi, przekazywania i linków">
+<source src="/file/400780400013/1/QL-nl7H88Jk.667199.mp4/83928205623dddc03d" type="video/mp4">
+</video>
+</div>
+<h3>
+<a class="anchor" name="kolory-konta" href="#kolory-konta">
+<i class="anchor-icon">
+</i>
+</a>
+<img class="icon" src="/file/464001305/110b0/-bpC5P3HJp4.6317/a2b79589744c739331" alt="Premium"> Kolory konta</h3>
+<p>Dzięki Telegram Premium możesz dostosować swoje konto bardziej niż kiedykolwiek, przez wybranie dla niego <strong>koloru</strong> lub <strong>kombinacji kolorów</strong>.</p>
+<p>Spowoduje to zmianę koloru <strong>twojej nazwy</strong> we wszystkich grupach, <strong>linkach, które wysyłasz</strong>, a także <strong>odpowiedziach</strong> na twoje wiadomości.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/400780400954/1/26T19pki_5Q.82752/014a223fe661ea1d3b" style="max-width: 600px;" title="" alt="Kolory konta">
+<source src="/file/400780400193/1/pU6g89E3tco.6368226.mp4/262ff3c5b3e3857fe6" type="video/mp4">
+</video>
+</div>
+<p>Dodatkowo możesz <strong>wybrać ikonę</strong>, która będzie użyta jako wzór, tworząc <strong>unikalne tło</strong> dla twoich wiadomości, kiedy inni <strong>cytują cię</strong> lub <strong>odpowiadają ci</strong>.</p>
+<blockquote>
+<p>Aby ustawić kolor konta na Androidzie, przejdź do <em>Ustawienia » Ustawienia czatu » Zmień kolor nazwy</em>. Na iOS przejdź do <em>Ustawienia » Wygląd » Kolor twojej nazwy</em>.</p>
+</blockquote>
+<p>Te ustawienia są również <strong>dostępne dla kanałów</strong>, które zostały <a href="https://telegram.org/blog/channel-stories/pl?ln=a#relacje-dla-kanalow">ulepszone</a> do <strong>Poziomu 5</strong> lub wyższego.</p>
+<h3>
+<a class="anchor" name="ulepszenia-relacji" href="#ulepszenia-relacji">
+<i class="anchor-icon">
+</i>
+</a>Ulepszenia relacji</h3>
+<p>Relacje umożliwiają teraz szybkie przewijanie filmów <strong>do przodu</strong> i <strong>do tyłu</strong> — wystarczy przytrzymać ekran i przesunąć palcem w prawo lub w lewo.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/400780400333/1/HjJWpbUj_SM.38193/6965e65b143a950c14" style="max-width: 600px;" title="" alt="Szybkie przewijanie relacji do przodu i do tyłu">
+<source src="/file/400780400557/1/2RA-GjWxrWA.1102922.mp4/aa6e5c7af621c13b1d" type="video/mp4">
+</video>
+</div>
+<p>Aby uzyskać lepsze i jaśniejsze selfie, możesz użyć <strong>doświetlenia przedniego aparatu</strong> z <strong>elastycznymi ustawieniami ciepła</strong> i <strong>intensywności</strong>.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/400780400728/1/o1jxeWLhHGQ.47043/1e103096eaea1df5d9" style="max-width: 600px;" title="" alt="Doświetlenie przedniej kamery w relacjach">
+<source src="/file/400780400448/1/IclG3YEaafg.2672088.mp4/5dd326695c4757a0c3" type="video/mp4">
+</video>
+</div>
+<p>Aby dostosować ciepło i intensywność światła, <strong>przytrzymaj ikonę <img class="emoji" src="//telegram.org/img/emoji/40/E29AA1.png" width="20" height="20" alt="⚡" />
+</strong> podczas używania przedniej kamery do nagrywania relacji.</p>
+<blockquote>
+<p>Otwieranie relacji po raz pierwszy wyświetla krótki samouczek omawiający podstawowe gesty przeglądania.</p>
+</blockquote>
+<p>
+<a href="#rewolucja-w-odpowiedziach">Cytując</a> klasyka: <em>“To wszystko na dziś. Pracujemy już nad kolejną aktualizacją.”</em>
+</p>
+<div>
+<br>
+</div>
+<p>
+<em>28 października 2023<br>Zespół Telegrama</em>
+</p>
+</div>
+</div>
+<div class="tl_main_share clearfix">
+<a href="https://t.me/share/url?url=https%3A%2F%2Ftelegram.org%2Fblog%2Freply-revolution%2Fpl&text=Dzisiejsza%20aktualizacja%20umo%C5%BCliwia%20cytowanie%20wybranych%20fragment%C3%B3w%20wiadomo%C5%9Bci%20podczas%20odpowiadania%2C%20wysy%C5%82anie%20odpowiedzi%20do%20innych%20czat%C3%B3w%2C%20dodawanie%20formatowania%20%E2%80%9Ecytat%E2%80%9D%20do%20dowolnego%20tekstu%2C%20konfigurowanie%20podgl%C4%85du%20link%C3%B3w%2C%20wybieranie%20koloru%20konta%20i%20wiele%20wi%C4%99cej." class="tl_telegram_share_btn" id="tl_telegram_share_btn" data-text="Dzisiejsza aktualizacja umożliwia cytowanie wybranych fragmentów wiadomości podczas odpowiadania, wysyłanie odpowiedzi do innych czatów, dodawanie formatowania „cytat” do dowolnego tekstu, konfigurowanie podglądu linków, wybieranie koloru konta i wiele więcej." data-url="https://telegram.org/blog/reply-revolution/pl">
+<i class="tl_telegram_share_icon">
+</i>
+<span class="tl_telegram_share_label" target="_blank">Forward</span>
+</a>
+<a href="https://twitter.com/share" class="tl_twitter_share_btn" id="tl_twitter_share_btn" data-text="Dzisiejsza aktualizacja umożliwia cytowanie wybranych fragmentów wiadomości podczas odpowiadania, wysyłanie odpowiedzi do innych czatów, dodawanie formatowania „cytat” do dowolnego tekstu, konfigurowanie podglądu linków, wybieranie koloru konta i wiele więcej." data-url="https://telegram.org/blog/reply-revolution/pl" data-via="Telegram">Tweet <span class="tl_twitter_share_cnt">
+</span>
+</a>
+</div>
+</div>
+<div class="tl_main_recent_news_wrap tlb_other_news_wrap tl_blog_list_page_wrap">
+<h3 class="tl_main_recent_news_header">
+<a href="/blog">Other News</a>
+</h3>
+<div class="tl_main_recent_news_cards clearfix">
+<a class="dev_blog_card_link_wrap" href="/blog/welcome-messages-buttons-TG-13/pl">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400741/6/aFBFZ5lNqO8.66680.webp/0e567958d5b96a2184" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">Wiadomości powitalne, przyciski w wiadomościach i podpisane prezenty</h4>
+<div class="dev_blog_card_lead">Przedstawiamy wiadomości powitalne, które pozwalają powitać nowych członków grup lub kanałów, przyciski w wiadomościach, które czynią tekst…</div>
+</div>
+<div class="dev_blog_card_date">Aug 25, 2026</div>
+</div>
+</a>
+<a class="dev_blog_card_link_wrap" href="/blog/communities-editor-invisible-messages/pl">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400366/6/dI0zgi0mM5s.323818.webp/6a362dadee6e7e6011" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">Edytor bogatego tekstu, społeczności, tymczasowe wiadomości w grupach, 350 milionów GIFów</h4>
+<div class="dev_blog_card_lead">Przedstawiamy edytor do formatowania i generowania bogatego tekstu, Społeczności Telegrama…</div>
+</div>
+<div class="dev_blog_card_date">Jul 14, 2026</div>
+</div>
+</a>
+<a class="dev_blog_card_link_wrap" href="/blog/watch-apps-and-more/pl">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400535/2/fkUcVRnSU-M.140100.webp/10c066db41f83e6d5e" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">Aplikacje na smartwatche, bogato sformatowany tekst dla botów, opiekuni AI w grupach i znacznie więcej</h4>
+<div class="dev_blog_card_lead">Dzisiejsza aktualizacja wprowadza Telegrama na Apple Watch i smartwatche z Androidem, obrzydliwie…</div>
+</div>
+<div class="dev_blog_card_date">Jun 11, 2026</div>
+</div>
+</a>
+<a class="dev_blog_card_link_wrap" href="/blog/ai-bot-revolution-11-new-features/pl">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400475/2/BwY041V7nZg.149454.webp/873ed0c0321c7633e7" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">Gościnne boty AI, czaty bot-z-botem, automatyzacja czatów, wyszukiwarka ponad 100 milionów emoji i naklejek, własne style AI, statystyki ankiet, ciche zaplanowane wiadomości, usuwanie reakcji</h4>
+<div class="dev_blog_card_lead">W dzisiejszej aktualizacji Telegram dodaje ponad…</div>
+</div>
+<div class="dev_blog_card_date">May 7, 2026</div>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer_wrap">
+<div class="footer_columns_wrap footer_desktop">
+<div class="footer_column footer_column_telegram">
+<h5>Telegram</h5>
+<div class="footer_telegram_description">
+</div>
+      Telegram is a cloud-based mobile and desktop messaging app with a focus on security and speed.
+    </div>
+<div class="footer_column">
+<h5>
+<a href="/faq">About</a>
+</h5>
+<ul>
+<li>
+<a href="/faq">FAQ</a>
+</li>
+<li>
+<a href="/privacy">Privacy</a>
+</li>
+<li>
+<a href="/press">Press</a>
+</li>
+</ul>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/apps#mobile-apps">Mobile Apps</a>
+</h5>
+<ul>
+<li>
+<a href="/dl/ios">iPhone/iPad</a>
+</li>
+<li>
+<a href="/android">Android</a>
+</li>
+<li>
+<a href="/dl/web">Mobile Web</a>
+</li>
+</ul>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/apps#desktop-apps">Desktop Apps</a>
+</h5>
+<ul>
+<li>
+<a href="//desktop.telegram.org/">PC/Mac/Linux</a>
+</li>
+<li>
+<a href="//macos.telegram.org/">macOS</a>
+</li>
+<li>
+<a href="/dl/web">Web-browser</a>
+</li>
+</ul>
+</div>
+<div class="footer_column footer_column_platform">
+<h5>
+<a href="//core.telegram.org/">Platform</a>
+</h5>
+<ul>
+<li>
+<a href="//core.telegram.org/api">API</a>
+</li>
+<li>
+<a href="//translations.telegram.org/">Translations</a>
+</li>
+<li>
+<a href="//instantview.telegram.org/">Instant View</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="footer_columns_wrap footer_mobile">
+<div class="footer_column">
+<h5>
+<a href="/faq">About</a>
+</h5>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/blog">Blog</a>
+</h5>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/press">Press</a>
+</h5>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/safety">Safety</a>
+</h5>
+</div>
+</div>
+</div>
+<script src="/js/main.js?49">
+</script>
+<script src="/js/tgsticker.js?32">
+</script>
+<script src="/js/main-theme.js?6">
+</script>
+<script>initScrollVideos(true);
+mainInitTgStickers({"maxDeviceRatio":2,"cachingModulo":4});
+twitterCustomShareInit();
+blogSideImageInit();
+backToTopInit("Go up");
+removePreloadInit();
+</script>
+</body>
+</html>

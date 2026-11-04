@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html class="" data-theme="light">
+<head>
+<meta charset="utf-8">
+<title>Obrolan Suara 2.0: Channel, Jutaan Pendengar, Rekam Obrolan, Fitur Admin</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:title" content="Obrolan Suara 2.0: Channel, Jutaan Pendengar, Rekam Obrolan, Fitur Admin">
+<meta property="og:image" content="https://telegram.org/file/464001284/3/rHzxN3afclE.253809/78fbb9de14cac31e08">
+<meta property="og:site_name" content="Telegram">
+<meta property="og:description" content="Obrolan Suara diluncurkan pada bulan Desember untuk memeriahkan suasana percakapan di grup Telegram. Mulai hari ini, Obrolan Suara dapat diadakan di channel tanpa batas peserta.">
+<meta property="article:published_time" content="2021-03-19T10:18:35+00:00">
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://telegram.org/file/464001284/3/rHzxN3afclE.253809/78fbb9de14cac31e08" />
+<meta property="fb:app_id" content="254098051407226">
+<meta property="vk:app_id" content="3782569">
+<meta name="apple-itunes-app" content="app-id=686449807">
+<meta name="telegram:channel" content="@telegram">
+<link rel="canonical" href="https://telegram.org/blog/voice-chats-on-steroids/id" />
+<link rel="icon" type="image/svg+xml" href="/img/website_icon.svg?4">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="alternate icon" href="/img/favicon.ico" type="image/x-icon" />
+<link href="/css/bootstrap.min.css?3" rel="stylesheet">
+<link href="/css/telegram.css?256" rel="stylesheet" media="screen">
+<link href="/css/telegram-theme.css?9" rel="stylesheet" media="screen">
+</head>
+<body class="preload">
+<div id="fb-root">
+</div>
+<button class="theme-toggle theme-toggle--static" type="button" title="Toggle theme" aria-label="Toggle light/dark theme">
+</button>
+<div class="tl_page_wrap">
+<div class="tl_page_head navbar navbar-static-top navbar navbar-tg">
+<div class="navbar-inner">
+<div class="container clearfix">
+<ul class="nav navbar-nav navbar-right">
+<li class="dropdown top_lang_select">
+<a class="dropdown-toggle" onclick="return dropdownClick(this, event)" href="#">
+<i class="dev_top_lang_icon">
+</i>
+<b class="minicaret">
+</b>
+</a>
+<ul class="dropdown-menu">
+<li class="">
+<a href="?setln=en">English</a>
+</li>
+<li class="long ">
+<a href="?setln=id">Bahasa Indonesia</a>
+</li>
+<li class="long ">
+<a href="?setln=ms">Bahasa Melayu</a>
+</li>
+<li class="">
+<a href="?setln=de">Deutsch</a>
+</li>
+<li class="">
+<a href="?setln=es">Español</a>
+</li>
+<li class="">
+<a href="?setln=fr">Français</a>
+</li>
+<li class="">
+<a href="?setln=it">Italiano</a>
+</li>
+<li class="">
+<a href="?setln=nl">Nederlands</a>
+</li>
+<li class="">
+<a href="?setln=uz">O‘zbek</a>
+</li>
+<li class="">
+<a href="?setln=pl">Polski</a>
+</li>
+<li class="long ">
+<a href="?setln=pt-br">Português (Brasil)</a>
+</li>
+<li class="">
+<a href="?setln=tr">Türkçe</a>
+</li>
+<li class="">
+<a href="?setln=be">Беларуская</a>
+</li>
+<li class="">
+<a href="?setln=ru">Русский</a>
+</li>
+<li class="">
+<a href="?setln=uk">Українська</a>
+</li>
+<li class="">
+<a href="?setln=kk">Қазақша</a>
+</li>
+<li class="">
+<a href="?setln=ar">العربية</a>
+</li>
+<li class="">
+<a href="?setln=fa">فارسی</a>
+</li>
+<li class="">
+<a href="?setln=ko">한국어</a>
+</li>
+</ul>
+</li>
+<li class="navbar-twitter hidden-xs">
+<a href="https://x.com/telegram" target="_blank" data-track="Follow/Twitter" onclick="trackDlClick(this, event)">
+<i class="icon icon-twitter">
+</i> Follow on X</a>
+</li>
+</ul>
+<ul class="nav navbar-nav">
+<li class="">
+<a href="/">Home</a>
+</li>
+<li class="">
+<a href="/faq">FAQ</a>
+</li>
+<li class="">
+<a href="/apps">Apps</a>
+</li>
+<li class="hidden-xs ">
+<a href="//core.telegram.org/api">API</a>
+</li>
+<li class="hidden-xs ">
+<a href="/safety">Safety</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="container clearfix tl_page_container ">
+<div class="tl_page">
+<div class="tl_contest_page_wrap">
+<div class="tl_blog_side_blog">
+<div class="side_blog_wrap">
+<div class="side_blog">
+<a href="/blog" class="side_blog_header">Recent News</a>
+<div class="side_blog_entries">
+<a href="/blog/welcome-messages-buttons-TG-13" class="side_blog_entry">
+<div class="side_blog_date">Aug 25</div>
+<div class="side_blog_title">Welcome Messages, Buttons in Messages and Signed Gifts</div>
+</a>
+<a href="/blog/communities-editor-invisible-messages" class="side_blog_entry">
+<div class="side_blog_date">Jul 14</div>
+<div class="side_blog_title">Rich Text Editor, Communities, Ephemeral Messages in Groups, 350 Million GIFs</div>
+</a>
+<a href="/blog/watch-apps-and-more" class="side_blog_entry">
+<div class="side_blog_date">Jun 11</div>
+<div class="side_blog_title">Smartwatch Apps, Rich Text for Bots, AI Guardians for Groups, and Much More</div>
+</a>
+<a href="/blog/ai-bot-revolution-11-new-features" class="side_blog_entry">
+<div class="side_blog_date">May 7</div>
+<div class="side_blog_title">Guest AI Bots, Bot-to-Bot Chats, Chat Automation, Custom AI Styles, 100M+ Emoji &amp; Sticker Search and Much More</div>
+</a>
+<a href="/blog/ai-editor-mighty-polls-and-more" class="side_blog_entry">
+<div class="side_blog_date">Mar 31</div>
+<div class="side_blog_title">AI Editor, Mighty Polls, Live Photos, Bots Managed by Bots, and More</div>
+</a>
+<a href="/blog/member-tags-disable-sharing-and-more" class="side_blog_entry">
+<div class="side_blog_date">Mar 1</div>
+<div class="side_blog_title">Member Tags, Login with Telegram, Disable Sharing, GIF Editing, Date Formatting, Voting Timestamps</div>
+</a>
+<a href="/blog/crafting-android-design-and-more" class="side_blog_entry">
+<div class="side_blog_date">Feb 9</div>
+<div class="side_blog_title">Android Redesign, Group Ownership Transfer, Gift Crafting, Colored Bot Buttons</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div id="dev_page_content_wrap" class=" ">
+<div class="dev_page_bread_crumbs">
+</div>
+<h1 id="dev_page_title">Obrolan Suara 2.0: Channel, Jutaan Pendengar, Rekam Obrolan, Fitur Admin</h1>
+<blockquote class="blog_lang_original">
+<a href="/blog/voice-chats-on-steroids?ln=r">Baca pengumuman resmi dalam Bahasa Inggris</a>
+</blockquote>
+<div id="dev_page_content">
+<div class="blog_side_image_wrap">
+<picture class="dev_page_tgsticker blog_side_image js-tgsticker_image" style="width:160px;">
+<div style="padding-top:100%">
+</div>
+<source type="application/x-tgsticker" srcset="/file/464001846/2/a2cdkP7qe84.14136/61d6fc984cb003c004">
+<img src="/file/464001588/2/yQTe48dXBXE.37270.png/ecd08be3364364a507" />
+</picture>
+</div>
+<div class="blog_wide_image legacy">
+<a href="/file/464001284/3/rHzxN3afclE.253809/78fbb9de14cac31e08" target="_blank">
+<img src="/file/464001855/3/O31CcF_-a20.86962/cafa0c3d7dd2df1134" srcset="/file/464001284/3/rHzxN3afclE.253809/78fbb9de14cac31e08, 1200w" title="Lebih seru mendengarkan diskusi antara Godzilla dan Kong." alt="Obrolan Suara 2.0: Channels, Jutaan Pendengar, Rekam Obrolan, Fitur Admin"/>
+</a>
+</div>
+<p>Obrolan Suara diluncurkan pada bulan <a href="https://telegram.org/blog/voice-chats/id">Desember</a> untuk memeriahkan suasana percakapan di grup Telegram. Mulai hari ini, Obrolan Suara dapat diadakan di <strong>channel</strong>, <strong>tanpa batas peserta</strong>. </p>
+<p>Pada pembaruan ini, Anda juga dapat merekam percakapan di Obrolan Suara untuk ditampilkan dan dibagikan nanti. Ditambah juga dengan daftar peserta yang sudah lebih baik, fitur angkat tangan, tautan undangan khusus bagi pembicara dan pendengar, judul obrolan suara dan tampilan khusus bagi <strong>tokoh terkenal</strong> untuk bergabung ke Obrolan Suara sebagai <strong>channel</strong>. </p>
+<h3>
+<a class="anchor" name="obrolan-suara-tanpa-batas" href="#obrolan-suara-tanpa-batas">
+<i class="anchor-icon">
+</i>
+</a>Obrolan Suara Tanpa Batas</h3>
+<p>Admin <a href="https://telegram.org/tour/channels">channel</a> dan grup publik sekarang dapat mengadakan Obrolan Suara untuk jutaan pendengar langsung. Seperti layaknya radio, siapa pun dapat mendengar siaran di channel Anda.  </p>
+<div class="blog_video_player_wrap" style="max-width: 400px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001863/3/vVs9uj8F0H0.69088/73478846bbc4f6ae3d" style="max-width: 400px;" title="Angkat tanganmu dan suarakan pendapatmu!" alt="Obrolan Suara 2.0">
+<source src="/file/464001257/3/9RRakw5NvsI.4831704.mp4/f1a2562ed60b00cb6e" type="video/mp4">
+</video>
+</div>
+<blockquote>
+<p>Untuk memulai Obrolan, buka profil <strong>grup</strong> atau <strong>channel</strong> di mana Anda menjadi <strong>admin</strong>, ketuk (⋮) atau (⋯) dan pilih <em>Mulai Obrolan Suara</em>.</p>
+</blockquote>
+<h3>
+<a class="anchor" name="rekam-obrolan" href="#rekam-obrolan">
+<i class="anchor-icon">
+</i>
+</a>Rekam Obrolan</h3>
+<p>Beberapa percakapan memang dibuat untuk <a href="https://telegram.org/blog/autodelete-inv2/id?ln=a#auto-delete-messages">bertahan sementara</a>, sedangkan ada obrolan seru lain yang patut dilestarikan. Saat ini, admin dapat merekam audio di Obrolan Suara untuk menyimpan percakapan dan membagikan ke pelanggan yang belum sempat mendengarkan percakapan secara langsung. </p>
+<div class="blog_video_player_wrap" style="max-width: 400px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001664/1/8HAOkAE1RvQ.61897/930102909347ca492c" style="max-width: 400px;" title="Rekam percakapan agar dapat dibagikan nanti" alt="Rekam Obrolan Suara">
+<source src="/file/464001665/3/cRmb5QTKbhs.4703131.mp4/5847830e8f89f2b0b4" type="video/mp4">
+</video>
+</div>
+<p>Setelah Anda selesai merekam, audio akan langsung tersedia di <a href="https://t.me/TelegramTipsID/128">Pesan Tersimpan</a>. Demi kenyamanan, obrolan yang sedang direkam akan ditandai dengan <strong>tanda titik merah</strong> tepat di sebelah judul obrolan. </p>
+<h3>
+<a class="anchor" name="angkat-tangan" href="#angkat-tangan">
+<i class="anchor-icon">
+</i>
+</a>Angkat Tangan</h3>
+<p>Jika peserta disenyapkan di obrolan, mereka dapat mengetuk tombol <strong>angkat tangan</strong> untuk memberi tahu admin bahwa mereka ingin bicara. Cek animasinya yang lucu dan menggemaskan. </p>
+<div class="blog_video_player_wrap" style="max-width: 400px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001008/3/DOSvKPyWTOQ.150431/219a98435d1f8f4224" style="max-width: 400px;" title="Dapatkan perhatian admin dengan mengangkat tanganmu" alt="Mengizinkan peserta untuk bicara">
+<source src="/file/464001036/2/IaS7zh198Jc.4811592.mp4/f09c7e9572de74e042" type="video/mp4">
+</video>
+</div>
+<p>
+<strong>Bio</strong> Anda akan terlihat oleh peserta lain. Pasang informasi mengenai diri Anda agar menarik perhatian. Hal ini akan membantu admin untuk memilih peserta saat sesi tanya jawab atau berkomentar.</p>
+<h3>
+<a class="anchor" name="tautan-untuk-pembicara-dan-peserta" href="#tautan-untuk-pembicara-dan-peserta">
+<i class="anchor-icon">
+</i>
+</a>Tautan Untuk Pembicara dan Peserta</h3>
+<p>Admin dapat membuat tautan undangan langsung untuk Obrolan Suara. Tautan juga dapat dibuat terpisah bagi <strong>pembicara</strong> dan <strong>pendengar</strong>. Dengan ini, Anda tidak perlu mengaktifkan pengeras suara pembicara ketika mereka bergabung. Lalu, tautan undangan lainnya dapat digunakan untuk mempromosikan obrolan suara ke berbagai komunitas.</p>
+<div class="blog_video_player_wrap" style="max-width: 400px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001725/2/R7dhU03uykI.245962/d788b4abf685c38846" style="max-width: 400px;" title="Admin dapat memilih judul menarik untuk diskusi mereka" alt="Fitur Admin: Tautan untuk pembicara dan pendengar, judul obrolan dan lainnya">
+<source src="/file/464001045/2/UGlOXuiqVAQ.4847654.mp4/880d60e6db6e45baa0" type="video/mp4">
+</video>
+</div>
+<p>Anda dapat memasang <strong>judul khusus</strong> untuk Obrolan Suara agar peserta dapat mengetahui <strong>topik pembicaraan</strong> sebelum bergabung.</p>
+<h3>
+<a class="anchor" name="bergabung-sebagai-alias" href="#bergabung-sebagai-alias">
+<i class="anchor-icon">
+</i>
+</a>Bergabung Sebagai Alias</h3>
+<p>Ketika masuk ke Obrolan Suara di <em>channel</em>, pendengar dapat bergabung dengan akun pribadi atau memilih tampilan channel sebagai alias. Tokoh penting dan terkenal dapat menggunakan cara ini untuk menghindari terlalu banyak perhatian pada akun pribadi mereka.</p>
+<div class="blog_image_wrap blog_medium_image_wrap">
+<a href="/file/464001305/4/mLAGs_eJ4h4.98472/c3b8a619c32ca54cab" target="_blank">
+<img src="/file/464001224/4/co_N6utxsG0.38857/fdc5bd32c4f5d30f26" title="Pilih channel yang tepat untuk bergabung ke Obrolan Suara" alt="Bergabung ke Obrolan Suara sebagai Channel" srcset="/file/464001305/4/mLAGs_eJ4h4.98472/c3b8a619c32ca54cab , 2x" />
+</a>
+</div>
+<blockquote>
+<p>Sebagai contoh, Perdana Menteri <a href="https://t.me/leehsienloong">Singapura</a> dan Presiden <a href="https://t.me/RTErdogan">Turki</a> dapat bercakap-cakap di <a href="https://t.me/durov">Channel Pavel Durov</a> untuk berdiskusi dan melakukan sesi tanya jawab tanpa harus dibanjiri pesan oleh penggemar mereka. </p>
+</blockquote>
+<h3>
+<a class="anchor" name="beberapa-fitur-lainnya" href="#beberapa-fitur-lainnya">
+<i class="anchor-icon">
+</i>
+</a>Beberapa Fitur Lainnya</h3>
+<p>Jika Anda tanpa sengaja <strong>meneruskan pesan</strong> ke grup yang tidak seharusnya, tekan tombol <strong>X</strong> sebelum mengirimkan untuk membatalkan terusan atau <strong>memilih obrolan lain</strong>.</p>
+<div class="blog_image_wrap blog_medium_image_wrap">
+<a href="/file/464001284/4/radytJhwK-c.52636/0afbf0d4080e59767f" target="_blank">
+<img src="/file/464001986/1/CdZ9t05Ivek.21564/d204b69f4a8337b1a3" title="Hati-hati salah grup." alt="Pilih obrolan lain untuk membatalkan terusan" srcset="/file/464001284/4/radytJhwK-c.52636/0afbf0d4080e59767f , 2x" />
+</a>
+</div>
+<p>Anda juga dapat <strong>memutar kembali</strong> audio dari bagian terakhir yang Anda dengarkan saat memutar <strong>pesan suara panjang</strong>. Sebelumnya, fitur ini sudah tersedia untuk video panjang dan trek audio. </p>
+<p>Pengguna <strong>Android</strong> mendapatkan fitur tambahan hari ini. Mereka dapat memilih tindakan sesuai gestur <strong>geser kiri dari daftar obrolan</strong> untuk mengarsipkan obrolan, menyematkan, hapus obrolan, membuat senyap atau menandai sudah dibaca. Untuk iOS semua gestur sudah tersedia, tergantung arah geser Anda.</p>
+<div class="blog_video_player_wrap" style="max-width: 400px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001205/2/x-He9U5kKGY.146619/21bff9f3f33230d66d" style="max-width: 400px;" title="Belum ada animasi emoji sekarang, tunggu ya!" alt="Pilih Tindakan Untuk Fitur Geser di Android">
+<source src="/file/464001932/3/wmEE8TxY7VA.1313859.mp4/89dcca1685b58808b4" type="video/mp4">
+</video>
+</div>
+<p>Cukup sekian untuk hari ini! Sudah siap untuk jumpa fans di Obrolan Suara?</p>
+<div>
+<br>
+</div>
+<p>
+<em>19 Maret 2021<br>Tim Telegram</em>
+</p>
+</div>
+</div>
+<div class="tl_main_share clearfix">
+<a href="https://t.me/share/url?url=https%3A%2F%2Ftelegram.org%2Fblog%2Fvoice-chats-on-steroids%2Fid&text=Obrolan%20Suara%202.0%3A%20Channel%2C%20Jutaan%20Pendengar%2C%20Rekam%20Obrolan%2C%20Fitur%20Admin" class="tl_telegram_share_btn" id="tl_telegram_share_btn" data-text="Obrolan Suara 2.0: Channel, Jutaan Pendengar, Rekam Obrolan, Fitur Admin" data-url="https://telegram.org/blog/voice-chats-on-steroids/id">
+<i class="tl_telegram_share_icon">
+</i>
+<span class="tl_telegram_share_label" target="_blank">Forward</span>
+</a>
+<a href="https://twitter.com/share" class="tl_twitter_share_btn" id="tl_twitter_share_btn" data-text="Obrolan Suara 2.0: Channel, Jutaan Pendengar, Rekam Obrolan, Fitur Admin" data-url="https://telegram.org/blog/voice-chats-on-steroids/id" data-via="Telegram">Tweet <span class="tl_twitter_share_cnt">
+</span>
+</a>
+</div>
+</div>
+<div class="tl_main_recent_news_wrap tlb_other_news_wrap tl_blog_list_page_wrap">
+<h3 class="tl_main_recent_news_header">
+<a href="/blog">Other News</a>
+</h3>
+<div class="tl_main_recent_news_cards clearfix">
+<a class="dev_blog_card_link_wrap" href="/blog/welcome-messages-buttons-TG-13/id">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400741/6/aFBFZ5lNqO8.66680.webp/0e567958d5b96a2184" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">Pesan Sambutan, Tombol dalam Pesan, dan Hadiah dengan Salam</h4>
+<div class="dev_blog_card_lead">Memperkenalkan Pesan Sambutan untuk sapa anggota baru grup atau channel, Tombol dalam Pesan untuk buat teks interaktif, Dokumen Sebaris…</div>
+</div>
+<div class="dev_blog_card_date">Aug 25, 2026</div>
+</div>
+</a>
+<a class="dev_blog_card_link_wrap" href="/blog/communities-editor-invisible-messages/id">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400366/6/dI0zgi0mM5s.323818.webp/6a362dadee6e7e6011" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">Editor Teks Kaya, Komunitas, Pesan Tersembunyi dalam Grup, 350 Juta GIF</h4>
+<div class="dev_blog_card_lead">Memperkenalkan editor teks kaya untuk memformat dan menghasilkan teks; Komunitas Telegram yang menggandengkan beberapa grup, channel, dan…</div>
+</div>
+<div class="dev_blog_card_date">Jul 14, 2026</div>
+</div>
+</a>
+<a class="dev_blog_card_link_wrap" href="/blog/watch-apps-and-more/id">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400535/2/fkUcVRnSU-M.140100.webp/10c066db41f83e6d5e" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">Aplikasi Smartwatch, Teks Kaya untuk Bot, AI Guardian untuk Grup, dan Sebagainya</h4>
+<div class="dev_blog_card_lead">Pembaruan hari ini menghadirkan Telegram di Apple Watch dan smartwatch Android dan menambahkan fitur-fitur seperti teks kaya untuk bot…</div>
+</div>
+<div class="dev_blog_card_date">Jun 11, 2026</div>
+</div>
+</a>
+<a class="dev_blog_card_link_wrap" href="/blog/ai-bot-revolution-11-new-features/id">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400475/2/BwY041V7nZg.149454.webp/873ed0c0321c7633e7" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">Bot AI Tamu, Komunikasi Antar Bot, Percakapan Otomatis, Pencarian Emoji &amp; Stiker 100J+, dan Sebagainya</h4>
+<div class="dev_blog_card_lead">Dalam pembaruan hari ini, Telegram menambahkan lebih dari 10 fitur baru. Pengguna akan dapat…</div>
+</div>
+<div class="dev_blog_card_date">May 7, 2026</div>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer_wrap">
+<div class="footer_columns_wrap footer_desktop">
+<div class="footer_column footer_column_telegram">
+<h5>Telegram</h5>
+<div class="footer_telegram_description">
+</div>
+      Telegram is a cloud-based mobile and desktop messaging app with a focus on security and speed.
+    </div>
+<div class="footer_column">
+<h5>
+<a href="/faq">About</a>
+</h5>
+<ul>
+<li>
+<a href="/faq">FAQ</a>
+</li>
+<li>
+<a href="/privacy">Privacy</a>
+</li>
+<li>
+<a href="/press">Press</a>
+</li>
+</ul>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/apps#mobile-apps">Mobile Apps</a>
+</h5>
+<ul>
+<li>
+<a href="/dl/ios">iPhone/iPad</a>
+</li>
+<li>
+<a href="/android">Android</a>
+</li>
+<li>
+<a href="/dl/web">Mobile Web</a>
+</li>
+</ul>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/apps#desktop-apps">Desktop Apps</a>
+</h5>
+<ul>
+<li>
+<a href="//desktop.telegram.org/">PC/Mac/Linux</a>
+</li>
+<li>
+<a href="//macos.telegram.org/">macOS</a>
+</li>
+<li>
+<a href="/dl/web">Web-browser</a>
+</li>
+</ul>
+</div>
+<div class="footer_column footer_column_platform">
+<h5>
+<a href="//core.telegram.org/">Platform</a>
+</h5>
+<ul>
+<li>
+<a href="//core.telegram.org/api">API</a>
+</li>
+<li>
+<a href="//translations.telegram.org/">Translations</a>
+</li>
+<li>
+<a href="//instantview.telegram.org/">Instant View</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="footer_columns_wrap footer_mobile">
+<div class="footer_column">
+<h5>
+<a href="/faq">About</a>
+</h5>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/blog">Blog</a>
+</h5>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/press">Press</a>
+</h5>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/safety">Safety</a>
+</h5>
+</div>
+</div>
+</div>
+<script src="/js/main.js?49">
+</script>
+<script src="/js/tgsticker.js?32">
+</script>
+<script src="/js/main-theme.js?6">
+</script>
+<script>initScrollVideos(true);
+mainInitTgStickers({"maxDeviceRatio":2,"cachingModulo":4});
+twitterCustomShareInit();
+blogSideImageInit();
+backToTopInit("Go up");
+removePreloadInit();
+</script>
+</body>
+</html>

@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html class="" data-theme="light">
+<head>
+<meta charset="utf-8">
+<title>Chats de Voz do Jeito Certo</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:title" content="Chats de Voz do Jeito Certo">
+<meta property="og:image" content="https://telegram.org/file/464001202/4/Mo4VjRb1ndM.81564/729451f158ff1f6267">
+<meta property="og:site_name" content="Telegram">
+<meta property="og:description" content="Hoje, os grupos do Telegram ganham uma dimensão inteiramente nova com os Chats de Voz – são como conferências de áudio contínuas em que os membros podem entrar e sair quando quiserem. Nossa décima segunda atualização em 2020 trouxe isso para você bem a tempo para as confraternizações de Natal.">
+<meta property="article:published_time" content="2020-12-23T07:38:28+00:00">
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://telegram.org/file/464001202/4/Mo4VjRb1ndM.81564/729451f158ff1f6267" />
+<meta property="fb:app_id" content="254098051407226">
+<meta property="vk:app_id" content="3782569">
+<meta name="apple-itunes-app" content="app-id=686449807">
+<meta name="telegram:channel" content="@telegram">
+<link rel="canonical" href="https://telegram.org/blog/voice-chats/pt-br" />
+<link rel="icon" type="image/svg+xml" href="/img/website_icon.svg?4">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="alternate icon" href="/img/favicon.ico" type="image/x-icon" />
+<link href="/css/bootstrap.min.css?3" rel="stylesheet">
+<link href="/css/telegram.css?256" rel="stylesheet" media="screen">
+<link href="/css/telegram-theme.css?9" rel="stylesheet" media="screen">
+</head>
+<body class="preload">
+<div id="fb-root">
+</div>
+<button class="theme-toggle theme-toggle--static" type="button" title="Toggle theme" aria-label="Toggle light/dark theme">
+</button>
+<div class="tl_page_wrap">
+<div class="tl_page_head navbar navbar-static-top navbar navbar-tg">
+<div class="navbar-inner">
+<div class="container clearfix">
+<ul class="nav navbar-nav navbar-right">
+<li class="dropdown top_lang_select">
+<a class="dropdown-toggle" onclick="return dropdownClick(this, event)" href="#">
+<i class="dev_top_lang_icon">
+</i>
+<b class="minicaret">
+</b>
+</a>
+<ul class="dropdown-menu">
+<li class="">
+<a href="?setln=en">English</a>
+</li>
+<li class="long ">
+<a href="?setln=id">Bahasa Indonesia</a>
+</li>
+<li class="long ">
+<a href="?setln=ms">Bahasa Melayu</a>
+</li>
+<li class="">
+<a href="?setln=de">Deutsch</a>
+</li>
+<li class="">
+<a href="?setln=es">Español</a>
+</li>
+<li class="">
+<a href="?setln=fr">Français</a>
+</li>
+<li class="">
+<a href="?setln=it">Italiano</a>
+</li>
+<li class="">
+<a href="?setln=nl">Nederlands</a>
+</li>
+<li class="">
+<a href="?setln=uz">O‘zbek</a>
+</li>
+<li class="">
+<a href="?setln=pl">Polski</a>
+</li>
+<li class="long ">
+<a href="?setln=pt-br">Português (Brasil)</a>
+</li>
+<li class="">
+<a href="?setln=tr">Türkçe</a>
+</li>
+<li class="">
+<a href="?setln=be">Беларуская</a>
+</li>
+<li class="">
+<a href="?setln=ru">Русский</a>
+</li>
+<li class="">
+<a href="?setln=uk">Українська</a>
+</li>
+<li class="">
+<a href="?setln=kk">Қазақша</a>
+</li>
+<li class="">
+<a href="?setln=ar">العربية</a>
+</li>
+<li class="">
+<a href="?setln=fa">فارسی</a>
+</li>
+<li class="">
+<a href="?setln=ko">한국어</a>
+</li>
+</ul>
+</li>
+<li class="navbar-twitter hidden-xs">
+<a href="https://x.com/telegram" target="_blank" data-track="Follow/Twitter" onclick="trackDlClick(this, event)">
+<i class="icon icon-twitter">
+</i> Follow on X</a>
+</li>
+</ul>
+<ul class="nav navbar-nav">
+<li class="">
+<a href="/">Home</a>
+</li>
+<li class="">
+<a href="/faq">FAQ</a>
+</li>
+<li class="">
+<a href="/apps">Apps</a>
+</li>
+<li class="hidden-xs ">
+<a href="//core.telegram.org/api">API</a>
+</li>
+<li class="hidden-xs ">
+<a href="/safety">Safety</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="container clearfix tl_page_container ">
+<div class="tl_page">
+<div class="tl_contest_page_wrap">
+<div class="tl_blog_side_blog">
+<div class="side_blog_wrap">
+<div class="side_blog">
+<a href="/blog" class="side_blog_header">Recent News</a>
+<div class="side_blog_entries">
+<a href="/blog/welcome-messages-buttons-TG-13" class="side_blog_entry">
+<div class="side_blog_date">Aug 25</div>
+<div class="side_blog_title">Welcome Messages, Buttons in Messages and Signed Gifts</div>
+</a>
+<a href="/blog/communities-editor-invisible-messages" class="side_blog_entry">
+<div class="side_blog_date">Jul 14</div>
+<div class="side_blog_title">Rich Text Editor, Communities, Ephemeral Messages in Groups, 350 Million GIFs</div>
+</a>
+<a href="/blog/watch-apps-and-more" class="side_blog_entry">
+<div class="side_blog_date">Jun 11</div>
+<div class="side_blog_title">Smartwatch Apps, Rich Text for Bots, AI Guardians for Groups, and Much More</div>
+</a>
+<a href="/blog/ai-bot-revolution-11-new-features" class="side_blog_entry">
+<div class="side_blog_date">May 7</div>
+<div class="side_blog_title">Guest AI Bots, Bot-to-Bot Chats, Chat Automation, Custom AI Styles, 100M+ Emoji &amp; Sticker Search and Much More</div>
+</a>
+<a href="/blog/ai-editor-mighty-polls-and-more" class="side_blog_entry">
+<div class="side_blog_date">Mar 31</div>
+<div class="side_blog_title">AI Editor, Mighty Polls, Live Photos, Bots Managed by Bots, and More</div>
+</a>
+<a href="/blog/member-tags-disable-sharing-and-more" class="side_blog_entry">
+<div class="side_blog_date">Mar 1</div>
+<div class="side_blog_title">Member Tags, Login with Telegram, Disable Sharing, GIF Editing, Date Formatting, Voting Timestamps</div>
+</a>
+<a href="/blog/crafting-android-design-and-more" class="side_blog_entry">
+<div class="side_blog_date">Feb 9</div>
+<div class="side_blog_title">Android Redesign, Group Ownership Transfer, Gift Crafting, Colored Bot Buttons</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div id="dev_page_content_wrap" class=" ">
+<div class="dev_page_bread_crumbs">
+</div>
+<h1 id="dev_page_title">Chats de Voz do Jeito Certo</h1>
+<blockquote class="blog_lang_original">
+<a href="/blog/voice-chats?ln=r">Leia o anúncio original em Inglês</a>
+</blockquote>
+<div id="dev_page_content">
+<div class="blog_side_image_wrap">
+<picture class="dev_page_tgsticker blog_side_image js-tgsticker_image" style="width:160px;">
+<div style="padding-top:100%">
+</div>
+<source type="application/x-tgsticker" srcset="/file/464001497/3/13CyQuRGsJ4.16995/7e27e3003741f89510">
+<img src="/file/464001497/4/EEUwM6j876I.34083.png/4842966fd6d9ea25df" />
+</picture>
+</div>
+<div class="blog_wide_image legacy">
+<a href="/file/464001242/2/2FAr1CCrfgM.231364/3ffa60a503da3c7478" target="_blank">
+<img src="/file/464001486/2/YhebxHENSFg.81584/bd0c236ebfe729a32f" srcset="/file/464001242/2/2FAr1CCrfgM.231364/3ffa60a503da3c7478, 1200w" title="Não coma a areia amarela." alt="Chats de Voz do Jeito Certo."/>
+</a>
+</div>
+<p>Desde <strong>2013</strong>, estamos ampliando o significado de <strong>grupos</strong>, adicionando recursos como <a href="https://telegram.org/blog/replies-mentions-hashtags">respostas</a>, <a href="https://telegram.org/tour/groups#mentions">menções com notificações inteligentes</a>, <a href="https://telegram.org/blog/polls-2-0-vmq">enquetes avançadas</a>, <a href="https://telegram.org/blog/admin-revolution">ferramentas para admins</a>, <a href="https://telegram.org/blog/profile-videos-people-nearby-and-more#group-stats">estatísticas para grupos</a> e permitindo <strong>centenas de milhares</strong> de membros por grupo. Muitos desses recursos foram posteriormente incorporados a outros aplicativos e ajudaram a redefinir a forma como as pessoas se comunicam.</p>
+<p>Hoje, os grupos do Telegram ganham uma dimensão inteiramente nova com os <strong>Chats de Voz</strong> – são como <strong>conferências de áudio</strong> contínuas em que os membros podem entrar e sair quando quiserem. Nossa <a href="https://telegram.org/blog">décima segunda atualização</a> em <strong>2020</strong> trouxe isso para você bem a tempo para as confraternizações de Natal.</p>
+<blockquote>
+<p>
+<strong>Atualização de março de 2021:</strong> Não perca os <a href="https://telegram.org/blog/voice-chats-on-steroids/pt-br">Chats de Voz 2.0: Canais, Milhões de Ouvintes, Chats Gravados, Ferramentas de Admin</a>.</p>
+</blockquote>
+<h3>
+<a class="anchor" name="chats-de-voz" href="#chats-de-voz">
+<i class="anchor-icon">
+</i>
+</a>Chats de Voz</h3>
+<p>
+<strong>Qualquer grupo do Telegram</strong> agora pode virar uma sala de conversa por voz que está sempre aberta. Os Chats de Voz funcionam em paralelo com a comunicação existente baseada em texto e mídia, adicionando uma <strong> camada ao vivo</strong> de conversas ao grupo. Eles podem ser usados como escritórios virtuais ou espaços de conversas informais para qualquer equipe.</p>
+<p>Embora os Chats de Voz não sejam chamadas em grupo, eles podem atingir objetivos semelhantes – ao mesmo tempo, oferecendo <strong>flexibilidade</strong> em vez do agendamento de chamadas tradicional. Em grupos maiores, eles também fornecem oportunidades inesperadas de conversar com as pessoas.</p>
+<div class="blog_video_player_wrap" style="max-width: 400px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001806/2/ZdTEg4owdeU.196621/6b3f6ba6826440ae99" style="max-width: 400px;" title="Vamos de karaokê?" alt="Chats de Voz em um grupo.">
+<source src="/file/464001586/3/CS24oNVxoVk.4628800.mp4/18ad205065ab867938" type="video/mp4">
+</video>
+</div>
+<p>Grupos com chats de voz ativos têm uma barra especial na parte superior que mostra quem está falando no momento (e até mesmo o quão alto eles estão falando). Isso pode te ajudar a escolher o melhor momento para entrar – como, por exemplo, saber quando os seus amigos estão dando uma pausa para o café.</p>
+<div class="blog_video_player_wrap" style="max-width: 400px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001537/3/o0Mvq_5eSpE.119905/00077aeb837fb1545b" style="max-width: 400px;" title="O botão de mudo é muito parecido com o espaço – ninguém vai ouvir você gritar." alt="Modo flutuante do chat de voz no Android por todo o sistema.">
+<source src="/file/464001525/1/xAfJSzQm1Wg.4562843.mp4/3ef08c911db0d4aa12" type="video/mp4">
+</video>
+</div>
+<p>Depois de entrar em um chat de voz, você pode navegar livremente no aplicativo, ler as suas conversas e enviar mensagens. Você <strong>continuará na chamada</strong> e os controles do microfone ficarão à sua disposição na tela para ativar ou desativar a qualquer momento.</p>
+<p>Se estiver no <strong>Android</strong>, você pode aproveitar a experiência completa do Chat de Voz com um <strong>widget flutuante</strong> que mostra os controles do microfone e quem está falando, até mesmo quando o Telegram está em segundo plano. O Papai Noel também está usando o Android – e ele precisa do navegador de trenó dele aberto o tempo todo.</p>
+<div class="blog_video_player_wrap" style="max-width: 400px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001370/2/WYR5DDQ-uE4.18440/73f35495d32d05fd6b" style="max-width: 400px;" title="Agora você pode literalmente ver quem está falando." alt="Indicador de fala na barra superior.">
+<source src="/file/464001360/3/98YEuQ8P6NE.569251.mp4/7da9d6e1473626a773" type="video/mp4">
+</video>
+</div>
+<p>Você pode bater um papo com quem está online ou convidar mais pessoas através do menu prático. Os Chats de Voz podem acomodar <strong>alguns milhares de participantes</strong>, o que significa que eles funcionarão para tudo – desde consultar membros da família durante as compras, até um grande evento ao vivo.</p>
+<p>Por último, mas não menos importante, os Chats de Voz mostram <strong>animações espetaculares</strong>. Para acertar, nosso designer teve que vender a alma, mas achamos que valeu totalmente a pena.</p>
+<blockquote>
+<p>Para criar um chat de voz e iniciar a festa virtual, abra o perfil do grupo e toque em (⋯) ou (⋮) e selecione <strong>Iniciar Chat de Voz</strong>.</p>
+</blockquote>
+<p>Como os grupos do Telegram anteriormente, esperamos que os Chats de Voz mudem a maneira como as pessoas colaboram e mantêm contato. Nas próximas semanas, iremos refiná-los ainda mais, ouvindo os seus comentários, melhorando a supressão de ruído e adicionando mais recursos, como <strong>vídeo</strong> e <strong>compartilhamento de tela</strong>.</p>
+<h3>
+<a class="anchor" name="atalhos-para-segurar-e-falar" href="#atalhos-para-segurar-e-falar">
+<i class="anchor-icon">
+</i>
+</a>Atalhos para “Segurar e Falar”</h3>
+<p>No <a href="https://desktop.telegram.org/">Telegram Desktop</a> e no <a href="https://macos.telegram.org">app nativo para macOS</a>, você pode escolher uma <strong>tecla de atalho para o “Segurar e Falar”</strong> e controlar o seu microfone mesmo que o Telegram não esteja em foco. Encontramos um uso para a sua tecla de Caps Lock!</p>
+<div class="blog_video_player_wrap" style="max-width: 400px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001912/3/0LcsNe65r_o.74428/965a9ce215eed550d6" style="max-width: 400px;" title="Falar 'Câmbio!' é opcional." alt="Atalho para Segurar e Falar no Telegram Desktop.">
+<source src="/file/464001562/2/VbNKvYk-rgA.1446090.mp4/a0213f79ac872974e5" type="video/mp4">
+</video>
+</div>
+<h3>
+<a class="anchor" name="bordas-de-sticker" href="#bordas-de-sticker">
+<i class="anchor-icon">
+</i>
+</a>Bordas de Sticker</h3>
+<p>Os stickers animados no Telegram são <a href="https://telegram.org/blog/animated-stickers">otimizados para eficiência</a> e precisam de menos de <strong>50 KB</strong> para animações suaves a <strong>180 frames</strong> com <strong>resolução infinita</strong>.</p>
+<p>Com a atualização de hoje, os stickers carregarão <strong>ainda mais rápido</strong> que antes e mostrarão uma <strong>borda cintilante</strong> do que você está prestes a ver. Só toma cuidado para não piscar e perder essa novidade.</p>
+<div class="blog_video_player_wrap" style="max-width: 400px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001048/2/_ZcdEYI-z84.80007/80ad820637dec4f539" style="max-width: 400px;" title="Que Pokémon é esse?" alt="Assista às bordas dos stickers enquanto eles carregam.">
+<source src="/file/464001434/3/5cTeI6zyulU.3341650.mp4/946a2db8cbe26511b8" type="video/mp4">
+</video>
+</div>
+<h3>
+<a class="anchor" name="armazenamento-no-cartao-de-memoria-no-android" href="#armazenamento-no-cartao-de-memoria-no-android">
+<i class="anchor-icon">
+</i>
+</a>Armazenamento no Cartão de Memória no Android</h3>
+<p>Os usuários no Android agora podem mover os dados do Telegram da memória interna para o <strong>cartão de memória</strong>, permitindo salvar mais mídias e arquivos em celulares com pouco espaço e maximizar a experiência no Telegram.</p>
+<div class="blog_image_wrap blog_medium_image_wrap">
+<a href="/file/464001951/3/-k4orSn_n60.30678/80f578ea35c6edf933" target="_blank">
+<img src="/file/464001951/3/-k4orSn_n60.30678/80f578ea35c6edf933" title="Não confunda com um cartão XD, isso é uma tecnologia mais antiga que os emojis.
+" alt="Configurações de uso de armazenamento." srcset="/file/464001951/3/-k4orSn_n60.30678/80f578ea35c6edf933 , 2x" />
+</a>
+</div>
+<blockquote>
+<p>Lembre-se que você pode sempre manter o uso de armazenamento do Telegram no seu celular <strong>incrivelmente pequeno</strong>. Confira em <em>Configurações &gt; Dados e Armazenamento &gt; Uso do Armazenamento</em> para mais ideias.</p>
+</blockquote>
+<h3>
+<a class="anchor" name="novas-animacoes-no-android" href="#novas-animacoes-no-android">
+<i class="anchor-icon">
+</i>
+</a>Novas Animações no Android</h3>
+<p>Adicionamos <strong>novas lindas animações</strong> por todo o app para Android – ao tocar no botão de <strong>Nova mensagem</strong>, abrir perfis, gerenciar as suas pastas e em qualquer lugar em que você vê <strong>contadores de mensagem</strong>.</p>
+<div class="blog_video_player_wrap" style="max-width: 400px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001762/2/vS5cTej6l1Y.63720/ae574ada133ffee402" style="max-width: 400px;" title="Você nunca está sozinho com as animações certas." alt="Novas animações no Android.">
+<source src="/file/464001188/3/2-CCGC5-feY.1572853.mp4/63ac65de3baad1922d" type="video/mp4">
+</video>
+</div>
+<h3>
+<a class="anchor" name="anunciar-mensagens-no-ios" href="#anunciar-mensagens-no-ios">
+<i class="anchor-icon">
+</i>
+</a>Anunciar Mensagens no iOS</h3>
+<p>Se ainda estiver no iOS, você pode usar a Siri para ler mensagens recebidas em voz alta no seu fone de ouvido. Abra os <em>Ajustes do iOS &gt; Notificações &gt; Ler Mensagens com a Siri</em> e <strong>ative</strong> a opção para o Telegram para ficar por dentro das conversas até mesmo enquanto lava as louças.</p>
+<h3>
+<a class="anchor" name="melhorias-na-edicao" href="#melhorias-na-edicao">
+<i class="anchor-icon">
+</i>
+</a>Melhorias na Edição</h3>
+<p>Usuários no Android agora podem editar rapidamente uma foto já enviada para adicionar <strong>efeitos</strong>, <strong>desenhos</strong> ou <strong>stickers</strong> com o nosso <a href="https://telegram.org/blog/video-editor-gifs/pt-br">editor de mídias</a> poderoso. Os usuários no iOS podem tocar no botão de caneta para <strong>editar e enviar de volta</strong> rapidamente uma foto que foi recebida.</p>
+<p>Cada uma dessas funções estava disponível em somente uma das plataformas, mas agora tanto o iOS quanto o Android oferecem <strong>oportunidades iguais</strong> de desenhar bigodes nas fotos.</p>
+<div class="blog_image_wrap blog_medium_image_wrap">
+<a href="/file/464001693/2/rXm4nECM0Kw.44043/55d3683f2c0c17425e" target="_blank">
+<img src="/file/464001929/2/QUE897I1tDQ.18264/6c4f217a7c580c3ac5" title="Foi muito fácil colocar o tubarão no traje... o difícil foi fazer ele usar óculos. " alt="Melhorias na Edição para iOS e Android." srcset="/file/464001693/2/rXm4nECM0Kw.44043/55d3683f2c0c17425e , 2x" />
+</a>
+</div>
+<p>Ao <strong>editar uma mensagem ou legenda</strong>, conforme você chega perto do tamanho máximo da mensagem, um contador vai aparecer e informar quantos caracteres restantes você ainda tem disponív</p>
+<h3>
+<a class="anchor" name="mais-emojis-animados" href="#mais-emojis-animados">
+<i class="anchor-icon">
+</i>
+</a>Mais Emojis Animados</h3>
+<p>Nenhuma atualização está completa sem ter ainda mais emojis animados. Como sempre, é só enviar o emoji sozinho na mensagem para ter um destes <img class="emoji" src="//telegram.org/img/emoji/40/F09F9187.png" width="20" height="20" alt="👇" /> no chat.</p>
+<div class="blog_video_player_wrap" style="max-width: 400px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001923/2/F1Nk2JqOEMw.92452/b24b374017004006e6" style="max-width: 400px;" title="Peça presentes de Natal, vença os problemas de 2021 com vários yeehaws ou ostente as suas realizações em 2020." alt="Novos emojis animados, dezembro de 2020">
+<source src="/file/464001085/1/wdSuxrUZoos.2617054.mp4/75874d6d07768053d6" type="video/mp4">
+</video>
+</div>
+<p>Tem uma história por aí sobre um <em>cyber cowboy</em> que está resolvendo um assassinato misterioso.</p>
+<h3>
+<a class="anchor" name="plataforma-para-sugestao-de-recursos" href="#plataforma-para-sugestao-de-recursos">
+<i class="anchor-icon">
+</i>
+</a>Plataforma para Sugestão de Recursos</h3>
+<p>Muitos recursos do Telegram começaram como sugestões dos usuários. Para ajudar a identificar potenciais novos recursos e encontrar bugs no app, lançamos uma <a href="https://bugs.telegram.org">
+<strong>Plataforma de Bugs e Sugestões</strong>
+</a>
+<strong>pública</strong>.</p>
+<blockquote>
+<p>Por favor, observe que a plataforma atualmente é compatível com apenas um idioma, o Inglês. Isso é necessário para que nossos usuários de todo o mundo não criem dezenas de pedidos para os mesmos recursos em todos os idiomas.</p>
+</blockquote>
+<p>Vamos liberar a possibilidade de sugerir novos recursos e informar bugs <strong>gradativamente</strong> para ter certeza de que cada envio receberá a atenção necessária. Todos os usuários do Telegram já têm as nossas boas-vindas para ver entradas existentes e <strong>votar</strong> nelas.</p>
+<p>E isso é tudo por hoje, veremos você em 2021 ou quando terminarmos de construir a próxima grande novidade – o que ocorrer primeiro.</p>
+<div>
+<br>
+</div>
+<p>
+<em>23 de dezembro de 2020,<br>A Equipe do Telegram.</em>
+</p>
+<div>
+<br>
+</div>
+<blockquote>
+<p>
+<strong>P.S.</strong> O fim de ano é normalmente uma época para refletir sobre os últimos 12 meses. Em vez disso, nosso fundador Pavel Durov acabou de anunciar a sua <a href="https://t.me/durov/142">
+<strong>estratégia para tornar o Telegram sustentável</strong>
+</a> para continuar oferecendo <strong>ótimas funcionalidades nas próximas décadas</strong>.</p>
+</blockquote>
+</div>
+</div>
+<div class="tl_main_share clearfix">
+<a href="https://t.me/share/url?url=https%3A%2F%2Ftelegram.org%2Fblog%2Fvoice-chats%2Fpt-br&text=Os%20Chats%20de%20Voz%20e%20mais%20novidades%20chegaram%20ao%20Telegram." class="tl_telegram_share_btn" id="tl_telegram_share_btn" data-text="Os Chats de Voz e mais novidades chegaram ao Telegram." data-url="https://telegram.org/blog/voice-chats/pt-br">
+<i class="tl_telegram_share_icon">
+</i>
+<span class="tl_telegram_share_label" target="_blank">Forward</span>
+</a>
+<a href="https://twitter.com/share" class="tl_twitter_share_btn" id="tl_twitter_share_btn" data-text="Os Chats de Voz e mais novidades chegaram ao Telegram." data-url="https://telegram.org/blog/voice-chats/pt-br" data-via="Telegram">Tweet <span class="tl_twitter_share_cnt">
+</span>
+</a>
+</div>
+</div>
+<div class="tl_main_recent_news_wrap tlb_other_news_wrap tl_blog_list_page_wrap">
+<h3 class="tl_main_recent_news_header">
+<a href="/blog">Other News</a>
+</h3>
+<div class="tl_main_recent_news_cards clearfix">
+<a class="dev_blog_card_link_wrap" href="/blog/welcome-messages-buttons-TG-13/pt-br">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400741/6/aFBFZ5lNqO8.66680.webp/0e567958d5b96a2184" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">Mensagens de Boas-Vindas, Botões nas Mensagens e Presentes Assinados</h4>
+<div class="dev_blog_card_lead">Apresentamos as Mensagens de Boas-Vindas para receber novos membros de grupos ou canais, os Botões nas Mensagens para tornar qualquer texto…</div>
+</div>
+<div class="dev_blog_card_date">Aug 25, 2026</div>
+</div>
+</a>
+<a class="dev_blog_card_link_wrap" href="/blog/communities-editor-invisible-messages/pt-br">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400366/6/dI0zgi0mM5s.323818.webp/6a362dadee6e7e6011" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">Editor de Texto Formatado, Comunidades, Mensagens Efêmeras em Grupos, 350 Milhões de GIFs</h4>
+<div class="dev_blog_card_lead">Apresentando o Editor de Texto Formatado para formatar e gerar texto, as Comunidades do Telegram…</div>
+</div>
+<div class="dev_blog_card_date">Jul 14, 2026</div>
+</div>
+</a>
+<a class="dev_blog_card_link_wrap" href="/blog/watch-apps-and-more/pt-br">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400535/2/fkUcVRnSU-M.140100.webp/10c066db41f83e6d5e" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">Apps para Smartwatch, Texto Formatado para Bots, Guardiões de IA para Grupos e Muito Mais</h4>
+<div class="dev_blog_card_lead">A atualização de hoje leva o Telegram ao Apple Watch e a smartwatches Android, adiciona recursos…</div>
+</div>
+<div class="dev_blog_card_date">Jun 11, 2026</div>
+</div>
+</a>
+<a class="dev_blog_card_link_wrap" href="/blog/ai-bot-revolution-11-new-features/pt-br">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400475/2/BwY041V7nZg.149454.webp/873ed0c0321c7633e7" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">Bots de IA Convidados, Chats Entre Bots, Automação de Chats, Estilos de IA Personalizados, Busca de +100 Milhões de Emojis e Stickers, e Muito Mais</h4>
+<div class="dev_blog_card_lead">Na atualização de hoje, o Telegram adiciona mais…</div>
+</div>
+<div class="dev_blog_card_date">May 7, 2026</div>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer_wrap">
+<div class="footer_columns_wrap footer_desktop">
+<div class="footer_column footer_column_telegram">
+<h5>Telegram</h5>
+<div class="footer_telegram_description">
+</div>
+      Telegram is a cloud-based mobile and desktop messaging app with a focus on security and speed.
+    </div>
+<div class="footer_column">
+<h5>
+<a href="/faq">About</a>
+</h5>
+<ul>
+<li>
+<a href="/faq">FAQ</a>
+</li>
+<li>
+<a href="/privacy">Privacy</a>
+</li>
+<li>
+<a href="/press">Press</a>
+</li>
+</ul>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/apps#mobile-apps">Mobile Apps</a>
+</h5>
+<ul>
+<li>
+<a href="/dl/ios">iPhone/iPad</a>
+</li>
+<li>
+<a href="/android">Android</a>
+</li>
+<li>
+<a href="/dl/web">Mobile Web</a>
+</li>
+</ul>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/apps#desktop-apps">Desktop Apps</a>
+</h5>
+<ul>
+<li>
+<a href="//desktop.telegram.org/">PC/Mac/Linux</a>
+</li>
+<li>
+<a href="//macos.telegram.org/">macOS</a>
+</li>
+<li>
+<a href="/dl/web">Web-browser</a>
+</li>
+</ul>
+</div>
+<div class="footer_column footer_column_platform">
+<h5>
+<a href="//core.telegram.org/">Platform</a>
+</h5>
+<ul>
+<li>
+<a href="//core.telegram.org/api">API</a>
+</li>
+<li>
+<a href="//translations.telegram.org/">Translations</a>
+</li>
+<li>
+<a href="//instantview.telegram.org/">Instant View</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="footer_columns_wrap footer_mobile">
+<div class="footer_column">
+<h5>
+<a href="/faq">About</a>
+</h5>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/blog">Blog</a>
+</h5>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/press">Press</a>
+</h5>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/safety">Safety</a>
+</h5>
+</div>
+</div>
+</div>
+<script src="/js/main.js?49">
+</script>
+<script src="/js/tgsticker.js?32">
+</script>
+<script src="/js/main-theme.js?6">
+</script>
+<script>initScrollVideos(true);
+mainInitTgStickers({"maxDeviceRatio":2,"cachingModulo":4});
+twitterCustomShareInit();
+blogSideImageInit();
+backToTopInit("Go up");
+removePreloadInit();
+</script>
+</body>
+</html>

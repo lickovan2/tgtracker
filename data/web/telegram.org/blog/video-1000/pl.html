@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html class="" data-theme="light">
+<head>
+<meta charset="utf-8">
+<title>Połączenia wideo do 1000 widzów, szybkość odtwarzania wideo, wiadomości wideo 2.0 i więcej</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:title" content="Połączenia wideo do 1000 widzów, szybkość odtwarzania wideo, wiadomości wideo 2.0 i więcej">
+<meta property="og:image" content="https://telegram.org/file/464001574/3/Pqda66P2qCA.71942/56366f0bdd3630cab8">
+<meta property="og:site_name" content="Telegram">
+<meta property="og:description" content="Ta aktualizacja przenosi wideo na wyższy poziom. Grupowe rozmowy wideo mają teraz do 1000 widzów, wiadomości wideo są nagrywane w wyższej jakości i można je rozszerzać, a zwykłe filmy można oglądać z prędkością 0,5 lub 2x. Do wszystkich rozmów wideo, w tym rozmów 1 na 1 dodaliśmy udostępnianie ekranu z dźwiękiem — i wiele więcej.">
+<meta property="article:published_time" content="2021-07-30T14:32:03+00:00">
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://telegram.org/file/464001574/3/Pqda66P2qCA.71942/56366f0bdd3630cab8" />
+<meta property="fb:app_id" content="254098051407226">
+<meta property="vk:app_id" content="3782569">
+<meta name="apple-itunes-app" content="app-id=686449807">
+<meta name="telegram:channel" content="@telegram">
+<link rel="canonical" href="https://telegram.org/blog/video-1000/pl" />
+<link rel="icon" type="image/svg+xml" href="/img/website_icon.svg?4">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="alternate icon" href="/img/favicon.ico" type="image/x-icon" />
+<link href="/css/bootstrap.min.css?3" rel="stylesheet">
+<link href="/css/telegram.css?256" rel="stylesheet" media="screen">
+<link href="/css/telegram-theme.css?9" rel="stylesheet" media="screen">
+</head>
+<body class="preload">
+<div id="fb-root">
+</div>
+<button class="theme-toggle theme-toggle--static" type="button" title="Toggle theme" aria-label="Toggle light/dark theme">
+</button>
+<div class="tl_page_wrap">
+<div class="tl_page_head navbar navbar-static-top navbar navbar-tg">
+<div class="navbar-inner">
+<div class="container clearfix">
+<ul class="nav navbar-nav navbar-right">
+<li class="dropdown top_lang_select">
+<a class="dropdown-toggle" onclick="return dropdownClick(this, event)" href="#">
+<i class="dev_top_lang_icon">
+</i>
+<b class="minicaret">
+</b>
+</a>
+<ul class="dropdown-menu">
+<li class="">
+<a href="?setln=en">English</a>
+</li>
+<li class="long ">
+<a href="?setln=id">Bahasa Indonesia</a>
+</li>
+<li class="long ">
+<a href="?setln=ms">Bahasa Melayu</a>
+</li>
+<li class="">
+<a href="?setln=de">Deutsch</a>
+</li>
+<li class="">
+<a href="?setln=es">Español</a>
+</li>
+<li class="">
+<a href="?setln=fr">Français</a>
+</li>
+<li class="">
+<a href="?setln=it">Italiano</a>
+</li>
+<li class="">
+<a href="?setln=nl">Nederlands</a>
+</li>
+<li class="">
+<a href="?setln=uz">O‘zbek</a>
+</li>
+<li class="">
+<a href="?setln=pl">Polski</a>
+</li>
+<li class="long ">
+<a href="?setln=pt-br">Português (Brasil)</a>
+</li>
+<li class="">
+<a href="?setln=tr">Türkçe</a>
+</li>
+<li class="">
+<a href="?setln=be">Беларуская</a>
+</li>
+<li class="">
+<a href="?setln=ru">Русский</a>
+</li>
+<li class="">
+<a href="?setln=uk">Українська</a>
+</li>
+<li class="">
+<a href="?setln=kk">Қазақша</a>
+</li>
+<li class="">
+<a href="?setln=ar">العربية</a>
+</li>
+<li class="">
+<a href="?setln=fa">فارسی</a>
+</li>
+<li class="">
+<a href="?setln=ko">한국어</a>
+</li>
+</ul>
+</li>
+<li class="navbar-twitter hidden-xs">
+<a href="https://x.com/telegram" target="_blank" data-track="Follow/Twitter" onclick="trackDlClick(this, event)">
+<i class="icon icon-twitter">
+</i> Follow on X</a>
+</li>
+</ul>
+<ul class="nav navbar-nav">
+<li class="">
+<a href="/">Home</a>
+</li>
+<li class="">
+<a href="/faq">FAQ</a>
+</li>
+<li class="">
+<a href="/apps">Apps</a>
+</li>
+<li class="hidden-xs ">
+<a href="//core.telegram.org/api">API</a>
+</li>
+<li class="hidden-xs ">
+<a href="/safety">Safety</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="container clearfix tl_page_container ">
+<div class="tl_page">
+<div class="tl_contest_page_wrap">
+<div class="tl_blog_side_blog">
+<div class="side_blog_wrap">
+<div class="side_blog">
+<a href="/blog" class="side_blog_header">Recent News</a>
+<div class="side_blog_entries">
+<a href="/blog/welcome-messages-buttons-TG-13" class="side_blog_entry">
+<div class="side_blog_date">Aug 25</div>
+<div class="side_blog_title">Welcome Messages, Buttons in Messages and Signed Gifts</div>
+</a>
+<a href="/blog/communities-editor-invisible-messages" class="side_blog_entry">
+<div class="side_blog_date">Jul 14</div>
+<div class="side_blog_title">Rich Text Editor, Communities, Ephemeral Messages in Groups, 350 Million GIFs</div>
+</a>
+<a href="/blog/watch-apps-and-more" class="side_blog_entry">
+<div class="side_blog_date">Jun 11</div>
+<div class="side_blog_title">Smartwatch Apps, Rich Text for Bots, AI Guardians for Groups, and Much More</div>
+</a>
+<a href="/blog/ai-bot-revolution-11-new-features" class="side_blog_entry">
+<div class="side_blog_date">May 7</div>
+<div class="side_blog_title">Guest AI Bots, Bot-to-Bot Chats, Chat Automation, Custom AI Styles, 100M+ Emoji &amp; Sticker Search and Much More</div>
+</a>
+<a href="/blog/ai-editor-mighty-polls-and-more" class="side_blog_entry">
+<div class="side_blog_date">Mar 31</div>
+<div class="side_blog_title">AI Editor, Mighty Polls, Live Photos, Bots Managed by Bots, and More</div>
+</a>
+<a href="/blog/member-tags-disable-sharing-and-more" class="side_blog_entry">
+<div class="side_blog_date">Mar 1</div>
+<div class="side_blog_title">Member Tags, Login with Telegram, Disable Sharing, GIF Editing, Date Formatting, Voting Timestamps</div>
+</a>
+<a href="/blog/crafting-android-design-and-more" class="side_blog_entry">
+<div class="side_blog_date">Feb 9</div>
+<div class="side_blog_title">Android Redesign, Group Ownership Transfer, Gift Crafting, Colored Bot Buttons</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div id="dev_page_content_wrap" class=" ">
+<div class="dev_page_bread_crumbs">
+</div>
+<h1 id="dev_page_title">Połączenia wideo do 1000 widzów, szybkość odtwarzania wideo, wiadomości wideo 2.0 i więcej</h1>
+<blockquote class="blog_lang_original">
+<a href="/blog/video-1000?ln=r">Przeczytaj oryginalny tekst w języku angielskim</a>
+</blockquote>
+<div id="dev_page_content">
+<div class="blog_side_image_wrap">
+<picture class="dev_page_tgsticker blog_side_image js-tgsticker_image" style="width:160px;">
+<div style="padding-top:100%">
+</div>
+<source type="application/x-tgsticker" srcset="/file/464001875/2/qM-xLbil-eo.6949/7205195ed7b0bc75e5">
+<img src="/file/464001875/3/KzE19RyK_sA.30695.png/47e59560e91e8bd231" />
+</picture>
+</div>
+<div class="blog_wide_image legacy">
+<a href="/file/464001365/2/YMmv4srTGM4.219208/f69f0b9bad11867902" target="_blank">
+<img src="/file/464001574/3/Pqda66P2qCA.71942/56366f0bdd3630cab8" srcset="/file/464001365/2/YMmv4srTGM4.219208/f69f0b9bad11867902, 1200w" title="" alt="Połączenia wideo do 1000 widzów, szybkość odtwarzania wideo, wiadomości wideo 2.0 i więcej"/>
+</a>
+</div>
+<p>Ta aktualizacja przenosi wideo na wyższy poziom. <strong>Grupowe rozmowy wideo</strong> mają teraz do <strong>1000 widzów</strong>, <strong>wiadomości wideo</strong> są nagrywane w wyższej jakości i można je rozszerzać, a zwykłe filmy można oglądać z <strong>prędkością 0,5</strong> lub <strong>2x</strong>. Do <em>wszystkich</em> rozmów wideo, w tym <strong>rozmów 1 na 1</strong> dodaliśmy <strong>udostępnianie ekranu z dźwiękiem</strong> — i wiele więcej.</p>
+<h3>
+<a class="anchor" name="grupowe-rozmowy-wideo-2-0" href="#grupowe-rozmowy-wideo-2-0">
+<i class="anchor-icon">
+</i>
+</a>Grupowe rozmowy wideo 2.0</h3>
+<p>
+<a href="https://telegram.org/blog/group-video-calls/pl?ln=a">Grupowe rozmowy wideo</a> umożliwiają maksymalnie 30 użytkownikom transmitowanie obrazu zarówno z kamery, jak i z ekranu, a teraz <strong>1000 osób</strong> może oglądać wszystko, od wykładów online po bitwy rapowe na żywo.</p>
+<p>Będziemy <strong>zwiększać ten limit</strong>, aż wszyscy ludzie na Ziemi będą mogli przyłączyć się do jednej rozmowy grupowej i oglądać nasze wspólne jodłowanie (już wkrótce).</p>
+<div class="blog_video_player_wrap" style="max-width: 400px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001256/3/HJy7jscFzeg.132550/40bba612f898831a6c" style="max-width: 400px;" title="" alt="Grupowe rozmowy wideo z 1000 widzów">
+<source src="/file/464001985/3/V1aWC1RWIMc.5950134.mp4/81808ef2a568656421" type="video/mp4">
+</video>
+</div>
+<blockquote>
+<p>Aby rozpocząć grupową rozmowę wideo, utwórz czat głosowy na stronie informacyjnej (w menu ⋮ w systemie Android) dowolnej grupy, której jesteś administratorem, a następnie włącz wideo.</p>
+</blockquote>
+<h3>
+<a class="anchor" name="wiadomosci-wideo-2-0" href="#wiadomosci-wideo-2-0">
+<i class="anchor-icon">
+</i>
+</a>Wiadomości wideo 2.0</h3>
+<p>
+<a href="https://t.me/TelegramTipsPL/124">Wiadomości wideo</a> to szybki sposób na poinformowanie lub podzielenie się wrażeniami bez dodawania kolejnego filmu do galerii. Mają one teraz <strong>wyższą rozdzielczość</strong> i możesz dotknąć wiadomości wideo, aby ją <strong>rozwinąć</strong> i zobaczyć wszystkie dodatkowe piksele. </p>
+<div class="blog_video_player_wrap" style="max-width: 400px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001329/3/NBHDg4GBKiE.54984/5febb210aeb307c3f5" style="max-width: 400px;" title="Mamy nadzieję, że jego telefon jest wodoodporny." alt="Wiadomości wideo 2.0">
+<source src="/file/464001368/4/RkEOKGzBt_o.4515224.mp4/203790e072f1d08a82" type="video/mp4">
+</video>
+</div>
+<p>Naciśnięcie rozwiniętej wiadomość wideo <strong>zatrzymuje</strong> ją i daje możliwość <strong>przewinięcia wiadomości do przodu</strong> lub <strong>do tyłu</strong>, jeśli umknęło Ci jakieś słowo.</p>
+<blockquote>
+<p>W celu nagrania wiadomości wideo dotknij ikony mikrofonu na pasku wiadomości, aby przełączyć się z nagrywania wiadomości głosowej na wideo. Naciśnij i przytrzymaj, aby nagrywać, a następnie dotknij ikonę aparatu, aby przełączyć się z powrotem.</p>
+</blockquote>
+<p>Dźwięk z urządzenia <strong>będzie odtwarzany</strong> podczas nagrywania, dzięki czemu możesz teraz śpiewać razem z ulubionymi piosenkami lub odpowiadać bez wstrzymywania podcastu. Dodatkowo nagrywanie za pomocą tylnego aparatu pozwala na <strong>zbliżenie</strong> i uchwycenie rzeczy w oddali lub dodanie dramatycznego efektu (upiorna muzyka nie jest dołączana).</p>
+<h3>
+<a class="anchor" name="szybkosc-odtwarzania-wideo" href="#szybkosc-odtwarzania-wideo">
+<i class="anchor-icon">
+</i>
+</a>Szybkość odtwarzania wideo</h3>
+<p>Aby sprawnie przebrnąć przez filmy z wykładów i odtwarzać ruchy kung-fu w zwolnionym tempie, odtwarzacz multimedialny obsługuje teraz <strong>szybkość odtwarzania 0,5x</strong>, <strong>1,5x</strong> i <strong>2x</strong>. Nasz programista Android jest fanem kolibrów, więc jego aplikacja obsługuje również szybkość <strong>0,2x</strong>.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001846/5/OmJy9A-1FP8.88718/d44ca244cfe4a8b969" style="max-width: 600px;" title="Wszystko, czego potrzebujesz, aby cieszyć się filmami o skaczących kotach." alt="Kontrola szybkość odtwarzania wideo">
+<source src="/file/464001494/4/s3J2bnDSUdY.2874883.mp4/1b0fb2fb61ca9d1521" type="video/mp4">
+</video>
+</div>
+<blockquote>
+<p>Aby zmienić prędkość odtwarzania wideo, dotknij ⋮ na Androidzie lub ⋯ na iOS podczas oglądania wideo na pełnym ekranie.</p>
+</blockquote>
+<p>Na Androidzie możesz też nacisnąć i przytrzymać <strong>przycisk 2X</strong> podczas odtwarzania <strong>wiadomości głosowej</strong> lub <strong>wideo</strong>, by przełączać prędkość odtwarzania między <em>0,5x</em>, <em>1x</em>, <em>1,5x</em> i <em>2x</em>. </p>
+<h3>
+<a class="anchor" name="linki-znacznika-czasu" href="#linki-znacznika-czasu">
+<i class="anchor-icon">
+</i>
+</a>Linki znacznika czasu</h3>
+<p>Od <a href="https://telegram.org/blog/silent-messages-slow-mode#timestamps-and-improved-scrubbing">2019 r.</a>, umieszczenie <strong>znacznika czasu</strong>, takiego jak <em>0:30</em> w podpisach lub odpowiedziach do filmów i linków z YouTube, pozwala użytkownikom przeskoczyć do tej dokładnej sekundy, a teraz możesz nacisnąć i przytrzymać znacznik czasu w wiadomości, aby <strong>skopiować link</strong> i udostępnić ten moment na innym czacie.</p>
+<h3>
+<a class="anchor" name="udostepnianie-ekranu-z-dzwiekiem" href="#udostepnianie-ekranu-z-dzwiekiem">
+<i class="anchor-icon">
+</i>
+</a>Udostępnianie ekranu z dźwiękiem</h3>
+<p>Udostępnianie ekranu zostało dodane również do <strong>rozmów 1 na 1</strong> i teraz obejmuje również <strong>dźwięk z Twojego urządzenia</strong> podczas transmisji w dowolnej rozmowie wideo. Upewnij się więc, że wyszedłeś z <em>Super Mario</em>, zanim przyjdzie Twoja kolej na prezentację — albo nie, użyj gry do uzyskania efektów dźwiękowych.</p>
+<div class="blog_video_player_wrap" style="max-width: 400px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001659/4/4fOghwlec00.39911/15b6e8bbfe9467299c" style="max-width: 400px;" title="To ja, ROI!" alt="Udostępnianie ekranu z dźwiękiem w rozmowach 1 na 1">
+<source src="/file/464001477/1/erYr6jbdL2k.8581570.mp4/1274880e355a7c9b8a" type="video/mp4">
+</video>
+</div>
+<p>Włączając wideo podczas dowolnej rozmowy, możesz przesunąć palcem, aby wybrać kamerę lub udostępnić swój ekran, a korzystając z <strong>podglądu wideo</strong>, upewnisz się, że wszystko jest idealne przygotowane przed wejściem na żywo.</p>
+<!--Alt: Mówią, że widzieć to wierzyć, ale słuchanie również zasługuje na uznanie.-->
+<blockquote>
+<p>Aby udostępnić swój ekran podczas połączenia wideo, dotknij przycisku kamery i wybierz swój ekran jako źródło wideo.</p>
+</blockquote>
+<h3>
+<a class="anchor" name="automatyczne-usuwanie-po-1-miesiacu" href="#automatyczne-usuwanie-po-1-miesiacu">
+<i class="anchor-icon">
+</i>
+</a>Automatyczne usuwanie po 1 miesiącu</h3>
+<p>Wiadomości na dowolnym czacie można ustawić tak, aby <a href="https://telegram.org/blog/autodelete-inv2/pl?ln=a#automatyczne-usuwanie-wiadomosci">usuwały się</a> po <strong>1 dniu</strong> lub <strong>1 tygodniu</strong>, a teraz po <strong>1 miesiącu</strong>, na wypadek, gdybyś chciał trzymać czaty przez pełny cykl księżycowy, zanim znikną.</p>
+<div class="blog_image_wrap blog_medium_image_wrap">
+<a href="/file/464001466/2/g68xpARID2Q.226472/70f4b83d69089b9d63" target="_blank">
+<img src="/file/464001451/3/g7c_rzghems.26377/6dfd04fa4071fb23ea" title="W przypadku wiadomości, które nie starzeją się dobrze." alt="Automatyczne usuwanie po 1 miesiącu" srcset="/file/464001466/2/g68xpARID2Q.226472/70f4b83d69089b9d63 , 2x" />
+</a>
+</div>
+<!--Alt: Dla wiadomości, które przybywają i słabną wraz z księżycem.-->
+<blockquote>
+<p>Aby włączyć zegar na Androidzie, dotknij ⋮ » Wyczyść historię, a następnie wybierz czas trwania. W systemie iOS stuknij i przytrzymaj wiadomość, stuknij kolejno opcje Zaznacz » Czyść czat (w lewym górnym rogu) » Włącz auto-usuwanie.</p>
+</blockquote>
+<h3>
+<a class="anchor" name="precyzyjne-rysowanie" href="#precyzyjne-rysowanie">
+<i class="anchor-icon">
+</i>
+</a>Precyzyjne rysowanie</h3>
+<p>Edytor multimediów umożliwia ilustrowanie i dekorowanie zdjęć i filmów rysunkami, tekstem i naklejkami. Aby łatwiej dodawać drobne szczegóły (lub idealne wąsy i spiczaste uszy), teraz szerokość pędzla <strong>zmniejsza się</strong> wraz z <strong>powiększaniem obrazu</strong>, co zapewnia precyzję profesjonalisty.</p>
+<div class="blog_video_player_wrap" style="max-width: 400px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001291/3/IgI-4ajZcDg.50021/8701a4d069d10923bf" style="max-width: 400px;" title="Mona, czy coś się stało? Nic!" alt="Precyzyjne rysowanie">
+<source src="/file/464001095/2/_CIvXPYLRvE.4605110.mp4/85d409ac312386a913" type="video/mp4">
+</video>
+</div>
+<blockquote>
+<p>Aby w dowolnym momencie zmienić szerokość pędzla, przeciągnij kropkę w górę z selektora kolorów.</p>
+</blockquote>
+<p>Aplikacja <a href="https://desktop.telegram.org/?setln=pl">Telegram Desktop</a> ma teraz własny edytor zdjęć, w którym można <strong>przycinać</strong>, <strong>obracać</strong> lub <strong>odwracać</strong> obrazy oraz <strong>dodawać rysunki</strong> lub naklejki. Unikalne dla komputerów stacjonarnych – edytowane wersje mogą być wysyłane jako <strong>nieskompresowane pliki</strong>, odznaczając pole <em>Kompresuj obrazy</em>.</p>
+<h3>
+<a class="anchor" name="animacje-kodu-dostepu" href="#animacje-kodu-dostepu">
+<i class="anchor-icon">
+</i>
+</a>Animacje kodu dostępu</h3>
+<p>Nowe animacje sprawiają, że interfejsy blokady kodem dostępu są jeszcze szybsze niż wcześniej. Jeśli używasz <a href="https://telegram.org/blog/animated-backgrounds/pl?setln=pl">animowanego tła</a>, pojawi się ono również na <strong>ekranie blokady kodem dostępu</strong>. Dyskoteka nigdy się nie kończy.</p>
+<div class="blog_video_player_wrap" style="max-width: 400px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001632/4/CKIXIs1EyS8.112035/75957a8bc0fc2109bb" style="max-width: 400px;" title="A dla następnego cudu zmienię twoje hasło na STRACH!" alt="Animacje kodu dostępu">
+<source src="/file/464001718/3/LHqSS69lOAw.5021489.mp4/2496f5e51eeea6207a" type="video/mp4">
+</video>
+</div>
+<h3>
+<a class="anchor" name="odzyskiwanie-hasla-i-przypomnienia" href="#odzyskiwanie-hasla-i-przypomnienia">
+<i class="anchor-icon">
+</i>
+</a>Odzyskiwanie hasła i przypomnienia</h3>
+<p>Dodaliśmy nowy monit w Ustawieniach, który pomoże Ci <strong>przećwiczyć</strong> wpisywanie hasła weryfikacji dwustopniowej.</p>
+<div class="blog_image_wrap blog_medium_image_wrap">
+<a href="/file/464001227/6/0Pi9HwIPq9c.142798/81dd07395d1a89e33f" target="_blank">
+<img src="/file/464001433/2/4vDVl7gHCKA.52184/b90a0db337b198df63" title="" alt="Ćwiczenie Twojego hasła weryfikacj dwustopniowej" srcset="/file/464001227/6/0Pi9HwIPq9c.142798/81dd07395d1a89e33f , 2x" />
+</a>
+</div>
+<p>Jeśli <strong>nie pamiętasz</strong> hasła, dostępna jest nowa opcja <strong>resetowania hasła</strong>, która działa nawet wtedy, gdy nie masz adresu e-mail odzyskiwania hasła — o ile nadal jesteś zalogowany na swoje konto. Proces zajmie <strong>7 dni</strong> i można go anulować z dowolnego urządzenia.</p>
+<h3>
+<a class="anchor" name="animacje-wysylania-wiadomosci-na-androidzie" href="#animacje-wysylania-wiadomosci-na-androidzie">
+<i class="anchor-icon">
+</i>
+</a>Animacje wysyłania wiadomości na Androidzie</h3>
+<p>Podobnie jak <a href="https://telegram.org/blog/animated-backgrounds/pl?ln=a#animacje-wysylania-wiadomosci">emoji i naklejki</a>, <strong>wiadomości tekstowe</strong> mają nowe, lekkie animacje – po naciśnięciu przycisku <em>Wyślij</em> tekst płynnie przekształca się w dymek wiadomości, gdy wlatuje do czatu. Użytkownicy iOS otrzymali te energooszczędne animacje w <a href="https://telegram.org/blog/animated-backgrounds/pl?ln=a#animacje-wysylania-wiadomosci">poprzedniej aktualizacji</a>.</p>
+<div class="blog_video_player_wrap" style="max-width: 400px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001732/3/drs9FN1OmCk.112454/03d29c07e5fadba8af" style="max-width: 400px;" title="" alt="Animacje wysyłania wiadomości">
+<source src="/file/464001450/5/Aqu-0wOm2BQ.4590149.mp4/3ba80b9f1532b4f226" type="video/mp4">
+</video>
+</div>
+<h3>
+<a class="anchor" name="nowa-kamera-w-aplikacji-na-ios" href="#nowa-kamera-w-aplikacji-na-ios">
+<i class="anchor-icon">
+</i>
+</a>Nowa kamera w aplikacji na iOS</h3>
+<p>Aparat w aplikacji wykorzystuje teraz wszystkie poziomy powiększenia na urządzeniu – w tym <strong>0,5x</strong> i <strong>2x</strong>, jeśli są dostępne. Możesz także nacisnąć i przytrzymać, aby otworzyć <strong>koło powiększenia</strong>, które umożliwia dokładną kontrolę przybliżania i oddalania obrazu.</p>
+<div class="blog_video_player_wrap" style="max-width: 400px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001767/2/qjMH8U-VaOk.135137/ce849b2deb6e121ad0" style="max-width: 400px;" title="Powiększenie. Zwiększ." alt="Nowa kamera w aplikacji na iOS">
+<source src="/file/464001490/2/5bmb0-rFx0c.3165762.mp4/201b053ed3cd022777" type="video/mp4">
+</video>
+</div>
+<!--Alt: Najpierw powiększasz, a następnie używasz suwaka wzmocnienia w edytorze multimediów.-->
+<blockquote>
+<p>Aby użyć kamery w aplikacji, stuknij ikonę <img class="emoji" src="//telegram.org/img/emoji/40/F09F938E.png" width="20" height="20" alt="📎" /> na pasku wiadomości, a następnie stuknij ikonę kamery w menu załącznika.</p>
+</blockquote>
+<h3>
+<a class="anchor" name="wiecej-dla-ios" href="#wiecej-dla-ios">
+<i class="anchor-icon">
+</i>
+</a>Więcej dla iOS</h3>
+<p>Wybierz <strong>wielu odbiorców przekazywanych wiadomości</strong>, stukając „Zaznacz” w menu przekazywania, aby udostępniać najlepsze memy wszystkim najlepszym znajomym.</p>
+<div class="blog_image_wrap blog_medium_image_wrap">
+<a href="/file/464001951/4/5w0R1y1xQwo.170858/e76529694150ad08e0" target="_blank">
+<img src="/file/464001785/5/2FmsIIx8c3U.14186/d19e02ad7697af1f28" title="Przydatne również do masowego wysyłania zdjęć zwierząt domowych." alt="Przesyłanie do wielu odbiorców" srcset="/file/464001951/4/5w0R1y1xQwo.170858/e76529694150ad08e0 , 2x" />
+</a>
+</div>
+<!--Alt: Przydaje się również do masowego wysyłania zdjęć zwierząt domowych.-->
+<p>Przewijanie dwoma palcami na liście czatów szybko <strong>zaznacza kilka czatów</strong> w celu wykonania <strong>zbiorczych działań</strong>, takich jak archiwizowanie, usuwanie lub oznaczanie wszystkich jako przeczytane.</p>
+<!--<div class="blog_video_player_wrap" style="max-width: 400px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="PHOTO" style="max-width: 400px;" title="TITLE" alt="TITLE">
+<source src="VIDEO" type="video/mp4">
+</video>
+</div>-->
+<!--Alt: Dwoma palcami możesz zrobić prawie wszystko.-->
+<p>Podczas przewijania czatów grupowych zdjęcia profilowe <strong>podążają teraz za wiadomościami</strong>, dzięki czemu zawsze wiesz, kto wysłał każdą z nich, nawet w długich łańcuchach jedno.słowo.po.drugim.</p>
+<div class="blog_video_player_wrap" style="max-width: 400px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001825/2/20RO5WaFhrg.64317/676a2d5e580f87b0d3" style="max-width: 400px;" title="Wszyscy. Mamy. Jednego. Przyjaciela." alt="Zdjęcia profilowe podążają za wiadomościami.">
+<source src="/file/464001044/1/7wwRVNlebNA.1636595.mp4/32a1fbb13e4adf603a" type="video/mp4">
+</video>
+</div>
+<h3>
+<a class="anchor" name="nowe-animowane-emoji" href="#nowe-animowane-emoji">
+<i class="anchor-icon">
+</i>
+</a>Nowe animowane emoji</h3>
+<p>Żadna aktualizacja Telegrama nie jest kompletna bez nowych animowanych emoji. Jak zawsze, wystarczy wysłać wiadomość z <strong>pojedynczą emoji</strong>, aby otrzymać jedną z nich na czacie:</p>
+<div class="blog_video_player_wrap" style="max-width: 400px; margin: 20px auto 20px;">
+<video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/464001675/3/9oBB1GC3fls.23885/83655bbba432737cd5" style="max-width: 400px;" title="Ta ma wszystkie składniki dobrego filmu: pięści, złamane serca, trochę natury i dużo tańca" alt="Nowe animowane emoji">
+<source src="/file/464001646/3/CPGThYt9R5I.3649095.mp4/d148b57b5372a18ca4" type="video/mp4">
+</video>
+</div>
+<p>I to wszystko w dzisiejszej aktualizacji – nad następną pracujemy z <strong>szybkością 2X</strong>.</p>
+<div>
+<br>
+</div>
+<p>
+<em>30 lipca 2021<br>Zespół Telegrama</em>
+</p>
+</div>
+</div>
+<div class="tl_main_share clearfix">
+<a href="https://t.me/share/url?url=https%3A%2F%2Ftelegram.org%2Fblog%2Fvideo-1000%2Fpl&text=Po%C5%82%C4%85czenia%20wideo%20do%201000%20widz%C3%B3w%2C%20szybko%C5%9B%C4%87%20odtwarzania%20wideo%2C%20wiadomo%C5%9Bci%20wideo%202.0%2C%20udost%C4%99pnianie%20ekrany%20z%20d%C5%BAwi%C4%99kiem%20i%20wi%C4%99cej" class="tl_telegram_share_btn" id="tl_telegram_share_btn" data-text="Połączenia wideo do 1000 widzów, szybkość odtwarzania wideo, wiadomości wideo 2.0, udostępnianie ekrany z dźwiękiem i więcej" data-url="https://telegram.org/blog/video-1000/pl">
+<i class="tl_telegram_share_icon">
+</i>
+<span class="tl_telegram_share_label" target="_blank">Forward</span>
+</a>
+<a href="https://twitter.com/share" class="tl_twitter_share_btn" id="tl_twitter_share_btn" data-text="Połączenia wideo do 1000 widzów, szybkość odtwarzania wideo, wiadomości wideo 2.0, udostępnianie ekrany z dźwiękiem i więcej" data-url="https://telegram.org/blog/video-1000/pl" data-via="Telegram">Tweet <span class="tl_twitter_share_cnt">
+</span>
+</a>
+</div>
+</div>
+<div class="tl_main_recent_news_wrap tlb_other_news_wrap tl_blog_list_page_wrap">
+<h3 class="tl_main_recent_news_header">
+<a href="/blog">Other News</a>
+</h3>
+<div class="tl_main_recent_news_cards clearfix">
+<a class="dev_blog_card_link_wrap" href="/blog/welcome-messages-buttons-TG-13/pl">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400741/6/aFBFZ5lNqO8.66680.webp/0e567958d5b96a2184" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">Wiadomości powitalne, przyciski w wiadomościach i podpisane prezenty</h4>
+<div class="dev_blog_card_lead">Przedstawiamy wiadomości powitalne, które pozwalają powitać nowych członków grup lub kanałów, przyciski w wiadomościach, które czynią tekst…</div>
+</div>
+<div class="dev_blog_card_date">Aug 25, 2026</div>
+</div>
+</a>
+<a class="dev_blog_card_link_wrap" href="/blog/communities-editor-invisible-messages/pl">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400366/6/dI0zgi0mM5s.323818.webp/6a362dadee6e7e6011" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">Edytor bogatego tekstu, społeczności, tymczasowe wiadomości w grupach, 350 milionów GIFów</h4>
+<div class="dev_blog_card_lead">Przedstawiamy edytor do formatowania i generowania bogatego tekstu, Społeczności Telegrama…</div>
+</div>
+<div class="dev_blog_card_date">Jul 14, 2026</div>
+</div>
+</a>
+<a class="dev_blog_card_link_wrap" href="/blog/watch-apps-and-more/pl">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400535/2/fkUcVRnSU-M.140100.webp/10c066db41f83e6d5e" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">Aplikacje na smartwatche, bogato sformatowany tekst dla botów, opiekuni AI w grupach i znacznie więcej</h4>
+<div class="dev_blog_card_lead">Dzisiejsza aktualizacja wprowadza Telegrama na Apple Watch i smartwatche z Androidem, obrzydliwie…</div>
+</div>
+<div class="dev_blog_card_date">Jun 11, 2026</div>
+</div>
+</a>
+<a class="dev_blog_card_link_wrap" href="/blog/ai-bot-revolution-11-new-features/pl">
+<div class="dev_blog_card_wrap">
+<img class="dev_blog_card_image" src="https://telegram.org/file/400780400475/2/BwY041V7nZg.149454.webp/873ed0c0321c7633e7" />
+<div class="dev_blog_card_alltext_wrap">
+<h4 class="dev_blog_card_title">Gościnne boty AI, czaty bot-z-botem, automatyzacja czatów, wyszukiwarka ponad 100 milionów emoji i naklejek, własne style AI, statystyki ankiet, ciche zaplanowane wiadomości, usuwanie reakcji</h4>
+<div class="dev_blog_card_lead">W dzisiejszej aktualizacji Telegram dodaje ponad…</div>
+</div>
+<div class="dev_blog_card_date">May 7, 2026</div>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer_wrap">
+<div class="footer_columns_wrap footer_desktop">
+<div class="footer_column footer_column_telegram">
+<h5>Telegram</h5>
+<div class="footer_telegram_description">
+</div>
+      Telegram is a cloud-based mobile and desktop messaging app with a focus on security and speed.
+    </div>
+<div class="footer_column">
+<h5>
+<a href="/faq">About</a>
+</h5>
+<ul>
+<li>
+<a href="/faq">FAQ</a>
+</li>
+<li>
+<a href="/privacy">Privacy</a>
+</li>
+<li>
+<a href="/press">Press</a>
+</li>
+</ul>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/apps#mobile-apps">Mobile Apps</a>
+</h5>
+<ul>
+<li>
+<a href="/dl/ios">iPhone/iPad</a>
+</li>
+<li>
+<a href="/android">Android</a>
+</li>
+<li>
+<a href="/dl/web">Mobile Web</a>
+</li>
+</ul>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/apps#desktop-apps">Desktop Apps</a>
+</h5>
+<ul>
+<li>
+<a href="//desktop.telegram.org/">PC/Mac/Linux</a>
+</li>
+<li>
+<a href="//macos.telegram.org/">macOS</a>
+</li>
+<li>
+<a href="/dl/web">Web-browser</a>
+</li>
+</ul>
+</div>
+<div class="footer_column footer_column_platform">
+<h5>
+<a href="//core.telegram.org/">Platform</a>
+</h5>
+<ul>
+<li>
+<a href="//core.telegram.org/api">API</a>
+</li>
+<li>
+<a href="//translations.telegram.org/">Translations</a>
+</li>
+<li>
+<a href="//instantview.telegram.org/">Instant View</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="footer_columns_wrap footer_mobile">
+<div class="footer_column">
+<h5>
+<a href="/faq">About</a>
+</h5>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/blog">Blog</a>
+</h5>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/press">Press</a>
+</h5>
+</div>
+<div class="footer_column">
+<h5>
+<a href="/safety">Safety</a>
+</h5>
+</div>
+</div>
+</div>
+<script src="/js/main.js?49">
+</script>
+<script src="/js/tgsticker.js?32">
+</script>
+<script src="/js/main-theme.js?6">
+</script>
+<script>initScrollVideos(true);
+mainInitTgStickers({"maxDeviceRatio":2,"cachingModulo":4});
+twitterCustomShareInit();
+blogSideImageInit();
+backToTopInit("Go up");
+removePreloadInit();
+</script>
+</body>
+</html>
