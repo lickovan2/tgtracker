@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta property="description" content="We currently support two ways of processing bot updates, getUpdates and setWebhook. getUpdates is a pull mechanism, setwebhook…">
 <meta property="og:title" content="Marvin&#39;s Marvellous Guide to All Things Webhook">
-<meta property="og:image" content="https://core.telegram.org/file/811140281/1/5le8eVE7mPk.261973/25ba8c07609aef2310">
+<meta property="og:image" content="https://core.telegram.org/file/811140281/1/5le8eVE7mPk.261973/X">
 <meta property="og:description" content="We currently support two ways of processing bot updates, getUpdates and setWebhook. getUpdates is a pull mechanism, setwebhook…">
 <link rel="alternate" type="text/markdown" href="/bots/webhooks.md">
 <link rel="icon" type="image/svg+xml" href="/img/website_icon.svg?4">
@@ -497,8 +497,8 @@ Enter keystore password:
 <code>cat yourbotdomainname.csr</code>
 <br>Lets you have a look at the CSR we just generated:</p>
 <div>
-<a href="/file/811140281/1/5le8eVE7mPk.261973/25ba8c07609aef2310" target="_blank">
-<img src="/file/811140281/1/5le8eVE7mPk.261973/25ba8c07609aef2310" title="csrexample.jpg, 255.83Kb" height="60%" width="60%" class="dev_page_image" />
+<a href="/file/811140281/1/5le8eVE7mPk.261973/X" target="_blank">
+<img src="/file/811140281/1/5le8eVE7mPk.261973/X" title="csrexample.jpg, 255.83Kb" height="60%" width="60%" class="dev_page_image" />
 </a>
 </div>
 <p>That doesn’t seem to informative, but we can deduce that the file is in PEM format (ASCII base64 encoded) and contains a certificate signing request. Luckily it is possible to look at the human readable contents of the CSR. Use the following commands to double check if all fields are set correctly.</p>
@@ -517,20 +517,20 @@ Enter keystore password:
 <p>Verify your CSR and supply it to your CA to get a certificate. We’ll use StartSSL as an example here. StartSSL allows you to set up to 5 names (SAN), Their intermediate certificate is also needed for a webhook to work, which makes for a nice complete example. </p>
 <p>Go to the certificates wizard, enter the required hostname(s) for your SSL certificate (this is the CN you’ve also set in the CSR and an optional SAN).</p>
 <div>
-<a href="/file/811140045/1/wtVcG_IghfI.78937/51e72042b1df5f28b5" target="_blank">
-<img src="/file/811140045/1/wtVcG_IghfI.78937/51e72042b1df5f28b5" title="sslcertwiz.jpg, 77.09Kb" height="75%" width="75%" class="dev_page_image" />
+<a href="/file/811140045/1/wtVcG_IghfI.78937/X" target="_blank">
+<img src="/file/811140045/1/wtVcG_IghfI.78937/X" title="sslcertwiz.jpg, 77.09Kb" height="75%" width="75%" class="dev_page_image" />
 </a>
 </div>
 <p>In the example above we’ve chosen to set a CN <code>(test.telegram.org)</code>, but also a SAN <code>(sanexample.telegram.org)</code> The CN given has to match the CN used for generating the CSR.<br>Set your CN (and optional SAN) and copy the contents of the yoursigningrequest.csr file.</p>
 <div>
-<a href="/file/811140068/1/5qVIwLYnqd8.116971/87a6da7b70e377f899" target="_blank">
-<img src="/file/811140068/1/5qVIwLYnqd8.116971/87a6da7b70e377f899" title="sslcertwiz1.jpg, 114.23Kb" height="75%" width="75%" class="dev_page_image" />
+<a href="/file/811140068/1/5qVIwLYnqd8.116971/X" target="_blank">
+<img src="/file/811140068/1/5qVIwLYnqd8.116971/X" title="sslcertwiz1.jpg, 114.23Kb" height="75%" width="75%" class="dev_page_image" />
 </a>
 </div>
 <p>Paste the contents, submit and you’re done.</p>
 <div>
-<a href="/file/811140069/2/MVKz66N9t4o.53664/7130b06124c18c9e94" target="_blank">
-<img src="/file/811140069/2/MVKz66N9t4o.53664/7130b06124c18c9e94" title="sslcertwiz2.jpg, 52.41Kb" height="75%" width="75%" class="dev_page_image" />
+<a href="/file/811140069/2/MVKz66N9t4o.53664/X" target="_blank">
+<img src="/file/811140069/2/MVKz66N9t4o.53664/X" title="sslcertwiz2.jpg, 52.41Kb" height="75%" width="75%" class="dev_page_image" />
 </a>
 </div>
 <p>Now you can download the created certificate directly. In the example used above you’ll receive a zip file with several PEM certificates. The root, intermediate and yourdomain certificate.<br>You need the <code>intermediate</code> and <code>yourdomain</code> to set a webhook with a StartSSL certificate.</p>
@@ -556,8 +556,8 @@ Enter keystore password:
 </li>
 </ul>
 <div>
-<a href="/file/811140010/2/omTlwQW_Wpk.133258/5db0b29d43f5558413" target="_blank">
-<img src="/file/811140010/2/omTlwQW_Wpk.133258/5db0b29d43f5558413" title="wincert.jpg, 130.13Kb" height="50%" width="50%" class="dev_page_image" />
+<a href="/file/811140010/2/omTlwQW_Wpk.133258/X" target="_blank">
+<img src="/file/811140010/2/omTlwQW_Wpk.133258/X" title="wincert.jpg, 130.13Kb" height="50%" width="50%" class="dev_page_image" />
 </a>
 </div>
 <p>With your fresh certificates at hand, you can now continue setting your webhook.</p>
@@ -732,8 +732,8 @@ Both supply tools to verify your setup.</code>
 </ul>
 <p>Here’s an example of a complete chain, note that in this case 2 intermediate certificates have been supplied.</p>
 <div>
-<a href="/file/811140157/1/FsbXbc0yPJA.49297/5812f355ecfcda764a" target="_blank">
-<img src="/file/811140157/1/FsbXbc0yPJA.49297/5812f355ecfcda764a" title="startsslexample.jpg, 48.14Kb" height="75%" width="75%" class="dev_page_image" />
+<a href="/file/811140157/1/FsbXbc0yPJA.49297/X" target="_blank">
+<img src="/file/811140157/1/FsbXbc0yPJA.49297/X" title="startsslexample.jpg, 48.14Kb" height="75%" width="75%" class="dev_page_image" />
 </a>
 </div>
 <p>Even though your browser might not complain when visiting your page, an incomplete chain will not work for your webhook. If your chain is incomplete we have some tips to add them to your current setup:</p>
@@ -795,8 +795,8 @@ Both supply tools to verify your setup.</code>
 <li>
 <p>Message with text using Postman:</p>
 <div>
-<a href="/file/811140789/2/DmiZPh1t6z0.269328/98525b6835f0a91432" target="_blank">
-<img src="/file/811140789/2/DmiZPh1t6z0.269328/98525b6835f0a91432" title="postmanfakeupdate.jpg, 263.02Kb" class="dev_page_image" />
+<a href="/file/811140789/2/DmiZPh1t6z0.269328/X" target="_blank">
+<img src="/file/811140789/2/DmiZPh1t6z0.269328/X" title="postmanfakeupdate.jpg, 263.02Kb" class="dev_page_image" />
 </a>
 </div>
 </li>

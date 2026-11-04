@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta property="description" content="A description of MTProto 2.0, used by major Telegram clients as of version 4.6.">
 <meta property="og:title" content="﻿Mobile Protocol: Detailed Description">
-<meta property="og:image" content="https://core.telegram.org/file/811140746/2/CzMyJPVnPo8.81605/c2310d6ede1a5e220f">
+<meta property="og:image" content="https://core.telegram.org/file/811140746/2/CzMyJPVnPo8.81605/X">
 <meta property="og:description" content="A description of MTProto 2.0, used by major Telegram clients as of version 4.6.">
 <link rel="alternate" type="text/markdown" href="/mtproto/description.md">
 <link rel="icon" type="image/svg+xml" href="/img/website_icon.svg?4">
@@ -99,8 +99,8 @@ MTProto v.1.0 is deprecated and is currently being phased out.</p>
 <p>The authorization key <strong>auth_key</strong> combined with the message key <strong>msg_key</strong> define an actual 256-bit key <strong>aes_key</strong> and a 256-bit initialization vector <strong>aes_iv</strong>, which are used to encrypt the message using AES-256 encryption in infinite garble extension (IGE) mode. Note that the initial part of the message to be encrypted contains variable data (session, message ID, sequence number, server salt) that obviously influences the message key (and thus the AES key and iv). In <strong>MTProto 2.0</strong>, the message key is defined as the 128 middle bits of the SHA-256 of the message body (including session, message ID, padding, etc.) prepended by 32 bytes taken from the authorization key. In the older <strong>MTProto 1.0</strong>, the message key was computed as the lower 128 bits of SHA-1 of the message body, excluding the padding bytes.</p>
 <p>Multipart messages are encrypted as a single message.</p>
 <div>
-<a href="/file/811140746/2/CzMyJPVnPo8.81605/c2310d6ede1a5e220f">
-<img src="/file/811140746/2/CzMyJPVnPo8.81605/c2310d6ede1a5e220f" alt="MTProto server-client encryption, cloud chats" class="dev_page_image" style="max-width: 600px;">
+<a href="/file/811140746/2/CzMyJPVnPo8.81605/X">
+<img src="/file/811140746/2/CzMyJPVnPo8.81605/X" alt="MTProto server-client encryption, cloud chats" class="dev_page_image" style="max-width: 600px;">
 </a>
 </div>
 <blockquote>
