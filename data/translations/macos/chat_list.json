@@ -1,0 +1,791 @@
+{
+ "Alert.Forward.Error": [
+  "Sorry, you can't forward messages to this conversation."
+ ],
+ "Alert.OK": [
+  "OK"
+ ],
+ "Archive.Tooltip.JustArchive.Title": [
+  "Chat archived."
+ ],
+ "Call.StatusCallingAccount": [
+  "calling → %@…"
+ ],
+ "Chat.ConnectingStatus.connecting": [
+  "Connecting"
+ ],
+ "Chat.Context.Archive": [
+  "Archive"
+ ],
+ "Chat.Context.Unarchive": [
+  "Unarchive"
+ ],
+ "Chat.DropFolder.Desc": [
+  "as an archive"
+ ],
+ "Chat.DropFolder.Title": [
+  "Drop the folder here to send it"
+ ],
+ "Chat.ForwardActionHeader": [
+  "Forward Messages"
+ ],
+ "Chat.List.Contact": [
+  "Contact"
+ ],
+ "Chat.List.GIF": [
+  "GIF"
+ ],
+ "Chat.List.InstantVideo": [
+  "Video message"
+ ],
+ "Chat.List.Map": [
+  "Location"
+ ],
+ "Chat.List.Photo1": [
+  "Photo",
+  "%d Photos"
+ ],
+ "Chat.List.Photo1_countable": [
+  "%d"
+ ],
+ "Chat.List.Video": [
+  "Video"
+ ],
+ "Chat.List.Video1": [
+  "Video",
+  "%d Videos"
+ ],
+ "Chat.List.Video1_countable": [
+  "%d"
+ ],
+ "Chat.Poll.SubmitVote": [
+  "Vote"
+ ],
+ "Chat.Poll.Type.AnonymousQuiz": [
+  "Anonymous Quiz"
+ ],
+ "Chat.Poll.Type.Public": [
+  "Poll"
+ ],
+ "Chat.Poll.Type.Quiz": [
+  "Quiz"
+ ],
+ "Chat.ProxySponsored.CapDesc": [
+  "This channel is shown by your proxy server"
+ ],
+ "Chat.Service.Channel.UpdatedTitle": [
+  "Channel renamed to \"%@\""
+ ],
+ "Chat.Service.Group.UpdatedTitle": [
+  "%@ changed the group name to \"%@\""
+ ],
+ "Chat.Service.PeerJoinedTelegram": [
+  "%@ joined Telegram"
+ ],
+ "Chat.Service.PinnedMessage": [
+  "pinned message"
+ ],
+ "Chat.Service.SuggestedPhoto": [
+  "%@ suggests this photo for your Telegram profile"
+ ],
+ "Chat.Service.You": [
+  "You"
+ ],
+ "Chat.Service.YouSuggestedPhoto": [
+  "You suggested a profile photo"
+ ],
+ "Chat.UndoManager.ChannelDeleted": [
+  "Channel Deleted.",
+  "%d Channels Deleted."
+ ],
+ "Chat.UndoManager.ChannelLeft": [
+  "Channel Left",
+  "%d Channels Left"
+ ],
+ "Chat.UndoManager.ChatLeft": [
+  "Chat Left",
+  "%d Chats Left"
+ ],
+ "Chat.UndoManager.ChatsDeleted": [
+  "Chat Deleted",
+  "%d Chats Deleted"
+ ],
+ "Chat.UndoManager.ChatsHistoryCleared": [
+  "Chat History Cleared",
+  "%d Chat History Cleared"
+ ],
+ "Chat.UndoManager.Undo": [
+  "Undo"
+ ],
+ "ChatList.Add.BottomSeparator": [
+  "CHATS"
+ ],
+ "ChatList.Add.Placeholder": [
+  "Select chats..."
+ ],
+ "ChatList.Add.TopSeparator": [
+  "CHAT TYPES"
+ ],
+ "ChatList.ArchivedChats": [
+  "Archived Chats"
+ ],
+ "ChatList.Context.Call": [
+  "Call"
+ ],
+ "ChatList.Context.ClearHistory": [
+  "Clear History"
+ ],
+ "ChatList.Context.DeleteAndExit": [
+  "Delete and Leave"
+ ],
+ "ChatList.Context.DeleteChat": [
+  "Delete Chat"
+ ],
+ "ChatList.Context.LeaveChannel": [
+  "Leave Channel"
+ ],
+ "ChatList.Context.LeaveGroup": [
+  "Leave Group"
+ ],
+ "ChatList.Context.MaskAsRead": [
+  "Mark As Read"
+ ],
+ "ChatList.Context.MaskAsUnread": [
+  "Mark As Unread"
+ ],
+ "ChatList.Context.Mute": [
+  "Mute"
+ ],
+ "ChatList.Context.Pin": [
+  "Pin"
+ ],
+ "ChatList.Context.PinError": [
+  "Sorry, you can pin no more than 5 chats to the top."
+ ],
+ "ChatList.Context.PinErrorNew": [
+  "Sorry, you can only pin 5 chats to the top."
+ ],
+ "ChatList.Context.Preview": [
+  "Preview"
+ ],
+ "ChatList.Context.ReturnGroup": [
+  "Return to Group"
+ ],
+ "ChatList.Context.Sound": [
+  "Sound"
+ ],
+ "ChatList.Context.Unmute": [
+  "Unmute"
+ ],
+ "ChatList.Context.Unpin": [
+  "Unpin"
+ ],
+ "ChatList.DownloadsTag": [
+  "Downloads"
+ ],
+ "ChatList.Filter.Add.Done": [
+  "Done"
+ ],
+ "ChatList.Filter.AddChats": [
+  "Add Chats"
+ ],
+ "ChatList.Filter.AddToFolder": [
+  "Add to folder..."
+ ],
+ "ChatList.Filter.AllChats": [
+  "All Chats"
+ ],
+ "ChatList.Filter.Archive": [
+  "Archived"
+ ],
+ "ChatList.Filter.Bots": [
+  "Bots"
+ ],
+ "ChatList.Filter.Channels": [
+  "Channels"
+ ],
+ "ChatList.Filter.Confirm.Remove.Header": [
+  "Remove Folder"
+ ],
+ "ChatList.Filter.Confirm.Remove.OK": [
+  "Delete"
+ ],
+ "ChatList.Filter.Confirm.Remove.Text": [
+  "Are you sure you want to remove this folder? Your chats will not be deleted."
+ ],
+ "ChatList.Filter.Contacts": [
+  "Contacts"
+ ],
+ "ChatList.Filter.Delete": [
+  "Delete"
+ ],
+ "ChatList.Filter.Discard.Cancel": [
+  "Cancel"
+ ],
+ "ChatList.Filter.Discard.Header": [
+  "Discard Changes"
+ ],
+ "ChatList.Filter.Discard.OK": [
+  "Discard"
+ ],
+ "ChatList.Filter.Discard.Text": [
+  "Are you sure you want to discard all changes?"
+ ],
+ "ChatList.Filter.Done": [
+  "Create"
+ ],
+ "ChatList.Filter.Edit": [
+  "Edit Folder"
+ ],
+ "ChatList.Filter.EditFilters": [
+  "Edit Folders"
+ ],
+ "ChatList.Filter.Empty": [
+  "**No chats currently match this folder.**[Edit Folder](filter)"
+ ],
+ "ChatList.Filter.Error.Empty": [
+  "Please add some chats or chat types to the folder."
+ ],
+ "ChatList.Filter.Exclude.AddChat": [
+  "Add Chats"
+ ],
+ "ChatList.Filter.Exclude.Desc": [
+  "Choose chats or types of chats that will not appear in this folder."
+ ],
+ "ChatList.Filter.Exclude.Header": [
+  "EXCLUDED CHATS"
+ ],
+ "ChatList.Filter.Groups": [
+  "Groups"
+ ],
+ "ChatList.Filter.Header": [
+  "Create folders for different groups of chats and quickly switch between them."
+ ],
+ "ChatList.Filter.Hide": [
+  "Hide %d Chat",
+  "Hide %d Chats"
+ ],
+ "ChatList.Filter.Include.AddChat": [
+  "Add Chats"
+ ],
+ "ChatList.Filter.Include.Desc": [
+  "Choose chats or types of chats that will appear in this folder."
+ ],
+ "ChatList.Filter.Include.Header": [
+  "INCLUDED CHATS"
+ ],
+ "ChatList.Filter.Include.RemoveChat": [
+  "Remove"
+ ],
+ "ChatList.Filter.InviteLink.Delete": [
+  "Delete"
+ ],
+ "ChatList.Filter.InviteLink.Delete.Confirm": [
+  "Are you sure you want to revoke and delete this invite link?"
+ ],
+ "ChatList.Filter.InviteLink.Desc": [
+  "includes %d chats"
+ ],
+ "ChatList.Filter.InviteLink.Info": [
+  "Share access to some of this folder's groups and channels with others."
+ ],
+ "ChatList.Filter.InviteLink.header": [
+  "INVITE LINK"
+ ],
+ "ChatList.Filter.List.AddNew": [
+  "Add a Custom Folder"
+ ],
+ "ChatList.Filter.List.Desc": [
+  "Drag and drop folders to change order. Right click to remove."
+ ],
+ "ChatList.Filter.List.Header": [
+  "FOLDERS"
+ ],
+ "ChatList.Filter.List.Title": [
+  "Chat Folders"
+ ],
+ "ChatList.Filter.MuteAll": [
+  "Mute All"
+ ],
+ "ChatList.Filter.MutedChats": [
+  "Muted"
+ ],
+ "ChatList.Filter.Name.Header": [
+  "FOLDER NAME"
+ ],
+ "ChatList.Filter.Name.Placeholder": [
+  "Folder Name"
+ ],
+ "ChatList.Filter.NewTitle": [
+  "Create Folder"
+ ],
+ "ChatList.Filter.NonContacts": [
+  "Non-Contacts"
+ ],
+ "ChatList.Filter.ReadAll": [
+  "Read All"
+ ],
+ "ChatList.Filter.ReadChats": [
+  "Read"
+ ],
+ "ChatList.Filter.Recommended.Add": [
+  "Add"
+ ],
+ "ChatList.Filter.Recommended.Header": [
+  "RECOMMENDED"
+ ],
+ "ChatList.Filter.Share": [
+  "Share"
+ ],
+ "ChatList.Filter.ShowMore": [
+  "Show %d More Chat",
+  "Show %d More Chats"
+ ],
+ "ChatList.Filter.ShowMore_countable": [
+  "%d"
+ ],
+ "ChatList.Filter.TabBar.Desc": [
+  "If you have many folders, try moving tabs to the left."
+ ],
+ "ChatList.Filter.TabBar.Header": [
+  "TABS VIEW"
+ ],
+ "ChatList.Filter.TabBar.OnTheLeft": [
+  "Tabs on the left"
+ ],
+ "ChatList.Filter.TabBar.OnTheTop": [
+  "Tabs at the top"
+ ],
+ "ChatList.Filter.Title": [
+  "Folder"
+ ],
+ "ChatList.Filter.UnmuteAll": [
+  "Unmute All"
+ ],
+ "ChatList.FreezeAccount": [
+  "Your account has been frozen for a serious violation of Telegram's [Terms and Conditions](https://telegram.org/tos). Your account is now in read-only mode (since %1$@). You can appeal via [@SpamBot](%2$@) if you believe this was a mistake. If we don't hear from you until %3$@, your account will be fully deactivated and terminated."
+ ],
+ "ChatList.FreezeAccount.Title": [
+  "Your account was frozen"
+ ],
+ "ChatList.Mute.Until": [
+  "Mute Until..."
+ ],
+ "ChatList.Mute.Until.OK": [
+  "Mute"
+ ],
+ "ChatList.Mute.Until.Title": [
+  "Mute Until…"
+ ],
+ "ChatList.Popover.ReadAll": [
+  "Read All"
+ ],
+ "ChatList.RevealAction.Collapse": [
+  "Collapse"
+ ],
+ "ChatList.RevealAction.Expand": [
+  "Expand"
+ ],
+ "ChatList.Search.Placeholder": [
+  "Search (⌘K)"
+ ],
+ "ChatList.Service.Call.incoming": [
+  "Incoming Call (%@)"
+ ],
+ "ChatList.Service.DestructingPhoto": [
+  "self-destructing photo"
+ ],
+ "ChatList.Service.DestructingVideo": [
+  "self-destructing video"
+ ],
+ "ChatList.Service.GameScored1": [
+  "scored %d in %@",
+  "scored %d in %@"
+ ],
+ "ChatList.Service.VideoCall.Cancelled": [
+  "Canceled Video Call"
+ ],
+ "ChatList.Service.VideoCall.Missed": [
+  "Missed Video Call"
+ ],
+ "ChatList.Service.VideoCall.incoming": [
+  "Incoming Video Call (%@)"
+ ],
+ "ChatList.Service.VoiceChatFinished.Channel1": [
+  "Live stream ended (%1$@)"
+ ],
+ "ChatList.Service.VoiceChatInvitation": [
+  "%1$@ invited %2$@ to the video chat"
+ ],
+ "ChatList.Service.VoiceChatInvitationByYou": [
+  "You invited %1$@ to the video chat"
+ ],
+ "ChatList.Service.VoiceChatInvitationForYou": [
+  "%1$@ invited you to the video chat"
+ ],
+ "ChatList.Service.VoiceChatScheduled.Channel1": [
+  "live stream scheduled for %@"
+ ],
+ "ChatList.Service.VoiceChatStarted": [
+  "%1$@ started a video chat"
+ ],
+ "ChatList.Service.VoiceChatStarted.Channel1": [
+  "Live stream started"
+ ],
+ "ChatList.SponsoredChannel": [
+  "Proxy Sponsor"
+ ],
+ "ChatList.Swiping.Archive": [
+  "Archive"
+ ],
+ "ChatList.Swiping.Delete": [
+  "Delete"
+ ],
+ "ChatList.Swiping.Mute": [
+  "Mute"
+ ],
+ "ChatList.Swiping.Pin": [
+  "Pin"
+ ],
+ "ChatList.Swiping.Read": [
+  "Read"
+ ],
+ "ChatList.Swiping.Unarchive": [
+  "Unarchive"
+ ],
+ "ChatList.Swiping.Unmute": [
+  "Unmute"
+ ],
+ "ChatList.Swiping.Unpin": [
+  "Unpin"
+ ],
+ "ChatList.Swiping.Unread": [
+  "Unread"
+ ],
+ "ChatList.UnsupportedMessage": [
+  "Message is not supported"
+ ],
+ "ChatList.You": [
+  "You"
+ ],
+ "Compose.Confirm.StartSecretChat": [
+  "Start a secret chat with %@?"
+ ],
+ "Compose.Popover.NewChannel": [
+  "New Channel"
+ ],
+ "Compose.Popover.NewGroup": [
+  "New Group"
+ ],
+ "Compose.Popover.NewSecretChat": [
+  "New Secret Chat"
+ ],
+ "DownloadsManager.Control.Title": [
+  "%d File",
+  "%d Files"
+ ],
+ "DownloadsManager.Control.Title_countable": [
+  "%d"
+ ],
+ "DownloadsManager.Recently": [
+  "RECENTLY DOWNLOADED"
+ ],
+ "DownloadsManager.Recently.Clear": [
+  "clear"
+ ],
+ "EmptyPeer.Description": [
+  "Select a chat to start messaging"
+ ],
+ "FastSettings.DisableDarkMode": [
+  "Disable Dark Mode"
+ ],
+ "FastSettings.EnableDarkMode": [
+  "Enable Dark Mode"
+ ],
+ "FastSettings.LockTelegram": [
+  "Lock Telegram"
+ ],
+ "FastSettings.Mute2Hours": [
+  "Mute For 2 Hours"
+ ],
+ "FastSettings.SetPasscode": [
+  "Set a Passcode"
+ ],
+ "FastSettings.Unmute": [
+  "Unmute"
+ ],
+ "Forward.ToSavedMessages": [
+  "Forward messages here for quick access"
+ ],
+ "ForwardModalAction.Title": [
+  "Forwarding message",
+  "Forwarding messages"
+ ],
+ "ForwardModalAction.description": [
+  "Select a user or chat to forward message from %@",
+  "Select a user or chat to forward messages from %@"
+ ],
+ "FreezeAccount.OK": [
+  "Submit an Appeal"
+ ],
+ "FreezeAccount.Option1.Text": [
+  "Your account was frozen for violating Telegram’s Terms of Service."
+ ],
+ "FreezeAccount.Option1.Title": [
+  "Violation of Terms"
+ ],
+ "FreezeAccount.Option2.Text": [
+  "You can access your account but can't send messages or take actions."
+ ],
+ "FreezeAccount.Option2.Title": [
+  "Read-Only Mode"
+ ],
+ "FreezeAccount.Option3.Text": [
+  "Appeal via [@SpamBot](appeal) before %@, or your account will be deleted."
+ ],
+ "FreezeAccount.Option3.Title": [
+  "Appeal Before Deactivation"
+ ],
+ "FreezeAccount.Title": [
+  "Your Account is Frozen"
+ ],
+ "InlineModalAction.Desc": [
+  "Select a user or chat to share content via %@"
+ ],
+ "InlineModalAction.Title": [
+  "Share bot content"
+ ],
+ "Message.Status.Archive.FailedSizeLimit": [
+  "file size limit exceeded"
+ ],
+ "Message.Status.ArchivePreparing": [
+  "preparing archive"
+ ],
+ "Message.Status.Archiving": [
+  "%d% archived"
+ ],
+ "Messages.DeletedMessage": [
+  "Deleted message"
+ ],
+ "NewContact.Exception.ShareMyPhoneNumber": [
+  "Share My Phone Number"
+ ],
+ "NewContact.Exception.ShareMyPhoneNumber.Desc": [
+  "You can make your phone visible to %@."
+ ],
+ "NewContact.Phone": [
+  "phone number"
+ ],
+ "NewContact.Phone.Hidden": [
+  "Hidden"
+ ],
+ "NewContact.Phone.Hidden.Text": [
+  "Phone number will be **visible** once %@ adds you as a contact."
+ ],
+ "NewContact.Title": [
+  "New Contact"
+ ],
+ "NewPoll.QuizMultiple.Error": [
+  "Polls in quiz mode can have only one correct answer."
+ ],
+ "NewSessionReview.Accept.Text": [
+  "You can check the list of your active logins in[Settings > Active Sessions]()."
+ ],
+ "NewSessionReview.Accept.Title": [
+  "New Login Allowed"
+ ],
+ "NewSessionReview.Item.Text": [
+  "We detected a new login to your account from %1$@, %2$@. Is it you?"
+ ],
+ "NewSessionReview.Item.Title": [
+  "Someone just got access to your messages!"
+ ],
+ "NewSessionReview.Modal.Button": [
+  "Got It"
+ ],
+ "NewSessionReview.Modal.Header": [
+  "Never send your login code to anyone or you can lose your Telegram account!"
+ ],
+ "NewSessionReview.Modal.Text": [
+  "We have terminated the login attempt from %1$@, %2$@."
+ ],
+ "NewSessionReview.Modal.Title": [
+  "New Login Prevented"
+ ],
+ "Peer.SavedMessages": [
+  "Saved Messages"
+ ],
+ "Peer.Status.recently": [
+  "last seen recently"
+ ],
+ "PeerInfo.Confirm.DeleteUserChat": [
+  "Are you sure you want to delete the chat?"
+ ],
+ "PeerInfo.Unarchive": [
+  "Unarchive"
+ ],
+ "Premium.Limit.Pin.Info": [
+  "Sorry, you can't pin more than **%1$@** chats to the top. Unpin some of the currently pinned ones or subscribe to **Telegram Premium** to double the limit to **%2$@** chats."
+ ],
+ "Premium.Limit.SharedFoldersInvites.Info": [
+  "You can only create **%1$@** invite links. Upgrade to **Telegram Premium** to create up to **%2$@**."
+ ],
+ "Presence.Support": [
+  "support"
+ ],
+ "Presence.bot": [
+  "bot"
+ ],
+ "PreviewSender.ArchiveTooltip": [
+  "Archive all media in one zip file"
+ ],
+ "RecentCalls.Delete": [
+  "Delete"
+ ],
+ "RecentCalls.DeleteCalls": [
+  "Are you sure you want to delete this call?"
+ ],
+ "RecentCalls.DeleteForMeAnd": [
+  "Delete for me and %@"
+ ],
+ "RecentCalls.DeleteHeader": [
+  "Delete"
+ ],
+ "Schedule.SendWhenOnline": [
+  "Send When Online"
+ ],
+ "Search.Confirm.ClearHistory": [
+  "Do you want to clear your search history?"
+ ],
+ "Search.Global.Channel1": [
+  "%@, %d subscriber",
+  "%@, %d subscribers"
+ ],
+ "Search.Global.Group1": [
+  "%@, %d member",
+  "%@, %d members"
+ ],
+ "Search.Popular.Articles": [
+  "Articles"
+ ],
+ "Search.Popular.Delete": [
+  "Delete"
+ ],
+ "Search.Popular.SavedMessages": [
+  "Saved"
+ ],
+ "Search.Separator.ChatsAndContacts": [
+  "contacts and chats"
+ ],
+ "Search.Separator.GlobalPeers": [
+  "global search"
+ ],
+ "Search.Separator.Messages": [
+  "messages"
+ ],
+ "Search.Separator.Popular": [
+  "People"
+ ],
+ "Search.Separator.Recent": [
+  "Recent"
+ ],
+ "SearchField.Search": [
+  "Search"
+ ],
+ "Separator.Clear": [
+  "clear"
+ ],
+ "Separator.ShowLess": [
+  "show less"
+ ],
+ "Separator.ShowMore": [
+  "show more"
+ ],
+ "ServiceMessage.ExpiredFile": [
+  "file has expired"
+ ],
+ "SharedFolder.Confirm.Delete": [
+  "Delete Folder?"
+ ],
+ "SharedFolder.Confirm.Delete.Text": [
+  "Are you sure you want to delete this folder? This will also deactivate all the invite links created to share this folder."
+ ],
+ "SharedFolder.CreateLink": [
+  "Create Invite Link"
+ ],
+ "SharedFolder.DeselectAll": [
+  "DESELECT ALL"
+ ],
+ "SharedFolder.Done.RemoveFolder": [
+  "Remove Folder"
+ ],
+ "SharedFolder.Done.RemoveFolderAndChats": [
+  "Remove Folder and Chats"
+ ],
+ "SharedFolder.ListHeader.Quit": [
+  "%d CHAT TO LEAVE",
+  "%d CHATS TO LEAVE"
+ ],
+ "SharedFolder.SelectAll": [
+  "SELECT ALL"
+ ],
+ "SharedFolder.Status.Links": [
+  "Create more links to set up different access levels for different people."
+ ],
+ "SharedFolder.Status.Remove": [
+  "Do you want to leave the chats you joined when adding the folder **%1$@**?"
+ ],
+ "SharedFolder.Title.RemoveFolder": [
+  "Remove Folder"
+ ],
+ "SharedFolder.Title.ShareFolder": [
+  "Share Folder"
+ ],
+ "SharedFolder.Tooltip.Added.Text": [
+  "You also joined %d new chat",
+  "You also joined %d new chats"
+ ],
+ "SharedFolder.Tooltip.Added.Title": [
+  "Folder %@ Added"
+ ],
+ "SharedFolder.Tooltip.Updated.Text": [
+  "You also joined %d new chat",
+  "You also joined %d new chats"
+ ],
+ "SuspiciousSession.Me": [
+  "Yes, it's me"
+ ],
+ "SuspiciousSession.NotMe": [
+  "No, it's not me!"
+ ],
+ "Weekday.ShortFriday": [
+  "Fri"
+ ],
+ "Weekday.ShortMonday": [
+  "Mon"
+ ],
+ "Weekday.ShortSaturday": [
+  "Sat"
+ ],
+ "Weekday.ShortSunday": [
+  "Sun"
+ ],
+ "Weekday.ShortThursday": [
+  "Thu"
+ ],
+ "Weekday.ShortTuesday": [
+  "Tue"
+ ],
+ "Weekday.ShortWednesday": [
+  "Wed"
+ ],
+ "peerInfo.Confirm.ClearHistory.Group": [
+  "This will delete all messages and media in this chat from your Telegram cloud. Other members of the group will still have them."
+ ],
+ "peerInfo.Confirm.ClearHistory.User": [
+  "This will delete all messages and media in this chat from your Telegram cloud. Your chat partner will still have them."
+ ],
+ "peerInfo.Confirm.ClearHistory.UserBothSides": [
+  "Are you sure you want to delete all messages in the chat?"
+ ]
+}

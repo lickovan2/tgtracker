@@ -1,0 +1,53 @@
+{
+ "EditInformation": [
+  "Edit Information"
+ ],
+ "FirstNameSmall": [
+  "First name"
+ ],
+ "LastNameSmall": [
+  "Last name"
+ ],
+ "LogOutTitle": [
+  "Log Out"
+ ],
+ "PhoneNumberChange2": [
+  "Change Number"
+ ],
+ "RegisterText2": [
+  "Enter your name and add a profile photo."
+ ],
+ "Save": [
+  "Save"
+ ],
+ "SetEmojiStatusUntil1Hour": [
+  "Set for 1 hour"
+ ],
+ "SetEmojiStatusUntil2Days": [
+  "Set for 2 days"
+ ],
+ "SetEmojiStatusUntil2Hours": [
+  "Set for 2 hours"
+ ],
+ "SetEmojiStatusUntil8Hours": [
+  "Set for 8 hours"
+ ],
+ "SetEmojiStatusUntilButton": [
+  "Set Status"
+ ],
+ "SetEmojiStatusUntilOther": [
+  "Other…"
+ ],
+ "SetEmojiStatusUntilTitle": [
+  "Set status until…"
+ ],
+ "UserBio": [
+  "Bio"
+ ],
+ "UserBioInfo": [
+  "You can add a few lines about yourself. Choose who can see your bio in Settings."
+ ],
+ "Username": [
+  "Username"
+ ]
+}

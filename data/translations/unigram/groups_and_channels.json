@@ -1,0 +1,578 @@
+{
+ "AccDescrAttachButton": [
+  "Attach media"
+ ],
+ "AccDescrGIFs": [
+  "GIFs"
+ ],
+ "AccDescrMoreOptions": [
+  "More options"
+ ],
+ "AccDescrStickers": [
+  "Stickers"
+ ],
+ "AccDescrVideoMessage": [
+  "Record video message"
+ ],
+ "AccDescrVoiceMessage": [
+  "Record voice message"
+ ],
+ "ActionTTLYouChanged": [
+  "You set messages to auto-delete in {0}"
+ ],
+ "ActionTTLYouDisabled": [
+  "You disabled the auto-delete timer"
+ ],
+ "AddAnExplanation": [
+  "Add an explanation"
+ ],
+ "AddAnExplanationInfo": [
+  "Users will see this text after choosing the wrong answer, good for educational purposes."
+ ],
+ "AddAnOption": [
+  "Add an Option..."
+ ],
+ "AddAnOptionInfo": [
+  "You can add {0}."
+ ],
+ "AddMember": [
+  "Add Members"
+ ],
+ "AddSubscriber": [
+  "Add subscribers"
+ ],
+ "AllReactions": [
+  "All reactions"
+ ],
+ "AttachContact": [
+  "Contact"
+ ],
+ "AttachLocation": [
+  "Location"
+ ],
+ "AutoDeletePopupTitle": [
+  "Auto-Delete"
+ ],
+ "Bot": [
+  "bot"
+ ],
+ "BotStatusCantRead": [
+  "has no access to messages"
+ ],
+ "CallEmojiKeyTooltip": [
+  "If the emoji on {0}’s screen are the same, this call is 100% secure."
+ ],
+ "Cancel": [
+  "Cancel"
+ ],
+ "ChannelAddAdmin": [
+  "Add Admin"
+ ],
+ "ChannelAddException": [
+  "Add Exception"
+ ],
+ "ChannelAdmin": [
+  "Admin"
+ ],
+ "ChannelAdministrators": [
+  "Administrators"
+ ],
+ "ChannelAdminsInfo": [
+  "You can add admins to help you manage your channel. Press and hold to remove admins."
+ ],
+ "ChannelAntiSpamInfo": [
+  "Telegram will filter more spam, but may occasionally affect ordinary messages. You can report False Positives in Recent Actions."
+ ],
+ "ChannelBlacklist": [
+  "Removed Users"
+ ],
+ "ChannelBlockUser": [
+  "Remove User"
+ ],
+ "ChannelBlockedUsers": [
+  "Removed users"
+ ],
+ "ChannelBroadcast": [
+  "Broadcast"
+ ],
+ "ChannelCreator": [
+  "Owner"
+ ],
+ "ChannelDeleteMenu": [
+  "Delete channel"
+ ],
+ "ChannelEdit": [
+  "Edit"
+ ],
+ "ChannelHideMembers": [
+  "Hide Members"
+ ],
+ "ChannelHideMembersInfo": [
+  "Switch on to hide the list of members in this group. Admins will remain visible."
+ ],
+ "ChannelInviteLinkTitle": [
+  "Invite Link"
+ ],
+ "ChannelLeaveAlertWithName": [
+  "Are you sure you want to leave **{0}**?"
+ ],
+ "ChannelMembers": [
+  "Members"
+ ],
+ "ChannelMembersInfo": [
+  "Only channel admins can see this list."
+ ],
+ "ChannelPermissions": [
+  "Permissions"
+ ],
+ "ChannelPermissionsHeader": [
+  "What can members of this group do?"
+ ],
+ "ChannelSettingsJoinRequest": [
+  "Approve new members"
+ ],
+ "ChannelSettingsJoinRequestInfo": [
+  "Turn this on if you want users to join only after they are approved by an admin."
+ ],
+ "ChannelSettingsJoinTitle": [
+  "Who can send messages?"
+ ],
+ "ChannelSettingsJoinToSend": [
+  "Only members"
+ ],
+ "ChannelSignMessages": [
+  "Sign Messages"
+ ],
+ "ChannelSignMessagesInfo": [
+  "Add names of admins to the messages they post"
+ ],
+ "ChannelSilentBroadcast": [
+  "Silent Broadcast"
+ ],
+ "ChannelSubscribers": [
+  "Subscribers"
+ ],
+ "ChatCamera": [
+  "Camera"
+ ],
+ "ChatDocument": [
+  "File"
+ ],
+ "ChatHistoryVisibleInfo": [
+  "New members will see messages that were sent before they joined."
+ ],
+ "ChatLocation": [
+  "Location"
+ ],
+ "ChatsMute": [
+  "Mute"
+ ],
+ "ChatsUnmute": [
+  "Unmute"
+ ],
+ "Copy": [
+  "Copy"
+ ],
+ "Delete": [
+  "Delete"
+ ],
+ "DeleteChannelForAll": [
+  "Delete for all subscribers"
+ ],
+ "DeleteChatUser": [
+  "Delete chat"
+ ],
+ "DeleteGroupForAll": [
+  "Delete the group for all members"
+ ],
+ "DeleteMega": [
+  "Delete Group"
+ ],
+ "DeleteMegaMenu": [
+  "Delete group"
+ ],
+ "DeleteThisGroup": [
+  "Delete group"
+ ],
+ "DescriptionOptionalPlaceholder": [
+  "Description (optional)"
+ ],
+ "DescriptionPlaceholder": [
+  "Description"
+ ],
+ "DisableReactionsInfo": [
+  "Members of the group can’t add any reactions to messages."
+ ],
+ "Discussion": [
+  "Discussion"
+ ],
+ "DiscussionChannelGroupSetHelp2": [
+  "**{0}** is selected as the group that hosts comments for your channel."
+ ],
+ "DiscussionChannelHelp2": [
+  "Everything you post in the channel will be forwarded to this group."
+ ],
+ "DiscussionGroupHelp": [
+  "This group is linked as the discussion board for {0}."
+ ],
+ "DiscussionUnlink": [
+  "Unlink"
+ ],
+ "DiscussionUnlinkChannel": [
+  "Unlink Channel"
+ ],
+ "DiscussionUnlinkChannelAlert": [
+  "Are you sure you want to unlink **{0}** from this channel?"
+ ],
+ "DiscussionUnlinkGroup": [
+  "Unlink Group"
+ ],
+ "Done": [
+  "Done"
+ ],
+ "EditAdmin": [
+  "Admin Rights"
+ ],
+ "EditAdminAddAdmins": [
+  "Add New Admins"
+ ],
+ "EditAdminAddUsers": [
+  "Add Users"
+ ],
+ "EditAdminAddUsersViaLink": [
+  "Invite Users via Link"
+ ],
+ "EditAdminBanUsers": [
+  "Ban Users"
+ ],
+ "EditAdminChangeChannelInfo": [
+  "Change Channel Info"
+ ],
+ "EditAdminChangeGroupInfo": [
+  "Change Group Info"
+ ],
+ "EditAdminDeleteMessages": [
+  "Delete Messages of Others"
+ ],
+ "EditAdminEditMessages": [
+  "Edit Messages of Others"
+ ],
+ "EditAdminGroupDeleteMessages": [
+  "Delete Messages"
+ ],
+ "EditAdminPinMessages": [
+  "Pin Messages"
+ ],
+ "EditAdminPostMessages": [
+  "Post Messages"
+ ],
+ "EditAdminPromotedBy": [
+  "Promoted by {0}"
+ ],
+ "EditAdminRank": [
+  "Member tag"
+ ],
+ "EditAdminRankInfo": [
+  "A title that members will see instead of '{0}'."
+ ],
+ "EditAdminRemoveAdmin": [
+  "Dismiss Admin"
+ ],
+ "EditAdminSendAnonymously": [
+  "Remain Anonymous"
+ ],
+ "Emoji": [
+  "Emoji"
+ ],
+ "Emoji1": [
+  "Emoji & People"
+ ],
+ "EnableAllReactionsInfo": [
+  "Members of the group can use any emoji as reactions to messages."
+ ],
+ "EnableReactions": [
+  "Enable Reactions"
+ ],
+ "EnableReactionsChannelInfo": [
+  "Allow subscribers to react to channel posts."
+ ],
+ "EnableSomeReactionsInfo": [
+  "Members of the group can use only certain approved emoji as reactions to messages."
+ ],
+ "EventLog": [
+  "Recent Actions"
+ ],
+ "FavoriteStickers": [
+  "Favorites"
+ ],
+ "FeaturedGifs": [
+  "Trending GIFs"
+ ],
+ "Forward": [
+  "Forward"
+ ],
+ "LinkedChannel": [
+  "Linked Channel"
+ ],
+ "Loading": [
+  "Loading..."
+ ],
+ "MegaAdminsInfo": [
+  "You can add admins to help you manage your group. Press and hold to remove them."
+ ],
+ "MegaDeleteInfo": [
+  "You will lose all messages in this group."
+ ],
+ "MegaLeaveAlertWithName": [
+  "Are you sure you want to leave **{0}**?"
+ ],
+ "Members": [
+  "{0} member",
+  "{0} members"
+ ],
+ "NewPoll": [
+  "New Poll"
+ ],
+ "NoBlockedChannel": [
+  "Banned users are removed from the channel and can only come back if added by an admin. Invite links don't work for them."
+ ],
+ "NoBlockedGroup": [
+  "Banned users are removed from the group and can only come back if added by an admin. Invite links don't work for them."
+ ],
+ "NoReactions": [
+  "No reactions"
+ ],
+ "Online": [
+  "online"
+ ],
+ "Option": [
+  "{0} more option",
+  "{0} more options"
+ ],
+ "OptionHint": [
+  "Option"
+ ],
+ "PinMessage": [
+  "Pin"
+ ],
+ "Poll": [
+  "Poll"
+ ],
+ "PollMultiple": [
+  "Multiple Answers"
+ ],
+ "PollOptions": [
+  "Poll options"
+ ],
+ "PollQuiz": [
+  "Quiz Mode"
+ ],
+ "PremiumMore": [
+  "More"
+ ],
+ "Question": [
+  "Question"
+ ],
+ "QuestionHint": [
+  "Ask a question"
+ ],
+ "QuizInfo": [
+  "Polls in Quiz Mode have one correct answer. Users can't revoke their answers."
+ ],
+ "Reactions": [
+  "Reactions"
+ ],
+ "RecentStickers": [
+  "Recently Used"
+ ],
+ "Reply": [
+  "Reply"
+ ],
+ "ReportChat": [
+  "Report"
+ ],
+ "RevokeLink": [
+  "Revoke Link"
+ ],
+ "SavedMessages": [
+  "Saved Messages"
+ ],
+ "Schedule": [
+  "Schedule"
+ ],
+ "Search": [
+  "Search"
+ ],
+ "SearchMembers": [
+  "Search Members"
+ ],
+ "Select": [
+  "Select"
+ ],
+ "Send": [
+  "Send"
+ ],
+ "SendDirectMessage": [
+  "Send direct message"
+ ],
+ "SendLocation": [
+  "Send My Current Location"
+ ],
+ "SendMessageAsTitle": [
+  "Send message as..."
+ ],
+ "ShareComment": [
+  "Add a comment..."
+ ],
+ "ShareContactTitle": [
+  "Share Contact"
+ ],
+ "ShareSendTo": [
+  "Send to..."
+ ],
+ "SharedMusicTab2": [
+  "Music"
+ ],
+ "SharedVoiceTab2": [
+  "Voice"
+ ],
+ "Slowmode": [
+  "Slow Mode"
+ ],
+ "SlowmodeHours": [
+  "{0}h"
+ ],
+ "SlowmodeInfoSelected": [
+  "Members will be able to send only one message every {0}."
+ ],
+ "SlowmodeMinutes": [
+  "{0}m"
+ ],
+ "SlowmodeOff": [
+  "Off"
+ ],
+ "SlowmodeSeconds": [
+  "{0}s"
+ ],
+ "SomeReactions": [
+  "Some reactions"
+ ],
+ "Start": [
+  "Start"
+ ],
+ "StartVoipChatPermission": [
+  "Manage Live Streams"
+ ],
+ "Statistics": [
+  "Statistics"
+ ],
+ "Subscribers": [
+  "{0} subscriber",
+  "{0} subscribers"
+ ],
+ "TodayAtFormatted": [
+  "at {0}"
+ ],
+ "TypeMessage": [
+  "Message"
+ ],
+ "UserRestrictionsBy": [
+  "Restricted by {0}"
+ ],
+ "UserRestrictionsChangeInfo": [
+  "Change Chat Info"
+ ],
+ "UserRestrictionsEmbedLinks": [
+  "Embed Links"
+ ],
+ "UserRestrictionsInviteUsers": [
+  "Add Users"
+ ],
+ "UserRestrictionsPinMessages": [
+  "Pin Messages"
+ ],
+ "UserRestrictionsSend": [
+  "Send Messages"
+ ],
+ "UserRestrictionsSendFiles": [
+  "Send Files"
+ ],
+ "UserRestrictionsSendMedia": [
+  "Send Media"
+ ],
+ "UserRestrictionsSendMusic": [
+  "Send Music"
+ ],
+ "UserRestrictionsSendPhotos": [
+  "Send Photos"
+ ],
+ "UserRestrictionsSendPolls": [
+  "Send Polls"
+ ],
+ "UserRestrictionsSendRound": [
+  "Send Video Messages"
+ ],
+ "UserRestrictionsSendStickers": [
+  "Send Stickers and GIFs"
+ ],
+ "UserRestrictionsSendVideos": [
+  "Send Videos"
+ ],
+ "UserRestrictionsSendVoices": [
+  "Send Voice Messages"
+ ],
+ "Username": [
+  "Username"
+ ],
+ "ViewDiscussion": [
+  "View Discussion"
+ ],
+ "VoipChatShare": [
+  "Share"
+ ],
+ "VoipEndCall": [
+  "End call"
+ ],
+ "VoipGroupOpenChannel": [
+  "Open Channel"
+ ],
+ "VoipGroupOpenGroup": [
+  "Open Group"
+ ],
+ "VoipGroupPersonalAccount": [
+  "personal account"
+ ],
+ "VoipGroupScheduleInfo": [
+  "Members of the group will be notified that the video chat starts in {0}."
+ ],
+ "VoipGroupScheduleVoiceChat": [
+  "Schedule Video Chat"
+ ],
+ "VoipGroupStartAs": [
+  "Start Video Chat as..."
+ ],
+ "VoipGroupStartAsInfoGroup": [
+  "Choose whether you want to be displayed as your personal account, this group, or one of your channels."
+ ],
+ "VoipGroupVoiceChat": [
+  "Video Chat"
+ ],
+ "VoipMute": [
+  "Mute"
+ ],
+ "VoipStartVideo": [
+  "Start Video"
+ ],
+ "VoipStopVideo": [
+  "Stop Video"
+ ],
+ "VoipUnmute": [
+  "Unmute"
+ ],
+ "VoipUserCameraIsOff": [
+  "{0}'s camera is off"
+ ],
+ "VoipUserMicrophoneIsOff": [
+  "{0}'s microphone is off"
+ ]
+}

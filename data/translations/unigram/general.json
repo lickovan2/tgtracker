@@ -1,0 +1,126 @@
+{
+ "AddAccount": [
+  "Add Account"
+ ],
+ "Bold": [
+  "Bold"
+ ],
+ "Calls": [
+  "Calls"
+ ],
+ "CloudUpdateInstallingText": [
+  "A new version of Unigram is being installed..."
+ ],
+ "CloudUpdateInstallingTitle": [
+  "Please Wait..."
+ ],
+ "Contacts": [
+  "Contacts"
+ ],
+ "Copy": [
+  "Copy"
+ ],
+ "CopyImage": [
+  "Copy Image"
+ ],
+ "CopyLink": [
+  "Copy Link"
+ ],
+ "CreateLink": [
+  "Create Link"
+ ],
+ "Cut": [
+  "Cut"
+ ],
+ "Delete": [
+  "Delete"
+ ],
+ "FilterChats": [
+  "Chats"
+ ],
+ "Formatting": [
+  "Formatting"
+ ],
+ "Forward": [
+  "Forward"
+ ],
+ "Italic": [
+  "Italic"
+ ],
+ "Members": [
+  "{0} member",
+  "{0} members"
+ ],
+ "Mono": [
+  "Mono"
+ ],
+ "News": [
+  "News"
+ ],
+ "OpenWith": [
+  "Open With"
+ ],
+ "Paste": [
+  "Paste"
+ ],
+ "PinMessage": [
+  "Pin"
+ ],
+ "PinnedMessage": [
+  "Pinned Message"
+ ],
+ "PmFwdOriginalDateTimeAt": [
+  "original {0} at {1}"
+ ],
+ "PmFwdOriginalTodayAt": [
+  "original at {0}"
+ ],
+ "Redo": [
+  "Redo"
+ ],
+ "Regular": [
+  "Regular"
+ ],
+ "Reply": [
+  "Reply"
+ ],
+ "ReportChat": [
+  "Report"
+ ],
+ "SaveAs": [
+  "Save As..."
+ ],
+ "SavedMessages": [
+  "Saved Messages"
+ ],
+ "Select": [
+  "Select"
+ ],
+ "SelectAll": [
+  "Select All"
+ ],
+ "Settings": [
+  "Settings"
+ ],
+ "ShowInFolder": [
+  "Show in Folder"
+ ],
+ "Spelling": [
+  "Spelling"
+ ],
+ "Spoiler": [
+  "Spoiler"
+ ],
+ "Strike": [
+  "Strikethrough"
+ ],
+ "TelegramFeatures": [
+  "Telegram Features"
+ ],
+ "Underline": [
+  "Underline"
+ ],
+ "Undo": [
+  "Undo"
+ ]
+}

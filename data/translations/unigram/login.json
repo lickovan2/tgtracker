@@ -1,0 +1,171 @@
+{
+ "ChooseCountry": [
+  "Choose a country"
+ ],
+ "Code": [
+  "Code"
+ ],
+ "ContactsPermissionAlert": [
+  "**Telegram** needs access to your contacts so that you can connect with your friends across all your devices. Your contacts will be continuously synced with Telegram's heavily encrypted cloud servers."
+ ],
+ "ContactsPermissionAlertContinue": [
+  "Continue"
+ ],
+ "ContactsPermissionAlertNotNow": [
+  "Not now"
+ ],
+ "DidNotGetTheCode": [
+  "Didn't get the code?"
+ ],
+ "Edit": [
+  "Edit"
+ ],
+ "EditNumber": [
+  "Edit number"
+ ],
+ "EditNumberInfo": [
+  "Do you want to edit your number?**{0}**If the number above is correct, please wait for the verification code."
+ ],
+ "ForgotPassword": [
+  "Forgot password?"
+ ],
+ "InvalidCode": [
+  "Invalid code, please try again."
+ ],
+ "InvalidPhoneNumber": [
+  "Invalid phone number. Please check the number and try again."
+ ],
+ "LoginPassword": [
+  "Password"
+ ],
+ "LoginPasswordText": [
+  "You have Two-Step Verification enabled, so your account is protected with an additional password."
+ ],
+ "LoginWithQrCode": [
+  "Quick log in using QR code"
+ ],
+ "LoginWithQrCodeSkip": [
+  "Log in with phone number"
+ ],
+ "LoginWithQrCodeStep1": [
+  "Open Telegram on your phone"
+ ],
+ "LoginWithQrCodeStep2": [
+  "Go to Settings > Devices > Add Device"
+ ],
+ "LoginWithQrCodeStep3": [
+  "Scan this image to Log In"
+ ],
+ "LoginWithQrCodeTitle": [
+  "Scan From Mobile Telegram"
+ ],
+ "OpenFragment": [
+  "Open Fragment"
+ ],
+ "Page1Message": [
+  "The world's **fastest** messaging app.It is **free** and **secure**."
+ ],
+ "Page1Title": [
+  "Telegram"
+ ],
+ "Page2Message": [
+  "**Telegram** delivers messagesfaster than any other application."
+ ],
+ "Page2Title": [
+  "Fast"
+ ],
+ "Page3Message": [
+  "**Telegram** provides free unlimitedcloud storage for chats and media."
+ ],
+ "Page3Title": [
+  "Free"
+ ],
+ "Page4Message": [
+  "**Telegram** keeps your messages safefrom hacker attacks."
+ ],
+ "Page4Title": [
+  "Secure"
+ ],
+ "Page5Message": [
+  "**Telegram** has no limits onthe size of your media and chats."
+ ],
+ "Page5Title": [
+  "Powerful"
+ ],
+ "Page6Message": [
+  "**Telegram** lets you access yourmessages from multiple devices."
+ ],
+ "Page6Title": [
+  "Cloud-Based"
+ ],
+ "ProxySettings": [
+  "Proxy Settings"
+ ],
+ "ResetMyAccount": [
+  "RESET MY ACCOUNT"
+ ],
+ "ResetMyAccountText": [
+  "You will lose all your Telegram chats, messages, media and files if you proceed with resetting your account."
+ ],
+ "RestoreEmailSent": [
+  "We've sent a recovery code to the email you provided:{0}"
+ ],
+ "RestoreEmailSentInfo": [
+  "Check your email and enter the 6-digit code we sent there to deactivate your cloud password."
+ ],
+ "RestoreEmailTrouble": [
+  "Unable to access {0}?"
+ ],
+ "RestorePasswordNoEmailText": [
+  "Since you didn't provide a recovery email when setting up your password, your remaining options are either to remember your password or to reset your account."
+ ],
+ "RestorePasswordNoEmailTitle": [
+  "Sorry"
+ ],
+ "SentAppCode": [
+  "We've sent the code to the **Telegram** app on your other device."
+ ],
+ "SentFragmentCode": [
+  "Get the code for {0} in the Numbers section on Fragment."
+ ],
+ "StartMessaging": [
+  "Start Messaging"
+ ],
+ "StartText": [
+  "Please confirm your country codeand enter your phone number."
+ ],
+ "UnconfirmedAuthConfirm": [
+  "Yes, it's me"
+ ],
+ "UnconfirmedAuthConfirmed": [
+  "New Login Allowed"
+ ],
+ "UnconfirmedAuthConfirmedMessage": [
+  "You can check the list of your active logins in **Settings > Devices**."
+ ],
+ "UnconfirmedAuthDeniedMessageSingle": [
+  "We have terminated the login attempt from {0}."
+ ],
+ "UnconfirmedAuthDeniedTitle": [
+  "New Login Prevented",
+  "New Logins Prevented"
+ ],
+ "UnconfirmedAuthDeniedWarning": [
+  "Never send your login code to anyone or you can lose your Telegram account!"
+ ],
+ "UnconfirmedAuthDeny": [
+  "No, it’s not me!"
+ ],
+ "UnconfirmedAuthSingle": [
+  "We detected a new login to your account from {0}. Is it you?"
+ ],
+ "UnconfirmedAuthTitle": [
+  "Someone just got access to your messages!"
+ ],
+ "YourCode": [
+  "Phone Verification"
+ ],
+ "YourPhone": [
+  "Your Phone"
+ ]
+}

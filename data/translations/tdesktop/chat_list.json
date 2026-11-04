@@ -1,0 +1,557 @@
+{
+ "lng_action_add_users_many": [
+  "{from} added {users}"
+ ],
+ "lng_action_add_you": [
+  "{from} added you to this channel"
+ ],
+ "lng_action_user_joined": [
+  "{from} joined the group"
+ ],
+ "lng_action_user_registered": [
+  "{from} joined Telegram"
+ ],
+ "lng_action_you_joined": [
+  "You joined this channel"
+ ],
+ "lng_archive_hint_about_link": [
+  "Click to change {emoji}"
+ ],
+ "lng_archive_hint_about_unmuted": [
+  "When you receive a new message, muted chats will remain in the Archive, while unmuted chats will be moved to Chats. {link}"
+ ],
+ "lng_archive_hint_button": [
+  "Got it"
+ ],
+ "lng_archive_hint_section_1": [
+  "Archived Chats"
+ ],
+ "lng_archive_hint_section_1_info": [
+  "Move any chat into your Archive and back by swiping on it."
+ ],
+ "lng_archive_hint_section_2": [
+  "Hiding Archive"
+ ],
+ "lng_archive_hint_section_2_info": [
+  "Hide the Archive from your Main screen by swiping on it."
+ ],
+ "lng_archive_hint_section_3": [
+  "Stories"
+ ],
+ "lng_archive_hint_section_3_info": [
+  "Archive Stories from your contacts separately from chats with them."
+ ],
+ "lng_archive_hint_title": [
+  "This is your Archive"
+ ],
+ "lng_archived_add": [
+  "Archive"
+ ],
+ "lng_archived_name": [
+  "Archived chats"
+ ],
+ "lng_archived_remove": [
+  "Unarchive"
+ ],
+ "lng_archived_removed": [
+  "Chat restored from your archive."
+ ],
+ "lng_archived_unread_two": [
+  "{chat}, {second_chat}"
+ ],
+ "lng_bot_no_chats": [
+  "You have no chats"
+ ],
+ "lng_call_box_about": [
+  "You haven't made any Telegram calls yet."
+ ],
+ "lng_call_box_title": [
+  "Calls"
+ ],
+ "lng_channels_leave_status": [
+  "{type}, inactive for {time}"
+ ],
+ "lng_channels_leave_title": [
+  "Least active communities"
+ ],
+ "lng_channels_limit1": [
+  "You are a member of **{count}** group or channel.",
+  "You are a member of **{count}** groups and channels."
+ ],
+ "lng_channels_limit2_final": [
+  "Please leave some before joining a new one."
+ ],
+ "lng_channels_limit_title": [
+  "Too Many Communities"
+ ],
+ "lng_community_ungroup": [
+  "Ungroup"
+ ],
+ "lng_community_ungroup_text": [
+  "Chats from this community will appear separately in your chat list."
+ ],
+ "lng_community_ungroup_title": [
+  "Ungroup Chats"
+ ],
+ "lng_context_archive_collapse": [
+  "Collapse"
+ ],
+ "lng_context_archive_expand": [
+  "Expand"
+ ],
+ "lng_context_archive_how_does_it_work": [
+  "How does it work?"
+ ],
+ "lng_context_archive_settings": [
+  "Archive settings"
+ ],
+ "lng_context_archive_to_list": [
+  "Move to chat list"
+ ],
+ "lng_context_archive_to_menu": [
+  "Move to main menu"
+ ],
+ "lng_context_archive_to_menu_info": [
+  "Archive moved to the main menu!Right click the archive button to return the Archive to your chat list."
+ ],
+ "lng_context_mark_read": [
+  "Mark as read"
+ ],
+ "lng_context_mark_read_sure": [
+  "Are you sure you want to mark all chats from this folder as read?"
+ ],
+ "lng_context_mark_unread": [
+  "Mark as unread"
+ ],
+ "lng_context_unpin_from_top": [
+  "Unpin"
+ ],
+ "lng_context_view_channel": [
+  "View channel info"
+ ],
+ "lng_context_view_community": [
+  "View community info"
+ ],
+ "lng_context_view_group": [
+  "View group info"
+ ],
+ "lng_dialogs_hide_muted_chats": [
+  "Hide muted chats"
+ ],
+ "lng_dialogs_show_all_chats": [
+  "Show all chats"
+ ],
+ "lng_dialogs_show_archive_in_search": [
+  "With results from archive"
+ ],
+ "lng_dialogs_skip_archive_in_search": [
+  "Skip results from archive"
+ ],
+ "lng_dialogs_suggestions_birthday_about": [
+  "Let your contacts know when to celebrate."
+ ],
+ "lng_dialogs_suggestions_birthday_contact_about": [
+  "Send them a Gift."
+ ],
+ "lng_dialogs_suggestions_birthday_contact_dismiss": [
+  "You can send a Gift later in Settings"
+ ],
+ "lng_dialogs_suggestions_birthday_contact_title": [
+  "It’s {text}'s **birthday** today! 🎂"
+ ],
+ "lng_dialogs_suggestions_birthday_contacts_about": [
+  "Send them a Gift."
+ ],
+ "lng_dialogs_suggestions_birthday_contacts_title": [
+  "{count} contact have **birthdays** today! 🎂",
+  "{count} contacts have **birthdays** today! 🎂"
+ ],
+ "lng_dialogs_suggestions_birthday_title": [
+  "Add your birthday! 🎂"
+ ],
+ "lng_dialogs_suggestions_premium_annual_about": [
+  "Sign up for the annual payment plan for Telegram Premium now to get the discount."
+ ],
+ "lng_dialogs_suggestions_premium_annual_title": [
+  "Telegram Premium with a {text} discount"
+ ],
+ "lng_dialogs_suggestions_premium_restore_about": [
+  "Your Telegram Premium has recently expired. Click here to extend it."
+ ],
+ "lng_dialogs_suggestions_premium_restore_title": [
+  "Get Premium back with up to {text} off"
+ ],
+ "lng_dialogs_suggestions_userpics_about": [
+  "Help your friends spot you easily."
+ ],
+ "lng_dialogs_suggestions_userpics_title": [
+  "Add your photo! 📸"
+ ],
+ "lng_dialogs_text_from_wrapped": [
+  "{from}:"
+ ],
+ "lng_dialogs_text_media": [
+  "{media_part} {caption}"
+ ],
+ "lng_dialogs_text_media_wrapped": [
+  "{media},"
+ ],
+ "lng_direct_badge": [
+  "DIRECT"
+ ],
+ "lng_disable_notifications_from_tray": [
+  "Disable notifications"
+ ],
+ "lng_dlg_search_for_messages": [
+  "Search for messages"
+ ],
+ "lng_error_pinned_max": [
+  "Sorry, you can only pin {count} chat to the top.",
+  "Sorry, you can only pin {count} chats to the top."
+ ],
+ "lng_filter_pin_limit1": [
+  "Sorry, you can't pin more than **{count}** chat to the top.",
+  "Sorry, you can't pin more than **{count}** chats to the top."
+ ],
+ "lng_filter_pin_limit2": [
+  "Unpin some of the currently pinned ones or subscribe to **Telegram Premium** to double the limit to **{count}** chat.",
+  "Unpin some of the currently pinned ones or subscribe to **Telegram Premium** to double the limit to **{count}** chats."
+ ],
+ "lng_filter_pin_limit_title": [
+  "Limit Reached"
+ ],
+ "lng_filters_bar_view": [
+  "Click here to view it",
+  "Click here to view them"
+ ],
+ "lng_filters_bar_you_can": [
+  "You can join {count} new chat",
+  "You can join {count} new chats"
+ ],
+ "lng_filters_by_link_about": [
+  "You can deselect the chats you don't want to join."
+ ],
+ "lng_filters_by_link_about_quit": [
+  "You can deselect the chats you don't want to leave."
+ ],
+ "lng_filters_by_link_join": [
+  "{count} chat to join",
+  "{count} chats to join"
+ ],
+ "lng_filters_by_link_join_button": [
+  "Join Chats"
+ ],
+ "lng_filters_by_link_join_no": [
+  "Do not join any chats"
+ ],
+ "lng_filters_by_link_more": [
+  "Add Chats to Folder"
+ ],
+ "lng_filters_by_link_more_sure": [
+  "Do you want to join chats and add them to the folder {folder}?"
+ ],
+ "lng_filters_by_link_quit": [
+  "{count} chat to leave",
+  "{count} chats to leave"
+ ],
+ "lng_filters_by_link_quit_button": [
+  "Remove Folder and Chats"
+ ],
+ "lng_filters_by_link_remove": [
+  "Remove Folder"
+ ],
+ "lng_filters_by_link_remove_button": [
+  "Remove Folder and Keep Chats"
+ ],
+ "lng_filters_by_link_remove_sure": [
+  "Do you also want to leave the chats included in the folder {folder}?"
+ ],
+ "lng_filters_checkbox_remove_bot": [
+  "Remove bot from all folders"
+ ],
+ "lng_filters_checkbox_remove_channel": [
+  "Remove channel from all folders"
+ ],
+ "lng_filters_checkbox_remove_group": [
+  "Remove group from all folders"
+ ],
+ "lng_filters_context_edit": [
+  "Edit folder"
+ ],
+ "lng_filters_context_remove": [
+  "Remove"
+ ],
+ "lng_filters_delete_sure": [
+  "Are you sure you want to delete this folder? This will also deactivate all the invite links created to share this folder."
+ ],
+ "lng_filters_edit": [
+  "Edit Folder"
+ ],
+ "lng_filters_edit_chats": [
+  "Chats"
+ ],
+ "lng_filters_edit_types": [
+  "Chat types"
+ ],
+ "lng_filters_exclude_archived": [
+  "Archived"
+ ],
+ "lng_filters_exclude_muted": [
+  "Muted"
+ ],
+ "lng_filters_exclude_read": [
+  "Read"
+ ],
+ "lng_filters_exclude_title": [
+  "Exclude Chats"
+ ],
+ "lng_filters_include_bots": [
+  "Bots"
+ ],
+ "lng_filters_include_channels": [
+  "Channels"
+ ],
+ "lng_filters_include_contacts": [
+  "Contacts"
+ ],
+ "lng_filters_include_groups": [
+  "Groups"
+ ],
+ "lng_filters_include_non_contacts": [
+  "Non-Contacts"
+ ],
+ "lng_filters_include_title": [
+  "Include Chats"
+ ],
+ "lng_filters_limit": [
+  "Sorry, you can't create more folders."
+ ],
+ "lng_filters_limit1": [
+  "You have reached the limit of **{count}** folder.",
+  "You have reached the limit of **{count}** folders."
+ ],
+ "lng_filters_limit2": [
+  "You can double the limit to **{count}** folder by subscribing to **Telegram Premium**.",
+  "You can double the limit to **{count}** folders by subscribing to **Telegram Premium**."
+ ],
+ "lng_filters_limit_title": [
+  "Limit Reached"
+ ],
+ "lng_filters_menu_add": [
+  "Add to folder"
+ ],
+ "lng_filters_remove_sure": [
+  "This will remove the folder, your chats will not be deleted."
+ ],
+ "lng_filters_remove_yes": [
+  "Remove"
+ ],
+ "lng_filters_setup_menu": [
+  "Edit Folders"
+ ],
+ "lng_filters_toast_add": [
+  "{chat} added to {folder} folder"
+ ],
+ "lng_filters_toast_remove": [
+  "{chat} removed from {folder} folder"
+ ],
+ "lng_filters_type_no_archived": [
+  "Archived"
+ ],
+ "lng_filters_type_no_muted": [
+  "Muted"
+ ],
+ "lng_filters_type_no_read": [
+  "Read"
+ ],
+ "lng_filters_updated_also": [
+  "You have joined {count} new chat.",
+  "You have joined {count} new chats."
+ ],
+ "lng_filters_updated_title": [
+  "Folder {folder} Updated"
+ ],
+ "lng_frozen_appeal_button": [
+  "Submit an Appeal"
+ ],
+ "lng_frozen_bar_text": [
+  "Click to view details {arrow}"
+ ],
+ "lng_frozen_bar_title": [
+  "Your account is frozen!"
+ ],
+ "lng_frozen_subtitle1": [
+  "Violation of Terms"
+ ],
+ "lng_frozen_subtitle2": [
+  "Read-Only Mode"
+ ],
+ "lng_frozen_subtitle3": [
+  "Appeal Before Deactivation"
+ ],
+ "lng_frozen_text1": [
+  "Your account was frozen for violating Telegram’s Terms of Service."
+ ],
+ "lng_frozen_text2": [
+  "You can access your account but can't send messages or take actions."
+ ],
+ "lng_frozen_text3": [
+  "Appeal via {link} before {date}, or your account will be deleted."
+ ],
+ "lng_frozen_title": [
+  "Your Account is Frozen"
+ ],
+ "lng_in_dlg_album": [
+  "Album"
+ ],
+ "lng_in_dlg_audio_unread": [
+  "{emoji} Voice message"
+ ],
+ "lng_in_dlg_contact": [
+  "Contact"
+ ],
+ "lng_in_dlg_table": [
+  "Table"
+ ],
+ "lng_in_dlg_video_message_ttl": [
+  "One-time Video Message"
+ ],
+ "lng_in_dlg_voice_message_ttl": [
+  "One-time Voice Message"
+ ],
+ "lng_inline_switch_cant": [
+  "Sorry, no way to write here :("
+ ],
+ "lng_limits_increase": [
+  "Increase Limit"
+ ],
+ "lng_live_location": [
+  "Live Location"
+ ],
+ "lng_month1": [
+  "January"
+ ],
+ "lng_month10": [
+  "October"
+ ],
+ "lng_month11": [
+  "November"
+ ],
+ "lng_month12": [
+  "December"
+ ],
+ "lng_month2": [
+  "February"
+ ],
+ "lng_month3": [
+  "March"
+ ],
+ "lng_month4": [
+  "April"
+ ],
+ "lng_month5": [
+  "May"
+ ],
+ "lng_month6": [
+  "June"
+ ],
+ "lng_month8": [
+  "August"
+ ],
+ "lng_month9": [
+  "September"
+ ],
+ "lng_month_year": [
+  "{month} {year}"
+ ],
+ "lng_new_contact_unarchive": [
+  "Unarchive"
+ ],
+ "lng_no_chats_filter": [
+  "No chats currently belong to this folder."
+ ],
+ "lng_prize_gift_about": [
+  "You've received a gift from {channel}."
+ ],
+ "lng_prizes_title": [
+  "Giveaway Prize",
+  "Giveaway Prizes"
+ ],
+ "lng_profile_block_bot": [
+  "Stop and block bot"
+ ],
+ "lng_profile_clear_history": [
+  "Clear history"
+ ],
+ "lng_profile_delete_conversation": [
+  "Delete chat"
+ ],
+ "lng_profile_leave_group": [
+  "Leave group"
+ ],
+ "lng_profile_open_app_short": [
+  "Open"
+ ],
+ "lng_saved_short": [
+  "Save"
+ ],
+ "lng_search_found_results": [
+  "{count} message found",
+  "{count} messages found"
+ ],
+ "lng_search_global_results": [
+  "Global search results"
+ ],
+ "lng_search_no_results": [
+  "No messages found"
+ ],
+ "lng_settings_quick_dialog_action_unarchive": [
+  "Unarchive"
+ ],
+ "lng_settings_quick_dialog_action_unmute": [
+  "Unmute"
+ ],
+ "lng_settings_quick_dialog_action_unpin": [
+  "Unpin"
+ ],
+ "lng_settings_quick_dialog_action_unread": [
+  "Unread"
+ ],
+ "lng_sure_delete_history": [
+  "Are you sure you want to delete all message history with {contact}?This action cannot be undone."
+ ],
+ "lng_sure_leave_channel": [
+  "Are you sure you want to leavethis channel?"
+ ],
+ "lng_sure_leave_group": [
+  "Are you sure you want to leave this group?"
+ ],
+ "lng_unconfirmed_auth_confirm": [
+  "Yes, it’s me"
+ ],
+ "lng_unconfirmed_auth_confirmed": [
+  "New Login Allowed"
+ ],
+ "lng_unconfirmed_auth_confirmed_message": [
+  "You can check the list of your active logins in {link}."
+ ],
+ "lng_unconfirmed_auth_denied_single": [
+  "We have terminated the login attempt from {country}."
+ ],
+ "lng_unconfirmed_auth_denied_title": [
+  "New Login Prevented",
+  "New Logins Prevented"
+ ],
+ "lng_unconfirmed_auth_denied_warning": [
+  "Never send your login code to anyone or you can lose your Telegram account!"
+ ],
+ "lng_unconfirmed_auth_deny": [
+  "No, it’s not me!"
+ ],
+ "lng_unconfirmed_auth_single": [
+  "We detected a new login to your account from {from}, {country}. Is it you?"
+ ],
+ "lng_unconfirmed_auth_title": [
+  "Someone just got access to your messages!"
+ ]
+}

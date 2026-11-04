@@ -1,0 +1,1691 @@
+{
+ "AccessDenied.LocationWeather": [
+  "Telegram needs access to your location so that you can add weather widgets to your stories.Please go to Settings > Privacy > Location Services and set Telegram to ON."
+ ],
+ "ArchiveInfo.ChatsText": [
+  "Move any chat into your Archive and back by swiping on it."
+ ],
+ "ArchiveInfo.ChatsTitle": [
+  "Archived Chats"
+ ],
+ "ArchiveInfo.CloseAction": [
+  "Got it"
+ ],
+ "ArchiveInfo.HideText": [
+  "Hide the Archive from your main screen by swiping on it."
+ ],
+ "ArchiveInfo.HideTitle": [
+  "Hiding Archive"
+ ],
+ "ArchiveInfo.StoriesText": [
+  "Archive Stories from your contacts separately from chats with them."
+ ],
+ "ArchiveInfo.StoriesTitle": [
+  "Stories"
+ ],
+ "ArchiveInfo.TextKeepArchivedDefault": [
+  "When you receive a new message, muted chats will remain in the Archive, while unmuted chats will be moved to Chats. [Tap to change >]()"
+ ],
+ "ArchiveInfo.Title": [
+  "This is Your Archive"
+ ],
+ "ArchiveSettings.AutomaticallyArchive": [
+  "Automatically Archive"
+ ],
+ "ArchiveSettings.FolderChatsFooter": [
+  "Keep archived chats from folders in the Archive even if they are unmuted and get a new message."
+ ],
+ "ArchiveSettings.FolderChatsHeader": [
+  "CHATS FROM FOLDERS"
+ ],
+ "ArchiveSettings.KeepArchived": [
+  "Always Keep Archived"
+ ],
+ "ArchiveSettings.Title": [
+  "Archive Settings"
+ ],
+ "ArchiveSettings.TooltipPremiumRequired": [
+  "This setting is available only to the subscribers of [Telegram Premium]()."
+ ],
+ "ArchiveSettings.UnknownChatsFooter": [
+  "Automatically archive and mute new private chats, groups and channels from non-contacts."
+ ],
+ "ArchiveSettings.UnknownChatsHeader": [
+  "NEW CHATS FROM UNKNOWN USERS"
+ ],
+ "ArchiveSettings.UnmutedChatsFooter": [
+  "Keep archived chats in the Archive even if they are unmuted and get a new message."
+ ],
+ "ArchiveSettings.UnmutedChatsHeader": [
+  "UNMUTED CHATS"
+ ],
+ "Attachment.Audio": [
+  "Audio"
+ ],
+ "Attachment.SelectFromFiles": [
+  "Select from Files"
+ ],
+ "Attachment.SharedAudio": [
+  "SHARED AUDIO"
+ ],
+ "AutoDownloadSettings.Contacts": [
+  "Contacts"
+ ],
+ "AutoDownloadSettings.Stories": [
+  "Stories"
+ ],
+ "AutoDownloadSettings.StoriesArchivedContacts": [
+  "Archived Contacts"
+ ],
+ "AutoDownloadSettings.StoriesSectionHeader": [
+  "AUTO-DOWNLOAD STORIES"
+ ],
+ "AutoDownloadSettings.StoriesTitle": [
+  "Stories"
+ ],
+ "Camera.CollageDelete": [
+  "Delete"
+ ],
+ "Camera.CollageReorderingInfo": [
+  "Hold and drag tiles to reorder them."
+ ],
+ "Camera.CollageRetake": [
+  "Retake"
+ ],
+ "Camera.LiveStream.Change": [
+  "change"
+ ],
+ "Camera.LiveStream.End": [
+  "End"
+ ],
+ "Camera.LiveStream.End.End": [
+  "End"
+ ],
+ "Camera.LiveStream.StartLiveStream": [
+  "Start Live Stream"
+ ],
+ "Camera.OpenChat": [
+  "Open Chat"
+ ],
+ "ChannelBoost.BoostAgain": [
+  "Boost Again"
+ ],
+ "ChannelBoost.BoostChannel": [
+  "Boost Channel"
+ ],
+ "ChannelBoost.BoostLinkCopied": [
+  "Boost link copied to clipboard"
+ ],
+ "ChannelBoost.BoostLinkForwardTooltip.Chat.One": [
+  "Boost link forwarded to **%@**"
+ ],
+ "ChannelBoost.BoostLinkForwardTooltip.ManyChats.One": [
+  "Boost link forwarded to **%@** and %@ others"
+ ],
+ "ChannelBoost.BoostLinkForwardTooltip.SavedMessages.One": [
+  "Boost link forwarded to **Saved Messages**"
+ ],
+ "ChannelBoost.BoostLinkForwardTooltip.TwoChats.One": [
+  "Boost link forwarded to **%@** and **%@**"
+ ],
+ "ChannelBoost.BoostedChannelReachedLevel": [
+  "This channel reached **Level %1$@** and can now post %2$@."
+ ],
+ "ChannelBoost.CopyLink": [
+  "Copy Link"
+ ],
+ "ChannelBoost.EnableStories": [
+  "Enable Stories"
+ ],
+ "ChannelBoost.EnableStoriesForChannel": [
+  "Enable Stories for This Channel"
+ ],
+ "ChannelBoost.EnableStoriesForChannelText": [
+  "**%1$@** needs %2$@ to enable posting stories. Help make it possible!"
+ ],
+ "ChannelBoost.EnableStoriesForOtherChannel": [
+  "Enable Stories for the Channel"
+ ],
+ "ChannelBoost.EnableStoriesMoreRequired": [
+  "This channel needs %1$@ to enable stories."
+ ],
+ "ChannelBoost.EnableStoriesText": [
+  "Your channel needs %1$@ to enable posting stories.Ask your **Premium** subscribers to boost your channel with this link:"
+ ],
+ "ChannelBoost.EnabledStoriesForChannelText": [
+  "This channel reached **Level 1** and can now post stories."
+ ],
+ "ChannelBoost.Error.BoostTooOftenText": [
+  "You can only change the channel you boost once a day. You will be able to boost in **%@**."
+ ],
+ "ChannelBoost.Error.BoostTooOftenTitle": [
+  "Can't Boost Too Often"
+ ],
+ "ChannelBoost.Error.PremiumNeededText": [
+  "Only **Telegram Premium** subscribers can boost channels. Do you want to subscribe to **Telegram Premium**?"
+ ],
+ "ChannelBoost.Error.PremiumNeededTitle": [
+  "Premium Needed"
+ ],
+ "ChannelBoost.HelpUpgradeChannel": [
+  "Help Upgrade This Channel"
+ ],
+ "ChannelBoost.HelpUpgradeChannelText": [
+  "**%1$@** needs %2$@ to be able to post %3$@."
+ ],
+ "ChannelBoost.IncreaseLimit": [
+  "Increase Story Limit"
+ ],
+ "ChannelBoost.IncreaseLimitText": [
+  "Your channel needs %1$@ to post %2$@.Ask your **Premium** subscribers to boost your channel with this link:"
+ ],
+ "ChannelBoost.Level": [
+  "Level %@"
+ ],
+ "ChannelBoost.MoreBoosts": [
+  "**%@** more boost",
+  "**%@** more boosts"
+ ],
+ "ChannelBoost.MoreBoosts.Text": [
+  "To boost **%1$@**, gift **Telegram Premium** to a friend and get **%2$@** additional boosts."
+ ],
+ "ChannelBoost.MoreBoosts.Title": [
+  "More Boosts Needed"
+ ],
+ "ChannelBoost.Replace": [
+  "Replace"
+ ],
+ "ChannelBoost.ReplaceBoost": [
+  "You currently boost **%1$@**. Do you want to boost **%2$@** instead?"
+ ],
+ "ChannelBoost.StoriesPerDay": [
+  "**%@** story per day",
+  "**%@** stories per day"
+ ],
+ "ChannelBoost.YouBoostedChannel": [
+  "You Boosted %1$@!"
+ ],
+ "ChannelBoost.YouBoostedOtherChannel": [
+  "You Boosted The Channel"
+ ],
+ "Chat.ReplyExpiredStory": [
+  "Expired story"
+ ],
+ "Chat.ReplyStory": [
+  "Story"
+ ],
+ "Chat.StoryMentionAction": [
+  "View Story"
+ ],
+ "ChatList.Archive.ContextInfo": [
+  "How Does It Work?"
+ ],
+ "ChatList.Archive.ContextSettings": [
+  "Archive Settings"
+ ],
+ "ChatList.ArchiveStoryCount": [
+  "1 story",
+  "%d stories"
+ ],
+ "ChatList.Context.Archive": [
+  "Archive"
+ ],
+ "ChatList.ContextOpenChannel": [
+  "Open Channel"
+ ],
+ "ChatList.ContextSelectChats": [
+  "Select Chats"
+ ],
+ "ChatList.StoryFeedTooltip": [
+  "Tap above to view storiesfrom %@"
+ ],
+ "ChatList.StoryFeedTooltipUsers": [
+  "Tap above to view stories from %@"
+ ],
+ "Contacts.DeselectAll": [
+  "Deselect All"
+ ],
+ "Conversation.BoostChannel": [
+  "BOOST"
+ ],
+ "Conversation.ContextMenuSelect": [
+  "Select"
+ ],
+ "Conversation.StoryExpiredMentionTextIncoming": [
+  "The story you were mentioned inis no longer available"
+ ],
+ "Conversation.StoryExpiredMentionTextOutgoing": [
+  "The story where you mentioned %@is no longer available"
+ ],
+ "Conversation.StoryForwardTooltip.Chat.One": [
+  "Story forwarded to **%@**"
+ ],
+ "Conversation.StoryForwardTooltip.ManyChats.One": [
+  "Story forwarded to **%@** and %@ others"
+ ],
+ "Conversation.StoryForwardTooltip.SavedMessages.One": [
+  "Story forwarded to **Saved Messages**"
+ ],
+ "Conversation.StoryForwardTooltip.TwoChats.One": [
+  "Story forwarded to **%@** and **%@**"
+ ],
+ "Conversation.StoryMentionTextIncoming": [
+  "%@ mentioned youin a story"
+ ],
+ "Conversation.StoryMentionTextOutgoing": [
+  "You mentioned %@in a story"
+ ],
+ "CreateExternalStream.Revoke.Revoke": [
+  "Revoke"
+ ],
+ "CreateExternalStream.Revoke.Text": [
+  "Do you want to revoke the stream key?"
+ ],
+ "CreateExternalStream.RevokeStreamKey": [
+  "Revoke Stream Key"
+ ],
+ "InviteLink.Share": [
+  "Share Link"
+ ],
+ "LastSeen.HoursAgo": [
+  "last seen 1 hour ago",
+  "last seen %@ hours ago"
+ ],
+ "LiveStream.CommentsDisabledPlaceholder": [
+  "Comments disabled"
+ ],
+ "LiveStream.EndConfirmationText": [
+  "Are you sure you want to end this live stream?"
+ ],
+ "LiveStream.EndConfirmationTitle": [
+  "End live stream"
+ ],
+ "LiveStream.StoryViewerCount": [
+  "1 watching",
+  "%@ watching"
+ ],
+ "LiveStream.StoryViewerEmpty": [
+  "no viewers"
+ ],
+ "LiveStreamSettings.PricePerComment": [
+  "PRICE PER COMMENT"
+ ],
+ "LiveStreamSettings.PricePerComment.Free": [
+  "Free"
+ ],
+ "LiveStreamSettings.PricePerComment.Stars": [
+  "%@ Star",
+  "%@ Stars"
+ ],
+ "LiveStreamSettings.PricePerCommentInfo": [
+  "The price a viewer must pay to send a comment."
+ ],
+ "LiveStreamSettings.WhoCanViewInfo": [
+  "[Select people]() who will never see your Live Stories."
+ ],
+ "Location.AddThisLocation": [
+  "Add This Location"
+ ],
+ "Location.TypeCity": [
+  "City"
+ ],
+ "Location.TypeStreet": [
+  "Street"
+ ],
+ "Map.Locating": [
+  "Locating..."
+ ],
+ "MediaEditor.AddAudio": [
+  "Audio"
+ ],
+ "MediaEditor.AddLink": [
+  "LINK"
+ ],
+ "MediaEditor.AddLocationShort": [
+  "Location"
+ ],
+ "MediaEditor.Audio.SavedMusic": [
+  "SAVED MUSIC"
+ ],
+ "MediaEditor.Link.CreateTitle": [
+  "Create Link"
+ ],
+ "MediaEditor.Link.EditTitle": [
+  "Edit Link"
+ ],
+ "MediaEditor.Link.LinkName.Placeholder": [
+  "Enter a Name"
+ ],
+ "MediaEditor.Link.LinkName.Title": [
+  "LINK NAME (OPTIONAL)"
+ ],
+ "MediaEditor.Link.LinkTo.Placeholder": [
+  "https://somesite.com"
+ ],
+ "MediaEditor.Link.LinkTo.Title": [
+  "LINK TO"
+ ],
+ "MediaEditor.RemoveAudio": [
+  "Remove Audio"
+ ],
+ "MediaEditor.RemoveVideo": [
+  "Remove Video"
+ ],
+ "MediaEditor.Shortcut.Audio": [
+  "Audio"
+ ],
+ "MediaEditor.Shortcut.Image": [
+  "Image"
+ ],
+ "MediaEditor.Shortcut.Link": [
+  "Link"
+ ],
+ "MediaEditor.Shortcut.Location": [
+  "Location"
+ ],
+ "MediaEditor.Shortcut.Reaction": [
+  "Reaction"
+ ],
+ "MediaEditor.Timeline": [
+  "Timeline"
+ ],
+ "MediaEditor.VideoRemovalConfirmation": [
+  "Are you sure you want to delete your video message?"
+ ],
+ "MediaPicker.CombineIntoCollage": [
+  "Combine into Collage"
+ ],
+ "MediaPicker.CreateStory": [
+  "Create %@ Story",
+  "Create %@ Stories"
+ ],
+ "MediaPicker.Recents": [
+  "Recents"
+ ],
+ "MediaPlayer.AudioForwardedToSavedMesagesTooltip": [
+  "Audio forwarded to Saved Messages."
+ ],
+ "Message.ForwardedExpiredStoryShort": [
+  "Expired StoryFrom: %@"
+ ],
+ "Message.ForwardedStoryShort": [
+  "Forwarded StoryFrom: %@"
+ ],
+ "Message.Story": [
+  "Story"
+ ],
+ "Notification.Exceptions.AddException": [
+  "Add Exception"
+ ],
+ "Notification.Exceptions.AlwaysOff": [
+  "Always Off"
+ ],
+ "Notification.Exceptions.AlwaysOn": [
+  "Always On"
+ ],
+ "Notification.Exceptions.MessagePreviewAlwaysOff": [
+  "Always Off"
+ ],
+ "Notification.Exceptions.MessagePreviewAlwaysOn": [
+  "Always On"
+ ],
+ "Notification.Exceptions.RemoveFromExceptions": [
+  "Remove from Exceptions"
+ ],
+ "Notification.Exceptions.StoriesDisplayAuthorName": [
+  "DISPLAY AUTHOR NAME"
+ ],
+ "Notification.Exceptions.StoriesHeader": [
+  "STORY NOTIFICATIONS"
+ ],
+ "Notification.Story": [
+  "Story"
+ ],
+ "NotificationSettings.Stories.AutomaticValue": [
+  "%@ (automatic)"
+ ],
+ "NotificationSettings.Stories.CompactHideName": [
+  "Hide name"
+ ],
+ "NotificationSettings.Stories.CompactShowName": [
+  "Show name"
+ ],
+ "NotificationSettings.Stories.DisplayAuthorName": [
+  "Display Author Name"
+ ],
+ "NotificationSettings.Stories.ShowAll": [
+  "Show All Notifications"
+ ],
+ "NotificationSettings.Stories.ShowImportant": [
+  "Show Important Notifications"
+ ],
+ "NotificationSettings.Stories.ShowImportantFooter": [
+  "Automatically enable story notifications from the 5 users you contact most frequently."
+ ],
+ "Notifications.DeleteAllExceptions": [
+  "Delete All Exceptions"
+ ],
+ "Notifications.MessageNotificationsExceptions": [
+  "Exceptions"
+ ],
+ "Notifications.MessageNotificationsSound": [
+  "Sound"
+ ],
+ "Notifications.Options": [
+  "Options"
+ ],
+ "Notifications.Stories": [
+  "Stories"
+ ],
+ "Notifications.StoriesTitle": [
+  "Stories"
+ ],
+ "PUSH_CHANNEL_MESSAGE_STORY": [
+  "%1$@|shared a story"
+ ],
+ "PUSH_CHAT_MESSAGE_STORY": [
+  "%2$@|%1$@ shared a story to the group"
+ ],
+ "PUSH_MESSAGE_STORY": [
+  "%1$@|shared a story with you"
+ ],
+ "PUSH_MESSAGE_STORY_MENTION": [
+  "%1$@|mentioned you in a story"
+ ],
+ "PUSH_STORY_NOTEXT": [
+  "%1$@|posted a story"
+ ],
+ "PeerInfo.Channel.ArchivedStories": [
+  "Archived Stories"
+ ],
+ "PeerInfo.PaneStories": [
+  "Posts"
+ ],
+ "Premium.CreateMultipleStories": [
+  "Create Multiple Stories"
+ ],
+ "Premium.MaxExpiringStoriesText": [
+  "You can post **%@** story in **24** hours. Subscribe to **Telegram Premium** to increase this limit to **%@**."
+ ],
+ "Premium.MaxStoriesMonthlyText": [
+  "You can post **%@** stories per month. Subscribe to **Telegram Premium** to increase this limit to **%@**."
+ ],
+ "Premium.MaxStoriesWeeklyText": [
+  "You can post **%@** stories per week. Subscribe to **Telegram Premium** to increase this limit to **%@**."
+ ],
+ "Premium.New": [
+  "NEW"
+ ],
+ "Premium.Stories": [
+  "Stories"
+ ],
+ "Premium.Stories.Quality.Text": [
+  "View video stories in double the resolution."
+ ],
+ "Premium.Stories.Quality.Title": [
+  "Higher Quality"
+ ],
+ "Premium.Stories.Title": [
+  "Stories"
+ ],
+ "Premium.StoriesInfo": [
+  "Unlimited posting, priority order, stealth mode, permanent view history and more."
+ ],
+ "Profile.AvatarStoryCount": [
+  "1 Story",
+  "%d Stories"
+ ],
+ "Report.Title.Story": [
+  "Report Story"
+ ],
+ "SendStarReactions.LiveStreamActionButton": [
+  "Add  # %@"
+ ],
+ "SendStarReactions.LiveStreamMessageText": [
+  "Highlight and pin a messageby adding Stars for **%@**"
+ ],
+ "SendStarReactions.LiveStreamMessageTitle": [
+  "Highlight and Pin"
+ ],
+ "SendStarReactions.LiveStreamPerk1Title": [
+  "pin in chat"
+ ],
+ "SendStarReactions.LiveStreamPerk2Title": [
+  "characters"
+ ],
+ "SendStarReactions.LiveStreamPerk3Title": [
+  "emoji"
+ ],
+ "SendStarReactions.LiveStreamReactionText": [
+  "Highlight and pin a messageby adding Stars for **%@**"
+ ],
+ "SendStarReactions.OwnLiveStreamCloseButton": [
+  "Close"
+ ],
+ "SendStarReactions.OwnLiveStreamInfoText": [
+  "You can't send Star Reactions to your own Live Story."
+ ],
+ "SendStarReactions.Title": [
+  "React with Stars"
+ ],
+ "Settings.MyStories": [
+  "My Stories"
+ ],
+ "Settings.StoriesArchive": [
+  "Story Archive"
+ ],
+ "Share.PostToStory": [
+  "Postto Story"
+ ],
+ "Share.RepostStory": [
+  "RepostStory"
+ ],
+ "ShortTime.AtDate": [
+  "%@"
+ ],
+ "ShortTime.AtPreciseDate": [
+  "%@ at %@"
+ ],
+ "ShortTime.HoursAgo": [
+  "%@h",
+  "%@h"
+ ],
+ "ShortTime.JustNow": [
+  "now"
+ ],
+ "ShortTime.MinutesAgo": [
+  "%@m",
+  "%@m"
+ ],
+ "Stats.Boosts": [
+  "Boosts"
+ ],
+ "Stats.Boosts.Boosters": [
+  "%@ BOOSTER",
+  "%@ BOOSTERS"
+ ],
+ "Stats.Boosts.BoostersInfo": [
+  "Your channel is currently boosted by these users."
+ ],
+ "Stats.Boosts.BoostersNone": [
+  "BOOSTERS"
+ ],
+ "Stats.Boosts.BoostsToLevelUp": [
+  "Boosts to Level Up"
+ ],
+ "Stats.Boosts.ExistingBoosts": [
+  "Active Boosts"
+ ],
+ "Stats.Boosts.ExpiresOn": [
+  "Boost expires on %@"
+ ],
+ "Stats.Boosts.Level": [
+  "Level"
+ ],
+ "Stats.Boosts.LinkHeader": [
+  "LINK FOR BOOSTING"
+ ],
+ "Stats.Boosts.LinkInfo": [
+  "Share this link with your subscribers to get more boosts."
+ ],
+ "Stats.Boosts.NoBoostersYet": [
+  "No users currently boost your channel"
+ ],
+ "Stats.Boosts.OverviewHeader": [
+  "OVERVIEW"
+ ],
+ "Stats.Boosts.PremiumSubscribers": [
+  "Premium Subscribers"
+ ],
+ "Stats.Statistics": [
+  "Statistics"
+ ],
+ "StorageManagement.SectionStories": [
+  "Stories"
+ ],
+ "Stories.MenuAddToAlbum": [
+  "Add to Album"
+ ],
+ "Stories.MenuNewAlbum": [
+  "New Album"
+ ],
+ "Story.AlertStealthModeActiveAction": [
+  "Proceed"
+ ],
+ "Story.AlertStealthModeActiveText": [
+  "If you send a reply or reaction, the creator of the story will see you in the list of viewers."
+ ],
+ "Story.AlertStealthModeActiveTitle": [
+  "You are in Stealth Mode now"
+ ],
+ "Story.Camera.AccessOpenSettings": [
+  "Open Settings"
+ ],
+ "Story.Camera.AccessPlaceholderText": [
+  "This lets you share photos and record videos."
+ ],
+ "Story.Camera.AccessPlaceholderTitle": [
+  "Allow Telegram to access your camera and microphone"
+ ],
+ "Story.Camera.Live": [
+  "Live"
+ ],
+ "Story.Camera.Photo": [
+  "Photo"
+ ],
+ "Story.Camera.SwipeLeftRelease": [
+  "Release to lock"
+ ],
+ "Story.Camera.SwipeLeftToLock": [
+  "Swipe left to lock"
+ ],
+ "Story.Camera.SwipeRightToFlip": [
+  "Swipe right to flip"
+ ],
+ "Story.Camera.SwipeUpToZoom": [
+  "Swipe up to zoom"
+ ],
+ "Story.Camera.TooltipDisableDual": [
+  "Tap here to disablethe selfie camera"
+ ],
+ "Story.Camera.TooltipDraftSaved": [
+  "Draft Saved"
+ ],
+ "Story.Camera.TooltipTakePhotos": [
+  "Take photos or videos to share with allyour contacts or close friends at once."
+ ],
+ "Story.Camera.Video": [
+  "Video"
+ ],
+ "Story.Context.CopyLink": [
+  "Copy Link"
+ ],
+ "Story.Context.Edit": [
+  "Edit Story"
+ ],
+ "Story.Context.EditCover": [
+  "Edit Cover"
+ ],
+ "Story.Context.EmbeddedEmojiPack": [
+  "This story contains#[%@]() emoji."
+ ],
+ "Story.Context.EmbeddedStickerPack": [
+  "This story contains#[%@]() stickers."
+ ],
+ "Story.Context.EmbeddedStickers": [
+  "This story contains stickers from [%@]()."
+ ],
+ "Story.Context.EmbeddedStickersValue": [
+  "1 pack",
+  "%d packs"
+ ],
+ "Story.Context.Privacy": [
+  "Who Can See"
+ ],
+ "Story.Context.RemoveFromChannel": [
+  "Remove from Posts"
+ ],
+ "Story.Context.RemoveFromProfile": [
+  "Remove from Profile"
+ ],
+ "Story.Context.Report": [
+  "Report"
+ ],
+ "Story.Context.SaveToChannel": [
+  "Post to Profile"
+ ],
+ "Story.Context.SaveToGallery": [
+  "Save to Gallery"
+ ],
+ "Story.Context.SaveToProfile": [
+  "Post to Profile"
+ ],
+ "Story.Context.Share": [
+  "Share"
+ ],
+ "Story.Context.TooltipPremiumSaveStories": [
+  "Subscribe to [Telegram Premium]() to save other people's stories that are not protected."
+ ],
+ "Story.Context.ViewStats": [
+  "View Statistics"
+ ],
+ "Story.ContextDeleteContact": [
+  "Delete Contact"
+ ],
+ "Story.ContextDeleteStory": [
+  "Delete Story"
+ ],
+ "Story.ContextHideStoriesFrom": [
+  "Hide My Stories From %@"
+ ],
+ "Story.ContextMenuHD": [
+  "Increase Quality"
+ ],
+ "Story.ContextMenuLiveSettings": [
+  "Live Settings"
+ ],
+ "Story.ContextMenuPip": [
+  "Minimize"
+ ],
+ "Story.ContextMenuSD": [
+  "Decrease Quality"
+ ],
+ "Story.ContextPrivacy.LabelCloseFriends": [
+  "Close Friends"
+ ],
+ "Story.ContextPrivacy.LabelContacts": [
+  "My Contacts"
+ ],
+ "Story.ContextPrivacy.LabelContactsExcept": [
+  "Contacts (-%@)"
+ ],
+ "Story.ContextPrivacy.LabelEveryone": [
+  "Everyone"
+ ],
+ "Story.ContextPrivacy.LabelOnlyMe": [
+  "Only Me"
+ ],
+ "Story.ContextPrivacy.LabelOnlySelected": [
+  "1 Person",
+  "%d People"
+ ],
+ "Story.ContextShowStoriesTo": [
+  "Do Not Hide My Stories From %@"
+ ],
+ "Story.ContextStealthMode": [
+  "Hide My View"
+ ],
+ "Story.Cover": [
+  "Story Cover"
+ ],
+ "Story.Editor.Add": [
+  "Add"
+ ],
+ "Story.Editor.Blur.Linear": [
+  "Linear"
+ ],
+ "Story.Editor.Blur.Off": [
+  "Off"
+ ],
+ "Story.Editor.Blur.Portrait": [
+  "Portrait"
+ ],
+ "Story.Editor.Blur.Radial": [
+  "Radial"
+ ],
+ "Story.Editor.Blur.Title": [
+  "Blur"
+ ],
+ "Story.Editor.Curves.All": [
+  "All"
+ ],
+ "Story.Editor.Curves.Blue": [
+  "Blue"
+ ],
+ "Story.Editor.Curves.Green": [
+  "Green"
+ ],
+ "Story.Editor.Curves.Red": [
+  "Red"
+ ],
+ "Story.Editor.Done": [
+  "Done"
+ ],
+ "Story.Editor.DraftDiscaedText": [
+  "If you go back without saving, you will lose any changes you made."
+ ],
+ "Story.Editor.DraftDiscard": [
+  "Discard"
+ ],
+ "Story.Editor.DraftDiscardDraft": [
+  "Discard Draft?"
+ ],
+ "Story.Editor.DraftDiscardMedia": [
+  "Discard Changes?"
+ ],
+ "Story.Editor.DraftKeepDraft": [
+  "Keep Draft"
+ ],
+ "Story.Editor.DraftKeepMedia": [
+  "Save Draft"
+ ],
+ "Story.Editor.ExpirationText": [
+  "Choose how long the story will be visible."
+ ],
+ "Story.Editor.ExpirationValue": [
+  "1 Hour",
+  "%d Hours"
+ ],
+ "Story.Editor.InputPlaceholderAddCaption": [
+  "Add a caption..."
+ ],
+ "Story.Editor.Next": [
+  "Next"
+ ],
+ "Story.Editor.PreparingVideo": [
+  "Preparing Video..."
+ ],
+ "Story.Editor.Tint.Highlights": [
+  "Highlights"
+ ],
+ "Story.Editor.Tint.Shadows": [
+  "Shadows"
+ ],
+ "Story.Editor.Tool.Brightness": [
+  "Brightness"
+ ],
+ "Story.Editor.Tool.Contrast": [
+  "Contrast"
+ ],
+ "Story.Editor.Tool.Enhance": [
+  "Enhance"
+ ],
+ "Story.Editor.Tool.Fade": [
+  "Fade"
+ ],
+ "Story.Editor.Tool.Grain": [
+  "Grain"
+ ],
+ "Story.Editor.Tool.Highlights": [
+  "Highlights"
+ ],
+ "Story.Editor.Tool.Saturation": [
+  "Saturation"
+ ],
+ "Story.Editor.Tool.Shadows": [
+  "Shadows"
+ ],
+ "Story.Editor.Tool.Vignette": [
+  "Vignette"
+ ],
+ "Story.Editor.Tool.Warmth": [
+  "Warmth"
+ ],
+ "Story.Editor.TooltipImageSavedToPhotos": [
+  "Image saved to Photos."
+ ],
+ "Story.Editor.TooltipLinkLimitValue": [
+  "**%@** link",
+  "**%@** links"
+ ],
+ "Story.Editor.TooltipLinkPremium": [
+  "Subscribe to [Telegram Premium]() to add links."
+ ],
+ "Story.Editor.TooltipMuted": [
+  "This story will have no sound."
+ ],
+ "Story.Editor.TooltipMutedWithAudio": [
+  "Original audio will be removed"
+ ],
+ "Story.Editor.TooltipPremiumCaptionEntities": [
+  "Subscribe to [Telegram Premium]() to add links and formatting to your story captions."
+ ],
+ "Story.Editor.TooltipPremiumCaptionLimitText": [
+  "Increase this limit 10x to 2048 characters by subscribing to [Telegram Premium]()."
+ ],
+ "Story.Editor.TooltipPremiumCaptionLimitTitle": [
+  "Maximum Length Reached"
+ ],
+ "Story.Editor.TooltipPremiumExpiration": [
+  "Subscribe to [Telegram Premium]() to make your stories disappear after 6, 12 or 48 hours."
+ ],
+ "Story.Editor.TooltipPremiumMore": [
+  "More"
+ ],
+ "Story.Editor.TooltipPremiumReactionLimitText": [
+  "Upgrade to [Telegram Premium]() to add up to %@ to a story."
+ ],
+ "Story.Editor.TooltipPremiumReactionLimitTitle": [
+  "Increase Limit"
+ ],
+ "Story.Editor.TooltipPremiumReactionLimitValue": [
+  "**%@** reaction sticker",
+  "**%@** reaction stickers"
+ ],
+ "Story.Editor.TooltipReachedLinkLimitText": [
+  "You can't add more than %@ to a story."
+ ],
+ "Story.Editor.TooltipReachedReactionLimitText": [
+  "You can't add more than %@ to a story."
+ ],
+ "Story.Editor.TooltipReachedReactionLimitTitle": [
+  "Limit Reached"
+ ],
+ "Story.Editor.TooltipSelection": [
+  "Tap here to view your %@ story",
+  "Tap here to view your %@ stories"
+ ],
+ "Story.Editor.TooltipUnmuted": [
+  "This story will have sound."
+ ],
+ "Story.Editor.TooltipUnmutedWithAudio": [
+  "Original audio will be preserved"
+ ],
+ "Story.Editor.TooltipVideoSavedToPhotos": [
+  "Video saved to Photos."
+ ],
+ "Story.Editor.TooltipWeatherLimitText": [
+  "You can't add more than one weather sticker to a story."
+ ],
+ "Story.Editor.Uploading": [
+  "Uploading..."
+ ],
+ "Story.Editor.VideoTooShort": [
+  "A video must be at least 1 second long."
+ ],
+ "Story.Footer.NoViews": [
+  "No views yet"
+ ],
+ "Story.Footer.Uploading": [
+  "Uploading..."
+ ],
+ "Story.Footer.ViewCount": [
+  "|%d| View",
+  "|%d| Views"
+ ],
+ "Story.FooterReplyUnavailable": [
+  "You can't reply to this story"
+ ],
+ "Story.Guide.BackDescription": [
+  "Tap the left edge"
+ ],
+ "Story.Guide.BackTitle": [
+  "Go back"
+ ],
+ "Story.Guide.Description": [
+  "You can use these gestures to control playback."
+ ],
+ "Story.Guide.ForwardDescription": [
+  "Tap the screen"
+ ],
+ "Story.Guide.ForwardTitle": [
+  "Go forward"
+ ],
+ "Story.Guide.MoveDescription": [
+  "Swipe left or right"
+ ],
+ "Story.Guide.MoveTitle": [
+  "Move between stories"
+ ],
+ "Story.Guide.PauseDescription": [
+  "Hold and slide left or right"
+ ],
+ "Story.Guide.PauseTitle": [
+  "Pause and Seek"
+ ],
+ "Story.Guide.Proceed": [
+  "Tap to keep watching"
+ ],
+ "Story.Guide.Title": [
+  "Watching Stories"
+ ],
+ "Story.HeaderEdited": [
+  "edited"
+ ],
+ "Story.HeaderYourStory": [
+  "Your story"
+ ],
+ "Story.InputPlaceholderReplyInGroup": [
+  "Comment Story..."
+ ],
+ "Story.InputPlaceholderReplyPrivately": [
+  "Reply Privately..."
+ ],
+ "Story.LongTapForMoreReactions": [
+  "Long tap for more reactions."
+ ],
+ "Story.MessageReposted.Personal": [
+  "Message reposted to your stories."
+ ],
+ "Story.PremiumUpgradeStoriesButton": [
+  "Upgrade Stories"
+ ],
+ "Story.Privacy.AllowScreenshots": [
+  "Allow Screenshots"
+ ],
+ "Story.Privacy.CategoryCloseFriends": [
+  "Close Friends"
+ ],
+ "Story.Privacy.CategoryContacts": [
+  "My Contacts"
+ ],
+ "Story.Privacy.CategoryEveryone": [
+  "Everyone"
+ ],
+ "Story.Privacy.CategorySelectedContacts": [
+  "Selected Users"
+ ],
+ "Story.Privacy.Choose": [
+  "choose"
+ ],
+ "Story.Privacy.ChooseCover": [
+  "Choose Story Cover"
+ ],
+ "Story.Privacy.ChooseCoverChannelInfo": [
+  "Choose a frame from this story to show on the channel's profile page."
+ ],
+ "Story.Privacy.ChooseCoverGroupInfo": [
+  "Choose a frame from the story to show on the group's profile page."
+ ],
+ "Story.Privacy.ChooseCoverInfo": [
+  "Choose a frame from this story to show on your Profile."
+ ],
+ "Story.Privacy.ContactsHeader": [
+  "CONTACTS"
+ ],
+ "Story.Privacy.EditList": [
+  "edit list"
+ ],
+ "Story.Privacy.EditStory": [
+  "Edit Story"
+ ],
+ "Story.Privacy.ExcludePeople": [
+  "exclude people"
+ ],
+ "Story.Privacy.ExcludePeopleExcept": [
+  "except 1 person",
+  "except %@ people"
+ ],
+ "Story.Privacy.ExcludePeopleExceptNames": [
+  "except %@"
+ ],
+ "Story.Privacy.ExcludedPeople": [
+  "Excluded Contacts"
+ ],
+ "Story.Privacy.GrayListPeople": [
+  "1 person",
+  "%@ people"
+ ],
+ "Story.Privacy.GrayListSelect": [
+  "[Select people]() who will never see your stories."
+ ],
+ "Story.Privacy.GrayListSelected": [
+  "[%@]() will never see your stories."
+ ],
+ "Story.Privacy.GroupParticipantsLimit": [
+  "You can select groups with up to 200 members."
+ ],
+ "Story.Privacy.GroupTooLarge": [
+  "Group Too Large"
+ ],
+ "Story.Privacy.HideMyStoriesFrom": [
+  "Hide My Stories From"
+ ],
+ "Story.Privacy.KeepOnChannelPage": [
+  "Post to Channel Page"
+ ],
+ "Story.Privacy.KeepOnChannelPageInfo": [
+  "Keep this story on the channel page even after it expires in %@."
+ ],
+ "Story.Privacy.KeepOnChannelPageManyInfo": [
+  "Keep these stories on the channel profile even after they expire in %@."
+ ],
+ "Story.Privacy.KeepOnGroupPage": [
+  "Post to Group Page"
+ ],
+ "Story.Privacy.KeepOnGroupPageInfo": [
+  "Keep this story on group page even after it expires in %@."
+ ],
+ "Story.Privacy.KeepOnGroupPageManyInfo": [
+  "Keep these stories on the group profile even after they expire in %@."
+ ],
+ "Story.Privacy.KeepOnMyPage": [
+  "Post to My Profile"
+ ],
+ "Story.Privacy.KeepOnMyPageHours": [
+  "1 hour",
+  "%@ hours"
+ ],
+ "Story.Privacy.KeepOnMyPageInfo": [
+  "Keep this story on your profile even after it expires in %@. Privacy settings will apply."
+ ],
+ "Story.Privacy.KeepOnMyPageManyInfo": [
+  "Keep these stories on your profile even after they expire in %@. Privacy settings will apply."
+ ],
+ "Story.Privacy.MentionRestrictedProceed": [
+  "Proceed Anyway"
+ ],
+ "Story.Privacy.MentionRestrictedText": [
+  "The privacy settings of your story will prevent some users you tagged (%@) from viewing it."
+ ],
+ "Story.Privacy.MentionRestrictedTitle": [
+  "Privacy Restrictions"
+ ],
+ "Story.Privacy.People": [
+  "1 person",
+  "%@ people"
+ ],
+ "Story.Privacy.PostStories": [
+  "Post %@ Story",
+  "Post %@ Stories"
+ ],
+ "Story.Privacy.PostStoriesAsHeader": [
+  "POST STORIES AS"
+ ],
+ "Story.Privacy.PostStory": [
+  "Post Story"
+ ],
+ "Story.Privacy.PostStoryAs": [
+  "Post Story As"
+ ],
+ "Story.Privacy.PostStoryAsHeader": [
+  "POST STORY AS"
+ ],
+ "Story.Privacy.SaveList": [
+  "Save List"
+ ],
+ "Story.Privacy.SaveSettings": [
+  "Save Settings"
+ ],
+ "Story.Privacy.SearchChats": [
+  "Search Chats"
+ ],
+ "Story.Privacy.SearchContacts": [
+  "Search Contacts"
+ ],
+ "Story.Privacy.ShareStories": [
+  "Share Stories"
+ ],
+ "Story.Privacy.ShareStory": [
+  "Share Story"
+ ],
+ "Story.Privacy.StartLiveAs": [
+  "Start Live Story As"
+ ],
+ "Story.Privacy.TooltipSharingDisabled": [
+  "Downloading and taking screenshots will be disabled for this story."
+ ],
+ "Story.Privacy.TooltipSharingDisabledPublic": [
+  "Downloading, sharing and taking screenshots will be disabled for this story."
+ ],
+ "Story.Privacy.TooltipSharingEnabled": [
+  "Downloading and taking screenshots will be enabled for this story."
+ ],
+ "Story.Privacy.TooltipSharingEnabledPublic": [
+  "Downloading, sharing and taking screenshots will be enabled for this story."
+ ],
+ "Story.Privacy.TooltipStoryArchived": [
+  "Users allowed to view your story will see it on your profile even after it expires."
+ ],
+ "Story.Privacy.TooltipStoryArchivedChannel": [
+  "Users will see this story on the channel page even after it expires."
+ ],
+ "Story.Privacy.TooltipStoryArchivedGroup": [
+  "Users will see this story on the group page even after it expires."
+ ],
+ "Story.Privacy.TooltipStoryExpires": [
+  "The story will disappear after it expires."
+ ],
+ "Story.Privacy.WhoCanViewHeader": [
+  "WHO CAN VIEW THIS STORY"
+ ],
+ "Story.Privacy.WhoCanViewStoriesHeader": [
+  "WHO CAN VIEW THESE STORIES"
+ ],
+ "Story.PrivacyTooltipCloseFriends": [
+  "This story is now shown to your close friends."
+ ],
+ "Story.PrivacyTooltipContacts": [
+  "This story is now shown to all your contacts."
+ ],
+ "Story.PrivacyTooltipEveryone": [
+  "This story is now shown to everyone."
+ ],
+ "Story.PrivacyTooltipNobody": [
+  "This story is now shown only to you."
+ ],
+ "Story.PrivacyTooltipSelectedContacts": [
+  "This story is shown to selected users."
+ ],
+ "Story.PrivacyTooltipSelectedContacts.Contacts": [
+  "1 contact",
+  "%@ contacts"
+ ],
+ "Story.PrivacyTooltipSelectedContactsCount": [
+  "This story is now shown to %@ contacts."
+ ],
+ "Story.PrivacyTooltipSelectedContactsFull": [
+  "%@ can now see this story."
+ ],
+ "Story.SaveCover": [
+  "Save Cover"
+ ],
+ "Story.ScreenshotBlockedText": [
+  "The story you tried to takea screenshot of is protectedfrom copying by its creator."
+ ],
+ "Story.ScreenshotBlockedTitle": [
+  "Screenshot Blocked"
+ ],
+ "Story.SendReactionAsGroupMessage": [
+  "Send reaction as a message"
+ ],
+ "Story.SendReactionAsMessage": [
+  "Send reaction as a private message"
+ ],
+ "Story.SlideToSeek": [
+  "Slide left or right to seek"
+ ],
+ "Story.StealthMode.ControlText": [
+  "Turn Stealth Mode on to watch stories without appearing in the list of viewers."
+ ],
+ "Story.StealthMode.CooldownAction": [
+  "Available in %@"
+ ],
+ "Story.StealthMode.EnableAction": [
+  "Enable Stealth Mode"
+ ],
+ "Story.StealthMode.EnableAndOpenAction": [
+  "Enable and Open the Story"
+ ],
+ "Story.StealthMode.NextText": [
+  "Hide my views for the next **%@**."
+ ],
+ "Story.StealthMode.NextTitle": [
+  "Hide Upcoming Views"
+ ],
+ "Story.StealthMode.RecentText": [
+  "Hide my views from the past **%@**."
+ ],
+ "Story.StealthMode.RecentTitle": [
+  "Hide Recent Views"
+ ],
+ "Story.StealthMode.Title": [
+  "Stealth Mode"
+ ],
+ "Story.StealthMode.ToastCooldownText": [
+  "Please wait until **Stealth Mode** is ready to use again."
+ ],
+ "Story.StealthMode.UpgradeAction": [
+  "Unlock Stealth Mode"
+ ],
+ "Story.StealthMode.UpgradeText": [
+  "Subscribe to Telegram Premium to watch stories without appearing in the list of viewers."
+ ],
+ "Story.StealthModeActivePlaceholder": [
+  "Stealth Mode active – %@"
+ ],
+ "Story.ToastHideStoriesFrom": [
+  "**%@** will not be able to see your stories."
+ ],
+ "Story.ToastLinkCopied": [
+  "Link copied."
+ ],
+ "Story.ToastPremiumSaveToGallery": [
+  "Subscribe to [Telegram Premium]() to save other people's stories that are not protected."
+ ],
+ "Story.ToastQualityHD.Text": [
+  "You can lower the quality later for faster downloads."
+ ],
+ "Story.ToastQualityHD.Title": [
+  "Quality Increased"
+ ],
+ "Story.ToastQualitySD.Text": [
+  "Stories will now download faster."
+ ],
+ "Story.ToastQualitySD.Title": [
+  "Quality Lowered"
+ ],
+ "Story.ToastReactionSent": [
+  "Message Sent."
+ ],
+ "Story.ToastRemovedFromChannelText": [
+  "Story removed from the channel page"
+ ],
+ "Story.ToastRemovedFromProfileText": [
+  "Story removed from your profile"
+ ],
+ "Story.ToastSavedToChannelText": [
+  "Posted stories can be viewed by others on the channel page until an admin removes them."
+ ],
+ "Story.ToastSavedToGroupText": [
+  "Posted stories can be viewed by others on the group page until an admin removes them."
+ ],
+ "Story.ToastSavedToGroupTitle": [
+  "Story saved to the group page"
+ ],
+ "Story.ToastSavedToProfileText": [
+  "Posted stories can be viewed by others on your profile until you remove them."
+ ],
+ "Story.ToastSavedToProfileTitle": [
+  "Story posted to your profile"
+ ],
+ "Story.ToastShowStoriesTo": [
+  "**%@** will be able to see your stories again."
+ ],
+ "Story.ToastStealthModeActivatedText": [
+  "The creators of stories you viewed in the past **%1$@** or will view in the next **%2$@** won't see you in the list of viewers."
+ ],
+ "Story.ToastStealthModeActivatedTitle": [
+  "Stealth Mode On"
+ ],
+ "Story.ToastStealthModeActiveText": [
+  "The creators of stories you view in the next **%@** won't see you in their list of viewers."
+ ],
+ "Story.ToastStealthModeActiveTitle": [
+  "You are in Stealth Mode now"
+ ],
+ "Story.ToastViewInChat": [
+  "View in Chat"
+ ],
+ "Story.TooltipExpired": [
+  "This story is no longer available"
+ ],
+ "Story.TooltipMessageScheduled": [
+  "Message Scheduled"
+ ],
+ "Story.TooltipMessageSent": [
+  "Message Sent."
+ ],
+ "Story.TooltipPrivacyCloseFriends": [
+  "You are seeing this story because %@ added you to their list of Close Friends."
+ ],
+ "Story.TooltipPrivacyCloseFriends2": [
+  "You are seeing this story because **%@** added you to their list of Close Friends."
+ ],
+ "Story.TooltipPrivacyContacts": [
+  "Only %@'s contacts can view this story."
+ ],
+ "Story.TooltipPrivacySelectedContacts": [
+  "Only some users %@ selected can view this story."
+ ],
+ "Story.TooltipSaved": [
+  "Saved"
+ ],
+ "Story.TooltipSaving": [
+  "Saving"
+ ],
+ "Story.TooltipVideoHasNoSound": [
+  "This video has no sound"
+ ],
+ "Story.UnsupportedAction": [
+  "Update Telegram"
+ ],
+ "Story.UnsupportedText": [
+  "This story is not supported byyour version of Telegram."
+ ],
+ "Story.UpgradeQuality.Action": [
+  "Increase Quality"
+ ],
+ "Story.UpgradeQuality.ActionSubtitle": [
+  "Premium Required"
+ ],
+ "Story.UpgradeQuality.Text": [
+  "Subscribe to Premium to view stories in higher resolution."
+ ],
+ "Story.UpgradeQuality.Title": [
+  "High-Quality Stories"
+ ],
+ "Story.ViewGift": [
+  "View Gift"
+ ],
+ "Story.ViewLink": [
+  "Open Link"
+ ],
+ "Story.ViewList.ContextSortChannelInfo": [
+  "Choose the order for the list of reactions."
+ ],
+ "Story.ViewList.ContextSortInfo": [
+  "Choose the order for the list of viewers."
+ ],
+ "Story.ViewList.ContextSortReactions": [
+  "Reactions First"
+ ],
+ "Story.ViewList.ContextSortRecent": [
+  "Newest First"
+ ],
+ "Story.ViewList.ContextSortReposts": [
+  "Reposts First"
+ ],
+ "Story.ViewList.EmptyTextContacts": [
+  "None of your contacts viewed this story."
+ ],
+ "Story.ViewList.PremiumUpgradeAction": [
+  "Learn More"
+ ],
+ "Story.ViewList.PremiumUpgradeInlineText": [
+  "To unlock future viewer lists for expired and posted stories, subscribe to [Telegram Premium]()."
+ ],
+ "Story.ViewList.PremiumUpgradeText": [
+  "The list of viewers disappears 24 hours after a story expires.To unlock future viewer lists for expired and posted stories, subscribe to [Telegram Premium]()."
+ ],
+ "Story.ViewList.TabTitleAll": [
+  "All Viewers"
+ ],
+ "Story.ViewList.TabTitleContacts": [
+  "Contacts"
+ ],
+ "Story.ViewList.TitleReactions": [
+  "Reactions"
+ ],
+ "Story.ViewList.TitleViewers": [
+  "Viewers"
+ ],
+ "Story.ViewList.ViewerCount": [
+  "1 Viewer",
+  "%d Viewers"
+ ],
+ "Story.ViewLocation": [
+  "View Location"
+ ],
+ "Story.ViewMessage": [
+  "View Message"
+ ],
+ "Story.Views.NoReactions": [
+  "Nobody has reacted toyour story yet."
+ ],
+ "Story.Views.NoViews": [
+  "Nobody has viewedyour story yet."
+ ],
+ "Story.Views.ViewsNotRecorded": [
+  "Information about viewers wasn't recorded."
+ ],
+ "StoryFeed.ContextAddStory": [
+  "Add Story"
+ ],
+ "StoryFeed.ContextArchive": [
+  "Hide Stories"
+ ],
+ "StoryFeed.ContextArchivedStories": [
+  "Archived Stories"
+ ],
+ "StoryFeed.ContextNotifyOff": [
+  "Do Not Notify About Stories"
+ ],
+ "StoryFeed.ContextNotifyOn": [
+  "Notify About Stories"
+ ],
+ "StoryFeed.ContextOpenChat": [
+  "Send Message"
+ ],
+ "StoryFeed.ContextOpenProfile": [
+  "Open Profile"
+ ],
+ "StoryFeed.ContextSavedStories": [
+  "Posted Stories"
+ ],
+ "StoryFeed.ContextUnarchive": [
+  "Unhide Stories"
+ ],
+ "StoryFeed.MyStory": [
+  "My Story"
+ ],
+ "StoryFeed.MyUploading": [
+  "Uploading..."
+ ],
+ "StoryFeed.TooltipArchive": [
+  "Stories from **%@** were moved to the Archive."
+ ],
+ "StoryFeed.TooltipNotifyOff": [
+  "You will no longer receive a notification when **%@** posts a story."
+ ],
+ "StoryFeed.TooltipNotifyOn": [
+  "You will receive a notification whenever **%@** posts a story."
+ ],
+ "StoryFeed.TooltipPostingDuringCall": [
+  "You can't post stories during a call."
+ ],
+ "StoryFeed.TooltipPostingDuringGroupCall": [
+  "You can't post stories during a video chat."
+ ],
+ "StoryFeed.TooltipPremiumPosting": [
+  "Posting stories is currently available onlyto subscribers of [Telegram Premium]()."
+ ],
+ "StoryFeed.TooltipStoryLimitValue": [
+  "1 story",
+  "%d stories"
+ ],
+ "StoryFeed.TooltipUnarchive": [
+  "Stories from **%@** were returned from the Archive."
+ ],
+ "StoryFeed.ViewAnonymously": [
+  "View Anonymously"
+ ],
+ "StoryGridScreen.TitleLocationSearch": [
+  "Location"
+ ],
+ "StoryList.ActionPanel.Archive": [
+  "Archive"
+ ],
+ "StoryList.ActionPanel.Delete": [
+  "Delete"
+ ],
+ "StoryList.ActionPanel.Pin": [
+  "Pin"
+ ],
+ "StoryList.ActionPanel.Unarchive": [
+  "Unarchive"
+ ],
+ "StoryList.ActionPanel.Unpin": [
+  "Unpin"
+ ],
+ "StoryList.ArchiveDescription": [
+  "Only you can see archived stories unless you choose to post them to your profile."
+ ],
+ "StoryList.ArchivedEmptyState.Text": [
+  "Upload a new story to view it here"
+ ],
+ "StoryList.ArchivedEmptyState.Title": [
+  "No Archived Stories"
+ ],
+ "StoryList.ContextSaveToGallery": [
+  "Save to Photos"
+ ],
+ "StoryList.ContextShowArchive": [
+  "Show Archive"
+ ],
+ "StoryList.DeleteConfirmation.Action": [
+  "Delete"
+ ],
+ "StoryList.DeleteConfirmation.Title": [
+  "Delete 1 story?",
+  "Delete %d stories?"
+ ],
+ "StoryList.GridHeaderLocationSearch": [
+  "1 STORY FROM THIS LOCATION",
+  "%d STORIES FROM THIS LOCATION"
+ ],
+ "StoryList.ItemAction.Archive": [
+  "Archive"
+ ],
+ "StoryList.ItemAction.Delete": [
+  "Delete"
+ ],
+ "StoryList.ItemAction.Forward": [
+  "Forward"
+ ],
+ "StoryList.ItemAction.Pin": [
+  "Pin"
+ ],
+ "StoryList.ItemAction.Unarchive": [
+  "Unarchive"
+ ],
+ "StoryList.ItemAction.Unpin": [
+  "Unpin"
+ ],
+ "StoryList.SaveToProfile": [
+  "Post to Profile"
+ ],
+ "StoryList.SavedAddAction": [
+  "Add a Post"
+ ],
+ "StoryList.SavedEmptyAction": [
+  "Open Archive"
+ ],
+ "StoryList.SavedEmptyPosts.Text": [
+  "Publish photos and videos to display on your profile page."
+ ],
+ "StoryList.SavedEmptyPosts.Title": [
+  "No posts yet..."
+ ],
+ "StoryList.SavedEmptyState.Text": [
+  "Open the Archive to select stories youwant to be displayed on your profile."
+ ],
+ "StoryList.SavedEmptyState.Title": [
+  "No posted stories"
+ ],
+ "StoryList.SubtitleArchived": [
+  "1 archived post",
+  "%d archived posts"
+ ],
+ "StoryList.SubtitleCount": [
+  "1 story",
+  "%d stories"
+ ],
+ "StoryList.SubtitleSaved": [
+  "1 posted story",
+  "%d posted stories"
+ ],
+ "StoryList.SubtitleSelected": [
+  "1 story selected",
+  "%d stories selected"
+ ],
+ "StoryList.TitleArchive": [
+  "Story Archive"
+ ],
+ "StoryList.TitleSaved": [
+  "My Stories"
+ ],
+ "StoryList.ToastArchived.Text": [
+  "Story archived.",
+  "%d stories archived."
+ ],
+ "StoryList.ToastPinLimit.Text": [
+  "You can't pin more than 1 post.",
+  "You can't pin more than %d posts."
+ ],
+ "StoryList.ToastPinned.Text": [
+  "Now it will always be shown on the top.",
+  "Now they will always be shown on the top."
+ ],
+ "StoryList.ToastPinned.Title": [
+  "Story pinned",
+  "%d stories pinned"
+ ],
+ "StoryList.ToastUnarchived.Text": [
+  "Story unarchived.",
+  "%d stories unarchived."
+ ],
+ "StoryList.ToastUnpinned.Text": [
+  "Story unpinned.",
+  "%d stories unpinned."
+ ],
+ "StoryList.TooltipStoriesDeleted": [
+  "1 story deleted.",
+  "%d stories deleted."
+ ],
+ "StoryList.TooltipStoriesSavedToChannel": [
+  "Story saved to channel's profile.",
+  "%d stories saved to channel's profile."
+ ],
+ "StoryList.TooltipStoriesSavedToProfile": [
+  "Story posted on your profile.",
+  "%d stories posted on your profile."
+ ],
+ "StoryList.TooltipStoriesSavedToProfileText": [
+  "Posted stories can be viewed by others on your profile until you remove them."
+ ],
+ "Time.HoursAgo": [
+  "%@ hour ago",
+  "%@ hours ago"
+ ]
+}

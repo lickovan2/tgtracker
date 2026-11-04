@@ -1,0 +1,98 @@
+{
+ "ActionBotAllowedRequest": [
+  "You allowed this bot to message you when you accepted its request."
+ ],
+ "Alert.BotAppDoesntExist": [
+  "Sorry, this application doesn't exist."
+ ],
+ "BotWebViewCloseAnyway": [
+  "Close anyway"
+ ],
+ "Chat.Service.BotPermissionAllowed": [
+  "You allowed this bot to message you when you logged in on %@"
+ ],
+ "Checkout.PasswordEntry.Pay": [
+  "Pay"
+ ],
+ "EditBot.Buttons.Commands": [
+  "Edit Commands"
+ ],
+ "EditBot.Buttons.Intro": [
+  "Edit Intro"
+ ],
+ "EditBot.Buttons.Settings": [
+  "Change Bot Settings"
+ ],
+ "EditBot.Title": [
+  "Edit Bot"
+ ],
+ "Error.RequestPeer.NoRights.Channel": [
+  "Sorry, you can't add bots to this channel."
+ ],
+ "Error.RequestPeer.NoRights.Group": [
+  "Sorry, you are not allowed to add bots to this group."
+ ],
+ "PaymentCard.Error.Invalid": [
+  "Invalid card number"
+ ],
+ "PaymentCardSavePaymentInformation": [
+  "Save Payment Information"
+ ],
+ "PaymentCheckout": [
+  "Checkout"
+ ],
+ "PaymentCheckoutName": [
+  "Name"
+ ],
+ "PaymentCheckoutPhoneNumber": [
+  "Phone number"
+ ],
+ "PaymentInfo.Billing.Title": [
+  "Enter your billing address"
+ ],
+ "PaymentInfo.CVV": [
+  "CVV Code"
+ ],
+ "PaymentShippingEmailPlaceholder": [
+  "Email"
+ ],
+ "PaymentShippingSaveInfo": [
+  "You can save your shipping info for future use."
+ ],
+ "PaymentTransactionTotal": [
+  "Total"
+ ],
+ "PrivacyClearPayment": [
+  "Payment info"
+ ],
+ "PrivacyPayments": [
+  "Payments"
+ ],
+ "PrivacyPaymentsClear": [
+  "Clear Payment and Shipping Info"
+ ],
+ "PrivacyPaymentsClearAlertText": [
+  "Are you sure you want to clear your payment and shipping info?"
+ ],
+ "PrivacyPaymentsClearAlertTitle": [
+  "Clear payment info"
+ ],
+ "PrivacyPaymentsPaymentInfoCleared": [
+  "Payment info cleared."
+ ],
+ "PrivacyPaymentsPaymentShippingCleared": [
+  "Payment and shipping info cleared."
+ ],
+ "UsernameActivateLinkBotMessage": [
+  "Do you want to show this link on the bot info page?"
+ ],
+ "UsernamesBotHelp": [
+  "Drag and drop links to change the order in which they will be displayed on the bot info page."
+ ],
+ "WebApp.WriteAccess.Description": [
+  "Allow %s to send messages?"
+ ],
+ "WebApp.WriteAccess.Title": [
+  "Allow Sending Messages"
+ ]
+}

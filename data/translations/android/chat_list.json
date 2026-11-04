@@ -1,0 +1,1119 @@
+{
+ "AccDescrIVFormula": [
+  "Formula"
+ ],
+ "AccDescrIVTable": [
+  "Table"
+ ],
+ "AccReleaseForArchive": [
+  "Release for archive"
+ ],
+ "AccSwipeForArchive": [
+  "Pull down for archive"
+ ],
+ "AccountFrozen1Text": [
+  "Your account was frozen for violating Telegram’s Terms of Service."
+ ],
+ "AccountFrozen1Title": [
+  "Violation of Terms"
+ ],
+ "AccountFrozen2Text": [
+  "You can access your account but can’t send messages or take actions."
+ ],
+ "AccountFrozen2Title": [
+  "Read-Only Mode"
+ ],
+ "AccountFrozen3Text": [
+  "Appeal via **@SpamBot** before %s, or your account will be deleted."
+ ],
+ "AccountFrozen3Title": [
+  "Appeal Before Deactivation"
+ ],
+ "AccountFrozenAlertSubtitle": [
+  "Tap to view details and submit an appeal."
+ ],
+ "AccountFrozenAlertTitle": [
+  "Your account is frozen!"
+ ],
+ "AccountFrozenButtonAppeal": [
+  "Submit an Appeal"
+ ],
+ "AccountFrozenButtonUnderstood": [
+  "Understood"
+ ],
+ "AccountFrozenTitle": [
+  "Your Account is Frozen"
+ ],
+ "ActionMigrateFromGroup": [
+  "This group was upgraded to a supergroup"
+ ],
+ "ActionPinnedContact": [
+  "un1 pinned a contact"
+ ],
+ "ActionPinnedGame": [
+  "un1 pinned %1$s"
+ ],
+ "ActionPinnedGif": [
+  "un1 pinned a GIF"
+ ],
+ "ActionPinnedMusic": [
+  "un1 pinned an audio file"
+ ],
+ "ActionPinnedRound": [
+  "un1 pinned a video message"
+ ],
+ "ActionPinnedSticker": [
+  "un1 pinned a sticker"
+ ],
+ "ActionPinnedText": [
+  "un1 pinned \"%1$s\""
+ ],
+ "ActionPinnedVideo": [
+  "un1 pinned a video"
+ ],
+ "ActionPinnedVoice": [
+  "un1 pinned a voice message"
+ ],
+ "ActionRemovedPhoto": [
+  "un1 removed the group photo"
+ ],
+ "ActionSuggestPhotoShort": [
+  "Suggested profile photo"
+ ],
+ "ActionSuggestVideoShort": [
+  "Suggested profile photo"
+ ],
+ "ActionTakeScreenshoot": [
+  "un1 took a screenshot!"
+ ],
+ "ActionTakeScreenshootYou": [
+  "You took a screenshot!"
+ ],
+ "ActionYouAddUser": [
+  "You added un2"
+ ],
+ "Add": [
+  "Add"
+ ],
+ "AppName": [
+  "Telegram"
+ ],
+ "AppNameBeta": [
+  "Telegram"
+ ],
+ "ApplyTheme": [
+  "Apply"
+ ],
+ "ArchiveHidden": [
+  "Archive hidden"
+ ],
+ "ArchiveHiddenInfo": [
+  "Pull down to see the archive."
+ ],
+ "ArchiveHintHeader1": [
+  "This is your Archive"
+ ],
+ "ArchiveHintHeader2": [
+  "Muted chats"
+ ],
+ "ArchiveHintText1": [
+  "Chats with enabled notifications getunarchived when new messages arrive."
+ ],
+ "ArchiveHintText2": [
+  "Chats with disabled notifications stayarchived when new messages arrive."
+ ],
+ "ArchivePinned": [
+  "Archive pinned"
+ ],
+ "ArchivePinnedInfo": [
+  "Swipe left on the archive to hide it."
+ ],
+ "ArchiveSearchFilter": [
+  "Archive"
+ ],
+ "ArchivedChats": [
+  "Archived Chats"
+ ],
+ "AreYouSureClearHistoryCacheFewChats": [
+  "Delete all cached text and media from selected chats?"
+ ],
+ "AreYouSureClearHistoryFewChats": [
+  "Are you sure you want to clear history in these chats?"
+ ],
+ "AreYouSureClearHistoryWithChat": [
+  "Are you sure you want to clear the chat history in **%1$s**?"
+ ],
+ "AreYouSureClearHistoryWithSecretUser": [
+  "This will delete all messages for you and for **%1$s**. Are you sure?"
+ ],
+ "AreYouSureClearHistoryWithUser": [
+  "Are you sure you want to clear your chat history with **%1$s**?"
+ ],
+ "AreYouSureDeleteAndExitName": [
+  "Are you sure you want to delete and leave the group **%1$s**?"
+ ],
+ "AreYouSureDeleteFewChats": [
+  "Are you sure you want to delete these chats?"
+ ],
+ "AreYouSureDeleteThisChat": [
+  "Do you want to permanently delete this chat?"
+ ],
+ "AreYouSureDeleteThisChatWithBot": [
+  "Are you sure you want to delete the chat with **%1$s** and block it?"
+ ],
+ "AreYouSureDeleteThisChatWithSecretUser": [
+  "Are you sure you want to delete your secret chat with **%1$s**?"
+ ],
+ "AreYouSureDeleteThisChatWithUser": [
+  "Permanently delete the chat with **%1$s**?"
+ ],
+ "AttachAudio": [
+  "Voice message"
+ ],
+ "AttachLiveLocationIsSharingChat": [
+  "%1$s sharing with %2$s"
+ ],
+ "AttachLiveLocationIsSharingChats": [
+  "%1$s sharing with %2$s"
+ ],
+ "AttachOnceAudio": [
+  "One-time Voice Message"
+ ],
+ "AttachOnceRound": [
+  "One-time Video Message"
+ ],
+ "AttachPhoto": [
+  "Photo"
+ ],
+ "AttachRound": [
+  "Video message"
+ ],
+ "AttachSticker": [
+  "Sticker"
+ ],
+ "AttachVideo": [
+  "Video"
+ ],
+ "AudiosSavedHint": [
+  "File saved to music.",
+  "%1$d files saved to music."
+ ],
+ "BirthdaySetupLater": [
+  "You can always set your birthday in profile settings."
+ ],
+ "BirthdaySetupMessage": [
+  "Let your contacts know when to celebrate."
+ ],
+ "BirthdaySetupTitle": [
+  "Add your birthday! 🎂"
+ ],
+ "BirthdayTodayMultipleMessage": [
+  "Gift them Telegram Premium."
+ ],
+ "BirthdayTodayMultipleTitle": [
+  "",
+  "%d contacts have **birthdays** today! 🎂"
+ ],
+ "BirthdayTodaySingleMessage2": [
+  "Send them a Gift."
+ ],
+ "BlockUser": [
+  "Block user"
+ ],
+ "BlockUserMessage": [
+  "Do you want to block **%1$s** from messaging and calling you on Telegram?"
+ ],
+ "BlockUserTitle": [
+  "Block %1$s"
+ ],
+ "BlockUsers": [
+  "Block users"
+ ],
+ "BlockUsersMessage": [
+  "Do you want to block **%1$s** from messaging and calling you on Telegram?"
+ ],
+ "BoostingGiveawayChannelStarted": [
+  "Channel started a giveaway"
+ ],
+ "BoostingGiveawayGroupStarted": [
+  "Group started a giveaway"
+ ],
+ "BoostingGiveawayResults": [
+  "Giveaway results"
+ ],
+ "BoostingPremiumChristmasSubTitle": [
+  "Send limited-edition collectibles to friends!"
+ ],
+ "BoostingPremiumChristmasTitle": [
+  "👑 Snoop Dogg Gift Drop 🎁"
+ ],
+ "BoostingPremiumChristmasToast": [
+  "You can send gifts to friends later from Settings"
+ ],
+ "BotMoreTabs": [
+  "%2$s & %1$d Other",
+  "%2$s & %1$d Others"
+ ],
+ "CallMessageWithDuration": [
+  "%1$s (%2$s)"
+ ],
+ "Cancel": [
+  "Cancel"
+ ],
+ "ChannelAddedBy": [
+  "un1 added you to this channel"
+ ],
+ "ChannelCantOpenNa": [
+  "Sorry, this chat doesn't seem to exist."
+ ],
+ "ChannelCantSendMessage": [
+  "Sorry, you can't send messages to this channel."
+ ],
+ "ChannelDeleteMenu": [
+  "Delete channel"
+ ],
+ "ChannelDeletedUndo": [
+  "Channel deleted."
+ ],
+ "ChannelLeaveAlertWithName": [
+  "Are you sure you want to leave **%1$s**?"
+ ],
+ "ChatArchived": [
+  "Chat archived."
+ ],
+ "ChatArchivedInfo": [
+  "Swipe left on the archive to hide it."
+ ],
+ "ChatDeletedUndo": [
+  "Chat deleted."
+ ],
+ "ChatHintsDeleteAlert": [
+  "Are you sure you want to remove **%1$s** from suggestions?"
+ ],
+ "ChatHintsDeleteAlertTitle": [
+  "Remove suggestion"
+ ],
+ "Chats": [
+  "%1$d chat",
+  "%1$d chats"
+ ],
+ "ChatsArchived": [
+  "Chats archived."
+ ],
+ "ClearButton": [
+  "Clear All"
+ ],
+ "ClearCacheFewChatsTitle": [
+  "Clear cache for %1$s"
+ ],
+ "ClearDownloadsList": [
+  "Clear Download List"
+ ],
+ "ClearFewChatsTitle": [
+  "Clear %1$s"
+ ],
+ "ClearForMe": [
+  "Clear"
+ ],
+ "ClearHistory": [
+  "Clear History"
+ ],
+ "ClearHistoryCache": [
+  "Delete from cache"
+ ],
+ "ClearHistoryOptionAlso": [
+  "Also clear history for %1$s"
+ ],
+ "ClearSearchAlert": [
+  "Do you want to clear your search history?"
+ ],
+ "ClearSearchAlertTitle": [
+  "Clear search history"
+ ],
+ "ClearSearchRemove": [
+  "Remove"
+ ],
+ "ClearSearchSingleAlertTitle": [
+  "Search history"
+ ],
+ "ClearSearchSingleChatAlertText": [
+  "Do you want to remove \"%1$s\" from your search history?"
+ ],
+ "ClearSearchSingleUserAlertText": [
+  "Do you want to remove \"%1$s\" from your search history?"
+ ],
+ "ClearStorageHintMessage": [
+  "Clear storage space on your phone"
+ ],
+ "ClearStorageHintTitle": [
+  "Free up to **%s**"
+ ],
+ "ConferenceChat": [
+  "Group Call"
+ ],
+ "Connecting": [
+  "Connecting..."
+ ],
+ "ConnectingToProxy": [
+  "Connecting to proxy"
+ ],
+ "ConnectingToProxyWithDots": [
+  "Connecting to proxy..."
+ ],
+ "CreateNewFilter": [
+  "Create New Folder"
+ ],
+ "CreateNewFilterInfo": [
+  "Create folders for different groups of chats and quickly switch between them."
+ ],
+ "CreateNewInviteLink": [
+  "Create a New Invite Link"
+ ],
+ "Delete": [
+  "Delete"
+ ],
+ "DeleteAll": [
+  "Delete All"
+ ],
+ "DeleteAllMessagesSavedAlert": [
+  "Warning! This will **delete all messages** in this chat."
+ ],
+ "DeleteAndStop": [
+  "Delete and block"
+ ],
+ "DeleteChat": [
+  "Delete and leave"
+ ],
+ "DeleteChatUser": [
+  "Delete Chat"
+ ],
+ "DeleteFewChatsTitle": [
+  "Delete %1$s"
+ ],
+ "DeleteMegaMenu": [
+  "Delete group"
+ ],
+ "DeleteMessagesForBothSidesWherePossible": [
+  "Delete for both sides where possible"
+ ],
+ "DeleteMessagesOptionAlso": [
+  "Also delete for %1$s"
+ ],
+ "DeleteReportSpam": [
+  "Report spam"
+ ],
+ "DeleteTheseChats": [
+  "Delete chats"
+ ],
+ "DeleteThisChat": [
+  "Delete this chat"
+ ],
+ "DialogUnpin": [
+  "Unpin"
+ ],
+ "DownloadedFiles": [
+  "Downloaded files"
+ ],
+ "DownloadedFilesMessage": [
+  "Telegram lets you store all documents you send and receive in the cloud and save storage space on your device."
+ ],
+ "Downloading": [
+  "Downloading"
+ ],
+ "DownloadsTabs": [
+  "Downloads"
+ ],
+ "Draft": [
+  "Draft"
+ ],
+ "EditProfileBirthdayButton": [
+  "Save"
+ ],
+ "EditProfileBirthdayInfoContacts": [
+  "Only your contacts can see your birthday. **Change >**"
+ ],
+ "EditProfileBirthdayTitle": [
+  "Birthday"
+ ],
+ "EncryptedChatStartedIncoming": [
+  "You joined the secret chat"
+ ],
+ "EncryptedChatStartedOutgoing": [
+  "%s joined your secret chat"
+ ],
+ "EncryptionRejected": [
+  "Secret chat canceled"
+ ],
+ "FilterAddChats": [
+  "Add Chats"
+ ],
+ "FilterAddTo": [
+  "Add to folder"
+ ],
+ "FilterAlwaysShow": [
+  "Include Chats"
+ ],
+ "FilterBots": [
+  "Bots"
+ ],
+ "FilterChannels": [
+  "Channels"
+ ],
+ "FilterChatAddedToExisting": [
+  "**%1$s** added to **%2$s**."
+ ],
+ "FilterChatRemovedFrom": [
+  "**%1$s** removed from **%2$s**."
+ ],
+ "FilterChatTypes": [
+  "Chat types"
+ ],
+ "FilterChats": [
+  "Chats"
+ ],
+ "FilterChatsAddedToExisting": [
+  "**%1$s** added to **%2$s**."
+ ],
+ "FilterChatsRemovedFrom": [
+  "**%1$s** removed from **%2$s**."
+ ],
+ "FilterChoose": [
+  "Choose a folder"
+ ],
+ "FilterContacts": [
+  "Contacts"
+ ],
+ "FilterDeleteAlertLinks": [
+  "Are you sure you want to delete this folder? This will also deactivate all the invite links created to share this folder."
+ ],
+ "FilterDeleteItem": [
+  "Delete folder"
+ ],
+ "FilterDiscardAlert": [
+  "You have edited this folder. Apply changes?"
+ ],
+ "FilterDiscardTitle": [
+  "Unsaved Changes"
+ ],
+ "FilterEdit": [
+  "Edit folder"
+ ],
+ "FilterExclude": [
+  "Excluded Chats"
+ ],
+ "FilterExcludeInfo": [
+  "Choose chats or types of chats that will not appear in this folder."
+ ],
+ "FilterGroups": [
+  "Groups"
+ ],
+ "FilterInclude": [
+  "Included Chats"
+ ],
+ "FilterIncludeInfo": [
+  "Choose chats or types of chats that will appear in this folder."
+ ],
+ "FilterInviteChats": [
+  "Includes %d chat",
+  "Includes %d chats"
+ ],
+ "FilterMuteAll": [
+  "Mute All"
+ ],
+ "FilterNameHint": [
+  "Folder name"
+ ],
+ "FilterNameUnread": [
+  "Unread"
+ ],
+ "FilterNew": [
+  "New Folder"
+ ],
+ "FilterNoChatsToDisplay": [
+  "Folder is empty"
+ ],
+ "FilterNoChatsToDisplayInfo": [
+  "No chats currently belong to this folder."
+ ],
+ "FilterNonContacts": [
+  "Non-Contacts"
+ ],
+ "FilterRecommended": [
+  "Recommended Folders"
+ ],
+ "FilterRemoveChats": [
+  "Add Chats to Exclude"
+ ],
+ "FilterRemoveInclusionChatText": [
+  "Are you sure you want to remove \"%1$s\" from the always included list?"
+ ],
+ "FilterRemoveInclusionTitle": [
+  "Remove exception"
+ ],
+ "FilterRemoveInclusionUserText": [
+  "Are you sure you want to remove \"%1$s\" from the always included list?"
+ ],
+ "FilterReorder": [
+  "Reorder"
+ ],
+ "FilterShowMoreChats": [
+  "Show %1$d More Chat",
+  "Show %1$d More Chats"
+ ],
+ "FilterUnmuteAll": [
+  "Unmute All"
+ ],
+ "FilterUserAddedToExisting": [
+  "**%1$s** added to **%2$s**."
+ ],
+ "FilterUserRemovedFrom": [
+  "**%1$s** removed from **%2$s**."
+ ],
+ "Filters": [
+  "Chat Folders"
+ ],
+ "FiltersSetupPinAlert": [
+  "Set Up Folders"
+ ],
+ "FolderLinkAddedSubtitle": [
+  "You also joined %d chat.",
+  "You also joined %d chats."
+ ],
+ "FolderLinkAddedTitle": [
+  "Folder **%s** Added"
+ ],
+ "FolderLinkButtonJoin": [
+  "Join chats"
+ ],
+ "FolderLinkButtonNone": [
+  "Do not join any chats"
+ ],
+ "FolderLinkButtonRemove": [
+  "Remove Folder"
+ ],
+ "FolderLinkButtonRemoveChats": [
+  "Remove Folder and Chats"
+ ],
+ "FolderLinkDeleted": [
+  "Folder **%s** deleted."
+ ],
+ "FolderLinkDeletedSubtitle": [
+  "You also left %d chat.",
+  "You also left %d chats."
+ ],
+ "FolderLinkDeletedTitle": [
+  "Folder %s Deleted"
+ ],
+ "FolderLinkHeaderAlready": [
+  "Chats you already joined"
+ ],
+ "FolderLinkHeaderChatsJoin": [
+  "%d chat to join",
+  "%d chats to join"
+ ],
+ "FolderLinkHeaderChatsQuit": [
+  "%d chat to leave",
+  "%d chats to leave"
+ ],
+ "FolderLinkHint": [
+  "You can deselect the chats you don’t want to join."
+ ],
+ "FolderLinkHintRemove": [
+  "You can select the chats you want to leave."
+ ],
+ "FolderLinkShareButton": [
+  "Create Invite Link"
+ ],
+ "FolderLinkShareSubtitle": [
+  "You can create more links to set up different access levels for different people."
+ ],
+ "FolderLinkShareSubtitleEmpty": [
+  "Share access to some of this folder's groups and channels with others."
+ ],
+ "FolderLinkShareTitle": [
+  "Share Folder %s"
+ ],
+ "FolderLinkSubtitleChats": [
+  "Do you want to join **%1$d chat** and add it to the folder **%2$s**?",
+  "Do you want to join **%1$d chats** and add them to the folder **%2$s**?"
+ ],
+ "FolderLinkSubtitleRemove": [
+  "Do you also want to leave the chats included in this folder?"
+ ],
+ "FolderLinkTitleAddChats": [
+  "Add Chats to Folder"
+ ],
+ "FolderLinkTitleRemove": [
+  "Remove Folder"
+ ],
+ "FolderLinkUpdatedJoinedSubtitle": [
+  "You joined %d new chat.",
+  "You joined %d new chats."
+ ],
+ "FolderLinkUpdatedTitle": [
+  "Folder **%s** Updated"
+ ],
+ "FolderUpdatesSubtitle": [
+  "Tap here to view it",
+  "Tap here to view them"
+ ],
+ "FolderUpdatesTitle": [
+  "You can join **%d new chat**",
+  "You can join **%d new chats**"
+ ],
+ "FromYou": [
+  "You"
+ ],
+ "GlobalSearch": [
+  "Global search"
+ ],
+ "GraceMessage": [
+  "Don’t lose access to exclusive features."
+ ],
+ "GraceTitle": [
+  "⚠️ Your Premium subscription is expiring!"
+ ],
+ "GroupDeletedUndo": [
+  "Group deleted"
+ ],
+ "Hashtags": [
+  "HASHTAGS"
+ ],
+ "HideAboveTheList": [
+  "Hide from Chat List"
+ ],
+ "HideOnTop": [
+  "Hide"
+ ],
+ "HidePinnedMessages": [
+  "HIDE PINNED MESSAGES"
+ ],
+ "HintAddYourPhoto": [
+  "Add your photo! 📸"
+ ],
+ "HintAddYourPhotoText": [
+  "Help your friends spot you easily."
+ ],
+ "HistoryCleared": [
+  "History was cleared"
+ ],
+ "HistoryClearedUndo": [
+  "History cleared"
+ ],
+ "Km": [
+  "km"
+ ],
+ "Lately": [
+  "last seen recently"
+ ],
+ "LeaveChannel": [
+  "Leave Channel"
+ ],
+ "LeaveChannelMenu": [
+  "Leave Channel"
+ ],
+ "LeaveMegaMenu": [
+  "Leave Group"
+ ],
+ "LimitReachedChatInFoldersLocked": [
+  "Sorry, you can't add more than **%1$d** chats to a folder. Please create a new one. We are working to let you increase this limit in the future."
+ ],
+ "LimitReachedFoldersLocked": [
+  "You have reached the limit of **%1$d** folders for this account. We are working to let you increase this limit in the future."
+ ],
+ "LimitReachedPinDialogs": [
+  "You can't pin more than %1$d chats to the top. Unpin some that are currently pinned – or subscribe to **Telegram Premium** to double the limit to **%2$d** chats."
+ ],
+ "LimitReachedPinDialogsLocked": [
+  "Sorry, you can't pin more than %1$d chats to the top. Unpin some that are currently pinned. We are working to let you increase this limit in the future."
+ ],
+ "LinkActionShare": [
+  "Share"
+ ],
+ "LiveStoryTopPanelWatching": [
+  "%d watching",
+  "%d watching"
+ ],
+ "LocationNotifiationButton": [
+  "Notify me within %1$s"
+ ],
+ "LocationNotifiationCloser": [
+  "You are already closer than %1$s"
+ ],
+ "ManageDeviceStorage": [
+  "Manage Device Storage"
+ ],
+ "MarkAsRead": [
+  "Mark as read"
+ ],
+ "MarkAsUnread": [
+  "Mark as unread"
+ ],
+ "MegaAddedBy": [
+  "un1 added you to this group"
+ ],
+ "MegaDeleteAlert": [
+  "Deleting this group will remove all members and all messages will be lost. Do you want to delete the group?"
+ ],
+ "MegaLeaveAlert": [
+  "Do you want to leave this group?"
+ ],
+ "MegaLeaveAlertWithName": [
+  "Are you sure you want to leave **%1$s**?"
+ ],
+ "MembersCountZero": [
+  "up to %1$s"
+ ],
+ "MenuProxyConnecting": [
+  "Connecting"
+ ],
+ "MenuProxyTitle": [
+  "Proxy"
+ ],
+ "MessagePinnedHint": [
+  "Message pinned."
+ ],
+ "MessageUnpinnedHint": [
+  "Message unpinned."
+ ],
+ "MessagesUnpinned": [
+  "Message unpinned.",
+  "%1$d messages unpinned."
+ ],
+ "Mi": [
+  "mi"
+ ],
+ "MonoforumDeletedUndo": [
+  "Removed from your chat list."
+ ],
+ "MonoforumSpan": [
+  "DIRECT"
+ ],
+ "NewChannel": [
+  "New Channel"
+ ],
+ "NewGroup": [
+  "New Group"
+ ],
+ "NewMessageTitle": [
+  "New Message"
+ ],
+ "NewSecretChat": [
+  "New Secret Chat"
+ ],
+ "NoChats": [
+  "Welcome to Telegram"
+ ],
+ "NoChatsHelp": [
+  "Start messaging by tapping the chat bubble icon in the bottom right."
+ ],
+ "NoMonoforumTopicsCreated": [
+  "no received messages"
+ ],
+ "NoResult": [
+  "No results"
+ ],
+ "NoStickersFound": [
+  "No stickers found"
+ ],
+ "NotificationActionPinnedContactUser": [
+  "%1$s pinned a contact %2$s"
+ ],
+ "NotificationActionPinnedFileUser": [
+  "%1$s pinned a file"
+ ],
+ "NotificationActionPinnedGameUser": [
+  "%1$s pinned a game"
+ ],
+ "NotificationActionPinnedGeoLiveUser": [
+  "%1$s pinned a live location"
+ ],
+ "NotificationActionPinnedGeoUser": [
+  "%1$s pinned a map"
+ ],
+ "NotificationActionPinnedGifUser": [
+  "%1$s pinned a GIF"
+ ],
+ "NotificationActionPinnedMusicUser": [
+  "%1$s pinned an audio file"
+ ],
+ "NotificationActionPinnedPhotoUser": [
+  "%1$s pinned a photo"
+ ],
+ "NotificationActionPinnedPollUser": [
+  "%1$s pinned the poll %2$s"
+ ],
+ "NotificationActionPinnedQuizUser": [
+  "%1$s pinned the quiz %2$s"
+ ],
+ "NotificationActionPinnedRoundUser": [
+  "%1$s pinned a video message"
+ ],
+ "NotificationActionPinnedStickerUser": [
+  "%1$s pinned a sticker"
+ ],
+ "NotificationActionPinnedTextUser": [
+  "%1$s pinned \"%2$s\""
+ ],
+ "NotificationActionPinnedVideoUser": [
+  "%1$s pinned a video"
+ ],
+ "NotificationActionPinnedVoiceUser": [
+  "%1$s pinned a voice message"
+ ],
+ "NotificationsMutedHintChats": [
+  "Notifications muted for %d chat",
+  "Notifications muted for %d chats"
+ ],
+ "NotificationsUnmutedHintChats": [
+  "Notifications unmuted for %d chat",
+  "Notifications unmuted for %d chats"
+ ],
+ "OK": [
+  "OK"
+ ],
+ "PassportDiscard": [
+  "Discard"
+ ],
+ "PauseAll": [
+  "Pause all"
+ ],
+ "PinInTheList": [
+  "Pin in Chat List"
+ ],
+ "PinOldMessageAlert": [
+  "Do you want to pin an older message while leaving a more recent one pinned?"
+ ],
+ "PinToTop": [
+  "Pin to top"
+ ],
+ "PinToTopLimitReached2": [
+  "Sorry, you can only pin %1$s to the top in the main list. More chats can be pinned in Chat Folders and your Archive."
+ ],
+ "PinnedMessagesCount": [
+  "Pinned Message",
+  "%1$d Pinned Messages"
+ ],
+ "PinnedMessagesHidden": [
+  "Pinned messages hidden"
+ ],
+ "PinnedMessagesHiddenInfo": [
+  "Pinned messages will be shown again if a new message is pinned."
+ ],
+ "PollCantForwardSecretChat": [
+  "Sorry, polls can't be forwarded to secret chats."
+ ],
+ "PreviousPinnedMessage": [
+  "Previous Message"
+ ],
+ "ReactionInDialog": [
+  "Reacted with %s to your message"
+ ],
+ "Recent": [
+  "Recent"
+ ],
+ "RecentlyDownloaded": [
+  "Recently downloaded"
+ ],
+ "RemoveDocumentsAlertMessage": [
+  "Removed files will be deleted from your disk, but will remain accessible in the cloud."
+ ],
+ "RemoveDocumentsMessage": [
+  "Do you want to remove **this item** from Downloads?",
+  "Do you want to remove these **%d items** from Downloads?"
+ ],
+ "RemoveDocumentsTitle": [
+  "Remove %d download",
+  "Remove %d downloads"
+ ],
+ "ReplyToDialog": [
+  "Reply in..."
+ ],
+ "ReportSpamUser": [
+  "BLOCK USER"
+ ],
+ "RestorePremiumHintMessage": [
+  "Your Telegram Premium has recently expired. Tap here to extend it."
+ ],
+ "RestorePremiumHintTitle": [
+  "Get Premium back with up to **%1$d%%** off"
+ ],
+ "ResumeAll": [
+  "Resume all"
+ ],
+ "SavedMessages": [
+  "Saved Messages"
+ ],
+ "SavedMessagesInfoQuote": [
+  "Quote here to save."
+ ],
+ "Search": [
+  "Search"
+ ],
+ "SearchAllChatsShort": [
+  "Chats"
+ ],
+ "SearchEmptyViewDownloads": [
+  "No recent downloads"
+ ],
+ "SearchEmptyViewFilteredSubtitle2": [
+  "Try a new search."
+ ],
+ "SearchEmptyViewTitle2": [
+  "No Results"
+ ],
+ "SearchForPeopleAndGroups": [
+  "Search for users and groups..."
+ ],
+ "SearchMessages": [
+  "Messages"
+ ],
+ "SelectChat": [
+  "Select Chat"
+ ],
+ "SendContactTo": [
+  "Send contact to %1$s?"
+ ],
+ "SendContactToGroup": [
+  "Send contact to %1$s?"
+ ],
+ "SendMessagesTo": [
+  "Send to %1$s?"
+ ],
+ "SendMessagesToGroup": [
+  "Send to %1$s?"
+ ],
+ "SharingLiveLocationTitle": [
+  "You are sharing your Live Location with %1$s"
+ ],
+ "ShowLess": [
+  "Show less"
+ ],
+ "ShowMore": [
+  "Show more"
+ ],
+ "StickersRemove": [
+  "Remove"
+ ],
+ "StopAllLocationSharings": [
+  "STOP ALL"
+ ],
+ "StopLiveLocationAlertAll": [
+  "Are you sure you want to stop sharing your live location?"
+ ],
+ "StoriesForwardText": [
+  "Forward to Stories"
+ ],
+ "StoriesForwardTitle": [
+  "Your Stories"
+ ],
+ "Subscribers": [
+  "%1$d subscriber",
+  "%1$d subscribers"
+ ],
+ "SupportStatus": [
+  "support"
+ ],
+ "SwipeMarkAsRead": [
+  "Read"
+ ],
+ "SwipeMarkAsUnread": [
+  "Unread"
+ ],
+ "SwipeMute": [
+  "Mute"
+ ],
+ "SwipePin": [
+  "Pin"
+ ],
+ "SwipeUngroupCommunity": [
+  "Ungroup"
+ ],
+ "SwipeUnmute": [
+  "Unmute"
+ ],
+ "SwipeUnpin": [
+  "Unpin"
+ ],
+ "SwitchAccountHint": [
+  "Hold down to switch accounts"
+ ],
+ "SwitchThemeToDay": [
+  "Day Mode"
+ ],
+ "TapOnThePencil": [
+  "Tap on the pencil to start a new chat"
+ ],
+ "TapOnThePencilButton": [
+  "Tap on the button to start a new chat"
+ ],
+ "TitleSetupProxy": [
+  "set up proxy >"
+ ],
+ "TodoTaskCompletedOutUnknown": [
+  "You marked a task as done"
+ ],
+ "TodoTaskNotCompletedOutUnknown": [
+  "You marked a task as not done"
+ ],
+ "Typing": [
+  "typing..."
+ ],
+ "Unarchive": [
+  "Unarchive"
+ ],
+ "UnconfirmedAuthConfirm": [
+  "Yes, it's me"
+ ],
+ "UnconfirmedAuthDeny": [
+  "No, it’s not me!"
+ ],
+ "UnconfirmedAuthSingleBot": [
+  "%1$s connected to your account from %2$s. Was this you?"
+ ],
+ "UnconfirmedAuthTitleBot": [
+  "A bot just got access to your messages!"
+ ],
+ "Undo": [
+  "UNDO"
+ ],
+ "UnhideFromTop": [
+  "Pin"
+ ],
+ "UnpinAllMessages": [
+  "UNPIN ALL MESSAGES"
+ ],
+ "UnpinFromTop": [
+  "Unpin from top"
+ ],
+ "Updating": [
+  "Updating..."
+ ],
+ "UseProxySponsor": [
+  "Proxy sponsor"
+ ],
+ "VoipAnswerCall": [
+  "Answer"
+ ],
+ "VoipDeclineCall": [
+  "Decline"
+ ],
+ "WalletActionReceivedGramsSomeone": [
+  "Someone sent you **%1$s**"
+ ],
+ "YourContacts": [
+  "Your contacts on Telegram"
+ ],
+ "formatterDay24H": [
+  "HH:mm"
+ ],
+ "formatterMonth": [
+  "MMM dd"
+ ],
+ "formatterWeek": [
+  "EEE"
+ ],
+ "formatterYear": [
+  "dd.MM.yy"
+ ]
+}

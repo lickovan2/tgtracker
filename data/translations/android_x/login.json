@@ -1,0 +1,155 @@
+{
+ "AddAccount": [
+  "Add Account"
+ ],
+ "ConfirmationCode": [
+  "Confirmation Code"
+ ],
+ "CopyLink": [
+  "Copy link"
+ ],
+ "DidNotGetTheCode": [
+  "Didn't get the code?"
+ ],
+ "EmulatorWarning": [
+  "You are running **Telegram X** on an **emulated device**.**Note**: if you don't have an **existing** Telegram account, you may need a **real device** to create it.In case you see this warning on a real device (such as phone, tablet, etc), press **report issue**."
+ ],
+ "EmulatorWarningBtnOk": [
+  "Got it"
+ ],
+ "EmulatorWarningBtnReport": [
+  "Report issue"
+ ],
+ "EmulatorWarningReport": [
+  "**Note**: you will need **GitHub account** to report this issue.Alternatively you can copy the link and send it to tgx-android@pm.me"
+ ],
+ "EmulatorWarningReportBtn": [
+  "Report on GitHub"
+ ],
+ "EnterCode": [
+  "Enter code"
+ ],
+ "ForgotPassword": [
+  "Forgot password?"
+ ],
+ "HavingTroubleAccessing": [
+  "Unable to access %1$s?"
+ ],
+ "Hint": [
+  "Hint: %1$s"
+ ],
+ "InvalidPasswordTryAgain": [
+  "Invalid password, please try again."
+ ],
+ "LoginPasswordText": [
+  "You have enabled Two-Step Verification, so your account is protected with an additional password."
+ ],
+ "OpenFragment": [
+  "Open Fragment"
+ ],
+ "Page1Message": [
+  "The world's **fastest** messaging app.It is **free** and **secure**."
+ ],
+ "Page1Title": [
+  "Telegram X"
+ ],
+ "Page2Message": [
+  "**Telegram** delivers messagesfaster than any other application."
+ ],
+ "Page2Title": [
+  "Fast"
+ ],
+ "Page3Message": [
+  "**Telegram** provides free unlimitedcloud storage for chats and media."
+ ],
+ "Page3Title": [
+  "Free"
+ ],
+ "Page4Message": [
+  "**Telegram** has no limits onthe size of your media and chats."
+ ],
+ "Page4Title": [
+  "Powerful"
+ ],
+ "Page5Message": [
+  "**Telegram** keeps your messagessafe from hacker attacks."
+ ],
+ "Page5Title": [
+  "Secure"
+ ],
+ "Page6Message": [
+  "**Telegram** lets you access yourmessages from multiple devices."
+ ],
+ "Page6Title": [
+  "Cloud-Based"
+ ],
+ "PasscodePattern": [
+  "Pattern"
+ ],
+ "PasswordRecovery": [
+  "Password Recovery"
+ ],
+ "RecoveryCodeInvalid": [
+  "Invalid recovery code. Please try again"
+ ],
+ "RecoveryCodeSent": [
+  "We've sent a 6-digit recovery code to %1$s. Please check your email and enter it here."
+ ],
+ "RestoreEmailTroubleText": [
+  "If you can't restore access to your email, your remaining options are either to remember your password or to reset your account."
+ ],
+ "RestorePasswordNoEmailTitle": [
+  "Sorry"
+ ],
+ "SentAppCode": [
+  "We've sent the code to the **Telegram** app on your other device."
+ ],
+ "SentFragmentCode": [
+  "Get the code in the Numbers section on Fragment."
+ ],
+ "SinceNotProvided": [
+  "Since you didn't provide a recovery email when setting up your password, your remaining options are either to remember your password or to reset your account."
+ ],
+ "StartMessaging": [
+  "Start Messaging"
+ ],
+ "TwoStepVerification": [
+  "Two-Step Verification"
+ ],
+ "UnlockByPIN": [
+  "Enter your PIN to unlock"
+ ],
+ "UnlockByPassword": [
+  "Enter your password to unlock"
+ ],
+ "UnlockByPattern": [
+  "Draw your pattern to unlock"
+ ],
+ "YourPhone": [
+  "Your Phone"
+ ],
+ "login_Code": [
+  "Code"
+ ],
+ "login_InvalidPhone": [
+  "Please enter a valid phone number"
+ ],
+ "login_PHONE_NUMBER_BANNED": [
+  "Phone number is banned. __Contact us__, if you need help."
+ ],
+ "login_Password": [
+  "Password"
+ ],
+ "login_PhoneNumber": [
+  "Phone number"
+ ],
+ "login_SmsHint": [
+  "We will send an SMS with a confirmation code to your phone number."
+ ],
+ "login_error": [
+  "Error: %1$s. __Contact us__, if you need help."
+ ],
+ "network_Connecting": [
+  "Connecting…"
+ ]
+}

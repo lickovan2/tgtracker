@@ -1,0 +1,291 @@
+{
+ "AccountSettings.ChangeStatus": [
+  "Change Emoji Status"
+ ],
+ "AccountSettings.UpdateStatus": [
+  "Update Status"
+ ],
+ "Avatar.Background.Patters": [
+  "GRADIENT WITH PATTERN"
+ ],
+ "Avatar.Background.PlainGradient": [
+  "PLAIN GRADIENT"
+ ],
+ "Avatar.Preview": [
+  "Preview"
+ ],
+ "Birthday.YearsOld": [
+  "%d year old",
+  "%d years old"
+ ],
+ "Chat.Service.SuggestPhoto.Info": [
+  "%@ suggests this photo for your Telegram profile."
+ ],
+ "ChatService.Suggest.Success": [
+  "You successfully updated your profile photo"
+ ],
+ "ConnectingStatus.connecting": [
+  "connecting"
+ ],
+ "ConnectingStatus.updating": [
+  "updating"
+ ],
+ "CustomAvatar.EnterSymbol": [
+  "Enter Symbols"
+ ],
+ "CustomAvatar.EnterSymbol.Info": [
+  "Maximum length is 2 symbols"
+ ],
+ "CustomAvatar.Title.Background": [
+  "Background"
+ ],
+ "CustomAvatar.Title.Emoji": [
+  "Emoji"
+ ],
+ "CustomAvatar.Title.Monogram": [
+  "Monogram"
+ ],
+ "CustomAvatar.Title.Sticker": [
+  "Sticker"
+ ],
+ "CustomAvatar.Title.Text": [
+  "Text"
+ ],
+ "CustomStatus.Expires": [
+  "YOUR STATUS EXPIRES IN %@"
+ ],
+ "CustomStatus.Expires.Promo": [
+  "RIGHT CLICK TO SET A TIMER"
+ ],
+ "CustomStatus.Menu.Timer": [
+  "Set for %@"
+ ],
+ "DeleteChat.DeleteGroupForAll": [
+  "Delete for all members"
+ ],
+ "EditAvatar.Customize": [
+  "Sticker or Emoji"
+ ],
+ "EditAvatar.PhotoOrVideo": [
+  "Photo or Video"
+ ],
+ "Gallery.Contact.PhotoByYou": [
+  "Only you can see this photo."
+ ],
+ "Gallery.PublicPhoto": [
+  "public photo"
+ ],
+ "GroupsInCommon.Empty": [
+  "No groups in common"
+ ],
+ "Mark.Scam": [
+  "SCAM"
+ ],
+ "PeerInfo.Action.DeleteGroup": [
+  "Delete"
+ ],
+ "PeerInfo.Action.GiftPremium": [
+  "Gift Premium"
+ ],
+ "PeerInfo.AnonymousPhone": [
+  "anonymous phone"
+ ],
+ "PeerInfo.BlockUser": [
+  "Block User"
+ ],
+ "PeerInfo.Business.Hours": [
+  "business hours"
+ ],
+ "PeerInfo.Business.Hours.Current.Open": [
+  "Open"
+ ],
+ "PeerInfo.Business.Hours.Opens24Hours": [
+  "open 24 hours"
+ ],
+ "PeerInfo.Business.Hours.local": [
+  "local time"
+ ],
+ "PeerInfo.Business.Location": [
+  "location"
+ ],
+ "PeerInfo.Confirm.DeleteContact": [
+  "Are you sure you want to delete this contact?"
+ ],
+ "PeerInfo.Confirm.SecretChat.Header": [
+  "Secret Chat"
+ ],
+ "PeerInfo.Confirm.SecretChat.OK": [
+  "Start"
+ ],
+ "PeerInfo.Confirm.StartSecretChat": [
+  "Are you sure you want to start a secret chat with \"%@\"?"
+ ],
+ "PeerInfo.DeleteContact": [
+  "Delete Contact"
+ ],
+ "PeerInfo.GroupsInCommon": [
+  "Groups In Common"
+ ],
+ "PeerInfo.Notifications": [
+  "Notifications"
+ ],
+ "PeerInfo.Phone": [
+  "phone"
+ ],
+ "PeerInfo.Phone.AnonymousInfo": [
+  "This number is not tied to a SIM card and was acquired on [Fragment]()."
+ ],
+ "PeerInfo.Rating.Button": [
+  "Learn More"
+ ],
+ "PeerInfo.Rating.Level": [
+  "Level"
+ ],
+ "PeerInfo.Rating.Text": [
+  "Profile level reflects the user's payment reliability."
+ ],
+ "PeerInfo.ReportReaction": [
+  "Block and Report"
+ ],
+ "PeerInfo.ReportReaction.Success": [
+  "Thank you for your report"
+ ],
+ "PeerInfo.ScamWarning": [
+  "⚠️ Warning: Many users reported this account as a scam or a fake account. Please be careful, especially if it asks you for money."
+ ],
+ "PeerInfo.SendMessage": [
+  "Send Message"
+ ],
+ "PeerInfo.ShareContact": [
+  "Share Contact"
+ ],
+ "PeerInfo.SharedMedia": [
+  "Shared Media"
+ ],
+ "PeerInfo.StartSecretChat": [
+  "Start Secret Chat"
+ ],
+ "PeerInfo.Translate": [
+  "Translate"
+ ],
+ "PeerInfo.UnblockUser": [
+  "Unblock"
+ ],
+ "PeerInfo.Usernames.List": [
+  "%1$@also %2$@"
+ ],
+ "PeerInfo.Verified.Tooltip": [
+  "Verified Account"
+ ],
+ "PeerInfo.bio": [
+  "bio"
+ ],
+ "PeerInfo.birthday": [
+  "birthday"
+ ],
+ "PeerInfo.scam": [
+  "scam"
+ ],
+ "PeerInfo.username": [
+  "username"
+ ],
+ "PeerMedia.ArchivePosts": [
+  "Archived Posts"
+ ],
+ "PeerMedia.CommonGroups": [
+  "Groups"
+ ],
+ "PeerMedia.Members": [
+  "Members"
+ ],
+ "PeerMedia.Posts": [
+  "Posts"
+ ],
+ "Premium.Boarding.PeerStatus.Custom.Title": [
+  "This is %@'s current status from🤡 [%@]()."
+ ],
+ "Premium.Boarding.PeerStatus.Default.Title": [
+  "This is %@'s current status."
+ ],
+ "Premium.Boarding.PeerStatus.Info": [
+  "Emoji status is a premium feature.Other features included in **Telegram Premium**:"
+ ],
+ "SharedMedia.ArchiveStoryCount": [
+  "%d archived post",
+  "%d archived posts"
+ ],
+ "SharedMedia.CommonGroupsCount": [
+  "%d group in common",
+  "%d groups in common"
+ ],
+ "SharedMedia.LinkCount": [
+  "%d link",
+  "%d links"
+ ],
+ "SharedMedia.MediaCount": [
+  "%d media",
+  "%d media"
+ ],
+ "SharedMedia.StoryCount": [
+  "%d post",
+  "%d posts"
+ ],
+ "SharedMedia.VoiceCount": [
+  "%d voice message",
+  "%d voice messages"
+ ],
+ "Telegram.PeerInfoController": [
+  "Info"
+ ],
+ "Text.CopyLabel_Bio": [
+  "Copy Bio"
+ ],
+ "Text.CopyLabel_Username": [
+  "Copy Username"
+ ],
+ "UserInfo.ResetPhoto": [
+  "Reset to Original Photo"
+ ],
+ "UserInfo.ResetPhoto.Confirm": [
+  "Are you sure you want to reset to %@'s original photo?"
+ ],
+ "UserInfo.ResetPhoto.Confirm.OK": [
+  "Reset"
+ ],
+ "UserInfo.SetByYou": [
+  "photo set by you"
+ ],
+ "UserInfo.SetPhoto": [
+  "Set Photo for %@"
+ ],
+ "UserInfo.SetPhoto.BlockInfo": [
+  "You can replace %@'s photo with another photo that only you will see."
+ ],
+ "UserInfo.SetPhoto.Confirm": [
+  "Do you want to set this photo for %@? It will replace any photo %@ sets — only you will see it."
+ ],
+ "UserInfo.SetPhoto.Confirm.OK": [
+  "SET"
+ ],
+ "UserInfo.SetPhoto.Title": [
+  "Set Photo"
+ ],
+ "UserInfo.SetPhoto.Tooltip": [
+  "You will now always see this photo for %@'s account."
+ ],
+ "UserInfo.Suggest.Confirm": [
+  "Do you want to suggest this photo for %@'s Telegram profile?"
+ ],
+ "UserInfo.Suggest.Confirm.OK": [
+  "SUGGEST"
+ ],
+ "UserInfo.Suggest.Title": [
+  "Suggest Photo"
+ ],
+ "UserInfo.SuggestPhoto": [
+  "Suggest Photo for %@"
+ ],
+ "Username.UsernamePurchaseAvailable": [
+  "This username is already taken. However, it is currently available for purchase. [Learn more...](fragment.com)"
+ ]
+}

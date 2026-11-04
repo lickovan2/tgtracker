@@ -1,0 +1,177 @@
+{
+ "ActionSetSameWallpaperForThisChat": [
+  "{0} set your wallpaper as their own for this chat"
+ ],
+ "ActionSetSameWallpaperForThisChatSelf": [
+  "You set the same wallpaper as your chat partner"
+ ],
+ "ActionSetWallpaperForThisChat": [
+  "{0} set a new wallpaper for this chat"
+ ],
+ "ActionSetWallpaperForThisChatSelf": [
+  "You set a new wallpaper for this chat"
+ ],
+ "ApplyBackgroundForThisChat": [
+  "Apply For This Chat"
+ ],
+ "AutoDeletePopupTitle": [
+  "Auto-Delete"
+ ],
+ "AutoDownloadCustom": [
+  "Custom"
+ ],
+ "BlockContact": [
+  "Block user"
+ ],
+ "Call": [
+  "Call"
+ ],
+ "CallMessageIncomingMissed": [
+  "Missed Call"
+ ],
+ "CallMessageOutgoingMissed": [
+  "Canceled Call"
+ ],
+ "CallMessageVideoOutgoing": [
+  "Outgoing Video Call"
+ ],
+ "CallMessageVideoOutgoingMissed": [
+  "Canceled Video Call"
+ ],
+ "ChatNoTheme": [
+  "No Theme"
+ ],
+ "ChatResetTheme": [
+  "Reset Theme"
+ ],
+ "ChatThemeChangedTo": [
+  "{0} changed the chat theme to {1}"
+ ],
+ "ChatThemeDisabledYou": [
+  "You disabled the chat theme"
+ ],
+ "ChatsMute": [
+  "Mute"
+ ],
+ "ChooseBackgroundFromGallery": [
+  "Choose Wallpaper from Gallery"
+ ],
+ "CreateNewLink": [
+  "Create a New Link"
+ ],
+ "Days": [
+  "{0} day",
+  "{0} days"
+ ],
+ "DeleteContact": [
+  "Delete Contact"
+ ],
+ "EditContact": [
+  "Edit Contact"
+ ],
+ "FilterFinishCreating": [
+  "Please finish creating this folder to share it."
+ ],
+ "FilterInviteChats": [
+  "Includes {0} chat",
+  "Includes {0} chats"
+ ],
+ "FilterInviteErrorEmptyName": [
+  "You can’t share folders without a name."
+ ],
+ "FilterInviteErrorExcluded": [
+  "You can’t share folders that exclude chats."
+ ],
+ "FilterInviteErrorTypes": [
+  "You can’t share folders which include or exclude specific chat types like 'Groups', 'Contacts', etc."
+ ],
+ "InviteLinks": [
+  "Invite Links"
+ ],
+ "LastSeenFormatted": [
+  "last seen {0}"
+ ],
+ "Months": [
+  "{0} month",
+  "{0} months"
+ ],
+ "Phone": [
+  "Phone"
+ ],
+ "PmFwdOriginalYesterdayAt": [
+  "original yesterday at {0}"
+ ],
+ "PmRead": [
+  "read"
+ ],
+ "PmReadShowWhen": [
+  "show when"
+ ],
+ "PremiumMore": [
+  "More"
+ ],
+ "ReturnToCall": [
+  "RETURN TO CALL"
+ ],
+ "SelectTheme": [
+  "Select theme"
+ ],
+ "ShareContact": [
+  "Share contact"
+ ],
+ "ShareMyPhone": [
+  "SHARE MY PHONE NUMBER"
+ ],
+ "ShareYouPhoneNumberTitle": [
+  "Share your phone number?"
+ ],
+ "SharedFilesTab2": [
+  "Files"
+ ],
+ "SharedGroupsTab2": [
+  "Groups"
+ ],
+ "SharedLinksTab2": [
+  "Links"
+ ],
+ "SharedMediaTab2": [
+  "Media"
+ ],
+ "ShortMessageLifetimeForever": [
+  "Off"
+ ],
+ "StartEncryptedChat": [
+  "Start Secret Chat"
+ ],
+ "TranslateMessage": [
+  "Translate"
+ ],
+ "UserBio": [
+  "Bio"
+ ],
+ "Username": [
+  "Username"
+ ],
+ "VideoCall": [
+  "Video Call"
+ ],
+ "ViewChatList": [
+  "View Chat List"
+ ],
+ "ViewWallpaperAction": [
+  "View Wallpaper"
+ ],
+ "VoipGroupOpenChat": [
+  "Open Chat"
+ ],
+ "VoipRateCallAlert": [
+  "Please rate the quality of your Telegram call"
+ ],
+ "Weeks": [
+  "{0} week",
+  "{0} weeks"
+ ],
+ "YesterdayAtFormatted": [
+  "yesterday at {0}"
+ ]
+}

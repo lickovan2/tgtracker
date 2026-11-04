@@ -1,0 +1,92 @@
+{
+ "Archive": [
+  "Archive"
+ ],
+ "ArchivedChats": [
+  "Archived Chats"
+ ],
+ "AriaBackToChatList": [
+  "Return to chat list"
+ ],
+ "ChatEmptyChat": [
+  "No messages here yet"
+ ],
+ "ChatListEmptyChatListFilterText": [
+  "No chats currently belong to this folder."
+ ],
+ "ChatListFilterErrorEmpty": [
+  "Please add some chats or chat types to the folder."
+ ],
+ "ChatListFilterErrorTitleEmpty": [
+  "Please enter title for this folder."
+ ],
+ "ChatListSearchNoResults": [
+  "No Results"
+ ],
+ "ChatListSearchNoResultsDescription": [
+  "There were no results.Try a new search."
+ ],
+ "ChatListSearchShowLess": [
+  "Show Less"
+ ],
+ "ChatListSearchShowMore": [
+  "Show More"
+ ],
+ "ChatsMute": [
+  "Mute"
+ ],
+ "ChatsUnmute": [
+  "Unmute"
+ ],
+ "ConversationCloudStorageInfoTitle": [
+  "Your Cloud Storage"
+ ],
+ "ConversationClousStorageInfoDescription1": [
+  "• Forward messages here to save them"
+ ],
+ "ConversationClousStorageInfoDescription2": [
+  "• Send media and files to store them"
+ ],
+ "ConversationClousStorageInfoDescription3": [
+  "• Access this chat from any device"
+ ],
+ "ConversationClousStorageInfoDescription4": [
+  "• Use search to quickly find things"
+ ],
+ "FilterAddTo": [
+  "Add to folder"
+ ],
+ "FilterAllChats": [
+  "All Chats"
+ ],
+ "FilterAllChatsShort": [
+  "All"
+ ],
+ "FilterArchived": [
+  "Archived"
+ ],
+ "FilterDeleteAlert": [
+  "Are you sure you want to remove this folder? Your chats will not be deleted."
+ ],
+ "FilterMuted": [
+  "Muted"
+ ],
+ "FilterNoChatsToDisplay": [
+  "Folder is empty"
+ ],
+ "FilterRead": [
+  "Read"
+ ],
+ "LimitReachedPinDialogsLocked": [
+  "Sorry, you can't pin more than {limit} chats to the top. Unpin some that are currently pinned. We are working to let you increase this limit in the future."
+ ],
+ "SavedMessages": [
+  "Saved Messages"
+ ],
+ "Unarchive": [
+  "Unarchive"
+ ],
+ "WaitingForNetwork": [
+  "Waiting for network..."
+ ]
+}

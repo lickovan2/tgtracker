@@ -1,0 +1,4408 @@
+{
+ "AbortRecoveryEmailConfirm": [
+  "Are you sure you want to abort recovery email setup?"
+ ],
+ "AccountDeleted": [
+  "Account deleted"
+ ],
+ "AccountDeletedText": [
+  "Your account %1$s (%2$s) is now deleted from Telegram servers, and can no longer be restored.Using the same phone number will create a new account."
+ ],
+ "ActionAddedPollOption": [
+  "%1$s added \"%2$s\" to the poll"
+ ],
+ "ActionAddedPollOptionMsg": [
+  "%1$s added \"%2$s\" to the poll \"%3$s\""
+ ],
+ "ActionAddedPollOutOption": [
+  "You added \"%1$s\" to the poll"
+ ],
+ "ActionAddedPollOutOptionMsg": [
+  "You added \"%1$s\" to the poll \"%2$s\""
+ ],
+ "ActionChannelChangedTitleTo": [
+  "Channel renamed to \"%1$s\""
+ ],
+ "ActionChatAddedToCommunity": [
+  "This chat was added to community \"%1$s\""
+ ],
+ "ActionChatAddedToCommunityUnknown": [
+  "This chat was added to community"
+ ],
+ "ActionChatOwnerChanged": [
+  "%1$s is a new owner of this chat"
+ ],
+ "ActionChatOwnerLeft": [
+  "The chat owner left"
+ ],
+ "ActionChatOwnerLeftTo": [
+  "The chat owner left. Unless they return, %1$s will become the new owner"
+ ],
+ "ActionChatRemovedFromCommunity": [
+  "This chat was removed from community"
+ ],
+ "ActionChecklistAdd": [
+  "%1$s added %2$s to checklist"
+ ],
+ "ActionChecklistAddMsg": [
+  "%1$s added %2$s to \"%3$s\" checklist"
+ ],
+ "ActionChecklistAddOut": [
+  "You added %1$s to checklist"
+ ],
+ "ActionChecklistAddOutMsg": [
+  "You added %1$s to \"%2$s\" checklist"
+ ],
+ "ActionChecklistMark": [
+  "%1$s marked %2$s as done, and %3$s as not done"
+ ],
+ "ActionChecklistMarkDone": [
+  "%1$s marked %2$s as done"
+ ],
+ "ActionChecklistMarkDoneOut": [
+  "You marked %1$s as done"
+ ],
+ "ActionChecklistMarkDoneTasks": [
+  "%2$s marked %1$s task as done",
+  "%2$s marked %1$s tasks as done"
+ ],
+ "ActionChecklistMarkDoneTasksOut": [
+  "You marked %1$s task as done",
+  "You marked %1$s tasks as done"
+ ],
+ "ActionChecklistMarkNotDone": [
+  "%1$s marked %2$s as not done"
+ ],
+ "ActionChecklistMarkNotDoneOut": [
+  "You marked %1$s as not done"
+ ],
+ "ActionChecklistMarkNotDoneTasks": [
+  "%2$s marked %1$s task as not done",
+  "%2$s marked %1$s tasks as not done"
+ ],
+ "ActionChecklistMarkNotDoneTasksOut": [
+  "You marked %1$s task as not done",
+  "You marked %1$s tasks as not done"
+ ],
+ "ActionChecklistMarkOut": [
+  "You marked %1$s as done, and %2$s as not done"
+ ],
+ "ActionCreatedManagedBot": [
+  "You created %1$s bot for %2$s to manage"
+ ],
+ "ActionDeletedPollOption": [
+  "%1$s removed \"%2$s\" from the poll"
+ ],
+ "ActionDeletedPollOptionMsg": [
+  "%1$s removed \"%2$s\" from the poll \"%3$s\""
+ ],
+ "ActionDeletedPollOutOption": [
+  "You removed \"%1$s\" from the poll"
+ ],
+ "ActionDeletedPollOutOptionMsg": [
+  "You removed \"%1$s\" from the poll \"%2$s\""
+ ],
+ "ActionGeneralTopicClosed": [
+  "%1$s closed general topic"
+ ],
+ "ActionGeneralTopicClosedOut": [
+  "You closed general topic"
+ ],
+ "ActionGeneralTopicReopened": [
+  "%1$s reopened general topic"
+ ],
+ "ActionGeneralTopicReopenedOut": [
+  "You reopened general topic"
+ ],
+ "ActionMute": [
+  "Mute"
+ ],
+ "ActionMuteEveryone": [
+  "Mute all"
+ ],
+ "ActionMutePerson": [
+  "Mute %1$s"
+ ],
+ "ActionPaidMessagesRefunded": [
+  "%2$s has refunded %3$s for %1$s message",
+  "%2$s has refunded %3$s for %1$s messages"
+ ],
+ "ActionPaidMessagesRefundedOut": [
+  "You have refunded %2$s for %1$s message",
+  "You have refunded %2$s for %1$s messages"
+ ],
+ "ActionPinnedChecklist": [
+  "%1$s pinned a **checklist**"
+ ],
+ "ActionPinnedContact": [
+  "%1$s pinned a **contact**"
+ ],
+ "ActionPinnedGameNoName": [
+  "%1$s pinned a **game**"
+ ],
+ "ActionPinnedGiveaway": [
+  "%1$s pinned a **giveaway**"
+ ],
+ "ActionPinnedPaidContent": [
+  "%1$s pinned a **paid content**"
+ ],
+ "ActionPinnedPaidPhoto": [
+  "%1$s pinned a **paid photo**"
+ ],
+ "ActionPinnedPaidPost": [
+  "%1$s pinned a **paid post**"
+ ],
+ "ActionPinnedPaidVideo": [
+  "%1$s pinned a **paid video**"
+ ],
+ "ActionPinnedPoll": [
+  "%1$s pinned a **poll**"
+ ],
+ "ActionPinnedStory": [
+  "%1$s pinned a **story**"
+ ],
+ "ActionPinnedXPaidMedia": [
+  "%2$s pinned **%1$s paid media**",
+  "%2$s pinned **%1$s paid medias**"
+ ],
+ "ActionPinnedXPaidPhotos": [
+  "%2$s pinned **%1$s paid photo**",
+  "%2$s pinned **%1$s paid photos**"
+ ],
+ "ActionPinnedXPaidVideos": [
+  "%2$s pinned **%1$s paid video**",
+  "%2$s pinned **%1$s paid videos**"
+ ],
+ "ActionPriceChanged": [
+  "%2$s changed price to %1$s Star per message",
+  "%2$s changed price to %1$s Stars per message"
+ ],
+ "ActionPriceChangedOut": [
+  "You changed price to %1$s Star per message",
+  "You changed price to %1$s Stars per message"
+ ],
+ "ActionSharingDisabled": [
+  "%1$s disabled sharing in this chat"
+ ],
+ "ActionSharingDisabledOut": [
+  "You disabled sharing in this chat"
+ ],
+ "ActionSharingEnabled": [
+  "%1$s enabled sharing in this chat"
+ ],
+ "ActionSharingEnabledOut": [
+  "You enabled sharing in this chat"
+ ],
+ "ActionSharingRequest": [
+  "%1$s would like to enable sharing in this chat"
+ ],
+ "ActionSharingRequestExpired": [
+  "Sharing request has expired"
+ ],
+ "ActionSharingRequestOut": [
+  "You suggested to enable sharing in this chat"
+ ],
+ "ActionSharingStillDisabled": [
+  "Sharing in this chat is still disabled"
+ ],
+ "ActionSharingStillEnabled": [
+  "Sharing in this chat is still enabled"
+ ],
+ "ActionTopicChangedIcon": [
+  "%2$s changed the topic icon to %1$s"
+ ],
+ "ActionTopicChangedIconName": [
+  "%3$s changed the topic name and icon to %1$s %2$s"
+ ],
+ "ActionTopicChangedIconNameOut": [
+  "You changed the topic name and icon to %1$s %2$s"
+ ],
+ "ActionTopicChangedIconOut": [
+  "You changed the topic icon to %1$s"
+ ],
+ "ActionTopicClosed": [
+  "%3$s closed %1$s %2$s"
+ ],
+ "ActionTopicClosedOut": [
+  "You closed %1$s %2$s"
+ ],
+ "ActionTopicCreate": [
+  "%2$s created the topic %1$s"
+ ],
+ "ActionTopicCreateIcon": [
+  "%3$s created the topic %1$s %2$s"
+ ],
+ "ActionTopicCreateIconOut": [
+  "You created the topic %1$s %2$s"
+ ],
+ "ActionTopicCreateOut": [
+  "You created the topic %1$s"
+ ],
+ "ActionTopicCreated": [
+  "The topic %1$s was created"
+ ],
+ "ActionTopicCreatedIcon": [
+  "The topic %1$s %2$s was created"
+ ],
+ "ActionTopicHidden": [
+  "%1$s hid the general topic"
+ ],
+ "ActionTopicHiddenOut": [
+  "You hid the general topic"
+ ],
+ "ActionTopicRenamed": [
+  "%2$s renamed the topic to %1$s"
+ ],
+ "ActionTopicRenamedOut": [
+  "You renamed the topic to %1$s"
+ ],
+ "ActionTopicReopened": [
+  "%3$s reopened %1$s %2$s"
+ ],
+ "ActionTopicReopenedOut": [
+  "You reopened %1$s %2$s"
+ ],
+ "ActionTopicUnhidden": [
+  "%1$s unhid the general topic"
+ ],
+ "ActionTopicUnhiddenOut": [
+  "You unhid the general topic"
+ ],
+ "ActionUnknownTopicClosed": [
+  "%1$s closed topic"
+ ],
+ "ActionUnknownTopicClosedOut": [
+  "You closed topic"
+ ],
+ "ActionUnknownTopicReopened": [
+  "%1$s reopened topic"
+ ],
+ "ActionUnknownTopicReopenedOut": [
+  "You reopened topic"
+ ],
+ "ActionUnmute": [
+  "Unmute"
+ ],
+ "ActionUnmuteEveryone": [
+  "Unmute all"
+ ],
+ "ActionUnmutePerson": [
+  "Unmute %1$s"
+ ],
+ "ActivatingLink": [
+  "Activating public link, please wait…"
+ ],
+ "ActivatingUsername": [
+  "Activating username, please wait…"
+ ],
+ "AdOpenApp": [
+  "Open App"
+ ],
+ "AdOpenBot": [
+  "Open Bot"
+ ],
+ "AdOpenChannel": [
+  "View Channel"
+ ],
+ "AdOpenPost": [
+  "View Post"
+ ],
+ "AdOpenWebsite": [
+  "Open Website"
+ ],
+ "AddAdminToTheGroup": [
+  "Add %1$s to the group and assign as an admin?"
+ ],
+ "AddXStickerPacks": [
+  "Add %1$s sticker set",
+  "Add %1$s sticker sets"
+ ],
+ "Administrator": [
+  "Administrator"
+ ],
+ "AgeVerification": [
+  "You must be at least %1$s year old to use Telegram.",
+  "You must be at least %1$s years old to use Telegram."
+ ],
+ "AggressiveAntiSpam": [
+  "Aggressive Anti-Spam"
+ ],
+ "AggressiveAntiSpamBot": [
+  "You can manage anti-spam settings on Manage Group screen"
+ ],
+ "AggressiveAntiSpamDesc": [
+  "Telegram will filter more spam, but may occasionally affect ordinary messages. You can report False Positives in Recent Actions."
+ ],
+ "AirplaneModeDisable": [
+  "Disable"
+ ],
+ "AllFaves": [
+  "Favorites"
+ ],
+ "AllowBotsAndMiniApps": [
+  "Allow Bots and Mini Apps"
+ ],
+ "AllowBotsAndMiniAppsDesc": [
+  "Automatically accept gifts from bots and mini apps."
+ ],
+ "AndroidVersionWarningTitle": [
+  "Unsupported Android version"
+ ],
+ "AnonWarning": [
+  "This action requires revealing your personal account. Tap again to confirm."
+ ],
+ "AnonymousAdmin": [
+  "Anonymous Admin"
+ ],
+ "AnonymousGiftedPremium": [
+  "Someone gifted you %1$s month of Telegram Premium for %2$s",
+  "Someone gifted you %1$s months of Telegram Premium for %2$s"
+ ],
+ "AnonymousGiftedPremiumCode": [
+  "Someone sent you a Gift Code for %1$s month of Telegram Premium",
+  "Someone sent you a Gift Code for %1$s months of Telegram Premium"
+ ],
+ "AnonymousGiftedPremiumCodeDays": [
+  "Someone sent you a Gift Code for %1$s day of Telegram Premium",
+  "Someone sent you a Gift Code for %1$s days of Telegram Premium"
+ ],
+ "AnonymousGiftedPremiumDays": [
+  "Someone gifted you %1$s day of Telegram Premium for %2$s",
+  "Someone gifted you %1$s days of Telegram Premium for %2$s"
+ ],
+ "AnonymousNumbers": [
+  "💎 Collectible Numbers"
+ ],
+ "AnotherChatReplyHint": [
+  "This message is from another chat. Tap again to view."
+ ],
+ "AnyAsX": [
+  "as %1$s"
+ ],
+ "AppOnGooglePlay": [
+  "App on Google Play"
+ ],
+ "AppUpdateAvailablePrompt": [
+  "A new **Telegram X** update is available. Would you like to download? (%1$s)"
+ ],
+ "AppUpdateOk": [
+  "Update"
+ ],
+ "AppUpdateRequiredTitle": [
+  "Update required"
+ ],
+ "AppUpdateRestart": [
+  "Restart"
+ ],
+ "ArchiveEmojiSet": [
+  "Archive emoji pack %1$s? You can restore it later in Settings > Emoji > Archived."
+ ],
+ "ArchiveSettingsDesc": [
+  "Control what chats remain archived even if they are unmuted and get a new message."
+ ],
+ "ArchivedEmojiInfo": [
+  "You can add up to %1$s emoji packs. Unused packs are archived when you add more."
+ ],
+ "AttachAudio": [
+  "Voice Message"
+ ],
+ "AudioPlaybackUnsupported": [
+  "Audio format is not supported."
+ ],
+ "AutoNightModeDescriptionSystemQ": [
+  "Switch to night theme based on your system settings."
+ ],
+ "AutoNightModeScheduledByLocationPolarNight": [
+  "There is currently no sunrise or sunset at your current location."
+ ],
+ "AutoNightSystemQ": [
+  "System"
+ ],
+ "AvailableReactions": [
+  "Available reactions"
+ ],
+ "AvatarsInReactionsAlways": [
+  "Always"
+ ],
+ "AvatarsInReactionsNever": [
+  "Never"
+ ],
+ "AvatarsInReactionsSmartFilter": [
+  "Limited"
+ ],
+ "BanChat": [
+  "Ban group"
+ ],
+ "BanXChannel": [
+  "%1$s will be banned and removed from the channel."
+ ],
+ "Banned": [
+  "Banned"
+ ],
+ "BannedByXOnDate": [
+  "Banned by %1$s %2$s"
+ ],
+ "BiometricsError": [
+  "System biometrics driver failure, see log for details."
+ ],
+ "BiometricsWeak": [
+  "Weak (**Class 2** sensor)"
+ ],
+ "BirthdateEmpty": [
+  "Unset"
+ ],
+ "BlockChatBtn": [
+  "Block"
+ ],
+ "Blur": [
+  "Blur"
+ ],
+ "BlurLinear": [
+  "Linear"
+ ],
+ "BlurRadial": [
+  "Radial"
+ ],
+ "BoostingGiveawayJustStarted": [
+  "%1$s just started a giveaway of Telegram Premium subscriptions for its followers."
+ ],
+ "BoostingGiveawayServiceWinnersSelected": [
+  "%1$s winner of the giveaway was randomly selected by Telegram and received their gift link in a private message.",
+  "%1$s winners of the giveaway were randomly selected by Telegram and received their gift link in a private message."
+ ],
+ "BotAboutTextHint": [
+  "**Warning**: this will update the default bot information shown on the profile page for **all users**."
+ ],
+ "BotAppAllowed": [
+  "You allowed this bot to message you when launched its \"%1$s\" app."
+ ],
+ "BotAttachAllowed": [
+  "You allowed this bot to message you when you added it to your attachment menu."
+ ],
+ "BotIsDown": [
+  "Bot is not responding. Please try again later."
+ ],
+ "BotPhoto": [
+  "Bot photo"
+ ],
+ "BotWebappAllowed": [
+  "You allowed this bot to message you in its web-app."
+ ],
+ "BroadcastWriteHint": [
+  "Only admins can write messages in broadcast groups."
+ ],
+ "BrushSize": [
+  "Brush Size: %1$s"
+ ],
+ "CallNoLongerActive": [
+  "This call is no longer active"
+ ],
+ "CameraSettings": [
+  "Camera Settings"
+ ],
+ "CameraUseSystem": [
+  "Use system camera"
+ ],
+ "CancelBiometrics": [
+  "Cancel"
+ ],
+ "CancelPasswordReset": [
+  "Cancel the password reset process? If you request a new reset later, it will take another 7 days."
+ ],
+ "CancelPasswordResetYes": [
+  "YES"
+ ],
+ "CancelReset": [
+  "Cancel reset"
+ ],
+ "Caption": [
+  "Сaption"
+ ],
+ "CategorySecret": [
+  "Secret"
+ ],
+ "ChangeLogText": [
+  "**Telegram X** was updated to version %1$sBrief overview of new features:%2$s"
+ ],
+ "Channel": [
+  "Channel"
+ ],
+ "ChannelNoCopy": [
+  "Sorry, copying from this channel is disabled by admins."
+ ],
+ "ChannelNoSave": [
+  "Sorry, saving media from this channel is disabled by admins."
+ ],
+ "ChannelPostDeleted": [
+  "Sorry, this post has been removed from the discussion group."
+ ],
+ "ChannelReactionsAnonymous": [
+  "Reactions in channels are anonymous"
+ ],
+ "ChannelShowAuthors": [
+  "Show Authors' Profiles"
+ ],
+ "ChargeForMessages": [
+  "Charge for Messages"
+ ],
+ "ChargeForMessagesInfo": [
+  "Charge a fee for messages from people outside your contacts or who you haven't messaged first."
+ ],
+ "ChatAccessFailed": [
+  "Cannot access this chat"
+ ],
+ "ChatBackground": [
+  "Chat Wallpaper"
+ ],
+ "ChatBackgroundTypePattern": [
+  "pattern"
+ ],
+ "ChatBanned": [
+  "Admins have banned you in this group"
+ ],
+ "ChatBannedUntil": [
+  "Admins have banned you in this group until %1$s"
+ ],
+ "ChatBoosted": [
+  "%1$s boosted the group"
+ ],
+ "ChatBoostedXTimes": [
+  "%2$s boosted the group %1$s time",
+  "%2$s boosted the group %1$s times"
+ ],
+ "ChatBoostedXTimes_outgoing": [
+  "You boosted the group %1$s time",
+  "You boosted the group %1$s times"
+ ],
+ "ChatBoosted_outgoing": [
+  "You boosted the group"
+ ],
+ "ChatContentBoosted": [
+  "Boosted the group"
+ ],
+ "ChatContentBoostedXTimes": [
+  "Boosted the group %1$s time",
+  "Boosted the group %1$s times"
+ ],
+ "ChatContentBoostedXTimes_outgoing": [
+  "Boosted the group %1$s time",
+  "Boosted the group %1$s times"
+ ],
+ "ChatContentBoosted_outgoing": [
+  "Boosted the group"
+ ],
+ "ChatContentChannelTtlHours": [
+  "Set posts to auto-delete in %1$s hour",
+  "Set posts to auto-delete in %1$s hours"
+ ],
+ "ChatContentChannelTtlMinutes": [
+  "Set posts to auto-delete in %1$s minute",
+  "Set posts to auto-delete in %1$s minutes"
+ ],
+ "ChatContentChannelTtlSeconds": [
+  "Set posts to auto-delete in %1$s second",
+  "Set posts to auto-delete in %1$s seconds"
+ ],
+ "ChatContentDart": [
+  "Dart: throwing…"
+ ],
+ "ChatContentDice": [
+  "Dice: rolling…"
+ ],
+ "ChatContentDmDisabled": [
+  "Disabled direct messages"
+ ],
+ "ChatContentDmEnabled": [
+  "Now accepts direct messages"
+ ],
+ "ChatContentDmEnabledPaid": [
+  "Now accepts direct messages for %1$s star each",
+  "Now accepts direct messages for %1$s stars each"
+ ],
+ "ChatContentGroupAdd": [
+  "Added %1$s to the group"
+ ],
+ "ChatContentGroupAddMembers_outgoing": [
+  "Added %1$s member to the group",
+  "Added %1$s members to the group"
+ ],
+ "ChatContentGroupAddYou": [
+  "Added you to the group"
+ ],
+ "ChatContentGroupJoinCommunity": [
+  "Joined the group from the community"
+ ],
+ "ChatContentGroupJoinCommunity_outgoing": [
+  "Joined the group from the community"
+ ],
+ "ChatContentGroupReturn": [
+  "Returned to the group"
+ ],
+ "ChatContentGroupTtlHours": [
+  "Set messages to auto-delete in %1$s hour",
+  "Set messages to auto-delete in %1$s hours"
+ ],
+ "ChatContentGroupTtlMinutes": [
+  "Set messages to auto-delete in %1$s minute",
+  "Set messages to auto-delete in %1$s minutes"
+ ],
+ "ChatContentGroupTtlSeconds": [
+  "Set messages to auto-delete in %1$s second",
+  "Set messages to auto-delete in %1$s seconds"
+ ],
+ "ChatContentLiveStreamAddSomeone": [
+  "Invited someone to the live stream"
+ ],
+ "ChatContentLiveStreamAddYou": [
+  "Invited you to the live stream"
+ ],
+ "ChatContentLiveStreamFinished": [
+  "Ended the live stream (%1$s)"
+ ],
+ "ChatContentLiveStreamFinishedNoTime": [
+  "Ended the live stream"
+ ],
+ "ChatContentLiveStreamFinishedNoTime_outgoing": [
+  "Ended the live stream"
+ ],
+ "ChatContentLiveStreamFinished_outgoing": [
+  "Ended the live stream (%1$s)"
+ ],
+ "ChatContentLiveStreamInvite": [
+  "Invited %1$s to the live stream"
+ ],
+ "ChatContentLiveStreamInviteMulti": [
+  "Invited %1$s person to the live stream",
+  "Invited %1$s people to the live stream"
+ ],
+ "ChatContentLiveStreamInviteMulti_outgoing": [
+  "Invited %1$s person to the live stream",
+  "Invited %1$s people to the live stream"
+ ],
+ "ChatContentLiveStreamInviteYou": [
+  "Invited you to the live stream"
+ ],
+ "ChatContentLiveStreamInvite_outgoing": [
+  "Invited %1$s to the live stream"
+ ],
+ "ChatContentLiveStreamStarted": [
+  "Started a live stream"
+ ],
+ "ChatContentLiveStreamStarted_outgoing": [
+  "Started a live stream"
+ ],
+ "ChatContentProximityFromYouKm": [
+  "%2$s is now within %1$s kilometer from you",
+  "%2$s is now within %1$s kilometers from you"
+ ],
+ "ChatContentProximityFromYouM": [
+  "%2$s is now within %1$s meter from you",
+  "%2$s is now within %1$s meters from you"
+ ],
+ "ChatContentProximityKm": [
+  "%2$s is now within %1$s kilometer from %3$s",
+  "%2$s is now within %1$s kilometers from %3$s"
+ ],
+ "ChatContentProximityM": [
+  "%2$s is now within %1$s meter from %3$s",
+  "%2$s is now within %1$s meters from %3$s"
+ ],
+ "ChatContentProximityYouKm": [
+  "You are now within %1$s kilometer from %2$s",
+  "You are now within %1$s kilometers from %2$s"
+ ],
+ "ChatContentProximityYouM": [
+  "You are now within %1$s meter from %2$s",
+  "You are now within %1$s meters from %2$s"
+ ],
+ "ChatContentVideoChatAddSomeone": [
+  "Invited someone to the video chat"
+ ],
+ "ChatContentVideoChatAddYou": [
+  "Invited you to the video chat"
+ ],
+ "ChatContentVoiceChatFinishedNoTime": [
+  "Ended the video chat"
+ ],
+ "ChatContentVoiceChatFinishedNoTime_outgoing": [
+  "Ended the video chat"
+ ],
+ "ChatContentVoiceChatInvite": [
+  "Invited %1$s to the video chat"
+ ],
+ "ChatContentVoiceChatInviteMulti": [
+  "Invited %1$s person to the video chat",
+  "Invited %1$s people to the video chat"
+ ],
+ "ChatContentVoiceChatInviteMulti_outgoing": [
+  "Invited %1$s person to the video chat",
+  "Invited %1$s people to the video chat"
+ ],
+ "ChatContentVoiceChatInviteYou": [
+  "Invited you to the video chat"
+ ],
+ "ChatContentVoiceChatInvite_outgoing": [
+  "Invited %1$s to the video chat"
+ ],
+ "ChatContentVoiceChatStarted": [
+  "Started a video chat"
+ ],
+ "ChatContentVoiceChatStarted_outgoing": [
+  "Started a video chat"
+ ],
+ "ChatDisabledAudio": [
+  "Only admins can send music in this group"
+ ],
+ "ChatDisabledBots": [
+  "Only admins can use inline bots in this group"
+ ],
+ "ChatDisabledDart": [
+  "Only admins can play darts in this group. Hold to send it as an emoji."
+ ],
+ "ChatDisabledDocs": [
+  "Only admins can send files in this group"
+ ],
+ "ChatDisabledGames": [
+  "Only admins can send stickers in this group"
+ ],
+ "ChatDisabledMedia": [
+  "Only admins can send media in this group"
+ ],
+ "ChatDisabledMessages": [
+  "Only admins can write messages in this group"
+ ],
+ "ChatDisabledOther": [
+  "Only admins can send stickers and GIFs in this group"
+ ],
+ "ChatDisabledPhoto": [
+  "Only admins can send photos in this group"
+ ],
+ "ChatDisabledPolls": [
+  "Only admins can create polls in this group"
+ ],
+ "ChatDisabledStory": [
+  "Only admins can send stories in this group"
+ ],
+ "ChatDisabledVideo": [
+  "Only admins can send videos in this group"
+ ],
+ "ChatHistoryPartiallyHiddenInfo": [
+  "New members won't see more than %1$s earlier message.",
+  "New members won't see more than %1$s earlier messages."
+ ],
+ "ChatRestrictedAudio": [
+  "The admins of this group have restricted your ability to send music."
+ ],
+ "ChatRestrictedAudioUntil": [
+  "Admins have restricted you from sending music in this group until %1$s"
+ ],
+ "ChatRestrictedBots": [
+  "The admins of this group have restricted your ability to send inline content."
+ ],
+ "ChatRestrictedDocs": [
+  "The admins of this group have restricted your ability to send files."
+ ],
+ "ChatRestrictedDocsUntil": [
+  "Admins have restricted you from sending files in this group until %1$s"
+ ],
+ "ChatRestrictedGames": [
+  "The admins of this group have restricted your ability to start games here."
+ ],
+ "ChatRestrictedGamesUntil": [
+  "The admins of this group have restricted your ability to start games here until %1$s"
+ ],
+ "ChatRestrictedOther": [
+  "The admins of this group have restricted your ability to send stickers and GIFs."
+ ],
+ "ChatRestrictedOtherUntil": [
+  "Admins have restricted you from sending stickers and GIFs in this group until %1$s"
+ ],
+ "ChatRestrictedPhoto": [
+  "The admins of this group have restricted your ability to send photos."
+ ],
+ "ChatRestrictedPhotoUntil": [
+  "Admins have restricted you from sending photos in this group until %1$s"
+ ],
+ "ChatRestrictedPolls": [
+  "The admins of this group have restricted your ability to send polls."
+ ],
+ "ChatRestrictedPollsUntil": [
+  "Admins have restricted you from sending polls in this group until %1$s"
+ ],
+ "ChatRestrictedStory": [
+  "The admins of this group have restricted your ability to send stories."
+ ],
+ "ChatRestrictedStoryUntil": [
+  "Admins have restricted you from sending stories in this group until %1$s"
+ ],
+ "ChatRestrictedVideo": [
+  "The admins of this group have restricted your ability to send videos."
+ ],
+ "ChatRestrictedVideoUntil": [
+  "Admins have restricted you from sending videos in this group until %1$s"
+ ],
+ "ChatTitleSecretChat": [
+  "%1$s (secret chat)"
+ ],
+ "ChatTranslateOriginal": [
+  "Original"
+ ],
+ "ClearRecentReactionsAction": [
+  "Clear Recent Reactions"
+ ],
+ "ClearSavedMessages": [
+  "Delete all Saved Messages"
+ ],
+ "ClearSavedMessagesSecondaryConfirm": [
+  "**No, seriously.**This will delete **all Saved Messages**. There will be no way to restore them."
+ ],
+ "ClearedXChats": [
+  "Cleared media for %1$s chat",
+  "Cleared media for %1$s chats"
+ ],
+ "ClearingXChats": [
+  "Clearing media in %1$s chat… This operation may take some time, please wait.",
+  "Clearing media in %1$s chats… This operation may take some time, please wait."
+ ],
+ "ComeAgainLater": [
+  "Come again later"
+ ],
+ "Comment": [
+  "Comment"
+ ],
+ "CommentsTitle": [
+  "Comments"
+ ],
+ "CommitInfo": [
+  "%1$s commit, %2$s"
+ ],
+ "ConfirmYourBiometrics": [
+  "Confirm your biometrics"
+ ],
+ "ConfirmYourBiometricsStrong": [
+  "Confirm your biometrics (strong)"
+ ],
+ "ConfirmYourBiometricsWeak": [
+  "Confirm your biometrics (weak)"
+ ],
+ "ConfirmYourFingerprintWeak": [
+  "Confirm your fingerprint (weak)"
+ ],
+ "ContactStateOutgoing": [
+  "%1$s is in your contacts list."
+ ],
+ "ContactStateOutgoingNoPhone": [
+  "You do not have access to %1$s's phone number."
+ ],
+ "ContactsOnTelegramMany": [
+  "%2$s and %1$s more of your contacts are using Telegram",
+  "%2$s and %1$s more of your contacts are using Telegram"
+ ],
+ "Continue": [
+  "Continue"
+ ],
+ "ConvertToBroadcastGroup": [
+  "Convert to Broadcast Group"
+ ],
+ "ConvertToBroadcastGroupAlertClose": [
+  "Got it"
+ ],
+ "ConvertToBroadcastGroupAlertText": [
+  "Group \"%1$s\" was successfully converted to Broadcast Group.Now there is no limit on the members count but only admins can send messages."
+ ],
+ "ConvertToBroadcastGroupAlertTitle": [
+  "Success"
+ ],
+ "ConvertToBroadcastGroupButton": [
+  "Convert to Broadcast Group"
+ ],
+ "ConvertToBroadcastGroupConfirm": [
+  "Yes, I am sure, convert."
+ ],
+ "ConvertToBroadcastGroupConfirmHint": [
+  "Members who are not admins will **permanently** lose their right to send messages in the group.**This action cannot be undone.**"
+ ],
+ "ConvertToBroadcastGroupDesc": [
+  "Broadcast groups can have over %1$s member, but only admins can send messages in them.",
+  "Broadcast groups can have over %1$s members, but only admins can send messages in them."
+ ],
+ "ConvertToBroadcastGroupHint": [
+  "You can convert your current group to a **Broadcast Group**.Broadcast Groups have no limit on the members but only admins can send messages.**This action cannot be undone.**"
+ ],
+ "CopiedDisplayName": [
+  "Display name has been copied to the clipboard"
+ ],
+ "CopiedLinkPrivate": [
+  "Link has been copied to the clipboard. It works only for members of this chat."
+ ],
+ "CopyDisplayName": [
+  "Copy display name"
+ ],
+ "CopyReportDataInfo": [
+  "Use when submitting a bug report"
+ ],
+ "CopyTextFailed": [
+  "Failed to copy text. Most likely, the text you tried to copy is too big."
+ ],
+ "Country": [
+  "Country"
+ ],
+ "CountryCode": [
+  "Country code"
+ ],
+ "CountryLimit": [
+  "You can select only up to %1$s country",
+  "You can select only up to %1$s countries"
+ ],
+ "CustomTitleEmoji": [
+  "Member tag must not include emoji"
+ ],
+ "DeactivatedBot": [
+  "deactivated bot"
+ ],
+ "DeactivatingLink": [
+  "Deactivating public link, please wait…"
+ ],
+ "DeactivatingUsername": [
+  "Deactivating username, please wait…"
+ ],
+ "DebugLogcatOnly": [
+  "Redirect to logcat"
+ ],
+ "DeleteCallHistory": [
+  "Delete call history"
+ ],
+ "DeleteCallHistoryConfirm": [
+  "**Warning!**Do you want to delete **entire** call history? This will delete all associated call messages in corresponding chats.This action cannot be undone."
+ ],
+ "DeleteCallHistoryForEveryone": [
+  "Delete for everyone"
+ ],
+ "DeleteChatHistoryForAllUsers": [
+  "Clear for all members"
+ ],
+ "DeletePhoto": [
+  "Remove photo"
+ ],
+ "DeleteRepliesConfirm": [
+  "Are you sure you want to delete all **reply notifications**? This action cannot be undone."
+ ],
+ "DeleteSecretChatPendingConfirm": [
+  "Are you sure you want to cancel the secret chat with %1$s?"
+ ],
+ "DeleteThread": [
+  "Delete Thread"
+ ],
+ "DeleteXForEveryone": [
+  "Delete %1$s message for everyone",
+  "Delete %1$s messages for everyone"
+ ],
+ "DeletingPhotoWait": [
+  "Deleting profile photo, please wait…"
+ ],
+ "DetectLocationError": [
+  "Unable to detect current location."
+ ],
+ "DirectMessages": [
+  "Direct Messages"
+ ],
+ "DiscardAudioMessageDescription": [
+  "Are you sure you want to discard your audio message?"
+ ],
+ "DiscardAudioMessageTitle": [
+  "Discard Audio Message"
+ ],
+ "DiscardCaptionHint": [
+  "Are you sure you want to discard caption? These changes will be lost."
+ ],
+ "DiscardMediaMsg": [
+  "Discard changes"
+ ],
+ "DisconnectWebsiteAction": [
+  "Disconnect Website"
+ ],
+ "DiscussionStart": [
+  "Discussion started"
+ ],
+ "DoNotJoinAnyChats": [
+  "Do not join any chats"
+ ],
+ "DoNotJoinAnyNewChats": [
+  "Do not join any new chats"
+ ],
+ "DownloadUpdateSize": [
+  "Download update (%1$s)"
+ ],
+ "EditAdminTag": [
+  "Edit Admin Tag"
+ ],
+ "EditChannelRestrictions": [
+  "Edit Channel Restrictions"
+ ],
+ "EditGroupRestrictions": [
+  "Edit Group Restrictions"
+ ],
+ "EditMediaRestricted": [
+  "You cannot change the media type"
+ ],
+ "EditMemberTag": [
+  "Edit Member Tag"
+ ],
+ "EditOwnerTag": [
+  "Edit Owner Tag"
+ ],
+ "EditPrivacyAudio": [
+  "Saved Music"
+ ],
+ "EditPrivacyBio": [
+  "Bio"
+ ],
+ "EditPrivacyFreeMessages": [
+  "Remove Fee"
+ ],
+ "EditPrivacyGifts": [
+  "Display Gifts without approval"
+ ],
+ "EditPrivacyVoice": [
+  "Send Me Voice Messages"
+ ],
+ "EmailInvalid": [
+  "Invalid email format."
+ ],
+ "EmojiUpdate": [
+  "Update Needed"
+ ],
+ "EmojiUpdateUnavailable": [
+  "Emoji update unavailable. Please try again later."
+ ],
+ "EmulatorWarningStrict": [
+  "You are running **Telegram X** on an **emulated device**.**Note**: if you don't have an **existing** Telegram account, you may need a **real device** to create it.If you have your phone connected to a PC, disconnect it and restart Telegram X."
+ ],
+ "EmulatorWarningTitle": [
+  "Emulator detected"
+ ],
+ "EndsInDuration": [
+  "ends in %1$s"
+ ],
+ "EnterEmail": [
+  "Enter your email address"
+ ],
+ "EraseConfirm": [
+  "Erase"
+ ],
+ "EraseDatabaseError": [
+  "Unable to delete files."
+ ],
+ "EraseDatabaseMultiUser": [
+  "This action does not affect other accounts."
+ ],
+ "EraseDatabaseWait": [
+  "Please wait until the previous operation is completed."
+ ],
+ "ErrorUserDeleted": [
+  "Cannot perform this action, because user account is deactivated."
+ ],
+ "EventLogAntiSpamDisabled": [
+  "%1$s disabled aggressive anti-spam"
+ ],
+ "EventLogAntiSpamDisabledYou": [
+  "You disabled aggressive anti-spam"
+ ],
+ "EventLogAntiSpamEnabled": [
+  "%1$s enabled aggressive anti-spam"
+ ],
+ "EventLogAntiSpamEnabledYou": [
+  "You enabled aggressive anti-spam"
+ ],
+ "EventLogChangedVolume": [
+  "%1$s changed %2$s's volume to %3$s"
+ ],
+ "EventLogChangedVolumeYou": [
+  "You changed %1$s's volume to %2$s"
+ ],
+ "EventLogChangedYourVolume": [
+  "%1$s changed your volume to %2$s"
+ ],
+ "EventLogChannelBackgroundChanged": [
+  "%1$s changed the channel background"
+ ],
+ "EventLogChannelBackgroundChangedYou": [
+  "You changed the channel background"
+ ],
+ "EventLogChannelBackgroundUnset": [
+  "%1$s unset the channel background"
+ ],
+ "EventLogChannelBackgroundUnsetYou": [
+  "You unset the channel background"
+ ],
+ "EventLogChannelMutedNewParticipants": [
+  "%1$s muted new live stream participants"
+ ],
+ "EventLogChannelMutedNewParticipantsYou": [
+  "You muted new live stream participants"
+ ],
+ "EventLogChannelMutedParticipant": [
+  "%1$s muted %2$s in the live stream"
+ ],
+ "EventLogChannelMutedParticipantYou": [
+  "You muted %1$s in the live stream"
+ ],
+ "EventLogChannelUnmutedNewParticipants": [
+  "%1$s allowed new live stream participants to speak"
+ ],
+ "EventLogChannelUnmutedNewParticipantsYou": [
+  "You allowed new live stream participants to speak"
+ ],
+ "EventLogChannelUnmutedParticipant": [
+  "%1$s allowed %2$s to speak in the live stream"
+ ],
+ "EventLogChannelUnmutedParticipantYou": [
+  "You allowed %1$s to speak in the live stream"
+ ],
+ "EventLogChatBackgroundChanged": [
+  "%1$s changed the chat background"
+ ],
+ "EventLogChatBackgroundChangedYou": [
+  "You changed the chat background"
+ ],
+ "EventLogChatBackgroundUnset": [
+  "%1$s unset the chat background"
+ ],
+ "EventLogChatBackgroundUnsetYou": [
+  "You unset the chat background"
+ ],
+ "EventLogEmojiStatusChanged": [
+  "%1$s changed emoji status from %2$s to %3$s"
+ ],
+ "EventLogEmojiStatusChangedYou": [
+  "You changed emoji status from %1$s to %2$s"
+ ],
+ "EventLogEmojiStatusSet": [
+  "%1$s changed emoji status from none to %2$s"
+ ],
+ "EventLogEmojiStatusSetYou": [
+  "You changed emoji status from none to %1$s"
+ ],
+ "EventLogEmojiStatusUnset": [
+  "%1$s changed emoji status from %2$s to none"
+ ],
+ "EventLogEmojiStatusUnsetYou": [
+  "You changed emoji status from %1$s to none"
+ ],
+ "EventLogForumDisabled": [
+  "%1$s disabled topics"
+ ],
+ "EventLogForumDisabledYou": [
+  "You disabled topics"
+ ],
+ "EventLogForumEnabled": [
+  "%1$s enabled topics"
+ ],
+ "EventLogForumEnabledYou": [
+  "You enabled topics"
+ ],
+ "EventLogForumTopicClosed": [
+  "%1$s closed topic %2$s"
+ ],
+ "EventLogForumTopicClosedYou": [
+  "You closed topic %1$s"
+ ],
+ "EventLogForumTopicCreated": [
+  "%1$s created topic %2$s"
+ ],
+ "EventLogForumTopicCreatedYou": [
+  "You created topic %1$s"
+ ],
+ "EventLogForumTopicDeleted": [
+  "%1$s deleted topic %2$s"
+ ],
+ "EventLogForumTopicDeletedYou": [
+  "You deleted topic %1$s"
+ ],
+ "EventLogForumTopicEditedName": [
+  "%1$s changed topic name from %2$s to %3$s"
+ ],
+ "EventLogForumTopicEditedNameYou": [
+  "You changed topic name from %1$s to %2$s"
+ ],
+ "EventLogForumTopicHidden": [
+  "%1$s made topic %2$s hidden"
+ ],
+ "EventLogForumTopicHiddenYou": [
+  "You made topic %1$s hidden"
+ ],
+ "EventLogForumTopicPinned": [
+  "%1$s pinned topic %2$s"
+ ],
+ "EventLogForumTopicPinnedYou": [
+  "You pinned topic %1$s"
+ ],
+ "EventLogForumTopicReopened": [
+  "%1$s reopened the topic %2$s"
+ ],
+ "EventLogForumTopicReopenedYou": [
+  "You reopened the topic %1$s"
+ ],
+ "EventLogForumTopicUnhidden": [
+  "%1$s made topic %2$s visible"
+ ],
+ "EventLogForumTopicUnhiddenYou": [
+  "You made topic %1$s visible"
+ ],
+ "EventLogLinkedChannelChangedUnknown": [
+  "This group was linked to %1$s"
+ ],
+ "EventLogLocationRemoved": [
+  "%1$s removed group location"
+ ],
+ "EventLogLocationSet": [
+  "%1$s set group location to %2$s"
+ ],
+ "EventLogMutedNewParticipants": [
+  "%1$s muted new video chat participants"
+ ],
+ "EventLogMutedNewParticipantsYou": [
+  "You muted new video chat participants"
+ ],
+ "EventLogMutedParticipant": [
+  "%1$s muted %2$s in the video chat"
+ ],
+ "EventLogMutedParticipantYou": [
+  "You muted %1$s in the video chat"
+ ],
+ "EventLogNoLongerCreator": [
+  "is no longer an owner"
+ ],
+ "EventLogPermissionEditTag": [
+  "Edit own tag"
+ ],
+ "EventLogPermissionReactToMessages": [
+  "React to messages"
+ ],
+ "EventLogPermissionSendAudio": [
+  "Send music"
+ ],
+ "EventLogPermissionSendDocs": [
+  "Send files"
+ ],
+ "EventLogPermissionSendPhoto": [
+  "Send photos"
+ ],
+ "EventLogPermissionSendVideo": [
+  "Send videos"
+ ],
+ "EventLogPermissionSendVideoNotes": [
+  "Send video messages"
+ ],
+ "EventLogPermissionSendVoiceNotes": [
+  "Send voice messages"
+ ],
+ "EventLogProfileColorChanged": [
+  "%1$s changed profile color from %2$s to %3$s"
+ ],
+ "EventLogProfileColorChangedYou": [
+  "You changed profile color from %1$s to %2$s"
+ ],
+ "EventLogProfileColorIconChanged": [
+  "%1$s changed profile color and icon from %2$s to %3$s"
+ ],
+ "EventLogProfileColorIconChangedYou": [
+  "You changed profile color and icon from %1$s to %2$s"
+ ],
+ "EventLogProfileColorIconSet": [
+  "%1$s changed profile color and icon from none to %2$s"
+ ],
+ "EventLogProfileColorIconSetYou": [
+  "You changed profile color and icon from none to %1$s"
+ ],
+ "EventLogProfileColorIconUnset": [
+  "%1$s changed profile color and icon from %2$s to none"
+ ],
+ "EventLogProfileColorIconUnsetYou": [
+  "You changed profile color and icon from %1$s to none"
+ ],
+ "EventLogProfileColorSet": [
+  "%1$s changed profile color from none to %2$s"
+ ],
+ "EventLogProfileColorSetYou": [
+  "You changed profile color from none to %1$s"
+ ],
+ "EventLogProfileColorUnset": [
+  "%1$s changed profile color from %2$s to none"
+ ],
+ "EventLogProfileColorUnsetYou": [
+  "You changed profile color from %1$s to none"
+ ],
+ "EventLogProfileEmojiChanged": [
+  "%1$s changed profile emoji from %2$s to %3$s"
+ ],
+ "EventLogProfileEmojiChangedYou": [
+  "You changed profile emoji from %1$s to %2$s"
+ ],
+ "EventLogProfileEmojiSet": [
+  "%1$s changed profile emoji from none to %2$s"
+ ],
+ "EventLogProfileEmojiSetYou": [
+  "You changed profile emoji from none to %1$s"
+ ],
+ "EventLogProfileEmojiUnset": [
+  "%1$s changed profile emoji from %2$s to none"
+ ],
+ "EventLogProfileEmojiUnsetYou": [
+  "You changed profile emoji from %1$s to none"
+ ],
+ "EventLogPromotedDeleteStories": [
+  "Delete stories of others"
+ ],
+ "EventLogPromotedEditStories": [
+  "Edit stories of others"
+ ],
+ "EventLogPromotedManageDirectMessages": [
+  "Manage direct messages"
+ ],
+ "EventLogPromotedManageTags": [
+  "Edit member tags"
+ ],
+ "EventLogPromotedManageWelcomeMessages": [
+  "Manage welcome messages"
+ ],
+ "EventLogPromotedPostStories": [
+  "Post stories"
+ ],
+ "EventLogReactionsAdded2": [
+  "+ Added:"
+ ],
+ "EventLogReactionsChanged": [
+  "Changed available reactions:"
+ ],
+ "EventLogReactionsDisabled": [
+  "Disabled all reactions"
+ ],
+ "EventLogReactionsEnabled": [
+  "Enabled reactions:"
+ ],
+ "EventLogReactionsEnabledAll": [
+  "Enabled all reactions"
+ ],
+ "EventLogReactionsLimited": [
+  "Limited available reactions to:"
+ ],
+ "EventLogReactionsRemoved2": [
+  "– Removed:"
+ ],
+ "EventLogRestrictedEditTag": [
+  "Edit own tag"
+ ],
+ "EventLogRestrictedReactToMessages": [
+  "React to messages"
+ ],
+ "EventLogRestrictedSendAudio": [
+  "Send music"
+ ],
+ "EventLogRestrictedSendDocs": [
+  "Send files"
+ ],
+ "EventLogRestrictedSendPhoto": [
+  "Send photos"
+ ],
+ "EventLogRestrictedSendVideo": [
+  "Send videos"
+ ],
+ "EventLogRestrictedSendVideoNotes": [
+  "Send video messages"
+ ],
+ "EventLogRestrictedSendVoiceNotes": [
+  "Send voice messages"
+ ],
+ "EventLogRestrictedTopics": [
+  "Create topics"
+ ],
+ "EventLogSlowModeDisabledYou": [
+  "%1$s disabled the slow mode"
+ ],
+ "EventLogTagRemoved": [
+  "%2$s removed tag for %3$s \"%1$s\""
+ ],
+ "EventLogTagRemovedYour": [
+  "%2$s removed your tag \"%1$s\""
+ ],
+ "EventLogTagSet": [
+  "%2$s set tag for %3$s \"%1$s\""
+ ],
+ "EventLogTagSetYour": [
+  "%2$s set your tag \"%1$s\""
+ ],
+ "EventLogTagYouRemoved": [
+  "You removed tag for %2$s \"%1$s\""
+ ],
+ "EventLogTagYouSet": [
+  "You set tag for %2$s \"%1$s\""
+ ],
+ "EventLogToggledShowSenderOff": [
+  "%1$s disabled sender visibility"
+ ],
+ "EventLogToggledShowSenderOn": [
+  "%1$s enabled sender visibility"
+ ],
+ "EventLogTransferredOwnership": [
+  "transferred ownership to %1$s"
+ ],
+ "EventLogTranslationOff": [
+  "%1$s disabled auto-translation"
+ ],
+ "EventLogTranslationOffYou": [
+  "You disabled auto-translation"
+ ],
+ "EventLogTranslationOn": [
+  "%1$s enabled auto-translation"
+ ],
+ "EventLogTranslationOnYou": [
+  "You enabled auto-translation"
+ ],
+ "EventLogUnmutedNewParticipants": [
+  "%1$s allowed new video chat participants to speak"
+ ],
+ "EventLogUnmutedNewParticipantsYou": [
+  "You allowed new video chat participants to speak"
+ ],
+ "EventLogUnmutedParticipant": [
+  "%1$s allowed %2$s to speak in the video chat"
+ ],
+ "EventLogUnmutedParticipantYou": [
+  "You allowed %1$s to speak in the video chat"
+ ],
+ "EventLogUsernameActivated": [
+  "%1$s activated %2$s username"
+ ],
+ "EventLogUsernameActivatedYou": [
+  "You activated %1$s username"
+ ],
+ "EventLogUsernameDeactivated": [
+  "%1$s deactivated %2$s username"
+ ],
+ "EventLogUsernameDeactivatedYou": [
+  "You deactivated %1$s username"
+ ],
+ "EventLogUsernamesActivated": [
+  "%2$s activated %1$s username: %3$s",
+  "%2$s activated %1$s usernames: %3$s"
+ ],
+ "EventLogUsernamesActivatedYou": [
+  "You activated %1$s username: %2$s",
+  "You activated %1$s usernames: %2$s"
+ ],
+ "EventLogUsernamesChanged": [
+  "%1$s changed active usernames from %2$s to %3$s"
+ ],
+ "EventLogUsernamesChangedOrder": [
+  "%1$s changed usernames order from %2$s to %3$s"
+ ],
+ "EventLogUsernamesChangedOrderYou": [
+  "You changed usernames order from %1$s to %2$s"
+ ],
+ "EventLogUsernamesChangedYou": [
+  "You changed active usernames from %1$s to %2$s"
+ ],
+ "EventLogUsernamesDeactivated": [
+  "%2$s deactivated %1$s username: %3$s",
+  "%2$s deactivated %1$s usernames: %3$s"
+ ],
+ "EventLogUsernamesDeactivatedYou": [
+  "You deactivated %1$s username: %2$s",
+  "You deactivated %1$s usernames: %2$s"
+ ],
+ "Experiment_ForceAltPushService": [
+  "Force alternative Push Services"
+ ],
+ "Experiment_ForceAltPushServiceInfo": [
+  "Prefer alternative push services provider, even if Google Play Services are installed and available. Restart application manually to apply changes."
+ ],
+ "Experiment_NoEdgeToEdge": [
+  "Disable Edge to Edge"
+ ],
+ "Experiment_NoEdgeToEdgeInfo": [
+  "Use this setting to compare behavior without edge-to-edge mode on Android 11–14."
+ ],
+ "ExperimentalSettingsUnavailable": [
+  "No experiments available. Come back later."
+ ],
+ "Fake": [
+  "Fake"
+ ],
+ "FakeMark": [
+  "FAKE"
+ ],
+ "FeatureUnavailable": [
+  "Sorry, this feature is currently not available in your region."
+ ],
+ "FolderRemoveInclusionConfirmType": [
+  "Are you sure you want to remove \"%1$s\" from the always included list?"
+ ],
+ "ForegroundSync": [
+  "Fetch missing notifications"
+ ],
+ "ForegroundSyncDesc": [
+  "Allow app to show **\"Checking for new messages\"** in the system tray to fetch missing data required to display a notification about a new message."
+ ],
+ "ForegroundSyncDescOff": [
+  "You may see **\"You may have a new message\"** notification in the system tray when some notifications couldn't be shown."
+ ],
+ "ForegroundSyncDescOn": [
+  "You may periodically see **\"Checking for new messages\"** in the system tray while app is closed until all notifications are properly shown."
+ ],
+ "ForwardedFromX": [
+  "Forwarded from %1$s"
+ ],
+ "FoundMessagesFromChat": [
+  "messages from %1$s"
+ ],
+ "FoundMessagesQuery": [
+  "%1$s"
+ ],
+ "FromAnonymous": [
+  "Admin"
+ ],
+ "GameInvite": [
+  "Invite to play"
+ ],
+ "Gift": [
+  "Gift"
+ ],
+ "GiftDate": [
+  "Date"
+ ],
+ "GiftFrom": [
+  "From"
+ ],
+ "GiftFromUnknown": [
+  "Unknown Sender"
+ ],
+ "GiftLink": [
+  "Gift link"
+ ],
+ "GiftLinkActivated": [
+  "Activated Gift link"
+ ],
+ "GiftLinkActivatedDesc": [
+  "This link was used to activate a **Telegram Premium** subscription"
+ ],
+ "GiftLinkDesc": [
+  "This link allows you to activate a **Telegram Premium** subscription"
+ ],
+ "GiftLinkRedeem": [
+  "Redeem gift link"
+ ],
+ "GiftLinkShareDesc": [
+  "You can also %1$s to a friend as a gift."
+ ],
+ "GiftLinkShareDesc_SendThisLink": [
+  "send this link"
+ ],
+ "GiftLinkWasActivated": [
+  "The link was activated on %1$s at %2$s"
+ ],
+ "GiftReason": [
+  "Reason"
+ ],
+ "GiftReasonGift": [
+  "Gift"
+ ],
+ "GiftReasonGiveaway": [
+  "Giveaway"
+ ],
+ "GiftTo": [
+  "To"
+ ],
+ "GiftToUnknown": [
+  "No recipient"
+ ],
+ "GiftedPremium": [
+  "%2$s gifted you %1$s month of Telegram Premium for %3$s",
+  "%2$s gifted you %1$s months of Telegram Premium for %3$s"
+ ],
+ "GiftedPremiumCode": [
+  "%2$s sent you a Gift Code for %1$s month of Telegram Premium",
+  "%2$s sent you a Gift Code for %1$s months of Telegram Premium"
+ ],
+ "GiftedPremiumCodeDays": [
+  "%2$s sent you a Gift Code for %1$s day of Telegram Premium",
+  "%2$s sent you a Gift Code for %1$s days of Telegram Premium"
+ ],
+ "GiftedPremiumDays": [
+  "%2$s gifted you %1$s day of Telegram Premium for %3$s",
+  "%2$s gifted you %1$s days of Telegram Premium for %3$s"
+ ],
+ "GiftsPrivacyDesc": [
+  "Choose whether gifts from specific senders need your approval before they're visible to others on your profile."
+ ],
+ "Giveaway": [
+  "Giveaway"
+ ],
+ "GiveawayCongratulations": [
+  "Congratulations"
+ ],
+ "GiveawayCountries": [
+  "from %1$s"
+ ],
+ "GiveawayEnded": [
+  "Giveaway ended"
+ ],
+ "GiveawayEndedRefunded": [
+  "The channel canceled the prizes by refunding the payment for them"
+ ],
+ "GiveawayEndedYouLose": [
+  "You didn’t win a prize in this giveaway"
+ ],
+ "GiveawayEndedYouWon": [
+  "You won a prize in this giveaway"
+ ],
+ "GiveawayInfoClose": [
+  "Close"
+ ],
+ "GiveawayInfoEndedPart1": [
+  "This giveaway was sponsored by the admins of %2$s, who acquired %1$s Telegram Premium subscription for %3$s months for its followers.",
+  "This giveaway was sponsored by the admins of %2$s, who acquired %1$s Telegram Premium subscriptions for %3$s months for its followers."
+ ],
+ "GiveawayInfoEndedPart1Stars": [
+  "This giveaway was sponsored by the admins of %2$s, who acquired %1$s Telegram Star for its followers.",
+  "This giveaway was sponsored by the admins of %2$s, who acquired %1$s Telegram Stars for its followers."
+ ],
+ "GiveawayInfoEndedPart2": [
+  "On %2$s, Telegram automatically selected %1$s random user that joined %3$s.",
+  "On %2$s, Telegram automatically selected %1$s random users that joined %3$s."
+ ],
+ "GiveawayInfoEndedPart3": [
+  "%1$s of the winners already used their gift link.",
+  "%1$s of the winners already used their gift links."
+ ],
+ "GiveawayInfoOngoingPart1": [
+  "This giveaway is sponsored by the admins of %2$s, who acquired %1$s Telegram Premium subscription for %3$s months for its followers.",
+  "This giveaway is sponsored by the admins of %2$s, who acquired %1$s Telegram Premium subscriptions for %3$s months for its followers."
+ ],
+ "GiveawayInfoOngoingPart1Stars": [
+  "This giveaway is sponsored by the admins of %2$s, who acquired %1$s Telegram Star for its followers.",
+  "This giveaway is sponsored by the admins of %2$s, who acquired %1$s Telegram Stars for its followers."
+ ],
+ "GiveawayInfoOngoingPart2": [
+  "On %2$s, Telegram will automatically select %1$s random user that joined %3$s.",
+  "On %2$s, Telegram will automatically select %1$s random users that joined %3$s."
+ ],
+ "GiveawayInfoOngoingPartEligible": [
+  "To take part in this giveaway please join the channel %1$s before %2$s."
+ ],
+ "GiveawayInfoOngoingPartRestrictedAdmin": [
+  "You are not eligible for this giveaway because you are an admin of a participating channel %1$s."
+ ],
+ "GiveawayInfoOngoingPartRestrictedCountry": [
+  "You are not eligible to participate in this giveaway because your country (%1$s) is not included in the terms of the giveaway."
+ ],
+ "GiveawayInfoOngoingPartRestrictedMember": [
+  "You are not eligible to participate in this giveaway because you joined this channel on %1$s, which is before the contest started."
+ ],
+ "GiveawayInfoPartExtended": [
+  "%2$s also included %1$s %3$s with the prizes. The channel admins are responsible for delivering these prizes.",
+  "%2$s also included %1$s %3$s with the prizes. The channel admins are responsible for delivering these prizes."
+ ],
+ "GiveawayOngoing": [
+  "Giveaway ongoing"
+ ],
+ "GiveawayOngoingYouEligible": [
+  "You can participate in this giveaway"
+ ],
+ "GiveawayOngoingYouParticipating": [
+  "You are participating in this giveaway"
+ ],
+ "GiveawayOngoingYouRestricted": [
+  "You can’t participate in this giveaway"
+ ],
+ "GiveawayParticipants": [
+  "Participants"
+ ],
+ "GiveawayParticipantsAll": [
+  "All subscribers of the channel:"
+ ],
+ "GiveawayParticipantsNew": [
+  "New subscribers of the channel:"
+ ],
+ "GiveawayParticipating": [
+  "Participating"
+ ],
+ "GiveawayPrizes": [
+  "Giveaway Prizes"
+ ],
+ "GiveawayPrizesAdditional": [
+  "%1$s x %2$s"
+ ],
+ "GiveawayPrizesWith": [
+  "with"
+ ],
+ "GiveawaySponsors": [
+  "%2$s and %1$s more channel",
+  "%2$s and %1$s more channels"
+ ],
+ "GiveawayUnclaimedPrize": [
+  "Unclaimed Prize"
+ ],
+ "GiveawayViewMyPrize": [
+  "View my prize"
+ ],
+ "GiveawayWinners": [
+  "Winners"
+ ],
+ "GiveawayWinnersSelected": [
+  "Winners Selected!"
+ ],
+ "GiveawayWinnersSelectionDate": [
+  "%1$s at %2$s"
+ ],
+ "GiveawayWinnersSelectionDateHeader": [
+  "Winners Selection Date"
+ ],
+ "GiveawayYouGetGift": [
+  "You received a gift from:"
+ ],
+ "GiveawayYouGetUnclaimedPrize": [
+  "You have an unclaimed prize from a giveaway by:"
+ ],
+ "GiveawayYouWon": [
+  "You won a prize in a giveaway organized by:"
+ ],
+ "Global": [
+  "Global"
+ ],
+ "Group": [
+  "Group"
+ ],
+ "GroupInfo": [
+  "Group Info"
+ ],
+ "GroupRestrictions": [
+  "Group Permissions"
+ ],
+ "HelpEmailError": [
+  "Please send an email to %1$s and tell us about your problem"
+ ],
+ "HideAllChats": [
+  "Hide All Chats"
+ ],
+ "HideMedia": [
+  "Hide media"
+ ],
+ "HoldToSchedule": [
+  "Hold to send at a specific date and other options."
+ ],
+ "HoldToSendAsFile": [
+  "Hold to send as a file and other options."
+ ],
+ "Icons": [
+  "Icon Set"
+ ],
+ "IconsInstalling": [
+  "Installing…"
+ ],
+ "IconsUpdate": [
+  "Update Needed"
+ ],
+ "IgnoreRestrictions": [
+  "Ignore content restrictions"
+ ],
+ "IllegalDrugs": [
+  "Illegal Drugs"
+ ],
+ "InReplyToX": [
+  "In reply to %1$s"
+ ],
+ "InstallUpdate": [
+  "Install an update"
+ ],
+ "InstantViewError": [
+  "Instant View could not be displayed due to an error."
+ ],
+ "InstantViewSectionUnsupported": [
+  "Instant View for this section is not yet supported."
+ ],
+ "InstantViewUnavailable": [
+  "Instant View for this page is not available."
+ ],
+ "InstantViewUnsupported": [
+  "Instant View for this page is not yet supported."
+ ],
+ "InviteLinkActionDecline": [
+  "Decline"
+ ],
+ "InviteLinkExpireNone": [
+  "Do not expire"
+ ],
+ "InviteLinkExpired": [
+  "expired"
+ ],
+ "InviteLinkExpires_now": [
+  "expires in a moment"
+ ],
+ "InviteLinkRevoked": [
+  "revoked"
+ ],
+ "InvitedByX": [
+  "Invited by %1$s"
+ ],
+ "InvitedByXOnDate": [
+  "Invited by %1$s %2$s"
+ ],
+ "JunkFiles": [
+  "Unused Files"
+ ],
+ "JunkFilesInfo": [
+  "Service files that were created while using some features or older app versions."
+ ],
+ "LastEditTime": [
+  "Last edit: %1$s"
+ ],
+ "LastUsedAccount": [
+  "%1$s (last used)"
+ ],
+ "LaunchAppUserSubtitle": [
+  "offline"
+ ],
+ "LayerMapHybrid": [
+  "Hybrid"
+ ],
+ "LeaveComment": [
+  "Leave a comment"
+ ],
+ "LimitAddShareableFolder": [
+  "Sorry, you can't have more than **%1$s** shareable folder.",
+  "Sorry, you can't have more than **%1$s** shareable folders."
+ ],
+ "LimitChatsInFolder": [
+  "Sorry, you can't add more than **%1$s** chat to a folder. Please create a new one.",
+  "Sorry, you can't add more than **%1$s** chats to a folder. Please create a new one."
+ ],
+ "LimitCreateFolder": [
+  "You have reached the limit of **%1$s** folder.",
+  "You have reached the limit of **%1$s** folders."
+ ],
+ "LinkChannel": [
+  "Link a channel"
+ ],
+ "LinkDeleteOther": [
+  "%1$s deleted %2$s's invite link %3$s"
+ ],
+ "LinkDeleteOtherYou": [
+  "You deleted %1$s's invite link %2$s"
+ ],
+ "LinkDeletePrimary": [
+  "%1$s deleted the primary invite link %2$s"
+ ],
+ "LinkDeletePrimaryYou": [
+  "You deleted the primary invite link %1$s"
+ ],
+ "LinkDeleteTemp": [
+  "%1$s deleted %2$s's temporary invite link %3$s"
+ ],
+ "LinkDeleteTempYou": [
+  "You deleted %1$s's temporary invite link %2$s"
+ ],
+ "LinkGroupConfirmWarnPrivateChannel": [
+  "Any member of this group will be able to see messages in the channel."
+ ],
+ "LinkInvalidLong": [
+  "Public link must not exceed 32 characters."
+ ],
+ "LinkJoinChannelOther": [
+  "%1$s subscribed via %2$s's invite link %3$s"
+ ],
+ "LinkJoinChannelOtherWithApproval": [
+  "%1$s subscribed via %2$s's invite link %3$s, approved by %4$s"
+ ],
+ "LinkJoinChannelOtherYou": [
+  "You subscribed via %1$s's invite link %2$s"
+ ],
+ "LinkJoinChannelOtherYouWithApproval": [
+  "You subscribed via %1$s's invite link %2$s, approved by %3$s"
+ ],
+ "LinkJoinChannelPrimaryWithApproval": [
+  "%1$s subscribed via the primary invite link %2$s, approved by %3$s"
+ ],
+ "LinkJoinChannelPrimaryYou": [
+  "You subscribed via the primary invite link %1$s"
+ ],
+ "LinkJoinChannelPrimaryYouWithApproval": [
+  "You subscribed via the primary invite link %1$s, approved by %2$s"
+ ],
+ "LinkJoinChannelTemp": [
+  "%1$s subscribed via %2$s's temporary invite link %3$s"
+ ],
+ "LinkJoinChannelTempYou": [
+  "You subscribed via %1$s's temporary invite link %2$s"
+ ],
+ "LinkJoinChannelTempYouWithApproval": [
+  "You subscribed via %1$s's temporary invite link %2$s, approved by %3$s"
+ ],
+ "LinkJoinOther": [
+  "%1$s joined via %2$s's invite link %3$s"
+ ],
+ "LinkJoinOtherWithApproval": [
+  "%1$s joined via %2$s's invite link %3$s, approved by %4$s"
+ ],
+ "LinkJoinOtherYou": [
+  "You joined via %1$s's invite link %2$s"
+ ],
+ "LinkJoinOtherYouWithApproval": [
+  "You joined via %1$s's invite link %2$s, approved by %3$s"
+ ],
+ "LinkJoinPrimary": [
+  "%1$s joined via the primary invite link %2$s"
+ ],
+ "LinkJoinPrimaryYou": [
+  "You joined via the primary invite link %1$s"
+ ],
+ "LinkJoinPrimaryYouWithApproval": [
+  "You joined via the primary invite link %1$s, approved by %2$s"
+ ],
+ "LinkJoinTemp": [
+  "%1$s joined via %2$s's temporary invite link %3$s"
+ ],
+ "LinkJoinTempWithApproval": [
+  "%1$s joined via %2$s's temporary invite link %3$s, approved by %4$s"
+ ],
+ "LinkJoinTempYou": [
+  "You joined via %1$s's temporary invite link %2$s"
+ ],
+ "LinkJoinTempYouWithApproval": [
+  "You joined via %1$s's temporary invite link %2$s, approved by %3$s"
+ ],
+ "LinkPreview": [
+  "Link Preview"
+ ],
+ "LinkPurchasable": [
+  "This link is unavailable. However, it is available for purchase. [Learn more…](%1$s)"
+ ],
+ "LinkRevokeOther": [
+  "%1$s revoked %2$s's invite link %3$s"
+ ],
+ "LinkRevokeOtherYou": [
+  "You revoked %1$s's invite link %2$s"
+ ],
+ "LinkRevokeTemp": [
+  "%1$s revoked %2$s's temporary invite link %3$s"
+ ],
+ "LinkRevokeTempYou": [
+  "You revoked %1$s's temporary invite link %2$s"
+ ],
+ "LinkedChatNotFound": [
+  "Linked chat not found"
+ ],
+ "LiveStreamEnded": [
+  "Live stream ended"
+ ],
+ "LiveStreamEndedBy": [
+  "%1$s ended the live stream"
+ ],
+ "LiveStreamInvite": [
+  "%1$s invited %2$s to the live stream"
+ ],
+ "LiveStreamInviteOther": [
+  "You invited %1$s to the live stream"
+ ],
+ "LiveStreamInviteSelf": [
+  "%1$s invited you to the live stream"
+ ],
+ "LiveStreamStarted": [
+  "Live stream started"
+ ],
+ "LiveStreamStartedBy": [
+  "%1$s started a live stream"
+ ],
+ "LiveStreamStartedYou": [
+  "You started a live stream"
+ ],
+ "LoadingChannel": [
+  "Loading channel…"
+ ],
+ "LoadingMessage": [
+  "Loading message…"
+ ],
+ "LoadingMessageSeen": [
+  "Loading…"
+ ],
+ "LoadingUsername": [
+  "Loading username…"
+ ],
+ "LocationAlertSunriseSunset": [
+  "To calculate sunrise and sunset times, allow Telegram X access to your location."
+ ],
+ "LoginEmailInfo": [
+  "Please enter your valid email address."
+ ],
+ "LoginErrorAirplane": [
+  "You currently have airplane mode enabled. Please turn it off or connect to Wi-Fi in order to start messaging."
+ ],
+ "LoginErrorLongConnecting": [
+  "Telegram X is unable to quickly establish connection with the server.Please check your network connection or wait until this pop-up disappears automatically.Proxy servers may be helpful in accessing Telegram if there is no connection in your region."
+ ],
+ "LoginErrorOffline": [
+  "You're currently offline. Please connect to the Internet in order to start messaging."
+ ],
+ "LongStreamingPreloadAlert": [
+  "This video is not optimized for streaming. You need to fully download it before viewing."
+ ],
+ "LongStreamingPreloadAlertClose": [
+  "Got it"
+ ],
+ "MediaAd": [
+  "Ad"
+ ],
+ "MediaOnceTurnOnSound": [
+  "Please, turn on the sound first."
+ ],
+ "MediaOnceWaitFilDownload": [
+  "Wait until the file is completely downloaded."
+ ],
+ "MediaRecommendation": [
+  "Recommendation"
+ ],
+ "MediaRestricted": [
+  "Media unavailable"
+ ],
+ "MediaSpoilerHint": [
+  "Media will be blurred inside the chat and reveal after additional tap."
+ ],
+ "MembersDetailBannedChannel": [
+  "Banned subscribers"
+ ],
+ "MembersDetailBannedGroup": [
+  "Banned members"
+ ],
+ "MessageContainsPremiumFeatures": [
+  "Sending animated emoji requires **Telegram Premium**"
+ ],
+ "MessagePreviewDisabled": [
+  "Disabled"
+ ],
+ "MessagePreviewEnabled": [
+  "Enabled"
+ ],
+ "MessageReply": [
+  "Reply"
+ ],
+ "MessageRestrictedByTelegram": [
+  "This is a service message from Telegram"
+ ],
+ "MessageSearchFilterAll": [
+  "All message types"
+ ],
+ "MessageSearchFilterFiles": [
+  "Files"
+ ],
+ "MessageSearchFilterGif": [
+  "GIFs"
+ ],
+ "MessageSearchFilterMusic": [
+  "Music"
+ ],
+ "MessageSearchFilterPhoto": [
+  "Photos"
+ ],
+ "MessageSearchFilterRound": [
+  "Video messages"
+ ],
+ "MessageSearchFilterText": [
+  "Text messages"
+ ],
+ "MessageSearchFilterVideo": [
+  "Videos"
+ ],
+ "MessageSearchFilterVoice": [
+  "Voice messages"
+ ],
+ "MessageSeenNobodyListened": [
+  "Nobody Listened"
+ ],
+ "MessageSeenNobodyPlayed": [
+  "Nobody Played"
+ ],
+ "MessageSeenXListened": [
+  "%1$s listened",
+  "%1$s listened"
+ ],
+ "MessageSeenXPlayed": [
+  "%1$s played",
+  "%1$s played"
+ ],
+ "MessageShowInChat": [
+  "Show in chat"
+ ],
+ "MessagesArchive": [
+  "Messages in archived chats"
+ ],
+ "MessagesArchiveBots": [
+  "Messages from archived bots"
+ ],
+ "MessagesArchiveChannels": [
+  "Messages from archived channels"
+ ],
+ "MessagesArchiveGroups": [
+  "Messages in archived groups"
+ ],
+ "MessagesArchivePrivate": [
+  "Messages in archived private chats"
+ ],
+ "MessagesBots": [
+  "Messages from bots"
+ ],
+ "MessagesChannels": [
+  "Messages from channels"
+ ],
+ "MessagesGroups": [
+  "Messages in groups"
+ ],
+ "MessagesPrivate": [
+  "Messages in private chats"
+ ],
+ "MissingAudioPermission": [
+  "You have restricted access to audio files. Allow access in system settings."
+ ],
+ "MissingGalleryPermission": [
+  "You have restricted access to images and videos. Allow access in system settings."
+ ],
+ "MissingMessages": [
+  "You may have a new message"
+ ],
+ "MissingMessagesText": [
+  "Account: %1$s"
+ ],
+ "MoreMessageSenders": [
+  "More"
+ ],
+ "MultiLinkPrefix": [
+  "also"
+ ],
+ "MultiUsernamePrefix": [
+  "also"
+ ],
+ "MultipleUrlPlaceholder": [
+  "Multiple links selected"
+ ],
+ "NewMessages": [
+  "New Messages"
+ ],
+ "NoAdminRulesHint": [
+  "Specify at least one admin rule"
+ ],
+ "NoCameraAccess": [
+  "This feature requires access to camera."
+ ],
+ "NoChats": [
+  "You have no chats"
+ ],
+ "NoDownloadFilesFound": [
+  "No downloaded files found"
+ ],
+ "NoEmailApp": [
+  "No email application found"
+ ],
+ "NoFilePicker": [
+  "Application to browse files not found"
+ ],
+ "NoGalleryAccess": [
+  "Permission error"
+ ],
+ "NoLinkInfo": [
+  "Link info is not available"
+ ],
+ "NoMicrophoneAccess": [
+  "This feature requires access to microphone."
+ ],
+ "NoPhotosToShowInChannel": [
+  "Published photoswill be shown here."
+ ],
+ "NoResultsToShow": [
+  "No results to show"
+ ],
+ "NoResultsToShowDesc": [
+  "Try changing your search query."
+ ],
+ "NoUnreadChats": [
+  "No unread chats"
+ ],
+ "NoVideosToShow": [
+  "No videos to show"
+ ],
+ "NoVideosToShowInChannel": [
+  "Published videoswill be shown here."
+ ],
+ "NotNow": [
+  "Not now"
+ ],
+ "Nothing": [
+  "Nothing"
+ ],
+ "NotificationChannelCall": [
+  "Incoming Call"
+ ],
+ "NotificationChannelMaybe": [
+  "Missed notifications"
+ ],
+ "NotificationImportanceDefaultMuted": [
+  "Silent"
+ ],
+ "NotificationImportanceDefaultNoSound": [
+  "Vibrate"
+ ],
+ "NotificationImportanceHighMuted": [
+  "Pop up on screen"
+ ],
+ "NotificationImportanceHighNoSound": [
+  "Vibrate and pop-up"
+ ],
+ "NotificationImportanceLowMuted": [
+  "Silent (lower priority)"
+ ],
+ "NotificationImportanceNone": [
+  "Disabled"
+ ],
+ "NotificationMutedChat": [
+  "Muted %1$s for 1 hour"
+ ],
+ "NotificationMutedPerson": [
+  "Muted %1$s for 1 hour"
+ ],
+ "NotificationMutedPersons": [
+  "Muted %1$s person for 1 hour",
+  "Muted %1$s people for 1 hour"
+ ],
+ "NotificationRead": [
+  "Marked messages as read"
+ ],
+ "NotificationReadMentions": [
+  "Marked mentions as read"
+ ],
+ "NotificationReplyFailed": [
+  "Failed to send a reply"
+ ],
+ "NotificationUnmutedChat": [
+  "Unmuted %1$s"
+ ],
+ "NotificationUnmutedPeople": [
+  "Unmuted %1$s person",
+  "Unmuted %1$s people"
+ ],
+ "NotificationUnmutedPerson": [
+  "Unmuted %1$s"
+ ],
+ "NotificationsDefaultUnmutesIn": [
+  "Unmutes in %1$s"
+ ],
+ "NotificationsEnabledHint": [
+  "Enabled (%1$s)"
+ ],
+ "NotificationsErrorBackground": [
+  "Notifications may not work while the app is closed"
+ ],
+ "NotificationsErrorError": [
+  "Couldn't display some notifications"
+ ],
+ "NotificationsErrorErrorChat": [
+  "Couldn't display notification from %1$s"
+ ],
+ "NotificationsGuideBlockedAll": [
+  "Notifications from Telegram are blocked in your device settings.To enable notifications:• Tap System Notification Settings.• Turn on Show Notifications."
+ ],
+ "NotificationsGuideBlockedCategory": [
+  "Notifications for the current account are disabled in system settings.To enable notifications:• Tap System Notification Settings• Find the \"%1$s\" notification category• Turn the toggle on to unblock notifications."
+ ],
+ "NotificationsGuideCategoryLimit": [
+  "**Telegram X** was unable to display some notifications for this account due to notification categories system limit.Please make sure:• All system updates are installed• Telegram X is up-to-date• There are no notification restrictions in system settings.If the steps above do not help, you might want to ask @tgandroidtests for troubleshooting tips for your device, or re-install Telegram X, which should help resolving this error, but requires logging in to your account again."
+ ],
+ "NotificationsGuideCategoryLimitErrorChat": [
+  "**Telegram X** was unable to display some notifications from %1$s due to notification categories system limit.Please make sure:• All system updates are installed• Telegram X is up-to-date• There are no notification restrictions in system settings.If the steps above do not help, you might want to ask @tgandroidtests for troubleshooting tips for your device, or re-install Telegram X, which should help resolving this error, but requires logging in to your account again."
+ ],
+ "NotificationsGuideSyncAppOff": [
+  "You have data sync turned off for Telegram X. Notifications may not arrive when app is closed.Data sync may be implicitly turned off by the battery optimization mode on your device."
+ ],
+ "NotificationsModeSelectedHintExcluded": [
+  "You will receive notifications only from %1$s selected account. Current account is not selected.",
+  "You will receive notifications only from %1$s selected accounts. Current account is not selected."
+ ],
+ "OnRoaming": [
+  "While Roaming"
+ ],
+ "OnlyAdminsSpecific": [
+  "Only admins with privilege"
+ ],
+ "OnlyOwnerChannel": [
+  "Only the channel owner can toggle this setting."
+ ],
+ "OpenCloudChat": [
+  "Open Cloud Chat"
+ ],
+ "OpenGiftLink": [
+  "Open gift link"
+ ],
+ "OpenPreviewInSecretChatActionBrowser": [
+  "Open in browser"
+ ],
+ "OpenPreviewInSecretChatActionOpen": [
+  "Open as preview"
+ ],
+ "OpenPreviewInSecretChatWarning": [
+  "Are you sure you want to open preview of %1$s with the following URL:%2$s"
+ ],
+ "OpenStickerSet": [
+  "Show Sticker Set"
+ ],
+ "PR": [
+  "PR #%1$d"
+ ],
+ "PaidMedia": [
+  "Paid content"
+ ],
+ "PaidX": [
+  "You successfully paid %1$s"
+ ],
+ "ParticipantXLimitReached": [
+  "You can't add more than %1$s member to this group",
+  "You can't add more than %1$s members to this group"
+ ],
+ "PasscodeBiometricsWeak": [
+  "Biometrics (weak)"
+ ],
+ "PasscodeMismatchBiometrics": [
+  "Biometrics do not match"
+ ],
+ "PasscodeMismatchFingerprint": [
+  "Fingerprints do not match"
+ ],
+ "PasswordIsInvalid": [
+  "The password you have entered is invalid"
+ ],
+ "PasteUrlEmptyHint": [
+  "Clipboard is empty"
+ ],
+ "PasteUrlNotValidHint": [
+  "Invalid link"
+ ],
+ "PasteUrlPlaceholder": [
+  "Paste url…"
+ ],
+ "PaymentRefunded": [
+  "%1$s refunded %2$s"
+ ],
+ "PeerId": [
+  "Peer ID"
+ ],
+ "PerformAs": [
+  "Perform action as…"
+ ],
+ "PersonalDetails": [
+  "Personal Details"
+ ],
+ "PinXMessages": [
+  "Pin %1$s message?",
+  "Pin %1$s messages?"
+ ],
+ "PinnedMessageAction": [
+  "Pinned a message"
+ ],
+ "PinnedMessageChanged": [
+  "Pinned message changed"
+ ],
+ "PlayListRestore": [
+  "Add to Playlist"
+ ],
+ "PlaybackSpeedHintHold": [
+  "Hold to access more options"
+ ],
+ "PlaybackSpeedHintVideo100": [
+  "Video will play at normal speed"
+ ],
+ "PlaybackSpeedHintVideo150": [
+  "Video will play at 1.5x speed"
+ ],
+ "PlaybackSpeedHintVideo200": [
+  "Video will play two times faster"
+ ],
+ "PlusSign": [
+  "+"
+ ],
+ "PollDescription": [
+  "Description (optional)"
+ ],
+ "PollDescriptionEmpty": [
+  "Add a description"
+ ],
+ "PollDescriptionInfo": [
+  "Description will be displayed above the poll title."
+ ],
+ "PollSettingAdding": [
+  "Allow Adding Options"
+ ],
+ "PollSettingAddingOff": [
+  "Participants can't suggest new options"
+ ],
+ "PollSettingAddingOn": [
+  "Participants can suggest new options"
+ ],
+ "PollSettingCountries": [
+  "Limit by Country"
+ ],
+ "PollSettingCountriesOff": [
+  "Users from all countries can vote"
+ ],
+ "PollSettingCountriesOn": [
+  "Only users from selected countries can vote"
+ ],
+ "PollSettingCountriesOnSpecific": [
+  "Only users from %1$s"
+ ],
+ "PollSettingDuration": [
+  "Limit Duration"
+ ],
+ "PollSettingDurationOff": [
+  "Automatically close voting at the set time"
+ ],
+ "PollSettingDurationOn": [
+  "Voting closes at %1$s"
+ ],
+ "PollSettingHideResults": [
+  "Hide Results"
+ ],
+ "PollSettingHideResultsOff": [
+  "Results are shown upon voting"
+ ],
+ "PollSettingHideResultsOn": [
+  "Results are shown once voting is closed"
+ ],
+ "PollSettingMembers": [
+  "Restrict to Subscribers"
+ ],
+ "PollSettingMembersOff": [
+  "Non-subscribed users can vote"
+ ],
+ "PollSettingMembersOn": [
+  "Only subscribers joined 24+ hours ago can vote"
+ ],
+ "PollSettingMultipleOff": [
+  "Only one option can be selected"
+ ],
+ "PollSettingMultipleOn": [
+  "More than one option can be selected"
+ ],
+ "PollSettingQuizOff": [
+  "Enable to set the right answer"
+ ],
+ "PollSettingQuizOn": [
+  "Choose the only right answer"
+ ],
+ "PollSettingRevoting": [
+  "Allow Revoting"
+ ],
+ "PollSettingRevotingOff": [
+  "Voters can vote only once"
+ ],
+ "PollSettingRevotingOn": [
+  "Voters can change their vote"
+ ],
+ "PollSettingShowVoters": [
+  "Show Who Voted"
+ ],
+ "PollSettingShowVotersOff": [
+  "Voters are anonymous"
+ ],
+ "PollSettingShowVotersOn": [
+  "Display voter on each option"
+ ],
+ "PollSettingShuffle": [
+  "Shuffle Options"
+ ],
+ "PollSettingShuffleOff": [
+  "Voters see options in the same order"
+ ],
+ "PollSettingShuffleOn": [
+  "Options are shuffled for each voter"
+ ],
+ "PremiumLimitAddShareableFolder": [
+  "You can only have %1$s shareable folder. You can increase the limit to %2$s by subscribing to **Telegram Premium**.",
+  "You can only have %1$s shareable folders. You can increase the limit to %2$s by subscribing to **Telegram Premium**."
+ ],
+ "PremiumLimitChatsInFolder": [
+  "Sorry, you can't add more than %1$s chat to a folder. You can increase the limit to %2$s by subscribing to **Telegram Premium**.",
+  "Sorry, you can't add more than %1$s chats to a folder. You can increase the limit to %2$s by subscribing to **Telegram Premium**."
+ ],
+ "PremiumRequired": [
+  "This feature requires a **Telegram Premium** subscription."
+ ],
+ "PrimaryLink": [
+  "Primary link"
+ ],
+ "PrimaryLinkBotHint": [
+  "Primary link can't be disabled."
+ ],
+ "PrimaryLinkHint": [
+  "Primary link can't be disabled. You can remove it using the field above."
+ ],
+ "PrimaryUsername": [
+  "Primary username"
+ ],
+ "PrimaryUsernameHint": [
+  "Primary username can't be disabled. You can remove it using the field above."
+ ],
+ "PrivacyAddToGroupsExceptionContacts": [
+  "Only contacts"
+ ],
+ "PrivacyAddToGroupsExceptionContactsAndPremium": [
+  "Only contacts and **Telegram Premium** users"
+ ],
+ "PrivacyAddToGroupsExceptionPremium": [
+  "Only **Telegram Premium** users"
+ ],
+ "PrivacyAllowFindingContactsExcept": [
+  "Only contacts (%1$s) can find you on Telegram"
+ ],
+ "PrivacyAllowFindingEverybodyExcept": [
+  "Everybody (%1$s) can find you on Telegram"
+ ],
+ "PrivacyAudioContacts": [
+  "Only contacts can see your saved music"
+ ],
+ "PrivacyAudioContactsExcept": [
+  "Only contacts (%1$s) can see your saved music"
+ ],
+ "PrivacyAudioEverybody": [
+  "Everybody can see your saved music"
+ ],
+ "PrivacyAudioEverybodyExcept": [
+  "Everybody (%1$s) can see your saved music"
+ ],
+ "PrivacyAudioExceptionContacts": [
+  "Visible only for contacts"
+ ],
+ "PrivacyAudioExceptionOff": [
+  "Hidden"
+ ],
+ "PrivacyAudioExceptionOn": [
+  "Visible"
+ ],
+ "PrivacyAudioNobody": [
+  "Nobody can see your saved music"
+ ],
+ "PrivacyAudioNobodyExcept": [
+  "Nobody (%1$s) can see your saved music"
+ ],
+ "PrivacyAudioTitle": [
+  "Saved Music"
+ ],
+ "PrivacyDefaultBots": [
+  "Default for bots and mini apps"
+ ],
+ "PrivacyDefaultChat": [
+  "Default for %1$s"
+ ],
+ "PrivacyDefaultContacts": [
+  "Default for contacts"
+ ],
+ "PrivacyDefaultXChats": [
+  "Default for %1$s chat",
+  "Default for %1$s chats"
+ ],
+ "PrivacyForwardLinkNobodyExcept": [
+  "Do not have a link to your account (%1$s)"
+ ],
+ "PrivacyGiftsContacts": [
+  "Only contacts can display gifts without approval"
+ ],
+ "PrivacyGiftsContactsExcept": [
+  "Only contacts (%1$s) can display gifts without approval"
+ ],
+ "PrivacyGiftsEverybody": [
+  "Everybody can display gifts without approval"
+ ],
+ "PrivacyGiftsEverybodyExcept": [
+  "Everybody (%1$s) can display gifts without approval"
+ ],
+ "PrivacyGiftsExceptionContacts": [
+  "Only contacts"
+ ],
+ "PrivacyGiftsExceptionOff": [
+  "Only approved"
+ ],
+ "PrivacyGiftsExceptionOn": [
+  "All"
+ ],
+ "PrivacyGiftsNobody": [
+  "Nobody can display gifts without approval"
+ ],
+ "PrivacyGiftsNobodyExcept": [
+  "Nobody (%1$s) can display gifts without approval"
+ ],
+ "PrivacyGiftsTitle": [
+  "Auto-accept Gifts"
+ ],
+ "PrivacyMessage": [
+  "Messages"
+ ],
+ "PrivacyMessagePaid": [
+  "Paid"
+ ],
+ "PrivacyNoFeeContacts": [
+  "Only contacts do not pay a message fee"
+ ],
+ "PrivacyNoFeeContactsExcept": [
+  "Only contacts (%1$s) do not pay a message fee"
+ ],
+ "PrivacyNoFeeEverybody": [
+  "Everybody can message you without a fee"
+ ],
+ "PrivacyNoFeeEverybodyExcept": [
+  "Everybody (%1$s) can message you without a fee"
+ ],
+ "PrivacyNoFeeNobody": [
+  "Everybody pays a message fee"
+ ],
+ "PrivacyNoFeeNobodyExcept": [
+  "Everybody (%1$s) pays a message fee"
+ ],
+ "PrivacyP2PExceptionContacts": [
+  "Only contacts"
+ ],
+ "PrivacyPhotoExceptionContacts": [
+  "Visible only for contacts"
+ ],
+ "PrivacyReadDateDefaultAll": [
+  "Default"
+ ],
+ "PrivacyReadDateExceptionContacts": [
+  "Only contacts"
+ ],
+ "PrivacyReadDateExceptionContactsAndPremium": [
+  "Only contacts and **Telegram Premium** users"
+ ],
+ "PrivacyReadDateExceptionPremium": [
+  "Only **Telegram Premium** users"
+ ],
+ "PrivacyShowBioContacts": [
+  "Only contacts can see your bio"
+ ],
+ "PrivacyShowBioContactsExcept": [
+  "Only contacts (%1$s) can see your bio"
+ ],
+ "PrivacyShowBioEverybody": [
+  "Everybody can see your bio"
+ ],
+ "PrivacyShowBioEverybodyExcept": [
+  "Everybody (%1$s) can see your bio"
+ ],
+ "PrivacyShowBioExceptionContacts": [
+  "Visible only for contacts"
+ ],
+ "PrivacyShowBioExceptionOff": [
+  "Hidden"
+ ],
+ "PrivacyShowBioExceptionOn": [
+  "Visible"
+ ],
+ "PrivacyShowBioNobody": [
+  "Nobody can see your bio"
+ ],
+ "PrivacyShowBioNobodyExcept": [
+  "Nobody (%1$s) can see your bio"
+ ],
+ "PrivacyShowBirthdateExceptionContacts": [
+  "Visible only for contacts"
+ ],
+ "PrivacyShowNumberExceptionContacts": [
+  "Visible only for contacts"
+ ],
+ "PrivacyVoiceVideoExceptionContacts": [
+  "Only contacts"
+ ],
+ "PrivacyVoiceVideoExceptionOn": [
+  "Allowed"
+ ],
+ "ProcessingFileWait": [
+  "Processing files. Please wait…"
+ ],
+ "ProcessingMedia": [
+  "Processing %1$s"
+ ],
+ "PromotedByXOnDate": [
+  "Promoted by %1$s %2$s"
+ ],
+ "ProximityAlertKM": [
+  "%2$s is now within %1$s kilometer from %3$s",
+  "%2$s is now within %1$s kilometers from %3$s"
+ ],
+ "ProximityAlertM": [
+  "%2$s is now within %1$s meter from %3$s",
+  "%2$s is now within %1$s meters from %3$s"
+ ],
+ "ProximityAlertOtherKM": [
+  "%2$s is now within %1$s kilometer from you",
+  "%2$s is now within %1$s kilometers from you"
+ ],
+ "ProximityAlertOtherM": [
+  "%2$s is now within %1$s meter from you",
+  "%2$s is now within %1$s meters from you"
+ ],
+ "ProximityAlertYouKM": [
+  "You are now within %1$s kilometer from %2$s",
+  "You are now within %1$s kilometers from %2$s"
+ ],
+ "ProximityAlertYouM": [
+  "You are now within %1$s meter from %2$s",
+  "You are now within %1$s meters from %2$s"
+ ],
+ "ProxyLinkUnsupported": [
+  "Proxy link is invalid."
+ ],
+ "PsaChatInfo": [
+  "This chat provides you public service announcements."
+ ],
+ "PsaChatInfoCovid": [
+  "This chat provides you public service announcements in relation to the ongoing **COVID-19** pandemic. Learn more about this initiative at https://telegram.org/blog/coronavirus"
+ ],
+ "PsaForward": [
+  "PSA Notification"
+ ],
+ "PsaForwardCovid": [
+  "COVID-19 Notification"
+ ],
+ "PsaFromX": [
+  "from %1$s"
+ ],
+ "PsaFromXViaBot": [
+  "from %1$s via %2$s"
+ ],
+ "PsaHide": [
+  "Hide"
+ ],
+ "PsaHideConfirm": [
+  "Hide %1$s?"
+ ],
+ "PsaHideConfirmCovid": [
+  "Hide COVID-19 notifications from %1$s?"
+ ],
+ "PsaHideDone": [
+  "Hide from chat list"
+ ],
+ "PsaInfo": [
+  "This message provides you with a public service announcement."
+ ],
+ "PsaInfoCovid": [
+  "This message provides you with a public service announcement in relation to the ongoing **COVID-19** pandemic. Learn more about this initiative at https://telegram.org/blog/coronavirus"
+ ],
+ "PsaType": [
+  "PSA"
+ ],
+ "PsaTypeCovid": [
+  "COVID-19"
+ ],
+ "PublicGroup": [
+  "Public group"
+ ],
+ "QBlockChat": [
+  "Block %1$s? You will no longer receive replies notifications from their anonymous admins."
+ ],
+ "QDeleteXMessagesFromY": [
+  "Delete %1$s message from %2$s?",
+  "Delete %1$s messages from %2$s?"
+ ],
+ "Quality": [
+  "Quality"
+ ],
+ "QuizDescriptionInfo": [
+  "Description will be displayed above the quiz title."
+ ],
+ "QuizOptionHint": [
+  "Tap to choose the correct answer."
+ ],
+ "ReactionAvatarsInfo": [
+  "When limited, avatars display only in scenarios when you are likely to recognise the user."
+ ],
+ "ReactionsAllowAll": [
+  "Enabled"
+ ],
+ "ReactionsAllowNone": [
+  "Disabled"
+ ],
+ "ReactionsAllowSome": [
+  "%1$s allowed",
+  "%1$s allowed"
+ ],
+ "ReactionsEnabledAll": [
+  "**All** reactions enabled"
+ ],
+ "ReadAllChatsDone": [
+  "Marked %1$s chat as read",
+  "Marked %1$s chats as read"
+ ],
+ "ReadDate_date": [
+  "Read %1$s at %2$s"
+ ],
+ "ReadDate_hours": [
+  "Read %1$s hour ago",
+  "Read %1$s hours ago"
+ ],
+ "ReadDate_minutes": [
+  "Read %1$s minute ago",
+  "Read %1$s minutes ago"
+ ],
+ "ReadDate_now": [
+  "Read just now"
+ ],
+ "ReadDate_seconds": [
+  "Read %1$s second ago",
+  "Read %1$s seconds ago"
+ ],
+ "ReadDate_weekday": [
+  "Read on %1$s at %2$s"
+ ],
+ "ReadDate_yesterday": [
+  "Read yesterday at %1$s"
+ ],
+ "ReceivedXStars": [
+  "%3$s received %1$s star for %2$s",
+  "%3$s received %1$s stars for %2$s"
+ ],
+ "RecentAdmins": [
+  "Admins"
+ ],
+ "RecommendedSign": [
+  "recommended"
+ ],
+ "RecoveryCodeResent": [
+  "The verification code has been resent to your email."
+ ],
+ "RecoveryCodeSentEmailUnknown": [
+  "We've sent you a 6-digit recovery code. Please check your email and enter it here."
+ ],
+ "RecoveryEmailSent": [
+  "We have sent you an email to confirm your address."
+ ],
+ "RecurringPayment": [
+  "Recurring payment"
+ ],
+ "RegionNotFound": [
+  "Country code not found"
+ ],
+ "ReminderActionVerifyPassword": [
+  "Verify Password"
+ ],
+ "ReminderCheckTfaPassword": [
+  "Check your password"
+ ],
+ "ReminderCheckTfaPasswordDescription": [
+  "Check that you still remember your 2-Step Verification password to ensure you can always log into Telegram."
+ ],
+ "ReminderCheckTfaPasswordHide": [
+  "Hide Suggestion"
+ ],
+ "ReminderCheckTfaPasswordText": [
+  "Do you still remember your password?"
+ ],
+ "ReminderSetBirthdate": [
+  "Let people know when you're celebrating"
+ ],
+ "ReminderSetBirthdateText": [
+  "Add your birthday"
+ ],
+ "ReminderSetLoginEmail": [
+  "Set login email"
+ ],
+ "ReminderSetLoginEmailHide": [
+  "Hide Suggestion"
+ ],
+ "ReminderSetLoginEmailText": [
+  "Ensure you can receive login codes"
+ ],
+ "RemoveAccountHint2": [
+  "Sign out as %1$s? All secret chats on this account will be lost. Downloaded media will be erased from this device."
+ ],
+ "RemoveMessageFee": [
+  "Remove Fee"
+ ],
+ "RemoveMessageFeeHint": [
+  "Add users or entire groups who won't have to pay to send you messages."
+ ],
+ "RemoveStickerSetAction": [
+  "Remove"
+ ],
+ "RemoveXStickerPacks": [
+  "Remove %1$s sticker set",
+  "Remove %1$s sticker sets"
+ ],
+ "RenewedSubscription": [
+  "%1$s renewed subscription"
+ ],
+ "RenewedSubscriptionUntilX": [
+  "%1$s renewed subscription until %2$s"
+ ],
+ "RepeatNotifications": [
+  "Repeat Notifications"
+ ],
+ "RepeatNotificationsDisabled": [
+  "Disabled"
+ ],
+ "ReplaceImage": [
+  "Replace Image"
+ ],
+ "RepliesTitle": [
+  "Replies"
+ ],
+ "ReplyRequiredHint": [
+  "Choose a message to reply"
+ ],
+ "ReportAdFail": [
+  "There was an error while reporting this ad."
+ ],
+ "ReportAdHidden": [
+  "You will no longer see any ads."
+ ],
+ "ReportAdOk": [
+  "Ad will be reviewed by moderators."
+ ],
+ "ReportAdPremiumRequired": [
+  "**Telegram Premium** subscription is required to hide ads."
+ ],
+ "ReportChatMessagesRequired": [
+  "Select messages to include in your report."
+ ],
+ "ReportChatReasonOptional": [
+  "Description"
+ ],
+ "ReportFalsePositive": [
+  "Report False Positive"
+ ],
+ "ReportFalsePositiveOk": [
+  "Telegram moderators will review your report. Thank you!"
+ ],
+ "RequestJoinChannel": [
+  "Request to Join Channel"
+ ],
+ "RequestJoinGroup": [
+  "Request to Join Group"
+ ],
+ "RequestToJoinChannelInfo": [
+  "This channel accepts new subscribers only after they are approved by its admins."
+ ],
+ "RequestToJoinGroupInfo": [
+  "This group accepts new members only after they are being accepted by admins."
+ ],
+ "Resend": [
+  "Resend"
+ ],
+ "ResendXMessages": [
+  "Resend %1$s message",
+  "Resend %1$s messages"
+ ],
+ "ResetPassword": [
+  "Reset password"
+ ],
+ "ResetPasswordWait": [
+  "You recently requested a password reset that was canceled. Please wait %1$s before making a new request."
+ ],
+ "ResolveNoGalleryAccess": [
+  "Open settings"
+ ],
+ "RestoreEmailTroubleText2": [
+  "If you don’t have access to your recovery email, your remaining options are either to remember your password or wait 7 days until your password is reset."
+ ],
+ "RestoreEmailTroubleUnknown": [
+  "Having trouble accessing your email?"
+ ],
+ "RestorePasswordNoEmailText2": [
+  "Since you didn’t provide a recovery email when setting up your password, your remaining options are either to remember your password or wait 7 days until your password is reset."
+ ],
+ "RestorePasswordResetIn": [
+  "You can reset your password in %1$s."
+ ],
+ "RestorePasswordResetPasswordOk": [
+  "Your 2-Step Verification password was reset."
+ ],
+ "RestrictBotsAndMiniApps": [
+  "Restrict Bots and Mini Apps"
+ ],
+ "RestrictBotsAndMiniAppsDesc": [
+  "Require approval when receiving gifts from bots and mini apps."
+ ],
+ "RestrictXChannel": [
+  "%1$s will not be removed from the channel."
+ ],
+ "RestrictedByXOnDate": [
+  "Restricted by %1$s %2$s"
+ ],
+ "RestrictedContent": [
+  "Restricted Content"
+ ],
+ "RetrieveMessagesError": [
+  "Failed to fetch messages. Tap to resolve."
+ ],
+ "RightDirectMessages": [
+  "Manage direct messages"
+ ],
+ "RightSwipeEdgeAnimation": [
+  "Match Predictive Gesture"
+ ],
+ "RightSwipeEdgeAnimationInfo": [
+  "When enabled, animation will follow the finger direction when swiping from the right edge of the screen."
+ ],
+ "RightTags": [
+  "Edit Member Tags"
+ ],
+ "RightTagsOwn": [
+  "Edit Own Tags"
+ ],
+ "RightWelcomeMessages": [
+  "Manage direct messages"
+ ],
+ "RoleChannel": [
+  "channel"
+ ],
+ "RoleGroup": [
+  "group"
+ ],
+ "RoleMember_seconds": [
+  "joined %1$s sec ago",
+  "joined %1$s secs ago"
+ ],
+ "RoundVideoPlaybackError": [
+  "Failed to play video message, see logs for details."
+ ],
+ "RtlLayout": [
+  "Right-to-Left Layout"
+ ],
+ "SaveNoMarkdown": [
+  "Save without markdown"
+ ],
+ "SaveXGifs": [
+  "Save %1$s GIF",
+  "Save %1$s GIFs"
+ ],
+ "SaveXToGallery": [
+  "Save %1$s file to Gallery",
+  "Save %1$s files to Gallery"
+ ],
+ "SavedXFiles": [
+  "Saved %1$s file",
+  "Saved %1$s files"
+ ],
+ "SavedXGifToGallery": [
+  "%1$s GIF saved to Gallery",
+  "%1$s GIFs saved to Gallery"
+ ],
+ "ScamMark": [
+  "SCAM"
+ ],
+ "ScanQRLinkHint": [
+  "Go to Settings > Devices > Add Device to sign in with QR code."
+ ],
+ "ScheduledMessage": [
+  "Scheduled Message"
+ ],
+ "SdCard": [
+  "SD Card"
+ ],
+ "SearchApproximateResults": [
+  "~%1$s result",
+  "~%1$s results"
+ ],
+ "SearchCountry": [
+  "Search…"
+ ],
+ "SearchExactlyResults": [
+  "%1$s result",
+  "%1$s results"
+ ],
+ "SearchForImages": [
+  "Search for images"
+ ],
+ "SelectUnread": [
+  "Select Unread"
+ ],
+ "SelectedVideoSuffix": [
+  " video",
+  " videos"
+ ],
+ "SendAs": [
+  "Send as"
+ ],
+ "SendAsOption": [
+  "Send as…"
+ ],
+ "SendMessageToX": [
+  "Send message to %1$s"
+ ],
+ "SendNoMarkdown": [
+  "Send without markdown"
+ ],
+ "SendNoSoundX": [
+  "Send without sound to %1$s chat",
+  "Send without sound to %1$s chats"
+ ],
+ "SendOriginal": [
+  "Send original"
+ ],
+ "SendingSmsCode": [
+  "We are sending an SMS with an activation code to your phone **%1$s**…"
+ ],
+ "SensitiveContent": [
+  "Sensitive Content"
+ ],
+ "SentCallOnly": [
+  "We've sent an activation call to your phone **%1$s**.Don't accept the call, Telegram will process everything automatically."
+ ],
+ "SentEmailCode": [
+  "We've sent the code to your email %1$s."
+ ],
+ "SentMissedCall": [
+  "Within next few seconds you should receive a short call from a phone number which starts with **%1$s**."
+ ],
+ "SentMissedCallXDigits": [
+  "Please enter the last **%1$s digit** of the missed call.",
+  "Please enter the last **%1$s digits** of the missed call."
+ ],
+ "SentSmsPhrase": [
+  "We've sent you an SMS with a secret phrase to your phone %1$s."
+ ],
+ "SentSmsPhraseHint": [
+  "We've sent you an SMS with a secret phrase that starts with \"%2$s\" to your phone %1$s."
+ ],
+ "SentSmsWord": [
+  "We've sent you an SMS with a secret word to your phone %1$s."
+ ],
+ "SentSmsWordHint": [
+  "We've sent you an SMS with a secret word that starts with \"%2$s\" to your phone %1$s."
+ ],
+ "SessionAttempt": [
+  "Login Attempt"
+ ],
+ "SessionAttemptDetails": [
+  "Login Attempt Details"
+ ],
+ "SessionSnapshot": [
+  "Session Snapshot"
+ ],
+ "SessionSnapshotDesc": [
+  "Send private authorization data"
+ ],
+ "SessionSnapshotInfo": [
+  "Session snapshots are archives that include all your authorization data that you must never share with anyone. Would you like to delete them?"
+ ],
+ "SessionSnapshotWarning": [
+  "**Warning!**The snapshot you are about to send contains access to your Telegram account.Don't send or forward it to anyone, unless you know what you are doing."
+ ],
+ "SessionSnapshots": [
+  "Session Snapshots"
+ ],
+ "SetBirthdate": [
+  "Tap to set"
+ ],
+ "SetBotPhoto": [
+  "Set Bot Photo"
+ ],
+ "SetProfilePhotoError": [
+  "Error updating photo: %1$s"
+ ],
+ "SetPublicPhoto": [
+  "Set Public Photo"
+ ],
+ "ShareContentUnsupported": [
+  "Sorry, this type of media is not yet supported."
+ ],
+ "ShareTextComment": [
+  "Check out %2$s's comment: %1$s"
+ ],
+ "ShareTextMedia": [
+  "Media from %1$s"
+ ],
+ "ShareTextMyLink": [
+  "Contact me on Telegram: %1$s"
+ ],
+ "ShareTitleContact": [
+  "Share contact to…"
+ ],
+ "ShareTitleFiles": [
+  "Share %1$s file to…",
+  "Share %1$s files to…"
+ ],
+ "ShareTitleMedia": [
+  "Share media to…"
+ ],
+ "ShareTitleMediaX": [
+  "Share %1$s media to…",
+  "Share %1$s media to…"
+ ],
+ "ShareYouLocationUnableManually": [
+  "Choose manually"
+ ],
+ "ShowInDiscussionGroup": [
+  "Show in discussion group"
+ ],
+ "ShowLessStickers": [
+  "show less"
+ ],
+ "ShowOtherChats": [
+  "Show Other Chats"
+ ],
+ "ShowXMore": [
+  "%1$s more",
+  "%1$s more"
+ ],
+ "ShowXMoreStickers": [
+  "show %1$s more",
+  "show %1$s more"
+ ],
+ "SignedInOtherDevice": [
+  "You are also signed in on %1$s"
+ ],
+ "SignedInOtherSession": [
+  "You are also signed in on %1$s"
+ ],
+ "SignedInXOtherApps": [
+  "You are signed in on %1$s other app",
+  "You are signed in on %1$s other apps"
+ ],
+ "SignedInXOtherDevices": [
+  "You are signed in on %1$s other device",
+  "You are signed in on %1$s other devices"
+ ],
+ "SizeUnitBinary": [
+  "1024 bytes = 1 KiB, 1024 KiB = 1 MiB"
+ ],
+ "SizeUnitMetric": [
+  "1000 bytes = 1 KB, 1000 KB = 1 MB"
+ ],
+ "SlowFileAccess": [
+  "Slow file access. Message will be sent after reading the files"
+ ],
+ "SlowModeMinutesShort": [
+  "%1$sm",
+  "%1$sm"
+ ],
+ "SponsoredInfoAction": [
+  "Learn More"
+ ],
+ "StatsMessagePublishDate": [
+  "Publication Date"
+ ],
+ "StatsMessageSharesPublic": [
+  "Public Shares"
+ ],
+ "StatsTopInviters": [
+  "Top inviters"
+ ],
+ "StatsXInvitations": [
+  "%1$s invitation",
+  "%1$s invitations"
+ ],
+ "StatsXShowMore": [
+  "Show %1$s more",
+  "Show %1$s more"
+ ],
+ "StorageUsageHint": [
+  "Manage disk space"
+ ],
+ "SyncContactsProgress": [
+  "Uploading contacts…"
+ ],
+ "SyncHintUnavailable2": [
+  "Tap Settings > Permissions, and turn Contacts on to allow **%1$s** access to your contacts to find them on Telegram."
+ ],
+ "TabEmptyPhotos": [
+  "No photos"
+ ],
+ "TabVideoMessagesLong": [
+  "Video Messages"
+ ],
+ "TakeVideoError": [
+  "Error capturing video"
+ ],
+ "Text": [
+  "Text"
+ ],
+ "TextFormatClear": [
+  "Clear formatting"
+ ],
+ "TextFormatQuote": [
+  "Quote"
+ ],
+ "TextNotLoadedHint": [
+  "Please wait until the text has finished loading"
+ ],
+ "ThemeBlackWhite": [
+  "Black-white"
+ ],
+ "ThemeCopy": [
+  "Create Copy"
+ ],
+ "ThemeCustom": [
+  "Custom"
+ ],
+ "ThemeWhiteBlack": [
+  "White-black"
+ ],
+ "ToolsAllTitle": [
+  "Strings"
+ ],
+ "ToolsUntranslatedTitle": [
+  "Untranslated"
+ ],
+ "TouchYourSensorWeak": [
+  "Touch your sensor (weak)"
+ ],
+ "TransferOwnershipAlertBot": [
+  "Are you really sure you want to transfer ownership of the bot?This operation is **irreversible**, so check again if the user you want to transfer the bot is the right person."
+ ],
+ "TransferOwnershipAlertUnknown": [
+  "Are you really sure you want to proceed?This operation is **irreversible**, so check again if all details are correct."
+ ],
+ "TransferOwnershipTooMuch": [
+  "Sorry, the target user is a member of too many groups and channels. Please ask them to leave some first."
+ ],
+ "TransferOwnershipTooMuchLocated": [
+  "Sorry, the target user owns too many location-based groups. Please ask them to delete or transfer an existing one first."
+ ],
+ "TransferOwnershipTooMuchPublic": [
+  "Sorry, the target user has too many public groups or channels already. Please ask them to make one of their existing groups or channels private first."
+ ],
+ "TranslateTryAgain": [
+  "Try again later"
+ ],
+ "TranslationFailed": [
+  "Translation failed"
+ ],
+ "TranslationPaste": [
+  "Paste translation"
+ ],
+ "TurnPasswordOffQuestion2": [
+  "Are you sure you want to disable your password?**Warning**! All data saved in your Telegram Passport will be lost!"
+ ],
+ "TurnSyncOnApp": [
+  "Turn on data sync"
+ ],
+ "UnbanMemberBot": [
+  "Unban bot"
+ ],
+ "UnbanMemberChannel": [
+  "Unban channel"
+ ],
+ "UnbanMemberGroup": [
+  "Unban group"
+ ],
+ "UnlockByBiometrics": [
+  "Use biometrics to unlock"
+ ],
+ "Unselect": [
+  "Unselect"
+ ],
+ "UpgradeChatPrompt": [
+  "To perform this action, this chat will be converted to supergroup.**Note**: new members will not see messages sent before the conversion."
+ ],
+ "UseBiometrics": [
+  "Use your biometrics"
+ ],
+ "UseBiometricsWeak": [
+  "Use your biometrics (weak)"
+ ],
+ "UserBirthdate": [
+  "Birthday"
+ ],
+ "UserDisabledMessages": [
+  "You cannot send messages to this user"
+ ],
+ "UserMessagesPaid": [
+  "Message %2$s for %1$s **star** per message",
+  "Message %2$s for %1$s **stars** per message"
+ ],
+ "UserRestrictionsReactToMessages": [
+  "React to Messages"
+ ],
+ "UsernameInvalidLong": [
+  "Username can't exceed 32 characters."
+ ],
+ "UsernameNotOccupiedUnknown": [
+  "Chat with specified username not found"
+ ],
+ "UsernamePurchasable": [
+  "This username is unavailable. However, it is available for purchase. [Learn more…](%1$s)"
+ ],
+ "UsernamesBot": [
+  "Bot Links"
+ ],
+ "UsernamesBotHint": [
+  "Drag and drop links to change order of their appearance on the profile screen."
+ ],
+ "UsernamesChannel": [
+  "Channel Links"
+ ],
+ "UsernamesChannelHint": [
+  "Drag and drop links to change order of their appearance on the channel profile screen."
+ ],
+ "UsernamesChat": [
+  "Chat Links"
+ ],
+ "UsernamesChatHint": [
+  "Drag and drop links to change order of their appearance on the chat profile screen."
+ ],
+ "UsernamesMy": [
+  "Active Usernames"
+ ],
+ "UsernamesMyHint": [
+  "Drag and drop usernames to change order of their appearance on the profile screen."
+ ],
+ "VideoErrorLog": [
+  "Error log"
+ ],
+ "ViewGroupsInCommon": [
+  "View groups in common"
+ ],
+ "ViewInChat": [
+  "View in chat"
+ ],
+ "ViewInThread": [
+  "View in thread"
+ ],
+ "ViewPhoto": [
+  "View Photo"
+ ],
+ "ViewRestrictions": [
+  "View Restrictions"
+ ],
+ "ViewSourceCodeChanges": [
+  "Changes in Source Code"
+ ],
+ "ViewSourceCodeChangesSince": [
+  "Since %1$s (commit %2$s)"
+ ],
+ "ViewStats": [
+  "View Statistics"
+ ],
+ "ViewThread": [
+  "View Thread"
+ ],
+ "ViewVideoError": [
+  "See logs"
+ ],
+ "ViewXComments": [
+  "View %1$s comment",
+  "View %1$s comments"
+ ],
+ "ViewXOtherComments": [
+  "View %1$s other comment",
+  "View %1$s other comments"
+ ],
+ "ViewXReplies": [
+  "View %1$s reply",
+  "View %1$s replies"
+ ],
+ "VoiceChatInvite": [
+  "%1$s invited %2$s to the video chat"
+ ],
+ "VoiceChatInviteOther": [
+  "You invited %1$s to the video chat"
+ ],
+ "VoiceChatInviteSelf": [
+  "%1$s invited you to the video chat"
+ ],
+ "VoipCancelled": [
+  "Call canceled"
+ ],
+ "VoipConnecting": [
+  "Connecting"
+ ],
+ "VoipFailed": [
+  "Failed to connect"
+ ],
+ "VoipFeedbackCommentHint": [
+  "Add an optional comment"
+ ],
+ "VoipMissed": [
+  "Call missed"
+ ],
+ "VoipRateCallAlert": [
+  "Please rate the quality of your Telegram call"
+ ],
+ "VoipUnknown": [
+  "Call answered"
+ ],
+ "WaitingResultsPoll": [
+  "Results will be revealed once voting is closed"
+ ],
+ "WaitingResultsQuiz": [
+  "Results will be revealed once quiz is stopped"
+ ],
+ "WhatThisGroupCanDo": [
+  "What can admins do on behalf of this group?"
+ ],
+ "WhoCanDisplayGifts": [
+  "Who can display gifts on my profile?"
+ ],
+ "WhoCanSeeAudio": [
+  "Who can see your saved music?"
+ ],
+ "WhoCanSeeAudioInfo": [
+  "You can restrict who can see your saved music with granular precision."
+ ],
+ "WhoCanSeeBio": [
+  "Who can see your bio?"
+ ],
+ "WhoCanSeeBioInfo": [
+  "You can restrict who can see the bio on your profile with granular precision."
+ ],
+ "WhoCanSeeBirthdate": [
+  "Who can see your birthday?"
+ ],
+ "WhoCanSeeBirthdateInfo": [
+  "You can restrict who can see the birthday on your profile with granular precision."
+ ],
+ "WonXStars": [
+  "You won %1$s star in a giveaway",
+  "You won %1$s stars in a giveaway"
+ ],
+ "WrongLayout": [
+  "Wrong Layout?"
+ ],
+ "XAcceptedToChannel": [
+  "%1$s was accepted to the channel"
+ ],
+ "XAcceptedToChannelBy": [
+  "%1$s was accepted to the channel by %2$s"
+ ],
+ "XChangedGroupEmojiSet": [
+  "%1$s changed group emoji set"
+ ],
+ "XIsAlreadyAdmin": [
+  "%1$s already has admin rights"
+ ],
+ "XJoinedByLink": [
+  "%1$s joined via invite link"
+ ],
+ "XJoinedByLinkWithApproval": [
+  "%1$s joined via invite link, approved by %2$s"
+ ],
+ "XRemovedGroupEmojiSet": [
+  "%1$s removed group emoji set"
+ ],
+ "XSetAutoDeleteHours": [
+  "%2$s set messages to auto-delete in %1$s hour",
+  "%2$s set messages to auto-delete in %1$s hours"
+ ],
+ "XSetAutoDeleteMinutes": [
+  "%2$s set messages to auto-delete in %1$s minute",
+  "%2$s set messages to auto-delete in %1$s minutes"
+ ],
+ "XSetAutoDeletePostsHours": [
+  "Admins set posts to auto-delete in %1$s hour",
+  "Admins set posts to auto-delete in %1$s hours"
+ ],
+ "XSetAutoDeletePostsMinutes": [
+  "Admins set posts to auto-delete in %1$s minute",
+  "Admins set posts to auto-delete in %1$s minutes"
+ ],
+ "XSetAutoDeletePostsSeconds": [
+  "Admins set posts to auto-delete in %1$s second",
+  "Admins set posts to auto-delete in %1$s seconds"
+ ],
+ "XSetTimerMonths": [
+  "%2$s set the self-destruct timer to %1$s month",
+  "%2$s set the self-destruct timer to %1$s months"
+ ],
+ "XofApproximateY": [
+  "%1$s of ~%2$s"
+ ],
+ "YouAcceptedToChannel": [
+  "You were accepted to the channel"
+ ],
+ "YouAcceptedToChannelBy": [
+  "You were accepted to the channel by %1$s"
+ ],
+ "YouAcceptedToGroupBy": [
+  "You were accepted to the group by %1$s"
+ ],
+ "YouCantBanX": [
+  "You do not have enough admin rights to ban %1$s in this chat."
+ ],
+ "YouCantPromoteX": [
+  "You do not have enough admin rights to promote %1$s in this chat."
+ ],
+ "YouCantSendMessages": [
+  "You can't send messages to this chat"
+ ],
+ "YouGiftedPremium": [
+  "You gifted %1$s month of Telegram Premium for %2$s",
+  "You gifted %1$s months of Telegram Premium for %2$s"
+ ],
+ "YouGiftedPremiumCode": [
+  "You sent Gift Code for %1$s month of Telegram Premium",
+  "You sent Gift Code for %1$s months of Telegram Premium"
+ ],
+ "YouGiftedPremiumCodeDays": [
+  "You sent Gift Code for %1$s day of Telegram Premium",
+  "You sent Gift Code for %1$s days of Telegram Premium"
+ ],
+ "YouGiftedPremiumDays": [
+  "You gifted %1$s day of Telegram Premium for %2$s",
+  "You gifted %1$s days of Telegram Premium for %2$s"
+ ],
+ "YouGiftedPremiumDaysTo": [
+  "You gifted %3$s %1$s day of Telegram Premium for %2$s",
+  "You gifted %3$s %1$s days of Telegram Premium for %2$s"
+ ],
+ "YouGiftedPremiumTo": [
+  "You gifted %3$s %1$s month of Telegram Premium for %2$s",
+  "You gifted %3$s %1$s months of Telegram Premium for %2$s"
+ ],
+ "YouJoinedByLink": [
+  "You joined via invite link"
+ ],
+ "YouJoinedByLinkWithApproval": [
+  "You joined via invite link, approved by %1$s"
+ ],
+ "YouReceivedXStars": [
+  "You received %1$s star for %2$s",
+  "You received %1$s stars for %2$s"
+ ],
+ "YouSetAutoDeleteHours": [
+  "You set messages to auto-delete in %1$s hour",
+  "You set messages to auto-delete in %1$s hours"
+ ],
+ "YouSetAutoDeleteMinutes": [
+  "You set messages to auto-delete in %1$s minute",
+  "You set messages to auto-delete in %1$s minutes"
+ ],
+ "YouSetAutoDeletePostsHours": [
+  "You set posts to auto-delete in %1$s hour",
+  "You set posts to auto-delete in %1$s hours"
+ ],
+ "YouSetAutoDeletePostsMinutes": [
+  "You set posts to auto-delete in %1$s minute",
+  "You set posts to auto-delete in %1$s minutes"
+ ],
+ "YouSetAutoDeletePostsSeconds": [
+  "You set posts to auto-delete in %1$s second",
+  "You set posts to auto-delete in %1$s seconds"
+ ],
+ "YouSetAutoDeleteSeconds": [
+  "You set messages to auto-delete in %1$s second",
+  "You set messages to auto-delete in %1$s seconds"
+ ],
+ "YouSetTimerMonths": [
+  "You set the self-destruct timer to %1$s month",
+  "You set the self-destruct timer to %1$s months"
+ ],
+ "YourAccount": [
+  "Your account"
+ ],
+ "ZoomOut": [
+  "Zoom Out"
+ ],
+ "biometrics_fail": [
+  "Unknown biometrics"
+ ],
+ "biometrics_hint3": [
+  "Please add biometrics in System Settings > Security > Biometrics."
+ ],
+ "c_statusBarLegacy": [
+  "Used on **Android 5.x** and lower."
+ ],
+ "channel_disable_dm": [
+  "%1$s disabled direct messages"
+ ],
+ "channel_enable_dm": [
+  "%1$s now accepts direct messages"
+ ],
+ "channel_enable_dm_paid": [
+  "%2$s now accepts direct messages for %1$s star each",
+  "%2$s now accepts direct messages for %1$s stars each"
+ ],
+ "channel_user_add_self": [
+  "You joined the channel"
+ ],
+ "channel_user_remove_self": [
+  "You left the channel"
+ ],
+ "direct_messages_enabled": [
+  "Direct messages were enabled in this channel"
+ ],
+ "email_BannedNumber_subject": [
+  "Banned phone number: %1$s"
+ ],
+ "email_BannedNumber_text": [
+  "I'm trying to use my mobile phone number: %1$sBut Telegram says it's banned. Please help."
+ ],
+ "email_InvalidNumber_subject": [
+  "Invalid phone number: %1$s"
+ ],
+ "email_InvalidNumber_text": [
+  "My mobile phone operator: (please enter the name)I'm trying to use my mobile phone number: %1$sBut Telegram says it's invalid. Please help."
+ ],
+ "email_LoginDeadEnd_subject": [
+  "Telegram X SMS not sent: %1$s"
+ ],
+ "email_LoginDeadEnd_text": [
+  "My Internet service provider is: (please enter the name)I'm trying to use my mobile phone number: %1$sBut Telegram could not send me SMS with the confirmation code. Please help.Below are all details that might help understanding the issue.Error: %3$s%2$s"
+ ],
+ "email_LoginError_subject": [
+  "Telegram X error: %1$s"
+ ],
+ "email_LoginError_text": [
+  "I'm trying to use my mobile phone number: %1$sBut Telegram shows an error. Please help.Error: %2$s"
+ ],
+ "email_LoginTooLong_subject": [
+  "Telegram X connection issue"
+ ],
+ "email_LoginTooLong_text": [
+  "My Internet service provider is: (please enter the name)I've just installed the application and tried to start messaging, but Telegram X is unable to connect to the server. Please help.App version: %1$sLanguage: %2$sAwait time: %3$sSystem Language: %4$sSystem Version: %5$s"
+ ],
+ "email_SmsHelp": [
+  "sms@telegram.org"
+ ],
+ "email_metadata": [
+  "App version: %1$sLanguage: %2$sSystem Language: %3$sSystem Version: %4$s"
+ ],
+ "errorChatInaccessible": [
+  "Can't access the chat"
+ ],
+ "error_ADMINS_TOO_MUCH": [
+  "Sorry, this group has too many admins. Please remove one of the existing admins first."
+ ],
+ "error_ANONYMOUS_REACTIONS_DISABLED": [
+  "Sorry, anonymous administrators cannot leave reactions or participate in polls."
+ ],
+ "error_APP_UPGRADE_NEEDED": [
+  "This feature is not available. Please make sure the app is up-to-date, or wait for new updates."
+ ],
+ "error_BIRTHDAY_INVALID": [
+  "The date you specified is invalid."
+ ],
+ "error_CHANNELS_ADMIN_LOCATED_TOO_MUCH": [
+  "Sorry, you have too many location-based groups already. Please delete one of your existing ones first."
+ ],
+ "error_CHANNEL_PRIVATE": [
+  "Chat is inaccessible"
+ ],
+ "error_CHATLISTS_TOO_MUCH": [
+  "Sorry, you have too many shareable folders."
+ ],
+ "error_CHAT_ADMIN_REQUIRED": [
+  "You do not have enough privileges to perform this action."
+ ],
+ "error_CHAT_SEND_POLL_FORBIDDEN": [
+  "The admins of this group have restricted your ability to send polls."
+ ],
+ "error_ChatInfoNotFound": [
+  "Sorry, you don't have access to this chat or channel."
+ ],
+ "error_INVITE_REQUEST_SENT": [
+  "Request to join this chat has been sent."
+ ],
+ "error_PEER_ID_INVALID": [
+  "Sorry, you don't have access to this chat or channel."
+ ],
+ "error_PHONE_NUMBER_BANNED": [
+  "Sorry, this phone number is banned. Contact us at login@telegram.org if you need help."
+ ],
+ "error_PREMIUM_ACCOUNT_REQUIRED": [
+  "This feature requires Telegram Premium subscription."
+ ],
+ "error_PremiumActive": [
+  "You already have Telegram Premium subscription active until %1$s."
+ ],
+ "fileSize_GiB": [
+  "%1$s GiB"
+ ],
+ "fileSize_KiB": [
+  "%1$s KiB"
+ ],
+ "fileSize_MiB": [
+  "%1$s MiB"
+ ],
+ "format_ActionChecklistItem": [
+  "\"%1$s\""
+ ],
+ "format_ActionChecklistItemSeparator": [
+  ", "
+ ],
+ "format_ActionChecklistItemSeparatorLast": [
+  " and "
+ ],
+ "format_ActionChecklistMarkTasks": [
+  "%1$s marked %2$s and %3$s"
+ ],
+ "format_ActionChecklistMarkTasksDone": [
+  "%1$s task as done",
+  "%1$s tasks as done"
+ ],
+ "format_ActionChecklistMarkTasksNotDone": [
+  "%1$s as not done",
+  "%1$s as not done"
+ ],
+ "format_ActionChecklistMarkTasksOut": [
+  "You marked %1$s and %2$s"
+ ],
+ "format_ActionChecklistMarkTasksOutDone": [
+  "%1$s task as done",
+  "%1$s tasks as done"
+ ],
+ "format_ActionChecklistMarkTasksOutNotDone": [
+  "%1$s as not done",
+  "%1$s as not done"
+ ],
+ "format_GiveawayDateTime": [
+  "%1$s at %2$s"
+ ],
+ "format_ShareAuthorLink": [
+  "%1$s (%2$s)"
+ ],
+ "format_ShareAuthorMessage": [
+  "%1$s: %2$s"
+ ],
+ "format_ShareTextSignature": [
+  "%1$s%2$s"
+ ],
+ "format_accountAndCategory": [
+  "%1$s • %2$s"
+ ],
+ "format_activeAndRevokedLinks": [
+  "%1$s, %2$s"
+ ],
+ "format_chatAndError": [
+  "%1$s: %2$s"
+ ],
+ "format_chatAndSignature": [
+  "%1$s (%2$s)"
+ ],
+ "format_concatSeparatorLastPerson": [
+  " and "
+ ],
+ "format_contentAndModifyDate2": [
+  "%1$s, %2$s"
+ ],
+ "format_datestamp": [
+  "%1$02d.%2$02d.%3$02d"
+ ],
+ "format_doubleLines": [
+  "%1$s%2$s"
+ ],
+ "format_edited": [
+  "[edited]: %1$s"
+ ],
+ "format_editedVisible": [
+  "%1$s"
+ ],
+ "format_fileSizeAndDescription": [
+  "%2$s, %1$s"
+ ],
+ "format_folderAndFilter": [
+  "%1$s / %2$s"
+ ],
+ "format_giveawayInfo": [
+  "%1$s: %2$s"
+ ],
+ "format_ivRelatedInfo": [
+  "%1$s • %2$s"
+ ],
+ "format_linesAndViews": [
+  "%1$s, %2$s"
+ ],
+ "format_nameAndDate": [
+  "%1$s%2$s"
+ ],
+ "format_nameAndStatus": [
+  "%1$s%2$s"
+ ],
+ "format_nameAndSubtitleAndStatus": [
+  "%1$s (%2$s)%3$s"
+ ],
+ "format_nameStatusDate": [
+  "%1$s%2$s%3$s"
+ ],
+ "format_notificationContentGroup": [
+  "%1$s: %2$s"
+ ],
+ "format_notificationGroupSender": [
+  "%1$s @ %2$s"
+ ],
+ "format_notificationScheduledText": [
+  "📅 %1$s"
+ ],
+ "format_notificationTicker": [
+  "%1$s: %2$s"
+ ],
+ "format_notificationTitlePinned": [
+  "%1$s (pinned message)"
+ ],
+ "format_notificationTitleSecret": [
+  "🔒️ %1$s"
+ ],
+ "format_notificationTitleShort": [
+  "%1$s (%2$s)"
+ ],
+ "format_percentage": [
+  "%1$d%%"
+ ],
+ "format_refundedStars": [
+  "%1$s Star",
+  "%1$s Stars"
+ ],
+ "format_statusAndDate": [
+  "%1$s%2$s"
+ ],
+ "format_tracksAndDuration": [
+  "%1$s, %2$s"
+ ],
+ "format_trimmedDuration": [
+  "%1$s / %2$s"
+ ],
+ "format_uploadStatus": [
+  "%1$d%% %2$s"
+ ],
+ "game_ActionScored": [
+  "Scored %1$s",
+  "Scored %1$s"
+ ],
+ "game_ActionScoredInGame": [
+  "Scored %1$s in %2$s",
+  "Scored %1$s in %2$s"
+ ],
+ "group_user_added_self": [
+  "%1$s added you"
+ ],
+ "group_user_join_by_link_self_with_approval": [
+  "You joined the group via invite link, approved by %1$s"
+ ],
+ "group_user_join_by_link_with_approval": [
+  "%1$s joined the group via invite link, approved by %2$s"
+ ],
+ "group_user_join_from_community": [
+  "%1$s joined the group from the community"
+ ],
+ "group_user_join_from_community_name": [
+  "%1$s joined the group from the community \"%2$s\""
+ ],
+ "group_user_join_from_community_name_self": [
+  "You joined the group from the community \"%2$s\""
+ ],
+ "group_user_join_from_community_self": [
+  "You joined the group from the community"
+ ],
+ "group_user_remove_self": [
+  "You left the group"
+ ],
+ "json_1_name": [
+  "Reinhardt"
+ ],
+ "json_4_name": [
+  "Space Dandy"
+ ],
+ "language_appliedLanguage": [
+  "App language has been set to English."
+ ],
+ "locationUpdated_seconds": [
+  "updated %1$s second ago",
+  "updated %1$s seconds ago"
+ ],
+ "locationUpdated_today": [
+  "updated at %1$s"
+ ],
+ "login_DeadEnd": [
+  "We could not send an SMS with a confirmation code to your phone number. __Contact us__, if you need help."
+ ],
+ "login_LastDigits": [
+  "Last %1$s digit",
+  "Last %1$s digits"
+ ],
+ "message_channelSign": [
+  "channel"
+ ],
+ "message_edited_seconds": [
+  "Edited %1$s second ago",
+  "Edited %1$s seconds ago"
+ ],
+ "message_groupSign": [
+  "group"
+ ],
+ "messagesCount": [
+  "%1$s",
+  "%1$s"
+ ],
+ "modified_date": [
+  "modified on %1$s at %2$s"
+ ],
+ "modified_hours": [
+  "modified %1$s hour ago",
+  "modified %1$s hours ago"
+ ],
+ "modified_minutes": [
+  "modified %1$s minute ago",
+  "modified %1$s minutes ago"
+ ],
+ "modified_now": [
+  "modified just now"
+ ],
+ "modified_seconds": [
+  "modified %1$s second ago",
+  "modified %1$s seconds ago"
+ ],
+ "modified_today": [
+  "modified at %1$s"
+ ],
+ "modified_weekday": [
+  "modified on %1$s at %2$s"
+ ],
+ "modified_yesterday": [
+  "modified yesterday at %1$s"
+ ],
+ "network_LookupAttemptProxy": [
+  "Trying another proxy…"
+ ],
+ "network_LookupFailed": [
+  "No routes found, connecting directly…"
+ ],
+ "network_LookupFailedProxy": [
+  "No routes found, using the previous proxy…"
+ ],
+ "opened_round_date": [
+  "watched on %1$s at %2$s"
+ ],
+ "opened_round_hours": [
+  "watched %1$s hour ago",
+  "watched %1$s hours ago"
+ ],
+ "opened_round_minutes": [
+  "watched %1$s minute ago",
+  "watched %1$s minutes ago"
+ ],
+ "opened_round_now": [
+  "watched just now"
+ ],
+ "opened_round_seconds": [
+  "watched %1$s second ago",
+  "watched %1$s seconds ago"
+ ],
+ "opened_round_today": [
+  "watched today at %1$s"
+ ],
+ "opened_round_weekday": [
+  "watched on %1$s at %2$s"
+ ],
+ "opened_round_yesterday": [
+  "watched yesterday at %1$s"
+ ],
+ "opened_voice_date": [
+  "listened on %1$s at %2$s"
+ ],
+ "opened_voice_hours": [
+  "listened %1$s hour ago",
+  "listened %1$s hours ago"
+ ],
+ "opened_voice_minutes": [
+  "listened %1$s minute ago",
+  "listened %1$s minutes ago"
+ ],
+ "opened_voice_now": [
+  "listened just now"
+ ],
+ "opened_voice_seconds": [
+  "listened %1$s second ago",
+  "listened %1$s seconds ago"
+ ],
+ "opened_voice_today": [
+  "listened today at %1$s"
+ ],
+ "opened_voice_weekday": [
+  "listened on %1$s at %2$s"
+ ],
+ "opened_voice_yesterday": [
+  "listened yesterday at %1$s"
+ ],
+ "p_lightStatusBar": [
+  "When enabled, status bar icons will use dark colors. Used on **Android 6.x** and higher."
+ ],
+ "part_SignedInXApps": [
+  "You are signed in on %1$s app",
+  "You are signed in on %1$s apps"
+ ],
+ "part_SignedInXOtherDevices": [
+  "on %1$s other device",
+  "on %1$s other devices"
+ ],
+ "reacted_date": [
+  "reacted on %1$s at %2$s"
+ ],
+ "reacted_hours": [
+  "reacted %1$s hour ago",
+  "reacted %1$s hours ago"
+ ],
+ "reacted_minutes": [
+  "reacted %1$s minute ago",
+  "reacted %1$s minutes ago"
+ ],
+ "reacted_now": [
+  "reacted just now"
+ ],
+ "reacted_seconds": [
+  "reacted %1$s second ago",
+  "reacted %1$s seconds ago"
+ ],
+ "reacted_today": [
+  "reacted today at %1$s"
+ ],
+ "reacted_weekday": [
+  "reacted on %1$s at %2$s"
+ ],
+ "reacted_yesterday": [
+  "reacted yesterday at %1$s"
+ ],
+ "session_LastActive_hours": [
+  "last active %1$s hour ago",
+  "last active %1$s hours ago"
+ ],
+ "session_LastActive_seconds": [
+  "last active %1$s second ago",
+  "last active %1$s seconds ago"
+ ],
+ "session_LastActive_today": [
+  "last active at %1$s"
+ ],
+ "session_LastActive_weekday": [
+  "last active on %1$s at %2$s"
+ ],
+ "session_LastActive_yesterday": [
+  "last active yesterday at %1$s"
+ ],
+ "session_TerminatesIn_hours": [
+  "auto-terminates within %1$s hour",
+  "auto-terminates within %1$s hours"
+ ],
+ "session_TerminatesIn_minutes": [
+  "auto-terminates within %1$s minute",
+  "auto-terminates within %1$s minutes"
+ ],
+ "session_TerminatesIn_now": [
+  "auto-terminating now"
+ ],
+ "session_TerminatesIn_seconds": [
+  "auto-terminates within %1$s second",
+  "auto-terminates within %1$s seconds"
+ ],
+ "session_TerminatesIn_today": [
+  "auto-terminates at %1$s"
+ ],
+ "session_TerminatesIn_tomorrow": [
+  "auto-terminates tomorrow at %1$s"
+ ],
+ "session_TerminatesIn_weekday": [
+  "auto-terminates on %1$s at %2$s"
+ ],
+ "status_LastSeen_seconds": [
+  "seen %1$s second ago",
+  "seen %1$s seconds ago"
+ ],
+ "timestampShort_hours": [
+  "%1$sh ago",
+  "%1$sh ago"
+ ],
+ "timestampShort_minutes": [
+  "%1$sm ago",
+  "%1$sm ago"
+ ],
+ "timestampShort_seconds": [
+  "%1$ss ago",
+  "%1$ss ago"
+ ],
+ "timestamp_today_shortened": [
+  "at %1$s"
+ ],
+ "turnsToday": [
+  "turns %1$s today",
+  "turns %1$s today"
+ ],
+ "url_privacyPolicy": [
+  "https://telegram.org/privacy"
+ ],
+ "viewed_date": [
+  "viewed on %1$s at %2$s"
+ ],
+ "viewed_hours": [
+  "viewed %1$s hour ago",
+  "viewed %1$s hours ago"
+ ],
+ "viewed_minutes": [
+  "viewed %1$s minute ago",
+  "viewed %1$s minutes ago"
+ ],
+ "viewed_now": [
+  "viewed just now"
+ ],
+ "viewed_seconds": [
+  "viewed %1$s second ago",
+  "viewed %1$s seconds ago"
+ ],
+ "viewed_today": [
+  "viewed today at %1$s"
+ ],
+ "viewed_weekday": [
+  "viewed on %1$s at %2$s"
+ ],
+ "viewed_yesterday": [
+  "viewed yesterday at %1$s"
+ ],
+ "xArchivedChats": [
+  "%1$s archived chat",
+  "%1$s archived chats"
+ ],
+ "xComments": [
+  "%1$s comment",
+  "%1$s comments"
+ ],
+ "xDaysRelative": [
+  "%1$s day",
+  "%1$s days"
+ ],
+ "xEmoji": [
+  "%1$s emoji",
+  "%1$s emoji"
+ ],
+ "xEmojiPacksEmojiSingle": [
+  "* %1$s"
+ ],
+ "xEmojiSetsInstalledUnknown": [
+  "Emoji packs settings"
+ ],
+ "xExceptions": [
+  "%1$s exception",
+  "%1$s exceptions"
+ ],
+ "xForwards": [
+  "%1$s forwarded message",
+  "%1$s forwarded messages"
+ ],
+ "xFutureWinners": [
+  "%1$s winner to be selected",
+  "%1$s winners to be selected"
+ ],
+ "xFutureWinnersOn": [
+  "%1$s winner to be selected on %2$s",
+  "%1$s winners to be selected on %2$s"
+ ],
+ "xGiveawayPrizePremium": [
+  "%1$s **Telegram Premium** subscription %2$s.",
+  "%1$s **Telegram Premium** subscriptions %2$s."
+ ],
+ "xGiveawayPrizePremiumMonths": [
+  "for %1$s month",
+  "for %1$s months"
+ ],
+ "xGiveawayPrizeReceivedInfo": [
+  "Your prize is a **Telegram Premium** subscription for **%1$s** month.",
+  "Your prize is a **Telegram Premium** subscription for **%1$s** months."
+ ],
+ "xGiveawayPrizeReceivedInfoDays": [
+  "Your prize is a **Telegram Premium** subscription for **%1$s** day.",
+  "Your prize is a **Telegram Premium** subscription for **%1$s** days."
+ ],
+ "xGiveawayPrizeStar": [
+  "%1$s **Telegram Star**.",
+  "%1$s **Telegram Stars**."
+ ],
+ "xGiveawayUnclaimedPrizeReceivedInfo": [
+  "This prize is a **Telegram Premium** subscription for **%1$s** month.",
+  "This prize is a **Telegram Premium** subscription for **%1$s** months."
+ ],
+ "xGiveawayUnclaimedPrizeReceivedInfoDays": [
+  "This prize is a **Telegram Premium** subscription for **%1$s** day.",
+  "This prize is a **Telegram Premium** subscription for **%1$s** days."
+ ],
+ "xGiveawayWinnersSelectedText": [
+  "%1$s winner of the **Giveaway** was randomly selected by Telegram.",
+  "%1$s winners of the **Giveaway** were randomly selected by Telegram."
+ ],
+ "xHoursRelative": [
+  "%1$s hour",
+  "%1$s hours"
+ ],
+ "xMinutesRelative": [
+  "%1$s minute",
+  "%1$s minutes"
+ ],
+ "xNewChatsAvailableToJoin": [
+  "**%1$s new chat** available to join",
+  "**%1$s new chats** available to join"
+ ],
+ "xNewChatsToJoin": [
+  "%1$s new chat to join",
+  "%1$s new chats to join"
+ ],
+ "xOfYChatsSelected3": [
+  "%1$s/%2$s chats selected",
+  "%1$s/%2$s chats selected"
+ ],
+ "xOtherUsernames": [
+  "%1$s other",
+  "%1$s others"
+ ],
+ "xPRs": [
+  "%1$s PR",
+  "%1$s PRs"
+ ],
+ "xPastWinners": [
+  "%1$s winner was selected",
+  "%1$s winners were selected"
+ ],
+ "xPastWinnersOn": [
+  "%1$s winner was selected on %2$s",
+  "%1$s winners were selected on %2$s"
+ ],
+ "xPeopleJoinedChannel": [
+  "%1$s member joined the channel",
+  "%1$s members joined the channel"
+ ],
+ "xPeopleJoinedGroup": [
+  "%1$s member joined the group",
+  "%1$s members joined the group"
+ ],
+ "xPermissions": [
+  "%1$s of %2$s",
+  "%1$s of %2$s"
+ ],
+ "xQuickReactionCount": [
+  "%1$s reaction",
+  "%1$s reactions"
+ ],
+ "xReacted": [
+  "%1$s reaction",
+  "%1$s reactions"
+ ],
+ "xReplies": [
+  "%1$s reply",
+  "%1$s replies"
+ ],
+ "xRepliesToUser": [
+  "%1$s reply to %2$s",
+  "%1$s replies to %2$s"
+ ],
+ "xSecondsRelative": [
+  "%1$s second",
+  "%1$s seconds"
+ ],
+ "xStickerPacks": [
+  "%1$s sticker pack",
+  "%1$s sticker packs"
+ ],
+ "xStickerSetsInstalledUnknown": [
+  "Sticker set settings"
+ ],
+ "xTelegramPremiumForDays": [
+  "Telegram Premium for %1$s day",
+  "Telegram Premium for %1$s days"
+ ],
+ "xTelegramPremiumForMonth": [
+  "Telegram Premium for %1$s month",
+  "Telegram Premium for %1$s months"
+ ],
+ "xWeeksRelative": [
+  "%1$s week",
+  "%1$s weeks"
+ ]
+}

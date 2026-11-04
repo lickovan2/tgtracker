@@ -1,0 +1,74 @@
+{
+ "Code": [
+  "Code"
+ ],
+ "FirstName": [
+  "First name (required)"
+ ],
+ "LastName": [
+  "Last name (optional)"
+ ],
+ "Login.Code.SentInApp": [
+  "We have sent you a message in Telegramwith the code."
+ ],
+ "Login.Code.SentSms": [
+  "We have sent you an SMSwith the code."
+ ],
+ "Login.KeepSigned": [
+  "Keep me signed in"
+ ],
+ "Login.Next": [
+  "Next"
+ ],
+ "Login.Password.Subtitle": [
+  "Your account is protected withan additional password"
+ ],
+ "Login.Password.Title": [
+  "Enter Your Password"
+ ],
+ "Login.PhoneLabel": [
+  "Phone Number"
+ ],
+ "Login.PhoneLabelInvalid": [
+  "Phone Number Invalid"
+ ],
+ "Login.QR.Cancel": [
+  "Log in by phone number >"
+ ],
+ "Login.QR.Help1": [
+  "Open Telegram on your phone"
+ ],
+ "Login.QR.Help2": [
+  "Go to **Settings** > **Devices** > **Add Device**"
+ ],
+ "Login.QR.Help3": [
+  "Point your phone at this screen to confirm login"
+ ],
+ "Login.QR.Login": [
+  "Log in by QR Code >"
+ ],
+ "Login.QR.Title": [
+  "Log in by QR Code"
+ ],
+ "Login.Register.Subtitle": [
+  "Enter your name and adda profile photo"
+ ],
+ "Login.StartText": [
+  "Please confirm your country codeand enter your phone number."
+ ],
+ "Login.Title": [
+  "Sign in to Telegram"
+ ],
+ "PASSWORD_HASH_INVALID": [
+  "Incorrect password"
+ ],
+ "PHONE_CODE_INVALID": [
+  "Invalid code"
+ ],
+ "StartMessaging": [
+  "Start Messaging"
+ ],
+ "YourName": [
+  "Your Name"
+ ]
+}

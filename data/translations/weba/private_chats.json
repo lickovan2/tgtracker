@@ -1,0 +1,178 @@
+{
+ "AccDescrVoiceMessage": [
+  "Record voice message"
+ ],
+ "AreYouSureDeleteFewMessages": [
+  "Are you sure you want to delete these messages?"
+ ],
+ "AreYouSureDeleteSingleMessage": [
+  "Are you sure you want to delete this message?"
+ ],
+ "Call": [
+  "Call"
+ ],
+ "CallAgain": [
+  "Call Again"
+ ],
+ "CallBack": [
+  "Call Back"
+ ],
+ "CallMessageIncoming": [
+  "Incoming Call"
+ ],
+ "CallMessageIncomingDeclined": [
+  "Declined Call"
+ ],
+ "CallMessageIncomingMissed": [
+  "Missed Call"
+ ],
+ "CallMessageOutgoing": [
+  "Outgoing Call"
+ ],
+ "CallMessageOutgoingMissed": [
+  "Canceled Call"
+ ],
+ "CallMessageVideoIncoming": [
+  "Incoming Video Call"
+ ],
+ "CallMessageVideoIncomingDeclined": [
+  "Declined Video Call"
+ ],
+ "CallMessageVideoIncomingMissed": [
+  "Missed Video Call"
+ ],
+ "CallMessageVideoOutgoing": [
+  "Outgoing Video Call"
+ ],
+ "CallMessageVideoOutgoingMissed": [
+  "Canceled Video Call"
+ ],
+ "CallMessageWithDuration": [
+  "{time} ({duration})"
+ ],
+ "ChatForwardActionHeader": [
+  "Forward Messages"
+ ],
+ "ChatListDeleteChatConfirmation": [
+  "Are you sure you want to delete the chatwith {chat}?"
+ ],
+ "ChatListDeleteForCurrentUser": [
+  "Delete just for me"
+ ],
+ "ChatListDeleteForEveryone": [
+  "Delete for me and {user}"
+ ],
+ "ChatPanelUnpinAllMessages": [
+  "Unpin All Messages"
+ ],
+ "ChatPinnedUnpinAll": [
+  "Unpin {count} Message",
+  "Unpin All {count} Messages"
+ ],
+ "ChatUnpinAllMessagesConfirmation": [
+  "Do you want to unpin {count} message in this chat?",
+  "Do you want to unpin all {count} messages in this chat?"
+ ],
+ "ContextCopySelectedItems": [
+  "Copy Selected as Text"
+ ],
+ "ConversationEmptyPlaceholder": [
+  "No messages here yet..."
+ ],
+ "ConversationGreetingText": [
+  "Send a message or tap on the greeting below."
+ ],
+ "ConversationPinMessagesFor": [
+  "Pin for me and {user}"
+ ],
+ "DeleteForEveryoneHint": [
+  "This will delete it for everyone in this chat.",
+  "This will delete them for everyone in this chat."
+ ],
+ "Emoji1": [
+  "Emoji & People"
+ ],
+ "EventLogFilterPinnedMessages": [
+  "Pinned messages"
+ ],
+ "FavoriteStickers": [
+  "Favorites"
+ ],
+ "JumpToDate": [
+  "Jump to Date"
+ ],
+ "LastSeenAtDate": [
+  "last seen {date}"
+ ],
+ "LastSeenHoursAgo": [
+  "last seen {count} hour ago",
+  "last seen {count} hours ago"
+ ],
+ "Lately": [
+  "last seen recently"
+ ],
+ "MediaFileEmpty": [
+  "No files here yet"
+ ],
+ "Message": [
+  "Message"
+ ],
+ "MessageScheduledOn": [
+  "Scheduled for {date}"
+ ],
+ "NoStickers": [
+  "No stickers yet"
+ ],
+ "NoUsernameFound": [
+  "Username not found"
+ ],
+ "PinMessageAlertTitle": [
+  "Pin message"
+ ],
+ "PinnedMessagesCount": [
+  "Pinned Message",
+  "{count} Pinned Messages"
+ ],
+ "RecentStickers": [
+  "Recently Used"
+ ],
+ "Reminders": [
+  "Reminders"
+ ],
+ "SavedMessagesInfo": [
+  "Forward here to save"
+ ],
+ "ScheduledMessagesEmptyPlaceholder": [
+  "No scheduled messages here yet..."
+ ],
+ "SearchMessages": [
+  "Messages"
+ ],
+ "ServiceNotifications": [
+  "service notifications"
+ ],
+ "ShareYouPhoneNumberTitle": [
+  "Share your phone number?"
+ ],
+ "SharedMedia": [
+  "Shared Media"
+ ],
+ "UnpinMessageAlertTitle": [
+  "Unpin message"
+ ],
+ "UnreadMessages": [
+  "Unread Messages"
+ ],
+ "VoipIncoming": [
+  "Incoming call"
+ ],
+ "WeekdayToday": [
+  "Today"
+ ],
+ "WithinAMonth": [
+  "last seen within a month"
+ ],
+ "WithinAWeek": [
+  "last seen within a week"
+ ]
+}

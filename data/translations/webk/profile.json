@@ -1,0 +1,80 @@
+{
+ "AnonymousNumber": [
+  "Collectible Number"
+ ],
+ "AreYouSureDeleteContact": [
+  "Are you sure you want to delete this contact?"
+ ],
+ "BioCopied": [
+  "Bio copied to clipboard."
+ ],
+ "Checkbox.Disabled": [
+  "Disabled"
+ ],
+ "Checkbox.Enabled": [
+  "Enabled"
+ ],
+ "Delete": [
+  "Delete"
+ ],
+ "DeleteContact": [
+  "Delete contact"
+ ],
+ "Edit": [
+  "Edit"
+ ],
+ "EditAccount.Username": [
+  "Username"
+ ],
+ "EditContact.OriginalName": [
+  "original name"
+ ],
+ "EditProfile.FirstNameLabel": [
+  "Name"
+ ],
+ "Lately": [
+  "last seen recently"
+ ],
+ "Login.Register.LastName.Placeholder": [
+  "Last Name"
+ ],
+ "Notifications": [
+  "Notifications"
+ ],
+ "PeerInfo.DeleteContact": [
+  "Delete Contact"
+ ],
+ "Phone": [
+  "Phone"
+ ],
+ "PhoneCopied": [
+  "Phone copied to clipboard"
+ ],
+ "Profile": [
+  "Profile"
+ ],
+ "SharedFilesTab2": [
+  "Files"
+ ],
+ "SharedLinksTab2": [
+  "Links"
+ ],
+ "SharedMediaTab2": [
+  "Media"
+ ],
+ "SharedMusicTab2": [
+  "Music"
+ ],
+ "Telegram.NotificationSettingsViewController": [
+  "Notifications"
+ ],
+ "UserBio": [
+  "Bio"
+ ],
+ "Username": [
+  "Username"
+ ],
+ "UsernameCopied": [
+  "Username copied to clipboard."
+ ]
+}

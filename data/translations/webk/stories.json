@@ -1,0 +1,129 @@
+{
+ "ArchivePeerStories": [
+  "Hide Stories"
+ ],
+ "ArchivedStories": [
+  "Archived Stories"
+ ],
+ "DeleteStoriesSubtitle": [
+  "Are you sure you want to delete %d story?",
+  "Are you sure you want to delete %d stories?"
+ ],
+ "DeleteStoriesTitle": [
+  "Delete Stories"
+ ],
+ "DeleteStorySubtitle": [
+  "Are you sure you want to delete this story?"
+ ],
+ "DeleteStoryTitle": [
+  "Delete Story"
+ ],
+ "ExpiredStory": [
+  "Expired Story"
+ ],
+ "ExpiredStoryMentionYou": [
+  "The story you mentioned %s in is no longer available"
+ ],
+ "ExpiredStorySubtitle": [
+  "From: %s"
+ ],
+ "ForwardedStoryFrom": [
+  "Forwarded StoryFrom: %s"
+ ],
+ "MyStories.Subtitle": [
+  "Only you can see archived stories unless you choose to post them to your profile."
+ ],
+ "MyStories.Title": [
+  "My Stories"
+ ],
+ "NoStoryFound": [
+  "Sorry, this story doesn't seem to exist."
+ ],
+ "NobodyViewsArchived": [
+  "No views available"
+ ],
+ "NotificationsStoryMute2": [
+  "Do Not NotifyAbout Stories"
+ ],
+ "NotificationsStoryUnmute2": [
+  "Notify AboutStories"
+ ],
+ "OpenStory": [
+  "OPEN STORY"
+ ],
+ "PublicStories": [
+  "Public Stories"
+ ],
+ "SavedStories": [
+  "Posted Stories"
+ ],
+ "Stories": [
+  "Stories"
+ ],
+ "StoriesCount": [
+  "%1$d story",
+  "%1$d stories"
+ ],
+ "Story.AddToProfile": [
+  "Post to Profile"
+ ],
+ "Story.ExpiredToast": [
+  "This story is no longer available"
+ ],
+ "Story.NoSound": [
+  "This video has no sound"
+ ],
+ "Story.RemoveFromProfile": [
+  "Remove from Profile"
+ ],
+ "Story.ReplyPlaceholder": [
+  "Reply Privately..."
+ ],
+ "Story.ReportTitle": [
+  "Report Story"
+ ],
+ "StoryArchived": [
+  "%d story removed from your profile",
+  "%d stories removed from your profile"
+ ],
+ "StoryArchivedFromProfile": [
+  "This story is hidden from your profile."
+ ],
+ "StoryCantReply": [
+  "You can't reply to this story"
+ ],
+ "StoryCloseFriendsHint": [
+  "You are seeing this story because **%s** added you to their list of Close Friends."
+ ],
+ "StoryContactsHint": [
+  "Only **%s’s** contacts can view this story."
+ ],
+ "StoryJustNow": [
+  "just now"
+ ],
+ "StoryMention": [
+  "%s mentioned you in a story"
+ ],
+ "StoryMentionView": [
+  "View Story"
+ ],
+ "StoryMentionYou": [
+  "You mentioned %s in a story"
+ ],
+ "StoryPinnedToProfile": [
+  "Story posted to your profile."
+ ],
+ "StorySavedTitle": [
+  "%d story posted to your profile",
+  "%d stories posted to your profile"
+ ],
+ "StoryViewLocation": [
+  "View Location"
+ ],
+ "UnarchiveStories": [
+  "Unhide Stories"
+ ],
+ "YourStory": [
+  "Your story"
+ ]
+}

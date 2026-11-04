@@ -1,0 +1,181 @@
+{
+ "ArchivedChats": [
+  "Archived Chats"
+ ],
+ "AskAQuestion": [
+  "Ask a Question"
+ ],
+ "Cancel": [
+  "Cancel"
+ ],
+ "Chat.CopySelectedText": [
+  "Copy Selected Text"
+ ],
+ "Chat.Date.ScheduledFor": [
+  "Scheduled for %@"
+ ],
+ "Chat.Date.ScheduledForToday": [
+  "Scheduled for today"
+ ],
+ "Chat.Input.Attach.Document": [
+  "Document"
+ ],
+ "Chat.Input.Attach.PhotoOrVideo": [
+  "Photo or Video"
+ ],
+ "Chat.Input.UnpinAll": [
+  "Unpin All Messages"
+ ],
+ "Chat.Menu.ClearSelection": [
+  "Clear Selection"
+ ],
+ "Chat.Menu.SelectMessages": [
+  "Select Messages"
+ ],
+ "Chat.Pinned.DontShow": [
+  "Hide Pinned Messages"
+ ],
+ "Chat.Poll.Stop": [
+  "Stop Poll"
+ ],
+ "Chat.Poll.Unvote": [
+  "Retract Vote"
+ ],
+ "Chat.Selection.LimitToast": [
+  "Max selection count reached."
+ ],
+ "Chat.Send.ScheduledMessage": [
+  "Schedule Message"
+ ],
+ "Chat.Send.SetReminder": [
+  "Set a Reminder"
+ ],
+ "Chat.Send.WithoutSound": [
+  "Send Without Sound"
+ ],
+ "ChatList.Context.Mute": [
+  "Mute"
+ ],
+ "ChatList.Service.Call.Cancelled": [
+  "Canceled Call"
+ ],
+ "ChatList.Service.Call.Missed": [
+  "Missed Call"
+ ],
+ "ChatList.Service.Call.incoming": [
+  "Incoming Call (%@)"
+ ],
+ "ChatList.Service.Call.outgoing": [
+  "Outgoing Call (%@)"
+ ],
+ "Copy": [
+  "Copy"
+ ],
+ "CopyLink": [
+  "Copy Link"
+ ],
+ "Delete": [
+  "Delete"
+ ],
+ "Edit": [
+  "Edit"
+ ],
+ "Forward": [
+  "Forward"
+ ],
+ "HistoryCleared": [
+  "History was cleared"
+ ],
+ "JumpToDate": [
+  "Jump to Date"
+ ],
+ "LastSeen.HoursAgo": [
+  "last seen %d hour ago",
+  "last seen %d hours ago"
+ ],
+ "Loading": [
+  "Loading..."
+ ],
+ "Message": [
+  "Message"
+ ],
+ "Message.Context.Pin": [
+  "Pin"
+ ],
+ "Message.Context.Select": [
+  "Select"
+ ],
+ "Message.Context.Selection.Clear": [
+  "Clear selection"
+ ],
+ "Message.Context.Selection.Copy": [
+  "Copy selected"
+ ],
+ "Message.Context.Selection.Delete": [
+  "Delete selected"
+ ],
+ "Message.Context.Selection.Forward": [
+  "Forward selected"
+ ],
+ "Message.Context.Selection.SendNow": [
+  "Send selected now"
+ ],
+ "Message.Context.Unpin": [
+  "Unpin"
+ ],
+ "NewPoll": [
+  "New Poll"
+ ],
+ "NewPoll.MultipleChoice": [
+  "Multiple Answers"
+ ],
+ "NewPoll.OptionLabel": [
+  "Option %d"
+ ],
+ "NewPoll.OptionsAddOption": [
+  "Add an Option"
+ ],
+ "NewPoll.Quiz": [
+  "Quiz Mode"
+ ],
+ "Peer.ServiceNotifications": [
+  "service notifications"
+ ],
+ "Peer.Status.justNow": [
+  "last seen just now"
+ ],
+ "PinnedMessagesCount": [
+  "Pinned Message",
+  "%1$d Pinned Messages"
+ ],
+ "Poll": [
+  "Poll"
+ ],
+ "Presence.YourChat": [
+  "chat with yourself"
+ ],
+ "Reminders": [
+  "Reminders"
+ ],
+ "Reply": [
+  "Reply"
+ ],
+ "Saved": [
+  "Saved"
+ ],
+ "SavedMessages": [
+  "Saved Messages"
+ ],
+ "ScheduledMessages": [
+  "Scheduled Messages"
+ ],
+ "Search": [
+  "Search"
+ ],
+ "Settings": [
+  "Settings"
+ ],
+ "ShareModal.Search.ForwardPlaceholder": [
+  "Forward to..."
+ ]
+}

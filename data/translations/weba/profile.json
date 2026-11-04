@@ -1,0 +1,107 @@
+{
+ "ALongTimeAgo": [
+  "last seen a long time ago"
+ ],
+ "AddContact": [
+  "Add Contact"
+ ],
+ "AreYouSureDeleteContact": [
+  "Are you sure you want to delete this contact?"
+ ],
+ "BlockUserTitle": [
+  "Block {user}"
+ ],
+ "ContactsPhoneNumberNotRegistred": [
+  "The person with this phone number is not registered on Telegram yet."
+ ],
+ "DeleteContact": [
+  "Delete contact"
+ ],
+ "FakeMessage": [
+  "FAKE"
+ ],
+ "HiddenName": [
+  "Deleted Account"
+ ],
+ "LastSeenJustNow": [
+  "last seen just now"
+ ],
+ "LastSeenOffline": [
+  "last seen a long time ago"
+ ],
+ "LastSeenTodayAt": [
+  "last seen today at {time}"
+ ],
+ "LastSeenYesterdayAt": [
+  "last seen yesterday at {time}"
+ ],
+ "Lately": [
+  "last seen recently"
+ ],
+ "MobileHidden": [
+  "Mobile hidden"
+ ],
+ "NewContactAdd": [
+  "Add contact"
+ ],
+ "NewContactBlock": [
+  "Block user"
+ ],
+ "PeerInfoReportProfilePhoto": [
+  "Report Profile Photo"
+ ],
+ "PeerInfoReportProfileVideo": [
+  "Report Profile Photo"
+ ],
+ "ReportButton": [
+  "Report"
+ ],
+ "ReportPeerAlertSuccess": [
+  "Thank you!Your report will be reviewed by our team."
+ ],
+ "ReportPeerReasonCopyright": [
+  "Copyright"
+ ],
+ "ReportPeerReport": [
+  "Report"
+ ],
+ "ReportReasonChildAbuse": [
+  "Child Abuse"
+ ],
+ "ReportReasonDescription": [
+  "Description"
+ ],
+ "ReportReasonOther": [
+  "Other"
+ ],
+ "ReportReasonPornography": [
+  "Pornography"
+ ],
+ "ReportReasonSpam": [
+  "Spam"
+ ],
+ "ReportReasonViolence": [
+  "Violence"
+ ],
+ "ReportSpamAndLeave": [
+  "Report spam and leave"
+ ],
+ "ScamMessage": [
+  "SCAM"
+ ],
+ "Unblock": [
+  "Unblock"
+ ],
+ "UserInfoBlockConfirmationTitle": [
+  "Do you want to block {user} from messaging and calling you on Telegram?"
+ ],
+ "UsernameByPhoneNotFound": [
+  "User {phone} not found."
+ ],
+ "WithinAMonth": [
+  "last seen within a month"
+ ],
+ "WithinAWeek": [
+  "last seen within a week"
+ ]
+}

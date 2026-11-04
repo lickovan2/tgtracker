@@ -1,0 +1,683 @@
+{
+ "Add": [
+  "Add"
+ ],
+ "AddAnExplanation": [
+  "Add an explanation"
+ ],
+ "AddAnExplanationInfo": [
+  "Users will see this text after choosing the wrong answer, good for educational purposes."
+ ],
+ "AddAnOption": [
+  "Add an Option..."
+ ],
+ "AddAnOptionInfo": [
+  "You can add %1$s."
+ ],
+ "AddAnOptionInfoMax": [
+  "You have added the maximum number of options."
+ ],
+ "AddCaption": [
+  "Add a caption..."
+ ],
+ "AllMedia": [
+  "All media"
+ ],
+ "AllPhotos": [
+  "All photos"
+ ],
+ "AllVideos": [
+  "All videos"
+ ],
+ "AnonymousPoll": [
+  "Anonymous Poll"
+ ],
+ "AnswerOptions": [
+  "Answer options"
+ ],
+ "AppFolderInfo": [
+  "Browse the app's folder"
+ ],
+ "AreYouSureDeleteGIF": [
+  "Are you sure you want to delete this GIF?"
+ ],
+ "AreYouSureDeleteGIFEveryone": [
+  "Are you sure you want to delete this GIF for everyone?"
+ ],
+ "AreYouSureDeleteGIFTitle": [
+  "Delete GIF"
+ ],
+ "AreYouSureDeletePhotoEveryone": [
+  "Are you sure you want to delete this photo for everyone?"
+ ],
+ "AreYouSureDeletePhotoTitle": [
+  "Delete photo"
+ ],
+ "ArticleDateByAuthor": [
+  "%1$s by %2$s"
+ ],
+ "AttachContact": [
+  "Contact"
+ ],
+ "AttachDocument": [
+  "File"
+ ],
+ "AttachLocation": [
+  "Location"
+ ],
+ "AttachMusic": [
+  "Music"
+ ],
+ "AudioTitle": [
+  "Shared Music"
+ ],
+ "AudioUnknownArtist": [
+  "Unknown artist"
+ ],
+ "BlurLinear": [
+  "Linear"
+ ],
+ "BlurOff": [
+  "Off"
+ ],
+ "BlurRadial": [
+  "Radial"
+ ],
+ "Cancel": [
+  "Cancel"
+ ],
+ "CancelPollAlertText": [
+  "Are you sure you want to discard this poll?"
+ ],
+ "CancelPollAlertTitle": [
+  "Discard poll?"
+ ],
+ "CantPlayVideo": [
+  "App was unable to play this video. Try to play it with external player?"
+ ],
+ "ChatCamera": [
+  "Camera"
+ ],
+ "ChatDocument": [
+  "File"
+ ],
+ "ChatGallery": [
+  "Gallery"
+ ],
+ "ChatLocation": [
+  "Location"
+ ],
+ "ChatVideo": [
+  "Video"
+ ],
+ "ChromecastStartedTo": [
+  "Started streaming media to %s."
+ ],
+ "ClearRecentHistory": [
+  "Clear History"
+ ],
+ "Contrast": [
+  "Contrast"
+ ],
+ "CreateLinkHeader": [
+  "CREATE"
+ ],
+ "Crop": [
+  "CROP"
+ ],
+ "CropImage": [
+  "Crop image"
+ ],
+ "CropOriginal": [
+  "Original"
+ ],
+ "CropReset": [
+  "Reset"
+ ],
+ "CropSquare": [
+  "Square"
+ ],
+ "CurvesAll": [
+  "ALL"
+ ],
+ "CurvesBlue": [
+  "BLUE"
+ ],
+ "CurvesGreen": [
+  "GREEN"
+ ],
+ "CurvesRed": [
+  "RED"
+ ],
+ "DartInfo": [
+  "Send a **:dart:** emoji to try your luck."
+ ],
+ "Delete": [
+  "Delete"
+ ],
+ "DiscardChanges": [
+  "Discard changes"
+ ],
+ "DocumentsTitle": [
+  "Shared Files"
+ ],
+ "Done": [
+  "Done"
+ ],
+ "EditMessageEditPhoto": [
+  "Edit this photo"
+ ],
+ "EditMessageEditVideo": [
+  "Edit this video"
+ ],
+ "EditMessageReplaceAudio": [
+  "Replace audio file"
+ ],
+ "EditMessageReplaceFile": [
+  "Replace file"
+ ],
+ "EditMessageReplaceGif": [
+  "Replace media"
+ ],
+ "EditMessageReplacePhoto": [
+  "Replace photo"
+ ],
+ "EditMessageReplaceVideo": [
+  "Replace video"
+ ],
+ "EditorMuteHint": [
+  "Sound is now muted, so the video will play and loop like a GIF."
+ ],
+ "EditorSetCover": [
+  "Edit Cover"
+ ],
+ "EditorSetCoverGallery": [
+  "Choose from Gallery"
+ ],
+ "EditorSetCoverSave": [
+  "Save Cover"
+ ],
+ "EditorSetCoverTitle": [
+  "Select Frame"
+ ],
+ "Emoji1": [
+  "Emoji & People"
+ ],
+ "Emoji4": [
+  "Activity"
+ ],
+ "Emoji5": [
+  "Travel and places"
+ ],
+ "Emoji6": [
+  "Objects"
+ ],
+ "Emoji7": [
+  "Symbols"
+ ],
+ "Emoji8": [
+  "Flags"
+ ],
+ "EmojiSuggestions": [
+  "Emoji suggestions"
+ ],
+ "EmojiSuggestionsInfo": [
+  "**Telegram** lets you find emoji by thousands of keywords, but there is always something missing. If you want to suggest a new emoji replacement, you can help us by visiting:"
+ ],
+ "EmojiSuggestionsUrl": [
+  "https://translations.telegram.org/%1$s/emoji"
+ ],
+ "Enhance": [
+  "Enhance"
+ ],
+ "Exposure": [
+  "Exposure"
+ ],
+ "Fade": [
+  "Fade"
+ ],
+ "FeaturedGifs": [
+  "Trending GIFs"
+ ],
+ "Files": [
+  "%1$d file",
+  "%1$d files"
+ ],
+ "FilesSavedHint": [
+  "File saved to Downloads.",
+  "%1$d files saved to Downloads."
+ ],
+ "FinalResults": [
+  "Final Results"
+ ],
+ "GIFs": [
+  "%1$d GIF",
+  "%1$d GIFs"
+ ],
+ "Gallery": [
+  "Gallery"
+ ],
+ "GalleryInfo": [
+  "To send images without compression"
+ ],
+ "GifCaption": [
+  "GIF Caption"
+ ],
+ "GifsTab2": [
+  "GIFs"
+ ],
+ "Grain": [
+  "Grain"
+ ],
+ "GroupPhotosHelp": [
+  "Group media into one message"
+ ],
+ "Highlights": [
+  "Highlights"
+ ],
+ "ImagesTab2": [
+  "Images"
+ ],
+ "InternalFolderInfo": [
+  "Browse your file system"
+ ],
+ "InternalStorage": [
+  "Internal Storage"
+ ],
+ "January": [
+  "January"
+ ],
+ "LinksTitle": [
+  "Shared Links"
+ ],
+ "MainChannelProfilePhotoSetHint": [
+  "This is the main channel photo now."
+ ],
+ "MainChannelProfileVideoSetHint": [
+  "This is the main channel photo now."
+ ],
+ "Media": [
+  "%1$d media",
+  "%1$d media"
+ ],
+ "MediaSelected": [
+  "%1$d media selected",
+  "%1$d media selected"
+ ],
+ "MusicFiles": [
+  "%1$d music file",
+  "%1$d music files"
+ ],
+ "MusicInfo": [
+  "To send music files"
+ ],
+ "NewPoll": [
+  "New Poll"
+ ],
+ "NoAudio": [
+  "Add files to the music library on your device to see them here."
+ ],
+ "NoAudioFound": [
+  "No results found"
+ ],
+ "NoAudioFoundInfo": [
+  "There are no matches with **%1$s** in your music library."
+ ],
+ "NoAudioFoundPlayerInfo": [
+  "There are no matches for **%1$s**."
+ ],
+ "NoEmojiFound": [
+  "No emoji found"
+ ],
+ "NoGIFsFound": [
+  "No GIFs found"
+ ],
+ "NoMedia": [
+  "Share photos and videos in this chat and access them on any of your devices."
+ ],
+ "NoMediaSecret": [
+  "Photos and videos from this chat will be shown here."
+ ],
+ "NoPhotos": [
+  "No photos yet"
+ ],
+ "NoSharedAudio": [
+  "Share music in this chat and access it on any of your devices."
+ ],
+ "NoSharedAudioSecret": [
+  "Music from this chat will be shown here."
+ ],
+ "NoSharedFiles": [
+  "Share files and documents in this chat and access them on any of your devices."
+ ],
+ "NoSharedLinks": [
+  "Share links in this chat and access them on any of your devices."
+ ],
+ "NoSharedVoiceSecret": [
+  "Voice messages from this chat will be shown here."
+ ],
+ "NoVotes": [
+  "No votes"
+ ],
+ "OK": [
+  "OK"
+ ],
+ "Of": [
+  "%1$d of %2$d"
+ ],
+ "OpenFile": [
+  "OPEN FILE"
+ ],
+ "OpenInExternalApp": [
+  "Open in..."
+ ],
+ "Option": [
+  "%1$d more option",
+  "%1$d more options"
+ ],
+ "OptionHint": [
+  "Option"
+ ],
+ "PaintArrow": [
+  "Arrow"
+ ],
+ "PaintDelete": [
+  "Delete"
+ ],
+ "PaintDuplicate": [
+  "Duplicate"
+ ],
+ "PaintEdit": [
+  "Edit"
+ ],
+ "PaintFramed": [
+  "Framed"
+ ],
+ "PaintMarker": [
+  "Marker"
+ ],
+ "PaintNeon": [
+  "Neon"
+ ],
+ "PaintOutlined": [
+  "Outlined"
+ ],
+ "PaintPen": [
+  "Pen"
+ ],
+ "PaintRegular": [
+  "Regular"
+ ],
+ "PhotoCaption": [
+  "Photo Caption"
+ ],
+ "PhotoSavedHint": [
+  "Photo saved to gallery."
+ ],
+ "Photos": [
+  "%1$d photo",
+  "%1$d photos"
+ ],
+ "PhotosSelected": [
+  "%1$d photo selected",
+  "%1$d photos selected"
+ ],
+ "PleaseDownload": [
+  "Please download media first"
+ ],
+ "PleaseStreamDownload": [
+  "Please wait for the video to be fully downloaded."
+ ],
+ "Poll": [
+  "Poll"
+ ],
+ "PollAnonymous": [
+  "Anonymous Voting"
+ ],
+ "PollMultiple": [
+  "Multiple Answers"
+ ],
+ "PollQuestion": [
+  "Poll question"
+ ],
+ "PollQuiz": [
+  "Quiz Mode"
+ ],
+ "PollTapToSelect": [
+  "Tap to choose the correct answer"
+ ],
+ "PreviewFeedback2": [
+  "Wrong layout?"
+ ],
+ "QuestionHint": [
+  "Ask a question"
+ ],
+ "QuizInfo": [
+  "Polls in Quiz Mode have one correct answer. Users can't revoke their answers."
+ ],
+ "RecentFiles": [
+  "Recent files"
+ ],
+ "RecentFilesAZ": [
+  "Files A-Z"
+ ],
+ "RepeatList": [
+  "Repeat List"
+ ],
+ "RepeatSong": [
+  "Repeat Track"
+ ],
+ "ReplacePhoto": [
+  "Replace photo"
+ ],
+ "ReverseOrder": [
+  "Reverse Order"
+ ],
+ "Saturation": [
+  "Saturation"
+ ],
+ "SaveToGallery": [
+  "Save to Gallery"
+ ],
+ "SearchEmojiHint": [
+  "Search emoji"
+ ],
+ "SearchGifs": [
+  "FIND GIFS"
+ ],
+ "SearchImages": [
+  "FIND IMAGES"
+ ],
+ "SearchImagesInfo": [
+  "WEB SEARCH"
+ ],
+ "SearchImagesTitle": [
+  "Search web"
+ ],
+ "SearchMusic": [
+  "Search music"
+ ],
+ "SearchTrendingStickersHint": [
+  "Search trending stickers"
+ ],
+ "SelectFile": [
+  "Select File"
+ ],
+ "Send": [
+  "Send"
+ ],
+ "SendAsFile": [
+  "Send as file"
+ ],
+ "SendAsFiles": [
+  "Send as files"
+ ],
+ "SendAsNewPhoto": [
+  "Send as a new photo"
+ ],
+ "SendDice": [
+  "SEND"
+ ],
+ "SendGifPreview": [
+  "Send GIF"
+ ],
+ "SendWithoutCompression": [
+  "Send without compression"
+ ],
+ "SendWithoutGrouping": [
+  "Send without grouping"
+ ],
+ "Settings": [
+  "Settings"
+ ],
+ "Shadows": [
+  "Shadows"
+ ],
+ "ShareFile": [
+  "Share"
+ ],
+ "SharedContentTitle": [
+  "Shared Content"
+ ],
+ "SharedFilesTab2": [
+  "Files"
+ ],
+ "SharedGIFsTab2": [
+  "GIFs"
+ ],
+ "SharedLinksTab2": [
+  "Links"
+ ],
+ "SharedMedia": [
+  "Shared Media"
+ ],
+ "SharedMediaTab2": [
+  "Media"
+ ],
+ "SharedMediaTitle": [
+  "Shared Media"
+ ],
+ "SharedMusicTab2": [
+  "Music"
+ ],
+ "SharedVoiceTab2": [
+  "Voice"
+ ],
+ "Sharpen": [
+  "Sharpen"
+ ],
+ "ShowAllFiles": [
+  "Show all files"
+ ],
+ "ShowAllMedia": [
+  "Show All Media"
+ ],
+ "ShowInChat": [
+  "Show in chat"
+ ],
+ "ShuffleList": [
+  "Shuffle List"
+ ],
+ "SoundMuted": [
+  "Sound muted"
+ ],
+ "Speed": [
+  "Speed"
+ ],
+ "SpeedNormal": [
+  "Normal"
+ ],
+ "Stickers": [
+  "%1$d sticker",
+  "%1$d stickers"
+ ],
+ "StickersRemove": [
+  "Remove"
+ ],
+ "Stop": [
+  "Stop"
+ ],
+ "StopDownload": [
+  "Stop downloading"
+ ],
+ "StopPoll": [
+  "Stop Poll"
+ ],
+ "StopPollAlertText": [
+  "If you stop this poll now, nobody will be able to vote in it anymore. This action cannot be undone."
+ ],
+ "StopPollAlertTitle": [
+  "Stop poll?"
+ ],
+ "SystemRoot": [
+  "System Root"
+ ],
+ "TapForVideo": [
+  "Tap for photo, hold for video"
+ ],
+ "TapHereGifs": [
+  "Tap here to access saved GIFs"
+ ],
+ "TapToDownload": [
+  "Tap to download"
+ ],
+ "TintHighlights": [
+  "HIGHLIGHTS"
+ ],
+ "TintShadows": [
+  "SHADOWS"
+ ],
+ "Unvote": [
+  "Retract Vote"
+ ],
+ "VideoCaption": [
+  "Video Caption"
+ ],
+ "VideoChooseCover": [
+  "Choose cover"
+ ],
+ "VideoDoesNotSupportStreaming": [
+  "Video not optimized for streaming. You may need to download it in full to play it."
+ ],
+ "VideoPlayerChromecast": [
+  "Chromecast"
+ ],
+ "VideoSavedHint": [
+  "Video saved to gallery."
+ ],
+ "VideosSelected": [
+  "%1$d video selected",
+  "%1$d videos selected"
+ ],
+ "Views": [
+  "%1$s view",
+  "%1$s views"
+ ],
+ "Vignette": [
+  "Vignette"
+ ],
+ "Voice": [
+  "%1$d voice message",
+  "%1$d voice messages"
+ ],
+ "Vote": [
+  "%1$d vote",
+  "%1$d votes"
+ ],
+ "Warmth": [
+  "Warmth"
+ ],
+ "YesterdayAtFormatted": [
+  "yesterday at %1$s"
+ ],
+ "formatDateAtTime": [
+  "%1$s at %2$s"
+ ],
+ "formatterMonthYear": [
+  "MMMM yyyy"
+ ],
+ "items": [
+  "%1$d item",
+  "%1$d items"
+ ]
+}

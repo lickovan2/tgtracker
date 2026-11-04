@@ -1,0 +1,245 @@
+{
+ "Call.Toast.CameraOff": [
+  "%@'s camera is off"
+ ],
+ "Call.Toast.MicroOff": [
+  "%@'s microphone is off"
+ ],
+ "Chat.DropAsFilesDesc": [
+  "without compression"
+ ],
+ "Chat.DropQuickDesc": [
+  "in a quick way"
+ ],
+ "Chat.DropTitle": [
+  "Drop files here to send them"
+ ],
+ "Chat.Emoji.Dart.ResultNew": [
+  "Send a dart emoji to try your luck."
+ ],
+ "Chat.Emoji.Send": [
+  "Send"
+ ],
+ "Context.RecentGifRemove": [
+  "Remove"
+ ],
+ "EditImageControl.Confirm.Discard": [
+  "Are you sure you want to discard all changes?"
+ ],
+ "Entertainment.Emoji": [
+  "EMOJI"
+ ],
+ "Entertainment.GIF": [
+  "GIFs"
+ ],
+ "Entertainment.Stickers": [
+  "STICKERS"
+ ],
+ "Gallery.Context.CopyToClipboard": [
+  "Copy Media"
+ ],
+ "Gallery.Context.SaveAs": [
+  "Save As..."
+ ],
+ "Gallery.Context.Share.AllItems": [
+  "All %d Items",
+  "All %d Items"
+ ],
+ "Gallery.Context.Share.AllPhotos": [
+  "All %d photo",
+  "All %d photos"
+ ],
+ "Gallery.Context.Share.AllVideos": [
+  "All %d Videos",
+  "All %d Videos"
+ ],
+ "Gallery.Context.Share.ThisPhoto": [
+  "This Photo"
+ ],
+ "Gallery.Context.Share.ThisVideo": [
+  "This Video"
+ ],
+ "Gallery.Context.ShowGallery": [
+  "Shared Media"
+ ],
+ "Gallery.Context.ShowMessage": [
+  "Show Message"
+ ],
+ "Gallery.ContextDeletePhoto": [
+  "Delete"
+ ],
+ "Gallery.RemoveGif": [
+  "Remove GIF"
+ ],
+ "Gallery.SaveGif": [
+  "Save GIF"
+ ],
+ "Gallery.WaitDownload.Video": [
+  "Please wait for the video to be fully downloaded."
+ ],
+ "GalleryView.FastSave.Gif": [
+  "GIF saved to your [Download]() folder"
+ ],
+ "GalleryView.FastSave.Image": [
+  "Image saved to your [Download]() folder"
+ ],
+ "GalleryView.FastSave.Video": [
+  "Video saved to your [Download]() folder"
+ ],
+ "GifsPane.Reactions": [
+  "REACTIONS"
+ ],
+ "GifsPane.Trending": [
+  "TRENDING GIFS"
+ ],
+ "InputAttach.Popover.File": [
+  "File"
+ ],
+ "InputAttach.Popover.PhotoOrVideo": [
+  "Photo Or Video"
+ ],
+ "InputAttach.Popover.Picture": [
+  "Camera"
+ ],
+ "InstantPage.RelatedArticleAuthorAndDateTitle": [
+  "%@ • %@"
+ ],
+ "Message.Context.Forward": [
+  "Forward"
+ ],
+ "Message.Context.RemoveGif": [
+  "Remove GIF"
+ ],
+ "Messages.File.State.Remote": [
+  "Download"
+ ],
+ "Navigation.Close": [
+  "Close"
+ ],
+ "Peer.Media.SharedFilesEmptyList": [
+  "You can send and receive files of any type up to 2 GB each and access them anywhere."
+ ],
+ "Peer.Media.SharedLinksEmptyList": [
+  "All links shared in this chat will appear here."
+ ],
+ "Peer.Media.SharedMediaEmptyList": [
+  "Share photos and videos in this chat— or this paperclip stays unhappy."
+ ],
+ "Peer.Media.SharedMusicEmptyList": [
+  "All music shared in this chat will appear here."
+ ],
+ "Peer.Media.SharedVoiceEmptyList": [
+  "All voice and video messages shared in this chat will appear here."
+ ],
+ "PeerMedia.Audio": [
+  "Audio"
+ ],
+ "PeerMedia.Files": [
+  "Files"
+ ],
+ "PeerMedia.Gifs": [
+  "GIFs"
+ ],
+ "PeerMedia.Links": [
+  "Links"
+ ],
+ "PeerMedia.Media": [
+  "Media"
+ ],
+ "PeerMedia.Music": [
+  "Music"
+ ],
+ "PeerMedia.Popover.SharedAudio": [
+  "Shared Audio"
+ ],
+ "PeerMedia.Popover.SharedFiles": [
+  "Shared Files"
+ ],
+ "PeerMedia.Popover.SharedLinks": [
+  "Shared Links"
+ ],
+ "PeerMedia.Popover.SharedMedia": [
+  "Shared Media"
+ ],
+ "PeerMedia.SharedMedia": [
+  "Shared Media"
+ ],
+ "PeerMedia.Voice": [
+  "Voice"
+ ],
+ "PreviewSender.CaptionPlaceholder": [
+  "Add a caption..."
+ ],
+ "PreviewSender.CollageTooltip": [
+  "Group all media into one message"
+ ],
+ "PreviewSender.CommentPlaceholder": [
+  "Add a comment..."
+ ],
+ "PreviewSender.CompressFile": [
+  "Send compressed"
+ ],
+ "PreviewSender.FileTooltip": [
+  "Send without compression"
+ ],
+ "PreviewSender.MediaTooltip": [
+  "Send in a quick way"
+ ],
+ "PreviewSender.SendAudio": [
+  "Send Audio",
+  "Send %d Audios"
+ ],
+ "PreviewSender.SendFile": [
+  "Send File",
+  "Send %d Files"
+ ],
+ "PreviewSender.SendFile_countable": [
+  "%d"
+ ],
+ "PreviewSender.SendGif": [
+  "Send GIF",
+  "Send %d GIFs"
+ ],
+ "PreviewSender.SendMedia": [
+  "Send Media",
+  "Send %d Media"
+ ],
+ "PreviewSender.SendPhoto": [
+  "Send Photo",
+  "Send %d Photos"
+ ],
+ "PreviewSender.SendPhoto_countable": [
+  "%d"
+ ],
+ "PreviewSender.SendVideo": [
+  "Send Video",
+  "Send %d Videos"
+ ],
+ "SearchField.Search": [
+  "Search"
+ ],
+ "SelectAreaControl.Dimension.Original": [
+  "Original"
+ ],
+ "SelectAreaControl.Dimension.Square": [
+  "Square"
+ ],
+ "Stickers.Favorite": [
+  "Favorite"
+ ],
+ "Stickers.Recent": [
+  "Recent"
+ ],
+ "Stickers.SearchAdd": [
+  "Add"
+ ],
+ "Telegram.PeerMediaController": [
+  "Shared Media"
+ ],
+ "Time.TodayAt": [
+  "today at %@"
+ ],
+ "Time.YesterdayAt": [
+  "yesterday at %@"
+ ]
+}

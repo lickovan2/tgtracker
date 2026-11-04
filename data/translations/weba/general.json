@@ -1,0 +1,880 @@
+{
+ "ALongTimeAgo": [
+  "last seen a long time ago"
+ ],
+ "AccActionDownload": [
+  "Download"
+ ],
+ "AccDescrMentionDown": [
+  "Go to next mention"
+ ],
+ "AccDescrMoreOptions": [
+  "More options"
+ ],
+ "AccDescrPageDown": [
+  "Go to bottom"
+ ],
+ "AccDescrReactionMentionDown": [
+  "Go to next unread reactions"
+ ],
+ "AccDescrStickerSet": [
+  "Sticker set"
+ ],
+ "AccDescrVoiceMessage": [
+  "Record voice message"
+ ],
+ "AccExitFullscreen": [
+  "Exit fullscreen"
+ ],
+ "AccSwitchToFullscreen": [
+  "Switch to fullscreen"
+ ],
+ "Add": [
+  "Add"
+ ],
+ "AddContactSharedContactExceptionInfo": [
+  "You can make your phone visible to {user}."
+ ],
+ "ArchivedChats": [
+  "Archived Chats"
+ ],
+ "AriaAddAttachment": [
+  "Add attachment"
+ ],
+ "AriaCloseAttachmentModal": [
+  "Discard attachments"
+ ],
+ "AriaCodeWordWrap": [
+  "Word wrap"
+ ],
+ "AriaComposerCancelVoice": [
+  "Cancel voice recording"
+ ],
+ "AriaComposerOpenScheduled": [
+  "Open scheduled messages"
+ ],
+ "AriaCreateGroup": [
+  "Create Group"
+ ],
+ "AriaMoreButton": [
+  "More Actions"
+ ],
+ "AriaNewChannelContinue": [
+  "Continue to Channel Info"
+ ],
+ "AriaOpenBotMenu": [
+  "Open bot menu"
+ ],
+ "AriaOpenSymbolMenu": [
+  "Choose emoji, sticker or GIF"
+ ],
+ "AttachAudio": [
+  "Voice Message"
+ ],
+ "AttachContact": [
+  "Contact"
+ ],
+ "AttachGame": [
+  "Game"
+ ],
+ "AttachGif": [
+  "GIF"
+ ],
+ "AttachLiveLocation": [
+  "Live Location"
+ ],
+ "AttachMusic": [
+  "Music"
+ ],
+ "AttachPhoto": [
+  "Photo"
+ ],
+ "AttachSticker": [
+  "Sticker"
+ ],
+ "AttachVideo": [
+  "Video"
+ ],
+ "AudioPause": [
+  "Pause audio"
+ ],
+ "AudioPlay": [
+  "Play audio"
+ ],
+ "AudioPlayerClose": [
+  "Close"
+ ],
+ "AudioPlayerNext": [
+  "Next track"
+ ],
+ "AudioPlayerPrevious": [
+  "Previous track"
+ ],
+ "Block": [
+  "BLOCK"
+ ],
+ "BotHelp": [
+  "Help"
+ ],
+ "BoxRemove": [
+  "Remove"
+ ],
+ "CallAccept": [
+  "Accept"
+ ],
+ "CallDecline": [
+  "Decline"
+ ],
+ "CallEmojiKeyTooltip": [
+  "If the emoji on {user}’s screen are the same, this call is 100% secure."
+ ],
+ "CallEndCall": [
+  "End Call"
+ ],
+ "CallMuteAudio": [
+  "Mute"
+ ],
+ "CallRateComment": [
+  "Comment (optional)"
+ ],
+ "CallRateLabel": [
+  "Please rate the quality of your call"
+ ],
+ "CallScreencast": [
+  "Screencast"
+ ],
+ "CallStartVideo": [
+  "Start Video"
+ ],
+ "CallStatusExchanging": [
+  "exchanging encryption keys..."
+ ],
+ "CallStatusHanging": [
+  "hanging up..."
+ ],
+ "CallStatusIncoming": [
+  "is calling you..."
+ ],
+ "CallStatusRequesting": [
+  "requesting..."
+ ],
+ "CallStatusRinging": [
+  "ringing..."
+ ],
+ "CallStatusWaiting": [
+  "waiting..."
+ ],
+ "CallStopVideo": [
+  "Stop Video"
+ ],
+ "CallUnmuteAudio": [
+  "Unmute"
+ ],
+ "Cancel": [
+  "Cancel"
+ ],
+ "ChannelIntroCreateChannel": [
+  "Create Channel"
+ ],
+ "ChannelTypeHeader": [
+  "Channel type"
+ ],
+ "ChatListSearchNoResults": [
+  "No Results"
+ ],
+ "ChatListSearchNoResultsDescription": [
+  "There were no results.Try a new search."
+ ],
+ "ChatListSearchShowLess": [
+  "Show Less"
+ ],
+ "ChatListSearchShowMore": [
+  "Show More"
+ ],
+ "ChatOutgoingContextMixedReactionCount": [
+  "{count}/{total} reacted"
+ ],
+ "Close": [
+  "Close"
+ ],
+ "CommonClose": [
+  "Close"
+ ],
+ "CommonSelect": [
+  "Select"
+ ],
+ "ContactListEmpty": [
+  "Contact list empty"
+ ],
+ "ContactPhone": [
+  "Phone Number"
+ ],
+ "Contacts": [
+  "Contacts"
+ ],
+ "ContextCopyImage": [
+  "Copy Image"
+ ],
+ "ContextCopyMessageLink": [
+  "Copy Message Link"
+ ],
+ "ContextCopySelected": [
+  "Copy Selected Text"
+ ],
+ "ContextCopySelectedItems": [
+  "Copy Selected as Text"
+ ],
+ "ContextCopyText": [
+  "Copy Text"
+ ],
+ "ConversationForwardOptionsHideCaption": [
+  "Hide Captions"
+ ],
+ "ConversationForwardOptionsShowCaption": [
+  "Show Captions"
+ ],
+ "ConversationScheduleMessageSendOn": [
+  "Send on {date} at {time}"
+ ],
+ "ConversationScheduleMessageSendToday": [
+  "Send today at {time}"
+ ],
+ "Copy": [
+  "Copy"
+ ],
+ "Create": [
+  "Create"
+ ],
+ "CreateNewContact": [
+  "Create New Contact"
+ ],
+ "CurrentPasswordPlaceholder": [
+  "Current password"
+ ],
+ "Days": [
+  "{count} day",
+  "{count} days"
+ ],
+ "Delete": [
+  "Delete"
+ ],
+ "DeleteAll": [
+  "Delete All"
+ ],
+ "DeleteContact": [
+  "Delete contact"
+ ],
+ "DeleteFromRecent": [
+  "Remove from Recent"
+ ],
+ "DialogListSearchSectionDialogs": [
+  "Chats and Contacts"
+ ],
+ "DialogListSearchSectionGlobal": [
+  "Global Search"
+ ],
+ "DialogPin": [
+  "Pin"
+ ],
+ "DialogUnpin": [
+  "Unpin"
+ ],
+ "Done": [
+  "Done"
+ ],
+ "Draft": [
+  "Draft"
+ ],
+ "DragToSortAria": [
+  "Drag to sort"
+ ],
+ "Edit": [
+  "Edit"
+ ],
+ "EditMessageAriaLabel": [
+  "Save edited message"
+ ],
+ "Emoji2": [
+  "Animals and nature"
+ ],
+ "Emoji3": [
+  "Food and drink"
+ ],
+ "Emoji4": [
+  "Activity"
+ ],
+ "Emoji5": [
+  "Travel and places"
+ ],
+ "Emoji6": [
+  "Objects"
+ ],
+ "Emoji7": [
+  "Symbols"
+ ],
+ "Emoji8": [
+  "Flags"
+ ],
+ "FileDropZoneNoCompression": [
+  "without compression"
+ ],
+ "FileDropZoneQuick": [
+  "in a quick way"
+ ],
+ "FileDropZoneTitle": [
+  "Drop files here to send them"
+ ],
+ "FirstName": [
+  "First name (required)"
+ ],
+ "FocusMessage": [
+  "Focus message"
+ ],
+ "FoldersAllChatsDesc": [
+  "All unarchived chats"
+ ],
+ "FormatDateAtTime": [
+  "{date} at {time}"
+ ],
+ "FormattingBoldAria": [
+  "Bold text"
+ ],
+ "FormattingEnterUrl": [
+  "Enter URL..."
+ ],
+ "FormattingItalicAria": [
+  "Italic text"
+ ],
+ "FormattingMonospaceAria": [
+  "Monospace text"
+ ],
+ "FormattingSpoilerAria": [
+  "Spoiler text"
+ ],
+ "FormattingStrikethroughAria": [
+  "Strikethrough text"
+ ],
+ "FormattingUnderlineAria": [
+  "Underlined text"
+ ],
+ "Forward": [
+  "Forward"
+ ],
+ "FromYou": [
+  "You"
+ ],
+ "GeneralConfirm": [
+  "Confirm"
+ ],
+ "GeneralError": [
+  "An error occurred"
+ ],
+ "GifPickerBlocked": [
+  "Sending GIFs is not allowed in this chat"
+ ],
+ "GifPickerEmpty": [
+  "No saved GIFs"
+ ],
+ "GroupInfoParticipantCount": [
+  "1 member",
+  "{count} members"
+ ],
+ "GroupName": [
+  "Group name"
+ ],
+ "GroupTypeHeader": [
+  "Group type"
+ ],
+ "HiddenName": [
+  "Deleted Account"
+ ],
+ "HiddenSendersNameDescription": [
+  "Sender names removed"
+ ],
+ "HideCaption": [
+  "Hide Caption"
+ ],
+ "HideSenderNames": [
+  "Hide Sender Names"
+ ],
+ "HideSendersName": [
+  "Hide Sender Name"
+ ],
+ "Hours": [
+  "{count} hour",
+  "{count} hours"
+ ],
+ "InviteLink": [
+  "Invite Link"
+ ],
+ "LastSeenAtDate": [
+  "last seen {date}"
+ ],
+ "LastSeenHoursAgo": [
+  "last seen {count} hour ago",
+  "last seen {count} hours ago"
+ ],
+ "LastSeenJustNow": [
+  "last seen just now"
+ ],
+ "LastSeenMinutesAgo": [
+  "last seen 1 minute ago",
+  "last seen {count} minutes ago"
+ ],
+ "LastSeenOffline": [
+  "last seen a long time ago"
+ ],
+ "LastSeenTodayAt": [
+  "last seen today at {time}"
+ ],
+ "LastSeenYesterdayAt": [
+  "last seen yesterday at {time}"
+ ],
+ "LimitReachedChatInFoldersLocked": [
+  "Sorry, you can't add more than **{limit}** chats to a folder. Please create a new one. We are working to let you increase this limit in the future."
+ ],
+ "LimitReachedChatInFoldersPremium": [
+  "Sorry, you can't add more than **{limit}** chats to a folder. Please create a new one."
+ ],
+ "LimitReachedFileSizePremium": [
+  "The document can't be sent, because it is larger than **{limit}**."
+ ],
+ "LimitReachedPinDialogsLocked": [
+  "Sorry, you can't pin more than {limit} chats to the top. Unpin some that are currently pinned. We are working to let you increase this limit in the future."
+ ],
+ "Listening": [
+  "listening"
+ ],
+ "LiveLocationUpdatedJustNow": [
+  "updated just now"
+ ],
+ "LiveLocationUpdatedMinutesAgo": [
+  "updated 1 minute ago",
+  "updated {count} minutes ago"
+ ],
+ "LiveLocationUpdatedTodayAt": [
+  "updated at {time}"
+ ],
+ "Loading": [
+  "Loading..."
+ ],
+ "LoginPhonePlaceholder": [
+  "Your phone number"
+ ],
+ "LoginQRLogin": [
+  "Log in by QR Code"
+ ],
+ "LoginSelectCountryTitle": [
+  "Country"
+ ],
+ "MediaLocaltionImageAlt": [
+  "Location on a map"
+ ],
+ "MenuNightMode": [
+  "Night Mode"
+ ],
+ "MessageScheduleEditTime": [
+  "Reschedule"
+ ],
+ "MessageScheduleSend": [
+  "Send Now"
+ ],
+ "MessageScheduledUntilOnline": [
+  "Scheduled until online"
+ ],
+ "MessageTimerShortDays": [
+  "{count}d"
+ ],
+ "MessageTimerShortHours": [
+  "{count}h"
+ ],
+ "Messages": [
+  "{count} message",
+  "{count} messages"
+ ],
+ "Minutes": [
+  "{count} minute",
+  "{count} minutes"
+ ],
+ "Month1": [
+  "January"
+ ],
+ "Month10": [
+  "October"
+ ],
+ "Month11": [
+  "November"
+ ],
+ "Month12": [
+  "December"
+ ],
+ "Month2": [
+  "February"
+ ],
+ "Month3": [
+  "March"
+ ],
+ "Month4": [
+  "April"
+ ],
+ "Month5": [
+  "May"
+ ],
+ "Month6": [
+  "June"
+ ],
+ "Month7": [
+  "July"
+ ],
+ "Month8": [
+  "August"
+ ],
+ "Month9": [
+  "September"
+ ],
+ "Months": [
+  "{count} month",
+  "{count} months"
+ ],
+ "NMembers": [
+  "{count} member",
+  "{count} members"
+ ],
+ "New": [
+  "New"
+ ],
+ "NewChannel": [
+  "New Channel"
+ ],
+ "NewChatReturnBackAria": [
+  "Return to member selection"
+ ],
+ "NewChatTooManyUsers": [
+  "Sorry, creating supergroups is not yet supported"
+ ],
+ "NewContact": [
+  "New Contact"
+ ],
+ "NewContactPhoneHiddenText": [
+  "Phone number will be **visible** once {user} adds you as a contact."
+ ],
+ "NewContactShare": [
+  "Share my phone number"
+ ],
+ "NewGroup": [
+  "New Group"
+ ],
+ "NewMessageTitle": [
+  "New Message"
+ ],
+ "NoContactsFound": [
+  "No contacts found"
+ ],
+ "NoGroupsInCommon": [
+  "No common groups"
+ ],
+ "NoLinksFound": [
+  "No links found"
+ ],
+ "NoMembersFound": [
+  "No members found"
+ ],
+ "NoSubscribersFound": [
+  "No subscribers found"
+ ],
+ "NothingFound": [
+  "Nothing found"
+ ],
+ "Notifications": [
+  "Notifications"
+ ],
+ "OK": [
+  "OK"
+ ],
+ "OpenUrlTitle": [
+  "Open Link"
+ ],
+ "Participants": [
+  "{count} participant",
+  "{count} participants"
+ ],
+ "PinnedConfirmUnpin": [
+  "Would you like to unpin this message?"
+ ],
+ "PlayerPlaybackRate": [
+  "Playback Rate"
+ ],
+ "PlayerVolume": [
+  "Volume"
+ ],
+ "PlayingGame": [
+  "playing a game"
+ ],
+ "PleaseWait": [
+  "Please wait..."
+ ],
+ "PreviewEditMessage": [
+  "Edit message"
+ ],
+ "PreviewForwardedMessage": [
+  "{count} forwarded message",
+  "{count} forwarded messages"
+ ],
+ "Profile": [
+  "Profile"
+ ],
+ "ProfileCopyPhone": [
+  "Copy Phone Number"
+ ],
+ "Reactions": [
+  "Reactions"
+ ],
+ "Recent": [
+  "Recent"
+ ],
+ "RemoveSymbol": [
+  "Delete emoji"
+ ],
+ "Reply": [
+  "Reply"
+ ],
+ "Save": [
+  "Save"
+ ],
+ "SavedMessages": [
+  "Saved Messages"
+ ],
+ "SavedMessagesInfo": [
+  "Forward here to save"
+ ],
+ "ScheduleMessage": [
+  "Schedule Message"
+ ],
+ "ScheduleSendWhenOnline": [
+  "Send When Online"
+ ],
+ "Search": [
+  "Search"
+ ],
+ "SearchFriends": [
+  "Search contacts"
+ ],
+ "Seconds": [
+  "{count} second",
+  "{count} seconds"
+ ],
+ "SelectChat": [
+  "Select Chat"
+ ],
+ "Send": [
+  "Send"
+ ],
+ "SendActionChooseSticker": [
+  "ch{eyes}sing a sticker"
+ ],
+ "SendActionRecordAudio": [
+  "recording a voice message"
+ ],
+ "SendActionRecordRound": [
+  "recording a video message"
+ ],
+ "SendActionRecordVideo": [
+  "recording a video"
+ ],
+ "SendActionUploadAudio": [
+  "sending a voice message"
+ ],
+ "SendActionUploadFile": [
+  "sending a file"
+ ],
+ "SendActionUploadPhoto": [
+  "sending a photo"
+ ],
+ "SendActionUploadRound": [
+  "sending a video message"
+ ],
+ "SendActionUploadVideo": [
+  "sending a video"
+ ],
+ "SendMessage": [
+  "Send Message"
+ ],
+ "SendMessageTo": [
+  "Send message to…"
+ ],
+ "SendWithoutSound": [
+  "Send Without Sound"
+ ],
+ "SetReminder": [
+  "Set a Reminder"
+ ],
+ "Settings": [
+  "Settings"
+ ],
+ "ShowCaption": [
+  "Show Caption"
+ ],
+ "ShowMoreChats": [
+  "Show 1 more chat",
+  "Show {count} more chats"
+ ],
+ "ShowMoreVoters": [
+  "Show 1 more voter",
+  "Show {count} more voters"
+ ],
+ "ShowSenderNames": [
+  "Show Sender Names"
+ ],
+ "ShowSendersName": [
+  "Show Sender Name"
+ ],
+ "SlowModeHint": [
+  "Slow Mode is active. You can send your next message in {time}."
+ ],
+ "SlowmodeEnabled": [
+  "Slowmode enabled"
+ ],
+ "SomethingWentWrong": [
+  "Something went wrong"
+ ],
+ "Speaking": [
+  "speaking"
+ ],
+ "SpeakingWithVolume": [
+  "{volume}% speaking"
+ ],
+ "StartText": [
+  "Please confirm your country codeand enter your phone number."
+ ],
+ "StickerPackAddStickerCount": [
+  "Add {count} sticker",
+  "Add {count} stickers"
+ ],
+ "StickerPackErrorNotFound": [
+  "Sorry, this sticker set doesn't seem to exist."
+ ],
+ "StickerPackRemoveStickerCount": [
+  "Remove {count} sticker",
+  "Remove {count} stickers"
+ ],
+ "StickersAddToFavorites": [
+  "Add to Favorites"
+ ],
+ "StickersRemoveFromFavorites": [
+  "Remove from Favorites"
+ ],
+ "Telegram": [
+  "Telegram"
+ ],
+ "TextCopied": [
+  "Text copied to clipboard."
+ ],
+ "ThisIsYou": [
+  "this is you"
+ ],
+ "UpdateTelegram": [
+  "Update Telegram"
+ ],
+ "Updating": [
+  "Updating"
+ ],
+ "User": [
+  "User"
+ ],
+ "UserInfoFirstNamePlaceholder": [
+  "First Name"
+ ],
+ "UserInfoLastNamePlaceholder": [
+  "Last Name"
+ ],
+ "UserInfoNotificationsEnabled": [
+  "Enabled"
+ ],
+ "UserTyping": [
+  "{user} is typing"
+ ],
+ "VideoPlayerBuffering": [
+  "Buffering..."
+ ],
+ "VideoPlayerFullscreen": [
+  "Fullscreen"
+ ],
+ "ViewAction": [
+  "View"
+ ],
+ "ViewPackPreview": [
+  "View Sticker Set"
+ ],
+ "VoiceOverChatMessagesSelected": [
+  "{count} message selected",
+  "{count} messages selected"
+ ],
+ "VoipChatJoin": [
+  "Join"
+ ],
+ "VoipChatStartScreenCapture": [
+  "Share screen"
+ ],
+ "VoipFlip": [
+  "Flip"
+ ],
+ "VoipGroupAllowToSpeak": [
+  "Allow to speak"
+ ],
+ "VoipGroupCancelRaiseHand": [
+  "Cancel request to speak"
+ ],
+ "VoipGroupEnd": [
+  "End"
+ ],
+ "VoipGroupEndAlertText": [
+  "Are you sure you want to end this video chat?"
+ ],
+ "VoipGroupEndAlertTitle": [
+  "End video chat"
+ ],
+ "VoipGroupEndChat": [
+  "End video chat"
+ ],
+ "VoipGroupLeaveAlertText": [
+  "Are you sure you want to leave this video chat?"
+ ],
+ "VoipGroupLeaveAlertTitle": [
+  "Leave video chat"
+ ],
+ "VoipGroupMuteForMe": [
+  "Mute for me"
+ ],
+ "VoipGroupMutedForMe": [
+  "muted for you"
+ ],
+ "VoipGroupOpenProfile": [
+  "Open Profile"
+ ],
+ "VoipGroupUnmuteForMe": [
+  "Unmute for me"
+ ],
+ "VoipGroupUserRemove": [
+  "Remove"
+ ],
+ "VoipGroupVoiceChat": [
+  "Video Chat"
+ ],
+ "VoipMute": [
+  "Mute"
+ ],
+ "WantsToSpeak": [
+  "wants to speak"
+ ],
+ "WeekdayYesterday": [
+  "Yesterday"
+ ],
+ "Weeks": [
+  "{count} week",
+  "{count} weeks"
+ ],
+ "Years": [
+  "{count} year",
+  "{count} years"
+ ]
+}

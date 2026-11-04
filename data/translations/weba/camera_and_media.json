@@ -1,0 +1,69 @@
+{
+ "AccActionPlay": [
+  "Play"
+ ],
+ "AccDescrPrevious": [
+  "Previous"
+ ],
+ "AddToFavorites": [
+  "Add to Favorites"
+ ],
+ "AriaAddAttachment": [
+  "Add attachment"
+ ],
+ "AttachDocument": [
+  "File"
+ ],
+ "AttachmentMenuPhotoOrVideo": [
+  "Photo or Video"
+ ],
+ "ContextCancelDownload": [
+  "Cancel Download"
+ ],
+ "ContextSaveGif": [
+  "Save GIF"
+ ],
+ "MediaAudioEmpty": [
+  "No voice messages here yet"
+ ],
+ "MediaDownload": [
+  "Download"
+ ],
+ "MediaLinkEmpty": [
+  "No shared links here yet"
+ ],
+ "MediaSongEmpty": [
+  "No music files here yet"
+ ],
+ "MediaViewDownloading": [
+  "{count}% downloading..."
+ ],
+ "MediaZoomIn": [
+  "Zoom In"
+ ],
+ "MediaZoomOut": [
+  "Zoom Out"
+ ],
+ "MediaviewProfilePhoto": [
+  "Profile Photo"
+ ],
+ "NoGIFsFound": [
+  "No GIFs found"
+ ],
+ "NoWordsRecognized": [
+  "No words recognized."
+ ],
+ "Poll": [
+  "Poll"
+ ],
+ "SearchGifsTitle": [
+  "Search GIFs"
+ ],
+ "SharedMediaEmptyTitle": [
+  "No media files yet"
+ ],
+ "StickerPackStickerCount": [
+  "1 sticker",
+  "{count} stickers"
+ ]
+}

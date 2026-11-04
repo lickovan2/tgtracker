@@ -1,0 +1,1118 @@
+{
+ "Activity.PlayingGame": [
+  "playing a game"
+ ],
+ "Activity.TappingInteractiveEmoji": [
+  "tapping on %@"
+ ],
+ "ArchivedChats.IntroText1": [
+  "Chats with enabled notifications getunarchived when new messages arrive."
+ ],
+ "ArchivedChats.IntroText2": [
+  "Chats with disabled notifications stayarchived when new messages arrive."
+ ],
+ "ArchivedChats.IntroText3": [
+  "You can pin an unlimited number of archived chats to the top."
+ ],
+ "ArchivedChats.IntroTitle1": [
+  "This is your archive"
+ ],
+ "ArchivedChats.IntroTitle2": [
+  "Muted Chats"
+ ],
+ "ArchivedChats.IntroTitle3": [
+  "Pinned Chats"
+ ],
+ "Birthday.Added": [
+  "Birthday added."
+ ],
+ "Birthday.Help": [
+  "Choose who can see your birthday in [Settings]()."
+ ],
+ "Birthday.HelpContacts": [
+  "Only your contacts will see your birthday. [Change >]()"
+ ],
+ "Birthday.Save": [
+  "Save"
+ ],
+ "Birthday.Title": [
+  "Birthday"
+ ],
+ "BlockedUsers.LeavePrefix": [
+  "Leave "
+ ],
+ "Channel.LeaveChannel": [
+  "Leave Channel"
+ ],
+ "Channel.Setup.Title": [
+  "Channel"
+ ],
+ "ChannelInfo.DeleteGroupConfirmation": [
+  "Deleting this group will remove all members and all messages will be lost. Do you want to delete the group?"
+ ],
+ "Chat.PinnedListPreview.HidePinnedMessages": [
+  "Hide Pinned Messages"
+ ],
+ "Chat.PinnedListPreview.ShowAllMessages": [
+  "Show All Messages"
+ ],
+ "Chat.PinnedListPreview.UnpinAllMessages": [
+  "Unpin All Messages"
+ ],
+ "ChatList.AddBirthdayText": [
+  "Let your contacts know when to celebrate."
+ ],
+ "ChatList.AddBirthdayTitle": [
+  "Add your birthday! 🎂"
+ ],
+ "ChatList.AddFolder": [
+  "Add Folder"
+ ],
+ "ChatList.AddPhoto.Text": [
+  "Help your friends spot you easily."
+ ],
+ "ChatList.AddPhoto.Title": [
+  "Add your photo! 📸"
+ ],
+ "ChatList.AlertDeleteFolderText": [
+  "Are you sure you want to delete this folder? This will also deactivate all the invite links created to share this folder."
+ ],
+ "ChatList.AlertDeleteFolderTitle": [
+  "Delete Folder"
+ ],
+ "ChatList.ArchiveAction": [
+  "Archive"
+ ],
+ "ChatList.ArchivedChatsTitle": [
+  "Archived Chats"
+ ],
+ "ChatList.BirthdayInSettingsInfo": [
+  "You can always set your birthday in **Settings**."
+ ],
+ "ChatList.BirthdayMultipleText": [
+  "Send them a Gift."
+ ],
+ "ChatList.BirthdayMultipleTitle": [
+  "%@ contact has a **birthday** today! 🎂",
+  "%@ contacts have **birthdays** today! 🎂"
+ ],
+ "ChatList.BirthdaySingleText": [
+  "Send them a Gift."
+ ],
+ "ChatList.BirthdaySingleTitle": [
+  "It's %@'s **birthday** today! 🎂"
+ ],
+ "ChatList.BotConnectionReview.PanelText": [
+  "%1$@ connected to your account from %2$@ (%3$@). Was this you?"
+ ],
+ "ChatList.BotConnectionReview.PanelTitle": [
+  "A bot just got access to your messages!"
+ ],
+ "ChatList.ChatTypesSection": [
+  "CHAT TYPES"
+ ],
+ "ChatList.ClearSearchHistory": [
+  "Do you want to clear your search history?"
+ ],
+ "ChatList.ClearSearchHistory.Confirm": [
+  "Clear"
+ ],
+ "ChatList.Context.AddToFolder": [
+  "Add to Folder"
+ ],
+ "ChatList.Context.Delete": [
+  "Delete"
+ ],
+ "ChatList.Context.HideArchive": [
+  "Hide from Chat List"
+ ],
+ "ChatList.Context.JoinChannel": [
+  "Join Channel"
+ ],
+ "ChatList.Context.MarkAllAsRead": [
+  "Mark All as Read"
+ ],
+ "ChatList.Context.MarkAsRead": [
+  "Mark as Read"
+ ],
+ "ChatList.Context.MarkAsUnread": [
+  "Mark as Unread"
+ ],
+ "ChatList.Context.Mute": [
+  "Mute"
+ ],
+ "ChatList.Context.Pin": [
+  "Pin"
+ ],
+ "ChatList.Context.RemoveFromFolder": [
+  "Remove from Folder"
+ ],
+ "ChatList.Context.RemoveFromRecents": [
+  "Remove from Recent"
+ ],
+ "ChatList.Context.Ungroup": [
+  "Ungroup"
+ ],
+ "ChatList.Context.UnhideArchive": [
+  "Pin in Chat List"
+ ],
+ "ChatList.Context.Unmute": [
+  "Unmute"
+ ],
+ "ChatList.Context.Unpin": [
+  "Unpin"
+ ],
+ "ChatList.ContextMenuBadgeNew": [
+  "NEW"
+ ],
+ "ChatList.ContextMenuShare": [
+  "Share"
+ ],
+ "ChatList.ContextMuteAll": [
+  "Mute All"
+ ],
+ "ChatList.ContextOpenGroup": [
+  "Open Group"
+ ],
+ "ChatList.ContextUnmuteAll": [
+  "Unmute All"
+ ],
+ "ChatList.DeleteAndLeaveGroupConfirmation": [
+  "Are you sure you want to leave and delete %@?"
+ ],
+ "ChatList.DeleteChat": [
+  "Delete Chat"
+ ],
+ "ChatList.DeleteChatConfirmation": [
+  "Permanently delete the chat with %@?"
+ ],
+ "ChatList.DeleteConfirmation": [
+  "Delete",
+  "Delete %@ Chats"
+ ],
+ "ChatList.DeleteForAll": [
+  "Delete from both sides"
+ ],
+ "ChatList.DeleteForAllMembers": [
+  "Delete for all members"
+ ],
+ "ChatList.DeleteForAllWhenPossible": [
+  "Delete from both sides where possible"
+ ],
+ "ChatList.DeleteForCurrentUser": [
+  "Delete just for me"
+ ],
+ "ChatList.DeleteForEveryone": [
+  "Delete for me and %@"
+ ],
+ "ChatList.DeleteForEveryoneConfirmationAction": [
+  "Delete All"
+ ],
+ "ChatList.DeleteForEveryoneConfirmationText": [
+  "This will **delete all messages** in this chat for **both participants**."
+ ],
+ "ChatList.DeleteForEveryoneConfirmationTitle": [
+  "Warning!"
+ ],
+ "ChatList.DeleteForMe": [
+  "Delete for me"
+ ],
+ "ChatList.DeleteSavedMessagesConfirmation": [
+  "Are you sure you want to deleteSaved Messages?"
+ ],
+ "ChatList.DeleteSavedMessagesConfirmationAction": [
+  "Delete All"
+ ],
+ "ChatList.DeleteSavedMessagesConfirmationText": [
+  "This will **delete all messages** in this chat."
+ ],
+ "ChatList.DeleteSavedMessagesConfirmationTitle": [
+  "Warning!"
+ ],
+ "ChatList.DeleteSecretChatConfirmation": [
+  "Are you sure you want to delete the secret chatwith %@?"
+ ],
+ "ChatList.EditFolder": [
+  "Edit Folder"
+ ],
+ "ChatList.EmptyChatList": [
+  "You have noconversations yet."
+ ],
+ "ChatList.EmptyChatListEditFilter": [
+  "Edit Folder"
+ ],
+ "ChatList.EmptyChatListFilterText": [
+  "No chats currently belong to this folder."
+ ],
+ "ChatList.EmptyChatListFilterTitle": [
+  "Folder is empty"
+ ],
+ "ChatList.EmptyChatListNewMessage": [
+  "New Message"
+ ],
+ "ChatList.EmptyChatListWithArchive": [
+  "All of your chats are archived."
+ ],
+ "ChatList.FoldersTip": [
+  "Tap and hold  #**Chats**to view all folders."
+ ],
+ "ChatList.FrozenAccount.Text": [
+  "Tap to view details and submit an appeal."
+ ],
+ "ChatList.FrozenAccount.Title": [
+  "Your account is frozen"
+ ],
+ "ChatList.HideAction": [
+  "Hide"
+ ],
+ "ChatList.InlineButtonOpenApp": [
+  "OPEN"
+ ],
+ "ChatList.LeaveGroupConfirmation": [
+  "Are you sure you want to leave %@?"
+ ],
+ "ChatList.MessageFiles": [
+  "%@ File",
+  "%@ Files"
+ ],
+ "ChatList.MessageMusic": [
+  "%@ Music File",
+  "%@ Music Files"
+ ],
+ "ChatList.MessagePhotos": [
+  "1 Photo",
+  "%@ Photos"
+ ],
+ "ChatList.MessageVideos": [
+  "1 Video",
+  "%@ Videos"
+ ],
+ "ChatList.MonoforumLabel": [
+  "DIRECT"
+ ],
+ "ChatList.Mute": [
+  "Mute"
+ ],
+ "ChatList.PanelNewChatsAvailable": [
+  "1 New Chat Available",
+  "%d New Chats Available"
+ ],
+ "ChatList.PeerTypeBot": [
+  "bot"
+ ],
+ "ChatList.PeerTypeContact": [
+  "contact"
+ ],
+ "ChatList.PeerTypeGroup": [
+  "group"
+ ],
+ "ChatList.PremiumGiftInSettingsInfo": [
+  "You can send gifts to friends later from **Settings**."
+ ],
+ "ChatList.PremiumGraceText": [
+  "Your exclusive benefits are about to expire."
+ ],
+ "ChatList.PremiumGraceTitle": [
+  "⚠️ Don't lose access to Telegram Premium!"
+ ],
+ "ChatList.PremiumXmasGiftText": [
+  "Send limited-edition collectibles to friends!"
+ ],
+ "ChatList.PremiumXmasGiftTitle": [
+  "👑 Snoop Dogg Gift Drop 🎁"
+ ],
+ "ChatList.Read": [
+  "Read"
+ ],
+ "ChatList.ReadAll": [
+  "Read All"
+ ],
+ "ChatList.RemoveFolderAction": [
+  "Remove"
+ ],
+ "ChatList.RemoveFolderConfirmation": [
+  "This will remove the folder, your chats will not be deleted."
+ ],
+ "ChatList.RemoveFolderConfirmationTitle": [
+  "Remove %@?"
+ ],
+ "ChatList.RemovedFromFolderTooltip": [
+  "%1$@ has been removed from %2$@"
+ ],
+ "ChatList.ReorderTabs": [
+  "Reorder Tabs"
+ ],
+ "ChatList.Search.FilterChats": [
+  "Chats"
+ ],
+ "ChatList.Search.FilterFiles": [
+  "Files"
+ ],
+ "ChatList.Search.FilterLinks": [
+  "Links"
+ ],
+ "ChatList.Search.FilterMedia": [
+  "Media"
+ ],
+ "ChatList.Search.FilterMusic": [
+  "Music"
+ ],
+ "ChatList.Search.FilterVoice": [
+  "Voice"
+ ],
+ "ChatList.Search.NoResults": [
+  "No Results"
+ ],
+ "ChatList.Search.NoResultsDescription": [
+  "There were no results.Try a new search."
+ ],
+ "ChatList.Search.NoResultsQueryDescription": [
+  "There were no results for \"%@\".Try a new search."
+ ],
+ "ChatList.Search.SectionApps": [
+  "APPS"
+ ],
+ "ChatList.Search.ShowLess": [
+  "Show Less"
+ ],
+ "ChatList.Search.ShowMore": [
+  "Show More"
+ ],
+ "ChatList.SelectedChats": [
+  "%@ Chat Selected",
+  "%@ Chats Selected"
+ ],
+ "ChatList.SessionReview.PanelConfirm": [
+  "Yes, it's me"
+ ],
+ "ChatList.SessionReview.PanelReject": [
+  "No, it's not me!"
+ ],
+ "ChatList.TabIconFoldersTooltipNonEmptyFolders": [
+  "Hold on 'Chats' to edit folders and switch between views."
+ ],
+ "ChatList.Tabs.AllChats": [
+  "All Chats"
+ ],
+ "ChatList.ToastFolderMuted": [
+  "All chats in **%@** are now muted"
+ ],
+ "ChatList.ToastFolderUnmuted": [
+  "All chats in **%@** are now unmuted"
+ ],
+ "ChatList.UnarchiveAction": [
+  "Unarchive"
+ ],
+ "ChatList.UndoArchiveHiddenText": [
+  "Pull down to see the archive."
+ ],
+ "ChatList.UndoArchiveHiddenTitle": [
+  "Archive hidden"
+ ],
+ "ChatList.UndoArchiveMultipleTitle": [
+  "Chats archived."
+ ],
+ "ChatList.UndoArchiveRevealedText": [
+  "Swipe left on the archive to hide it."
+ ],
+ "ChatList.UndoArchiveRevealedTitle": [
+  "Archive pinned"
+ ],
+ "ChatList.UndoArchiveText1": [
+  "Swipe left on the archive to hide it."
+ ],
+ "ChatList.UndoArchiveTitle": [
+  "Chat archived."
+ ],
+ "ChatList.UngroupCommunity.Action": [
+  "Ungroup"
+ ],
+ "ChatList.UngroupCommunity.Text": [
+  "Chats from this community will appear separately in your chat list."
+ ],
+ "ChatList.UngroupCommunity.Title": [
+  "Ungroup Chats?"
+ ],
+ "ChatList.UnhideAction": [
+  "Pin"
+ ],
+ "ChatList.Unmute": [
+  "Unmute"
+ ],
+ "ChatListFilter.AddChatsTitle": [
+  "Add Chats..."
+ ],
+ "ChatListFolder.AddChats": [
+  "Add Chats"
+ ],
+ "ChatListFolder.CategoryArchived": [
+  "Archived"
+ ],
+ "ChatListFolder.CategoryBots": [
+  "Bots"
+ ],
+ "ChatListFolder.CategoryChannels": [
+  "Channels"
+ ],
+ "ChatListFolder.CategoryContacts": [
+  "Contacts"
+ ],
+ "ChatListFolder.CategoryGroups": [
+  "Groups"
+ ],
+ "ChatListFolder.CategoryMuted": [
+  "Muted"
+ ],
+ "ChatListFolder.CategoryNonContacts": [
+  "Non-Contacts"
+ ],
+ "ChatListFolder.CategoryRead": [
+  "Read"
+ ],
+ "ChatListFolder.DiscardCancel": [
+  "No"
+ ],
+ "ChatListFolder.DiscardConfirmation": [
+  "You have edited this folder. Discard changes?"
+ ],
+ "ChatListFolder.DiscardDiscard": [
+  "Discard"
+ ],
+ "ChatListFolder.ExcludeChatsTitle": [
+  "Exclude Chats"
+ ],
+ "ChatListFolder.ExcludeSectionInfo": [
+  "Choose chats or types of chats that will not appear in this folder."
+ ],
+ "ChatListFolder.ExcludedSectionHeader": [
+  "EXCLUDED CHATS"
+ ],
+ "ChatListFolder.IncludeChatsTitle": [
+  "Include Chats"
+ ],
+ "ChatListFolder.IncludeSectionInfo": [
+  "Choose chats or types of chats that will appear in this folder."
+ ],
+ "ChatListFolder.IncludedSectionHeader": [
+  "INCLUDED CHATS"
+ ],
+ "ChatListFolder.NamePlaceholder": [
+  "Folder Name"
+ ],
+ "ChatListFolder.NameSectionHeader": [
+  "FOLDER NAME"
+ ],
+ "ChatListFolder.TitleCreate": [
+  "New Folder"
+ ],
+ "ChatListFolder.TitleEdit": [
+  "Edit Folder"
+ ],
+ "ChatListFolderSettings.AddRecommended": [
+  "ADD"
+ ],
+ "ChatListFolderSettings.EditFoldersInfo": [
+  "Tap 'Edit' to change the order or delete folders."
+ ],
+ "ChatListFolderSettings.FoldersSection": [
+  "FOLDERS"
+ ],
+ "ChatListFolderSettings.Info": [
+  "Create folders for different groups of chats and quickly switch between them."
+ ],
+ "ChatListFolderSettings.NewFolder": [
+  "Create New Folder"
+ ],
+ "ChatListFolderSettings.RecommendedFoldersSection": [
+  "RECOMMENDED FOLDERS"
+ ],
+ "ChatListFolderSettings.Title": [
+  "Folders"
+ ],
+ "Common.Cancel": [
+  "Cancel"
+ ],
+ "Common.Delete": [
+  "Delete"
+ ],
+ "Common.Done": [
+  "Done"
+ ],
+ "Common.Edit": [
+  "Edit"
+ ],
+ "Compose.NewChannel": [
+  "New Channel"
+ ],
+ "Compose.NewEncryptedChat": [
+  "New Secret Chat"
+ ],
+ "Compose.NewEncryptedChatTitle": [
+  "New Secret Chat"
+ ],
+ "Compose.NewGroup": [
+  "New Group"
+ ],
+ "Compose.NewGroupTitle": [
+  "New Group"
+ ],
+ "Compose.NewMessage": [
+  "New Message"
+ ],
+ "Compose.TokenListPlaceholder": [
+  "Who would you like to add?"
+ ],
+ "Contacts.AddPhoneNumber": [
+  "Add %@"
+ ],
+ "Contacts.PhoneNumber": [
+  "Phone Number"
+ ],
+ "Contacts.SearchLabel": [
+  "Search for contacts or usernames"
+ ],
+ "Conversation.ContextMenuSelect": [
+  "Select"
+ ],
+ "Conversation.ContextMenuSelectAll": [
+  "Select All %@ Items",
+  "Select All %@ Items"
+ ],
+ "Conversation.EncryptionCanceled": [
+  "Secret chat canceled"
+ ],
+ "Conversation.EncryptionProcessing": [
+  "Exchanging encryption keys..."
+ ],
+ "Conversation.ForwardChats": [
+  "Chats"
+ ],
+ "Conversation.ForwardContacts": [
+  "Contacts"
+ ],
+ "Conversation.ForwardTitle": [
+  "Forward"
+ ],
+ "Conversation.Location": [
+  "Location"
+ ],
+ "Conversation.MessageDialogEdit": [
+  "Edit"
+ ],
+ "Conversation.Mute": [
+  "Mute"
+ ],
+ "Conversation.ReportSpamAndLeave": [
+  "Report Spam and Leave"
+ ],
+ "Conversation.Unarchive": [
+  "Unarchive"
+ ],
+ "Conversation.Unpin": [
+  "Unpin"
+ ],
+ "DialogList.AdLabel": [
+  "Proxy Sponsor"
+ ],
+ "DialogList.ClearHistoryConfirmation": [
+  "Clear History"
+ ],
+ "DialogList.DeleteBotClearHistory": [
+  "Clear Chat History"
+ ],
+ "DialogList.DeleteBotConfirmation": [
+  "Delete"
+ ],
+ "DialogList.DeleteBotConversationConfirmation": [
+  "Delete and Block"
+ ],
+ "DialogList.DeleteConversationConfirmation": [
+  "Delete and Leave"
+ ],
+ "DialogList.Draft": [
+  "Draft"
+ ],
+ "DialogList.EncryptedChatStartedIncoming": [
+  "%@ created a secret chat."
+ ],
+ "DialogList.EncryptedChatStartedOutgoing": [
+  "%@ joined your secret chat."
+ ],
+ "DialogList.EncryptionProcessing": [
+  "Exchanging encryption keys..."
+ ],
+ "DialogList.EncryptionRejected": [
+  "Secret Chat canceled"
+ ],
+ "DialogList.MultipleTypingPair": [
+  "%@ and %@ are typing"
+ ],
+ "DialogList.NoMessagesText": [
+  "Start messaging by tapping the pencil button in the top right corner or go to the Contacts section."
+ ],
+ "DialogList.NoMessagesTitle": [
+  "You have no conversations yet"
+ ],
+ "DialogList.PasscodeLockHelp": [
+  "Tap to lock Telegram"
+ ],
+ "DialogList.Pin": [
+  "Pin"
+ ],
+ "DialogList.PinLimitError": [
+  "Sorry, you can pin no more than %@ chats to the top."
+ ],
+ "DialogList.Read": [
+  "Read"
+ ],
+ "DialogList.RecentTitlePeople": [
+  "People"
+ ],
+ "DialogList.SavedMessages": [
+  "Saved Messages"
+ ],
+ "DialogList.SavedMessagesHelp": [
+  "Forward messages here for quick access"
+ ],
+ "DialogList.SavedMessagesTooltip": [
+  "You can find your Saved Messages in Settings"
+ ],
+ "DialogList.SearchLabel": [
+  "Search chats"
+ ],
+ "DialogList.SearchSectionRecent": [
+  "Recent"
+ ],
+ "DialogList.SearchSubtitleFormat": [
+  "%1$@, %2$@"
+ ],
+ "DialogList.SinglePlayingGameSuffix": [
+  "%@ is playing a game"
+ ],
+ "DialogList.SingleRecordingAudioSuffix": [
+  "%@ is recording"
+ ],
+ "DialogList.SingleRecordingVideoMessageSuffix": [
+  "%@ is recording video"
+ ],
+ "DialogList.SingleTypingSuffix": [
+  "%@ is typing"
+ ],
+ "DialogList.SingleUploadingFileSuffix": [
+  "%@ is sending a file"
+ ],
+ "DialogList.SingleUploadingPhotoSuffix": [
+  "%@ is sending a photo"
+ ],
+ "DialogList.SingleUploadingVideoSuffix": [
+  "%@ is sending video"
+ ],
+ "DialogList.Title": [
+  "Chats"
+ ],
+ "DialogList.Typing": [
+  "typing"
+ ],
+ "DialogList.Unpin": [
+  "Unpin"
+ ],
+ "DialogList.Unread": [
+  "Unread"
+ ],
+ "DownloadList.Clear": [
+  "Clear"
+ ],
+ "DownloadList.DownloadedHeader": [
+  "Recently Downloaded"
+ ],
+ "DownloadList.RemoveFileAlertRemove": [
+  "Remove"
+ ],
+ "DownloadList.RemoveFileAlertText": [
+  "Do you want to remove thisitem from Downloads?It will be deleted from your disk, butwill remain accessible in the cloud.",
+  "Do you want to remove these%@ items from Downloads?They will be deleted from your disk, butwill remain accessible in the cloud."
+ ],
+ "DownloadList.RemoveFileAlertTitle": [
+  "Remove Download?",
+  "Remove %@ Downloads?"
+ ],
+ "FolderLinkPreview.ButtonDoNotJoinChats": [
+  "Do Not Join Any Chats"
+ ],
+ "FolderLinkPreview.ButtonJoinChats": [
+  "Join Chats"
+ ],
+ "FolderLinkPreview.ButtonRemoveFolder": [
+  "Remove Folder"
+ ],
+ "FolderLinkPreview.ButtonRemoveFolderAndChats": [
+  "Remove Folder and Chats"
+ ],
+ "FolderLinkPreview.ChatSectionJoinHeader": [
+  "1 CHAT TO JOIN",
+  "%d CHATS TO JOIN"
+ ],
+ "FolderLinkPreview.ListSelectionSelectAllDynamicPartDeselect": [
+  "DESELECT"
+ ],
+ "FolderLinkPreview.ListSelectionSelectAllDynamicPartSelect": [
+  "SELECT"
+ ],
+ "FolderLinkPreview.ListSelectionSelectAllFormat": [
+  "{dynamic}{static}"
+ ],
+ "FolderLinkPreview.ListSelectionSelectAllStaticPartDeselect": [
+  "ALL"
+ ],
+ "FolderLinkPreview.ListSelectionSelectAllStaticPartSelect": [
+  "ALL"
+ ],
+ "FolderLinkPreview.RemoveSectionSelectedHeader": [
+  "%d CHAT TO ‌LEAVE",
+  "%d CHATS TO LEAVE"
+ ],
+ "FolderLinkPreview.TextAddChats": [
+  "Do you want to add **%1$@** to thefolder **%2$@**?"
+ ],
+ "FolderLinkPreview.TextAddChatsCount": [
+  "%d chat",
+  "%d chats"
+ ],
+ "FolderLinkPreview.TextLinkList": [
+  "Create more links to set up different accesslevels for different people."
+ ],
+ "FolderLinkPreview.TextRemoveFolder": [
+  "Do you also want to leave the chats included in this folder?"
+ ],
+ "FolderLinkPreview.TitleAddChats": [
+  "Add %d Chat",
+  "Add %d Chats"
+ ],
+ "FolderLinkPreview.TitleRemove": [
+  "Remove Folder"
+ ],
+ "FolderLinkPreview.TitleShare": [
+  "Share Folder"
+ ],
+ "FolderLinkPreview.ToastChatsAddedText": [
+  "You have joined %d new chat",
+  "You have joined %d new chats"
+ ],
+ "FolderLinkPreview.ToastChatsAddedTitle": [
+  "Folder %@ Updated"
+ ],
+ "FolderLinkPreview.ToastFolderAddedText": [
+  "You also joined %d chat",
+  "You also joined %d chats"
+ ],
+ "FolderLinkPreview.ToastFolderAddedTitle": [
+  "Folder %@ Added"
+ ],
+ "FolderLinkPreview.ToastLeftChatsText": [
+  "You also left **%d** chat",
+  "You also left **%d** chats"
+ ],
+ "FolderLinkPreview.ToastLeftTitle": [
+  "Folder %@ deleted"
+ ],
+ "FolderLinkScreen.ToastLinkUpdated": [
+  "Link updated"
+ ],
+ "FrozenAccount.Appeal.Text": [
+  "Appeal via [@SpamBot]() before %@, or your account will be deleted."
+ ],
+ "FrozenAccount.Appeal.Title": [
+  "Appeal Before Deactivation"
+ ],
+ "FrozenAccount.ReadOnly.Text": [
+  "You can access your account but can't send messages or take actions."
+ ],
+ "FrozenAccount.ReadOnly.Title": [
+  "Read-Only Mode"
+ ],
+ "FrozenAccount.SubmitAppeal": [
+  "Submit an Appeal"
+ ],
+ "FrozenAccount.Title": [
+  "Your Account is Frozen"
+ ],
+ "FrozenAccount.Understood": [
+  "Understood"
+ ],
+ "FrozenAccount.Violation.Text": [
+  "Your account was frozen for violating Telegram’s Terms of Service."
+ ],
+ "FrozenAccount.Violation.Title": [
+  "Violation of Terms"
+ ],
+ "Group.LeaveGroup": [
+  "Leave Group"
+ ],
+ "HashtagSearch.NoResultsQueryCashtagDescription": [
+  "There were no results for %@.Try another cashtag."
+ ],
+ "HashtagSearch.StoriesFound": [
+  "%@ Story Found",
+  "%@ Stories Found"
+ ],
+ "HashtagSearch.StoriesFoundInfo": [
+  "View stories with %@"
+ ],
+ "LastSeen.Lately": [
+  "last seen recently"
+ ],
+ "Message.Animation": [
+  "GIF"
+ ],
+ "Message.Audio": [
+  "Voice Message"
+ ],
+ "Message.AuthorPinnedGame": [
+  "%@ pinned a game"
+ ],
+ "Message.Contact": [
+  "Contact"
+ ],
+ "Message.GiveawayStarted": [
+  "Channel started a giveaway"
+ ],
+ "Message.GiveawayStartedGroup": [
+  "Group started a giveaway"
+ ],
+ "Message.GiveawayStartedOther": [
+  "%@ started a giveaway"
+ ],
+ "Message.LivePhoto": [
+  "Live Photo"
+ ],
+ "Message.Location": [
+  "Location"
+ ],
+ "Message.PaymentSent": [
+  "Payment: %@"
+ ],
+ "Message.Photo": [
+  "Photo"
+ ],
+ "Message.PinnedAnimationMessage": [
+  "pinned GIF"
+ ],
+ "Message.PinnedAudioMessage": [
+  "pinned voice message"
+ ],
+ "Message.PinnedContactMessage": [
+  "pinned contact"
+ ],
+ "Message.PinnedDocumentMessage": [
+  "pinned file"
+ ],
+ "Message.PinnedGame": [
+  "pinned a game"
+ ],
+ "Message.PinnedInvoice": [
+  "pinned an invoice"
+ ],
+ "Message.PinnedLocationMessage": [
+  "pinned location"
+ ],
+ "Message.PinnedPhotoMessage": [
+  "pinned photo"
+ ],
+ "Message.PinnedStickerMessage": [
+  "pinned sticker"
+ ],
+ "Message.PinnedTextMessage": [
+  "pinned \"%@\""
+ ],
+ "Message.PinnedVideoMessage": [
+  "pinned video"
+ ],
+ "Message.Sticker": [
+  "Sticker"
+ ],
+ "Message.Video": [
+  "Video"
+ ],
+ "Message.VideoMessage": [
+  "Video Message"
+ ],
+ "Notification.CallMissed": [
+  "Missed Call"
+ ],
+ "Notification.ChangedGroupPhoto": [
+  "%@ changed group photo"
+ ],
+ "Notification.ChannelInviter": [
+  "%@ invited you to this channel"
+ ],
+ "Notification.ChannelInviterSelf": [
+  "You joined this channel"
+ ],
+ "Notification.GameScoreExtended": [
+  "scored %@ in {game}",
+  "scored %@ in {game}"
+ ],
+ "Notification.GameScoreSelfSimple": [
+  "scored %@",
+  "scored %@"
+ ],
+ "Notification.GameScoreSimple": [
+  "scored %@",
+  "scored %@"
+ ],
+ "Notification.GramTransfer.Compact": [
+  "sent you %@"
+ ],
+ "Notification.GramTransferUnknown": [
+  "Someone sent you %@"
+ ],
+ "Notification.GramTransferYou": [
+  "You sent %1$@ %2$@"
+ ],
+ "Notification.GroupInviter": [
+  "%@ invited you to this group"
+ ],
+ "Notification.GroupInviterSelf": [
+  "You joined this group"
+ ],
+ "Notification.Invited": [
+  "%@ invited %@"
+ ],
+ "Notification.Joined": [
+  "%@ joined Telegram"
+ ],
+ "Notification.JoinedGroupByLink": [
+  "%@ joined the group via invite link"
+ ],
+ "Notification.RenamedChannel": [
+  "Channel renamed"
+ ],
+ "Notification.RenamedChat": [
+  "%@ renamed group"
+ ],
+ "Notification.RenamedGroup": [
+  "Group renamed"
+ ],
+ "Notification.SecretChatScreenshot": [
+  "Screenshot taken!"
+ ],
+ "Notification.SuggestedProfilePhoto": [
+  "Suggested Profile Photo"
+ ],
+ "Notification.SuggestedProfileVideo": [
+  "Suggested profile photo"
+ ],
+ "Notification.TodoCompletedYou": [
+  "You marked \"%1$@\" as done"
+ ],
+ "Notification.TodoIncompletedYou": [
+  "You marked \"%1$@\" as not done"
+ ],
+ "Notifications.AddExceptionTitle": [
+  "Add Exception"
+ ],
+ "Premium.LimitReached": [
+  "Limit Reached"
+ ],
+ "Premium.MaxChannelsFinalText": [
+  "Sorry, you can only join **%1$@** groups and channels"
+ ],
+ "Premium.MaxFoldersCountText": [
+  "You have reached the limit of **%1$@** folders. You can double the limit to **%2$@** folders by subscribing to **Telegram Premium**."
+ ],
+ "Premium.MaxPinsFinalText": [
+  "Sorry, you can't pin more than **%@** chats to the top. Unpin some that are currently pinned."
+ ],
+ "Premium.MaxPinsNoPremiumText": [
+  "Sorry, you can't pin more than **%@** chats to the top. Unpin some that are currently pinned."
+ ],
+ "Premium.MaxSharedFolderLinksText": [
+  "You can only create **%1$@** invite links. Upgrade to **Telegram Premium** to create up to **%2$@**."
+ ],
+ "State.Connecting": [
+  "Connecting..."
+ ],
+ "State.WaitingForNetwork": [
+  "Waiting for Network"
+ ],
+ "State.connecting": [
+  "connecting"
+ ],
+ "StoryFeed.AddStory": [
+  "Add Story"
+ ],
+ "StoryFeed.TooltipPremiumPostingLimited": [
+  "Posting stories is currently only available to subscribers of [Telegram Premium]()."
+ ],
+ "Target.ShareGameConfirmationGroup": [
+  "Share the game with \"%@\"?"
+ ],
+ "Target.ShareGameConfirmationPrivate": [
+  "Share the game with %@?"
+ ],
+ "Undo.ChatCleared": [
+  "Chat cleared."
+ ],
+ "Undo.ChatDeleted": [
+  "Chat deleted."
+ ],
+ "Undo.ChatDeletedForBothSides": [
+  "Chat deleted for both sides."
+ ],
+ "Undo.DeletedChannel": [
+  "Channel deleted."
+ ],
+ "Undo.DeletedGroup": [
+  "Group deleted."
+ ],
+ "Undo.DeletedMonoforum": [
+  "Removed from your chat list."
+ ],
+ "Undo.LeftChannel": [
+  "You left the channel."
+ ],
+ "Undo.LeftGroup": [
+  "You left the group."
+ ],
+ "Undo.MessagesDeleted": [
+  "Messages deleted."
+ ],
+ "Undo.SecretChatDeleted": [
+  "Secret Chat deleted."
+ ],
+ "Undo.Undo": [
+  "Undo"
+ ],
+ "User.DeletedAccount": [
+  "Deleted Account"
+ ],
+ "Watch.ChatList.Compose": [
+  "New Message"
+ ],
+ "WebApp.Minimized.CloseAll": [
+  "Close All %@ Tab",
+  "Close All %@ Tabs"
+ ],
+ "WebApp.Minimized.CloseAllTitle": [
+  "Are you sure you want to close all open tabs?"
+ ],
+ "WebApp.MinimizedTitle.Others": [
+  "%@ Other",
+  "%@ Others"
+ ],
+ "WebApp.MinimizedTitleFormat": [
+  "%1$@ & %2$@"
+ ],
+ "WebSearch.RecentSectionClear": [
+  "Clear"
+ ],
+ "Weekday.Monday": [
+  "Monday"
+ ],
+ "Weekday.Tuesday": [
+  "Tuesday"
+ ],
+ "Weekday.Wednesday": [
+  "Wednesday"
+ ]
+}

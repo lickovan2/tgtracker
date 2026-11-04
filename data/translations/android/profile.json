@@ -1,0 +1,1501 @@
+{
+ "AddBirthday": [
+  "Add Birthday"
+ ],
+ "AddContact": [
+  "Add to contacts"
+ ],
+ "AddNotes": [
+  "Add Notes..."
+ ],
+ "AddNotesInfo": [
+  "Notes are only visible to you."
+ ],
+ "AddPhoto": [
+  "Set Profile Photo"
+ ],
+ "AddShortcut": [
+  "Add to Home Screen"
+ ],
+ "AddToTheGroup": [
+  "Add %1$s to the group?"
+ ],
+ "AddToTheGroupForwardCount": [
+  "Number of previous messages to forward:"
+ ],
+ "AreYouSureBlockContact": [
+  "Are you sure you want to block this contact?"
+ ],
+ "AreYouSureBlockContact2": [
+  "Are you sure you want to block **%1$s**?"
+ ],
+ "AreYouSureDeleteContact": [
+  "Are you sure you want to delete this contact?"
+ ],
+ "AreYouSureDeleteVideo": [
+  "Are you sure you want to delete this video?"
+ ],
+ "AreYouSureDeleteVideoTitle": [
+  "Delete video"
+ ],
+ "AreYouSureSecretChat": [
+  "Are you sure you want to start a secret chat?"
+ ],
+ "AreYouSureSecretChatTitle": [
+  "Secret chat"
+ ],
+ "AreYouSureUnblockContact": [
+  "Are you sure you want to unblock this user?"
+ ],
+ "AudioAddToProfile": [
+  "Add to Profile"
+ ],
+ "AudioAddedToProfileRemove": [
+  "This audio is visible on your Profile. **Remove >**"
+ ],
+ "AudioAutodownload": [
+  "Voice messages"
+ ],
+ "AudioSaveTo": [
+  "Save To..."
+ ],
+ "AudioSaveToInfo": [
+  "Choose where you want this audio to be saved."
+ ],
+ "AudioSaveToMusicFolder": [
+  "To Music Folder"
+ ],
+ "AudioSaveToMyProfile": [
+  "To Profile"
+ ],
+ "AudioSaveToMyProfileSaved": [
+  "Audio added to your Profile."
+ ],
+ "AudioSaveToMyProfileUnsaved": [
+  "Audio removed from your Profile."
+ ],
+ "AudioSaveToSavedMessages": [
+  "To Saved Messages"
+ ],
+ "AudioSaveToSavedMessagesSaved": [
+  "Audio sent to Saved Messages."
+ ],
+ "AutoDeletePopupTitle": [
+  "Auto-Delete"
+ ],
+ "BanFromTheGroup": [
+  "BAN FROM THE GROUP"
+ ],
+ "BirthdayClearMessage": [
+  "Are you sure you want to remove your birthday from your profile?"
+ ],
+ "BirthdayClearTitle": [
+  "Remove birthday"
+ ],
+ "BlockContact": [
+  "Block user"
+ ],
+ "BlockUser": [
+  "Block user"
+ ],
+ "Bots": [
+  "%1$d bot",
+  "%1$d bots"
+ ],
+ "BusinessBotDone": [
+  "%s now manages your account."
+ ],
+ "BusinessBotUpdated": [
+  "Updated %s’s settings."
+ ],
+ "BusinessHoursClearMessage": [
+  "Are you sure you want to remove business opening hours?"
+ ],
+ "BusinessHoursClearTitle": [
+  "Remove Hours"
+ ],
+ "BusinessHoursNextDay": [
+  "%s (Next day)"
+ ],
+ "BusinessHoursProfile": [
+  "Business hours"
+ ],
+ "BusinessHoursProfileClose": [
+  "closed"
+ ],
+ "BusinessHoursProfileFullOpen": [
+  "open 24/7"
+ ],
+ "BusinessHoursProfileNowClosed": [
+  "Closed"
+ ],
+ "BusinessHoursProfileNowOpen": [
+  "Open"
+ ],
+ "BusinessHoursProfileOpen": [
+  "open 24 hours"
+ ],
+ "BusinessHoursProfileOpensInDays": [
+  "opens tomorrow",
+  "opens in %d days"
+ ],
+ "BusinessHoursProfileOpensInHours": [
+  "opens in %d hour",
+  "opens in %d hours"
+ ],
+ "BusinessHoursProfileOpensInMinutes": [
+  "opens in %d minute",
+  "opens in %d minutes"
+ ],
+ "BusinessHoursProfileSwitchLocal": [
+  "local time"
+ ],
+ "BusinessHoursProfileSwitchMy": [
+  "my time"
+ ],
+ "BusinessLocationClearMessage": [
+  "Are you sure you want to remove business location?"
+ ],
+ "BusinessLocationClearTitle": [
+  "Remove Location"
+ ],
+ "BusinessProfileLocation": [
+  "Location"
+ ],
+ "Calendar": [
+  "Calendar"
+ ],
+ "CalendarWeekNameShortFriday": [
+  "F"
+ ],
+ "CalendarWeekNameShortMonday": [
+  "M"
+ ],
+ "CalendarWeekNameShortSaturday": [
+  "S"
+ ],
+ "CalendarWeekNameShortSunday": [
+  "S"
+ ],
+ "CalendarWeekNameShortThursday": [
+  "T"
+ ],
+ "CalendarWeekNameShortTuesday": [
+  "T"
+ ],
+ "CalendarWeekNameShortWednesday": [
+  "W"
+ ],
+ "CallViaTelegram": [
+  "Telegram Call"
+ ],
+ "Cancel": [
+  "Cancel"
+ ],
+ "ChannelAutotranslation": [
+  "Auto-Translate Messages"
+ ],
+ "CheckPhoneNumberYes2": [
+  "👍 Yes"
+ ],
+ "ChooseBackground": [
+  "Choose background"
+ ],
+ "ChooseCover": [
+  "Choose a frame for your profile photo"
+ ],
+ "ChooseEmojiOrSticker": [
+  "Choose emoji or sticker"
+ ],
+ "ChoosePhotoOrVideo": [
+  "Choose photo or video"
+ ],
+ "CommonGroups": [
+  "%1$d group in common",
+  "%1$d groups in common"
+ ],
+ "Copy": [
+  "Copy"
+ ],
+ "CustomAvatarTooltip": [
+  "photo set by you"
+ ],
+ "CustomNotifications": [
+  "Custom Notifications"
+ ],
+ "DefaultRingtone": [
+  "Default"
+ ],
+ "DeleteAlertReaction": [
+  "Are you sure you want to delete the reaction from this user?"
+ ],
+ "DeleteContact": [
+  "Delete Contact"
+ ],
+ "DeleteReaction": [
+  "Delete Reaction"
+ ],
+ "DeleteReactionMenu": [
+  "Delete Reaction"
+ ],
+ "DescriptionMore": [
+  "more"
+ ],
+ "EditAccountInfo2": [
+  "Account"
+ ],
+ "EditAccountInfoHeader": [
+  "Your Info"
+ ],
+ "EditAdminCantEdit": [
+  "You can't edit the rights of this admin."
+ ],
+ "EditContact": [
+  "Edit Contact"
+ ],
+ "EditInfo": [
+  "Edit Info"
+ ],
+ "EditName": [
+  "Edit Name"
+ ],
+ "EditProfileBio": [
+  "Your bio"
+ ],
+ "EditProfileBioHint": [
+  "Write about yourself..."
+ ],
+ "EditProfileBioHint2": [
+  "Bio"
+ ],
+ "EditProfileBioInfo": [
+  "You can add a few lines about yourself. Choose who can see your bio in **Settings**."
+ ],
+ "EditProfileBioInfo2": [
+  "A few words about you."
+ ],
+ "EditProfileBioInfoContacts": [
+  "Your contacts can see your bio. **Change >**"
+ ],
+ "EditProfileBioInfoContactsExtra": [
+  "Your contacts (%s) can see your bio. **Change >**"
+ ],
+ "EditProfileBioInfoEveryone": [
+  "Everyone can see your bio. **Change >**"
+ ],
+ "EditProfileBioInfoEveryoneExcept": [
+  "Everyone (except %d) can see your bio. **Change >**"
+ ],
+ "EditProfileBioInfoUnknown": [
+  "Choose who can see your bio in **Settings**."
+ ],
+ "EditProfileBirthday": [
+  "Your birthday"
+ ],
+ "EditProfileBirthdayAdd": [
+  "Add"
+ ],
+ "EditProfileBirthdayInfo": [
+  "Choose who can see your birthday in **Settings**."
+ ],
+ "EditProfileBirthdayInfoContacts": [
+  "Only your contacts can see your birthday. **Change >**"
+ ],
+ "EditProfileBirthdayRemove": [
+  "Remove Birthday"
+ ],
+ "EditProfileBirthdayText": [
+  "Birthday"
+ ],
+ "EditProfileChannel": [
+  "Your channel"
+ ],
+ "EditProfileChannelAdd": [
+  "Add"
+ ],
+ "EditProfileChannelHide": [
+  "Hide Channel"
+ ],
+ "EditProfileChannelSelect": [
+  "Select your channel"
+ ],
+ "EditProfileChannelSet": [
+  "Personal channel added."
+ ],
+ "EditProfileChannelStartNew": [
+  "Start a Channel"
+ ],
+ "EditProfileChannelTitle": [
+  "Personal channel"
+ ],
+ "EditProfileChannelTitleAdd": [
+  "Add Personal channel"
+ ],
+ "EditProfileChatAutomation": [
+  "Chat Automation"
+ ],
+ "EditProfileChatAutomationInfo": [
+  "Add a bot to answer messages on your behalf."
+ ],
+ "EditProfileColor": [
+  "Edit Profile Color"
+ ],
+ "EditProfileFirstName": [
+  "First name"
+ ],
+ "EditProfileHours": [
+  "Change Opening Hours"
+ ],
+ "EditProfileInfo": [
+  "Profile Info"
+ ],
+ "EditProfileLastName": [
+  "Last name"
+ ],
+ "EditProfileLocation": [
+  "Change Location"
+ ],
+ "EditProfileName": [
+  "Your name"
+ ],
+ "EventLogOriginalCaptionEmpty": [
+  "Empty"
+ ],
+ "FallbackTooltip": [
+  "public photo"
+ ],
+ "FilesDataUsage": [
+  "Files"
+ ],
+ "FirstName": [
+  "First name (required)"
+ ],
+ "FragmentPhoneCopy": [
+  "Copy Phone Number"
+ ],
+ "FragmentPhoneMessage": [
+  "This phone number was bought on **Fragment** on %1$s for **%2$s** %3$s"
+ ],
+ "FragmentPhoneTitle": [
+  "**%s** is a collectible phone number that belongs to"
+ ],
+ "FragmentUsernameCopy": [
+  "Copy Link"
+ ],
+ "FragmentUsernameMessage": [
+  "This username was bought on **Fragment** on %1$s for **%2$s** %3$s"
+ ],
+ "FragmentUsernameOpen": [
+  "Learn More"
+ ],
+ "FragmentUsernameTitle": [
+  "**%s** is a collectible username that belongs to"
+ ],
+ "General": [
+  "General"
+ ],
+ "Gift2ActionShare": [
+  "Share"
+ ],
+ "Gift2ActionTransfer": [
+  "Transfer"
+ ],
+ "Gift2ActionUnlist": [
+  "Unlist"
+ ],
+ "Gift2ActionWear": [
+  "Wear"
+ ],
+ "Gift2ActionWearDone": [
+  "You put on **%s**"
+ ],
+ "Gift2ActionWearNeededPremium": [
+  "Subscribe to **Telegram Premium** to wear collectibles."
+ ],
+ "Gift2ActionWearOff": [
+  "Take Off"
+ ],
+ "Gift2ActionWearOffDone": [
+  "You took off **%s**"
+ ],
+ "Gift2AddToCollection": [
+  "Add to Collection"
+ ],
+ "Gift2AddedToCollection": [
+  "**%1$s** added to **%2$s**."
+ ],
+ "Gift2AddedToCollectionMany": [
+  "**%1$d gift** added to **%2$s**.",
+  "**%1$d gifts** added to **%2$s**."
+ ],
+ "Gift2AttributeBackdrop": [
+  "Backdrop"
+ ],
+ "Gift2AttributeModel": [
+  "Model"
+ ],
+ "Gift2AttributeSymbol": [
+  "Symbol"
+ ],
+ "Gift2BuyDoPrice": [
+  "Buy for ⭐️%d"
+ ],
+ "Gift2BuyPriceSelfText": [
+  "Do you want to buy **%2$s** for **%1$d Star**?",
+  "Do you want to buy **%2$s** for **%1$d Stars**?"
+ ],
+ "Gift2BuyPriceText": [
+  "Do you want to buy **%2$s** for **%1$d Star** and gift it to **%3$s**?",
+  "Do you want to buy **%2$s** for **%1$d Stars** and gift it to **%3$s**?"
+ ],
+ "Gift2CantDoText": [
+  "Transfer this gift to your Telegram account on Fragment to unlock this action."
+ ],
+ "Gift2CantDoTitle": [
+  "Action Locked"
+ ],
+ "Gift2ChangePrice": [
+  "Change Price"
+ ],
+ "Gift2CollectionAddGiftsButton": [
+  "Add Gifts"
+ ],
+ "Gift2CollectionAddGiftsTitle": [
+  "Add Gifts"
+ ],
+ "Gift2CollectionAll": [
+  "All Gifts"
+ ],
+ "Gift2CollectionEmptyButton": [
+  "Add Gifts"
+ ],
+ "Gift2CollectionEmptyText": [
+  "Add some gifts to this collection."
+ ],
+ "Gift2CollectionEmptyTitle": [
+  "Organize Your Gifts"
+ ],
+ "Gift2CollectionNumber": [
+  "Collectible #%d",
+  "Collectible #%d"
+ ],
+ "Gift2CollectionsAdd": [
+  "Add Gifts"
+ ],
+ "Gift2CollectionsDelete": [
+  "Delete Collection"
+ ],
+ "Gift2CollectionsRename": [
+  "Edit Name"
+ ],
+ "Gift2CollectionsReorder": [
+  "Reorder"
+ ],
+ "Gift2CollectionsShare": [
+  "Share Collection"
+ ],
+ "Gift2DeleteOption": [
+  "Delete Gift"
+ ],
+ "Gift2DeleteText": [
+  "Do you want to delete this gift?It will disappear from your profile and can't be restored."
+ ],
+ "Gift2Deleted": [
+  "Gift deleted"
+ ],
+ "Gift2EditCollectionNameTitle": [
+  "Edit Name"
+ ],
+ "Gift2ExportTONFragmentOpen": [
+  "Open Fragment"
+ ],
+ "Gift2ExportTONFragmentText": [
+  "You can use Fragment, a third-party service, to transfer **%s** to the TON blockchain. After that, you can manage it as an NFT with any TON wallet application.You can also move such NFTs back to your Telegram account via Fragment."
+ ],
+ "Gift2ExportTONFragmentTitle": [
+  "Manage with Fragment"
+ ],
+ "Gift2HideGift": [
+  "Hide"
+ ],
+ "Gift2Limited1OfRibbon": [
+  "1 of %s"
+ ],
+ "Gift2MadePrivate": [
+  "Gift is now hidden in **your profile**."
+ ],
+ "Gift2MadePrivateTitle": [
+  "Gift Hidden"
+ ],
+ "Gift2MovedToWallet": [
+  "Gift moved to your wallet."
+ ],
+ "Gift2NewCollection": [
+  "Add Collection"
+ ],
+ "Gift2NewCollectionHint": [
+  "Title"
+ ],
+ "Gift2NewCollectionText": [
+  "Choose a name for your collection and add your gifts."
+ ],
+ "Gift2NewCollectionTitle": [
+  "Create a New Collection"
+ ],
+ "Gift2OnSale": [
+  "on sale"
+ ],
+ "Gift2Owner": [
+  "Owner"
+ ],
+ "Gift2PeerColorEmptyButton": [
+  "**Browse gifts available for purchase >**"
+ ],
+ "Gift2PeerColorProfileEmptyTitle": [
+  "You don't have any gifts you can use as a profile cover."
+ ],
+ "Gift2Pin": [
+  "Pin"
+ ],
+ "Gift2PinnedSubtitle": [
+  "Now it will always be shown on top."
+ ],
+ "Gift2PinnedTitle": [
+  "Gift pinned"
+ ],
+ "Gift2ProfileInvisible3": [
+  "This gift is hidden from your profile. **Show >**"
+ ],
+ "Gift2ProfileInvisible4": [
+  "This gift is hidden. **Show on Profile >**"
+ ],
+ "Gift2ProfileVisible3": [
+  "This gift is visible on your profile. **Hide >**"
+ ],
+ "Gift2ProfileVisible4": [
+  "This gift is visible. **Hide from profile >**"
+ ],
+ "Gift2Quantity": [
+  "Quantity"
+ ],
+ "Gift2QuantityIssued1": [
+  "",
+  "%d/"
+ ],
+ "Gift2QuantityIssued2": [
+  "",
+  "%d issued"
+ ],
+ "Gift2RarityHint": [
+  "Only %s of such collectibles have this attribute"
+ ],
+ "Gift2RemoveFromCollection": [
+  "Remove From Collection"
+ ],
+ "Gift2RemovedFromCollection": [
+  "**%1$s** removed from **%2$s**."
+ ],
+ "Gift2Reorder": [
+  "Reorder"
+ ],
+ "Gift2ReplacedPinSubtitle": [
+  "replacing %s"
+ ],
+ "Gift2ReplacedPinTitle": [
+  "%s pinned"
+ ],
+ "Gift2ResaleDisable": [
+  "%s removed from sale!"
+ ],
+ "Gift2ResaleEnable": [
+  "%s is now for sale!"
+ ],
+ "Gift2SelfInfoUpgrade": [
+  "You can add this gift to your profile or turn it into a unique transferable collectible."
+ ],
+ "Gift2ShowGift": [
+  "Show"
+ ],
+ "Gift2ShowOnProfile": [
+  "Show on Profile"
+ ],
+ "Gift2StarsInfoProfileLink": [
+  "%s’s Gifts"
+ ],
+ "Gift2TabAll": [
+  "All Gifts"
+ ],
+ "Gift2TabCollectibles": [
+  "Collectibles"
+ ],
+ "Gift2TabMine": [
+  "My Gifts"
+ ],
+ "Gift2TitleProfile": [
+  "Gift"
+ ],
+ "Gift2TransferMine": [
+  "Transfer"
+ ],
+ "Gift2TransferOption": [
+  "Transfer"
+ ],
+ "Gift2TransferToTONAlertText": [
+  "You can transfer your gift to TON if you have:"
+ ],
+ "Gift2TransferToTONAlertText1": [
+  "Enabled **Two-Step Verification** more than **7 days** ago."
+ ],
+ "Gift2TransferToTONAlertText2": [
+  "Logged in on this device more than **24 hours** ago."
+ ],
+ "Gift2TransferToTONAlertText3": [
+  "Please come back later."
+ ],
+ "Gift2TransferToTONAlertTitle": [
+  "Security Check"
+ ],
+ "Gift2UnlistText": [
+  "Are you sure you want to unlist your gift?"
+ ],
+ "Gift2UnlistTitle": [
+  "Unlist %s"
+ ],
+ "Gift2Unpin": [
+  "Unpin"
+ ],
+ "Gift2UnpinAlertButton": [
+  "Unpin"
+ ],
+ "Gift2UnpinAlertSubtitle": [
+  "Select a gift to unpin below"
+ ],
+ "Gift2UnpinAlertTitle": [
+  "Too Many Pinned Gifts"
+ ],
+ "Gift2Unwear": [
+  "Take Off"
+ ],
+ "Gift2Wear": [
+  "Wear"
+ ],
+ "Gift2WearFeature1Text": [
+  "This gift will be displayed next to your name with a glittering icon."
+ ],
+ "Gift2WearFeature1Title": [
+  "Radiant Badge"
+ ],
+ "Gift2WearFeature2Text": [
+  "Your profile will have the same backdrop and symbol as this gift."
+ ],
+ "Gift2WearFeature2Title": [
+  "Unique Profile Design"
+ ],
+ "Gift2WearFeature3Text": [
+  "Tapping the icon next to your name will show the gift's owner and attributes."
+ ],
+ "Gift2WearFeature3Title": [
+  "Proof of Ownership"
+ ],
+ "Gift2WearStart": [
+  "Start Wearing"
+ ],
+ "Gift2WearSubtitle": [
+  "and get these benefits"
+ ],
+ "Gift2WearTitle": [
+  "Wear %s"
+ ],
+ "GiftCollectionSharedTo": [
+  "Gift Collection forwarded to **%s**."
+ ],
+ "GiftCollectionSharedToManyChats": [
+  "Gift Collection forwarded to **a chat**.",
+  "Gift Collection forwarded to **%1$d chats**."
+ ],
+ "GiftOfferDuration": [
+  "Offer Duration"
+ ],
+ "GiftOfferHours": [
+  "%d hour",
+  "%d hours"
+ ],
+ "GiftOfferToBuyMenu": [
+  "Offer to buy"
+ ],
+ "GiftPremium": [
+  "Gift Premium"
+ ],
+ "GiftsBirthdaySetup": [
+  "Add Your Birthday"
+ ],
+ "GraceSuggestionButton": [
+  "Restore Subscription"
+ ],
+ "GraceSuggestionMessage": [
+  "⚠️ Unfortunately, your latest payment didn’t come through. To keep your access to exclusive features, please renew the subscription."
+ ],
+ "GraceSuggestionTitle": [
+  "Access to Telegram Premium is expiring!"
+ ],
+ "GroupsInCommon": [
+  "Groups in Common"
+ ],
+ "GroupsInCommonTitle": [
+  "Groups In Common"
+ ],
+ "HideStoriesFromAlbum": [
+  "Remove Story from Album",
+  "Remove Stories from Album"
+ ],
+ "Info": [
+  "Info"
+ ],
+ "InviteToGroupError": [
+  "Sorry, you can't add this user to groups because of their privacy settings."
+ ],
+ "LastName": [
+  "Last name (optional)"
+ ],
+ "LastSeen": [
+  "last seen"
+ ],
+ "LoginEmailResetPremiumRequiredMessage": [
+  "Due to the high cost of SMS in your country, you need a **Telegram Premium** account to immediately reset this email via an SMS code.You can ask a friend to gift a Premium subscription for your account **%1$s**"
+ ],
+ "LoginEmailResetPremiumRequiredTitle": [
+  "Telegram Premium Required"
+ ],
+ "MediaShowPhotos": [
+  "Show Photos"
+ ],
+ "MediaShowVideos": [
+  "Show Videos"
+ ],
+ "MediaZoomIn": [
+  "Zoom In"
+ ],
+ "MediaZoomOut": [
+  "Zoom Out"
+ ],
+ "MessagePreview": [
+  "Show Message Previews"
+ ],
+ "MoreSimilarBotsButton": [
+  "Show More Bots"
+ ],
+ "MoreSimilarBotsText": [
+  "Subscribe to **Telegram Premium**to unlock up to %s similar bots."
+ ],
+ "MuteFor": [
+  "Mute for %1$s"
+ ],
+ "NoArchivedStoriesSubtitle": [
+  "Upload a new story to view it here."
+ ],
+ "NoArchivedStoriesTitle": [
+  "No stories yet…"
+ ],
+ "NoContactsYet": [
+  "You have no contacts on Telegram yet"
+ ],
+ "NoContactsYetLine1": [
+  "Invite friends to try Telegram"
+ ],
+ "NoContactsYetLine2": [
+  "Find people nearby to chat with"
+ ],
+ "NoContactsYetLine3": [
+  "Search people by username"
+ ],
+ "NoEmojiOrStickersFound": [
+  "No emoji or stickers found"
+ ],
+ "NoSharedFilesSecret": [
+  "Files and documents from this chat will be shown here."
+ ],
+ "Notifications": [
+  "Notifications"
+ ],
+ "NotificationsCustom": [
+  "Custom"
+ ],
+ "NotificationsCustomize": [
+  "Customize"
+ ],
+ "NotificationsDefaultOff": [
+  "Default (Off)"
+ ],
+ "NotificationsDefaultOn": [
+  "Default (On)"
+ ],
+ "NotificationsEnableCustom": [
+  "Enable Custom Notifications"
+ ],
+ "NotificationsImportance": [
+  "Priority"
+ ],
+ "NotificationsOn": [
+  "On"
+ ],
+ "NotificationsPrioritySettings": [
+  "Same as in Settings"
+ ],
+ "NotificationsTurnOff": [
+  "Turn Off"
+ ],
+ "NotificationsTurnOn": [
+  "Turn On"
+ ],
+ "NumberUnknown": [
+  "Unknown"
+ ],
+ "OK": [
+  "OK"
+ ],
+ "PhoneHidden": [
+  "Unknown"
+ ],
+ "PhoneMobile": [
+  "Mobile"
+ ],
+ "PleaseEnterCurrentPasswordGiftTransfer": [
+  "Please enter your password to send **%s** to Fragment."
+ ],
+ "PopupDisabled": [
+  "Disabled"
+ ],
+ "PopupEnabled": [
+  "Enabled"
+ ],
+ "PremiumAvatarToast": [
+  "Subscribe to **Telegram Premium** to set premium avatars."
+ ],
+ "PriorityInfo": [
+  "Higher priority notifications will work even in Do Not Disturb mode."
+ ],
+ "PrivacyBirthdayTooOftenMessage": [
+  "Sorry, you can’t change your birthday so often."
+ ],
+ "PrivacyBirthdayTooOftenTitle": [
+  "Oops"
+ ],
+ "ProfileActionsAddStory": [
+  "Add Story"
+ ],
+ "ProfileActionsCall": [
+  "Call"
+ ],
+ "ProfileActionsDiscuss": [
+  "Discuss"
+ ],
+ "ProfileActionsEditInfo": [
+  "Edit Info"
+ ],
+ "ProfileActionsEditPhoto2": [
+  "Set Photo"
+ ],
+ "ProfileActionsGift": [
+  "Gift"
+ ],
+ "ProfileActionsJoin": [
+  "Join"
+ ],
+ "ProfileActionsLeave": [
+  "Leave"
+ ],
+ "ProfileActionsLiveStream": [
+  "Live Stream"
+ ],
+ "ProfileActionsMessage": [
+  "Message"
+ ],
+ "ProfileActionsReport": [
+  "Report"
+ ],
+ "ProfileActionsShare": [
+  "Share"
+ ],
+ "ProfileActionsStop": [
+  "Stop"
+ ],
+ "ProfileActionsVideo": [
+  "Video"
+ ],
+ "ProfileActionsVoiceChat": [
+  "Video Chat"
+ ],
+ "ProfileArchivedStories": [
+  "Archived Posts"
+ ],
+ "ProfileBirthday": [
+  "Birthday"
+ ],
+ "ProfileBirthdayChange": [
+  "Change"
+ ],
+ "ProfileBirthdayToday": [
+  "Birthday today"
+ ],
+ "ProfileBirthdayTodayValue": [
+  "🎂 %1$s"
+ ],
+ "ProfileBirthdayValue": [
+  "%1$s"
+ ],
+ "ProfileBirthdayValueYear": [
+  "",
+  "%2$s (%1$d years old)"
+ ],
+ "ProfileButtonMute": [
+  "Mute"
+ ],
+ "ProfileButtonUnmute": [
+  "Unmute"
+ ],
+ "ProfileChannel": [
+  "Channel"
+ ],
+ "ProfileChannelChange": [
+  "Change Channel"
+ ],
+ "ProfileChannelClearMessage": [
+  "Are you sure you want to remove the channel from your profile?"
+ ],
+ "ProfileChannelClearTitle": [
+  "Remove channel"
+ ],
+ "ProfileChannelCopy": [
+  "Copy Link"
+ ],
+ "ProfileColorEdit": [
+  "Change profile color"
+ ],
+ "ProfileCopyLink": [
+  "Copy link to profile"
+ ],
+ "ProfileCopyUsername": [
+  "Copy username"
+ ],
+ "ProfileEditBio": [
+  "Edit bio"
+ ],
+ "ProfileGifts": [
+  "Gifts"
+ ],
+ "ProfileGiftsAdd": [
+  "Add Gifts"
+ ],
+ "ProfileGiftsCount": [
+  "%d gift",
+  "%d gifts"
+ ],
+ "ProfileGiftsInfo": [
+  "Tap on a gift to convert it to Stars or change its privacy settings."
+ ],
+ "ProfileGiftsNotFoundButton": [
+  "View All Gifts"
+ ],
+ "ProfileGiftsNotFoundTitle": [
+  "No matching gifts"
+ ],
+ "ProfileGiftsSend": [
+  "Send Gifts to Friends"
+ ],
+ "ProfileGiftsSendUser": [
+  "Send a Gift to %s"
+ ],
+ "ProfileHoursCopy": [
+  "Copy hours"
+ ],
+ "ProfileHoursEdit": [
+  "Edit hours"
+ ],
+ "ProfileHoursRemove": [
+  "Remove"
+ ],
+ "ProfileLocationCopy": [
+  "Copy address"
+ ],
+ "ProfileLocationEdit": [
+  "Change location"
+ ],
+ "ProfileLocationMaps": [
+  "Open in Maps"
+ ],
+ "ProfileLocationRemove": [
+  "Remove"
+ ],
+ "ProfileLocationView": [
+  "View location"
+ ],
+ "ProfileNotes": [
+  "Notes"
+ ],
+ "ProfileNotesInfo": [
+  "only visible to you"
+ ],
+ "ProfilePhoneEdit": [
+  "Replace number"
+ ],
+ "ProfilePlaylistRemoveFromProfile": [
+  "Remove from Profile"
+ ],
+ "ProfilePlaylistTitle": [
+  "%s's Playlist"
+ ],
+ "ProfilePlaylistTitleMine": [
+  "Your Playlist"
+ ],
+ "ProfilePopupNotification": [
+  "Popup notifications"
+ ],
+ "ProfilePopupNotificationInfo": [
+  "New messages from this contact will appear on your screen when you are not using Telegram."
+ ],
+ "ProfileSendAGift": [
+  "Send a Gift"
+ ],
+ "ProfileStories": [
+  "Posts"
+ ],
+ "ProfileStoriesCountZero": [
+  "no stories"
+ ],
+ "ProfileTabSetAsMain": [
+  "Set as Main Tab"
+ ],
+ "ProfileUnofficialSecurityRisk": [
+  "%s uses an unofficial Telegram client — messages to this user may be less secure."
+ ],
+ "ProfileUsernameEdit": [
+  "Change username"
+ ],
+ "ProfileUsernameSet": [
+  "Set username"
+ ],
+ "QrBrowseGifts": [
+  "Browse Gifts"
+ ],
+ "QrEmojiPresets": [
+  "Presets"
+ ],
+ "QrNoGiftsInfo": [
+  "Use any collectible gift you ownto style your QR code."
+ ],
+ "QrNoGiftsTitle": [
+  "No gifts yet"
+ ],
+ "QrNoPaidExpiresIn": [
+  "Expires in %1$s"
+ ],
+ "QrNoPaidFree": [
+  "Free"
+ ],
+ "QrNoPaidMenuDisableTimer": [
+  "Disable timer"
+ ],
+ "QrNoPaidMenuDisableTimerInfo": [
+  "Stays free, no time limit"
+ ],
+ "QrNoPaidMenuEnableTimer": [
+  "Enable timer"
+ ],
+ "QrNoPaidMenuEnableTimerInfo": [
+  "Expires in 1 minute"
+ ],
+ "QrNoPaidMenuReset": [
+  "Reset Code"
+ ],
+ "QrNoPaidMenuRestoreFee": [
+  "Restore message fee"
+ ],
+ "QrNoPaidNoTimeLimit": [
+  "No time limit"
+ ],
+ "QrNoPaidRemoveStarsFee": [
+  "Remove ★%1$s fee"
+ ],
+ "QrNoPaidToastExpired": [
+  "Code expired, fee is back"
+ ],
+ "QrNoPaidToastExpires": [
+  "This code will expire in 1 minute"
+ ],
+ "QrNoPaidToastFeeRestored": [
+  "Message fee restored"
+ ],
+ "QrNoPaidToastNewCode": [
+  "New code created"
+ ],
+ "QrNoPaidToastNoTimeLimit": [
+  "Code stays free, no time limit"
+ ],
+ "QrPremiumGiftsToast": [
+  "Get Premium to putgifts on your QR code."
+ ],
+ "QrPremiumSubscribe": [
+  "Subscribe"
+ ],
+ "QrSavedToGallery": [
+  "QR code saved to Gallery"
+ ],
+ "QrScanQr": [
+  "Scan QR"
+ ],
+ "Remove": [
+  "Remove"
+ ],
+ "ReportAlertReaction": [
+  "Are you sure you want to report reactions from this user?"
+ ],
+ "ReportProfilePhoto": [
+  "Report"
+ ],
+ "ReportReaction2": [
+  "Report Reaction"
+ ],
+ "ReportReactionAndBan2": [
+  "Ban and Report Reaction"
+ ],
+ "ResellGiftBuy": [
+  "Buy for ⭐️%d",
+  "Buy for ⭐️%d"
+ ],
+ "ResellGiftInfoMin": [
+  "Minimum price is %d Star.",
+  "Minimum price is **%d** Stars."
+ ],
+ "ResellGiftPriceTitle": [
+  "Enter price in Stars"
+ ],
+ "ResetToOriginalPhoto": [
+  "Reset to Original Photo"
+ ],
+ "ResetToOriginalPhotoMessage": [
+  "Are you sure you want to reset to %s's original photo?"
+ ],
+ "ResetToOriginalPhotoTitle": [
+  "Reset Photo"
+ ],
+ "ScanQrCode": [
+  "Scan QR Code"
+ ],
+ "SetAsMain": [
+  "Set as Main"
+ ],
+ "SetAsMyPhoto": [
+  "Set as My Photo"
+ ],
+ "SetChannelPhoto": [
+  "Set Channel Photo"
+ ],
+ "SetCover": [
+  "Choose a frame for this profile photo"
+ ],
+ "SetGroupPhoto": [
+  "Set Group Photo"
+ ],
+ "SetMyProfilePhotoAvatarConstructor": [
+  "Set My Photo"
+ ],
+ "SetPhoto": [
+  "Set Photo"
+ ],
+ "SetProfilePhoto": [
+  "Set Profile Photo"
+ ],
+ "SetProfilePhotoAvatarConstructor": [
+  "Set Profile Photo"
+ ],
+ "SetSuggestedPhotoTooltip": [
+  "%s suggests this photo for your Telegram profile."
+ ],
+ "SetSuggestedVideoTooltip": [
+  "%s suggests this photo for your Telegram profile."
+ ],
+ "SetUserPhotoSelfAlertMessage": [
+  "Do you want to set this as your profile photo?"
+ ],
+ "SetVideo": [
+  "Set Photo"
+ ],
+ "SettingsAccounts": [
+  "Accounts"
+ ],
+ "ShareQrCode": [
+  "Share QR Code"
+ ],
+ "SharedAudioFiles": [
+  "Audio files"
+ ],
+ "SharedContent": [
+  "Shared content"
+ ],
+ "SharedLinks": [
+  "Links"
+ ],
+ "SharedMedia": [
+  "Shared Media"
+ ],
+ "SharedMediaFastScrollHint": [
+  "You can hold and move this bar for faster scrolling."
+ ],
+ "SharedPhotosAndVideos": [
+  "Photos and videos"
+ ],
+ "ShowInChat": [
+  "Show in chat"
+ ],
+ "SimilarBotsTab": [
+  "Similar Bots"
+ ],
+ "Sound": [
+  "Sound"
+ ],
+ "SoundDefault": [
+  "Default"
+ ],
+ "StarRatingAdded": [
+  "ADDED"
+ ],
+ "StarRatingButtonUnderstood": [
+  "Understood"
+ ],
+ "StarRatingDeduces": [
+  "DEDUCTED"
+ ],
+ "StarRatingDescription": [
+  "This rating reflects **%s's** activityon Telegram. It is based on:"
+ ],
+ "StarRatingDescription1": [
+  "%s 100% of the Stars spent on gifts purchased from Telegram."
+ ],
+ "StarRatingDescription2": [
+  "%s 20% of the Stars spent on resold gifts, paid messages and channel posts."
+ ],
+ "StarRatingDescription3": [
+  "%s 10x refunded Stars and 85% of gifts converted back to Stars."
+ ],
+ "StarRatingFuture": [
+  "This rating will update in %d day.",
+  "This rating will update in %d days."
+ ],
+ "StarRatingFuturePendingPoints": [
+  "%d point is pending.",
+  "%d points are pending."
+ ],
+ "StarRatingFuturePendingPointsPreviewBack": [
+  "**Back >**"
+ ],
+ "StarRatingFuturePreview1": [
+  "This will be your rating in %d day, after",
+  "This will be your rating in %d days, after"
+ ],
+ "StarRatingFuturePreview2": [
+  "%d point are added.",
+  "%d points are added."
+ ],
+ "StarRatingLevel": [
+  "Level %d"
+ ],
+ "StarRatingLevelNegative": [
+  "Negative Rating"
+ ],
+ "StarRatingSelfDescription": [
+  "This rating reflects your activityon Telegram. It is based on:"
+ ],
+ "StarRatingTitle": [
+  "Rating"
+ ],
+ "StarRatingTitle1": [
+  "Gifts from Telegram"
+ ],
+ "StarRatingTitle2": [
+  "Gifts and Posts from Users"
+ ],
+ "StarRatingTitle3": [
+  "Refunds and Conversions"
+ ],
+ "Start": [
+  "Start"
+ ],
+ "StartEncryptedChat": [
+  "Start Secret Chat"
+ ],
+ "StoriesAlbumAddAlbum": [
+  "Add Album"
+ ],
+ "StoriesAlbumAddHint": [
+  "Choose a name for your album and add your stories."
+ ],
+ "StoriesAlbumAddToAlbum": [
+  "Add to Album"
+ ],
+ "StoriesAlbumBottomButtonAddStories": [
+  "Add Stories"
+ ],
+ "StoriesAlbumCreateNew": [
+  "Create a New Album"
+ ],
+ "StoriesAlbumMenuAddStories": [
+  "Add Stories"
+ ],
+ "StoriesAlbumMenuDeleteAlbum": [
+  "Delete Album"
+ ],
+ "StoriesAlbumMenuDeleteAlbumAsk": [
+  "Are you sure you want to delete the **%s** album?"
+ ],
+ "StoriesAlbumMenuEditName": [
+  "Edit Name"
+ ],
+ "StoriesAlbumMenuRemoveFromAlbum": [
+  "Remove from Album"
+ ],
+ "StoriesAlbumMenuReorder": [
+  "Reorder"
+ ],
+ "StoriesAlbumMenuSelect": [
+  "Select"
+ ],
+ "StoriesAlbumMenuShareLink": [
+  "Share Link"
+ ],
+ "StoriesAlbumNameAllStories": [
+  "All Stories"
+ ],
+ "StoriesAlbumNewAlbum": [
+  "New Album"
+ ],
+ "StoriesAlbumOrganizeDescription": [
+  "Add some of your stories to this album."
+ ],
+ "StoriesAlbumOrganizeTitle": [
+  "Organize Your Stories"
+ ],
+ "StoriesAlbumRename": [
+  "Rename Album"
+ ],
+ "StoriesAlbumRenameHint": [
+  "Choose a new name for your album."
+ ],
+ "StoriesAlbumTitleInputHint": [
+  "Title"
+ ],
+ "StoryAddedToAlbumTitle": [
+  "%d story saved to **%s**",
+  "%d stories saved to **%s**"
+ ],
+ "StoryAddedToAlbumX": [
+  "This story has been added to **%s** album."
+ ],
+ "SuggestUserPhoto": [
+  "Suggest Photo for %s"
+ ],
+ "SuggestedPhoto": [
+  "Suggested Photo"
+ ],
+ "SuggestedVideo": [
+  "Suggested Photo"
+ ],
+ "TodayAtFormatted": [
+  "at %1$s"
+ ],
+ "Unblock": [
+  "Unblock user"
+ ],
+ "UserBioInfo": [
+  "You can add a few lines about yourself. Choose who can see your bio in Settings."
+ ],
+ "UserBlocked": [
+  "User blocked."
+ ],
+ "UserColorApply": [
+  "Apply Style"
+ ],
+ "UserColorApplyCollectible": [
+  "Wear Collectible"
+ ],
+ "UserColorApplyIcon": [
+  "Apply Color and Icon"
+ ],
+ "UserColorTabName": [
+  "Name"
+ ],
+ "UserColorTabProfile": [
+  "Profile"
+ ],
+ "UserCustomPhotoSeted": [
+  "You will now always see this photo for **%s's** account."
+ ],
+ "UserProfileCollectibleHeader": [
+  "Use a gift"
+ ],
+ "UserProfileCollectibleInfo": [
+  "Apply your collectible's unique look to your profile."
+ ],
+ "UserProfileColorApplied": [
+  "Your profile color has been updated!"
+ ],
+ "UserProfileColorEmojiApplied": [
+  "Your profile logo has been set!"
+ ],
+ "UserProfileColorReset": [
+  "Reset Profile Color"
+ ],
+ "UserProfileColorResetApplied": [
+  "Your profile color has been reset!"
+ ],
+ "UserProfileHint": [
+  "Choose a color and a logo for your profile"
+ ],
+ "UserProfileIcon": [
+  "Add Icons to Profile"
+ ],
+ "UserSetPhoto": [
+  "Set photo for %s"
+ ],
+ "UserSuggestBirthday": [
+  "Suggest Date of Birth"
+ ],
+ "UserSuggestBirthdayButton": [
+  "Suggest Date of Birth"
+ ],
+ "UserSuggestBirthdayTitle": [
+  "%s's Birthday"
+ ],
+ "UserUnblocked": [
+  "User unblocked."
+ ],
+ "Vibrate": [
+  "Vibrate"
+ ],
+ "VibrationDefault": [
+  "Default"
+ ],
+ "VideoCallViaTelegram": [
+  "Telegram Video Call"
+ ],
+ "VoipNotificationSettings": [
+  "Calls"
+ ],
+ "VoipOfflineAirplane": [
+  "You have airplane mode enabled. Please turn it off or connect to Wi-Fi to make calls."
+ ],
+ "VoipOfflineAirplaneTitle": [
+  "Airplane Mode"
+ ],
+ "VoipOfflineOpenSettings": [
+  "Settings"
+ ],
+ "VoipOngoingAlert": [
+  "End call with **%1$s** and start a new one with **%2$s**?"
+ ],
+ "VoipOngoingAlertTitle": [
+  "Another call in progress"
+ ],
+ "VoipSettingsRingtone": [
+  "Ringtone"
+ ]
+}

@@ -1,0 +1,3810 @@
+{
+ "Admins.AddAdmin": [
+  "Add Admin"
+ ],
+ "Admins.Admin": [
+  "Admin"
+ ],
+ "Admins.ChannelAdmins": [
+  "CHANNEL ADMINS"
+ ],
+ "Admins.ChannelDescription": [
+  "You can add admins to help you manage your channel"
+ ],
+ "Admins.Creator": [
+  "Owner"
+ ],
+ "Admins.EverbodyCanAddMembers": [
+  "Any member can add new members"
+ ],
+ "Admins.GroupAdmins": [
+  "GROUP ADMINS"
+ ],
+ "Admins.GroupDescription": [
+  "You can add admins to help you manage your group."
+ ],
+ "Admins.OnlyAdminsCanAddMembers": [
+  "Only admins can add new members."
+ ],
+ "Admins.Owner": [
+  "Owner"
+ ],
+ "Admins.SelectNewAdminTitle": [
+  "Contacts"
+ ],
+ "Admins.WhoCanInvite.Admins": [
+  "Only Admins"
+ ],
+ "Admins.WhoCanInvite.Everyone": [
+  "All Members"
+ ],
+ "Admins.WhoCanInvite.Text": [
+  "Who can add members"
+ ],
+ "Alert.Cancel": [
+  "Cancel"
+ ],
+ "Alert.Confirm.Stop": [
+  "Stop"
+ ],
+ "Alert.PrivateChannel.AccessError": [
+  "Unfortunately, you can't access this message. You aren't a member of the chat where it was posted."
+ ],
+ "Boost.Badge.Level": [
+  "Level %d"
+ ],
+ "Boost.Badge.LevelPLus": [
+  "Level %d+"
+ ],
+ "Calendar.WeekDays.Wednesday": [
+  "W"
+ ],
+ "Call.Confirm.Discard.Call.Header": [
+  "Call in Progress"
+ ],
+ "Call.Confirm.Discard.Call.ToCall.Text": [
+  "End call with \"%1$@\" and start a video chat in \"%2$@\"?"
+ ],
+ "Call.Confirm.Discard.Voice.Header": [
+  "Video Chat in Progress"
+ ],
+ "Call.Confirm.Discard.Voice.ToCall.Text": [
+  "Leave video chat in \"%1$@\" and start a call with \"%2$@\"?"
+ ],
+ "Call.Confirm.Discard.Voice.ToVoice.Text": [
+  "Leave video chat in \"%1$@\" and start a new one in \"%2$@\"?"
+ ],
+ "Call.ShortMinutes": [
+  "%d min",
+  "%d min"
+ ],
+ "Chanel.EventFilter.AllAdmins": [
+  "All Admins"
+ ],
+ "Chanel.EventFilter.AllEvents": [
+  "All Events"
+ ],
+ "Channel.Admin.AdminAccess": [
+  "This admin will be able to add new admins with equal or fewer rights."
+ ],
+ "Channel.Admin.AdminRestricted": [
+  "This admin will not be able to add new admins."
+ ],
+ "Channel.Admin.CantEdit": [
+  "You are not allowed to edit the rights of this admin."
+ ],
+ "Channel.Admin.CantEditRights": [
+  "You can't edit the rights of this admin."
+ ],
+ "Channel.Admin.Dismiss": [
+  "Dismiss Admin"
+ ],
+ "Channel.Admin.Role.Admin.Desc": [
+  "A title that members will see instead of 'admin'."
+ ],
+ "Channel.Admin.Role.Header": [
+  "MEMBER TAG"
+ ],
+ "Channel.Admin.Role.Owner.Desc": [
+  "A title that will be shown instead of 'owner'."
+ ],
+ "Channel.Admin.Role.Placeholder.Admin": [
+  "admin"
+ ],
+ "Channel.Admin.Role.Placeholder.Owner": [
+  "owner"
+ ],
+ "Channel.Admin.TransferOwnership.Channel": [
+  "Transfer Channel Ownership"
+ ],
+ "Channel.Admin.TransferOwnership.Confirm.Channel.Text": [
+  "This will transfer the full owner rights for %@ to %@.You will no longer be considered the creator of the channel. The new owner will be free to remove any of your admin privileges or even ban you."
+ ],
+ "Channel.Admin.TransferOwnership.Confirm.Channel.Title": [
+  "Transfer Channel Ownership"
+ ],
+ "Channel.Admin.TransferOwnership.Confirm.Group.Text": [
+  "This will transfer the full owner rights for %@ to %@.You will no longer be considered the creator of the group. The new owner will be free to remove any of your admin privileges or even ban you."
+ ],
+ "Channel.Admin.TransferOwnership.Confirm.Group.Title": [
+  "Transfer Group Ownership"
+ ],
+ "Channel.Admin.TransferOwnership.Confirm.OK": [
+  "Change Owner"
+ ],
+ "Channel.Admin.TransferOwnership.Group": [
+  "Transfer Group Ownership"
+ ],
+ "Channel.Admin.TransferOwnership.Password.Desc": [
+  "Please enter your 2-Step verification password to complete the transfer."
+ ],
+ "Channel.Admin.TransferOwnership.Password.Title": [
+  "Two-Step Verification"
+ ],
+ "Channel.Admin.WhatCanAdminDo": [
+  "WHAT CAN THIS ADMIN DO?"
+ ],
+ "Channel.AdminLog.AllowedNewMembersToSpeak": [
+  "%1$@ allowed new video chat participants to speak"
+ ],
+ "Channel.AdminLog.AllowedReactionsUpdated": [
+  "%1$@ updated the list of allowed reactions to: %2$@"
+ ],
+ "Channel.AdminLog.CanManageCalls": [
+  "Manage Video Chats"
+ ],
+ "Channel.AdminLog.DeletedInviteLink": [
+  "%1$@ deleted the invite link %2$@"
+ ],
+ "Channel.AdminLog.EditedInviteLink": [
+  "%1$@ edited invite link %2$@"
+ ],
+ "Channel.AdminLog.EndedVoiceChat": [
+  "%1$@ ended the video chat"
+ ],
+ "Channel.AdminLog.JoinedViaRequest": [
+  "%1$@ joined via invite link %2$@, approved by %3$@"
+ ],
+ "Channel.AdminLog.MessageChangedAutoremoveTimeoutRemove": [
+  "%1$@ disabled auto-delete timer"
+ ],
+ "Channel.AdminLog.MessageChangedAutoremoveTimeoutSet": [
+  "%1$@ set auto-delete timer to %2$@"
+ ],
+ "Channel.AdminLog.MutedNewMembers": [
+  "%1$@ muted new video chat participants"
+ ],
+ "Channel.AdminLog.MutedParticipant": [
+  "%1$@ muted %2$@ in a video chat"
+ ],
+ "Channel.AdminLog.ReactionsDisabled": [
+  "%1$@ disabled reactions"
+ ],
+ "Channel.AdminLog.ReactionsEnabled": [
+  "%1$@ enabled all reactions"
+ ],
+ "Channel.AdminLog.RevokedInviteLink": [
+  "%1$@ revoked invite link %2$@"
+ ],
+ "Channel.AdminLog.StartedVoiceChat": [
+  "%1$@ started a video chat"
+ ],
+ "Channel.AdminLog.UnmutedMutedParticipant": [
+  "%1$@ unmuted %2$@ in a video chat"
+ ],
+ "Channel.Admins.AddAdminError": [
+  "Sorry, you're not allowed to promote this user to become an admin."
+ ],
+ "Channel.Admins.Promote.BannedAdminError": [
+  "Sorry, you can't add this user as an admin because they are in the Removed Users list and you can't unban them."
+ ],
+ "Channel.Admins.Promote.UnmemberAdminError": [
+  "You can't add this user as an admin because they are not a member of this group and you are not allowed to add them."
+ ],
+ "Channel.Admins.PromotedBy": [
+  "promoted by %@"
+ ],
+ "Channel.BanForever": [
+  "Forever"
+ ],
+ "Channel.BanUser.PermissionAddMembers": [
+  "Add Members"
+ ],
+ "Channel.BanUser.PermissionChangeGroupInfo": [
+  "Change Group Info"
+ ],
+ "Channel.BanUser.PermissionEmbedLinks": [
+  "Embed Links"
+ ],
+ "Channel.BanUser.PermissionSendMedia": [
+  "Send Media"
+ ],
+ "Channel.BanUser.PermissionSendMessages": [
+  "Send Messages"
+ ],
+ "Channel.BanUser.PermissionSendPolls": [
+  "Send Polls"
+ ],
+ "Channel.BanUser.PermissionSendStickersAndGifs": [
+  "Send Stickers & GIFs"
+ ],
+ "Channel.Blacklist.BlockedBy": [
+  "blocked by %@"
+ ],
+ "Channel.Blacklist.Context.AddToGroup": [
+  "Add To Group"
+ ],
+ "Channel.Blacklist.Context.Remove": [
+  "Remove"
+ ],
+ "Channel.Blacklist.DemoteAdminError": [
+  "You can't ban this user because they are an admin of this group and you are not allowed to demote them."
+ ],
+ "Channel.Blacklist.DescChannel": [
+  "Users removed from the channel by admins can't rejoin via invite links."
+ ],
+ "Channel.Blacklist.DescGroup": [
+  "Users removed from the group by admins can't rejoin via invite links."
+ ],
+ "Channel.Blacklist.RemoveUser": [
+  "Remove User"
+ ],
+ "Channel.Blacklist.RestrictedBy": [
+  "restricted by %@"
+ ],
+ "Channel.Blacklist.SelectNewUserTitle": [
+  "Members"
+ ],
+ "Channel.Blacklist.Unban": [
+  "Unban"
+ ],
+ "Channel.BlockUser.BlockFor": [
+  "Block For"
+ ],
+ "Channel.BlockUser.CanEmbedLinks": [
+  "Embed Links"
+ ],
+ "Channel.BlockUser.CanReadMessages": [
+  "Can Read Messages"
+ ],
+ "Channel.BlockUser.CanSendMedia": [
+  "Send Media"
+ ],
+ "Channel.BlockUser.CanSendMessages": [
+  "Send Messages"
+ ],
+ "Channel.BlockUser.CanSendStickers": [
+  "Send Stickers & GIFs"
+ ],
+ "Channel.BoostsStats.GetBoostsViaGifts": [
+  "Get Boosts Via Gifts"
+ ],
+ "Channel.BoostsStats.GetBoostsViaGifts.Info": [
+  "Get more boosts for your channel by gifting Premium to your subscribers."
+ ],
+ "Channel.ChannelNameHolder": [
+  "Channel Name"
+ ],
+ "Channel.Comments.Count": [
+  "%d Comment",
+  "%d Comments"
+ ],
+ "Channel.Comments.LeaveComment": [
+  "Leave a Comment"
+ ],
+ "Channel.Create": [
+  "Create"
+ ],
+ "Channel.DescHeader": [
+  "DESCRIPTION"
+ ],
+ "Channel.DescriptionHolder": [
+  "Description"
+ ],
+ "Channel.DescriptionHolderDescrpiton": [
+  "You can provide an optional description for your channel."
+ ],
+ "Channel.EditAdmin.DeleteStories": [
+  "Delete Stories of Others"
+ ],
+ "Channel.EditAdmin.EditStories": [
+  "Edit Stories of Others"
+ ],
+ "Channel.EditAdmin.ManageCalls": [
+  "Manage Video Chats"
+ ],
+ "Channel.EditAdmin.Permission.AddNewAdmins": [
+  "Add New Admins"
+ ],
+ "Channel.EditAdmin.Permission.BanUsers": [
+  "Ban Users"
+ ],
+ "Channel.EditAdmin.Permission.ChangeInfo": [
+  "Change Channel Info"
+ ],
+ "Channel.EditAdmin.Permission.DeleteMessages": [
+  "Delete Messages"
+ ],
+ "Channel.EditAdmin.Permission.EditMessages": [
+  "Edit Messages"
+ ],
+ "Channel.EditAdmin.Permission.InviteUsers": [
+  "Invite Users"
+ ],
+ "Channel.EditAdmin.Permission.ManageMessages": [
+  "Manage Messages"
+ ],
+ "Channel.EditAdmin.Permission.ManageStories": [
+  "Manage Stories"
+ ],
+ "Channel.EditAdmin.Permission.PinMessages": [
+  "Pin Messages"
+ ],
+ "Channel.EditAdmin.Permission.PostMessages": [
+  "Post Messages"
+ ],
+ "Channel.EditAdmin.Permission.SendFiles": [
+  "Send Files"
+ ],
+ "Channel.EditAdmin.Permission.SendInstantVideo": [
+  "Send Video Messages"
+ ],
+ "Channel.EditAdmin.Permission.SendMusic": [
+  "Send Music"
+ ],
+ "Channel.EditAdmin.Permission.SendPhotos": [
+  "Send Photos"
+ ],
+ "Channel.EditAdmin.Permission.SendVideos": [
+  "Send Videos"
+ ],
+ "Channel.EditAdmin.Permission.SendVoice": [
+  "Send Voice Messages"
+ ],
+ "Channel.EditAdmin.PermissionAnonymous": [
+  "Remain Anonymous"
+ ],
+ "Channel.EditAdmin.PermissionInviteMembers": [
+  "Add Members"
+ ],
+ "Channel.EditAdmin.PermissionInviteSubscribers": [
+  "Add Subscribers"
+ ],
+ "Channel.EditAdmin.PermissionInviteViaLink": [
+  "Invite Users via Link"
+ ],
+ "Channel.EditAdmin.PostStories": [
+  "Post Stories"
+ ],
+ "Channel.ErrorAddTooMuch": [
+  "Sorry, you can only add the first 200 members to a channel. Note that an unlimited number of people may join via the channel's link."
+ ],
+ "Channel.EventFilter.AdminsHeader": [
+  "ADMINS"
+ ],
+ "Channel.EventFilter.EventsHeader": [
+  "EVENTS"
+ ],
+ "Channel.EventLog.Alert.Header": [
+  "What is the event log?"
+ ],
+ "Channel.EventLog.Alert.Info": [
+  "This is a list of all notable actions by group members and admins in the last 48 hours."
+ ],
+ "Channel.EventLog.Empty": [
+  "Empty"
+ ],
+ "Channel.EventLog.EmptySearch": [
+  "**No actions found**No recent actions that match your query were found."
+ ],
+ "Channel.EventLog.EmptyText": [
+  "**No recent actions**No notable actions takenby the admins of this channelin the last 48 hours."
+ ],
+ "Channel.EventLog.MessageChangedBackgroundEmojiSet": [
+  "%1$@ set background emoji to %2$@"
+ ],
+ "Channel.EventLog.MessageChangedLinkedChannel": [
+  "%@ linked this group to %@"
+ ],
+ "Channel.EventLog.MessageChangedLinkedGroup": [
+  "%@ linked %@ as the discussion group"
+ ],
+ "Channel.EventLog.MessageChangedNameColorSet": [
+  "%1$@ set name color to %2$@"
+ ],
+ "Channel.EventLog.MessageChangedUnlinkedChannel": [
+  "%@ unlinked this group from %@"
+ ],
+ "Channel.EventLog.MessageChangedUnlinkedGroup": [
+  "%@ removed discussion group"
+ ],
+ "Channel.EventLog.MessageRankName": [
+  "changed custom title for %@: %@"
+ ],
+ "Channel.EventLog.MessageTransferedName": [
+  "transferred ownership to %@ %@"
+ ],
+ "Channel.EventLog.OriginalMessage": [
+  "Original message"
+ ],
+ "Channel.EventLog.Service.AboutRemoved": [
+  "%@ removed this channel's description:"
+ ],
+ "Channel.EventLog.Service.AboutUpdated": [
+  "%@ edited this channel's description:"
+ ],
+ "Channel.EventLog.Service.AntispamDisabled": [
+  "%@ disabled anti-spam"
+ ],
+ "Channel.EventLog.Service.AntispamEnabled": [
+  "%@ enabled anti-spam"
+ ],
+ "Channel.EventLog.Service.DisableSignatures": [
+  "%@ disabled channel signatures"
+ ],
+ "Channel.EventLog.Service.DisabledSlowMode": [
+  "%@ disabled slow mode"
+ ],
+ "Channel.EventLog.Service.EnableSignatures": [
+  "%@ enabled channel signatures"
+ ],
+ "Channel.EventLog.Service.LinkRemoved": [
+  "%@ removed channel link:"
+ ],
+ "Channel.EventLog.Service.LinkUpdated": [
+  "%@ edited this channel's link:"
+ ],
+ "Channel.EventLog.Service.PhotoRemoved": [
+  "%@ removed channel photo"
+ ],
+ "Channel.EventLog.Service.PhotoUpdated": [
+  "%@ updated this channel's photo"
+ ],
+ "Channel.EventLog.Service.SetSlowMode": [
+  "%@ set slow mode to %@"
+ ],
+ "Channel.EventLog.Service.TitleUpdated": [
+  "%@ changed the channel name:"
+ ],
+ "Channel.EventLog.Service.UpdateJoin": [
+  "%@ joined the channel"
+ ],
+ "Channel.EventLog.Service.UpdateLeft": [
+  "%@ left the channel"
+ ],
+ "Channel.EventLog.What": [
+  "What Is This?"
+ ],
+ "Channel.EventLogs.Filter.Title": [
+  "Chat Admins"
+ ],
+ "Channel.Exception.DisabledOption.Group": [
+  "This option is disabled for all members in the group permissions."
+ ],
+ "Channel.ExportLinkAboutChannel": [
+  "People can join your channel by following this link. You can revoke the link at any time."
+ ],
+ "Channel.ExportLinkAboutGroup": [
+  "People can join your group by following this link. You can revoke the link at any time."
+ ],
+ "Channel.Intro.CreateChannel": [
+  "Create Channel"
+ ],
+ "Channel.IntroDescription": [
+  "Channels are a one-to-many tool for broadcasting your messages to unlimited audiences."
+ ],
+ "Channel.IntroDescriptionHeader": [
+  "What is a Channel?"
+ ],
+ "Channel.NameHeader": [
+  "CHANNEL NAME"
+ ],
+ "Channel.NewChannel": [
+  "New Channel"
+ ],
+ "Channel.Permissions.SlowMode.Header": [
+  "SLOW MODE"
+ ],
+ "Channel.Permissions.SlowMode.Text.Off": [
+  "Choose how long each member must wait before sending their next message."
+ ],
+ "Channel.Permissions.SlowMode.Text.Selected": [
+  "Members will be able to send only one message every %@"
+ ],
+ "Channel.Permissions.SlowMode.Timeout.10s": [
+  "10s"
+ ],
+ "Channel.Permissions.SlowMode.Timeout.15m": [
+  "15m"
+ ],
+ "Channel.Permissions.SlowMode.Timeout.1h": [
+  "1h"
+ ],
+ "Channel.Permissions.SlowMode.Timeout.1m": [
+  "1m"
+ ],
+ "Channel.Permissions.SlowMode.Timeout.30s": [
+  "30s"
+ ],
+ "Channel.Permissions.SlowMode.Timeout.5m": [
+  "5m"
+ ],
+ "Channel.Permissions.SlowMode.Timeout.Off": [
+  "Off"
+ ],
+ "Channel.Persmission.Denied.SendGifs.DefaultRestrictedText": [
+  "Sending GIFs isn't allowed in this group."
+ ],
+ "Channel.Persmission.Denied.SendGifs.Forever": [
+  "The admins of this group have restricted your ability to send GIFs."
+ ],
+ "Channel.Persmission.Denied.SendGifs.Until": [
+  "The admins of this group have restricted your ability to send GIFs until %@."
+ ],
+ "Channel.Persmission.Denied.SendInline.DefaultRestrictedText": [
+  "Sending inline content isn't allowed in this group."
+ ],
+ "Channel.Persmission.Denied.SendInline.Forever": [
+  "The admins of this group have restricted your ability to send inline content."
+ ],
+ "Channel.Persmission.Denied.SendInline.Until": [
+  "The admins of this group have restricted your ability to send inline content until %@."
+ ],
+ "Channel.Persmission.Denied.SendInstantVideo.DefaultRestrictedText": [
+  "Sending video messages isn't allowed in this group."
+ ],
+ "Channel.Persmission.Denied.SendMedia.DefaultRestrictedText": [
+  "Sending media isn't allowed in this group."
+ ],
+ "Channel.Persmission.Denied.SendMedia.Forever": [
+  "The admins of this group have restricted your ability to send media."
+ ],
+ "Channel.Persmission.Denied.SendMedia.Until": [
+  "The admins of this group have restricted your ability to send media until %@."
+ ],
+ "Channel.Persmission.Denied.SendMessages.DefaultRestrictedText": [
+  "Sending messages is not allowed in this group."
+ ],
+ "Channel.Persmission.Denied.SendMessages.Forever": [
+  "The admins of this group have restricted your ability to send messages."
+ ],
+ "Channel.Persmission.Denied.SendMessages.Until": [
+  "The admins of this group have restricted you from messaging until %@."
+ ],
+ "Channel.Persmission.Denied.SendPoll.DefaultRestrictedText": [
+  "Posting polls isn't allowed in this group."
+ ],
+ "Channel.Persmission.Denied.SendPoll.Forever": [
+  "The admins of this group have restricted your ability to send polls."
+ ],
+ "Channel.Persmission.Denied.SendPoll.Until": [
+  "The admins of this group have restricted your ability to send polls until %@."
+ ],
+ "Channel.Persmission.Denied.SendStickers.DefaultRestrictedText": [
+  "Sending stickers isn't allowed in this group."
+ ],
+ "Channel.Persmission.Denied.SendStickers.Forever": [
+  "The admins of this group have restricted your ability to send stickers."
+ ],
+ "Channel.Persmission.Denied.SendStickers.Until": [
+  "The admins of this group have restricted your ability to send stickers until %@."
+ ],
+ "Channel.Persmission.Denied.SendVoice.DefaultRestrictedText": [
+  "Sending voice messages isn't allowed in this group."
+ ],
+ "Channel.Persmission.MessageBlock": [
+  "Text is not Allowed"
+ ],
+ "Channel.Private": [
+  "Private"
+ ],
+ "Channel.PrivateAboutChannel": [
+  "Private channels can only be joined via invite link."
+ ],
+ "Channel.PrivateAboutGroup": [
+  "Private groups can only be joined if you were invited or have an invite link."
+ ],
+ "Channel.Public": [
+  "Public"
+ ],
+ "Channel.PublicAboutChannel": [
+  "Public channels can be found in search, anyone can join them."
+ ],
+ "Channel.PublicAboutGroup": [
+  "Public groups can be found in search, their chat history is available to everyone and anyone can join."
+ ],
+ "Channel.PublicNamesLimitError": [
+  "You have reserved too many public links. Try revoking the link from an older group or channel, or create a private one instead."
+ ],
+ "Channel.RevokeLink": [
+  "Revoke Link"
+ ],
+ "Channel.RevokeLink.Confirm.Header": [
+  "Revoke Link"
+ ],
+ "Channel.RevokeLink.Confirm.OK": [
+  "Revoke"
+ ],
+ "Channel.RevokeLink.Confirm.Text": [
+  "Are you sure you want to revoke this link? Once this is done, nobody will be able to use it to join the group."
+ ],
+ "Channel.SelectPeers.Contacts": [
+  "contacts"
+ ],
+ "Channel.SelectPeers.Global": [
+  "global"
+ ],
+ "Channel.Stats.Loading": [
+  "**Preparing stats**Please wait a few moments whilewe generate your stats."
+ ],
+ "Channel.TransferOwner.Error.Enable2FA": [
+  "Enable Two-Step Verification"
+ ],
+ "Channel.TransferOwner.Error.Text": [
+  "You can only confirm this action if:• 2-Step verification is active and has been enabled for your account for more than **7 days**.• Your 2-Step Verification password has not been changed the last **7 days**.• You have been logged in on this device for more than **24 hours**."
+ ],
+ "Channel.TransferOwner.Error.Title": [
+  "Security Check"
+ ],
+ "Channel.TypeHeaderChannel": [
+  "CHANNEL TYPE"
+ ],
+ "Channel.TypeHeaderGroup": [
+  "GROUP TYPE"
+ ],
+ "Channel.UserRestriction": [
+  "USER RESTRICTIONS"
+ ],
+ "Channel.Username.UsernamePurchaseAvailable": [
+  "This link is already taken."
+ ],
+ "Channel.UsernameAboutChannel": [
+  "If you set a public link, other people will be able to find and join your channel.You can use a–z, 0–9 and underscores.Minimum length is 5 characters."
+ ],
+ "Channel.UsernameAboutGroup": [
+  "People can share this link with others and find your group using Telegram search."
+ ],
+ "ChannelAdmins.RecentActions": [
+  "Recent Actions"
+ ],
+ "ChannelBlacklist.AddMember": [
+  "Restrict Member"
+ ],
+ "ChannelBlacklist.Blocked": [
+  "BLOCKED"
+ ],
+ "ChannelBlacklist.EmptyDescrpition": [
+  "Banned users are removed from the group and can only come back if added by an admin. Invite links don't work for them."
+ ],
+ "ChannelBlacklist.Restricted": [
+  "RESTRICTED"
+ ],
+ "ChannelBoost.BoostChannel": [
+  "Boost Channel"
+ ],
+ "ChannelBoost.BoostedChannelMoreRequired": [
+  "%1$@ needed to be able to post %2$@."
+ ],
+ "ChannelBoost.EnableStoriesForChannel": [
+  "Enable Stories for This Channel"
+ ],
+ "ChannelBoost.Level": [
+  "Level %@"
+ ],
+ "ChannelBoost.MoreBoosts": [
+  "**%d** more boost",
+  "**%d** more boosts"
+ ],
+ "ChannelBoost.StoriesPerDay": [
+  "**%d** story per day",
+  "**%d** stories per day"
+ ],
+ "ChannelBoost.Table.CustomReactions": [
+  "%d Custom Reaction",
+  "%d Custom Reactions"
+ ],
+ "ChannelBoost.Table.CustomWallpaper": [
+  "Custom Channel Background"
+ ],
+ "ChannelBoost.Table.EmojiStatus": [
+  "1000+ Emoji Statuses"
+ ],
+ "ChannelBoost.Table.HeadersLogo": [
+  "Custom Logo for Links and Quotes"
+ ],
+ "ChannelBoost.Table.LevelUnlocks": [
+  "Level %d Unlock:",
+  "Level %d Unlocks:"
+ ],
+ "ChannelBoost.Table.NameColor": [
+  "%d Channel Name Color",
+  "%d Channel Name Colors"
+ ],
+ "ChannelBoost.Table.ProfileColor": [
+  "%d Color for Channel Cover",
+  "%d Color for Channel Covers"
+ ],
+ "ChannelBoost.Table.ProfileLogo": [
+  "Custom Logo for Channel Cover"
+ ],
+ "ChannelBoost.Table.StoriesPerDay": [
+  "%d Story Per Day",
+  "%d Stories Per Day"
+ ],
+ "ChannelBoost.Table.StyleForHeaders": [
+  "%d Style for Links and Quotes",
+  "%d Style for Links and Quotes"
+ ],
+ "ChannelBoost.Table.Wallpaper": [
+  "%d Channel Background",
+  "%d Channel Backgrounds"
+ ],
+ "ChannelEventFilter.ChannelInfo": [
+  "Channel Info"
+ ],
+ "ChannelEventFilter.DeletedMessages": [
+  "Deleted Messages"
+ ],
+ "ChannelEventFilter.EditedMessages": [
+  "Edited Messages"
+ ],
+ "ChannelEventFilter.GroupInfo": [
+  "Group Info"
+ ],
+ "ChannelEventFilter.Invites": [
+  "Invite Links"
+ ],
+ "ChannelEventFilter.LeavingMembers": [
+  "Members Leaving"
+ ],
+ "ChannelEventFilter.NewAdmins": [
+  "Admin Rights"
+ ],
+ "ChannelEventFilter.NewMembers": [
+  "New Members"
+ ],
+ "ChannelEventFilter.NewRestrictions": [
+  "New Restrictions"
+ ],
+ "ChannelEventFilter.PinnedMessages": [
+  "Pinned Messages"
+ ],
+ "ChannelEventFilter.SendMessages": [
+  "Send Messages"
+ ],
+ "ChannelEventFilter.VoiceChats": [
+  "Video Chats"
+ ],
+ "ChannelInfo.FakeWarning": [
+  "⚠️ Warning: Many users reported that this channel impersonates a famous person or organization."
+ ],
+ "ChannelInfo.ScamWarning": [
+  "⚠️ Warning: Many users reported this channel as a scam or a fake account. Please be careful, especially if it asks you for money."
+ ],
+ "ChannelMembers.AddMembers": [
+  "Add Members"
+ ],
+ "ChannelMembers.AddSubscribers": [
+  "Add Subscribers"
+ ],
+ "ChannelMembers.Contacts": [
+  "CONTACTS IN THIS CHANNEL"
+ ],
+ "ChannelMembers.Group.Contacts": [
+  "CONTACTS IN THIS GROUP"
+ ],
+ "ChannelMembers.Group.HideMembers": [
+  "Hide Members"
+ ],
+ "ChannelMembers.Group.HideMembers.Info": [
+  "Switch this on to hide the list of members in this group. Admins will remain visible."
+ ],
+ "ChannelMembers.Group.OtherMembers": [
+  "OTHER MEMBERS"
+ ],
+ "ChannelMembers.InviteLink": [
+  "Invite via Link"
+ ],
+ "ChannelMembers.MembersListDesc": [
+  "Only channel admins can see this list."
+ ],
+ "ChannelMembers.OtherMembers": [
+  "OTHER SUBSCRIBERS"
+ ],
+ "ChannelMembers.Select.Title": [
+  "Add Members"
+ ],
+ "ChannelReactions.Add": [
+  "Add Reactions"
+ ],
+ "ChannelReactions.Add.Info": [
+  "You can also [create your own]() emoji packs and use them."
+ ],
+ "ChannelReactions.EnableReactions": [
+  "Enable Reaction"
+ ],
+ "ChannelReactions.EnableReactions.Info": [
+  "You can add emoji from any emoji pack as reactions."
+ ],
+ "ChannelReactions.OK": [
+  "Update Reactions"
+ ],
+ "ChannelStats.Graph.Followers": [
+  "FOLLOWERS"
+ ],
+ "ChannelStats.Graph.Growth": [
+  "GROWTH"
+ ],
+ "ChannelStats.Graph.Interactions": [
+  "INTERACTIONS"
+ ],
+ "ChannelStats.Graph.Language": [
+  "LANGUAGES"
+ ],
+ "ChannelStats.Graph.NewFollowersBySource": [
+  "FOLLOWERS BY SOURCE"
+ ],
+ "ChannelStats.Graph.Notifications": [
+  "NOTIFICATIONS"
+ ],
+ "ChannelStats.Graph.ViewsByHours": [
+  "VIEWS BY HOURS (UTC)"
+ ],
+ "ChannelStats.Graph.ViewsBySource": [
+  "VIEWS BY SOURCE"
+ ],
+ "ChannelStats.Overview": [
+  "OVERVIEW"
+ ],
+ "ChannelStats.Overview.EnabledNotifications": [
+  "Enabled Notifications"
+ ],
+ "ChannelStats.Overview.Followers": [
+  "Followers"
+ ],
+ "ChannelStats.Overview.SharesPerPost": [
+  "Shares Per Post"
+ ],
+ "ChannelStats.Overview.ViewsPerPost": [
+  "Views Per Post"
+ ],
+ "ChannelStats.Recent.Header": [
+  "TOP RECENT POSTS"
+ ],
+ "ChannelStats.SharesCount": [
+  "%d shares",
+  "%d shares"
+ ],
+ "ChannelStats.SharesCount_countable": [
+  "%d"
+ ],
+ "ChannelStats.Title": [
+  "Channel Statistics"
+ ],
+ "ChannelStats.ViewsCount": [
+  "%d view",
+  "%d views"
+ ],
+ "ChannelStats.ViewsCount_countable": [
+  "%d"
+ ],
+ "ChannelVisibility.Checking": [
+  "Checking..."
+ ],
+ "ChannelVisibility.Confirm.Revoke": [
+  "Are you sure you want to make this channel private and remove its username?"
+ ],
+ "ChannelVisibility.Forwarding.ChannelInfo": [
+  "Subscribers will be able to copy, save and forward content from this channel."
+ ],
+ "ChannelVisibility.Forwarding.ChannelInfo1": [
+  "Subscribers will be able to copy, save or forward content from this channel."
+ ],
+ "ChannelVisibility.Forwarding.ChannelTitle": [
+  "Forwarding From This Channel"
+ ],
+ "ChannelVisibility.Forwarding.Disabled": [
+  "Restrict Saving Content"
+ ],
+ "ChannelVisibility.Forwarding.Enabled": [
+  "Allow Saving Content"
+ ],
+ "ChannelVisibility.Forwarding.GroupInfo": [
+  "Members will be able to copy, save and forward content from this group."
+ ],
+ "ChannelVisibility.Forwarding.GroupTitle": [
+  "Forwarding From This Group"
+ ],
+ "ChannelVisibility.Loading": [
+  "Loading..."
+ ],
+ "ChannelVisibiltiy.Context.Copy": [
+  "Copy"
+ ],
+ "ChannelVisibiltiy.Context.Revoke": [
+  "Revoke"
+ ],
+ "ChannelVisibiltiy.ManageLinks": [
+  "Manage Links"
+ ],
+ "ChannelVisibiltiy.PermanentLink": [
+  "PERMANENT LINK"
+ ],
+ "ChannelWallpaper.ChooseFromFile": [
+  "Choose from File"
+ ],
+ "ChannelWallpaper.NoWallpaper": [
+  "NoWallpaper"
+ ],
+ "ChannelWallpaper.RemoveWallpaper": [
+  "Remove Wallpaper"
+ ],
+ "ChannelWallpaper.Title": [
+  "Channel Wallpaper"
+ ],
+ "Chat.AdminBadge": [
+  "admin"
+ ],
+ "Chat.ChannelBadge": [
+  "channel"
+ ],
+ "Chat.Comments.Kicked": [
+  "You have been blocked from posting comments."
+ ],
+ "Chat.CommentsHeader.Empty": [
+  "No comments here yet..."
+ ],
+ "Chat.CommentsHeader.Full": [
+  "Discussion started"
+ ],
+ "Chat.Confirm.DeleteForEveryone": [
+  "Are you sure you want to delete this message for everyone?",
+  "Are you sure you want to delete these messages for everyone?"
+ ],
+ "Chat.Confirm.DeleteMessages": [
+  "Delete selected messages?"
+ ],
+ "Chat.Confirm.DeleteMessagesForEveryone": [
+  "Delete for Everyone"
+ ],
+ "Chat.Confirm.ReportSpam.Channel": [
+  "Report Spam and Leave Channel?"
+ ],
+ "Chat.Confirm.ReportSpam.Group": [
+  "Report Spam and Leave Group?"
+ ],
+ "Chat.Confirm.Unpin": [
+  "Would you like to unpin this message?"
+ ],
+ "Chat.Context.FavoriteGifs.Limit.Info": [
+  "An older GIF was replaced with this one. You can [increase the limit](premium) to %@ GIFs."
+ ],
+ "Chat.Context.FavoriteGifs.Limit.Title": [
+  "The Limit of Saved GIFs Reached"
+ ],
+ "Chat.Context.FavoriteStickers.Limit.Info": [
+  "An older sticker was replaced with this one. You can [increase the limit](premium) to %@ stickers."
+ ],
+ "Chat.Context.FavoriteStickers.Limit.Title": [
+  "Limit of Favorite Stickers Reached"
+ ],
+ "Chat.Context.Folders": [
+  "Folders"
+ ],
+ "Chat.Context.Gif.Added": [
+  "GIF Saved"
+ ],
+ "Chat.Context.Gif.Removed": [
+  "GIF Removed"
+ ],
+ "Chat.Context.HideAd": [
+  "Hide Ad"
+ ],
+ "Chat.Context.Info": [
+  "Info"
+ ],
+ "Chat.Context.Message.ContainsEmoji": [
+  "This message containsemoji from [%d pack]()",
+  "This message containsemoji from [%d packs]()"
+ ],
+ "Chat.Context.Pinned.Hide": [
+  "Hide pinned message"
+ ],
+ "Chat.Context.Restrict": [
+  "Restrict"
+ ],
+ "Chat.Context.Sticker.RemovedFromFavorites": [
+  "Sticker Removed from Favorites"
+ ],
+ "Chat.Context.Translate": [
+  "Translate"
+ ],
+ "Chat.Discussion.MessageDeleted": [
+  "Sorry, this post has been removed from the discussion group."
+ ],
+ "Chat.Empty.Comments": [
+  "No comments here yet"
+ ],
+ "Chat.Giveaway.Info.Ended": [
+  "On **%1$@**, Telegram automatically selected %2$@ of **%3$@**."
+ ],
+ "Chat.Giveaway.Info.EndedIntro": [
+  "The giveaway was sponsored by the admins of **%1$@**, who acquired %2$@ for %3$@ for its followers."
+ ],
+ "Chat.Giveaway.Info.EndedTitle": [
+  "Giveaway Ended"
+ ],
+ "Chat.Giveaway.Info.NotAllowedAdmin": [
+  "You are not eligible to participate in this giveaway because you are an admin of participating channel (**%@**)."
+ ],
+ "Chat.Giveaway.Info.Ongoing": [
+  "On **%1$@**, Telegram will automatically select %2$@ of **%3$@**."
+ ],
+ "Chat.Giveaway.Info.OngoingIntro": [
+  "The giveaway is sponsored by the admins of **%1$@**, who acquired %2$@ for %3$@ for its followers."
+ ],
+ "Chat.Giveaway.Info.Refunded": [
+  "The channel canceled the prizes by refunding the payment for them."
+ ],
+ "Chat.Giveaway.Info.Title": [
+  "About This Giveaway"
+ ],
+ "Chat.Giveaway.Message.DateTitle": [
+  "Winners Selection Date"
+ ],
+ "Chat.Giveaway.Message.Months": [
+  "**%d** month",
+  "**%d** months"
+ ],
+ "Chat.Giveaway.Message.Participants": [
+  "All subscribers of this channel:"
+ ],
+ "Chat.Giveaway.Message.PrizeTitle": [
+  "Giveaway Prizes"
+ ],
+ "Chat.Giveaway.Message.Subscriptions": [
+  "**%d** Telegram Premium Subscription",
+  "**%d** Telegram Premium Subscriptions"
+ ],
+ "Chat.Group.Unaccessible": [
+  "Sorry, this group is not accessible."
+ ],
+ "Chat.GroupCall.Join": [
+  "JOIN"
+ ],
+ "Chat.GroupCall.Live.Title": [
+  "Live Stream"
+ ],
+ "Chat.GroupCall.Members": [
+  "%d participant",
+  "%d participants"
+ ],
+ "Chat.GroupCall.Members_countable": [
+  "%d"
+ ],
+ "Chat.GroupCall.Scheduled.Status": [
+  "Starts %@"
+ ],
+ "Chat.GroupCall.Scheduled.Title": [
+  "Scheduled Video Chat"
+ ],
+ "Chat.GroupCall.Title": [
+  "Video Chat"
+ ],
+ "Chat.Header.PinnedMessage": [
+  "Pinned message"
+ ],
+ "Chat.Header.PinnedMessage_Numer": [
+  "Pinned message #%d"
+ ],
+ "Chat.Header.PinnedPrevious": [
+  "Previous message"
+ ],
+ "Chat.Header.RequestToJoin": [
+  "%d Join Request",
+  "%d Join Requests"
+ ],
+ "Chat.Header.VoiceChat.StartsIn": [
+  "Starts in %@"
+ ],
+ "Chat.Input.AutoDelete.7Days": [
+  "Messages in this chat are automatically deleted 1 week after they have been sent."
+ ],
+ "Chat.Input.Discuss": [
+  "Discuss"
+ ],
+ "Chat.Input.Error.MessageTooLong": [
+  "Your message is too long to be saved. Please remove %d character.",
+  "Your message is too long to be saved. Please remove %d characters."
+ ],
+ "Chat.Input.Join": [
+  "Join"
+ ],
+ "Chat.Input.Mute": [
+  "Mute"
+ ],
+ "Chat.Input.ReplyToAnswer": [
+  "Reply to message in topics"
+ ],
+ "Chat.Input.Return": [
+  "Return to the group"
+ ],
+ "Chat.Input.Unmute": [
+  "Unmute"
+ ],
+ "Chat.Message.Giveaway.LearnMore": [
+  "LEARN MORE"
+ ],
+ "Chat.Message.Imported": [
+  "%@ imported"
+ ],
+ "Chat.Message.Imported.Text": [
+  "This message was imported from another app. We can't guarantee it's real."
+ ],
+ "Chat.Message.OpenGiftLink": [
+  "Open Gift Link"
+ ],
+ "Chat.Message.ReadStats.EmptyViews": [
+  "Nobody Viewed"
+ ],
+ "Chat.Open.MessageNotExist": [
+  "Message doesn't exist"
+ ],
+ "Chat.OwnerBadge": [
+  "owner"
+ ],
+ "Chat.Pinned.UnpinAll": [
+  "Unpin %d Message",
+  "Unpin All %d Messages"
+ ],
+ "Chat.Poll.Stop": [
+  "Stop Poll"
+ ],
+ "Chat.Poll.Stop.Confirm.Header": [
+  "Stop Poll?"
+ ],
+ "Chat.Poll.Stop.Confirm.Text": [
+  "If you stop this poll now, nobody will be able to vote in it anymore. This action cannot be undone."
+ ],
+ "Chat.Poll.Tooltip.NoVotes": [
+  "no votes"
+ ],
+ "Chat.Poll.TotalVotes": [
+  "%d user voted",
+  "%d users voted"
+ ],
+ "Chat.Poll.TotalVotes1": [
+  "%d vote",
+  "%d votes"
+ ],
+ "Chat.Poll.TotalVotesEmpty": [
+  "No votes yet"
+ ],
+ "Chat.Poll.TotalVotesResultEmpty": [
+  "No votes"
+ ],
+ "Chat.Poll.Type.Anonymous": [
+  "Anonymous Poll"
+ ],
+ "Chat.Poll.Type.Closed": [
+  "Final Results"
+ ],
+ "Chat.Poll.Unvote": [
+  "Retract Vote"
+ ],
+ "Chat.Poll.ViewResults": [
+  "View Results"
+ ],
+ "Chat.ProxySponsored.AlertHeader": [
+  "Proxy Sponsor"
+ ],
+ "Chat.ProxySponsored.AlertSettings": [
+  "Settings"
+ ],
+ "Chat.ProxySponsored.AlertText": [
+  "This channel is shown by your proxy server. To remove this channel from your chat list, disable the proxy in Telegram Settings > Data and Storage."
+ ],
+ "Chat.Quiz.Stop": [
+  "Stop Quiz"
+ ],
+ "Chat.Quiz.Stop.Confirm.Header": [
+  "Stop Quiz?"
+ ],
+ "Chat.Quiz.Stop.Confirm.Text": [
+  "If you stop this quiz now, nobody will be able to answer in it anymore. This action cannot be undone."
+ ],
+ "Chat.Quiz.Tooltip.NoVotes": [
+  "no answers"
+ ],
+ "Chat.Quiz.TotalVotesEmpty": [
+  "No answers yet"
+ ],
+ "Chat.SearchFrom": [
+  "from:"
+ ],
+ "Chat.SendAs.Channel": [
+  "%d subscriber",
+  "%d subscribers"
+ ],
+ "Chat.SendAs.Channel_countable": [
+  "%d"
+ ],
+ "Chat.SendAs.Header": [
+  "SEND MESSAGE AS..."
+ ],
+ "Chat.SendAs.PersonalAccount": [
+  "personal account"
+ ],
+ "Chat.SendMessageErrorGroupRestricted": [
+  "Sorry, you are currently restricted from posting in this group."
+ ],
+ "Chat.SendMessageSlowmodeError": [
+  "Slow Mode is active."
+ ],
+ "Chat.SensitiveContent": [
+  "18+"
+ ],
+ "Chat.SensitiveContent.Confirm": [
+  "This media may contain sensitive content suitable only for adults. Do you still want to view it?"
+ ],
+ "Chat.SensitiveContent.Confirm.Ok": [
+  "View Anyway"
+ ],
+ "Chat.SensitiveContent.Confirm.Third": [
+  "Always show 18+ media"
+ ],
+ "Chat.Service.Channel.DisabledTimer": [
+  "Messages in this channel will no longer be automatically deleted"
+ ],
+ "Chat.Service.Channel.RemovedPhoto": [
+  "Channel photo removed"
+ ],
+ "Chat.Service.Channel.SetTimer": [
+  "Messages in this channel will be automatically deleted after %@"
+ ],
+ "Chat.Service.Channel.UpdatedPhoto": [
+  "Channel photo updated"
+ ],
+ "Chat.Service.Channel.UpdatedVideo": [
+  "Channel photo updated"
+ ],
+ "Chat.Service.DisabledTheme": [
+  "%1$@ disabled the chat theme"
+ ],
+ "Chat.Service.DisabledTheme.You": [
+  "You disabled the chat theme"
+ ],
+ "Chat.Service.GiveawayStarted": [
+  "%1$@ just started a giveaway of Telegram Premium subscriptions for its followers."
+ ],
+ "Chat.Service.Group.AddedMembers": [
+  "%@ added %@"
+ ],
+ "Chat.Service.Group.AddedMembers1": [
+  "%1$@ invited %2$@"
+ ],
+ "Chat.Service.Group.AddedSelf": [
+  "%@ joined the group"
+ ],
+ "Chat.Service.Group.Created": [
+  "%@ created the group \"%@\""
+ ],
+ "Chat.Service.Group.Created1": [
+  "%1$@ created the group \"%2$@\""
+ ],
+ "Chat.Service.Group.JoinedByLink": [
+  "%@ joined the group via invite link"
+ ],
+ "Chat.Service.Group.MigratedToSupergroup": [
+  "This group was upgraded to a supergroup"
+ ],
+ "Chat.Service.Group.RemovedMembers": [
+  "%@ removed %@"
+ ],
+ "Chat.Service.Group.RemovedMembers1": [
+  "%1$@ removed %2$@"
+ ],
+ "Chat.Service.Group.RemovedPhoto": [
+  "%@ removed group photo"
+ ],
+ "Chat.Service.Group.RemovedSelf": [
+  "%@ left the group"
+ ],
+ "Chat.Service.Group.TopicCreated": [
+  "The topic \"%2$@\" was created"
+ ],
+ "Chat.Service.Group.TopicEdited.Resumed": [
+  "%1$@ reopened the topic"
+ ],
+ "Chat.Service.Group.TopicEdited.You.Hided": [
+  "You hid the general topic"
+ ],
+ "Chat.Service.Group.TopicEdited.You.Icon": [
+  "You changed topic icon to %1$@"
+ ],
+ "Chat.Service.Group.TopicEdited.You.Icon.Removed": [
+  "You removed the icon"
+ ],
+ "Chat.Service.Group.TopicEdited.You.Mixed": [
+  "You changed topic icon to %1$@ and name to \"%2$@\""
+ ],
+ "Chat.Service.Group.TopicEdited.You.Paused": [
+  "You closed the topic"
+ ],
+ "Chat.Service.Group.TopicEdited.You.Resumed": [
+  "You reopened the topic"
+ ],
+ "Chat.Service.Group.TopicEdited.You.Title": [
+  "You changed topic name to \"%1$@\""
+ ],
+ "Chat.Service.Group.TopicEdited.You.Unhided": [
+  "You unhid the general topic"
+ ],
+ "Chat.Service.Group.UpdatedPhoto": [
+  "%@ updated group photo"
+ ],
+ "Chat.Service.Group.UpdatedPinnedMessage": [
+  "%@ pinned \"%@\""
+ ],
+ "Chat.Service.Group.UpdatedPinnedMessage1": [
+  "%1$@ pinned \"%2$@\""
+ ],
+ "Chat.Service.Group.UpdatedTitle1": [
+  "%1$@ changed the group name to \"%2$@\""
+ ],
+ "Chat.Service.SearchAllMessages": [
+  "Search messages by %@"
+ ],
+ "Chat.Service.UpdateTheme": [
+  "%1$@ changed the chat theme to %2$@"
+ ],
+ "Chat.Service.UpdateTheme.You": [
+  "You changed the chat theme to %@"
+ ],
+ "Chat.Service.VoiceChatFinished": [
+  "%1$@ ended the video chat (%2$@)"
+ ],
+ "Chat.Service.VoiceChatFinished.Channel": [
+  "Live Stream ended (%1$@)"
+ ],
+ "Chat.Service.VoiceChatFinished.Channel1": [
+  "Live stream ended (%1$@)"
+ ],
+ "Chat.Service.VoiceChatFinishedYou": [
+  "You ended the video chat (%@)"
+ ],
+ "Chat.Service.VoiceChatInvitation": [
+  "%1$@ invited %2$@ to the [video chat](open)"
+ ],
+ "Chat.Service.VoiceChatInvitationByYou": [
+  "You invited %1$@ to the [video chat](open)"
+ ],
+ "Chat.Service.VoiceChatInvitationForYou": [
+  "%1$@ invited you to the [video chat](open)"
+ ],
+ "Chat.Service.VoiceChatScheduled": [
+  "%1$@ scheduled a [video chat](open) for %2$@"
+ ],
+ "Chat.Service.VoiceChatScheduled.Channel": [
+  "[Video Chat](open) scheduled for %@"
+ ],
+ "Chat.Service.VoiceChatScheduled.Channel1": [
+  "[Live Stream](open) scheduled for %@"
+ ],
+ "Chat.Service.VoiceChatScheduledYou": [
+  "You scheduled a [video chat](open) for %1$@"
+ ],
+ "Chat.Service.VoiceChatStarted": [
+  "%1$@ started a [video chat](open)"
+ ],
+ "Chat.Service.VoiceChatStarted.Channel": [
+  "[Live Stream](open) started"
+ ],
+ "Chat.Service.VoiceChatStarted.Channel1": [
+  "[Live stream](open) started"
+ ],
+ "Chat.Service.VoiceChatStartedYou": [
+  "You started a [video chat](open)"
+ ],
+ "Chat.Title.Comments": [
+  "%d Comment",
+  "%d Comments"
+ ],
+ "Chat.Title.Comments_countable": [
+  "%d"
+ ],
+ "Chat.Title.Discussion": [
+  "Discussion"
+ ],
+ "Chat.Title.PinnedMessages": [
+  "%d Pinned Message",
+  "%d Pinned Messages"
+ ],
+ "Chat.Title.Replies": [
+  "%d Reply",
+  "%d Replies"
+ ],
+ "Chat.Title.Replies_countable": [
+  "%d"
+ ],
+ "Chat.Title.Topic": [
+  "%d Message",
+  "%d Messages"
+ ],
+ "Chat.Title.Topic_countable": [
+  "%d"
+ ],
+ "Chat.Translate.Menu.Hide.Channel.Tooltip": [
+  "Translation bar is now hidden for this channel. You can enable it in profile."
+ ],
+ "Chat.Translate.Menu.Hide.Group.Tooltip": [
+  "Translation bar hidden.You can re-enable it in group info."
+ ],
+ "Chat.UnpinAllMessagesConfirmation": [
+  "Do you want to unpin %d message in this chat?",
+  "Do you want to unpin all %d messages in this chat?"
+ ],
+ "Chat.VoiceChat.JoinLink.OK": [
+  "Join"
+ ],
+ "Chat.VoiceChat.JoinLink.Participants": [
+  "%d participant",
+  "%d participants"
+ ],
+ "Chat.VoiceChat.JoinLink.Participants_countable": [
+  "%d"
+ ],
+ "Chat.VoiceChat.JoinLink.Title": [
+  "Video Chat"
+ ],
+ "Chat.VoiceChat.JoinLink.Unavailable": [
+  "Video Chat no longer available"
+ ],
+ "ChatEmpty.Topic": [
+  "Send a message to start the topic."
+ ],
+ "ChatGift.Info.Normal": [
+  "You've received a gift from **%1$@**.Your gift is a **Telegram Premium** subscription for **%2$@** months."
+ ],
+ "ChatGift.Title.Claimed": [
+  "**Congratulations!**"
+ ],
+ "ChatHeader.RestartTopic": [
+  "Reopen Topic"
+ ],
+ "ChatList.Context.HideGeneral": [
+  "Hide"
+ ],
+ "ChatList.Context.PinError.Topics": [
+  "Sorry, you can only pin %d topics to the top. Unpin some that are currently pinned.",
+  "Sorry, you can only pin %d topics to the top. Unpin some that are currently pinned."
+ ],
+ "ChatList.Context.Start": [
+  "Reopen"
+ ],
+ "ChatList.Service.VoiceChatScheduled": [
+  "%1$@ scheduled a video chat for %2$@"
+ ],
+ "ChatList.Service.VoiceChatScheduled.Channel": [
+  "Video chat scheduled for %@"
+ ],
+ "ChatList.Service.VoiceChatScheduledYou": [
+  "You scheduled a video chat for %2$@"
+ ],
+ "ChatList.Service.VoiceChatStarted.Channel": [
+  "Video chat started"
+ ],
+ "ChatList.Service.VoiceChatStartedYou": [
+  "You started a video chat"
+ ],
+ "ChatList.SponsoredChannel": [
+  "Proxy Sponsor"
+ ],
+ "ChatMessage.Sponsored.About": [
+  "About This Ad"
+ ],
+ "ChatMessage.Sponsored.Report": [
+  "Report Ad"
+ ],
+ "ChatMessage.Sponsored.Report.LearnMore": [
+  "Learn more about [Telegram Ad Policies and Guidelines](https://ads.telegram.org/guidelines)."
+ ],
+ "ChatMessage.Sponsored.Title": [
+  "Ad"
+ ],
+ "ChatMessage.Tooltip.Views": [
+  "views"
+ ],
+ "ChatReaction.Undo": [
+  "Undo"
+ ],
+ "ChatReaction.Undo.Reacted": [
+  "You have reacted with %d star.",
+  "You have reacted with %d stars."
+ ],
+ "ChatReaction.Undo.StarsSent": [
+  "Stars Sent!"
+ ],
+ "ChatService.ChannelCreated": [
+  "Channel created"
+ ],
+ "ChatService.JoinedGroupByRequest": [
+  "Your request to join the group was approved"
+ ],
+ "Compose.Create": [
+  "Create"
+ ],
+ "Compose.CreateGroup.LimitError": [
+  "You will be able to add more members after you create the group."
+ ],
+ "Compose.Next": [
+  "Next"
+ ],
+ "Compose.SelectGroupUsers.Placeholder": [
+  "Who would you like to add?"
+ ],
+ "Compose.SelectUsers": [
+  "Select users"
+ ],
+ "Confirm.Delete": [
+  "Delete"
+ ],
+ "Confirm.DeleteAdminedChannel": [
+  "Deleting this channel will remove all subscribers and all posts will be lost. Delete the channel anyway?"
+ ],
+ "Confirm.LeaveGroup": [
+  "Are you sure you want to leave this group?"
+ ],
+ "Context.Alert.Copied": [
+  "Copied to Clipboard"
+ ],
+ "ConvertToSuperGroup.Confirm": [
+  "Are you sure? This action cannot be undone."
+ ],
+ "ConvertToSupergroup.Alert.Error": [
+  "Something went wrong, sorry. Please try again later."
+ ],
+ "CreateGroup.AddMember.Error": [
+  "You can't create a group without members."
+ ],
+ "CreateGroup.NameHolder": [
+  "Group Name"
+ ],
+ "CustomReaction.PremiumAlert": [
+  "Subscribe to Telegram Premium to unlock this reaction. [Read More]()"
+ ],
+ "Discussion.Set.Modal.OK": [
+  "Link Group"
+ ],
+ "Discussion.Set.Modal.Text.ChannelPrivateGroup": [
+  "Do you want to make **%@** the discussion board for **%@**?Any member of this group will be able to see messages in the channel."
+ ],
+ "Discussion.Set.Modal.Text.PrivateChannelPublicGroup": [
+  "Do you want to make **%@** the discussion board for **%@**?Any member of this group will be able to see all messages in the channel."
+ ],
+ "Discussion.Set.Modal.Text.Public": [
+  "Make **%@** the discussion board for **%@**?"
+ ],
+ "Discussion.Set.Modal.Text.PublicChannelPublicGroup": [
+  "Do you want to make **%@** the discussion board for **%@**?"
+ ],
+ "DiscussionController.Channel.Empty.CreateGroup": [
+  "Create a New Group"
+ ],
+ "DiscussionController.Channel.Empty.Description": [
+  "Everything you post in the channel will be forwarded to this group."
+ ],
+ "DiscussionController.Channel.Empty.Header": [
+  "Select a group chat for discussion that will be displayed in your channel."
+ ],
+ "DiscussionController.Channel.Empty.Header1": [
+  "Select a group chat that will host comments from your channel."
+ ],
+ "DiscussionController.Channel.Set.Description": [
+  "Everything you post in the channel will be forwarded to this group."
+ ],
+ "DiscussionController.Channel.Set.Header": [
+  "A link to **%@** is shown to all subscribers in the bottom panel."
+ ],
+ "DiscussionController.Channel.Set.Header1": [
+  "**%@** is selected as the group that hosts comments for your channel."
+ ],
+ "DiscussionController.Channel.Set.UnlinkGroup": [
+  "Unlink Group"
+ ],
+ "DiscussionController.Channel.Title": [
+  "Discussion Group"
+ ],
+ "DiscussionController.Confrim.UnlinkChannel": [
+  "Are you sure you want to unlink the channel from this group?"
+ ],
+ "DiscussionController.Confrim.UnlinkGroup": [
+  "Are you sure you want to unlink the group from this channel?"
+ ],
+ "DiscussionController.Error.OK": [
+  "Proceed"
+ ],
+ "DiscussionController.Error.PreHistory": [
+  "Warning: If you set this private group as the discussion group for your channel, all channel subscribers will be able to access the group. \"Chat history for new members\" will be switched to Visible"
+ ],
+ "DiscussionController.Group.Set.Description": [
+  "All new messages posted in this channel are forwarded to this group."
+ ],
+ "DiscussionController.Group.Set.Header": [
+  "This group is linked as the discussion board for %@."
+ ],
+ "DiscussionController.Group.Set.UnlinkChannel": [
+  "Unlink Channel"
+ ],
+ "DiscussionController.Group.Title": [
+  "Linked Channel"
+ ],
+ "DiscussionController.IconText": [
+  "Discuss"
+ ],
+ "DiscussionController.PrivateChannel": [
+  "private channel"
+ ],
+ "DiscussionController.PrivateGroup": [
+  "private group"
+ ],
+ "DisplayMeAs.Alone": [
+  "You will be displayed as your personal account."
+ ],
+ "DisplayMeAs.Alone.Desc": [
+  "You can also create a public channel to participate in video chats as a channel."
+ ],
+ "DisplayMeAs.ContinueAs": [
+  "Continue as %@"
+ ],
+ "DisplayMeAs.Modern.Schedule": [
+  "Schedule Video Chat"
+ ],
+ "DisplayMeAs.Modern.Start": [
+  "Start Video Chat"
+ ],
+ "DisplayMeAs.New.ScheduleAs": [
+  "Schedule Video Chat as %@"
+ ],
+ "DisplayMeAs.PersonalAccount": [
+  "personal account"
+ ],
+ "DisplayMeAs.Scheduled.Desc": [
+  "Subscribers of the channel will be notified that the live stream starts in %@."
+ ],
+ "DisplayMeAs.StartWith": [
+  "Start With..."
+ ],
+ "DisplayMeAs.Text": [
+  "Choose whether you want to be displayed as your personal account or as your channel."
+ ],
+ "DisplayMeAs.Title": [
+  "Display Me As"
+ ],
+ "EditInvitation.EditTitle": [
+  "Edit Link"
+ ],
+ "EditInvitation.EnterNumber": [
+  "Enter Number"
+ ],
+ "EditInvitation.ExpiryDate": [
+  "Expiry Date"
+ ],
+ "EditInvitation.ExpiryDesc": [
+  "You can make the link expire after a certain time."
+ ],
+ "EditInvitation.LimitDesc": [
+  "You can make the link work only for a certain number of users."
+ ],
+ "EditInvitation.LimitedByCount": [
+  "LIMIT BY NUMBER OF USERS"
+ ],
+ "EditInvitation.LimitedByPeriod": [
+  "LIMIT BY TIME PERIOD"
+ ],
+ "EditInvitation.Never": [
+  "Never"
+ ],
+ "EditInvitation.NewTitle": [
+  "New Link"
+ ],
+ "EditInvitation.NumberOfUsers": [
+  "Number of Users"
+ ],
+ "EditInvitation.OK.Create": [
+  "Create"
+ ],
+ "EditInvitation.OK.Save": [
+  "Save"
+ ],
+ "EditInvitation.RequestApproval": [
+  "Request Admin Approval"
+ ],
+ "EditInvitation.RequestApproval.Channel.Off": [
+  "Turn this on if you want users to join only after they are approved by an admin."
+ ],
+ "EditInvitation.TitleDesc": [
+  "Only admins will see this name."
+ ],
+ "EditInvitation.TitlePlaceholder": [
+  "Link Name (Optional)"
+ ],
+ "EditInvitation.Unlimited": [
+  "Unlimited"
+ ],
+ "Emoji.Context.SetStatus.Success": [
+  "Your emoji status has been updated."
+ ],
+ "EmojiPack.Added": [
+  "ADDED"
+ ],
+ "EmojiPack.Sets.Add": [
+  "Add %d Emoji Pack",
+  "Add %d Emoji Pack"
+ ],
+ "EmptyGroupInfo.Line1": [
+  "• Up to %@ members"
+ ],
+ "EmptyGroupInfo.Line2": [
+  "• Persistent chat history"
+ ],
+ "EmptyGroupInfo.Line3": [
+  "• Public links such as t.me/title"
+ ],
+ "EmptyGroupInfo.Line4": [
+  "• Admins with different rights"
+ ],
+ "EmptyGroupInfo.Subtitle": [
+  "Groups can have:"
+ ],
+ "EmptyGroupInfo.Title": [
+  "You created a group"
+ ],
+ "EventLog.Service.Banned": [
+  "Banned %@ %@"
+ ],
+ "EventLog.Service.ChangedDefaultsRights": [
+  "changed default permissions"
+ ],
+ "EventLog.Service.ChangedStickerSet": [
+  "%@ changed group sticker set"
+ ],
+ "EventLog.Service.DeletedMessage": [
+  "%@ deleted message:"
+ ],
+ "EventLog.Service.Demote.AddMembers": [
+  "Add Members"
+ ],
+ "EventLog.Service.Demote.ChangeInfo": [
+  "Change Info"
+ ],
+ "EventLog.Service.Demote.EmbedLinks": [
+  "Embed Links"
+ ],
+ "EventLog.Service.Demote.PinMessages": [
+  "Pin Messages"
+ ],
+ "EventLog.Service.Demote.PostPolls": [
+  "Post Polls"
+ ],
+ "EventLog.Service.Demote.SendGifs": [
+  "Send GIFs"
+ ],
+ "EventLog.Service.Demote.SendInline": [
+  "Send Inline"
+ ],
+ "EventLog.Service.Demote.SendMedia": [
+  "Send Media"
+ ],
+ "EventLog.Service.Demote.SendMessages": [
+  "Send Messages"
+ ],
+ "EventLog.Service.Demote.SendStickers": [
+  "Send Stickers"
+ ],
+ "EventLog.Service.Demoted": [
+  "restricted %@ %@ indefinitely"
+ ],
+ "EventLog.Service.Demoted.Changed": [
+  "changed the restrictions for %@ %@ indefinitely"
+ ],
+ "EventLog.Service.Demoted.Changed.Until": [
+  "changed restrictions for %@ %@ until %@"
+ ],
+ "EventLog.Service.Demoted.Until": [
+  "restricted %@ %@ until %@"
+ ],
+ "EventLog.Service.EditedCaption": [
+  "%@ edited caption:"
+ ],
+ "EventLog.Service.EditedMedia": [
+  "%@ edited media:"
+ ],
+ "EventLog.Service.EditedMessage": [
+  "%@ edited message:"
+ ],
+ "EventLog.Service.PreviousDesc": [
+  "Previous Description"
+ ],
+ "EventLog.Service.PreviousLink": [
+  "Previous Link"
+ ],
+ "EventLog.Service.PreviousTitle": [
+  "Previous Title"
+ ],
+ "EventLog.Service.Promote.AddNewAdmins": [
+  "Add New Admins"
+ ],
+ "EventLog.Service.Promote.AddUsers": [
+  "Add Users"
+ ],
+ "EventLog.Service.Promote.BanUsers": [
+  "Ban Users"
+ ],
+ "EventLog.Service.Promote.ChangeInfo": [
+  "Change Info"
+ ],
+ "EventLog.Service.Promote.DeleteMessages": [
+  "Delete Messages"
+ ],
+ "EventLog.Service.Promote.EditMessages": [
+  "Edit Messages"
+ ],
+ "EventLog.Service.Promote.InviteViaLink": [
+  "Invite Users Via Link"
+ ],
+ "EventLog.Service.Promote.PinMessages": [
+  "Pin Messages"
+ ],
+ "EventLog.Service.Promote.PostMessages": [
+  "Post Messages"
+ ],
+ "EventLog.Service.Promote.RemainAnonymous": [
+  "Remain Anonymous"
+ ],
+ "EventLog.Service.Promoted": [
+  "promoted %@ %@:"
+ ],
+ "EventLog.Service.Promoted.Changed": [
+  "changed privileges for %@ %@:"
+ ],
+ "EventLog.Service.RemovePinned": [
+  "%@ unpinned message"
+ ],
+ "EventLog.Service.RemovedStickerSet": [
+  "%@ removed group sticker set"
+ ],
+ "EventLog.Service.UpdatePinned": [
+  "%@ pinned message:"
+ ],
+ "ExportedInvitation.Context.Copy": [
+  "Copy"
+ ],
+ "ExportedInvitation.Done": [
+  "Done"
+ ],
+ "ExportedInvitation.LinkCreatedBy": [
+  "LINK CREATED BY"
+ ],
+ "ExportedInvitation.PeopleJoined": [
+  "%d PERSON JOINED",
+  "%d PEOPLE JOINED"
+ ],
+ "ExportedInvitation.PeopleRequested": [
+  "%d JOIN REQUEST",
+  "%d JOIN REQUESTS"
+ ],
+ "ExportedInvitation.Status.Expired": [
+  "expired"
+ ],
+ "ExportedInvitation.Status.Revoked": [
+  "revoked"
+ ],
+ "ExportedInvitation.Title": [
+  "Invite Link"
+ ],
+ "ForumTopic.Context.New": [
+  "Create Topic"
+ ],
+ "ForumTopic.Context.ShowAsMessages": [
+  "View as Messages"
+ ],
+ "ForumTopic.Edit.General.Info": [
+  "If the 'General' topic is hidden, group members can pull down in the topic list to view it."
+ ],
+ "ForumTopic.Edit.General.Show": [
+  "Show in Topics"
+ ],
+ "ForumTopic.Edit.TopicIcon": [
+  "TOPIC ICON"
+ ],
+ "ForumTopic.Edit.TopicName": [
+  "TOPIC NAME"
+ ],
+ "ForumTopic.Name.Placeholder": [
+  "Topic Name"
+ ],
+ "ForumTopic.Title.Create": [
+  "New Topic"
+ ],
+ "ForumTopic.Title.Edit": [
+  "Edit Topic"
+ ],
+ "Fragment.AdsInfo.Block.Text": [
+  "Anyone can post ads on Telegram — with minimal budgets. Check out the Telegram Ad Platform for details. [Learn More >](https://ads.telegram.org)"
+ ],
+ "Fragment.AdsInfo.Block.Title": [
+  "Can I Launch an Ad?"
+ ],
+ "Fragment.AdsInfo.OK": [
+  "Understood"
+ ],
+ "Fragment.AdsInfo.Option1.Info": [
+  "We don't use the contents of your private chats or contacts lists for ad targeting or other commercial purposes. "
+ ],
+ "Fragment.AdsInfo.Option2.Info": [
+  "50% of the revenue from Telegram Ads goes to the owner of the channel where they are displayed."
+ ],
+ "Fragment.AdsInfo.Option2.Title": [
+  "Help the Channel Creator"
+ ],
+ "Fragment.AdsInfo.Option3.Info": [
+  "You can turn off ads by subscribing to Telegram Premium, and Level 50 channels can remove them for their subscribers."
+ ],
+ "Fragment.AdsInfo.Option3.Title": [
+  "Can Be Removed"
+ ],
+ "Fragment.AdsInfo.Text": [
+  "Telegram Ads are very different from ads on other platforms. Ads such as this one:"
+ ],
+ "Fragment.AdsInfo.Title": [
+  "About These Ads"
+ ],
+ "Giveaway.AdditionalPrize": [
+  "**%1$@** also included **%2$@** in the prizes. Admins of the channel are responsible for delivering these prizes."
+ ],
+ "Giveaway.Booster.Reason.Gift": [
+  "🎁 Gift"
+ ],
+ "Giveaway.Booster.Reason.Giveaway": [
+  "🏆 Giveaway"
+ ],
+ "Giveaway.with": [
+  "with"
+ ],
+ "Graph.ZoomOut": [
+  "Zoom Out"
+ ],
+ "Group.CreateGroup": [
+  "New Group"
+ ],
+ "Group.EditAdmin.Permission.ChangeInfo": [
+  "Change Group Info"
+ ],
+ "Group.EventLog.EmptyText": [
+  "**No events here yet**No notable actions taken by the members and admins of this group in the last 48 hours."
+ ],
+ "Group.EventLog.Service.AboutRemoved": [
+  "%@ removed the group description:"
+ ],
+ "Group.EventLog.Service.AboutUpdated": [
+  "%@ edited the group description:"
+ ],
+ "Group.EventLog.Service.DisableInvites": [
+  "%@ disabled group invites"
+ ],
+ "Group.EventLog.Service.EnableInvites": [
+  "%@ enabled group invites"
+ ],
+ "Group.EventLog.Service.LinkRemoved": [
+  "%@ removed the group link:"
+ ],
+ "Group.EventLog.Service.LinkUpdated": [
+  "%@ changed the group link:"
+ ],
+ "Group.EventLog.Service.PhotoRemoved": [
+  "%@ removed group photo"
+ ],
+ "Group.EventLog.Service.PhotoUpdated": [
+  "%@ updated the group photo"
+ ],
+ "Group.EventLog.Service.TitleUpdated": [
+  "%@ changed the group name"
+ ],
+ "Group.EventLog.Service.UpdateJoin": [
+  "%@ joined the group"
+ ],
+ "Group.EventLog.Service.UpdateLeft": [
+  "%@ left the group"
+ ],
+ "Group.NewGroup": [
+  "New Group"
+ ],
+ "Group.Unavailable": [
+  "Sorry, this group doesn't seem to exist."
+ ],
+ "GroupAdmins.AllMembersAdmins": [
+  "All Members Are Admins"
+ ],
+ "GroupAdmins.Desc.AdminInvites": [
+  "Only admins can add and remove members, pin messages or edit group details."
+ ],
+ "GroupAdmins.Desc.AllInvites": [
+  "Group members can add new members, and can edit the name or photo of the group."
+ ],
+ "GroupInfo.Administrators": [
+  "Administrators"
+ ],
+ "GroupInfo.Permissions.AddException": [
+  "Add Exception"
+ ],
+ "GroupInfo.Permissions.Exceptions": [
+  "EXCEPTIONS"
+ ],
+ "GroupInfo.Permissions.Removed": [
+  "Removed Users"
+ ],
+ "GroupInfo.Permissions.SectionTitle": [
+  "WHAT CAN MEMBERS OF THIS GROUP DO?"
+ ],
+ "GroupInfo.ScamWarning": [
+  "⚠️ Warning: Many users reported this group as a scam or a fake account. Please be careful, especially if it asks you for money."
+ ],
+ "GroupInvation.ChannelDescription": [
+  "Anyone who has Telegram installed will be able to join your channel by following this link"
+ ],
+ "GroupInvation.CopyLink": [
+  "Copy Link"
+ ],
+ "GroupInvation.GroupDescription": [
+  "Anyone who has Telegram installed will be able to join your group by opening this link."
+ ],
+ "GroupInvation.Revoke": [
+  "Revoke"
+ ],
+ "GroupInvation.Share": [
+  "Share Link"
+ ],
+ "GroupPermission.AddedInfo": [
+  "Exception added by %@ %@"
+ ],
+ "GroupPermission.Delete": [
+  "Delete Exception"
+ ],
+ "GroupPermission.Duration": [
+  "Duration"
+ ],
+ "GroupPermission.NoAddMembers": [
+  "no add"
+ ],
+ "GroupPermission.NoChangeInfo": [
+  "no info"
+ ],
+ "GroupPermission.NoFiles": [
+  "no files"
+ ],
+ "GroupPermission.NoMusic": [
+  "no music"
+ ],
+ "GroupPermission.NoPhotos": [
+  "no photos"
+ ],
+ "GroupPermission.NoSendGifs": [
+  "no GIFs"
+ ],
+ "GroupPermission.NoSendLinks": [
+  "no links"
+ ],
+ "GroupPermission.NoSendMedia": [
+  "no media"
+ ],
+ "GroupPermission.NoSendMessages": [
+  "no messages"
+ ],
+ "GroupPermission.NoSendPolls": [
+  "no polls"
+ ],
+ "GroupPermission.NoVideoMessages": [
+  "no video messages"
+ ],
+ "GroupPermission.NoVideos": [
+  "no videos"
+ ],
+ "GroupPermission.NoVoiceMessages": [
+  "no voice messages"
+ ],
+ "GroupPermission.NotAvailableInPublicGroups": [
+  "This permission is not available in public groups."
+ ],
+ "GroupPermission.SectionTitle": [
+  "WHAT CAN THIS MEMBER DO?"
+ ],
+ "GroupStats.Title": [
+  "Group Statistics"
+ ],
+ "GroupStickers.ChooseHeader": [
+  "CHOOSE FROM YOUR STICKERS"
+ ],
+ "GroupStickers.CreateDescription": [
+  "You can create your own custom sticker set using the @stickers bot."
+ ],
+ "GroupStickers.EmptyDesc": [
+  "Try again or choose from the list below"
+ ],
+ "GroupStickers.EmptyHeader": [
+  "No such sticker set found"
+ ],
+ "InactiveChannels.BlockHeader": [
+  "Too Many Groups and Channels"
+ ],
+ "InactiveChannels.Header": [
+  "LEAST ACTIVE"
+ ],
+ "InactiveChannels.InactiveYear": [
+  "inactive for %d year",
+  "inactive for %d years"
+ ],
+ "InactiveChannels.Title": [
+  "Limit Reached"
+ ],
+ "InputAttach.Popover.File": [
+  "File"
+ ],
+ "InputAttach.Popover.Location": [
+  "Location"
+ ],
+ "InputAttach.Popover.PhotoOrVideo": [
+  "Photo Or Video"
+ ],
+ "InputAttach.Popover.Picture": [
+  "Camera"
+ ],
+ "InputAttach.Popover.Poll": [
+  "Poll"
+ ],
+ "InputPasswordController.Error.WrongPassword": [
+  "Invalid password. Please try again"
+ ],
+ "InputPasswordController.Placeholder": [
+  "Password"
+ ],
+ "InviteFailed.OK": [
+  "Send Invite Link"
+ ],
+ "InviteFailed.Text.Cant.Multiple": [
+  "%d user can only be invited via link, but you don't have permission to share invite links to this group.",
+  "%d users can only be invited via link, but you don't have permission to share invite links to this group."
+ ],
+ "InviteFailed.Text.Cant.Multiple_countable": [
+  "%d"
+ ],
+ "InviteFailed.Text.Cant.Single": [
+  "%@ can only be invited via link, but you don't have permission to share invite links to this group."
+ ],
+ "InviteFailed.Text.Multiple": [
+  "%d user restricts adding them to groups. You can send them an invite link as message instead.",
+  "%d users restrict adding them to groups. You can send them an invite link as message instead."
+ ],
+ "InviteFailed.Text.Multiple_countable": [
+  "%d"
+ ],
+ "InviteFailed.Text.Single": [
+  "%@ restricts adding them to groups. You can send them an invite link as message instead."
+ ],
+ "InviteFailed.Title": [
+  "Invite Via Link"
+ ],
+ "InviteLink.CanJoin": [
+  "%d can join",
+  "%d can join"
+ ],
+ "InviteLink.CanJoin_countable": [
+  "%d"
+ ],
+ "InviteLink.EmptyJoinDesc": [
+  "%d person can join via this link",
+  "%d people can join via this link"
+ ],
+ "InviteLink.EmptyJoinDesc_countable": [
+  "%d"
+ ],
+ "InviteLink.Joined": [
+  "%d joined",
+  "%d joined"
+ ],
+ "InviteLink.JoinedNew_ZeroValueHolder": [
+  "nobody joined yet"
+ ],
+ "InviteLink.JoinedRevoked": [
+  "no one joined"
+ ],
+ "InviteLink.Joined_countable": [
+  "%d"
+ ],
+ "InviteLink.Remaining": [
+  "• %d remaining",
+  "• %d remaining"
+ ],
+ "InviteLink.Remaining_countable": [
+  "%d"
+ ],
+ "InviteLink.Requested": [
+  "%d request",
+  "%d requests"
+ ],
+ "InviteLink.Sticker.Expired": [
+  " • expired"
+ ],
+ "InviteLink.Sticker.Revoked": [
+  "• revoked"
+ ],
+ "InviteLink.Sticker.TimeLeft": [
+  "expires in %@"
+ ],
+ "JoinLink.Join": [
+  "Join"
+ ],
+ "LinkInvation.Channel.Confirm.Revoke": [
+  "Are you sure you want to revoke this link? Once you do, no one will be able to join the channel using it."
+ ],
+ "LinkInvation.Confirm.Ok": [
+  "Revoke"
+ ],
+ "LinkInvation.Group.Confirm.Revoke": [
+  "Are you sure you want to revoke this link? Once the link is revoked, no one will be able to join using it."
+ ],
+ "ManageLinks.AdditionLinks": [
+  "ADDITIONAL LINKS"
+ ],
+ "ManageLinks.Admin.Permanent.Desc": [
+  "**%1$@** can see this link and use it to invite new members to **%2$@**."
+ ],
+ "ManageLinks.Context.Copy": [
+  "Copy Link"
+ ],
+ "ManageLinks.Context.Edit": [
+  "Edit Link"
+ ],
+ "ManageLinks.Context.Revoke": [
+  "Revoke Link"
+ ],
+ "ManageLinks.Context.Share": [
+  "Share Link"
+ ],
+ "ManageLinks.CreateNew": [
+  "Create a New Link"
+ ],
+ "ManageLinks.Delete": [
+  "Delete"
+ ],
+ "ManageLinks.DeleteAll": [
+  "Delete All Revoked Links"
+ ],
+ "ManageLinks.DeleteAll.Confirm": [
+  "Are you sure you want to delete all revoked links?"
+ ],
+ "ManageLinks.EmptyDesc": [
+  "You can create additional invite links that have limited time or number of users."
+ ],
+ "ManageLinks.Header.Channel.Desc": [
+  "Anyone who has Telegram installed will be able to join your channel by following this link."
+ ],
+ "ManageLinks.Header.Group.Desc": [
+  "Anyone who has Telegram installed will be able to join your group by following this link."
+ ],
+ "ManageLinks.InviteLink": [
+  "INVITE LINK"
+ ],
+ "ManageLinks.OtherAdmins": [
+  "INVITE LINKS CREATED BY OTHER ADMINS"
+ ],
+ "ManageLinks.RevokedLinks": [
+  "REVOKED LINKS"
+ ],
+ "ManageLinks.TitleCount": [
+  "%d invite link",
+  "%d invite links"
+ ],
+ "ManageLinks.TitleCount_countable": [
+  "%d"
+ ],
+ "ManageLinks.TitleNew": [
+  "Invite Links"
+ ],
+ "Mark.Fake": [
+  "FAKE"
+ ],
+ "Mark.Scam": [
+  "SCAM"
+ ],
+ "Message.Context.Confirm.NotifyPin": [
+  "Notify all members"
+ ],
+ "Message.Context.Confirm.Pin1": [
+  "Would you like to pin this message?"
+ ],
+ "Message.Context.Delete": [
+  "Delete"
+ ],
+ "Message.Context.Forward": [
+  "Forward"
+ ],
+ "Message.Context.ForwardToCloud": [
+  "Forward to Saved Messages"
+ ],
+ "Message.Context.Pin": [
+  "Pin"
+ ],
+ "Message.Context.Reply1": [
+  "Reply"
+ ],
+ "Message.Context.Report": [
+  "Report"
+ ],
+ "Message.Context.Select": [
+  "Select"
+ ],
+ "Message.Context.Unpin": [
+  "Unpin"
+ ],
+ "Message.Context.ViewReplies": [
+  "View %d Reply",
+  "View %d Replies"
+ ],
+ "Messages.Placeholder.Anonymous": [
+  "Send Anonymously..."
+ ],
+ "Messages.Placeholder.Broadcast": [
+  "Broadcast a message…"
+ ],
+ "Messages.Placeholder.Broadcast.Small": [
+  "Broadcast..."
+ ],
+ "Messages.Placeholder.Comment": [
+  "Comment..."
+ ],
+ "Messages.Placeholder.Reply": [
+  "Reply..."
+ ],
+ "Messages.Placeholder.Scheduled": [
+  "Schedule a message..."
+ ],
+ "Messages.Placeholder.SilentBroadcast": [
+  "Silent Broadcast..."
+ ],
+ "Modal.Cancel": [
+  "Cancel"
+ ],
+ "Modal.OK": [
+  "OK"
+ ],
+ "Modal.Send": [
+  "Send"
+ ],
+ "Modal.Yes": [
+  "YES"
+ ],
+ "Navigation.Done": [
+  "Done"
+ ],
+ "Navigation.Edit": [
+  "Edit"
+ ],
+ "Navigation.back": [
+  "Back"
+ ],
+ "NewPoll.Anonymous": [
+  "Anonymous Voting"
+ ],
+ "NewPoll.DisacardConfirm": [
+  "Are you sure you want to discard this poll?"
+ ],
+ "NewPoll.DisacardConfirm.No": [
+  "No"
+ ],
+ "NewPoll.DisacardConfirm.Yes": [
+  "Discard"
+ ],
+ "NewPoll.DisacardConfirmHeader": [
+  "Poll"
+ ],
+ "NewPoll.Explanation.Desc": [
+  "Users will see this comment after choosing a wrong answer, good for educational purposes."
+ ],
+ "NewPoll.Explanation.Header": [
+  "EXPLANATION"
+ ],
+ "NewPoll.Explanation.Placeholder": [
+  "Add an Explanation (Optional)"
+ ],
+ "NewPoll.MultipleChoice": [
+  "Multiple Answers"
+ ],
+ "NewPoll.OptionsAddOption": [
+  "Add an Option"
+ ],
+ "NewPoll.OptionsDescription": [
+  "You can add %d more options",
+  "You can add %d more options"
+ ],
+ "NewPoll.OptionsDescriptionLimitReached": [
+  "You have added the maximum number of options."
+ ],
+ "NewPoll.OptionsHeader": [
+  "POLL OPTIONS"
+ ],
+ "NewPoll.OptionsPlaceholder": [
+  "Option"
+ ],
+ "NewPoll.QuestionHeader": [
+  "QUESTION"
+ ],
+ "NewPoll.QuestionHeaderLimit": [
+  "QUESTION (%d)"
+ ],
+ "NewPoll.QuestionPlaceholder": [
+  "Ask a question"
+ ],
+ "NewPoll.Quiz": [
+  "Quiz Mode"
+ ],
+ "NewPoll.QuizDesc": [
+  "Polls in Quiz Mode have one correct answer. Users can't revoke their answers."
+ ],
+ "NewPoll.QuizTooltip": [
+  "Click to choose the correct answer"
+ ],
+ "NewPoll.Title": [
+  "New Poll"
+ ],
+ "Notification.ProximityYouReached_1": [
+  "You are now within %1$@ from %2$@"
+ ],
+ "PaidMedia.UnlockFor": [
+  "Unlock for # %d",
+  "Unlock for # %d"
+ ],
+ "Peer.Activity.Chat.Multi.RecordingAudio1": [
+  "%@ and %d others are recording voice"
+ ],
+ "Peer.Activity.Chat.Multi.RecordingVideo1": [
+  "%@ and %d others are recording video"
+ ],
+ "Peer.Activity.Chat.Multi.SendingAudio1": [
+  "%@ and %d others are sending audio"
+ ],
+ "Peer.Activity.Chat.Multi.SendingFile1": [
+  "%@ and %d others are sending files"
+ ],
+ "Peer.Activity.Chat.Multi.SendingPhoto1": [
+  "%@ and %d others are sending photos"
+ ],
+ "Peer.Activity.Chat.Multi.SendingVideo1": [
+  "%@ and %d others are sending videos"
+ ],
+ "Peer.Activity.Chat.Multi.TypingText1": [
+  "%@ and %d others are typing"
+ ],
+ "Peer.Activity.Chat.RecordingAudio": [
+  "%@ is recording voice"
+ ],
+ "Peer.Activity.Chat.RecordingVideo": [
+  "%@ is recording video"
+ ],
+ "Peer.Activity.Chat.SendingFile": [
+  "%@ is sending a file"
+ ],
+ "Peer.Activity.Chat.SendingPhoto": [
+  "%@ is sending a photo"
+ ],
+ "Peer.Activity.Chat.SendingVideo": [
+  "%@ is sending a video"
+ ],
+ "Peer.Activity.Chat.TypingText": [
+  "%@ is typing"
+ ],
+ "Peer.Activity.User.EnjoyingAnimations": [
+  "watching %@"
+ ],
+ "Peer.CreatePeer.Context.RemovePhoto": [
+  "Remove photo"
+ ],
+ "Peer.CreatePeer.Context.UpdatePhoto": [
+  "Update photo"
+ ],
+ "Peer.Status.Member": [
+  "%d member",
+  "%d members"
+ ],
+ "Peer.Status.Member.Online": [
+  "%d online",
+  "%d online"
+ ],
+ "Peer.Status.Subscribers": [
+  "%d subscriber",
+  "%d subscribers"
+ ],
+ "Peer.Status.channel": [
+  "channel"
+ ],
+ "Peer.Status.group": [
+  "group"
+ ],
+ "Peer.Status.justNow": [
+  "last seen just now"
+ ],
+ "Peer.Status.minAgo": [
+  "last seen %d minute ago",
+  "last seen %d minutes ago"
+ ],
+ "Peer.Status.online": [
+  "online"
+ ],
+ "PeerInfo.About.Placeholder": [
+  "Description"
+ ],
+ "PeerInfo.Action.AddMembers": [
+  "Add"
+ ],
+ "PeerInfo.Action.Discussion": [
+  "Discuss"
+ ],
+ "PeerInfo.Action.Leave": [
+  "Leave"
+ ],
+ "PeerInfo.Action.Mute": [
+  "Mute"
+ ],
+ "PeerInfo.Action.Statistics": [
+  "Statistics"
+ ],
+ "PeerInfo.Action.VoiceChat": [
+  "Video Chat"
+ ],
+ "PeerInfo.AddMember": [
+  "Add Members"
+ ],
+ "PeerInfo.AdminLabel": [
+  "admin"
+ ],
+ "PeerInfo.Administrators": [
+  "Administrators"
+ ],
+ "PeerInfo.Admins": [
+  "Admins"
+ ],
+ "PeerInfo.BlackList": [
+  "Blacklist"
+ ],
+ "PeerInfo.BotStatus.HasAccess": [
+  "has access to messages"
+ ],
+ "PeerInfo.BotStatus.HasNoAccess": [
+  "has no access to messages"
+ ],
+ "PeerInfo.ChannelAppearance": [
+  "Appearance"
+ ],
+ "PeerInfo.ChannelColor": [
+  "Channel Color"
+ ],
+ "PeerInfo.ChannelName.Placeholder": [
+  "Channel Name"
+ ],
+ "PeerInfo.ChannelType": [
+  "Channel Type"
+ ],
+ "PeerInfo.Confirm.AddMember": [
+  "Add \"%@\" to the group?"
+ ],
+ "PeerInfo.Confirm.AddMembers1": [
+  "Add %d user to the group?",
+  "Add %d users to the group?"
+ ],
+ "PeerInfo.Confirm.DeleteChat": [
+  "Are you sure you want to delete all message history and leave \"%@\"?This action cannot be undone."
+ ],
+ "PeerInfo.Confirm.DeleteGroupConfirmation": [
+  "Deleting this group will remove all members and all messages will be lost. Do you want to delete the group?"
+ ],
+ "PeerInfo.Confirm.LeaveChannel": [
+  "Are you sure you want to leave this channel?"
+ ],
+ "PeerInfo.Confirm.LeaveGroup": [
+  "Are you sure you want to leave this group?This action cannot be undone."
+ ],
+ "PeerInfo.Confirm.RemovePeer": [
+  "Remove %@ from the group?"
+ ],
+ "PeerInfo.ConvertToSupergroup": [
+  "Convert To Supergroup"
+ ],
+ "PeerInfo.DeleteAndExit": [
+  "Delete and Leave"
+ ],
+ "PeerInfo.DeleteChannel": [
+  "Delete Channel"
+ ],
+ "PeerInfo.DeleteGroup": [
+  "Delete Group"
+ ],
+ "PeerInfo.Discussion": [
+  "Discussion"
+ ],
+ "PeerInfo.Discussion.Add": [
+  "Add"
+ ],
+ "PeerInfo.Discussion.Desc": [
+  "Add a group chat for comments."
+ ],
+ "PeerInfo.Forum": [
+  "Topics"
+ ],
+ "PeerInfo.Group.Menu.Delete": [
+  "Delete"
+ ],
+ "PeerInfo.Group.Menu.Promote": [
+  "Promote"
+ ],
+ "PeerInfo.Group.Menu.Restrict": [
+  "Restrict"
+ ],
+ "PeerInfo.GroupName.Placeholder": [
+  "Group Name"
+ ],
+ "PeerInfo.GroupType": [
+  "Group Type"
+ ],
+ "PeerInfo.GroupType.Private": [
+  "Private"
+ ],
+ "PeerInfo.GroupType.Public": [
+  "Public"
+ ],
+ "PeerInfo.InviteLink": [
+  "Invite Link"
+ ],
+ "PeerInfo.InviteLinks": [
+  "Invite Links"
+ ],
+ "PeerInfo.LeaveChannel": [
+  "Leave Channel"
+ ],
+ "PeerInfo.LeaveGroup": [
+  "Leave Group"
+ ],
+ "PeerInfo.LinkedChannel": [
+  "Linked Channel"
+ ],
+ "PeerInfo.Members": [
+  "Members"
+ ],
+ "PeerInfo.MembersHeader": [
+  "%d MEMBER",
+  "%d MEMBERS"
+ ],
+ "PeerInfo.MembersRequest": [
+  "Join Requests"
+ ],
+ "PeerInfo.Notifications": [
+  "Notifications"
+ ],
+ "PeerInfo.Permissions": [
+  "Permissions"
+ ],
+ "PeerInfo.PreHistory": [
+  "Chat History For New Members"
+ ],
+ "PeerInfo.PreHistory.Hidden": [
+  "Hidden"
+ ],
+ "PeerInfo.PreHistory.Visible": [
+  "Visible"
+ ],
+ "PeerInfo.Reactions": [
+  "Reactions"
+ ],
+ "PeerInfo.Reactions.All": [
+  "All"
+ ],
+ "PeerInfo.Reactions.Disabled": [
+  "Disabled"
+ ],
+ "PeerInfo.Reactions.Part": [
+  "%1$@/%2$@"
+ ],
+ "PeerInfo.RemovedUsers": [
+  "Removed Users"
+ ],
+ "PeerInfo.SetAboutDescription": [
+  "You can provide an optional description for your group."
+ ],
+ "PeerInfo.SetAdmins": [
+  "Set Admins"
+ ],
+ "PeerInfo.SetChannelPhoto": [
+  "Set Channel Photo"
+ ],
+ "PeerInfo.SetGroupPhoto": [
+  "Set Group Photo"
+ ],
+ "PeerInfo.SetGroupStickersSet": [
+  "Group Sticker Set"
+ ],
+ "PeerInfo.SharedMedia": [
+  "Shared Media"
+ ],
+ "PeerInfo.SignMessages": [
+  "Sign Messages"
+ ],
+ "PeerInfo.SignMessages.Desc": [
+  "Append names of the admins to the messages they post."
+ ],
+ "PeerInfo.StatAndBoosts": [
+  "Statistics"
+ ],
+ "PeerInfo.Subscribers": [
+  "Subscribers"
+ ],
+ "PeerInfo.TopicsLimitedDiscussionGroups": [
+  "Topics are not yet available in the discussion groups of channels."
+ ],
+ "PeerInfo.TopicsLimitedParticipantCountText": [
+  "Only groups with more than %d member can have topics enabled.",
+  "Only groups with more than %d members can have topics enabled."
+ ],
+ "PeerInfo.fake": [
+  "fake"
+ ],
+ "PeerInfo.info": [
+  "info"
+ ],
+ "PeerInfo.scam": [
+  "scam"
+ ],
+ "PeerInfo.sharelink": [
+  "share link"
+ ],
+ "PeerMedia.Gifs": [
+  "GIFs"
+ ],
+ "PeerSelect.InviteViaLink": [
+  "Invite to Group via Link"
+ ],
+ "Poll.Forward.Error": [
+  "Sorry, polls with visible votes can’t be forwarded to channels."
+ ],
+ "PollResults.Title.Poll": [
+  "Poll Results"
+ ],
+ "PollResults.Title.Quiz": [
+  "Quiz Results"
+ ],
+ "PreHistorySettings.Description.Group.Hidden": [
+  "New members won't see more than 100 previous messages."
+ ],
+ "PreHistorySettings.Description.Hidden": [
+  "New members won't see earlier messages."
+ ],
+ "PreHistorySettings.Description.Visible": [
+  "New Members will see messages that were sent before they joined."
+ ],
+ "PreHistorySettings.Header": [
+  "CHAT HISTORY FOR NEW MEMBERS"
+ ],
+ "Premium.GetPremium.Double": [
+  "Double the Limit"
+ ],
+ "PrivacySettings.Forwards": [
+  "Forwarded Messages"
+ ],
+ "PrivacySettings.GlobalTimer.Disable": [
+  "Disable"
+ ],
+ "PrivacySettings.GlobalTimer.Group": [
+  "Automatically delete messages in this group for everyone after a period of time."
+ ],
+ "PrivacySettings.PhoneNumber": [
+  "Phone Number"
+ ],
+ "PrivacySettings.ProfilePhoto": [
+  "Profile Photos"
+ ],
+ "PrivacySettingsController.AlwaysShareWith": [
+  "Always Share With…"
+ ],
+ "PrivacySettingsController.PhoneNumber.WhoCanSeePhoneNumber": [
+  "WHO CAN SEE MY PHONE NUMBER"
+ ],
+ "Reaction.Settings.Allow": [
+  "Enable Reactions"
+ ],
+ "Reaction.Settings.Allow.Channel.Info": [
+  "Allow subscribers to react to channel posts."
+ ],
+ "Reaction.Settings.Allow.Group.Info": [
+  "Allow members to react to group messages."
+ ],
+ "Reaction.Settings.Group.All": [
+  "All Reactions"
+ ],
+ "Reaction.Settings.Group.None": [
+  "No Reactions"
+ ],
+ "Reaction.Settings.Group.Some": [
+  "Some Reactions"
+ ],
+ "Reaction.Settings.Title": [
+  "Reactions"
+ ],
+ "Reactions.Popular": [
+  "Popular"
+ ],
+ "Reactions.Preview.Premium": [
+  "Unlock additional reactions by subscribing to Telegram Premium"
+ ],
+ "Reactions.Preview.Unlock": [
+  "Unlock Premium Reactions"
+ ],
+ "Reactions.RecentlyUsed": [
+  "Recently Used"
+ ],
+ "RequestJoin.Button": [
+  "Request to Join"
+ ],
+ "RequestJoin.Desc.Channel": [
+  "This channel accepts new subscribers only after they are approved by its admins."
+ ],
+ "RequestJoin.List.Approve.Channel": [
+  "Add to Channel"
+ ],
+ "RequestJoin.List.Approve.Dismiss": [
+  "Dismiss"
+ ],
+ "RequestJoin.List.Description": [
+  "Some [addition links]() are set up to accept requests to join the channel."
+ ],
+ "RequestJoin.List.Empty1": [
+  "No Join Requests"
+ ],
+ "RequestJoin.List.Empty2.Channel": [
+  "There are no pending join requests."
+ ],
+ "RequestJoin.List.Empty2.Group": [
+  "There are no pending join requests."
+ ],
+ "RequestJoin.List.ListHeader": [
+  "%d JOIN REQUEST",
+  "%d JOIN REQUESTS"
+ ],
+ "RequestJoin.List.SearchEmpty": [
+  "There were no results for \"%@\".Try a new search."
+ ],
+ "RequestJoin.List.SearchEmpty.Header": [
+  "No Results Found"
+ ],
+ "RequestJoin.List.Title": [
+  "Join Requests"
+ ],
+ "RequestJoin.List.Tooltip.Approved.Channel": [
+  "**%@** has been added to the channel."
+ ],
+ "RequestJoin.List.Tooltip.Approved.Group": [
+  "**%@** has been added to the group."
+ ],
+ "RequestJoin.Sent": [
+  "Join request sent"
+ ],
+ "Search.Global.Channel1": [
+  "%@, %d subscriber",
+  "%@, %d subscribers"
+ ],
+ "SecureId.Info.More": [
+  "More Info"
+ ],
+ "SelectColor.ChannelWallpaper": [
+  "Channel Wallpaper"
+ ],
+ "SelectColor.ChannelWallpaper.Info": [
+  "Set a wallpaper that will be visible to everyone reading your channel."
+ ],
+ "SelectColor.EmojiStatus.Channel": [
+  "Channel Emoji Status"
+ ],
+ "SelectColor.EmojiStatus.Info.Channel": [
+  "Choose status that will be shown next to the channel's name."
+ ],
+ "SelectColor.Icon.Info.Channel": [
+  "Make replies to your messages stand out by adding custom icons to them."
+ ],
+ "SelectColor.Icon.Info.Channel.Profile": [
+  "Make your channel profile stand out by adding custom icons to background."
+ ],
+ "SelectColor.Icon.Select.Off": [
+  "Not Selected"
+ ],
+ "SelectColor.Icon.Select.Profile": [
+  "Profile Logo"
+ ],
+ "SelectColor.Icon.Select.Replies": [
+  "Replies Logo"
+ ],
+ "SelectColor.Info.Channel": [
+  "This color will be used for your channel's name, the links it sends, and replies to its posts."
+ ],
+ "SelectColor.Message1": [
+  "Reply to your message"
+ ],
+ "SelectColor.Message2": [
+  "Your name and replies to your messages will be shown in the selected color."
+ ],
+ "SelectColor.Message2.Preview.Text": [
+  "Previews of links you send will also use this color."
+ ],
+ "SelectColor.Message2.Preview.Title": [
+  "Link Preview"
+ ],
+ "SelectColor.ProfilePage.Title": [
+  "PROFILE PAGE COLOR"
+ ],
+ "SelectColor.ResetColor.Name": [
+  "Reset Name Color"
+ ],
+ "SelectColor.ResetColor.Profile": [
+  "Reset Profile Color"
+ ],
+ "SelectColor.Success.Channel": [
+  "Your channel name color has been updated!"
+ ],
+ "SelectColor.Title.Channel": [
+  "Channel Color"
+ ],
+ "SelectPeers.Contacts": [
+  "CONTACTS"
+ ],
+ "SelectPeers.Frequent": [
+  "FREQUENT CONTACTS"
+ ],
+ "ShareModal.Search.Placeholder": [
+  "Share to..."
+ ],
+ "Sidebar.Peer.Restricted": [
+  "Sidebar is not available in this chat"
+ ],
+ "SlowMode.ForwardComment.Error": [
+  "Slow Mode is active. You can't forward a message with a comment."
+ ],
+ "SlowMode.PreviewSender.FileTooltip": [
+  "Slow Mode is active.You can't send multiple files at once."
+ ],
+ "SlowMode.TooLong.Error": [
+  "Slow Mode is active. This text is too long to send as one message."
+ ],
+ "Star.Purchase.Balance": [
+  "Balance%@"
+ ],
+ "Star.Purchase.Confirm": [
+  "Confirm Your Purchase"
+ ],
+ "Star.Purchase.PaidMedia.Text": [
+  "Do you want to unlock %1$@ in **%2$@** **%3$@**?"
+ ],
+ "Star.Purchase.Pay": [
+  "Confirm And Pay %@"
+ ],
+ "Stars.Transfer.MediaAnd": [
+  "%1$@ and %2$@"
+ ],
+ "Stars.Transfer.Photos": [
+  "%d photo",
+  "%d photos"
+ ],
+ "Stars.Transfer.SinglePhoto": [
+  "photo"
+ ],
+ "Stars.Transfer.Videos": [
+  "%d video",
+  "%d videos"
+ ],
+ "Stats.Boosts": [
+  "Boosts"
+ ],
+ "Stats.Boosts.Boosters": [
+  "%d BOOSTER",
+  "%d BOOSTERS"
+ ],
+ "Stats.Boosts.BoostersInfo": [
+  "Your channel is currently boosted by these users."
+ ],
+ "Stats.Boosts.Boosters_ZeroValueHolder": [
+  "NO BOOSTERS"
+ ],
+ "Stats.Boosts.BoostsToLevelUp": [
+  "Boosts to Level Up"
+ ],
+ "Stats.Boosts.ExistingBoosts": [
+  "Active Boosts"
+ ],
+ "Stats.Boosts.ExpiresOn": [
+  "Boost expires on %@"
+ ],
+ "Stats.Boosts.Level": [
+  "Level"
+ ],
+ "Stats.Boosts.LinkHeader": [
+  "LINK FOR BOOSTING"
+ ],
+ "Stats.Boosts.LinkInfo": [
+  "Share this link with your subscribers to get more boosts."
+ ],
+ "Stats.Boosts.NoBoostersYet": [
+  "No users currently boost your channel"
+ ],
+ "Stats.Boosts.OverviewHeader": [
+  "OVERVIEW"
+ ],
+ "Stats.Boosts.PremiumSubscribers": [
+  "Premium Subscribers"
+ ],
+ "Stats.GroupActionsTitle": [
+  "ACTIONS"
+ ],
+ "Stats.GroupGrowthTitle": [
+  "GROWTH"
+ ],
+ "Stats.GroupLanguagesTitle": [
+  "MEMBERS' PRIMARY LANGUAGE"
+ ],
+ "Stats.GroupMembers": [
+  "Members"
+ ],
+ "Stats.GroupMembersTitle": [
+  "GROUP MEMBERS"
+ ],
+ "Stats.GroupMessages": [
+  "Messages"
+ ],
+ "Stats.GroupMessagesTitle": [
+  "MESSAGES"
+ ],
+ "Stats.GroupNewMembersBySourceTitle": [
+  "NEW MEMBERS BY SOURCE"
+ ],
+ "Stats.GroupOverview": [
+  "OVERVIEW"
+ ],
+ "Stats.GroupPosters": [
+  "Posting Members"
+ ],
+ "Stats.GroupTopAdminBans": [
+  "%d restriction",
+  "%d restrictions"
+ ],
+ "Stats.GroupTopAdminBans_countable": [
+  "%d"
+ ],
+ "Stats.GroupTopAdminDeletions": [
+  "%d deletion",
+  "%d deletions"
+ ],
+ "Stats.GroupTopAdminDeletions_countable": [
+  "%d"
+ ],
+ "Stats.GroupTopAdminKicks": [
+  "%d ban",
+  "%d bans"
+ ],
+ "Stats.GroupTopAdminKicks_countable": [
+  "%d"
+ ],
+ "Stats.GroupTopAdminsTitle": [
+  "TOP ADMINS"
+ ],
+ "Stats.GroupTopHoursTitle": [
+  "TOP HOURS"
+ ],
+ "Stats.GroupTopPosterChars": [
+  "%d character per message",
+  "%d characters per message"
+ ],
+ "Stats.GroupTopPosterChars_countable": [
+  "%d"
+ ],
+ "Stats.GroupTopPosterMessages": [
+  "%d message",
+  "%d messages"
+ ],
+ "Stats.GroupTopPosterMessages_countable": [
+  "%d"
+ ],
+ "Stats.GroupTopPostersTitle": [
+  "TOP MEMBERS"
+ ],
+ "Stats.GroupTopWeekdaysTitle": [
+  "TOP DAYS OF WEEK"
+ ],
+ "Stats.GroupViewers": [
+  "Viewing Members"
+ ],
+ "Stats.MessageInteractionsTitle": [
+  "INTERACTIONS"
+ ],
+ "Stats.MessageOverview": [
+  "OVERVIEW"
+ ],
+ "Stats.MessagePrivateForwardsTitle": [
+  "Private Shares"
+ ],
+ "Stats.MessageTitle": [
+  "Message Statistics"
+ ],
+ "Stats.ShowMore": [
+  "Show %d More",
+  "Show %d More"
+ ],
+ "Stats.Statistics": [
+  "Statistics"
+ ],
+ "Stickers.GroupStickers": [
+  "GROUP STICKERS"
+ ],
+ "Stickers.Premium": [
+  "Premium"
+ ],
+ "Stickers.Premium.Unlock": [
+  "Unlock Premium Stickers"
+ ],
+ "Stickers.Preview.Premium": [
+  "Unlock this sticker and many more by subscribing to Telegram Premium."
+ ],
+ "Supergroup.Convert.Button": [
+  "Convert to Supergroup"
+ ],
+ "Supergroup.Convert.Description": [
+  "**In supergroups:**• New members can see the full message history• Deleted messages will disappear for all members• Admins can add a description to the group• Creator can set a public link for the group"
+ ],
+ "Supergroup.Convert.Undone": [
+  "**Note**: This action cannot be undone."
+ ],
+ "Supergroup.DeleteRestriction.BanUser": [
+  "Ban User"
+ ],
+ "Supergroup.DeleteRestriction.DeleteAllMessages": [
+  "Delete All Messages"
+ ],
+ "Supergroup.DeleteRestriction.DeleteMessage": [
+  "Delete Message"
+ ],
+ "Supergroup.DeleteRestriction.ReportSpam": [
+  "Report Spam"
+ ],
+ "Supergroup.DeleteRestriction.Title": [
+  "Manage Messages"
+ ],
+ "Telegram.AppearanceViewController": [
+  "Appearance"
+ ],
+ "Telegram.ChannelAdminsViewController": [
+  "Admins"
+ ],
+ "Telegram.ChannelBlacklistViewController": [
+  "Removed Users"
+ ],
+ "Telegram.ChannelEventLogController": [
+  "All Actions"
+ ],
+ "Telegram.ChannelIntroViewController": [
+  "Channel"
+ ],
+ "Telegram.ChannelMembersViewController": [
+  "Channel Members"
+ ],
+ "Telegram.ChannelPermissionsController": [
+  "Permissions"
+ ],
+ "Telegram.ChannelVisibilityController": [
+  "Channel"
+ ],
+ "Telegram.ChannelVisibilityController.Channel": [
+  "Channel"
+ ],
+ "Telegram.ChannelVisibilityController.Group": [
+  "Group"
+ ],
+ "Telegram.ConvertGroupViewController": [
+  "Supergroup"
+ ],
+ "Telegram.GroupAdminsController": [
+  "Admins"
+ ],
+ "Telegram.GroupStickerSetController": [
+  "Group Sticker Set"
+ ],
+ "Telegram.LinkInvationController": [
+  "Invite Link"
+ ],
+ "Telegram.PeerInfoController": [
+  "Info"
+ ],
+ "Telegram.PreHistorySettingsController": [
+  "Chat History Settings"
+ ],
+ "Telegram.SelectPeersController": [
+  "Select Users"
+ ],
+ "Text.Copy": [
+  "Copy Selected Text"
+ ],
+ "Text.CopyLabel_About": [
+  "Copy About"
+ ],
+ "Text.CopyLabel_ShareLink": [
+  "Copy Share Link"
+ ],
+ "TextView.Transform.Spoiler": [
+  "Spoiler"
+ ],
+ "TextView.Transform.Strikethrough": [
+  "Strikethrough"
+ ],
+ "TextView.Transform.URL1": [
+  "Make Link"
+ ],
+ "TextView.Transform.Underline": [
+  "Underline"
+ ],
+ "Time.PreciseMediumDate_m1": [
+  "Jan %@ at %@"
+ ],
+ "Time.PreciseMediumDate_m10": [
+  "Oct %@ at %@"
+ ],
+ "Time.PreciseMediumDate_m11": [
+  "Nov %@ at %@"
+ ],
+ "Time.PreciseMediumDate_m12": [
+  "Dec %@ at %@"
+ ],
+ "Time.PreciseMediumDate_m2": [
+  "Feb %@ at %@"
+ ],
+ "Time.PreciseMediumDate_m3": [
+  "Mar %@ at %@"
+ ],
+ "Time.PreciseMediumDate_m4": [
+  "Apr %@ at %@"
+ ],
+ "Time.PreciseMediumDate_m5": [
+  "May %@ at %@"
+ ],
+ "Time.PreciseMediumDate_m6": [
+  "Jun %@ at %@"
+ ],
+ "Time.PreciseMediumDate_m7": [
+  "Jul %@ at %@"
+ ],
+ "Time.PreciseMediumDate_m8": [
+  "Aug %@ at %@"
+ ],
+ "Time.PreciseMediumDate_m9": [
+  "Sep %@ at %@"
+ ],
+ "Time.TomorrowAt": [
+  "tomorrow at %@"
+ ],
+ "Timer.Days": [
+  "%d day",
+  "%d days"
+ ],
+ "Timer.Months": [
+  "%d month",
+  "%d months"
+ ],
+ "Timer.Weeks": [
+  "%d week",
+  "%d weeks"
+ ],
+ "Translate.From": [
+  "FROM: %@"
+ ],
+ "Translate.Language.en": [
+  "English"
+ ],
+ "Translate.Language.ru": [
+  "Russian"
+ ],
+ "Translate.ShowMore": [
+  "more"
+ ],
+ "Translate.Title": [
+  "Translate"
+ ],
+ "Translate.To": [
+  "TO: %@"
+ ],
+ "TwoStepAuth.InvalidPasswordError": [
+  "Invalid password. Please try again."
+ ],
+ "Upgrade.ChannelsTooMuch": [
+  "Sorry, you are a member of too many groups and channels. For technical reasons, you need to leave some first before changing this setting in your groups."
+ ],
+ "VideoAvatar.ChooseDesc.Channel": [
+  "Choose a cover for channel photo"
+ ],
+ "VideoAvatar.ChooseDesc.Group": [
+  "Choose a cover for group photo"
+ ],
+ "VoiceChat.Alert.Recording": [
+  "The audio stream is being recorded."
+ ],
+ "VoiceChat.AnonymousDisabledAlertText": [
+  "Sorry, you can't join video chats as an anonymous admin."
+ ],
+ "VoiceChat.Chat.StartNew": [
+  "Video chat ended. Start a new one?"
+ ],
+ "VoiceChat.Chat.StartNew.OK": [
+  "Start"
+ ],
+ "VoiceChat.ClickToRaiseHand": [
+  "click if you want to speak"
+ ],
+ "VoiceChat.ClickToUnmute": [
+  "Click to Unmute"
+ ],
+ "VoiceChat.ClickToUnmute.Secondary.Hold": [
+  "hold ⎵ or %@"
+ ],
+ "VoiceChat.ClickToUnmute.Secondary.HoldDefault": [
+  "hold ⎵"
+ ],
+ "VoiceChat.ClickToUnmute.Secondary.Press": [
+  "press ⎵ or %@"
+ ],
+ "VoiceChat.Connecting": [
+  "Connecting..."
+ ],
+ "VoiceChat.DownHand": [
+  "Cancel request to speak"
+ ],
+ "VoiceChat.End.OK": [
+  "Leave"
+ ],
+ "VoiceChat.End.Text": [
+  "Are you sure you want to leave this video chat?"
+ ],
+ "VoiceChat.End.Title": [
+  "Leave video chat"
+ ],
+ "VoiceChat.Info.JoinChannel": [
+  "Join Channel"
+ ],
+ "VoiceChat.Info.LeaveChannel": [
+  "Leave Channel"
+ ],
+ "VoiceChat.Info.OpenChannel": [
+  "Open Channel"
+ ],
+ "VoiceChat.Info.OpenProfile": [
+  "Open Profile"
+ ],
+ "VoiceChat.Info.SendMessage": [
+  "Send Message"
+ ],
+ "VoiceChat.Invite.Channels.Title": [
+  "Invite Members"
+ ],
+ "VoiceChat.Invite.Chats": [
+  "CHATS"
+ ],
+ "VoiceChat.Invite.Confirm.Header": [
+  "Video Chat"
+ ],
+ "VoiceChat.Invite.Confirm.OK": [
+  "Send"
+ ],
+ "VoiceChat.Invite.Confirm.Text": [
+  "Send the Invite Link to selected chats?"
+ ],
+ "VoiceChat.Invite.Confirm.Third": [
+  "Send Speaker Link"
+ ],
+ "VoiceChat.Invite.Contacts": [
+  "contacts"
+ ],
+ "VoiceChat.Invite.CopyInviteLink": [
+  "Copy Invite Link"
+ ],
+ "VoiceChat.Invite.CopyListenersLink": [
+  "Copy Listener Link"
+ ],
+ "VoiceChat.Invite.CopySpeakersLink": [
+  "Copy Speaker Link"
+ ],
+ "VoiceChat.Invite.GroupMembers": [
+  "group members"
+ ],
+ "VoiceChat.Invite.Invite": [
+  "Send"
+ ],
+ "VoiceChat.Invite.InviteMembers": [
+  "Invite members"
+ ],
+ "VoiceChat.Invite.Title": [
+  "Add Members"
+ ],
+ "VoiceChat.JoinAs.Channel": [
+  "%d subscriber",
+  "%d subscribers"
+ ],
+ "VoiceChat.JoinAs.Channel_countable": [
+  "%d"
+ ],
+ "VoiceChat.JoinAs.Group_countable": [
+  "%d"
+ ],
+ "VoiceChat.Leave": [
+  "Leave"
+ ],
+ "VoiceChat.ListenMode": [
+  "You are in Listen Only mode"
+ ],
+ "VoiceChat.Listening": [
+  "listening"
+ ],
+ "VoiceChat.MuteForMe": [
+  "Mute For Me"
+ ],
+ "VoiceChat.MutePeer": [
+  "Mute"
+ ],
+ "VoiceChat.MutedByAdmin": [
+  "Muted By Admin"
+ ],
+ "VoiceChat.OpenProfile": [
+  "Open Profile"
+ ],
+ "VoiceChat.PinScreencast": [
+  "Pin Screencast"
+ ],
+ "VoiceChat.PinVideo": [
+  "Pin Video"
+ ],
+ "VoiceChat.RTMP.Desc": [
+  "Software encoding recommended (x264 in OBS)."
+ ],
+ "VoiceChat.RTMP.Error": [
+  "Oops! Telegram doesn't see any stream coming from your streaming app. Please make sure you entered the right Server URL and Stream Key in your app."
+ ],
+ "VoiceChat.RTMP.Info": [
+  "To stream video with another app, enter this Server URL and Stream Key in your streaming app."
+ ],
+ "VoiceChat.RTMP.OK": [
+  "Start Streaming"
+ ],
+ "VoiceChat.RTMP.Revoke": [
+  "Revoke Stream Key"
+ ],
+ "VoiceChat.RTMP.Revoke.Info": [
+  "A new key will be generated. You will need to update it in your streaming app."
+ ],
+ "VoiceChat.RTMP.ServerURL": [
+  "server URL"
+ ],
+ "VoiceChat.RTMP.StreamKey": [
+  "stream key"
+ ],
+ "VoiceChat.RTMP.Title": [
+  "Stream With..."
+ ],
+ "VoiceChat.RTMP.ViewerError": [
+  "Telegram couldn’t detect any live stream from %@"
+ ],
+ "VoiceChat.RaisedHand.Text": [
+  "we let the speakers know"
+ ],
+ "VoiceChat.RaisedHand.Title": [
+  "You asked to speak"
+ ],
+ "VoiceChat.Recording.Start.Text1": [
+  "Do you want to start recording this chat and save the result as a file?Other participants will see that the chat is being recorded."
+ ],
+ "VoiceChat.Recording.Start.Title": [
+  "Start Recording"
+ ],
+ "VoiceChat.Recording.Stop.OK": [
+  "Stop"
+ ],
+ "VoiceChat.Recording.Stop.Text": [
+  "Stop recording the audio stream?"
+ ],
+ "VoiceChat.Recording.Stop.Title": [
+  "Stop Recording"
+ ],
+ "VoiceChat.RemovePeer": [
+  "Remove"
+ ],
+ "VoiceChat.RemovePeer.Confirm.Channel": [
+  "Do you want to remove %1$@ from the channel?"
+ ],
+ "VoiceChat.RemoveReminder": [
+  "Cancel Reminder"
+ ],
+ "VoiceChat.Scheduled.Header": [
+  "Starts In"
+ ],
+ "VoiceChat.Scheduled.HeaderLate": [
+  "Late by"
+ ],
+ "VoiceChat.ScreenShare.Unavailable": [
+  "Unable to share your screen, please grant access in [System Settings](screen)."
+ ],
+ "VoiceChat.Screencast.Confirm.Header": [
+  "Video Chat"
+ ],
+ "VoiceChat.Screencast.Confirm.OK": [
+  "Continue"
+ ],
+ "VoiceChat.Screencast.Confirm.Text": [
+  "%@ is sharing their screen. This action will pin your screen for all participants instead."
+ ],
+ "VoiceChat.SetReminder": [
+  "Set Reminder"
+ ],
+ "VoiceChat.Settings": [
+  "Settings"
+ ],
+ "VoiceChat.Settings.AllMembers": [
+  "New participants can speak"
+ ],
+ "VoiceChat.Settings.DisplayAs.PersonalAccount": [
+  "personal account"
+ ],
+ "VoiceChat.Settings.DisplayAs.Title": [
+  "DISPLAY ME AS"
+ ],
+ "VoiceChat.Settings.End": [
+  "End Video Chat"
+ ],
+ "VoiceChat.Settings.End.Confirm.Title": [
+  "End video chat"
+ ],
+ "VoiceChat.Settings.InputMode.Always": [
+  "Press and Release"
+ ],
+ "VoiceChat.Settings.InputMode.PushToTalk": [
+  "Press and Hold"
+ ],
+ "VoiceChat.Settings.NoiseSuppression": [
+  "Noise Suppression"
+ ],
+ "VoiceChat.Settings.NoiseText": [
+  "Noise Suppression"
+ ],
+ "VoiceChat.Settings.NoiseTitle": [
+  "BACKGROUND NOISE"
+ ],
+ "VoiceChat.Settings.OnlyAdmins": [
+  "New participants are muted"
+ ],
+ "VoiceChat.Settings.Output": [
+  "OUTPUT"
+ ],
+ "VoiceChat.Settings.Output.Device": [
+  "Output Device"
+ ],
+ "VoiceChat.Settings.Performance.Desc": [
+  "Disabling noise suppression can increase performance."
+ ],
+ "VoiceChat.Settings.Performance.Header": [
+  "PERFORMANCE"
+ ],
+ "VoiceChat.Settings.Permissions.Title": [
+  "PERMISSIONS"
+ ],
+ "VoiceChat.Settings.PushToTalk": [
+  "SHORTCUT"
+ ],
+ "VoiceChat.Settings.PushToTalk.Access": [
+  "If you want this shortcut to work even when Telegram is not in focusPlease grant Telegram access to [Input Monitor](input)"
+ ],
+ "VoiceChat.Settings.PushToTalk.Desc": [
+  "When the Video Chat window is in focus, you can also use ⎵ regardless of this setting."
+ ],
+ "VoiceChat.Settings.PushToTalk.EditKeybind": [
+  "Change Key"
+ ],
+ "VoiceChat.Settings.PushToTalk.Enabled": [
+  "Push to Talk"
+ ],
+ "VoiceChat.Settings.PushToTalk.StopRecording": [
+  "Cancel"
+ ],
+ "VoiceChat.Settings.PushToTalk.Title": [
+  "MIC CONTROL"
+ ],
+ "VoiceChat.Settings.RTMP": [
+  "STREAM DATA"
+ ],
+ "VoiceChat.Settings.Record.IncludeVideo": [
+  "Include Video"
+ ],
+ "VoiceChat.Settings.Record.Orientation.Landscape": [
+  "Landscape"
+ ],
+ "VoiceChat.Settings.Record.Orientation.Portrait": [
+  "Portrait"
+ ],
+ "VoiceChat.Settings.ResetLink": [
+  "Revoke Speaker Link"
+ ],
+ "VoiceChat.Settings.ResetLink.Success": [
+  "Speaker Link has been revoked."
+ ],
+ "VoiceChat.Settings.Title": [
+  "Video Chat Settings"
+ ],
+ "VoiceChat.Settings.Title.Placeholder": [
+  "Title..."
+ ],
+ "VoiceChat.ShareScreen.MutedError": [
+  "You can't share your screen right now. Please ask to speak first."
+ ],
+ "VoiceChat.ShareVideo.MutedError": [
+  "You can't share your video right now. Please ask to speak first."
+ ],
+ "VoiceChat.Sharing.Placeholder": [
+  "You are sharing your screen"
+ ],
+ "VoiceChat.Sharing.Stop": [
+  "Stop"
+ ],
+ "VoiceChat.ShowInfo": [
+  "Show Info"
+ ],
+ "VoiceChat.Speaking": [
+  "speaking"
+ ],
+ "VoiceChat.StartNow": [
+  "Start Now"
+ ],
+ "VoiceChat.StartRecording": [
+  "Start Recording"
+ ],
+ "VoiceChat.Status.Connecting": [
+  "Connecting..."
+ ],
+ "VoiceChat.Status.Invited": [
+  "invited"
+ ],
+ "VoiceChat.Status.Listening": [
+  "listening"
+ ],
+ "VoiceChat.Status.Loading": [
+  "connecting..."
+ ],
+ "VoiceChat.Status.Members": [
+  "%d participant",
+  "%d participants"
+ ],
+ "VoiceChat.Status.Members_ZeroValueHolder": [
+  "no participants"
+ ],
+ "VoiceChat.Status.Members_countable": [
+  "%d"
+ ],
+ "VoiceChat.Status.MutedForYou": [
+  "muted for you"
+ ],
+ "VoiceChat.Status.Speaking": [
+  "speaking"
+ ],
+ "VoiceChat.Status.Stream": [
+  "Live Stream"
+ ],
+ "VoiceChat.Status.WantsSpeak": [
+  "wants to speak"
+ ],
+ "VoiceChat.Status.You": [
+  "This is you"
+ ],
+ "VoiceChat.StopRecording": [
+  "Stop Recording"
+ ],
+ "VoiceChat.Title.Invited": [
+  "invited"
+ ],
+ "VoiceChat.Title.Scheduled": [
+  "Video Chat"
+ ],
+ "VoiceChat.Title.Scheduled.Soon": [
+  "scheduled"
+ ],
+ "VoiceChat.Toast.Stop": [
+  "Recording of the audio stream added to your Saved Messages."
+ ],
+ "VoiceChat.Toast.YouCanSpeak": [
+  "You can now speak."
+ ],
+ "VoiceChat.Tooltip.PinWindow": [
+  "Window is pinned."
+ ],
+ "VoiceChat.Tooltip.ShareScreen": [
+  "Your are sharing your screen."
+ ],
+ "VoiceChat.Tooltip.ShareVideo": [
+  "You are sharing your video."
+ ],
+ "VoiceChat.Tooltip.StopScreen": [
+  "You have stopped broadcasting your screen."
+ ],
+ "VoiceChat.Tooltip.StopVideo": [
+  "You have stopped broadcasting video."
+ ],
+ "VoiceChat.Tooltip.Subscribe": [
+  "We will notify you when it starts."
+ ],
+ "VoiceChat.Tooltip.UnpinWindow": [
+  "Window is unpinned."
+ ],
+ "VoiceChat.UnmuteForMe": [
+  "Unmute For Me"
+ ],
+ "VoiceChat.UnmutePeer": [
+  "Allow To Speak"
+ ],
+ "VoiceChat.UnpinScreencast": [
+  "Unpin Screencast"
+ ],
+ "VoiceChat.UnpinVideo": [
+  "Unpin Video"
+ ],
+ "VoiceChat.Video.Paused": [
+  "Video is Paused"
+ ],
+ "VoiceChat.Video.ShortUnpin": [
+  "Unpin"
+ ],
+ "VoiceChat.Video.Stream.More": [
+  "more"
+ ],
+ "VoiceChat.Video.Stream.Screencast": [
+  "screen"
+ ],
+ "VoiceChat.Video.Stream.Video": [
+  "video"
+ ],
+ "VoiceChat.Video.VideoSource": [
+  "Video Source"
+ ],
+ "VoiceChat.Video.VideoSource.Cancel": [
+  "Cancel"
+ ],
+ "VoiceChat.Video.VideoSource.Share": [
+  "Share"
+ ],
+ "VoiceChat.VideoShare.Unavailable": [
+  "Unable to share your camera, please grant access in [System Settings](camera)."
+ ],
+ "VoiceChat.YouLive": [
+  "You're Live"
+ ],
+ "VoiecChat.Settings.Record.Live.Title": [
+  "RECORD LIVE STREAM"
+ ],
+ "VoiecChat.Settings.Record.Placeholder": [
+  "Audio Title (Optional)"
+ ],
+ "VoiecChat.Settings.Record.Placeholder1": [
+  "Title (Optional)"
+ ],
+ "VoiecChat.Settings.Record.Title": [
+  "RECORD VIDEO CHAT"
+ ],
+ "VoiecChat.Settings.Record.Video.Title": [
+  "RECORD VIDEO CHAT"
+ ],
+ "peerInfo.Confirm.Leave": [
+  "Leave"
+ ]
+}

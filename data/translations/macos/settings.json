@@ -1,0 +1,2917 @@
+{
+ "1Xt-HY-uBw.title": [
+  "Telegram"
+ ],
+ "AccountSettings.AddAccount": [
+  "Add Account"
+ ],
+ "AccountSettings.AskQuestion": [
+  "Ask a Question"
+ ],
+ "AccountSettings.Bio": [
+  "Bio"
+ ],
+ "AccountSettings.CurrentLanguage": [
+  "English"
+ ],
+ "AccountSettings.DataAndStorage": [
+  "Data and Storage"
+ ],
+ "AccountSettings.FAQ": [
+  "Telegram FAQ"
+ ],
+ "AccountSettings.Filters": [
+  "Chat Folders"
+ ],
+ "AccountSettings.General": [
+  "General"
+ ],
+ "AccountSettings.GiftPremium": [
+  "Premium Gifting"
+ ],
+ "AccountSettings.Language": [
+  "Language"
+ ],
+ "AccountSettings.MyProfile": [
+  "My Profile"
+ ],
+ "AccountSettings.Notifications": [
+  "Notifications and Sounds"
+ ],
+ "AccountSettings.Premium": [
+  "Telegram Premium"
+ ],
+ "AccountSettings.PrivacyAndSecurity": [
+  "Privacy and Security"
+ ],
+ "AccountSettings.ProtectAccount.Info": [
+  "Set a password that will be required each time you log in with this phone number."
+ ],
+ "AccountSettings.ProtectAccount.Set": [
+  "Set Additional Password"
+ ],
+ "AccountSettings.ProtectAccount.Title": [
+  "Protect Your Account"
+ ],
+ "AccountSettings.Proxy": [
+  "Proxy"
+ ],
+ "AccountSettings.Proxy.Connected": [
+  "Connected"
+ ],
+ "AccountSettings.Proxy.Connecting": [
+  "Connecting"
+ ],
+ "AccountSettings.Proxy.Disabled": [
+  "Disabled"
+ ],
+ "AccountSettings.SendGift": [
+  "Send a Gift"
+ ],
+ "AccountSettings.SetBio": [
+  "Set a Bio"
+ ],
+ "AccountSettings.SetUsername": [
+  "Set a Username"
+ ],
+ "AccountSettings.Stars": [
+  "My Stars"
+ ],
+ "AccountSettings.Stickers": [
+  "Stickers and Emoji"
+ ],
+ "AccountSettings.StickersAndEmoji": [
+  "Stickers and Emoji"
+ ],
+ "AccountSettings.TelegramBusiness": [
+  "Telegram Business"
+ ],
+ "AccountSettings.Theme": [
+  "Appearance"
+ ],
+ "AccountViewController.Desc.Failed": [
+  "failed"
+ ],
+ "AccountViewController.Desc.Updated": [
+  "updated"
+ ],
+ "AccountViewController.Title": [
+  "Settings"
+ ],
+ "AccountViewController.Update": [
+  "Update"
+ ],
+ "Alert.Yes": [
+  "Yes"
+ ],
+ "AppUpdate.CheckForUpdates": [
+  "Check for Updates"
+ ],
+ "AppUpdate.Downloading": [
+  "Downloading..."
+ ],
+ "AppUpdate.NewestAvailable": [
+  "Please update the app to get the latest features and improvements."
+ ],
+ "AppUpdate.RetrievingInfo": [
+  "Retrieving Information..."
+ ],
+ "AppUpdate.Title": [
+  "Updates"
+ ],
+ "AppUpdate.Title.New": [
+  "NEW VERSION (your version: %@)"
+ ],
+ "AppUpdate.Title.Previous": [
+  "PREVIOUS VERSIONS"
+ ],
+ "AppUpdate.Unarchiving": [
+  "Unarchiving..."
+ ],
+ "AppUpdate.Uptodate": [
+  "You have the latest version of Telegram."
+ ],
+ "Appearance.CloudTheme.Unsupported": [
+  "No macOS version, click to edit"
+ ],
+ "Appearance.CloudThemes": [
+  "CLOUD THEMES"
+ ],
+ "Appearance.Confirm.RemoveText": [
+  "Are you sure you want to remove this theme?"
+ ],
+ "Appearance.Confirm.RemoveTitle": [
+  "Theme"
+ ],
+ "Appearance.CustomBackground": [
+  "Custom Wallpaper"
+ ],
+ "Appearance.CustomBackground.FileError": [
+  "The file size must not exceed 10MB and the image dimensions must not exceed 500x500px."
+ ],
+ "Appearance.ExportTheme": [
+  "Export Theme"
+ ],
+ "Appearance.NewTheme": [
+  "New Theme"
+ ],
+ "Appearance.Settings.AutoNight": [
+  "Auto-Night Mode"
+ ],
+ "Appearance.Settings.AutoNightHeader": [
+  "AUTO-NIGHT MODE"
+ ],
+ "Appearance.Settings.BubblesMode": [
+  "Bubble Mode"
+ ],
+ "Appearance.Settings.DarkMode": [
+  "Dark Mode"
+ ],
+ "Appearance.Theme.Accent": [
+  "Accent"
+ ],
+ "Appearance.Theme.Accent.Messages": [
+  "Messages"
+ ],
+ "Appearance.Theme.Edit": [
+  "Edit"
+ ],
+ "Appearance.Theme.Remove": [
+  "Remove"
+ ],
+ "Appearance.Theme.Share": [
+  "Share"
+ ],
+ "Appearance.YourNameColor": [
+  "Your Name Color"
+ ],
+ "AppearanceSettings.ChatPreview.1": [
+  "Good morning! 👋"
+ ],
+ "AppearanceSettings.ChatPreview.2": [
+  "Do you know what time it is?"
+ ],
+ "AppearanceSettings.ChatPreview.3": [
+  "It's morning in Tokyo 😎"
+ ],
+ "AppearanceSettings.ChatPreview.FirstText": [
+  "Ah, you kids today with techno music! You should enjoy the classics, like Hasselhoff!"
+ ],
+ "AppearanceSettings.ChatPreview.Header": [
+  "CHAT PREVIEW"
+ ],
+ "AppearanceSettings.ChatPreview.SecondText": [
+  "I can't even take you seriously right now."
+ ],
+ "AppearanceSettings.ChatPreview.UserName1": [
+  "Lucio"
+ ],
+ "AppearanceSettings.ChatPreview.UserName2": [
+  "Reinhardt"
+ ],
+ "AppearanceSettings.ChatPreview.ZeroText": [
+  "Reinhardt, we need to find you some new tunes 🎶."
+ ],
+ "AppearanceSettings.ChatView.Bubbles": [
+  "Bubbles"
+ ],
+ "AppearanceSettings.ChatView.Classic": [
+  "Minimalist"
+ ],
+ "AppearanceSettings.ChatView.Header": [
+  "CHAT VIEW"
+ ],
+ "AppearanceSettings.ColorTheme.Header": [
+  "COLOR THEME"
+ ],
+ "AppearanceSettings.ColorTheme.dark": [
+  "Dark"
+ ],
+ "AppearanceSettings.ColorTheme.day": [
+  "Day"
+ ],
+ "AppearanceSettings.ColorTheme.dayClassic": [
+  "Day Classic"
+ ],
+ "AppearanceSettings.ColorTheme.day_classic": [
+  "Day Classic"
+ ],
+ "AppearanceSettings.ColorTheme.mojave": [
+  "Dark Mojave"
+ ],
+ "AppearanceSettings.ColorTheme.nightAccent": [
+  "Night Accent"
+ ],
+ "AppearanceSettings.ColorTheme.night_blue": [
+  "Night Blue"
+ ],
+ "AppearanceSettings.ColorTheme.system": [
+  "System"
+ ],
+ "AppearanceSettings.FollowSystemAppearance": [
+  "Follow System Appearance"
+ ],
+ "AppearanceSettings.FollowSystemAppearance.DefaultDark": [
+  "Select the default dark theme which will be used for the system dark mode."
+ ],
+ "AppearanceSettings.FollowSystemAppearance.DefaultDay": [
+  "Select the default light theme which will be used for the system light mode."
+ ],
+ "AppearanceSettings.FollowSystemAppearance.DefaultHeader": [
+  "DEFAULT PALETTES"
+ ],
+ "AppearanceSettings.TextSize.Header": [
+  "TEXT SIZE"
+ ],
+ "ApplyLanguage.ChangeLanguageAction": [
+  "Change"
+ ],
+ "ApplyLanguage.ChangeLanguageTitle": [
+  "Change Language?"
+ ],
+ "ApplyLanguage.ChangeLanguageUnofficialText": [
+  "You are about to apply the custom language pack **%@** that is %@% complete.This will translate the entire interface. You can suggest corrections on the [translation platform]().You can change your language back at any time in Settings."
+ ],
+ "Archive.Folders.Desc": [
+  "Keep archived chats from folders in the Archive even if they are unmuted and get a new message."
+ ],
+ "Archive.Folders.Text": [
+  "Always Keep Archived"
+ ],
+ "Archive.Folders.Title": [
+  "CHATS FROM FOLDERS"
+ ],
+ "Archive.NewChats.Desc": [
+  "Automatically archive and mute new private chats, groups and channels from non-contacts."
+ ],
+ "Archive.NewChats.Premium": [
+  "This setting is available only to the subscribers of [Telegram Premium]()"
+ ],
+ "Archive.NewChats.Text": [
+  "Automatically Archive"
+ ],
+ "Archive.NewChats.Title": [
+  "NEW CHATS FROM UNKNOWN USERS"
+ ],
+ "Archive.Title": [
+  "Archive Settings"
+ ],
+ "Archive.UnmutedChats.Desc": [
+  "Keep archived chats in the Archive even if they are unmuted and get a new message."
+ ],
+ "Archive.UnmutedChats.Text": [
+  "Always Keep Archived"
+ ],
+ "Archive.UnmutedChats.Title": [
+  "UNMUTED CHATS"
+ ],
+ "ArchivedStickers.Description": [
+  "You can have up to 200 sticker sets installed. Unused stickers are archived when you add more."
+ ],
+ "ArchivedStickers.Empty": [
+  "Your archived sticker sets will appear here"
+ ],
+ "AutoDownloadSettings.LastDelimeter": [
+  " and "
+ ],
+ "AutoDownloadSettings.OffForAll": [
+  "Off for all chats"
+ ],
+ "AutoDownloadSettings.OnFor": [
+  "On for %@"
+ ],
+ "AutoDownloadSettings.OnForAll": [
+  "On for all chats"
+ ],
+ "AutoDownloadSettings.TypeChannels": [
+  "Channels"
+ ],
+ "AutoDownloadSettings.TypeGroupChats": [
+  "Groups"
+ ],
+ "AutoDownloadSettings.TypePrivateChats": [
+  "Private Chats"
+ ],
+ "AutoDownloadSettings.UpToFor": [
+  "Up to %@ for %@"
+ ],
+ "AutoDownloadSettings.UpToForAll": [
+  "Up to %@ for all chats"
+ ],
+ "AutoNight.Settings.Disabled": [
+  "Disabled"
+ ],
+ "AutoNight.Settings.From": [
+  "From"
+ ],
+ "AutoNight.Settings.PreferredTheme": [
+  "PREFERRED DARK THEME"
+ ],
+ "AutoNight.Settings.Scheduled": [
+  "Scheduled"
+ ],
+ "AutoNight.Settings.Sunrise.Desc": [
+  "Calculating sunset & sunrise times requires a one-time check of your approximate location. Note that this location is only stored locally on your device.Sunset: %@Sunrise: %@"
+ ],
+ "AutoNight.Settings.Sunrise.Desc.NA": [
+  "Calculating sunset & sunrise times requires a one-time check of your approximate location. Note that this location is only stored locally on your device.Sunset: N/ASunrise: N/A"
+ ],
+ "AutoNight.Settings.SunsetAndSunrise": [
+  "Use Local Sunset & Sunrise"
+ ],
+ "AutoNight.Settings.SystemBased": [
+  "System"
+ ],
+ "AutoNight.Settings.Title": [
+  "Auto-Night Mode"
+ ],
+ "AutoNight.Settings.To": [
+  "To"
+ ],
+ "AutoNight.Settings.UpdateLocation": [
+  "Update Location"
+ ],
+ "AutoNight.Settings.UpdateLocation.Error": [
+  "Can't determine your location. Please check your system settings and try again."
+ ],
+ "Bio.Description": [
+  "Any details such as age, occupation or city.Example: 23 y.o. designer from San Francisco"
+ ],
+ "Bio.Header": [
+  "BIO"
+ ],
+ "Bio.Placeholder": [
+  "A few words about you"
+ ],
+ "BlockedPeers.EmptyDescrpition": [
+  "Blocked users can't send you messages or add you to groups. They will not see your profile photos, stories, online and last seen status."
+ ],
+ "CallSettings.Camera.Title": [
+  "CAMERA"
+ ],
+ "CallSettings.Device.Default": [
+  "Default"
+ ],
+ "CallSettings.Input.Text": [
+  "Input device"
+ ],
+ "CallSettings.Input.Title": [
+  "MICROPHONE"
+ ],
+ "CallSettings.InputLevel": [
+  "Input Level"
+ ],
+ "CallSettings.MuteSound": [
+  "Mute other sounds during calls"
+ ],
+ "CallSettings.OpenSystemPreferences": [
+  "Open System Preferences"
+ ],
+ "CallSettings.OtherSettings.Title": [
+  "OTHER SETTINGS"
+ ],
+ "CallSettings.Output.Text": [
+  "Output device"
+ ],
+ "CallSettings.Output.Title": [
+  "SOUND"
+ ],
+ "CallSettings.Title": [
+  "Call Settings"
+ ],
+ "ChangeNumber.ConfirmCode.Error.Generic": [
+  "An error occurred."
+ ],
+ "ChangeNumber.ConfirmCode.Error.codeExpired": [
+  "Code expired."
+ ],
+ "ChangeNumber.ConfirmCode.Error.limitExceeded": [
+  "You have entered invalid code too many times. Please try again later."
+ ],
+ "ChangeNumber.ConfirmCode.Success": [
+  "You have changed your phone number to %@."
+ ],
+ "ChangeNumber.SendData.Error.InvalidPhoneNumber": [
+  "The phone number you entered is not valid. Please enter the correct number along with your country code."
+ ],
+ "ChangeNumber.SendData.Error.LimitExceeded": [
+  "You have requested for an authorization code too many times. Please try again later."
+ ],
+ "ChangeNumber.SendData.Error.PhoneNumberOccupied": [
+  "The number %@ is already connected to a Telegram account. Please delete that account before using this number."
+ ],
+ "ChangePhoneNumber.Intro.Alert": [
+  "Users will see your new number if they have it in their address book or your privacy settings allow them to see it. You can modify this in Settings > Privacy and Security > Phone number."
+ ],
+ "ChangePhoneNumber.Intro.Description": [
+  "You can change your Telegram number here. Your account and all your cloud data — messages, media, contacts, etc. will be moved to the new number."
+ ],
+ "ChannelEventFilter.Calls": [
+  "Calls"
+ ],
+ "ChannelVisibility.Forwarding.GroupInfo1": [
+  "Members will be able to copy, save and forward content from this group."
+ ],
+ "ChannelVisibility.Forwarding.GroupTitle": [
+  "Forwarding From This Group"
+ ],
+ "ChannelVisibility.Forwarding.Restrict": [
+  "Restrict Saving Content"
+ ],
+ "ChannelVisibility.Messages.Approve": [
+  "Approve New Members"
+ ],
+ "ChannelVisibility.Messages.Approve.Info": [
+  "Turn this on if you want users to be able to send messages only after they are approved by an admin."
+ ],
+ "ChannelVisibility.Messages.Everyone": [
+  "Everyone"
+ ],
+ "ChannelVisibility.Messages.Members": [
+  "Only Members"
+ ],
+ "ChannelVisibility.Messages.Who": [
+  "WHO CAN SEND MESSAGES?"
+ ],
+ "Chat.ApplyProxy": [
+  "ADD PROXY"
+ ],
+ "Chat.Confirm.ActionUndonable": [
+  "This action can't be undone"
+ ],
+ "Chat.Confirm.PinFor": [
+  "Pin for me and %@"
+ ],
+ "Chat.Confirm.PinOld": [
+  "Do you want to pin an older message while leaving a more recent one pinned?"
+ ],
+ "Chat.InstantView": [
+  "INSTANT VIEW"
+ ],
+ "Chat.WP.BackgroundTitle": [
+  "Chat Wallpaper"
+ ],
+ "Chat.WP.Color": [
+  "Color"
+ ],
+ "Chat.WP.Color.FirstMessage": [
+  "Click Apply to set the wallpaper"
+ ],
+ "Chat.WP.Color.SecondMessage": [
+  "Looks good"
+ ],
+ "Chat.WP.FirstMessage": [
+  "Pinch, swipe or double tap to select a custom area for the wallpaper."
+ ],
+ "Chat.WP.Intensity": [
+  "Pattern Intensity"
+ ],
+ "Chat.WP.Pattern": [
+  "Pattern"
+ ],
+ "Chat.WP.Pattern.None": [
+  "None"
+ ],
+ "Chat.WP.SecondMessage": [
+  "Pinch me, I'm dreaming!"
+ ],
+ "Chat.WP.SelectFromFile": [
+  "Select From File"
+ ],
+ "ChatList.Filter.Error.LikeChats": [
+  "Can’t create a folder that includes all your chats."
+ ],
+ "ChatList.Filter.InviteLink": [
+  "Create a New Link"
+ ],
+ "ChatList.Filter.InviteLink.Desc": [
+  "includes %d chats"
+ ],
+ "ChatList.Filter.InviteLink.IncludeExcludeError": [
+  "You can’t share folders which include or exclude specific chat types like 'Groups', 'Contacts', etc."
+ ],
+ "ChatList.Filter.InviteLink.Info": [
+  "Share access to some of this folder's groups and channels with others."
+ ],
+ "ChatList.Filter.InviteLink.Share": [
+  "Share Folder"
+ ],
+ "ChatList.Filter.InviteLink.header": [
+  "INVITE LINK"
+ ],
+ "ChatList.Filter.Tilte.Default.Unmuted": [
+  "Unmuted"
+ ],
+ "ChatList.Mute.1Day": [
+  "For 1 Day"
+ ],
+ "ChatList.Mute.1Hour": [
+  "For 1 Hour"
+ ],
+ "ChatList.Mute.3Days": [
+  "For 3 Days"
+ ],
+ "ChatList.Mute.4Hours": [
+  "For 4 Hours"
+ ],
+ "ChatList.Mute.8Hours": [
+  "For 8 Hours"
+ ],
+ "ChatList.Mute.Forever": [
+  "Forever"
+ ],
+ "ChatWallpaper.Empty": [
+  "Default"
+ ],
+ "ConnectingStatus.connecting": [
+  "connecting"
+ ],
+ "ConnectingStatus.connectingToProxy": [
+  "connecting to proxy"
+ ],
+ "Context.Remove": [
+  "Remove"
+ ],
+ "CustomEmoji.Info": [
+  "Artists are welcome to add their own emoji sets using our [@stickers]() bot."
+ ],
+ "CustomEmoji.Suggest": [
+  "Suggest Animated Emoji"
+ ],
+ "DarkMode.Confirm.NightMode.Header": [
+  "Night Mode"
+ ],
+ "DarkMode.Confirm.NightMode.OK": [
+  "Disable"
+ ],
+ "DarkMode.Confirm.NightMode.Text": [
+  "You have enabled auto-night mode. If you want to change dark mode settings, you'll need to disable it first."
+ ],
+ "DataAndStorage.AutomaticAudioDownload.Header": [
+  "AUTOMATIC AUDIO DOWNLOAD"
+ ],
+ "DataAndStorage.AutomaticDownload": [
+  "Auto-Download Media"
+ ],
+ "DataAndStorage.AutomaticDownload.Files": [
+  "Files"
+ ],
+ "DataAndStorage.AutomaticDownload.GIFs": [
+  "GIFs"
+ ],
+ "DataAndStorage.AutomaticDownload.GroupsChannels": [
+  "Groups and Channels"
+ ],
+ "DataAndStorage.AutomaticDownload.Header": [
+  "AUTOMATIC MEDIA DOWNLOAD"
+ ],
+ "DataAndStorage.AutomaticDownload.InstantVideo": [
+  "Video Messages"
+ ],
+ "DataAndStorage.AutomaticDownload.Photo": [
+  "Photos"
+ ],
+ "DataAndStorage.AutomaticDownload.Reset": [
+  "Reset Auto-Download Settings"
+ ],
+ "DataAndStorage.AutomaticDownload.Video": [
+  "Videos"
+ ],
+ "DataAndStorage.AutomaticDownload.Voice": [
+  "Voice Messages"
+ ],
+ "DataAndStorage.AutomaticPhotoDownload.Header": [
+  "AUTOMATIC PHOTO DOWNLOAD"
+ ],
+ "DataAndStorage.AutomaticVideoDownload.Header": [
+  "AUTOMATIC VIDEO DOWNLOAD"
+ ],
+ "DataAndStorage.Autoplay.GIFs": [
+  "GIFs"
+ ],
+ "DataAndStorage.Autoplay.Header": [
+  "AUTOPLAY MEDIA"
+ ],
+ "DataAndStorage.Autoplay.SoundOnHover": [
+  "Sound on Hover"
+ ],
+ "DataAndStorage.Autoplay.SoundOnHover.Desc": [
+  "Sound will start playing when you move your cursor over a video."
+ ],
+ "DataAndStorage.Autoplay.Videos": [
+  "Videos"
+ ],
+ "DataAndStorage.Category.PreloadLargeVideos": [
+  "Preload Larger Videos"
+ ],
+ "DataAndStorage.Category.PreloadLargeVideosDesc": [
+  "Preload first few seconds (1-2 MB) of videos large than %@ MB for instant playback."
+ ],
+ "DataAndStorage.CategorySettings.Channels": [
+  "Channels"
+ ],
+ "DataAndStorage.CategorySettings.GroupChats": [
+  "Group Chats"
+ ],
+ "DataAndStorage.CategorySettings.PrivateChats": [
+  "Private Chats"
+ ],
+ "DataAndStorage.CateroryFileSize.Unlimited": [
+  "Unlimited"
+ ],
+ "DataAndStorage.CateroryFileSizeLimit.Header": [
+  "LIMIT BY SIZE"
+ ],
+ "DataAndStorage.Confirm.ResetSettings": [
+  "Undo all custom auto-download settings."
+ ],
+ "DataAndStorage.DownloadFolder": [
+  "Download Folder"
+ ],
+ "DataAndStorage.NetworkUsage": [
+  "Data Usage"
+ ],
+ "DataAndStorage.SensitiveContent": [
+  "Show 18+ Content"
+ ],
+ "DataAndStorage.SensitiveContent.Confirm.Header": [
+  "18+ Content"
+ ],
+ "DataAndStorage.SensitiveContent.Confirm.Ok": [
+  "Confirm"
+ ],
+ "DataAndStorage.SensitiveContent.Confirm.Text": [
+  "Confirm that you are over 18 years old and update your settings to see potentially explicit and sensitive content."
+ ],
+ "DataAndStorage.SensitiveContent.Info": [
+  "Do not hide media that contains content suitable only for adults."
+ ],
+ "DataAndStorage.StorageUsage": [
+  "Storage Usage"
+ ],
+ "DefaultSoundName": [
+  "Default"
+ ],
+ "EditAccount.AddAccount": [
+  "Add Account"
+ ],
+ "EditAccount.ChangeNumber": [
+  "Change Number"
+ ],
+ "EditAccount.Logout": [
+  "Log Out"
+ ],
+ "EditAccount.NameDesc": [
+  "Enter your name and add a profile photo."
+ ],
+ "EditAccount.Title": [
+  "Edit Profile"
+ ],
+ "EditAccount.Username": [
+  "Username"
+ ],
+ "EditAvatar.PhotoOrVideo": [
+  "Photo or Video"
+ ],
+ "EditAvatar.StickerOrGif": [
+  "Sticker or GIF"
+ ],
+ "EditThame.Name.AlreadyTaken": [
+  "This link is already taken."
+ ],
+ "EditTheme.Edit": [
+  "Save"
+ ],
+ "EditTheme.NamePlaceholder": [
+  "Theme Name"
+ ],
+ "EditTheme.SelectFileDesc": [
+  "This theme will be based on your current theme and wallpaper. Otherwise, you can use a custom theme file if you already have one."
+ ],
+ "EditTheme.SelectUpdatedFile": [
+  "Update from File..."
+ ],
+ "EditTheme.SelectUpdatedFileDesc": [
+  "You can update your theme for all users by uploading manual changes from a file."
+ ],
+ "EditTheme.SlugDesc": [
+  "Your theme will be updated for all users each time you change it. Anyone can install it using this link.Theme links must be longer than 5 characters and can use a-z, 0-9 and underscores."
+ ],
+ "EditTheme.SlugError.Format": [
+  "Sorry, invalid format"
+ ],
+ "EditTheme.Title": [
+  "Edit Theme"
+ ],
+ "EmptyChat.Navigation.Prev": [
+  "Previous Tip"
+ ],
+ "EmptyChat.Stickers": [
+  "Suggest Stickers By Emoji"
+ ],
+ "EmptyChat.Stickers.AllSets": [
+  "All Sets"
+ ],
+ "EmptyChat.Stickers.MySets": [
+  "My Sets"
+ ],
+ "EmptyChat.Stickers.None": [
+  "None"
+ ],
+ "EmptyChat.Stickers.Trending": [
+  "Trending Stickers"
+ ],
+ "Error.Username.AlreadyTaken": [
+  "This username is already taken."
+ ],
+ "Error.Username.Invalid": [
+  "This username is invalid."
+ ],
+ "Error.Username.MinimumLength": [
+  "Usernames must have at least 5 characters."
+ ],
+ "Error.Username.NumberStart": [
+  "Usernames can't start with a number."
+ ],
+ "Error.Username.UnderscopeEnd": [
+  "A username can't end with an underscore."
+ ],
+ "Error.Username.UnderscopeStart": [
+  "A username can't start with an underscore."
+ ],
+ "GeneralSettings.AccentColor": [
+  "Accent Color"
+ ],
+ "GeneralSettings.AcceptSecretChats": [
+  "Accept Secret Chats"
+ ],
+ "GeneralSettings.AdvancedHeader": [
+  "ADVANCED"
+ ],
+ "GeneralSettings.AutoplayGifs": [
+  "Autoplay GIFs"
+ ],
+ "GeneralSettings.BigEmoji": [
+  "Large Emoji"
+ ],
+ "GeneralSettings.CallSettings.Header": [
+  "CALL SETTINGS"
+ ],
+ "GeneralSettings.CallSettings.Text": [
+  "Call Settings"
+ ],
+ "GeneralSettings.ChatBackground": [
+  "Chat Wallpaper"
+ ],
+ "GeneralSettings.CopyRTF": [
+  "Copy Text Formatting"
+ ],
+ "GeneralSettings.Emoji": [
+  "EMOJI"
+ ],
+ "GeneralSettings.EmojiAndStickers": [
+  "EMOJI & STICKERS"
+ ],
+ "GeneralSettings.EmojiReplacements": [
+  "Replace Emoji Automatically"
+ ],
+ "GeneralSettings.EnableSidebar": [
+  "Show Sticker Sidebar"
+ ],
+ "GeneralSettings.EnergySaving": [
+  "POWER SAVING"
+ ],
+ "GeneralSettings.ForceTouch.Edit": [
+  "Edit Message"
+ ],
+ "GeneralSettings.ForceTouch.Forward": [
+  "Forward Message"
+ ],
+ "GeneralSettings.ForceTouch.React": [
+  "Add Reaction"
+ ],
+ "GeneralSettings.ForceTouch.Reply": [
+  "Reply to Message"
+ ],
+ "GeneralSettings.ForceTouchHeader": [
+  "FORCE TOUCH ACTION"
+ ],
+ "GeneralSettings.GeneralSettings": [
+  "GENERAL SETTINGS"
+ ],
+ "GeneralSettings.InAppSounds": [
+  "In-App Sounds"
+ ],
+ "GeneralSettings.InputSettings": [
+  "INPUT SETTINGS"
+ ],
+ "GeneralSettings.InstantView.ScrollBySpace": [
+  "Scroll With Spacebar"
+ ],
+ "GeneralSettings.InstantViewHeader": [
+  "INSTANT VIEW"
+ ],
+ "GeneralSettings.InterfaceHeader": [
+  "INTERFACE"
+ ],
+ "GeneralSettings.LiteMode": [
+  "Power Saving Mode"
+ ],
+ "GeneralSettings.MediaKeysForInAppPlayer": [
+  "Handle media keys for in-app player"
+ ],
+ "GeneralSettings.OpenLatestChatOnLaunch": [
+  "Reopen Last Chat On Launch"
+ ],
+ "GeneralSettings.SendByCmdEnter": [
+  "Send with ⌘ + Enter"
+ ],
+ "GeneralSettings.SendByEnter": [
+  "Send with Enter"
+ ],
+ "GeneralSettings.Shortcuts": [
+  "Keyboard Shortcuts"
+ ],
+ "GeneralSettings.ShortcutsHeader": [
+  "SHORTCUTS"
+ ],
+ "GeneralSettings.ShowArticlesInSearch": [
+  "Suggest Articles in Search"
+ ],
+ "GeneralSettings.ShowCallsTab": [
+  "Show Calls Tab"
+ ],
+ "GeneralSettings.Spelling.CheckGrammarSpelling": [
+  "Check Grammar With Spelling"
+ ],
+ "GeneralSettings.Spelling.CheckSpellingAutomatically": [
+  "Correct Spelling Automatically"
+ ],
+ "GeneralSettings.Spelling.CheckWhileTyping": [
+  "Check Spelling While Typing"
+ ],
+ "GeneralSettings.Spelling.Title": [
+  "SPELLING AND GRAMMAR"
+ ],
+ "GeneralSettings.StatusBarItem": [
+  "Show Icon in Menu Bar"
+ ],
+ "GlobalTimer.Block.Enabled.Info": [
+  "All new messages in chats you start will be automatically deleted for everyone %@ after they are sent. You can also [apply this setting for your existing chats]()."
+ ],
+ "GlobalTimer.Block.Header": [
+  "SELF-DESTRUCT TIMER"
+ ],
+ "GlobalTimer.Block.Info": [
+  "If enabled, all new messages in chats you start will be automatically deleted for everyone at some point after they have been sent. This will not affect your existing chats."
+ ],
+ "GlobalTimer.Confirm.Ok": [
+  "Enable Auto-Deletion"
+ ],
+ "GlobalTimer.Confirm.Text": [
+  "Are you sure you want all messages in your new private chats and in new groups you create to be automatically deleted for everyone  %1$@ after they are sent?"
+ ],
+ "GlobalTimer.Confirm.Title": [
+  "Self-Destruct Timer"
+ ],
+ "GlobalTimer.Off": [
+  "Off"
+ ],
+ "GlobalTimer.SetCustomTime": [
+  "Set Custom Time"
+ ],
+ "GlobalTimer.Title": [
+  "Auto-Delete Messages"
+ ],
+ "GroupPermission.NoPinMessages": [
+  "no pinning"
+ ],
+ "GroupPermission.Title": [
+  "Exception"
+ ],
+ "InstalledStickers.Archived": [
+  "Archived Stickers"
+ ],
+ "InstalledStickers.CustomEmoji": [
+  "Custom Emoji"
+ ],
+ "InstalledStickers.Descrpiption": [
+  "Create your own sticker sets using the @stickers bot.Click on a sticker to view and add the whole set."
+ ],
+ "InstalledStickers.DynamicPackOrder": [
+  "Dynamic Pack Order"
+ ],
+ "InstalledStickers.DynamicPackOrderInfo": [
+  "Recently used sticker sets will be displayed above the older ones."
+ ],
+ "InstalledStickers.LoopAnimated": [
+  "Loop Animated Stickers"
+ ],
+ "InstalledStickers.PacksTitle": [
+  "STICKER SETS"
+ ],
+ "InstalledStickers.QuickReaction": [
+  "Quick Reaction"
+ ],
+ "InstalledStickers.QuickReaction1": [
+  "Quick Reaction"
+ ],
+ "InstalledStickers.Remove.Delete": [
+  "Delete"
+ ],
+ "InstalledStickers.Remove.Description": [
+  "This sticker set will be archived. You can quickly restore it later from the Archived Stickers section."
+ ],
+ "InstalledStickers.Tranding": [
+  "Trending Stickers"
+ ],
+ "InviteLink.Create.Copied": [
+  "Link created and copied to clipboard."
+ ],
+ "Language.RemovePack": [
+  "Are you sure you want to remove this language pack?"
+ ],
+ "Language.TranslateMessages.Channel": [
+  "Translate Entire Chats"
+ ],
+ "Language.TranslateMessages.Channel.Info": [
+  "Translate all messages in chat. This is available only for [Premium Users]()."
+ ],
+ "Language.TranslateMessages.Channel.Premium": [
+  "Subscribe to [Telegram Premium](premium) to translate entire chats."
+ ],
+ "Language.TranslateMessages.DoNotTranslate": [
+  "Do Not Translate"
+ ],
+ "Language.TranslateMessages.Header": [
+  "TRANSLATE MESSAGES"
+ ],
+ "LiteMode.DisableAlert": [
+  "Disable Power Saving Mode"
+ ],
+ "LiteMode.Disabled": [
+  "Disabled"
+ ],
+ "LiteMode.EnableText": [
+  "Power Saving Mode"
+ ],
+ "LiteMode.Enabled": [
+  "Enabled"
+ ],
+ "LiteMode.Info": [
+  "Reduce all power-intensive animations and improve performance."
+ ],
+ "LiteMode.Key.animations.Info": [
+  "Other animations that make Telegram look amazing."
+ ],
+ "LiteMode.Key.animations.Title": [
+  "Interface Animations"
+ ],
+ "LiteMode.Key.blur.Info": [
+  "Blur transparent interface elements."
+ ],
+ "LiteMode.Key.blur.Title": [
+  "Blur Effects"
+ ],
+ "LiteMode.Key.emoji.Info": [
+  "Loop animated emoji in messages, reactions and statuses."
+ ],
+ "LiteMode.Key.emoji.Title": [
+  "Emoji Animations"
+ ],
+ "LiteMode.Key.emoji_effects.Info": [
+  "Show animated effects for reactions and premium stickers."
+ ],
+ "LiteMode.Key.emoji_effects.Title": [
+  "Emoji Effects"
+ ],
+ "LiteMode.Key.gif.Info": [
+  "Autoplay and loop GIFs in chats and in the keyboard."
+ ],
+ "LiteMode.Key.gif.Title": [
+  "Autoplay GIFs"
+ ],
+ "LiteMode.Key.menu_animations.Info": [
+  "Animate icons in context menus."
+ ],
+ "LiteMode.Key.menu_animations.Title": [
+  "Menu Animations"
+ ],
+ "LiteMode.Key.stickers.Info": [
+  "Loop animated stickers, in chats and in the keyboard."
+ ],
+ "LiteMode.Key.stickers.Title": [
+  "Sticker Animations"
+ ],
+ "LiteMode.Key.video.Info": [
+  "Autoplay and loop videos and video messages in chats."
+ ],
+ "LiteMode.Key.video.Title": [
+  "Autoplay Videos"
+ ],
+ "LiteMode.LowPower": [
+  "LOW POWER"
+ ],
+ "LiteMode.LowPower.Info": [
+  "Switch Power Saving mode on when your battery is below %1$@%."
+ ],
+ "LiteMode.LowPower.InfoFull": [
+  "Power saving mode can be turned on automatically based on battery level."
+ ],
+ "LiteMode.Title": [
+  "Power Saving"
+ ],
+ "Login.JustSentSms": [
+  "We've sent you a code via SMS. Please enter it above."
+ ],
+ "Login.PasswordForgot": [
+  "Forgot password?"
+ ],
+ "Login.YourCodeLabel": [
+  "your code"
+ ],
+ "Login.codePlaceholder": [
+  "code"
+ ],
+ "Login.willCall": [
+  "Telegram will call you in %d:%@"
+ ],
+ "LogoutOptions.AddAccountText": [
+  "Connect other Telegram accounts and easily switch between them."
+ ],
+ "LogoutOptions.AddAccountTitle": [
+  "Add another account"
+ ],
+ "LogoutOptions.AlternativeOptionsSection": [
+  "ALTERNATIVE OPTIONS"
+ ],
+ "LogoutOptions.ChangePhoneNumberText": [
+  "Move your contacts, groups, messages and media to a new number."
+ ],
+ "LogoutOptions.ChangePhoneNumberTitle": [
+  "Change Phone Number"
+ ],
+ "LogoutOptions.ClearCacheText": [
+  "Free up disk space on your device; your media will stay in the cloud."
+ ],
+ "LogoutOptions.ClearCacheTitle": [
+  "Clear Cache"
+ ],
+ "LogoutOptions.ContactSupportText": [
+  "Tell us about any issues; logging out doesn't usually help."
+ ],
+ "LogoutOptions.ContactSupportTitle": [
+  "Contact Support"
+ ],
+ "LogoutOptions.LogOut": [
+  "Log Out"
+ ],
+ "LogoutOptions.LogOutInfo": [
+  "Remember, logging out kills all your Secret Chats."
+ ],
+ "LogoutOptions.SetPasscodeText": [
+  "Lock the app with a passcode so that others can't open it."
+ ],
+ "LogoutOptions.SetPasscodeTitle": [
+  "Set a Passcode"
+ ],
+ "LogoutOptions.Title": [
+  "Log out"
+ ],
+ "Modal.Cancel": [
+  "Cancel"
+ ],
+ "Modal.CopyLink": [
+  "Copy Link"
+ ],
+ "Modal.Remove": [
+  "Remove"
+ ],
+ "Modal.Set": [
+  "Set"
+ ],
+ "Modal.Share": [
+  "Share"
+ ],
+ "Navigation.Done": [
+  "Done"
+ ],
+ "Navigation.Next": [
+  "Next"
+ ],
+ "Navigation.back": [
+  "Back"
+ ],
+ "NetworkUsage.BytesReceived": [
+  "Data Received"
+ ],
+ "NetworkUsage.BytesSent": [
+  "Data Sent"
+ ],
+ "NetworkUsage.Header.Audio": [
+  "AUDIO"
+ ],
+ "NetworkUsage.Header.Files": [
+  "FILES"
+ ],
+ "NetworkUsage.Header.Generic": [
+  "MESSAGES"
+ ],
+ "NetworkUsage.Header.Images": [
+  "PHOTOS"
+ ],
+ "NetworkUsage.Header.Videos": [
+  "VIDEOS"
+ ],
+ "NetworkUsage.NetworkUsage": [
+  "Network Usage"
+ ],
+ "NetworkUsage.NetworkUsageSince": [
+  "Network usage since %@"
+ ],
+ "NetworkUsage.NetworkUsageSinceNever": [
+  "Network usage since you've logged in on this device."
+ ],
+ "NetworkUsage.Reset": [
+  "Reset Statistics"
+ ],
+ "NetworkUsage.ResetConfirm.Info": [
+  "Are you sure you want to reset statistics?"
+ ],
+ "NetworkUsage.ResetConfirm.Ok": [
+  "Reset"
+ ],
+ "NetworkUsage.Section.Info": [
+  "Click on each section for details."
+ ],
+ "NetworkUsage.Title.Audio": [
+  "Music"
+ ],
+ "NetworkUsage.Title.Files": [
+  "Files"
+ ],
+ "NetworkUsage.Title.Generic": [
+  "Messages"
+ ],
+ "NetworkUsage.Title.Images": [
+  "Photos"
+ ],
+ "NetworkUsage.Title.Videos": [
+  "Videos"
+ ],
+ "NewTheme.Create": [
+  "Create"
+ ],
+ "NewTheme.Desc": [
+  "This theme will be based on your current theme."
+ ],
+ "NewTheme.EmptyTextError": [
+  "name can't be empty."
+ ],
+ "NewTheme.Placeholder": [
+  "Theme name"
+ ],
+ "NewTheme.Title": [
+  "New Theme"
+ ],
+ "NotificationSettings.AllAccounts": [
+  "All Accounts"
+ ],
+ "NotificationSettings.BadgeDesc": [
+  "Switch off to show the number of unread chats instead of messages."
+ ],
+ "NotificationSettings.BadgeEnabled": [
+  "Enabled"
+ ],
+ "NotificationSettings.BadgeHeader": [
+  "BADGE COUNTER"
+ ],
+ "NotificationSettings.BounceDockIcon": [
+  "Bounce Dock Icon"
+ ],
+ "NotificationSettings.Confirm.Reset": [
+  "Reset notifications"
+ ],
+ "NotificationSettings.ContactJoined": [
+  "New Contacts"
+ ],
+ "NotificationSettings.ContactJoinedInfo": [
+  "Receive notifications when one of your contacts becomes available on Telegram."
+ ],
+ "NotificationSettings.CountUnreadMessages": [
+  "Count Unread Messages"
+ ],
+ "NotificationSettings.IncludeChannels": [
+  "Include Channels"
+ ],
+ "NotificationSettings.IncludeGroups": [
+  "Include Groups"
+ ],
+ "NotificationSettings.IncludeMutedChats": [
+  "Include Muted Chats"
+ ],
+ "NotificationSettings.IncludePublicGroups": [
+  "Include Public Groups"
+ ],
+ "NotificationSettings.MessagesPreview": [
+  "Message Preview"
+ ],
+ "NotificationSettings.NotificationTone": [
+  "Notification Tone"
+ ],
+ "NotificationSettings.ResetNotifications": [
+  "Reset Notifications"
+ ],
+ "NotificationSettings.ResetNotificationsText": [
+  "You can set custom notifications for specific chats below."
+ ],
+ "NotificationSettings.SendMessageEffect": [
+  "Sent Message"
+ ],
+ "NotificationSettings.ShowNotificationsFrom": [
+  "SHOW NOTIFICATIONS FROM"
+ ],
+ "NotificationSettings.ShowNotificationsFrom.Off": [
+  "Turn this on if you want to receive notifications from all your accounts."
+ ],
+ "NotificationSettings.ShowNotificationsFrom.On": [
+  "Turn this off if you want to receive notifications only from the account you are currently using."
+ ],
+ "NotificationSettings.Snoof": [
+  "Show Notifications"
+ ],
+ "NotificationSettings.Snoof.Off": [
+  "Turn this on if you want to always receive notifications."
+ ],
+ "NotificationSettings.Snoof.On": [
+  "Turn this off if you want to receive notifications only when application is not in focus."
+ ],
+ "NotificationSettings.SnoofHeader": [
+  "WHEN APP IS IN FOCUS"
+ ],
+ "NotificationSettings.SoundEffects": [
+  "SOUND EFFECTS"
+ ],
+ "NotificationSettings.ToggleNotifications": [
+  "Notifications"
+ ],
+ "NotificationSettings.ToggleNotifications.Header": [
+  "NOTIFICATIONS"
+ ],
+ "NotificationSettings.Tone.Default": [
+  "Default"
+ ],
+ "NotificationSettings.TurnOn": [
+  "Allow in System Settings"
+ ],
+ "NotificationSettings.TurnOn.Text.Text": [
+  "Don't miss important messages from your family and friends."
+ ],
+ "NotificationSettings.TurnOn.Text.Title": [
+  "Allow Notifications"
+ ],
+ "NotificationSettingsToneNone": [
+  "None"
+ ],
+ "NotificationSound.Title": [
+  "Notification Sound"
+ ],
+ "NotificationSound.Tones.Info": [
+  "Open the context menu of any short voice note or MP3 file in any chat and select \"Save for Notifications\". It will appear here."
+ ],
+ "NotificationSound.Tones.Title": [
+  "TELEGRAM TONES"
+ ],
+ "NotificationSound.Tones.Upload": [
+  "Upload Sound"
+ ],
+ "NotificationsSound.Alert": [
+  "Alert"
+ ],
+ "NotificationsSound.Aurora": [
+  "Aurora"
+ ],
+ "NotificationsSound.Bamboo": [
+  "Bamboo"
+ ],
+ "NotificationsSound.Bell": [
+  "Bell"
+ ],
+ "NotificationsSound.Calypso": [
+  "Calypso"
+ ],
+ "NotificationsSound.Chime": [
+  "Chime"
+ ],
+ "NotificationsSound.Chord": [
+  "Chord"
+ ],
+ "NotificationsSound.Circles": [
+  "Circles"
+ ],
+ "NotificationsSound.Complete": [
+  "Complete"
+ ],
+ "NotificationsSound.Glass": [
+  "Glass"
+ ],
+ "NotificationsSound.Hello": [
+  "Hello"
+ ],
+ "NotificationsSound.Input": [
+  "Input"
+ ],
+ "NotificationsSound.Keys": [
+  "Keys"
+ ],
+ "NotificationsSound.None": [
+  "None"
+ ],
+ "NotificationsSound.Note": [
+  "Note"
+ ],
+ "NotificationsSound.Popcorn": [
+  "Popcorn"
+ ],
+ "NotificationsSound.Pulse": [
+  "Pulse"
+ ],
+ "NotificationsSound.Synth": [
+  "Synth"
+ ],
+ "NotificationsSound.Telegraph": [
+  "Telegraph"
+ ],
+ "NotificationsSound.Tremolo": [
+  "Tremolo"
+ ],
+ "NotificationsSound.Tritone": [
+  "Tri-tone"
+ ],
+ "Passcode.AutoLock.Disabled": [
+  "Disabled"
+ ],
+ "Passcode.AutoLock.IfAway": [
+  "If away for %@"
+ ],
+ "Passcode.Autolock": [
+  "Auto-Lock"
+ ],
+ "Passcode.Change": [
+  "Change passcode"
+ ],
+ "Passcode.EnterCurrentPlaceholder": [
+  "Enter your current passcode"
+ ],
+ "Passcode.EnterNewPlaceholder": [
+  "Enter the new passcode"
+ ],
+ "Passcode.ReEnterPlaceholder": [
+  "Re-enter the passcode"
+ ],
+ "Passcode.SettingsViewController.LockTelegram": [
+  "Lock Telegram"
+ ],
+ "Passcode.SettingsViewController.LockWallet": [
+  "Lock Money"
+ ],
+ "Passcode.TurnOff": [
+  "Turn Passcode Off"
+ ],
+ "Passcode.TurnOn": [
+  "Turn Passcode On"
+ ],
+ "Passcode.UseTouchId": [
+  "Unlock with Touch ID"
+ ],
+ "PasscodeController.Change.Title": [
+  "Change Passcode"
+ ],
+ "PasscodeController.Current.Placeholder": [
+  "Enter current passcode"
+ ],
+ "PasscodeController.Disable.Title": [
+  "Disable Passcode"
+ ],
+ "PasscodeController.EnterPasscode.Placeholder": [
+  "Enter a passcode"
+ ],
+ "PasscodeController.Error.Current": [
+  "invalid passcode"
+ ],
+ "PasscodeController.Error.Different": [
+  "passcodes are different"
+ ],
+ "PasscodeController.Header.Current": [
+  "CURRENT PASSCODE"
+ ],
+ "PasscodeController.Header.New": [
+  "NEW PASSCODE"
+ ],
+ "PasscodeController.Install.Title": [
+  "Passcode"
+ ],
+ "PasscodeController.ReEnterPasscode.Placeholder": [
+  "Re-enter new passcode"
+ ],
+ "PasscodeController.Text": [
+  "To lock, hover over the Settings icon in the tab bar and choose \"Lock Telegram\" or use ⌘ + L.Note: if you forget your local passcode, you'll need to log out of Telegram for macOS and log in again."
+ ],
+ "PasscodeController.WalletBiometrics.Title": [
+  "Confirm with Touch ID"
+ ],
+ "PasscodeController.WalletProtection.Title": [
+  "Confirm with Passcode"
+ ],
+ "PasscodeController.WalletProtectionInfo": [
+  "Required when sending funds or confirming other sensitive Wallet actions."
+ ],
+ "Peer.Status.online": [
+  "online"
+ ],
+ "PeerInfo.Action.Statistics": [
+  "Statistics"
+ ],
+ "PeerInfo.LastName.Placeholder": [
+  "Last Name"
+ ],
+ "PeerInfo.Notifications": [
+  "Notifications"
+ ],
+ "PeerInfo.NotificationsDefault": [
+  "Default"
+ ],
+ "PeerInfo.Premium.Tooltip": [
+  "Premium Account. [Read More](premium)"
+ ],
+ "PeerList.Archive.Settings": [
+  "Archive Settings"
+ ],
+ "Premium.Boarding.Avatar.Info": [
+  "Video avatars animated in chat lists and chats to allow for additional self-expression."
+ ],
+ "Premium.Boarding.Avatar.Title": [
+  "Animated Profile Pictures"
+ ],
+ "Premium.Boarding.Badge.Info": [
+  "An exclusive badge next to your name showing that you subscribe to Telegram Premium."
+ ],
+ "Premium.Boarding.Badge.Title": [
+  "Profile Badge"
+ ],
+ "Premium.Boarding.Chats.Info": [
+  "Tools to set default folder, auto-archive and hide new chats."
+ ],
+ "Premium.Boarding.Chats.Title": [
+  "Advanced Chat Management"
+ ],
+ "Premium.Boarding.Double.Accounts": [
+  "Connected Accounts"
+ ],
+ "Premium.Boarding.Double.Accounts.Info": [
+  "Connect %@ accounts with different mobile numbers"
+ ],
+ "Premium.Boarding.Double.Bio": [
+  "Bio"
+ ],
+ "Premium.Boarding.Double.Bio.Info": [
+  "Add more symbols and use links in your bio"
+ ],
+ "Premium.Boarding.Double.Captions": [
+  "Captions"
+ ],
+ "Premium.Boarding.Double.Captions.Info": [
+  "Use longer descriptions for your photos and videos"
+ ],
+ "Premium.Boarding.Double.ChatsPerFolder": [
+  "Chats per Folder"
+ ],
+ "Premium.Boarding.Double.ChatsPerFolder.Info": [
+  "Add up to %@ chats into each of your folders"
+ ],
+ "Premium.Boarding.Double.FavedStickers": [
+  "Favorite Stickers"
+ ],
+ "Premium.Boarding.Double.FavedStickers.Info": [
+  "Save up to %@ stickers in your Favorite stickers"
+ ],
+ "Premium.Boarding.Double.Folders": [
+  "Folders"
+ ],
+ "Premium.Boarding.Double.Folders.Info": [
+  "Organize your chats into %@ folders"
+ ],
+ "Premium.Boarding.Double.GroupsAndChannels": [
+  "Groups and Channels"
+ ],
+ "Premium.Boarding.Double.GroupsAndChannels.Info": [
+  "Join up to %@ channels and large groups"
+ ],
+ "Premium.Boarding.Double.PinnedChats": [
+  "Pinned Chats"
+ ],
+ "Premium.Boarding.Double.PinnedChats.Info": [
+  "Pin up to %@ chats in your main chat list"
+ ],
+ "Premium.Boarding.Double.PublicLinks": [
+  "Public Links"
+ ],
+ "Premium.Boarding.Double.PublicLinks.Info": [
+  "Reserve up to %@ t.me/username links"
+ ],
+ "Premium.Boarding.Double.SavedGifs": [
+  "Saved GIFs"
+ ],
+ "Premium.Boarding.Double.SavedGifs.Info": [
+  "Save up to %@ GIFs in your Favorite GIFs"
+ ],
+ "Premium.Boarding.Double.Title": [
+  "Doubled Limits"
+ ],
+ "Premium.Boarding.Emoji.Info": [
+  "Include animated emoji from different packs in any message you send."
+ ],
+ "Premium.Boarding.Emoji.Title": [
+  "Animated Emoji"
+ ],
+ "Premium.Boarding.Got.Title": [
+  "You are all set!"
+ ],
+ "Premium.Boarding.NoAds.Info": [
+  "No more ads in public channels where Telegram sometimes shows ads."
+ ],
+ "Premium.Boarding.NoAds.Title": [
+  "No Ads"
+ ],
+ "Premium.Boarding.Reactions.Info": [
+  "Additional animated reactions on messages, available only to Premium subscribers."
+ ],
+ "Premium.Boarding.Reactions.Title": [
+  "Unique Reactions"
+ ],
+ "Premium.Boarding.ReactionsNew.Info": [
+  "React with thousands of emoji — with multiple reactions per message."
+ ],
+ "Premium.Boarding.Status.Info": [
+  "Choose from thousands of emoji to display current activity next to your name."
+ ],
+ "Premium.Boarding.Status.Title": [
+  "Emoji Statuses"
+ ],
+ "Premium.Boarding.Stickers.Info": [
+  "Exclusive enlarged stickers featuring additional effects, updated regularly."
+ ],
+ "Premium.Boarding.Stickers.Title": [
+  "Premium Stickers"
+ ],
+ "Premium.Boarding.Subscribe": [
+  "Subscribe for %@ per month"
+ ],
+ "Premium.Boarding.Voice.Info": [
+  "Ability to read the transcript of any incoming voice message."
+ ],
+ "Premium.Boarding.Voice.Title": [
+  "Voice-to-Text Conversion"
+ ],
+ "Premium.Limit.About.Info": [
+  "The 'Bio' section can't have more than **%1$@** characters. You can double this limit to **%2$@** characters by subscribing to **Telegram Premium**."
+ ],
+ "Premium.Limit.Folders.Info": [
+  "You have reached the limit of **%1$@** folders. You can double the limit to **%2$@** folders by subscribing to **Telegram Premium**."
+ ],
+ "Premium.Limit.Free": [
+  "Free"
+ ],
+ "Premium.Limit.Increase": [
+  "Increase Limit"
+ ],
+ "Premium.Limit.Premium": [
+  "Premium"
+ ],
+ "Premium.Limit.Reached": [
+  "Limit Reached"
+ ],
+ "Premium.Limit.SharedFolders.Info": [
+  "You can only add **%1$@** shareable folders. Upgrade to **Telegram Premium** to increase this limit to **%2$@**."
+ ],
+ "Premium.Limit.SharedFoldersInvites.Info": [
+  "You can only create **%1$@** invite links. Upgrade to **Telegram Premium** to create up to **%2$@**."
+ ],
+ "Privacy.ResetPhoto.Confirm": [
+  "Are you sure you want to remove your public photo?"
+ ],
+ "PrivacyAndSecurity.AutoArchiveDesc": [
+  "Automatically archive and mute new chats, groups and channels from non-contacts."
+ ],
+ "PrivacyAndSecurity.AutoArchiveHeader": [
+  "NEW CHATS FROM UNKNOWN USERS"
+ ],
+ "PrivacyAndSecurity.AutoArchiveText": [
+  "Archive and Mute"
+ ],
+ "PrivacyAndSecurity.BlockedUsers": [
+  "%@"
+ ],
+ "PrivacyAndSecurity.ClearCloudDrafts": [
+  "Delete All Cloud Drafts"
+ ],
+ "PrivacyAndSecurity.ClearCloudDraftsHeader": [
+  "CHATS"
+ ],
+ "PrivacyAndSecurity.Confirm.ClearCloudDrafts": [
+  "Are you sure you want to delete all cloud drafts?"
+ ],
+ "PrivacyAndSecurity.Item.Off": [
+  "Off"
+ ],
+ "PrivacyAndSecurity.Item.On": [
+  "On"
+ ],
+ "PrivacyAndSecurity.SecretChatWebPreview.Desc": [
+  "Link previews will be generated on Telegram servers. We do not store any data about the links you send."
+ ],
+ "PrivacyAndSecurity.SecretChatWebPreview.Header": [
+  "SECRET CHAT"
+ ],
+ "PrivacyAndSecurity.SecretChatWebPreview.Text": [
+  "Link Previews"
+ ],
+ "PrivacyAndSecurity.SensitiveDesc": [
+  "Display sensitive media in public channels on all your Telegram devices."
+ ],
+ "PrivacyAndSecurity.SensitiveHeader": [
+  "SENSITIVE CONTENT"
+ ],
+ "PrivacyAndSecurity.SensitiveText": [
+  "Disable filtering"
+ ],
+ "PrivacyAndSecurity.WebAuthorizationHeader": [
+  "CONNECTED WEBSITES"
+ ],
+ "PrivacyPhoneNumberSettings.CustomDisabledHelp": [
+  "Users who add your number to their contacts will see it on Telegram only if they are your contacts."
+ ],
+ "PrivacyPhoneNumberSettings.DiscoveryHeader": [
+  "WHO CAN FIND ME BY MY NUMBER"
+ ],
+ "PrivacySettings.ActiveSessions": [
+  "Active Sessions"
+ ],
+ "PrivacySettings.Bio": [
+  "Bio"
+ ],
+ "PrivacySettings.BlockedUsers": [
+  "Blocked Users"
+ ],
+ "PrivacySettings.DeleteAccount": [
+  "If Away For"
+ ],
+ "PrivacySettings.DeleteAccountDescription": [
+  "If you do not come online at least once within this period, your account will be deleted along with all messages and contacts."
+ ],
+ "PrivacySettings.DeleteAccountHeader": [
+  "DELETE MY ACCOUNT"
+ ],
+ "PrivacySettings.GlobalTimer": [
+  "Auto-Delete Messages"
+ ],
+ "PrivacySettings.GlobalTimer.Info": [
+  "Automatically delete messages for everyone after a period of time in all new chats you start."
+ ],
+ "PrivacySettings.GlobalTimer.Never": [
+  "Off"
+ ],
+ "PrivacySettings.GroupMembersCount": [
+  "%d member",
+  "%d members"
+ ],
+ "PrivacySettings.Groups": [
+  "Groups & Channels"
+ ],
+ "PrivacySettings.LastSeen": [
+  "Last Seen & Online"
+ ],
+ "PrivacySettings.LastSeenContactsMinus": [
+  "My Contacts (-%@)"
+ ],
+ "PrivacySettings.LastSeenContactsMinusPlus": [
+  "My Contacts (-%@, +%@)"
+ ],
+ "PrivacySettings.LastSeenContactsPlus": [
+  "My Contacts (+%@)"
+ ],
+ "PrivacySettings.LastSeenEverybodyMinus": [
+  "Everybody (-%@)"
+ ],
+ "PrivacySettings.LastSeenNobodyPlus": [
+  "Nobody (+%@)"
+ ],
+ "PrivacySettings.Passcode": [
+  "Passcode Lock"
+ ],
+ "PrivacySettings.PeerSelect.AddNew": [
+  "Add New"
+ ],
+ "PrivacySettings.PeerSelect.AddUserOrGroup": [
+  "Add Users or Groups"
+ ],
+ "PrivacySettings.PhoneNumber": [
+  "Phone Number"
+ ],
+ "PrivacySettings.PrivacyHeader": [
+  "PRIVACY"
+ ],
+ "PrivacySettings.ProfilePhoto": [
+  "Profile Photos"
+ ],
+ "PrivacySettings.ProxyHeader": [
+  "CONNECTION TYPE"
+ ],
+ "PrivacySettings.SecurityHeader": [
+  "SECURITY"
+ ],
+ "PrivacySettings.TwoStepVerification": [
+  "Two-Step Verification"
+ ],
+ "PrivacySettings.UseProxy": [
+  "Use Proxy"
+ ],
+ "PrivacySettings.Voice.PremiumError": [
+  "Only subscribers of [Telegram Premium]() can restrict receiving Voice and Video Messages."
+ ],
+ "PrivacySettings.VoiceCalls": [
+  "Calls"
+ ],
+ "PrivacySettings.VoiceMessages": [
+  "Voice Messages"
+ ],
+ "PrivacySettingsController.AddUsers": [
+  "Add Users"
+ ],
+ "PrivacySettingsController.AlwaysAllow": [
+  "Always Allow"
+ ],
+ "PrivacySettingsController.AlwaysShare": [
+  "Always Share With"
+ ],
+ "PrivacySettingsController.AlwaysShareWith": [
+  "Always Share With…"
+ ],
+ "PrivacySettingsController.Bio.CustomHelp": [
+  "You can restrict who can see the bio on your profile with granular precision."
+ ],
+ "PrivacySettingsController.Bio.WhoCanSee": [
+  "WHO CAN SEE MY BIO"
+ ],
+ "PrivacySettingsController.Everbody": [
+  "Everybody"
+ ],
+ "PrivacySettingsController.Forwards.AlwaysAllow.Title": [
+  "Always Allow"
+ ],
+ "PrivacySettingsController.Forwards.CustomHelp": [
+  "You can restrict who can add a link to your account when forwarding your messages."
+ ],
+ "PrivacySettingsController.Forwards.NeverAllow.Title": [
+  "Never Allow"
+ ],
+ "PrivacySettingsController.Forwards.WhoCanForward": [
+  "WHO CAN ADD A LINK TO MY ACCOUNT WHEN FORWARDING MY MESSAGES"
+ ],
+ "PrivacySettingsController.GroupDescription": [
+  "You can restrict who can add you to groups and channels with granular precision."
+ ],
+ "PrivacySettingsController.GroupHeader": [
+  "WHO CAN ADD ME TO GROUP CHATS"
+ ],
+ "PrivacySettingsController.Header": [
+  "Last Seen & Online"
+ ],
+ "PrivacySettingsController.LastSeenDescription": [
+  "Unless you are a Premium user, you won't see Last Seen or Online statuses for people with whom you don't share yours. Approximate times will be shown instead (recently, within a week, within a month)."
+ ],
+ "PrivacySettingsController.LastSeenHeader": [
+  "WHO CAN SEE MY LAST SEEN"
+ ],
+ "PrivacySettingsController.MyContacts": [
+  "My Contacts"
+ ],
+ "PrivacySettingsController.NeverAllow": [
+  "Never Allow"
+ ],
+ "PrivacySettingsController.NeverShare": [
+  "Never Share With"
+ ],
+ "PrivacySettingsController.NeverShareWith": [
+  "Never Share With"
+ ],
+ "PrivacySettingsController.Nobody": [
+  "Nobody"
+ ],
+ "PrivacySettingsController.P2p.Always": [
+  "Always"
+ ],
+ "PrivacySettingsController.P2p.Contacts": [
+  "My Contacts"
+ ],
+ "PrivacySettingsController.P2p.Desc": [
+  "Disabling peer-to-peer will relay all calls through Telegram servers to avoid revealing your IP address, but may decrease audio and video quality."
+ ],
+ "PrivacySettingsController.P2p.Header": [
+  "PEER TO PEER"
+ ],
+ "PrivacySettingsController.P2p.Never": [
+  "Never"
+ ],
+ "PrivacySettingsController.PeerInfo": [
+  "You can add users or entire groups as exceptions that will override the settings above."
+ ],
+ "PrivacySettingsController.PhoneCallDescription": [
+  "Choose exactly who can and can't call you."
+ ],
+ "PrivacySettingsController.PhoneCallHeader": [
+  "WHO CAN CALL ME"
+ ],
+ "PrivacySettingsController.PhoneNumber.AlwaysAllow.Title": [
+  "Always Share With…"
+ ],
+ "PrivacySettingsController.PhoneNumber.CustomHelp": [
+  "Users who have your number saved in their contacts will also see it on Telegram."
+ ],
+ "PrivacySettingsController.PhoneNumber.WhoCanSeePhoneNumber": [
+  "WHO CAN SEE MY PHONE NUMBER"
+ ],
+ "PrivacySettingsController.ProfilePhoto.AlwaysShareWith.Title": [
+  "Always Share With…"
+ ],
+ "PrivacySettingsController.ProfilePhoto.CustomHelp": [
+  "You can restrict who can see your profile photo with granular precision."
+ ],
+ "PrivacySettingsController.ProfilePhoto.NeverShareWith.Title": [
+  "Never Share With…"
+ ],
+ "PrivacySettingsController.ProfilePhoto.WhoCanSeeMyPhoto": [
+  "WHO CAN SEE MY PROFILE PHOTO"
+ ],
+ "PrivacySettingsController.RemovePublicPhoto": [
+  "Remove Public Photo"
+ ],
+ "PrivacySettingsController.SetPublicPhoto": [
+  "Set Public Photo"
+ ],
+ "PrivacySettingsController.SetPublicPhoto.Info": [
+  "You can upload a public photo for users who are restricted from seeing your real profile photos."
+ ],
+ "PrivacySettingsController.UpdatePublicPhoto": [
+  "Update Public Photo"
+ ],
+ "PrivacySettingsController.UserCount": [
+  "%d user",
+  "%d users"
+ ],
+ "PrivacySettingsController.VoiceMessagesDescription": [
+  "You can restrict who can send you voice or video messages."
+ ],
+ "PrivacySettingsController.VoiceMessagesHeader": [
+  "WHO CAN SEND ME VOICE AND VIDEO MESSAGES"
+ ],
+ "Proxy.ForceEnable.Enable": [
+  "Enable Proxy"
+ ],
+ "Proxy.ForceEnable.Header1": [
+  "Do you want to add this proxy?"
+ ],
+ "Proxy.ForceEnable.MTPDesc": [
+  "This proxy may display a sponsored channel in your chat list. This doesn't reveal any of your Telegram traffic."
+ ],
+ "Proxy.ForceEnable.OK": [
+  "Add Proxy"
+ ],
+ "Proxy.ForceEnable.Text": [
+  "You can change your proxy server later in Settings > Privacy and Security."
+ ],
+ "Proxy.ForceEnable.Text.IP": [
+  "Server: %@"
+ ],
+ "Proxy.ForceEnable.Text.Password": [
+  "Password: %@"
+ ],
+ "Proxy.ForceEnable.Text.Port": [
+  "Port: %d"
+ ],
+ "Proxy.ForceEnable.Text.Secret": [
+  "Secret: %@"
+ ],
+ "Proxy.ForceEnable.Text.Username": [
+  "Username: %@"
+ ],
+ "ProxySettings.AddProxy": [
+  "Add Proxy"
+ ],
+ "ProxySettings.ConnectionHeader": [
+  "Connection"
+ ],
+ "ProxySettings.CopyLink": [
+  "Share proxy link"
+ ],
+ "ProxySettings.CredentialsHeader": [
+  "CREDENTIALS (OPTIONAL)"
+ ],
+ "ProxySettings.Disabled": [
+  "Disabled"
+ ],
+ "ProxySettings.Enable": [
+  "Proxy"
+ ],
+ "ProxySettings.ExportDescription": [
+  "If your clipboard contains socks5-link (**t.me/socks?server=127.0.0.1&port=80**) it will apply immediately"
+ ],
+ "ProxySettings.ExportLink": [
+  "Export link from clipboard"
+ ],
+ "ProxySettings.IncorrectSecret": [
+  "Incorrect secret. Please try again."
+ ],
+ "ProxySettings.Item.Available": [
+  "available (ping: %@ ms)"
+ ],
+ "ProxySettings.Item.Checking": [
+  "checking"
+ ],
+ "ProxySettings.Item.Connected": [
+  "connected"
+ ],
+ "ProxySettings.Item.ConnectedPing": [
+  "connected (ping: %@ ms)"
+ ],
+ "ProxySettings.Item.NeverConnected": [
+  "unavailable"
+ ],
+ "ProxySettings.MTP": [
+  "MTPROTO"
+ ],
+ "ProxySettings.Mtp.Sponsor": [
+  "The proxy may display a sponsored channel in your chat list. This doesn't reveal any of your Telegram traffic."
+ ],
+ "ProxySettings.Password": [
+  "Password"
+ ],
+ "ProxySettings.Port": [
+  "Port"
+ ],
+ "ProxySettings.ProxyNotFound": [
+  "Proxy settings not found in clipboard."
+ ],
+ "ProxySettings.QR.Text": [
+  "Your friends can add this proxy by scanning the code with their camera."
+ ],
+ "ProxySettings.Save": [
+  "Save"
+ ],
+ "ProxySettings.Secret": [
+  "Secret"
+ ],
+ "ProxySettings.Server": [
+  "Server"
+ ],
+ "ProxySettings.Share": [
+  "Share this link with friends to circumvent censorship in your country"
+ ],
+ "ProxySettings.ShareProxyList": [
+  "Share Proxy List"
+ ],
+ "ProxySettings.Socks5": [
+  "SOCKS5"
+ ],
+ "ProxySettings.Title": [
+  "Proxy Settings"
+ ],
+ "ProxySettings.Type": [
+  "Proxy Type"
+ ],
+ "ProxySettings.UseForCalls": [
+  "Use for Calls"
+ ],
+ "ProxySettings.Username": [
+  "Username"
+ ],
+ "Reaction.Settings.Legacy": [
+  "Hover Reactions"
+ ],
+ "Reaction.Settings.Legacy.Info": [
+  "Reaction button will be shown when you hover next to a message."
+ ],
+ "Reaction.Settings.Quick.Info": [
+  "QUICK REACTION"
+ ],
+ "Reaction.Settings.Quick.Title": [
+  "Quick Reaction"
+ ],
+ "RecentSessions.Confirm.Revoke": [
+  "Do you want to terminate this session?"
+ ],
+ "RecentSessions.Confirm.TerminateOthers": [
+  "Are you sure you want to terminate all other sessions?"
+ ],
+ "RecentSessions.Error.FreshReset": [
+  "For security reasons, you can't terminate older sessions from a device that you've just connected. Please use an earlier connection or wait for a few hours."
+ ],
+ "RecentSessions.IncompleteAttemptDesc": [
+  "These devices have no access to your account. The code was entered correctly, but no correct password was given."
+ ],
+ "RecentSessions.IncompleteAttemptHeader": [
+  "INCOMPLETE LOGIN ATTEMPTS"
+ ],
+ "RecentSessions.Revoke": [
+  "Revoke"
+ ],
+ "RecentSessions.TTL.Header": [
+  "AUTOMATICALLY TERMINATE OLD SESSIONS"
+ ],
+ "RecentSessions.TTL.Text": [
+  "If Inactive For"
+ ],
+ "SearchField.Search": [
+  "Search"
+ ],
+ "SecureId.CreatePassword.RePasswordInputPlaceholder": [
+  "Re-Enter your password"
+ ],
+ "SelectColor.Apply": [
+  "Apply"
+ ],
+ "SelectColor.Icon.Info.User": [
+  "Make replies to your messages stand out by adding custom icons to them."
+ ],
+ "SelectColor.Icon.RemoveIcon": [
+  "REMOVE ICON"
+ ],
+ "SelectColor.Icon.Select": [
+  "Icon"
+ ],
+ "SelectColor.Icon.Select.Off": [
+  "Not Selected"
+ ],
+ "SelectColor.Icon.Title": [
+  "ADD ICON TO REPLIES"
+ ],
+ "SelectColor.Info.User": [
+  "This color will be used for your name, the links you send, and replies to your messages."
+ ],
+ "SelectColor.Message1": [
+  "Reply to your message"
+ ],
+ "SelectColor.Message2": [
+  "Your name and replies to your messages will be shown in the selected color."
+ ],
+ "SelectColor.Message2.Preview.Text": [
+  "Previews of links you send will also use this color."
+ ],
+ "SelectColor.Message2.Preview.Title": [
+  "Link Preview"
+ ],
+ "SelectColor.Premium": [
+  "Subscribe to [Telegram Premium]() to choose a custom color for your name."
+ ],
+ "SelectColor.Preview": [
+  "COLOR PREVIEW"
+ ],
+ "SelectColor.Success.User": [
+  "Your name color has been updated!"
+ ],
+ "SelectColor.Title.User": [
+  "Your Name Color"
+ ],
+ "SessionPreview.Accept.Calls": [
+  "Incoming Calls"
+ ],
+ "SessionPreview.Accept.Secret": [
+  "New Secret Chats"
+ ],
+ "SessionPreview.AcceptHeader": [
+  "ACCEPT ON THIS DEVICE"
+ ],
+ "SessionPreview.App": [
+  "Application"
+ ],
+ "SessionPreview.Ip": [
+  "IP Address"
+ ],
+ "SessionPreview.IpDesc": [
+  "This location estimate is based on the IP address and may not always be accurate."
+ ],
+ "SessionPreview.Location": [
+  "Location"
+ ],
+ "SessionPreview.TerminateSession": [
+  "Terminate Session"
+ ],
+ "SessionPreview.Title": [
+  "Session"
+ ],
+ "Sessions.ActiveSessionsHeader": [
+  "ACTIVE SESSIONS"
+ ],
+ "Sessions.CurrentSessionHeader": [
+  "THIS DEVICE"
+ ],
+ "Sessions.TerminateDescription": [
+  "Logs out all devices except for this one."
+ ],
+ "Sessions.TerminateOthers": [
+  "Terminate all other sessions"
+ ],
+ "SettingsSearch.EmptyItem": [
+  "Search results from Settings and the Telegram FAQ will appear here."
+ ],
+ "Share.Link.Copied": [
+  "Copied to Clipboard"
+ ],
+ "ShareExtension.Search": [
+  "Search"
+ ],
+ "ShareExtension.Share": [
+  "Share"
+ ],
+ "ShareFolder.Context.Delete": [
+  "Delete"
+ ],
+ "ShareFolder.Context.NameLink": [
+  "Name Link"
+ ],
+ "ShareFolder.DeselectAll": [
+  "DESELECT ALL"
+ ],
+ "ShareFolder.Discard.Ok": [
+  "Discard"
+ ],
+ "ShareFolder.Discard.Text": [
+  "You have changed the settings of this folder. Discard changes?"
+ ],
+ "ShareFolder.Done.Delete": [
+  "Delete"
+ ],
+ "ShareFolder.Done.Done": [
+  "Done"
+ ],
+ "ShareFolder.Header.Empty.Info": [
+  "You can only share groups and channels in which you are allowed to create invite links."
+ ],
+ "ShareFolder.Header.Empty.Title": [
+  "THESE CHATS CANNOT BE SHARED"
+ ],
+ "ShareFolder.Header.Info": [
+  "Select groups and channels that you want everyone who adds the folder via invite link to join."
+ ],
+ "ShareFolder.Header.Title": [
+  "%d CHAT SELECTED",
+  "%d CHAT SELECTED"
+ ],
+ "ShareFolder.Header.Title_ZeroValueHolder": [
+  "CHATS"
+ ],
+ "ShareFolder.InviteLink.Title": [
+  "INVITE LINK"
+ ],
+ "ShareFolder.NameLink.Placeholder": [
+  "Link name"
+ ],
+ "ShareFolder.NameLink.Title": [
+  "Name Link"
+ ],
+ "ShareFolder.SelectAll": [
+  "SELECT ALL"
+ ],
+ "ShareFolder.Status.Allowed": [
+  "you can invite users here"
+ ],
+ "ShareFolder.Status.Disallowed.Alert.Channel": [
+  "You don't have the admin rights to share invite links to this channel."
+ ],
+ "ShareFolder.Status.Disallowed.Alert.Group": [
+  "You don't have the admin rights to share invite links to this group chat."
+ ],
+ "ShareFolder.Status.Disallowed.Alert.PrivateChats": [
+  "You can't share private chats."
+ ],
+ "ShareFolder.Status.Disallowed.Bot": [
+  "you can't share bots"
+ ],
+ "ShareFolder.Status.Disallowed.Others": [
+  "you can't invite users here"
+ ],
+ "ShareFolder.Status.Disallowed.PrivateChats": [
+  "you can't share private chats"
+ ],
+ "ShareFolder.Title": [
+  "Share Folder"
+ ],
+ "ShareFolder.Title.Text": [
+  "Anyone with this link can add **%1$@** folder and the %2$d chat selected below.",
+  "Anyone with this link can add **%1$@** folder and the %2$d chats selected below."
+ ],
+ "ShareFolder.Title.Text.Empty": [
+  "There are no chats in this folder that you can share with others"
+ ],
+ "ShareFolder.Title.Text_ZeroValueHolder": [
+  "Please select chats below to share folder."
+ ],
+ "ShortcutsController.Chat": [
+  "CHAT"
+ ],
+ "ShortcutsController.Chat.EditLastMessage": [
+  "Edit Last Message"
+ ],
+ "ShortcutsController.Chat.OpenInfo": [
+  "Open Info"
+ ],
+ "ShortcutsController.Chat.RecordVoiceMessage": [
+  "Record Voice/Video Message"
+ ],
+ "ShortcutsController.Chat.SearchMessages": [
+  "Search Messages"
+ ],
+ "ShortcutsController.Chat.SelectMessageToReply": [
+  "Select Message To Reply"
+ ],
+ "ShortcutsController.Gestures": [
+  "GESTURES"
+ ],
+ "ShortcutsController.Gestures.ChatAction": [
+  "Chat List Actions"
+ ],
+ "ShortcutsController.Gestures.ChatAction.Value": [
+  "Swipe Left or Right"
+ ],
+ "ShortcutsController.Gestures.Navigation": [
+  "Navigation Back"
+ ],
+ "ShortcutsController.Gestures.Navigations.Value": [
+  "Swipe From Left To Right"
+ ],
+ "ShortcutsController.Gestures.Reply": [
+  "Reply"
+ ],
+ "ShortcutsController.Gestures.Reply.Value": [
+  "Swipe From Right To Left"
+ ],
+ "ShortcutsController.Gestures.Stickers": [
+  "Sticker/Emoji/GIF Panel"
+ ],
+ "ShortcutsController.Gestures.Stickers.Value": [
+  "Swipe Left or Right"
+ ],
+ "ShortcutsController.Markdown": [
+  "MARKDOWN"
+ ],
+ "ShortcutsController.Markdown.Bold": [
+  "Bold"
+ ],
+ "ShortcutsController.Markdown.Hyperlink": [
+  "Hyperlink"
+ ],
+ "ShortcutsController.Markdown.Italic": [
+  "Italic"
+ ],
+ "ShortcutsController.Markdown.Monospace": [
+  "Monospace"
+ ],
+ "ShortcutsController.Markdown.Strikethrough": [
+  "Strikethrough"
+ ],
+ "ShortcutsController.Mouse": [
+  "MOUSE"
+ ],
+ "ShortcutsController.Mouse.FastReply": [
+  "Fast Reply"
+ ],
+ "ShortcutsController.Mouse.FastReply.Value": [
+  "Double Click"
+ ],
+ "ShortcutsController.Mouse.ScheduleMessage": [
+  "Schedule message"
+ ],
+ "ShortcutsController.Mouse.ScheduleMessage.Value": [
+  "Option click on 'Send Message'"
+ ],
+ "ShortcutsController.Others": [
+  "OTHERS"
+ ],
+ "ShortcutsController.Others.LockByPasscode": [
+  "Lock by Passcode"
+ ],
+ "ShortcutsController.Search": [
+  "SEARCH"
+ ],
+ "ShortcutsController.Search.GlobalSearch": [
+  "Global Search"
+ ],
+ "ShortcutsController.Search.QuickSearch": [
+  "Quick Search"
+ ],
+ "ShortcutsController.Title": [
+  "Shortcuts"
+ ],
+ "ShortcutsController.VideoChat": [
+  "VIDEO CHAT"
+ ],
+ "ShortcutsController.VideoChat.ToggleCamera": [
+  "Toggle Camera"
+ ],
+ "ShortcutsController.VideoChat.ToggleScreencast": [
+  "Toggle Screen Sharing"
+ ],
+ "StickerPack.Featured.Title": [
+  "Trending Stickers"
+ ],
+ "StickerPack.ShowMore": [
+  "Discover More"
+ ],
+ "StickerSet.Remove": [
+  "Remove"
+ ],
+ "Stickers.Set.Count1": [
+  "%d sticker",
+  "%d stickers"
+ ],
+ "Stickers.SuggestAdded": [
+  "My Sets"
+ ],
+ "Stickers.SuggestAll": [
+  "All Sets"
+ ],
+ "Stickers.SuggestNone": [
+  "None"
+ ],
+ "Stickers.SuggestStickers": [
+  "Suggest Stickers by Emoji"
+ ],
+ "Storage.Clear": [
+  "Clear %@"
+ ],
+ "Storage.Clear.Audio": [
+  "Audio"
+ ],
+ "Storage.Clear.Documents": [
+  "Documents"
+ ],
+ "Storage.Clear.Photos": [
+  "Photos"
+ ],
+ "Storage.Clear.Videos": [
+  "Videos"
+ ],
+ "Storage.ClearAll": [
+  "Clear All"
+ ],
+ "Storage.ClearAll.Confirm.Description": [
+  "Are you sure you want to clear all cached data?"
+ ],
+ "StorageExceptions.Add.Channel": [
+  "Add Channel"
+ ],
+ "StorageExceptions.Add.Group": [
+  "Add Group"
+ ],
+ "StorageExceptions.Add.Private": [
+  "Add Private Chat"
+ ],
+ "StorageExceptions.Remove": [
+  "Remove"
+ ],
+ "StorageExceptions.RemoveAll": [
+  "Delete All Exceptions"
+ ],
+ "StorageExceptions.RemoveAll.Confirm": [
+  "Are you sure you want to remove all exceptions?"
+ ],
+ "StorageExceptions.Title.Channel": [
+  "Channels"
+ ],
+ "StorageExceptions.Title.Group": [
+  "Group Chats"
+ ],
+ "StorageExceptions.Title.Private": [
+  "Private Chats"
+ ],
+ "StorageUsage.Calculating": [
+  "Telegram is calculating the current cache size.This can take a few minutes."
+ ],
+ "StorageUsage.Category.Avatars": [
+  "Avatars"
+ ],
+ "StorageUsage.Category.Files": [
+  "Files"
+ ],
+ "StorageUsage.Category.Miscellaneous": [
+  "Miscellaneous"
+ ],
+ "StorageUsage.Category.Music": [
+  "Music"
+ ],
+ "StorageUsage.Category.Other": [
+  "Other"
+ ],
+ "StorageUsage.Category.Photos": [
+  "Photos"
+ ],
+ "StorageUsage.Category.Stickers": [
+  "Stickers"
+ ],
+ "StorageUsage.Category.Videos": [
+  "Videos"
+ ],
+ "StorageUsage.CategoryText": [
+  "All media will stay in the Telegram cloud and can be re-downloaded if you need them again."
+ ],
+ "StorageUsage.ChatsHeader": [
+  "CHATS"
+ ],
+ "StorageUsage.CleaningProcess": [
+  "Freeing up space by clearing your local cache..."
+ ],
+ "StorageUsage.Clear.Confirm.Info": [
+  "Media and documents will stay in the cloud and can be re-downloaded if you need them again."
+ ],
+ "StorageUsage.Clear.Confirm.OK.All": [
+  "Clear Entire Cache"
+ ],
+ "StorageUsage.Clear.Confirm.OK.Part": [
+  "Clear Selected"
+ ],
+ "StorageUsage.ClearDisabled": [
+  "Clear"
+ ],
+ "StorageUsage.ClearFull": [
+  "Clear Entire Cache %@"
+ ],
+ "StorageUsage.ClearPart": [
+  "Clear Selected %@"
+ ],
+ "StorageUsage.Cleared": [
+  "Storage Cleared"
+ ],
+ "StorageUsage.Cleared.Info": [
+  "All media can be re-downloaded from the Telegram cloud if you need them again."
+ ],
+ "StorageUsage.ClearedText": [
+  "%@ freed on your Device!"
+ ],
+ "StorageUsage.Header": [
+  "Storage Usage"
+ ],
+ "StorageUsage.KeepMedia": [
+  "Keep Media"
+ ],
+ "StorageUsage.KeepMedia.Channels": [
+  "Channels"
+ ],
+ "StorageUsage.KeepMedia.Description": [
+  "Photos, videos and other files from cloud chats that you have **not accessed** during this period will be removed from this device to save disk space.All media will stay in the Telegram cloud and can be re-downloaded if you need it again."
+ ],
+ "StorageUsage.KeepMedia.Description1": [
+  "Photos, videos and other files from cloud chats that you have **not accessed** during this period will be removed from this device to save disk space."
+ ],
+ "StorageUsage.KeepMedia.Exceptions": [
+  "%d exception",
+  "%d exceptions"
+ ],
+ "StorageUsage.KeepMedia.Exceptions_ZeroValueHolder": [
+  "Add Exception"
+ ],
+ "StorageUsage.KeepMedia.Exceptions_countable": [
+  "%d"
+ ],
+ "StorageUsage.KeepMedia.Groups": [
+  "Group Chats"
+ ],
+ "StorageUsage.KeepMedia.Header": [
+  "AUTO-REMOVE CACHED MEDIA"
+ ],
+ "StorageUsage.KeepMedia.Private": [
+  "Private Chats"
+ ],
+ "StorageUsage.Limit.Desc": [
+  "If your cache size exceeds this limit, the oldest media will be removed from the device.All media will stay in the Telegram cloud and can be re-downloaded if you need it again."
+ ],
+ "StorageUsage.Limit.Header": [
+  "MAXIMUM CACHE SIZE"
+ ],
+ "StorageUsage.Limit.InfoUpdated": [
+  "If your cache size exceeds this limit, the oldest unused media will be removed from your device."
+ ],
+ "StorageUsage.Limit.NoLimit": [
+  "No Limit"
+ ],
+ "StorageUsage.Media.VideoMessage": [
+  "Video Message"
+ ],
+ "StorageUsage.Media.Voice": [
+  "Voice Message"
+ ],
+ "StorageUsage.Message.Context.Clear": [
+  "Clear"
+ ],
+ "StorageUsage.Message.Context.Delete": [
+  "Delete"
+ ],
+ "StorageUsage.Message.Context.Preview": [
+  "Preview"
+ ],
+ "StorageUsage.Message.Context.Select": [
+  "Select"
+ ],
+ "StorageUsage.Message.Context.ShowInChat": [
+  "Show Message"
+ ],
+ "StorageUsage.Segment.Chats": [
+  "Chats"
+ ],
+ "StorageUsage.Segment.Media": [
+  "Media"
+ ],
+ "StorageUsage.Segment.Music": [
+  "Music"
+ ],
+ "StorageUsage.Segment.Voice": [
+  "Voice"
+ ],
+ "StorageUsage.Selected.ClearPart": [
+  "Clear Selected %@"
+ ],
+ "StorageUsage.TelegramUsage.Text": [
+  "Telegram uses **%@** of your free disk space."
+ ],
+ "StorageUsage.TelegramUsage.Text.Peer": [
+  "This chat uses **%2$@** of your Telegram Cache."
+ ],
+ "Suggest.Frequent.Contacts": [
+  "Suggest Frequent Contacts"
+ ],
+ "Suggest.Frequent.Contacts.Alert": [
+  "This will delete all data about the people you message frequently as well as the inline bots you are likely to use."
+ ],
+ "Suggest.Frequent.Contacts.Desc": [
+  "Display people you message frequently at the top of the search section for quick access."
+ ],
+ "Telegram.AppearanceViewController": [
+  "Appearance"
+ ],
+ "Telegram.ArchivedStickerPacksController": [
+  "Archived Stickers"
+ ],
+ "Telegram.BlockedPeersViewController": [
+  "Blocked Users"
+ ],
+ "Telegram.DataAndStorageViewController": [
+  "Data and Storage"
+ ],
+ "Telegram.FeaturedStickerPacksController": [
+  "Trending Stickers"
+ ],
+ "Telegram.GeneralSettingsViewController": [
+  "General Settings"
+ ],
+ "Telegram.InstalledStickerPacksController": [
+  "Stickers and Emoji"
+ ],
+ "Telegram.LanguageViewController": [
+  "Language"
+ ],
+ "Telegram.NotificationSettingsViewController": [
+  "Notifications"
+ ],
+ "Telegram.PasscodeSettingsViewController": [
+  "Passcode"
+ ],
+ "Telegram.PhoneNumberConfirmController": [
+  "Change Number"
+ ],
+ "Telegram.PrivacyAndSecurityViewController": [
+  "Privacy and Security"
+ ],
+ "Telegram.ProxySettingsViewController": [
+  "Proxy"
+ ],
+ "Telegram.RecentSessionsController": [
+  "Active Sessions"
+ ],
+ "Telegram.StorageUsageController": [
+  "Storage Usage"
+ ],
+ "Telegram.TwoStepVerificationUnlockController": [
+  "Two-Step Verification"
+ ],
+ "Telegram.UsernameSettingsViewController": [
+  "Username"
+ ],
+ "Telegram.WebSessionsController": [
+  "Logged In with Telegram"
+ ],
+ "ThemePreview.Title": [
+  "Theme Preview"
+ ],
+ "Time.PreciseDate_m10": [
+  "Oct %@, %@ at %@"
+ ],
+ "Time.PreciseDate_m11": [
+  "Nov %@, %@ at %@"
+ ],
+ "Time.PreciseDate_m3": [
+  "Mar %@, %@ at %@"
+ ],
+ "Time.PreciseDate_m4": [
+  "Apr %@, %@ at %@"
+ ],
+ "Time.PreciseDate_m5": [
+  "May %@, %@ at %@"
+ ],
+ "Time.PreciseDate_m6": [
+  "Jun %@, %@ at %@"
+ ],
+ "Time.PreciseDate_m8": [
+  "Aug %@, %@ at %@"
+ ],
+ "Time.PreciseDate_m9": [
+  "Sep %@, %@ at %@"
+ ],
+ "Timer.Forever": [
+  "Forever"
+ ],
+ "Timer.Weeks": [
+  "%d week",
+  "%d weeks"
+ ],
+ "Timer.Years": [
+  "%d year",
+  "%d years"
+ ],
+ "TwoStep.AuthEmailSkip": [
+  "Skip"
+ ],
+ "TwoStepAuth.CancelReset": [
+  "Cancel Reset"
+ ],
+ "TwoStepAuth.CancelReset.Confirm": [
+  "Cancel Reset"
+ ],
+ "TwoStepAuth.CancelReset.Text": [
+  "Cancel the password resetting process? If you proceed, the expired part of the 7-day delay will be lost."
+ ],
+ "TwoStepAuth.ChangeEmail": [
+  "Change Recovery Email"
+ ],
+ "TwoStepAuth.ChangePassword": [
+  "Change Password"
+ ],
+ "TwoStepAuth.ChangePasswordDesc": [
+  "Please enter a new password which will be used to protect your data."
+ ],
+ "TwoStepAuth.Confirm.DisablePassword": [
+  "Are you sure you want to disable your password?"
+ ],
+ "TwoStepAuth.ConfirmEmailCodeDesc": [
+  "Please enter the code we've just emailed to %@."
+ ],
+ "TwoStepAuth.ConfirmationAbort": [
+  "Cancel Two-Step Verification Setup"
+ ],
+ "TwoStepAuth.ConfirmationText": [
+  "Please check your email and click on the validation link to complete Two-Step Verification setup. Be sure to check the spam folder as well."
+ ],
+ "TwoStepAuth.Email": [
+  "Email"
+ ],
+ "TwoStepAuth.EmailHelp": [
+  "Please add your valid email. It is the only way to recover a forgotten password."
+ ],
+ "TwoStepAuth.EmailHelpChange": [
+  "Please enter your new recovery email. It is the only way to recover a forgotten password."
+ ],
+ "TwoStepAuth.EmailSkipAlert": [
+  "No, seriously.If you forget your password, you will lose access to your Telegram account. There will be no way to restore it."
+ ],
+ "TwoStepAuth.EnterPasswordForgot": [
+  "Forgot password?"
+ ],
+ "TwoStepAuth.EnterPasswordHint": [
+  "Hint: %@"
+ ],
+ "TwoStepAuth.EnterPasswordPassword": [
+  "Password"
+ ],
+ "TwoStepAuth.Error.HaventEmail": [
+  "Since you didn't provide a recovery email when setting up your password, your remaining options are either to remember your password or to reset your account."
+ ],
+ "TwoStepAuth.Error.HaventEmail.Reset": [
+  "Reset"
+ ],
+ "TwoStepAuth.Error.HaventEmail.ResetHeader": [
+  "Reset Password"
+ ],
+ "TwoStepAuth.Error.InvalidEmail": [
+  "Please enter a valid email address."
+ ],
+ "TwoStepAuth.Error.LimitExceeded": [
+  "You have entered an invalid password too many times. Please try again later."
+ ],
+ "TwoStepAuth.Error.PasswordsDontMatch": [
+  "Passwords don't match.Please try again."
+ ],
+ "TwoStepAuth.FloodError": [
+  "Too many attempts, please try again later."
+ ],
+ "TwoStepAuth.GenericHelp": [
+  "You have enabled Two-Step verification.You'll need the password you set up here to log in to your Telegram account."
+ ],
+ "TwoStepAuth.PendingEmailHelp": [
+  "Your recovery email %@ is not yet active and pending confirmation."
+ ],
+ "TwoStepAuth.RecoveryCode": [
+  "Code"
+ ],
+ "TwoStepAuth.RecoveryCodeHelp": [
+  "Please check your email and enter the 6-digit code we've sent there to deactivate your cloud password."
+ ],
+ "TwoStepAuth.RecoveryCodeInvalid": [
+  "Invalid code. Please try again."
+ ],
+ "TwoStepAuth.RecoveryEmailUnavailable": [
+  "Having trouble accessing your email %@?"
+ ],
+ "TwoStepAuth.RecoveryEmailUnavailableNew": [
+  "Unable to access your email[%@]()?"
+ ],
+ "TwoStepAuth.RecoveryTitle": [
+  "Email Code"
+ ],
+ "TwoStepAuth.RecoveryUnavailable": [
+  "Since you didn't provide a recovery email when setting up your password, your remaining options are either to remember your password or to reset your account."
+ ],
+ "TwoStepAuth.RemovePassword": [
+  "Disable Password"
+ ],
+ "TwoStepAuth.ResetPending": [
+  "You can reset your password in %@."
+ ],
+ "TwoStepAuth.SetPassword": [
+  "Set Additional Password"
+ ],
+ "TwoStepAuth.SetPasswordHelp": [
+  "You can set a password that will be required when you log in on a new device in addition to the code you get via SMS."
+ ],
+ "TwoStepAuth.SetupEmail": [
+  "Set Recovery Email"
+ ],
+ "TwoStepAuth.SetupEmailTitle": [
+  "Recovery Email"
+ ],
+ "TwoStepAuth.SetupHint": [
+  "Please create a hint for your password"
+ ],
+ "TwoStepAuth.SetupHintDesc": [
+  "You can create an optional hint for your password."
+ ],
+ "TwoStepAuth.SetupHintPlaceholder": [
+  "Hint"
+ ],
+ "TwoStepAuth.SetupHintTitle": [
+  "Password Hint"
+ ],
+ "TwoStepAuth.SetupPasswordConfirmFailed": [
+  "Passwords don't match. Please try again."
+ ],
+ "TwoStepAuth.SetupPasswordConfirmPassword": [
+  "Please re-enter your password"
+ ],
+ "TwoStepAuth.SetupPasswordDesc": [
+  "Please create a password which will be used to protect your data."
+ ],
+ "TwoStepAuth.SetupPasswordEnterPassword": [
+  "Enter your cloud password"
+ ],
+ "TwoStepAuth.SetupPasswordEnterPasswordNew": [
+  "Enter your new password"
+ ],
+ "TwoStepAuth.SetupPasswordTitle": [
+  "Your Password"
+ ],
+ "Update.UpdateTelegram": [
+  "Update Telegram"
+ ],
+ "UpdateApp.UpdateTelegram": [
+  "Update Telegram"
+ ],
+ "UsernameSettings.ChangeDescription": [
+  "You can choose a username on Telegram. If you do, people will be able to find you by this username and contact you without needing your phone number.You can use a-z, 0-9 and underscores. Minimum length is 5 characters."
+ ],
+ "UsernameSettings.Done": [
+  "Done"
+ ],
+ "UsernameSettings.InputPlaceholder": [
+  "Enter your username"
+ ],
+ "UsernameSettings.available": [
+  "%@ is available"
+ ],
+ "VoiceChat.ClickToUnmute.Secondary.PressDefault": [
+  "press ⎵"
+ ],
+ "VoiceChat.Invite.GlobalSearch": [
+  "global search"
+ ],
+ "VoiceChat.InviteMemberToGroupFirstAdd": [
+  "Add"
+ ],
+ "VoiceChat.InviteMemberToGroupFirstText": [
+  "%1$@ isn't a member of \"%2$@\". Add them to the group?"
+ ],
+ "VoiceChat.RemovePeer.Confirm": [
+  "Are you sure you want to remove %1$@ from the group?"
+ ],
+ "VoiceChat.RemovePeer.Confirm.Cancel": [
+  "Cancel"
+ ],
+ "VoiceChat.RemovePeer.Confirm.OK": [
+  "Remove"
+ ],
+ "VoiceChat.RequestAccess": [
+  "Telegram needs access to your microphone so that you can speak."
+ ],
+ "VoiceChat.Settings.PushToTalk.Undefined": [
+  "Undefined"
+ ],
+ "WallpaperPreview.Apply": [
+  "Apply"
+ ],
+ "WallpaperPreview.Blurred": [
+  "Blurred"
+ ],
+ "WallpaperPreview.Header": [
+  "Wallpaper Preview"
+ ],
+ "WallpaperPreview.Plain": [
+  "Plain"
+ ],
+ "WebAuthorizations.Confirm.Revoke": [
+  "Do you want to disconnect this website?"
+ ],
+ "WebAuthorizations.Confirm.RevokeAll": [
+  "Are you sure you want to disconnect all websites?"
+ ],
+ "WebAuthorizations.LoggedIn.Descrpiption": [
+  "CONNECTED WEBSITES"
+ ],
+ "WebAuthorizations.Logout": [
+  "Disconnect"
+ ],
+ "WebAuthorizations.LogoutAll": [
+  "Disconnect All Websites"
+ ],
+ "WebAuthorizations.LogoutAll.Description": [
+  "You can log in on websites that support signing in with Telegram."
+ ],
+ "Widged.Stickers.InfoText": [
+  "More trending stickers are available inSettings > Stickers > [Trending Stickers](trending)."
+ ]
+}

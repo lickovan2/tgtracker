@@ -1,0 +1,374 @@
+{
+ "lng_attach_audio": [
+  "Audio"
+ ],
+ "lng_attach_failed": [
+  "Failed"
+ ],
+ "lng_audio_player_reverse": [
+  "Reverse order"
+ ],
+ "lng_audio_player_shuffle": [
+  "Shuffle"
+ ],
+ "lng_bot_share_location_unavailable": [
+  "Sorry, location sharing is currently unavailable in Telegram Desktop."
+ ],
+ "lng_call_screencast": [
+  "Screencast"
+ ],
+ "lng_choose_audio": [
+  "Choose an audio file"
+ ],
+ "lng_context_show_in_folder": [
+  "Show in Folder"
+ ],
+ "lng_context_to_msg": [
+  "Go To Message"
+ ],
+ "lng_date_and_duration": [
+  "{date}, {duration}"
+ ],
+ "lng_duration_played": [
+  "{played} / {duration}"
+ ],
+ "lng_edit_caption_voice": [
+  "Sorry, you can't edit messages when you have an unsent voice message."
+ ],
+ "lng_link_move_up": [
+  "Move Up"
+ ],
+ "lng_mac_choose_program_menu": [
+  "Other..."
+ ],
+ "lng_media_audio": [
+  "Voice message"
+ ],
+ "lng_media_audio_empty": [
+  "No voice messages here yet"
+ ],
+ "lng_media_download": [
+  "Download"
+ ],
+ "lng_media_file_empty": [
+  "No files here yet"
+ ],
+ "lng_media_file_empty_search": [
+  "No files found"
+ ],
+ "lng_media_file_title": [
+  "Files"
+ ],
+ "lng_media_gif_empty": [
+  "No GIFs here yet"
+ ],
+ "lng_media_link_empty": [
+  "No shared links here yet"
+ ],
+ "lng_media_link_empty_search": [
+  "No shared links found"
+ ],
+ "lng_media_open_with": [
+  "Open With"
+ ],
+ "lng_media_photo_empty": [
+  "No photos here yet"
+ ],
+ "lng_media_save_progress": [
+  "{ready} of {total} {mb}"
+ ],
+ "lng_media_selected_audio": [
+  "{count} Voice message",
+  "{count} Voice messages"
+ ],
+ "lng_media_selected_file": [
+  "{count} File",
+  "{count} Files"
+ ],
+ "lng_media_selected_gif": [
+  "{count} GIF",
+  "{count} GIFs"
+ ],
+ "lng_media_selected_link": [
+  "{count} shared link",
+  "{count} shared links"
+ ],
+ "lng_media_selected_photo": [
+  "{count} Photo",
+  "{count} Photos"
+ ],
+ "lng_media_selected_song": [
+  "{count} Audio file",
+  "{count} Audio files"
+ ],
+ "lng_media_selected_video": [
+  "{count} Video",
+  "{count} Videos"
+ ],
+ "lng_media_song_empty": [
+  "No music files here yet"
+ ],
+ "lng_media_song_empty_search": [
+  "No music files found"
+ ],
+ "lng_media_type_audios": [
+  "Voice messages"
+ ],
+ "lng_media_type_gifs": [
+  "GIFs"
+ ],
+ "lng_media_type_links": [
+  "Shared links"
+ ],
+ "lng_media_type_photos": [
+  "Photos"
+ ],
+ "lng_media_type_songs": [
+  "Audio files"
+ ],
+ "lng_media_type_videos": [
+  "Videos"
+ ],
+ "lng_media_video_empty": [
+  "No videos here yet"
+ ],
+ "lng_mediaview_copy_frame": [
+  "Copy Frame"
+ ],
+ "lng_mediaview_doc_image": [
+  "File"
+ ],
+ "lng_mediaview_forward": [
+  "Forward"
+ ],
+ "lng_mediaview_playback_speed": [
+  "Playback speed: {speed}"
+ ],
+ "lng_mediaview_playback_speed_normal": [
+  "Normal"
+ ],
+ "lng_mediaview_rotate_video": [
+  "Rotate video"
+ ],
+ "lng_mediaview_share_at_time": [
+  "Share at {time}"
+ ],
+ "lng_mediaview_yesterday": [
+  "yesterday at {time}"
+ ],
+ "lng_photo_editor_align": [
+  "Alignment"
+ ],
+ "lng_photo_editor_audio_remove": [
+  "Remove Audio"
+ ],
+ "lng_photo_editor_font": [
+  "Font"
+ ],
+ "lng_photo_editor_font_condensed": [
+  "Condensed"
+ ],
+ "lng_photo_editor_font_default": [
+  "Default"
+ ],
+ "lng_photo_editor_font_italic": [
+  "Italic"
+ ],
+ "lng_photo_editor_font_monospace": [
+  "Monospace"
+ ],
+ "lng_photo_editor_font_serif": [
+  "Serif"
+ ],
+ "lng_photo_editor_link_customize": [
+  "Customize Link Text"
+ ],
+ "lng_photo_editor_menu_delete": [
+  "Delete"
+ ],
+ "lng_photo_editor_menu_duplicate": [
+  "Duplicate"
+ ],
+ "lng_photo_editor_shape_arrow": [
+  "Arrow"
+ ],
+ "lng_photo_editor_shape_bubble": [
+  "Bubble"
+ ],
+ "lng_photo_editor_shape_circle": [
+  "Circle"
+ ],
+ "lng_photo_editor_shape_filled": [
+  "Filled"
+ ],
+ "lng_photo_editor_shape_rectangle": [
+  "Rectangle"
+ ],
+ "lng_photo_editor_shape_star": [
+  "Star"
+ ],
+ "lng_photo_editor_text_placeholder": [
+  "Add Text"
+ ],
+ "lng_photo_editor_text_style_framed": [
+  "Framed"
+ ],
+ "lng_photo_editor_text_style_opaque": [
+  "Opaque"
+ ],
+ "lng_photo_editor_text_style_plain": [
+  "Plain"
+ ],
+ "lng_photo_editor_text_style_semi_transparent": [
+  "Semi-Transparent"
+ ],
+ "lng_player_message_today": [
+  "today at {time}"
+ ],
+ "lng_player_message_yesterday": [
+  "yesterday at {time}"
+ ],
+ "lng_polls_anonymous": [
+  "Anonymous Poll"
+ ],
+ "lng_polls_closed": [
+  "Final results"
+ ],
+ "lng_polls_create": [
+  "Create poll"
+ ],
+ "lng_polls_create_button": [
+  "Create"
+ ],
+ "lng_polls_create_limit": [
+  "You can add {count} more option.",
+  "You can add {count} more options."
+ ],
+ "lng_polls_create_maximum": [
+  "You have added the maximum number of options."
+ ],
+ "lng_polls_create_option_add": [
+  "Add an option..."
+ ],
+ "lng_polls_create_options": [
+  "Poll options"
+ ],
+ "lng_polls_create_question": [
+  "Question"
+ ],
+ "lng_polls_create_question_placeholder": [
+  "Ask a question"
+ ],
+ "lng_polls_create_title": [
+  "New poll"
+ ],
+ "lng_polls_retract": [
+  "Retract vote"
+ ],
+ "lng_polls_stop": [
+  "Stop poll"
+ ],
+ "lng_polls_stop_sure": [
+  "Stop"
+ ],
+ "lng_polls_stop_warning": [
+  "If you stop this poll now, nobody will be able to vote in it anymore. This action cannot be undone."
+ ],
+ "lng_polls_votes_count": [
+  "{count} vote",
+  "{count} votes"
+ ],
+ "lng_polls_votes_none": [
+  "No votes"
+ ],
+ "lng_profile_audios": [
+  "{count} voice message",
+  "{count} voice messages"
+ ],
+ "lng_profile_audios_header": [
+  "Voice messages"
+ ],
+ "lng_profile_files": [
+  "{count} file",
+  "{count} files"
+ ],
+ "lng_profile_files_header": [
+  "Files"
+ ],
+ "lng_profile_gifs": [
+  "{count} GIF",
+  "{count} GIFs"
+ ],
+ "lng_profile_photos": [
+  "{count} photo",
+  "{count} photos"
+ ],
+ "lng_profile_photos_header": [
+  "Photos"
+ ],
+ "lng_profile_shared_links_header": [
+  "Shared links"
+ ],
+ "lng_profile_songs": [
+  "{count} audio file",
+  "{count} audio files"
+ ],
+ "lng_profile_songs_header": [
+  "Audio files"
+ ],
+ "lng_profile_videos": [
+  "{count} video",
+  "{count} videos"
+ ],
+ "lng_profile_videos_header": [
+  "Videos"
+ ],
+ "lng_quit_from_tray": [
+  "Quit Telegram"
+ ],
+ "lng_send_album": [
+  "Send as an album"
+ ],
+ "lng_send_compressed": [
+  "Compress images"
+ ],
+ "lng_send_file": [
+  "Send as a file"
+ ],
+ "lng_send_grouped": [
+  "Group items"
+ ],
+ "lng_send_photo": [
+  "Send as a photo"
+ ],
+ "lng_send_separate_photos": [
+  "Send as separate photos"
+ ],
+ "lng_send_separate_photos_videos": [
+  "Send as separate media"
+ ],
+ "lng_settings_call_camera": [
+  "Camera"
+ ],
+ "lng_share_at_time_title": [
+  "Share at {time} to"
+ ],
+ "lng_shortcuts_toggle_link_preview": [
+  "Toggle link preview"
+ ],
+ "lng_stickers_nothing_found": [
+  "No stickers found"
+ ],
+ "lng_stickers_remove_pack_confirm": [
+  "Remove"
+ ],
+ "lng_stickers_search_sets": [
+  "Search sticker sets"
+ ],
+ "lng_video_quality_original": [
+  "Original"
+ ],
+ "lng_wnd_choose_program_menu": [
+  "Choose Default Program..."
+ ]
+}

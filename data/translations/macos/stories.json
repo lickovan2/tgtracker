@@ -1,0 +1,499 @@
+{
+ "AccountSettings.MyStories": [
+  "My Stories"
+ ],
+ "Boost.GetBoosts": [
+  "Boost your channel by gifting your subscribers Telegram Premium. [Get boosts]()"
+ ],
+ "ChannelBoost.BoostChannel": [
+  "Boost Channel"
+ ],
+ "ChannelBoost.BoostedChannelMoreRequired": [
+  "%1$@ needed to be able to post %2$@."
+ ],
+ "ChannelBoost.EnableStories": [
+  "Enable Stories"
+ ],
+ "ChannelBoost.EnableStoriesForChannel": [
+  "Enable Stories for This Channel"
+ ],
+ "ChannelBoost.EnableStoriesText": [
+  "Your channel needs %1$@ to enable posting stories.Ask your **Premium** subscribers to boost your channel with this link:"
+ ],
+ "ChannelBoost.EnabledStoriesForChannelText": [
+  "This channel reached **Level 1** and can now post stories."
+ ],
+ "ChannelBoost.Error.BoostTooOftenText": [
+  "You can only change the channel you boost once a day. You will be able to boost in **%@**."
+ ],
+ "ChannelBoost.Error.BoostTooOftenTitle": [
+  "Can't Boost Too Often"
+ ],
+ "ChannelBoost.Error.PremiumNeededText": [
+  "Only **Telegram Premium** subscribers can boost channels. Do you want to subscribe to **Telegram Premium**?"
+ ],
+ "ChannelBoost.Error.PremiumNeededText.OK": [
+  "Read More"
+ ],
+ "ChannelBoost.Error.PremiumNeededTitle": [
+  "Premium Needed"
+ ],
+ "ChannelBoost.HelpUpgradeChannel": [
+  "Help Upgrade This Channel"
+ ],
+ "ChannelBoost.Level": [
+  "Level %@"
+ ],
+ "ChannelBoost.MaxLevelReached": [
+  "Maximum Level Reached"
+ ],
+ "ChannelBoost.MaxLevelReachedText": [
+  "This channel reached **Level %1$@** and can now post %2$@."
+ ],
+ "ChannelBoost.MoreBoosts": [
+  "**%d** more boost",
+  "**%d** more boosts"
+ ],
+ "ChannelBoost.Replace": [
+  "Replace"
+ ],
+ "ChannelBoost.ReplaceBoost": [
+  "You currently boost **%1$@**. Do you want to boost **%2$@** instead?"
+ ],
+ "ChannelBoost.StoriesPerDay": [
+  "**%d** story per day",
+  "**%d** stories per day"
+ ],
+ "ChannelBoost.YouBoostedChannel": [
+  "You Boosted %1$@!"
+ ],
+ "ChannelBoost.YouBoostedOtherChannel": [
+  "You Boosted The Channel"
+ ],
+ "Chat.Bubbles.ForwardedStory": [
+  "Forwarded Story From: [%@]()"
+ ],
+ "Chat.Context.Peer.OpenStory": [
+  "Open Stories"
+ ],
+ "Chat.Message.OpenStory": [
+  "VIEW STORY"
+ ],
+ "Chat.Reply.ExpiredStory": [
+  "Expired Story"
+ ],
+ "Chat.Reply.ExpiredStory.Error": [
+  "This story is no longer available."
+ ],
+ "Chat.Service.StoryExpiredMentionTextIncoming": [
+  "The story you were mentioned inis no longer available"
+ ],
+ "Chat.Service.StoryExpiredMentionTextOutgoing": [
+  "The story where you mentioned %@ is no longer available"
+ ],
+ "Chat.Service.StoryMentioned": [
+  "%@ mentioned you in a story"
+ ],
+ "Chat.Service.StoryMentioned.You": [
+  "You mentioned %@ in a story"
+ ],
+ "ChatList.ArchiveStory.Count": [
+  "%d Story",
+  "%d Stories"
+ ],
+ "ChatList.ArchiveStory.Count_countable": [
+  "%d"
+ ],
+ "ChatList.Story": [
+  "Story"
+ ],
+ "ChatList.Story.Expired": [
+  "Expired Story"
+ ],
+ "ChatList.Story.Unsupported": [
+  "Unsupported Story"
+ ],
+ "ChatMessage.BoostChannel": [
+  "BOOST"
+ ],
+ "Notification.StoryReply": [
+  "Replied to your story: %@"
+ ],
+ "PeerMedia.Posts": [
+  "Posts"
+ ],
+ "PeerMedia.Stories": [
+  "Posts"
+ ],
+ "PremiumBoarding.Stories.ExpirationDuration.Info": [
+  "Set custom durations like 6 or 48 hours for your stories."
+ ],
+ "PremiumBoarding.Stories.ExpirationDuration.Title": [
+  "Expiration Options"
+ ],
+ "PremiumBoarding.Stories.LinkFormatting.Info": [
+  "Add links and formatting to your story captions."
+ ],
+ "PremiumBoarding.Stories.LinkFormatting.Title": [
+  "Links and Formatting"
+ ],
+ "PremiumBoarding.Stories.LongerCaption.Info": [
+  "Add 10x longer captions to your stories."
+ ],
+ "PremiumBoarding.Stories.LongerCaption.Title": [
+  "Longer Captions"
+ ],
+ "PremiumBoarding.Stories.PermanentHistoryView.Info": [
+  "Check who opens your stories — even after they expire."
+ ],
+ "PremiumBoarding.Stories.PermanentHistoryView.Title": [
+  "Permanent View History"
+ ],
+ "PremiumBoarding.Stories.PriorityOrder.Info": [
+  "Get more views as your stories are always displayed first."
+ ],
+ "PremiumBoarding.Stories.PriorityOrder.Title": [
+  "Priority Order"
+ ],
+ "PremiumBoarding.Stories.SaveToGallery.Info": [
+  "Save other people's stories that are not protected."
+ ],
+ "PremiumBoarding.Stories.SaveToGallery.Title": [
+  "Save Stories to Photos"
+ ],
+ "PremiumBoarding.Stories.StealthMode.Info": [
+  "Hide the fact that you viewed other people's stories."
+ ],
+ "StorageExceptions.Title.Stories": [
+  "Stories"
+ ],
+ "StorageUsage.Category.Stories": [
+  "Stories"
+ ],
+ "StorageUsage.KeepMedia.Stories": [
+  "Stories"
+ ],
+ "Story.Alert.NoViews": [
+  "Nobody has viewed your story yet."
+ ],
+ "Story.Alert.ViewsExpired": [
+  "List of viewers becomes unavailable 24 hours after the story expires."
+ ],
+ "Story.AvatarContext.OpenChannel": [
+  "Open Channel"
+ ],
+ "Story.AvatarContext.SendMessage": [
+  "Send Message"
+ ],
+ "Story.ChannelInput.RemoveFromProfile": [
+  "Remove From Posts"
+ ],
+ "Story.ChannelInput.SaveToProfile": [
+  "Post to Profile"
+ ],
+ "Story.Confirm.Delete": [
+  "Are you sure you want to delete this story?"
+ ],
+ "Story.Controls.Edited": [
+  "edited"
+ ],
+ "Story.Controls.Menu.Archive": [
+  "Hide Stories"
+ ],
+ "Story.Controls.Menu.CopyLink": [
+  "Copy Link"
+ ],
+ "Story.Controls.Menu.Report": [
+  "Report"
+ ],
+ "Story.Controls.Menu.Share": [
+  "Share"
+ ],
+ "Story.Controls.Menu.StealtMode": [
+  "Hide My View"
+ ],
+ "Story.Controls.Menu.Unarchive": [
+  "Unhide Stories"
+ ],
+ "Story.Controls.VideoNoSound": [
+  "This video has no sound"
+ ],
+ "Story.Controls.YourStory": [
+  "Your Story"
+ ],
+ "Story.Error.NotExist": [
+  "This story is no longer available"
+ ],
+ "Story.Input.Attach": [
+  "Photo or Video"
+ ],
+ "Story.Input.CantShare": [
+  "You can't share this story"
+ ],
+ "Story.Input.File": [
+  "File"
+ ],
+ "Story.Input.Placeholder": [
+  "Reply Privately..."
+ ],
+ "Story.Media.Unsupported": [
+  "This story is not supported by your version of Telegram. Please update the app to the latest version."
+ ],
+ "Story.MyInput.CopyLink": [
+  "Copy Link"
+ ],
+ "Story.MyInput.RemoveFromProfile": [
+  "Remove From Profile"
+ ],
+ "Story.MyInput.SaveMedia": [
+  "Save Media..."
+ ],
+ "Story.MyInput.SaveToProfile": [
+  "Post to Profile"
+ ],
+ "Story.MyInput.Share": [
+  "Share"
+ ],
+ "Story.MyInput.Views": [
+  "%d view",
+  "%d views"
+ ],
+ "Story.MyInput.Views_ZeroValueHolder": [
+  "No Views yet"
+ ],
+ "Story.MyInput.Views_countable": [
+  "%d"
+ ],
+ "Story.NoReplyInput.NoReply": [
+  "You can't reply to this story"
+ ],
+ "Story.Report.SuccessText": [
+  "Telegram moderators will review your report. Thank you!"
+ ],
+ "Story.StealthMode.Button.Available": [
+  "Available in %@"
+ ],
+ "Story.StealthMode.Button.Enable": [
+  "Enable Stealth Mode"
+ ],
+ "Story.StealthMode.Button.Unlock": [
+  "Unlock Stealth Mode"
+ ],
+ "Story.StealthMode.First.Info": [
+  "Hide my views from the past 5 minutes."
+ ],
+ "Story.StealthMode.First.Title": [
+  "Hide Recent Views"
+ ],
+ "Story.StealthMode.Info.Subscribe": [
+  "Subscribe to Telegram Premium to watch stories without appearing in the list of viewers."
+ ],
+ "Story.StealthMode.Info.Text": [
+  "Turn Stealth Mode on to watch stories without appearing in the list of viewers."
+ ],
+ "Story.StealthMode.Second.Info": [
+  "Hide my views for the next 25 minutes."
+ ],
+ "Story.StealthMode.Second.Title": [
+  "Hide Upcoming Views"
+ ],
+ "Story.StealthMode.Title": [
+  "Stealth Mode"
+ ],
+ "Story.StealthMode.Tooltip.Wait": [
+  "Please wait until Stealth Mode is ready to use again."
+ ],
+ "Story.Tooltip.Archive": [
+  "Stories from **%@** were moved to the Archive."
+ ],
+ "Story.Tooltip.AudioSent": [
+  "Audio Sent."
+ ],
+ "Story.Tooltip.Button.ViewInChat": [
+  "View in Chat"
+ ],
+ "Story.Tooltip.CloseFriends": [
+  "You are seeing this story because %@ added youto their list of Close Friends."
+ ],
+ "Story.Tooltip.Contacts": [
+  "Only %@'s contacts can view this story."
+ ],
+ "Story.Tooltip.GifSent": [
+  "GIF Sent."
+ ],
+ "Story.Tooltip.LinkCopied": [
+  "Copied to clipboard."
+ ],
+ "Story.Tooltip.MediaSent": [
+  "Media Sent."
+ ],
+ "Story.Tooltip.MessageSent": [
+  "Message Sent."
+ ],
+ "Story.Tooltip.PhotoSent": [
+  "Photo Sent."
+ ],
+ "Story.Tooltip.ReactionSent": [
+  "Message Sent."
+ ],
+ "Story.Tooltip.Removed.Title": [
+  "Stories Removed"
+ ],
+ "Story.Tooltip.RemovedFromProfile": [
+  "Story removed from your profile."
+ ],
+ "Story.Tooltip.RemovedFromProfile.Channel": [
+  "Story removed from the channel page."
+ ],
+ "Story.Tooltip.SaveToGallery.Premium": [
+  "Subscribe to Telegram Premium to save other people's stories that are not protected."
+ ],
+ "Story.Tooltip.Saved.Title": [
+  "Stories Saved"
+ ],
+ "Story.Tooltip.SavedToProfile": [
+  "Posted stories can be viewed by others on your profile until you remove them."
+ ],
+ "Story.Tooltip.SavedToProfile.Channel": [
+  "Posted stories can be viewed by others on the channel page until an admin removes them."
+ ],
+ "Story.Tooltip.SelectedContacts": [
+  "Only some users %@ selected can view this story."
+ ],
+ "Story.Tooltip.StealthMode.Activate": [
+  "The creators of stories you viewed in the past %1$@ or will view in the next %2$@ won't see you in the list of viewers."
+ ],
+ "Story.Tooltip.StealthMode.Active": [
+  "The creators of stories you view in the next %1$@ won't see you in the list of viewers."
+ ],
+ "Story.Tooltip.StickerSent": [
+  "Sticker Sent."
+ ],
+ "Story.Tooltip.Unarchive": [
+  "Stories from **%@** were returned from the Archive."
+ ],
+ "Story.Tooltip.VideoSent": [
+  "Video Sent."
+ ],
+ "StoryFeed.TooltipArchive": [
+  "Stories from %@ were moved to the Archive."
+ ],
+ "StoryFeed.TooltipUnarchive": [
+  "Stories from %@ were returned from the Archive."
+ ],
+ "StoryItem.Text.ShowMore": [
+  "Show More"
+ ],
+ "StoryList.Context.Archive": [
+  "Hide Stories"
+ ],
+ "StoryList.Context.ArchivedStories": [
+  "Archived Stories"
+ ],
+ "StoryList.Context.SavedStories": [
+  "Posted Stories"
+ ],
+ "StoryList.Context.SendMessage": [
+  "Send Message"
+ ],
+ "StoryList.Context.Unarchive": [
+  "Unhide Stories"
+ ],
+ "StoryList.Context.ViewProfile": [
+  "View Profile"
+ ],
+ "StoryList.MyStory": [
+  "My Story"
+ ],
+ "StoryList.TooltipArchive": [
+  "Stories from %@ were moved to the Archive."
+ ],
+ "StoryList.TooltipUnarchive": [
+  "Stories from %@ were returned from the Archive."
+ ],
+ "StoryMedia.Archive.Empty.Text": [
+  "Upload a new story to view it here"
+ ],
+ "StoryMedia.Archive.Empty.Title": [
+  "No Archived Stories"
+ ],
+ "StoryMedia.ArchiveText": [
+  "Only you can see archived stories unless you choose to post them to your profile."
+ ],
+ "StoryMedia.Context.Archive": [
+  "Archive"
+ ],
+ "StoryMedia.Done": [
+  "Done"
+ ],
+ "StoryMedia.Empty.Open": [
+  "Open Archive"
+ ],
+ "StoryMedia.Empty.Text": [
+  "Open the Archive to select stories you want to be displayed on your profile."
+ ],
+ "StoryMedia.Empty.Title": [
+  "No Posted Stories"
+ ],
+ "StoryMedia.Select": [
+  "Select"
+ ],
+ "StoryMedia.Title.Archive": [
+  "Archive"
+ ],
+ "StoryMedia.Title.MyStories": [
+  "My Stories"
+ ],
+ "StoryView.ContextMenu.Block": [
+  "Block User"
+ ],
+ "StoryView.ContextMenu.HideMyStories": [
+  "Hide My Stories From %@"
+ ],
+ "StoryView.ContextMenu.ShowMyStories": [
+  "Do Not Hide My Stories From %@"
+ ],
+ "StoryView.ContextMenu.Unblock": [
+  "Unblock"
+ ],
+ "StoryView.MediaArea.ViewLocation": [
+  "View Location"
+ ],
+ "StoryView.Tooltip.Block": [
+  "%@ was blocked."
+ ],
+ "StoryView.Tooltip.HideMyStories": [
+  "%@ will not be able to see your stories."
+ ],
+ "StoryView.Tooltip.ShowMyStories": [
+  "%@ will be able to see your stories again."
+ ],
+ "StoryView.Tooltip.Unblock": [
+  "%@ was unblocked."
+ ],
+ "StoryViewers.All": [
+  "All Viewers"
+ ],
+ "StoryViewers.Premium.LearnMore": [
+  "Learn More"
+ ],
+ "StoryViewers.Premium.Unlock": [
+  "To unlock future viewer lists for expired and posted stories, subscribe to [Telegram Premium]()."
+ ],
+ "StoryViewers.ReactionsFirst": [
+  "Reactions first"
+ ],
+ "StoryViewers.RecentFirst": [
+  "Newest first"
+ ],
+ "StoryViews.Title": [
+  "%d view",
+  "%d views"
+ ],
+ "StoryViews.Title_ZeroValueHolder": [
+  "No Views Yet"
+ ],
+ "StoryViews.Title_countable": [
+  "%d"
+ ]
+}

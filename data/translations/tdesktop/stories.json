@@ -1,0 +1,584 @@
+{
+ "lng_action_pinned_media_story": [
+  "a story"
+ ],
+ "lng_action_story_mention": [
+  "{user} mentioned you in a story"
+ ],
+ "lng_action_story_mention_button": [
+  "View Story"
+ ],
+ "lng_action_story_mention_me": [
+  "You mentioned {user} in a story"
+ ],
+ "lng_action_story_mention_me_unavailable": [
+  "The story where you mentioned {user} is no longer available."
+ ],
+ "lng_action_story_mention_unavailable": [
+  "The story where {user} mentioned you is no longer available."
+ ],
+ "lng_boost_again_button": [
+  "Boost Again"
+ ],
+ "lng_boost_channel_button": [
+  "Boost Channel"
+ ],
+ "lng_boost_channel_needs_first": [
+  "{channel} needs **{count}** more boost to enable posting stories. Help make it possible!",
+  "{channel} needs **{count}** more boosts to enable posting stories. Help make it possible!"
+ ],
+ "lng_boost_channel_needs_more": [
+  "{channel} needs **{count}** more boost to be able to {post}.",
+  "{channel} needs **{count}** more boosts to be able to {post}."
+ ],
+ "lng_boost_channel_post_stories": [
+  "post **{count} story** per day",
+  "post **{count} stories** per day"
+ ],
+ "lng_boost_channel_reached_first": [
+  "This channel reached **Level 1** and can now post stories."
+ ],
+ "lng_boost_channel_reached_more": [
+  "This channel reached **Level {count}** and can now {post}.",
+  "This channel reached **Level {count}** and can now {post}."
+ ],
+ "lng_boost_channel_title_first": [
+  "Enable stories for this channel"
+ ],
+ "lng_boost_channel_title_more": [
+  "Help upgrade channel"
+ ],
+ "lng_boost_channel_you_more": [
+  "This channel needs **{count}** more boostto be able to {post}.",
+  "This channel needs **{count}** more booststo be able to {post}."
+ ],
+ "lng_boost_channel_you_title": [
+  "You boosted {channel}!"
+ ],
+ "lng_boost_error_flood_text": [
+  "You can only change the channel you boost once a day. You will be able to boost in {left}."
+ ],
+ "lng_boost_error_flood_title": [
+  "Can't boost too often!"
+ ],
+ "lng_boost_error_premium_text": [
+  "Only **Telegram Premium** subscribers can boost channels. Do you want to subscribe to **Telegram Premium**?"
+ ],
+ "lng_boost_error_premium_title": [
+  "Premium needed"
+ ],
+ "lng_boost_error_premium_yes": [
+  "Yes"
+ ],
+ "lng_boost_level": [
+  "Level {count}",
+  "Level {count}"
+ ],
+ "lng_boost_need_more": [
+  "More boosts needed"
+ ],
+ "lng_boost_need_more_again": [
+  "To boost {channel} again, gift **Telegram Premium** to a friend and get **{count}** additional boost.",
+  "To boost {channel} again, gift **Telegram Premium** to a friend and get **{count}** additional boosts."
+ ],
+ "lng_boost_now_instead": [
+  "You currently boost {channel}. Do you want to boost {other} instead?"
+ ],
+ "lng_boost_now_replace": [
+  "Replace"
+ ],
+ "lng_boosts_existing": [
+  "Existing boosts"
+ ],
+ "lng_boosts_level": [
+  "Level"
+ ],
+ "lng_boosts_link_subtext": [
+  "Share this link with your subscribers to get more boosts."
+ ],
+ "lng_boosts_link_title": [
+  "Link for boosting"
+ ],
+ "lng_boosts_list_status": [
+  "boost expires on {date}"
+ ],
+ "lng_boosts_list_subtext": [
+  "Your channel is currently boosted by these users."
+ ],
+ "lng_boosts_list_title": [
+  "{count} boost",
+  "{count} boosts"
+ ],
+ "lng_boosts_next_level": [
+  "Boosts to level up"
+ ],
+ "lng_boosts_premium_audience": [
+  "Premium subscribers"
+ ],
+ "lng_boosts_show_more": [
+  "Show More Boosts"
+ ],
+ "lng_boosts_title": [
+  "Boosts"
+ ],
+ "lng_contacts_hidden_stories": [
+  "Hidden Stories"
+ ],
+ "lng_contacts_stories_status": [
+  "{count} story",
+  "{count} stories"
+ ],
+ "lng_contacts_stories_status_new": [
+  "{count} new story",
+  "{count} new stories"
+ ],
+ "lng_context_attached_stickers": [
+  "Attached Stickers"
+ ],
+ "lng_context_delete_msg": [
+  "Delete"
+ ],
+ "lng_context_open_channel": [
+  "Open Channel"
+ ],
+ "lng_context_select_msg": [
+  "Select"
+ ],
+ "lng_context_sent_today": [
+  "Sent today at {time}"
+ ],
+ "lng_credits_small_balance_video_stream": [
+  "Buy **Stars** to send them to {name} to support their stream."
+ ],
+ "lng_deleted_story": [
+  "Deleted story"
+ ],
+ "lng_edit_privacy_close_friends": [
+  "Close friends"
+ ],
+ "lng_export_option_stories": [
+  "Story archive"
+ ],
+ "lng_export_option_stories_about": [
+  "All stories you posted from Telegram mobile apps."
+ ],
+ "lng_forwarded_story": [
+  "Story from {user}"
+ ],
+ "lng_forwarded_story_expired": [
+  "This story has expired."
+ ],
+ "lng_group_invite_copy": [
+  "Copy Link"
+ ],
+ "lng_group_invite_share": [
+  "Share Link"
+ ],
+ "lng_in_dlg_story": [
+  "Story"
+ ],
+ "lng_in_dlg_story_expired": [
+  "Expired story"
+ ],
+ "lng_mediaview_archive_story": [
+  "Archive Story"
+ ],
+ "lng_mediaview_pin_limit": [
+  "You can't pin more than {count} story.",
+  "You can't pin more than {count} stories."
+ ],
+ "lng_mediaview_pin_stories_about": [
+  "Now it will be always shown on the top.",
+  "Now they will be always shown on the top."
+ ],
+ "lng_mediaview_pin_stories_done": [
+  "{count} story pinned",
+  "{count} stories pinned"
+ ],
+ "lng_mediaview_pin_story_about": [
+  "Now it will be always shown on the top."
+ ],
+ "lng_mediaview_pin_story_done": [
+  "Story pinned"
+ ],
+ "lng_mediaview_save_to_profile": [
+  "Post to Profile"
+ ],
+ "lng_mediaview_unpin_stories_done": [
+  "{count} story unpinned",
+  "{count} stories unpinned"
+ ],
+ "lng_mediaview_unpin_story_done": [
+  "Story unpinned."
+ ],
+ "lng_menu_my_stories": [
+  "My Stories"
+ ],
+ "lng_paid_comment_about": [
+  "Highlight and pin your message by adding Stars for {name}."
+ ],
+ "lng_paid_comment_button": [
+  "Add {stars}"
+ ],
+ "lng_paid_comment_emoji_about": [
+  "emoji",
+  "emoji"
+ ],
+ "lng_paid_comment_limit_about": [
+  "character",
+  "characters"
+ ],
+ "lng_paid_comment_pin_about": [
+  "pin in chat"
+ ],
+ "lng_paid_comment_title": [
+  "Highlight and Pin"
+ ],
+ "lng_paid_reaction_about": [
+  "Highlight and pin your message by sending Stars to {name}."
+ ],
+ "lng_paid_reaction_button": [
+  "Send {stars}"
+ ],
+ "lng_paid_reaction_title": [
+  "React with Stars"
+ ],
+ "lng_premium_stories_about_caption": [
+  "Add 10x longer captions to your stories — up to 2048 characters."
+ ],
+ "lng_premium_stories_about_download": [
+  "Save other people's stories that are not protected."
+ ],
+ "lng_premium_stories_about_expiration": [
+  "Set custom durations like 6 or 48 hours for your stories."
+ ],
+ "lng_premium_stories_about_links": [
+  "Add links and formatting to your story captions."
+ ],
+ "lng_premium_stories_about_mobile": [
+  "* Available when posting stories from Telegram apps for iOS and Android."
+ ],
+ "lng_premium_stories_about_order": [
+  "Get more views as your stories are always displayed first."
+ ],
+ "lng_premium_stories_about_stealth": [
+  "Hide the fact that you viewed other people's stories."
+ ],
+ "lng_premium_stories_about_views": [
+  "Check who opens your stories — even after they expire."
+ ],
+ "lng_premium_stories_subtitle_caption": [
+  "Longer Captions*"
+ ],
+ "lng_premium_stories_subtitle_download": [
+  "Download Stories"
+ ],
+ "lng_premium_stories_subtitle_expiration": [
+  "Expiration Options*"
+ ],
+ "lng_premium_stories_subtitle_links": [
+  "Links and Formatting*"
+ ],
+ "lng_premium_stories_subtitle_order": [
+  "Priority Order"
+ ],
+ "lng_premium_stories_subtitle_stealth": [
+  "Stealth Mode"
+ ],
+ "lng_premium_stories_subtitle_views": [
+  "Permanent View History"
+ ],
+ "lng_premium_summary_about_stories": [
+  "Unlimited posting, priority order, stealth mode, permanent view history and more."
+ ],
+ "lng_premium_summary_subtitle_stories": [
+  "Stories"
+ ],
+ "lng_profile_posts": [
+  "{count} post",
+  "{count} posts"
+ ],
+ "lng_profile_saved_stories": [
+  "{count} post",
+  "{count} posts"
+ ],
+ "lng_record_cancel_stories": [
+  "Release outside to cancel"
+ ],
+ "lng_report_story": [
+  "Report story"
+ ],
+ "lng_send_non_premium_message_toast": [
+  "**{user}** only accepts messages from contacts and {link} subscribers."
+ ],
+ "lng_send_non_premium_message_toast_link": [
+  "Telegram Premium"
+ ],
+ "lng_send_non_premium_story": [
+  "Replies restricted"
+ ],
+ "lng_send_non_premium_unlock": [
+  "unlock"
+ ],
+ "lng_settings_bio_privacy": [
+  "Bio"
+ ],
+ "lng_stats_overview_title": [
+  "Overview"
+ ],
+ "lng_stealth_mode_about": [
+  "Turn Stealth Mode on to watch stories without appearing in the list of viewers."
+ ],
+ "lng_stealth_mode_already_about": [
+  "The creators of stories you view in the next **{left}** won't see you in the list of viewers."
+ ],
+ "lng_stealth_mode_already_title": [
+  "You are in Stealth Mode"
+ ],
+ "lng_stealth_mode_cooldown_in": [
+  "Available in {left}"
+ ],
+ "lng_stealth_mode_cooldown_tip": [
+  "Please wait until **Stealth Mode** is ready to use again."
+ ],
+ "lng_stealth_mode_countdown": [
+  "Stealth Mode active – {left}"
+ ],
+ "lng_stealth_mode_enable": [
+  "Enable Stealth Mode"
+ ],
+ "lng_stealth_mode_enabled_tip": [
+  "The creators of stories you viewed in the last **5 minutes** or will view in the next **25 minutes** won't see you in the viewers' lists."
+ ],
+ "lng_stealth_mode_enabled_tip_title": [
+  "Stealth Mode On"
+ ],
+ "lng_stealth_mode_menu_item": [
+  "Hide My View"
+ ],
+ "lng_stealth_mode_next_about": [
+  "Hide my views for the next 25 minutes."
+ ],
+ "lng_stealth_mode_next_title": [
+  "Hide Upcoming Views"
+ ],
+ "lng_stealth_mode_past_about": [
+  "Hide my views from the past 5 minutes."
+ ],
+ "lng_stealth_mode_past_title": [
+  "Hide Recent Views"
+ ],
+ "lng_stealth_mode_title": [
+  "Stealth Mode"
+ ],
+ "lng_stealth_mode_unlock": [
+  "Unlock Stealth Mode"
+ ],
+ "lng_stealth_mode_unlock_about": [
+  "Subscribe to Telegram Premium to watch stories without appearing in the list of viewers."
+ ],
+ "lng_stories_about_close_friends": [
+  "You are seeing this story because {user} added you to their list of **Close Friends**."
+ ],
+ "lng_stories_about_close_friends_my": [
+  "Only people from your **Close Friends** list can view this story."
+ ],
+ "lng_stories_about_contacts": [
+  "Only {user}'s contacts can view this story."
+ ],
+ "lng_stories_about_contacts_my": [
+  "Only your contacts can view this story."
+ ],
+ "lng_stories_about_selected_contacts": [
+  "Only some users {user} selected can view this story."
+ ],
+ "lng_stories_about_selected_contacts_my": [
+  "Only some users you selected can view this story."
+ ],
+ "lng_stories_about_silent": [
+  "This video has no sound."
+ ],
+ "lng_stories_archive": [
+  "Hide Stories"
+ ],
+ "lng_stories_archive_about": [
+  "Only you can see archived stories unless you choose to post them to your profile."
+ ],
+ "lng_stories_archive_button": [
+  "Story Archive"
+ ],
+ "lng_stories_archive_done": [
+  "This story is hidden from your profile."
+ ],
+ "lng_stories_archive_done_many": [
+  "{count} story is hidden from your profile.",
+  "{count} stories are hidden from your profile."
+ ],
+ "lng_stories_archive_sure": [
+  "Do you want to hide this story from your profile?"
+ ],
+ "lng_stories_archive_sure_many": [
+  "Do you want to remove {count} story from your profile?",
+  "Do you want to remove {count} stories from your profile?"
+ ],
+ "lng_stories_archive_title": [
+  "Story Archive"
+ ],
+ "lng_stories_cant_reply": [
+  "You can't reply to this story."
+ ],
+ "lng_stories_channel_archive_about": [
+  "Only admins of the channel can see archived stories unless they are posted to the channel page."
+ ],
+ "lng_stories_channel_archive_done": [
+  "This story is hidden from the channel page."
+ ],
+ "lng_stories_channel_archive_done_many": [
+  "{count} story is hidden from the channel page.",
+  "{count} stories are hidden from the channel page."
+ ],
+ "lng_stories_channel_archive_sure": [
+  "Do you want to hide this story from the channel page?"
+ ],
+ "lng_stories_channel_archive_sure_many": [
+  "Do you want to hide {count} story from the channel page?",
+  "Do you want to hide {count} stories from the channel page?"
+ ],
+ "lng_stories_channel_save_done": [
+  "This story is posted to the channel page."
+ ],
+ "lng_stories_channel_save_done_about": [
+  "Posted stories can be viewed by others on the channel page until an admin removes them."
+ ],
+ "lng_stories_channel_save_done_many": [
+  "{count} story posted to the channel page.",
+  "{count} stories posted to the channel page."
+ ],
+ "lng_stories_channel_save_sure": [
+  "Do you want to post this story to the channel page?"
+ ],
+ "lng_stories_channel_save_sure_many": [
+  "Do you want to post {count} story to the channel page?",
+  "Do you want to post {count} stories to the channel page?"
+ ],
+ "lng_stories_click_to_view": [
+  "Click here to view updates from {users}."
+ ],
+ "lng_stories_click_to_view_and_last": [
+  "{accumulated} and {user}"
+ ],
+ "lng_stories_click_to_view_and_one": [
+  "{accumulated}, {user}"
+ ],
+ "lng_stories_click_to_view_mine": [
+  "Click here to view your story."
+ ],
+ "lng_stories_delete_one_sure": [
+  "Are you sure you want to delete this story?"
+ ],
+ "lng_stories_delete_sure": [
+  "Are you sure you want to delete {count} story?",
+  "Are you sure you want to delete {count} stories?"
+ ],
+ "lng_stories_hidden_to_contacts": [
+  "Stories from {user} were moved to the **Archive**."
+ ],
+ "lng_stories_link_invalid": [
+  "This link is broken or has expired."
+ ],
+ "lng_stories_my_name": [
+  "My Story"
+ ],
+ "lng_stories_my_title": [
+  "Posted Stories"
+ ],
+ "lng_stories_no_views": [
+  "No views yet"
+ ],
+ "lng_stories_reaction_as_message": [
+  "Send reaction as a private message"
+ ],
+ "lng_stories_recent_button": [
+  "Recent Stories"
+ ],
+ "lng_stories_reply_sent": [
+  "Message sent."
+ ],
+ "lng_stories_row_count": [
+  "{count} Story",
+  "{count} Stories"
+ ],
+ "lng_stories_save_done": [
+  "Story posted to your profile."
+ ],
+ "lng_stories_save_done_about": [
+  "Posted stories can be viewed by others on your profile until you remove them."
+ ],
+ "lng_stories_save_done_many": [
+  "{count} story is posted on your profile.",
+  "{count} stories are posted on your profile."
+ ],
+ "lng_stories_save_promo": [
+  "Subscribe to {link} to save other people's stories that are not protected."
+ ],
+ "lng_stories_save_sure": [
+  "Do you want to post this story on your profile?"
+ ],
+ "lng_stories_save_sure_many": [
+  "Do you want to post {count} story to your profile?",
+  "Do you want to post {count} stories to your profile?"
+ ],
+ "lng_stories_show_more": [
+  "Show more"
+ ],
+ "lng_stories_shown_in_chats": [
+  "Stories from {user} were returned from the **Archive**."
+ ],
+ "lng_stories_unarchive": [
+  "Unhide Stories"
+ ],
+ "lng_stories_unsupported": [
+  "This story is not supportedby your version of Telegram."
+ ],
+ "lng_stories_view_reactions": [
+  "View reactions"
+ ],
+ "lng_stories_views": [
+  "{count} view",
+  "{count} views"
+ ],
+ "lng_story_comment_ph": [
+  "Comment story..."
+ ],
+ "lng_story_reply_ph": [
+  "Reply privately..."
+ ],
+ "lng_update_telegram": [
+  "Update Telegram"
+ ],
+ "lng_video_stream_comment_paid_ph": [
+  "Comment for {count} Star",
+  "Comment for {count} Stars"
+ ],
+ "lng_video_stream_comment_ph": [
+  "Comment"
+ ],
+ "lng_video_stream_comments_disabled": [
+  "Comments disabled."
+ ],
+ "lng_video_stream_edit_stars": [
+  "Edit Stars"
+ ],
+ "lng_video_stream_live": [
+  "LIVE"
+ ],
+ "lng_video_stream_remove_stars": [
+  "Remove Stars"
+ ],
+ "lng_view_button_boost": [
+  "Boost"
+ ],
+ "lng_view_button_story": [
+  "View story"
+ ]
+}

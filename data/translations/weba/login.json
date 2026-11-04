@@ -1,0 +1,50 @@
+{
+ "AriaPasswordToggle": [
+  "Toggle password visibility"
+ ],
+ "Code": [
+  "Code"
+ ],
+ "CountryNone": [
+  "Country not found"
+ ],
+ "LoginEnterPasswordDescription": [
+  "You have Two-Step Verification enabled, so your account is protected with an additional password."
+ ],
+ "LoginHeaderPassword": [
+  "Enter Password"
+ ],
+ "LoginJustSentSms": [
+  "We've sent you a code via SMS. Please enter it above."
+ ],
+ "LoginNext": [
+  "Next"
+ ],
+ "LoginQRCancel": [
+  "Log in by phone number"
+ ],
+ "LoginQRHelp1": [
+  "Open Telegram on your phone"
+ ],
+ "LoginQRHelp3": [
+  "Point your phone at this screen to confirm login"
+ ],
+ "LoginQRTitle": [
+  "Log in to Telegram by QR Code"
+ ],
+ "LoginRegisterDesc": [
+  "Enter your name and add a profile photo."
+ ],
+ "LoginRegisterFirstNamePlaceholder": [
+  "First Name"
+ ],
+ "LoginRegisterLastNamePlaceholder": [
+  "Last Name"
+ ],
+ "WrongNumber": [
+  "Wrong number?"
+ ],
+ "YourName": [
+  "Your Name"
+ ]
+}

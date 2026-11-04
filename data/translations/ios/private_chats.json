@@ -1,0 +1,1931 @@
+{
+ "AccessDenied.VoiceMicrophone": [
+  "Telegram needs access to your microphone so that you can send voice messages.Please go to your device‘s settings > Privacy > Microphone and set Telegram to ON."
+ ],
+ "Activity.ChoosingSticker": [
+  "choosing a sticker"
+ ],
+ "Activity.RecordingAudio": [
+  "recording voice"
+ ],
+ "Activity.RecordingVideoMessage": [
+  "recording video"
+ ],
+ "Activity.UploadingDocument": [
+  "sending a file"
+ ],
+ "Activity.UploadingPhoto": [
+  "sending a photo"
+ ],
+ "Activity.UploadingVideo": [
+  "sending a video"
+ ],
+ "Activity.UploadingVideoMessage": [
+  "sending a video"
+ ],
+ "AddContact.StatusSuccess": [
+  "%@ is now in your contacts."
+ ],
+ "Attachment.Gift": [
+  "Gift"
+ ],
+ "Attachment.Reply": [
+  "Reply"
+ ],
+ "Birthday.Title": [
+  "Birthday"
+ ],
+ "Bot.GenericSupportStatus": [
+  "support"
+ ],
+ "BusinessLink.ErrorExpired": [
+  "Link Expired"
+ ],
+ "Call.AnsweringWithAccount": [
+  "Answering as %@"
+ ],
+ "Call.AudioRouteHeadphones": [
+  "Headphones"
+ ],
+ "Call.AudioRouteHide": [
+  "Hide"
+ ],
+ "Call.AudioRouteSpeaker": [
+  "Speaker"
+ ],
+ "Call.CallAgain": [
+  "Call Again"
+ ],
+ "Call.ConnectionErrorTitle": [
+  "Unable to Call"
+ ],
+ "Call.EmojiDescription": [
+  "If the emoji on %@'s screen are the same, this call is 100%% secure."
+ ],
+ "Call.EncryptedAlertText": [
+  "If the emoji on %@'s screen are the same, this call is 100% secure."
+ ],
+ "Call.EncryptedAlertTitle": [
+  "This call is end-to-end encrypted"
+ ],
+ "Call.EncryptionKey.Title": [
+  "Encryption Key"
+ ],
+ "Call.EncryptionKeyTooltip": [
+  "Encryption key of this call"
+ ],
+ "Call.Message": [
+  "Message"
+ ],
+ "Call.ParticipantVersionOutdatedError": [
+  "%@'s app does not support calls. They need to update their app before you can call them."
+ ],
+ "Call.ReportPlaceholder": [
+  "What went wrong?"
+ ],
+ "Call.Seconds": [
+  "%@ second",
+  "%@ seconds"
+ ],
+ "Call.StatusBusy": [
+  "Busy"
+ ],
+ "Call.StatusConnecting": [
+  "Connecting..."
+ ],
+ "Call.StatusEnded": [
+  "Call Ended"
+ ],
+ "Call.StatusFailed": [
+  "Call Failed"
+ ],
+ "Call.StatusNoAnswer": [
+  "No Answer"
+ ],
+ "Call.StatusOngoing": [
+  "Telegram Audio %@"
+ ],
+ "Call.StatusRequesting": [
+  "Contacting..."
+ ],
+ "Call.StatusRinging": [
+  "Ringing..."
+ ],
+ "Call.StatusWaiting": [
+  "Waiting..."
+ ],
+ "Calls.NotNow": [
+  "Not Now"
+ ],
+ "Calls.RatingFeedback": [
+  "Write a comment..."
+ ],
+ "Calls.RatingTitle": [
+  "Please rate the qualityof your Telegram call"
+ ],
+ "Calls.SubmitRating": [
+  "Submit"
+ ],
+ "Camera.LiveStream.End": [
+  "End"
+ ],
+ "Camera.LiveStream.End.End": [
+  "End"
+ ],
+ "Camera.LiveStream.End.Text": [
+  "Are you sure you want to end this live stream?"
+ ],
+ "Camera.LiveStream.End.Title": [
+  "End Live Stream"
+ ],
+ "ChannelBoost.Or": [
+  "or"
+ ],
+ "Chat.BirthdayTooltip": [
+  "🎂 You can send %1$@ a gift for their birthday today."
+ ],
+ "Chat.BottomSearchPanel.DisplayModeChat": [
+  "Chat"
+ ],
+ "Chat.BottomSearchPanel.DisplayModeFormat": [
+  "Show as %@"
+ ],
+ "Chat.BottomSearchPanel.DisplayModeList": [
+  "List"
+ ],
+ "Chat.BottomSearchPanel.MessageCount": [
+  "message",
+  "messages"
+ ],
+ "Chat.BottomSearchPanel.MessageCountFormat": [
+  "%1$@ %2$@"
+ ],
+ "Chat.BusinessBotMessageTooltip": [
+  "Only you can see that thismessage was sent by a bot."
+ ],
+ "Chat.BusinessBotPanel.ActionStart": [
+  "START"
+ ],
+ "Chat.BusinessBotPanel.ActionStop": [
+  "STOP"
+ ],
+ "Chat.BusinessBotPanel.Menu.ManageBot": [
+  "Manage Bot"
+ ],
+ "Chat.BusinessBotPanel.Menu.RemoveBot": [
+  "Remove bot from this chat"
+ ],
+ "Chat.BusinessBotPanel.StatusManages": [
+  "bot manages this chat"
+ ],
+ "Chat.BusinessBotPanel.StatusPaused": [
+  "bot paused"
+ ],
+ "Chat.CallMessage.CancelledGroupCall": [
+  "Canceled Group Call"
+ ],
+ "Chat.CallMessage.DeclinedGroupCall": [
+  "Declined Group Call"
+ ],
+ "Chat.CallMessage.MissedGroupCall": [
+  "Missed Group Call"
+ ],
+ "Chat.CommandList.EditQuickReplies": [
+  "Edit Quick Replies"
+ ],
+ "Chat.ConfirmationDeleteFromSavedMessages": [
+  "Delete from Saved Messages"
+ ],
+ "Chat.ConfirmationRemoveFromSavedMessages": [
+  "Remove from Saved Messages"
+ ],
+ "Chat.Context.Date.SetReminder": [
+  "Set a Reminder"
+ ],
+ "Chat.ContextMenuTagsTitle": [
+  "Tag the message with an emoji for quick access later"
+ ],
+ "Chat.EditTagTitle.Placeholder": [
+  "Name"
+ ],
+ "Chat.EditTagTitle.Text": [
+  "You can label your emoji tag with a text name."
+ ],
+ "Chat.EditTagTitle.TitleEdit": [
+  "Edit Name"
+ ],
+ "Chat.EditTagTitle.TitleSet": [
+  "Set Name"
+ ],
+ "Chat.EmptyStateIntroFooter": [
+  "%@ added the message above for all empty chats"
+ ],
+ "Chat.EmptyStateIntroFooterAction": [
+  "how?"
+ ],
+ "Chat.EmptyStateMessagingRestrictedToPremium.Action": [
+  "Get Premium"
+ ],
+ "Chat.EmptyStateMessagingRestrictedToPremium.Text": [
+  "Subscribe to **Premium**to message **%@**."
+ ],
+ "Chat.EmptyStatePaidMessaging.Action": [
+  "Buy Stars"
+ ],
+ "Chat.EmptyStatePaidMessaging.Text": [
+  "**%1$@** charges **%2$@**for each message."
+ ],
+ "Chat.EnableSharingOffer.AcceptConfirmation.Accept": [
+  "Enable"
+ ],
+ "Chat.EnableSharingOffer.AcceptConfirmation.Text": [
+  "Are you sure you want to enable sharing?"
+ ],
+ "Chat.ForwardToSavedMessageTagSelectionTitle": [
+  "You can add a tag to the message"
+ ],
+ "Chat.ForwardToSavedMessagesTagSelectionTitle": [
+  "You can add a tag to messages"
+ ],
+ "Chat.GiftPurchaseOffer.Accept": [
+  "Accept"
+ ],
+ "Chat.GiftPurchaseOffer.AcceptConfirmation.BadValue": [
+  "The value of this gift is **%@** higher than the offer."
+ ],
+ "Chat.GiftPurchaseOffer.AcceptConfirmation.Confirm": [
+  "Confirm Sale"
+ ],
+ "Chat.GiftPurchaseOffer.AcceptConfirmation.Text": [
+  "Do you want to sell **%1$@** to %2$@ for **%3$@**? You'll receive **%4$@** after fees."
+ ],
+ "Chat.GiftPurchaseOffer.AcceptConfirmation.Text.Stars": [
+  "%@ Star",
+  "%@ Stars"
+ ],
+ "Chat.GiftPurchaseOffer.AcceptConfirmation.Title": [
+  "Confirm Sale"
+ ],
+ "Chat.GiftPurchaseOffer.Reject": [
+  "Reject"
+ ],
+ "Chat.GiftPurchaseOffer.RejectConfirmation.Reject": [
+  "Reject"
+ ],
+ "Chat.GiftPurchaseOffer.RejectConfirmation.Text": [
+  "Are you sure you want to reject the offer from **%@**?"
+ ],
+ "Chat.GiftPurchaseOffer.RejectConfirmation.Title": [
+  "Reject Offer"
+ ],
+ "Chat.GramTransfer.Received": [
+  "received"
+ ],
+ "Chat.GramTransfer.Sent": [
+  "sent"
+ ],
+ "Chat.JumpToDate": [
+  "Jump to Date"
+ ],
+ "Chat.MessageContextMenu.NonPremiumTagsTitle": [
+  "Organize your Saved Messages with tags for quicker access. [Learn more...]()"
+ ],
+ "Chat.MessageContextMenu.Remove": [
+  "Remove"
+ ],
+ "Chat.MessageEffectMenu.SectionMessageEffects": [
+  "Message Effects"
+ ],
+ "Chat.MessageEffectMenu.TitleAddEffect": [
+  "Add an animated effect"
+ ],
+ "Chat.MessageRangeDeleted.ForBothSides": [
+  "Messages for 1 day deleted for both sides.",
+  "Messages for %@ days deleted for both sides."
+ ],
+ "Chat.MessageRangeDeleted.ForMe": [
+  "Messages for 1 day deleted.",
+  "Messages for %@ days deleted."
+ ],
+ "Chat.MessagingRestrictedPlaceholder": [
+  "%@ only accepts messages from Premium users."
+ ],
+ "Chat.MessagingRestrictedPlaceholderAction": [
+  "Learn more..."
+ ],
+ "Chat.NonContactUser.AnonymousNumber": [
+  "Collectible"
+ ],
+ "Chat.NonContactUser.Disclaimer": [
+  "Not an official account"
+ ],
+ "Chat.NonContactUser.PhoneNumber": [
+  "Phone Number"
+ ],
+ "Chat.NonContactUser.Registration": [
+  "Registration"
+ ],
+ "Chat.NonContactUser.Subtitle": [
+  "Not a contact"
+ ],
+ "Chat.NonContactUser.UpdatedDays": [
+  "%@ day ago",
+  "%@ days ago"
+ ],
+ "Chat.NonContactUser.UpdatedHours": [
+  "%@ hour ago",
+  "%@ hours ago"
+ ],
+ "Chat.NonContactUser.UpdatedName": [
+  "User updated name %1$@"
+ ],
+ "Chat.NonContactUser.UpdatedPhoto": [
+  "User updated photo %1$@"
+ ],
+ "Chat.PaidMessage.Confirm.Single.Text": [
+  "**%1$@** charges **%2$@** per incoming message. Would you like to pay **%3$@** to send %4$@?"
+ ],
+ "Chat.PaidMessage.Confirm.Text.Messages": [
+  "**%@** message",
+  "**%@** messages"
+ ],
+ "Chat.PaidMessage.Confirm.Text.Stars": [
+  "%@ Star",
+  "%@ Stars"
+ ],
+ "Chat.PaidMessage.RemoveFee.Refund": [
+  "Refund the **%@** already paid"
+ ],
+ "Chat.PaidMessage.RemoveFee.Refund.Stars": [
+  "%@ Star",
+  "%@ Stars"
+ ],
+ "Chat.PaidMessage.RemoveFee.Text": [
+  "Are you sure you want to allow **%@** to message you for free?"
+ ],
+ "Chat.PaidMessage.RemoveFee.Title": [
+  "Remove Fee"
+ ],
+ "Chat.PaidMessage.RemoveFee.Yes": [
+  "Yes"
+ ],
+ "Chat.PaidMessage.Sent.Text": [
+  "You paid %@"
+ ],
+ "Chat.PaidMessage.Sent.Text.Stars": [
+  "%@ Star",
+  "%@ Stars"
+ ],
+ "Chat.PaidMessage.Sent.Title": [
+  "Message Sent",
+  "%@ Messages Sent"
+ ],
+ "Chat.PaidMessageFee.RemoveFee": [
+  "Remove Fee"
+ ],
+ "Chat.PaidMessageFee.Text": [
+  "%1$@ must pay %2$@ for each message to you."
+ ],
+ "Chat.PanelCustomStatusInfo": [
+  "This account uses %@ as a custom status next to its name. Such emoji statuses are available to all subscribers of Telegram Premium."
+ ],
+ "Chat.PanelCustomStatusShortInfo": [
+  "%@ is a mark for [Premium subscribers >]()"
+ ],
+ "Chat.PanelStatusAuthorHidden": [
+  "Senders of these messages restricted to linktheir name when forwarding."
+ ],
+ "Chat.PanelUnpinAllMessages": [
+  "Unpin All Messages"
+ ],
+ "Chat.PlayOnceMesasge.DisableScreenCapture": [
+  "Sorry, you can't play this message while screen recording is active."
+ ],
+ "Chat.PlayOnceMesasgeClose": [
+  "Close"
+ ],
+ "Chat.PlayOnceMesasgeCloseAndDelete": [
+  "Close and Delete"
+ ],
+ "Chat.PlayOnceVideoMessageTooltip": [
+  "This video message can only be played once."
+ ],
+ "Chat.PlayOnceVideoMessageYourTooltip": [
+  "This message will disappear after **%@** plays it once."
+ ],
+ "Chat.PlayOnceVoiceMessageTooltip": [
+  "This voice message can only be played once."
+ ],
+ "Chat.PlayOnceVoiceMessageYourTooltip": [
+  "This message will disappear after **%@** plays it once."
+ ],
+ "Chat.PlayVideoMessageOnceTooltip": [
+  "The recipient will be able to play it only once."
+ ],
+ "Chat.PlayVoiceMessageOnceTooltip": [
+  "The recipient will be able to listen only once."
+ ],
+ "Chat.PrivateMessageSeenTimestamp.Date": [
+  "read %@"
+ ],
+ "Chat.PrivateMessageSeenTimestamp.TodayAt": [
+  "read today at %@"
+ ],
+ "Chat.PrivateMessageSeenTimestamp.YesterdayAt": [
+  "read yesterday at %@"
+ ],
+ "Chat.ReactionContextMenu.EditTagLabel": [
+  "Edit Name"
+ ],
+ "Chat.ReactionContextMenu.FilterByTag": [
+  "Filter by Tag"
+ ],
+ "Chat.ReactionContextMenu.RemoveTag": [
+  "Remove Tag"
+ ],
+ "Chat.ReactionContextMenu.SetTagLabel": [
+  "Set Name"
+ ],
+ "Chat.ReactionSelectionTitleAddTag": [
+  "Tag a message with emojis for quick search"
+ ],
+ "Chat.ReactionSelectionTitleEditTag": [
+  "Edit tags of selected messages"
+ ],
+ "Chat.SavedMessagesModeMenu.ViewAsChats": [
+  "View as Chats"
+ ],
+ "Chat.SavedMessagesModeMenu.ViewAsMessages": [
+  "View as Messages"
+ ],
+ "Chat.SavedMessagesTabInfoText": [
+  "Messages you sent to **Saved Messages**"
+ ],
+ "Chat.SearchTagsPlaceholder": [
+  "Search messages or tags"
+ ],
+ "Chat.SendMessageMenu.ToastPremiumRequired.Text": [
+  "Subscribe to [Telegram Premium]() to add this animated effect."
+ ],
+ "Chat.TagSearchHideMessages": [
+  "Hide Other Messages"
+ ],
+ "Chat.TagSearchShowMessages": [
+  "Show Other Messages"
+ ],
+ "Chat.TagsHeaderPanel.AddTags": [
+  "Add tags"
+ ],
+ "Chat.TagsHeaderPanel.AddTagsSuffix": [
+  "to your Saved Messages"
+ ],
+ "Chat.TapToPlayVideoMessageOnceTooltip": [
+  "Tap to set this message to **Play Once**"
+ ],
+ "Chat.TapToPlayVoiceMessageOnceTooltip": [
+  "Tap to set this message to **Play Once**"
+ ],
+ "Chat.TitlePinnedMessages": [
+  "Pinned Message",
+  "%@ Pinned Messages"
+ ],
+ "Chat.ToastCallLinkExpired.Text": [
+  "This link is no longer active"
+ ],
+ "Chat.TooltipAddTagLabel": [
+  "Tap and hold to add a name to your tag"
+ ],
+ "Chat.ViewGroupCall": [
+  "JOIN GROUP CALL"
+ ],
+ "Chat.ViewStyle": [
+  "VIEW STYLE"
+ ],
+ "ChatContextMenu.TextSelectionTip": [
+  "Hold on a word, then move the cursor to select more| text to copy."
+ ],
+ "ChatList.AuthorHidden": [
+  "Author Hidden"
+ ],
+ "ChatList.ClearChatConfirmation": [
+  "Are you sure you want to delete allmessages in the chat with %@?"
+ ],
+ "ChatList.ClearSavedMessagesConfirmation": [
+  "Are you sure you want to permanently delete all your Saved Messages?"
+ ],
+ "ChatList.DeleteForAllSubscribers": [
+  "Delete for all subscribers"
+ ],
+ "ChatList.DeleteForCurrentUser": [
+  "Delete just for me"
+ ],
+ "ChatList.DeleteSavedPeerConfirmation": [
+  "Are you sure you want to delete saved messages from %@?"
+ ],
+ "ChatList.DeleteSavedPeerMyNotesConfirmation": [
+  "Are you sure you want to delete all messages from %@?"
+ ],
+ "ChatList.DeleteSavedPeerMyNotesConfirmationTitle": [
+  "My Notes"
+ ],
+ "ChatList.ItemMoreMessagesFormat": [
+  "+1 MORE",
+  "+%d MORE"
+ ],
+ "CloudStorage.Title": [
+  "Cloud Storage"
+ ],
+ "Common.Back": [
+  "Back"
+ ],
+ "Common.Cancel": [
+  "Cancel"
+ ],
+ "Common.Close": [
+  "Close"
+ ],
+ "Common.Done": [
+  "Done"
+ ],
+ "Common.NotNow": [
+  "Not Now"
+ ],
+ "Common.Select": [
+  "Select"
+ ],
+ "Conversation.AddContact": [
+  "Add Contact"
+ ],
+ "Conversation.AddNameToContacts": [
+  "Add %@ to Contacts"
+ ],
+ "Conversation.AddToContacts": [
+  "Add to Contacts"
+ ],
+ "Conversation.AddToReadingList": [
+  "Add to Reading List"
+ ],
+ "Conversation.BlockUser": [
+  "Block User"
+ ],
+ "Conversation.Bytes": [
+  "%d B"
+ ],
+ "Conversation.Call": [
+  "Call"
+ ],
+ "Conversation.ClearAll": [
+  "Clear Chat"
+ ],
+ "Conversation.ClearPrivateHistory": [
+  "This will delete all messages and media in this chat from your Telegram cloud. Your chat partner will still have them."
+ ],
+ "Conversation.ClearSecretHistory": [
+  "This will delete all messages and media in this chat for both you and your chat partner."
+ ],
+ "Conversation.ClearSelfHistory": [
+  "This will delete all messages and media in this chat from your Telegram cloud."
+ ],
+ "Conversation.CloudStorage.ChatStatus": [
+  "chat with yourself"
+ ],
+ "Conversation.CloudStorageInfo.Title": [
+  "Your Cloud Storage"
+ ],
+ "Conversation.ClousStorageInfo.Description1": [
+  "• Forward messages here to save them"
+ ],
+ "Conversation.ClousStorageInfo.Description2": [
+  "• Send media and files to store them"
+ ],
+ "Conversation.ClousStorageInfo.Description3": [
+  "• Access this chat from any device"
+ ],
+ "Conversation.ClousStorageInfo.Description4": [
+  "• Use search to quickly find things"
+ ],
+ "Conversation.ContactAddContact": [
+  "ADD"
+ ],
+ "Conversation.ContactMessage": [
+  "MESSAGE"
+ ],
+ "Conversation.ContextMenuReply": [
+  "Reply"
+ ],
+ "Conversation.ContextMenuSendAnotherGift": [
+  "Send Another Gift"
+ ],
+ "Conversation.ContextMenuSendGiftTo": [
+  "Send Gift to %@"
+ ],
+ "Conversation.ContextMenuStickerPackAdd": [
+  "Add Stickers"
+ ],
+ "Conversation.DeleteMessagesFor": [
+  "Delete for me and %@"
+ ],
+ "Conversation.DeleteMessagesForMe": [
+  "Delete for me"
+ ],
+ "Conversation.Dice.u1F3B0": [
+  "Send a slot machine emoji to try your luck."
+ ],
+ "Conversation.EncryptedDescription1": [
+  "Use end-to-end encryption"
+ ],
+ "Conversation.EncryptedDescription2": [
+  "Leave no trace on our servers"
+ ],
+ "Conversation.EncryptedDescription3": [
+  "Have a self-destruct timer"
+ ],
+ "Conversation.EncryptedDescription4": [
+  "Do not allow forwarding"
+ ],
+ "Conversation.EncryptedDescriptionTitle": [
+  "Secret chats:"
+ ],
+ "Conversation.EncryptedPlaceholderTitleIncoming": [
+  "%@ invited you to join a secret chat."
+ ],
+ "Conversation.EncryptedPlaceholderTitleOutgoing": [
+  "You invited %@ to join a Secret Chat."
+ ],
+ "Conversation.EncryptionWaiting": [
+  "Waiting for %@ to get online..."
+ ],
+ "Conversation.ForwardOptions.TextSaved": [
+  "What would you like to do with %1$@ from your Saved Messages?"
+ ],
+ "Conversation.GreetingText": [
+  "Send a message or tap on the greeting below."
+ ],
+ "Conversation.Info": [
+  "Info"
+ ],
+ "Conversation.InputTextPlaceholder": [
+  "Message"
+ ],
+ "Conversation.InstantPagePreview": [
+  "INSTANT VIEW"
+ ],
+ "Conversation.InteractiveEmojiSyncTip": [
+  "If %@ had this chat open right now, they would also see the animation."
+ ],
+ "Conversation.LinkDialogCopy": [
+  "Copy"
+ ],
+ "Conversation.LinkDialogOpen": [
+  "Open"
+ ],
+ "Conversation.Mute": [
+  "Mute"
+ ],
+ "Conversation.MyNotes": [
+  "My Notes"
+ ],
+ "Conversation.OpenChatFolder": [
+  "VIEW CHAT LIST"
+ ],
+ "Conversation.PeerNearbyText": [
+  "Send a message or tap on the greeting below to show that you are ready to chat."
+ ],
+ "Conversation.PeerNearbyTitle": [
+  "%1$@ is %2$@ away"
+ ],
+ "Conversation.PinMessageAlertPin": [
+  "Pin"
+ ],
+ "Conversation.PinMessagesFor": [
+  "Pin for me and %@"
+ ],
+ "Conversation.PinMessagesForMe": [
+  "Pin for me"
+ ],
+ "Conversation.PinOlderMessageAlertText": [
+  "Do you want to pin an older message while leaving a more recent one pinned?"
+ ],
+ "Conversation.PinOlderMessageAlertTitle": [
+  "Pin Message"
+ ],
+ "Conversation.Report": [
+  "Report Spam"
+ ],
+ "Conversation.ReportSpam": [
+  "Report Spam"
+ ],
+ "Conversation.ReportSpamConfirmation": [
+  "Are you sure you want to report spam from this user?"
+ ],
+ "Conversation.SavedMessages": [
+  "Saved Messages"
+ ],
+ "Conversation.Search": [
+  "Search"
+ ],
+ "Conversation.SearchNoResults": [
+  "No Results"
+ ],
+ "Conversation.SecretLinkPreviewAlert": [
+  "Would you like to enable extended link previews in Secret Chats? Note that link previews are generated on Telegram servers."
+ ],
+ "Conversation.SendMessage.SendWhenOnline": [
+  "Send When Online"
+ ],
+ "Conversation.SendMessage.SetReminder": [
+  "Set a Reminder"
+ ],
+ "Conversation.SendMessageErrorFlood": [
+  "Sorry, you can only send messages to mutual contacts at the moment."
+ ],
+ "Conversation.SendingOptionsTooltip": [
+  "Hold this button to schedule your messageor send it without sound."
+ ],
+ "Conversation.SetReminder.RemindOn": [
+  "Remind on %@ at %@"
+ ],
+ "Conversation.SetReminder.RemindToday": [
+  "Remind today at %@"
+ ],
+ "Conversation.SetReminder.RemindTomorrow": [
+  "Remind tomorrow at %@"
+ ],
+ "Conversation.SetReminder.Title": [
+  "Set a Reminder"
+ ],
+ "Conversation.SlideToCancel": [
+  "Slide to cancel"
+ ],
+ "Conversation.StatusTyping": [
+  "typing"
+ ],
+ "Conversation.StopLiveLocation": [
+  "Stop Sharing"
+ ],
+ "Conversation.SuggestedBirthdate.Day": [
+  "Day"
+ ],
+ "Conversation.SuggestedBirthdate.Month": [
+  "Month"
+ ],
+ "Conversation.SuggestedBirthdate.Year": [
+  "Year"
+ ],
+ "Conversation.SuggestedBirthdateText": [
+  "**%@** suggested you add your birthday"
+ ],
+ "Conversation.SuggestedBirthdateTextYou": [
+  "You suggested **%@** to add a birthday"
+ ],
+ "Conversation.Theme.ChooseColorTitle": [
+  "Set a Color"
+ ],
+ "Conversation.Theme.ChooseWallpaperTitle": [
+  "Choose Wallpaper"
+ ],
+ "Conversation.Theme.PreviewDark": [
+  "Tap to view how %@ will see the chat when using night mode."
+ ],
+ "Conversation.Theme.PreviewLight": [
+  "Tap to view how %@ will see the chat when using day mode."
+ ],
+ "Conversation.Theme.ResetWallpaper": [
+  "Remove Wallpaper"
+ ],
+ "Conversation.Theme.SetColorWallpaper": [
+  "Set a Color as Wallpaper"
+ ],
+ "Conversation.Theme.SetCustomColor": [
+  "Set Custom"
+ ],
+ "Conversation.Theme.SetNewPhotoWallpaper": [
+  "Choose a New Wallpaper"
+ ],
+ "Conversation.Theme.SetPhotoWallpaper": [
+  "Choose Wallpaper from Photos"
+ ],
+ "Conversation.Theme.Subtitle": [
+  "Theme will be also applied for %@"
+ ],
+ "Conversation.TitleUnmute": [
+  "Unmute"
+ ],
+ "Conversation.Unblock": [
+  "Unblock"
+ ],
+ "Conversation.UserSendMessage": [
+  "SEND MESSAGE"
+ ],
+ "ConversationProfile.LeaveDeleteAndExit": [
+  "Delete and Leave"
+ ],
+ "CreateExternalStream.ServerUrl": [
+  "server URL"
+ ],
+ "CreateExternalStream.StartStreaming": [
+  "Start Streaming"
+ ],
+ "CreateExternalStream.StartStreamingInfo": [
+  "Once you start broadcasting in your streamingapp, tap Start Streaming below."
+ ],
+ "CreateExternalStream.StreamKey": [
+  "stream key"
+ ],
+ "CreateExternalStream.Text": [
+  "To stream video with another app, enterthis Server URL and Stream Key in yourstreaming app."
+ ],
+ "CreateExternalStream.Title": [
+  "Stream With..."
+ ],
+ "Currency.Grams": [
+  "%@ Gram",
+  "%@ Grams"
+ ],
+ "DialogList.AwaitingEncryption": [
+  "Waiting for %@ to come online..."
+ ],
+ "DialogList.ClearHistoryConfirmation": [
+  "Clear History"
+ ],
+ "DialogList.MyNotes": [
+  "My Notes"
+ ],
+ "DialogList.You": [
+  "You"
+ ],
+ "DisableSharing.Confirm": [
+  "Disable Sharing"
+ ],
+ "DisableSharing.Forwarding.Text": [
+  "Disable forwarding messages to other chats."
+ ],
+ "DisableSharing.Forwarding.Title": [
+  "No Forwarding"
+ ],
+ "DisableSharing.Saving.Text": [
+  "Disable copying text and saving photos or videos."
+ ],
+ "DisableSharing.Saving.Title": [
+  "No Saving"
+ ],
+ "DisableSharing.Screenshot.Text": [
+  "Disable screenshots and screen recordings in this chat."
+ ],
+ "DisableSharing.Screenshot.Title": [
+  "No Screenshots"
+ ],
+ "DisableSharing.Title": [
+  "Disable Sharing"
+ ],
+ "ENCRYPTION_REQUEST": [
+  "New secret chat request%1$@"
+ ],
+ "EnableSharing.SendRequest": [
+  "Send Request"
+ ],
+ "EnableSharing.Text": [
+  "You need **%@**'s approval to enable sharing. Send a request?"
+ ],
+ "EnableSharing.Title": [
+  "Enable Sharing"
+ ],
+ "EncryptionKey.Description": [
+  "This image and text were derived from the encryption key for this secret chat with %1$@.If they look the same on %2$@'s device, end-to-end encryption is guaranteed.Learn more at telegram.org"
+ ],
+ "EncryptionKey.Title": [
+  "Encryption Key"
+ ],
+ "FolderLinkPreview.ChatSectionHeader": [
+  "1 CHAT IN THIS FOLDER",
+  "%d CHATS IN THIS FOLDER"
+ ],
+ "FolderLinkPreview.TextAllAdded": [
+  "You have already added thisfolder and its chats."
+ ],
+ "FolderLinkPreview.ToastAlreadyMemberChannel": [
+  "You are already subscribed to this channel."
+ ],
+ "Forward.ChannelReadOnly": [
+  "Sorry, you can't post to this channel."
+ ],
+ "Generic.ErrorMoreInfo": [
+  "Learn More"
+ ],
+ "Gift.Displayed.Text": [
+  "This gift is now visible on [your profile]()."
+ ],
+ "Gift.Displayed.Title": [
+  "Gift Saved to Profile"
+ ],
+ "Gift.Displayed.View": [
+  "View"
+ ],
+ "Gift.Hidden.NewText": [
+  "Gift was removed from your profile."
+ ],
+ "Gift.Hidden.Text": [
+  "The gift is no longer displayed in [your profile]()."
+ ],
+ "Gift.Hidden.Title": [
+  "Gift Removed from Profile"
+ ],
+ "Gift.Offer.Duration": [
+  "Offer Duration"
+ ],
+ "Gift.Offer.Duration.Hours": [
+  "%@ Hour",
+  "%@ Hours"
+ ],
+ "Gift.Offer.DurationDescriptionStars": [
+  "Choose how long **%@** has to accept your offer. When it expires, your Stars will be automatically refunded."
+ ],
+ "Gift.Offer.Offer": [
+  "Offer"
+ ],
+ "Gift.Offer.OfferStars": [
+  "Offer Stars"
+ ],
+ "Gift.Offer.OfferTon": [
+  "Offer Grams"
+ ],
+ "Gift.Offer.PriceDescriptionStars": [
+  "Enter the amount of Stars you'd like to offer for **%@**."
+ ],
+ "Gift.Offer.PricePlaceholder": [
+  "Price"
+ ],
+ "Gift.Offer.PriceSectionStars": [
+  "STARS TO OFFER"
+ ],
+ "Gift.Offer.Title": [
+  "Offer to Buy"
+ ],
+ "Gift.Send.Buy": [
+  "Buy a Gift for"
+ ],
+ "Gift.Send.Limited.Success.Text": [
+  "You can send **%@** more.",
+  "You can send **%@** more."
+ ],
+ "Gift.Send.Limited.Success.Title": [
+  "Gift Sent!"
+ ],
+ "Gift.Transfer.Confirmation.Text": [
+  "Do you want to transfer ownership of **%1$@** to **%2$@** for **%3$@**?"
+ ],
+ "Gift.Transfer.Confirmation.Text.Stars": [
+  "%@ Star",
+  "%@ Stars"
+ ],
+ "Gift.Transfer.Confirmation.Title": [
+  "Confirm Transfer"
+ ],
+ "Gift.Transfer.Confirmation.Transfer": [
+  "Transfer for"
+ ],
+ "Gift.Transfer.SendUnlocks": [
+  "unlocks in %@"
+ ],
+ "Gift.Transfer.SendUnlocks.Days": [
+  "%@ day",
+  "%@ days"
+ ],
+ "Gift.Transfer.SendViaBlockchain": [
+  "Send via Blockchain"
+ ],
+ "Gift.Transfer.Success": [
+  "You have successfully gifted **%1$@** to **%2$@**."
+ ],
+ "Gift.Transfer.Title": [
+  "Transfer"
+ ],
+ "Gift.Transfer.UnlockPending.Text": [
+  "In %@, you'll be able to send this collectible to any TON blockchain address outside Telegram for sale or auction."
+ ],
+ "Gift.Transfer.UnlockPending.Text.Days": [
+  "%@ day",
+  "%@ days"
+ ],
+ "Gift.Transfer.UnlockPending.Title": [
+  "Unlocking In Progress"
+ ],
+ "Gift.Upgrade.Upgrade": [
+  "Upgrade"
+ ],
+ "Gift.View.Availability": [
+  "Availability"
+ ],
+ "Gift.View.Availability.Of": [
+  "%1$@ of %2$@"
+ ],
+ "Gift.View.Convert": [
+  "Convert to %@"
+ ],
+ "Gift.View.Convert.Stars": [
+  "%@ Star",
+  "%@ Stars"
+ ],
+ "Gift.View.ConvertedDescription": [
+  "You converted this gift to %@. [More About Stars >]()"
+ ],
+ "Gift.View.ConvertedDescription.Stars": [
+  "%@ Star",
+  "%@ Stars"
+ ],
+ "Gift.View.Date": [
+  "Date"
+ ],
+ "Gift.View.DisplayedInfoHide": [
+  "The gift is visible on your profile. [Hide >]()"
+ ],
+ "Gift.View.FreeUpgradeDescription": [
+  "Upgrade this gift for free to turn it into a unique collectible."
+ ],
+ "Gift.View.From": [
+  "From"
+ ],
+ "Gift.View.HiddenInfoShow": [
+  "This gift is hidden. Only you can see it. [Show >]()"
+ ],
+ "Gift.View.Hide": [
+  "Hide from my profile"
+ ],
+ "Gift.View.KeepOrConvertDescription": [
+  "You can add this gift to your Profile or convert it to %@. [More About Stars >]()"
+ ],
+ "Gift.View.KeepOrConvertDescription.Stars": [
+  "%@ Star",
+  "%@ Stars"
+ ],
+ "Gift.View.OtherDescription": [
+  "%1$@ can add this gift to their profile or convert it to %2$@. [More About Stars >]()"
+ ],
+ "Gift.View.OtherDescription.Stars": [
+  "%@ Star",
+  "%@ Stars"
+ ],
+ "Gift.View.ReceivedTitle": [
+  "Received Gift"
+ ],
+ "Gift.View.Resale.Success.Text": [
+  "%@ has been notified about your gift."
+ ],
+ "Gift.View.Resale.Success.Title": [
+  "Gift Sent"
+ ],
+ "Gift.View.Self.Title": [
+  "Saved Gift"
+ ],
+ "Gift.View.Status": [
+  "Status"
+ ],
+ "Gift.View.Status.NonUnique": [
+  "Non-Unique"
+ ],
+ "Gift.View.Status.Upgrade": [
+  "upgrade"
+ ],
+ "Gift.View.Title": [
+  "Gift"
+ ],
+ "Gift.View.UpgradeForFree": [
+  "Upgrade for Free"
+ ],
+ "Gift.View.UpgradedDescription": [
+  "This gift was turned into a unique collectible."
+ ],
+ "Gift.View.ViewUpgraded": [
+  "View Upgraded Gift"
+ ],
+ "Invitation.GroupCall": [
+  "Group Call"
+ ],
+ "Invitation.GroupCall.AlreadyJoinedMultiple": [
+  "%@ already joined this call."
+ ],
+ "Invitation.GroupCall.AlreadyJoinedMultipleWithCount": [
+  "{} and **%d** other person already joined this call.",
+  "{} and **%d** other people already joined this call."
+ ],
+ "Invitation.GroupCall.AlreadyJoinedSingle": [
+  "**%@** already joined this call."
+ ],
+ "Invitation.GroupCall.Text": [
+  "You are invited to join a group call."
+ ],
+ "Invitation.JoinGroupCall": [
+  "Join Group Call"
+ ],
+ "LastSeen.ALongTimeAgo": [
+  "last seen a long time ago"
+ ],
+ "LastSeen.AtDate": [
+  "last seen %@"
+ ],
+ "LastSeen.HoursAgo": [
+  "last seen 1 hour ago",
+  "last seen %@ hours ago"
+ ],
+ "LastSeen.JustNow": [
+  "last seen just now"
+ ],
+ "LastSeen.Lately": [
+  "last seen recently"
+ ],
+ "LastSeen.MinutesAgo": [
+  "last seen 1 minute ago",
+  "last seen %@ minutes ago"
+ ],
+ "LastSeen.Offline": [
+  "last seen a long time ago"
+ ],
+ "LastSeen.WithinAMonth": [
+  "last seen within a month"
+ ],
+ "LastSeen.WithinAWeek": [
+  "last seen within a week"
+ ],
+ "LastSeen.YesterdayAt": [
+  "last seen yesterday at %@"
+ ],
+ "LiveStream.InputContextMenuEditStars": [
+  "Edit Stars"
+ ],
+ "LiveStream.InputContextMenuRemoveStars": [
+  "Remove Stars"
+ ],
+ "LiveStream.InputPlaceholder": [
+  "Comment"
+ ],
+ "LiveStream.StoryViewerCount": [
+  "1 watching",
+  "%@ watching"
+ ],
+ "LiveStreamSettings.AllowComments": [
+  "Allow Comments"
+ ],
+ "LiveStreamSettings.AllowScreenshots": [
+  "Allow Screenshots"
+ ],
+ "LiveStreamSettings.ConnectStream": [
+  "Connect Stream"
+ ],
+ "LiveStreamSettings.ConnectStreamInfo": [
+  "Stream with a different app."
+ ],
+ "LiveStreamSettings.PricePerComment": [
+  "PRICE PER COMMENT"
+ ],
+ "LiveStreamSettings.PricePerCommentInfo": [
+  "The price a viewer must pay to send a comment."
+ ],
+ "LiveStreamSettings.SaveSettings": [
+  "Save Settings"
+ ],
+ "LiveStreamSettings.StartLiveAs": [
+  "START LIVE AS"
+ ],
+ "LiveStreamSettings.Title": [
+  "Live Settings"
+ ],
+ "LiveStreamSettings.WhoCanView": [
+  "WHO CAN VIEW THIS LIVE"
+ ],
+ "Location.LiveLocationRequired.Description": [
+  "For the alert to work, please share your live location in this chat."
+ ],
+ "Location.LiveLocationRequired.ShareLocation": [
+  "Share Location"
+ ],
+ "Location.LiveLocationRequired.Title": [
+  "Share Location"
+ ],
+ "Location.ProximityNotification.AlreadyClose": [
+  "You are already closer than %@"
+ ],
+ "Location.ProximityNotification.DistanceKM": [
+  "km"
+ ],
+ "Location.ProximityNotification.DistanceM": [
+  "m"
+ ],
+ "Location.ProximityNotification.Notify": [
+  "Notify me within %@"
+ ],
+ "Location.ProximityNotification.Title": [
+  "Proximity Alert"
+ ],
+ "Location.ProximityTip": [
+  "Alert when %@ is close"
+ ],
+ "MESSAGE_SCREENSHOT": [
+  "%1$@ took a screenshot!"
+ ],
+ "Media.SendingOptionsTooltip": [
+  "Hold this button to send your message with a self-destruct timer."
+ ],
+ "MediaPicker.TimerTooltip": [
+  "You can now set a self-destruct timer"
+ ],
+ "Message.File": [
+  "File"
+ ],
+ "Message.ForwardedMessage": [
+  "Forwarded MessageFrom: %@"
+ ],
+ "Message.ImageExpired": [
+  "Expired photo"
+ ],
+ "Message.VideoExpired": [
+  "Expired video"
+ ],
+ "Message.VideoMessageExpired": [
+  "Expired video message"
+ ],
+ "Message.VoiceMessageExpired": [
+  "Expired voice message"
+ ],
+ "MessageCalendar.DeleteAlertText": [
+  "Are you sure you want to delete all messages for the selected day?",
+  "Are you sure you want to delete all messages for the selected %@ days?"
+ ],
+ "MessageTimer.Days": [
+  "%@ day",
+  "%@ days"
+ ],
+ "MessageTimer.Hours": [
+  "%@ hour",
+  "%@ hours"
+ ],
+ "MessageTimer.Minutes": [
+  "%@ minute",
+  "%@ minutes"
+ ],
+ "MessageTimer.Seconds": [
+  "%@ second",
+  "%@ seconds"
+ ],
+ "MessageTimer.ShortDays": [
+  "%@d",
+  "%@d"
+ ],
+ "MessageTimer.ShortHours": [
+  "%@h",
+  "%@h"
+ ],
+ "MessageTimer.ShortMinutes": [
+  "%@m",
+  "%@m"
+ ],
+ "MessageTimer.ShortSeconds": [
+  "%@s",
+  "%@s"
+ ],
+ "MessageTimer.ShortWeeks": [
+  "%@w",
+  "%@w"
+ ],
+ "MessageTimer.Weeks": [
+  "%@ week",
+  "%@ weeks"
+ ],
+ "Notification.CallFormat": [
+  "%1$@, %2$@"
+ ],
+ "Notification.CallIncoming": [
+  "Incoming Call"
+ ],
+ "Notification.CallOutgoing": [
+  "Outgoing Call"
+ ],
+ "Notification.ChangedToSameWallpaper": [
+  "%1$@ set the same wallpaper for this chat"
+ ],
+ "Notification.ChangedWallpaper": [
+  "%1$@ set a new wallpaper for this chat"
+ ],
+ "Notification.CopyProtection.Disabled": [
+  "%1$@ enabled sharing in this chat"
+ ],
+ "Notification.CopyProtection.DisabledYou": [
+  "You enabled sharing in this chat"
+ ],
+ "Notification.CopyProtection.Enabled": [
+  "%1$@ disabled sharing in this chat"
+ ],
+ "Notification.CopyProtection.EnabledYou": [
+  "You disabled sharing in this chat"
+ ],
+ "Notification.CopyProtection.RequestChat": [
+  "%@ would like to enable sharing in this chat, which includes:"
+ ],
+ "Notification.CopyProtection.RequestChatInfo": [
+  "forwarding messagessaving photos and videoscopying messagestaking screenshots"
+ ],
+ "Notification.CopyProtection.RequestChatYou": [
+  "You suggested to enable sharing in this chat, which includes:"
+ ],
+ "Notification.CopyProtection.StillEnabled": [
+  "Sharing in this chat is still disabled"
+ ],
+ "Notification.GramTransfer.UnknownUser": [
+  "UNKNOWN USER"
+ ],
+ "Notification.GramTransfer.WithFiat": [
+  "%1$@ sent you %2$@ (%3$@)"
+ ],
+ "Notification.GramTransfer.WithFiatYou": [
+  "You sent %1$@ %2$@ (%3$@)"
+ ],
+ "Notification.GramTransferUnknown.WithFiat": [
+  "Someone sent you %1$@ (%2$@)"
+ ],
+ "Notification.MessageLifetime1d": [
+  "1 day"
+ ],
+ "Notification.MessageLifetime1h": [
+  "1 hour"
+ ],
+ "Notification.MessageLifetime1m": [
+  "1 minute"
+ ],
+ "Notification.MessageLifetime1w": [
+  "1 week"
+ ],
+ "Notification.MessageLifetime2s": [
+  "2 seconds"
+ ],
+ "Notification.MessageLifetime5s": [
+  "5 seconds"
+ ],
+ "Notification.MessageLifetimeChanged": [
+  "%1$@ set the self-destruct timer to %2$@"
+ ],
+ "Notification.MessageLifetimeChangedOutgoing": [
+  "You set the self-destruct timer to %1$@"
+ ],
+ "Notification.MessageLifetimeRemoved": [
+  "%1$@ disabled the self-destruct timer"
+ ],
+ "Notification.MessageLifetimeRemovedOutgoing": [
+  "You disabled the self-destruct timer"
+ ],
+ "Notification.PaidMessage": [
+  "%1$@ paid %2$@ to send a message"
+ ],
+ "Notification.PaidMessage.Messages": [
+  "%@ message",
+  "%@ messages"
+ ],
+ "Notification.PaidMessage.Stars": [
+  "%@ Star",
+  "%@ Stars"
+ ],
+ "Notification.PaidMessageMany": [
+  "%1$@ paid %2$@ to send %3$@"
+ ],
+ "Notification.PaidMessageRefund": [
+  "%1$@ refunded you %2$@"
+ ],
+ "Notification.PaidMessageRefund.Stars": [
+  "%@ Star",
+  "%@ Stars"
+ ],
+ "Notification.PaidMessageRefundYou": [
+  "You refunded %1$@ to %2$@"
+ ],
+ "Notification.PremiumGift.MonthsTitle": [
+  "%@ Month Premium",
+  "%@ Months Premium"
+ ],
+ "Notification.PremiumGift.More": [
+  "more"
+ ],
+ "Notification.PremiumGift.SubscriptionDescription": [
+  "Subscription for exclusive Telegram features."
+ ],
+ "Notification.PremiumGift.UseGift": [
+  "Use Gift"
+ ],
+ "Notification.PremiumGift.View": [
+  "View"
+ ],
+ "Notification.ProximityReachedYou": [
+  "%1$@ is now within %2$@ from you"
+ ],
+ "Notification.ProximityYouReached": [
+  "You are now within %1$@ from %2$@"
+ ],
+ "Notification.SecretChatMessageScreenshot": [
+  "%@ took a screenshot!"
+ ],
+ "Notification.SecretChatMessageScreenshotSelf": [
+  "You took a screenshot!"
+ ],
+ "Notification.StarGift.Backdrop": [
+  "Backdrop"
+ ],
+ "Notification.StarGift.Gift": [
+  "gift"
+ ],
+ "Notification.StarGift.Model": [
+  "Model"
+ ],
+ "Notification.StarGift.OneOf": [
+  "1 of %@"
+ ],
+ "Notification.StarGift.Subtitle": [
+  "Add this gift to your profile or convert it to %@."
+ ],
+ "Notification.StarGift.Subtitle.Converted": [
+  "You converted this gift to %@."
+ ],
+ "Notification.StarGift.Subtitle.Converted.Stars": [
+  "%@ Star",
+  "%@ Stars"
+ ],
+ "Notification.StarGift.Subtitle.Displaying": [
+  "You added this gift to your profile. You can also convert it to %@."
+ ],
+ "Notification.StarGift.Subtitle.Displaying.Stars": [
+  "%@ Star",
+  "%@ Stars"
+ ],
+ "Notification.StarGift.Subtitle.Other": [
+  "%1$@ can add this gift to their profile or convert it to %2$@."
+ ],
+ "Notification.StarGift.Subtitle.Other.Stars": [
+  "%@ Star",
+  "%@ Stars"
+ ],
+ "Notification.StarGift.Subtitle.Stars": [
+  "%@ Star",
+  "%@ Stars"
+ ],
+ "Notification.StarGift.Subtitle.Upgrade": [
+  "Tap \"Unpack\" to turn this gift into a unique collectible."
+ ],
+ "Notification.StarGift.Subtitle.Upgraded": [
+  "This gift was upgraded."
+ ],
+ "Notification.StarGift.Symbol": [
+  "Symbol"
+ ],
+ "Notification.StarGift.Title": [
+  "Gift from %@"
+ ],
+ "Notification.StarGift.Unpack": [
+  "Unpack"
+ ],
+ "Notification.StarGift.View": [
+  "View"
+ ],
+ "Notification.StarGiftOffer.Expiration.Hours": [
+  "%@h",
+  "%@h"
+ ],
+ "Notification.StarGiftOffer.Expiration.Minutes": [
+  "%@m",
+  "%@m"
+ ],
+ "Notification.StarGiftOffer.Offer": [
+  "The user offered you **%2$@** for your gift **%3$@**."
+ ],
+ "Notification.StarGiftOffer.Offer.Stars": [
+  "%@ Star",
+  "%@ Stars"
+ ],
+ "Notification.StarGiftOffer.OfferYou": [
+  "You offered **%1$@** **%2$@** for their gift **%3$@**."
+ ],
+ "Notification.StarGiftOffer.Status.Accepted": [
+  "This offer was accepted."
+ ],
+ "Notification.StarGiftOffer.Status.Expired": [
+  "This offer has expired."
+ ],
+ "Notification.StarGiftOffer.Status.Expires": [
+  "This offer expires in %@"
+ ],
+ "Notification.StarGiftOffer.Status.Rejected": [
+  "This offer was rejected."
+ ],
+ "Notification.StarsGift.Bought": [
+  "%1$@ gifted you %2$@ for %3$@"
+ ],
+ "Notification.StarsGift.Sent": [
+  "%1$@ sent you a gift for %2$@"
+ ],
+ "Notification.StarsGift.SentYou": [
+  "You sent a gift for %@"
+ ],
+ "Notification.StarsGift.Stars": [
+  "%@ Star",
+  "%@ Stars"
+ ],
+ "Notification.StarsGift.Subtitle": [
+  "Use Stars to unlock content and services on Telegram."
+ ],
+ "Notification.StarsGift.SubtitleYou": [
+  "With Stars, %@ will be able to unlock content and services on Telegram."
+ ],
+ "Notification.StarsGift.Title": [
+  "%@ Star",
+  "%@ Stars"
+ ],
+ "Notification.StarsGift.Transfer": [
+  "%@ transferred a unique collectible to you"
+ ],
+ "Notification.StarsGift.TransferYou": [
+  "You transferred a unique collectible"
+ ],
+ "Notification.StarsGift.UpgradeYou": [
+  "You turned the gift from %@ into a unique collectible"
+ ],
+ "Notification.StarsGiftOffer.Expired": [
+  "%1$@ didn't respond to your offer for %2$@ – your %4$@ have been refunded"
+ ],
+ "Notification.StarsGiftOffer.Expired.Stars": [
+  "%@ Star",
+  "%@ Stars"
+ ],
+ "Notification.StarsGiftOffer.Offer.Stars": [
+  "%@ Star",
+  "%@ Stars"
+ ],
+ "Notification.StarsGiftOffer.Rejected": [
+  "%1$@ rejected your offer for %2$@ – your %3$@ have been refunded"
+ ],
+ "Notification.StarsGiftOffer.RejectedYou": [
+  "You rejected %1$@'s offer"
+ ],
+ "Notification.VideoCallCanceled": [
+  "Canceled Video Call"
+ ],
+ "Notification.VideoCallIncoming": [
+  "Incoming Video Call"
+ ],
+ "Notification.VideoCallMissed": [
+  "Missed Video Call"
+ ],
+ "Notification.VideoCallOutgoing": [
+  "Outgoing Video Call"
+ ],
+ "Notification.Wallpaper.View": [
+  "View Wallpaper"
+ ],
+ "Notification.YouChangedToSameWallpaper": [
+  "You set the same wallpaper as your chat partner."
+ ],
+ "Notification.YouChangedWallpaper": [
+  "You set a new wallpaper for this chat"
+ ],
+ "Notification.YouChangedWallpaperBoth": [
+  "You set a new wallpaper for %@ and you"
+ ],
+ "Notification.YouChangingWallpaper": [
+  "Setting new wallpaper"
+ ],
+ "OpenFile.PotentiallyDangerousContentAlert": [
+  "Previewing this file can potentially expose your IP address to its sender. Continue?"
+ ],
+ "OpenFile.Proceed": [
+  "Proceed"
+ ],
+ "PUSH_MESSAGE_WALLPAPER": [
+  "%1$@ set a new wallpaper for the chat with you"
+ ],
+ "Peer.DeletedUser": [
+  "Deleted User"
+ ],
+ "PeerInfo.AddToContacts": [
+  "Add to Contacts"
+ ],
+ "PeerInfo.BioExpand": [
+  "more"
+ ],
+ "PeerInfo.ButtonCall": [
+  "Call"
+ ],
+ "PeerInfo.ButtonMessage": [
+  "Message"
+ ],
+ "PeerInfo.ButtonMore": [
+  "More"
+ ],
+ "PeerInfo.ButtonMute": [
+  "Mute"
+ ],
+ "PeerInfo.ClearConfirmationUser": [
+  "Do you want to delete all messages with %@?"
+ ],
+ "PeerInfo.DisableSharing": [
+  "Disable Sharing"
+ ],
+ "PeerInfo.EnableSharing": [
+  "Enable Sharing"
+ ],
+ "PeerInfo.HiddenStatusBadge": [
+  "when?"
+ ],
+ "PeerInfo.PaneGroups": [
+  "Groups"
+ ],
+ "Premium.Gift.TitleShort": [
+  "Telegram Premium"
+ ],
+ "Premium.MessageTags.Proceed": [
+  "About Telegram Premium"
+ ],
+ "Premium.Wallpaper.Proceed": [
+  "About Telegram Premium"
+ ],
+ "Premium.Wallpapers": [
+  "Wallpapers for Both Sides"
+ ],
+ "Premium.WallpapersInfo": [
+  "Set custom wallpapers for you and your chat partner."
+ ],
+ "PrivacyInfo.ShowLastSeen.ButtonTitle": [
+  "Show My Last Seen to Everyone"
+ ],
+ "PrivacyInfo.ShowLastSeen.PremiumInfo": [
+  "Subscribing will let you see **%@'s** Last Seen status without showing yours."
+ ],
+ "PrivacyInfo.ShowLastSeen.Text": [
+  "To see **%@'s** Last Seen time, either start showing your own Last Seen Time..."
+ ],
+ "PrivacyInfo.ShowLastSeen.Title": [
+  "Show Your Last Seen"
+ ],
+ "PrivacyInfo.UpgradeToPremium.ButtonTitle": [
+  "Subscribe to Telegram Premium"
+ ],
+ "PrivacyInfo.UpgradeToPremium.Title": [
+  "Upgrade to Premium"
+ ],
+ "Profile.AddToExisting": [
+  "Add to Existing Contact"
+ ],
+ "Profile.CreateNewContact": [
+  "Create New Contact"
+ ],
+ "Profile.EncryptionKey": [
+  "Encryption Key"
+ ],
+ "Profile.MessageLifetime1d": [
+  "1d"
+ ],
+ "Profile.MessageLifetime1h": [
+  "1h"
+ ],
+ "Profile.MessageLifetime1m": [
+  "1m"
+ ],
+ "Profile.MessageLifetime1w": [
+  "1w"
+ ],
+ "Profile.MessageLifetime2s": [
+  "2s"
+ ],
+ "Profile.MessageLifetime5s": [
+  "5s"
+ ],
+ "Profile.MessageLifetimeForever": [
+  "Off"
+ ],
+ "QrStudio.NoPaidToken.Imported": [
+  "You can now message %@ for free."
+ ],
+ "QrStudio.NoPaidToken.Invalid": [
+  "This free message link is invalid or has expired."
+ ],
+ "QuickReply.Title": [
+  "Quick Replies"
+ ],
+ "ReportSpam.DeleteThisChat": [
+  "Delete this Chat"
+ ],
+ "SavedMessages.OpenChannel": [
+  "Open Channel"
+ ],
+ "SavedMessages.OpenChat": [
+  "Open Chat"
+ ],
+ "SavedMessages.OpenGroup": [
+  "Open Group"
+ ],
+ "SavedMessages.SubChatDeleted": [
+  "Saved messages deleted."
+ ],
+ "ScheduleMessage.Repeat": [
+  "Repeat"
+ ],
+ "ScheduleMessage.RepeatPeriod.3Months": [
+  "Every 3 Months"
+ ],
+ "ScheduleMessage.RepeatPeriod.6Months": [
+  "Every 6 Months"
+ ],
+ "ScheduleMessage.RepeatPeriod.Biweekly": [
+  "Biweekly"
+ ],
+ "ScheduleMessage.RepeatPeriod.Daily": [
+  "Daily"
+ ],
+ "ScheduleMessage.RepeatPeriod.Monthly": [
+  "Monthly"
+ ],
+ "ScheduleMessage.RepeatPeriod.Never": [
+  "Never"
+ ],
+ "ScheduleMessage.RepeatPeriod.Weekly": [
+  "Weekly"
+ ],
+ "ScheduleMessage.RepeatPeriod.Yearly": [
+  "Yearly"
+ ],
+ "ScheduleMessage.SilentPosting.UserDisabled": [
+  "%@ will be notified"
+ ],
+ "ScheduleMessage.SilentPosting.UserEnabled": [
+  "%@ will receive a silent notification"
+ ],
+ "ScheduleMessage.Time": [
+  "Time"
+ ],
+ "ScheduledMessages.ScheduledOnline": [
+  "Scheduled until online"
+ ],
+ "ScheduledMessages.Title": [
+  "Scheduled Messages"
+ ],
+ "SecretChat.Title": [
+  "Secret Chat"
+ ],
+ "SecretGIF.NotViewedYet": [
+  "%@ hasn't played this GIF yet"
+ ],
+ "SecretGif.Title": [
+  "Disappearing GIF"
+ ],
+ "SecretImage.NotViewedYet": [
+  "%@ hasn't opened this photo yet"
+ ],
+ "SecretImage.Title": [
+  "Disappearing Photo"
+ ],
+ "SecretTimer.ImageDescription": [
+  "If you set a timer, the photo will self-destruct after it was viewed."
+ ],
+ "SecretTimer.VideoDescription": [
+  "If you set a timer, the video will self-destruct after it is viewed."
+ ],
+ "SecretVideo.NotViewedYet": [
+  "%@ hasn't played this video yet"
+ ],
+ "SecretVideo.Title": [
+  "Disappearing Video"
+ ],
+ "ServiceMessage.GameScoreExtended": [
+  "{name} scored %@ in {game}",
+  "{name} scored %@ in {game}"
+ ],
+ "ServiceMessage.GameScoreSelfExtended": [
+  "You scored %@ in {game}",
+  "You scored %@ in {game}"
+ ],
+ "Settings.Privacy.LastSeenRevealedToast": [
+  "Your last seen time is now visible."
+ ],
+ "Share.Title": [
+  "Share"
+ ],
+ "Stars.Gift.Received.Text": [
+  "Use Stars to unlock content and services on Telegram. [See Examples >]()"
+ ],
+ "Stars.Gift.Received.Title": [
+  "Received Gift"
+ ],
+ "Stars.Gift.Sent.Text": [
+  "With Stars, %@ will be able to unlock content and services on Telegram. [See Examples >]()"
+ ],
+ "Stars.Gift.Sent.Title": [
+  "Sent Gift"
+ ],
+ "Stars.Purchase.SendMessageInfo": [
+  "Buy Stars to send a message to **%@**."
+ ],
+ "Stars.Transaction.Date": [
+  "Date"
+ ],
+ "Stars.Transaction.From": [
+  "From"
+ ],
+ "Stars.Transaction.To": [
+  "To"
+ ],
+ "Story.Privacy.KeepOnMyPage": [
+  "Post to My Profile"
+ ],
+ "SuggestBirthdate.Accept.Action": [
+  "Add to My Profile"
+ ],
+ "SuggestBirthdate.Accept.HideYear": [
+  "Hide the Year"
+ ],
+ "Undo.ChatClearedForBothSides": [
+  "Chat cleared for both sides."
+ ],
+ "Undo.Undo": [
+  "Undo"
+ ],
+ "UserInfo.BlockActionTitle": [
+  "Block %@"
+ ],
+ "UserInfo.BlockConfirmationTitle": [
+  "Do you want to block %@ from messaging and calling you on Telegram?"
+ ],
+ "UserInfo.ChangeWallpaper": [
+  "Change Wallpaper"
+ ],
+ "UserInfo.ContactForwardTooltip.Chat.One": [
+  "Contact sent to **%@**."
+ ],
+ "UserInfo.ContactForwardTooltip.ManyChats.One": [
+  "Contact sent to **%@** and %@ other chats."
+ ],
+ "UserInfo.ContactForwardTooltip.SavedMessages.One": [
+  "Contact sent to **Saved Messages**."
+ ],
+ "UserInfo.ContactForwardTooltip.TwoChats.One": [
+  "Contact sent to **%@** and **%@**."
+ ],
+ "UserInfo.GroupsInCommon": [
+  "Groups In Common"
+ ],
+ "Wallet.CopyAddress": [
+  "Copy Address"
+ ],
+ "Wallet.SendMoney": [
+  "Send Money"
+ ],
+ "Wallet.Transaction.OpenWallet": [
+  "Open My Money"
+ ],
+ "Wallet.Transaction.WhatIsGram": [
+  "What is Gram?"
+ ],
+ "Wallet.Unavailable": [
+  "Money is currently unavailable."
+ ],
+ "Wallet.UnlinkedAddress": [
+  "This address has no linked Telegram account."
+ ],
+ "Wallet.ViewInExplorer": [
+  "View in Explorer"
+ ],
+ "Wallet.ViewProfile": [
+  "View Profile >"
+ ],
+ "Wallpaper.ApplyForBoth": [
+  "Apply for Me and %@"
+ ],
+ "Wallpaper.ApplyForChat": [
+  "Apply For This Chat"
+ ],
+ "Wallpaper.ApplyForMe": [
+  "Apply for Me"
+ ],
+ "Wallpaper.Title": [
+  "Chat Wallpaper"
+ ],
+ "WallpaperPreview.Blurred": [
+  "Blurred"
+ ],
+ "WallpaperPreview.ChatBottomText": [
+  "Looks good."
+ ],
+ "WallpaperPreview.ChatTopText": [
+  "Apply the wallpaper in this chat."
+ ],
+ "WallpaperPreview.Motion": [
+  "Motion"
+ ],
+ "WallpaperPreview.NotAppliedInfo": [
+  "**%@** will be able to apply this wallpaper"
+ ],
+ "Watch.Conversation.Unblock": [
+  "Unblock"
+ ],
+ "Watch.Conversation.UserInfo": [
+  "Info"
+ ],
+ "Watch.LastSeen.JustNow": [
+  "just now"
+ ],
+ "Watch.UserInfo.Unmute": [
+  "Unmute"
+ ]
+}

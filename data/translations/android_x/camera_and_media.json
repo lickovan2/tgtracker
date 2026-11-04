@@ -1,0 +1,590 @@
+{
+ "AddCaption": [
+  "Add a caption…"
+ ],
+ "AllMedia": [
+  "All media"
+ ],
+ "AllVideos": [
+  "All videos"
+ ],
+ "ArchivePack": [
+  "Archive pack"
+ ],
+ "ArchiveStickerSet": [
+  "Archive sticker set %1$s? You can restore it later in Settings > Stickers > Archived."
+ ],
+ "AsOneMessage": [
+  "as one message"
+ ],
+ "AsSeparateMessages": [
+  "as separate messages"
+ ],
+ "AsXMessages": [
+  "as %1$s message",
+  "as %1$s messages"
+ ],
+ "AttachMediasSuffix": [
+  " media",
+  " media"
+ ],
+ "AttachPhotosSuffix": [
+  " photo",
+  " photos"
+ ],
+ "AttachVideosSuffix": [
+  " video",
+  " videos"
+ ],
+ "Audio": [
+  "Audio"
+ ],
+ "AudioUnknownArtist": [
+  "Unknown Artist"
+ ],
+ "CameraButtonHint": [
+  "Tap for photo, hold for video"
+ ],
+ "Cancel": [
+  "Cancel"
+ ],
+ "ChatCamera": [
+  "Camera"
+ ],
+ "ClearDrawing": [
+  "Clear drawing"
+ ],
+ "ClearRecentStickers": [
+  "Clear Recent Stickers"
+ ],
+ "ClearX": [
+  "Clear %1$s"
+ ],
+ "CloudDownload": [
+  "Download %1$s"
+ ],
+ "CloudPause": [
+  "Pause Download"
+ ],
+ "Contrast": [
+  "Contrast"
+ ],
+ "CreateQuiz": [
+  "New Quiz"
+ ],
+ "CropFree": [
+  "Free"
+ ],
+ "CropOriginal": [
+  "Original"
+ ],
+ "CropSquare": [
+  "Square"
+ ],
+ "Delete": [
+  "Delete"
+ ],
+ "DeleteFileHint": [
+  "Note: you will be able to download this file any time later."
+ ],
+ "DeleteFromCache": [
+  "Clear from cache"
+ ],
+ "DeleteMultipleFilesHint": [
+  "Note: you will be able to download these files any time later."
+ ],
+ "DeletePack": [
+  "Delete pack"
+ ],
+ "Directions": [
+  "Directions…"
+ ],
+ "Discard": [
+  "Discard"
+ ],
+ "DiscardCurrentChanges": [
+  "Discard current changes?"
+ ],
+ "DiscardEditCaption": [
+  "Discard caption"
+ ],
+ "DiscardEditCaptionHint": [
+  "Are you sure you want to discard edited caption? These changes will be lost."
+ ],
+ "DiscardMediaHint": [
+  "Are you sure you want to discard edited media? These changes will be lost."
+ ],
+ "DiscardMediaHint2": [
+  "Are you sure you want to discard all captions? These changes will be lost."
+ ],
+ "DiscardMediaHint3": [
+  "Are you sure you want to discard captions and edited media? These changes will be lost."
+ ],
+ "DiscardMediaMsg2": [
+  "Discard captions"
+ ],
+ "DiscardMediaMsg3": [
+  "Discard changes"
+ ],
+ "DiscardVideoMessageDescription": [
+  "Are you sure you want to discard your video message?"
+ ],
+ "DiscardVideoMessageTitle": [
+  "Discard Video Message"
+ ],
+ "DownloadedToPath": [
+  "Successfully downloaded: %1$s"
+ ],
+ "EMail": [
+  "Email"
+ ],
+ "Enhance": [
+  "Enhance"
+ ],
+ "Exposure": [
+  "Exposure"
+ ],
+ "Fade": [
+  "Fade"
+ ],
+ "Folder": [
+  "Folder"
+ ],
+ "FolderDoesNotExist": [
+  "This folder doesn't exist"
+ ],
+ "FolderEmpty": [
+  "This folder is empty"
+ ],
+ "GifHasBeenSavedToGallery": [
+  "GIF saved to Gallery"
+ ],
+ "GifPlaybackUnsupported": [
+  "GIF format is not supported."
+ ],
+ "GifSaved": [
+  "GIF is now available in the media keyboard"
+ ],
+ "Grain": [
+  "Grain"
+ ],
+ "Highlights": [
+  "Highlights"
+ ],
+ "HoldToTone": [
+  "Hold & keep for black, white and any color tone."
+ ],
+ "Link": [
+  "Link"
+ ],
+ "NoAnswers": [
+  "No answers yet"
+ ],
+ "NoDocumentsToShow": [
+  "No documents to show"
+ ],
+ "NoDocumentsToShowInChat": [
+  "Share files and documents in this chat andaccess them on any of your devices."
+ ],
+ "NoGifsToShow": [
+  "No GIFs to show"
+ ],
+ "NoGifsToShowInChannel": [
+  "Published GIFs will be shown here."
+ ],
+ "NoGifsToShowInChat": [
+  "Share GIFs in this chat andaccess them on any device you have."
+ ],
+ "NoLinksToShow": [
+  "No links to show"
+ ],
+ "NoLinksToShowInChat": [
+  "Share links in this chat andaccess them on any device you have."
+ ],
+ "NoMediaToShow": [
+  "No media to show"
+ ],
+ "NoMediaToShowInChannel": [
+  "Published photos and videoswill be shown here."
+ ],
+ "NoMediaToShowInChat": [
+  "Share photos and videos in this chat andaccess them on any of your devices."
+ ],
+ "NoMusicFilesFound": [
+  "No music files found"
+ ],
+ "NoMusicToShow": [
+  "No music to show"
+ ],
+ "NoMusicToShowInChat": [
+  "Share music and audio files in this chat andaccess them on any device you have."
+ ],
+ "NoPhotosToShow": [
+  "No photos to show"
+ ],
+ "NoPhotosToShowInChat": [
+  "Share photos in this chat andaccess them on any of your devices."
+ ],
+ "NoVoiceToShow": [
+  "No voice messages to show"
+ ],
+ "NoVoiceToShowInChannel": [
+  "Published voice messageswill be shown here."
+ ],
+ "NoVoiceToShowInChat": [
+  "Share voice messages in this chat andaccess them on any device you have."
+ ],
+ "Notifications": [
+  "Notifications"
+ ],
+ "PaintModeArrow": [
+  "Arrow"
+ ],
+ "PaintModeDoodle": [
+  "Doodle"
+ ],
+ "PaintModeFill": [
+  "Fill color"
+ ],
+ "PaintModeRect": [
+  "Rectangle"
+ ],
+ "PastWeek": [
+  "Past week"
+ ],
+ "Photo": [
+  "Photo"
+ ],
+ "PhotoHasBeenSavedToGallery": [
+  "Photo saved to Gallery"
+ ],
+ "Pin": [
+  "Pin"
+ ],
+ "PlayListAdd": [
+  "Play Next"
+ ],
+ "PlayListHighlight": [
+  "Highlight in List"
+ ],
+ "PlayListRemove": [
+  "Remove"
+ ],
+ "PlayListRemoveTrack": [
+  "Remove %1$s from current playlist?"
+ ],
+ "PlayListReverse": [
+  "Reverse Order"
+ ],
+ "Poll": [
+  "Poll"
+ ],
+ "PollOption": [
+  "Option"
+ ],
+ "PollOptionsAdd": [
+  "Add an option…"
+ ],
+ "PollOptionsLimit": [
+  "You can add %1$s more option",
+  "You can add %1$s more options"
+ ],
+ "PollPublic": [
+  "Poll"
+ ],
+ "PollQuestion": [
+  "Question"
+ ],
+ "PollQuestionEmpty": [
+  "Ask a Question"
+ ],
+ "PollSettingMultiple": [
+  "Multiple Answers"
+ ],
+ "PollSettingQuiz": [
+  "Quiz Mode"
+ ],
+ "ProcessingFile": [
+  "Processing…"
+ ],
+ "ProfilePhoto": [
+  "Profile photo"
+ ],
+ "Quiz": [
+  "Quiz"
+ ],
+ "QuizExplanation": [
+  "Explanation"
+ ],
+ "QuizExplanationEmpty": [
+  "Add an explanation"
+ ],
+ "QuizExplanationInfo": [
+  "Quiz participants will see this text after choosing the wrong option (good for educational purposes)."
+ ],
+ "QuizOptions": [
+  "Quiz options"
+ ],
+ "QuizPublic": [
+  "Quiz"
+ ],
+ "QuizResults": [
+  "Final Results"
+ ],
+ "RecentStickers": [
+  "Recently Used"
+ ],
+ "RemoveCaptions": [
+  "Remove captions in copies"
+ ],
+ "RemoveStickerSet": [
+  "Remove sticker set %1$s?"
+ ],
+ "ReplaceVideo": [
+  "Replace Video"
+ ],
+ "Reply": [
+  "Reply"
+ ],
+ "Report": [
+  "Report"
+ ],
+ "Saturation": [
+  "Saturation"
+ ],
+ "SaveGif": [
+  "Save GIF"
+ ],
+ "SaveToGallery": [
+  "Save to Gallery"
+ ],
+ "SaveToMusic": [
+  "Save to Music"
+ ],
+ "Select": [
+  "Select"
+ ],
+ "SelectedAudioSuffix": [
+  " audio",
+  " audios"
+ ],
+ "SelectedFileSuffix": [
+  " file",
+  " files"
+ ],
+ "SelectedGifSuffix": [
+  " GIF",
+  " GIFs"
+ ],
+ "SelectedLinkSuffix": [
+  " link",
+  " links"
+ ],
+ "SelectedMediaSuffix": [
+  " media",
+  " media"
+ ],
+ "SelectedPhotoSuffix": [
+  " photo",
+  " photos"
+ ],
+ "SelectedRoundVideoSuffix": [
+  " message",
+  " messages"
+ ],
+ "SelectedVoiceSuffix": [
+  " message",
+  " messages"
+ ],
+ "SendAsCopy": [
+  "Send as copy"
+ ],
+ "SendAsFile": [
+  "Send as file"
+ ],
+ "SendAsXFiles": [
+  "Send as %1$s file",
+  "Send as %1$s files"
+ ],
+ "SendDart": [
+  "Throw a dart"
+ ],
+ "SendDartHint": [
+  "Send a %1$s emoji to play darts."
+ ],
+ "SendDiceHint": [
+  "Send a %1$s emoji to any chat to get a random number from Telegram."
+ ],
+ "SendNoSound": [
+  "Send without sound"
+ ],
+ "SendSchedule": [
+  "Schedule message"
+ ],
+ "SendSticker": [
+  "Send sticker"
+ ],
+ "SendUnknownDice": [
+  "Try your luck"
+ ],
+ "SendUnknownDiceHint": [
+  "Send a %1$s emoji to any chat to try your luck."
+ ],
+ "SetAsCurrent": [
+  "Set as current"
+ ],
+ "Shadows": [
+  "Shadows"
+ ],
+ "Share": [
+  "Share"
+ ],
+ "Sharpen": [
+  "Sharpen"
+ ],
+ "ShowInChat": [
+  "Show in Chat"
+ ],
+ "ShowOnFoursquare": [
+  "Foursquare"
+ ],
+ "StopQuiz": [
+  "Stop Quiz"
+ ],
+ "StopQuizWarn": [
+  "If you stop this quiz now, nobody will be able to participate in it anymore.This action cannot be undone."
+ ],
+ "TabAudio": [
+  "Audio"
+ ],
+ "TabDocs": [
+  "Docs"
+ ],
+ "TabEmptyDocs": [
+  "No documents"
+ ],
+ "TabEmptyMedias": [
+  "No media"
+ ],
+ "TabGifs": [
+  "GIFs"
+ ],
+ "TabLinks": [
+  "Links"
+ ],
+ "TabMedia": [
+  "Media"
+ ],
+ "TabMembers": [
+  "Members"
+ ],
+ "TabPhoto": [
+  "Photos"
+ ],
+ "TakePhoto": [
+  "Take Photo"
+ ],
+ "TakePhotoError": [
+  "Error taking picture"
+ ],
+ "TakeVideo": [
+  "Take Video"
+ ],
+ "Today": [
+  "Today"
+ ],
+ "UnknownTrack": [
+  "Unknown Track"
+ ],
+ "UnmutesInX": [
+  "Unmute in %1$s"
+ ],
+ "VideoHasBeenSavedToGallery": [
+  "Video saved to Gallery"
+ ],
+ "VideoPlaybackError": [
+  "Failed to play video, see logs for details."
+ ],
+ "VideoTrimUnsupported": [
+  "This video file could not be trimmed"
+ ],
+ "ViewMessagesFromYou": [
+  "Messages from you"
+ ],
+ "ViewPackPreview": [
+  "View Pack"
+ ],
+ "ViewPollResults": [
+  "View Results"
+ ],
+ "ViewQuizResults": [
+  "View Results"
+ ],
+ "Vignette": [
+  "Vignette"
+ ],
+ "Vote": [
+  "Vote"
+ ],
+ "Warmth": [
+  "Warmth"
+ ],
+ "XofY": [
+  "%1$s of %2$s"
+ ],
+ "fileSize_GB": [
+  "%1$s GB"
+ ],
+ "fileSize_KB": [
+  "%1$s KB"
+ ],
+ "format_fileSizeAndModifiedDate": [
+  "%1$s, %2$s"
+ ],
+ "pickFromGallery": [
+  "Choose from Gallery"
+ ],
+ "takePhoto": [
+  "Take photo"
+ ],
+ "timestampShort_date": [
+  "%1$s at %2$s"
+ ],
+ "timestampShort_weekday": [
+  "%1$s at %2$s"
+ ],
+ "timestamp_now": [
+  "just now"
+ ],
+ "timestamp_today": [
+  "today at %1$s"
+ ],
+ "xAudios": [
+  "%1$s audio",
+  "%1$s audios"
+ ],
+ "xFiles": [
+  "%1$s file",
+  "%1$s files"
+ ],
+ "xLinks": [
+  "%1$s link",
+  "%1$s links"
+ ],
+ "xMedia": [
+  "%1$s media",
+  "%1$s media"
+ ],
+ "xMembers": [
+  "%1$s member",
+  "%1$s members"
+ ],
+ "xPhotos": [
+  "%1$s photo",
+  "%1$s photos"
+ ],
+ "xSubscribers": [
+  "%1$s subscriber",
+  "%1$s subscribers"
+ ]
+}

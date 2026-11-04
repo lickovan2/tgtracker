@@ -1,0 +1,300 @@
+{
+ "AllViewers": [
+  "All viewers"
+ ],
+ "ArchivePeerStories": [
+  "Hide Stories"
+ ],
+ "ArchiveStories": [
+  "Archive Story",
+  "Archive Stories"
+ ],
+ "ArchiveStory": [
+  "Remove from Profile"
+ ],
+ "ArchivedStories": [
+  "Archived Stories"
+ ],
+ "AvailableIn": [
+  "Available in {0}"
+ ],
+ "CloseFriendsHint": [
+  "Only people from **{0}’s** Close Friends list can view this story"
+ ],
+ "CloseFriendsHintSelf": [
+  "Only people from your Close Friends list can view this story"
+ ],
+ "DeleteStoriesSubtitle": [
+  "Are you sure you want to delete {0} story?",
+  "Are you sure you want to delete {0} stories?"
+ ],
+ "DeleteStoriesTitle": [
+  "Delete Stories"
+ ],
+ "DeleteStorySubtitle": [
+  "Are you sure you want to delete this story?"
+ ],
+ "DeleteStoryTitle": [
+  "Delete Story"
+ ],
+ "EnableStealthMode": [
+  "Enable Stealth Mode"
+ ],
+ "ExpiredStory": [
+  "Expired story"
+ ],
+ "ExpiredStoryMention": [
+  "The story you were mentioned in is no longer available"
+ ],
+ "ExpiredStoryMentioned": [
+  "The story where you mentioned {0} is no longer available"
+ ],
+ "ExpiredViewsStub": [
+  "List of viewers becomes unavailable **24 hours** after the story expires."
+ ],
+ "ExpiredViewsStubPremiumDescription": [
+  "To unlock future viewer lists for expired and posted stories, subscribe to **Telegram Premium**."
+ ],
+ "ForwardedStory": [
+  "Forwarded Story"
+ ],
+ "HiddenStories": [
+  "Hidden Stories"
+ ],
+ "HideRecentViews": [
+  "Hide Recent Views"
+ ],
+ "HideRecentViewsDescription": [
+  "Hide my views from the past 5 minutes."
+ ],
+ "LocalStoriesCache": [
+  "Stories"
+ ],
+ "MyStory": [
+  "My Story"
+ ],
+ "NewStories": [
+  "{0} new story",
+  "{0} new stories"
+ ],
+ "NoArchivedStoriesSubtitle": [
+  "Upload a new story to view it here."
+ ],
+ "NoArchivedStoriesTitle": [
+  "No stories yet…"
+ ],
+ "NoPublicStoriesTitle": [
+  "No public stories"
+ ],
+ "NoStoriesSubtitle": [
+  "Open the 'Archive' tab to select stories you want to be displayed on your profile."
+ ],
+ "NobodyViews": [
+  "No views yet"
+ ],
+ "NotificationsStoryMute": [
+  "Do Not Notify"
+ ],
+ "NotificationsStoryMute2": [
+  "Do Not NotifyAbout Stories"
+ ],
+ "NotificationsStoryMutedHint": [
+  "Disabled notifications for **{0}** stories."
+ ],
+ "NotificationsStoryUnmute": [
+  "Notify"
+ ],
+ "NotificationsStoryUnmute2": [
+  "Notify AboutStories"
+ ],
+ "NotificationsStoryUnmutedHint": [
+  "You will receive a notification whenever **{0}** posts a new story."
+ ],
+ "PremiumPreviewStories": [
+  "Stories"
+ ],
+ "PremiumPreviewStoriesDescription": [
+  "Unlimited posting, priority order, stealth mode, permanent view history and more."
+ ],
+ "PremiumStoriesCaption": [
+  "Longer Captions"
+ ],
+ "PremiumStoriesCaptionDescription": [
+  "Add 10x longer captions to your stories — up to 2048 characters."
+ ],
+ "PremiumStoriesExpiration": [
+  "Expiration Options"
+ ],
+ "PremiumStoriesExpirationDescription": [
+  "Set custom durations like 6 or 48 hours for your stories."
+ ],
+ "PremiumStoriesFormatting": [
+  "Links and Formatting"
+ ],
+ "PremiumStoriesFormattingDescription": [
+  "Add links and formatting to your story captions."
+ ],
+ "PremiumStoriesPriority": [
+  "Priority Order"
+ ],
+ "PremiumStoriesPriorityDescription": [
+  "Get more views as your stories are always displayed first."
+ ],
+ "PremiumStoriesSaveToGallery": [
+  "Save Stories to Gallery"
+ ],
+ "PremiumStoriesSaveToGalleryDescription": [
+  "Save other people's stories that are not protected."
+ ],
+ "PremiumStoriesStealth": [
+  "Stealth Mode"
+ ],
+ "PremiumStoriesStealthDescription": [
+  "Hide the fact that you viewed other people's stories."
+ ],
+ "PremiumStoriesViews": [
+  "Permanent View History"
+ ],
+ "PremiumStoriesViewsDescription": [
+  "Check who opens your stories — even after they expire."
+ ],
+ "ProfileMyStories": [
+  "My Stories"
+ ],
+ "ProfileStories": [
+  "Posts"
+ ],
+ "ProfileStoriesArchive": [
+  "Story Archive"
+ ],
+ "ProfileStoriesArchiveHint": [
+  "Only you can see archived stories unless you choose to post them to your profile."
+ ],
+ "ReplyPrivately": [
+  "Reply privately..."
+ ],
+ "SelfStoryTitle": [
+  "My Story"
+ ],
+ "SortByReactions": [
+  "Reactions First"
+ ],
+ "SortByTime": [
+  "Newest First"
+ ],
+ "StealthMode": [
+  "Stealth Mode"
+ ],
+ "StealthModeActiveHint": [
+  "Stealth Mode active – {0}"
+ ],
+ "StealthModeHint": [
+  "Turn Stealth Mode on to watch stories without appearing in the list of viewers."
+ ],
+ "StealthModeOn": [
+  "Stealth Mode On"
+ ],
+ "StealthModeOnHint": [
+  "The creators of stories you viewed in the past 5 minutes or will view in the next 25 minutes won't see you in the list of viewers."
+ ],
+ "StealthModePremiumHint": [
+  "Subscribe to Telegram Premium to watch stories without appearing in the list of viewers."
+ ],
+ "Stories": [
+  "{0} Story",
+  "{0} Stories"
+ ],
+ "StoriesMovedToContacts": [
+  "Stories of **{0}** were moved to the **Archive**."
+ ],
+ "StoriesMovedToDialogs": [
+  "Stories of **{0}** were moved to **Chats**."
+ ],
+ "StoriesRemovedFromProfile": [
+  "{0} story removed from your profile.",
+  "{0} stories removed from your profile."
+ ],
+ "StoriesSavedToProfile": [
+  "{0} story posted on your profile.",
+  "{0} stories posted on your profile."
+ ],
+ "StoriesSelected": [
+  "{0} Selected",
+  "{0} Selected"
+ ],
+ "Story": [
+  "Story"
+ ],
+ "StoryContactsHint": [
+  "Only **{0}’s** contacts can view this story."
+ ],
+ "StoryContactsHintSelf": [
+  "Only your contacts can view this story."
+ ],
+ "StoryHiddenHint": [
+  "**{0}** will not be able to see your stories."
+ ],
+ "StoryHideFrom": [
+  "Hide My Stories From {0}"
+ ],
+ "StoryMentionInDialog": [
+  "Mentioned you in a story"
+ ],
+ "StoryMentionedAction": [
+  "View Story"
+ ],
+ "StoryMentionedTitle": [
+  "**{0}** mentioned you in a story."
+ ],
+ "StoryNoSound": [
+  "This video has no sound"
+ ],
+ "StoryNotFound": [
+  "This story is no longer available"
+ ],
+ "StoryRemovedFromProfile": [
+  "Story removed from your profile."
+ ],
+ "StoryReplyDisabled": [
+  "You can’t reply to this story"
+ ],
+ "StorySavedToProfile": [
+  "Story posted to your profile."
+ ],
+ "StorySelectedContactsHint": [
+  "Only some users **{0}** selected can view this story."
+ ],
+ "StorySelectedContactsHintSelf": [
+  "Only some users you selected can view this story."
+ ],
+ "StoryShowTo": [
+  "Do Not Hide My Stories From {0}"
+ ],
+ "StoryUnsupported": [
+  "This story is not supported by your version of Telegram."
+ ],
+ "StoryViewLocation": [
+  "View Location >"
+ ],
+ "StoryViewsSortDescription": [
+  "Choose the order for the list of viewers."
+ ],
+ "StoryYouMentionInDialog": [
+  "You mentioned {0}"
+ ],
+ "StoryYouMentionedTitle": [
+  "**You** mentioned {0} in a story."
+ ],
+ "UnarchiveStories": [
+  "Unhide Stories"
+ ],
+ "UnlockStealthMode": [
+  "Unlock Stealth Mode"
+ ],
+ "UpgradeStories": [
+  "Upgrade Stories"
+ ],
+ "UpgradedStories": [
+  "Stories"
+ ]
+}

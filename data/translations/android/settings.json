@@ -1,0 +1,4677 @@
+{
+ "AbortEmail": [
+  "Abort Recovery Email Setup"
+ ],
+ "AbortPassword": [
+  "Abort two-step verification setup"
+ ],
+ "AbortPasswordMenu": [
+  "Abort Setup"
+ ],
+ "AboutTelegramPremium": [
+  "About Telegram Premium"
+ ],
+ "AcceptCalls": [
+  "Accept Calls"
+ ],
+ "AcceptCallsChatsDescription": [
+  "Use this device for Calls"
+ ],
+ "AcceptSecretChats": [
+  "Accept Secret Chats"
+ ],
+ "AcceptSecretChatsDescription": [
+  "Use this device for Secret Chats"
+ ],
+ "Account": [
+  "Account"
+ ],
+ "Add": [
+  "Add"
+ ],
+ "AddAnException": [
+  "Add exception"
+ ],
+ "AddAnotherAccount": [
+  "Add another account"
+ ],
+ "AddAnotherAccountInfo": [
+  "Connect other Telegram accounts and easily switch between them."
+ ],
+ "AddException": [
+  "Add Exception"
+ ],
+ "AddExceptions": [
+  "Add exceptions"
+ ],
+ "AddMasksInstalled": [
+  "New masks added"
+ ],
+ "AddMasksInstalledInfo": [
+  "%1$s has been added to your masks."
+ ],
+ "AddPhoto": [
+  "Set Profile Photo"
+ ],
+ "AddProxy": [
+  "Add Proxy"
+ ],
+ "AgeVerificationButton": [
+  "Verify My Age"
+ ],
+ "AgeVerificationTextGB": [
+  "To access such content, you must confirm that you are at least **18** years old as required by UK law.This is a one-time process using your phone's camera. Your selfie will not be stored by Telegram."
+ ],
+ "AgeVerificationTitle": [
+  "Age Verification"
+ ],
+ "AllAccounts": [
+  "All Accounts"
+ ],
+ "AllowBackgroundActivity": [
+  "Allow background activity"
+ ],
+ "AllowBackgroundActivityInfo": [
+  "This will improve reliability for incoming notifications and Telegram calls."
+ ],
+ "AlternativeOptions": [
+  "Alternative options"
+ ],
+ "AlwaysAllow": [
+  "Always Allow"
+ ],
+ "AlwaysAllowPlaceholder": [
+  "Always allow..."
+ ],
+ "AlwaysShareWith": [
+  "Always Share With"
+ ],
+ "AlwaysShareWithPlaceholder": [
+  "Always share with users..."
+ ],
+ "AlwaysShareWithTitle": [
+  "Always Share"
+ ],
+ "AlwaysShowPopup": [
+  "Always show"
+ ],
+ "AppIcon": [
+  "App Icon"
+ ],
+ "AppIconAqua": [
+  "Aqua"
+ ],
+ "AppIconChangedTo": [
+  "App icon changed to %1$s."
+ ],
+ "AppIconDefault": [
+  "Default"
+ ],
+ "AppIconNox": [
+  "Nox"
+ ],
+ "AppIconPremium": [
+  "Premium"
+ ],
+ "AppIconTurbo": [
+  "Turbo"
+ ],
+ "AppIconVintage": [
+  "Vintage"
+ ],
+ "AppName": [
+  "Telegram"
+ ],
+ "Application": [
+  "Application"
+ ],
+ "ApplyTheme": [
+  "Apply"
+ ],
+ "ArchiveAndMute": [
+  "Archive and Mute"
+ ],
+ "ArchiveAndMuteInfo": [
+  "Automatically archive and mute new chats, groups and channels from non-contacts."
+ ],
+ "ArchiveHintHeader1": [
+  "This is your Archive"
+ ],
+ "ArchiveHintSection1": [
+  "Archived Chats"
+ ],
+ "ArchiveHintSection1Info": [
+  "Move any chat into your Archive and back by swiping on it."
+ ],
+ "ArchiveHintSection2": [
+  "Hiding Archive"
+ ],
+ "ArchiveHintSection2Info": [
+  "Hide the Archive from your main screen by swiping on it."
+ ],
+ "ArchiveHintSection3": [
+  "Stories"
+ ],
+ "ArchiveHintSection3Info": [
+  "Archive Stories from your contacts separately from chats with them."
+ ],
+ "ArchiveHintSubtitleUnmutedMove": [
+  "When you receive a new message, muted chats will remain in the Archive, while unmuted chats will be moved to Chats. **Tap to change >**"
+ ],
+ "ArchiveSettings": [
+  "Archive Settings"
+ ],
+ "ArchiveStickerSetsAlertTitle": [
+  "Archive %1$s"
+ ],
+ "ArchiveStickersAlertMessage": [
+  "Are you sure you want to archive the selected sticker sets?"
+ ],
+ "ArchivedMasks": [
+  "Archived Masks"
+ ],
+ "ArchivedMasksAlertInfo": [
+  "Some of your older mask sets have been archived. You can reactivate them in Masks Settings."
+ ],
+ "ArchivedMasksAlertTitle": [
+  "Archived masks"
+ ],
+ "ArchivedMasksEmpty": [
+  "No archived masks"
+ ],
+ "ArchivedMasksInfo": [
+  "You can add up to 200 sets of masks.Unused sets are archived when you add more."
+ ],
+ "ArchivedStickers": [
+  "Archived Stickers"
+ ],
+ "ArchivedStickersEmpty": [
+  "No archived stickers"
+ ],
+ "ArchivedStickersInfo": [
+  "You can have 200 active sticker sets.Unused sets are archived when you add more."
+ ],
+ "AreYouSureClearDrafts": [
+  "Are you sure you want to delete all cloud drafts?"
+ ],
+ "AreYouSureDeletePhoto": [
+  "Are you sure you want to delete this photo?"
+ ],
+ "AreYouSureLogout": [
+  "Are you sure you want to log out?This will cancel all your Secret Chats.You can use Telegram on all your devices at once and use several accounts in the same app."
+ ],
+ "AreYouSureSessions": [
+  "Are you sure you want to terminate all other sessions?"
+ ],
+ "AreYouSureWebSessions": [
+  "Are you sure you want to disconnect all websites where you logged in with Telegram?"
+ ],
+ "AskAQuestion": [
+  "Ask a Question"
+ ],
+ "AskAQuestionInfo": [
+  "Please note that Telegram Support is done by volunteers. We try to respond as quickly as possible, but it may take a while.Please take a look at the <![CDATA[<a href=\"https://telegram.org/faq#general-questions\">Telegram FAQ</a>]]>: it has answers to most questions and important tips for <![CDATA[<a href=\"https://telegram.org/faq#troubleshooting\">troubleshooting</a>]]>."
+ ],
+ "AskButton": [
+  "Ask a volunteer"
+ ],
+ "AudioRecorderGeneral": [
+  "Recorder"
+ ],
+ "AudioRecorderGeneralInfo": [
+  "RNNoise removes background noise and may affect music or very quiet speech."
+ ],
+ "AudioRecorderNoiseSuppression": [
+  "Noise suppression"
+ ],
+ "AudioRecorderNoiseSuppressionOff": [
+  "Off"
+ ],
+ "AudioRecorderNoiseSuppressionRNNoise": [
+  "RNNoise"
+ ],
+ "AudioRecorderSettings": [
+  "Voice Messages"
+ ],
+ "AudioRecorderUseNewRecorder": [
+  "Use new recorder"
+ ],
+ "AuthAnotherClientInfo4": [
+  "Log into *Telegram Desktop* or *Telegram Web* by scanning a QR code."
+ ],
+ "AuthAnotherClientInfo5": [
+  "Go to *getdesktop.telegram.org* or *web.telegram.org* to get a QR code"
+ ],
+ "AutoDeleteCachedMedia": [
+  "Auto-remove cached media"
+ ],
+ "AutoDeleteConfirm": [
+  "Confirm"
+ ],
+ "AutoDeleteMediaNever": [
+  "Never"
+ ],
+ "AutoDownloadAudioInfo": [
+  "Voice messages are tiny, so they're always downloaded automatically."
+ ],
+ "AutoDownloadChannels": [
+  "Channels"
+ ],
+ "AutoDownloadContacts": [
+  "Contacts"
+ ],
+ "AutoDownloadCustom": [
+  "Custom"
+ ],
+ "AutoDownloadDataUsage": [
+  "Data usage"
+ ],
+ "AutoDownloadFiles": [
+  "Files"
+ ],
+ "AutoDownloadFilesOn": [
+  "Files"
+ ],
+ "AutoDownloadFilesTitle": [
+  "Auto-download files and music"
+ ],
+ "AutoDownloadGroups": [
+  "Groups"
+ ],
+ "AutoDownloadHigh": [
+  "High"
+ ],
+ "AutoDownloadLow": [
+  "Low"
+ ],
+ "AutoDownloadMaxFileSize": [
+  "Maximum file size"
+ ],
+ "AutoDownloadMaxVideoSize": [
+  "Maximum video size"
+ ],
+ "AutoDownloadMedia": [
+  "Auto-Download Media"
+ ],
+ "AutoDownloadMedium": [
+  "Medium"
+ ],
+ "AutoDownloadOff": [
+  "Off"
+ ],
+ "AutoDownloadOnAllChats": [
+  "On in all chats"
+ ],
+ "AutoDownloadOnFor": [
+  "On for %1$s"
+ ],
+ "AutoDownloadOnMobileData": [
+  "On Mobile Data"
+ ],
+ "AutoDownloadOnMobileDataInfo": [
+  "Turn this ON if you want media to be automatically downloaded on mobile data."
+ ],
+ "AutoDownloadOnRoamingData": [
+  "When Roaming"
+ ],
+ "AutoDownloadOnRoamingDataInfo": [
+  "Turn this ON if you want media to be automatically downloaded when roaming."
+ ],
+ "AutoDownloadOnUpToFor": [
+  "Up to %1$s for %2$s"
+ ],
+ "AutoDownloadOnWiFiData": [
+  "On Wi-Fi"
+ ],
+ "AutoDownloadOnWiFiDataInfo": [
+  "Turn this ON if you want media to be automatically downloaded on Wi-Fi."
+ ],
+ "AutoDownloadPhotos": [
+  "Photos"
+ ],
+ "AutoDownloadPhotosOn": [
+  "Photos"
+ ],
+ "AutoDownloadPhotosTitle": [
+  "Auto-download photos"
+ ],
+ "AutoDownloadPm": [
+  "PM"
+ ],
+ "AutoDownloadPreloadMusic": [
+  "Preload next track"
+ ],
+ "AutoDownloadPreloadMusicInfo": [
+  "Start downloading the next track while you are listening to an audio file."
+ ],
+ "AutoDownloadPreloadVideo": [
+  "Preload Larger Videos"
+ ],
+ "AutoDownloadPreloadVideoInfo": [
+  "Preload the first few seconds (1-2 MB) of videos larger than %1$s for instant playback."
+ ],
+ "AutoDownloadStories": [
+  "Stories"
+ ],
+ "AutoDownloadTypes": [
+  "Types of media"
+ ],
+ "AutoDownloadUpToOnAllChats": [
+  "Up to %1$s in all chats"
+ ],
+ "AutoDownloadVideos": [
+  "Videos"
+ ],
+ "AutoDownloadVideosOn": [
+  "Videos"
+ ],
+ "AutoDownloadVideosTitle": [
+  "Auto-download videos and GIFs"
+ ],
+ "AutoException": [
+  "%1$d automatic exception",
+  "%1$d automatic exceptions"
+ ],
+ "AutoLock": [
+  "Auto-lock"
+ ],
+ "AutoLockDisabled": [
+  "Disabled"
+ ],
+ "AutoLockInTime": [
+  "in %1$s"
+ ],
+ "AutoLockInfo": [
+  "Require passcode if away for some time."
+ ],
+ "AutoNightAdaptive": [
+  "Adaptive"
+ ],
+ "AutoNightBrightness": [
+  "Brightness threshold"
+ ],
+ "AutoNightBrightnessInfo": [
+  "Switch to your preferred night theme when ambient lighting falls below %1$d%%."
+ ],
+ "AutoNightDisabled": [
+  "Disabled"
+ ],
+ "AutoNightFrom": [
+  "From"
+ ],
+ "AutoNightLocation": [
+  "Use Local Sunset & Sunrise"
+ ],
+ "AutoNightPreferred": [
+  "Preferred night theme"
+ ],
+ "AutoNightSchedule": [
+  "Schedule"
+ ],
+ "AutoNightScheduled": [
+  "Scheduled"
+ ],
+ "AutoNightSystemDefault": [
+  "System Default"
+ ],
+ "AutoNightSystemModeOff": [
+  "System Default theme is now disabled."
+ ],
+ "AutoNightTheme": [
+  "Auto-Night Mode"
+ ],
+ "AutoNightTo": [
+  "To"
+ ],
+ "AutoNightUpdateLocation": [
+  "Update Location"
+ ],
+ "AutoNightUpdateLocationInfo": [
+  "Calculating sunset & sunrise times requires a one-time check of your approximate location. Note that this location is only stored locally on your device.Sunset: %1$sSunrise: %2$s"
+ ],
+ "AutodownloadChannels": [
+  "Channels"
+ ],
+ "AutodownloadContacts": [
+  "Contacts"
+ ],
+ "AutodownloadGroupChats": [
+  "Group Chats"
+ ],
+ "AutodownloadPrivateChats": [
+  "Private Chats"
+ ],
+ "AutodownloadSizeLimitUpTo": [
+  "up to %1$s"
+ ],
+ "AutomaticDownloadSettings": [
+  "Auto-Download Settings"
+ ],
+ "AutomaticDownloadSettingsInfoMobile": [
+  "You can change your auto-download settings to reduce mobile data usage."
+ ],
+ "AutomaticDownloadSettingsInfoRoaming": [
+  "You can change your auto-download settings to reduce data usage when roaming."
+ ],
+ "AutomaticDownloadSettingsInfoWiFi": [
+  "You can change your auto-download settings to reduce data usage when connected to Wi-Fi."
+ ],
+ "AutomaticMediaDownload": [
+  "Automatic media download"
+ ],
+ "AutoplayGIF": [
+  "GIFs"
+ ],
+ "AutoplayMedia": [
+  "Autoplay media"
+ ],
+ "AutoplayVideo": [
+  "Videos"
+ ],
+ "Available": [
+  "Available"
+ ],
+ "BackgroundAnimateInfo": [
+  "Colors will move when you send messages"
+ ],
+ "BackgroundBlurred": [
+  "Blurred"
+ ],
+ "BackgroundBrightness": [
+  "Brightness"
+ ],
+ "BackgroundColor": [
+  "Color"
+ ],
+ "BackgroundColorSinglePreviewLine1": [
+  "Press 'Apply' to set the wallpaper."
+ ],
+ "BackgroundColorSinglePreviewLine2": [
+  "Looks good"
+ ],
+ "BackgroundHexColorCode": [
+  "Hex color code"
+ ],
+ "BackgroundIntensity": [
+  "Intensity"
+ ],
+ "BackgroundMotion": [
+  "Motion"
+ ],
+ "BackgroundPattern": [
+  "Pattern"
+ ],
+ "BackgroundPreview": [
+  "Wallpaper Preview"
+ ],
+ "BackgroundPreviewLine1": [
+  "Hint: some wallpaper images look better with the blur effect."
+ ],
+ "BackgroundPreviewLine2": [
+  "Woo-hoo! Thanks"
+ ],
+ "BackgroundSearchColor": [
+  "Color:"
+ ],
+ "BadgeNumber": [
+  "Badge Counter"
+ ],
+ "BadgeNumberMutedChats": [
+  "Include Muted Chats"
+ ],
+ "BadgeNumberShow": [
+  "Show Badge Icon"
+ ],
+ "BadgeNumberUnread": [
+  "Count Unread Messages"
+ ],
+ "BioLimitSubtitle": [
+  "Add more characters and use links in your bio"
+ ],
+ "BioLimitTitle": [
+  "Bio"
+ ],
+ "Black": [
+  "Black"
+ ],
+ "BlockUser": [
+  "Block user"
+ ],
+ "BlockUserChatsTitle": [
+  "CHATS"
+ ],
+ "BlockUserContactsTitle": [
+  "CONTACTS"
+ ],
+ "BlockUserMultiTitle": [
+  "Block User"
+ ],
+ "BlockedEmpty": [
+  "None"
+ ],
+ "BlockedUsers": [
+  "Blocked Users"
+ ],
+ "BlockedUsersCount": [
+  "%1$d blocked user",
+  "%1$d blocked users"
+ ],
+ "BlockedUsersInfo": [
+  "Blocked users can't send you messages or add you to groups. They will not see your profile photos, stories, online and last seen status."
+ ],
+ "Blue": [
+  "Blue"
+ ],
+ "BlurInChat": [
+  "Blur in chat"
+ ],
+ "Brown": [
+  "Brown"
+ ],
+ "BrowseThemes": [
+  "Browse Themes"
+ ],
+ "BrowserSettingsAddHint": [
+  "Enter URL"
+ ],
+ "BrowserSettingsAddText": [
+  "Enter a domain that you don’t want to be opened in the in-app browser."
+ ],
+ "BrowserSettingsAddTitle": [
+  "Add Website"
+ ],
+ "BrowserSettingsCacheClear": [
+  "Clear Cache"
+ ],
+ "BrowserSettingsCacheClearText": [
+  "Are you sure you want to clear browser cache%s?"
+ ],
+ "BrowserSettingsCookiesClear": [
+  "Clear Cookies"
+ ],
+ "BrowserSettingsCookiesClearText": [
+  "Are you sure you want to clear browser cookies%s?This may log you out from some websites."
+ ],
+ "BrowserSettingsCookiesInfo": [
+  "Delete all cookies and cache from the Telegram in-app browser and mini apps."
+ ],
+ "BrowserSettingsCustomTabs": [
+  "New Pages within Telegram"
+ ],
+ "BrowserSettingsCustomTabsTitle": [
+  "Open external links in"
+ ],
+ "BrowserSettingsEnable": [
+  "Enable In-App Browser"
+ ],
+ "BrowserSettingsEnableInfo": [
+  "Open links inside Telegram without using an external browser app."
+ ],
+ "BrowserSettingsHistoryClear": [
+  "Clear History"
+ ],
+ "BrowserSettingsHistoryPages": [
+  "%d page",
+  "%d pages"
+ ],
+ "BrowserSettingsHistoryShow": [
+  "View History"
+ ],
+ "BrowserSettingsNeverOpenInAdd": [
+  "Add Website"
+ ],
+ "BrowserSettingsNeverOpenInClearList": [
+  "Clear List"
+ ],
+ "BrowserSettingsNeverOpenInInfo": [
+  "Telegram will always open links from these websites in an external browser app."
+ ],
+ "BrowserSettingsNeverOpenInRemove": [
+  "Remove"
+ ],
+ "BrowserSettingsNeverOpenInTitle": [
+  "Never open in the in-app browser"
+ ],
+ "BrowserSettingsNoCustomTabs": [
+  "New Tabs in External Browser"
+ ],
+ "BrowserSettingsNoCustomTabsInfo": [
+  "You can choose to open external links without leaving Telegram."
+ ],
+ "BrowserSettingsSearchEngine": [
+  "Search Engine"
+ ],
+ "BrowserSettingsSearchEngineInfo": [
+  "Choose a service for auto-complete and search results in the address bar."
+ ],
+ "BrowserSettingsTitle": [
+  "Web Browser"
+ ],
+ "BubbleRadius": [
+  "Message corners"
+ ],
+ "BuildMyOwnTheme": [
+  "Build my own theme"
+ ],
+ "BuiltInThemes": [
+  "Built-in themes"
+ ],
+ "BusinessBotPermissions": [
+  "Bot permissions"
+ ],
+ "BusinessBotPermissionsGiftsSection": [
+  "Manage Gifts and Stars"
+ ],
+ "BusinessBotPermissionsGiftsSell": [
+  "Convert Gifts to Stars"
+ ],
+ "BusinessBotPermissionsGiftsSettings": [
+  "Change Gift Settings"
+ ],
+ "BusinessBotPermissionsGiftsTransfer": [
+  "Transfer and Upgrade Gifts"
+ ],
+ "BusinessBotPermissionsGiftsTransferStars": [
+  "Transfer Stars"
+ ],
+ "BusinessBotPermissionsGiftsView": [
+  "View Gifts and Stars"
+ ],
+ "BusinessBotPermissionsMessagesDeleteReceived": [
+  "Delete Received Messages"
+ ],
+ "BusinessBotPermissionsMessagesDeleteSent": [
+  "Delete Sent Messages"
+ ],
+ "BusinessBotPermissionsMessagesMarkAsRead": [
+  "Mark Messages As Read"
+ ],
+ "BusinessBotPermissionsMessagesRead": [
+  "Read Messages"
+ ],
+ "BusinessBotPermissionsMessagesReply": [
+  "Reply to Messages"
+ ],
+ "BusinessBotPermissionsMessagesSection": [
+  "Manage Messages"
+ ],
+ "BusinessBotPermissionsProfileBio": [
+  "Edit Bio"
+ ],
+ "BusinessBotPermissionsProfileName": [
+  "Edit Name"
+ ],
+ "BusinessBotPermissionsProfilePicture": [
+  "Edit Profile Photo"
+ ],
+ "BusinessBotPermissionsProfileSection": [
+  "Manage Profile"
+ ],
+ "BusinessBotPermissionsProfileUsername": [
+  "Edit Username"
+ ],
+ "BusinessBotPermissionsStories": [
+  "Manage Stories"
+ ],
+ "BytesReceived": [
+  "Data received"
+ ],
+ "BytesSent": [
+  "Data sent"
+ ],
+ "CacheChannels": [
+  "Channels"
+ ],
+ "CacheClear": [
+  "Clear"
+ ],
+ "CacheEmpty": [
+  "Empty"
+ ],
+ "CacheOpenFile": [
+  "Open File"
+ ],
+ "CacheWasCleared": [
+  "%s freed on your device!"
+ ],
+ "Calls": [
+  "Calls"
+ ],
+ "CallsDataUsage": [
+  "Calls"
+ ],
+ "CallsTotalTime": [
+  "Total time"
+ ],
+ "Cancel": [
+  "Cancel"
+ ],
+ "CancelEmailQuestion": [
+  "Are you sure you want to abort recovery email setup?"
+ ],
+ "CancelPasswordQuestion": [
+  "Are you sure you want to abort Two-Step Verification setup?"
+ ],
+ "CancelPasswordReset": [
+  "Cancel the password reset process? If you request a new reset later, it will take another 7 days."
+ ],
+ "CancelPasswordResetNo": [
+  "NO"
+ ],
+ "CancelPasswordResetYes": [
+  "YES"
+ ],
+ "CancelReset": [
+  "Cancel reset"
+ ],
+ "CaptionsLimitSubtitle": [
+  "Use longer descriptions for your photos and videos"
+ ],
+ "CaptionsLimitTitle": [
+  "Captions"
+ ],
+ "Change": [
+  "Change"
+ ],
+ "ChangeChannelNameColor": [
+  "Channel Color"
+ ],
+ "ChangeChatBackground": [
+  "Change Chat Wallpaper"
+ ],
+ "ChangeColorToColor": [
+  "Do you want to use your currently selected wallpaper or reset it to the default for this theme?"
+ ],
+ "ChangePasscode": [
+  "Change Passcode"
+ ],
+ "ChangePasscodeInfo": [
+  "When a passcode is set, a lock icon appears above your chat list. Tap it to lock your Telegram app.Note: if you forget your passcode, you'll need to log out or reinstall the app. All secret chats will be lost."
+ ],
+ "ChangePasscodeInfoShort": [
+  "When a passcode is set, a lock icon appears above your chat list. Tap it to lock your Telegram app."
+ ],
+ "ChangePassword": [
+  "Change Password"
+ ],
+ "ChangePhoneHelp": [
+  "Your new number will receive a confirmation code via call or SMS."
+ ],
+ "ChangePhoneNewNumber": [
+  "New Number"
+ ],
+ "ChangePhoneNumber": [
+  "Change Phone Number"
+ ],
+ "ChangePhoneNumberInfo": [
+  "Move your account, chats and media to a new number."
+ ],
+ "ChangePhoneNumberOccupied": [
+  "The number %1$s is already connected to a Telegram account. Please delete that account before using this number."
+ ],
+ "ChangeRecoveryEmail": [
+  "Change Recovery Email"
+ ],
+ "ChangeUserNameColor": [
+  "Change Name Color"
+ ],
+ "ChannelColorApplied": [
+  "Your channel color has been updated!"
+ ],
+ "ChannelColorApply": [
+  "Apply Color and Icon"
+ ],
+ "ChannelColorHint": [
+  "This color will be used for your channel's name, the links it sends, and replies to its posts."
+ ],
+ "ChannelColorPreview": [
+  "The name of the channel and replies to its message will be shown in the selected color"
+ ],
+ "ChannelColorPreviewLinkDescription": [
+  "Previews of links you send will also use this color."
+ ],
+ "ChannelColorPreviewLinkTitle": [
+  "Link Preview"
+ ],
+ "ChannelColorPreviewReply": [
+  "Reply to your channel message"
+ ],
+ "ChannelColorTitle": [
+  "Your Channel Color"
+ ],
+ "ChannelReplyIcon": [
+  "Add Icons to Replies"
+ ],
+ "ChannelReplyIconHint": [
+  "Select an icon to create a custom pattern for replies to your messages."
+ ],
+ "ChannelReplyIconOff": [
+  "Off"
+ ],
+ "ChannelSettingsJoinRequest": [
+  "Approve new members"
+ ],
+ "ChannelSettingsJoinRequestInfo": [
+  "Turn this on if you want users to join only after they are approved by an admin."
+ ],
+ "ChannelSettingsJoinTitle": [
+  "Who can send messages?"
+ ],
+ "ChannelSettingsJoinToSend": [
+  "Only members"
+ ],
+ "Channels": [
+  "%1$d channel",
+  "%1$d channels"
+ ],
+ "ChatBackground": [
+  "Chat Wallpaper"
+ ],
+ "ChatList": [
+  "Chat list view"
+ ],
+ "ChatListSwipeGesture": [
+  "Chat list swipe gesture"
+ ],
+ "ChatListSwipeGestureInfo": [
+  "Choose which action you want to perform when you swipe to the left in the chat list."
+ ],
+ "ChatPerFolderLimitSubtitle": [
+  "Add up to %d chats into each of your folders"
+ ],
+ "ChatPerFolderLimitTitle": [
+  "Chats per Folder"
+ ],
+ "ChatSettings": [
+  "Chat Settings"
+ ],
+ "ChatsException": [
+  "%1$d chat",
+  "%1$d chats"
+ ],
+ "CheckPhoneNumber": [
+  "Is %1$s still your number?"
+ ],
+ "CheckPhoneNumberInfo": [
+  "Keep your number up to date to ensure you can always log into Telegram. **Learn more**"
+ ],
+ "CheckPrivacyCallsText": [
+  "You've restricted who can message you, but anyone can still call you. Would you like to review these settings?"
+ ],
+ "CheckPrivacyCallsTitle": [
+  "Call Settings"
+ ],
+ "CheckPrivacyInviteText": [
+  "You've restricted who can message you, but anyone can still invite you to groups and channels. Would you like to review these settings?"
+ ],
+ "CheckPrivacyInviteTitle": [
+  "Invite Settings"
+ ],
+ "CheckPrivacyReview": [
+  "Review"
+ ],
+ "Checking": [
+  "Checking..."
+ ],
+ "ChooseCountry": [
+  "Choose a country"
+ ],
+ "ChooseLanguages": [
+  "Choose languages"
+ ],
+ "ChooseStickerMyEmojiPacks": [
+  "My emoji packs"
+ ],
+ "ChooseStickerMyStickerSets": [
+  "My sticker sets"
+ ],
+ "ChooseTheme": [
+  "Choose theme"
+ ],
+ "ChromeCustomTabs": [
+  "In-App Browser"
+ ],
+ "ChromeCustomTabsInfo": [
+  "Open external links within the app"
+ ],
+ "ClearButton": [
+  "Clear All"
+ ],
+ "ClearCache": [
+  "Clear Cache"
+ ],
+ "ClearCacheForChats": [
+  "Are you sure you want to delete cached data for selected chats?"
+ ],
+ "ClearCacheInfo": [
+  "Free up disk space on your device; your media will stay in the cloud."
+ ],
+ "ClearLocalDatabase": [
+  "Clear Local Database"
+ ],
+ "ClearMediaCache": [
+  "Clear Cache"
+ ],
+ "ClearOtherSessionsHelp": [
+  "Logs out all devices except for this one."
+ ],
+ "ClearOtherWebSessionsHelp": [
+  "You can log in on websites that support signing in with Telegram."
+ ],
+ "ClearSelectedCache": [
+  "Clear Selected"
+ ],
+ "ClearTelegramCache": [
+  "Clear Telegram Cache"
+ ],
+ "Close": [
+  "Close"
+ ],
+ "CloseEditor": [
+  "MINIMIZE EDITOR"
+ ],
+ "Code": [
+  "Code"
+ ],
+ "ColorBlue": [
+  "Blue"
+ ],
+ "ColorCyan": [
+  "Cyan"
+ ],
+ "ColorGreen": [
+  "Green"
+ ],
+ "ColorOrange": [
+  "Orange"
+ ],
+ "ColorPickerReset": [
+  "RESET"
+ ],
+ "ColorPink": [
+  "Pink"
+ ],
+ "ColorRed": [
+  "Red"
+ ],
+ "ColorTheme": [
+  "Color theme"
+ ],
+ "ColorThemes": [
+  "Color Themes"
+ ],
+ "ColorViolet": [
+  "Violet"
+ ],
+ "ColorWhite": [
+  "White"
+ ],
+ "ColorYellow": [
+  "Yellow"
+ ],
+ "ConfirmCreatePasscode": [
+  "Re-enter your passcode"
+ ],
+ "ConfirmSensitiveContentText": [
+  "Confirm that you are over 18 years old and update your settings to see potentially explicit and sensitive content."
+ ],
+ "ConfirmSensitiveContentTitle": [
+  "18+ Content"
+ ],
+ "Connected": [
+  "Connected"
+ ],
+ "ConnectedAccountsLimitSubtitle": [
+  "Connect %d accounts with different phone numbers"
+ ],
+ "ConnectedAccountsLimitTitle": [
+  "Connected Accounts"
+ ],
+ "Connecting": [
+  "Connecting..."
+ ],
+ "ConnectingConnectProxy": [
+  "Connect Proxy"
+ ],
+ "ConnectingToProxyDisable": [
+  "Disable"
+ ],
+ "ConnectingToProxyDisableAlert": [
+  "Are you sure you want to disable proxy server %1$s? You can reenable it later in Settings > Data and Storage."
+ ],
+ "ConnectingToProxyEnable": [
+  "Enable"
+ ],
+ "ConnectingToProxyTapToDisable": [
+  "Tap here to disable proxy..."
+ ],
+ "ContactJoined": [
+  "Contact joined Telegram"
+ ],
+ "ContactSupport": [
+  "Contact Support"
+ ],
+ "ContactSupportInfo": [
+  "Tell us about any issues; logging out doesn't usually help."
+ ],
+ "Contacts": [
+  "Contacts"
+ ],
+ "ContactsAndFee": [
+  "Paid"
+ ],
+ "ContactsAndPremium": [
+  "Contacts & Premium"
+ ],
+ "ContactsPermissionAlertNotNow": [
+  "Not now"
+ ],
+ "Continue": [
+  "Continue"
+ ],
+ "CountReceived": [
+  "Received"
+ ],
+ "CountSent": [
+  "Sent"
+ ],
+ "CreateNewTheme": [
+  "Create a New Theme"
+ ],
+ "CreateNewThemeAlert": [
+  "You can create your own theme by changing colors within the app.You can always switch back to the default Telegram theme here."
+ ],
+ "CreateNewThemeHelp": [
+  "Tap on the palette icon to view or edit the list of elements on each screen."
+ ],
+ "CreateNewThemeInfo": [
+  "You can create your own theme by changing colors within the app. You can always switch back to the default Telegram theme here."
+ ],
+ "CreateNewThemeMenu": [
+  "Create New Theme"
+ ],
+ "CreatePasscode": [
+  "Create a passcode"
+ ],
+ "CreatePasscodeInfoPIN": [
+  "Please enter any 4 digits that you will use to unlock your Telegram app."
+ ],
+ "CreateTheme": [
+  "Create Theme"
+ ],
+ "CurrentSession": [
+  "This device"
+ ],
+ "CustomCallInfo": [
+  "These users will or will not be able to call you regardless of the settings above."
+ ],
+ "CustomHelp": [
+  "Unless you are a Premium user, you won't see Last Seen or Online statuses for people with whom you don't share yours. Approximate times will be shown instead (recently, within a week, within a month)."
+ ],
+ "CustomNotifications": [
+  "Custom Notifications"
+ ],
+ "CustomP2PInfo": [
+  "Peer-to-peer in calls will or will not be used with these users regardless of the settings above."
+ ],
+ "CustomShareGiftsInfo": [
+  "You can add users or entire groups as exceptions that will override the settings above."
+ ],
+ "CustomShareInfo": [
+  "These users will or will not be able to add you to groups and channels regardless of the settings above."
+ ],
+ "CustomShareSettingsHelp": [
+  "You can add users or entire groups as exceptions that will override the settings above."
+ ],
+ "CustomThemes": [
+  "Custom themes"
+ ],
+ "DataSettings": [
+  "Data and Storage"
+ ],
+ "DataUsageSectionsInfo": [
+  "Tap on each section for details."
+ ],
+ "Days": [
+  "%1$d day",
+  "%1$d days"
+ ],
+ "DebugClearLogs": [
+  "Clear Logs"
+ ],
+ "DebugMenu": [
+  "Debug Menu"
+ ],
+ "DebugMenuCallSettings": [
+  "Call settings"
+ ],
+ "DebugMenuCheckAppUpdate": [
+  "Check app update"
+ ],
+ "DebugMenuClearMediaCache": [
+  "Clear sent media cache"
+ ],
+ "DebugMenuClearWebViewCache": [
+  "Clear WebView cache"
+ ],
+ "DebugMenuDisableCamera": [
+  "Disable In-App Camera"
+ ],
+ "DebugMenuDisableLogs": [
+  "Disable Logs"
+ ],
+ "DebugMenuDisablePauseMusic": [
+  "Disable pause music when recording"
+ ],
+ "DebugMenuDisableWebViewDebug": [
+  "Disable WebView debug"
+ ],
+ "DebugMenuDontUseSystemBoldFont": [
+  "Don't use Bold Font from System"
+ ],
+ "DebugMenuEnableLogs": [
+  "Enable Logs"
+ ],
+ "DebugMenuEnablePauseMusic": [
+  "Enable pause music when recording"
+ ],
+ "DebugMenuEnableWebViewDebug": [
+  "Enable WebView debug"
+ ],
+ "DebugMenuImportContacts": [
+  "Import Contacts"
+ ],
+ "DebugMenuLongPress": [
+  "Long press again for debug menu"
+ ],
+ "DebugMenuReadAllDialogs": [
+  "Mark all chats as read"
+ ],
+ "DebugMenuReloadContacts": [
+  "Reload Contacts"
+ ],
+ "DebugMenuResetContacts": [
+  "Reset Imported Contacts"
+ ],
+ "DebugMenuResetDialogs": [
+  "Reset Chats"
+ ],
+ "DebugMenuUseSystemBoldFont": [
+  "Use Bold Font from System"
+ ],
+ "DebugMenuWebViewDebugDisabled": [
+  "Debug disabled!"
+ ],
+ "DebugMenuWebViewDebugEnabled": [
+  "Debug enabled!"
+ ],
+ "DebugSendLastLogs": [
+  "Send Last Logs"
+ ],
+ "DebugSendLogs": [
+  "Send Logs"
+ ],
+ "DecreaseSpeed": [
+  "Decrease speed"
+ ],
+ "Default": [
+  "Default"
+ ],
+ "DefaultRingtone": [
+  "Default"
+ ],
+ "Delete": [
+  "Delete"
+ ],
+ "DeleteAccountHelp": [
+  "If you do not come online at least once within this period, your account will be deleted along with all messages and contacts."
+ ],
+ "DeleteAccountIfAwayFor3": [
+  "If away for"
+ ],
+ "DeleteAccountTitle": [
+  "Self-Destruct if inactive for..."
+ ],
+ "DeleteChatBackgroundsAlert": [
+  "Are you sure you want to delete the selected wallpapers?"
+ ],
+ "DeleteException": [
+  "Delete Exception"
+ ],
+ "DeleteLocalization": [
+  "Delete localization?"
+ ],
+ "DeleteMyAccount": [
+  "Delete my account"
+ ],
+ "DeletePhoto": [
+  "Remove Photo"
+ ],
+ "DeleteProxy": [
+  "Delete Proxy?"
+ ],
+ "DeleteProxyConfirm": [
+  "Are you sure you want to delete this proxy?"
+ ],
+ "DeleteProxyMultiConfirm": [
+  "Are you sure you want to delete these proxies?"
+ ],
+ "DeleteProxyTitle": [
+  "Delete Proxy"
+ ],
+ "DeleteStickerSetsAlertTitle": [
+  "Delete %1$s"
+ ],
+ "DeleteStickersAlertMessage": [
+  "Are you sure you want to delete the selected sticker sets?"
+ ],
+ "DeleteThemeAlert": [
+  "Are you sure you want to delete this theme?"
+ ],
+ "DeleteTones": [
+  "Delete %d tone",
+  "Delete %d tones"
+ ],
+ "DeleteTonesMessage": [
+  "Do you want to delete this notification tone?",
+  "Do you want to delete **%d notification tones**?"
+ ],
+ "Deselect": [
+  "Deselect"
+ ],
+ "DeselectAll": [
+  "Deselect All"
+ ],
+ "DeviceStorage": [
+  "Device storage"
+ ],
+ "Devices": [
+  "Devices"
+ ],
+ "DirectShare": [
+  "Direct Share"
+ ],
+ "DirectShareInfo": [
+  "Show recent chats in Android share menu"
+ ],
+ "Disable": [
+  "Disable"
+ ],
+ "DisablePasscode": [
+  "Turn Passcode Off"
+ ],
+ "DisablePasscodeConfirmMessage": [
+  "Are you sure you want to disable your passcode?"
+ ],
+ "DisablePasscodeTurnOff": [
+  "Turn Off"
+ ],
+ "Disconnect": [
+  "Disconnect"
+ ],
+ "DistanceUnits": [
+  "Distance Units"
+ ],
+ "DistanceUnitsAutomatic": [
+  "Automatic"
+ ],
+ "DistanceUnitsKilometers": [
+  "Kilometers"
+ ],
+ "DistanceUnitsMiles": [
+  "Miles"
+ ],
+ "DistanceUnitsTitle": [
+  "Distance units"
+ ],
+ "DoNotTranslate": [
+  "Do Not Translate"
+ ],
+ "Done": [
+  "Done"
+ ],
+ "DoubleTapPreviewMessage": [
+  "I hope you're enjoying your day as much as I am."
+ ],
+ "DoubleTapPreviewRational": [
+  "Double tap this message for a quick reaction."
+ ],
+ "DoubleTapPreviewSenderName": [
+  "Dino"
+ ],
+ "DoubleTapSetting": [
+  "Quick Reaction"
+ ],
+ "DoubledLimits": [
+  "Doubled Limits"
+ ],
+ "DynamicPackOrder": [
+  "Dynamic Pack Order"
+ ],
+ "DynamicPackOrderInfo": [
+  "Automatically place recently used sticker sets above others."
+ ],
+ "DynamicPackOrderOff": [
+  "Dynamic Order off"
+ ],
+ "DynamicPackOrderOffInfo": [
+  "Sticker sets will no longer be rearranged when you send a sticker."
+ ],
+ "Edit": [
+  "Edit"
+ ],
+ "EditCurrentTheme": [
+  "Edit Current Theme"
+ ],
+ "EditException": [
+  "Edit Exception"
+ ],
+ "EditName": [
+  "Edit Name"
+ ],
+ "EditThemeTitle": [
+  "Edit Theme"
+ ],
+ "EditWidgetContactsInfo": [
+  "Display shortcuts to your most important chats for quick access.If nobody is selected, your most frequent contacts will be shown in this widget."
+ ],
+ "EmailPasswordConfirmText": [
+  "Please follow these steps to complete Two-Step Verification Setup:1. Check your email (don't forget the spam folder)%1$s2. Click on the validation link."
+ ],
+ "EmailPasswordConfirmText2": [
+  "To complete Two-Step Verification Setup, check your email (don't forget the spam folder) and enter the code we just sent you."
+ ],
+ "EmailPasswordConfirmText3": [
+  "To complete reсoverу email setup, check %1$s (don't forget the spam folder) and enter the code we just sent you."
+ ],
+ "Emoji": [
+  "Emoji"
+ ],
+ "EmojiBotInfo": [
+  "Artists are welcome to add their own emoji packs using our @stickers bot."
+ ],
+ "EmpryUsersPlaceholder": [
+  "Add Users"
+ ],
+ "EmptyExceptions": [
+  "None"
+ ],
+ "EnableAllStreamingInfo": [
+  "When possible, Telegram will start playing videos and music right away, without waiting for the files to fully download."
+ ],
+ "EnableAnimations": [
+  "Enable Animations"
+ ],
+ "EnablePasscode": [
+  "Enable Passcode"
+ ],
+ "EnableProxyAlert": [
+  "Are you sure you want to enable this proxy?"
+ ],
+ "EnableProxyAlert2": [
+  "You can change your proxy server later in Settings > Data and Storage."
+ ],
+ "EnableStreaming": [
+  "Stream Videos and Audio Files"
+ ],
+ "EnabledPasswordText": [
+  "You have enabled Two-Step verification.You'll need the password you set up here to log in to your Telegram account."
+ ],
+ "English": [
+  "English"
+ ],
+ "EnterCurrentPasscode": [
+  "Enter current passcode"
+ ],
+ "EnterNewFirstPasscode": [
+  "Enter a passcode"
+ ],
+ "EnterNewPasscode": [
+  "Enter new passcode"
+ ],
+ "EnterPassword": [
+  "Enter password"
+ ],
+ "EnterThemeName": [
+  "Enter theme name"
+ ],
+ "Events": [
+  "Events"
+ ],
+ "Exception": [
+  "%1$d exception",
+  "%1$d exceptions"
+ ],
+ "ExceptionShort": [
+  "%d exception",
+  "%d exceptions"
+ ],
+ "ExportTheme": [
+  "Export"
+ ],
+ "FavoriteStickersLimitSubtitle": [
+  "Save up to %d stickers in your Favorite stickers"
+ ],
+ "FavoriteStickersLimitTitle": [
+  "Favorite Stickers"
+ ],
+ "FeaturedEmojiPacks": [
+  "Trending Emoji Packs"
+ ],
+ "FeaturedStickers": [
+  "Trending Stickers"
+ ],
+ "FeaturedStickersInfo": [
+  "These stickers are currently trending on Telegram. You can add custom stickers via the @stickers bot."
+ ],
+ "FilesDataUsage": [
+  "Files"
+ ],
+ "FilesReceivedCount": [
+  "**%s** file received",
+  "**%s** files received"
+ ],
+ "FilesSentCount": [
+  "**%s** file sent",
+  "**%s** files sent"
+ ],
+ "FilterAddingChats": [
+  "Adding chats"
+ ],
+ "FilterAddingChatsInfo": [
+  "Please wait a few moments whilewe fill this folder for you..."
+ ],
+ "FilterAllChats": [
+  "All Chats"
+ ],
+ "FilterFinishCreating": [
+  "Please finish creating this folder to share it."
+ ],
+ "FilterInviteBot": [
+  "chats with bots can’t be shared"
+ ],
+ "FilterInviteBotToast": [
+  "Bots can't be shared via folders."
+ ],
+ "FilterInviteChannel": [
+  "you can’t invite users here"
+ ],
+ "FilterInviteChats": [
+  "Includes %d chat",
+  "Includes %d chats"
+ ],
+ "FilterInviteEditName": [
+  "Name this link"
+ ],
+ "FilterInviteErrorEmpty": [
+  "You can’t share empty folders."
+ ],
+ "FilterInviteErrorEmptyName": [
+  "You can’t share folders without a name."
+ ],
+ "FilterInviteErrorExcluded": [
+  "You can’t share folders that exclude chats."
+ ],
+ "FilterInviteErrorTypes": [
+  "You can’t share folders which include or exclude specific chat types like 'Groups', 'Contacts', etc."
+ ],
+ "FilterInviteErrorTypesExcluded": [
+  "Folders that filter by chat type or exclude chats can't be shared."
+ ],
+ "FilterInviteGroup": [
+  "you can’t invite users here"
+ ],
+ "FilterInviteHeader": [
+  "Anyone with this link can add **%2$s** folder and the **%1$d** chat selected below.",
+  "Anyone with this link can add **%2$s** folder and the **%1$d** chats selected below."
+ ],
+ "FilterInviteHeaderChats": [
+  "%d chat selected",
+  "%d chats selected"
+ ],
+ "FilterInviteHeaderChatsEmpty": [
+  "No chats selected"
+ ],
+ "FilterInviteHeaderChatsNo": [
+  "These chats cannot be shared"
+ ],
+ "FilterInviteHeaderNo": [
+  "There are no chats in this folder that you can share with others."
+ ],
+ "FilterInviteHint": [
+  "Everyone who adds the folder via this link will be able to join the chats you select."
+ ],
+ "FilterInviteHintNo": [
+  "You can only share groups and channels in which you are allowed to create invite links."
+ ],
+ "FilterInviteLinks": [
+  "Invite Links"
+ ],
+ "FilterInviteLinksHintNew": [
+  "Share access to some of this folder’s groups and channels with others."
+ ],
+ "FilterInviteNameEdited": [
+  "Link Name saved."
+ ],
+ "FilterInvitePrivateChannelToast": [
+  "You don’t have the admin rights to share invite links to this private channel."
+ ],
+ "FilterInvitePrivateGroupToast": [
+  "You don’t have the admin rights to share invite links to this private group."
+ ],
+ "FilterInviteUser": [
+  "chats with users can't be shared"
+ ],
+ "FilterInviteUserToast": [
+  "Users can't be shared via folders."
+ ],
+ "FilterNameAnimationsDisable": [
+  "Disable Animations"
+ ],
+ "FilterNameAnimationsEnable": [
+  "Enable Animations"
+ ],
+ "FilterNameHeader": [
+  "Folder name"
+ ],
+ "FilterNoChatsToDisplay": [
+  "Folder is empty"
+ ],
+ "FilterNoChatsToDisplayInfo": [
+  "No chats currently belong to this folder."
+ ],
+ "FilterShare": [
+  "Share Folder"
+ ],
+ "FilterShareFolder": [
+  "Share folder"
+ ],
+ "FilterShareFolderButton": [
+  "Create an Invite Link"
+ ],
+ "Filters": [
+  "Chat Folders"
+ ],
+ "FolderLinkAddedChats": [
+  "Chat added to folder",
+  "%d chats added to folder"
+ ],
+ "FolderLinkButtonAdd": [
+  "Add %s"
+ ],
+ "FolderLinkChatlistUpdate": [
+  "This will not affect the chat list of the links of this folder."
+ ],
+ "FolderLinkRemovedChats": [
+  "Chat removed from folder",
+  "%d chats removed from folder"
+ ],
+ "FolderShowTags": [
+  "Show Folder Tags"
+ ],
+ "FolderShowTagsInfo": [
+  "Display folder names for each chat in the chat list."
+ ],
+ "FolderShowTagsInfoPremium": [
+  "Subscribe to **Telegram Premium** to display folder names for each chat in the chat list."
+ ],
+ "FolderTagColor": [
+  "Folder color in chat list"
+ ],
+ "FolderTagColorInfo": [
+  "Choose a color for the tag of this folder."
+ ],
+ "FolderTagNoColor": [
+  "No Tag"
+ ],
+ "FolderTagNoColorPremium": [
+  "Premium expired"
+ ],
+ "FoldersLimitSubtitle": [
+  "Organize your chats into %d folders"
+ ],
+ "FoldersLimitTitle": [
+  "Folders"
+ ],
+ "FontSizePreviewLine1": [
+  "Do you know what time it is?"
+ ],
+ "FontSizePreviewLine2": [
+  "It's morning in Tokyo 😎"
+ ],
+ "FontSizePreviewName": [
+  "Bob Harris"
+ ],
+ "FontSizePreviewReply": [
+  "Good morning! 👋"
+ ],
+ "ForgotPasscode": [
+  "Forgot passcode?"
+ ],
+ "ForgotPasscodeInfo": [
+  "If you forgot your passcode, please delete and reinstall the app.All secret chats will be lost."
+ ],
+ "ForgotPassword": [
+  "Forgot password?"
+ ],
+ "ForwardedMessage": [
+  "Forwarded message"
+ ],
+ "FromCamera": [
+  "From Camera"
+ ],
+ "FromGalley": [
+  "From Gallery"
+ ],
+ "FromYou": [
+  "You"
+ ],
+ "General": [
+  "General"
+ ],
+ "GotIt": [
+  "Got it"
+ ],
+ "Gray": [
+  "Gray"
+ ],
+ "Green": [
+  "Green"
+ ],
+ "GroupChats": [
+  "Group Chats"
+ ],
+ "Groups": [
+  "%1$d group",
+  "%1$d groups"
+ ],
+ "GroupsAndChannels": [
+  "Groups & Channels"
+ ],
+ "GroupsAndChannelsHelp": [
+  "Choose who can add you to groups and channels."
+ ],
+ "GroupsAndChannelsLimitSubtitle": [
+  "Join up to %d channels and large groups"
+ ],
+ "GroupsAndChannelsLimitTitle": [
+  "Groups and Channels"
+ ],
+ "HideReadTime": [
+  "Hide Read Time"
+ ],
+ "HideReadTimeInfo": [
+  "Hide the time when you read messages from people who can’t see your last seen. If you turn this on, their read time will also be hidden from you (unless you are a Premium user).This setting does not affect group chats."
+ ],
+ "Hours": [
+  "%1$d hour",
+  "%1$d hours"
+ ],
+ "HowDoesItWork": [
+  "How does it work?"
+ ],
+ "IfInactiveFor": [
+  "If inactive for"
+ ],
+ "ImportContacts": [
+  "Import Contacts"
+ ],
+ "InAppNotifications": [
+  "In-app notifications"
+ ],
+ "InAppPopup": [
+  "In-App Pop on Screen"
+ ],
+ "InAppPopupInfo": [
+  "Show pop-up notifications while in app."
+ ],
+ "InAppPreview": [
+  "In-App Preview"
+ ],
+ "InAppSounds": [
+  "In-App Sounds"
+ ],
+ "InAppVibrate": [
+  "In-App Vibrate"
+ ],
+ "InChatSound": [
+  "In-Chat Sounds"
+ ],
+ "InappBrowser": [
+  "In-App Browser"
+ ],
+ "InappBrowserInfo": [
+  "Open external links within the app"
+ ],
+ "IncomingCalls": [
+  "Incoming calls"
+ ],
+ "IncomingCallsCount": [
+  "%s incoming calls"
+ ],
+ "IncreaseLimit": [
+  "Increase Limit"
+ ],
+ "Info": [
+  "Info"
+ ],
+ "InstallOfficialApp": [
+  "Install official app"
+ ],
+ "InternalStorage": [
+  "Internal Storage"
+ ],
+ "InviteByQRCode": [
+  "Invite by QR Code"
+ ],
+ "InviteFriends": [
+  "Invite Friends"
+ ],
+ "InviteLink": [
+  "Invite Link"
+ ],
+ "InviteToGroupByLink": [
+  "Invite to Group via Link"
+ ],
+ "IpAddress": [
+  "IP address"
+ ],
+ "KeepMedia": [
+  "Keep Media"
+ ],
+ "KeepMediaForever": [
+  "Forever"
+ ],
+ "KeepMediaInfo": [
+  "Photos, videos and other files from cloud chats that you have **not accessed** during this period will be removed from this device to save disk space.All media will stay in the Telegram cloud and can be re-downloaded if you need it again."
+ ],
+ "KeepMediaInfoPart": [
+  "Photos, videos and other files from cloud chats that you have **not accessed** during this period will be removed from this device to save disk space."
+ ],
+ "KeepMediaPopupDescription": [
+  "Choose how often to clear cached media from this chat."
+ ],
+ "LanguageAlert": [
+  "You are about to apply a language pack (**%1$s**) that is %2$d%% complete.This will translate the entire interface. You can suggest corrections via the [translation platform].You can change your language back at any time in Settings."
+ ],
+ "LanguageCustom": [
+  "Custom"
+ ],
+ "LanguageCustomAlert": [
+  "You are about to apply a custom language pack (**%1$s**) that is %2$d%% complete.This will translate the entire interface. You can suggest corrections via the [translation platform].You can change your language back at any time in Settings."
+ ],
+ "LanguageName": [
+  "English"
+ ],
+ "LanguageNameInEnglish": [
+  "English"
+ ],
+ "LanguageSame": [
+  "You are already using this language pack (**%1$s**). You can change your language at any time in Settings."
+ ],
+ "LanguageTitle": [
+  "Change language?"
+ ],
+ "LanguageUnknownCustomAlert": [
+  "Unfortunately, this custom language pack (**%1$s**) doesn't contain data for Telegram Android."
+ ],
+ "LanguageUnknownTitle": [
+  "Insufficient data"
+ ],
+ "LanguageUnsupportedError": [
+  "Language not found."
+ ],
+ "Languages": [
+  "%1$d Language",
+  "%1$d Languages"
+ ],
+ "LargeEmoji": [
+  "Large Emoji"
+ ],
+ "LastSeenContacts": [
+  "My Contacts"
+ ],
+ "LastSeenContactsMinus": [
+  "My Contacts (-%1$d)"
+ ],
+ "LastSeenContactsMinusPlus": [
+  "My Contacts (-%1$d, +%2$d)"
+ ],
+ "LastSeenContactsPlus": [
+  "My Contacts (+%1$d)"
+ ],
+ "LastSeenContactsPremium": [
+  "Contacts & Premium"
+ ],
+ "LastSeenContactsPremiumMinus": [
+  "Contacts & Premium (-%1$d)"
+ ],
+ "LastSeenContactsPremiumMinusPlus": [
+  "Contacts & Premium (-%1$d, +%2$d)"
+ ],
+ "LastSeenContactsPremiumPlus": [
+  "Contacts & Premium (+%1$d)"
+ ],
+ "LastSeenEverybody": [
+  "Everybody"
+ ],
+ "LastSeenEverybodyMinus": [
+  "Everybody (-%1$d)"
+ ],
+ "LastSeenNobody": [
+  "Nobody"
+ ],
+ "LastSeenNobodyPlus": [
+  "Nobody (+%1$d)"
+ ],
+ "LastSeenNobodyPremium": [
+  "Premium users"
+ ],
+ "LastSeenNobodyPremiumPlus": [
+  "Premium (+%1$d)"
+ ],
+ "LastSeenTitle": [
+  "Who can see my last seen time?"
+ ],
+ "LedColor": [
+  "Light Color"
+ ],
+ "LedDisabled": [
+  "Disabled"
+ ],
+ "LightMode": [
+  "Lite Mode (Beta)"
+ ],
+ "LightModeInfoRow": [
+  "This mode turns off all visual effects in the app. It is recommended only for those devices that are low on CPU and memory."
+ ],
+ "LimitFree": [
+  "Free"
+ ],
+ "LimitPremium": [
+  "Premium"
+ ],
+ "LimitReached": [
+  "Limit Reached"
+ ],
+ "LimitReachedFolders": [
+  "You have reached the limit of **%1$d** folders. You can double the limit to **%2$d** folders by subscribing to **Telegram Premium**."
+ ],
+ "LimitReachedPublicLinksPremium": [
+  "You have reserved too many public links. Try revoking the link from an older group or channel."
+ ],
+ "LinkActionCopy": [
+  "Copy"
+ ],
+ "LinkActionShare": [
+  "Share"
+ ],
+ "LinkDesktopDevice": [
+  "Add Device"
+ ],
+ "LiteBatteryAlwaysDisabled": [
+  "Always Disabled"
+ ],
+ "LiteBatteryAlwaysEnabled": [
+  "Always Enabled"
+ ],
+ "LiteBatteryDisabled": [
+  "Off"
+ ],
+ "LiteBatteryEnabled": [
+  "On"
+ ],
+ "LiteBatteryInfoBelow": [
+  "Automatically reduce power usage and animations when your battery is below %s."
+ ],
+ "LiteBatteryInfoDisabled": [
+  "Never reduce power usage and keep all animations even when your battery is low."
+ ],
+ "LiteBatteryInfoEnabled": [
+  "Always reduce power usage regardless of your battery level."
+ ],
+ "LiteBatteryRestricted": [
+  "Please turn off Power Saving Mode to change these settings."
+ ],
+ "LiteBatteryTitle": [
+  "Power Saving Mode"
+ ],
+ "LiteBatteryWhenBelow": [
+  "When below %s"
+ ],
+ "LiteMode": [
+  "Animations"
+ ],
+ "LiteModeInfo": [
+  "Reduce motion effects to save power"
+ ],
+ "LiteOptionsAutoplayChat": [
+  "Autoplay in chat"
+ ],
+ "LiteOptionsAutoplayGifs": [
+  "Autoplay GIFs"
+ ],
+ "LiteOptionsAutoplayKeyboard": [
+  "Autoplay in keyboard"
+ ],
+ "LiteOptionsAutoplayReactions": [
+  "Autoplay in reaction menu"
+ ],
+ "LiteOptionsAutoplayVideo": [
+  "Autoplay Videos"
+ ],
+ "LiteOptionsBackground": [
+  "Wallpaper rotation"
+ ],
+ "LiteOptionsBlur": [
+  "Night theme blur"
+ ],
+ "LiteOptionsCalls": [
+  "Animations in Calls"
+ ],
+ "LiteOptionsChat": [
+  "Effects in Chats"
+ ],
+ "LiteOptionsEmoji": [
+  "Animated Emoji"
+ ],
+ "LiteOptionsLiquidGlass": [
+  "Liquid Glass"
+ ],
+ "LiteOptionsParticles": [
+  "Particles"
+ ],
+ "LiteOptionsScale": [
+  "Zoom animations"
+ ],
+ "LiteOptionsSpoiler": [
+  "Animated spoiler effect"
+ ],
+ "LiteOptionsStickers": [
+  "Animated Stickers"
+ ],
+ "LiteOptionsThanos": [
+  "Dust-effect deletion"
+ ],
+ "LiteOptionsTitle": [
+  "Power saving options"
+ ],
+ "LiteOptionsTopics": [
+  "Side menu in topics"
+ ],
+ "LiteSmoothTransitions": [
+  "Enable Smooth Transitions"
+ ],
+ "LiteSmoothTransitionsInfo": [
+  "You can disable animated transitions between different sections of the app."
+ ],
+ "LoadingFullImage": [
+  "loading full image..."
+ ],
+ "LocalAudioCache": [
+  "Voice messages"
+ ],
+ "LocalCache": [
+  "Other files"
+ ],
+ "LocalDatabaseClear": [
+  "Clear cached text messages?"
+ ],
+ "LocalDatabaseClearText": [
+  "Are you sure you want to clear cached text messages?"
+ ],
+ "LocalDatabaseClearText2": [
+  "This operation may take a few minutes to complete.Local database size: **%s**"
+ ],
+ "LocalDatabaseClearTextTitle": [
+  "Clear local database"
+ ],
+ "LocalDatabaseInfo": [
+  "Clearing the local database will delete the texts of cached messages and compress the database to save internal disk space. Telegram needs some data to work, so database size will not reach zero.This operation can take a few minutes to complete."
+ ],
+ "LocalDatabaseSize": [
+  "%s Telegram Local Database"
+ ],
+ "LocalDocumentCache": [
+  "Documents"
+ ],
+ "LocalGifCache": [
+  "GIFs"
+ ],
+ "LocalLogsCache": [
+  "Logs"
+ ],
+ "LocalMiscellaneousCache": [
+  "Miscellaneous"
+ ],
+ "LocalMusicCache": [
+  "Music"
+ ],
+ "LocalOther": [
+  "Other"
+ ],
+ "LocalPhotoCache": [
+  "Photos"
+ ],
+ "LocalProfilePhotosCache": [
+  "Profile Photos"
+ ],
+ "LocalStickersCache": [
+  "Stickers & Emoji"
+ ],
+ "LocalVideoCache": [
+  "Videos"
+ ],
+ "Location": [
+  "Location based on the IP address"
+ ],
+ "LogOut": [
+  "Log Out"
+ ],
+ "LogOutInfo": [
+  "Logging out deactivates all Secret Chats."
+ ],
+ "LogOutTitle": [
+  "Log Out"
+ ],
+ "LoginAttempts": [
+  "Incomplete login attempts"
+ ],
+ "LoginAttemptsInfo": [
+  "The devices above have no access to your messages. The code was entered correctly, but no correct password was given."
+ ],
+ "LoginPassword": [
+  "Password"
+ ],
+ "LoginPasswordText": [
+  "You have Two-Step Verification enabled, so your account is protected with an additional password."
+ ],
+ "LoginPasswordTextShort": [
+  "Two-Step Verification enabled. Your account is protected with an additional password."
+ ],
+ "LoopAnimatedStickers": [
+  "Loop Animated Stickers"
+ ],
+ "MainProfilePhotoSetHint": [
+  "This is your main profile photo now."
+ ],
+ "MainProfileVideoSetHint": [
+  "This is your main profile photo now."
+ ],
+ "MapPreviewProvider": [
+  "Map Preview Provider"
+ ],
+ "MapPreviewProviderGoogle": [
+  "Google"
+ ],
+ "MapPreviewProviderNobody": [
+  "No Previews"
+ ],
+ "MapPreviewProviderTelegram": [
+  "Telegram"
+ ],
+ "MapPreviewProviderTitle": [
+  "Map preview provider"
+ ],
+ "Masks": [
+  "Masks"
+ ],
+ "MasksArchived": [
+  "Masks archived."
+ ],
+ "MasksArchivedInfo": [
+  "%1$s has been moved to your archive."
+ ],
+ "MasksInfo": [
+  "You can add masks in the media editor when sending photos."
+ ],
+ "MasksRemoved": [
+  "Masks removed."
+ ],
+ "MaxCacheSize": [
+  "Maximum cache size"
+ ],
+ "MaxCacheSizeInfo": [
+  "If your cache size exceeds this limit, the oldest unused media will be removed from the device."
+ ],
+ "MaxVideoSize": [
+  "Maximum video size"
+ ],
+ "MediaAndSoundSettings": [
+  "Media and Sound"
+ ],
+ "MediaTab": [
+  "Media"
+ ],
+ "MegaPublic": [
+  "Public Group"
+ ],
+ "MembersCountSelected": [
+  "%1$d of %2$d selected",
+  "%1$d of %2$d selected"
+ ],
+ "MenuTelegramStars": [
+  "My Stars"
+ ],
+ "MessagePreview": [
+  "Show Message Previews"
+ ],
+ "MessagesDataUsage": [
+  "Messages and other data"
+ ],
+ "MessagesSettings": [
+  "Messages"
+ ],
+ "MicrophoneForVoiceMessages": [
+  "Microphone for voice messages"
+ ],
+ "MicrophoneForVoiceMessagesBuiltIn": [
+  "Built-In"
+ ],
+ "MicrophoneForVoiceMessagesSco": [
+  "Headset"
+ ],
+ "MicrophoneForVoiceMessagesScoHint": [
+  "Using a headset microphone may reduce background noise, but will slightly decrease audio quality."
+ ],
+ "MicrophoneForVoiceMessagesScoIfConnected": [
+  "Headset (if connected)"
+ ],
+ "MigrateOldFolderButton": [
+  "Move Files Now"
+ ],
+ "MigrateOldFolderDescription": [
+  "Due to a change made by **Google**, we need to move the files you downloaded using **Telegram** to a new folder.This may take a few moments. You can continue using the app while the files are moved."
+ ],
+ "MigrateOldFolderTitle": [
+  "Migrate Files to Scoped Storage"
+ ],
+ "Minutes": [
+  "%1$d minute",
+  "%1$d minutes"
+ ],
+ "MobileUsage": [
+  "Mobile Data Usage"
+ ],
+ "Months": [
+  "%1$d month",
+  "%1$d months"
+ ],
+ "Music": [
+  "Music"
+ ],
+ "MuteDisable": [
+  "Disable"
+ ],
+ "MyTON": [
+  "My Grams"
+ ],
+ "NetworkUsage": [
+  "Data Usage"
+ ],
+ "NetworkUsageAllTab": [
+  "All"
+ ],
+ "NetworkUsageMobile": [
+  "MOBILE"
+ ],
+ "NetworkUsageMobileTab": [
+  "Mobile"
+ ],
+ "NetworkUsageRoaming": [
+  "ROAMING"
+ ],
+ "NetworkUsageRoamingTab": [
+  "Roaming"
+ ],
+ "NetworkUsageSince": [
+  "Network usage since %1$s"
+ ],
+ "NetworkUsageWiFi": [
+  "WI-FI"
+ ],
+ "NetworkUsageWiFiTab": [
+  "Wi-Fi"
+ ],
+ "NeverAllow": [
+  "Never Allow"
+ ],
+ "NeverAllowPlaceholder": [
+  "Never allow..."
+ ],
+ "NeverShareWith": [
+  "Never Share With"
+ ],
+ "NeverShareWithPlaceholder": [
+  "Never share with users..."
+ ],
+ "NeverShareWithTitle": [
+  "Never Share"
+ ],
+ "NewChatsFromNonContacts": [
+  "New chats from unknown users"
+ ],
+ "NewTheme": [
+  "New color theme"
+ ],
+ "NextMediaTap": [
+  "Tap to show next media"
+ ],
+ "NextMediaTapInfo": [
+  "Tap near the edge of the screen while viewing media to navigate"
+ ],
+ "NoBlocked": [
+  "No blocked users yet"
+ ],
+ "NoExceptions": [
+  "This section will list all chats with non-default notification settings.You can customize notifications for a chat by opening its profile and choosing 'Notifications'."
+ ],
+ "NoLimit": [
+  "No limit"
+ ],
+ "NoMasks": [
+  "No masks yet"
+ ],
+ "NoMediaAutoDownload": [
+  "Disabled"
+ ],
+ "NoNetworkUsageSince": [
+  "No network usage since %1$s"
+ ],
+ "NoOtherSessions": [
+  "No other active sessions"
+ ],
+ "NoOtherSessionsInfo": [
+  "You can log in to Telegram from other mobile, tablet and desktop devices, using the same phone number. All your data will be instantly synchronized."
+ ],
+ "NoOtherWebSessions": [
+  "No active logins."
+ ],
+ "NoOtherWebSessionsInfo": [
+  "You can log in on websites that support signing in with Telegram."
+ ],
+ "NoPopup": [
+  "No popup"
+ ],
+ "NoSound": [
+  "No sound"
+ ],
+ "NotfificationsFrequencyTitle": [
+  "Notification frequency"
+ ],
+ "NotificationEnabledAutomatically": [
+  "Automatically enabled"
+ ],
+ "NotificationReactions": [
+  "Reactions"
+ ],
+ "NotificationReactionsMessages": [
+  "Messages"
+ ],
+ "NotificationReactionsStories": [
+  "Stories"
+ ],
+ "NotificationShowSenderNames": [
+  "Show Sender's Name"
+ ],
+ "Notifications": [
+  "Notifications"
+ ],
+ "NotificationsAddAnException": [
+  "Add Exception"
+ ],
+ "NotificationsAndSounds": [
+  "Notifications and Sounds"
+ ],
+ "NotificationsChannels": [
+  "Channels"
+ ],
+ "NotificationsCustom": [
+  "Custom"
+ ],
+ "NotificationsDeleteAllException": [
+  "Delete All Exceptions"
+ ],
+ "NotificationsDeleteAllExceptionAlert": [
+  "Are you sure you want to delete all exceptions?"
+ ],
+ "NotificationsDeleteAllExceptionTitle": [
+  "Delete all exceptions"
+ ],
+ "NotificationsExceptions": [
+  "Exceptions"
+ ],
+ "NotificationsExceptionsAlert": [
+  "Please note that **%1$s** are listed as exceptions and won't be affected by this change."
+ ],
+ "NotificationsExceptionsSingleAlert": [
+  "Please note that **%1$s** is listed as an exception and won't be affected by this change."
+ ],
+ "NotificationsForChannels": [
+  "Notifications for channels"
+ ],
+ "NotificationsForChats": [
+  "Notifications for chats"
+ ],
+ "NotificationsForGroups": [
+  "Notifications for groups"
+ ],
+ "NotificationsForPrivateChats": [
+  "Notifications for private chats"
+ ],
+ "NotificationsForStories": [
+  "Story Notifications"
+ ],
+ "NotificationsFrequencyDivider": [
+  "in"
+ ],
+ "NotificationsGroups": [
+  "Groups"
+ ],
+ "NotificationsImportance": [
+  "Priority"
+ ],
+ "NotificationsLed": [
+  "Light"
+ ],
+ "NotificationsLedColor": [
+  "Color"
+ ],
+ "NotificationsLedInfo": [
+  "Blinking light used to indicate new messages on some devices."
+ ],
+ "NotificationsMuted": [
+  "Muted"
+ ],
+ "NotificationsMutedForHint": [
+  "Notifications muted for %1$s."
+ ],
+ "NotificationsMutedHint": [
+  "Notifications muted."
+ ],
+ "NotificationsNewException": [
+  "New Exception"
+ ],
+ "NotificationsOff": [
+  "Off"
+ ],
+ "NotificationsOffUntil": [
+  "Off until %1$s"
+ ],
+ "NotificationsOn": [
+  "On"
+ ],
+ "NotificationsOther": [
+  "Other"
+ ],
+ "NotificationsPermissionAlert1": [
+  "Get notified about new messages"
+ ],
+ "NotificationsPermissionAlert2": [
+  "Know when you are mentioned in groups"
+ ],
+ "NotificationsPermissionAlert3": [
+  "Mute specific chats and types of chats"
+ ],
+ "NotificationsPermissionAlertSubtitle": [
+  "Please allow Telegram to send you notifications to stay in touch with your friends and family."
+ ],
+ "NotificationsPermissionAlertTitle": [
+  "Turn on notifications"
+ ],
+ "NotificationsPermissionContinue": [
+  "Continue"
+ ],
+ "NotificationsPriority": [
+  "Priority"
+ ],
+ "NotificationsPriorityDefault": [
+  "Default"
+ ],
+ "NotificationsPriorityHigh": [
+  "High"
+ ],
+ "NotificationsPriorityLow": [
+  "Low"
+ ],
+ "NotificationsPriorityMax": [
+  "Max"
+ ],
+ "NotificationsPriorityMedium": [
+  "Medium"
+ ],
+ "NotificationsPrioritySettings": [
+  "Same as in Settings"
+ ],
+ "NotificationsPriorityUrgent": [
+  "Urgent"
+ ],
+ "NotificationsPrivateChats": [
+  "Private Chats"
+ ],
+ "NotificationsService": [
+  "Keep-Alive Service"
+ ],
+ "NotificationsServiceConnection": [
+  "Background Connection"
+ ],
+ "NotificationsServiceConnectionInfo": [
+  "Keep a low-impact background connection to Telegram for reliable notifications."
+ ],
+ "NotificationsServiceInfo": [
+  "Relaunch app when shut down. Enable for reliable notifications."
+ ],
+ "NotificationsSound": [
+  "Notification Sound"
+ ],
+ "NotificationsSoundChannels": [
+  "Channel Sound"
+ ],
+ "NotificationsSoundGroup": [
+  "Group Sound"
+ ],
+ "NotificationsSoundReactions": [
+  "Reactions Sound"
+ ],
+ "NotificationsUnmuted": [
+  "Unmuted"
+ ],
+ "NotificationsUnmutedHint": [
+  "Notifications unmuted."
+ ],
+ "NotifyAboutReactionsFrom": [
+  "Notify about reactions from"
+ ],
+ "NotifyAboutReactionsFromContacts": [
+  "My Contacts"
+ ],
+ "NotifyAboutReactionsFromEveryone": [
+  "Everyone"
+ ],
+ "NotifyFromContacts": [
+  "From My Contacts"
+ ],
+ "NotifyFromEveryone": [
+  "From Everyone"
+ ],
+ "NotifyFromNobody": [
+  "Off"
+ ],
+ "NotifyMeAbout": [
+  "Notify me about…"
+ ],
+ "NotifyMeAboutChannels": [
+  "New Messages in Channels"
+ ],
+ "NotifyMeAboutGroups": [
+  "New Messages in Groups"
+ ],
+ "NotifyMeAboutMessagesReactions": [
+  "Reactions to My Messages"
+ ],
+ "NotifyMeAboutPrivate": [
+  "New Messages in Private Chats"
+ ],
+ "NotifyMeAboutStoriesReactions": [
+  "Reactions to My Stories"
+ ],
+ "NotifyMoreOptions": [
+  "More Options"
+ ],
+ "NumberUnknown": [
+  "Unknown"
+ ],
+ "OK": [
+  "OK"
+ ],
+ "Online": [
+  "online"
+ ],
+ "OnlyWhenScreenOff": [
+  "Only when screen \"off\""
+ ],
+ "OnlyWhenScreenOn": [
+  "Only when screen \"on\""
+ ],
+ "OpenInExternalApp": [
+  "Open in..."
+ ],
+ "OptionPremiumRequiredButton": [
+  "Unlock"
+ ],
+ "OptionPremiumRequiredMessage": [
+  "Subscribe to **Telegram Premium** to select this option."
+ ],
+ "OptionPremiumRequiredTitle": [
+  "Premium Required"
+ ],
+ "Orange": [
+  "Orange"
+ ],
+ "OtherSessions": [
+  "Active sessions"
+ ],
+ "OtherSettings": [
+  "Other Settings"
+ ],
+ "OtherWebSessions": [
+  "Connected websites"
+ ],
+ "OutgoingCalls": [
+  "Outgoing calls"
+ ],
+ "OutgoingCallsCount": [
+  "%s outgoing calls"
+ ],
+ "P2PContacts": [
+  "My Contacts"
+ ],
+ "P2PContactsMinus": [
+  "My Contacts (-%1$d)"
+ ],
+ "P2PContactsMinusPlus": [
+  "My Contacts (-%1$d, +%2$d)"
+ ],
+ "P2PContactsPlus": [
+  "My Contacts (+%1$d)"
+ ],
+ "P2PEnabledWith": [
+  "Use peer-to-peer with"
+ ],
+ "P2PEverybody": [
+  "Everybody"
+ ],
+ "P2PEverybodyMinus": [
+  "Everybody (-%1$d)"
+ ],
+ "P2PNobody": [
+  "Nobody"
+ ],
+ "P2PNobodyPlus": [
+  "Nobody (+%1$d)"
+ ],
+ "Passcode": [
+  "Passcode Lock"
+ ],
+ "PasscodeDoNotMatch": [
+  "Passcodes do not match"
+ ],
+ "PasscodePIN": [
+  "PIN"
+ ],
+ "PasscodePassword": [
+  "Password"
+ ],
+ "PasscodeReinstallNotice": [
+  "If you forget your passcode, you'll need to **log out** or **reinstall** the app. All secret chats will be lost."
+ ],
+ "PasscodeScreenHint": [
+  "Tap the lock icon above your chat list to lock the app."
+ ],
+ "PasscodeSwitchToPIN": [
+  "Switch to PIN"
+ ],
+ "PasscodeSwitchToPassword": [
+  "Switch to Password"
+ ],
+ "PasscodesDoNotMatchTryAgain": [
+  "Passcodes don't match. Please try again."
+ ],
+ "Passkey": [
+  "Passkeys"
+ ],
+ "PasskeyAdd": [
+  "Create Passkey"
+ ],
+ "PasskeyAddedText": [
+  "You can now login into your account with %s."
+ ],
+ "PasskeyAddedTitle": [
+  "Passkey Added!"
+ ],
+ "PasskeyCreatedOn": [
+  "Created %s"
+ ],
+ "PasskeyDeleteText": [
+  "Once deleted, this passkey can't be used to log in.Don't forget to remove it from your password manager too."
+ ],
+ "PasskeyDeleteTitle": [
+  "Delete Passkey"
+ ],
+ "PasskeyFeature1Subtitle": [
+  "Make a passkey to sign in easily and safely."
+ ],
+ "PasskeyFeature1Title": [
+  "Create a Passkey"
+ ],
+ "PasskeyFeature2Subtitle": [
+  "Use your face, fingerprint or screen lock to sign in."
+ ],
+ "PasskeyFeature2Title": [
+  "Log in with face recognition"
+ ],
+ "PasskeyFeature3Subtitle": [
+  "Your passkey is stored safely in the cloud service you choose."
+ ],
+ "PasskeyFeature3Title": [
+  "Store Passkey securely"
+ ],
+ "PasskeyFeatureButton": [
+  "Create Passkey"
+ ],
+ "PasskeyFeatureSubtitle": [
+  "Log in safely and keep your account secure."
+ ],
+ "PasskeyFeatureTitle": [
+  "Protect your account"
+ ],
+ "PasskeyInfo": [
+  "Your passkey is stored securely in your password manager. **Learn more >**"
+ ],
+ "PasskeyLastUsedOn": [
+  "Last used %s"
+ ],
+ "PasskeyTopInfo": [
+  "Manage your passkey, stored safely in the cloud service you choose."
+ ],
+ "PassportDiscard": [
+  "Discard"
+ ],
+ "PassportEmail": [
+  "Email"
+ ],
+ "PasswordAsHintError": [
+  "Hint must be different from your password"
+ ],
+ "PasswordDoNotMatch": [
+  "Passwords do not match"
+ ],
+ "PasswordHint": [
+  "Password Hint"
+ ],
+ "PasswordHintDescription": [
+  "You can create an optional hint for your password."
+ ],
+ "PasswordHintPlaceholder": [
+  "Hint"
+ ],
+ "PasswordOff": [
+  "Off"
+ ],
+ "PasswordRecovery": [
+  "Password Recovery"
+ ],
+ "PasswordReset": [
+  "Password deactivated"
+ ],
+ "PauseMusicOnMedia": [
+  "Pause music while playing media"
+ ],
+ "PauseMusicOnRecord": [
+  "Pause music while recording"
+ ],
+ "PauseMusicOnRecordInfo": [
+  "Pause music when you start recording a video message"
+ ],
+ "PaymentShippingEmailPlaceholder": [
+  "Email"
+ ],
+ "PermissionDrawAboveOtherApps": [
+  "Telegram needs access to draw above other apps to play videos in Picture-in-Picture mode."
+ ],
+ "PermissionDrawAboveOtherAppsTitle": [
+  "Picture-in-Picture"
+ ],
+ "PermissionNoAudioWithHint": [
+  "**Telegram** needs microphone access so that you can send voice messages. Tap Settings > Permissions, and turn **Microphone** on."
+ ],
+ "PermissionNoCameraMicVideo": [
+  "**Telegram** needs camera and microphone access so that you can send video messages. Tap Settings > Permissions, and turn **Microphone** and **Camera** on."
+ ],
+ "PermissionNoCameraWithHint": [
+  "**Telegram** needs camera access so that you can take photos and videos. Tap Settings > Permissions, and turn **Camera** on."
+ ],
+ "PermissionNoContactsSharing": [
+  "**Telegram** needs access to contacts so that you can share them with your friends. Tap Settings > Permissions, and turn **Contacts** on."
+ ],
+ "PermissionNoLocationFriends": [
+  "**Telegram** needs access to location so that you can share it with your friends. Tap Settings > Permissions, and turn **Location** on."
+ ],
+ "PermissionNoLocationNavigation": [
+  "**Telegram** needs access to location so that you can get directions. Tap Settings > Permissions, and turn **Location** on."
+ ],
+ "PermissionNoLocationPeopleNearby": [
+  "**Telegram** needs access to location so that you can find people nearby. Tap Settings > Permissions, and turn **Location** on."
+ ],
+ "PermissionOpenSettings": [
+  "Settings"
+ ],
+ "PermissionStorageWithHint": [
+  "**Telegram** needs storage access so you can send and save photos, videos, music and other documents. Tap Settings > Permissions, and turn **Files and media** on."
+ ],
+ "PhoneHidden": [
+  "Unknown"
+ ],
+ "PhoneNumber": [
+  "Phone number"
+ ],
+ "PhoneNumberAlert": [
+  "Users will see your new number if they have it in their address book or your privacy settings allow them to see it. You can modify this in Settings > Privacy and Security > Phone number."
+ ],
+ "PhoneNumberChange2": [
+  "Change Number"
+ ],
+ "PhoneNumberChangeTitle": [
+  "Change number"
+ ],
+ "PhoneNumberHelp": [
+  "You can change your Telegram number here. Your account and all your cloud data — messages, media, contacts, etc. will be moved to the new number."
+ ],
+ "PhoneNumberKeepButton": [
+  "Keep %1$s"
+ ],
+ "PhotoForRestDescription": [
+  "You can upload a public photo for users who are restricted from seeing your real profile photos."
+ ],
+ "PhotoForRestTooltip": [
+  "This photo will be shown to users who are restricted from seeing your real photos."
+ ],
+ "PinChatsLimitSubtitle": [
+  "Pin up to %d chats in your main chat list"
+ ],
+ "PinChatsLimitTitle": [
+  "Pinned Chats"
+ ],
+ "Ping": [
+  "Ping: %1$d ms"
+ ],
+ "Pink": [
+  "Pink"
+ ],
+ "PinnedMessages": [
+  "Pinned Messages"
+ ],
+ "PlayEmojiInKeyboard": [
+  "Emoji Panel Animations"
+ ],
+ "PlayFile": [
+  "Play File"
+ ],
+ "PleaseEnterFirstPassword": [
+  "Enter a password"
+ ],
+ "PleaseEnterNewFirstPassword": [
+  "Enter a new password"
+ ],
+ "PopupDisabled": [
+  "Disabled"
+ ],
+ "PopupEnabled": [
+  "Enabled"
+ ],
+ "PopupNotification": [
+  "Popup Notification"
+ ],
+ "PowerUsage": [
+  "Power Saving"
+ ],
+ "PremiumPreviewAdvancedChatManagement": [
+  "Advanced Chat Management"
+ ],
+ "PremiumPreviewAdvancedChatManagementDescription": [
+  "Tools to set the default folder, auto-archive and hide new chats from non-contacts."
+ ],
+ "PremiumPreviewAnimatedProfiles": [
+  "Animated Profile Pictures"
+ ],
+ "PremiumPreviewAnimatedProfilesDescription": [
+  "Video avatars animated in chat lists and chats to allow for additional self-expression."
+ ],
+ "PremiumPreviewAppIcon": [
+  "Premium App Icons"
+ ],
+ "PremiumPreviewAppIconDescription": [
+  "Choose from a selection of Telegram app icons for your homescreen."
+ ],
+ "PremiumPreviewAppIconDescription2": [
+  "Unlock a wider range of app icons by subscribing to Telegram Premium."
+ ],
+ "PremiumPreviewDownloadSpeed": [
+  "Faster Download Speed"
+ ],
+ "PremiumPreviewDownloadSpeedDescription": [
+  "No more limits on the speed with which media and documents are downloaded."
+ ],
+ "PremiumPreviewEmojiStatus": [
+  "Emoji Statuses"
+ ],
+ "PremiumPreviewEmojiStatusDescription": [
+  "Choose from thousands of emoji to display current activity next to your name."
+ ],
+ "PremiumPreviewLimits": [
+  "Doubled Limits"
+ ],
+ "PremiumPreviewLimitsDescription": [
+  "Up to %1$d channels, %2$d folders, %3$d pins, %4$d public links, %5$d accounts and more."
+ ],
+ "PremiumPreviewNoAds": [
+  "No Ads"
+ ],
+ "PremiumPreviewNoAdsDescription": [
+  "No more ads in public channels where Telegram sometimes shows ads."
+ ],
+ "PremiumPreviewPaidMessages": [
+  "Paid Messages"
+ ],
+ "PremiumPreviewPaidMessagesDescription": [
+  "Charge a fee for messages from non-contacts or new senders."
+ ],
+ "PremiumPreviewProfileBadge": [
+  "Profile Badge"
+ ],
+ "PremiumPreviewProfileBadgeDescription": [
+  "An exclusive badge next to your name showing that you subscribe to Telegram Premium."
+ ],
+ "PremiumPreviewProfileColor": [
+  "Name and Profile Colors"
+ ],
+ "PremiumPreviewProfileColorDescription": [
+  "Choose a color and logo for your profile and replies to your messages."
+ ],
+ "PremiumPreviewReactions": [
+  "Unique Reactions"
+ ],
+ "PremiumPreviewReactions2": [
+  "Infinite Reactions"
+ ],
+ "PremiumPreviewReactions2Description": [
+  "React with thousands of emoji — using multiple reactions per message."
+ ],
+ "PremiumPreviewReactionsDescription": [
+  "Additional animated reactions on messages, available only to Premium subscribers."
+ ],
+ "PremiumPreviewStickers": [
+  "Premium Stickers"
+ ],
+ "PremiumPreviewStickersDescription": [
+  "Exclusive enlarged stickers featuring additional effects, updated regularly."
+ ],
+ "PremiumPreviewTranslations": [
+  "Real-Time Translation"
+ ],
+ "PremiumPreviewTranslationsDescription": [
+  "Real-time translation of chats and channels into other languages."
+ ],
+ "PremiumPreviewUploads": [
+  "Unlimited Cloud Storage"
+ ],
+ "PremiumPreviewUploadsDescription": [
+  "4 GB per each document, unlimited storage for your chats and media overall."
+ ],
+ "PremiumPreviewVoiceToText": [
+  "Voice-to-Text Conversion"
+ ],
+ "PremiumPreviewVoiceToTextDescription": [
+  "Ability to read the transcript of any incoming voice message."
+ ],
+ "PremiumPreviewWallpaper": [
+  "Wallpaper for Both Sides"
+ ],
+ "PremiumPreviewWallpaperDescription": [
+  "Set custom wallpapers for you and your chat partner."
+ ],
+ "PremiumStickers": [
+  "Premium Stickers"
+ ],
+ "PriorityInfo": [
+  "Higher priority notifications will work even in Do Not Disturb mode."
+ ],
+ "PrivacyAdvanced": [
+  "Advanced"
+ ],
+ "PrivacyBio": [
+  "Bio"
+ ],
+ "PrivacyBioInfo": [
+  "You can restrict who can see the bio on your profile with granular precision."
+ ],
+ "PrivacyBioTitle": [
+  "Who can see my bio?"
+ ],
+ "PrivacyBiometryBots": [
+  "Bots with biometry"
+ ],
+ "PrivacyBiometryBotsButton": [
+  "Bots with biometry access"
+ ],
+ "PrivacyBiometryBotsInfo": [
+  "Web apps can request permission for fingerprint check."
+ ],
+ "PrivacyBirthday": [
+  "Birthday"
+ ],
+ "PrivacyBirthdayInfo": [
+  "You can restrict who can see your birthday with granular precision."
+ ],
+ "PrivacyBirthdayInfo3": [
+  "You can add users or entire groups as exception that will override the settings above."
+ ],
+ "PrivacyBirthdaySet": [
+  "You haven’t added your birthday yet.**Add my birthday >**"
+ ],
+ "PrivacyBirthdayTitle": [
+  "Who can see my birthday?"
+ ],
+ "PrivacyBots": [
+  "Bots and websites"
+ ],
+ "PrivacyBotsInfo": [
+  "Websites where you've used Telegram to log in."
+ ],
+ "PrivacyCallsP2PHelp": [
+  "Disabling peer-to-peer will relay all calls through Telegram servers to avoid revealing your IP address, but may decrease audio and video quality."
+ ],
+ "PrivacyClearPayment": [
+  "Payment Info"
+ ],
+ "PrivacyClearShipping": [
+  "Shipping info"
+ ],
+ "PrivacyContactsAndBotUsers": [
+  "Contacts & Mini Apps"
+ ],
+ "PrivacyContactsAndBotUsersMinus": [
+  "Contacts & Mini Apps (-%1$d)"
+ ],
+ "PrivacyContactsAndBotUsersMinusPlus": [
+  "Contacts & Mini Apps (-%1$d, +%2$d)"
+ ],
+ "PrivacyContactsAndBotUsersPlus": [
+  "Contacts & Mini Apps (+%1$d)"
+ ],
+ "PrivacyFloodControlError": [
+  "Too many requests. Please wait before changing privacy settings again."
+ ],
+ "PrivacyForwards": [
+  "Forwarded Messages"
+ ],
+ "PrivacyForwardsContacts": [
+  "Link if allowed by the settings below"
+ ],
+ "PrivacyForwardsEverybody": [
+  "Link to your account"
+ ],
+ "PrivacyForwardsInfo": [
+  "Messages you send will not link back to your account when forwarded by other users."
+ ],
+ "PrivacyForwardsInfo2": [
+  "You can add users or entire groups as exceptions that will override the settings above."
+ ],
+ "PrivacyForwardsMessageLine": [
+  "Reinhardt, we need to find you some new tunes 🎶."
+ ],
+ "PrivacyForwardsNobody": [
+  "Not a link to your account"
+ ],
+ "PrivacyForwardsTitle": [
+  "Who can add a link to my account when forwarding my messages?"
+ ],
+ "PrivacyGifts": [
+  "Gifts"
+ ],
+ "PrivacyGiftsInfo": [
+  "Choose whether gifts from specific senders need your approval before they’re visible to others on your profile."
+ ],
+ "PrivacyGiftsShowIcon": [
+  "Show Gift Icon in Chats"
+ ],
+ "PrivacyGiftsShowIconInfo": [
+  "Display the %s Gift icon in the message input field for both participants in all chats."
+ ],
+ "PrivacyGiftsTitle": [
+  "Automatically display gifts from"
+ ],
+ "PrivacyGiftsTypeFromChannels": [
+  "From Channels"
+ ],
+ "PrivacyGiftsTypeHeader": [
+  "Accepted gift types"
+ ],
+ "PrivacyGiftsTypeInfo": [
+  "Choose the types of gifts that you allow others to send you."
+ ],
+ "PrivacyGiftsTypeLimited": [
+  "Limited-Edition"
+ ],
+ "PrivacyGiftsTypePremium": [
+  "Premium Subscriptions"
+ ],
+ "PrivacyGiftsTypeUnique": [
+  "Unique"
+ ],
+ "PrivacyGiftsTypeUnlimited": [
+  "Unlimited"
+ ],
+ "PrivacyInvites": [
+  "Invites"
+ ],
+ "PrivacyInvitesInfo": [
+  "You can restrict which users are allowed to add you to groups and channels."
+ ],
+ "PrivacyLastSeen": [
+  "Last Seen & Online"
+ ],
+ "PrivacyLastSeenPremium": [
+  "Subscribe to Telegram Premium"
+ ],
+ "PrivacyLastSeenPremiumForPremium": [
+  "Subscribed to Telegram Premium"
+ ],
+ "PrivacyLastSeenPremiumInfo": [
+  "If you subscribe to Premium, you will see other users’ last seen and read time even if you hid yours from them (unless they specifically restricted it)."
+ ],
+ "PrivacyLastSeenPremiumInfoForPremium": [
+  "Because you are a Telegram Premium subscriber, you will see the last seen and read time of all users who are sharing it with you – even if you are hiding yours."
+ ],
+ "PrivacyMessages": [
+  "Messages"
+ ],
+ "PrivacyMessagesContactsAndPremium": [
+  "My Contacts and Premium users"
+ ],
+ "PrivacyMessagesInfo": [
+  "You can restrict messages from users who are not in your contacts and whom you haven't messaged first.**What is Telegram Premium?**"
+ ],
+ "PrivacyMessagesTitle": [
+  "Who can send me messages?"
+ ],
+ "PrivacyMiniapps": [
+  "Mini Apps & Bots"
+ ],
+ "PrivacyMiniappsText": [
+  "all bots"
+ ],
+ "PrivacyMusic": [
+  "Saved Music"
+ ],
+ "PrivacyMusicInfo": [
+  "You can restrict who can see your saved music with granular precision."
+ ],
+ "PrivacyMusicInfo3": [
+  "You can add users or entire groups that will not see your saved music."
+ ],
+ "PrivacyMusicTitle": [
+  "Who can see the saved music on my profile?"
+ ],
+ "PrivacyP2P": [
+  "Peer-to-Peer Calls"
+ ],
+ "PrivacyP2P2": [
+  "Use Peer-to-Peer with"
+ ],
+ "PrivacyP2PHeader": [
+  "Peer-to-Peer"
+ ],
+ "PrivacyPaymentsClear": [
+  "Clear Payment and Shipping Info"
+ ],
+ "PrivacyPaymentsClearAlert": [
+  "Delete your shipping info and instruct all payment providers to remove your saved credit cards? Note that Telegram never stores your credit card data."
+ ],
+ "PrivacyPaymentsClearAlertText": [
+  "Are you sure you want to clear your payment and shipping info?"
+ ],
+ "PrivacyPaymentsClearAlertTitle": [
+  "Clear payment info"
+ ],
+ "PrivacyPhone": [
+  "Phone Number"
+ ],
+ "PrivacyPhoneInfo": [
+  "Users who have your number saved in their contacts will also see it on Telegram."
+ ],
+ "PrivacyPhoneInfo2": [
+  "You can add users or entire groups as exceptions that will override the settings above."
+ ],
+ "PrivacyPhoneInfo3": [
+  "Users who add your number to their contacts will see it on Telegram only if they are your contacts."
+ ],
+ "PrivacyPhoneInfo4": [
+  "This public link opens a chat with you:"
+ ],
+ "PrivacyPhoneTitle": [
+  "Who can see my phone number?"
+ ],
+ "PrivacyPhoneTitle2": [
+  "Who can find me by my number?"
+ ],
+ "PrivacyPolicy": [
+  "Privacy Policy"
+ ],
+ "PrivacyPolicyUrl": [
+  "https://telegram.org/privacy"
+ ],
+ "PrivacyPremium": [
+  "Premium Users"
+ ],
+ "PrivacyPremiumAnd": [
+  "Premium & %s"
+ ],
+ "PrivacyPremiumText": [
+  "all Telegram Premium subscribers"
+ ],
+ "PrivacyProfilePhoto": [
+  "Profile Photos"
+ ],
+ "PrivacyProfilePhotoInfo": [
+  "You can restrict who can see your profile photo with granular precision."
+ ],
+ "PrivacyProfilePhotoInfo3": [
+  "You can add users or entire groups that will **not** see your profile photo."
+ ],
+ "PrivacyProfilePhotoInfo4": [
+  "Add users or entire groups that will still see your profile photo."
+ ],
+ "PrivacyProfilePhotoInfo5": [
+  "Add users or entire groups as exceptions that will override the settings above."
+ ],
+ "PrivacyProfilePhotoTitle": [
+  "Who can see my profile photos?"
+ ],
+ "PrivacySettings": [
+  "Privacy and Security"
+ ],
+ "PrivacySettingsChangedAlert": [
+  "You have changed some privacy settings. Apply changes?"
+ ],
+ "PrivacyTitle": [
+  "Privacy"
+ ],
+ "PrivacyUserTypes": [
+  "User Types"
+ ],
+ "PrivacyValueBots": [
+  "Mini Apps"
+ ],
+ "PrivacyValueBotsAnd": [
+  "Mini Apps & %s"
+ ],
+ "PrivacyValueEveryoneExceptBots": [
+  "Except Mini Apps"
+ ],
+ "PrivacyValueEveryoneExceptBotsMinus": [
+  "Except Mini Apps (-%1$d)"
+ ],
+ "PrivacyValueGiftsNone": [
+  "None"
+ ],
+ "PrivacyValueGiftsOnlyPremium": [
+  "Only Premium"
+ ],
+ "PrivacyValueOnlyBots": [
+  "Mini Apps"
+ ],
+ "PrivacyVoiceMessages": [
+  "Voice Messages"
+ ],
+ "PrivacyVoiceMessagesInfo": [
+  "You can restrict who can send you voice or video messages with granular precision."
+ ],
+ "PrivacyVoiceMessagesInfo2": [
+  "You can add users or entire groups as exceptions that will override the settings above."
+ ],
+ "PrivacyVoiceMessagesPremiumOnly": [
+  "Only subscribers of *Telegram Premium* can restrict receiving voice messages."
+ ],
+ "PrivacyVoiceMessagesTitle": [
+  "Who can send me voice or video messages?"
+ ],
+ "PrivateChats": [
+  "Private Chats"
+ ],
+ "PrivateMessagesChargePremiumLocked": [
+  "Unlock with Telegram Premium"
+ ],
+ "PrivateMessagesChargePrice": [
+  "Charge for Messages"
+ ],
+ "PrivateMessagesChargePriceInfo": [
+  "Charge a fee for messages from people outside your contacts or who you haven't messaged first."
+ ],
+ "PrivateMessagesExceptions": [
+  "Remove Fee"
+ ],
+ "PrivateMessagesExceptionsHeader": [
+  "Exceptions"
+ ],
+ "PrivateMessagesExceptionsInfo": [
+  "Add users or entire groups who won't have to pay to send you messages."
+ ],
+ "PrivateMessagesPriceHeader": [
+  "Set your price per message"
+ ],
+ "PrivateMessagesPriceInfo": [
+  "You will receive %1$s of the selected fee (~%2$s$) for each incoming message."
+ ],
+ "Proceed": [
+  "Proceed"
+ ],
+ "ProfilePopupNotification": [
+  "Popup notifications"
+ ],
+ "ProfilePopupNotificationInfo": [
+  "New messages from this contact will appear on your screen when you are not using Telegram."
+ ],
+ "Proxy": [
+  "Proxy"
+ ],
+ "ProxyAddedSuccess": [
+  "Proxy added."
+ ],
+ "ProxyConnections": [
+  "Connections"
+ ],
+ "ProxyDetails": [
+  "Proxy Details"
+ ],
+ "ProxyRotationTimeoutInfo": [
+  "You can choose how quickly the app should auto-connect to the nearest active proxy if the current one stops working."
+ ],
+ "ProxyRotationTimeoutSeconds": [
+  "%1$d s"
+ ],
+ "ProxySettings": [
+  "Proxy Settings"
+ ],
+ "PublicChannelsTooMuch": [
+  "Sorry, the target user has too many public groups or channels already. Please ask them to make one of their existing groups or channels private first."
+ ],
+ "PublicLinksLimitSubtitle": [
+  "Reserve up to %d t.me/username links"
+ ],
+ "PublicLinksLimitTitle": [
+  "Public Links"
+ ],
+ "Purple": [
+  "Purple"
+ ],
+ "QRCodeLinkHelpFolder": [
+  "Anyone on Telegram can scan this code to add the folder and join all the chats included in its invite link."
+ ],
+ "QRCodeLinkHelpProxy": [
+  "Your friends can add this proxy by scanning the code with their phone's camera."
+ ],
+ "QRCodePermissionNoCamera": [
+  "Telegram needs access to your camera so that you can scan QR codes."
+ ],
+ "QRCodePermissionNoCameraWithHint": [
+  "**Telegram** needs camera access so that you can scan QR codes. Tap Settings > Permissions, and turn **Camera** on."
+ ],
+ "QuickReplyDefault1": [
+  "Can't talk now. What's up?"
+ ],
+ "QuickReplyDefault2": [
+  "I'll call you right back."
+ ],
+ "QuickReplyDefault3": [
+  "I'll call you later."
+ ],
+ "QuickReplyDefault4": [
+  "Can't talk now. Call me later?"
+ ],
+ "RaiseToListen": [
+  "Raise to Listen"
+ ],
+ "RaiseToListenInfo": [
+  "Switch sound to the earpiece by raising the phone to your ear"
+ ],
+ "RaiseToSpeak": [
+  "Raise to Speak"
+ ],
+ "RaiseToSpeakInfo": [
+  "Record voice messages by raising the phone to your ear"
+ ],
+ "ReEnterPassword": [
+  "Re-enter password"
+ ],
+ "ReEnterYourPasscode": [
+  "Re-enter your new passcode"
+ ],
+ "Reactions": [
+  "Reactions"
+ ],
+ "RecoveryEmail": [
+  "Recovery email"
+ ],
+ "RecoveryEmailTitle": [
+  "Recovery Email"
+ ],
+ "Red": [
+  "Red"
+ ],
+ "Refresh": [
+  "Refresh"
+ ],
+ "Remove": [
+  "Remove"
+ ],
+ "RemoveFromListText": [
+  "Press and hold user to delete."
+ ],
+ "RemovePhotoForRestDescription": [
+  "Are you sure you want to delete your public photo?"
+ ],
+ "RemovePublicPhoto": [
+  "Remove Public Photo"
+ ],
+ "RepeatDisabled": [
+  "Off"
+ ],
+ "RepeatNotifications": [
+  "Repeat Notifications"
+ ],
+ "RepeatNotificationsNever": [
+  "Never"
+ ],
+ "RequireMonthlyFeePriceHintTest5Minutes": [
+  "Stars Amount per 5 minutes"
+ ],
+ "RequireMonthlyFeePriceTest5Minutes": [
+  "~%s/5min"
+ ],
+ "ResendCode": [
+  "Resend Code"
+ ],
+ "ResendCodeInfo": [
+  "The verification code was sent to your email."
+ ],
+ "Reset": [
+  "Reset"
+ ],
+ "ResetAllNotifications": [
+  "Reset All Notifications"
+ ],
+ "ResetAutomaticMediaDownload": [
+  "Reset Auto-Download Settings"
+ ],
+ "ResetAutomaticMediaDownloadAlert": [
+  "Are you sure you want to reset auto-download settings?"
+ ],
+ "ResetAutomaticMediaDownloadAlertTitle": [
+  "Reset settings"
+ ],
+ "ResetChatBackgrounds": [
+  "Reset Chat Wallpapers"
+ ],
+ "ResetChatBackgroundsAlert": [
+  "Are you sure you want to reset all chat wallpapers?"
+ ],
+ "ResetChatBackgroundsAlertTitle": [
+  "Reset chat wallpapers"
+ ],
+ "ResetChatBackgroundsInfo": [
+  "Remove all uploaded wallpapers and restore the pre-installed ones."
+ ],
+ "ResetCustomNotifications": [
+  "Reset to default settings"
+ ],
+ "ResetCustomNotificationsAlert": [
+  "Are you sure you want to reset notification settings to default?"
+ ],
+ "ResetCustomNotificationsAlertTitle": [
+  "Reset notifications"
+ ],
+ "ResetMyAccount": [
+  "RESET MY ACCOUNT"
+ ],
+ "ResetMyAccountText": [
+  "You will lose all your Telegram chats, messages, media and files if you proceed with resetting your account."
+ ],
+ "ResetNotificationsAlert": [
+  "Are you sure you want to reset all notification settings to default?"
+ ],
+ "ResetNotificationsText": [
+  "All notification settings reset to default"
+ ],
+ "ResetPassword": [
+  "Reset password"
+ ],
+ "ResetPasswordWait": [
+  "You recently requested a password reset that was canceled. Please wait %1$s before making a new request."
+ ],
+ "ResetStatistics": [
+  "Reset Statistics"
+ ],
+ "ResetStatisticsAlert": [
+  "Do you want to reset your usage statistics?"
+ ],
+ "ResetStatisticsAlertTitle": [
+  "Reset statistics"
+ ],
+ "Restore": [
+  "Restore"
+ ],
+ "RestorePasswordNoEmailText2": [
+  "Since you didn’t provide a recovery email when setting up your password, your remaining options are either to remember your password or wait 7 days until your password is reset."
+ ],
+ "RestorePasswordResetIn": [
+  "You can reset your password in %1$s."
+ ],
+ "RestorePasswordResetPasswordOk": [
+  "Your 2-Step Verification password was reset."
+ ],
+ "RestorePasswordResetPasswordText": [
+  "Are you sure you want to reset your 2-Step Verification password?"
+ ],
+ "RoundVideoGeneral": [
+  "Recorder"
+ ],
+ "SETTINGS": [
+  "Settings"
+ ],
+ "Save": [
+  "Save"
+ ],
+ "SaveChangesAlertText": [
+  "Do you want to apply the new colors you chose?"
+ ],
+ "SaveChangesAlertTitle": [
+  "Save changes?"
+ ],
+ "SaveException": [
+  "Save exception"
+ ],
+ "SaveTheme": [
+  "SAVE THEME"
+ ],
+ "SaveToGallery": [
+  "Save to Gallery"
+ ],
+ "SaveToGalleryChannels": [
+  "Channels"
+ ],
+ "SaveToGalleryException": [
+  "Exception"
+ ],
+ "SaveToGalleryGroups": [
+  "Groups"
+ ],
+ "SaveToGalleryHintChannels": [
+  "Automatically save all new media from channels to your phone's gallery."
+ ],
+ "SaveToGalleryHintCurrent": [
+  "Automatically save all new media from this chat to your phone's gallery."
+ ],
+ "SaveToGalleryHintGroup": [
+  "Automatically save all new media from groups to your phone's gallery."
+ ],
+ "SaveToGalleryHintUser": [
+  "Automatically save all new media from private chats to your phone's gallery."
+ ],
+ "SaveToGalleryOff": [
+  "Off"
+ ],
+ "SaveToGalleryPhotos": [
+  "Photos"
+ ],
+ "SaveToGalleryPrivate": [
+  "Private Chats"
+ ],
+ "SaveToGallerySettings": [
+  "Save to Gallery"
+ ],
+ "SaveToGalleryVideoHintChannels": [
+  "All videos in channels that are smaller than the selected size will be saved to your gallery."
+ ],
+ "SaveToGalleryVideoHintCurrent": [
+  "All videos from this chat that are smaller than the selected size will be saved to your gallery."
+ ],
+ "SaveToGalleryVideoHintGroup": [
+  "All videos in groups that are smaller than the selected size will be saved to your gallery."
+ ],
+ "SaveToGalleryVideoHintUser": [
+  "All videos in private chats that are smaller than the selected size will be saved to your gallery."
+ ],
+ "SaveToGalleryVideos": [
+  "Videos"
+ ],
+ "SaveToGalleryVideosUpTo": [
+  "Videos up to %s"
+ ],
+ "SavedGifsLimitSubtitle": [
+  "Save up to %d GIFs in your Favorite GIFs"
+ ],
+ "SavedGifsLimitTitle": [
+  "Saved GIFs"
+ ],
+ "ScreenCaptureAlert": [
+  "This will hide the contents of your chats or chat list from the task switcher, but you will not be able to take screenshots on Telegram.You may need to restart the app for this to take effect."
+ ],
+ "ScreenCaptureHeader": [
+  "App Content in Task Switcher"
+ ],
+ "ScreenCaptureInfo": [
+  "If disabled, chat content will be hidden in the task switcher but you won't be able to take screenshots in the app."
+ ],
+ "ScreenCaptureShowContent": [
+  "Show Content"
+ ],
+ "SdCard": [
+  "SD Card"
+ ],
+ "SdCardAlert": [
+  "Storing on SD card will make Telegram slow. Proceed anyway?"
+ ],
+ "Search": [
+  "Search"
+ ],
+ "SearchBackgrounds": [
+  "Search for images"
+ ],
+ "SearchByColor": [
+  "Search by color"
+ ],
+ "SearchEngine": [
+  "Search Engine"
+ ],
+ "SearchForPeople": [
+  "Search for people..."
+ ],
+ "SearchForPeopleAndGroups": [
+  "Search for users and groups..."
+ ],
+ "SearchInSettings": [
+  "Search Settings and FAQ"
+ ],
+ "SecretChat": [
+  "Secret Chats"
+ ],
+ "SecretWebPage": [
+  "Link Previews"
+ ],
+ "SecretWebPageInfo": [
+  "Link previews will be generated on Telegram servers. We do not store any data about the links you send."
+ ],
+ "SecurityTitle": [
+  "Security"
+ ],
+ "Select": [
+  "Select"
+ ],
+ "SelectAll": [
+  "Select All"
+ ],
+ "SelectChats": [
+  "Select Chats"
+ ],
+ "SelectColor": [
+  "Select color"
+ ],
+ "SelectColorTitle": [
+  "Select a Color"
+ ],
+ "SelectContacts": [
+  "Select Contacts"
+ ],
+ "SelectFromGallery": [
+  "Select from Gallery"
+ ],
+ "SendAGift": [
+  "Send a Gift"
+ ],
+ "SendByEnter": [
+  "Send with Enter"
+ ],
+ "SessionsInfo": [
+  "Manage your sessions on all your devices."
+ ],
+ "SessionsListInfo": [
+  "The official Telegram app is available for Android, iPhone, iPad, Windows, macOS and Linux."
+ ],
+ "SessionsSelfDestruct": [
+  "Sessions self-destruct"
+ ],
+ "SessionsTitle": [
+  "Devices"
+ ],
+ "Set": [
+  "Set"
+ ],
+ "SetAdditionalPassword": [
+  "Set Additional Password"
+ ],
+ "SetAdditionalPasswordInfo": [
+  "You can set a password that will be required when you log in on a new device in addition to the code you get via SMS."
+ ],
+ "SetAsMain": [
+  "Set as Main"
+ ],
+ "SetBackground": [
+  "SET WALLPAPER"
+ ],
+ "SetColor": [
+  "Set a color"
+ ],
+ "SetPasscode": [
+  "Set a Passcode"
+ ],
+ "SetPasscodeInfo": [
+  "Lock the app with a passcode so that others can't open it."
+ ],
+ "SetPhotoForRest": [
+  "Set Public Photo"
+ ],
+ "SetProfilePhoto": [
+  "Set Profile Photo"
+ ],
+ "SetRecoveryEmail": [
+  "Set Recovery Email"
+ ],
+ "SetUrlAvailable": [
+  "%1$s is available."
+ ],
+ "SetUrlChecking": [
+  "Checking link..."
+ ],
+ "SetUrlInUse": [
+  "Sorry, this link is already taken."
+ ],
+ "SetUrlInvalid": [
+  "Sorry, this link is invalid."
+ ],
+ "SetUrlInvalidLong": [
+  "The link must not exceed 64 characters."
+ ],
+ "SetUrlInvalidShort": [
+  "A link must have at least 5 characters."
+ ],
+ "SetUrlInvalidStartNumber": [
+  "Sorry, the link can't start with a number."
+ ],
+ "SetUrlPlaceholder": [
+  "Link"
+ ],
+ "Settings": [
+  "Settings"
+ ],
+ "SettingsAccount": [
+  "Account"
+ ],
+ "SettingsAccountInfo": [
+  "Number, Username, Bio"
+ ],
+ "SettingsAccounts": [
+  "Accounts"
+ ],
+ "SettingsBrowseThemes": [
+  "Browse Themes"
+ ],
+ "SettingsChat": [
+  "Chat Settings"
+ ],
+ "SettingsChatInfo": [
+  "Wallpaper, Night Mode, Animations"
+ ],
+ "SettingsData": [
+  "Data and Storage"
+ ],
+ "SettingsDataInfo": [
+  "Media download settings"
+ ],
+ "SettingsDebug": [
+  "Debug"
+ ],
+ "SettingsDevices": [
+  "Devices"
+ ],
+ "SettingsDevicesInfo": [
+  "Manage connected devices"
+ ],
+ "SettingsFaqSearchTitle": [
+  "Frequently asked questions"
+ ],
+ "SettingsFolders": [
+  "Chat Folders"
+ ],
+ "SettingsFoldersInfo": [
+  "Sort chats into folders"
+ ],
+ "SettingsHelp": [
+  "Help"
+ ],
+ "SettingsLanguage": [
+  "Language"
+ ],
+ "SettingsNoRecent": [
+  "No recent searches"
+ ],
+ "SettingsNoResults": [
+  "No results found"
+ ],
+ "SettingsNotifications": [
+  "Notifications"
+ ],
+ "SettingsNotificationsInfo": [
+  "Sounds, Calls, Badges"
+ ],
+ "SettingsPowerSaving": [
+  "Power Saving"
+ ],
+ "SettingsPowerSavingInfo": [
+  "Reduce power usage on low charge"
+ ],
+ "SettingsPrivacySecurity": [
+  "Privacy & Security"
+ ],
+ "SettingsPrivacySecurityInfo": [
+  "Last Seen, Devices, Passkeys"
+ ],
+ "SettingsRecent": [
+  "Recent searches"
+ ],
+ "SettingsSearchFaq": [
+  "FAQ"
+ ],
+ "SettingsSwitchToDayMode": [
+  "Switch to Day Mode"
+ ],
+ "SettingsSwitchToNightMode": [
+  "Switch to Night Mode"
+ ],
+ "ShareFile": [
+  "Share"
+ ],
+ "ShareLinks": [
+  "Share Links"
+ ],
+ "ShareQrCode": [
+  "Share QR Code"
+ ],
+ "ShowAllThemes": [
+  "Show all Themes"
+ ],
+ "ShowMoreEmojiPacks": [
+  "Show More Emoji"
+ ],
+ "ShowMoreStickers": [
+  "Show More Stickers"
+ ],
+ "ShowNotificationsFor": [
+  "Show notifications from"
+ ],
+ "ShowNotificationsForInfo": [
+  "Turn this off if you want to receive notifications only from the account you are currently using."
+ ],
+ "ShowSensitiveContent": [
+  "Show 18+ Content"
+ ],
+ "ShowSensitiveContentInfo": [
+  "Do not hide media that contains content suitable only for adults"
+ ],
+ "ShowTranslateButton": [
+  "Show Translate Button"
+ ],
+ "ShowTranslateChatButton": [
+  "Translate Entire Chats"
+ ],
+ "SimilarChannelsLimitSubtitle": [
+  "View up to %d similar channels"
+ ],
+ "SimilarChannelsLimitTitle": [
+  "Similar Channels"
+ ],
+ "SmartNotifications": [
+  "Smart Notifications"
+ ],
+ "SmartNotificationsAlert": [
+  "Sound Alert Frequency"
+ ],
+ "SmartNotificationsDetail": [
+  "%1$s within %2$s"
+ ],
+ "SmartNotificationsDisabled": [
+  "Disable"
+ ],
+ "SmartNotificationsInfo": [
+  "%1$d / %2$s"
+ ],
+ "Sound": [
+  "Sound"
+ ],
+ "SoundDefault": [
+  "Default"
+ ],
+ "SoundNameEmpty": [
+  "Message dated %s"
+ ],
+ "Stars": [
+  "%d Star",
+  "%d Stars"
+ ],
+ "StatisticsAndBoosts": [
+  "Statistics"
+ ],
+ "StickerSets": [
+  "%1$s sticker set",
+  "%1$s sticker sets"
+ ],
+ "Stickers": [
+  "%1$d sticker",
+  "%1$d stickers"
+ ],
+ "StickersAndMasks": [
+  "Stickers and Masks"
+ ],
+ "StickersArchived": [
+  "Stickers archived."
+ ],
+ "StickersArchivedInfo": [
+  "%1$s has been moved to your archive."
+ ],
+ "StickersBotInfo": [
+  "Artists are welcome to add their own sticker sets using our @stickers bot."
+ ],
+ "StickersCopy": [
+  "Copy link"
+ ],
+ "StickersHide": [
+  "Archive"
+ ],
+ "StickersName": [
+  "Stickers and Emoji"
+ ],
+ "StickersNameInfo": [
+  "Manage your sticker sets, emoji and reactions."
+ ],
+ "StickersNameInfo2": [
+  "Manage stickers, emoji and reactions"
+ ],
+ "StickersRemove": [
+  "Remove"
+ ],
+ "StickersRemoved": [
+  "Stickers removed"
+ ],
+ "StickersRemovedInfo": [
+  "%1$s is no longer in your stickers."
+ ],
+ "StickersReorder": [
+  "Reorder"
+ ],
+ "StickersReorderHint": [
+  "Drag stickers to reorder your sets."
+ ],
+ "StickersSettings": [
+  "Settings"
+ ],
+ "StickersShare": [
+  "Share"
+ ],
+ "StorageCleared": [
+  "Storage Cleared"
+ ],
+ "StorageCleared2": [
+  "All media can be re-downloaded from the Telegram cloud if you need them again."
+ ],
+ "StoragePath": [
+  "Storage Path"
+ ],
+ "StoragePathFree": [
+  "%1$s free"
+ ],
+ "StoragePathFreeExternal": [
+  "%1$s free, slow speed"
+ ],
+ "StoragePathFreeInternal": [
+  "%1$s free, high speed"
+ ],
+ "StorageUsage": [
+  "Storage Usage"
+ ],
+ "StorageUsageCalculating": [
+  "Calculating cache size..."
+ ],
+ "StorageUsageInfo": [
+  "All media will stay in the Telegram cloud and can be re-downloaded if you need them again."
+ ],
+ "StorageUsageTelegram": [
+  "Telegram uses %s of your device storage."
+ ],
+ "StorageUsageTelegramLess": [
+  "Telegram uses %s of your device storage."
+ ],
+ "StoryAutoExceptions": [
+  "Automatic Exceptions"
+ ],
+ "StoryAutoExceptionsInfo": [
+  "Automatically enable story notifications from the 5 users you contact most frequently."
+ ],
+ "Streaming": [
+  "Streaming"
+ ],
+ "SubscribeToPremium": [
+  "Subscribe for %s per month"
+ ],
+ "SubscribeToPremiumNoPrice": [
+  "Subscribe"
+ ],
+ "SubscribeToPremiumNotAvailable": [
+  "Subscription not available"
+ ],
+ "SubscribeToPremiumOfficialAppNeeded": [
+  "**Official app needed**"
+ ],
+ "SubscribeToPremiumOfficialAppNeededDescription": [
+  "You need an official Telegram app to subscribe to **Telegram Premium**.Once subscribed, you will be able to use the benefits of Telegram Premium in any apps that support it, including unofficial ones."
+ ],
+ "SuggestContacts": [
+  "Suggest Frequent Contacts"
+ ],
+ "SuggestContactsAlert": [
+  "This will delete all data about the people you message frequently as well as the inline bots you are likely to use."
+ ],
+ "SuggestContactsInfo": [
+  "Display people you message frequently at the top of the search section for quick access."
+ ],
+ "SuggestStickers": [
+  "Suggest stickers by emoji"
+ ],
+ "SuggestStickersAll": [
+  "All Sets"
+ ],
+ "SuggestStickersInstalled": [
+  "My Sets"
+ ],
+ "SuggestStickersNone": [
+  "None"
+ ],
+ "Support": [
+  "Support"
+ ],
+ "SwipeSettingsArchive": [
+  "Archive"
+ ],
+ "SwipeSettingsDelete": [
+  "Delete"
+ ],
+ "SwipeSettingsFolders": [
+  "Change Folder"
+ ],
+ "SwipeSettingsMute": [
+  "Mute"
+ ],
+ "SwipeSettingsPin": [
+  "Pin"
+ ],
+ "SwipeSettingsRead": [
+  "Read"
+ ],
+ "SyncContacts": [
+  "Sync Contacts"
+ ],
+ "SyncContactsAdded": [
+  "Contacts from this device were added to your account."
+ ],
+ "SyncContactsDelete": [
+  "Delete Synced Contacts"
+ ],
+ "SyncContactsDeleteInfo": [
+  "This will remove your contacts from the Telegram servers. If 'Sync Contacts' is enabled, contacts will be re-synced."
+ ],
+ "SyncContactsInfoOn": [
+  "Contacts from this device will be added to your account."
+ ],
+ "SystemTones": [
+  "System tones"
+ ],
+ "TapToChange": [
+  "Tap to change"
+ ],
+ "TapToChangePhone": [
+  "Tap to change phone number"
+ ],
+ "Teal": [
+  "Teal"
+ ],
+ "TelegramCacheSize": [
+  "%s Telegram Cache"
+ ],
+ "TelegramFAQ": [
+  "Telegram FAQ"
+ ],
+ "TelegramFaq": [
+  "Telegram FAQ"
+ ],
+ "TelegramFaqUrl": [
+  "https://telegram.org/faq"
+ ],
+ "TelegramPassport": [
+  "Telegram Passport"
+ ],
+ "TelegramPremium": [
+  "Telegram Premium"
+ ],
+ "TelegramPremiumSubscribedSubtitle": [
+  "Thank you for subscribing to **Telegram Premium**.Here’s what is now unlocked."
+ ],
+ "TelegramPremiumSubtitle": [
+  "Go **beyond the limits** and **unlock dozens of exclusive** features by subscribing to **Telegram Premium**."
+ ],
+ "TelegramPremiumUserDialogSubtitle": [
+  "Owners of **Telegram Premium** accounts have exclusive access to multiple additional features."
+ ],
+ "TelegramPremiumUserDialogTitle": [
+  "**%s** is a subscriber of Telegram Premium."
+ ],
+ "TelegramPremiumUserStatusDefaultDialogTitle": [
+  "This is %1$s's current status."
+ ],
+ "TelegramTones": [
+  "Telegram tones"
+ ],
+ "TelegramVersion": [
+  "Telegram for Android %1$s"
+ ],
+ "TerminateAllSessions": [
+  "Terminate All Other Sessions"
+ ],
+ "TerminateAllWebSessions": [
+  "Disconnect All Websites"
+ ],
+ "TerminateOldSessionHeader": [
+  "Automatically terminate old sessions"
+ ],
+ "TerminateSession": [
+  "Terminate Session"
+ ],
+ "TerminateSessionQuestion": [
+  "Terminate this session?"
+ ],
+ "TerminateWebSessionInfo": [
+  "Tap to disconnect from your Telegram account."
+ ],
+ "TerminateWebSessionQuestion": [
+  "Disconnect %1$s?"
+ ],
+ "TerminateWebSessionStop": [
+  "Block %1$s"
+ ],
+ "TerminateWebSessionsTitle": [
+  "Disconnect websites"
+ ],
+ "TextSizeHeader": [
+  "Message text size"
+ ],
+ "Theme": [
+  "Theme"
+ ],
+ "ThemeArcticBlue": [
+  "Arctic"
+ ],
+ "ThemeClassic": [
+  "Classic"
+ ],
+ "ThemeCreateHelp2": [
+  "You can change the link of your theme.Theme links must be longer than 5 characters and can use a-z, 0-9 and underscores."
+ ],
+ "ThemeDark": [
+  "Dark"
+ ],
+ "ThemeDarkBlue": [
+  "Dark Blue"
+ ],
+ "ThemeDay": [
+  "Day"
+ ],
+ "ThemeGraphite": [
+  "Graphite"
+ ],
+ "ThemeHelpLink": [
+  "Your theme will be updated for all users each time you change it. Anyone can install it using this link:%1$s"
+ ],
+ "ThemeInstallCount": [
+  "%1$d person is using this theme",
+  "%1$d people are using this theme"
+ ],
+ "ThemeNamePlaceholder": [
+  "Name"
+ ],
+ "ThemeNight": [
+  "Night"
+ ],
+ "ThemePreview": [
+  "Theme Preview"
+ ],
+ "ThemePreviewDialog1": [
+  "Eva Summer"
+ ],
+ "ThemePreviewDialog2": [
+  "Your inner Competition"
+ ],
+ "ThemePreviewDialog3": [
+  "Mike Apple"
+ ],
+ "ThemePreviewDialog4": [
+  "Paul Newman"
+ ],
+ "ThemePreviewDialog5": [
+  "Old Pirates"
+ ],
+ "ThemePreviewDialog6": [
+  "Kate Bright"
+ ],
+ "ThemePreviewDialog7": [
+  "Nick K"
+ ],
+ "ThemePreviewDialog8": [
+  "Adler Toberg"
+ ],
+ "ThemePreviewDialogMessage1": [
+  "Reminds me of a Chinese prove..."
+ ],
+ "ThemePreviewDialogMessage2": [
+  "hey, I've updated the source code."
+ ],
+ "ThemePreviewDialogMessage3": [
+  "🤷‍♂️ Sticker"
+ ],
+ "ThemePreviewDialogMessage4": [
+  "Any ideas?"
+ ],
+ "ThemePreviewDialogMessage5": [
+  "Yo-ho-ho!"
+ ],
+ "ThemePreviewDialogMessage6": [
+  "Hola!"
+ ],
+ "ThemePreviewDialogMessage7": [
+  "These are not the droids you are looking for."
+ ],
+ "ThemePreviewDialogMessage8": [
+  "Did someone say peanut butter?"
+ ],
+ "ThemePreviewLine1": [
+  "Reinhardt, we need to find you some new tunes 🎶."
+ ],
+ "ThemePreviewLine2": [
+  "I can't even take you seriously right now."
+ ],
+ "ThemePreviewLine3": [
+  "Ah, you kids today with techno music! You should enjoy the classics, like Hasselhoff!"
+ ],
+ "ThemePreviewLine3Reply": [
+  "Lucio"
+ ],
+ "ThemePreviewLine4": [
+  "Bring it on! I LIVE for this!"
+ ],
+ "ThemePreviewSongPerformer": [
+  "David Hasselhoff"
+ ],
+ "ThemePreviewSongTitle": [
+  "True Survivor"
+ ],
+ "ThemeResetToDefaults": [
+  "Reset to default"
+ ],
+ "ThemeResetToDefaultsText": [
+  "Are you sure you want to reset text size and color settings?"
+ ],
+ "ThemeResetToDefaultsTitle": [
+  "Reset settings"
+ ],
+ "ThemeSetUrl": [
+  "Set link"
+ ],
+ "ThemeSetUrlHelp": [
+  "You can use a-z, 0-9 and underscores.Minimum length is 5 characters."
+ ],
+ "ThemeUrl": [
+  "Theme Link"
+ ],
+ "Times": [
+  "%1$d time",
+  "%1$d times"
+ ],
+ "TotalDataUsage": [
+  "Total"
+ ],
+ "TotalDeviceFreeSize": [
+  "%s Free"
+ ],
+ "TotalDeviceSize": [
+  "%s Other Apps"
+ ],
+ "TotalNetworkUsage": [
+  "Total network usage"
+ ],
+ "TranslateMessages": [
+  "Translate Messages"
+ ],
+ "TranslateMessagesInfo1": [
+  "The ‘Translate’ button will appear when you make a single tap on a text message."
+ ],
+ "TranslateMessagesInfo2": [
+  "Google may have access to the text of messages you translate."
+ ],
+ "TurnPasswordOff": [
+  "Disable Password"
+ ],
+ "TurnPasswordOffQuestion": [
+  "Are you sure you want to disable your password?"
+ ],
+ "TurnPasswordOffQuestionTitle": [
+  "Disable password"
+ ],
+ "TwoStepVerification": [
+  "Two-Step Verification"
+ ],
+ "TwoStepVerificationPasswordReturnSettings": [
+  "Return to Settings"
+ ],
+ "TwoStepVerificationPasswordSet": [
+  "Password Set!"
+ ],
+ "TwoStepVerificationPasswordSetInfo": [
+  "This password will be required when you log in on a new device in addition to the code you get in the SMS."
+ ],
+ "TwoStepVerificationTitle": [
+  "Two-Step Verification"
+ ],
+ "TypePrivateGroupRestrictedForwards": [
+  "Private restricted"
+ ],
+ "Unavailable": [
+  "Unavailable"
+ ],
+ "Unblock": [
+  "Unblock user"
+ ],
+ "UnblockText": [
+  "Press and hold user to unblock."
+ ],
+ "UndoAllCustom": [
+  "Undo all custom notification settings for your contacts, groups and channels."
+ ],
+ "UnlockFingerprint": [
+  "Unlock with Fingerprint"
+ ],
+ "UnlockPremiumIcons": [
+  "Unlock Premium Icons"
+ ],
+ "UnofficialApp": [
+  "unofficial app"
+ ],
+ "UnsavedChanges": [
+  "Unsaved Changes"
+ ],
+ "UnsavedChangesMessage": [
+  "You have changed the settings of this invite link. Apply changes?"
+ ],
+ "UpToFileSize": [
+  "Up to %s"
+ ],
+ "UpdatePhotoForRest": [
+  "Update Public Photo"
+ ],
+ "UploadSound": [
+  "Upload sound"
+ ],
+ "UseLessDataAlways": [
+  "Always"
+ ],
+ "UseLessDataNever": [
+  "Never"
+ ],
+ "UseLessDataOnMobile": [
+  "Only on mobile data"
+ ],
+ "UseLessDataOnRoaming": [
+  "Only while roaming"
+ ],
+ "UseProxyAddress": [
+  "Server"
+ ],
+ "UseProxyForCalls": [
+  "Use Proxy for Calls"
+ ],
+ "UseProxyForCallsInfo": [
+  "Proxy servers may degrade the quality of your calls."
+ ],
+ "UseProxyInfo": [
+  "SOCKS5 proxy settings."
+ ],
+ "UseProxyPassword": [
+  "Password"
+ ],
+ "UseProxyPort": [
+  "Port"
+ ],
+ "UseProxyRotation": [
+  "Auto-switch proxies"
+ ],
+ "UseProxySecret": [
+  "Secret"
+ ],
+ "UseProxySettings": [
+  "Use Proxy"
+ ],
+ "UseProxySocks5": [
+  "SOCKS5 Proxy"
+ ],
+ "UseProxyTelegram": [
+  "MTProto Proxy"
+ ],
+ "UseProxyTelegramInfo": [
+  "MTProto proxy settings."
+ ],
+ "UseProxyTelegramInfo2": [
+  "This proxy may display a sponsored channel in your chat list. This doesn't reveal any of your Telegram traffic."
+ ],
+ "UseProxyUsername": [
+  "Username"
+ ],
+ "UseProxyWeb": [
+  "WEB Proxy"
+ ],
+ "UseProxyWebInfo": [
+  "WEB proxy uses an HTTPS page inside a private WebView. Enter a hostname without a scheme or path and a 16-byte MTProxy secret. This proof of concept requires a current Android System WebView and is intended for foreground testing."
+ ],
+ "UserBio": [
+  "Bio"
+ ],
+ "UserBioDetail": [
+  "Add a few words about yourself"
+ ],
+ "UserColorApplied": [
+  "Your name color has been updated!"
+ ],
+ "UserColorApplyIcon": [
+  "Apply Color and Icon"
+ ],
+ "UserColorApplyPremium": [
+  "Subscribe to **Telegram Premium** to choose a custom color for your name."
+ ],
+ "UserColorHint": [
+  "This color will be used for your name, the links you send, and replies to your messages."
+ ],
+ "UserColorPreview": [
+  "Your name and replies to your messages will be shown in the selected color."
+ ],
+ "UserColorPreviewLinkDescription": [
+  "Previews of links you send will also use this color."
+ ],
+ "UserColorPreviewLinkTitle": [
+  "Link Preview"
+ ],
+ "UserColorPreviewReply": [
+  "Reply to your message"
+ ],
+ "UserColorPreviewTitle": [
+  "Color Preview"
+ ],
+ "UserColorTitle": [
+  "Your Name Color"
+ ],
+ "UserColorUnsaved": [
+  "Unsaved Changes"
+ ],
+ "UserColorUnsavedMessage": [
+  "You have changed your color or icon settings. Apply changes?"
+ ],
+ "UserReplyIcon": [
+  "Add Icons to Replies"
+ ],
+ "UserReplyIconHint": [
+  "Make replies to your messages stand out by adding custom icons to them."
+ ],
+ "UserReplyIconOff": [
+  "Off"
+ ],
+ "UserRestrictionsApplyChanges": [
+  "Unsaved Changes"
+ ],
+ "UserRestrictionsNoSendDocs": [
+  "no files"
+ ],
+ "UserRestrictionsNoSendMusic": [
+  "no music"
+ ],
+ "UserRestrictionsNoSendPhotos": [
+  "no photos"
+ ],
+ "UserRestrictionsNoSendRound": [
+  "no video messages"
+ ],
+ "UserRestrictionsNoSendVideos": [
+  "no videos"
+ ],
+ "UserRestrictionsNoSendVoice": [
+  "no voice"
+ ],
+ "Username": [
+  "Username"
+ ],
+ "UsernameAvailable": [
+  "%1$s is available."
+ ],
+ "UsernameChecking": [
+  "Checking username..."
+ ],
+ "UsernameEmpty": [
+  "None"
+ ],
+ "UsernameHelp": [
+  "You can choose a username on **Telegram**. If you do, people will be able to find you by this username and contact you without needing your phone number.You can use **a–z**, **0–9** and underscores. Minimum length is **5** characters."
+ ],
+ "UsernameHelpLink": [
+  "This link opens a chat with you:%1$s"
+ ],
+ "UsernameInUse": [
+  "This username is already taken."
+ ],
+ "UsernameInvalid": [
+  "This username is invalid."
+ ],
+ "UsernameInvalidLong": [
+  "Username can't exceed 32 characters."
+ ],
+ "UsernameInvalidShort": [
+  "Usernames must have at least 5 characters."
+ ],
+ "UsernameInvalidStartNumber": [
+  "Usernames can't start with a number."
+ ],
+ "UsernamePlaceholder": [
+  "Your Username"
+ ],
+ "Users": [
+  "%1$d user",
+  "%1$d users"
+ ],
+ "VerificationCode": [
+  "Verification Code"
+ ],
+ "Vibrate": [
+  "Vibrate"
+ ],
+ "VibrationDefault": [
+  "Default"
+ ],
+ "ViewExceptions": [
+  "View Exceptions"
+ ],
+ "VoipNeedMicCameraPermissionWithHint": [
+  "**Telegram** needs camera and microphone access so that you can make video calls. Tap Settings > Permissions, and turn **Microphone** and **Camera** on."
+ ],
+ "VoipNeedMicPermissionWithHint": [
+  "**Telegram** needs microphone access so that you can make calls. Tap Settings > Permissions, and turn **Microphone** on."
+ ],
+ "VoipNoiseCancellation": [
+  "Noise suppression"
+ ],
+ "VoipNotificationSettings": [
+  "Calls"
+ ],
+ "VoipQuickReplies": [
+  "Respond with Text"
+ ],
+ "VoipQuickRepliesExplain": [
+  "These options can be used as quick responses to incoming calls. Change them to say anything you like."
+ ],
+ "VoipRingtoneInfo": [
+  "You can customize the ringtone used when this contact calls you on Telegram."
+ ],
+ "VoipSettingsRingtone": [
+  "Ringtone"
+ ],
+ "VoipUseLessData": [
+  "Use Less Data for Calls"
+ ],
+ "WalletAttachMoney": [
+  "Money"
+ ],
+ "WalletConfirmWithFingerprint": [
+  "Confirm with Fingerprint"
+ ],
+ "WalletConfirmWithPasscode": [
+  "Confirm with Passcode"
+ ],
+ "WalletLock": [
+  "Lock Money"
+ ],
+ "WalletLockInfo": [
+  "Required when sending funds or confirming other sensitive actions."
+ ],
+ "WebBookmark": [
+  "Bookmark"
+ ],
+ "WebBookmarks": [
+  "Bookmarks"
+ ],
+ "WebBrowserExceptionsLimitMessage": [
+  "You have reached the maximum number of website exceptions. Please remove some existing ones to add new ones."
+ ],
+ "WebBrowserExceptionsLimitTitle": [
+  "Limit Reached"
+ ],
+ "WebEmpty": [
+  "Webpage"
+ ],
+ "WebHistory": [
+  "History"
+ ],
+ "WebSessionsTitle": [
+  "Logged In with Telegram"
+ ],
+ "Weeks": [
+  "%1$d week",
+  "%1$d weeks"
+ ],
+ "WhenConnectedOnWiFi": [
+  "When connected to Wi-Fi"
+ ],
+ "WhenRoaming": [
+  "When roaming"
+ ],
+ "WhenUsingMobileData": [
+  "When using mobile data"
+ ],
+ "White": [
+  "White"
+ ],
+ "WhoCanAddMe": [
+  "Who can add me?"
+ ],
+ "WhoCanAddMeInfo": [
+  "You can restrict who can add you to groups and channels with granular precision."
+ ],
+ "WhoCanCallMe": [
+  "Who can call me?"
+ ],
+ "WhoCanCallMeInfo": [
+  "Choose exactly who can and can't call you."
+ ],
+ "WidgetPasscode2": [
+  "Warning: Your widgets will show all recent messages, but your passcode will be required to open the app and reply."
+ ],
+ "WidgetPasscodeEnable": [
+  "​Your passcode **will not affect** widgets added to homescreen."
+ ],
+ "WidgetPreview": [
+  "Preview of the widget"
+ ],
+ "WidgetShortcuts": [
+  "Shortcuts"
+ ],
+ "WillUnmuteIn": [
+  "In %1$s"
+ ],
+ "Years": [
+  "%1$d year",
+  "%1$d years"
+ ],
+ "Yellow": [
+  "Yellow"
+ ],
+ "YourEmail": [
+  "Your email"
+ ],
+ "YourEmailAlmostThere": [
+  "Almost there!"
+ ],
+ "YourEmailAlmostThereText": [
+  "Please check your email (don't forget the spam folder) to complete Two-Step Verification setup."
+ ],
+ "YourEmailInfo": [
+  "Please add your valid email. It is the only way to recover a forgotten password."
+ ],
+ "YourEmailSkip": [
+  "Skip"
+ ],
+ "YourEmailSkipWarning": [
+  "Warning"
+ ],
+ "YourEmailSkipWarningText": [
+  "No, seriously.If you forget your password, you will lose access to your Telegram account. There will be no way to restore it."
+ ],
+ "YourEmailSuccessChangedText": [
+  "Your recovery email for Two-Step Verification has been changed."
+ ],
+ "YourEmailSuccessText": [
+  "Your recovery email for Two-Step Verification is now active."
+ ],
+ "YourNetworkUsageSince": [
+  "Your network usage since %1$s"
+ ],
+ "YourPassword": [
+  "Your Password"
+ ],
+ "YourPasswordHeader": [
+  "Your password"
+ ],
+ "YourPasswordRemember": [
+  "Your account is protected by 2-Step Verification.Do you still remember your password?"
+ ],
+ "YourPasswordRememberNo": [
+  "Not sure"
+ ],
+ "YourPasswordRememberYes": [
+  "Yes, definitely"
+ ],
+ "YourPasswordSuccess": [
+  "Success!"
+ ],
+ "YourPublicCommunities": [
+  "Your public communities"
+ ],
+ "formatterStats12H": [
+  "MMM dd yyyy, h:mm a"
+ ],
+ "formatterStats24H": [
+  "MMM dd yyyy, HH:mm"
+ ],
+ "telegram_passport": [
+  "Telegram Passport"
+ ]
+}

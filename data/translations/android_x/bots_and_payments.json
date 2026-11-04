@@ -1,0 +1,267 @@
+{
+ "Audio": [
+  "Audio"
+ ],
+ "BlockBot": [
+  "Block Bot"
+ ],
+ "BlockBotConfirm": [
+  "Are you sure you want to stop and block %1$s?"
+ ],
+ "BlockContact": [
+  "Block"
+ ],
+ "BlockedBot": [
+  "%1$s is now blocked."
+ ],
+ "Bot": [
+  "bot"
+ ],
+ "BotDataSent": [
+  "Data from the \"%1$s\" button was transferred to the bot"
+ ],
+ "BotDeleteHint": [
+  "Remove bot from suggestions?"
+ ],
+ "BotDescription": [
+  "Intro"
+ ],
+ "BotDescriptionEmpty": [
+  "Tap to set intro"
+ ],
+ "BotDescriptionHint": [
+  "**Warning**: this will update the default bot intro shown on the chat page for **all users**."
+ ],
+ "BotHelp": [
+  "Help"
+ ],
+ "BotInfo": [
+  "Description"
+ ],
+ "BotInvite": [
+  "Add to group"
+ ],
+ "BotIsDownSpecific": [
+  "%1$s is not responding. Please try again later."
+ ],
+ "BotName": [
+  "Name"
+ ],
+ "BotNotFound": [
+  "Bot %1$s not found"
+ ],
+ "BotSettings": [
+  "Settings"
+ ],
+ "BotStart": [
+  "START"
+ ],
+ "BotStatusCantRead": [
+  "has no access to messages"
+ ],
+ "BotStatusRead": [
+  "has access to messages"
+ ],
+ "BotUsername": [
+  "Bot Link"
+ ],
+ "BotWebsiteAllowed": [
+  "You allowed this bot to message you when you logged in on %1$s."
+ ],
+ "Cancel": [
+  "Cancel"
+ ],
+ "Confirm": [
+  "Confirm"
+ ],
+ "CreateQuiz": [
+  "New Quiz"
+ ],
+ "DeleteAndStop": [
+  "Delete and Block"
+ ],
+ "DeleteAndStopBotConfirm": [
+  "Are you sure you want to block %1$s and delete the chat with it? This action cannot be undone."
+ ],
+ "Description": [
+  "Description"
+ ],
+ "DescriptionEmptyHint": [
+  "Enter description here"
+ ],
+ "EditBot": [
+  "Edit Bot"
+ ],
+ "EditBotCommands": [
+  "Edit bot commands"
+ ],
+ "EditBotDescription": [
+  "Edit intro"
+ ],
+ "EditBotDescriptionMedia": [
+  "Edit intro media"
+ ],
+ "EditBotHint": [
+  "Use @BotFather to manage this bot."
+ ],
+ "EditBotInfo": [
+  "Edit description"
+ ],
+ "EditBotName": [
+  "Edit name"
+ ],
+ "EditBotSettings": [
+  "Change bot settings"
+ ],
+ "EditBotUsername": [
+  "Public Link"
+ ],
+ "EditBotUsernameHint": [
+  "You can't edit this username. You may acquire additional usernames on [Fragment](%1$s)."
+ ],
+ "InlineBot": [
+  "Inline Bot"
+ ],
+ "Mute": [
+  "Mute"
+ ],
+ "NoBotsChats": [
+  "No chats with bots"
+ ],
+ "NoMediaToShow": [
+  "No media to show"
+ ],
+ "Notifications": [
+  "Notifications"
+ ],
+ "OK": [
+  "OK"
+ ],
+ "OpenInExternalApp": [
+  "Open in…"
+ ],
+ "PaymentSuccessfullyPaid": [
+  "You successfully transferred %1$s to %2$s for %3$s"
+ ],
+ "PaymentSuccessfullyPaidNoItem": [
+  "You successfully transferred %1$s to %2$s"
+ ],
+ "PollSettingQuiz": [
+  "Quiz Mode"
+ ],
+ "QuizDiscard": [
+  "Discard Quiz"
+ ],
+ "QuizDiscardPrompt": [
+  "Are you sure you want to discard this quiz?"
+ ],
+ "QuizExplanation": [
+  "Explanation"
+ ],
+ "QuizExplanationEmpty": [
+  "Add an explanation"
+ ],
+ "QuizExplanationInfo": [
+  "Quiz participants will see this text after choosing the wrong option (good for educational purposes)."
+ ],
+ "RemoveBotPhoto": [
+  "Remove Bot Photo"
+ ],
+ "RenameBot": [
+  "Edit bot name"
+ ],
+ "RenameBotHint": [
+  "**Warning**: this will update the default bot name for **all users**."
+ ],
+ "Report": [
+  "Report"
+ ],
+ "RestartBot": [
+  "Restart"
+ ],
+ "RestrictSavingBotInfo": [
+  "Copying or forwarding messages from this bot is restricted."
+ ],
+ "Search": [
+  "Search"
+ ],
+ "SecretChatContextBotAlert": [
+  "Please note that inline bots are provided by third-party developers. For the bot to work, the symbols you type after the bot's username are sent to the respective developer."
+ ],
+ "Share": [
+  "Share"
+ ],
+ "ShareBtnBot": [
+  "Share Bot"
+ ],
+ "ShareMyContactInfo": [
+  "Share my contact"
+ ],
+ "ShareYouLocationInfo": [
+  "This will send your current location to the bot."
+ ],
+ "ShareYouLocationInline": [
+  "This bot would like to know your location each time you send it a request. This can be used to provide location-specific results."
+ ],
+ "ShareYourLocation": [
+  "Share your location?"
+ ],
+ "ShareYourPhoneNumberDesc": [
+  "%1$s will know your phone number.This can be useful for integration with other services."
+ ],
+ "ShareYourPhoneNumberTitle": [
+  "Share your phone number?"
+ ],
+ "SimilarBots": [
+  "Similar Bots"
+ ],
+ "TabSimilarBots": [
+  "Similar"
+ ],
+ "TransferOwnershipAlertBotName": [
+  "Are you really sure you want to transfer ownership of **%1$s** to **%2$s**?This operation is **irreversible**, so check again if the user you want to transfer the bot is the right person."
+ ],
+ "Unblock": [
+  "Unblock"
+ ],
+ "UnblockBot": [
+  "Unblock"
+ ],
+ "UnblockedBot": [
+  "%1$s has been unblocked."
+ ],
+ "WhatThisBotCanDo": [
+  "What can this bot do?"
+ ],
+ "XCreatedGroup": [
+  "%1$s created the group"
+ ],
+ "game_ActionUserScored": [
+  "%2$s scored %1$s",
+  "%2$s scored %1$s"
+ ],
+ "game_ActionUserScoredInGame": [
+  "%2$s scored %1$s in %3$s",
+  "%2$s scored %1$s in %3$s"
+ ],
+ "game_ActionYouScored": [
+  "You scored %1$s",
+  "You scored %1$s"
+ ],
+ "game_ActionYouScoredInGame": [
+  "You scored %1$s in %2$s",
+  "You scored %1$s in %2$s"
+ ],
+ "xBotUsers": [
+  "%1$s monthly user",
+  "%1$s monthly users"
+ ],
+ "xGroups": [
+  "%1$s group",
+  "%1$s groups"
+ ],
+ "xSimilarBots": [
+  "%1$s similar bot",
+  "%1$s similar bots"
+ ]
+}

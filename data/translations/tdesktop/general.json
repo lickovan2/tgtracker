@@ -1,0 +1,7104 @@
+{
+ "cloud_lng_passport_in_ar": [
+  "Arabic"
+ ],
+ "cloud_lng_passport_in_az": [
+  "Azerbaijani"
+ ],
+ "cloud_lng_passport_in_bg": [
+  "Bulgarian"
+ ],
+ "cloud_lng_passport_in_bn": [
+  "Bangla"
+ ],
+ "cloud_lng_passport_in_cs": [
+  "Czech"
+ ],
+ "cloud_lng_passport_in_da": [
+  "Danish"
+ ],
+ "cloud_lng_passport_in_de": [
+  "German"
+ ],
+ "cloud_lng_passport_in_dv": [
+  "Divehi"
+ ],
+ "cloud_lng_passport_in_dz": [
+  "Dzongkha"
+ ],
+ "cloud_lng_passport_in_el": [
+  "Greek"
+ ],
+ "cloud_lng_passport_in_en": [
+  "English"
+ ],
+ "cloud_lng_passport_in_es": [
+  "Spanish"
+ ],
+ "cloud_lng_passport_in_et": [
+  "Estonian"
+ ],
+ "cloud_lng_passport_in_fa": [
+  "Persian"
+ ],
+ "cloud_lng_passport_in_fr": [
+  "French"
+ ],
+ "cloud_lng_passport_in_he": [
+  "Hebrew"
+ ],
+ "cloud_lng_passport_in_hr": [
+  "Croatian"
+ ],
+ "cloud_lng_passport_in_hu": [
+  "Hungarian"
+ ],
+ "cloud_lng_passport_in_hy": [
+  "Armenian"
+ ],
+ "cloud_lng_passport_in_id": [
+  "Indonesian"
+ ],
+ "cloud_lng_passport_in_is": [
+  "Icelandic"
+ ],
+ "cloud_lng_passport_in_it": [
+  "Italian"
+ ],
+ "cloud_lng_passport_in_ja": [
+  "Japanese"
+ ],
+ "cloud_lng_passport_in_ka": [
+  "Georgian"
+ ],
+ "cloud_lng_passport_in_km": [
+  "Khmer"
+ ],
+ "cloud_lng_passport_in_ko": [
+  "Korean"
+ ],
+ "cloud_lng_passport_in_lo": [
+  "Lao"
+ ],
+ "cloud_lng_passport_in_lt": [
+  "Lithuanian"
+ ],
+ "cloud_lng_passport_in_lv": [
+  "Latvian"
+ ],
+ "cloud_lng_passport_in_mk": [
+  "Macedonian"
+ ],
+ "cloud_lng_passport_in_mn": [
+  "Mongolian"
+ ],
+ "cloud_lng_passport_in_ms": [
+  "Malay"
+ ],
+ "cloud_lng_passport_in_my": [
+  "Burmese"
+ ],
+ "cloud_lng_passport_in_ne": [
+  "Nepali"
+ ],
+ "cloud_lng_passport_in_nl": [
+  "Dutch"
+ ],
+ "cloud_lng_passport_in_pl": [
+  "Polish"
+ ],
+ "cloud_lng_passport_in_pt": [
+  "Portuguese"
+ ],
+ "cloud_lng_passport_in_ro": [
+  "Romanian"
+ ],
+ "cloud_lng_passport_in_ru": [
+  "Russian"
+ ],
+ "cloud_lng_passport_in_sk": [
+  "Slovak"
+ ],
+ "cloud_lng_passport_in_sl": [
+  "Slovenian"
+ ],
+ "cloud_lng_passport_in_th": [
+  "Thai"
+ ],
+ "cloud_lng_passport_in_tk": [
+  "Turkmen"
+ ],
+ "cloud_lng_passport_in_tr": [
+  "Turkish"
+ ],
+ "cloud_lng_passport_in_uk": [
+  "Ukrainian"
+ ],
+ "cloud_lng_passport_in_uz": [
+  "Uzbek"
+ ],
+ "cloud_lng_passport_in_vi": [
+  "Vietnamese"
+ ],
+ "lng_about_dice": [
+  "Send a 🎲 emoji to any chat to get a random number from Telegram."
+ ],
+ "lng_about_random": [
+  "Send a {emoji} emoji to any chat to try your luck."
+ ],
+ "lng_about_random_send": [
+  "Send"
+ ],
+ "lng_about_random_stake": [
+  "Stake: {amount}"
+ ],
+ "lng_about_random_stake_change": [
+  "change"
+ ],
+ "lng_about_text1": [
+  "Official free messaging app based on {api_link}for speed and security."
+ ],
+ "lng_about_text1_api": [
+  "Telegram API"
+ ],
+ "lng_about_text2": [
+  "This software is licensed under {gpl_link} version 3.Source code is available on {github_link}."
+ ],
+ "lng_about_text3": [
+  "Visit the {faq_link} for more info."
+ ],
+ "lng_about_text3_faq": [
+  "Telegram FAQ"
+ ],
+ "lng_about_text_1": [
+  "Official free messaging app based on [a href=\"https://core.telegram.org/api\"]Telegram API[/a]for speed and security."
+ ],
+ "lng_about_text_2": [
+  "This software is licensed under [a href=\"https://github.com/telegramdesktop/tdesktop/blob/master/LICENSE\"]GNU GPL[/a] version 3.Source code is available on [a href=\"https://github.com/telegramdesktop/tdesktop\"]GitHub[/a]."
+ ],
+ "lng_about_text_3": [
+  "Visit {faq_open}Telegram FAQ{faq_close} for more info."
+ ],
+ "lng_about_version": [
+  "version {version}"
+ ],
+ "lng_action_gift_auction": [
+  "You've successfully bought a gift for {name} in the auction for {cost}."
+ ],
+ "lng_action_gift_auction_won": [
+  "You won the auction with a bid of {cost}."
+ ],
+ "lng_action_gift_can_remove_text": [
+  "You can remove this gift from your profile."
+ ],
+ "lng_action_gift_crafted": [
+  "You crafted a new gift"
+ ],
+ "lng_action_gift_crafted_subtitle": [
+  "Crafted Gift"
+ ],
+ "lng_action_gift_got_gift_text": [
+  "You can add this gift to your profile."
+ ],
+ "lng_action_gift_got_ton": [
+  "Use Grams to buy gifts and suggest posts to channels."
+ ],
+ "lng_action_gift_got_upgradable_text": [
+  "Upgrade this gift to a unique collectible."
+ ],
+ "lng_action_gift_received_anonymous": [
+  "Unknown user sent you a gift for {cost}"
+ ],
+ "lng_action_gift_self_about": [
+  "Add this gift to your profile or convert it to **{count}** Star.",
+  "Add this gift to your profile or convert it to **{count}** Stars."
+ ],
+ "lng_action_gift_self_about_unique": [
+  "You can add this gift to your profile or upgrade it to a unique collectible to keep or transfer."
+ ],
+ "lng_action_gift_self_auction": [
+  "You've successfully bought a gift in the auction for {cost}."
+ ],
+ "lng_action_gift_self_bought": [
+  "You bought a gift for {cost}"
+ ],
+ "lng_action_gift_self_subtitle": [
+  "Saved Gift"
+ ],
+ "lng_action_gift_sent_channel": [
+  "{user} sent a gift to {name} for {cost}"
+ ],
+ "lng_action_gift_sent_upgrade": [
+  "{from} sent an upgrade worth {cost} for your gift."
+ ],
+ "lng_action_gift_sent_upgrade_self": [
+  "You sent an upgrade worth {cost} for this gift."
+ ],
+ "lng_action_gift_upgraded_helped_self": [
+  "You unpacked the gift that {user} helped to upgrade."
+ ],
+ "lng_action_giveaway_started": [
+  "{from} just started a giveaway of Telegram Premium subscriptions for its followers."
+ ],
+ "lng_action_group_call_finished": [
+  "Live stream finished ({duration})"
+ ],
+ "lng_action_group_call_started": [
+  "{from} started {chat}"
+ ],
+ "lng_action_invite_user": [
+  "{from} invited {user} to {chat}"
+ ],
+ "lng_action_invite_user_chat": [
+  "the video chat"
+ ],
+ "lng_action_invite_users_and_last": [
+  "{accumulated} and {user}"
+ ],
+ "lng_action_invite_users_and_one": [
+  "{accumulated}, {user}"
+ ],
+ "lng_action_invite_users_many": [
+  "{from} invited {users} to {chat}"
+ ],
+ "lng_action_payment_done_for": [
+  "You successfully transferred {amount} to {user} for {invoice}"
+ ],
+ "lng_action_poll_added_answer_self": [
+  "You added \"{option}\" to the poll."
+ ],
+ "lng_action_poll_deleted_answer": [
+  "{from} removed \"{option}\" from the poll."
+ ],
+ "lng_action_theme_changed": [
+  "{from} changed the chat theme to {emoji}"
+ ],
+ "lng_action_theme_disabled": [
+  "{from} disabled the chat theme"
+ ],
+ "lng_action_todo_added": [
+  "{from} added {tasks} to the list"
+ ],
+ "lng_action_todo_added_self": [
+  "You added {tasks} to the list"
+ ],
+ "lng_action_todo_marked_done": [
+  "{from} marked {tasks} as done"
+ ],
+ "lng_action_todo_marked_done_self": [
+  "You marked {tasks} as done"
+ ],
+ "lng_action_todo_marked_not_done": [
+  "{from} marked {tasks} as not done"
+ ],
+ "lng_action_todo_marked_not_done_self": [
+  "You marked {tasks} as not done"
+ ],
+ "lng_action_todo_tasks_and_last": [
+  "{tasks} and {task}"
+ ],
+ "lng_action_todo_tasks_and_one": [
+  "{tasks}, {task}"
+ ],
+ "lng_action_todo_tasks_fallback": [
+  "task",
+  "{count} tasks"
+ ],
+ "lng_action_topic_closed_inside_by": [
+  "{from} closed the topic"
+ ],
+ "lng_action_topic_renamed": [
+  "{from} renamed the {link} to \"{title}\""
+ ],
+ "lng_action_topic_reopened_inside_by": [
+  "{from} reopened the topic"
+ ],
+ "lng_action_ttl_changed": [
+  "{from} set messages to auto-delete in {duration}"
+ ],
+ "lng_action_ttl_removed": [
+  "{from} disabled the auto-delete timer"
+ ],
+ "lng_action_user_registered": [
+  "{from} joined Telegram"
+ ],
+ "lng_action_you_theme_changed": [
+  "You changed the chat theme to {emoji}"
+ ],
+ "lng_action_you_theme_disabled": [
+  "You disabled the chat theme"
+ ],
+ "lng_add_contact": [
+  "Create"
+ ],
+ "lng_add_contact_button": [
+  "New contact"
+ ],
+ "lng_admin_log_admin_manage_calls": [
+  "Manage video chats"
+ ],
+ "lng_admin_log_allowed_unmute_self": [
+  "{from} allowed new video chat participants to speak"
+ ],
+ "lng_admin_log_disallowed_unmute_self": [
+  "{from} muted new video chat participants"
+ ],
+ "lng_admin_log_discarded_group_call": [
+  "{from} ended the video chat"
+ ],
+ "lng_admin_log_filter_voice_chats": [
+  "Video chats"
+ ],
+ "lng_admin_log_muted_participant": [
+  "{from} muted {user} in a video chat"
+ ],
+ "lng_admin_log_started_group_call": [
+  "{from} started a new video chat"
+ ],
+ "lng_admin_log_unmuted_participant": [
+  "{from} unmuted {user} in a video chat"
+ ],
+ "lng_ai_compose_add_to_page": [
+  "Add to Page"
+ ],
+ "lng_ai_compose_after": [
+  "After"
+ ],
+ "lng_ai_compose_apply": [
+  "Apply"
+ ],
+ "lng_ai_compose_apply_empty": [
+  "Type something first."
+ ],
+ "lng_ai_compose_apply_style": [
+  "Apply Style"
+ ],
+ "lng_ai_compose_apply_unbound": [
+  "No style bound to this shortcut. Open a style and toggle 'Apply with hotkey'."
+ ],
+ "lng_ai_compose_author": [
+  "Style by {user}"
+ ],
+ "lng_ai_compose_before": [
+  "Before"
+ ],
+ "lng_ai_compose_bind_set_hotkey_short": [
+  "Set apply hotkey…"
+ ],
+ "lng_ai_compose_bind_use_hotkey": [
+  "Apply with {keys}"
+ ],
+ "lng_ai_compose_create_placeholder": [
+  "Generate text, formulas, or tables..."
+ ],
+ "lng_ai_compose_create_title": [
+  "Create with AI"
+ ],
+ "lng_ai_compose_create_tone_title": [
+  "New Style"
+ ],
+ "lng_ai_compose_edit_tone_title": [
+  "Edit Style"
+ ],
+ "lng_ai_compose_emojify": [
+  "emojify"
+ ],
+ "lng_ai_compose_generate": [
+  "Generate"
+ ],
+ "lng_ai_compose_in_language": [
+  "In {language}"
+ ],
+ "lng_ai_compose_name_style": [
+  "{name} ({style})"
+ ],
+ "lng_ai_compose_original": [
+  "Original"
+ ],
+ "lng_ai_compose_result": [
+  "Result"
+ ],
+ "lng_ai_compose_select_style": [
+  "Select Style"
+ ],
+ "lng_ai_compose_style_neutral": [
+  "Neutral"
+ ],
+ "lng_ai_compose_style_prompt_placeholder": [
+  "Write a prompt..."
+ ],
+ "lng_ai_compose_style_tooltip": [
+  "Choose Style"
+ ],
+ "lng_ai_compose_tab_fix": [
+  "Fix"
+ ],
+ "lng_ai_compose_tab_style": [
+  "Style"
+ ],
+ "lng_ai_compose_tab_translate": [
+  "Translate"
+ ],
+ "lng_ai_compose_title": [
+  "AI Editor"
+ ],
+ "lng_ai_compose_to_language": [
+  "To {language}"
+ ],
+ "lng_ai_compose_tone_added": [
+  "Style Added"
+ ],
+ "lng_ai_compose_tone_added_description": [
+  "Tap \"AI\" → \"{name}\" when typing your next long message."
+ ],
+ "lng_ai_compose_tone_author": [
+  "Add a link to my account"
+ ],
+ "lng_ai_compose_tone_create": [
+  "Create"
+ ],
+ "lng_ai_compose_tone_created": [
+  "{title} Style Created!"
+ ],
+ "lng_ai_compose_tone_created_description": [
+  "Right click the style to edit or share the link."
+ ],
+ "lng_ai_compose_tone_delete": [
+  "Delete Style"
+ ],
+ "lng_ai_compose_tone_delete_sure": [
+  "Are you sure you want to delete this style? It will be removed for everyone who installed it."
+ ],
+ "lng_ai_compose_tone_edit": [
+  "Edit Style"
+ ],
+ "lng_ai_compose_tone_icon_title": [
+  "Style Icon"
+ ],
+ "lng_ai_compose_tone_invalid": [
+  "This style was deleted or the link is invalid."
+ ],
+ "lng_ai_compose_tone_name_placeholder": [
+  "Style Name (for example, \"Pirate\")"
+ ],
+ "lng_ai_compose_tone_preview_about": [
+  "Add this style to instantly rewrite your messages."
+ ],
+ "lng_ai_compose_tone_preview_add": [
+  "Add Style"
+ ],
+ "lng_ai_compose_tone_preview_add_example": [
+  "Another example"
+ ],
+ "lng_ai_compose_tone_preview_created_by": [
+  "Created by {user}"
+ ],
+ "lng_ai_compose_tone_preview_used_by": [
+  "Used by {count} person.",
+  "Used by {count} people."
+ ],
+ "lng_ai_compose_tone_prompt_placeholder": [
+  "Instructions (for example, \"Write like a swashbuckling pirate. Use arr, ye, matey, and talk about treasure and the sea\")"
+ ],
+ "lng_ai_compose_tone_remove": [
+  "Remove Style"
+ ],
+ "lng_ai_compose_tone_remove_sure": [
+  "Are you sure you want to remove this style?"
+ ],
+ "lng_ai_compose_tone_removed": [
+  "Style removed."
+ ],
+ "lng_ai_compose_tone_save": [
+  "Save"
+ ],
+ "lng_ai_compose_tone_share": [
+  "Share Style"
+ ],
+ "lng_ai_compose_tone_updated": [
+  "{title} Style Updated!"
+ ],
+ "lng_ai_compose_tone_warn_icon": [
+  "Please choose an icon."
+ ],
+ "lng_ai_compose_tone_warn_name": [
+  "Please choose a name."
+ ],
+ "lng_ai_compose_tone_warn_prompt": [
+  "Please enter instructions."
+ ],
+ "lng_ai_compose_tooltip": [
+  "Rewrite, translate and correct your text using AI."
+ ],
+ "lng_all_downloads": [
+  "Downloads"
+ ],
+ "lng_all_files": [
+  "Files"
+ ],
+ "lng_all_links": [
+  "Links"
+ ],
+ "lng_all_music": [
+  "Music"
+ ],
+ "lng_all_photos": [
+  "Photos"
+ ],
+ "lng_all_videos": [
+  "Videos"
+ ],
+ "lng_all_voice": [
+  "Voice"
+ ],
+ "lng_archive_hint_button": [
+  "Got it"
+ ],
+ "lng_article_button_edit": [
+  "Edit"
+ ],
+ "lng_article_button_row_add": [
+  "Add Button"
+ ],
+ "lng_article_button_row_align_center": [
+  "Align Center"
+ ],
+ "lng_article_button_row_align_left": [
+  "Align Left"
+ ],
+ "lng_article_button_row_align_right": [
+  "Align Right"
+ ],
+ "lng_article_button_row_stretch": [
+  "Full Width"
+ ],
+ "lng_article_editor_title": [
+  "Article"
+ ],
+ "lng_article_editor_title_editing": [
+  "Editing"
+ ],
+ "lng_article_insert_bullet_list": [
+  "Bullet List"
+ ],
+ "lng_article_insert_button": [
+  "Button"
+ ],
+ "lng_article_insert_code": [
+  "Code Block"
+ ],
+ "lng_article_insert_details": [
+  "Details"
+ ],
+ "lng_article_insert_divider": [
+  "Divider"
+ ],
+ "lng_article_insert_footer": [
+  "Footer"
+ ],
+ "lng_article_insert_heading": [
+  "Heading"
+ ],
+ "lng_article_insert_heading1": [
+  "Heading 1"
+ ],
+ "lng_article_insert_heading2": [
+  "Heading 2"
+ ],
+ "lng_article_insert_heading3": [
+  "Heading 3"
+ ],
+ "lng_article_insert_heading4": [
+  "Heading 4"
+ ],
+ "lng_article_insert_heading5": [
+  "Heading 5"
+ ],
+ "lng_article_insert_heading6": [
+  "Heading 6"
+ ],
+ "lng_article_insert_math": [
+  "Math"
+ ],
+ "lng_article_insert_ordered_list": [
+  "Ordered List"
+ ],
+ "lng_article_insert_pullquote": [
+  "Pullquote"
+ ],
+ "lng_article_insert_table": [
+  "Table"
+ ],
+ "lng_article_insert_task_list": [
+  "Checklist"
+ ],
+ "lng_article_insert_text": [
+  "Text"
+ ],
+ "lng_article_insert_text_link": [
+  "Text Link"
+ ],
+ "lng_article_limit_buttons": [
+  "This row has too many buttons."
+ ],
+ "lng_article_limit_length": [
+  "The article is too long."
+ ],
+ "lng_article_limit_media": [
+  "The article has too many media files."
+ ],
+ "lng_article_list_change": [
+  "Change List"
+ ],
+ "lng_article_list_insert": [
+  "Insert List"
+ ],
+ "lng_article_list_item_change": [
+  "Change List Item"
+ ],
+ "lng_article_list_lowercase_letters": [
+  "Lowercase Letters"
+ ],
+ "lng_article_list_lowercase_roman": [
+  "Lowercase Roman"
+ ],
+ "lng_article_list_numbers": [
+  "Numbers"
+ ],
+ "lng_article_list_reversed": [
+  "Reversed"
+ ],
+ "lng_article_list_uppercase_letters": [
+  "Uppercase Letters"
+ ],
+ "lng_article_list_uppercase_roman": [
+  "Uppercase Roman"
+ ],
+ "lng_article_media_collage": [
+  "Collage"
+ ],
+ "lng_article_media_slideshow": [
+  "Slideshow"
+ ],
+ "lng_article_media_ungroup": [
+  "Ungroup"
+ ],
+ "lng_article_menu_item": [
+  "Article"
+ ],
+ "lng_article_paste_truncated": [
+  "The pasted content didn't fit and was truncated."
+ ],
+ "lng_article_placeholder_author": [
+  "Add author"
+ ],
+ "lng_article_placeholder_cell": [
+  "Cell"
+ ],
+ "lng_article_placeholder_quote": [
+  "Enter quote"
+ ],
+ "lng_article_placeholder_title": [
+  "Title"
+ ],
+ "lng_article_premium_choice_about": [
+  "This message uses rich formatting, which requires {link}."
+ ],
+ "lng_article_premium_choice_about_link": [
+  "Telegram Premium"
+ ],
+ "lng_article_premium_choice_plain": [
+  "Send Without Formatting"
+ ],
+ "lng_article_premium_choice_title": [
+  "Remove Formatting"
+ ],
+ "lng_article_premium_required": [
+  "Subscribe to {link} to be able to send rich articles."
+ ],
+ "lng_article_premium_required_link": [
+  "Telegram Premium"
+ ],
+ "lng_article_submit_empty": [
+  "The article can't be empty."
+ ],
+ "lng_article_table_add_cells": [
+  "Add Cells"
+ ],
+ "lng_article_table_add_column_left": [
+  "Add Column Left"
+ ],
+ "lng_article_table_add_column_right": [
+  "Add Column Right"
+ ],
+ "lng_article_table_add_row_above": [
+  "Add Row Above"
+ ],
+ "lng_article_table_add_row_below": [
+  "Add Row Below"
+ ],
+ "lng_article_table_align_bottom": [
+  "Align Bottom"
+ ],
+ "lng_article_table_align_center": [
+  "Align Center"
+ ],
+ "lng_article_table_align_left": [
+  "Align Left"
+ ],
+ "lng_article_table_align_middle": [
+  "Align Middle"
+ ],
+ "lng_article_table_align_right": [
+  "Align Right"
+ ],
+ "lng_article_table_align_top": [
+  "Align Top"
+ ],
+ "lng_article_table_alignment": [
+  "Alignment"
+ ],
+ "lng_article_table_borderless": [
+  "Borderless"
+ ],
+ "lng_article_table_change": [
+  "Change Table"
+ ],
+ "lng_article_table_compact": [
+  "Compact Table"
+ ],
+ "lng_article_table_delete_cells": [
+  "Delete Cells"
+ ],
+ "lng_article_table_delete_column": [
+  "Delete Column"
+ ],
+ "lng_article_table_delete_columns": [
+  "Delete Columns"
+ ],
+ "lng_article_table_delete_row": [
+  "Delete Row"
+ ],
+ "lng_article_table_delete_rows": [
+  "Delete Rows"
+ ],
+ "lng_article_table_delete_table": [
+  "Delete Table"
+ ],
+ "lng_article_table_header": [
+  "Header"
+ ],
+ "lng_article_table_header_cell": [
+  "Header Cell"
+ ],
+ "lng_article_table_header_cells": [
+  "Header Cells"
+ ],
+ "lng_article_table_split_cell": [
+  "Split Cell"
+ ],
+ "lng_article_table_striped": [
+  "Striped Table"
+ ],
+ "lng_article_table_unite_cells": [
+  "Unite Cells"
+ ],
+ "lng_article_tooltip_emoji": [
+  "Emoji Panel"
+ ],
+ "lng_article_tooltip_formula": [
+  "Insert Formula"
+ ],
+ "lng_article_tooltip_link": [
+  "Insert Link"
+ ],
+ "lng_article_tooltip_list_style": [
+  "List Style"
+ ],
+ "lng_article_tooltip_media": [
+  "Insert Media"
+ ],
+ "lng_article_tooltip_table_insert": [
+  "Insert Table"
+ ],
+ "lng_article_tooltip_table_style": [
+  "Table Style"
+ ],
+ "lng_article_tooltip_text_style": [
+  "Text Style"
+ ],
+ "lng_attach_file": [
+  "File"
+ ],
+ "lng_attach_photo": [
+  "Photo"
+ ],
+ "lng_attach_replace": [
+  "Replace attachment"
+ ],
+ "lng_auctino_preview_finished": [
+  "Finished"
+ ],
+ "lng_auction_about_bid_about": [
+  "If yours is not the top bid, it will automatically join the next round.",
+  "If your bid leaves the top {count}, it will automatically join the next round."
+ ],
+ "lng_auction_about_bid_title": [
+  "Bid Carryover"
+ ],
+ "lng_auction_about_missed_about": [
+  "If your bid doesn't win after the final round, your Stars will be fully refunded."
+ ],
+ "lng_auction_about_missed_title": [
+  "Missed Bidders"
+ ],
+ "lng_auction_about_subtitle": [
+  "Join the battle for exclusive gifts."
+ ],
+ "lng_auction_about_title": [
+  "Auction"
+ ],
+ "lng_auction_about_top_about": [
+  "{count} gift is dropped in {rounds} to the {bidders} by bid amount.",
+  "{count} gifts are dropped in {rounds} to the {bidders} by bid amount."
+ ],
+ "lng_auction_about_top_bidders": [
+  "top {count} bidder",
+  "top {count} bidders"
+ ],
+ "lng_auction_about_top_rounds": [
+  "{count} round",
+  "{count} rounds"
+ ],
+ "lng_auction_about_top_short": [
+  "{count} gift is dropped to the {bidders} by bid amount. {link}",
+  "{count} gifts are dropped to the {bidders} by bid amount. {link}"
+ ],
+ "lng_auction_about_top_title": [
+  "Top {count} Bidder",
+  "Top {count} Bidders"
+ ],
+ "lng_auction_about_understood": [
+  "Understood"
+ ],
+ "lng_auction_availability_label": [
+  "Availability"
+ ],
+ "lng_auction_availability_value": [
+  "{n} of {amount} left"
+ ],
+ "lng_auction_average_label": [
+  "Average Price"
+ ],
+ "lng_auction_average_tooltip": [
+  "{amount} is the average sale price for {gift} gifts."
+ ],
+ "lng_auction_bar_active": [
+  "Active Auction"
+ ],
+ "lng_auction_bar_outbid": [
+  "You've been outbid."
+ ],
+ "lng_auction_bar_winning": [
+  "You're winning ({count}st place).",
+  "You're winning ({count}th place)."
+ ],
+ "lng_auction_bid_custom": [
+  "click to bid more"
+ ],
+ "lng_auction_bid_custom_title": [
+  "Custom Amount"
+ ],
+ "lng_auction_bid_done_text": [
+  "If you fall below the **top {count}**, your bid will roll over to the next round.",
+  "If you fall below the **top {count}**, your bid will roll over to the next round."
+ ],
+ "lng_auction_bid_increase": [
+  "Add {stars} to Your Bid"
+ ],
+ "lng_auction_bid_increased_title": [
+  "Your bid has been increased"
+ ],
+ "lng_auction_bid_left": [
+  "left",
+  "left"
+ ],
+ "lng_auction_bid_minimal": [
+  "minimum bid",
+  "minimum bid"
+ ],
+ "lng_auction_bid_place": [
+  "Place a {stars} Bid"
+ ],
+ "lng_auction_bid_placed_title": [
+  "Your bid has been placed"
+ ],
+ "lng_auction_bid_subtitle": [
+  "Top {count} bidder will win",
+  "Top {count} bidders will win"
+ ],
+ "lng_auction_bid_title": [
+  "Place a Bid"
+ ],
+ "lng_auction_bid_until": [
+  "until next round"
+ ],
+ "lng_auction_bid_winners_title": [
+  "Top winners"
+ ],
+ "lng_auction_bid_your": [
+  "your bid"
+ ],
+ "lng_auction_bid_your_outbid": [
+  "You've been outbid"
+ ],
+ "lng_auction_bid_your_title": [
+  "Your bid will be"
+ ],
+ "lng_auction_bid_your_winning": [
+  "You're winning"
+ ],
+ "lng_auction_bought": [
+  "{count} {emoji} item bought {arrow}",
+  "{count} {emoji} items bought {arrow}"
+ ],
+ "lng_auction_bought_bid": [
+  "Accepted Bid"
+ ],
+ "lng_auction_bought_date": [
+  "Date"
+ ],
+ "lng_auction_bought_in_round": [
+  "{name} in round {n}"
+ ],
+ "lng_auction_bought_round": [
+  "Round #{n}"
+ ],
+ "lng_auction_bought_title": [
+  "{count} Item Bought",
+  "{count} Items Bought"
+ ],
+ "lng_auction_end_label": [
+  "Ends"
+ ],
+ "lng_auction_join_bid": [
+  "Place a Bid"
+ ],
+ "lng_auction_join_button": [
+  "Join Auction"
+ ],
+ "lng_auction_join_time_left": [
+  "{time} left"
+ ],
+ "lng_auction_join_time_medium": [
+  "{hours} h {minutes} m"
+ ],
+ "lng_auction_menu_about": [
+  "Learn more"
+ ],
+ "lng_auction_menu_copy_link": [
+  "Copy Link"
+ ],
+ "lng_auction_menu_share": [
+  "Share"
+ ],
+ "lng_auction_preview_backdrop": [
+  "backdrop"
+ ],
+ "lng_auction_preview_backdrops": [
+  "This collection features **{count}** unique backdrop.",
+  "This collection features **{count}** unique backdrops."
+ ],
+ "lng_auction_preview_backdrops_button": [
+  "Backdrops"
+ ],
+ "lng_auction_preview_crafted": [
+  "This collection features **{count}** craftable model.",
+  "This collection features **{count}** craftable models."
+ ],
+ "lng_auction_preview_join": [
+  "Join"
+ ],
+ "lng_auction_preview_learn_gifts": [
+  "Learn more about Telegram Gifts {arrow}"
+ ],
+ "lng_auction_preview_model": [
+  "model"
+ ],
+ "lng_auction_preview_models": [
+  "This collection features **{count}** unique model.",
+  "This collection features **{count}** unique models."
+ ],
+ "lng_auction_preview_models_button": [
+  "Models"
+ ],
+ "lng_auction_preview_random": [
+  "Random Traits"
+ ],
+ "lng_auction_preview_selected": [
+  "Selected Traits"
+ ],
+ "lng_auction_preview_symbol": [
+  "symbol"
+ ],
+ "lng_auction_preview_symbols": [
+  "This collection features **{count}** unique symbol.",
+  "This collection features **{count}** unique symbols."
+ ],
+ "lng_auction_preview_symbols_button": [
+  "Symbols"
+ ],
+ "lng_auction_preview_variants": [
+  "View {emoji} {count} Variant {arrow}",
+  "View {emoji} {count} Variants {arrow}"
+ ],
+ "lng_auction_preview_view_craftable": [
+  "View craftable models {arrow}"
+ ],
+ "lng_auction_preview_view_primary": [
+  "View primary models {arrow}"
+ ],
+ "lng_auction_preview_view_results": [
+  "View Results"
+ ],
+ "lng_auction_round_label": [
+  "Current Round"
+ ],
+ "lng_auction_round_value": [
+  "{n} of {amount}"
+ ],
+ "lng_auction_start_label": [
+  "Started"
+ ],
+ "lng_auction_text": [
+  "Top **{count}** bidder will get the {name} gift this round. {link}",
+  "Top **{count}** bidders will get {name} gifts this round. {link}"
+ ],
+ "lng_auction_text_ended": [
+  "Auction ended."
+ ],
+ "lng_auction_text_link": [
+  "Learn more {arrow}"
+ ],
+ "lng_audio_transcribe_trials_left": [
+  "You have {count} free transcription left until {date}.",
+  "You have {count} free transcriptions left until {date}."
+ ],
+ "lng_audio_transcribe_trials_over": [
+  "You have used all your free transcriptions this week. Wait until {date} to use it again or subscribe to {link} now."
+ ],
+ "lng_away_about": [
+  "Automatically reply with a message when you are away."
+ ],
+ "lng_away_create": [
+  "Create an Away Message"
+ ],
+ "lng_away_custom_end": [
+  "End Time"
+ ],
+ "lng_away_custom_start": [
+  "Start Time"
+ ],
+ "lng_away_empty_about": [
+  "Add messages that will be automatically sent when you are off."
+ ],
+ "lng_away_empty_title": [
+  "New Away Message"
+ ],
+ "lng_away_enable": [
+  "Send Away Message"
+ ],
+ "lng_away_message_placeholder": [
+  "Add an Away Message"
+ ],
+ "lng_away_offline_only": [
+  "Only if Offline"
+ ],
+ "lng_away_offline_only_about": [
+  "Don't send the away message if you've recently been online."
+ ],
+ "lng_away_recipients": [
+  "Recipients"
+ ],
+ "lng_away_schedule": [
+  "Schedule"
+ ],
+ "lng_away_schedule_always": [
+  "Send Always"
+ ],
+ "lng_away_schedule_custom": [
+  "Custom Schedule"
+ ],
+ "lng_away_schedule_outside": [
+  "Outside of Business Hours"
+ ],
+ "lng_away_title": [
+  "Away Message"
+ ],
+ "lng_background_bad_link": [
+  "Invalid wallpaper link."
+ ],
+ "lng_background_gradient_unsupported": [
+  "Telegram Desktop doesn't support gradient wallpapers yet."
+ ],
+ "lng_ban_specific_user": [
+  "Ban {user}"
+ ],
+ "lng_bio_about": [
+  "You can add a few lines about yourself. Anyone who opens your profile will see this text."
+ ],
+ "lng_bio_placeholder": [
+  "Bio"
+ ],
+ "lng_bio_title": [
+  "Edit Your Bio"
+ ],
+ "lng_blocked_list_already_blocked": [
+  "already blocked"
+ ],
+ "lng_blocked_list_confirm_clear": [
+  "Delete this chat"
+ ],
+ "lng_blocked_list_confirm_ok": [
+  "Block"
+ ],
+ "lng_blocked_list_confirm_text": [
+  "Do you want to block {name} from messaging and calling you on Telegram?"
+ ],
+ "lng_blocked_list_confirm_title": [
+  "Block {name}"
+ ],
+ "lng_blocked_list_not_found": [
+  "No users found."
+ ],
+ "lng_boosts_get_boosts": [
+  "Get Boosts via Gifts"
+ ],
+ "lng_boosts_get_boosts_subtext": [
+  "Get more boosts for your channel by gifting Telegram Premium to your subscribers."
+ ],
+ "lng_boosts_list_pending": [
+  "To be distributed"
+ ],
+ "lng_boosts_list_pending_about": [
+  "The recipient will be selected when the giveaway ends."
+ ],
+ "lng_boosts_list_status": [
+  "boost expires on {date}"
+ ],
+ "lng_boosts_list_title": [
+  "{count} boost",
+  "{count} boosts"
+ ],
+ "lng_boosts_list_unclaimed": [
+  "Unclaimed"
+ ],
+ "lng_boosts_show_more_boosts": [
+  "Show {count} More Boosts",
+  "Show {count} More Boosts"
+ ],
+ "lng_bot_apps_popular": [
+  "Grossing apps"
+ ],
+ "lng_bot_apps_which": [
+  "Which apps are included here? {link}"
+ ],
+ "lng_bot_apps_which_link": [
+  "Learn >"
+ ],
+ "lng_bot_apps_your": [
+  "Apps you use"
+ ],
+ "lng_bot_earn_out_ph_max": [
+  "Enter amount to withdraw (max. {amount})"
+ ],
+ "lng_bot_no_scan_qr": [
+  "QR Codes for bots are not supported on Desktop. Please use one of Telegram's mobile apps."
+ ],
+ "lng_bot_no_share_story": [
+  "Sharing to Stories is not supported on Desktop. Please use one of Telegram's mobile apps."
+ ],
+ "lng_bot_status_users": [
+  "{count} monthly user",
+  "{count} monthly users"
+ ],
+ "lng_box_done": [
+  "Done"
+ ],
+ "lng_box_remove": [
+  "Remove"
+ ],
+ "lng_business_about": [
+  "Turn your account to a business page with these additional features."
+ ],
+ "lng_business_about_away_messages": [
+  "Define messages that are automatically sent when you are off."
+ ],
+ "lng_business_about_chat_intro": [
+  "Customize the message people see before they start a chat with you."
+ ],
+ "lng_business_about_chat_links": [
+  "Create links that start a chat with you, suggesting the first message."
+ ],
+ "lng_business_about_chatbots": [
+  "Add any third party chatbots that will process customer interactions."
+ ],
+ "lng_business_about_greeting_messages": [
+  "Create greetings that will be automatically sent to new customers."
+ ],
+ "lng_business_about_location": [
+  "Display the location of your business on your account."
+ ],
+ "lng_business_about_opening_hours": [
+  "Show to your customers when you are open for business."
+ ],
+ "lng_business_about_quick_replies": [
+  "Set up shortcuts with rich text and media to respond to messages faster."
+ ],
+ "lng_business_about_sponsored": [
+  "As a Premium subscriber, you don’t see any ads on Telegram, but you can turn them on, for example, to view your own ads that you launched on the {link}"
+ ],
+ "lng_business_about_sponsored_link": [
+  "Telegram Ad Platform {emoji}"
+ ],
+ "lng_business_about_sponsored_url": [
+  "https://ads.telegram.org"
+ ],
+ "lng_business_button_sponsored": [
+  "Do Not Hide Ads"
+ ],
+ "lng_business_edit_messages": [
+  "Edit messages"
+ ],
+ "lng_business_limit_reached": [
+  "Limit of {count} message reached.",
+  "Limit of {count} messages reached."
+ ],
+ "lng_business_subtitle_away_messages": [
+  "Away Messages"
+ ],
+ "lng_business_subtitle_chat_intro": [
+  "Start Page"
+ ],
+ "lng_business_subtitle_chat_links": [
+  "Links to Chat"
+ ],
+ "lng_business_subtitle_chatbots": [
+  "Chatbots"
+ ],
+ "lng_business_subtitle_greeting_messages": [
+  "Greeting Messages"
+ ],
+ "lng_business_subtitle_location": [
+  "Location"
+ ],
+ "lng_business_subtitle_opening_hours": [
+  "Opening Hours"
+ ],
+ "lng_business_subtitle_quick_replies": [
+  "Quick Replies"
+ ],
+ "lng_business_subtitle_sponsored": [
+  "Ads in Channels"
+ ],
+ "lng_business_title": [
+  "Telegram Business"
+ ],
+ "lng_business_unlocked": [
+  "You have now unlocked these additional business features."
+ ],
+ "lng_calendar_beginning": [
+  "Beginning"
+ ],
+ "lng_call_add_people": [
+  "Add People"
+ ],
+ "lng_call_bar_hangup": [
+  "End call"
+ ],
+ "lng_call_box_clear_all": [
+  "Clear All"
+ ],
+ "lng_call_box_clear_button": [
+  "Clear"
+ ],
+ "lng_call_box_clear_sure": [
+  "Are you sure you want to completely clear your calls log?"
+ ],
+ "lng_call_box_status_date": [
+  "{date} at {time}"
+ ],
+ "lng_call_box_status_group": [
+  "({amount}) {status}"
+ ],
+ "lng_call_box_status_today": [
+  "{time}"
+ ],
+ "lng_call_cancelled": [
+  "Canceled call"
+ ],
+ "lng_call_declined": [
+  "Declined call"
+ ],
+ "lng_call_duration_info": [
+  "{time}, {duration}"
+ ],
+ "lng_call_end_call": [
+  "End Call"
+ ],
+ "lng_call_ended_title": [
+  "Call ended"
+ ],
+ "lng_call_error_audio_io": [
+  "There seems to be a problem with your sound card. Please make sure that your computer's speakers and microphone are working and try again."
+ ],
+ "lng_call_error_outdated": [
+  "{user}'s app does not support calls. They need to update their app before you can call them."
+ ],
+ "lng_call_incoming": [
+  "Incoming call"
+ ],
+ "lng_call_leave_to_other_sure": [
+  "End your active call and join this video chat?"
+ ],
+ "lng_call_leave_to_other_sure_channel": [
+  "Do you want to end your active call and join a live stream in this channel?"
+ ],
+ "lng_call_missed": [
+  "Missed call"
+ ],
+ "lng_call_outgoing": [
+  "Outgoing call"
+ ],
+ "lng_call_rate_comment": [
+  "Comment (optional)"
+ ],
+ "lng_call_rate_description": [
+  "Please rate the quality of this call."
+ ],
+ "lng_call_rate_label": [
+  "Please rate the quality of your call"
+ ],
+ "lng_call_rate_title": [
+  "Rate this call"
+ ],
+ "lng_call_status_busy": [
+  "line busy"
+ ],
+ "lng_call_status_connecting": [
+  "connecting..."
+ ],
+ "lng_call_status_ended": [
+  "call ended"
+ ],
+ "lng_call_status_exchanging": [
+  "exchanging encryption keys..."
+ ],
+ "lng_call_status_hanging": [
+  "hanging up..."
+ ],
+ "lng_call_status_incoming": [
+  "is calling you..."
+ ],
+ "lng_call_status_requesting": [
+  "requesting..."
+ ],
+ "lng_call_status_ringing": [
+  "ringing..."
+ ],
+ "lng_call_status_waiting": [
+  "waiting..."
+ ],
+ "lng_call_type_and_duration": [
+  "{type} ({duration})"
+ ],
+ "lng_call_window_pinned_on_top": [
+  "Call window is pinned on top."
+ ],
+ "lng_call_window_unpinned_on_top": [
+  "Call window is unpinned from top."
+ ],
+ "lng_cancel": [
+  "Cancel"
+ ],
+ "lng_caption_move_down": [
+  "Move Caption Down"
+ ],
+ "lng_caption_move_up": [
+  "Move Caption Up"
+ ],
+ "lng_change_phone_error": [
+  "You can only change your phone number using mobile Telegram apps. Please use an official Telegram app on your phone to update your number."
+ ],
+ "lng_channel_add_removed": [
+  "Remove user"
+ ],
+ "lng_channel_earn_learn_close": [
+  "Got it"
+ ],
+ "lng_channel_earn_learn_coin_about": [
+  "Gram is the cryptocurrency of the TON blockchain platform, which Telegram uses for its high speed and low commissions on transactions. {link}"
+ ],
+ "lng_channel_earn_learn_coin_title": [
+  "What is {emoji} Gram?"
+ ],
+ "lng_channel_earn_learn_in_about": [
+  "Telegram can display ads in your channel."
+ ],
+ "lng_channel_earn_learn_in_subtitle": [
+  "Telegram Ads"
+ ],
+ "lng_channel_earn_learn_out_about": [
+  "You can collect your Grams any time."
+ ],
+ "lng_channel_earn_learn_out_subtitle": [
+  "Flexible withdrawals"
+ ],
+ "lng_channel_earn_learn_split_about": [
+  "You can receive 50% of the ad revenue as rewards in Grams."
+ ],
+ "lng_channel_earn_learn_split_subtitle": [
+  "50:50 revenue split"
+ ],
+ "lng_channel_earn_learn_title": [
+  "Earn From Your Channel"
+ ],
+ "lng_channels_none_about": [
+  "You are not currently subscribed to any channels."
+ ],
+ "lng_channels_recommended": [
+  "Similar channels"
+ ],
+ "lng_channels_too_much_public_about": [
+  "You have reserved too many public links. Try revoking the link from an older group or channel, or create a private one instead."
+ ],
+ "lng_channels_too_much_public_revoke": [
+  "Revoke"
+ ],
+ "lng_channels_too_much_public_revoke_confirm_channel": [
+  "Are you sure you want to revoke the link {link}?The channel «{group}» will become private."
+ ],
+ "lng_channels_too_much_public_revoke_confirm_group": [
+  "Are you sure you want to revoke the link {link}?The group «{group}» will become private."
+ ],
+ "lng_channels_your_less": [
+  "Show less"
+ ],
+ "lng_channels_your_more": [
+  "Show more"
+ ],
+ "lng_channels_your_title": [
+  "Channels you joined"
+ ],
+ "lng_chat_intro_about": [
+  "You can customize the message people see before they start a chat with you."
+ ],
+ "lng_chat_intro_choose_sticker": [
+  "Choose Sticker"
+ ],
+ "lng_chat_intro_default_message": [
+  "Send a message or click on the greeting below"
+ ],
+ "lng_chat_intro_default_title": [
+  "No messages here yet..."
+ ],
+ "lng_chat_intro_enter_message": [
+  "Enter Message"
+ ],
+ "lng_chat_intro_enter_title": [
+  "Enter Title"
+ ],
+ "lng_chat_intro_random_sticker": [
+  "Random"
+ ],
+ "lng_chat_intro_reset": [
+  "Reset to Default"
+ ],
+ "lng_chat_intro_title": [
+  "Start Page"
+ ],
+ "lng_chat_link_copied": [
+  "Chat link copied to clipboard."
+ ],
+ "lng_chat_link_delete_sure": [
+  "Are you sure you want to delete this chat link?"
+ ],
+ "lng_chat_link_description": [
+  "Add a message that will be entered in the message field for anyone who starts a chat with you using this link."
+ ],
+ "lng_chat_link_edit_title": [
+  "Edit Link"
+ ],
+ "lng_chat_link_name": [
+  "Link Name (optional)"
+ ],
+ "lng_chat_link_new_title": [
+  "New Link"
+ ],
+ "lng_chat_link_placeholder": [
+  "Add Preset Message"
+ ],
+ "lng_chat_link_qr_about": [
+  "Everyone on Telegram can scan this code to contact you."
+ ],
+ "lng_chat_link_qr_title": [
+  "Chat Link QR Code"
+ ],
+ "lng_chat_link_saved": [
+  "Chat link saved."
+ ],
+ "lng_chat_links_about": [
+  "Give your customers short links that start a chat with you – and suggest the first message from them to you."
+ ],
+ "lng_chat_links_clicks": [
+  "{count} click",
+  "{count} clicks"
+ ],
+ "lng_chat_links_create_link": [
+  "Create a Link to Chat"
+ ],
+ "lng_chat_links_footer": [
+  "You can also use a simple link for a chat with you – {links}"
+ ],
+ "lng_chat_links_footer_both": [
+  "{username} or {link}"
+ ],
+ "lng_chat_links_no_clicks": [
+  "no clicks"
+ ],
+ "lng_chat_links_title": [
+  "Links to Chat"
+ ],
+ "lng_chat_status_members": [
+  "{count} member",
+  "{count} members"
+ ],
+ "lng_chatbots_about": [
+  "Add a bot to reply to messages on your behalf."
+ ],
+ "lng_chatbots_about_link": [
+  "Learn more..."
+ ],
+ "lng_chatbots_access_title": [
+  "Chats the bot can access"
+ ],
+ "lng_chatbots_add_about": [
+  "Choose a bot to manage your chats automatically."
+ ],
+ "lng_chatbots_all_except": [
+  "All Private Chats Except..."
+ ],
+ "lng_chatbots_exclude_about": [
+  "Select chats or entire chat categories which the bot will not have access to."
+ ],
+ "lng_chatbots_exclude_button": [
+  "Exclude Chats"
+ ],
+ "lng_chatbots_excluded_title": [
+  "Excluded chats"
+ ],
+ "lng_chatbots_include_button": [
+  "Select Chats"
+ ],
+ "lng_chatbots_included_title": [
+  "Included chats"
+ ],
+ "lng_chatbots_info_url": [
+  "https://telegram.org/blog/telegram-business#chatbots-for-business"
+ ],
+ "lng_chatbots_not_found": [
+  "Chatbot not found."
+ ],
+ "lng_chatbots_not_supported": [
+  "This bot doesn't support Secretary Mode yet."
+ ],
+ "lng_chatbots_permissions_title": [
+  "Bot permissions"
+ ],
+ "lng_chatbots_placeholder": [
+  "Enter bot URL or username"
+ ],
+ "lng_chatbots_reply": [
+  "Reply to Messages"
+ ],
+ "lng_chatbots_reply_about": [
+  "The bot can only reply on your behalf in chats that were active during the last 24h."
+ ],
+ "lng_chatbots_selected": [
+  "Only Selected Chats"
+ ],
+ "lng_chatbots_title": [
+  "Chat Automation"
+ ],
+ "lng_choose_cover": [
+  "Choose video cover"
+ ],
+ "lng_choose_file": [
+  "Choose a file"
+ ],
+ "lng_choose_files": [
+  "Choose Files"
+ ],
+ "lng_cloud_password_reset_with_email": [
+  "If you don't have access to your recovery email, your remaining options are either to remember your password or wait 7 days until your password resets."
+ ],
+ "lng_code_block_header_copy": [
+  "copy"
+ ],
+ "lng_comments_header": [
+  "{count} comment",
+  "{count} comments"
+ ],
+ "lng_comments_header_none": [
+  "Comments"
+ ],
+ "lng_community_add_about": [
+  "Make your group part of a community with multiple related chats."
+ ],
+ "lng_community_add_about_bot": [
+  "Make your bot part of a community with multiple related chats."
+ ],
+ "lng_community_add_about_channel": [
+  "Make your channel part of a community with multiple related chats."
+ ],
+ "lng_community_add_button": [
+  "Add Group to a Community"
+ ],
+ "lng_community_add_button_bot": [
+  "Add Bot to a Community"
+ ],
+ "lng_community_add_button_channel": [
+  "Add Channel to a Community"
+ ],
+ "lng_community_add_chat": [
+  "Add a Chat to Community"
+ ],
+ "lng_community_add_chat_title": [
+  "Add a Chat to Community"
+ ],
+ "lng_community_add_confirm": [
+  "If this group is approved by a community admin, its members will be able to join or request to join other chats in the community."
+ ],
+ "lng_community_add_confirm_add": [
+  "Add"
+ ],
+ "lng_community_add_confirm_bot": [
+  "If this bot is approved by a community admin, community members will be able to see and use it."
+ ],
+ "lng_community_add_confirm_channel": [
+  "If this channel is approved by a community admin, its subscribers will be able to join or request to join other chats in the community."
+ ],
+ "lng_community_add_done_channel": [
+  "Channel added to the community."
+ ],
+ "lng_community_add_to": [
+  "Add to Community"
+ ],
+ "lng_community_admin_continue": [
+  "Continue"
+ ],
+ "lng_community_admin_decline": [
+  "No, thanks"
+ ],
+ "lng_community_admin_promote_sure": [
+  "{user} will be able to edit community info and use other admin tools."
+ ],
+ "lng_community_admin_title": [
+  "You are a community admin"
+ ],
+ "lng_community_ban_about": [
+  "User will be removed from {count} chat.",
+  "User will be removed from {count} chats."
+ ],
+ "lng_community_ban_toggle": [
+  "Ban from the Community"
+ ],
+ "lng_community_chat_remove_bot": [
+  "Remove Bot"
+ ],
+ "lng_community_chat_remove_channel": [
+  "Remove Channel"
+ ],
+ "lng_community_chat_remove_group": [
+  "Remove Group"
+ ],
+ "lng_community_chat_view_bot": [
+  "View Bot"
+ ],
+ "lng_community_chat_view_channel": [
+  "View Channel"
+ ],
+ "lng_community_chat_view_group": [
+  "View Group"
+ ],
+ "lng_community_chats": [
+  "{count} chat",
+  "{count} chats"
+ ],
+ "lng_community_chats_joined": [
+  "Chats you are in"
+ ],
+ "lng_community_chats_requestable": [
+  "Hidden chats"
+ ],
+ "lng_community_chats_viewable": [
+  "Chats you can view"
+ ],
+ "lng_community_create": [
+  "Create Community"
+ ],
+ "lng_community_create_chat": [
+  "Create a New Chat"
+ ],
+ "lng_community_create_hidden": [
+  "Hidden group"
+ ],
+ "lng_community_create_hidden_bot": [
+  "Hidden bot"
+ ],
+ "lng_community_create_hidden_channel": [
+  "Hidden channel"
+ ],
+ "lng_community_create_name": [
+  "Community Name"
+ ],
+ "lng_community_create_title": [
+  "New Community"
+ ],
+ "lng_community_created": [
+  "Community created."
+ ],
+ "lng_community_delete": [
+  "Delete Community"
+ ],
+ "lng_community_delete_sure": [
+  "Are you sure you want to delete this community? This will unlink all its chats."
+ ],
+ "lng_community_existing": [
+  "Add to an existing community"
+ ],
+ "lng_community_hidden_not_accessible": [
+  "You can't join or view this group until an admin invites you."
+ ],
+ "lng_community_hidden_not_accessible_channel": [
+  "You can't join or view this channel until an admin invites you."
+ ],
+ "lng_community_join_sure": [
+  "Do you want to join {group}?"
+ ],
+ "lng_community_manage_all_members": [
+  "All members"
+ ],
+ "lng_community_manage_all_members_about": [
+  "Allow members to add their chats to the community."
+ ],
+ "lng_community_manage_only_admins": [
+  "Only admins"
+ ],
+ "lng_community_manage_only_admins_about": [
+  "Suggested chats require admin approval."
+ ],
+ "lng_community_manage_who_add": [
+  "Who can add chats"
+ ],
+ "lng_community_remove_button": [
+  "Remove Group from Community"
+ ],
+ "lng_community_remove_button_bot": [
+  "Remove Bot from Community"
+ ],
+ "lng_community_remove_button_channel": [
+  "Remove Channel from Community"
+ ],
+ "lng_community_remove_done": [
+  "Removed from the community."
+ ],
+ "lng_community_remove_sure": [
+  "Remove {group} from the community?"
+ ],
+ "lng_community_removed_list_about": [
+  "Users removed from the community will be shown here."
+ ],
+ "lng_community_request_add": [
+  "Add"
+ ],
+ "lng_community_request_added_toast": [
+  "Chat was added to the community.",
+  "{count} chats were added to the community."
+ ],
+ "lng_community_request_decline": [
+  "Decline"
+ ],
+ "lng_community_request_declined_toast": [
+  "Request to add chat was declined.",
+  "{count} requests to add chats were declined."
+ ],
+ "lng_community_request_declined_toast_undo": [
+  "You declined the request to add {chat} to the community."
+ ],
+ "lng_community_request_invite_only_bot": [
+  "This bot is invite-only. Only invited members can use it."
+ ],
+ "lng_community_request_message_owner_bot": [
+  "Message Bot Owner"
+ ],
+ "lng_community_request_only_members": [
+  "Only visible to its members"
+ ],
+ "lng_community_request_sent": [
+  "Your request was sent to the community admins."
+ ],
+ "lng_community_request_suggested_bot": [
+  "{user} suggested this bot"
+ ],
+ "lng_community_request_suggested_channel": [
+  "{user} suggested this channel"
+ ],
+ "lng_community_request_suggested_group": [
+  "{user} suggested this group"
+ ],
+ "lng_community_requests_about": [
+  "Chats require admin approval before they're added to the community. {link}"
+ ],
+ "lng_community_requests_about_link": [
+  "Change Settings."
+ ],
+ "lng_community_requests_add_all": [
+  "Add All"
+ ],
+ "lng_community_requests_add_all_sure": [
+  "Do you want to add {count} chat to the community?",
+  "Do you want to add {count} chats to the community?"
+ ],
+ "lng_community_requests_add_all_title": [
+  "Add All Chats"
+ ],
+ "lng_community_requests_count": [
+  "{count} chat suggested for this community",
+  "{count} chats suggested for this community"
+ ],
+ "lng_community_requests_decline_all": [
+  "Decline All"
+ ],
+ "lng_community_requests_decline_all_sure": [
+  "Do you want to decline {count} request to join the community?",
+  "Do you want to decline all {count} requests to join the community?"
+ ],
+ "lng_community_requests_decline_all_title": [
+  "Decline All"
+ ],
+ "lng_community_requests_title": [
+  "Pending Requests"
+ ],
+ "lng_community_show_as_one": [
+  "Show as One Chat"
+ ],
+ "lng_community_show_as_one_about": [
+  "Group all community chats into one item in the chat list."
+ ],
+ "lng_community_title": [
+  "Community"
+ ],
+ "lng_community_visibility_hidden": [
+  "Hidden"
+ ],
+ "lng_community_visibility_hidden_about": [
+  "Only invited members and community admins will see this chat."
+ ],
+ "lng_community_visibility_note": [
+  "You won't be able to change this later."
+ ],
+ "lng_community_visibility_title": [
+  "Chat visibility"
+ ],
+ "lng_community_visibility_visible": [
+  "Visible"
+ ],
+ "lng_community_visibility_visible_about": [
+  "Anyone in the community will be able to see this chat."
+ ],
+ "lng_confcall_create_call": [
+  "Start New Call"
+ ],
+ "lng_confcall_create_call_description": [
+  "You can add up to {count} participant to a call.",
+  "You can add up to {count} participants to a call."
+ ],
+ "lng_confcall_create_title": [
+  "New Call"
+ ],
+ "lng_confcall_e2e_about": [
+  "These emoji represent the encryption key. They must match for all participants and will change when someone joins or leaves."
+ ],
+ "lng_confcall_e2e_badge": [
+  "End-to-End Encrypted"
+ ],
+ "lng_confcall_invite_done_user": [
+  "You're calling {user} to join."
+ ],
+ "lng_confcall_invite_fail_user": [
+  "Couldn't call {user} to join."
+ ],
+ "lng_confcall_join_title": [
+  "Group Call"
+ ],
+ "lng_confcall_link_about": [
+  "Anyone on Telegram can join your call by following the link below."
+ ],
+ "lng_confcall_link_join": [
+  "Be the first to join the call and add people from there. {link}"
+ ],
+ "lng_confcall_link_join_link": [
+  "Open call {arrow}"
+ ],
+ "lng_confcall_link_or": [
+  "or"
+ ],
+ "lng_confcall_link_revoke": [
+  "Revoke link"
+ ],
+ "lng_confcall_link_revoked_text": [
+  "A new link has been generated."
+ ],
+ "lng_confcall_link_revoked_title": [
+  "Link Revoked"
+ ],
+ "lng_confcall_link_title": [
+  "Call Link"
+ ],
+ "lng_confirm_contact_data": [
+  "New Contact"
+ ],
+ "lng_confirm_phone_link_invalid": [
+  "This link is broken or expired."
+ ],
+ "lng_connecting": [
+  "Connecting..."
+ ],
+ "lng_contact_not_joined": [
+  "Unfortunately {name} has not joined Telegram yet, but you can send them an invitation.We will notify you when any of your contacts join Telegram."
+ ],
+ "lng_contact_phone": [
+  "Phone Number"
+ ],
+ "lng_contact_share_phone": [
+  "Share my phone number"
+ ],
+ "lng_contacts_header": [
+  "Contacts"
+ ],
+ "lng_contacts_loading": [
+  "Loading..."
+ ],
+ "lng_contacts_not_found": [
+  "No contacts found"
+ ],
+ "lng_context_add_to_calendar": [
+  "Add to Calendar"
+ ],
+ "lng_context_animated_poll_option": [
+  "This option contains emoji from **{name} pack**."
+ ],
+ "lng_context_animated_poll_option_many": [
+  "This option contains emoji from **{count} pack**.",
+  "This option contains emoji from **{count} packs**."
+ ],
+ "lng_context_clear_cover": [
+  "Clear Cover"
+ ],
+ "lng_context_clear_selection": [
+  "Clear Selection"
+ ],
+ "lng_context_copy_date": [
+  "Copy Date"
+ ],
+ "lng_context_copy_filename": [
+  "Copy Filename"
+ ],
+ "lng_context_copy_poll_option": [
+  "Copy Option"
+ ],
+ "lng_context_copy_poll_option_link": [
+  "Copy Option Link"
+ ],
+ "lng_context_copy_selected_items": [
+  "Copy Selected as Text"
+ ],
+ "lng_context_copy_text": [
+  "Copy Text"
+ ],
+ "lng_context_delete_msg": [
+  "Delete"
+ ],
+ "lng_context_delete_poll_option": [
+  "Delete Item"
+ ],
+ "lng_context_delete_selected": [
+  "Delete Selected"
+ ],
+ "lng_context_delete_shortcut": [
+  "Delete Quick Reply"
+ ],
+ "lng_context_draw": [
+  "Edit Image"
+ ],
+ "lng_context_edit_cover": [
+  "Edit Cover"
+ ],
+ "lng_context_edit_gif": [
+  "Edit GIF"
+ ],
+ "lng_context_edit_shortcut": [
+  "Edit Shortcut"
+ ],
+ "lng_context_edit_video": [
+  "Edit Video"
+ ],
+ "lng_context_gift_send": [
+  "Send Another Gift"
+ ],
+ "lng_context_mute": [
+  "Mute notifications"
+ ],
+ "lng_context_open_gif": [
+  "Open GIF"
+ ],
+ "lng_context_poll_message_tab": [
+  "Poll"
+ ],
+ "lng_context_poll_option_tab": [
+  "Option"
+ ],
+ "lng_context_quote_and_reply": [
+  "Quote & Reply"
+ ],
+ "lng_context_remove_from_group": [
+  "Remove from group"
+ ],
+ "lng_context_reply_to_poll_option": [
+  "Reply to Option"
+ ],
+ "lng_context_reply_to_task": [
+  "Reply to Task"
+ ],
+ "lng_context_reply_with_timecode": [
+  "Reply with timecode"
+ ],
+ "lng_context_reschedule_selected": [
+  "Reschedule Selected"
+ ],
+ "lng_context_save_html": [
+  "Save as HTML"
+ ],
+ "lng_context_seen_listened": [
+  "{count} Listened",
+  "{count} Listened"
+ ],
+ "lng_context_seen_loading": [
+  "Loading..."
+ ],
+ "lng_context_seen_reacted": [
+  "{count} Reacted",
+  "{count} Reacted"
+ ],
+ "lng_context_seen_reacted_all": [
+  "Show All Reactions"
+ ],
+ "lng_context_seen_reactions_count": [
+  "{count} Reaction",
+  "{count} Reactions"
+ ],
+ "lng_context_seen_text": [
+  "{count} Seen",
+  "{count} Seen"
+ ],
+ "lng_context_select_msg_bulk": [
+  "Select up to this message"
+ ],
+ "lng_context_send_message": [
+  "Send message"
+ ],
+ "lng_context_send_now_msg": [
+  "Send Now"
+ ],
+ "lng_context_send_now_selected": [
+  "Send selected now"
+ ],
+ "lng_context_set_reminder": [
+  "Set a Reminder"
+ ],
+ "lng_context_spoiler_effect": [
+  "Hide with Spoiler"
+ ],
+ "lng_context_unmute": [
+  "Unmute"
+ ],
+ "lng_context_unpin_selected": [
+  "Unpin Selected"
+ ],
+ "lng_context_upload_edit_caption": [
+  "Edit Caption"
+ ],
+ "lng_context_view_community": [
+  "View community info"
+ ],
+ "lng_context_view_profile": [
+  "View profile"
+ ],
+ "lng_continue": [
+  "Continue"
+ ],
+ "lng_create_channel_link_copied": [
+  "Link copied to clipboard."
+ ],
+ "lng_create_channel_title": [
+  "New Channel"
+ ],
+ "lng_create_group_back": [
+  "Back"
+ ],
+ "lng_create_group_create": [
+  "Create"
+ ],
+ "lng_create_group_title": [
+  "New Group"
+ ],
+ "lng_credits_balance_me": [
+  "your balance"
+ ],
+ "lng_credits_box_history_entry_gift_about_link": [
+  "See Examples {emoji}"
+ ],
+ "lng_credits_box_history_entry_gift_about_url": [
+  "https://telegram.org/blog/telegram-stars"
+ ],
+ "lng_credits_box_history_entry_gift_bought": [
+  "Gift Purchase"
+ ],
+ "lng_credits_box_history_entry_gift_bought_from": [
+  "From"
+ ],
+ "lng_credits_box_history_entry_gift_converted": [
+  "Converted Gift"
+ ],
+ "lng_credits_box_history_entry_gift_full_price": [
+  "Full Price"
+ ],
+ "lng_credits_box_history_entry_gift_name": [
+  "Received Gift"
+ ],
+ "lng_credits_box_history_entry_gift_offer": [
+  "Gift Offer"
+ ],
+ "lng_credits_box_history_entry_gift_out_about": [
+  "With Stars, **{user}** will be able to unlock content and services on Telegram.{link}"
+ ],
+ "lng_credits_box_history_entry_gift_released": [
+  "released by {name}"
+ ],
+ "lng_credits_box_history_entry_gift_sent": [
+  "Sent Gift"
+ ],
+ "lng_credits_box_history_entry_gift_sold": [
+  "Gift Sale"
+ ],
+ "lng_credits_box_history_entry_gift_sold_out": [
+  "This gift has sold out"
+ ],
+ "lng_credits_box_history_entry_gift_sold_to": [
+  "To"
+ ],
+ "lng_credits_box_history_entry_gift_transfer": [
+  "Gift Transfer"
+ ],
+ "lng_credits_box_history_entry_gift_unavailable": [
+  "Unavailable"
+ ],
+ "lng_credits_box_history_entry_gift_upgrade": [
+  "Collectible Upgrade"
+ ],
+ "lng_credits_box_history_entry_miniapp": [
+  "Mini App"
+ ],
+ "lng_credits_box_history_entry_peer": [
+  "Recipient"
+ ],
+ "lng_credits_box_history_entry_peer_in": [
+  "From"
+ ],
+ "lng_credits_box_history_entry_posts_search": [
+  "Public Post Search"
+ ],
+ "lng_credits_box_history_entry_premium_bot": [
+  "Stars Top-Up"
+ ],
+ "lng_credits_box_history_entry_reaction_name": [
+  "Star Reaction"
+ ],
+ "lng_credits_box_history_entry_reason_star_ref": [
+  "Affiliate Program"
+ ],
+ "lng_credits_box_history_entry_via_premium_bot": [
+  "Premium Bot"
+ ],
+ "lng_credits_buy_button": [
+  "Buy More Stars"
+ ],
+ "lng_credits_commission": [
+  "{amount} commission"
+ ],
+ "lng_credits_earn_button": [
+  "Earn Stars from Mini Apps"
+ ],
+ "lng_credits_gift_button": [
+  "Gift Stars to Friends"
+ ],
+ "lng_credits_gift_title": [
+  "Gift Telegram Stars"
+ ],
+ "lng_credits_more_options": [
+  "More Options"
+ ],
+ "lng_credits_paid_messages_fee": [
+  "Fee for {count} Message",
+  "Fee for {count} Messages"
+ ],
+ "lng_credits_paid_messages_fee_about": [
+  "You receive {percent} of the price that you charge for each incoming message. {link}"
+ ],
+ "lng_credits_paid_messages_fee_about_link": [
+  "Change Fee {emoji}"
+ ],
+ "lng_credits_paid_messages_fee_live_reaction": [
+  "Fee for Live Story Reaction"
+ ],
+ "lng_credits_paid_messages_full": [
+  "Full Price"
+ ],
+ "lng_credits_small_balance_for_message": [
+  "Buy **Stars** to send messages to {user}."
+ ],
+ "lng_credits_small_balance_for_messages": [
+  "Buy **Stars** to send messages."
+ ],
+ "lng_credits_small_balance_for_search": [
+  "Buy **Stars** to search through public posts."
+ ],
+ "lng_credits_small_balance_reaction": [
+  "Buy **Stars** and send them to {channel} to support their posts."
+ ],
+ "lng_credits_small_balance_star_gift": [
+  "Buy **Stars** to send gifts to {user} and other contacts."
+ ],
+ "lng_credits_small_balance_subscribe": [
+  "Buy **Stars** and subscribe to **{channel}** and other channels."
+ ],
+ "lng_credits_small_balance_title": [
+  "{count} Star Needed",
+  "{count} Stars Needed"
+ ],
+ "lng_credits_stats_button": [
+  "View Statistics"
+ ],
+ "lng_credits_subscription_row_next_none": [
+  "Expired"
+ ],
+ "lng_credits_subscription_section": [
+  "My subscriptions"
+ ],
+ "lng_credits_subscription_status_none": [
+  "expired on {date}"
+ ],
+ "lng_credits_subscription_status_none_right": [
+  "expired"
+ ],
+ "lng_credits_summary_about": [
+  "Buy Stars to unlock content and services in mini apps on Telegram."
+ ],
+ "lng_credits_summary_earn_about": [
+  "Distribute links to mini apps and earn a share of their revenue in Stars."
+ ],
+ "lng_credits_summary_earn_title": [
+  "Earn Stars"
+ ],
+ "lng_credits_summary_history_entry_inner_in": [
+  "In-App Purchase"
+ ],
+ "lng_credits_summary_history_tab_full": [
+  "All Transactions"
+ ],
+ "lng_credits_summary_history_tab_in": [
+  "Incoming"
+ ],
+ "lng_credits_summary_history_tab_out": [
+  "Outgoing"
+ ],
+ "lng_credits_summary_options_subtitle": [
+  "Choose package"
+ ],
+ "lng_credits_summary_title": [
+  "Telegram Stars"
+ ],
+ "lng_credits_topup_button": [
+  "{emoji} Top Up Balance"
+ ],
+ "lng_date_copied": [
+  "Date copied to clipboard."
+ ],
+ "lng_delete_for_everyone_check": [
+  "Delete for everyone"
+ ],
+ "lng_delete_label_also_all_reactions": [
+  "Also delete all reactions."
+ ],
+ "lng_delete_label_also_some_reactions": [
+  "Also delete all reactions from some participants."
+ ],
+ "lng_delete_label_also_this_reaction": [
+  "Also delete this reaction."
+ ],
+ "lng_delete_sub_messages": [
+  "Delete all messages"
+ ],
+ "lng_delete_sub_reactions": [
+  "Delete all reactions"
+ ],
+ "lng_delete_title_message_many": [
+  "Delete {count} message",
+  "Delete {count} messages"
+ ],
+ "lng_delete_title_message_one": [
+  "Delete this message"
+ ],
+ "lng_delete_title_reaction_all": [
+  "Delete all reactions"
+ ],
+ "lng_delete_title_reaction_this": [
+  "Delete this reaction"
+ ],
+ "lng_dialogs_text_with_from": [
+  "{from_part} {message}"
+ ],
+ "lng_disable_notifications_from_tray": [
+  "Disable notifications"
+ ],
+ "lng_download_finish_failed": [
+  "File download could not be completed.The most common problem is that you ran out of disk space, please check.Would you like to try again?"
+ ],
+ "lng_drag_folder_here": [
+  "Drop folder here"
+ ],
+ "lng_drag_media_here": [
+  "Drop photos and videos"
+ ],
+ "lng_drag_proxy_about": [
+  "Drop the link here"
+ ],
+ "lng_drag_proxy_here": [
+  "Connect to a proxy"
+ ],
+ "lng_drag_to_send_files_archive": [
+  "to send them as a ZIP file"
+ ],
+ "lng_drag_to_send_folder": [
+  "to send it as ZIP archive"
+ ],
+ "lng_drag_to_send_folder_files": [
+  "to send all its files"
+ ],
+ "lng_drag_to_send_media": [
+  "to send them as media files"
+ ],
+ "lng_duration_seconds": [
+  "{count} second",
+  "{count} seconds"
+ ],
+ "lng_edit_caption_attach": [
+  "Sorry, you can't attach new media while editing a message."
+ ],
+ "lng_edit_deleted": [
+  "This message was deleted"
+ ],
+ "lng_edit_error": [
+  "You can't edit this message."
+ ],
+ "lng_edit_photo_editor_hint": [
+  "Left-click on the photo to edit."
+ ],
+ "lng_edited_date": [
+  "Edited: {date}"
+ ],
+ "lng_edited_on": [
+  "edited on {date} at {time}"
+ ],
+ "lng_emoji_adapt_sticker": [
+  "Adapt from a Sticker"
+ ],
+ "lng_emoji_add_existing": [
+  "Add an Existing Emoji"
+ ],
+ "lng_emoji_add_to_set": [
+  "Add to Emoji Set"
+ ],
+ "lng_emoji_already_in_set": [
+  "This Emoji is already in the Set."
+ ],
+ "lng_emoji_category0": [
+  "Frequently used"
+ ],
+ "lng_emoji_category2": [
+  "Nature"
+ ],
+ "lng_emoji_category3": [
+  "Food & Drink"
+ ],
+ "lng_emoji_context_delete": [
+  "Delete emoji"
+ ],
+ "lng_emoji_context_delete_sure": [
+  "Are you sure you want to delete this emoji from your set?"
+ ],
+ "lng_emoji_create_emoji_about": [
+  "Choose emojis that match your emoji"
+ ],
+ "lng_emoji_create_image_title": [
+  "New Emoji"
+ ],
+ "lng_emoji_create_new": [
+  "Create a New Emoji"
+ ],
+ "lng_enter_contact_data": [
+  "New Contact"
+ ],
+ "lng_ephemeral_about": [
+  "Only you see this message. It will disappear after you restart the app."
+ ],
+ "lng_ephemeral_anchored_visible_you": [
+  "This version of the message is only visible to you."
+ ],
+ "lng_ephemeral_cant_schedule": [
+  "Ephemeral messages can't be scheduled."
+ ],
+ "lng_ephemeral_command_tooltip": [
+  "Other members won't see this message"
+ ],
+ "lng_ephemeral_revert": [
+  "Revert"
+ ],
+ "lng_ephemeral_revert_about": [
+  "restores the message to its original content"
+ ],
+ "lng_ephemeral_visible_to": [
+  "Only visible to {user}"
+ ],
+ "lng_ephemeral_visible_you": [
+  "Only visible to you"
+ ],
+ "lng_error_cant_reply_other": [
+  "This message can't be replied in another chat."
+ ],
+ "lng_error_nocopy_group": [
+  "Sorry, copying from this group is disabled by admins."
+ ],
+ "lng_error_post_link_invalid": [
+  "Unfortunately, you can't access this message. You aren't a member of the chat where it was posted."
+ ],
+ "lng_export_about_frequent": [
+  "This rating shows which people you are likelier to message frequently. Telegram uses this data to populate the 'People' box at the top of the Search section. This rating is also calculated for inline bots so that the app can suggest the bots you are most likely to use in the attachment menu (or when you start a new message with \"@\").To delete this data, go to Settings > Privacy & Security and disable 'Suggest Frequent Contacts'."
+ ],
+ "lng_export_about_web_sessions": [
+  "We store this to display the websites where you logged in using authentication via Telegram. This information is shown in Settings > Privacy & Security > Active Sessions."
+ ],
+ "lng_export_html_saved_to": [
+  "Message was saved to your {downloads} folder"
+ ],
+ "lng_export_option_profile_music": [
+  "Music on Profile"
+ ],
+ "lng_export_option_profile_music_about": [
+  "All tracks you saved to your playlist."
+ ],
+ "lng_export_state_gif": [
+  "Animated GIF"
+ ],
+ "lng_export_state_photo": [
+  "Photo"
+ ],
+ "lng_export_state_sticker": [
+  "Sticker"
+ ],
+ "lng_export_state_video_file": [
+  "Video file"
+ ],
+ "lng_export_state_video_message": [
+  "Round video message"
+ ],
+ "lng_export_state_voice_message": [
+  "Voice message"
+ ],
+ "lng_faved_stickers_add": [
+  "Add to Favorites"
+ ],
+ "lng_faved_stickers_remove": [
+  "Remove from Favorites"
+ ],
+ "lng_filters_add_chats": [
+  "Add Chats"
+ ],
+ "lng_filters_all": [
+  "All chats"
+ ],
+ "lng_filters_all_short": [
+  "All"
+ ],
+ "lng_filters_chats_count": [
+  "{count} chat",
+  "{count} chats"
+ ],
+ "lng_filters_create": [
+  "Create new folder"
+ ],
+ "lng_filters_create_button": [
+  "Create"
+ ],
+ "lng_filters_edit": [
+  "Edit Folder"
+ ],
+ "lng_filters_edit_chats": [
+  "Chats"
+ ],
+ "lng_filters_edit_types": [
+  "Chat types"
+ ],
+ "lng_filters_empty": [
+  "Please choose at least one chat for this folder."
+ ],
+ "lng_filters_exclude": [
+  "Excluded chats"
+ ],
+ "lng_filters_exclude_about": [
+  "Choose chats or types of chats that will not appear in this folder."
+ ],
+ "lng_filters_icon_header": [
+  "Choose an icon"
+ ],
+ "lng_filters_include": [
+  "Included chats"
+ ],
+ "lng_filters_include_about": [
+  "Choose chats or types of chats that will appear in this folder."
+ ],
+ "lng_filters_include_title": [
+  "Include Chats"
+ ],
+ "lng_filters_name_unread": [
+  "Unread"
+ ],
+ "lng_filters_new": [
+  "New Folder"
+ ],
+ "lng_filters_new_name": [
+  "Folder name"
+ ],
+ "lng_filters_recommended": [
+  "Recommended folders"
+ ],
+ "lng_filters_recommended_add": [
+  "Add"
+ ],
+ "lng_filters_remove_chats": [
+  "Add Chats to Exclude"
+ ],
+ "lng_filters_restore": [
+  "Undo"
+ ],
+ "lng_filters_setup": [
+  "Edit"
+ ],
+ "lng_filters_subtitle": [
+  "My folders"
+ ],
+ "lng_filters_title": [
+  "Folders"
+ ],
+ "lng_filters_type_bots": [
+  "Bots"
+ ],
+ "lng_filters_type_channels": [
+  "Channels"
+ ],
+ "lng_filters_type_contacts": [
+  "Contacts"
+ ],
+ "lng_filters_type_existing": [
+  "Existing Chats"
+ ],
+ "lng_filters_type_groups": [
+  "Groups"
+ ],
+ "lng_filters_type_new": [
+  "New Chats"
+ ],
+ "lng_filters_type_non_contacts": [
+  "Non-Contacts"
+ ],
+ "lng_folder_archive_deselect": [
+  "Deselect"
+ ],
+ "lng_folder_archive_pack": [
+  "Pack into ZIP archive"
+ ],
+ "lng_folder_archive_pack_selected": [
+  "Pack selected into ZIP archive"
+ ],
+ "lng_folder_archive_select": [
+  "Select"
+ ],
+ "lng_folder_archive_status": [
+  "ZIP archive"
+ ],
+ "lng_folder_archive_unpack": [
+  "Unpack archive"
+ ],
+ "lng_formatting_button_action_copy": [
+  "Copy"
+ ],
+ "lng_formatting_button_action_mention": [
+  "Mention"
+ ],
+ "lng_formatting_button_action_url": [
+  "Link"
+ ],
+ "lng_formatting_button_choose_user": [
+  "Choose User"
+ ],
+ "lng_formatting_button_copy_text": [
+  "Text to copy"
+ ],
+ "lng_formatting_button_create_title": [
+  "Add Button"
+ ],
+ "lng_formatting_button_edit_title": [
+  "Edit Button"
+ ],
+ "lng_formatting_button_separate_line": [
+  "Button Row"
+ ],
+ "lng_formatting_button_style_danger": [
+  "Red"
+ ],
+ "lng_formatting_button_style_default": [
+  "Default"
+ ],
+ "lng_formatting_button_style_primary": [
+  "Blue"
+ ],
+ "lng_formatting_button_style_success": [
+  "Green"
+ ],
+ "lng_formatting_button_text": [
+  "Button Text"
+ ],
+ "lng_formatting_code_auto": [
+  "Auto-Detect"
+ ],
+ "lng_formatting_code_language": [
+  "Language for syntax highlighting."
+ ],
+ "lng_formatting_code_title": [
+  "Code Language"
+ ],
+ "lng_formatting_date_title": [
+  "Choose date and time"
+ ],
+ "lng_formatting_link_create": [
+  "Create"
+ ],
+ "lng_formatting_link_create_title": [
+  "Create link"
+ ],
+ "lng_formatting_link_text": [
+  "Text"
+ ],
+ "lng_formatting_link_url": [
+  "URL"
+ ],
+ "lng_formatting_math_create_title": [
+  "Insert formula"
+ ],
+ "lng_formatting_math_edit_title": [
+  "Edit formula"
+ ],
+ "lng_formatting_math_result_label": [
+  "Result"
+ ],
+ "lng_formatting_math_separate_line": [
+  "Separate Line Formula"
+ ],
+ "lng_formatting_math_source_label": [
+  "LaTeX"
+ ],
+ "lng_forum_messages": [
+  "{count} message",
+  "{count} messages"
+ ],
+ "lng_forward_about": [
+  "You can remove the sender's name so that this message will look like it was sent by you."
+ ],
+ "lng_forward_action_change_recipient": [
+  "Change Recipient"
+ ],
+ "lng_forward_action_hide_caption": [
+  "Hide Caption"
+ ],
+ "lng_forward_action_hide_captions": [
+  "Hide Captions"
+ ],
+ "lng_forward_action_hide_sender": [
+  "Hide Sender Name"
+ ],
+ "lng_forward_action_hide_senders": [
+  "Hide Sender Names"
+ ],
+ "lng_forward_action_remove": [
+  "Do Not Forward"
+ ],
+ "lng_forward_action_show_caption": [
+  "Show Caption"
+ ],
+ "lng_forward_action_show_captions": [
+  "Show Captions"
+ ],
+ "lng_forward_action_show_sender": [
+  "Show Sender Name"
+ ],
+ "lng_forward_action_show_senders": [
+  "Show Sender Names"
+ ],
+ "lng_forward_change_recipient": [
+  "Change recipient"
+ ],
+ "lng_forward_many_about": [
+  "You can remove the senders’ names so that these messages will look like they were sent by you."
+ ],
+ "lng_forward_many_title": [
+  "Forward {count} Message",
+  "Forward {count} Messages"
+ ],
+ "lng_forward_send_files_cant": [
+  "Sorry, no way to send media here :("
+ ],
+ "lng_forward_sender_names_removed": [
+  "Sender names removed"
+ ],
+ "lng_forward_show_caption": [
+  "Show caption"
+ ],
+ "lng_forward_show_captions": [
+  "Show captions"
+ ],
+ "lng_forward_show_sender": [
+  "Show sender name"
+ ],
+ "lng_forward_show_senders": [
+  "Show sender names"
+ ],
+ "lng_forward_title": [
+  "Forward Message"
+ ],
+ "lng_forwarded_channel": [
+  "Forwarded from {channel}"
+ ],
+ "lng_forwarded_date": [
+  "Original: {date}"
+ ],
+ "lng_forwarded_hidden": [
+  "The account was hidden by the user."
+ ],
+ "lng_forwarded_imported": [
+  "This message was imported from another app. It may not be real."
+ ],
+ "lng_from_draft": [
+  "Draft"
+ ],
+ "lng_frozen_restrict_text": [
+  "Click to view details"
+ ],
+ "lng_frozen_restrict_title": [
+  "Your account is frozen"
+ ],
+ "lng_full_name": [
+  "{first_name} {last_name}"
+ ],
+ "lng_gif_error": [
+  "An error occurred while reading GIF"
+ ],
+ "lng_gift_anonymous_hint": [
+  "Only you can see the sender's name."
+ ],
+ "lng_gift_availability": [
+  "Availability"
+ ],
+ "lng_gift_burned_message": [
+  "This gift was burned in crafting."
+ ],
+ "lng_gift_burned_tag": [
+  "burned"
+ ],
+ "lng_gift_buy_price_change_text": [
+  "This gift price was changed and now is {price}. Do you still want to buy?"
+ ],
+ "lng_gift_buy_price_change_title": [
+  "Price change!"
+ ],
+ "lng_gift_buy_resale_button": [
+  "Buy for {cost}"
+ ],
+ "lng_gift_buy_resale_confirm": [
+  "Do you want to buy {name} for {price} and gift it to {user}?"
+ ],
+ "lng_gift_buy_resale_confirm_self": [
+  "Do you want to buy {name} for {price}?"
+ ],
+ "lng_gift_buy_resale_equals": [
+  "Equal to {cost}"
+ ],
+ "lng_gift_buy_resale_only_ton": [
+  "The seller only accepts Grams as payment."
+ ],
+ "lng_gift_buy_resale_pay_stars": [
+  "Pay in Stars"
+ ],
+ "lng_gift_buy_resale_pay_ton": [
+  "Pay in Grams"
+ ],
+ "lng_gift_buy_resale_title": [
+  "Buy {name}"
+ ],
+ "lng_gift_convert_sure": [
+  "Convert"
+ ],
+ "lng_gift_convert_sure_caution": [
+  "This action cannot be undone. This will permanently destroy the gift."
+ ],
+ "lng_gift_convert_sure_confirm": [
+  "Do you want to convert this gift from {user} to **{count} Star**?",
+  "Do you want to convert this gift from {user} to **{count} Stars**?"
+ ],
+ "lng_gift_convert_sure_limit": [
+  "Conversion is available for the next **{count} day**.",
+  "Conversion is available for the next **{count} days**."
+ ],
+ "lng_gift_convert_sure_title": [
+  "Convert Gift to Stars"
+ ],
+ "lng_gift_craft_about1": [
+  "Add up to **4** gifts to craft a new{gift}."
+ ],
+ "lng_gift_craft_about2": [
+  "If crafting fails, these giftswill be lost."
+ ],
+ "lng_gift_craft_affect_about": [
+  "Use gifts with the same attribute to boost its chance."
+ ],
+ "lng_gift_craft_affect_title": [
+  "Affect the Result"
+ ],
+ "lng_gift_craft_button": [
+  "Craft {gift}"
+ ],
+ "lng_gift_craft_button_chance": [
+  "{percent} Success Chance"
+ ],
+ "lng_gift_craft_chance_about": [
+  "Combine more gifts to increase your odds of success."
+ ],
+ "lng_gift_craft_chance_backdrop": [
+  "{percent} chance the crafted gift will have **{name}** backdrop."
+ ],
+ "lng_gift_craft_chance_symbol": [
+  "{percent} chance the crafted gift will have **{name}** symbol."
+ ],
+ "lng_gift_craft_chance_title": [
+  "Maximize Chances"
+ ],
+ "lng_gift_craft_failed_about": [
+  "This crafting attempt was unsuccessful.**{count}** gift was lost.",
+  "This crafting attempt was unsuccessful.**{count}** gifts were lost."
+ ],
+ "lng_gift_craft_failed_title": [
+  "Crafting Failed"
+ ],
+ "lng_gift_craft_info_about": [
+  "Turn your gifts into rare, epicand legendary versions."
+ ],
+ "lng_gift_craft_info_title": [
+  "Gift Crafting"
+ ],
+ "lng_gift_craft_menu_button": [
+  "Craft"
+ ],
+ "lng_gift_craft_new_button": [
+  "Craft New Gift"
+ ],
+ "lng_gift_craft_progress": [
+  "Crafting"
+ ],
+ "lng_gift_craft_progress_about": [
+  "Crafting **{gift}**"
+ ],
+ "lng_gift_craft_progress_chance": [
+  "{percent} success chance"
+ ],
+ "lng_gift_craft_progress_fails": [
+  "If crafting fails, thesegifts will be lost."
+ ],
+ "lng_gift_craft_rare_about": [
+  "Select up to 4 gifts to craft a new exclusive model."
+ ],
+ "lng_gift_craft_rare_title": [
+  "Get Rare Models"
+ ],
+ "lng_gift_craft_select_market": [
+  "{count} suitable gift on sale",
+  "{count} suitable gifts on sale"
+ ],
+ "lng_gift_craft_select_title": [
+  "Select Gifts"
+ ],
+ "lng_gift_craft_select_your": [
+  "Your gifts"
+ ],
+ "lng_gift_craft_start_button": [
+  "Start Crafting"
+ ],
+ "lng_gift_craft_title": [
+  "Craft Gift"
+ ],
+ "lng_gift_craft_view_all": [
+  "{emoji} View all craftable models {arrow}"
+ ],
+ "lng_gift_crafted_tag": [
+  "crafted"
+ ],
+ "lng_gift_delete_sure_text": [
+  "Do you want to delete this gift?It will disappear from your profile and can't be restored."
+ ],
+ "lng_gift_display_on_page_hide": [
+  "Hide from my profile"
+ ],
+ "lng_gift_epic_tag": [
+  "epic"
+ ],
+ "lng_gift_from_hidden": [
+  "Hidden User"
+ ],
+ "lng_gift_got_stars": [
+  "You got **{count} Star** for this gift.",
+  "You got **{count} Stars** for this gift."
+ ],
+ "lng_gift_in_blockchain": [
+  "This gift is on the TON blockchain. {link}"
+ ],
+ "lng_gift_in_blockchain_link": [
+  "View >"
+ ],
+ "lng_gift_legendary_tag": [
+  "legendary"
+ ],
+ "lng_gift_link_about": [
+  "This link allows you to activatea **Telegram Premium** subscription."
+ ],
+ "lng_gift_link_also_send": [
+  "You can also {link} to a friend as a gift."
+ ],
+ "lng_gift_link_also_send_link": [
+  "send this link"
+ ],
+ "lng_gift_link_gift_premium": [
+  "Telegram Premium {duration}"
+ ],
+ "lng_gift_link_label_date": [
+  "Date"
+ ],
+ "lng_gift_link_label_first_sale": [
+  "First Sale"
+ ],
+ "lng_gift_link_label_from": [
+  "From"
+ ],
+ "lng_gift_link_label_gift": [
+  "Gift"
+ ],
+ "lng_gift_link_label_last_sale": [
+  "Last Sale"
+ ],
+ "lng_gift_link_label_reason": [
+  "Reason"
+ ],
+ "lng_gift_link_label_to": [
+  "To"
+ ],
+ "lng_gift_link_label_to_unclaimed": [
+  "No recipient"
+ ],
+ "lng_gift_link_label_value": [
+  "Value"
+ ],
+ "lng_gift_link_reason_chosen": [
+  "You were selected by the channel"
+ ],
+ "lng_gift_link_reason_giveaway": [
+  "Giveaway"
+ ],
+ "lng_gift_link_reason_unclaimed": [
+  "Incomplete Giveaway"
+ ],
+ "lng_gift_link_title": [
+  "Gift Link"
+ ],
+ "lng_gift_link_use": [
+  "Use Link"
+ ],
+ "lng_gift_link_used_about": [
+  "This link was used to activatea **Telegram Premium** subscription."
+ ],
+ "lng_gift_link_used_footer": [
+  "This link was used on {date}."
+ ],
+ "lng_gift_link_used_title": [
+  "Used Gift Link"
+ ],
+ "lng_gift_list_birthday_status_today": [
+  "{emoji} Birthday today"
+ ],
+ "lng_gift_list_birthday_status_tomorrow": [
+  "Birthday tomorrow"
+ ],
+ "lng_gift_list_birthday_status_yesterday": [
+  "Birthday yesterday"
+ ],
+ "lng_gift_locked_title": [
+  "Gift Locked"
+ ],
+ "lng_gift_menu_delete": [
+  "Delete Gift"
+ ],
+ "lng_gift_offer_button": [
+  "Offer to Buy"
+ ],
+ "lng_gift_offer_confirm_text": [
+  "Do you want to offer {cost} to {user} for {name}?"
+ ],
+ "lng_gift_offer_confirm_title": [
+  "Confirm Offer"
+ ],
+ "lng_gift_offer_cost_button": [
+  "Offer {cost}"
+ ],
+ "lng_gift_offer_duration": [
+  "Offer Duration"
+ ],
+ "lng_gift_offer_duration_about": [
+  "Choose how long {user} has to accept your offer. When it expires, the amount will be refunded."
+ ],
+ "lng_gift_offer_stars_about": [
+  "Choose how many Stars you'd like to offer for {name}."
+ ],
+ "lng_gift_offer_table_duration": [
+  "Duration"
+ ],
+ "lng_gift_offer_table_offer": [
+  "Offer"
+ ],
+ "lng_gift_offer_title": [
+  "Offer to Buy"
+ ],
+ "lng_gift_offer_ton_about": [
+  "Choose how many Grams you'd like to offer for {name}."
+ ],
+ "lng_gift_on_sale_for": [
+  "On sale for {price}"
+ ],
+ "lng_gift_premium_about": [
+  "Give {name} access to exclusive features with Telegram Premium. {features}"
+ ],
+ "lng_gift_premium_by_stars": [
+  "or {amount}"
+ ],
+ "lng_gift_premium_features": [
+  "See Features >"
+ ],
+ "lng_gift_premium_label": [
+  "Premium"
+ ],
+ "lng_gift_premium_or_stars": [
+  "Send a Gift"
+ ],
+ "lng_gift_premium_subtitle": [
+  "Gift Premium"
+ ],
+ "lng_gift_premium_text": [
+  "Subscribe to **Telegram Premium** to send up to **{count}** of these gifts and unlock powerful features.",
+  "Subscribe to **Telegram Premium** to send up to **{count}** of these gifts and unlock powerful features."
+ ],
+ "lng_gift_premium_title": [
+  "Premium Gift"
+ ],
+ "lng_gift_price_unique": [
+  "Unique"
+ ],
+ "lng_gift_rare_tag": [
+  "rare"
+ ],
+ "lng_gift_recipient_search": [
+  "Search people to send a gift to..."
+ ],
+ "lng_gift_released_by": [
+  "released by {name}"
+ ],
+ "lng_gift_resale_all_listings": [
+  "All Listings"
+ ],
+ "lng_gift_resale_backdrop": [
+  "Backdrop"
+ ],
+ "lng_gift_resale_backdrops": [
+  "{count} Backdrop",
+  "{count} Backdrops"
+ ],
+ "lng_gift_resale_count": [
+  "{count} listing",
+  "{count} listings"
+ ],
+ "lng_gift_resale_count_none": [
+  "No listings"
+ ],
+ "lng_gift_resale_date": [
+  "Date"
+ ],
+ "lng_gift_resale_filter_all": [
+  "Select All"
+ ],
+ "lng_gift_resale_model": [
+  "Model"
+ ],
+ "lng_gift_resale_models": [
+  "{count} Model",
+  "{count} Models"
+ ],
+ "lng_gift_resale_number": [
+  "Number"
+ ],
+ "lng_gift_resale_price": [
+  "Price"
+ ],
+ "lng_gift_resale_search_none": [
+  "No gifts found for your search."
+ ],
+ "lng_gift_resale_sort_date": [
+  "Sort by Date"
+ ],
+ "lng_gift_resale_sort_number": [
+  "Sort by Number"
+ ],
+ "lng_gift_resale_sort_price": [
+  "Sort by Price"
+ ],
+ "lng_gift_resale_stars_only": [
+  "For Stars Only"
+ ],
+ "lng_gift_resale_switch_to": [
+  "Switch to {currency}"
+ ],
+ "lng_gift_resale_switch_to_stars": [
+  "Switch to Stars"
+ ],
+ "lng_gift_resale_switch_to_ton": [
+  "Switch to Grams"
+ ],
+ "lng_gift_resale_symbol": [
+  "Symbol"
+ ],
+ "lng_gift_resale_symbols": [
+  "{count} Symbol",
+  "{count} Symbols"
+ ],
+ "lng_gift_self_about": [
+  "Buy yourself a gift to add to your profile or reserve for later.Limited-edition gifts upgraded to collectibles can be gifted to others."
+ ],
+ "lng_gift_self_status": [
+  "buy yourself a gift"
+ ],
+ "lng_gift_self_title": [
+  "Buy a Gift"
+ ],
+ "lng_gift_sell_about": [
+  "You will receive {percent} of the selected amount."
+ ],
+ "lng_gift_sell_amount": [
+  "You will receive **{count}** Star.",
+  "You will receive **{count}** Stars."
+ ],
+ "lng_gift_sell_min_price": [
+  "Minimum price is {count} Star.",
+  "Minimum price is {count} Stars."
+ ],
+ "lng_gift_sell_placeholder": [
+  "Enter price in Stars"
+ ],
+ "lng_gift_sell_put": [
+  "Put for Sale"
+ ],
+ "lng_gift_sell_removed": [
+  "{name} is removed from sale."
+ ],
+ "lng_gift_sell_small": [
+  "sell for {count} Star",
+  "sell for {count} Stars"
+ ],
+ "lng_gift_sell_title": [
+  "Price in Stars"
+ ],
+ "lng_gift_sell_toast": [
+  "{name} is now for sale!"
+ ],
+ "lng_gift_sell_unlist_sure": [
+  "Are you sure you want to unlist your gift?"
+ ],
+ "lng_gift_sell_unlist_title": [
+  "Unlist {name}"
+ ],
+ "lng_gift_sell_update": [
+  "Update the Price"
+ ],
+ "lng_gift_sell_updated": [
+  "Sale price for {name} was updated."
+ ],
+ "lng_gift_send_anonymous": [
+  "Hide My Name"
+ ],
+ "lng_gift_send_anonymous_about": [
+  "You can hide your name and message from visitors to {user}'s profile. {recipient} will still see your name and message."
+ ],
+ "lng_gift_send_anonymous_about_channel": [
+  "You can hide your name and message from all visitors to this channel except its admins."
+ ],
+ "lng_gift_send_anonymous_about_paid": [
+  "You can hide your name from visitors to {user}'s profile. {recipient} will still see your name."
+ ],
+ "lng_gift_send_anonymous_self": [
+  "Hide my name and message from visitors to my profile."
+ ],
+ "lng_gift_send_button": [
+  "Send a Gift for {cost}"
+ ],
+ "lng_gift_send_button_self": [
+  "Buy a Gift for {cost}"
+ ],
+ "lng_gift_send_limited_left": [
+  "{count} left",
+  "{count} left"
+ ],
+ "lng_gift_send_limited_sold": [
+  "{count} sold",
+  "{count} sold"
+ ],
+ "lng_gift_send_message": [
+  "Enter Message"
+ ],
+ "lng_gift_send_message_preview": [
+  "Your message…"
+ ],
+ "lng_gift_send_pay_with_stars": [
+  "Pay with {amount}"
+ ],
+ "lng_gift_send_premium_about": [
+  "Only {user} will see your message."
+ ],
+ "lng_gift_send_small": [
+  "send a gift"
+ ],
+ "lng_gift_send_stars_balance": [
+  "Your balance is {amount}. {link}"
+ ],
+ "lng_gift_send_stars_balance_link": [
+  "Get More Stars >"
+ ],
+ "lng_gift_send_title": [
+  "Send a Gift"
+ ],
+ "lng_gift_send_unique": [
+  "Make Unique for {price}"
+ ],
+ "lng_gift_send_unique_about": [
+  "Enable this to let {user} turn your gift into a unique collectible. {link}"
+ ],
+ "lng_gift_send_unique_about_channel": [
+  "Enable this to let the admins of {name} convert gift to a unique collectible. {link}"
+ ],
+ "lng_gift_send_unique_link": [
+  "Learn More >"
+ ],
+ "lng_gift_sent_finished": [
+  "You already sent **{count}** of these gifts, which is the limit.",
+  "You already sent **{count}** of these gifts, which is the limit."
+ ],
+ "lng_gift_sold_out_text": [
+  "All {count} gift was already sold.",
+  "All {count} gifts were already sold."
+ ],
+ "lng_gift_sold_out_title": [
+  "Sold Out!"
+ ],
+ "lng_gift_stars_about": [
+  "Give {name} gifts that can be kept on the profile or converted to Stars. {link}"
+ ],
+ "lng_gift_stars_auction": [
+  "auction"
+ ],
+ "lng_gift_stars_auction_join": [
+  "Join"
+ ],
+ "lng_gift_stars_auction_view": [
+  "View"
+ ],
+ "lng_gift_stars_limited": [
+  "limited"
+ ],
+ "lng_gift_stars_link": [
+  "What are Stars >"
+ ],
+ "lng_gift_stars_on_card": [
+  "on card"
+ ],
+ "lng_gift_stars_on_sale": [
+  "on sale"
+ ],
+ "lng_gift_stars_premium": [
+  "premium"
+ ],
+ "lng_gift_stars_resale": [
+  "resale"
+ ],
+ "lng_gift_stars_sold_out": [
+  "sold out"
+ ],
+ "lng_gift_stars_subtitle": [
+  "Send a Gift"
+ ],
+ "lng_gift_stars_tabs_all": [
+  "All Gifts"
+ ],
+ "lng_gift_stars_tabs_collectibles": [
+  "Collectibles"
+ ],
+ "lng_gift_stars_tabs_in_stock": [
+  "In Stock"
+ ],
+ "lng_gift_stars_tabs_limited": [
+  "Limited"
+ ],
+ "lng_gift_stars_tabs_my": [
+  "My Gifts"
+ ],
+ "lng_gift_stars_tabs_resale": [
+  "Resale"
+ ],
+ "lng_gift_stars_title": [
+  "{count} Star",
+  "{count} Stars"
+ ],
+ "lng_gift_stars_your_finished": [
+  "none left"
+ ],
+ "lng_gift_stars_your_left": [
+  "{count} left",
+  "{count} left"
+ ],
+ "lng_gift_subtitle_birthdays": [
+  "Birthdays"
+ ],
+ "lng_gift_ton_amount": [
+  "{count} Gram",
+  "{count} Grams"
+ ],
+ "lng_gift_transfer_sell": [
+  "Sell"
+ ],
+ "lng_gift_transfer_take_off": [
+  "Take Off"
+ ],
+ "lng_gift_transfer_title": [
+  "Transfer {name}"
+ ],
+ "lng_gift_transfer_to_gifts": [
+  "Move to My Gifts"
+ ],
+ "lng_gift_transfer_to_gifts_appear": [
+  "It will appear in"
+ ],
+ "lng_gift_transfer_to_gifts_button": [
+  "Move"
+ ],
+ "lng_gift_transfer_to_gifts_path_icons": [
+  "{profile} {arrow} {gifts}"
+ ],
+ "lng_gift_transfer_to_gifts_text": [
+  "Transfer this collectible off-chain to your Telegram account?"
+ ],
+ "lng_gift_transfer_to_wallet": [
+  "Move to My Wallet"
+ ],
+ "lng_gift_transfer_to_wallet_appear": [
+  "It will appear in"
+ ],
+ "lng_gift_transfer_to_wallet_button": [
+  "Move"
+ ],
+ "lng_gift_transfer_to_wallet_keep_on_profile": [
+  "Keep showing on my profile"
+ ],
+ "lng_gift_transfer_to_wallet_path_icons": [
+  "{menu} {arrow} {money} {arrow_next} {collectibles}"
+ ],
+ "lng_gift_transfer_to_wallet_text": [
+  "Transfer this gift to your blockchain wallet?"
+ ],
+ "lng_gift_transfer_unlist": [
+  "Unlist"
+ ],
+ "lng_gift_transfer_unlocks_about": [
+  "{when}, you'll be able to send this collectible to any TON blockchain address outside Telegram for sale or auction."
+ ],
+ "lng_gift_transfer_unlocks_days": [
+  "unlocks in {count} day",
+  "unlocks in {count} days"
+ ],
+ "lng_gift_transfer_unlocks_title": [
+  "Unlocking in progress"
+ ],
+ "lng_gift_transfer_unlocks_when_days": [
+  "In {count} day",
+  "In {count} days"
+ ],
+ "lng_gift_transfer_update": [
+  "Change Price"
+ ],
+ "lng_gift_transfer_via_blockchain": [
+  "Send via Blockchain"
+ ],
+ "lng_gift_transfer_wear": [
+  "Wear"
+ ],
+ "lng_gift_uncommon_tag": [
+  "uncommon"
+ ],
+ "lng_gift_unique_availability": [
+  "{count} of {amount} issued",
+  "{count} of {amount} issued"
+ ],
+ "lng_gift_unique_availability_label": [
+  "Quantity"
+ ],
+ "lng_gift_unique_backdrop": [
+  "Backdrop"
+ ],
+ "lng_gift_unique_crafter_you": [
+  "You crafted this gift on {date}"
+ ],
+ "lng_gift_unique_info_reciever": [
+  "Gifted to {recipient} on {date}."
+ ],
+ "lng_gift_unique_info_sender": [
+  "Gifted by {from} to {recipient} on {date}."
+ ],
+ "lng_gift_unique_info_sender_comment": [
+  "Gifted by {from} to {recipient} on {date} with the comment \"{text}\"."
+ ],
+ "lng_gift_unique_model": [
+  "Model"
+ ],
+ "lng_gift_unique_number": [
+  "Collectible #{index}"
+ ],
+ "lng_gift_unique_number_by": [
+  "Collectible #{index} by {name}"
+ ],
+ "lng_gift_unique_owner": [
+  "Owner"
+ ],
+ "lng_gift_unique_owner_change": [
+  "change"
+ ],
+ "lng_gift_unique_rarity": [
+  "Only {percent} of such collectibles have this attribute."
+ ],
+ "lng_gift_unique_sender": [
+  "{from} sent you this gift on {date}"
+ ],
+ "lng_gift_unique_status": [
+  "Status"
+ ],
+ "lng_gift_unique_status_non": [
+  "Non-Unique"
+ ],
+ "lng_gift_unique_status_upgrade": [
+  "upgrade"
+ ],
+ "lng_gift_unique_symbol": [
+  "Symbol"
+ ],
+ "lng_gift_unique_upgrade_next": [
+  "Upgrade Next Gift"
+ ],
+ "lng_gift_unique_value": [
+  "Value"
+ ],
+ "lng_gift_unique_value_learn_more": [
+  "learn more"
+ ],
+ "lng_gift_upgrade_about": [
+  "Turn your gift into a unique collectiblethat you can transfer or auction."
+ ],
+ "lng_gift_upgrade_add_sender": [
+  "Add sender's name to the gift"
+ ],
+ "lng_gift_upgrade_button": [
+  "Upgrade for {price}"
+ ],
+ "lng_gift_upgrade_confirm": [
+  "Confirm"
+ ],
+ "lng_gift_upgrade_free": [
+  "Upgrade for Free"
+ ],
+ "lng_gift_upgrade_preview_about": [
+  "Let {name} turn this gift into a unique collectible."
+ ],
+ "lng_gift_upgrade_preview_title": [
+  "Make Unique"
+ ],
+ "lng_gift_upgrade_title": [
+  "Upgrade Gift"
+ ],
+ "lng_gift_upgrade_tradable_about": [
+  "Sell or auction your gift on third-party NFT marketplaces."
+ ],
+ "lng_gift_upgrade_tradable_title": [
+  "Tradable"
+ ],
+ "lng_gift_upgrade_transferable_about": [
+  "Send your upgraded gift to any of your friends on Telegram."
+ ],
+ "lng_gift_upgrade_transferable_title": [
+  "Transferable"
+ ],
+ "lng_gift_upgrade_unique_about": [
+  "Get a unique number, model, backdrop and symbol for your gift."
+ ],
+ "lng_gift_upgrade_unique_title": [
+  "Unique"
+ ],
+ "lng_gift_upgrade_wearable_about": [
+  "Display gifts on your profile and set them as your cover or status."
+ ],
+ "lng_gift_upgrade_wearable_title": [
+  "Wearable"
+ ],
+ "lng_gift_value_about_average": [
+  "The average sale price of {gift} gifts on Telegram and Fragment over the past month."
+ ],
+ "lng_gift_value_availability": [
+  "{count} {emoji} for sale on {platform} {arrow}",
+  "{count} {emoji} for sale on {platform} {arrow}"
+ ],
+ "lng_gift_value_average_price_tooltip": [
+  "{amount} is the average sale price of {gift} gifts on Telegram and Fragment over the past month."
+ ],
+ "lng_gift_value_fragment": [
+  "Fragment"
+ ],
+ "lng_gift_value_initial_price": [
+  "Initial Price"
+ ],
+ "lng_gift_value_initial_price_value": [
+  "{stars} ({amount})"
+ ],
+ "lng_gift_value_initial_sale": [
+  "Initial Sale"
+ ],
+ "lng_gift_value_last_price": [
+  "Last Price"
+ ],
+ "lng_gift_value_last_sale": [
+  "Last Sale"
+ ],
+ "lng_gift_value_minimum_price": [
+  "Minimum Price"
+ ],
+ "lng_gift_value_minimum_price_tooltip": [
+  "{amount} is the floor price for {gift} gifts listed on Telegram and Fragment."
+ ],
+ "lng_gift_value_telegram": [
+  "Telegram"
+ ],
+ "lng_gift_view_unpack": [
+  "Unpack"
+ ],
+ "lng_gift_visibility": [
+  "Visibility"
+ ],
+ "lng_gift_visibility_hidden": [
+  "Not visible on your profile"
+ ],
+ "lng_gift_visibility_hide": [
+  "hide"
+ ],
+ "lng_gift_visibility_show": [
+  "show"
+ ],
+ "lng_gift_visibility_shown": [
+  "Visible on your profile"
+ ],
+ "lng_gift_visible_hide_arrow": [
+  "Hide {arrow}"
+ ],
+ "lng_gift_visible_show_arrow": [
+  "Show {arrow}"
+ ],
+ "lng_gift_vlaue_average_price": [
+  "Average Price"
+ ],
+ "lng_gift_wear_about": [
+  "and get these benefits:"
+ ],
+ "lng_gift_wear_badge_about": [
+  "This gift will be displayed next to your name with a glittering icon."
+ ],
+ "lng_gift_wear_badge_title": [
+  "Radiant Badge"
+ ],
+ "lng_gift_wear_design_about": [
+  "Your profile will use the color and the symbol of this gift."
+ ],
+ "lng_gift_wear_design_title": [
+  "Unique Profile Design"
+ ],
+ "lng_gift_wear_end_toast": [
+  "You took off {name}"
+ ],
+ "lng_gift_wear_proof_about": [
+  "Clicking the icon next to your name will show the gift's owner and attributes."
+ ],
+ "lng_gift_wear_proof_title": [
+  "Proof of Ownership"
+ ],
+ "lng_gift_wear_start": [
+  "Start Wearing"
+ ],
+ "lng_gift_wear_start_toast": [
+  "You put on {name}"
+ ],
+ "lng_gift_wear_title": [
+  "Wear {name}"
+ ],
+ "lng_giveaway_award_chosen": [
+  "{count} recipient >",
+  "{count} recipients >"
+ ],
+ "lng_giveaway_award_option": [
+  "Award Specific Users"
+ ],
+ "lng_giveaway_award_subtitle": [
+  "Select recipients >"
+ ],
+ "lng_giveaway_channels_about": [
+  "Choose the groups and channels users need to join to take part in the giveaway."
+ ],
+ "lng_giveaway_channels_add": [
+  "Add Group or Channel"
+ ],
+ "lng_giveaway_channels_confirm_about": [
+  "Are you sure you want to add a private channel? Users won't be able to join it without an invite link."
+ ],
+ "lng_giveaway_channels_confirm_title": [
+  "Channel is Private"
+ ],
+ "lng_giveaway_channels_this": [
+  "this channel will receive {count} boost",
+  "this channel will receive {count} boosts"
+ ],
+ "lng_giveaway_channels_title": [
+  "Channels included in the giveaway"
+ ],
+ "lng_giveaway_create_option": [
+  "Create Giveaway"
+ ],
+ "lng_giveaway_create_subtitle": [
+  "winners are chosen randomly"
+ ],
+ "lng_giveaway_created_body": [
+  "Check your channels' {link} to see how this giveaway boosted your channel."
+ ],
+ "lng_giveaway_created_link": [
+  "Statistics"
+ ],
+ "lng_giveaway_created_title": [
+  "Giveaway created"
+ ],
+ "lng_giveaway_date": [
+  "Date and Time"
+ ],
+ "lng_giveaway_date_about": [
+  "Choose when {count} subscriber of your channel will be randomly selected to receive Telegram Premium.",
+  "Choose when {count} subscribers of your channel will be randomly selected to receive Telegram Premium."
+ ],
+ "lng_giveaway_date_select": [
+  "Select Date and Time"
+ ],
+ "lng_giveaway_date_title": [
+  "Date when giveaway ends"
+ ],
+ "lng_giveaway_duration_about_link": [
+  "here"
+ ],
+ "lng_giveaway_duration_title": [
+  "Duration of Premium subscription",
+  "Duration of Premium subscriptions"
+ ],
+ "lng_giveaway_maximum_countries_error": [
+  "You can select up to {count} country.",
+  "You can select up to {count} countries."
+ ],
+ "lng_giveaway_new_about": [
+  "Get more boosts for your channel by gifting Premium to your subscribers."
+ ],
+ "lng_giveaway_new_title": [
+  "Boosts via Gifts"
+ ],
+ "lng_giveaway_quantity": [
+  "{count} Boost",
+  "{count} Boosts"
+ ],
+ "lng_giveaway_quantity_about": [
+  "Choose how many Premium subscriptions to give away and boosts to receive."
+ ],
+ "lng_giveaway_quantity_title": [
+  "Quantity of prizes"
+ ],
+ "lng_giveaway_start": [
+  "Start Giveaway"
+ ],
+ "lng_giveaway_users_about": [
+  "Choose if you want to limit the giveaway only to those who joined the channel after the giveaway started or to users from specific countries."
+ ],
+ "lng_giveaway_users_all": [
+  "All subscribers"
+ ],
+ "lng_giveaway_users_from_all_countries": [
+  "from all countries"
+ ],
+ "lng_giveaway_users_from_countries": [
+  "from {count} country",
+  "from {count} countries"
+ ],
+ "lng_giveaway_users_from_one_country": [
+  "from {country}"
+ ],
+ "lng_giveaway_users_new": [
+  "Only new subscribers"
+ ],
+ "lng_giveaway_users_title": [
+  "Users eligible for the giveaway"
+ ],
+ "lng_greeting_about": [
+  "Greet customers when they message you the first time or after a period of no activity."
+ ],
+ "lng_greeting_create": [
+  "Create a Greeting Message"
+ ],
+ "lng_greeting_empty_about": [
+  "Create greetings that will be automatically sent to new customers."
+ ],
+ "lng_greeting_empty_title": [
+  "New Greeting Message"
+ ],
+ "lng_greeting_enable": [
+  "Send Greeting Message"
+ ],
+ "lng_greeting_message_placeholder": [
+  "Add a Greeting"
+ ],
+ "lng_greeting_period_about": [
+  "Choose how many days should pass after your last interaction with a recipient to send them a greeting in response to their message."
+ ],
+ "lng_greeting_period_title": [
+  "Period of no activity"
+ ],
+ "lng_greeting_recipients": [
+  "Recipients"
+ ],
+ "lng_greeting_title": [
+  "Greeting Message"
+ ],
+ "lng_group_call_active": [
+  "speaking"
+ ],
+ "lng_group_call_add_to_group_all": [
+  "Those users aren't members of «{group}». Add them to the group?"
+ ],
+ "lng_group_call_add_to_group_one": [
+  "{user} isn't a member of «{group}». Add them to the group?"
+ ],
+ "lng_group_call_add_to_group_some": [
+  "Some of those users aren't members of «{group}». Add them to the group?"
+ ],
+ "lng_group_call_also_end": [
+  "End video chat"
+ ],
+ "lng_group_call_blockchain_only_status": [
+  "listening"
+ ],
+ "lng_group_call_calling_status": [
+  "calling..."
+ ],
+ "lng_group_call_confcall_add": [
+  "Call"
+ ],
+ "lng_group_call_connecting": [
+  "Connecting..."
+ ],
+ "lng_group_call_context_cancel_invite": [
+  "Discard invite"
+ ],
+ "lng_group_call_context_mute": [
+  "Mute"
+ ],
+ "lng_group_call_context_mute_for_me": [
+  "Mute for me"
+ ],
+ "lng_group_call_context_stop_ringing": [
+  "Stop calling"
+ ],
+ "lng_group_call_context_unmute": [
+  "Allow to speak"
+ ],
+ "lng_group_call_create_sure": [
+  "Start a video chat in this group?"
+ ],
+ "lng_group_call_duration_days": [
+  "{count} day",
+  "{count} days"
+ ],
+ "lng_group_call_duration_hours": [
+  "{count} hour",
+  "{count} hours"
+ ],
+ "lng_group_call_duration_minutes": [
+  "{count} minute",
+  "{count} minutes"
+ ],
+ "lng_group_call_duration_seconds": [
+  "{count} second",
+  "{count} seconds"
+ ],
+ "lng_group_call_end": [
+  "End Video Chat"
+ ],
+ "lng_group_call_force_muted": [
+  "Muted by admin"
+ ],
+ "lng_group_call_force_muted_sub": [
+  "You are in Listen Only mode"
+ ],
+ "lng_group_call_inactive": [
+  "listening"
+ ],
+ "lng_group_call_invite": [
+  "Invite Members"
+ ],
+ "lng_group_call_invite_button": [
+  "Invite"
+ ],
+ "lng_group_call_invite_conf": [
+  "Add People"
+ ],
+ "lng_group_call_invite_done_many": [
+  "You invited **{count} participant** to the video chat.",
+  "You invited **{count} participants** to the video chat."
+ ],
+ "lng_group_call_invite_done_user": [
+  "You invited {user} to the video chat."
+ ],
+ "lng_group_call_invite_limit": [
+  "This is currently the maximum allowed number of participants."
+ ],
+ "lng_group_call_invite_members": [
+  "Group members"
+ ],
+ "lng_group_call_invite_search_results": [
+  "Search results"
+ ],
+ "lng_group_call_invite_title": [
+  "Invite members"
+ ],
+ "lng_group_call_invited_status": [
+  "invited"
+ ],
+ "lng_group_call_join": [
+  "Join"
+ ],
+ "lng_group_call_join_as_about": [
+  "Choose whether you want to be displayed as your personal account or as your channel."
+ ],
+ "lng_group_call_leave": [
+  "Leave"
+ ],
+ "lng_group_call_leave_channel_to_other_sure": [
+  "Do you want to leave your active live stream and join a video chat in this group?"
+ ],
+ "lng_group_call_leave_sure_call": [
+  "Do you want to leave this group call?"
+ ],
+ "lng_group_call_leave_title": [
+  "Leave video chat"
+ ],
+ "lng_group_call_leave_title_call": [
+  "Leave group call"
+ ],
+ "lng_group_call_leave_to_other_sure": [
+  "Leave your currently active video chat and join this video chat?"
+ ],
+ "lng_group_call_leave_to_other_sure_channel": [
+  "Do you want to leave your active video chat and join a live stream in this channel?"
+ ],
+ "lng_group_call_mac_access": [
+  "Telegram Desktop does not have access to system wide keyboard input required for Push to Talk."
+ ],
+ "lng_group_call_mac_input": [
+  "Please allow **Input Monitoring** for Telegram in Privacy Settings."
+ ],
+ "lng_group_call_mac_settings": [
+  "Open Settings"
+ ],
+ "lng_group_call_members": [
+  "{count} participant",
+  "{count} participants"
+ ],
+ "lng_group_call_microphone": [
+  "Microphone"
+ ],
+ "lng_group_call_new_muted": [
+  "Mute new participants"
+ ],
+ "lng_group_call_no_anonymous": [
+  "Sorry, you can't join video chats as an anonymous administrator."
+ ],
+ "lng_group_call_no_members": [
+  "Click to join"
+ ],
+ "lng_group_call_or_schedule": [
+  "You can also {link}."
+ ],
+ "lng_group_call_ptt_delay": [
+  "Release delay: {delay}"
+ ],
+ "lng_group_call_ptt_delay_ms": [
+  "{amount} ms"
+ ],
+ "lng_group_call_ptt_delay_s": [
+  "{amount} s"
+ ],
+ "lng_group_call_ptt_recording": [
+  "Stop Recording"
+ ],
+ "lng_group_call_ptt_shortcut": [
+  "Edit Keyboard Shortcut"
+ ],
+ "lng_group_call_push_to_talk": [
+  "Push-to-Talk Shortcut"
+ ],
+ "lng_group_call_schedule_channel": [
+  "schedule a live stream"
+ ],
+ "lng_group_call_schedule_notified_channel": [
+  "Subscribers of the channel will be notified that the live stream starts in {duration}."
+ ],
+ "lng_group_call_schedule_title_channel": [
+  "Schedule Live Stream"
+ ],
+ "lng_group_call_settings": [
+  "Settings"
+ ],
+ "lng_group_call_settings_title": [
+  "Settings"
+ ],
+ "lng_group_call_share": [
+  "Share Invite Link"
+ ],
+ "lng_group_call_speakers": [
+  "Speakers"
+ ],
+ "lng_group_call_start_as_header_channel": [
+  "Start Live Stream as..."
+ ],
+ "lng_group_call_title": [
+  "Video Chat"
+ ],
+ "lng_group_call_too_many": [
+  "Sorry, this video chat has too many participants at the moment."
+ ],
+ "lng_group_call_unmute": [
+  "Unmute"
+ ],
+ "lng_group_call_you_are_live": [
+  "You are Live"
+ ],
+ "lng_group_invite_copy": [
+  "Copy Link"
+ ],
+ "lng_group_invite_share": [
+  "Share Link"
+ ],
+ "lng_guest_chat_for": [
+  "for {user}"
+ ],
+ "lng_hours_about": [
+  "Turn this on to show your opening hours schedule to your customers."
+ ],
+ "lng_hours_about_day": [
+  "Specify your working hours during the day."
+ ],
+ "lng_hours_add_button": [
+  "Add a Set of Hours"
+ ],
+ "lng_hours_closed": [
+  "Closed"
+ ],
+ "lng_hours_closing": [
+  "Closing Time"
+ ],
+ "lng_hours_friday": [
+  "Friday"
+ ],
+ "lng_hours_monday": [
+  "Monday"
+ ],
+ "lng_hours_next_day": [
+  "{time} (Next day)"
+ ],
+ "lng_hours_on_next_day": [
+  "Next day {time}"
+ ],
+ "lng_hours_open_full": [
+  "Open 24 hours"
+ ],
+ "lng_hours_opening": [
+  "Opening Time"
+ ],
+ "lng_hours_remove": [
+  "Remove"
+ ],
+ "lng_hours_saturday": [
+  "Saturday"
+ ],
+ "lng_hours_show": [
+  "Show Business Hours"
+ ],
+ "lng_hours_sunday": [
+  "Sunday"
+ ],
+ "lng_hours_thursday": [
+  "Thursday"
+ ],
+ "lng_hours_time_zone": [
+  "Time Zone"
+ ],
+ "lng_hours_time_zone_title": [
+  "Choose Time Zone"
+ ],
+ "lng_hours_title": [
+  "Business Hours"
+ ],
+ "lng_hours_tuesday": [
+  "Tuesday"
+ ],
+ "lng_hours_wednesday": [
+  "Wednesday"
+ ],
+ "lng_imported": [
+  "imported"
+ ],
+ "lng_in_dlg_audio_file": [
+  "Audio file"
+ ],
+ "lng_in_dlg_file": [
+  "File"
+ ],
+ "lng_in_dlg_poll": [
+  "Poll"
+ ],
+ "lng_in_reply_to": [
+  "In reply to"
+ ],
+ "lng_info_hours_closed": [
+  "closed"
+ ],
+ "lng_info_hours_label": [
+  "Business hours"
+ ],
+ "lng_info_hours_local_time": [
+  "local time"
+ ],
+ "lng_info_hours_my_time": [
+  "my time"
+ ],
+ "lng_info_hours_open_full": [
+  "open 24 hours"
+ ],
+ "lng_info_hours_opens_in_days": [
+  "opens in {count} day",
+  "opens in {count} days"
+ ],
+ "lng_info_hours_opens_in_hours": [
+  "opens in {count} hour",
+  "opens in {count} hours"
+ ],
+ "lng_info_hours_opens_in_minutes": [
+  "opens in {count} minute",
+  "opens in {count} minutes"
+ ],
+ "lng_info_location_label": [
+  "Location"
+ ],
+ "lng_info_tab_media": [
+  "Media"
+ ],
+ "lng_info_work_closed": [
+  "Closed"
+ ],
+ "lng_info_work_open": [
+  "Open"
+ ],
+ "lng_iv_details_state_collapsed": [
+  "Collapsed"
+ ],
+ "lng_iv_details_state_expanded": [
+  "Expanded"
+ ],
+ "lng_iv_editor_discard_draft_sure": [
+  "Are you sure you want to discard this message? This action cannot be undone."
+ ],
+ "lng_iv_editor_media_invalid_file": [
+  "Sorry, only photos, videos and audio files are supported here."
+ ],
+ "lng_iv_join_channel": [
+  "Join"
+ ],
+ "lng_iv_open_in_browser": [
+  "Open in Browser"
+ ],
+ "lng_iv_share": [
+  "Share"
+ ],
+ "lng_iv_window_title": [
+  "Instant View"
+ ],
+ "lng_iv_wrong_layout": [
+  "Wrong layout?"
+ ],
+ "lng_iv_zoom_tooltip_cmd": [
+  "Hold Cmd to zoom by 5%.Hold Alt to zoom by 1%."
+ ],
+ "lng_iv_zoom_tooltip_ctrl": [
+  "Hold Ctrl to zoom by 5%.Hold Alt to zoom by 1%."
+ ],
+ "lng_keys_legend_alt_text_select": [
+  "Select text instead of opening links"
+ ],
+ "lng_keys_legend_attach": [
+  "Attach a file"
+ ],
+ "lng_keys_legend_autoscroll": [
+  "Autoscroll the chat"
+ ],
+ "lng_keys_legend_chat_switcher": [
+  "Quick chat switcher"
+ ],
+ "lng_keys_legend_click": [
+  "Click"
+ ],
+ "lng_keys_legend_drag": [
+  "Drag"
+ ],
+ "lng_keys_legend_edit_last": [
+  "Edit the last message"
+ ],
+ "lng_keys_legend_extend_selection": [
+  "Extend text selection"
+ ],
+ "lng_keys_legend_folder_numbers": [
+  "Open folder by number"
+ ],
+ "lng_keys_legend_hold": [
+  "Hold"
+ ],
+ "lng_keys_legend_iv_close": [
+  "Close Instant View"
+ ],
+ "lng_keys_legend_iv_search": [
+  "Search the page"
+ ],
+ "lng_keys_legend_iv_zoom": [
+  "Zoom the page"
+ ],
+ "lng_keys_legend_iv_zoom_reset": [
+  "Reset zoom"
+ ],
+ "lng_keys_legend_media_2x": [
+  "2x speed"
+ ],
+ "lng_keys_legend_media_chapter_next": [
+  "Next chapter"
+ ],
+ "lng_keys_legend_media_chapter_prev": [
+  "Previous chapter"
+ ],
+ "lng_keys_legend_media_double": [
+  "Toggle fullscreen"
+ ],
+ "lng_keys_legend_media_escape": [
+  "Close the viewer"
+ ],
+ "lng_keys_legend_media_fit": [
+  "Fit to screen"
+ ],
+ "lng_keys_legend_media_flip": [
+  "Flip the photo horizontally or vertically"
+ ],
+ "lng_keys_legend_media_frame": [
+  "Frame-step while paused"
+ ],
+ "lng_keys_legend_media_fullscreen": [
+  "Toggle fullscreen video"
+ ],
+ "lng_keys_legend_media_fullscreen_escape": [
+  "Exit fullscreen"
+ ],
+ "lng_keys_legend_media_hold": [
+  "Speed up playback, drag to scrub the speed"
+ ],
+ "lng_keys_legend_media_nav": [
+  "Previous or next media"
+ ],
+ "lng_keys_legend_media_pause": [
+  "Pause or resume"
+ ],
+ "lng_keys_legend_media_percent": [
+  "Jump to 0-90% of the video"
+ ],
+ "lng_keys_legend_media_play": [
+  "Play or pause"
+ ],
+ "lng_keys_legend_media_save": [
+  "Save media"
+ ],
+ "lng_keys_legend_media_seek": [
+  "Seek backward or forward"
+ ],
+ "lng_keys_legend_media_zoom": [
+  "Zoom in or out"
+ ],
+ "lng_keys_legend_media_zoom_reset": [
+  "Reset zoom"
+ ],
+ "lng_keys_legend_new_window": [
+  "Open chat in a new window"
+ ],
+ "lng_keys_legend_open": [
+  "Show these shortcuts"
+ ],
+ "lng_keys_legend_paste_plain": [
+  "Paste as plain text"
+ ],
+ "lng_keys_legend_pinned_chats": [
+  "Open pinned chat by number"
+ ],
+ "lng_keys_legend_quick_preview": [
+  "Show a quick chat preview"
+ ],
+ "lng_keys_legend_reply_next": [
+  "Reply to next message"
+ ],
+ "lng_keys_legend_reply_prev": [
+  "Reply to previous message"
+ ],
+ "lng_keys_legend_section_chats": [
+  "Chats list"
+ ],
+ "lng_keys_legend_section_compose": [
+  "Writing messages"
+ ],
+ "lng_keys_legend_section_fullscreen": [
+  "Fullscreen video"
+ ],
+ "lng_keys_legend_section_general": [
+  "General"
+ ],
+ "lng_keys_legend_section_iv": [
+  "Instant View"
+ ],
+ "lng_keys_legend_section_media": [
+  "Media viewer"
+ ],
+ "lng_keys_legend_section_messages": [
+  "Messages"
+ ],
+ "lng_keys_legend_title": [
+  "Shortcuts and gestures"
+ ],
+ "lng_keys_legend_wheel": [
+  "Wheel"
+ ],
+ "lng_language_name": [
+  "English"
+ ],
+ "lng_launch_exe_dont_ask": [
+  "Don't ask me again"
+ ],
+ "lng_launch_exe_sure": [
+  "Run"
+ ],
+ "lng_launch_exe_warning": [
+  "This file has the extension {extension}It may harm your computer.Are you sure you want to run it?"
+ ],
+ "lng_limit_download_increase_times": [
+  "**{count}** time",
+  "**{count}** times"
+ ],
+ "lng_limit_download_subscribe": [
+  "Subscribe to {link} to increase download speed {increase}."
+ ],
+ "lng_limit_download_subscribe_link": [
+  "Telegram Premium"
+ ],
+ "lng_limit_download_title": [
+  "Download speed limited"
+ ],
+ "lng_limit_upload_increase_times": [
+  "**{count}** time",
+  "**{count}** times"
+ ],
+ "lng_limit_upload_subscribe": [
+  "Subscribe to {link} to increase upload speed {increase}."
+ ],
+ "lng_limit_upload_subscribe_link": [
+  "Telegram Premium"
+ ],
+ "lng_limit_upload_title": [
+  "Upload speed limited"
+ ],
+ "lng_link_about_choose": [
+  "Click on a link to generate its preview."
+ ],
+ "lng_link_enlarge_photo": [
+  "Enlarge Photo"
+ ],
+ "lng_link_header_short": [
+  "Link"
+ ],
+ "lng_link_move_down": [
+  "Move Down"
+ ],
+ "lng_link_move_up": [
+  "Move Up"
+ ],
+ "lng_link_options_header": [
+  "Link Preview Settings"
+ ],
+ "lng_link_remove": [
+  "Do Not Preview"
+ ],
+ "lng_link_shrink_photo": [
+  "Shrink Photo"
+ ],
+ "lng_linux_menu_redo": [
+  "Redo"
+ ],
+ "lng_linux_menu_undo": [
+  "Undo"
+ ],
+ "lng_location_about": [
+  "Display the location of your business on your account."
+ ],
+ "lng_location_fallback": [
+  "You can set your location on the map from your mobile device."
+ ],
+ "lng_location_set_map": [
+  "Set Location on Map"
+ ],
+ "lng_location_title": [
+  "Location"
+ ],
+ "lng_mac_always_open_with": [
+  "Always Open With"
+ ],
+ "lng_mac_choose_text": [
+  "Choose an application to open the document \"{file}\"."
+ ],
+ "lng_mac_enable_filter": [
+  "Show:"
+ ],
+ "lng_mac_menu_about_telegram": [
+  "About {telegram}"
+ ],
+ "lng_mac_menu_add_contact": [
+  "Add Contact"
+ ],
+ "lng_mac_menu_contacts": [
+  "Contacts"
+ ],
+ "lng_mac_menu_copy": [
+  "Copy"
+ ],
+ "lng_mac_menu_cut": [
+  "Cut"
+ ],
+ "lng_mac_menu_delete": [
+  "Delete"
+ ],
+ "lng_mac_menu_edit": [
+  "Edit"
+ ],
+ "lng_mac_menu_file": [
+  "File"
+ ],
+ "lng_mac_menu_hide_others": [
+  "Hide Others"
+ ],
+ "lng_mac_menu_hide_telegram": [
+  "Hide {telegram}"
+ ],
+ "lng_mac_menu_logout": [
+  "Log Out"
+ ],
+ "lng_mac_menu_new_channel": [
+  "New Channel"
+ ],
+ "lng_mac_menu_new_group": [
+  "New Group"
+ ],
+ "lng_mac_menu_paste": [
+  "Paste"
+ ],
+ "lng_mac_menu_player_next": [
+  "Next"
+ ],
+ "lng_mac_menu_player_pause": [
+  "Pause"
+ ],
+ "lng_mac_menu_player_previous": [
+  "Previous"
+ ],
+ "lng_mac_menu_player_resume": [
+  "Resume"
+ ],
+ "lng_mac_menu_preferences": [
+  "Preferences..."
+ ],
+ "lng_mac_menu_quit_telegram": [
+  "Quit {telegram}"
+ ],
+ "lng_mac_menu_redo": [
+  "Redo"
+ ],
+ "lng_mac_menu_select_all": [
+  "Select All"
+ ],
+ "lng_mac_menu_services": [
+  "Services"
+ ],
+ "lng_mac_menu_show": [
+  "Show Telegram"
+ ],
+ "lng_mac_menu_show_all": [
+  "Show All"
+ ],
+ "lng_mac_menu_undo": [
+  "Undo"
+ ],
+ "lng_mac_menu_window": [
+  "Window"
+ ],
+ "lng_mac_recommended_apps": [
+  "Recommended Applications"
+ ],
+ "lng_manage_community_title": [
+  "Manage community"
+ ],
+ "lng_manage_messages_ttl_after3": [
+  "1 month"
+ ],
+ "lng_manage_peer_administrators": [
+  "Administrators"
+ ],
+ "lng_manage_peer_removed_users": [
+  "Removed users"
+ ],
+ "lng_maps_choose_to_search": [
+  "Choose location to see places nearby."
+ ],
+ "lng_maps_no_places": [
+  "No places found"
+ ],
+ "lng_maps_or_choose": [
+  "Or choose a venue"
+ ],
+ "lng_maps_places_in_area": [
+  "Places in this area"
+ ],
+ "lng_maps_point": [
+  "Location"
+ ],
+ "lng_maps_point_send": [
+  "Send This Location"
+ ],
+ "lng_maps_point_set": [
+  "Set This Location"
+ ],
+ "lng_maps_select_on_map": [
+  "Select on the Map"
+ ],
+ "lng_maps_venues_source": [
+  "Powered by Foursquare"
+ ],
+ "lng_markdown_preview_open_file": [
+  "Open file"
+ ],
+ "lng_masks_archive_pack": [
+  "Archive Masks"
+ ],
+ "lng_masks_count": [
+  "{count} mask",
+  "{count} masks"
+ ],
+ "lng_masks_has_been_archived": [
+  "Mask pack has been archived."
+ ],
+ "lng_masks_installed": [
+  "Mask pack has been installed."
+ ],
+ "lng_media_chat_background": [
+  "Chat Wallpaper"
+ ],
+ "lng_media_photo_empty": [
+  "No photos here yet"
+ ],
+ "lng_media_round": [
+  "Video message"
+ ],
+ "lng_media_type_rounds": [
+  "Video messages"
+ ],
+ "lng_mediaview_channel_photo": [
+  "Channel Photo"
+ ],
+ "lng_mediaview_community_photo": [
+  "Community Photo"
+ ],
+ "lng_mediaview_date_time": [
+  "{date} at {time}"
+ ],
+ "lng_mediaview_downloads": [
+  "Downloads"
+ ],
+ "lng_mediaview_file_n_of_amount": [
+  "{file} {n} of {amount}"
+ ],
+ "lng_mediaview_group_photo": [
+  "Group Photo"
+ ],
+ "lng_mediaview_n_of_amount": [
+  "Photo {n} of {amount}"
+ ],
+ "lng_mediaview_n_of_count": [
+  "Photo {n} of {count}"
+ ],
+ "lng_mediaview_profile_photo": [
+  "Profile Photo"
+ ],
+ "lng_mediaview_quality_auto": [
+  "Auto"
+ ],
+ "lng_mediaview_quality_original": [
+  "Original ({quality}p)"
+ ],
+ "lng_mediaview_saved_to": [
+  "Image was saved to your {downloads} folder"
+ ],
+ "lng_mediaview_today": [
+  "today at {time}"
+ ],
+ "lng_menu_about": [
+  "About"
+ ],
+ "lng_menu_activate": [
+  "Switch to this account"
+ ],
+ "lng_menu_add_account": [
+  "Add Account"
+ ],
+ "lng_menu_calls": [
+  "Calls"
+ ],
+ "lng_menu_contacts": [
+  "Contacts"
+ ],
+ "lng_menu_formatting": [
+  "Formatting"
+ ],
+ "lng_menu_formatting_blockquote": [
+  "Quote"
+ ],
+ "lng_menu_formatting_bold": [
+  "Bold"
+ ],
+ "lng_menu_formatting_date": [
+  "Date"
+ ],
+ "lng_menu_formatting_italic": [
+  "Italic"
+ ],
+ "lng_menu_formatting_marked": [
+  "Marked"
+ ],
+ "lng_menu_formatting_spoiler": [
+  "Spoiler"
+ ],
+ "lng_menu_formatting_strike_out": [
+  "Strikethrough"
+ ],
+ "lng_menu_formatting_subscript": [
+  "Subscript"
+ ],
+ "lng_menu_formatting_superscript": [
+  "Superscript"
+ ],
+ "lng_menu_formatting_underline": [
+  "Underline"
+ ],
+ "lng_menu_insert_unicode": [
+  "Insert Unicode control character"
+ ],
+ "lng_menu_my_channels": [
+  "My Channels"
+ ],
+ "lng_menu_my_groups": [
+  "My Groups"
+ ],
+ "lng_menu_my_profile": [
+  "My Profile"
+ ],
+ "lng_menu_night_mode": [
+  "Night Mode"
+ ],
+ "lng_menu_not_contact": [
+  "This number is not on Telegram"
+ ],
+ "lng_menu_settings": [
+  "Settings"
+ ],
+ "lng_menu_update": [
+  "Update"
+ ],
+ "lng_message_paid_ph": [
+  "Message for {amount}"
+ ],
+ "lng_message_ph": [
+  "Write a message..."
+ ],
+ "lng_message_unsupported": [
+  "This message is not supported by your version of Telegram. Please update to the latest version in Settings > Advanced, or install it from {link}. If you are already using the latest version, this message might depend on a feature that is not yet implemented."
+ ],
+ "lng_minimize_to_tray": [
+  "Minimize to Tray"
+ ],
+ "lng_month7": [
+  "July"
+ ],
+ "lng_month_day": [
+  "{month} {day}"
+ ],
+ "lng_month_day1": [
+  "January"
+ ],
+ "lng_month_day10": [
+  "October"
+ ],
+ "lng_month_day11": [
+  "November"
+ ],
+ "lng_month_day12": [
+  "December"
+ ],
+ "lng_month_day2": [
+  "February"
+ ],
+ "lng_month_day3": [
+  "March"
+ ],
+ "lng_month_day4": [
+  "April"
+ ],
+ "lng_month_day5": [
+  "May"
+ ],
+ "lng_month_day6": [
+  "June"
+ ],
+ "lng_month_day7": [
+  "July"
+ ],
+ "lng_month_day8": [
+  "August"
+ ],
+ "lng_month_day9": [
+  "September"
+ ],
+ "lng_months": [
+  "{count} month",
+  "{count} months"
+ ],
+ "lng_months_tiny": [
+  "{count}m",
+  "{count}m"
+ ],
+ "lng_music_attach_choose_from_files": [
+  "Choose from files"
+ ],
+ "lng_music_attach_global_search": [
+  "Global search"
+ ],
+ "lng_music_attach_saved_music": [
+  "Saved music"
+ ],
+ "lng_mute_box_tip": [
+  "Choose for how long you would like to turn off notifications for the following chat"
+ ],
+ "lng_mute_duration_days": [
+  "For {count} day",
+  "For {count} days"
+ ],
+ "lng_mute_duration_forever": [
+  "Forever"
+ ],
+ "lng_mute_duration_hours": [
+  "For {count} hour",
+  "For {count} hours"
+ ],
+ "lng_new_authorization": [
+  "**New login**. Dear {name}, we detected a login into your account from a new device on {day}, {date} at {time}Device: {device}Location: {location}If this wasn't you, you can terminate that session in **Settings > Privacy and Security > Active sessions**.If you think that somebody logged in to your account against your will, you can enable two-step verification in Settings."
+ ],
+ "lng_new_version_minor": [
+  "— Bug fixes and other minor improvements"
+ ],
+ "lng_new_version_wrap": [
+  "Telegram Desktop was updated to version {version}{changes}Full version history is available here:{link}"
+ ],
+ "lng_no_chats": [
+  "Your chats will be here"
+ ],
+ "lng_no_chats_filter": [
+  "No chats currently belong to this folder."
+ ],
+ "lng_no_contacts": [
+  "You have no contacts"
+ ],
+ "lng_notification_hide_all": [
+  "Hide all"
+ ],
+ "lng_notification_preview": [
+  "You have a new message"
+ ],
+ "lng_notification_reminder": [
+  "Reminder"
+ ],
+ "lng_notification_reply": [
+  "Reply"
+ ],
+ "lng_open_link": [
+  "Open"
+ ],
+ "lng_open_this_link": [
+  "Open this link?"
+ ],
+ "lng_outdated_now": [
+  "So Telegram Desktop can update to newer versions."
+ ],
+ "lng_outdated_soon": [
+  "Otherwise, Telegram Desktop will stop updating on {date}."
+ ],
+ "lng_outdated_title": [
+  "PLEASE UPDATE YOUR OPERATING SYSTEM."
+ ],
+ "lng_outdated_title_bits": [
+  "PLEASE SWITCH TO A 64-BIT OPERATING SYSTEM."
+ ],
+ "lng_participant_filter": [
+  "Search"
+ ],
+ "lng_participant_invite": [
+  "Add"
+ ],
+ "lng_passcode_confirm_new": [
+  "Re-enter new passcode"
+ ],
+ "lng_passcode_create_title": [
+  "Create Local Passcode"
+ ],
+ "lng_passcode_enter_first": [
+  "Enter a passcode"
+ ],
+ "lng_passcode_need_unblock": [
+  "You need to unlock me first."
+ ],
+ "lng_passcode_strength_advice_date": [
+  "Avoid dates and years."
+ ],
+ "lng_passcode_strength_advice_fine": [
+  "This passcode is hard to guess."
+ ],
+ "lng_passcode_strength_advice_keyboard": [
+  "Avoid keyboard patterns."
+ ],
+ "lng_passcode_strength_advice_leet": [
+  "Swapping letters for lookalike symbols doesn't help."
+ ],
+ "lng_passcode_strength_advice_repeat": [
+  "Avoid repeated characters."
+ ],
+ "lng_passcode_strength_advice_sequence": [
+  "Avoid runs like abc or 123."
+ ],
+ "lng_passcode_strength_advice_short": [
+  "Use at least 8 characters."
+ ],
+ "lng_passcode_strength_advice_variety": [
+  "Make it longer and mix in more kinds of characters."
+ ],
+ "lng_passcode_strength_advice_word": [
+  "Avoid common words and names."
+ ],
+ "lng_passcode_strength_empty": [
+  "Passcode strength estimate."
+ ],
+ "lng_passcode_systempwd": [
+  "You need to enter your passcodebefore you can use system password."
+ ],
+ "lng_passcode_touchid_unlock": [
+  "unlock"
+ ],
+ "lng_payment_confirm_amount": [
+  "**{count}** Star",
+  "**{count}** Stars"
+ ],
+ "lng_payment_confirm_button": [
+  "Pay for {count} Message",
+  "Pay for {count} Messages"
+ ],
+ "lng_payment_confirm_chats": [
+  "You selected **{count}** chat that charges Stars for messages.",
+  "You selected **{count}** chats that charge Stars for messages."
+ ],
+ "lng_payment_confirm_dont_ask": [
+  "Don't ask me again"
+ ],
+ "lng_payment_confirm_sure": [
+  "Would you like to pay {amount} to send **{count}** message?",
+  "Would you like to pay {amount} to send **{count}** messages?"
+ ],
+ "lng_payment_confirm_text": [
+  "{name} charges **{count}** Star per message.",
+  "{name} charges **{count}** Stars per message."
+ ],
+ "lng_payment_confirm_title": [
+  "Confirm payment"
+ ],
+ "lng_payment_confirm_users": [
+  "You selected **{count}** user who charge Stars for messages.",
+  "You selected **{count}** users who charge Stars for messages."
+ ],
+ "lng_payments_pay_amount": [
+  "Pay {amount}"
+ ],
+ "lng_payments_receipt_button": [
+  "Receipt"
+ ],
+ "lng_payments_receipt_label_test": [
+  "Test receipt"
+ ],
+ "lng_payments_terms_link": [
+  "Terms of Service"
+ ],
+ "lng_peer_gifts_filter_upgradable": [
+  "Upgradable"
+ ],
+ "lng_photo_editor_corners_about": [
+  "Choose how rounded the sticker corners should look."
+ ],
+ "lng_photo_editor_corners_large": [
+  "Large"
+ ],
+ "lng_photo_editor_corners_medium": [
+  "Medium"
+ ],
+ "lng_photo_editor_corners_none": [
+  "None"
+ ],
+ "lng_photo_editor_corners_small": [
+  "Small"
+ ],
+ "lng_photo_editor_crop_free": [
+  "Free"
+ ],
+ "lng_photo_editor_crop_original": [
+  "Original"
+ ],
+ "lng_photo_editor_crop_square": [
+  "Square"
+ ],
+ "lng_photo_editor_menu_delete": [
+  "Delete"
+ ],
+ "lng_photo_editor_menu_duplicate": [
+  "Duplicate"
+ ],
+ "lng_photo_editor_menu_flip": [
+  "Flip"
+ ],
+ "lng_photo_editor_text_style_framed": [
+  "Framed"
+ ],
+ "lng_photo_editor_text_style_plain": [
+  "Plain"
+ ],
+ "lng_photo_editor_text_style_semi_transparent": [
+  "Semi-Transparent"
+ ],
+ "lng_photos_comment": [
+  "Comment"
+ ],
+ "lng_pinned_unpin_many_sure": [
+  "Would you like to unpin {count} message?",
+  "Would you like to unpin {count} messages?"
+ ],
+ "lng_player_message_date": [
+  "{date} at {time}"
+ ],
+ "lng_polls_add_option": [
+  "Add an Option"
+ ],
+ "lng_polls_add_option_placeholder": [
+  "Option text..."
+ ],
+ "lng_polls_add_option_save": [
+  "Save"
+ ],
+ "lng_polls_admin_votes": [
+  "{count} vote {arrow}",
+  "{count} votes {arrow}"
+ ],
+ "lng_polls_anonymous_quiz": [
+  "Anonymous Quiz"
+ ],
+ "lng_polls_answers_count": [
+  "{count} answer",
+  "{count} answers"
+ ],
+ "lng_polls_answers_none": [
+  "No answers"
+ ],
+ "lng_polls_choose_answers": [
+  "Please enter at least one option."
+ ],
+ "lng_polls_choose_correct": [
+  "Please choose the correct answer."
+ ],
+ "lng_polls_choose_question": [
+  "Please enter a question."
+ ],
+ "lng_polls_context_ends": [
+  "Results will appear after the poll ends."
+ ],
+ "lng_polls_create_anonymous": [
+  "Anonymous Voting"
+ ],
+ "lng_polls_create_button": [
+  "Create"
+ ],
+ "lng_polls_create_deadline_button": [
+  "Set Deadline"
+ ],
+ "lng_polls_create_deadline_expired": [
+  "The poll deadline has already passed. Please choose a new time."
+ ],
+ "lng_polls_create_deadline_title": [
+  "Deadline"
+ ],
+ "lng_polls_create_duration_custom": [
+  "Custom"
+ ],
+ "lng_polls_create_limit": [
+  "You can add {count} more option.",
+  "You can add {count} more options."
+ ],
+ "lng_polls_create_multiple_choice": [
+  "Multiple Answers"
+ ],
+ "lng_polls_create_option_add": [
+  "Add an option..."
+ ],
+ "lng_polls_create_option_link": [
+  "Link"
+ ],
+ "lng_polls_create_option_link_description": [
+  "Attach a link to this option."
+ ],
+ "lng_polls_create_option_link_placeholder": [
+  "URL"
+ ],
+ "lng_polls_create_option_link_title": [
+  "Add link"
+ ],
+ "lng_polls_create_options": [
+  "Poll options"
+ ],
+ "lng_polls_create_question": [
+  "Question"
+ ],
+ "lng_polls_create_question_placeholder": [
+  "Ask a question"
+ ],
+ "lng_polls_create_quiz_mode": [
+  "Quiz Mode"
+ ],
+ "lng_polls_create_settings": [
+  "Settings"
+ ],
+ "lng_polls_create_title": [
+  "New poll"
+ ],
+ "lng_polls_ends_toast": [
+  "Results will appear after the poll ends."
+ ],
+ "lng_polls_menu_item": [
+  "Poll"
+ ],
+ "lng_polls_option_added_by": [
+  "Added by {user}"
+ ],
+ "lng_polls_option_open_link_title": [
+  "Open Link"
+ ],
+ "lng_polls_public": [
+  "Poll"
+ ],
+ "lng_polls_public_quiz": [
+  "Quiz"
+ ],
+ "lng_polls_results_in_days": [
+  "results in {count} day",
+  "results in {count} days"
+ ],
+ "lng_polls_results_in_time": [
+  "results in {time}"
+ ],
+ "lng_polls_retract": [
+  "Retract vote"
+ ],
+ "lng_polls_solution_about": [
+  "Users will see this comment after choosing a wrong answer, good for educational purposes."
+ ],
+ "lng_polls_solution_placeholder": [
+  "Add an explanation (optional)"
+ ],
+ "lng_polls_solution_title": [
+  "Explanation"
+ ],
+ "lng_polls_view_results": [
+  "View results"
+ ],
+ "lng_polls_view_votes": [
+  "View Votes ({count})",
+  "View Votes ({count})"
+ ],
+ "lng_polls_vote_yesterday": [
+  "yesterday"
+ ],
+ "lng_polls_votes_none": [
+  "No votes"
+ ],
+ "lng_popular_apps_info_bot": [
+  "@botfather"
+ ],
+ "lng_popular_apps_info_confirm": [
+  "Understood"
+ ],
+ "lng_popular_apps_info_here": [
+  "here"
+ ],
+ "lng_popular_apps_info_text": [
+  "This catalogue ranks mini apps based on their daily revenue, measured in Stars. To be listed, developers must set their main mini apps in {bot} (as described {link}), have over **1,000** daily users, and earn a daily revenue above **1,000** Stars, based on the weekly average."
+ ],
+ "lng_popular_apps_info_title": [
+  "Top Mini Apps"
+ ],
+ "lng_popular_apps_info_url": [
+  "https://core.telegram.org/bots/webapps#launching-the-main-mini-app"
+ ],
+ "lng_posts_limit_about": [
+  "You can make up to {count} search query per day.",
+  "You can make up to {count} search queries per day."
+ ],
+ "lng_posts_limit_reached": [
+  "Limit Reached"
+ ],
+ "lng_posts_limit_search_paid": [
+  "Search for {cost}"
+ ],
+ "lng_posts_limit_unlocks": [
+  "free search unlocks in {duration}"
+ ],
+ "lng_posts_need_subscribe": [
+  "Global search is a Premium feature."
+ ],
+ "lng_posts_paid_spent": [
+  "**{count} Star** spent on extra search.",
+  "**{count} Stars** spent on extra search."
+ ],
+ "lng_posts_remaining": [
+  "{count} free search remaining today",
+  "{count} free searches remaining today"
+ ],
+ "lng_posts_search_button": [
+  "Search {query}"
+ ],
+ "lng_posts_start": [
+  "Type a keyword to search for posts from public channels."
+ ],
+ "lng_posts_subscribe": [
+  "Subscribe to Premium"
+ ],
+ "lng_posts_subtitle": [
+  "Public posts"
+ ],
+ "lng_posts_title": [
+  "Global Search"
+ ],
+ "lng_premium_double_limits_about_similar_channels": [
+  "View up to {count} similar channel",
+  "View up to {count} similar channels"
+ ],
+ "lng_premium_double_limits_subtitle_similar_channels": [
+  "Similar Channels"
+ ],
+ "lng_premium_gift_duration_months": [
+  "for {count} month",
+  "for {count} months"
+ ],
+ "lng_premium_gift_terms": [
+  "You can review the list of features and more details about Telegram Premium {link}."
+ ],
+ "lng_premium_gift_title": [
+  "Gift Telegram Premium"
+ ],
+ "lng_premium_gifts_about_paid2": [
+  "**{user}** and **{second_user}** have been notified about the gifts you purchased."
+ ],
+ "lng_premium_gifts_about_paid_below": [
+  "They now have access to additional features.",
+  "They now have access to additional features."
+ ],
+ "lng_premium_gifts_about_paid_title": [
+  "Gifts Sent!"
+ ],
+ "lng_premium_gifts_about_reward": [
+  "You will receive {emoji}**{count}** boost.",
+  "You will receive {emoji}**{count}** boosts."
+ ],
+ "lng_premium_gifts_about_user2": [
+  "Give **{user}** and **{second_user}** access to exclusive features."
+ ],
+ "lng_premium_gifts_summary_subtitle": [
+  "What's Included"
+ ],
+ "lng_premium_gifts_terms": [
+  "By gifting Telegram Premium, you agree to the Telegram {link} and {policy}."
+ ],
+ "lng_premium_gifts_terms_policy": [
+  "Privacy Policy"
+ ],
+ "lng_premium_subscribe_months_24": [
+  "2-Year"
+ ],
+ "lng_premium_summary_about_ai_compose": [
+  "Transform your messages and entire chats in your preferred style and language."
+ ],
+ "lng_premium_summary_about_business": [
+  "Upgrade your account with business features such as location, opening hours and quick replies."
+ ],
+ "lng_premium_summary_about_effects": [
+  "Add over 500 animated effects to private messages."
+ ],
+ "lng_premium_summary_about_filter_tags": [
+  "Display folder names for each chat in the chat list."
+ ],
+ "lng_premium_summary_about_gifts": [
+  "Gifts are collectible items you can trade or showcase on your profile."
+ ],
+ "lng_premium_summary_about_last_seen": [
+  "View the last seen and read times of others even if you hide yours."
+ ],
+ "lng_premium_summary_about_message_privacy": [
+  "Limit messages from strangers or charge for incoming messages."
+ ],
+ "lng_premium_summary_about_no_forwards": [
+  "Restrict forwarding, copying, and saving content from your private chats."
+ ],
+ "lng_premium_summary_about_peer_colors": [
+  "Choose a color and logo for your profile and replies to your messages."
+ ],
+ "lng_premium_summary_about_rich_formatting": [
+  "Add headers, tables, inline media and AI content to messages."
+ ],
+ "lng_premium_summary_about_tags_for_messages": [
+  "Organize your Saved Messages with tags for quicker access."
+ ],
+ "lng_premium_summary_about_todo_lists": [
+  "Plan, assign, and complete tasks - seamlessly and efficiently."
+ ],
+ "lng_premium_summary_subtitle_ai_compose": [
+  "AI Tools"
+ ],
+ "lng_premium_summary_subtitle_business": [
+  "Telegram Business"
+ ],
+ "lng_premium_summary_subtitle_effects": [
+  "Message Effects"
+ ],
+ "lng_premium_summary_subtitle_filter_tags": [
+  "Tag Your Chats"
+ ],
+ "lng_premium_summary_subtitle_gifts": [
+  "Telegram Gifts"
+ ],
+ "lng_premium_summary_subtitle_last_seen": [
+  "Last Seen Times"
+ ],
+ "lng_premium_summary_subtitle_message_privacy": [
+  "Message Privacy"
+ ],
+ "lng_premium_summary_subtitle_no_forwards": [
+  "Disable Sharing"
+ ],
+ "lng_premium_summary_subtitle_peer_colors": [
+  "Name and Profile Colors"
+ ],
+ "lng_premium_summary_subtitle_rich_formatting": [
+  "Formatting Tools"
+ ],
+ "lng_premium_summary_subtitle_tags_for_messages": [
+  "Tags for Messages"
+ ],
+ "lng_premium_summary_subtitle_todo_lists": [
+  "Checklists"
+ ],
+ "lng_preview_cant": [
+  "Could not generate preview for this link."
+ ],
+ "lng_preview_loading": [
+  "Getting Link Info..."
+ ],
+ "lng_preview_reply_to": [
+  "Reply to {name}"
+ ],
+ "lng_preview_reply_to_poll_option": [
+  "Reply to poll option in {title}"
+ ],
+ "lng_preview_reply_to_quote": [
+  "Reply to quote from {name}"
+ ],
+ "lng_preview_reply_to_task": [
+  "Reply to task from {title}"
+ ],
+ "lng_prize_about": [
+  "You won a prize in a giveaway organized by {channel}."
+ ],
+ "lng_prize_duration": [
+  "Your prize is a **Telegram Premium** subscription {duration}."
+ ],
+ "lng_prize_gift_about": [
+  "You've received a gift from {channel}."
+ ],
+ "lng_prize_gift_duration": [
+  "Your gift is a **Telegram Premium** subscription {duration}."
+ ],
+ "lng_prize_open": [
+  "Open Gift Link"
+ ],
+ "lng_prize_title": [
+  "Congratulations!"
+ ],
+ "lng_prize_unclaimed_about": [
+  "You have an unclaimed prize from a giveaway by {channel}."
+ ],
+ "lng_prize_unclaimed_duration": [
+  "This prize is a **Telegram Premium** subscription {duration}."
+ ],
+ "lng_prize_unclaimed_title": [
+  "Unclaimed Prize"
+ ],
+ "lng_prizes_about": [
+  "**{count}** Telegram Premium Subscription {duration}.",
+  "**{count}** Telegram Premium Subscriptions {duration}."
+ ],
+ "lng_prizes_admins": [
+  "the admins of {channel}, who acquired **{count} Telegram Premium** subscription {duration} for its followers",
+  "the admins of {channel}, who acquired **{count} Telegram Premium** subscriptions {duration} for its followers"
+ ],
+ "lng_prizes_badge": [
+  "x{amount}"
+ ],
+ "lng_prizes_date": [
+  "Winners Selection Date"
+ ],
+ "lng_prizes_end_activated": [
+  "**{count}** winner already used their gift link.",
+  "**{count}** of the winners already used their gift links."
+ ],
+ "lng_prizes_end_text": [
+  "This giveaway was sponsored by {admins}."
+ ],
+ "lng_prizes_end_title": [
+  "Giveaway ended"
+ ],
+ "lng_prizes_how_no_admin": [
+  "You are not eligible to participate in this giveaway because you are an admin of a participating channel ({channel})."
+ ],
+ "lng_prizes_how_text": [
+  "This giveaway is sponsored by {admins}."
+ ],
+ "lng_prizes_how_title": [
+  "About this giveaway"
+ ],
+ "lng_prizes_how_when_finish": [
+  "On {date}, Telegram will automatically select {winners}."
+ ],
+ "lng_prizes_how_works": [
+  "Learn more"
+ ],
+ "lng_prizes_how_yes_joined_one": [
+  "You are participating in this giveaway because you joined the channel {channel}."
+ ],
+ "lng_prizes_participants": [
+  "Participants"
+ ],
+ "lng_prizes_participants_all": [
+  "All subscribers of the channel:",
+  "All subscribers of the channels:"
+ ],
+ "lng_prizes_participants_new": [
+  "All users who joined the channel below after this announcement:",
+  "All users who joined the channels below after this announcement:"
+ ],
+ "lng_prizes_title": [
+  "Giveaway Prize",
+  "Giveaway Prizes"
+ ],
+ "lng_prizes_view_prize": [
+  "View my prize"
+ ],
+ "lng_prizes_winners_new_of_one": [
+  "{count} random user that joined {channel} after {start_date}",
+  "{count} random users that joined {channel} after {start_date}"
+ ],
+ "lng_prizes_you_didnt": [
+  "You didn't win a prize in this giveaway."
+ ],
+ "lng_prizes_you_won": [
+  "You won a prize in this giveaway {cup}"
+ ],
+ "lng_profile_add_participant": [
+  "Add Members"
+ ],
+ "lng_profile_add_via_link": [
+  "Invite via Link"
+ ],
+ "lng_profile_copy_phone": [
+  "Copy Phone Number"
+ ],
+ "lng_profile_info_section": [
+  "Info"
+ ],
+ "lng_profile_join_group": [
+  "Join Group"
+ ],
+ "lng_profile_loading": [
+  "Loading..."
+ ],
+ "lng_profile_media": [
+  "{count} media",
+  "{count} media"
+ ],
+ "lng_profile_shared_media": [
+  "Shared media"
+ ],
+ "lng_proxy_box_check_status": [
+  "Check Status"
+ ],
+ "lng_proxy_box_password": [
+  "Password"
+ ],
+ "lng_proxy_box_port": [
+  "Port"
+ ],
+ "lng_proxy_box_secret": [
+  "Secret"
+ ],
+ "lng_proxy_box_server": [
+  "Server"
+ ],
+ "lng_proxy_box_table_available": [
+  "Available (ping: {ping} ms)"
+ ],
+ "lng_proxy_box_table_button": [
+  "Connect Proxy"
+ ],
+ "lng_proxy_box_table_checking": [
+  "Checking…"
+ ],
+ "lng_proxy_box_table_title": [
+  "Proxy Server"
+ ],
+ "lng_proxy_box_table_unavailable": [
+  "Not Available"
+ ],
+ "lng_proxy_box_title": [
+  "Enable proxy"
+ ],
+ "lng_proxy_box_username": [
+  "Username"
+ ],
+ "lng_proxy_check_ip_proceed": [
+  "Proceed"
+ ],
+ "lng_proxy_check_ip_warning": [
+  "This will expose your IP address to the admin of the proxy server."
+ ],
+ "lng_proxy_check_ip_warning_title": [
+  "Warning"
+ ],
+ "lng_proxy_incorrect_secret": [
+  "This proxy link uses invalid **secret** parameter.Please contact the proxy provider and ask them to update MTProxy source code and configure it with a correct **secret** value.Then let them provide a new link."
+ ],
+ "lng_proxy_invalid": [
+  "The proxy link is invalid."
+ ],
+ "lng_proxy_sponsor_warning": [
+  "This proxy may display a sponsored channel in your chat list. This doesn't reveal any of your Telegram traffic."
+ ],
+ "lng_proxy_unsupported": [
+  "Your Telegram Desktop version doesn't support this proxy type or the proxy link is invalid. Please update Telegram Desktop to the latest version."
+ ],
+ "lng_quit_from_tray": [
+  "Quit Telegram"
+ ],
+ "lng_recent_apps": [
+  "Apps"
+ ],
+ "lng_recent_channels": [
+  "Channels"
+ ],
+ "lng_recent_chats": [
+  "Chats"
+ ],
+ "lng_recent_clear": [
+  "Clear"
+ ],
+ "lng_recent_clear_all": [
+  "Clear all"
+ ],
+ "lng_recent_clear_sure": [
+  "Do you want to clear your search history?"
+ ],
+ "lng_recent_frequent": [
+  "Frequent contacts"
+ ],
+ "lng_recent_frequent_all": [
+  "Show all"
+ ],
+ "lng_recent_frequent_collapse": [
+  "Collapse"
+ ],
+ "lng_recent_hide_sure": [
+  "Are you sure you want to clear and disable frequent contacts list?You can always turn this feature back on in Settings > Privacy > Suggest Frequent Contacts."
+ ],
+ "lng_recent_hide_top": [
+  "Remove all & Disable"
+ ],
+ "lng_recent_none": [
+  "Recent search resultswill appear here."
+ ],
+ "lng_recent_posts": [
+  "Posts"
+ ],
+ "lng_recent_remove": [
+  "Remove from Recent"
+ ],
+ "lng_recent_title": [
+  "Recent"
+ ],
+ "lng_reconnecting": [
+  "Reconnect in {count} s...",
+  "Reconnect in {count} s..."
+ ],
+ "lng_reconnecting_try_now": [
+  "Try now"
+ ],
+ "lng_record_hold_tip": [
+  "Please hold the mouse button pressed to record a voice message."
+ ],
+ "lng_record_listen_cancel_sure": [
+  "Do you want to discard your recorded voice message?"
+ ],
+ "lng_record_listen_cancel_sure_round": [
+  "Do you want to discard your recorded video message?"
+ ],
+ "lng_record_lock_cancel_sure": [
+  "Do you want to stop recording and discard your voice message?"
+ ],
+ "lng_record_lock_cancel_sure_round": [
+  "Do you want to stop recording and discard your video message?"
+ ],
+ "lng_record_lock_discard": [
+  "Discard"
+ ],
+ "lng_record_video_tip": [
+  "Hold to record video. Click to switch to audio."
+ ],
+ "lng_record_voice_tip": [
+  "Hold to record audio. Click to switch to video."
+ ],
+ "lng_remember": [
+  "Remember this choice"
+ ],
+ "lng_remind_title": [
+  "Remind me on..."
+ ],
+ "lng_reminder_message": [
+  "Set a reminder"
+ ],
+ "lng_reminder_messages": [
+  "Reminders"
+ ],
+ "lng_removed_list_title": [
+  "Removed users"
+ ],
+ "lng_rename_file": [
+  "Rename file"
+ ],
+ "lng_repeated_biweekly": [
+  "biweekly"
+ ],
+ "lng_repeated_daily": [
+  "daily"
+ ],
+ "lng_repeated_every_month": [
+  "{count}-monthly",
+  "{count}-monthly"
+ ],
+ "lng_repeated_monthly": [
+  "monthly"
+ ],
+ "lng_repeated_weekly": [
+  "weekly"
+ ],
+ "lng_repeated_yearly": [
+  "yearly"
+ ],
+ "lng_replies_about": [
+  "Set up shortcuts with rich text and media to respond to messages faster."
+ ],
+ "lng_replies_add": [
+  "Add Quick Reply"
+ ],
+ "lng_replies_add_placeholder": [
+  "Shortcut"
+ ],
+ "lng_replies_add_shortcut": [
+  "Add a shortcut for your reply."
+ ],
+ "lng_replies_add_title": [
+  "New Quick Reply"
+ ],
+ "lng_replies_delete_sure": [
+  "Are you sure you want to delete this quick reply with all its messages?"
+ ],
+ "lng_replies_discussion_started": [
+  "Discussion started"
+ ],
+ "lng_replies_edit_about": [
+  "Change the name of your shortcut."
+ ],
+ "lng_replies_edit_button": [
+  "Edit Quick Replies"
+ ],
+ "lng_replies_edit_title": [
+  "Edit Shortcut"
+ ],
+ "lng_replies_empty_about": [
+  "Enter a message below that will be sent in chat when you type {shortcut}.You can access Quick Replies in any chat by typing /."
+ ],
+ "lng_replies_empty_title": [
+  "New Quick Reply"
+ ],
+ "lng_replies_error_occupied": [
+  "This shortcut is already used."
+ ],
+ "lng_replies_message_placeholder": [
+  "Add a Quick Reply"
+ ],
+ "lng_replies_messages": [
+  "Replies"
+ ],
+ "lng_replies_no_comments": [
+  "No comments here yet..."
+ ],
+ "lng_replies_title": [
+  "Quick Replies"
+ ],
+ "lng_replies_view_original": [
+  "View in chat"
+ ],
+ "lng_reply_about_quote": [
+  "You can select a specific part to quote."
+ ],
+ "lng_reply_from_private_chat": [
+  "This reply is from a private chat."
+ ],
+ "lng_reply_header_short": [
+  "Reply"
+ ],
+ "lng_reply_in_another_chat": [
+  "Reply in Another Chat"
+ ],
+ "lng_reply_in_another_title": [
+  "Reply in..."
+ ],
+ "lng_reply_in_author": [
+  "Message author"
+ ],
+ "lng_reply_in_chats_list": [
+  "Your chats"
+ ],
+ "lng_reply_options_header": [
+  "Reply to Message"
+ ],
+ "lng_reply_options_quote": [
+  "Update Quote"
+ ],
+ "lng_reply_quote_long_text": [
+  "The selected text is too long to quote."
+ ],
+ "lng_reply_quote_long_title": [
+  "Quote too long!"
+ ],
+ "lng_reply_quote_selected": [
+  "Quote Selected"
+ ],
+ "lng_reply_remove": [
+  "Do Not Reply"
+ ],
+ "lng_reply_show_in_chat": [
+  "Show in Chat"
+ ],
+ "lng_report_details_message_about": [
+  "Please help us by telling what is wrong with the message you are reporting."
+ ],
+ "lng_report_details_non_optional": [
+  "Add Comment"
+ ],
+ "lng_report_details_optional": [
+  "Add Comment (Optional)"
+ ],
+ "lng_report_group_title": [
+  "Report Group"
+ ],
+ "lng_report_messages_count": [
+  "Report {count} Message",
+  "Report {count} Messages"
+ ],
+ "lng_report_messages_none": [
+  "Select Messages"
+ ],
+ "lng_report_reason_child_abuse": [
+  "Child Abuse"
+ ],
+ "lng_report_select_messages": [
+  "Select messages"
+ ],
+ "lng_report_spam_and_leave": [
+  "Report spam and leave"
+ ],
+ "lng_report_spam_sure_group": [
+  "Are you sure you want to report this group for spam?"
+ ],
+ "lng_restore_windows_always": [
+  "Always"
+ ],
+ "lng_restore_windows_never": [
+  "Never"
+ ],
+ "lng_restore_windows_question": [
+  "Restore windows?"
+ ],
+ "lng_restore_windows_restore": [
+  "Restore"
+ ],
+ "lng_rich_paste_toast": [
+  "Pasted as plain text"
+ ],
+ "lng_rich_paste_toast_editor": [
+  "Restore formatting in editor"
+ ],
+ "lng_rich_paste_toast_markdown": [
+  "Pasted with Markdown formatting"
+ ],
+ "lng_rich_paste_toast_open": [
+  "Open"
+ ],
+ "lng_rich_paste_toast_plain": [
+  "Paste as plain text instead"
+ ],
+ "lng_rich_paste_toast_premium": [
+  "{link} to preserve formatting when pasting."
+ ],
+ "lng_rich_paste_toast_premium_link": [
+  "Subscribe to Premium"
+ ],
+ "lng_rich_paste_toast_undo": [
+  "Undo"
+ ],
+ "lng_rights_add_admins": [
+  "Add new admins"
+ ],
+ "lng_rights_community_ban": [
+  "Ban Members"
+ ],
+ "lng_rights_community_info": [
+  "Edit Community Name"
+ ],
+ "lng_rights_community_linked": [
+  "Edit Chat List"
+ ],
+ "lng_rights_edit_admin": [
+  "Admin rights"
+ ],
+ "lng_rights_edit_admin_header": [
+  "What can this admin do?"
+ ],
+ "lng_rights_group_manage_calls": [
+  "Manage video chats"
+ ],
+ "lng_rights_slowmode_interval_minutes": [
+  "every {count} minute",
+  "every {count} minutes"
+ ],
+ "lng_save_audio": [
+  "Save voice message"
+ ],
+ "lng_save_audio_file": [
+  "Save Audio File"
+ ],
+ "lng_save_file": [
+  "Save File"
+ ],
+ "lng_save_photo": [
+  "Save Image"
+ ],
+ "lng_save_video": [
+  "Save Video"
+ ],
+ "lng_saved_forward_here": [
+  "Forward messages here for quick access"
+ ],
+ "lng_saved_quote_here": [
+  "Quote here to save"
+ ],
+ "lng_schedule_at": [
+  "at"
+ ],
+ "lng_schedule_button": [
+  "Schedule"
+ ],
+ "lng_schedule_message": [
+  "Schedule message"
+ ],
+ "lng_schedule_notify_off": [
+  "Recipients will receive a silent notification."
+ ],
+ "lng_schedule_notify_on": [
+  "Recipients will be notified."
+ ],
+ "lng_schedule_repeat_biweekly": [
+  "Biweekly"
+ ],
+ "lng_schedule_repeat_daily": [
+  "Daily"
+ ],
+ "lng_schedule_repeat_every_month": [
+  "Every {count} month",
+  "Every {count} month"
+ ],
+ "lng_schedule_repeat_label": [
+  "Repeat:"
+ ],
+ "lng_schedule_repeat_monthly": [
+  "Monthly"
+ ],
+ "lng_schedule_repeat_never": [
+  "Never"
+ ],
+ "lng_schedule_repeat_promo": [
+  "Subscribe to {link} to schedule repeating messages."
+ ],
+ "lng_schedule_repeat_promo_link": [
+  "Telegram Premium"
+ ],
+ "lng_schedule_repeat_weekly": [
+  "Weekly"
+ ],
+ "lng_schedule_repeat_yearly": [
+  "Yearly"
+ ],
+ "lng_schedule_title": [
+  "Send this message on..."
+ ],
+ "lng_scheduled_date": [
+  "Scheduled for {date}"
+ ],
+ "lng_scheduled_date_until_online": [
+  "Scheduled until online"
+ ],
+ "lng_scheduled_messages": [
+  "Scheduled Messages"
+ ],
+ "lng_scheduled_messages_empty": [
+  "No scheduled messages here yet..."
+ ],
+ "lng_scheduled_send_now": [
+  "Send message now?"
+ ],
+ "lng_scheduled_send_now_many": [
+  "Send {count} message now?",
+  "Send {count} messages now?"
+ ],
+ "lng_scheduled_send_until_online": [
+  "Send when online"
+ ],
+ "lng_screen_reader_bar_disable": [
+  "Disable"
+ ],
+ "lng_screen_reader_bar_text": [
+  "Telegram is working in Screen Reader mode."
+ ],
+ "lng_screen_reader_confirm_disable": [
+  "Disable"
+ ],
+ "lng_screen_reader_confirm_text": [
+  "Telegram detected accessibility software is being used in your system and it is working in Screen Reader friendly mode.This may result in unexpected changes to the way Telegram user interface works.If you do not use Screen Reader software with Telegram, please disable this mode."
+ ],
+ "lng_search_back_to_results": [
+  "Back to search"
+ ],
+ "lng_search_filter_all": [
+  "All chats"
+ ],
+ "lng_search_filter_channel": [
+  "Channels"
+ ],
+ "lng_search_filter_from_archive": [
+  "From archive"
+ ],
+ "lng_search_filter_group": [
+  "Group chats"
+ ],
+ "lng_search_filter_non_archived": [
+  "Non archived"
+ ],
+ "lng_search_filter_private": [
+  "Private chats"
+ ],
+ "lng_search_results_header": [
+  "Search Results"
+ ],
+ "lng_search_sponsored_button": [
+  "Ad ⋮"
+ ],
+ "lng_search_tab_archive": [
+  "Archive"
+ ],
+ "lng_search_tab_by_hashtag": [
+  "Enter a hashtag to find messages containing it."
+ ],
+ "lng_search_tab_my_messages": [
+  "My Messages"
+ ],
+ "lng_search_tab_no_results": [
+  "No Results"
+ ],
+ "lng_search_tab_no_results_retry": [
+  "Try another hashtag."
+ ],
+ "lng_search_tab_no_results_text": [
+  "There were no results for \"{query}\"."
+ ],
+ "lng_search_tab_public_posts": [
+  "Public Posts"
+ ],
+ "lng_search_tab_this_channel": [
+  "This Channel"
+ ],
+ "lng_search_tab_this_community": [
+  "This Community"
+ ],
+ "lng_search_tab_this_group": [
+  "This Group"
+ ],
+ "lng_search_tab_try_in_all": [
+  "Search in All Chats"
+ ],
+ "lng_selected_clear": [
+  "Cancel"
+ ],
+ "lng_selected_delete": [
+  "Delete"
+ ],
+ "lng_selected_send_now": [
+  "Send now"
+ ],
+ "lng_self_earn_learn_credits_out_about": [
+  "You can withdraw from 10 Stars using Fragment. {link}"
+ ],
+ "lng_send_action_choose_sticker": [
+  "choosing a sticker"
+ ],
+ "lng_send_album": [
+  "Send as an album"
+ ],
+ "lng_send_as_documents": [
+  "Send as documents"
+ ],
+ "lng_send_as_documents_one": [
+  "Send as a document"
+ ],
+ "lng_send_as_file_tooltip": [
+  "Send text as a file."
+ ],
+ "lng_send_button": [
+  "Send"
+ ],
+ "lng_send_file": [
+  "Send as a file"
+ ],
+ "lng_send_files": [
+  "Send as {count} file",
+  "Send as {count} files"
+ ],
+ "lng_send_gif_with_caption": [
+  "Send GIF with caption"
+ ],
+ "lng_send_high_quality": [
+  "High Quality"
+ ],
+ "lng_send_image_empty": [
+  "File: {name} is empty and can't be sent."
+ ],
+ "lng_send_images_selected": [
+  "{count} image selected",
+  "{count} images selected"
+ ],
+ "lng_send_separate_photos": [
+  "Send as separate photos"
+ ],
+ "lng_send_silent_message": [
+  "Send without sound"
+ ],
+ "lng_sent_on": [
+  "sent on {date} at {time}"
+ ],
+ "lng_settings_advanced": [
+  "Advanced"
+ ],
+ "lng_settings_bg_from_file": [
+  "Choose from file"
+ ],
+ "lng_settings_bg_tile": [
+  "Tile background"
+ ],
+ "lng_settings_call_device_default": [
+  "Default"
+ ],
+ "lng_settings_call_section_input": [
+  "Microphone"
+ ],
+ "lng_settings_current_version": [
+  "Version {version}"
+ ],
+ "lng_settings_disconnect": [
+  "Disconnect"
+ ],
+ "lng_settings_gift_premium_choose": [
+  "Please choose at least one recipient."
+ ],
+ "lng_settings_gift_premium_users_confirm": [
+  "Proceed"
+ ],
+ "lng_settings_gift_premium_users_error": [
+  "You can select maximum {count} user.",
+  "You can select maximum {count} users."
+ ],
+ "lng_settings_information": [
+  "Edit profile"
+ ],
+ "lng_settings_language": [
+  "Language"
+ ],
+ "lng_settings_logout": [
+  "Log out"
+ ],
+ "lng_settings_need_restart": [
+  "You need to restart for applying some of the new settings. Restart now?"
+ ],
+ "lng_settings_restart_later": [
+  "Later"
+ ],
+ "lng_settings_restart_now": [
+  "Restart"
+ ],
+ "lng_settings_section_chat_settings": [
+  "Chat Settings"
+ ],
+ "lng_settings_section_filters": [
+  "Folders"
+ ],
+ "lng_settings_section_notify": [
+  "Notifications and Sounds"
+ ],
+ "lng_settings_section_privacy": [
+  "Privacy and Security"
+ ],
+ "lng_settings_suggestion_password_step_input_about": [
+  "Do you still remember your password?"
+ ],
+ "lng_settings_suggestion_password_step_input_title": [
+  "Enter your password"
+ ],
+ "lng_share_confirm": [
+  "Send"
+ ],
+ "lng_share_done": [
+  "Done!"
+ ],
+ "lng_share_message_to_chat": [
+  "Message forwarded to **{chat}**."
+ ],
+ "lng_share_message_to_many_chats": [
+  "Message forwarded to **{count} chat**.",
+  "Message forwarded to **{count} chats**."
+ ],
+ "lng_share_message_to_saved": [
+  "Message forwarded to **{chat}**."
+ ],
+ "lng_share_message_to_saved_messages": [
+  "Message forwarded to **Saved Messages**."
+ ],
+ "lng_share_message_to_two_chats": [
+  "Message forwarded to **{user}** and **{chat}**."
+ ],
+ "lng_share_messages_to_chat": [
+  "Messages forwarded to **{chat}**."
+ ],
+ "lng_share_messages_to_many_chats": [
+  "Messages forwarded to **{count} chat**.",
+  "Messages forwarded to **{count} chats**."
+ ],
+ "lng_share_messages_to_saved": [
+  "Messages forwarded to **{chat}**."
+ ],
+ "lng_share_messages_to_saved_messages": [
+  "Messages forwarded to **Saved Messages**."
+ ],
+ "lng_share_messages_to_two_chats": [
+  "Messages forwarded to **{user}** and **{chat}**."
+ ],
+ "lng_share_wrong_user": [
+  "This game was opened from a different user."
+ ],
+ "lng_shortcuts_archive": [
+  "Archived chats"
+ ],
+ "lng_shortcuts_chat_next": [
+  "Next chat"
+ ],
+ "lng_shortcuts_chat_previous": [
+  "Previous chat"
+ ],
+ "lng_shortcuts_chat_self": [
+  "Saved Messages"
+ ],
+ "lng_shortcuts_close": [
+  "Close the window"
+ ],
+ "lng_shortcuts_contacts": [
+  "Contacts list"
+ ],
+ "lng_shortcuts_folder_next": [
+  "Next folder"
+ ],
+ "lng_shortcuts_folder_previous": [
+  "Previous folder"
+ ],
+ "lng_shortcuts_lock": [
+  "Lock the application"
+ ],
+ "lng_shortcuts_minimize": [
+  "Minimize the window"
+ ],
+ "lng_shortcuts_quit": [
+  "Quit the application"
+ ],
+ "lng_shortcuts_read_chat": [
+  "Mark chat as read"
+ ],
+ "lng_shortcuts_record_voice_message": [
+  "Record Voice Message"
+ ],
+ "lng_shortcuts_search": [
+  "Search messages"
+ ],
+ "lng_shortcuts_show_chat_menu": [
+  "Show chat menu"
+ ],
+ "lng_shortcuts_stash_message": [
+  "Stash or restore message"
+ ],
+ "lng_signup_firstname": [
+  "First name"
+ ],
+ "lng_signup_lastname": [
+  "Last name"
+ ],
+ "lng_soon_badge": [
+  "Soon"
+ ],
+ "lng_spellchecker_add": [
+  "Add to Dictionary"
+ ],
+ "lng_spellchecker_ignore": [
+  "Ignore word"
+ ],
+ "lng_spellchecker_remove": [
+  "Remove from Dictionary"
+ ],
+ "lng_spellchecker_submenu": [
+  "Spelling"
+ ],
+ "lng_sponsored": [
+  "ad"
+ ],
+ "lng_sponsored_info_description1": [
+  "Unlike other apps, Telegram never uses your private data to target ads. Sponsored messages on Telegram are based solely on the topic of the public channels in which they are shown. This means that no user data is mined or analyzed to display ads, and every user viewing a channel on Telegram sees the same sponsored messages.Unlike other apps, Telegram doesn't track whether you tapped on a sponsored message and doesn't profile you based on your activity. We also prevent external links in sponsored messages to ensure that third parties can’t spy on our users. We believe that everyone has the right to privacy, and technological platforms should respect that.Telegram offers a free and unlimited service to hundreds of millions of users, which involves significant server and traffic costs. In order to remain independent and stay true to its values, Telegram developed a paid tool to promote messages with user privacy in mind. We welcome responsible advertisers at:"
+ ],
+ "lng_sponsored_info_description2": [
+  "Sponsored Messages are currently in test mode. Once they are fully launched and allow Telegram to cover its basic costs, we will start sharing ad revenue with the owners of public channels in which sponsored messages are displayed.Online ads should no longer be synonymous with abuse of user privacy. Let us redefine how a tech company should operate – together."
+ ],
+ "lng_sponsored_menu_revenued_about": [
+  "About These Ads"
+ ],
+ "lng_sponsored_revenued_footer_search_description": [
+  "Anyone can create an ad to display in search results for any query. Check out the **Telegram Ad Platform** for details. {link}"
+ ],
+ "lng_sponsored_revenued_footer_title": [
+  "Can I Launch an Ad?"
+ ],
+ "lng_sponsored_revenued_info1_search_description": [
+  "We don't use the contents of your private chats or contacts lists for ad targeting or other commercial purposes."
+ ],
+ "lng_sponsored_revenued_info1_title": [
+  "Respect Your Privacy"
+ ],
+ "lng_sponsored_revenued_info3_search_description": [
+  "You can turn off ads by subscribing to Telegram Premium. {link}"
+ ],
+ "lng_sponsored_revenued_info3_search_link": [
+  "Subscribe {arrow}"
+ ],
+ "lng_sponsored_revenued_info3_title": [
+  "Can Be Removed"
+ ],
+ "lng_sponsored_revenued_subtitle": [
+  "Telegram Ads are very different from ads on other platforms. Ads such as this one:"
+ ],
+ "lng_sponsored_title": [
+  "What are sponsored messages?"
+ ],
+ "lng_stake_game_about": [
+  "An emoji game for users with **Level 5** or higher. 💎 earned in the game can only be spent on Telegram gifts and posts."
+ ],
+ "lng_stake_game_beta": [
+  "Beta"
+ ],
+ "lng_stake_game_resets": [
+  "A streak resets after 3 {emoji} or a stake change."
+ ],
+ "lng_stake_game_results": [
+  "Results and Returns"
+ ],
+ "lng_stake_game_save_and_roll": [
+  "Save and Roll"
+ ],
+ "lng_stake_game_title": [
+  "Emoji Stake"
+ ],
+ "lng_stake_game_your": [
+  "Your stake"
+ ],
+ "lng_star_ref_stopped": [
+  "This affiliate link is no longer active."
+ ],
+ "lng_stars_rating_pending": [
+  "The rating will update {when}.{count} point is pending. {link}",
+  "The rating will update {when}.{count} points are pending. {link}"
+ ],
+ "lng_stars_rating_pending_preview": [
+  "Preview {arrow}"
+ ],
+ "lng_stars_rating_updates": [
+  "in {count} day",
+  "in {count} days"
+ ],
+ "lng_stash_files_limit": [
+  "Too many or too large files to stash."
+ ],
+ "lng_stash_hint": [
+  "Press {shortcut} to stash this draft."
+ ],
+ "lng_status_lastseen_minutes": [
+  "last seen {count} minute ago",
+  "last seen {count} minutes ago"
+ ],
+ "lng_status_online": [
+  "online"
+ ],
+ "lng_status_service_notifications": [
+  "service notifications"
+ ],
+ "lng_stickers_add_existing": [
+  "Add an Existing Sticker"
+ ],
+ "lng_stickers_add_masks": [
+  "Add masks"
+ ],
+ "lng_stickers_add_to_set": [
+  "Add to Sticker Set"
+ ],
+ "lng_stickers_archived_tab": [
+  "Archived"
+ ],
+ "lng_stickers_bot_more_options": [
+  "Check the {bot} bot for more options"
+ ],
+ "lng_stickers_box_edit_name_about": [
+  "Choose a name for your set."
+ ],
+ "lng_stickers_box_edit_name_title": [
+  "Edit Sticker Set Name"
+ ],
+ "lng_stickers_context_delete": [
+  "Delete sticker"
+ ],
+ "lng_stickers_context_delete_pack": [
+  "Delete Pack"
+ ],
+ "lng_stickers_context_delete_pack_everyone": [
+  "Delete for Everyone"
+ ],
+ "lng_stickers_context_delete_pack_self": [
+  "Delete for Myself"
+ ],
+ "lng_stickers_context_delete_sure": [
+  "Are you sure you want to delete the sticker from your sticker set?"
+ ],
+ "lng_stickers_context_edit_name": [
+  "Edit name"
+ ],
+ "lng_stickers_context_reorder": [
+  "Reorder"
+ ],
+ "lng_stickers_copied": [
+  "Link copied to clipboard."
+ ],
+ "lng_stickers_create_added": [
+  "Sticker added."
+ ],
+ "lng_stickers_create_choose_image": [
+  "Choose Image"
+ ],
+ "lng_stickers_create_emoji_about": [
+  "Choose emojis that match your sticker"
+ ],
+ "lng_stickers_create_emoji_required": [
+  "Please choose an emoji."
+ ],
+ "lng_stickers_create_image_title": [
+  "New Sticker"
+ ],
+ "lng_stickers_create_new": [
+  "Create a New Sticker"
+ ],
+ "lng_stickers_create_open_failed": [
+  "Could not load image."
+ ],
+ "lng_stickers_creator_badge": [
+  "edit"
+ ],
+ "lng_stickers_delete_pack_sure": [
+  "Are you sure you want to delete this sticker set for everyone? This cannot be undone."
+ ],
+ "lng_stickers_featured_tab": [
+  "Trending"
+ ],
+ "lng_stickers_has_been_archived": [
+  "Sticker set has been archived."
+ ],
+ "lng_stickers_installed_tab": [
+  "Stickers"
+ ],
+ "lng_stickers_masks_pack": [
+  "This is a set of masks. Masks are only supported by mobile versions of Telegram."
+ ],
+ "lng_stickers_masks_tab": [
+  "Masks"
+ ],
+ "lng_stickers_packs_archived": [
+  "Some of your unused stickers were archived to make room for the sets you activated."
+ ],
+ "lng_stickers_share_emoji": [
+  "Share Emoji"
+ ],
+ "lng_stickers_share_masks": [
+  "Share Masks"
+ ],
+ "lng_suggest_options_offer_free": [
+  "Offer for Free"
+ ],
+ "lng_suggest_options_stars_offer": [
+  "Offer Stars"
+ ],
+ "lng_suggest_options_stars_price": [
+  "Enter Price in Stars"
+ ],
+ "lng_suggest_options_ton_offer": [
+  "Offer Grams"
+ ],
+ "lng_suggest_warn_delete_anyway": [
+  "Delete Anyway"
+ ],
+ "lng_summarize_header_about": [
+  "Click to see original text"
+ ],
+ "lng_summarize_header_title": [
+  "AI summary"
+ ],
+ "lng_sure_enable": [
+  "Enable"
+ ],
+ "lng_sure_enable_socks": [
+  "Are you sure you want to enable this proxy?Server: {server}Port: {port}You can change your proxy server later in Settings > Advanced > Connection Type."
+ ],
+ "lng_sure_logout_wallet_unknown": [
+  "If this device holds any Gram wallet keys, continuing destroys them. They can be restored only from a Telegram backup or your Secret Phrase."
+ ],
+ "lng_switch_masks": [
+  "Masks"
+ ],
+ "lng_terms_signup_link": [
+  "Terms of Service"
+ ],
+ "lng_theme_editor_background_image": [
+  "Background Image"
+ ],
+ "lng_theme_editor_cant_change_theme": [
+  "You can't apply a new theme while editing the color palette. Please close the theme editor first."
+ ],
+ "lng_theme_editor_choose_image": [
+  "Choose Background Image"
+ ],
+ "lng_theme_editor_choose_name": [
+  "Save Theme File"
+ ],
+ "lng_theme_editor_done": [
+  "Theme exported successfully!"
+ ],
+ "lng_theme_editor_export": [
+  "Export"
+ ],
+ "lng_theme_editor_export_button": [
+  "Export theme"
+ ],
+ "lng_theme_editor_new_keys": [
+  "Not in the palette yet"
+ ],
+ "lng_theme_editor_no_keys": [
+  "No keys in the palette yet"
+ ],
+ "lng_theme_editor_read_from_jpg": [
+  "JPEG image, {size}"
+ ],
+ "lng_theme_editor_read_from_png": [
+  "PNG image, {size}"
+ ],
+ "lng_theme_editor_save_palette": [
+  "Save Palette File"
+ ],
+ "lng_theme_editor_saved_to_jpg": [
+  "Saved to JPEG, {size}"
+ ],
+ "lng_theme_editor_sure_close": [
+  "Are you sure you want to close the editor? Your changes won't be saved."
+ ],
+ "lng_theme_no_desktop": [
+  "Sorry, this theme doesn't include a version for Telegram Desktop."
+ ],
+ "lng_theme_no_desktop_version": [
+  "Sorry, this theme doesn't include a version for Telegram Desktop."
+ ],
+ "lng_theme_preview_apply": [
+  "Apply this theme"
+ ],
+ "lng_theme_preview_generating": [
+  "Generating color theme preview..."
+ ],
+ "lng_theme_preview_title": [
+  "Theme Preview"
+ ],
+ "lng_todo_add_premium": [
+  "Only subscribers of {link} can add tasks."
+ ],
+ "lng_todo_add_title": [
+  "Add Tasks"
+ ],
+ "lng_todo_choose_tasks": [
+  "Please enter at least one task."
+ ],
+ "lng_todo_choose_title": [
+  "Please enter a title."
+ ],
+ "lng_todo_completed": [
+  "{count} of {total} completed",
+  "{count} of {total} completed"
+ ],
+ "lng_todo_completed_none": [
+  "None of {total} completed"
+ ],
+ "lng_todo_create_allow_add": [
+  "Allow Others to Add Tasks"
+ ],
+ "lng_todo_create_allow_mark": [
+  "Allow Others to Mark As Done"
+ ],
+ "lng_todo_create_button": [
+  "Create"
+ ],
+ "lng_todo_create_limit": [
+  "You can add {count} more task.",
+  "You can add {count} more tasks."
+ ],
+ "lng_todo_create_list": [
+  "Checklist"
+ ],
+ "lng_todo_create_list_add": [
+  "Add a task..."
+ ],
+ "lng_todo_create_maximum": [
+  "You have added the maximum number of tasks."
+ ],
+ "lng_todo_create_settings": [
+  "Settings"
+ ],
+ "lng_todo_create_title": [
+  "New Checklist"
+ ],
+ "lng_todo_create_title_placeholder": [
+  "Title"
+ ],
+ "lng_todo_mark_forwarded": [
+  "You can't change forwarded checklists."
+ ],
+ "lng_todo_mark_premium": [
+  "Only subscribers of {link} can mark tasks as done."
+ ],
+ "lng_todo_menu_item": [
+  "Checklist"
+ ],
+ "lng_todo_premium_link": [
+  "Telegram Premium"
+ ],
+ "lng_todo_title": [
+  "Checklist"
+ ],
+ "lng_todo_title_group": [
+  "Group Checklist"
+ ],
+ "lng_translate_cocoon_done": [
+  "Understood"
+ ],
+ "lng_translate_cocoon_efficient_text": [
+  "Cocoon has allowed Telegram to reduce translation costs by 6x."
+ ],
+ "lng_translate_cocoon_efficient_title": [
+  "Efficient"
+ ],
+ "lng_translate_cocoon_everyone_domain": [
+  "cocoon.org"
+ ],
+ "lng_translate_cocoon_everyone_text": [
+  "Any developer can use Cocoon for AI features. Learn more at {domain}."
+ ],
+ "lng_translate_cocoon_everyone_title": [
+  "For Everyone"
+ ],
+ "lng_translate_cocoon_explain": [
+  "**Co**nfidential **Co**mpute **O**pen **N**etwork"
+ ],
+ "lng_translate_cocoon_private_mention": [
+  "@cocoon"
+ ],
+ "lng_translate_cocoon_private_text": [
+  "No third party can access any data, such as translations, inside {mention}."
+ ],
+ "lng_translate_cocoon_private_title": [
+  "Private"
+ ],
+ "lng_translate_cocoon_subtitle": [
+  "**Cocoon** ({text}) handles AI tasks **safely** and **efficiently**."
+ ],
+ "lng_translate_cocoon_text": [
+  "Want to integrate Cocoon into your projects?Reach out at {link}"
+ ],
+ "lng_translate_cocoon_text_link": [
+  "t.me/cocoon?direct"
+ ],
+ "lng_translate_cocoon_title": [
+  "Cocoon"
+ ],
+ "lng_try_other_contact": [
+  "Try someone else"
+ ],
+ "lng_ttl_about_duration3": [
+  "1 month"
+ ],
+ "lng_ttl_period_custom": [
+  "Custom Time..."
+ ],
+ "lng_ttl_period_custom_value": [
+  "Custom Time ({time})"
+ ],
+ "lng_ttl_period_hint": [
+  "Choose how long the media will be kept after opening."
+ ],
+ "lng_ttl_period_keep": [
+  "Do Not Delete"
+ ],
+ "lng_ttl_period_menu": [
+  "Self-Destruct Timer"
+ ],
+ "lng_ttl_period_once": [
+  "View Once"
+ ],
+ "lng_unread_bar": [
+  "{count} Unread Message",
+  "{count} Unread Messages"
+ ],
+ "lng_unsupported_message_text": [
+  "Update Telegram to view this message"
+ ],
+ "lng_unsupported_message_title": [
+  "Unsupported Message"
+ ],
+ "lng_unsupported_message_update": [
+  "Update"
+ ],
+ "lng_update_telegram": [
+  "Update Telegram"
+ ],
+ "lng_user_action_choose_sticker": [
+  "{user} is choosing a sticker"
+ ],
+ "lng_user_action_watching_animations": [
+  "watching {emoji}"
+ ],
+ "lng_username_link": [
+  "This link opens a chat with you:"
+ ],
+ "lng_username_not_found": [
+  "Username @{user} not found."
+ ],
+ "lng_verification_codes": [
+  "Verification Codes"
+ ],
+ "lng_verification_codes_about": [
+  "Third-party services, like websites and stores, can send verification codes to your phone number via Telegram instead of SMS. Such codes will appear in this chat.If you didn't request any codes — don't worry! Most likely, someone made a mistake when entering their number."
+ ],
+ "lng_video_stream_live": [
+  "LIVE"
+ ],
+ "lng_view_button_background": [
+  "View wallpaper"
+ ],
+ "lng_view_button_collectible": [
+  "View collectible"
+ ],
+ "lng_view_button_collection": [
+  "View Collection"
+ ],
+ "lng_view_button_iv": [
+  "Instant View"
+ ],
+ "lng_view_button_storyalbum": [
+  "View Album"
+ ],
+ "lng_view_button_style": [
+  "View Style"
+ ],
+ "lng_view_button_theme": [
+  "View theme"
+ ],
+ "lng_wallet_about_chain_text": [
+  "All transactions are recorded and verifiable on a public ledger."
+ ],
+ "lng_wallet_about_chain_title": [
+  "Blockchain Verified"
+ ],
+ "lng_wallet_about_fees_text": [
+  "First {count} transfer each day is free, the rest cost almost nothing.",
+  "First {count} transfers each day are free, the rest cost almost nothing."
+ ],
+ "lng_wallet_about_fees_title": [
+  "Zero Fees"
+ ],
+ "lng_wallet_about_instant_text": [
+  "Send Grams in any chat, just like sharing a photo."
+ ],
+ "lng_wallet_about_instant_title": [
+  "Instant Transfers"
+ ],
+ "lng_wallet_add_funds": [
+  "Add Funds"
+ ],
+ "lng_wallet_apps_about": [
+  "Apps you connected to this wallet with TON Connect. Disconnecting an app ends its connection on all your devices."
+ ],
+ "lng_wallet_apps_title": [
+  "Connected Apps"
+ ],
+ "lng_wallet_backup_about_on": [
+  "Your encrypted key backup is split into three parts and stored across three continents.It can only be reassembled on your devices, so no one — not even Telegram — can access your key."
+ ],
+ "lng_wallet_backup_cancel_text": [
+  "Your secret phrase will not be updated."
+ ],
+ "lng_wallet_backup_cancel_title": [
+  "Keep Backup?"
+ ],
+ "lng_wallet_backup_disable": [
+  "Disable Backup"
+ ],
+ "lng_wallet_backup_disable_text": [
+  "The only way to recover your funds will be to manually enter your Secret Phrase."
+ ],
+ "lng_wallet_backup_disable_title": [
+  "Disable Backup?"
+ ],
+ "lng_wallet_backup_disabled_text": [
+  "Your Secret Phrase is now the only way to restore your wallet."
+ ],
+ "lng_wallet_backup_disabled_title": [
+  "Backup Disabled"
+ ],
+ "lng_wallet_backup_enable": [
+  "Enable Backup"
+ ],
+ "lng_wallet_backup_enabled_text": [
+  "Your keys are now stored encrypted across Telegram's datacenters."
+ ],
+ "lng_wallet_backup_enabled_title": [
+  "Backup Enabled"
+ ],
+ "lng_wallet_backup_section": [
+  "Encrypted Backup"
+ ],
+ "lng_wallet_backup_sure_text": [
+  "You didn't have enough time to write these words down."
+ ],
+ "lng_wallet_backup_sure_title": [
+  "Sure done?"
+ ],
+ "lng_wallet_backup_test_text": [
+  "Make sure you wrote your Secret Phrase down correctly. Enter words {index1}, {index2} and {index3}."
+ ],
+ "lng_wallet_backup_test_title": [
+  "Test Time"
+ ],
+ "lng_wallet_buy_button": [
+  "Buy with cash or crypto"
+ ],
+ "lng_wallet_card_add": [
+  "Add to Card"
+ ],
+ "lng_wallet_card_apply_color": [
+  "Apply Color"
+ ],
+ "lng_wallet_card_color_and_last": [
+  "{all} and {one}"
+ ],
+ "lng_wallet_card_color_only": [
+  "Only {collections} gifts can be used to change the color of your card."
+ ],
+ "lng_wallet_card_drag_hint": [
+  "Drag this collectible onto your card to decorate it."
+ ],
+ "lng_wallet_card_remove": [
+  "Remove from Card"
+ ],
+ "lng_wallet_chip_gift": [
+  "Collectible gift"
+ ],
+ "lng_wallet_comment_make_public": [
+  "Make comment public"
+ ],
+ "lng_wallet_comment_public": [
+  "Public comments are written to the blockchain and permanently visible to everyone. Never include private information."
+ ],
+ "lng_wallet_comment_title": [
+  "Add comment"
+ ],
+ "lng_wallet_connect_button": [
+  "Connect"
+ ],
+ "lng_wallet_connect_permission": [
+  "The app will be able to view your TON address, balance and activity."
+ ],
+ "lng_wallet_connect_proof": [
+  "The app also asks you to confirm that this wallet is yours. This is a sign-in signature, not a transfer."
+ ],
+ "lng_wallet_connect_reassurance": [
+  "The app won't be able to move funds without permission."
+ ],
+ "lng_wallet_connect_title_app": [
+  "Connect Money to {name}"
+ ],
+ "lng_wallet_created_text": [
+  "Your new wallet is ready to use."
+ ],
+ "lng_wallet_created_title": [
+  "Wallet Created"
+ ],
+ "lng_wallet_currency_none": [
+  "No currencies found"
+ ],
+ "lng_wallet_currency_title": [
+  "Choose Currency"
+ ],
+ "lng_wallet_delete_text": [
+  "You'll lose access to your funds unless you've saved your Secret Phrase."
+ ],
+ "lng_wallet_delete_title": [
+  "Delete Wallet?"
+ ],
+ "lng_wallet_details_moved_from_profile": [
+  "Moved from profile"
+ ],
+ "lng_wallet_details_moved_to_profile": [
+  "Moved to profile"
+ ],
+ "lng_wallet_details_operation": [
+  "Operation"
+ ],
+ "lng_wallet_details_recipient": [
+  "Recipient"
+ ],
+ "lng_wallet_earnings_existing": [
+  "You also have {amount} in Gram Earnings"
+ ],
+ "lng_wallet_fees_text": [
+  "Every transfer costs a small network fee.Telegram covers your first {count} transfer each day.",
+  "Every transfer costs a small network fee.Telegram covers your first {count} transfers each day."
+ ],
+ "lng_wallet_fees_title": [
+  "Network fees"
+ ],
+ "lng_wallet_first_rate": [
+  "1 Gram currently equals {amount}.You can:"
+ ],
+ "lng_wallet_first_send_text": [
+  "Transfer Grams to anyone.Click {attach} → {money} in chats."
+ ],
+ "lng_wallet_first_send_title": [
+  "Send"
+ ],
+ "lng_wallet_first_store_text": [
+  "Keep your Grams in Telegram({menu} → {wallet}) or other wallets."
+ ],
+ "lng_wallet_first_store_title": [
+  "Store"
+ ],
+ "lng_wallet_first_title": [
+  "Your first Grams!"
+ ],
+ "lng_wallet_first_trade_text": [
+  "Convert Grams to cash or crypto on exchanges."
+ ],
+ "lng_wallet_first_trade_title": [
+  "Trade"
+ ],
+ "lng_wallet_how_menu": [
+  "What is Money?"
+ ],
+ "lng_wallet_how_subtitle": [
+  "Only you control your funds — no one else has access."
+ ],
+ "lng_wallet_how_title": [
+  "How It Works"
+ ],
+ "lng_wallet_import_button": [
+  "Import"
+ ],
+ "lng_wallet_import_invalid_spelling": [
+  "Check the word order."
+ ],
+ "lng_wallet_import_invalid_title": [
+  "Invalid secret words"
+ ],
+ "lng_wallet_import_text": [
+  "Enter the Secret Phrase from another wallet you own."
+ ],
+ "lng_wallet_import_title": [
+  "Import Wallet"
+ ],
+ "lng_wallet_import_words": [
+  "{count} word",
+  "{count} words"
+ ],
+ "lng_wallet_imported_text": [
+  "Your wallet was restored from your Secret Phrase."
+ ],
+ "lng_wallet_imported_title": [
+  "Wallet Imported"
+ ],
+ "lng_wallet_intro_text": [
+  "Gram — Digital currency for Telegram"
+ ],
+ "lng_wallet_keys_delete": [
+  "Delete Wallet"
+ ],
+ "lng_wallet_keys_phrase_about": [
+  "You can transfer your wallet to another device by copying your Secret Phrase."
+ ],
+ "lng_wallet_keys_show_phrase": [
+  "Show Secret Phrase"
+ ],
+ "lng_wallet_keys_title": [
+  "Keys & Backup"
+ ],
+ "lng_wallet_menu": [
+  "Money"
+ ],
+ "lng_wallet_menu_currency": [
+  "Currency"
+ ],
+ "lng_wallet_passcode_forgot": [
+  "Forgot passcode?"
+ ],
+ "lng_wallet_passcode_forgot_about": [
+  "Without the passcode this device cannot open its stored wallet keys. You can remove all wallet keys on this device and the passcode and keep using Telegram — you will not be logged out."
+ ],
+ "lng_wallet_passcode_forgot_backed": [
+  "Your wallet can be restored from your Telegram backup."
+ ],
+ "lng_wallet_passcode_forgot_confirm": [
+  "Remove keys"
+ ],
+ "lng_wallet_passcode_remember": [
+  "Don't ask for 15 minutes"
+ ],
+ "lng_wallet_phrase_intro_text": [
+  "Your Secret Phrase is the key to back up your wallet. Keep it secret and secure at all times."
+ ],
+ "lng_wallet_phrase_intro_title": [
+  "Secret Phrase"
+ ],
+ "lng_wallet_phrase_text": [
+  "Write down this {count} word and store it safely. Keep it secret and secure at all times.",
+  "Write down these {count} words in order and store them safely. Keep them secret and secure at all times."
+ ],
+ "lng_wallet_phrase_title": [
+  "Your Secret Phrase"
+ ],
+ "lng_wallet_phrase_warn_share": [
+  "**Never share** your Secret Phrase with anyone."
+ ],
+ "lng_wallet_phrase_warn_steal": [
+  "If someone has your Secret Phrase they **can steal your funds**."
+ ],
+ "lng_wallet_phrase_warn_support": [
+  "Telegram Support **will never ask you** for your Secret Phrase."
+ ],
+ "lng_wallet_profile_balance_owns": [
+  "{name} owns {amount} Gramon the TON blockchain.",
+  "{name} owns {amount} Gramson the TON blockchain."
+ ],
+ "lng_wallet_profile_balance_public": [
+  "Your balance is public due to blockchain transparency."
+ ],
+ "lng_wallet_protection_about": [
+  "Choose how your funds are protected on this device."
+ ],
+ "lng_wallet_protection_create_about": [
+  "This passcode protects your wallet key on this device. It does not lock Telegram until you turn that on in Settings."
+ ],
+ "lng_wallet_protection_open": [
+  "Don't ask for passcode"
+ ],
+ "lng_wallet_protection_open_about": [
+  "Anyone with access to your Telegram can spend your funds."
+ ],
+ "lng_wallet_protection_open_confirm": [
+  "Store anyway"
+ ],
+ "lng_wallet_protection_open_title": [
+  "Store without a passcode?"
+ ],
+ "lng_wallet_protection_open_warning_nolock": [
+  "Anyone who gains access to this computer will be able to steal your wallet's funds.You can change this later from Passcode Lock in the wallet menu."
+ ],
+ "lng_wallet_protection_passcode": [
+  "Ask for local passcode"
+ ],
+ "lng_wallet_protection_passcode_about": [
+  "Confirm all spending with your Telegram passcode."
+ ],
+ "lng_wallet_protection_passcode_change": [
+  "Change passcode {arrow}"
+ ],
+ "lng_wallet_protection_title": [
+  "Passcode Lock"
+ ],
+ "lng_wallet_readonly_bar": [
+  "This device can view this wallet but can't send from it."
+ ],
+ "lng_wallet_receive_about": [
+  "Share your address or QR code to receive GRAM."
+ ],
+ "lng_wallet_receive_copy_hint": [
+  "Click to copy address"
+ ],
+ "lng_wallet_replace_create": [
+  "Create a New Wallet"
+ ],
+ "lng_wallet_replace_import": [
+  "Import an Existing Wallet"
+ ],
+ "lng_wallet_replace_title": [
+  "How do you want to replace the old wallet?"
+ ],
+ "lng_wallet_restore_not_saved": [
+  "The Secret Phrase was not saved on this device."
+ ],
+ "lng_wallet_row_deposit": [
+  "Deposit"
+ ],
+ "lng_wallet_row_incoming": [
+  "Incoming transfer"
+ ],
+ "lng_wallet_row_items": [
+  "{count} item",
+  "{count} items"
+ ],
+ "lng_wallet_row_moved_from_profile": [
+  "moved from profile"
+ ],
+ "lng_wallet_row_moved_to_profile": [
+  "moved to profile"
+ ],
+ "lng_wallet_row_outgoing": [
+  "Outgoing transfer"
+ ],
+ "lng_wallet_row_telegram": [
+  "Telegram"
+ ],
+ "lng_wallet_rows_collectibles": [
+  "Collectibles"
+ ],
+ "lng_wallet_rows_hidden_below": [
+  "Transactions under {amount} Grams are hidden."
+ ],
+ "lng_wallet_rows_title": [
+  "Transactions"
+ ],
+ "lng_wallet_send_amount": [
+  "Send {amount} Grams"
+ ],
+ "lng_wallet_send_balance": [
+  "Balance: {amount} Grams"
+ ],
+ "lng_wallet_send_comment_optional": [
+  "Optional comment"
+ ],
+ "lng_wallet_send_error_insufficient": [
+  "Insufficient funds."
+ ],
+ "lng_wallet_send_error_too_small": [
+  "The minimum transfer is {amount} Grams."
+ ],
+ "lng_wallet_send_gram_wallet": [
+  "Gram Wallet"
+ ],
+ "lng_wallet_send_network_fee": [
+  "Network fee: {amount} Grams"
+ ],
+ "lng_wallet_send_title": [
+  "Send Grams"
+ ],
+ "lng_wallet_send_user_title": [
+  "Send money to"
+ ],
+ "lng_wallet_unavailable": [
+  "Money is not available for this account."
+ ],
+ "lng_willbe_history": [
+  "Select a chat to start messaging"
+ ],
+ "lng_wnd_menu_redo": [
+  "Redo"
+ ],
+ "lng_wnd_menu_undo": [
+  "Undo"
+ ],
+ "lng_years": [
+  "{count} year",
+  "{count} years"
+ ]
+}

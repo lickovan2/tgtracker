@@ -1,0 +1,2043 @@
+{
+ "ALongTimeAgo": [
+  "last seen a long time ago"
+ ],
+ "AccurateTo": [
+  "Accurate to %1$s"
+ ],
+ "ActionAddUserYou": [
+  "un1 added you"
+ ],
+ "ActionChangedTitle": [
+  "un1 changed the group name to un2"
+ ],
+ "ActionChannelCallEnded": [
+  "Live stream ended (%s)"
+ ],
+ "ActionChannelChangedPhoto": [
+  "Channel photo updated"
+ ],
+ "ActionChannelChangedTitle": [
+  "Channel name changed to un2"
+ ],
+ "ActionGiftInbound": [
+  "un1 sent you a gift for **un2**"
+ ],
+ "ActionGiftOutbound": [
+  "You have sent a gift for **un2**"
+ ],
+ "ActionGiftPremiumText": [
+  "Subscription for exclusive Telegram features."
+ ],
+ "ActionGiftPremiumTitle2": [
+  "%d Month Premium",
+  "%d Months Premium"
+ ],
+ "ActionGiftStarsSubtitle": [
+  "With Stars, **%s** is able to unlock content and services on Telegram."
+ ],
+ "ActionGiftStarsSubtitleYou": [
+  "Use Stars to unlock content and services on Telegram."
+ ],
+ "ActionGiftStarsTitle": [
+  "%d Star",
+  "%d Stars"
+ ],
+ "ActionGiftStarsView": [
+  "View"
+ ],
+ "ActionGroupCallEndedByYou": [
+  "You ended the video chat (%s)"
+ ],
+ "ActionMigrateFromGroup": [
+  "This group was upgraded to a supergroup"
+ ],
+ "ActionSetSameWallpaperForThisChat": [
+  "%s set your wallpaper as their own for this chat"
+ ],
+ "ActionSetSameWallpaperForThisChatSelf": [
+  "You set the same wallpaper as your chat partner"
+ ],
+ "ActionSetWallpaperForThisChat": [
+  "%s set a new wallpaper for this chat"
+ ],
+ "ActionSetWallpaperForThisChatBoth": [
+  "%s set a new wallpaper for this chat"
+ ],
+ "ActionSetWallpaperForThisChatSelf": [
+  "You set a new wallpaper for this chat"
+ ],
+ "ActionSetWallpaperForThisChatSelfBoth": [
+  "You set a new wallpaper for %s and you"
+ ],
+ "ActionSuggestBirthday": [
+  "**un1** suggested you add your birthday"
+ ],
+ "ActionTakeScreenshoot": [
+  "un1 took a screenshot!"
+ ],
+ "ActionTakeScreenshootYou": [
+  "You took a screenshot!"
+ ],
+ "ActionUniqueGiftResaleOutbound": [
+  "You bought this gift for %d Star",
+  "You bought this gift for %d Stars"
+ ],
+ "ActionUniqueGiftResaleSoldOutbound": [
+  "You sold this gift for %d Star",
+  "You sold this gift for %d Stars"
+ ],
+ "ActionUniqueGiftTransferInbound": [
+  "**un1** transferred a gift to you!"
+ ],
+ "ActionUniqueGiftTransferOutbound": [
+  "You transferred a gift to **un1**"
+ ],
+ "ActionUniqueGiftUpgradeOutbound": [
+  "You turned the gift from **un1** into a unique collectible"
+ ],
+ "ActionUserWithinRadius": [
+  "un1 is now within %1$s from you"
+ ],
+ "ActionUserWithinYouRadius": [
+  "You are now within %1$s from un1"
+ ],
+ "ActionYouSuggestBirthday": [
+  "You suggested to add a birthday"
+ ],
+ "Add": [
+  "Add"
+ ],
+ "AddCaption": [
+  "Add a caption..."
+ ],
+ "AddContactChat": [
+  "ADD CONTACT"
+ ],
+ "AddContactChatNoCaps": [
+  "Add Contact"
+ ],
+ "AddContactFullChat": [
+  "ADD %1$s TO CONTACTS"
+ ],
+ "AddContactFullChatNoCaps": [
+  "Add %1$s to Contacts"
+ ],
+ "AddContactTitle": [
+  "Add Contact"
+ ],
+ "AddMasks": [
+  "Add Masks"
+ ],
+ "AddMasksInstalled": [
+  "New masks added"
+ ],
+ "AddStickers": [
+  "Add Stickers"
+ ],
+ "AddStickersInstalled": [
+  "New stickers added"
+ ],
+ "AddStickersNotFound": [
+  "Stickers not found"
+ ],
+ "AddTagsToYourSavedMessages1": [
+  "Add Tags"
+ ],
+ "AddTagsToYourSavedMessages2": [
+  "to your Saved Messages"
+ ],
+ "AddToContacts": [
+  "Add to contacts"
+ ],
+ "AnimatedEffectPremium": [
+  "Subscribe to **Telegram Premium** to add this animated effect."
+ ],
+ "AnonymousForward": [
+  "Author Hidden"
+ ],
+ "AppFolderInfo": [
+  "Browse the app's folder"
+ ],
+ "AppName": [
+  "Telegram"
+ ],
+ "ApplyBackgroundForThisChat": [
+  "APPLY FOR THIS CHAT"
+ ],
+ "ApplyLocalizationFile": [
+  "Apply localization file"
+ ],
+ "ApplyTheme": [
+  "Apply"
+ ],
+ "ApplyWallpaperForMe": [
+  "Apply for Me"
+ ],
+ "ApplyWallpaperForMeAndPeer": [
+  "Apply for Me and %s"
+ ],
+ "AreYouSureClearHistorySavedMessages": [
+  "Are you sure you want to clear **Saved Messages**? This action cannot be undone."
+ ],
+ "AreYouSureDeleteFewMessages": [
+  "Are you sure you want to delete these messages?"
+ ],
+ "AreYouSureDeleteMessages": [
+  "Are you sure you want to delete %1$s?"
+ ],
+ "AreYouSureDeleteSingleMessage": [
+  "Are you sure you want to delete this message?"
+ ],
+ "AreYouSureDeleteThisChatSavedMessages": [
+  "Are you sure you want to delete **Saved Messages**?"
+ ],
+ "AreYouSureDeleteVideo": [
+  "Are you sure you want to delete this video?"
+ ],
+ "AreYouSureShareMyContactInfo": [
+  "Are you sure you want to share your phone number?"
+ ],
+ "AreYouSureShareMyContactInfoUser": [
+  "Do you want to share your phone number %1$s with **%2$s**?"
+ ],
+ "AreYouSureUnsaveFewMessages": [
+  "Are you sure you want to delete these messages?"
+ ],
+ "AreYouSureUnsaveSingleMessage": [
+  "Are you sure you want to remove this message from Saved Messages?"
+ ],
+ "ArticleDateByAuthor": [
+  "%1$s by %2$s"
+ ],
+ "AttachBotsHelp": [
+  "Scroll down for bots"
+ ],
+ "AttachGame": [
+  "Game"
+ ],
+ "AttachMediaDragHint": [
+  "Drag media to reorder"
+ ],
+ "AttachMediaPhotoDeselected": [
+  "Photo unselected."
+ ],
+ "AttachMediaPreview": [
+  "Message preview"
+ ],
+ "AttachMediaPreviewButton": [
+  "Show preview"
+ ],
+ "AttachMediaVideoDeselected": [
+  "Video unselected."
+ ],
+ "AttachPhotoExpired": [
+  "Expired photo"
+ ],
+ "AttachQuickReplies": [
+  "Replies"
+ ],
+ "AttachRoundExpired": [
+  "Expired Video Message"
+ ],
+ "AttachVideoExpired": [
+  "Expired video"
+ ],
+ "AttachVoiceExpired": [
+  "Voice expired"
+ ],
+ "AudioUnknownArtist": [
+  "Unknown artist"
+ ],
+ "AudioUnknownTitle": [
+  "Unknown title"
+ ],
+ "AuthorHiddenDescription": [
+  "Senders of these messages restricted to link their name when forwarding."
+ ],
+ "AutoDeleteConfirm": [
+  "Confirm"
+ ],
+ "AwaitingEncryption": [
+  "Waiting for %s to come online..."
+ ],
+ "BackgroundBlurred": [
+  "Blurred"
+ ],
+ "BackgroundColorSinglePreviewLine2": [
+  "Looks good"
+ ],
+ "BackgroundColorSinglePreviewLine3": [
+  "Apply the wallpaper in this chat"
+ ],
+ "BackgroundColors": [
+  "Colors"
+ ],
+ "BackgroundDimming": [
+  "Wallpaper dimming"
+ ],
+ "BackgroundMotion": [
+  "Motion"
+ ],
+ "BackgroundPattern": [
+  "Pattern"
+ ],
+ "BackgroundPreview": [
+  "Wallpaper Preview"
+ ],
+ "BackgroundPreviewLine2": [
+  "Woo-hoo! Thanks"
+ ],
+ "BizBotManage": [
+  "Manage bot"
+ ],
+ "BizBotRemove": [
+  "Remove botfrom this chat"
+ ],
+ "BizBotStart": [
+  "Start"
+ ],
+ "BizBotStatusManages": [
+  "bot manages this chat"
+ ],
+ "BizBotStatusStopped": [
+  "bot paused"
+ ],
+ "BizBotStop": [
+  "Stop"
+ ],
+ "BlockUserAlert": [
+  "Do you want to block **%1$s** from messaging and calling you on Telegram?"
+ ],
+ "BlockUserTitle": [
+  "Block %1$s"
+ ],
+ "Bold": [
+  "Bold"
+ ],
+ "BotUnblock": [
+  "RESTART"
+ ],
+ "BotWebAppInstantViewOpen": [
+  "Launch"
+ ],
+ "BotWebViewStartPermission": [
+  "To launch this web app, you will connect to its website."
+ ],
+ "BusinessLink": [
+  "Link to Chat"
+ ],
+ "BusinessLinkInvalid": [
+  "Invalid link to chat"
+ ],
+ "BusinessRepliesSearch": [
+  "Search replies"
+ ],
+ "Call": [
+  "Call"
+ ],
+ "CallAgain": [
+  "Call Again"
+ ],
+ "CallBack": [
+  "Call Back"
+ ],
+ "CallEmojiKeyTooltip": [
+  "If the emoji on %1$s’s screen are the same, this call is 100%% secure."
+ ],
+ "CallMessageIncoming": [
+  "Incoming Call"
+ ],
+ "CallMessageIncomingDeclined": [
+  "Declined Call"
+ ],
+ "CallMessageIncomingMissed": [
+  "Missed Call"
+ ],
+ "CallMessageOutgoing": [
+  "Outgoing Call"
+ ],
+ "CallMessageOutgoingMissed": [
+  "Canceled Call"
+ ],
+ "CallMessageReportProblem": [
+  "Rate Call"
+ ],
+ "CallReportHint": [
+  "What went wrong?"
+ ],
+ "CallReportIncludeLogs": [
+  "Include technical information"
+ ],
+ "CallReportLogsExplain": [
+  "Doesn't reveal chat contents and helps us fix the issue sooner."
+ ],
+ "CallReportSent": [
+  "Thank you for helping us make Telegram calls better."
+ ],
+ "CallViaTelegram": [
+  "Telegram Call"
+ ],
+ "Cancel": [
+  "Cancel"
+ ],
+ "Caption": [
+  "Caption"
+ ],
+ "ChangeColors": [
+  "Change colors"
+ ],
+ "ChatBackgroundHint": [
+  "%s will be able to apply this wallpaper"
+ ],
+ "ChatDistanceToPeer": [
+  "%1$s is %2$s"
+ ],
+ "ChatYourSelfDescription1": [
+  "Forward messages here to save them"
+ ],
+ "ChatYourSelfDescription2": [
+  "Send media and files to store them"
+ ],
+ "ChatYourSelfDescription3": [
+  "Access this chat from any device"
+ ],
+ "ChatYourSelfDescription4": [
+  "Use search to quickly find things"
+ ],
+ "ChatYourSelfTitle": [
+  "Your cloud storage"
+ ],
+ "ChooseANewWallpaper": [
+  "Choose a New Wallpaper"
+ ],
+ "ChooseBackground": [
+  "Choose background"
+ ],
+ "ChooseBackgroundFromGallery": [
+  "Choose Wallpaper from Gallery"
+ ],
+ "ClearForMe": [
+  "Clear"
+ ],
+ "ClearHistory": [
+  "Clear History"
+ ],
+ "ClearHistoryMessageMultiple": [
+  "",
+  "Are you sure you want to unsave messages from %d chats?"
+ ],
+ "ClearHistoryMessageSingle": [
+  "Are you sure you want to unsave messages from %s?"
+ ],
+ "ClearHistoryMyNotesMessage": [
+  "Are you sure you want to delete all your notes?"
+ ],
+ "ClearHistoryMyNotesTitle": [
+  "Delete all your notes"
+ ],
+ "ClearHistoryTitleMultiple": [
+  "",
+  "Unsave messages from %d chats"
+ ],
+ "ClearHistoryTitleSingle": [
+  "Unsave messages from %s"
+ ],
+ "ClearHistoryTitleSingle2": [
+  "Unsave messages"
+ ],
+ "Close": [
+  "Close"
+ ],
+ "ColorDark": [
+  "Dark"
+ ],
+ "CompatibilityChat": [
+  "%1$s is using an older version of Telegram, so disappearing photos will be shown in compatibility mode.Once %2$s updates Telegram, photos with timers for 1 minute or less will start working in 'Press and hold to view' mode, and you will be notified whenever the other party takes a screenshot."
+ ],
+ "ConferenceCallIncoming": [
+  "Incoming Group Call"
+ ],
+ "ConferenceCallMissed": [
+  "Missed Group Call"
+ ],
+ "ConferenceCallOutgoing": [
+  "Outgoing Group Call"
+ ],
+ "ContactInfoCommonGroups": [
+  "Common groups"
+ ],
+ "ContactInfoIsContact": [
+  "Contact"
+ ],
+ "ContactInfoIsNotContact": [
+  "Not a contact"
+ ],
+ "ContactInfoNotVerified": [
+  "Not an official account"
+ ],
+ "ContactInfoPhone": [
+  "Phone number"
+ ],
+ "ContactInfoRegistration": [
+  "Registration"
+ ],
+ "ContactInfoUserUpdatedName": [
+  "User updated name %s"
+ ],
+ "ContactInfoUserUpdatedPhoto": [
+  "User updated photo %s"
+ ],
+ "ContactShare": [
+  "SHARE CONTACT"
+ ],
+ "ConvertGroupAlert": [
+  "This action is irreversible. It is not possible to downgrade a supergroup to a regular group."
+ ],
+ "ConvertGroupAlertWarning": [
+  "Warning"
+ ],
+ "Copy": [
+  "Copy"
+ ],
+ "CopyLink": [
+  "Copy Link"
+ ],
+ "DateDay": [
+  "Day"
+ ],
+ "DateMonth": [
+  "Month"
+ ],
+ "DateOfBirth": [
+  "Date Of Birth"
+ ],
+ "DateOfBirthAddToProfile": [
+  "Add to My Profile"
+ ],
+ "DateOfBirthHideYear": [
+  "Hide Year"
+ ],
+ "DateYear": [
+  "Year"
+ ],
+ "DayAgo": [
+  "a day ago"
+ ],
+ "Delete": [
+  "Delete"
+ ],
+ "DeleteAll": [
+  "Delete All"
+ ],
+ "DeleteAllFrom": [
+  "Delete all from %1$s"
+ ],
+ "DeleteAllMessagesAlert": [
+  "Warning! This will **delete all messages** in this chat for **both** participants."
+ ],
+ "DeleteBanUser": [
+  "Ban user"
+ ],
+ "DeleteChatUser": [
+  "Delete Chat"
+ ],
+ "DeleteForAll": [
+  "Delete for all members"
+ ],
+ "DeleteFromRecent": [
+  "Remove from Recent"
+ ],
+ "DeleteMessagesOptionAlso": [
+  "Also delete for %1$s"
+ ],
+ "DeleteMessagesTitle": [
+  "Delete %1$s"
+ ],
+ "DeleteReportSpam": [
+  "Report spam"
+ ],
+ "DeleteSingleMessagesTitle": [
+  "Delete message"
+ ],
+ "DeleteThisChat": [
+  "Delete this chat"
+ ],
+ "DeletedFromYourContacts": [
+  "%s deleted from your contacts"
+ ],
+ "DisableSharing": [
+  "Disable Sharing"
+ ],
+ "DisableSharingActionOther": [
+  "%s disabled sharing in this chat"
+ ],
+ "DisableSharingActionStillDisabled": [
+  "Sharing in this chat is still disabled"
+ ],
+ "DisableSharingActionYou": [
+  "You disabled sharing in this chat"
+ ],
+ "DisableSharingInfoButton": [
+  "Disable Sharing"
+ ],
+ "DisableSharingInfoHeader": [
+  "Disable Sharing"
+ ],
+ "DisableSharingInfoHeader1": [
+  "No Screenshots"
+ ],
+ "DisableSharingInfoHeader2": [
+  "No Forwarding"
+ ],
+ "DisableSharingInfoHeader3": [
+  "No Saving"
+ ],
+ "DisableSharingInfoText1": [
+  "Disable screenshots and screenrecordings in this chat."
+ ],
+ "DisableSharingInfoText2": [
+  "Disable forwarding messages to other chats."
+ ],
+ "DisableSharingInfoText3": [
+  "Disable copying text and saving photos or videos."
+ ],
+ "DisappearingGif": [
+  "Disappearing GIF"
+ ],
+ "DisappearingPhoto": [
+  "Disappearing Photo"
+ ],
+ "DisappearingVideo": [
+  "Disappearing Video"
+ ],
+ "DiscardVideoMessageDescription": [
+  "Are you sure you want to stop recording and discard your video message?"
+ ],
+ "DiscardVideoMessageTitle": [
+  "Discard Video Message"
+ ],
+ "DiscardVoiceMessageAction": [
+  "Discard"
+ ],
+ "DiscardVoiceMessageDescription": [
+  "Are you sure you want to stop recording and discard your voice message?"
+ ],
+ "DiscardVoiceMessageTitle": [
+  "Discard Voice Message"
+ ],
+ "Done": [
+  "Done"
+ ],
+ "Edit": [
+  "Edit"
+ ],
+ "EditMessageError": [
+  "Sorry, you can't edit this message."
+ ],
+ "EditedMessage": [
+  "edited"
+ ],
+ "EnableSharingActionOther": [
+  "%s enabled sharing in this chat"
+ ],
+ "EnableSharingActionYou": [
+  "You enabled sharing in this chat"
+ ],
+ "EncryptedDescription1": [
+  "Use end-to-end encryption"
+ ],
+ "EncryptedDescription2": [
+  "Leave no trace on our servers"
+ ],
+ "EncryptedDescription3": [
+  "Have a self-destruct timer"
+ ],
+ "EncryptedDescription4": [
+  "Do not allow forwarding"
+ ],
+ "EncryptedDescriptionTitle": [
+  "Secret chats:"
+ ],
+ "EncryptedPlaceholderTitleIncoming": [
+  "%s invited you to join a secret chat."
+ ],
+ "EncryptedPlaceholderTitleOutgoing": [
+  "You invited %s to join a secret chat."
+ ],
+ "EncryptionKey": [
+  "Encryption Key"
+ ],
+ "EncryptionKeyDescription": [
+  "This image and text were derived from the encryption key for this secret chat with **%1$s**.If they look the same on **%2$s's** device, end-to-end encryption is guaranteed.Learn more at telegram.org"
+ ],
+ "EncryptionKeyLink": [
+  "https://telegram.org/faq#secret-chats"
+ ],
+ "EncryptionProcessing": [
+  "Exchanging encryption keys..."
+ ],
+ "EncryptionRejected": [
+  "Secret chat canceled"
+ ],
+ "EnjoyngAnimations": [
+  "**oo** watching %1$s"
+ ],
+ "FilterInviteGroupToast": [
+  "You don’t have the admin rights to share invite links to this group."
+ ],
+ "FirstName": [
+  "First name (required)"
+ ],
+ "Folder": [
+  "Folder"
+ ],
+ "FolderLinkAlreadyJoined": [
+  "You are already a member of this group."
+ ],
+ "FolderLinkAlreadySubscribed": [
+  "You are already subscribed to this channel."
+ ],
+ "FolderLinkHeaderAlready": [
+  "Chats you already joined"
+ ],
+ "FolderLinkHint": [
+  "You can deselect the chats you don’t want to join."
+ ],
+ "FolderLinkPreviewLeft": [
+  "All chats"
+ ],
+ "FolderLinkPreviewRight": [
+  "Personal"
+ ],
+ "FolderLinkSubtitle": [
+  "Do you want to add the chat folder **%s** and join its groups and channels?"
+ ],
+ "FolderLinkSubtitleAlready": [
+  "You have already added the folder **%s** and all its chats."
+ ],
+ "FolderLinkTitleAdd": [
+  "Add Folder"
+ ],
+ "FolderLinkTitleAlready": [
+  "Folder already added"
+ ],
+ "ForwardTo": [
+  "Forward to..."
+ ],
+ "ForwardedMessage": [
+  "Forwarded message"
+ ],
+ "From": [
+  "From"
+ ],
+ "Gallery": [
+  "Gallery"
+ ],
+ "GalleryInfo": [
+  "To send images without compression"
+ ],
+ "GameCantSendSecretChat": [
+  "Sorry, games can’t be sent to secret chats."
+ ],
+ "GettingLinkInfo": [
+  "Getting Link Info..."
+ ],
+ "Gift2ActionConvertedInfo": [
+  "You converted this gift to %d Star.",
+  "You converted this gift to %d Stars."
+ ],
+ "Gift2ActionInfo": [
+  "Add this gift to your profile or convert it to %d Star.",
+  "Add this gift to your profile or convert it to %d Stars."
+ ],
+ "Gift2ActionOutInfo": [
+  "**%2$s** can add this gift to their profile or convert it to %1$d Star.",
+  "**%2$s** can add this gift to their profile or convert it to %1$d Stars."
+ ],
+ "Gift2ActionOutInfoNoConvert": [
+  "**%s** can display this gift on their page."
+ ],
+ "Gift2ActionSavedInfo": [
+  "You added this gift to your profile."
+ ],
+ "Gift2ActionSelfInfo": [
+  "Add this gift to your profile or convert it to %1$d Star.",
+  "Add this gift to your profile or convert it to %1$d Stars."
+ ],
+ "Gift2ActionTitle": [
+  "Gift from "
+ ],
+ "Gift2ActionTitleAnonymous": [
+  "You received a gift!"
+ ],
+ "Gift2ActionTitleInAnonymous": [
+  "%s received a gift!"
+ ],
+ "Gift2ActionUpgrade": [
+  "Tap \"Unpack\" to turn this gift into a unique collectible."
+ ],
+ "Gift2AddSenderName": [
+  "Add sender's name to the gift"
+ ],
+ "Gift2AttributeBackdrop": [
+  "Backdrop"
+ ],
+ "Gift2AttributeModel": [
+  "Model"
+ ],
+ "Gift2AttributeSymbol": [
+  "Symbol"
+ ],
+ "Gift2Availability": [
+  "Availability"
+ ],
+ "Gift2Availability4Value": [
+  "%1$d of %2$s left",
+  "%1$d of %2$s left"
+ ],
+ "Gift2ConvertButton": [
+  "Convert"
+ ],
+ "Gift2ConvertStars": [
+  "%d Star",
+  "%d Stars"
+ ],
+ "Gift2ConvertText": [
+  "Do you want to convert this gift from **%1$s** to **%2$s**?This action cannot be undone. This will permanently destroy the gift."
+ ],
+ "Gift2ConvertTitle": [
+  "Convert Gift to Stars"
+ ],
+ "Gift2ExportTONTitle": [
+  "Send via Blockchain"
+ ],
+ "Gift2ExportTONUnlocksAlertText": [
+  "In %d day, you'll be able to send this collectible to any TON blockchain address outside Telegram for sale or auction.",
+  "In %d days, you'll be able to send this collectible to any TON blockchain address outside Telegram for sale or auction."
+ ],
+ "Gift2ExportTONUnlocksAlertTitle": [
+  "Unlocking in progress"
+ ],
+ "Gift2ExportTONUnlocksIn": [
+  "unlocks in %d day",
+  "unlocks in %d days"
+ ],
+ "Gift2From": [
+  "From"
+ ],
+ "Gift2Info": [
+  "You can add this gift to your profile or convert it to **%d** Star.",
+  "You can add this gift to your profile or convert it to **%d** Stars."
+ ],
+ "Gift2Info2OutExpired": [
+  "%1$s can add this gift to their Profile."
+ ],
+ "Gift2InfoConverted": [
+  "You converted this gift to **%d** Star.",
+  "You converted this gift to **%d** Stars."
+ ],
+ "Gift2InfoInFreeUpgrade": [
+  "Upgrade this gift for free to turn it into a unique collectible."
+ ],
+ "Gift2InfoOut": [
+  "%2$s can add this gift to their profile or convert it to **%1$d** Star.",
+  "%2$s can add this gift to their profile or convert it to **%1$d** Stars."
+ ],
+ "Gift2InfoPinned": [
+  "You added this gift to your profile."
+ ],
+ "Gift2Limited1OfRibbon": [
+  "1 of %s"
+ ],
+ "Gift2MadePublic": [
+  "This gift is now visible on **your profile**."
+ ],
+ "Gift2MadePublicTitle": [
+  "Gift Shown"
+ ],
+ "Gift2More": [
+  "**More about Stars >**"
+ ],
+ "Gift2OwnerChange": [
+  "change"
+ ],
+ "Gift2ProfileMakeInvisible": [
+  "Hide from my profile"
+ ],
+ "Gift2ProfileMakeVisible": [
+  "Add to my profile"
+ ],
+ "Gift2ProfileVisible": [
+  "This gift is visible on your profile."
+ ],
+ "Gift2SelfInfoConvert": [
+  "Add this gift to your profile or convert it to **%d Star**.",
+  "Add this gift to your profile or convert it to **%d Stars**."
+ ],
+ "Gift2SenderHidden": [
+  "Only you can see the sender's name and message."
+ ],
+ "Gift2Status": [
+  "Status"
+ ],
+ "Gift2StatusNonUnique": [
+  "Non-Unique"
+ ],
+ "Gift2StatusUpgrade": [
+  "upgrade"
+ ],
+ "Gift2TitleReceived": [
+  "Received Gift"
+ ],
+ "Gift2TitleSaved": [
+  "Saved Gift"
+ ],
+ "Gift2TitleSent": [
+  "Sent Gift"
+ ],
+ "Gift2To": [
+  "To"
+ ],
+ "Gift2ToBalance": [
+  "Convert to %d Star",
+  "Convert to %d Stars"
+ ],
+ "Gift2Transfer": [
+  "Transfer %s"
+ ],
+ "Gift2TransferDoPrice": [
+  "Transfer for ⭐️%d"
+ ],
+ "Gift2TransferPriceText": [
+  "Do you want to transfer ownership of **%2$s** to **%3$s** for **%1$d Star**?",
+  "Do you want to transfer ownership of **%2$s** to **%3$s** for **%1$d Stars**?"
+ ],
+ "Gift2TransferredText": [
+  "You have successfully transferred **%1$s** to **%2$s**."
+ ],
+ "Gift2TransferredTitle": [
+  "Gift Transferred"
+ ],
+ "Gift2UniqueTitle": [
+  "Gift from %s"
+ ],
+ "Gift2UniqueView": [
+  "View"
+ ],
+ "Gift2Unpack": [
+  "Unpack"
+ ],
+ "Gift2UpgradeButton": [
+  "Upgrade for ⭐️%d"
+ ],
+ "Gift2UpgradeButtonFree": [
+  "Upgrade for Free"
+ ],
+ "Gift2UpgradeFeature1Text": [
+  "Get a unique number, model, backdrop and symbol for your gift."
+ ],
+ "Gift2UpgradeFeature1Title": [
+  "Unique"
+ ],
+ "Gift2UpgradeFeature2Text": [
+  "Send your upgraded gift to any of your friends on Telegram."
+ ],
+ "Gift2UpgradeFeature2Title": [
+  "Transferable"
+ ],
+ "Gift2UpgradeFeature3Text": [
+  "Sell or auction your gift on third-party NFT marketplaces."
+ ],
+ "Gift2UpgradeFeature3Title": [
+  "Tradable"
+ ],
+ "Gift2UpgradeFeatureSoon": [
+  "SOON"
+ ],
+ "Gift2UpgradeText": [
+  "Turn your gift into a unique collectible that you can transfer or auction."
+ ],
+ "Gift2UpgradeTitle": [
+  "Upgrade Gift"
+ ],
+ "Gift2UpgradedText": [
+  "Your gift **%s** now has unique attributes and can be transferred to others."
+ ],
+ "Gift2UpgradedTitle": [
+  "Gift Upgraded"
+ ],
+ "GiftOfferAccept": [
+  "Accept"
+ ],
+ "GiftOfferDecline": [
+  "Reject"
+ ],
+ "GiftOfferOfferedTextStars": [
+  "**%1$s** offered you **%2$s Stars** for **%3$s**."
+ ],
+ "GiftOfferOfferedTextStarsOut": [
+  "You offered **%1$s** **%2$s Stars** for **%3$s**."
+ ],
+ "GiftOfferOfferedTextStarsRejected": [
+  "**%1$s** rejected your offer of **%2$s Stars** for **%3$s**."
+ ],
+ "GiftOfferOfferedTextStarsRejectedOut": [
+  "You rejected **%1$s's** offer to buy your **%3$s** for **%2$s Stars**."
+ ],
+ "GiftOfferRejectConfirmConfirm": [
+  "Reject"
+ ],
+ "GiftOfferRejectConfirmText": [
+  "Are you sure you want to reject the offer from **%s**?"
+ ],
+ "GiftOfferRejectConfirmTitle": [
+  "Reject Offer"
+ ],
+ "GiftOfferStatusAccepted": [
+  "This offer was accepted."
+ ],
+ "GiftOfferStatusPending": [
+  "This offer expires in **%s**."
+ ],
+ "GiftOfferStatusRejected": [
+  "This offer was rejected."
+ ],
+ "GiftStarsSubtitleLinkName": [
+  "**See Examples >**"
+ ],
+ "GiftThemesSetInReuseConfirm": [
+  "Yes"
+ ],
+ "GiftThemesSetInReuseInfo": [
+  "This gift is already your theme in the chat with **%s**. Remove it there and use it here instead?"
+ ],
+ "GotAQuestion": [
+  "Have a questionabout Telegram?"
+ ],
+ "Grams": [
+  "%1$s Gram",
+  "%1$s Grams"
+ ],
+ "GroupCallCreateAddMembers": [
+  "Add members"
+ ],
+ "GroupCallCreateText": [
+  "This call is no longer active. You can start a new one."
+ ],
+ "GroupCallCreateTitle": [
+  "Start Group Call"
+ ],
+ "GroupCallCreateVideo": [
+  "Video"
+ ],
+ "GroupCallCreateVoice": [
+  "Voice"
+ ],
+ "GroupCallLinkJoin": [
+  "Join Group Call"
+ ],
+ "GroupCallLinkText": [
+  "You are invited to join a Telegram call."
+ ],
+ "GroupCallLinkText2One": [
+  "**%1$s** already joined this call."
+ ],
+ "GroupCallLinkText2Two": [
+  "**%1$s** and **%2$s** already joined this call."
+ ],
+ "GroupCallLinkTitle": [
+  "Group Call"
+ ],
+ "HidAccount": [
+  "The account was hidden by the user"
+ ],
+ "HiddenName": [
+  "Deleted Account"
+ ],
+ "HoldToAudio": [
+  "Hold to record audio. Tap to switch to video."
+ ],
+ "HoldToVideo": [
+  "Hold to record video. Tap to switch to audio."
+ ],
+ "Hybrid": [
+  "Hybrid"
+ ],
+ "IncorrectLocalization": [
+  "Incorrect localization file"
+ ],
+ "IncorrectTheme": [
+  "Sorry, this theme file appears to be corrupted."
+ ],
+ "InstantViewNightMode": [
+  "The dark theme will automatically turn on at night"
+ ],
+ "InternalFolderInfo": [
+  "Browse your file system"
+ ],
+ "InternalStorage": [
+  "Internal Storage"
+ ],
+ "IsRecordingAudio": [
+  "%1$s is recording a voice message..."
+ ],
+ "IsRecordingRound": [
+  "%1$s is recording a video message..."
+ ],
+ "IsSendingPhoto": [
+  "%1$s is sending a photo..."
+ ],
+ "Italic": [
+  "Italic"
+ ],
+ "JoinCall": [
+  "Join Call"
+ ],
+ "JoinToGroupErrorNotExist": [
+  "Sorry, this chat doesn't seem to exist."
+ ],
+ "JumpToDate": [
+  "Jump to Date"
+ ],
+ "KMetersAway": [
+  "km away"
+ ],
+ "KMetersFromYou2": [
+  "%1$s km from you"
+ ],
+ "KMetersShort": [
+  "%1$s km"
+ ],
+ "LastName": [
+  "Last name (optional)"
+ ],
+ "LastSeen": [
+  "last seen"
+ ],
+ "LastSeenDate": [
+  "last seen"
+ ],
+ "LastSeenFormatted": [
+  "last seen %1$s"
+ ],
+ "Lately": [
+  "last seen recently"
+ ],
+ "LocationNotifiation": [
+  "Proximity alert"
+ ],
+ "LocationNotifiationButtonUser": [
+  "Notify when %1$s is within %2$s"
+ ],
+ "Map": [
+  "Map"
+ ],
+ "Message": [
+  "Message"
+ ],
+ "MessageBizBot": [
+  "Only you can see that this message is sent by a **bot**."
+ ],
+ "MessageLifetime": [
+  "Self-Destruct Timer"
+ ],
+ "MessageLifetimeChanged": [
+  "%1$s set the self-destruct timer to %2$s"
+ ],
+ "MessageLifetimeChangedOutgoing": [
+  "You set the self-destruct timer to %1$s"
+ ],
+ "MessageLifetimePhoto": [
+  "If you set a timer, the photo will self-destruct after it is viewed."
+ ],
+ "MessageLifetimeRemoved": [
+  "%1$s disabled the self-destruct timer"
+ ],
+ "MessageLifetimeVideo": [
+  "If you set a timer, the video will self-destruct after it is viewed."
+ ],
+ "MessageLifetimeYouRemoved": [
+  "You disabled the self-destruct timer"
+ ],
+ "MessageLockedPremium": [
+  "Subscribe to **Premium** to message **%s**."
+ ],
+ "MessageLockedStars": [
+  "**%1$s** charges **⭐️ %2$s** for each message."
+ ],
+ "MessageLockedStarsRemoveFee": [
+  "%1$s must pay ⭐️ %2$s for each message to you.**Remove Fee**"
+ ],
+ "MessageLockedStarsRemoveFeeShort": [
+  "%1$s pays ⭐️ %2$s for each message to you.**Remove Fee**"
+ ],
+ "MessagePremiumErrorMessage": [
+  "%s only accepts messages from contacts or Premium users."
+ ],
+ "MessagePremiumErrorTitle": [
+  "Unable to send"
+ ],
+ "MessagePremiumUnlock": [
+  "Get Premium"
+ ],
+ "MessageScheduledUntilOnline": [
+  "Scheduled until online"
+ ],
+ "MessageStarsUnlock": [
+  "Buy Stars"
+ ],
+ "Meters": [
+  "%1$d meter",
+  "%1$d meters"
+ ],
+ "MetersAway": [
+  "m away"
+ ],
+ "MetersFromYou2": [
+  "%1$s m from you"
+ ],
+ "MetersShort": [
+  "%1$s m"
+ ],
+ "MilesFromYou": [
+  "%1$s mi from you"
+ ],
+ "MoreAboutThisBot": [
+  "More about this bot"
+ ],
+ "MoreInfo": [
+  "Learn more"
+ ],
+ "Mute": [
+  "Mute"
+ ],
+ "MuteForAlert": [
+  "Mute notifications for..."
+ ],
+ "MuteNever": [
+  "Never"
+ ],
+ "MyNotes": [
+  "My Notes"
+ ],
+ "NearbyPeopleGreetingsDescription": [
+  "Send a message or tap on the greeting below to show that you are ready to chat."
+ ],
+ "NearbyPeopleGreetingsMessage": [
+  "%1$s is %2$s"
+ ],
+ "NearbyVenue": [
+  "Or choose a venue"
+ ],
+ "Next": [
+  "Next"
+ ],
+ "NoAudio": [
+  "Add files to the music library on your device to see them here."
+ ],
+ "NoEffectsFound": [
+  "No effects found"
+ ],
+ "NoFilteredMessages": [
+  "No messages under this tag or search found"
+ ],
+ "NoFolderFound": [
+  "No chat folder found."
+ ],
+ "NoMasks": [
+  "No masks yet"
+ ],
+ "NoMessages": [
+  "No messages here yet..."
+ ],
+ "NoMessagesGreetingsDescription": [
+  "Send a message or tap the greeting below."
+ ],
+ "NoPaidMessagesTokenImported": [
+  "You can now message **%1$s** for free."
+ ],
+ "NoRecentGIFs": [
+  "No recent GIFs"
+ ],
+ "NoRecentPhotos": [
+  "No recent photos"
+ ],
+ "NoSharedLinksSecret": [
+  "Shared links from this chat will be shown here."
+ ],
+ "NoUsernameFound": [
+  "Username not found."
+ ],
+ "NobodyLikesSpam1": [
+  "Sorry, you can only send messages to mutual contacts at the moment."
+ ],
+ "NotificationContactNewPhoto": [
+  "%1$s updated profile photo"
+ ],
+ "NotificationUnrecognizedDevice": [
+  "%1$s,We detected a login to your account from a new device on %2$sDevice: %3$sLocation: %4$sIf this wasn't you, you can go to Settings > Devices and terminate that session.If you think that somebody logged in to your account against your will, you can enable Two-Step Verification in Privacy and Security settings.Sincerely,The Telegram Team"
+ ],
+ "NowInContacts": [
+  "%1$s is now in your contacts."
+ ],
+ "OK": [
+  "OK"
+ ],
+ "Online": [
+  "online"
+ ],
+ "OnlyPremiumCanMessage": [
+  "%s only accepts messages from Premium users.**Learn more...**"
+ ],
+ "Open": [
+  "Open"
+ ],
+ "PaidMessageActionIn": [
+  "un1 paid %1$d Star to send a message",
+  "un1 paid %1$d Stars to send a message"
+ ],
+ "PaidMessagesRefunded": [
+  "un1 refunded %1$d Star to you",
+  "un1 refunded %1$d Stars to you"
+ ],
+ "PinAlsoFor": [
+  "Also pin for %1$s"
+ ],
+ "PinMessage": [
+  "Pin"
+ ],
+ "PinMessageAlertChat": [
+  "Do you want to pin this message to the top of the chat?"
+ ],
+ "PinMessageAlertTitle": [
+  "Pin message"
+ ],
+ "PmRead": [
+  "read"
+ ],
+ "PmReadAt": [
+  "read %s"
+ ],
+ "PmReadShowWhen": [
+  "show when"
+ ],
+ "PmReadTodayAt": [
+  "read at %s"
+ ],
+ "PmReadUnknown": [
+  "read time unknown"
+ ],
+ "PmReadYesterdayAt": [
+  "yesterday at %s"
+ ],
+ "PremiumLastSeenButton1": [
+  "Show My Last Seen"
+ ],
+ "PremiumLastSeenButton2": [
+  "Subscribe to Telegram Premium"
+ ],
+ "PremiumLastSeenHeader1": [
+  "Show Your Last Seen"
+ ],
+ "PremiumLastSeenHeader2": [
+  "Upgrade to Premium"
+ ],
+ "PremiumLastSeenText1": [
+  "To see **%s** Last Seen time, either start showing your own Last Seen time..."
+ ],
+ "PremiumLastSeenText2": [
+  "Subscribing will let you see **%s’s** Last Seen status without showing yours."
+ ],
+ "PremiumMessageButton": [
+  "Subscribe to Telegram Premium"
+ ],
+ "PremiumMessageHeader": [
+  "Unlock Messaging"
+ ],
+ "PremiumMessageText": [
+  "**%1$s** restricted who can message them in Privacy Settings. Subscribe to **Telegram Premium** to message **%2$s**."
+ ],
+ "PremiumOr": [
+  "or"
+ ],
+ "PremiumReadButton1": [
+  "Show My Read Time"
+ ],
+ "PremiumReadButton2": [
+  "Subscribe to Telegram Premium"
+ ],
+ "PremiumReadHeader1": [
+  "Show Your Read Date"
+ ],
+ "PremiumReadHeader2": [
+  "Upgrade to Premium"
+ ],
+ "PremiumReadText1": [
+  "To see when **%s** read the message, either start showing your own read time..."
+ ],
+ "PremiumReadText2": [
+  "Subscribing will let you see **%s’s** read time without showing yours."
+ ],
+ "PreviewWallpaperNight": [
+  "Preview this wallpaper in night mode."
+ ],
+ "ProximityAlertCancelled": [
+  "Proximity alert canceled"
+ ],
+ "ProximityAlertSet": [
+  "Proximity alert set"
+ ],
+ "ProximityAlertSetInfoGroup2": [
+  "We will notify you once someone is within %1$s from you."
+ ],
+ "ProximityAlertSetInfoUser": [
+  "We will notify you once %1$s is within %2$s from you."
+ ],
+ "ProximityTooltioUser": [
+  "Alert when %1$s is close"
+ ],
+ "QuotePrivate": [
+  "This quote is from a private chat"
+ ],
+ "RateCallDistorted": [
+  "Speech was distorted"
+ ],
+ "RateCallDropped": [
+  "Call ended unexpectedly"
+ ],
+ "RateCallEcho": [
+  "I heard my own voice"
+ ],
+ "RateCallInterruptions": [
+  "The other side kept disappearing"
+ ],
+ "RateCallNoise": [
+  "I heard background noise"
+ ],
+ "RateCallSilentLocal": [
+  "I couldn't hear the other side"
+ ],
+ "RateCallSilentRemote": [
+  "The other side couldn't hear me"
+ ],
+ "RecentFiles": [
+  "Recent files"
+ ],
+ "RecordingAudio": [
+  "recording voice..."
+ ],
+ "RecordingRound": [
+  "recording video..."
+ ],
+ "Regular": [
+  "Regular"
+ ],
+ "RemindDayAt": [
+  "'Remind on' MMM d 'at' HH:mm"
+ ],
+ "RemindDayYearAt": [
+  "'Remind on' MMM d yyyy 'at' HH:mm"
+ ],
+ "RemindTodayAt": [
+  "'Remind today at' HH:mm"
+ ],
+ "Reminders": [
+  "Reminders"
+ ],
+ "RemoveMessageFeeMessage": [
+  "Are you sure you want to allow **%s** to message you for free?"
+ ],
+ "RemoveMessageFeeRefund": [
+  "Refund the %d Star already paid ",
+  "Refund the %d Stars already paid "
+ ],
+ "RemoveMessageFeeTitle": [
+  "Remove Fee"
+ ],
+ "RemoveWallpaperAction": [
+  "Remove"
+ ],
+ "RemoveWallpaperMessage": [
+  "Are you sure you want to reset the wallpaper?"
+ ],
+ "RemoveWallpaperTitle": [
+  "Remove wallpaper"
+ ],
+ "ReplyTo": [
+  "Reply to %s"
+ ],
+ "ReplyToQuote": [
+  "Reply to quote from %s"
+ ],
+ "ReportSpam": [
+  "REPORT SPAM"
+ ],
+ "ReportSpamAlert": [
+  "Are you sure you want to report spam from this user?"
+ ],
+ "ReportSpamUser": [
+  "BLOCK USER"
+ ],
+ "ReportSpamUserEmojiStatusHint2": [
+  "%1$s is a mark for **Premium subscribers >**"
+ ],
+ "ReportSpamUserNoCaps": [
+  "Block User"
+ ],
+ "RestToDefaultBackground": [
+  "Remove Wallpaper"
+ ],
+ "ReturnToCall": [
+  "RETURN TO CALL"
+ ],
+ "Satellite": [
+  "Satellite"
+ ],
+ "SavedDialogsTab": [
+  "Chats"
+ ],
+ "SavedDialogsTabCount": [
+  "%d chat",
+  "%d chats"
+ ],
+ "SavedMessages": [
+  "Saved Messages"
+ ],
+ "SavedMessagesCount": [
+  "%d saved message",
+  "%d saved messages"
+ ],
+ "SavedMessagesHint": [
+  "Tap to view your **Saved Messages** organized by type or source."
+ ],
+ "SavedMessagesInfo": [
+  "Forward here to save"
+ ],
+ "SavedMessagesTab": [
+  "Saved Messages"
+ ],
+ "SavedMessagesViewAsChatsHint": [
+  "tap to view as chats >"
+ ],
+ "SavedOpenChat": [
+  "OPEN CHAT"
+ ],
+ "SavedTagFilterByTag": [
+  "Filter by Tag"
+ ],
+ "SavedTagLabelPlaceholder": [
+  "Name"
+ ],
+ "SavedTagLabelTag": [
+  "Add Name"
+ ],
+ "SavedTagLabelTagText": [
+  "You can label your emoji tag with a text name."
+ ],
+ "SavedTagLongpressHint": [
+  "Tap and hold to add a name to your tag"
+ ],
+ "SavedTagMessageTagged": [
+  "Message tagged with"
+ ],
+ "SavedTagReactionsHint": [
+  "You can add a tag to the message"
+ ],
+ "SavedTagReactionsHint2": [
+  "Tag the message with an emoji for quick search"
+ ],
+ "SavedTagReactionsPremiumHint": [
+  "Organize your Saved Messages with tagsfor quicker access. **Learn more…**"
+ ],
+ "SavedTagReactionsSelectedAddHint": [
+  "Add a tag to selected messages"
+ ],
+ "SavedTagReactionsSelectedEditHint": [
+  "Edit tags of selected messages"
+ ],
+ "SavedTagRemoveTag": [
+  "Remove Tag"
+ ],
+ "SavedTagRenameTag": [
+  "Edit Name"
+ ],
+ "SavedTagSearchHint": [
+  "Search messages or tags"
+ ],
+ "SavedTagSearchTooltipHint": [
+  "Tap this icon to search by tags"
+ ],
+ "SavedViewAsChats": [
+  "View as Chats"
+ ],
+ "SavedViewAsMessages": [
+  "View as Messages"
+ ],
+ "Schedule": [
+  "Schedule"
+ ],
+ "ScheduleMessage": [
+  "Schedule Message"
+ ],
+ "ScheduleNotifyOffChat": [
+  "%s will receive a silent notification"
+ ],
+ "ScheduleNotifyOffSelf": [
+  "You will receive a silent notification"
+ ],
+ "ScheduleNotifyOnChat": [
+  "%s will be notified"
+ ],
+ "ScheduleNotifyOnSelf": [
+  "You will be notified"
+ ],
+ "ScheduleWhenOnline": [
+  "Send when %1$s comes online"
+ ],
+ "Search": [
+  "Search"
+ ],
+ "SearchAsChat": [
+  "Show as Chat"
+ ],
+ "SearchAsList": [
+  "Show as List"
+ ],
+ "SearchGifsTitle": [
+  "Search GIFs"
+ ],
+ "SearchImagesTitle": [
+  "Search web"
+ ],
+ "SearchStickersHint": [
+  "Search sticker sets"
+ ],
+ "Seconds": [
+  "%1$d second",
+  "%1$d seconds"
+ ],
+ "SecretChatTimerHours": [
+  "h"
+ ],
+ "SecretChatTimerMinutes": [
+  "m"
+ ],
+ "SecretChatTimerSeconds": [
+  "s"
+ ],
+ "SecretLinkPreviewAlert": [
+  "Enable extended link previews in Secret Chats? Note that link previews are generated on Telegram servers."
+ ],
+ "SelectFile": [
+  "Select File"
+ ],
+ "SelectTheme": [
+  "Select theme"
+ ],
+ "Send": [
+  "Send"
+ ],
+ "SendAnotherGift": [
+  "Send Another Gift"
+ ],
+ "SendAsFile": [
+  "Send as file"
+ ],
+ "SendAsFiles": [
+  "Send as files"
+ ],
+ "SendGiftTo": [
+  "Send Gift to %s"
+ ],
+ "SendLiveLocation": [
+  "Share My Live Location for..."
+ ],
+ "SendLiveLocationInfo": [
+  "Updated in real time as you move"
+ ],
+ "SendLocation": [
+  "Send My Current Location"
+ ],
+ "SendSelectedLocation": [
+  "Send selected location"
+ ],
+ "SendStickerPreview": [
+  "Send Sticker"
+ ],
+ "SendWhenOnline": [
+  "Send When Online"
+ ],
+ "SendWithoutCompression": [
+  "Send without compression"
+ ],
+ "SendWithoutGrouping": [
+  "Send without grouping"
+ ],
+ "SendWithoutSound": [
+  "Send Without Sound"
+ ],
+ "SendingAudio": [
+  "sending audio..."
+ ],
+ "SendingFile": [
+  "sending a file..."
+ ],
+ "SendingGame": [
+  "playing a game..."
+ ],
+ "SendingPhoto": [
+  "sending a photo..."
+ ],
+ "SendingVideoStatus": [
+  "sending a video..."
+ ],
+ "SetColorAsBackground": [
+  "Set a Color as Wallpaper"
+ ],
+ "SetReminder": [
+  "Set a Reminder"
+ ],
+ "SetTimer": [
+  "Set self-destruct timer"
+ ],
+ "SetWallpapers": [
+  "Change Wallpaper"
+ ],
+ "ShareLocation": [
+  "Location"
+ ],
+ "ShareLocationAlertButton": [
+  "Share"
+ ],
+ "ShareLocationAlertText": [
+  "For the alert to work, please share your live location in this chat."
+ ],
+ "ShareLocationAlertTitle": [
+  "Share Location"
+ ],
+ "ShareSendTo": [
+  "Send to..."
+ ],
+ "ShareYouPhoneNumberTitle": [
+  "Share your phone number?"
+ ],
+ "SharedContactAdd": [
+  "ADD"
+ ],
+ "SharedContactMessage": [
+  "MESSAGE"
+ ],
+ "SharedMedia": [
+  "Shared Media"
+ ],
+ "SharingOfferEnable1": [
+  "\\> forwarding messages"
+ ],
+ "SharingOfferEnable2": [
+  "\\> saving photos and videos"
+ ],
+ "SharingOfferEnable3": [
+  "\\> copying messages"
+ ],
+ "SharingOfferEnable4": [
+  "\\> taking screenshots"
+ ],
+ "SharingOfferEnableHeaderOther": [
+  "**%s** would like to enable sharing in this chat, which includes:"
+ ],
+ "SharingOfferEnableHeaderYou": [
+  "You suggested to enable sharing in this chat, which includes:"
+ ],
+ "ShortMessageLifetimeForever": [
+  "Off"
+ ],
+ "SlideToCancel": [
+  "SLIDE TO CANCEL"
+ ],
+ "SlideUpToLock": [
+  "Slide up to lock recording"
+ ],
+ "StarsGiftCompleted": [
+  "Gift sent!"
+ ],
+ "StarsGiftCompletedText": [
+  "You spent **%1$d** Star from your balance.",
+  "You spent **%1$d** Stars from your balance."
+ ],
+ "StarsGiftReceived": [
+  "Received Gift"
+ ],
+ "StarsGiftSent": [
+  "Sent Gift"
+ ],
+ "StarsTransactionDate": [
+  "Date"
+ ],
+ "StarsTransactionID": [
+  "Transaction ID"
+ ],
+ "StarsTransactionRecipient": [
+  "From"
+ ],
+ "StarsTransactionTOS": [
+  "Review the **Terms of Service** for Stars."
+ ],
+ "StatusHiddenShow": [
+  "when?"
+ ],
+ "StickerEffects": [
+  "Effects from stickers"
+ ],
+ "StickersRemove": [
+  "Remove"
+ ],
+ "SuggestedDateOfBirthView": [
+  "View"
+ ],
+ "SupportStatus": [
+  "support"
+ ],
+ "TaggedMessages": [
+  "%1$d message",
+  "%1$d messages"
+ ],
+ "TapForReplyOptions": [
+  "Tap here for reply options"
+ ],
+ "ThemeAlsoAppliedForHint": [
+  "Theme will be also applied for **%s**."
+ ],
+ "ThemeAlsoDisabledForHint": [
+  "Theme will be also disabled for **%s**."
+ ],
+ "ThemePreview": [
+  "Theme Preview"
+ ],
+ "TimeToEditExpired": [
+  "Sorry, editing time expired."
+ ],
+ "TypeMessage": [
+  "Message"
+ ],
+ "Unarchive": [
+  "Unarchive"
+ ],
+ "UnmuteNotifications": [
+  "Unmute"
+ ],
+ "UnsaveMessagesTitle": [
+  "Unsave %1$s"
+ ],
+ "UnsaveSingleMessagesTitle": [
+  "Unsave message"
+ ],
+ "UnsupportedAttachment": [
+  "Unsupported attachment"
+ ],
+ "UserBirthdayHint": [
+  "🎂 You can send %1$s a gift for their birthday today."
+ ],
+ "UsernameCopied": [
+  "Username copied to clipboard."
+ ],
+ "VideoCall": [
+  "Video Call"
+ ],
+ "VideoOnceHint": [
+  "This video message can only be played once."
+ ],
+ "VideoSetOnceHint": [
+  "Tap to set this message to **Play Once**."
+ ],
+ "VideoSetOnceHintEnabled": [
+  "The recipient will be able to play it only once."
+ ],
+ "ViewChatList": [
+  "View Chat List"
+ ],
+ "ViewPackPreview": [
+  "View Sticker Set"
+ ],
+ "ViewPhotoAction": [
+  "View Photo"
+ ],
+ "ViewWallpaperAction": [
+  "View Wallpaper"
+ ],
+ "VoiceOnceClose": [
+  "Close"
+ ],
+ "VoiceOnceDeleteClose": [
+  "Delete and Close"
+ ],
+ "VoiceOnceHint": [
+  "This voice message can only be played once."
+ ],
+ "VoiceOnceOutHint": [
+  "This message will disappear after **%s** plays it once."
+ ],
+ "VoiceOnceTurnOnSound": [
+  "Please, turn on the sound first."
+ ],
+ "VoiceSetOnceHint": [
+  "Tap to set this message to **Play Once**."
+ ],
+ "VoiceSetOnceHintEnabled": [
+  "The recipient will be able to listen only once."
+ ],
+ "VoipAudioRoutingBluetooth": [
+  "Bluetooth"
+ ],
+ "VoipAudioRoutingEarpiece": [
+  "Earpiece"
+ ],
+ "VoipAudioRoutingSpeaker": [
+  "Speaker"
+ ],
+ "VoipBusy": [
+  "Line busy"
+ ],
+ "VoipCallEncryptionEndToEnd": [
+  "This call is end-to-end encrypted"
+ ],
+ "VoipCallEnded": [
+  "Call ended"
+ ],
+ "VoipConnecting": [
+  "Connecting"
+ ],
+ "VoipEndCall": [
+  "End call"
+ ],
+ "VoipEndCall2": [
+  "End Call"
+ ],
+ "VoipExchangingKeys": [
+  "Exchanging encryption keys"
+ ],
+ "VoipFailed": [
+  "Failed to connect"
+ ],
+ "VoipFeedbackCommentHint": [
+  "Add an optional comment"
+ ],
+ "VoipHangingUp": [
+  "Hanging up"
+ ],
+ "VoipHideEmoji": [
+  "Hide Emoji"
+ ],
+ "VoipHintEncryptionKey": [
+  "Encryption key of this call"
+ ],
+ "VoipInCallBranding": [
+  "Telegram Call"
+ ],
+ "VoipOutgoingCall": [
+  "Ongoing Telegram call"
+ ],
+ "VoipPeerIncompatible": [
+  "**%1$s**'s app is using an incompatible protocol. They need to update their app before you can call them."
+ ],
+ "VoipPeerOutdated": [
+  "**%1$s**'s app does not support calls. They need to update their app before you can call them."
+ ],
+ "VoipRateCallAlert": [
+  "Please rate the quality of your Telegram call"
+ ],
+ "VoipRateCallDescription": [
+  "Please rate the quality of this call."
+ ],
+ "VoipRateCallTitle": [
+  "Rate this call"
+ ],
+ "VoipRequesting": [
+  "Requesting"
+ ],
+ "VoipRinging": [
+  "Ringing"
+ ],
+ "VoipWaiting": [
+  "Waiting"
+ ],
+ "VoipWeakNetwork": [
+  "Weak network signal"
+ ],
+ "WalletActionReceivedGrams": [
+  "un1 sent you **%1$s**"
+ ],
+ "WalletActionReceivedGramsSomeone": [
+  "Someone sent you **%1$s**"
+ ],
+ "WalletActionSentGrams": [
+  "You sent un1 **%1$s**"
+ ],
+ "WalletAddress": [
+  "Address"
+ ],
+ "WalletDate": [
+  "Date"
+ ],
+ "WalletFee": [
+  "Fee"
+ ],
+ "WalletFeePaidByTelegram": [
+  "Free (paid by Telegram)"
+ ],
+ "WalletOpenMyWallet": [
+  "Open My Money"
+ ],
+ "WalletRecipient": [
+  "Recipient"
+ ],
+ "WalletSend": [
+  "Send"
+ ],
+ "WalletTonConnectRequestAppDeclined": [
+  "%s's transaction request declined"
+ ],
+ "WalletTonConnectRequestAppProcessed": [
+  "%s's transaction request processed"
+ ],
+ "WalletTransferStatusReceived": [
+  "received"
+ ],
+ "WalletTransferStatusSent": [
+  "sent"
+ ],
+ "WalletTransferWorth": [
+  "%1$s (%2$s)"
+ ],
+ "WalletUnknownUser": [
+  "UNKNOWN USER"
+ ],
+ "WalletViewInExplorer": [
+  "View in Explorer"
+ ],
+ "WalletWhatIsGram": [
+  "What is Gram?"
+ ],
+ "WallpaperDimming": [
+  "Dimming"
+ ],
+ "WallpaperNotification": [
+  "Set a new chat wallpaper"
+ ],
+ "WallpaperPreview": [
+  "Wallpaper"
+ ],
+ "WithinAMonth": [
+  "last seen within a month"
+ ],
+ "WithinAWeek": [
+  "last seen within a week"
+ ],
+ "formatDateAtTime": [
+  "%1$s at %2$s"
+ ],
+ "messages": [
+  "%1$d message",
+  "%1$d messages"
+ ]
+}

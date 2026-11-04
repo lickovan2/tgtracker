@@ -1,0 +1,1335 @@
+{
+ "ActionBotAllowed": [
+  "You allowed this bot to message you when you logged in on %1$s"
+ ],
+ "ActionBotAllowedApp": [
+  "You allowed this bot to message you when you logged in on \"%1$s\" app."
+ ],
+ "ActionBotWebViewData": [
+  "Data from the \"%1$s\" button was transferred to the bot."
+ ],
+ "ActionManagedBotCreated": [
+  "You created un1 bot for un2 to manage"
+ ],
+ "ActionRequestedPeer": [
+  "You shared un1 with un2"
+ ],
+ "ActionUserScored": [
+  "un1 scored %1$s"
+ ],
+ "ActionYouScored": [
+  "You scored %1$s"
+ ],
+ "ActionYouScoredInGame": [
+  "You scored %1$s in un2"
+ ],
+ "AddAsAdmin": [
+  "Add as admin"
+ ],
+ "AddBotAdmin": [
+  "Add bot as admin"
+ ],
+ "AddBotButton": [
+  "Add bot"
+ ],
+ "AddBotButtonAsMember": [
+  "as Member"
+ ],
+ "AddBotMessageAdminChannel": [
+  "Do you want to add this bot as an admin to the channel **%1$s**? It will have access to lists of channel admins and subscribers."
+ ],
+ "AddBotMessageAdminGroup": [
+  "Are you sure you want to add this bot as an admin to the group **%1$s**? It will have access to the list of anonymous admins."
+ ],
+ "AddShortcut": [
+  "Add to Home Screen"
+ ],
+ "AddToTheGroupTitle": [
+  "Add %1$s to the chat %2$s?"
+ ],
+ "AffiliateProgramAlert": [
+  "Warning"
+ ],
+ "AffiliateProgramBot": [
+  "Affiliate Program"
+ ],
+ "AffiliateProgramBotOff": [
+  "Off"
+ ],
+ "AffiliateProgramCommission": [
+  "Commission"
+ ],
+ "AffiliateProgramCommissionInfo": [
+  "Define the percentage of star revenue your affiliates earn for referring users to your bot."
+ ],
+ "AffiliateProgramDuration": [
+  "Duration"
+ ],
+ "AffiliateProgramDurationInfo": [
+  "Set the duration for which affiliates will earn commissions from referred users."
+ ],
+ "AffiliateProgramEndedText": [
+  "Participating affiliates have been notified. All referral links will be disabled in **24** hours."
+ ],
+ "AffiliateProgramEndedTitle": [
+  "Affiliate program ended"
+ ],
+ "AffiliateProgramExistingProgramsText": [
+  "Explore what other mini apps offer."
+ ],
+ "AffiliateProgramExistingProgramsTitle": [
+  "View existing programs"
+ ],
+ "AffiliateProgramJoinedText": [
+  "You can now copy the referral link."
+ ],
+ "AffiliateProgramJoinedTitle": [
+  "Joined Program"
+ ],
+ "AffiliateProgramLinkCopiedText": [
+  "Share this link and earn **%1$s** of what people who use it spend in **%2$s**!"
+ ],
+ "AffiliateProgramLinkCopiedTitle": [
+  "Link copied to clipboard"
+ ],
+ "AffiliateProgramStart": [
+  "Start Affiliate Program"
+ ],
+ "AffiliateProgramStartAlertButton": [
+  "Start"
+ ],
+ "AffiliateProgramStartAlertText": [
+  "Once you start the affiliate program, you won't be able to decrease its commission or duration. You can only increase these parameters or end the program, which will disable all previously distributed referral links."
+ ],
+ "AffiliateProgramStartInfo": [
+  "By creating an affiliate program, you agree to the **Terms and Conditions** of Affiliate Programs."
+ ],
+ "AffiliateProgramStartInfoLink": [
+  "https://telegram.org/tos/affiliate-program"
+ ],
+ "AffiliateProgramStartedText": [
+  "Any Telegram user, channel owner or mini app developer can now join your program."
+ ],
+ "AffiliateProgramStartedTitle": [
+  "Affiliate program started"
+ ],
+ "AffiliateProgramStop": [
+  "End Affiliate Program"
+ ],
+ "AffiliateProgramStopButton": [
+  "End Anyway"
+ ],
+ "AffiliateProgramStopText": [
+  "If you end your affiliate program:"
+ ],
+ "AffiliateProgramStopText1": [
+  "Any referral links already shared will be disabled in **24** hours."
+ ],
+ "AffiliateProgramStopText2": [
+  "All participants affiliates will be notified."
+ ],
+ "AffiliateProgramStopText3": [
+  "You will have to wait **24** hours until you can start a new affiliate program."
+ ],
+ "AffiliateProgramUpdate": [
+  "Update Affiliate Program"
+ ],
+ "AffiliateProgramUpdateAlertButton": [
+  "Update"
+ ],
+ "AffiliateProgramUpdateAlertText": [
+  "This change is irreversible. You won't be able to reduce commission or duration. You can only increase these parameters or end the program, which will disable all previously shared referral links."
+ ],
+ "AffiliateProgramUpdateInfo": [
+  "By updating an affiliate program, you agree to the **Terms and Conditions** of Affiliate Programs."
+ ],
+ "AffiliateProgramUpdateInfoLink": [
+  "https://telegram.org/tos/affiliate-program"
+ ],
+ "AreYouSureDeleteThisChatWithBotWithCheckmark": [
+  "Are you sure you want to delete the chat with **%1$s**?"
+ ],
+ "AreYouSureSendChatToBotMessage": [
+  "Are you sure you want to send **%1$s** to **%2$s**?"
+ ],
+ "AreYouSureSendChatToBotTitle": [
+  "Send %1$s to %2$s?"
+ ],
+ "AreYouSureShareMyContactInfoBot": [
+  "The bot will know your phone number. This can be useful for integration with other services.⚠️ Warning! Never enter your Telegram login codes in mini apps."
+ ],
+ "AutoDeletePopupTitle": [
+  "Auto-Delete"
+ ],
+ "BlockBot": [
+  "Block bot"
+ ],
+ "Bot": [
+  "bot"
+ ],
+ "BotAdWhat": [
+  "what's this?"
+ ],
+ "BotAddToGroupOrChannelInfo": [
+  "This bot is able to manage a group or channel."
+ ],
+ "BotAddToMenu": [
+  "Add to Menu"
+ ],
+ "BotAffiliateProgramFeature1": [
+  "Set the commission for revenue generated by users referred to you."
+ ],
+ "BotAffiliateProgramFeature1Title": [
+  "Share revenue with affiliates"
+ ],
+ "BotAffiliateProgramFeature2": [
+  "Telegram will feature your program for millions of potential affiliates."
+ ],
+ "BotAffiliateProgramFeature2Title": [
+  "Launch your affiliate program"
+ ],
+ "BotAffiliateProgramFeature3": [
+  "Affiliates will share your referral link with their audience."
+ ],
+ "BotAffiliateProgramFeature3Title": [
+  "Let affiliates promote you"
+ ],
+ "BotAffiliateProgramText": [
+  "Reward those who help grow your user base."
+ ],
+ "BotAffiliateProgramTitle": [
+  "Affiliate Program"
+ ],
+ "BotAllowBiometryMessage": [
+  "Do you want to allow **%s** to use biometry?"
+ ],
+ "BotAttachMenuShortcatAddedAttach": [
+  "**%s** shortcut added in attachment menu."
+ ],
+ "BotAttachMenuShortcatAddedAttachAndSide": [
+  "**%s** shortcuts added in attachment menu and side menu."
+ ],
+ "BotAuthAllowMessages": [
+  "Allow Messages"
+ ],
+ "BotAuthAllowMessagesInfo": [
+  "This will allow %s to message you."
+ ],
+ "BotAuthBasedOnIP": [
+  "Based on the IP (%s)"
+ ],
+ "BotAuthBotSubtitle": [
+  "This bot will receive your **name**,**username** and **profile photo**."
+ ],
+ "BotAuthInfo": [
+  "This login attempt came from the device above."
+ ],
+ "BotAuthLoggedInFailNoDomain": [
+  "Link has expired."
+ ],
+ "BotAuthLoggedInFailTitle": [
+  "Login Failed"
+ ],
+ "BotAuthLoggedInSuccess": [
+  "You've successfully logged into **%s**."
+ ],
+ "BotAuthLoggedInSuccessTitle": [
+  "Login successful"
+ ],
+ "BotAuthLogin": [
+  "Log In"
+ ],
+ "BotAuthLoginRequestFrom": [
+  "Login request from **%s**"
+ ],
+ "BotAuthPhoneNumber": [
+  "Phone Number"
+ ],
+ "BotAuthPhoneNumberAccept": [
+  "Allow"
+ ],
+ "BotAuthPhoneNumberDeny": [
+  "Deny"
+ ],
+ "BotAuthPhoneNumberText": [
+  "**%1$s** wants to access your phone number **%2$s**.Allow access?"
+ ],
+ "BotAuthSelectEmoji": [
+  "Tap the emoji shownon your login screen"
+ ],
+ "BotAuthSiteSubtitle": [
+  "This site will receive your **name**,**username** and **profile photo**."
+ ],
+ "BotAuthTitle": [
+  "Log in to **%s**"
+ ],
+ "BotBalance": [
+  "Balance"
+ ],
+ "BotCantAddToAttachMenu": [
+  "This bot can't be added to the attachment menu."
+ ],
+ "BotCantJoinGroups": [
+  "This bot can't join groups."
+ ],
+ "BotChangeSettings": [
+  "Change Bot Settings"
+ ],
+ "BotDefaultPrivacyPolicy": [
+  "https://telegram.org/privacy-tpa"
+ ],
+ "BotDownloadFileDownload": [
+  "Download"
+ ],
+ "BotDownloadFileText": [
+  "**%s** offers you to download the following file:"
+ ],
+ "BotDownloadFileTitle": [
+  "Download Document"
+ ],
+ "BotDownloads": [
+  "Downloads"
+ ],
+ "BotEditCommands": [
+  "Edit Commands"
+ ],
+ "BotEditIntro": [
+  "Edit Intro"
+ ],
+ "BotEmojiStatusConfirm": [
+  "Confirm"
+ ],
+ "BotEmojiStatusPermissionAllow": [
+  "Allow"
+ ],
+ "BotEmojiStatusPermissionDecline": [
+  "Decline"
+ ],
+ "BotEmojiStatusPermissionRequest": [
+  "**%1$s** requests access to your **emoji status**. You can revoke this access anytime on the profile page of **%2$s**."
+ ],
+ "BotEmojiStatusPermissionRequestGranted": [
+  "**%s** can now set your emoji status at any time."
+ ],
+ "BotEmojiStatusSetRequest": [
+  "Do you want to set this emoji status suggested by **%1$s**?"
+ ],
+ "BotEmojiStatusSetRequestFor": [
+  "Do you want to set this emoji status suggested by **%1$s** for **%2$s**?"
+ ],
+ "BotEmojiStatusSetRequestForMinute": [
+  "%d minute",
+  "%d minutes"
+ ],
+ "BotEmojiStatusUpdated": [
+  "Emoji status updated."
+ ],
+ "BotFileDownloadCancel": [
+  "Cancel"
+ ],
+ "BotFileDownloadOpen": [
+  "Open"
+ ],
+ "BotFileDownloaded": [
+  "File saved to Downloads"
+ ],
+ "BotFileDownloading": [
+  "Downloading..."
+ ],
+ "BotForumAskForStartNewChat": [
+  "Type any message to create a new thread."
+ ],
+ "BotForumAskForStartNewChatForward": [
+  "Forward here to create a new thread."
+ ],
+ "BotForumAskForStartNewChatTitle": [
+  "New Thread"
+ ],
+ "BotForumAskForStartOffNewChatForward": [
+  "Forward to main chat"
+ ],
+ "BotForumAskForStartOffNewChatTitle": [
+  "Off-topic"
+ ],
+ "BotForumContinueChat": [
+  "Continue last thread"
+ ],
+ "BotFullscreenBack": [
+  "Back"
+ ],
+ "BotFullscreenClose": [
+  "Close"
+ ],
+ "BotHelp": [
+  "Help"
+ ],
+ "BotInfoTitle": [
+  "What can this bot do?"
+ ],
+ "BotInvite": [
+  "Add to Group"
+ ],
+ "BotLocationPermissionDecline": [
+  "Decline"
+ ],
+ "BotLocationPermissionRequest": [
+  "**%1$s** requests access to your location. You can revoke this access anytime on the profile page of **%2$s**."
+ ],
+ "BotLocationPermissionRequestDeniedApp": [
+  "**%s** can no longer access your location since you restricted Telegram from accessing it."
+ ],
+ "BotLocationPermissionRequestDeniedAppSettings": [
+  "Change in Settings \\>"
+ ],
+ "BotLocationPermissionRequestGranted": [
+  "**%s** can now access your location"
+ ],
+ "BotLocationPermissionSettings": [
+  "Settings"
+ ],
+ "BotManageInfo": [
+  "Use @BotFather to manage this bot."
+ ],
+ "BotName": [
+  "Bot Name"
+ ],
+ "BotOpenPageMessage": [
+  "**%1$s** would like to open its web app to proceed.It will be able to access your **IP address** and basic device info."
+ ],
+ "BotOpenPageTitle": [
+  "Open page"
+ ],
+ "BotPermissionGameAlert": [
+  "Allow %1$s to pass your Telegram name and id (not your phone number) to pages you open with this bot?"
+ ],
+ "BotPreviewEmpty": [
+  "no images yet"
+ ],
+ "BotPreviewsDeleted": [
+  "%d preview deleted",
+  "%d previews deleted"
+ ],
+ "BotPrivacyPolicy": [
+  "Privacy Policy"
+ ],
+ "BotProfilePermissionBiometry": [
+  "Biometrics"
+ ],
+ "BotProfilePermissionEmojiStatus": [
+  "Emoji Status"
+ ],
+ "BotProfilePermissionLocation": [
+  "Geolocation"
+ ],
+ "BotProfilePermissions": [
+  "Allow access to"
+ ],
+ "BotPublicLink": [
+  "Public Link"
+ ],
+ "BotRemoveFromMenu": [
+  "This will remove **%1$s** shortcuts from all menus."
+ ],
+ "BotRemoveFromMenuTitle": [
+  "Remove bot"
+ ],
+ "BotRequestAttachPermission": [
+  "**%1$s** requests to be added as an option to your attachment menu so you can access it from any chat."
+ ],
+ "BotRestart": [
+  "Restart Bot"
+ ],
+ "BotSetPublicLinkHeader": [
+  "Set public link"
+ ],
+ "BotSettings": [
+  "Settings"
+ ],
+ "BotSettingsChangedAlert": [
+  "You have changed some settings for this bot. Apply changes?"
+ ],
+ "BotShare": [
+  "Share"
+ ],
+ "BotShareMessage": [
+  "Share Message"
+ ],
+ "BotShareMessageInfo": [
+  "%s offers you to send this message to a chat you select."
+ ],
+ "BotShareMessagePreview": [
+  "Message preview"
+ ],
+ "BotShareMessageShare": [
+  "Share with..."
+ ],
+ "BotShareToTopic": [
+  "Share to…"
+ ],
+ "BotStarsChartRevenue": [
+  "Stars received"
+ ],
+ "BotStarsOverview": [
+  "Proceeds overview"
+ ],
+ "BotStarsOverviewAvailableBalance": [
+  "Available balance"
+ ],
+ "BotStarsOverviewInfo": [
+  "Stars from your total balance can be used for ads or withdrawn as rewards 21 days after they are earned."
+ ],
+ "BotStarsOverviewTotalBalance": [
+  "Total balance"
+ ],
+ "BotStart": [
+  "START"
+ ],
+ "BotStatusCantRead": [
+  "has no access to messages"
+ ],
+ "BotStatusRead": [
+  "has access to messages"
+ ],
+ "BotStop": [
+  "Block Bot"
+ ],
+ "BotTypeAI": [
+  "AI"
+ ],
+ "BotTypeAgent": [
+  "Agent"
+ ],
+ "BotTypeApp": [
+  "App"
+ ],
+ "BotTypeGame": [
+  "Game"
+ ],
+ "BotTypeNonBinary": [
+  "Non-binary"
+ ],
+ "BotUsernameHelp": [
+  "This link cannot be edited. You can acquire additional usernames on *Fragment*."
+ ],
+ "BotWebAppDisclaimerCheck": [
+  "I agree to the **Terms of Use**"
+ ],
+ "BotWebAppDisclaimerSubtitle": [
+  "You are about to use a mini app operated by an independent party **not affiliated with Telegram**. You must agree to the Terms of Use for mini apps to continue."
+ ],
+ "BotWebViewChangesMayNotBeSaved": [
+  "Changes that you made may not be saved."
+ ],
+ "BotWebViewCloseAnyway": [
+  "Close anyway"
+ ],
+ "BotWebViewDeleteBot": [
+  "Remove from Menu"
+ ],
+ "BotWebViewOpenBot": [
+  "Open Bot"
+ ],
+ "BotWebViewReloadPage": [
+  "Reload Page"
+ ],
+ "BotWebViewReportBot": [
+  "Report"
+ ],
+ "BotWebViewRequestAllow": [
+  "Allow"
+ ],
+ "BotWebViewRequestCameraPermission": [
+  "Allow **%1$s** to access your camera?The developer of **%1$s** will be able to access your camera when this web app is open."
+ ],
+ "BotWebViewRequestCameraPermissionWithHint": [
+  "Allow **%1$s** to access your camera?The developer of **%1$s** will be able to access your camera when this web app is open.Enable camera access in Settings > Permissions > Camera."
+ ],
+ "BotWebViewRequestDontAllow": [
+  "Don't Allow"
+ ],
+ "BotWebViewRequestGeolocationPermission": [
+  "Allow **%1$s** to access your location?The developer of **%1$s** will be able to access your location when this web app is open."
+ ],
+ "BotWebViewRequestGeolocationPermissionWithHint": [
+  "Allow **%1$s** to access your location?The developer of **%1$s** will be able to access your location when this web app is open.Go to Settings > Permissions and turn **Location** on to share location data."
+ ],
+ "BotWebViewRequestMicrophonePermission": [
+  "Allow **%1$s** to access your microphone?The developer of **%1$s** will be able to access your microphone when this web app is open."
+ ],
+ "BotWebViewRequestMicrophonePermissionWithHint": [
+  "Allow **%1$s** to access to your microphone?The developer of **%1$s** will be able to access your microphone when this web app is open.Enable microphone access in Settings > Permissions > Microphone."
+ ],
+ "BotWebViewSettings": [
+  "Settings"
+ ],
+ "BotWebViewStartPermission2": [
+  "By launching this mini app, you agree to the **Terms of Service for Mini Apps**."
+ ],
+ "BotWebViewToS": [
+  "Terms of Use"
+ ],
+ "BotWebViewToSLink": [
+  "https://telegram.org/tos/mini-apps"
+ ],
+ "BusinessBotChats2": [
+  "Chats the bot can access"
+ ],
+ "BusinessBotChatsInfo2": [
+  "Select the chats the bot won't access."
+ ],
+ "BusinessBotLink": [
+  "Bot Username or Link"
+ ],
+ "BusinessBotLinkInfo2": [
+  "Choose a bot to manage your chats automatically."
+ ],
+ "BusinessBotNoAddedButton": [
+  "Leave"
+ ],
+ "BusinessBotNoAddedText": [
+  "You haven’t added a bot to manage your account. Leave anyway?"
+ ],
+ "BusinessBotNoAddedTitle": [
+  "No Bot Added"
+ ],
+ "BusinessBots2": [
+  "Chat Automation"
+ ],
+ "BusinessBots2Info": [
+  "Add a bot to answer messages on your behalf."
+ ],
+ "BusinessChatsAllPrivateExcept2": [
+  "All private chats except…"
+ ],
+ "BusinessChatsExcludedAdd2": [
+  "Add"
+ ],
+ "BusinessChatsIncludedAdd2": [
+  "Add"
+ ],
+ "BusinessChatsOnlySelected2": [
+  "Only selected chats"
+ ],
+ "Cancel": [
+  "Cancel"
+ ],
+ "ChannelAffiliateProgramFeature1": [
+  "Receive guaranteed commissions for spending by users you refer."
+ ],
+ "ChannelAffiliateProgramFeature1Title": [
+  "Reliable"
+ ],
+ "ChannelAffiliateProgramFeature2": [
+  "Track your commissions from referred users in real time."
+ ],
+ "ChannelAffiliateProgramFeature2Title": [
+  "Transparent"
+ ],
+ "ChannelAffiliateProgramFeature3": [
+  "Choose a mini app below, get your referral link, and start earning Stars."
+ ],
+ "ChannelAffiliateProgramFeature3Title": [
+  "Simple"
+ ],
+ "ChannelAffiliateProgramJoinButton": [
+  "Join Program"
+ ],
+ "ChannelAffiliateProgramJoinButtonInfo": [
+  "By joining this program, you agree to the **Terms and Conditions** of Affiliate Programs."
+ ],
+ "ChannelAffiliateProgramJoinButtonInfoLink": [
+  "https://telegram.org/tos/affiliate-program"
+ ],
+ "ChannelAffiliateProgramJoinRevenue": [
+  "App's daily revenue per user: ⭐️ %s"
+ ],
+ "ChannelAffiliateProgramJoinText": [
+  "**%1$s** will share **%2$s** of the revenue from each user you refer to it for **%3$s**."
+ ],
+ "ChannelAffiliateProgramJoinText_Lifetime": [
+  "lifetime"
+ ],
+ "ChannelAffiliateProgramJoinText_Months": [
+  "%d month",
+  "%d months"
+ ],
+ "ChannelAffiliateProgramJoinText_Years": [
+  "%d year",
+  "%d years"
+ ],
+ "ChannelAffiliateProgramJoinTitle": [
+  "Affiliate Program"
+ ],
+ "ChannelAffiliateProgramJoinViewBot": [
+  "View %s"
+ ],
+ "ChannelAffiliateProgramLinkCopy": [
+  "Copy Link"
+ ],
+ "ChannelAffiliateProgramLinkOpened": [
+  "%1$d user has opened %2$s through this link.",
+  "%1$d users have opened %2$s through this link."
+ ],
+ "ChannelAffiliateProgramLinkOpenedNone": [
+  "No one has opened %s through this link."
+ ],
+ "ChannelAffiliateProgramLinkSendTo": [
+  "Commissions will be sent to:"
+ ],
+ "ChannelAffiliateProgramLinkTextChannel": [
+  "Share this link with your subscribers to earn a **%1$s** commission on their spending in **%2$s** for **%3$s**."
+ ],
+ "ChannelAffiliateProgramLinkTextUser": [
+  "Share this link with your friends to earn a **%1$s** commission on their spending in **%2$s** for **%3$s**."
+ ],
+ "ChannelAffiliateProgramLinkTitle": [
+  "Referral Link"
+ ],
+ "ChannelAffiliateProgramMyPrograms": [
+  "My Programs"
+ ],
+ "ChannelAffiliateProgramPrograms": [
+  "Programs"
+ ],
+ "ChannelAffiliateProgramProgramsSort": [
+  "Sort by"
+ ],
+ "ChannelAffiliateProgramProgramsSortDate": [
+  "Date"
+ ],
+ "ChannelAffiliateProgramProgramsSortProfitability": [
+  "Profitability"
+ ],
+ "ChannelAffiliateProgramProgramsSortRevenue": [
+  "Revenue"
+ ],
+ "ChannelAffiliateProgramRowText": [
+  "Distribute links to mini apps and earn a share of their revenue in Stars."
+ ],
+ "ChannelAffiliateProgramRowTitle": [
+  "Earn Stars"
+ ],
+ "ChannelAffiliateProgramText": [
+  "Earn a commission each time a user who first accessed a mini app through your referral link spends **Stars** within it."
+ ],
+ "ChannelAffiliateProgramTitle": [
+  "Affiliate Programs"
+ ],
+ "ChannelAffiliatePrograms": [
+  "Affiliate Programs"
+ ],
+ "ChooseChannel": [
+  "Choose a Channel"
+ ],
+ "ChooseGroup": [
+  "Choose a Group"
+ ],
+ "ChooseUser": [
+  "Choose a User"
+ ],
+ "ClearAllHistory": [
+  "Clear All History"
+ ],
+ "CopyLink": [
+  "Copy Link"
+ ],
+ "CreateChannelForThis": [
+  "Create a New Channel for This"
+ ],
+ "CreateGroupForThis": [
+  "Create a New Group for This"
+ ],
+ "CreateManagedBotButton": [
+  "Create"
+ ],
+ "CreateManagedBotCreatedText": [
+  "**%s** will manage this bot for you."
+ ],
+ "CreateManagedBotCreatedTitle": [
+  "%s created!"
+ ],
+ "CreateManagedBotName": [
+  "Bot Name"
+ ],
+ "CreateManagedBotNameInfo": [
+  "Tap to edit bot name."
+ ],
+ "CreateManagedBotText": [
+  "**%s** would like to createand manage a chatbot on your behalf."
+ ],
+ "CreateManagedBotTitle": [
+  "Create Bot"
+ ],
+ "CreateManagedBotUnsupported": [
+  "**%s** doesn’t support Bot Management mode."
+ ],
+ "CreateManagedBotUsername": [
+  "Username"
+ ],
+ "CreateManagedBotUsernameOwnerLimit": [
+  "You can only have %1$d usernames ending in %2$s across all your bots."
+ ],
+ "CreateManagedBotUsernamePremiumRequired": [
+  "Usernames ending in '%1$s' require Telegram Premium. **Subscribe ›**"
+ ],
+ "CreateManagedBotUsernameSuffixesComma": [
+  "%1$s, %2$s"
+ ],
+ "CreateManagedBotUsernameSuffixesInfo": [
+  "Must end in 'bot' – or %1$s with **Telegram Premium**."
+ ],
+ "CreateManagedBotUsernameSuffixesOr": [
+  "%1$s or %2$s"
+ ],
+ "Delete": [
+  "Delete"
+ ],
+ "DeleteAndBlock": [
+  "Delete and Block"
+ ],
+ "DeleteBotPreviewSubtitle": [
+  "Are you sure you want to delete this preview?"
+ ],
+ "DeleteBotPreviewTitle": [
+  "Delete Preview"
+ ],
+ "DeleteBotPreviewsSubtitle": [
+  "Are you sure you want to delete %d preview?",
+  "Are you sure you want to delete %d previews?"
+ ],
+ "DeleteBotPreviewsTitle": [
+  "Delete Previews"
+ ],
+ "EditAdminGroupDeleteMessages": [
+  "Delete Messages"
+ ],
+ "EditAdminPostMessages": [
+  "Post Messages"
+ ],
+ "EditBotPreview": [
+  "Edit Preview"
+ ],
+ "Images": [
+  "%d image",
+  "%d images"
+ ],
+ "InvoiceCantForwardSecretChat": [
+  "Sorry, invoices can’t be forwarded to secret chats."
+ ],
+ "InvoiceCantSendSecretChat": [
+  "Sorry, invoices can’t be sent to secret chats."
+ ],
+ "LeaveAffiliateLink": [
+  "Revoke Link"
+ ],
+ "LeaveAffiliateLinkAlert": [
+  "Are you sure you want to revoke the link of **%1$s**?"
+ ],
+ "LeaveAffiliateLinkButton": [
+  "Leave"
+ ],
+ "Lifetime": [
+  "Lifetime"
+ ],
+ "ManagedBotChatInfo": [
+  "**%1$s** is ready!Tap **Start** below to test your new chatbot. Its behavior is defined by **%2$s**."
+ ],
+ "MonthsShort": [
+  "%1$dm",
+  "%1$dm"
+ ],
+ "MyChannels": [
+  "My Channels"
+ ],
+ "MyGroups": [
+  "My Groups"
+ ],
+ "NoSuchGroups": [
+  "No such groups"
+ ],
+ "NoSuchGroupsInfo": [
+  "You don't have groups that meet the requirements for this bot"
+ ],
+ "OK": [
+  "OK"
+ ],
+ "OpenUrlAlert": [
+  "Open this link: %1$s?"
+ ],
+ "PaymentBillingAddress": [
+  "Billing address"
+ ],
+ "PaymentCardCvv": [
+  "Security Code (CVV)"
+ ],
+ "PaymentCardExpireDate": [
+  "MM/YY"
+ ],
+ "PaymentCardInfo": [
+  "Payment info"
+ ],
+ "PaymentCardName": [
+  "First and Last Name"
+ ],
+ "PaymentCardNumber": [
+  "Card Number"
+ ],
+ "PaymentCardSavePaymentInformation": [
+  "Save Payment Information"
+ ],
+ "PaymentCardSavePaymentInformationInfoLine1": [
+  "You can save your payment info for future use. It will be stored directly with the payment provider. Telegram has no access to your credit card data."
+ ],
+ "PaymentCardSavePaymentInformationInfoLine2": [
+  "Please *turn on Two-Step Verification* to enable this."
+ ],
+ "PaymentCardTitle": [
+  "Payment card"
+ ],
+ "PaymentCheckout": [
+  "Checkout"
+ ],
+ "PaymentCheckoutAcceptRecurrent": [
+  "I accept the *Terms of Service* of %1$s."
+ ],
+ "PaymentCheckoutEmail": [
+  "Contact address"
+ ],
+ "PaymentCheckoutMethod": [
+  "Payment method"
+ ],
+ "PaymentCheckoutMethodNewCard": [
+  "Add Bank Card…"
+ ],
+ "PaymentCheckoutName": [
+  "Name"
+ ],
+ "PaymentCheckoutPay": [
+  "PAY %1$s"
+ ],
+ "PaymentCheckoutPhoneNumber": [
+  "Phone number"
+ ],
+ "PaymentCheckoutProvider": [
+  "Payment provider"
+ ],
+ "PaymentCheckoutShippingMethod": [
+  "Shipping method"
+ ],
+ "PaymentConfirmationMessage": [
+  "Your card %1$s is on file. To pay with this card, please enter your 2-Step-Verification password."
+ ],
+ "PaymentConfirmationNewCard": [
+  "Choose Another Card"
+ ],
+ "PaymentConnectionFailed": [
+  "Unable to reach payment server. Please check your Internet connection and try again."
+ ],
+ "PaymentFailed": [
+  "Sorry, the payment was declined."
+ ],
+ "PaymentInfoHint": [
+  "You paid **%1$s** for **%2$s**."
+ ],
+ "PaymentInfoHintStars": [
+  "",
+  "You paid **%2$s** for **%1$d Stars**."
+ ],
+ "PaymentInvoice": [
+  "INVOICE"
+ ],
+ "PaymentNoShippingMethod": [
+  "Sorry, it is not possible to deliver to your address."
+ ],
+ "PaymentPassword": [
+  "Password & Email"
+ ],
+ "PaymentPasswordEmail": [
+  "Your email address"
+ ],
+ "PaymentPasswordEmailInfo": [
+  "Please enter a valid email address. It is the only way to recover a forgotten password."
+ ],
+ "PaymentPasswordEmailTitle": [
+  "Recovery email"
+ ],
+ "PaymentPasswordEnter": [
+  "Enter a password"
+ ],
+ "PaymentPasswordInfo": [
+  "Please create a password to protect your payment info. You'll be asked to enter it when you log in."
+ ],
+ "PaymentPasswordReEnter": [
+  "Re-enter your password"
+ ],
+ "PaymentPasswordTitle": [
+  "Password"
+ ],
+ "PaymentPhoneEmailToProvider": [
+  "Phone and email address will be passed to %1$s as billing info."
+ ],
+ "PaymentPrecheckoutFailed": [
+  "Sorry, the payment was canceled by the bot."
+ ],
+ "PaymentReceipt": [
+  "Receipt"
+ ],
+ "PaymentShippingAddress": [
+  "Shipping address"
+ ],
+ "PaymentShippingAddress1Placeholder": [
+  "Address 1 (Street)"
+ ],
+ "PaymentShippingAddress2Placeholder": [
+  "Address 2 (Street)"
+ ],
+ "PaymentShippingCityPlaceholder": [
+  "City"
+ ],
+ "PaymentShippingCountry": [
+  "Country"
+ ],
+ "PaymentShippingEmailPlaceholder": [
+  "Email"
+ ],
+ "PaymentShippingInfo": [
+  "Shipping Information"
+ ],
+ "PaymentShippingMethod": [
+  "Shipping methods"
+ ],
+ "PaymentShippingName": [
+  "Full Name"
+ ],
+ "PaymentShippingPhoneNumber": [
+  "Phone Number"
+ ],
+ "PaymentShippingReceiver": [
+  "Receiver"
+ ],
+ "PaymentShippingSave": [
+  "Save Shipping Information"
+ ],
+ "PaymentShippingSaveInfo": [
+  "You can save your shipping info for future use."
+ ],
+ "PaymentShippingStatePlaceholder": [
+  "State"
+ ],
+ "PaymentShippingZipPlaceholder": [
+  "Postcode"
+ ],
+ "PaymentSuccessfullyPaid": [
+  "You successfully transferred %1$s to %2$s for %3$s"
+ ],
+ "PaymentSuccessfullyPaidNoItemRecurrent": [
+  "You successfully transferred %1$s to %2$s and allowed future recurring payments"
+ ],
+ "PaymentTestInvoice": [
+  "TEST INVOICE"
+ ],
+ "PaymentTip": [
+  "Tip"
+ ],
+ "PaymentTipOptional": [
+  "Tip (Optional)"
+ ],
+ "PaymentTransactionMessage": [
+  "Are you sure you want to transfer %1$s to the bot %2$s for %3$s?"
+ ],
+ "PaymentTransactionMessage2": [
+  "Transfer **%1$s** to the %2$s bot for **%3$s**?"
+ ],
+ "PaymentTransactionReview": [
+  "Transaction Review"
+ ],
+ "PaymentTransactionTotal": [
+  "Total"
+ ],
+ "PaymentWarning": [
+  "Warning"
+ ],
+ "PaymentWarningText": [
+  "Neither Telegram, nor %1$s will have access to your credit card information. Credit card details will be handled only by the payment system, %2$s.Payments will go directly to the developer of %1$s. Telegram cannot provide any guarantees, so proceed at your own risk. In case of problems, please contact the developer of %1$s or your bank."
+ ],
+ "PeerRequirementForumFalse": [
+  "The group must have topics turned off."
+ ],
+ "PeerRequirementGroupCreatorTrue": [
+  "You must be the owner of the group."
+ ],
+ "PeerRequirementGroupPublicTrue": [
+  "The group must be public."
+ ],
+ "PeerRequirementUserRight": [
+  "You must have admin rights to"
+ ],
+ "PeerRequirements": [
+  "Requirements"
+ ],
+ "PermissionOpenSettings": [
+  "Settings"
+ ],
+ "Points": [
+  "%1$d",
+  "%1$d"
+ ],
+ "PrivacyClearPayment": [
+  "Payment Info"
+ ],
+ "PrivacyPaymentsClearAlert": [
+  "Delete your shipping info and instruct all payment providers to remove your saved credit cards? Note that Telegram never stores your credit card data."
+ ],
+ "PrivacyPaymentsClearAlertTitle": [
+  "Clear payment info"
+ ],
+ "PrivacyPaymentsPaymentInfoCleared": [
+  "Payment info cleared."
+ ],
+ "PrivacyPaymentsPaymentShippingCleared": [
+  "Payment and shipping info cleared."
+ ],
+ "PrivacyPaymentsShippingInfoCleared": [
+  "Shipping info cleared."
+ ],
+ "ProfileBotAddPreview": [
+  "Add Preview"
+ ],
+ "ProfileBotAffiliateProgram": [
+  "Affiliate Program"
+ ],
+ "ProfileBotAffiliateProgramInfo": [
+  "Share a link to %1$s with your friends and earn %2$s of their spending there."
+ ],
+ "ProfileBotAffiliateProgramInfoOwner": [
+  "Share a link to %1$s with other users and earn %2$s of their spending there."
+ ],
+ "ProfileBotLanguageAdd": [
+  "Add Translation"
+ ],
+ "ProfileBotLanguageGeneral": [
+  "General"
+ ],
+ "ProfileBotManagedBy": [
+  "Created and managed by **@%s**"
+ ],
+ "ProfileBotOpenApp": [
+  "Open App"
+ ],
+ "ProfileBotOpenAppInfo": [
+  "By launching this mini app, you agree to the **Terms of Service for Mini Apps**."
+ ],
+ "ProfileBotOpenAppInfoLink": [
+  "https://telegram.org/tos/mini-apps"
+ ],
+ "ProfileBotOpenAppInfoOwner": [
+  "By publishing this mini app, you agree to the **Telegram Terms of Service for Developers**."
+ ],
+ "ProfileBotOr": [
+  "or"
+ ],
+ "ProfileBotPreviewEmptyButton": [
+  "Add preview"
+ ],
+ "ProfileBotPreviewEmptyText": [
+  "Upload up to %d screenshot and video demo for your mini app.",
+  "Upload up to %d screenshots and video demos for your mini app."
+ ],
+ "ProfileBotPreviewEmptyTitle": [
+  "No Preview"
+ ],
+ "ProfileBotPreviewFooterCreateTranslation": [
+  "Create a Translation"
+ ],
+ "ProfileBotPreviewFooterDeleteTranslation": [
+  "Delete this Translation"
+ ],
+ "ProfileBotPreviewFooterGeneral": [
+  "This preview will be displayed for all users except those for whom you provide a translated version."
+ ],
+ "ProfileBotPreviewFooterLanguage": [
+  "This preview will be displayed for all users who have %s set as their language."
+ ],
+ "ProfileBotPreviewLanguageChoose": [
+  "Add a Translation"
+ ],
+ "ProfileBotPreviewTab": [
+  "Preview"
+ ],
+ "ProfileBotRemoveLang": [
+  "Delete %s"
+ ],
+ "ProfileBotReorder": [
+  "Reorder"
+ ],
+ "ProfileBotSelect": [
+  "Select"
+ ],
+ "ProfileBotUnSelect": [
+  "Unselect"
+ ],
+ "ReportBot": [
+  "Report"
+ ],
+ "Search": [
+  "Search"
+ ],
+ "SecretChatContextBotAlert": [
+  "Please note that inline bots are provided by third-party developers. For the bot to work, the symbols you type after the bot's username are sent to its respective developer."
+ ],
+ "SendBotNoThread": [
+  "Off-topic message"
+ ],
+ "SendGameTo": [
+  "Share game to %1$s?"
+ ],
+ "SendGameToGroup": [
+  "Share game to %1$s?"
+ ],
+ "ShareComment": [
+  "Add a comment..."
+ ],
+ "ShareMyContactInfo": [
+  "Share My Contact"
+ ],
+ "ShareYouLocationInfo": [
+  "This will send your current location to the bot."
+ ],
+ "ShareYouLocationInline": [
+  "This bot would like to know your location each time you send it a request. This can be used to provide location-specific results."
+ ],
+ "ShareYouLocationTitle": [
+  "Share Your Location?"
+ ],
+ "ShareYouLocationUnable": [
+  "App was unable to determine your current location"
+ ],
+ "ShareYouLocationUnableManually": [
+  "Choose manually"
+ ],
+ "ShareYouPhoneNumberTitle": [
+  "Share your phone number?"
+ ],
+ "StarMediaPurchase": [
+  "Media Purchase"
+ ],
+ "StarsBalance": [
+  "Balance"
+ ],
+ "StarsConfirmPurchaseButton": [
+  "Confirm and Pay ⭐️ %d Star",
+  "Confirm and Pay ⭐️ %d Stars"
+ ],
+ "StarsConfirmPurchaseTOS": [
+  "By purchasing you agree to the **Terms of Service**."
+ ],
+ "StarsConfirmPurchaseText": [
+  "Do you want to buy \"**%2$s**\" in **%3$s** for **%1$d star**?",
+  "Do you want to buy \"**%2$s**\" in **%3$s** for **%1$d stars**?"
+ ],
+ "StarsConfirmPurchaseText2": [
+  "Do you want to buy **%2$s** in **%3$s** for **%1$d** star?",
+  "Do you want to buy **%2$s** in **%3$s** for **%1$d** stars?"
+ ],
+ "StarsConfirmPurchaseTitle": [
+  "Confirm Your Purchase"
+ ],
+ "StarsConfirmSubscriptionButton": [
+  "",
+  "Subscribe for ⭐️ %d / month"
+ ],
+ "StarsConfirmSubscriptionTOS": [
+  "By subscribing you agree to the **Terms of Service**."
+ ],
+ "StarsConfirmSubscriptionText2": [
+  "Do you want to subscribe to **%2$s** in **%3$s** for **%1$d** Star per month?",
+  "Do you want to subscribe to **%2$s** in **%3$s** for **%1$d** Stars per month?"
+ ],
+ "StarsNeededText": [
+  "Buy **Stars** and use them in **%s** and other mini apps."
+ ],
+ "StarsNeededTitle": [
+  "%d Star Needed",
+  "%d Stars Needed"
+ ],
+ "StarsPurchaseCompleted": [
+  "Purchase Completed!"
+ ],
+ "StarsPurchaseCompletedInfo": [
+  "",
+  "You acquired \"**%2$s**\" in **%3$s** for **%1$d Stars**."
+ ],
+ "StarsRefunded": [
+  "Refund"
+ ],
+ "StarsTOSLink": [
+  "https://telegram.org/tos/stars"
+ ],
+ "StarsTransactionBot": [
+  "Stars Top-Up Bot"
+ ],
+ "StarsTransactionDate": [
+  "Date"
+ ],
+ "StarsTransactionID": [
+  "Transaction ID"
+ ],
+ "StarsTransactionIDCopied": [
+  "Transaction ID copied to clipboard"
+ ],
+ "StarsTransactionMedia": [
+  "Media"
+ ],
+ "StarsTransactionRecipient": [
+  "From"
+ ],
+ "StarsTransactionSource": [
+  "Via"
+ ],
+ "StarsTransactionTOS": [
+  "Review the **Terms of Service** for Stars."
+ ],
+ "StarsTransactionsAll": [
+  "All Transactions"
+ ],
+ "StarsTransactionsIncoming": [
+  "Incoming"
+ ],
+ "StarsTransactionsOutgoing": [
+  "Outgoing"
+ ],
+ "StoreCollageRetake": [
+  "Retake"
+ ],
+ "StoryCollageMenuHint": [
+  "Hold and drag tiles to reorder them."
+ ],
+ "TermsOfUse": [
+  "Terms of Use"
+ ],
+ "UnsavedChanges": [
+  "Unsaved Changes"
+ ],
+ "UploadBotPreview": [
+  "Add"
+ ],
+ "UserAddedAsAdminHint": [
+  "**%1$s** added as admin"
+ ],
+ "VerifyChatInfo": [
+  "Third-party services, like websites and stores, can send verification codes to your phone number via Telegram instead of SMS. Such codes will appear in this chat.If you didn't request any codes — don't worry! Most likely, someone made a mistake when entering their number."
+ ],
+ "ViaBot": [
+  "via"
+ ],
+ "WebAppDisclaimerUrl": [
+  "https://telegram.org/tos/mini-apps"
+ ],
+ "YearsShort": [
+  "%1$dy",
+  "%1$dy"
+ ],
+ "formatDateAtTime": [
+  "%1$s at %2$s"
+ ]
+}

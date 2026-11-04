@@ -1,0 +1,327 @@
+{
+ "AddContact": [
+  "Add Contact"
+ ],
+ "AddPack": [
+  "Add pack"
+ ],
+ "BasicGroupId": [
+  "Group ID"
+ ],
+ "Birthdate": [
+  "Birthday"
+ ],
+ "BlockContact": [
+  "Block"
+ ],
+ "BotId": [
+  "Bot ID"
+ ],
+ "Call": [
+  "Call"
+ ],
+ "CallX": [
+  "Call %1$s?"
+ ],
+ "Cancel": [
+  "Cancel"
+ ],
+ "ChannelId": [
+  "Channel ID"
+ ],
+ "ChatAccessPrivateGroup": [
+  "This group is private"
+ ],
+ "ClearRecentEmojiStatuses": [
+  "Clear Recent Emoji Statuses"
+ ],
+ "ContactStateMutual": [
+  "%1$s and you have added each other in the contacts list."
+ ],
+ "ContactStateMutualNoPhone": [
+  "%1$s and you have each other in the contacts list, but they do not share the phone number with you."
+ ],
+ "CopiedMyUserId": [
+  "Your ID has been copied to the clipboard"
+ ],
+ "CopiedPeerId": [
+  "Peer ID has been copied to the clipboard"
+ ],
+ "CustomNotifications": [
+  "Custom notifications"
+ ],
+ "CustomNotificationsHint": [
+  "These settings will override the global values in Settings > Notifications."
+ ],
+ "Default": [
+  "Default"
+ ],
+ "Delete": [
+  "Delete"
+ ],
+ "DeleteContact": [
+  "Delete contact"
+ ],
+ "DeleteContactConfirm": [
+  "Delete %1$s from contacts?"
+ ],
+ "DiscardChanges": [
+  "Discard changes"
+ ],
+ "EditPrivacy": [
+  "Privacy Exceptions"
+ ],
+ "EditPrivacyCall": [
+  "Call Me"
+ ],
+ "EditPrivacyCallP2P": [
+  "Use Peer-to-Peer in Calls"
+ ],
+ "EditPrivacyCallP2PInfo": [
+  "Disabling peer-to-peer will relay calls with %1$s through Telegram servers to avoid revealing your IP address, but will slightly decrease audio quality."
+ ],
+ "EditPrivacyChatInvite": [
+  "Add Me to Groups and Channels"
+ ],
+ "EditPrivacyForward": [
+  "Forward My Messages"
+ ],
+ "EditPrivacyGlobal": [
+  "Open General Privacy Settings"
+ ],
+ "EditPrivacyPhoneNumber": [
+  "Phone Number"
+ ],
+ "EditPrivacyPhoto": [
+  "Profile Photos"
+ ],
+ "EditPrivacyStatus": [
+  "Last Seen & Online"
+ ],
+ "EmojiStatusUsed": [
+  "%1$s uses emoji from pack %2$s for their status icon."
+ ],
+ "EnableNotifications": [
+  "Enable notifications"
+ ],
+ "FilterByEmoji": [
+  "Filter by Emoji"
+ ],
+ "GroupsInCommon": [
+  "Groups in Common"
+ ],
+ "GroupsWillBeShownHere": [
+  "Groups in common will be shown here"
+ ],
+ "LastName": [
+  "Last name"
+ ],
+ "LedDefault": [
+  "Default"
+ ],
+ "MenuBirthdatePrivacy": [
+  "Change Privacy Settings"
+ ],
+ "NoDocumentsToShow": [
+  "No documents to show"
+ ],
+ "NoDocumentsToShowInChat": [
+  "Share files and documents in this chat andaccess them on any of your devices."
+ ],
+ "NoEmojiSetsFound": [
+  "No emoji status found"
+ ],
+ "NoGroupsToShow": [
+  "No groups to show"
+ ],
+ "NoLinksToShow": [
+  "No links to show"
+ ],
+ "NoLinksToShowInChannel": [
+  "Published links and articleswill be shown here."
+ ],
+ "Notifications": [
+  "Notifications"
+ ],
+ "NotificationsEnabled": [
+  "Enabled"
+ ],
+ "NotificationsErrorPermission": [
+  "Blocked in system permissions"
+ ],
+ "NotificationsLed": [
+  "Light"
+ ],
+ "NotificationsPriority": [
+  "Priority"
+ ],
+ "NumberHidden": [
+  "Number is unknown"
+ ],
+ "NumberHiddenHint": [
+  "Phone number will be visible once %1$s adds you as a contact or changes their privacy settings."
+ ],
+ "PhoneMobile": [
+  "Mobile"
+ ],
+ "PhoneNumberUnknown": [
+  "Unknown"
+ ],
+ "PrivacyCallsExceptionOff": [
+  "Disallowed"
+ ],
+ "PrivacyDefault": [
+  "Default"
+ ],
+ "PrivacyForwardLinkExceptionOn": [
+  "With a link to my account"
+ ],
+ "PrivacyLastSeenExceptionOn": [
+  "Visible"
+ ],
+ "PrivacyOther": [
+  "Other"
+ ],
+ "PrivacyShowBirthdateEverybody": [
+  "Everybody can see your birthday"
+ ],
+ "PrivacyVisibilityUser": [
+  "What can %1$s see on my profile?"
+ ],
+ "RemoveEmojiSet": [
+  "Remove emoji pack %1$s?"
+ ],
+ "RemoveProfilePhoto": [
+  "Remove Profile Photo"
+ ],
+ "RenameContact": [
+  "Rename contact"
+ ],
+ "Ringtone": [
+  "Ringtone"
+ ],
+ "SecretChatId": [
+  "Secret Chat ID"
+ ],
+ "SelectEmojiStatus": [
+  "Select Emoji Status"
+ ],
+ "SetDateAt": [
+  "Set until %1$s at %2$s"
+ ],
+ "SetEmojiAsStatus": [
+  "Set as status"
+ ],
+ "SetEmojiAsStatusTimed": [
+  "Set timed"
+ ],
+ "SetEmojiAsStatusTimed1Hour": [
+  "For 1 hour"
+ ],
+ "SetEmojiAsStatusTimed2Days": [
+  "For 2 days"
+ ],
+ "SetEmojiAsStatusTimed2Hours": [
+  "For 2 hours"
+ ],
+ "SetEmojiAsStatusTimed8Hours": [
+  "For 8 hours"
+ ],
+ "SetEmojiAsStatusTimedCustom": [
+  "Set custom timer…"
+ ],
+ "SetProfilePhoto": [
+  "Set Profile Photo"
+ ],
+ "SetTodayAt": [
+  "Set until today at %1$s"
+ ],
+ "SetTomorrowAt": [
+  "Set until tomorrow at %1$s"
+ ],
+ "Share": [
+  "Share"
+ ],
+ "ShareContact": [
+  "Share Contact"
+ ],
+ "Sound": [
+  "Sound"
+ ],
+ "StartEncryptedChat": [
+  "Start secret chat"
+ ],
+ "SuperGroupId": [
+  "Supergroup ID"
+ ],
+ "TabDocs": [
+  "Docs"
+ ],
+ "TabEmptyDocs": [
+  "No documents"
+ ],
+ "TabEmptyLinks": [
+  "No links"
+ ],
+ "TabGifs": [
+  "GIFs"
+ ],
+ "TabLinks": [
+  "Links"
+ ],
+ "TabMedia": [
+  "Media"
+ ],
+ "TabSharedGroups": [
+  "Groups"
+ ],
+ "TabVideoMessages": [
+  "Video"
+ ],
+ "TabVoiceMessages": [
+  "Voice"
+ ],
+ "TrendingStatuses": [
+  "Trending statuses"
+ ],
+ "UserId": [
+  "User ID"
+ ],
+ "Vibrate": [
+  "Vibrate"
+ ],
+ "VoiceCalls": [
+  "Voice Calls"
+ ],
+ "login_FirstName": [
+  "First name"
+ ],
+ "status_LastSeenWithinMonth": [
+  "seen within a month"
+ ],
+ "status_LastSeenWithinWeek": [
+  "seen within a week"
+ ],
+ "status_LastSeen_today": [
+  "seen at %1$s"
+ ],
+ "status_Online": [
+  "online"
+ ],
+ "turnsTomorrow": [
+  "turns %1$s tomorrow",
+  "turns %1$s tomorrow"
+ ],
+ "xGIFs": [
+  "%1$s GIF",
+  "%1$s GIFs"
+ ],
+ "xGroups": [
+  "%1$s group",
+  "%1$s groups"
+ ],
+ "xMembers": [
+  "%1$s member",
+  "%1$s members"
+ ]
+}

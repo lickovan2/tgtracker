@@ -1,0 +1,1028 @@
+{
+ "ActionChannelChangedTitle": [
+  "Channel renamed"
+ ],
+ "ActionCreateChannel": [
+  "Channel created"
+ ],
+ "ActionRead": [
+  "Mark as Read"
+ ],
+ "AddToFolder": [
+  "Add to folder"
+ ],
+ "Allow": [
+  "Allow"
+ ],
+ "Archive": [
+  "Archive"
+ ],
+ "ArchiveChat": [
+  "Archive Chat"
+ ],
+ "ArchiveHide": [
+  "Hide from Chat List"
+ ],
+ "ArchivePin": [
+  "Pin in Chat List"
+ ],
+ "ArchiveRead": [
+  "Read All"
+ ],
+ "ArchiveTitle": [
+  "Archived Chats"
+ ],
+ "ArchiveTitleList": [
+  "Archived Chats"
+ ],
+ "ArchiveXChats": [
+  "Archive %1$s chat",
+  "Archive %1$s chats"
+ ],
+ "ArchiveXChatsInFolder": [
+  "Archive %1$s chat? It will remain in the list as current folder does not exclude archived chats.",
+  "Archive %1$s chats? They will remain in the list as current folder does not exclude archived chats."
+ ],
+ "ArchiveXInFolder_chat": [
+  "Archive %1$s? It will remain in the list as current folder does not exclude archived chats."
+ ],
+ "ArchiveXInFolder_user": [
+  "Archive chat with %1$s? It will remain in the list as current folder does not exclude archived chats."
+ ],
+ "ArchiveX_chat": [
+  "Archive %1$s?"
+ ],
+ "ArchiveX_user": [
+  "Archive chat with %1$s?"
+ ],
+ "ArchivedXChats": [
+  "Archived %1$s chat",
+  "Archived %1$s chats"
+ ],
+ "AreYouSureDeleteThisChat": [
+  "Do you want to permanently delete this chat?"
+ ],
+ "AttachLiveLocation": [
+  "Live Location"
+ ],
+ "AttachLiveLocationIsSharing": [
+  "sharing with %1$s"
+ ],
+ "AttachRound": [
+  "Video message"
+ ],
+ "AwaitingEncryption": [
+  "Waiting for %1$s to get online…"
+ ],
+ "BadgeCounter": [
+  "Badge Counter"
+ ],
+ "BlockContact": [
+  "Block"
+ ],
+ "BlockXBots": [
+  "Block %1$s bot",
+  "Block %1$s bots"
+ ],
+ "BlockXUsers": [
+  "Block %1$s user",
+  "Block %1$s users"
+ ],
+ "BlockedXBots": [
+  "Blocked %1$s bot",
+  "Blocked %1$s bots"
+ ],
+ "BlockedXUsers": [
+  "Blocked %1$s user",
+  "Blocked %1$s users"
+ ],
+ "Busy": [
+  "Busy"
+ ],
+ "Calls": [
+  "Calls"
+ ],
+ "Cancel": [
+  "Cancel"
+ ],
+ "Cancelled": [
+  "Canceled"
+ ],
+ "CategoryArchive": [
+  "Archive"
+ ],
+ "CategoryArchiveBots": [
+  "Archive / Bots"
+ ],
+ "CategoryArchiveChannels": [
+  "Archive / Channels"
+ ],
+ "CategoryArchiveGroup": [
+  "Archive / Groups"
+ ],
+ "CategoryArchivePrivate": [
+  "Archive / Private"
+ ],
+ "CategoryArchiveUnread": [
+  "Archive / Unread"
+ ],
+ "CategoryArchived": [
+  "Archived"
+ ],
+ "CategoryBots": [
+  "Bots"
+ ],
+ "CategoryChannels": [
+  "Channels"
+ ],
+ "CategoryContacts": [
+  "Contacts"
+ ],
+ "CategoryGroup": [
+  "Group Chats"
+ ],
+ "CategoryGroups": [
+  "Groups"
+ ],
+ "CategoryMain": [
+  "All Chats"
+ ],
+ "CategoryMuted": [
+  "Muted"
+ ],
+ "CategoryNonContacts": [
+  "Non-Contacts"
+ ],
+ "CategoryPrivate": [
+  "Private"
+ ],
+ "CategoryRead": [
+  "Read"
+ ],
+ "CategoryUnread": [
+  "Unread"
+ ],
+ "ChatContentAnimation": [
+  "GIF"
+ ],
+ "ChatContentCallWithDuration": [
+  "%1$s (%2$s)"
+ ],
+ "ChatContentDart1": [
+  "Dart: missed!"
+ ],
+ "ChatContentDart2": [
+  "Dart thrown"
+ ],
+ "ChatContentDart3": [
+  "Dart thrown"
+ ],
+ "ChatContentDart4": [
+  "Dart thrown"
+ ],
+ "ChatContentDart5": [
+  "Dart: almost there!"
+ ],
+ "ChatContentDart6": [
+  "Dart: bullseye!"
+ ],
+ "ChatContentDiceRolled": [
+  "Dice: %1$s",
+  "Dice: %1$s"
+ ],
+ "ChatContentGroupAccept": [
+  "Was accepted to the group"
+ ],
+ "ChatContentGroupAccept_outgoing": [
+  "Were accepted to the group"
+ ],
+ "ChatContentGroupAddMembers": [
+  "Added %1$s member to the group",
+  "Added %1$s members to the group"
+ ],
+ "ChatContentGroupAdd_outgoing": [
+  "Added %1$s to the group"
+ ],
+ "ChatContentGroupCreate": [
+  "Created the group"
+ ],
+ "ChatContentGroupCreate_outgoing": [
+  "Created the group"
+ ],
+ "ChatContentGroupJoin": [
+  "Joined the group via invite link"
+ ],
+ "ChatContentGroupJoinPublic_outgoing": [
+  "Joined the group"
+ ],
+ "ChatContentGroupJoin_outgoing": [
+  "Joined the group via invite link"
+ ],
+ "ChatContentGroupKick": [
+  "Kicked %1$s from the group"
+ ],
+ "ChatContentGroupKickYou": [
+  "Kicked you from the group"
+ ],
+ "ChatContentGroupKick_outgoing": [
+  "Kicked %1$s from the group"
+ ],
+ "ChatContentGroupLeft": [
+  "Left the group"
+ ],
+ "ChatContentGroupLeft_outgoing": [
+  "Left the group"
+ ],
+ "ChatContentGroupName": [
+  "Renamed the group to \"%1$s\""
+ ],
+ "ChatContentGroupName_outgoing": [
+  "Renamed the group to \"%1$s\""
+ ],
+ "ChatContentGroupPhotoRemove": [
+  "Removed the group photo"
+ ],
+ "ChatContentGroupPhotoRemove_outgoing": [
+  "Removed the group photo"
+ ],
+ "ChatContentGroupPhoto_outgoing": [
+  "Changed the group photo"
+ ],
+ "ChatContentGroupReturn_outgoing": [
+  "Returned to the group"
+ ],
+ "ChatContentPhoto": [
+  "Photo"
+ ],
+ "ChatContentPinned": [
+  "Pinned Message"
+ ],
+ "ChatContentProtected": [
+  "Content Locked"
+ ],
+ "ChatContentRoundVideo": [
+  "Video Message"
+ ],
+ "ChatContentScreenshot": [
+  "Took a screenshot"
+ ],
+ "ChatContentSong": [
+  "%1$s – %2$s"
+ ],
+ "ChatContentThemeDisabled": [
+  "Disabled the chat theme"
+ ],
+ "ChatContentThemeDisabled_outgoing": [
+  "Disabled the chat theme"
+ ],
+ "ChatContentThemeSet": [
+  "Changed the chat theme to %1$s"
+ ],
+ "ChatContentThemeSet_outgoing": [
+  "Changed the chat theme to %1$s"
+ ],
+ "ChatContentTtlMonths": [
+  "Set the self-destruct timer to %1$s month",
+  "Set the self-destruct timer to %1$s months"
+ ],
+ "ChatContentTtlOff": [
+  "Disabled the self-destruct timer"
+ ],
+ "ChatContentVideo": [
+  "Video"
+ ],
+ "ChatContentVoice": [
+  "Voice Message"
+ ],
+ "ChatContentVoiceChatFinished": [
+  "Ended the video chat (%1$s)"
+ ],
+ "ChatContentVoiceChatFinished_outgoing": [
+  "Ended the video chat (%1$s)"
+ ],
+ "ChatContentVoiceDuration": [
+  "%1$s (%2$s)"
+ ],
+ "ChatFolderAddChats": [
+  "Add Chats"
+ ],
+ "ChatFolderChangeIcon": [
+  "Change Icon"
+ ],
+ "ChatFolders": [
+  "Chat Folders"
+ ],
+ "ChatFoldersAppearance": [
+  "Appearance"
+ ],
+ "ChatFoldersInfo": [
+  "Create folders for different groups of chats and quickly switch between them."
+ ],
+ "ChatFoldersPositionBottom": [
+  "Bottom"
+ ],
+ "ChatFoldersPositionTop": [
+  "Top"
+ ],
+ "ChatFoldersSettings": [
+  "Settings"
+ ],
+ "ChatHintsDelete": [
+  "Remove %1$s from suggestions?"
+ ],
+ "ChatSuggestionsDisabled": [
+  "Bot suggestions are disabled.Turn them back on in Settings > Privacy and Security."
+ ],
+ "ChatTypes": [
+  "Chat types"
+ ],
+ "ChatWithUser": [
+  "Chat with %1$s"
+ ],
+ "Chats": [
+  "Chats"
+ ],
+ "ChatsXShowMore": [
+  "Show %1$s more",
+  "Show %1$s more"
+ ],
+ "ChildAbuse": [
+  "Child Abuse"
+ ],
+ "ChooseFolder": [
+  "Choose a folder"
+ ],
+ "Clear": [
+  "Clear"
+ ],
+ "ClearHistory": [
+  "Clear history"
+ ],
+ "ClearHistoryBtn": [
+  "Clear"
+ ],
+ "ClearHistoryConfirm": [
+  "Are you sure you want to clear history for this chat? This action cannot be undone."
+ ],
+ "ClearRecentsHint": [
+  "Clear recent searches?"
+ ],
+ "ClearSavedMessagesConfirm": [
+  "Are you sure you want to clear all **Saved Messages**? This action cannot be undone."
+ ],
+ "ClearXChats": [
+  "Clear media in %1$s chat? You will need to download media again.",
+  "Clear media in %1$s chats? You will need to download media again."
+ ],
+ "ClearXHistories": [
+  "Clear %1$s chat history",
+  "Clear %1$s chat histories"
+ ],
+ "ClearXHistoriesConfirm": [
+  "Are you sure you want to clear history in %1$s chat?",
+  "Are you sure you want to clear history in %1$s chats?"
+ ],
+ "ClearedNoneChats": [
+  "No media to clear in %1$s chat",
+  "No media to clear in %1$s chats"
+ ],
+ "ClearedSizeChats": [
+  "Cleared %2$s in %1$s chat",
+  "Cleared %2$s in %1$s chats"
+ ],
+ "ClearedXHistories": [
+  "Cleared %1$s history",
+  "Cleared %1$s histories"
+ ],
+ "ClosingXSecretChats": [
+  "%1$s secret chat will be canceled",
+  "%1$s secret chats will be canceled"
+ ],
+ "ContactsOnTelegramSeveral": [
+  "%1$s and %2$s are using Telegram"
+ ],
+ "ContactsOnTelegramSingle": [
+  "%1$s is using Telegram"
+ ],
+ "CopiedCashtag": [
+  "Cashtag has been copied to the clipboard"
+ ],
+ "CopiedHashtag": [
+  "Hashtag has been copied to the clipboard"
+ ],
+ "Copyright": [
+  "Copyright"
+ ],
+ "CreateNewFolder": [
+  "Create New Folder"
+ ],
+ "Declined": [
+  "Declined"
+ ],
+ "Delete": [
+  "Delete"
+ ],
+ "DeleteChat": [
+  "Delete chat"
+ ],
+ "DeleteChatCache": [
+  "Clear media cache"
+ ],
+ "DeleteEntry": [
+  "Delete Entry"
+ ],
+ "DeleteSavedMessagesConfirm": [
+  "Are you sure you want to delete all **Saved Messages**? This action cannot be undone."
+ ],
+ "DeleteSecretChatClosedConfirm": [
+  "Are you sure you want to delete the secret chat with %1$s? This action cannot be undone."
+ ],
+ "DeleteSecretChatConfirm": [
+  "Are you sure you want to delete the secret chat with %1$s? All chat history will be deleted forever. This action cannot be undone."
+ ],
+ "DeleteSecretChatHistoryForOtherParty": [
+  "Delete all messages for %1$s"
+ ],
+ "DeleteUserChatConfirm": [
+  "Are you sure you want to delete the chat with %1$s? This action cannot be undone."
+ ],
+ "DeleteXChats": [
+  "Delete %1$s chat",
+  "Delete %1$s chats"
+ ],
+ "DeleteXChatsConfirm": [
+  "Are you sure you want to delete %1$s chat?",
+  "Are you sure you want to delete %1$s chats?"
+ ],
+ "DeleteXFromRecents": [
+  "Remove %1$s from recently found chats?"
+ ],
+ "DeletedXChats": [
+  "Deleted %1$s chat",
+  "Deleted %1$s chats"
+ ],
+ "DestroyChannel": [
+  "Destroy channel"
+ ],
+ "DestroyChannelHint": [
+  "Deleting this channel will remove all subscribers and all posts will be lost."
+ ],
+ "DestroyGroup": [
+  "Destroy group"
+ ],
+ "DestroyGroupHint": [
+  "Deleting this group will remove all members and all messages will be lost. Do you want to delete the group?"
+ ],
+ "DisplayFoldersAtTheTop": [
+  "Display folders at the top"
+ ],
+ "Draft": [
+  "Draft"
+ ],
+ "DragChatsHint": [
+  "Drag chat to reorder"
+ ],
+ "EditFolder": [
+  "Edit Folder"
+ ],
+ "EditFolders": [
+  "Edit Folders"
+ ],
+ "EnableNotifications": [
+  "Enable notifications"
+ ],
+ "EnableNotifications2": [
+  "Unmute %1$s chat",
+  "Unmute %1$s chats"
+ ],
+ "ExcludeChats": [
+  "Exclude Chats"
+ ],
+ "ExcludeChatsInfo": [
+  "You can select only one cloud chat and only one secret chat",
+  "You can select up to %1$s cloud chats and the same number of secret chats."
+ ],
+ "FailureMessageText": [
+  "This message could not be displayed because of an error. We are very sorry for that.Please copy the scary error details below and submit them to @tgandroidtests so we can investigate the issue. Thank you!"
+ ],
+ "FolderActionExcludeChats": [
+  "Add Chats to Excluded"
+ ],
+ "FolderActionIncludeChats": [
+  "Add Chats to Included"
+ ],
+ "FolderExcludedChats": [
+  "Excluded Chats"
+ ],
+ "FolderExcludedChatsInfo": [
+  "Choose chats or types of chats that will **not** appear in this folder."
+ ],
+ "FolderIncludedChats": [
+  "Included Chats"
+ ],
+ "FolderIncludedChatsInfo": [
+  "Choose chats or types of chats that will appear in this folder."
+ ],
+ "FolderName": [
+  "Folder name"
+ ],
+ "FolderNameHint": [
+  "Name"
+ ],
+ "FolderNoChatsToDisplay": [
+  "**Folder is empty**No chats currently belong to this folder."
+ ],
+ "FolderRemoveExclusionConfirmChat": [
+  "Are you sure you want to remove \"%1$s\" from the always excluded list?"
+ ],
+ "FolderRemoveExclusionConfirmType": [
+  "Are you sure you want to remove \"%1$s\" from the always excluded list?"
+ ],
+ "FolderRemoveExclusionConfirmUser": [
+  "Are you sure you want to remove \"%1$s\" from the always excluded list?"
+ ],
+ "FolderRemoveInclusionConfirmChat": [
+  "Are you sure you want to remove \"%1$s\" from the always included list?"
+ ],
+ "FolderRemoveInclusionConfirmUser": [
+  "Are you sure you want to remove \"%1$s\" from the always included list?"
+ ],
+ "FromYou": [
+  "You"
+ ],
+ "FromYouAnonymous": [
+  "You (anonymously)"
+ ],
+ "Gif": [
+  "GIF"
+ ],
+ "GroupUpgraded": [
+  "Group upgraded to supergroup"
+ ],
+ "HiddenName": [
+  "Deleted Account"
+ ],
+ "HiddenNameShort": [
+  "Deleted"
+ ],
+ "HideArchiveFolderInfo": [
+  "To display Archive folder again, go to Settings > Chat Folders > Archive as Folder"
+ ],
+ "HideFolder": [
+  "Hide Folder"
+ ],
+ "HideFolderInfo2": [
+  "To display %1$s folder again, go to Settings > Chat Folders > %1$s"
+ ],
+ "HoldToEditChatFoldersHint": [
+  "Hold to edit folders and their appearance"
+ ],
+ "IconOnly": [
+  "Icon only"
+ ],
+ "IncludeChats": [
+  "Include Chats"
+ ],
+ "IncludeChatsInfo": [
+  "You can select only one cloud and only one secret chat.",
+  "You can select up to %1$s cloud chats and the same number of secret chats."
+ ],
+ "Incoming": [
+  "Incoming"
+ ],
+ "InlineBot": [
+  "Inline Bot"
+ ],
+ "InviteContacts": [
+  "Invite Contacts"
+ ],
+ "Invoice": [
+  "Invoice"
+ ],
+ "InvoiceFor": [
+  "Invoice for %1$s"
+ ],
+ "LabelOnly": [
+  "Label only"
+ ],
+ "LeaveAdminNoReturnHintChannel": [
+  "Warning: you will lose all your admin rights and will not be able to return to this channel unless added by an admin"
+ ],
+ "LeaveAdminNoReturnHintGroup": [
+  "Warning: you will lose all your admin rights and will not be able to return to this group unless added by another member"
+ ],
+ "LeaveChannel": [
+  "Leave channel"
+ ],
+ "LeaveChatAdminHint": [
+  "Warning: you will lose all your admin rights after leaving"
+ ],
+ "LeaveDoneGroup": [
+  "Leave"
+ ],
+ "LeaveMegaMenu": [
+  "Leave group"
+ ],
+ "LeaveNoReturnHintChannel": [
+  "Warning: you will not be able to return to this channel unless added by an admin"
+ ],
+ "LeaveNoReturnHintGroup": [
+  "Warning: you will not be able to return to this group unless added by another member"
+ ],
+ "LeaveRemoveFromList": [
+  "Delete chat from list"
+ ],
+ "LeaveReturnPublicLinkHintChannel": [
+  "You will be able to return to this channel by its public link"
+ ],
+ "LeaveReturnPublicLinkHintGroup": [
+  "You will be able to return to this group by its public link"
+ ],
+ "LeaveXChats": [
+  "You will be unable to return to %1$s chat",
+  "You will be unable to return to %1$s chats"
+ ],
+ "LeaveXPrivateChannel": [
+  "You will be unable to return to %1$s channel",
+  "You will be unable to return to %1$s channels"
+ ],
+ "LeaveXPrivateGroup": [
+  "You will be unable to return to %1$s group",
+  "You will be unable to return to %1$s groups"
+ ],
+ "LocalFolderBadge": [
+  "local folder"
+ ],
+ "LosingXAdminRights": [
+  "You will lose admin rights in %1$s chat",
+  "You will lose admin rights in %1$s chats"
+ ],
+ "MainListBadge": [
+  "main list"
+ ],
+ "MarkAsRead": [
+  "Mark as read"
+ ],
+ "MarkAsUnread": [
+  "Mark as unread"
+ ],
+ "MarkedXChats": [
+  "Marked %1$s chat as unread",
+  "Marked %1$s chats as unread"
+ ],
+ "MoreChatOptions": [
+  "More"
+ ],
+ "MuteForXDays": [
+  "Mute for %1$s day",
+  "Mute for %1$s days"
+ ],
+ "MuteForXHours": [
+  "Mute for %1$s hour",
+  "Mute for %1$s hours"
+ ],
+ "MuteForever": [
+  "Mute forever"
+ ],
+ "MuteNotifications": [
+  "Mute notifications"
+ ],
+ "MuteXChats": [
+  "Mute %1$s chat",
+  "Mute %1$s chats"
+ ],
+ "MutedXChats": [
+  "Muted %1$s chat",
+  "Muted %1$s chats"
+ ],
+ "Never": [
+  "Never"
+ ],
+ "NewChannel": [
+  "New Channel"
+ ],
+ "NewChat": [
+  "New Chat"
+ ],
+ "NewFolder": [
+  "New Folder"
+ ],
+ "NewGroup": [
+  "New Group"
+ ],
+ "NewSecretChat": [
+  "New Secret Chat"
+ ],
+ "NoArchive": [
+  "Archive is empty"
+ ],
+ "NoCalls": [
+  "You haven't called anybody yet."
+ ],
+ "NoChatsText": [
+  "**No chats to show**Invite your friends and family to join Telegram"
+ ],
+ "NoFilter": [
+  "No Filter"
+ ],
+ "NoUndoWarn": [
+  "This action cannot be undone."
+ ],
+ "NotificationGame": [
+  "Invited you to play %1$s"
+ ],
+ "NotificationGame_group": [
+  "Invited you to play %1$s"
+ ],
+ "NotificationGame_group_outgoing": [
+  "You invited to play %1$s"
+ ],
+ "NotificationGame_outgoing": [
+  "You invited to play %1$s"
+ ],
+ "NotificationsEnableOverride2": [
+  "Enabling notifications for these chats will override the global value in Settings > Notifications (%1$s)."
+ ],
+ "NotificationsEnableOverride3": [
+  "Enabling notifications for some of selected chats will override the global value in Settings > Notifications (%1$s)."
+ ],
+ "NotificationsOnXChats": [
+  "Enabled notifications for %1$s chat",
+  "Enabled notifications for %1$s chats"
+ ],
+ "Open": [
+  "Open"
+ ],
+ "OpenArchive": [
+  "Archived Chats"
+ ],
+ "OpenArchiveHint": [
+  "**No chats to show**All of your chats are in the archive"
+ ],
+ "OpenChat": [
+  "Open Chat"
+ ],
+ "Other": [
+  "Other"
+ ],
+ "Outgoing": [
+  "Outgoing"
+ ],
+ "OutgoingCall": [
+  "Outgoing Call"
+ ],
+ "OutgoingCallBusy": [
+  "Outgoing Call (Busy)"
+ ],
+ "People": [
+  "People"
+ ],
+ "Pin": [
+  "Pin"
+ ],
+ "PinToTop": [
+  "Pin to top"
+ ],
+ "PinTooMuchWarn": [
+  "Sorry, you can only pin %1$s chat in your main list. If you're looking for more organization, try archiving some chats — the Archived Chats folder allows unlimited pins.",
+  "Sorry, you can only pin %1$s chats in your main list. If you're looking for more organization, try archiving some chats — the Archived Chats folder allows unlimited pins."
+ ],
+ "PinXChats": [
+  "Pin %1$s chat",
+  "Pin %1$s chats"
+ ],
+ "Pornography": [
+  "Pornography"
+ ],
+ "PremiumRequiredMoveFolder": [
+  "Subscribe to **Telegram Premium** to move the \"%1$s\" folder."
+ ],
+ "ProxySponsor": [
+  "Proxy sponsor"
+ ],
+ "Recent": [
+  "Recent"
+ ],
+ "RecommendedFolders": [
+  "Recommended Folders"
+ ],
+ "Remove": [
+  "Remove"
+ ],
+ "RemoveCall": [
+  "Remove"
+ ],
+ "RemoveFolder": [
+  "Remove Folder"
+ ],
+ "RemoveFolderConfirm": [
+  "Are you sure you want to remove this folder? Your chats will not be deleted."
+ ],
+ "RemoveFromFolder": [
+  "Remove from folder"
+ ],
+ "ReportXChats": [
+  "Report %1$s chat",
+  "Report %1$s chats"
+ ],
+ "ReportedXChats": [
+  "Reported %1$s chat",
+  "Reported %1$s chats"
+ ],
+ "RetrievingText": [
+  "Account: %1$s"
+ ],
+ "RevokeForX": [
+  "Delete all messages for %1$s other user",
+  "Delete all messages for %1$s other users"
+ ],
+ "SavedMessages": [
+  "Saved Messages"
+ ],
+ "Search": [
+  "Search"
+ ],
+ "SecretChatCancelled": [
+  "Secret chat canceled"
+ ],
+ "SecretChatWithUser": [
+  "Secret chat with %1$s"
+ ],
+ "SelectAll": [
+  "Select All"
+ ],
+ "SelectChat": [
+  "Select Chat"
+ ],
+ "SelectMore": [
+  "Select…"
+ ],
+ "SelectMuted": [
+  "Select Muted"
+ ],
+ "SelfDestructPhoto": [
+  "Self-Destruct Photo"
+ ],
+ "SelfDestructVideo": [
+  "Self-Destruct Video"
+ ],
+ "SelfDestructVideoNote": [
+  "Self-Destruct Video Message"
+ ],
+ "SelfDestructVoiceNote": [
+  "Self-Destruct Voice Message"
+ ],
+ "SendMessageTo": [
+  "Send message to…"
+ ],
+ "ShareTextPhoto": [
+  "Photo from %1$s"
+ ],
+ "ShareTextPlain": [
+  "Message from %1$s"
+ ],
+ "SharingLiveLocationToChats": [
+  "You are sharing Live Location with %1$s chat",
+  "You are sharing Live Location with %1$s chats"
+ ],
+ "SharingWithX": [
+  "sharing with %1$s"
+ ],
+ "SharingWithXChats": [
+  "sharing with %1$s chat",
+  "sharing with %1$s chats"
+ ],
+ "ShowContacts": [
+  "Start a chat"
+ ],
+ "SignedOutAs": [
+  "Signed out as %1$s"
+ ],
+ "Spam": [
+  "Spam"
+ ],
+ "Sticker": [
+  "Sticker"
+ ],
+ "StopAllLocationSharings": [
+  "Stop All"
+ ],
+ "StopLiveLocation": [
+  "Stop Sharing Location"
+ ],
+ "StopLiveLocationInfo": [
+  "Would you like stop sharing Live Location to all chats?"
+ ],
+ "StopLiveLocationInfoX": [
+  "Would you like stop sharing Live Location with %1$s?"
+ ],
+ "StopLiveLocationShort": [
+  "Stop Sharing"
+ ],
+ "Unarchive": [
+  "Unarchive"
+ ],
+ "UnarchiveChat": [
+  "Unarchive Chat"
+ ],
+ "UnarchiveUnmute": [
+  "Unarchive"
+ ],
+ "UnarchiveXChats": [
+  "Unarchive %1$s chat",
+  "Unarchive %1$s chats"
+ ],
+ "UnarchiveXChatsInFolder": [
+  "Unarchive %1$s chat? It will remain in the current chat folder.",
+  "Unarchive %1$s chats? They will remain the current chat folder."
+ ],
+ "UnarchiveXInFolder_chat": [
+  "Unarchive %1$s? It will remain in the current chat folder."
+ ],
+ "UnarchiveXInFolder_user": [
+  "Unarchive chat with %1$s? It will remain in the current chat folder."
+ ],
+ "UnarchiveX_chat": [
+  "Unarchive %1$s?"
+ ],
+ "UnarchiveX_user": [
+  "Unarchive chat with %1$s?"
+ ],
+ "UnarchivedXChats": [
+  "Unarchived %1$s chat",
+  "Unarchived %1$s chats"
+ ],
+ "UnblockedXBots": [
+  "Unblocked %1$s bot",
+  "Unblocked %1$s bots"
+ ],
+ "UnblockedXUsers": [
+  "Unblocked %1$s user",
+  "Unblocked %1$s users"
+ ],
+ "UnmutedXChats": [
+  "Unmuted %1$s chat",
+  "Unmuted %1$s chats"
+ ],
+ "UnpinFromTop": [
+  "Unpin from top"
+ ],
+ "UnpinXChats": [
+  "Unpin %1$s chat",
+  "Unpin %1$s chats"
+ ],
+ "Violence": [
+  "Violence"
+ ],
+ "XChangedGroupTitle": [
+  "%1$s changed the group name"
+ ],
+ "XJoinedSecretChat": [
+  "%1$s joined the secret chat"
+ ],
+ "YouCreatedGroup": [
+  "You created the group"
+ ],
+ "YouJoinedSecretChat": [
+  "You joined the secret chat"
+ ],
+ "error_FolderMustContainAtLeast1Chat": [
+  "Folder must contain at least one chat"
+ ],
+ "format_chatFoldersPositionAndStyle": [
+  "%1$s, %2$s"
+ ],
+ "format_concatSeparator": [
+  ", "
+ ],
+ "format_minutesAndSeconds": [
+  "%1$s and %2$s"
+ ],
+ "status_LastSeenRecently": [
+  "last seen recently"
+ ],
+ "xBots": [
+  "%1$s bot",
+  "%1$s bots"
+ ],
+ "xChannels": [
+  "%1$s channel",
+  "%1$s channels"
+ ],
+ "xChats": [
+  "%1$s chat",
+  "%1$s chats"
+ ],
+ "xMin": [
+  "%1$s min",
+  "%1$s min"
+ ],
+ "xMinutes": [
+  "%1$s minute",
+  "%1$s minutes"
+ ],
+ "xSec": [
+  "%1$s sec",
+  "%1$s sec"
+ ]
+}

@@ -1,0 +1,1662 @@
+{
+ "AccDescrCaptureStory": [
+  "Capture story"
+ ],
+ "AccDescrSwitchCamera": [
+  "Switch camera"
+ ],
+ "AddLocation": [
+  "ADD LOCATION"
+ ],
+ "AddStory": [
+  "Add Story"
+ ],
+ "AllViewers": [
+  "All viewers"
+ ],
+ "AppUpdate": [
+  "Update Telegram"
+ ],
+ "ApplyChanges": [
+  "Apply Changes"
+ ],
+ "ArchiveAndMuteInfo": [
+  "Automatically archive and mute new chats, groups and channels from non-contacts."
+ ],
+ "ArchivePeerStories": [
+  "Hide Stories"
+ ],
+ "ArchiveSettingUnmutedChats": [
+  "Chats from folders"
+ ],
+ "ArchiveSettingUnmutedChatsCheck": [
+  "Always keep archived"
+ ],
+ "ArchiveSettingUnmutedChatsInfo": [
+  "Keep archived chats from folders in the Archive even if they are unmuted and get a new message."
+ ],
+ "ArchiveSettingUnmutedFolders": [
+  "Unmuted chats"
+ ],
+ "ArchiveSettingUnmutedFoldersCheck": [
+  "Always keep archived"
+ ],
+ "ArchiveSettingUnmutedFoldersInfo": [
+  "Keep archived chats in the Archive even if they are unmuted and get a new message."
+ ],
+ "ArchiveSettings": [
+  "Archive Settings"
+ ],
+ "ArchiveStories": [
+  "Archive Story",
+  "Archive Stories"
+ ],
+ "ArchiveStory": [
+  "Remove from Profile"
+ ],
+ "ArchivedStories": [
+  "Archived Stories"
+ ],
+ "AudioSearchChats": [
+  "Shared Music"
+ ],
+ "AudioSearchProfile": [
+  "Profile Music"
+ ],
+ "AvailableIn": [
+  "Available in %s"
+ ],
+ "BoostChannel": [
+  "Boost Channel"
+ ],
+ "BoostExpireOn": [
+  "boost expires on %s"
+ ],
+ "BoostLinkButton": [
+  "BOOST"
+ ],
+ "BoostStories": [
+  "**%d** story",
+  "**%d** stories"
+ ],
+ "Boosters": [
+  "Boosters"
+ ],
+ "BoostersInfoDescription": [
+  "Your channel is currently boosted by these users."
+ ],
+ "BoostingBoostAgain": [
+  "Boost Again"
+ ],
+ "BoostingEnableStories": [
+  "Enable Stories"
+ ],
+ "BoostingEnableStoriesForChannel": [
+  "Enable stories for the channel"
+ ],
+ "BoostingEnableStoriesForChannel2": [
+  "Enable stories for this channel"
+ ],
+ "BoostingGetMoreBoostByGifting": [
+  "To boost **%1$s**, get more boosts by gifting **Telegram Premium** to a friend."
+ ],
+ "BoostingIncreaseLevel": [
+  "Increase Story Limit"
+ ],
+ "BoostingMoreBoostsNeeded": [
+  "More Boosts Needed"
+ ],
+ "Boosts": [
+  "Boosts"
+ ],
+ "BoostsExisting": [
+  "Active Boosts"
+ ],
+ "BoostsLevel": [
+  "Level %d"
+ ],
+ "BoostsLevel2": [
+  "Level"
+ ],
+ "BoostsToLevel": [
+  "Boosts to level up"
+ ],
+ "BotShare": [
+  "Share"
+ ],
+ "CacheStories": [
+  "Stories"
+ ],
+ "CachedStory": [
+  "cached story"
+ ],
+ "CantBoostTooOften": [
+  "Can't boost too often!"
+ ],
+ "CantBoostTooOftenDescription": [
+  "You can only change the channel you boost once a day. You will be able to boost in **%s.**"
+ ],
+ "CaptionPremiumSubtitle": [
+  "",
+  "Increase this limit **%1$dx** to **%2$s** characters by subscribing to __Telegram Premium__."
+ ],
+ "CaptionPremiumTitle": [
+  "Maximum Length Reached"
+ ],
+ "ChannelBoostsJustReachedLevel1": [
+  "This channel reached **Level 1** and can now post stories."
+ ],
+ "ChannelBoostsJustReachedLevelNext": [
+  "This channel reached **Level %1$d** and can now post %2$s per day."
+ ],
+ "ChannelNeedBoostsDescription": [
+  "Your channel needs %s to enable posting stories.Ask your Premium subscribers to boost your channel with this link:"
+ ],
+ "ChannelNeedBoostsDescriptionLevel1": [
+  "This channel needs %s to enable stories. Help make it possible!"
+ ],
+ "ChannelNeedBoostsDescriptionLevelNext": [
+  "This channel needs %1$s to be able to post %2$s per day. Help make it possible!"
+ ],
+ "ChannelNeedBoostsDescriptionNextLevel": [
+  "Your channel needs %1$s to post %2$s per day.Ask your Premium subscribers to boost your channel with this link:"
+ ],
+ "CommentFor": [
+  "Comment for ⭐️%s"
+ ],
+ "CopyLink": [
+  "Copy Link"
+ ],
+ "CreateMultipleStories": [
+  "Create Multiple Stories"
+ ],
+ "DeleteStoriesSubtitle": [
+  "Are you sure you want to delete %d story?",
+  "Are you sure you want to delete %d stories?"
+ ],
+ "DeleteStoriesTitle": [
+  "Delete Stories"
+ ],
+ "DeleteStorySubtitle": [
+  "Are you sure you want to delete this story?"
+ ],
+ "DeleteStoryTitle": [
+  "Delete Story"
+ ],
+ "DeletedFromYourContacts": [
+  "%s deleted from your contacts"
+ ],
+ "DiscardChanges": [
+  "Discard changes"
+ ],
+ "DoNotLinkPreview": [
+  "Do Not Preview"
+ ],
+ "EditStory": [
+  "Edit Story"
+ ],
+ "EditedMessage": [
+  "edited"
+ ],
+ "EnableStealthMode": [
+  "Enable Stealth Mode"
+ ],
+ "EnableStealthModeAndOpenStory": [
+  "Enable and open the story"
+ ],
+ "ExpiredStory": [
+  "Expired story"
+ ],
+ "ExpiredStoryMention": [
+  "The story you were mentioned in is no longer available"
+ ],
+ "ExpiredStoryMentioned": [
+  "The story where you mentioned %s is no longer available"
+ ],
+ "ExpiredViewsStub": [
+  "List of viewers becomes unavailable **24 hours** after the story expires."
+ ],
+ "ExpiredViewsStubPremiumDescription": [
+  "To unlock future viewer lists for expired and posted stories, subscribe to **Telegram Premium**."
+ ],
+ "FailedStory": [
+  "Failed"
+ ],
+ "FailedToUploadStory": [
+  "failed to upload"
+ ],
+ "FilterStories": [
+  "Stories"
+ ],
+ "FlashIntensity": [
+  "Intensity"
+ ],
+ "FlashWarmth": [
+  "Warmth"
+ ],
+ "ForwardedStory": [
+  "Forwarded Story"
+ ],
+ "ForwardedStoryFrom": [
+  "From **%s**"
+ ],
+ "FoundStories": [
+  "%d story",
+  "%d stories"
+ ],
+ "FwdMyStory": [
+  "RepostStory"
+ ],
+ "GroupTooLarge": [
+  "Group Too Large"
+ ],
+ "GroupTooLargeMessage": [
+  "You can select groups with up to 200 members."
+ ],
+ "HashtagStoriesFound": [
+  "%d Story found",
+  "%d Stories found"
+ ],
+ "HashtagStoriesFoundSubtitle": [
+  "View stories with %s"
+ ],
+ "HelpUpgradeChannel": [
+  "Help upgrade this channel"
+ ],
+ "HiddenStories": [
+  "Hidden Stories"
+ ],
+ "HideNextViews": [
+  "Hide Upcoming Views"
+ ],
+ "HideNextViewsDescription": [
+  "Hide my views for the next 25 minutes."
+ ],
+ "HideRecentViews": [
+  "Hide Recent Views"
+ ],
+ "HideRecentViewsDescription": [
+  "Hide my views from the past 5 minutes."
+ ],
+ "HintViewStoriesMultiple": [
+  "Tap here to view your %d story",
+  "Tap here to view your %d stories"
+ ],
+ "IncreaseLimit": [
+  "Increase Limit"
+ ],
+ "LearnMore": [
+  "Learn More"
+ ],
+ "LimitReached": [
+  "Limit Reached"
+ ],
+ "LimitReachedStoriesCount": [
+  "You can post **%1$d** story in **24** hours.Subscribe to **Telegram Premium** to increase this limit to **%2$d**."
+ ],
+ "LimitReachedStoriesCountPremium": [
+  "Sorry, you can't post more than **%1$d** stories."
+ ],
+ "LimitReachedStoriesMonthly": [
+  "You can post **%1$d** stories per month.Subscribe to **Telegram Premium** to increase this limit to **%2$d**."
+ ],
+ "LimitReachedStoriesMonthlyPremium": [
+  "Sorry, you can't post more than **%1$d** stories per month."
+ ],
+ "LimitReachedStoriesWeekly": [
+  "You can post **%1$d** stories per week.Subscribe to **Telegram Premium** to increase this limit to **%2$d**."
+ ],
+ "LimitReachedStoriesWeeklyPremium": [
+  "Sorry, you can't post more than **%1$d** stories per week."
+ ],
+ "LinkForBoosting": [
+  "Link for boosting"
+ ],
+ "LinkMediaLarger": [
+  "Enlarge Photo"
+ ],
+ "LinkMediaSmaller": [
+  "Shrink Photo"
+ ],
+ "LivePhotoOff": [
+  "Motion Photo **Off**"
+ ],
+ "LivePhotoOn": [
+  "Motion Photo **On**"
+ ],
+ "LiveStoryAdminRole": [
+  "admin"
+ ],
+ "LiveStoryAlreadyStreamingTitle": [
+  "Already Live"
+ ],
+ "LiveStoryBadge": [
+  "LIVE"
+ ],
+ "LiveStoryCommentPlaceholder": [
+  "Comment"
+ ],
+ "LiveStoryCommentsDisabled": [
+  "Comments Disabled"
+ ],
+ "LiveStoryDisconnected": [
+  "No Stream"
+ ],
+ "LiveStoryDisconnectedContinue": [
+  "Continue Streaming"
+ ],
+ "LiveStoryEnd": [
+  "End Live Stream"
+ ],
+ "LiveStoryEndAlertButton": [
+  "Stop"
+ ],
+ "LiveStoryEndAlertText": [
+  "Are you sure you want to stop the live stream?"
+ ],
+ "LiveStoryEndAlertTitle": [
+  "End Live Stream"
+ ],
+ "LiveStoryHighlightFeatureEmoji": [
+  "emoji"
+ ],
+ "LiveStoryHighlightFeatureLength": [
+  "characters"
+ ],
+ "LiveStoryHighlightFeaturePin": [
+  "pin in chat"
+ ],
+ "LiveStoryHighlightHint": [
+  "Tap here to highlight message"
+ ],
+ "LiveStoryHighlightText": [
+  "Highlight and pin your message by adding Stars for **%s**"
+ ],
+ "LiveStoryHighlightTitle": [
+  "Highlight and Pin"
+ ],
+ "LiveStoryMessageEditStars": [
+  "Edit Stars"
+ ],
+ "LiveStoryMessageSent": [
+  "Sent %s"
+ ],
+ "LiveStoryPeerChange": [
+  "change >"
+ ],
+ "LiveStoryPricePerComment": [
+  "Price per comment"
+ ],
+ "LiveStoryPricePerCommentFree": [
+  "Free"
+ ],
+ "LiveStoryPricePerCommentInfo": [
+  "The price a viewer must pay to send a comment."
+ ],
+ "LiveStoryRTMPDisable": [
+  "Stream from your phone"
+ ],
+ "LiveStoryRTMPEnable": [
+  "Connect Stream"
+ ],
+ "LiveStoryRTMPEnableInfo": [
+  "Stream with a different app."
+ ],
+ "LiveStoryRTMPRevoke": [
+  "Revoke Stream Key"
+ ],
+ "LiveStoryRTMPRevokeText": [
+  "Are you sure you want to regenerate your stream key?"
+ ],
+ "LiveStoryRTMPRevokeTitle": [
+  "Revoke Stream Key"
+ ],
+ "LiveStoryRTMPSettings": [
+  "RTMP Settings"
+ ],
+ "LiveStoryReactAdminCant": [
+  "You can't send Star Reactions to your own Live Story."
+ ],
+ "LiveStoryReactAdminEmptyText": [
+  "Viewers can send you Star Reactions and Top Senders will appear here."
+ ],
+ "LiveStoryReactAdminTitle": [
+  "Receive Stars from Viewers"
+ ],
+ "LiveStoryReactText": [
+  "Highlight and pin your message by sending Stars to **%s**"
+ ],
+ "LiveStoryReactTitle": [
+  "React with Stars"
+ ],
+ "LiveStorySettings": [
+  "Live Settings"
+ ],
+ "LiveStorySettingsHeader": [
+  "Live Settings"
+ ],
+ "LiveStoryStart": [
+  "Start Live Stream"
+ ],
+ "LiveStoryWatching": [
+  "%d watching",
+  "%d watching"
+ ],
+ "LocalStoriesCache": [
+  "Stories"
+ ],
+ "LocationStories": [
+  "%d story from this location",
+  "%d stories from this location"
+ ],
+ "MessageSent": [
+  "Message sent."
+ ],
+ "MoreBoosts": [
+  "**%d** more boost",
+  "**%d** more boosts"
+ ],
+ "Mute": [
+  "Mute"
+ ],
+ "MyStory": [
+  "My Story"
+ ],
+ "NewChatsFromNonContacts": [
+  "New chats from unknown users"
+ ],
+ "NewChatsFromNonContactsCheck": [
+  "Automatically archive"
+ ],
+ "NewStories": [
+  "%d new story",
+  "%d new stories"
+ ],
+ "NoBoostersHint": [
+  "No users currently boost your channel"
+ ],
+ "NoContactsViewed": [
+  "None of your contacts viewed this story."
+ ],
+ "NoPublicStoriesTitle": [
+  "No public stories"
+ ],
+ "NoReactions": [
+  "No reactions"
+ ],
+ "NoReactionsStub": [
+  "No one has reacted to this story so far."
+ ],
+ "NoStoriesSubtitle": [
+  "Open the 'Archive' tab to select stories you want to be displayed on your profile."
+ ],
+ "NoStoriesTitle": [
+  "No posted stories"
+ ],
+ "NoViewsStub": [
+  "No one has viewed this story so far."
+ ],
+ "NobodyViews": [
+  "No views yet"
+ ],
+ "NotificationChannelStory": [
+  "%s shared a story"
+ ],
+ "NotificationChatStory": [
+  "%s shared a story to the group"
+ ],
+ "NotificationStories": [
+  "Stories"
+ ],
+ "NotificationStory": [
+  "%s shared a story with you"
+ ],
+ "NotificationsSoundStories": [
+  "Story Sound"
+ ],
+ "NotificationsStories": [
+  "Stories"
+ ],
+ "NotificationsStoryMute": [
+  "Do Not Notify"
+ ],
+ "NotificationsStoryMute2": [
+  "Do Not NotifyAbout Stories"
+ ],
+ "NotificationsStoryMutedHint": [
+  "Disabled notifications for **%s** stories."
+ ],
+ "NotificationsStoryUnmute": [
+  "Notify"
+ ],
+ "NotificationsStoryUnmute2": [
+  "Notify AboutStories"
+ ],
+ "NotificationsStoryUnmutedHint": [
+  "You will receive a notification whenever **%s** posts a new story."
+ ],
+ "NotifyLessOptions": [
+  "Fewer Options"
+ ],
+ "NotifyMeAbout": [
+  "Notify me about…"
+ ],
+ "NotifyMeAboutImportantStories": [
+  "Important Stories"
+ ],
+ "NotifyMeAboutNewStories": [
+  "New Stories"
+ ],
+ "OpenChannel2": [
+  "Open Channel"
+ ],
+ "OpenChannelArchiveStories": [
+  "Archived Stories"
+ ],
+ "OpenProfile": [
+  "Open Profile"
+ ],
+ "PaintBringToFront": [
+  "To Front"
+ ],
+ "PermissionNoAudioStorageStory": [
+  "**Telegram** needs access to music files to add them to your story. Tap Settings > Permissions, and turn **Music and Audio** on."
+ ],
+ "PermissionNoLocationStory": [
+  "Telegram needs access to your location so that you can add the weather widget to your stories."
+ ],
+ "PhotoEditorDiscardAlert": [
+  "Are you sure you want to discard all changes?"
+ ],
+ "PipMinimize": [
+  "Minimize"
+ ],
+ "PremiumNeeded": [
+  "Premium needed"
+ ],
+ "PremiumNeededForBoosting": [
+  "Only **Telegram Premium** subscribers can boost channels. Do you want to subscribe to **Telegram Premium**?"
+ ],
+ "PremiumPreviewStories": [
+  "Stories"
+ ],
+ "PremiumPreviewStoriesDescription": [
+  "Unlimited posting, priority order, stealth mode, permanent view history and more."
+ ],
+ "PremiumStoriesCaption": [
+  "Longer Captions"
+ ],
+ "PremiumStoriesCaptionDescription": [
+  "Add 10x longer captions to your stories — up to 2048 characters."
+ ],
+ "PremiumStoriesExpiration": [
+  "Expiration Options"
+ ],
+ "PremiumStoriesExpirationDescription": [
+  "Set custom durations like 6 or 48 hours for your stories."
+ ],
+ "PremiumStoriesFormatting": [
+  "Links and Formatting"
+ ],
+ "PremiumStoriesFormattingDescription": [
+  "Add links and formatting to your story captions."
+ ],
+ "PremiumStoriesPriority": [
+  "Priority Order"
+ ],
+ "PremiumStoriesPriorityDescription": [
+  "Get more views as your stories are always displayed first."
+ ],
+ "PremiumStoriesQuality": [
+  "Higher quality"
+ ],
+ "PremiumStoriesQualityDescription": [
+  "View video stories in double the resolution."
+ ],
+ "PremiumStoriesSaveToGallery": [
+  "Save Stories to Gallery"
+ ],
+ "PremiumStoriesSaveToGalleryDescription": [
+  "Save other people's stories that are not protected."
+ ],
+ "PremiumStoriesStealth": [
+  "Stealth Mode"
+ ],
+ "PremiumStoriesStealthDescription": [
+  "Hide the fact that you viewed other people's stories."
+ ],
+ "PremiumStoriesViews": [
+  "Permanent View History"
+ ],
+ "PremiumStoriesViewsDescription": [
+  "Check who opens your stories — even after they expire."
+ ],
+ "PremiumSubscribers": [
+  "Premium subscribers"
+ ],
+ "PreparingVideo": [
+  "Preparing video…"
+ ],
+ "ProfileMyStories": [
+  "My Stories"
+ ],
+ "ProfileMyStoriesCount": [
+  "%d posted story",
+  "%d posted stories"
+ ],
+ "ProfileMyStoriesTab": [
+  "Posted"
+ ],
+ "ProfileStoriesArchive": [
+  "Story Archive"
+ ],
+ "ProfileStoriesArchiveChannelHint": [
+  "Only admins of the channel can see archived stories unless they are posted to the channel page."
+ ],
+ "ProfileStoriesArchiveCount": [
+  "%d archived story",
+  "%d archived stories"
+ ],
+ "ProfileStoriesArchiveHint": [
+  "Only you can see archived stories unless you choose to post them to your profile."
+ ],
+ "ProfileStoriesArchiveTab": [
+  "Archive"
+ ],
+ "ProfileStoriesCount": [
+  "%d story",
+  "%d stories"
+ ],
+ "ReactionLongTapHint": [
+  "Long tap for more reactions."
+ ],
+ "ReactionSent": [
+  "Message sent."
+ ],
+ "Reactions": [
+  "Reactions"
+ ],
+ "RecorderEditCover": [
+  "Story Cover"
+ ],
+ "RecorderEditStory": [
+  "Edit"
+ ],
+ "RecorderNewStory": [
+  "New Story"
+ ],
+ "RecorderRepost": [
+  "Repost"
+ ],
+ "RemoveFromPosts": [
+  "Remove from Posts"
+ ],
+ "Replace": [
+  "Replace"
+ ],
+ "ReplaceBoostChannelDescription": [
+  "You currently boost **%1$s**. Do you want to boost **%2$s** instead?"
+ ],
+ "ReplyPrivately": [
+  "Reply privately..."
+ ],
+ "ReplyToGroupStory": [
+  "Comment story..."
+ ],
+ "ReportChat": [
+  "Report"
+ ],
+ "ReportStory": [
+  "Report Story"
+ ],
+ "RevokeButton": [
+  "Revoke"
+ ],
+ "SaveImage": [
+  "Save Image"
+ ],
+ "SaveStoryToGalleryPremiumHint": [
+  "**Subscribe to Premium** to save other people's stories that are not protected."
+ ],
+ "SaveToGallery": [
+  "Save to Gallery"
+ ],
+ "SaveToPosts": [
+  "Post to Profile"
+ ],
+ "SaveToProfile": [
+  "Post to Profile"
+ ],
+ "SaveVideo": [
+  "Save Video"
+ ],
+ "SavedStories": [
+  "Posted Stories"
+ ],
+ "SearchImagesType": [
+  "Type to search."
+ ],
+ "SegmentationCutOut": [
+  "Cut Out"
+ ],
+ "SegmentationUndoCutOut": [
+  "Undo Cut"
+ ],
+ "SelfStoryTitle": [
+  "My Story"
+ ],
+ "SendMessage": [
+  "Send Message"
+ ],
+ "ServerErrorViewers": [
+  "Information about viewers wasn't recorded."
+ ],
+ "ServerErrorViewersFull": [
+  "Information about the other viewers wasn't recorded."
+ ],
+ "ServerErrorViewersTitle": [
+  "Oops"
+ ],
+ "ShortHoursAgo": [
+  "%dh",
+  "%dh"
+ ],
+ "ShortMinutesAgo": [
+  "%dm",
+  "%dm"
+ ],
+ "ShortNow": [
+  "now"
+ ],
+ "ShortToday": [
+  "today"
+ ],
+ "ShortYesterday": [
+  "yesterday"
+ ],
+ "ShowMore": [
+  "Show more"
+ ],
+ "SlideToCancel2": [
+  "Slide to cancel"
+ ],
+ "SortByReactions": [
+  "Reactions First"
+ ],
+ "SortByReposts": [
+  "Reposts First"
+ ],
+ "SortByTime": [
+  "Newest First"
+ ],
+ "StarsAddHighlightedMessage": [
+  "Add ⭐️%s"
+ ],
+ "StarsNeededLiveComments": [
+  "Buy **Stars** to highlight comments in Live Stories and send Star Reactions."
+ ],
+ "StarsReactionSend": [
+  "Send ⭐️%s"
+ ],
+ "StatisticOverview": [
+  "Overview"
+ ],
+ "Statistics": [
+  "Statistics"
+ ],
+ "StealthMode": [
+  "Stealth Mode"
+ ],
+ "StealthModeActiveHint": [
+  "Stealth Mode active – %s"
+ ],
+ "StealthModeActiveHintShort": [
+  "Stealth Mode %s"
+ ],
+ "StealthModeButton": [
+  "Hide My View"
+ ],
+ "StealthModeConfirmMessage": [
+  "If you send a reply or reaction, the creator of the story will see you in the list of viewers."
+ ],
+ "StealthModeConfirmTitle": [
+  "You are in Stealth Mode now"
+ ],
+ "StealthModeCooldownHint": [
+  "Please wait until **Stealth Mode** is ready to use again."
+ ],
+ "StealthModeHint": [
+  "Turn Stealth Mode on to watch stories without appearing in the list of viewers."
+ ],
+ "StealthModeIsActive": [
+  "Stealth Mode Is Active"
+ ],
+ "StealthModeOn": [
+  "Stealth Mode On"
+ ],
+ "StealthModeOnHint": [
+  "The creators of stories you viewed in the past 5 minutes or will view in the next 25 minutes won't see you in the list of viewers."
+ ],
+ "StealthModePremiumHint": [
+  "Subscribe to Telegram Premium to watch stories without appearing in the list of viewers."
+ ],
+ "StealthModeTitle": [
+  "Stealth Mode"
+ ],
+ "StoriesAddPost": [
+  "Add a post"
+ ],
+ "StoriesAlbum": [
+  "Album"
+ ],
+ "StoriesAlbumCount": [
+  "%d Album",
+  "%d Albums"
+ ],
+ "StoriesAlbumNameAllStories": [
+  "All Stories"
+ ],
+ "StoriesCollage": [
+  "Combine into Collage"
+ ],
+ "StoriesCreate": [
+  "Create %d Story",
+  "Create %d Stories"
+ ],
+ "StoriesDeleted": [
+  "%d story deleted",
+  "%d stories deleted"
+ ],
+ "StoriesIntroDismiss": [
+  "Tap to keep watching"
+ ],
+ "StoriesIntroGoBackHeader": [
+  "Go Back"
+ ],
+ "StoriesIntroGoBackSubHeader": [
+  "Tap the left edge"
+ ],
+ "StoriesIntroGoForwardHeader": [
+  "Go forward"
+ ],
+ "StoriesIntroGoForwardSubHeader": [
+  "Tap the screen"
+ ],
+ "StoriesIntroGoToNextAuthorHeader": [
+  "Go to Next Author"
+ ],
+ "StoriesIntroGoToNextAuthorSubHeader": [
+  "Swipe left or right"
+ ],
+ "StoriesIntroHeader": [
+  "Watching Stories"
+ ],
+ "StoriesIntroPauseAndSeekHeader": [
+  "Pause and Seek"
+ ],
+ "StoriesIntroPauseAndSeekSubHeader": [
+  "Hold and slide left or right"
+ ],
+ "StoriesIntroSubHeader": [
+  "You can use these gesturesto control playback."
+ ],
+ "StoriesMovedToContacts": [
+  "Stories of **%s** were moved to the **Archive**."
+ ],
+ "StoriesMovedToDialogs": [
+  "Stories of **%s** were moved to **Chats**."
+ ],
+ "StoriesPinLimit": [
+  "",
+  "You can’t pin more than %d posts."
+ ],
+ "StoriesPinned": [
+  "Story pinned",
+  "%d stories pinned"
+ ],
+ "StoriesPinnedText": [
+  "Now it will be always shown on the top.",
+  "Now they will be always shown on the top."
+ ],
+ "StoriesPremiumHint": [
+  "Posting stories is currently available only to subscribers of **Telegram Premium**."
+ ],
+ "StoriesPremiumHint2": [
+  "Posting stories is currently available only to subscribers of **Telegram Premium**."
+ ],
+ "StoriesRemoveFromRecent": [
+  "Remove from Recent"
+ ],
+ "StoriesSelected": [
+  "%d Selected",
+  "%d Selected"
+ ],
+ "StoriesSoundEnabled": [
+  "Stories"
+ ],
+ "StoriesTooMuch": [
+  "You can't post more than **%d story** in **24 hours**.",
+  "You can't post more than **%d stories** in **24 hours**."
+ ],
+ "StoriesUnpinned": [
+  "Story unpinned.",
+  "%d stories unpinned."
+ ],
+ "Story": [
+  "Story"
+ ],
+ "StoryAddCaption": [
+  "Add a caption…"
+ ],
+ "StoryAllowScreenshots": [
+  "Allow Screenshots"
+ ],
+ "StoryArchived": [
+  "%d story removed from your profile",
+  "%d stories removed from your profile"
+ ],
+ "StoryArchivedFromProfile": [
+  "This story is hidden from your profile."
+ ],
+ "StoryAudioAddToProfile": [
+  "Add to Profile"
+ ],
+ "StoryAudioAddToProfileToast": [
+  "Added to Profile."
+ ],
+ "StoryAudioAddToSavedMessages": [
+  "Add to Saved Messages"
+ ],
+ "StoryAudioAddToSavedMessagesToast": [
+  "Saved in **Saved Messages**."
+ ],
+ "StoryAudioRemove": [
+  "Remove Audio"
+ ],
+ "StoryAutoExceptionsInfo": [
+  "Automatically enable story notifications from the 5 users you contact most frequently."
+ ],
+ "StoryBlockList": [
+  "**%d person** will never see your stories.",
+  "**%d people** will never see your stories."
+ ],
+ "StoryBlockListEmpty": [
+  "**Select people** who will never see your stories."
+ ],
+ "StoryCameraDualHint": [
+  "Turn on both cameras at once"
+ ],
+ "StoryCameraHint": [
+  "Tap on %s to post a story for your contacts."
+ ],
+ "StoryCameraHint2": [
+  "Take photos or videos to share with all your contacts or close friends at once."
+ ],
+ "StoryCameraSavedDualBackHint": [
+  "Tap here to disable the second camera"
+ ],
+ "StoryCameraSavedDualFrontHint": [
+  "Tap here to disable the selfie camera"
+ ],
+ "StoryChannelEnableKeep": [
+  "Users will see this story on the channel page even after it expires."
+ ],
+ "StoryCloseFriendsHint": [
+  "You are seeing this story because **%s** added you to their list of Close Friends."
+ ],
+ "StoryCollageRemoveGrid": [
+  "Tap to remove grid"
+ ],
+ "StoryCollageReorderHint": [
+  "You can drag a tile to reorder"
+ ],
+ "StoryContactsHint": [
+  "Only **%s’s** contacts can view this story."
+ ],
+ "StoryContainsEmoji": [
+  "This story contains emoji from **%d pack**.",
+  "This story contains emoji from **%d packs**."
+ ],
+ "StoryContainsEmojiFrom": [
+  "This story contains emoji from %s."
+ ],
+ "StoryContainsEmojiPackSingle": [
+  "This story contains **%s**"
+ ],
+ "StoryContainsStickers": [
+  "This story contains stickers from **%d pack**.",
+  "This story contains stickers from **%d packs**."
+ ],
+ "StoryContainsStickersEmoji": [
+  "This story contains emoji and stickers from **%d pack**.",
+  "This story contains emoji and stickers from **%d packs**."
+ ],
+ "StoryContainsStickersEmojiFrom": [
+  "This story contains emoji and stickers from %s."
+ ],
+ "StoryContainsStickersFrom": [
+  "This story contains stickers from %s."
+ ],
+ "StoryCoverSave": [
+  "Save Cover"
+ ],
+ "StoryDeleteContact": [
+  "Delete Contact"
+ ],
+ "StoryDeleteDraft": [
+  "Delete Draft"
+ ],
+ "StoryDisableKeep": [
+  "The story will disappear after it expires."
+ ],
+ "StoryDisabledScreenshots": [
+  "Downloading and taking screenshots will be disabled for this story."
+ ],
+ "StoryDisabledScreenshotsShare": [
+  "Downloading, sharing and taking screenshots will be disabled for this story."
+ ],
+ "StoryDraft": [
+  "Draft"
+ ],
+ "StoryDraftSaved": [
+  "Draft saved"
+ ],
+ "StoryDrafts": [
+  "%d Draft",
+  "%d Drafts"
+ ],
+ "StoryDraftsAlbum": [
+  "Drafts"
+ ],
+ "StoryEditCover": [
+  "Edit Cover"
+ ],
+ "StoryEditCoverInfo": [
+  "Choose a frame from this story to show on your Profile."
+ ],
+ "StoryEditCoverMenu": [
+  "Edit Cover"
+ ],
+ "StoryEnableKeep": [
+  "Users allowed to view your story will see it on your profile even after it expires."
+ ],
+ "StoryEnabledScreenshots": [
+  "Downloading and taking screenshots will be enabled for this story."
+ ],
+ "StoryEnabledScreenshotsShare": [
+  "Downloading, sharing and taking screenshots will be enabled for this story."
+ ],
+ "StoryError": [
+  "Couldn’t upload"
+ ],
+ "StoryExpiredSubtitle": [
+  "This story has expired"
+ ],
+ "StoryGroupReactionsHint": [
+  "Send reaction as a message"
+ ],
+ "StoryHidFromToast": [
+  "%s will not be able to see your stories."
+ ],
+ "StoryHideFrom": [
+  "Hide My Stories From %s"
+ ],
+ "StoryHintPinchToZoom": [
+  "Pinch to zoom"
+ ],
+ "StoryHintSwipeToZoom": [
+  "Swipe to zoom"
+ ],
+ "StoryKeep": [
+  "Post to My Profile"
+ ],
+ "StoryKeepChannel": [
+  "Post to Channel Page"
+ ],
+ "StoryKeepChannelInfo": [
+  "Keep this story on the channel page even after it expires in %d hour.",
+  "Keep this story on the channel page even after it expires in %d hours."
+ ],
+ "StoryKeepDraft": [
+  "Keep Draft"
+ ],
+ "StoryKeepGroup": [
+  "Post to Group Page"
+ ],
+ "StoryKeepGroupInfo": [
+  "Keep this story on the group page even after it expires in %d hour.",
+  "Keep this story on the group page even after it expires in %d hours."
+ ],
+ "StoryKeepInfo": [
+  "Keep this story on your profile even after it expires in %d hour. Privacy settings will apply.",
+  "Keep this story on your profile even after it expires in %d hours. Privacy settings will apply."
+ ],
+ "StoryLinkAdd": [
+  "Add Link"
+ ],
+ "StoryLinkCaptionAbove": [
+  "Move Up"
+ ],
+ "StoryLinkCaptionBelow": [
+  "Move Down"
+ ],
+ "StoryLinkCreate": [
+  "Create Link"
+ ],
+ "StoryLinkEdit": [
+  "Update Link"
+ ],
+ "StoryLinkLimitMessage": [
+  "",
+  "You can’t add more than %d links to a story."
+ ],
+ "StoryLinkLimitTitle": [
+  "Limit Reached"
+ ],
+ "StoryLinkNameHeader": [
+  "Customize Link Text"
+ ],
+ "StoryLinkNamePlaceholder": [
+  "Link Text"
+ ],
+ "StoryLinkPremium": [
+  "Subscribe to **Telegram Premium** to add links to stories."
+ ],
+ "StoryLinkPreviewSubtitle": [
+  "You can customize your link"
+ ],
+ "StoryLinkPreviewTitle": [
+  "Link Preview"
+ ],
+ "StoryLinkURLPlaceholder": [
+  "Enter URL"
+ ],
+ "StoryLive": [
+  "Live"
+ ],
+ "StoryLiveAllowComments": [
+  "Allow Comments"
+ ],
+ "StoryLiveBlockListEmpty": [
+  "**Select people** who will never see your Live Stories."
+ ],
+ "StoryLivePrivacyAlertSubtitleProfile": [
+  "Choose who can view your live stream"
+ ],
+ "StoryLivePrivacyAlertTitle": [
+  "Start Live Stream"
+ ],
+ "StoryLivePrivacyButtonPost": [
+  "Start Live Stream"
+ ],
+ "StoryLivePrivacyPublishAs": [
+  "Start Live Story as"
+ ],
+ "StoryLivePrivacyWhoCanView": [
+  "Who can view this Live Story"
+ ],
+ "StoryMentionInDialog": [
+  "Mentioned you in a story"
+ ],
+ "StoryMentionedAction": [
+  "View Story"
+ ],
+ "StoryMentionedTitle": [
+  "**%s** mentioned you in a story."
+ ],
+ "StoryMusicLocalMusic": [
+  "Local Music"
+ ],
+ "StoryMusicProfileMusic": [
+  "Saved Music"
+ ],
+ "StoryMusicSearchMusic": [
+  "Shared Audio"
+ ],
+ "StoryMusicSelectFromFiles": [
+  "Select from Files"
+ ],
+ "StoryMusicTitle": [
+  "Add Audiotrack"
+ ],
+ "StoryMusicTitle2": [
+  "Add Audio"
+ ],
+ "StoryNoSound": [
+  "This video has no sound"
+ ],
+ "StoryNotFound": [
+  "This story is no longer available"
+ ],
+ "StoryNotification1": [
+  "posted a story",
+  "posted %d stories"
+ ],
+ "StoryNotification2": [
+  "posted by %1$s and %2$s"
+ ],
+ "StoryNotification3": [
+  "posted by %1$s, %2$s and %3$s"
+ ],
+ "StoryNotification4": [
+  "",
+  "posted by %2$s, %3$s and %1$d more"
+ ],
+ "StoryNotificationHidden": [
+  "%d story was posted",
+  "%d stories were posted"
+ ],
+ "StoryNotificationMention": [
+  "mentioned you in a story"
+ ],
+ "StoryNotificationSingle": [
+  "posted a story"
+ ],
+ "StoryOpenLink": [
+  "Open Link >"
+ ],
+ "StoryOriginalSoundMuted": [
+  "Original audio will be removed."
+ ],
+ "StoryOriginalSoundNotMuted": [
+  "Original audio will be preserved."
+ ],
+ "StoryPeriodHint": [
+  "Choose how long the story will be visible."
+ ],
+ "StoryPeriodKeep": [
+  "Keep Always"
+ ],
+ "StoryPeriodPremium": [
+  "Subscribe to **Telegram Premium** to make your stories disappear after %d hour.",
+  "Subscribe to **Telegram Premium** to make your stories disappear after %d hours."
+ ],
+ "StoryPhoto": [
+  "Photo"
+ ],
+ "StoryPinnedToPosts": [
+  "Story posted to the channel page"
+ ],
+ "StoryPinnedToPostsDescription": [
+  "Posted stories can be viewed by others on the channel page until an admin removes them."
+ ],
+ "StoryPinnedToProfile": [
+  "Story posted to your profile."
+ ],
+ "StoryPremiumFormatting": [
+  "Subscribe to **Telegram Premium** to add links and formatting to your story captions."
+ ],
+ "StoryPremiumWidgets": [
+  "Subscribe to **Telegram Premium** to add up to 5 reaction stickers to a story."
+ ],
+ "StoryPrivacyAlertAsMessageSubtitle": [
+  "Choose recipients"
+ ],
+ "StoryPrivacyAlertAsMessageTitle": [
+  "Send as message"
+ ],
+ "StoryPrivacyAlertBlocklistSubtitle": [
+  "Select people"
+ ],
+ "StoryPrivacyAlertBlocklistTitle": [
+  "Hide my stories from"
+ ],
+ "StoryPrivacyAlertCloseFriendsSubtitle": [
+  "Choose close friends"
+ ],
+ "StoryPrivacyAlertCloseFriendsTitle": [
+  "Close Friends"
+ ],
+ "StoryPrivacyAlertEditTitle": [
+  "Edit Privacy Settings"
+ ],
+ "StoryPrivacyAlertExcludeFromEveryoneSubtitle": [
+  "Exclude contacts"
+ ],
+ "StoryPrivacyAlertExcludeFromEveryoneTitle": [
+  "Everyone except..."
+ ],
+ "StoryPrivacyAlertExcludedContactsSubtitle": [
+  "Exclude contacts"
+ ],
+ "StoryPrivacyAlertExcludedContactsTitle": [
+  "Excluded Contacts"
+ ],
+ "StoryPrivacyAlertSelectContactsSubtitle": [
+  "Choose contacts"
+ ],
+ "StoryPrivacyAlertSelectContactsTitle": [
+  "Select Contacts"
+ ],
+ "StoryPrivacyAlertSubtitle": [
+  "Choose who can view your story",
+  "Choose who can view your story"
+ ],
+ "StoryPrivacyAlertSubtitleProfile": [
+  "Choose who can view your story"
+ ],
+ "StoryPrivacyAlertTitle": [
+  "Share story"
+ ],
+ "StoryPrivacyAllContacts": [
+  "My Contacts"
+ ],
+ "StoryPrivacyButtonExcludeContacts": [
+  "Exclude Contacts"
+ ],
+ "StoryPrivacyButtonPost": [
+  "Post Story"
+ ],
+ "StoryPrivacyButtonPostMultiple": [
+  "Post %d Story",
+  "Post %d Stories"
+ ],
+ "StoryPrivacyButtonSave": [
+  "Save Settings"
+ ],
+ "StoryPrivacyButtonSaveCloseFriends": [
+  "Save List"
+ ],
+ "StoryPrivacyCloseFriends": [
+  "Close Friends"
+ ],
+ "StoryPrivacyContacts": [
+  "%d contact",
+  "%d contacts"
+ ],
+ "StoryPrivacyContactsExclude": [
+  "Contacts (-%d)",
+  "Contacts (-%d)"
+ ],
+ "StoryPrivacyEveryone": [
+  "Everyone"
+ ],
+ "StoryPrivacyEveryoneExclude": [
+  "Everyone (-%d)",
+  "Everyone (-%d)"
+ ],
+ "StoryPrivacyHint": [
+  "Set who can view your story"
+ ],
+ "StoryPrivacyNone": [
+  "None"
+ ],
+ "StoryPrivacyOptionCloseFriends": [
+  "Close Friends"
+ ],
+ "StoryPrivacyOptionCloseFriendsDetail": [
+  "edit list"
+ ],
+ "StoryPrivacyOptionContacts": [
+  "My Contacts"
+ ],
+ "StoryPrivacyOptionContactsDetail": [
+  "exclude people"
+ ],
+ "StoryPrivacyOptionEveryone": [
+  "Everyone"
+ ],
+ "StoryPrivacyOptionExcludePeople": [
+  "except %d person",
+  "except %d people"
+ ],
+ "StoryPrivacyOptionExcludePerson": [
+  "except %s"
+ ],
+ "StoryPrivacyOptionPeople": [
+  "%d person",
+  "%d people"
+ ],
+ "StoryPrivacyOptionSelectedContacts": [
+  "Selected Users"
+ ],
+ "StoryPrivacyOptionSelectedContactsDetail": [
+  "edit list"
+ ],
+ "StoryPrivacyPublishAs": [
+  "Post story as"
+ ],
+ "StoryPrivacyPublishLiveAs": [
+  "Stream as"
+ ],
+ "StoryPrivacyRecipients": [
+  "%d recipient",
+  "%d recipients"
+ ],
+ "StoryQualityDecrease": [
+  "Lower Quality"
+ ],
+ "StoryQualityDecreasedMessage": [
+  "Stories will now download faster."
+ ],
+ "StoryQualityDecreasedTitle": [
+  "Quality Lowered"
+ ],
+ "StoryQualityIncrease": [
+  "Increase Quality"
+ ],
+ "StoryQualityIncreasedMessage": [
+  "You can lower the quality later for faster downloads."
+ ],
+ "StoryQualityIncreasedTitle": [
+  "Quality Increased"
+ ],
+ "StoryQualityPremium": [
+  "High-Quality Stories"
+ ],
+ "StoryQualityPremiumText": [
+  "Subscribe to Premium to view stories in higher resolution."
+ ],
+ "StoryReactionsHint": [
+  "Send reaction as a private message"
+ ],
+ "StoryReactionsSortDescription": [
+  "Choose the order for the \nlist of reactions."
+ ],
+ "StoryReactionsWidgetLimit": [
+  "You can't add more than 5 reaction stickers to a story."
+ ],
+ "StoryRemoveRoundMessage": [
+  "Are you sure you want to delete your video message?"
+ ],
+ "StoryRemoveRoundTitle": [
+  "Remove Video"
+ ],
+ "StoryRepliesLocked": [
+  "Replies restricted"
+ ],
+ "StoryRepliesLockedButton": [
+  "Unlock"
+ ],
+ "StoryReplyDisabled": [
+  "You can’t reply to this story"
+ ],
+ "StoryRestrictions": [
+  "Privacy Restrictions"
+ ],
+ "StoryRestrictionsInfo": [
+  "The privacy settings of your story will prevent some users you tagged (%s) from viewing it."
+ ],
+ "StoryRoundRemove": [
+  "Remove Video"
+ ],
+ "StorySave": [
+  "Post to profile"
+ ],
+ "StorySaveDraft": [
+  "Save Draft"
+ ],
+ "StorySavedSubtitle": [
+  "Posted stories can be viewed by others on your profile until you remove them."
+ ],
+ "StorySavedTitle": [
+  "%d story posted on your profile",
+  "%d stories posted on your profile"
+ ],
+ "StorySeekHelp": [
+  "Slide left or right to seek"
+ ],
+ "StorySelectedContactsHint": [
+  "Only some users **%s** selected can view this story."
+ ],
+ "StoryShared": [
+  "Story shared"
+ ],
+ "StorySharedTo": [
+  "Story forwarded to **%s**."
+ ],
+ "StorySharedToAllContacts": [
+  "This story is now shown to all your contacts."
+ ],
+ "StorySharedToAllContactsExcluded": [
+  "This story is now shown to your contacts (excluding %d).",
+  "This story is now shown to your contacts (excluding %d)."
+ ],
+ "StorySharedToCloseFriends": [
+  "This story is now shown to your close friends."
+ ],
+ "StorySharedToContacts": [
+  "This story is now shown to %d contact.",
+  "This story is now shown to %d contacts."
+ ],
+ "StorySharedToEveryone": [
+  "This story is now shown to everyone."
+ ],
+ "StorySharedToManyChats": [
+  "Story forwarded to **a chat**.",
+  "Story forwarded to **%1$d chats**."
+ ],
+ "StorySharedToSavedMessages": [
+  "Story forwarded to **Saved Messages**"
+ ],
+ "StoryShowBackTo": [
+  "Do Not Hide My Stories From %s"
+ ],
+ "StoryShownBackToToast": [
+  "%s will be able to see your stories again."
+ ],
+ "StorySoundMuted": [
+  "This story will have no sound."
+ ],
+ "StorySoundNotMuted": [
+  "This story will have sound."
+ ],
+ "StoryTimeline": [
+  "Timeline"
+ ],
+ "StoryUnavailable": [
+  "Story unavailable"
+ ],
+ "StoryUnsupported": [
+  "This story is not supported by your version of Telegram."
+ ],
+ "StoryUploadError": [
+  "Error uploading story"
+ ],
+ "StoryUploading": [
+  "Uploading story…"
+ ],
+ "StoryVideo": [
+  "Video"
+ ],
+ "StoryViewGift": [
+  "Show Gift >"
+ ],
+ "StoryViewLocation": [
+  "View Location >"
+ ],
+ "StoryViewMessage": [
+  "View Message >"
+ ],
+ "StoryViewsPremiumHint": [
+  "To unlock future viewer lists for expired and posted stories, subscribe to **Telegram Premium**."
+ ],
+ "StoryViewsSortDescription": [
+  "Choose the order for the \nlist of viewers."
+ ],
+ "StoryWidgetAudio": [
+  "Audio"
+ ],
+ "StoryWidgetLink": [
+  "Link"
+ ],
+ "StoryWidgetLocation": [
+  "Location"
+ ],
+ "StoryWidgetPhoto": [
+  "Photo"
+ ],
+ "StoryYouMentionInDialog": [
+  "You mentioned %s"
+ ],
+ "StoryYouMentionedTitle": [
+  "**You** mentioned %s in a story."
+ ],
+ "Streaming": [
+  "Streaming"
+ ],
+ "TryAgain": [
+  "Try Again"
+ ],
+ "UnarchiveStories": [
+  "Unhide Stories"
+ ],
+ "UnlockStealthMode": [
+  "Unlock Stealth Mode"
+ ],
+ "Unmute": [
+  "Unmute"
+ ],
+ "UpgradedStories": [
+  "Stories"
+ ],
+ "UserBlockedNonPremiumButton": [
+  "View"
+ ],
+ "UserBlockedRepliesNonPremium": [
+  "You need a **Premium** Subscription to reply to **%s**’s stories."
+ ],
+ "UsersDeselectAll": [
+  "Deselect All"
+ ],
+ "ViewAnonymously": [
+  "ViewAnonymously"
+ ],
+ "ViewStatistics": [
+  "View Statistics"
+ ],
+ "ViewStory": [
+  "View Story"
+ ],
+ "Viewers": [
+  "Viewers"
+ ],
+ "Views": [
+  "%1$s view",
+  "%1$s views"
+ ],
+ "VoipChatStreamKey": [
+  "Stream Key"
+ ],
+ "VoipChatStreamServerUrl": [
+  "Server URL"
+ ],
+ "VoipChatStreamSettings": [
+  "Stream settings"
+ ],
+ "VoipChatStreamWithAnotherAppDescriptionStory": [
+  "Once you start broadcasting in your streaming app, tap Connect Stream below."
+ ],
+ "VoipStreamStart": [
+  "To stream video with another app,enter the server URL and Stream Keyin your streaming app."
+ ],
+ "WhoCanSee": [
+  "Who can see"
+ ],
+ "YouBoostedChannel": [
+  "You boosted the channel"
+ ],
+ "YouBoostedChannel2": [
+  "You boosted %s!"
+ ]
+}

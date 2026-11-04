@@ -1,0 +1,1395 @@
+{
+ "AddGifts.AddGifts": [
+  "Add %@ Gift",
+  "Add %@ Gifts"
+ ],
+ "AddGifts.Title": [
+  "Add Gifts"
+ ],
+ "Attachment.ChatsMusic": [
+  "YOUR CHATS"
+ ],
+ "Attachment.ProfileMusic": [
+  "PROFILE MUSIC"
+ ],
+ "AvatarEditor.Background": [
+  "BACKGROUND"
+ ],
+ "AvatarEditor.Emoji": [
+  "Emoji"
+ ],
+ "AvatarEditor.EmojiOrSticker": [
+  "EMOJI OR STICKER"
+ ],
+ "AvatarEditor.PremiumNeeded.Background": [
+  "Subscribe to Telegram Premium to use this background."
+ ],
+ "AvatarEditor.PremiumNeeded.Sticker": [
+  "Subscribe to Telegram Premium to choose this sticker."
+ ],
+ "AvatarEditor.Set": [
+  "Set"
+ ],
+ "AvatarEditor.SetChannelPhoto": [
+  "Set as Channel Photo"
+ ],
+ "AvatarEditor.SetGroupPhoto": [
+  "Set as Group Photo"
+ ],
+ "AvatarEditor.SetProfilePhoto": [
+  "Set as Profile Photo"
+ ],
+ "AvatarEditor.Stickers": [
+  "Stickers"
+ ],
+ "AvatarEditor.SuggestProfilePhoto": [
+  "Suggest as Profile Photo"
+ ],
+ "AvatarEditor.SwitchToEmoji": [
+  "SWITCH TO EMOJI"
+ ],
+ "AvatarEditor.SwitchToStickers": [
+  "SWITCH TO STICKERS"
+ ],
+ "Birthday.FloodError": [
+  "Sorry, you can’t change your birthday so often."
+ ],
+ "BotPreviews.MenuReorder": [
+  "Reorder"
+ ],
+ "Call.CallInProgressMessage": [
+  "End call with %1$@ and start a new one with %2$@?"
+ ],
+ "Call.CallInProgressTitle": [
+  "Call in Progress"
+ ],
+ "Call.ConnectionErrorMessage": [
+  "Please check your Internet connection and try again."
+ ],
+ "Call.ConnectionErrorTitle": [
+  "Unable to Call"
+ ],
+ "Call.Minutes": [
+  "%@ minute",
+  "%@ minutes"
+ ],
+ "CancelResetAccount.TextSMS": [
+  "Somebody with access to your phone number %@ has requested to delete your Telegram account and reset your 2-Step Verification password.If it wasn't you, please enter the code we've just sent you via SMS to your number. You can also cancel this by **changing your phone number** to a number you control."
+ ],
+ "CancelResetAccount.Title": [
+  "Cancel Account Reset"
+ ],
+ "ChannelInfo.ScamChannelWarning": [
+  "⚠️ Warning: Many users reported this channel as a scam or a fake account. Please be careful, especially if it asks you for money."
+ ],
+ "Chat.PostSuggestion.Suggest.OfferButtonPrice": [
+  "Offer  %@"
+ ],
+ "CollectibleItemInfo.ButtonCopyUsername": [
+  "Copy Link"
+ ],
+ "CollectibleItemInfo.ButtonOpenInfo": [
+  "Learn More"
+ ],
+ "CollectibleItemInfo.ShareInlineText.LearnMore": [
+  "Learn more >"
+ ],
+ "CollectibleItemInfo.StoreName": [
+  "Fragment"
+ ],
+ "CollectibleItemInfo.UsernameText": [
+  "The username %1$@ was acquired on %2$@ on %3$@ for %4$@ (%5$@)."
+ ],
+ "CollectibleItemInfo.UsernameTitle": [
+  "%@ is a collectible username that belongs to"
+ ],
+ "Common.Cancel": [
+  "Cancel"
+ ],
+ "Common.ChoosePhoto": [
+  "Choose Photo"
+ ],
+ "Conversation.ContextMenuCopy": [
+  "Copy"
+ ],
+ "Conversation.ContextMenuShare": [
+  "Share"
+ ],
+ "Conversation.PhoneCopied": [
+  "Phone copied to clipboard."
+ ],
+ "Conversation.SendMessage": [
+  "Send Message"
+ ],
+ "Conversation.ShareMyContactInfo": [
+  "Share My Contact Info"
+ ],
+ "Conversation.UnblockUser": [
+  "Unblock User"
+ ],
+ "Conversation.UsernameCopied": [
+  "Username copied to clipboard."
+ ],
+ "ConversationProfile.ErrorCreatingConversation": [
+  "An error occurred"
+ ],
+ "EmojiSearch.SearchStatusesEmptyResult": [
+  "No emoji found"
+ ],
+ "EmojiSearch.SearchStatusesPlaceholder": [
+  "Search Statuses"
+ ],
+ "Gift.Buy.Confirm.BuyFor": [
+  "Buy for %@ Star",
+  "Buy for %@ Stars"
+ ],
+ "Gift.Buy.Confirm.GiftText": [
+  "Do you really want to buy **%1$@** for %2$@ and gift it to **%3$@**?"
+ ],
+ "Gift.Buy.Confirm.Text": [
+  "Do you really want to buy **%1$@** for %2$@?"
+ ],
+ "Gift.Buy.Confirm.Text.Stars": [
+  "**%@** Star",
+  "**%@** Stars"
+ ],
+ "Gift.Buy.Confirm.Title": [
+  "Confirm Payment"
+ ],
+ "Gift.Convert.Convert": [
+  "Convert"
+ ],
+ "Gift.Convert.Period.Days": [
+  "%@ day",
+  "%@ days"
+ ],
+ "Gift.Convert.Period.Stars": [
+  "%@ Star",
+  "%@ Stars"
+ ],
+ "Gift.Convert.Period.Text": [
+  "Do you want to convert this gift from **%1$@** to **%2$@**?Conversion is available for the next %3$@.This will permanently destroy the gift."
+ ],
+ "Gift.Convert.Period.Unavailable.Days": [
+  "%@ day",
+  "%@ days"
+ ],
+ "Gift.Convert.Period.Unavailable.Text": [
+  "Sorry, you can't convert this gift.Stars can only be claimed within %@ after receiving a gift."
+ ],
+ "Gift.Convert.Stars": [
+  "%@ Star",
+  "%@ Stars"
+ ],
+ "Gift.Convert.Text": [
+  "Do you want to convert this gift from **%1$@** to **%2$@**?This will permanently destroy the gift."
+ ],
+ "Gift.Convert.Title": [
+  "Convert Gift to Stars"
+ ],
+ "Gift.Delete.Text": [
+  "Do you want to delete this gift?It will disappear from your profile and can't be restored."
+ ],
+ "Gift.Delete.Title": [
+  "Delete Gift"
+ ],
+ "Gift.Offer.Duration": [
+  "Offer Duration"
+ ],
+ "Gift.Offer.Duration.Hours": [
+  "%@ Hour",
+  "%@ Hours"
+ ],
+ "Gift.Offer.DurationDescriptionTon": [
+  "Choose how long **%@** has to accept your offer. When it expires, your Grams will be automatically refunded."
+ ],
+ "Gift.Offer.GiftMinAmountToast.Text": [
+  "You cannot offer less than %@ for this gift"
+ ],
+ "Gift.Offer.Offer": [
+  "Offer"
+ ],
+ "Gift.Offer.OfferStars": [
+  "Offer Stars"
+ ],
+ "Gift.Offer.OfferTon": [
+  "Offer Grams"
+ ],
+ "Gift.Offer.PriceDescriptionTon": [
+  "Enter the amount of Grams you'd like to offer for **%@**."
+ ],
+ "Gift.Offer.PricePlaceholder": [
+  "Price"
+ ],
+ "Gift.Offer.PriceSectionTon": [
+  "GRAMS TO OFFER"
+ ],
+ "Gift.Offer.Title": [
+  "Offer to Buy"
+ ],
+ "Gift.RemoveDetails.Action": [
+  "Remove for %@"
+ ],
+ "Gift.RemoveDetails.Text": [
+  "Do you want to permanently remove this description from your gift?"
+ ],
+ "Gift.RemoveDetails.Title": [
+  "Remove Description"
+ ],
+ "Gift.Unique.CollectibleBy": [
+  "collectible %1$@ by %2$@"
+ ],
+ "Gift.Unpin.Replace": [
+  "Replace"
+ ],
+ "Gift.Unpin.Subtitle": [
+  "Select a gift to unpin below:"
+ ],
+ "Gift.Unpin.Title": [
+  "Too Many Pinned Gifts"
+ ],
+ "Gift.Unpin.Unpin": [
+  "Unpin"
+ ],
+ "Gift.Upgrade.AddName": [
+  "Add sender's name"
+ ],
+ "Gift.Upgrade.Confirm": [
+  "Confirm"
+ ],
+ "Gift.Upgrade.Description": [
+  "Turn your gift into a unique collectible that you can transfer or auction."
+ ],
+ "Gift.Upgrade.Soon": [
+  "SOON"
+ ],
+ "Gift.Upgrade.Title": [
+  "Upgrade Gift"
+ ],
+ "Gift.Upgrade.Tradable.Description": [
+  "Sell or auction your gift on third-party NFT marketplaces."
+ ],
+ "Gift.Upgrade.Tradable.Title": [
+  "Tradable"
+ ],
+ "Gift.Upgrade.Transferable.Description": [
+  "Send your upgraded gift to any of your friends on Telegram."
+ ],
+ "Gift.Upgrade.Transferable.Title": [
+  "Transferable"
+ ],
+ "Gift.Upgrade.Unique.Description": [
+  "Get a unique number, model, backdrop and symbol for your gift."
+ ],
+ "Gift.Upgrade.Unique.Title": [
+  "Unique"
+ ],
+ "Gift.Value.DescriptionLastPriceTelegram": [
+  "This is the price at which **%@** was last sold on Telegram."
+ ],
+ "Gift.Value.InitialPrice": [
+  "Initial Price"
+ ],
+ "Gift.Value.InitialSale": [
+  "Initial Sale"
+ ],
+ "Gift.Value.LastPrice": [
+  "Last Price"
+ ],
+ "Gift.Value.LastSale": [
+  "Last Sale"
+ ],
+ "Gift.View.BuyFor": [
+  "Buy for"
+ ],
+ "Gift.View.Context.BuyOffer": [
+  "Offer to Buy"
+ ],
+ "Gift.View.Context.ChangePrice": [
+  "Change Price"
+ ],
+ "Gift.View.Context.CopyLink": [
+  "Copy Link"
+ ],
+ "Gift.View.Context.Delete": [
+  "Delete Gift"
+ ],
+ "Gift.View.Context.Share": [
+  "Share"
+ ],
+ "Gift.View.Context.Transfer": [
+  "Transfer"
+ ],
+ "Gift.View.Display": [
+  "Add to My Profile"
+ ],
+ "Gift.View.Header.Share": [
+  "share"
+ ],
+ "Gift.View.Header.TakeOff": [
+  "take off"
+ ],
+ "Gift.View.Header.Transfer": [
+  "transfer"
+ ],
+ "Gift.View.Header.Wear": [
+  "wear"
+ ],
+ "Gift.View.HiddenName": [
+  "Hidden Name"
+ ],
+ "Gift.View.PutOn": [
+  "You put on %@"
+ ],
+ "Gift.View.ReleasedBy": [
+  "released by %@"
+ ],
+ "Gift.View.Resale.List.Success": [
+  "%@ is now for sale!"
+ ],
+ "Gift.View.Resale.Relist.Success": [
+  "%1$@ relisted for %2$@."
+ ],
+ "Gift.View.Resale.Relist.Success.Stars": [
+  "%@ Star",
+  "%@ Stars"
+ ],
+ "Gift.View.Resale.Unlist.Success": [
+  "%@ removed from sale."
+ ],
+ "Gift.View.Resale.Unlist.Text": [
+  "It will no longer be for sale."
+ ],
+ "Gift.View.Resale.Unlist.Title": [
+  "Unlist This Item?"
+ ],
+ "Gift.View.Resale.Unlist.Unlist": [
+  "Unlist"
+ ],
+ "Gift.View.Sell": [
+  "sell"
+ ],
+ "Gift.View.Title": [
+  "Gift"
+ ],
+ "Gift.View.TookOff": [
+  "You took off %@"
+ ],
+ "Gift.View.TooltipPremiumWearing": [
+  "Subscribe to [Telegram Premium]() to wear collectibles."
+ ],
+ "Gift.View.UniqueHiddenInfo": [
+  "This gift is not visible on your profile."
+ ],
+ "Gift.View.Unlist": [
+  "unlist"
+ ],
+ "Gift.Wear.Badge.Text": [
+  "This gift will be displayed next to your name with a glittering icon."
+ ],
+ "Gift.Wear.Badge.Title": [
+  "Radiant Badge"
+ ],
+ "Gift.Wear.Design.Text": [
+  "Your profile will have the same backdrop and symbol as this gift."
+ ],
+ "Gift.Wear.Design.Title": [
+  "Unique Profile Design"
+ ],
+ "Gift.Wear.GetBenefits": [
+  "and get these benefits:"
+ ],
+ "Gift.Wear.Proof.Text": [
+  "Tapping the icon next to your name will show the gift's owner and attributes."
+ ],
+ "Gift.Wear.Proof.Title": [
+  "Proof of Ownership"
+ ],
+ "Gift.Wear.Start": [
+  "Start Wearing"
+ ],
+ "Gift.Wear.Wear": [
+  "Wear %@"
+ ],
+ "Gift.Withdraw.EnterPassword.Done": [
+  "Proceed"
+ ],
+ "Gift.Withdraw.EnterPassword.Text": [
+  "Please enter your Two-Step Verification password to complete this action."
+ ],
+ "Gift.Withdraw.EnterPassword.Title": [
+  "Enter Password"
+ ],
+ "GroupInfo.ScamGroupWarning": [
+  "⚠️ Warning: Many users reported this group as a scam or a fake account. Please be careful, especially if it asks you for money."
+ ],
+ "GroupInfo.SetGroupPhotoDelete": [
+  "Remove Photo"
+ ],
+ "LastSeen.TodayAt": [
+  "last seen today at %@"
+ ],
+ "MediaPicker.RemovePhoto": [
+  "Remove Photo"
+ ],
+ "MediaPicker.SetNewPhoto": [
+  "Set new profile photo"
+ ],
+ "MediaPicker.UseAnEmoji": [
+  "Use an Emoji"
+ ],
+ "MediaPlayer.Playlist.SavedMusic": [
+  "%@'S PLAYLIST"
+ ],
+ "MediaPlayer.Playlist.SavedMusicYou": [
+  "YOUR PLAYLIST"
+ ],
+ "MediaPlayer.Playlist.ThisChat": [
+  "AUDIO IN THIS CHAT"
+ ],
+ "MediaPlayer.PlaylistTitle": [
+  "%@'s Playlist"
+ ],
+ "MediaPlayer.PlaylistYourTitle": [
+  "Your Playlist"
+ ],
+ "MediaPlayer.SavedMusic.AddToProfile": [
+  "Add to Profile"
+ ],
+ "MediaPlayer.SavedMusic.RemoveFromProfile": [
+  "This audio is visible on your profile. [Remove >]()"
+ ],
+ "MediaPlayer.SavedMusic.RemoveFromProfileShort": [
+  "Remove from Profile"
+ ],
+ "MediaPlayer.SavedMusic.RemovedFromProfile": [
+  "Audio removed from your profile."
+ ],
+ "MuteExpires.Days": [
+  "in 1 day",
+  "in %@ days"
+ ],
+ "MuteExpires.Hours": [
+  "in 1 hour",
+  "in %@ hours"
+ ],
+ "MuteExpires.Minutes": [
+  "in 1 minute",
+  "in %@ minutes"
+ ],
+ "MuteFor.Days": [
+  "Mute for 1 day",
+  "Mute for %@ days"
+ ],
+ "MuteFor.Hours": [
+  "Mute for 1 hour",
+  "Mute for %@ hours"
+ ],
+ "MyProfile.BioActionCopy": [
+  "Copy Bio"
+ ],
+ "MyProfile.BioActionEdit": [
+  "Edit Bio"
+ ],
+ "MyProfile.BirthdayActionCopy": [
+  "Copy"
+ ],
+ "MyProfile.BirthdayActionEdit": [
+  "Edit Birthday"
+ ],
+ "MyProfile.HoursActionCopy": [
+  "Copy Hours"
+ ],
+ "MyProfile.HoursActionEdit": [
+  "Edit Hours"
+ ],
+ "MyProfile.HoursActionRemove": [
+  "Remove"
+ ],
+ "MyProfile.HoursRemoveConfirmation.Action": [
+  "Remove"
+ ],
+ "MyProfile.HoursRemoveConfirmation.Title": [
+  "Are you sure you want to remove business hours?"
+ ],
+ "MyProfile.LocationActionCopy": [
+  "Copy Address"
+ ],
+ "MyProfile.LocationActionEdit": [
+  "Edit Location"
+ ],
+ "MyProfile.LocationActionOpen": [
+  "Open in Maps"
+ ],
+ "MyProfile.LocationActionRemove": [
+  "Remove"
+ ],
+ "MyProfile.LocationRemoveConfirmation.Action": [
+  "Remove"
+ ],
+ "MyProfile.LocationRemoveConfirmation.Title": [
+  "Are you sure you want to remove location?"
+ ],
+ "MyProfile.PhoneActionCopy": [
+  "Copy Number"
+ ],
+ "MyProfile.PhoneActionEdit": [
+  "Change Number"
+ ],
+ "MyProfile.ToastBioCopied": [
+  "Bio copied to clipboard."
+ ],
+ "MyProfile.ToastBirthdayCopied": [
+  "Birthday copied to clipboard."
+ ],
+ "MyProfile.ToastHoursCopied": [
+  "Hours copied to clipboard."
+ ],
+ "MyProfile.ToastLocationCopied": [
+  "Location copied to clipboard."
+ ],
+ "MyProfile.UsernameActionCopy": [
+  "Copy Username"
+ ],
+ "MyProfile.UsernameActionEdit": [
+  "Edit Username"
+ ],
+ "NameColor.AddProfileIcons": [
+  "Add Icons To Profile"
+ ],
+ "NameColor.AddRepliesIcons": [
+  "Add Icons To Replies"
+ ],
+ "NameColor.ChatPreview.Description.Account": [
+  "This color will be used for your name, the links you send, and replies to your messages."
+ ],
+ "NameColor.GiftInfo": [
+  "Apply your collectible's unique look to your profile."
+ ],
+ "NameColor.GiftTitle": [
+  "USE A GIFT"
+ ],
+ "NameColor.TooltipPremium.Account": [
+  "Subscribe to [Telegram Premium]() to choose a custom color for your name."
+ ],
+ "NameColor.WearCollectible": [
+  "Wear Collectible"
+ ],
+ "Notification.CallCanceled": [
+  "Canceled Call"
+ ],
+ "Notification.CallIncoming": [
+  "Incoming Call"
+ ],
+ "Notification.CallOutgoing": [
+  "Outgoing Call"
+ ],
+ "Notification.Mute1h": [
+  "Mute for 1 hour"
+ ],
+ "PeerInfo.AddNotesInfo": [
+  "Notes are only visible to you."
+ ],
+ "PeerInfo.AddNotesPlaceholder": [
+  "Add Notes"
+ ],
+ "PeerInfo.BusinessHours.DayClosed": [
+  "closed"
+ ],
+ "PeerInfo.BusinessHours.DayOpen24h": [
+  "open 24 hours"
+ ],
+ "PeerInfo.BusinessHours.Label": [
+  "business hours"
+ ],
+ "PeerInfo.BusinessHours.StatusClosed": [
+  "Closed"
+ ],
+ "PeerInfo.BusinessHours.StatusOpen": [
+  "Open"
+ ],
+ "PeerInfo.BusinessHours.StatusOpensInHours": [
+  "Opens in one hour",
+  "Opens in %d hours"
+ ],
+ "PeerInfo.BusinessHours.StatusOpensInMinutes": [
+  "Opens in one minute",
+  "Opens in %d minutes"
+ ],
+ "PeerInfo.BusinessHours.StatusOpensOnDate": [
+  "Opens %@"
+ ],
+ "PeerInfo.BusinessHours.StatusOpensTodayAt": [
+  "Opens today at %@"
+ ],
+ "PeerInfo.BusinessHours.StatusOpensTomorrowAt": [
+  "Opens tomorrow at %@"
+ ],
+ "PeerInfo.BusinessHours.TimezoneSwitchBusiness": [
+  "local time"
+ ],
+ "PeerInfo.BusinessHours.TimezoneSwitchMy": [
+  "my time"
+ ],
+ "PeerInfo.ChangeEmojiStatus": [
+  "Change Emoji Status"
+ ],
+ "PeerInfo.DeleteReaction": [
+  "Delete Reaction"
+ ],
+ "PeerInfo.GiftPremium": [
+  "Gift Premium"
+ ],
+ "PeerInfo.Gifts.AddCollection": [
+  "Add Collection"
+ ],
+ "PeerInfo.Gifts.AddGifts": [
+  "Add Gifts"
+ ],
+ "PeerInfo.Gifts.AddedToCollection": [
+  "The gift has been added to **%@**."
+ ],
+ "PeerInfo.Gifts.AddedToCollectionUnique": [
+  "**%1$@** has been added to **%2$@**."
+ ],
+ "PeerInfo.Gifts.CollectionLimitReached.Text": [
+  "Please remove one of the existing collections to add a new one."
+ ],
+ "PeerInfo.Gifts.CollectionLimitReached.Title": [
+  "Limit Reached"
+ ],
+ "PeerInfo.Gifts.Collections.All": [
+  "All Gifts"
+ ],
+ "PeerInfo.Gifts.Context.AddToCollection": [
+  "Add to Collection"
+ ],
+ "PeerInfo.Gifts.Context.CopyLink": [
+  "Copy Link"
+ ],
+ "PeerInfo.Gifts.Context.Hide": [
+  "Hide"
+ ],
+ "PeerInfo.Gifts.Context.NewCollection": [
+  "New Collection"
+ ],
+ "PeerInfo.Gifts.Context.Pin": [
+  "Pin"
+ ],
+ "PeerInfo.Gifts.Context.RemoveFromCollection": [
+  "Remove from Collection"
+ ],
+ "PeerInfo.Gifts.Context.Reorder": [
+  "Reorder"
+ ],
+ "PeerInfo.Gifts.Context.Share": [
+  "Share"
+ ],
+ "PeerInfo.Gifts.Context.Show": [
+  "Show"
+ ],
+ "PeerInfo.Gifts.Context.Transfer": [
+  "Transfer"
+ ],
+ "PeerInfo.Gifts.Context.Unpin": [
+  "Unpin"
+ ],
+ "PeerInfo.Gifts.Context.Wear": [
+  "Wear"
+ ],
+ "PeerInfo.Gifts.CreateCollection.Placeholder": [
+  "Title"
+ ],
+ "PeerInfo.Gifts.CreateCollection.Text": [
+  "Choose a name for your collection and add your gifts."
+ ],
+ "PeerInfo.Gifts.CreateCollection.Title": [
+  "Create a New Collection"
+ ],
+ "PeerInfo.Gifts.DeleteCollection": [
+  "Delete Collection"
+ ],
+ "PeerInfo.Gifts.EmptyCollection.Action": [
+  "Add Gifts"
+ ],
+ "PeerInfo.Gifts.EmptyCollection.Text": [
+  "Add some gifts to this collection."
+ ],
+ "PeerInfo.Gifts.EmptyCollection.Title": [
+  "Organize Your Gifts"
+ ],
+ "PeerInfo.Gifts.Info": [
+  "Tap on a gift to exchange it for Stars or change its privacy settings."
+ ],
+ "PeerInfo.Gifts.OneOf": [
+  "1 of %@"
+ ],
+ "PeerInfo.Gifts.RemoveCollectionAction": [
+  "Remove"
+ ],
+ "PeerInfo.Gifts.RemoveCollectionConfirmation": [
+  "This will remove the collection."
+ ],
+ "PeerInfo.Gifts.RemovedFromCollection": [
+  "The gift has been removed from **%@**."
+ ],
+ "PeerInfo.Gifts.RemovedFromCollectionUnique": [
+  "**%1$@** has been removed from **%2$@**."
+ ],
+ "PeerInfo.Gifts.RenameCollection": [
+  "Rename"
+ ],
+ "PeerInfo.Gifts.RenameCollection.Title": [
+  "Edit Collection Name"
+ ],
+ "PeerInfo.Gifts.Reorder": [
+  "Reorder"
+ ],
+ "PeerInfo.Gifts.Sale": [
+  "on sale"
+ ],
+ "PeerInfo.Gifts.Send": [
+  "Send Gifts to Friends"
+ ],
+ "PeerInfo.Gifts.ShareCollection": [
+  "Share"
+ ],
+ "PeerInfo.Gifts.ToastPinned.ReplacingText": [
+  "replacing %@."
+ ],
+ "PeerInfo.Gifts.ToastPinned.Text": [
+  "Now it will always be shown on the top."
+ ],
+ "PeerInfo.Gifts.ToastPinned.Title": [
+  "Gift Pinned"
+ ],
+ "PeerInfo.Gifts.ToastPinned.TitleNew": [
+  "%@ Pinned"
+ ],
+ "PeerInfo.Gifts.ToastUnpinned.Text": [
+  "Gift Unpinned."
+ ],
+ "PeerInfo.Location.Label": [
+  "location"
+ ],
+ "PeerInfo.MenuAddStories": [
+  "Add Stories"
+ ],
+ "PeerInfo.NoteActionCopy": [
+  "Copy Note"
+ ],
+ "PeerInfo.NoteActionEdit": [
+  "Edit Note"
+ ],
+ "PeerInfo.Notes": [
+  "notes"
+ ],
+ "PeerInfo.NotesInfo": [
+  "only visible to you"
+ ],
+ "PeerInfo.PaneArchivedStories": [
+  "Archived Posts"
+ ],
+ "PeerInfo.PaneGifts": [
+  "Gifts"
+ ],
+ "PeerInfo.PaneStories": [
+  "Posts"
+ ],
+ "PeerInfo.Permissions.EmojiStatus": [
+  "Emoji Status"
+ ],
+ "PeerInfo.Permissions.Geolocation": [
+  "Geolocation"
+ ],
+ "PeerInfo.Permissions.Title": [
+  "ALLOW ACCESS TO"
+ ],
+ "PeerInfo.QRCode.Scan": [
+  "Scan QR Code"
+ ],
+ "PeerInfo.SetEmojiStatus": [
+  "Set Emoji Status"
+ ],
+ "PeerInfo.Tabs.SetMainTab": [
+  "Set as Main Tab"
+ ],
+ "PeerInfo.Tabs.SetMainTab.Succeed": [
+  "Tab order changed."
+ ],
+ "PeerInfo.ToastNoteCopied": [
+  "Note copied to clipboard."
+ ],
+ "PeerStatusExpiration.AtDate": [
+  "Your status expires on %@"
+ ],
+ "PeerStatusExpiration.Minutes": [
+  "Your status expires in 1 minute",
+  "Your status expires in %@ minutes"
+ ],
+ "PeerStatusExpiration.TomorrowAt": [
+  "Your status expires tomorrow at %@"
+ ],
+ "PeerStatusSetup.NoTimerTitle": [
+  "Long tap to set a timer"
+ ],
+ "PhoneLabel.Title": [
+  "Label"
+ ],
+ "Premium.Free": [
+  "Free"
+ ],
+ "Premium.IncreaseLimit": [
+  "Increase Limit"
+ ],
+ "Premium.LimitReached": [
+  "Limit Reached"
+ ],
+ "Premium.MaxAccountsText": [
+  "You have reached the limit of **%@** connected accounts. You can add more by subscribing to **Telegram Premium**."
+ ],
+ "Premium.PersonalDescription": [
+  "Owners of **Telegram Premium** accounts have exclusive access to multiple additional features."
+ ],
+ "Premium.PersonalTitle": [
+  "[%@]() is a subscriberof Telegram Premium"
+ ],
+ "Premium.Premium": [
+  "Premium"
+ ],
+ "PremiumNeeded.Subscribe": [
+  "Subscribe"
+ ],
+ "PremiumNeeded.Title": [
+  "Premium Needed"
+ ],
+ "Presence.online": [
+  "online"
+ ],
+ "Preview.DeletePhoto": [
+  "Delete Photo"
+ ],
+ "Preview.SaveToCameraRoll": [
+  "Add to Photos"
+ ],
+ "Profile.About": [
+  "bio"
+ ],
+ "Profile.PersonalChannelSectionTitle": [
+  "CHANNEL"
+ ],
+ "Profile.SendGift": [
+  "Send a Gift"
+ ],
+ "Profile.ShareContactButton": [
+  "Share Contact"
+ ],
+ "Profile.Username": [
+  "username"
+ ],
+ "ProfileColorSetup.ApplyStyle": [
+  "Apply Style"
+ ],
+ "ProfileColorSetup.BrowseGiftsForPurchase": [
+  "Browse gifts available for purchase >"
+ ],
+ "ProfileColorSetup.IconSectionTitle": [
+  "ADD ICONS TO PROFILE"
+ ],
+ "ProfileColorSetup.MyGifts": [
+  "My Gifts"
+ ],
+ "ProfileColorSetup.NoNameGiftsPlaceholder": [
+  "You don't have any gifts you can use as styles for your name."
+ ],
+ "ProfileColorSetup.ResetAction": [
+  "Reset Profile Color"
+ ],
+ "ProfileColorSetup.TitleName": [
+  "Name"
+ ],
+ "ProfileColorSetup.TitleProfile": [
+  "Profile"
+ ],
+ "ProfileLevelInfo.CloseButton": [
+  "Understood"
+ ],
+ "ProfileLevelInfo.Item0.Badge": [
+  "ADDED"
+ ],
+ "ProfileLevelInfo.Item0.Text": [
+  "100% of the Stars spent on gifts purchased from Telegram."
+ ],
+ "ProfileLevelInfo.Item0.Title": [
+  "Gifts from Telegram"
+ ],
+ "ProfileLevelInfo.Item1.Badge": [
+  "ADDED"
+ ],
+ "ProfileLevelInfo.Item1.Text": [
+  "20% of the Stars spent on gifts or posts from users and channels."
+ ],
+ "ProfileLevelInfo.Item1.Title": [
+  "Gifts and Posts from Users"
+ ],
+ "ProfileLevelInfo.Item2.Badge": [
+  "DEDUCTED"
+ ],
+ "ProfileLevelInfo.Item2.Text": [
+  "10x refunded Stars and 85% of gifts converted back to Stars."
+ ],
+ "ProfileLevelInfo.Item2.Title": [
+  "Refunds and Conversions"
+ ],
+ "ProfileLevelInfo.LevelIndex": [
+  "Level %@",
+  "Level %@"
+ ],
+ "ProfileLevelInfo.MyText": [
+  "This rating reflects your activityon Telegram. It is based on:"
+ ],
+ "ProfileLevelInfo.OtherDescription": [
+  "The rating reflects **%@'s** activity on Telegram. It is based on:"
+ ],
+ "ProfileLevelInfo.Title": [
+  "Rating"
+ ],
+ "ProfilePhoto.OpenGallery": [
+  "Open Gallery"
+ ],
+ "ProfilePhoto.PublicPhoto": [
+  "public photo"
+ ],
+ "ProfilePhoto.PublicVideo": [
+  "public photo"
+ ],
+ "ProfilePhoto.SearchWeb": [
+  "Search Web"
+ ],
+ "ProfilePhoto.SetEmoji": [
+  "Set Emoji"
+ ],
+ "QrStudio.Colors.Profile": [
+  "Colors"
+ ],
+ "QrStudio.Gifts.Browse": [
+  "Browse Gifts"
+ ],
+ "QrStudio.Gifts.EmptyText": [
+  "Use any collectible gift you ownto style your QR code."
+ ],
+ "QrStudio.Gifts.EmptyTitle": [
+  "No gifts yet"
+ ],
+ "QrStudio.Gifts.Title": [
+  "Collectibles"
+ ],
+ "QrStudio.Menu.DisableTimer": [
+  "Disable timer"
+ ],
+ "QrStudio.Menu.DisableTimerInfo": [
+  "Stays free, no time limit"
+ ],
+ "QrStudio.Menu.Expire": [
+  "Valid for 1 minute"
+ ],
+ "QrStudio.Menu.Reset": [
+  "Reset Code"
+ ],
+ "QrStudio.Menu.Restore": [
+  "Restore message fee"
+ ],
+ "QrStudio.Pill.ExpiresIn": [
+  "Expires in %@"
+ ],
+ "QrStudio.Pill.Free": [
+  "Free"
+ ],
+ "QrStudio.Pill.Permanent": [
+  "Permanent"
+ ],
+ "QrStudio.Pill.RemoveFee": [
+  "Remove %@ fee"
+ ],
+ "QrStudio.Share.CopyLink": [
+  "Copy Link"
+ ],
+ "QrStudio.Share.Share": [
+  "Share…"
+ ],
+ "QrStudio.Toast.Expires": [
+  "This code will expire in 1 minute."
+ ],
+ "QrStudio.Toast.FeeRemoved": [
+  "Messages with this code are now free."
+ ],
+ "QrStudio.Toast.FeeRestored": [
+  "Your message fee applies again."
+ ],
+ "QrStudio.Toast.ImageSaved": [
+  "Image saved to Photos."
+ ],
+ "QrStudio.Toast.LinkCopied": [
+  "Link copied to clipboard."
+ ],
+ "QrStudio.Toast.NewCode": [
+  "New code created. The old one no longer works."
+ ],
+ "QrStudio.Toast.Permanent": [
+  "This code no longer expires."
+ ],
+ "QrStudio.Toast.PremiumEmoji": [
+  "Subscribe to Premium to use all emoji."
+ ],
+ "QrStudio.Toast.Subscribe": [
+  "Subscribe"
+ ],
+ "ReportPeer.BanAndReport": [
+  "Ban and Report"
+ ],
+ "ReportPeer.ReportReaction": [
+  "Report Reaction"
+ ],
+ "ReportPeer.ReportReaction.BanAndReport": [
+  "Ban and Report"
+ ],
+ "ReportPeer.ReportReaction.Report": [
+  "Report Reaction"
+ ],
+ "ReportPeer.ReportReaction.Text": [
+  "Are you sure you want to report reactions from this user?"
+ ],
+ "Settings.About.PrivacyHelp": [
+  "You can add a few lines about yourself. Choose who can see your bio in [Settings]()."
+ ],
+ "Settings.About.PrivacyHelpContacts": [
+  "Only your contacts can see your bio. [Change >]()"
+ ],
+ "Settings.About.PrivacyHelpEmpty": [
+  "A few words about you."
+ ],
+ "Settings.About.PrivacyHelpEveryone": [
+  "Everyone can see your bio. [Change >]()"
+ ],
+ "Settings.About.PrivacyHelpNobody": [
+  "Nobody can see your bio. [Change >]()"
+ ],
+ "Settings.Birthday": [
+  "Birthday"
+ ],
+ "Settings.Birthday.Add": [
+  "Add"
+ ],
+ "Settings.Birthday.ContactsHelp": [
+  "Only your contacts can see your birthday. [Change >]()"
+ ],
+ "Settings.Birthday.Help": [
+  "Choose who can see your birthday in [Settings]()."
+ ],
+ "Settings.Birthday.PrivacyHelpContacts": [
+  "Only your contacts can see your birthday. [Change >]()"
+ ],
+ "Settings.Birthday.PrivacyHelpEveryone": [
+  "Everyone can see your birthday. [Change >]()"
+ ],
+ "Settings.Birthday.PrivacyHelpNobody": [
+  "Nobody can see your birthday. [Change >]()"
+ ],
+ "Settings.Birthday.Remove": [
+  "Remove Birthday"
+ ],
+ "Settings.ChangeProfilePhoto": [
+  "Change Profile Photo"
+ ],
+ "Settings.ChatAutomation": [
+  "Chat Automation"
+ ],
+ "Settings.ChatAutomationInfo": [
+  "Add a bot to reply to messages on your behalf."
+ ],
+ "Settings.ChatAutomationOff": [
+  "Off"
+ ],
+ "Settings.PersonalChannelAddedToast": [
+  "Personal channel added."
+ ],
+ "Settings.PersonalChannelEmptyValue": [
+  "Add"
+ ],
+ "Settings.PersonalChannelItem": [
+  "Channel"
+ ],
+ "Settings.PersonalChannelRemove": [
+  "Hide Channel"
+ ],
+ "Settings.PersonalChannelRemovedToast": [
+  "Personal channel removed."
+ ],
+ "Settings.PersonalChannelSelectSubtitle": [
+  "select your channel"
+ ],
+ "Settings.PersonalChannelSelectTitle": [
+  "Channel"
+ ],
+ "Settings.PersonalChannelUpdatedToast": [
+  "Personal channel updated."
+ ],
+ "SharedMedia.CalendarTooltip": [
+  "Tap on this icon for calendar view"
+ ],
+ "SharedMedia.CommonGroupCount": [
+  "%@ group in common",
+  "%@ groups in common"
+ ],
+ "SharedMedia.FastScrollTooltip": [
+  "You can hold and move this bar for faster scrolling."
+ ],
+ "SharedMedia.FileCount": [
+  "1 file",
+  "%@ files"
+ ],
+ "SharedMedia.GifCount": [
+  "1 GIF",
+  "%@ GIFs"
+ ],
+ "SharedMedia.GiftCount": [
+  "%@ gift",
+  "%@ gifts"
+ ],
+ "SharedMedia.LinkCount": [
+  "1 link",
+  "%@ links"
+ ],
+ "SharedMedia.MusicCount": [
+  "1 music file",
+  "%@ music files"
+ ],
+ "SharedMedia.VoiceMessageCount": [
+  "1 voice message",
+  "%@ voice messages"
+ ],
+ "Stars.SellGift.AmountInfo": [
+  "You will receive **%@**."
+ ],
+ "Stars.SellGift.AmountInfo.Stars": [
+  "%@ Star",
+  "%@ Stars"
+ ],
+ "Stars.SellGift.AmountPlaceholder": [
+  "Enter Price"
+ ],
+ "Stars.SellGift.AmountTitle": [
+  "PRICE IN STARS"
+ ],
+ "Stars.SellGift.EditTitle": [
+  "Edit Price"
+ ],
+ "Stars.SellGift.Sell": [
+  "Sell"
+ ],
+ "Stars.SellGift.SellFor": [
+  "Sell for"
+ ],
+ "Stars.SellGift.Title": [
+  "Sell Gift"
+ ],
+ "Stars.Withdraw.Withdraw.ErrorMinimum.Stars": [
+  "%@ Star",
+  "%@ Stars"
+ ],
+ "Stories.AddStories": [
+  "Add %@ Story",
+  "Add %@ Stories"
+ ],
+ "Stories.AddStoriesEmpty": [
+  "Add Stories"
+ ],
+ "Stories.AddStoriesTitle": [
+  "Add Stories"
+ ],
+ "Stories.AlbumAdd": [
+  "+ Add Album"
+ ],
+ "Stories.AlbumAll": [
+  "All Stories"
+ ],
+ "Stories.AlbumEmptyButton": [
+  "Add to Album"
+ ],
+ "Stories.AlbumEmptyText": [
+  "Add some stories to this album."
+ ],
+ "Stories.AlbumEmptyTitle": [
+  "Organize Your Stories"
+ ],
+ "Stories.CreateAlbum.Placeholder": [
+  "Title"
+ ],
+ "Stories.CreateAlbum.Text": [
+  "Choose a name for your album and add your stories."
+ ],
+ "Stories.CreateAlbum.Title": [
+  "Create a New Album"
+ ],
+ "Stories.DeleteAlbum.Confirmation": [
+  "Delete %@?"
+ ],
+ "Stories.EditAlbum.Text": [
+  "Choose a new name for your album."
+ ],
+ "Stories.EditAlbum.Title": [
+  "Edit Album Name"
+ ],
+ "Stories.MenuDeleteAlbum": [
+  "Delete Album"
+ ],
+ "Stories.MenuRemoveFromAlbum": [
+  "Remove from Album"
+ ],
+ "Stories.MenuRenameAlbum": [
+  "Rename Album"
+ ],
+ "Stories.StatusEmpty": [
+  "no stories"
+ ],
+ "Stories.ToastAddedToFolder": [
+  "Story added to album.",
+  "%@ stories added to album."
+ ],
+ "Stories.ToastAlbumNotAvailable": [
+  "This album is no longer available."
+ ],
+ "SuggestBirthdate.Suggest.Action": [
+  "Suggest Date of Birth"
+ ],
+ "SuggestBirthdate.Suggest.Title": [
+  "%@'s Birthday"
+ ],
+ "UserInfo.AddContact": [
+  "Add to Contacts"
+ ],
+ "UserInfo.AddToExisting": [
+  "Add to Existing"
+ ],
+ "UserInfo.Age": [
+  "%@ year old",
+  "%@ years old"
+ ],
+ "UserInfo.Birthday": [
+  "birthday"
+ ],
+ "UserInfo.BirthdayToday": [
+  "birthday today"
+ ],
+ "UserInfo.BlockConfirmation": [
+  "Block %@?"
+ ],
+ "UserInfo.ChangeCustomPhoto": [
+  "Change Photo for %@"
+ ],
+ "UserInfo.CreateNewContact": [
+  "Create New Contact"
+ ],
+ "UserInfo.CustomPhoto": [
+  "photo set by you"
+ ],
+ "UserInfo.CustomPhotoInfo": [
+  "You can replace %@’s photo with another photo that only you will see."
+ ],
+ "UserInfo.CustomVideo": [
+  "photo set by you"
+ ],
+ "UserInfo.GenericPhoneLabel": [
+  "mobile"
+ ],
+ "UserInfo.NotificationsDefault": [
+  "Default"
+ ],
+ "UserInfo.NotificationsDefaultSound": [
+  "Default (%@)"
+ ],
+ "UserInfo.NotificationsDisable": [
+  "Disable"
+ ],
+ "UserInfo.NotificationsEnable": [
+  "Enable"
+ ],
+ "UserInfo.PhoneCall": [
+  "Phone Call"
+ ],
+ "UserInfo.PublicPhoto": [
+  "public photo"
+ ],
+ "UserInfo.RemoveCustomPhoto": [
+  "Remove Photo"
+ ],
+ "UserInfo.ResetCustomPhoto": [
+  "Reset to Original Photo"
+ ],
+ "UserInfo.ResetToOriginalAlertReset": [
+  "Reset"
+ ],
+ "UserInfo.ResetToOriginalAlertText": [
+  "Are you sure you want to reset to %@'s original photo?"
+ ],
+ "UserInfo.ScamBotWarning": [
+  "⚠️ Warning: Many users reported this account as a scam or a fake account. Please be careful, especially if it asks you for money."
+ ],
+ "UserInfo.SendMessage": [
+  "Send Message"
+ ],
+ "UserInfo.SetCustomPhoto": [
+  "Set Photo for %@"
+ ],
+ "UserInfo.SetCustomPhoto.AlertPhotoText": [
+  "Do you want to set this photo for %@? It will replace any photo %@ sets – only you will see it."
+ ],
+ "UserInfo.SetCustomPhoto.AlertSet": [
+  "Set"
+ ],
+ "UserInfo.SetCustomPhoto.SuccessPhotoText": [
+  "You will now always see this photo for **%@**."
+ ],
+ "UserInfo.SetCustomPhoto.SuccessVideoText": [
+  "You will now always see this photo for **%@**."
+ ],
+ "UserInfo.SetCustomPhotoTitle": [
+  "Do you want to set a custom profile photo for %@?"
+ ],
+ "UserInfo.ShareMyContactInfo": [
+  "Share My Contact Info"
+ ],
+ "UserInfo.StartSecretChatConfirmation": [
+  "Are you sure you want to start a secret chat with%@?"
+ ],
+ "UserInfo.StartSecretChatStart": [
+  "Start"
+ ],
+ "UserInfo.SuggestBirthdate": [
+  "Suggest Birthday"
+ ],
+ "UserInfo.SuggestPhoto": [
+  "Suggest Photo for %@"
+ ],
+ "UserInfo.TapToCall": [
+  "Tap to make an end-to-end encrypted call"
+ ],
+ "UserInfo.TelegramCall": [
+  "Telegram Call"
+ ],
+ "UserInfo.TelegramVideoCall": [
+  "Telegram Video Call"
+ ],
+ "UserInfo.Title": [
+  "Info"
+ ],
+ "UserInfo.UnblockConfirmation": [
+  "Unblock %@?"
+ ],
+ "Username.InvalidValue": [
+  "Sorry, this username is invalid."
+ ],
+ "Weekday.Yesterday": [
+  "Yesterday"
+ ]
+}

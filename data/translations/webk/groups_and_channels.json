@@ -1,0 +1,301 @@
+{
+ "AccDescrQuizExplanation": [
+  "Explanation"
+ ],
+ "ActionAddUser": [
+  "un1 added un2"
+ ],
+ "ActionAddUserSelf": [
+  "un1 returned to the group"
+ ],
+ "ActionAddUserSelfYou": [
+  "You returned to the group"
+ ],
+ "ActionChangedPhoto": [
+  "un1 changed the group photo"
+ ],
+ "ActionChangedTitle": [
+  "un1 changed the group name to un2"
+ ],
+ "ActionChangedVideo": [
+  "un1 changed the group photo"
+ ],
+ "ActionCreateChannel": [
+  "Channel created"
+ ],
+ "ActionCreateGroup": [
+  "un1 created the group"
+ ],
+ "ActionInviteUser": [
+  "un1 joined the group via invite link"
+ ],
+ "ActionKickUser": [
+  "un1 removed un2"
+ ],
+ "ActionLeftUser": [
+  "un1 left the group"
+ ],
+ "ActionMigrateFromGroup": [
+  "This group was upgraded to a supergroup"
+ ],
+ "ActionPinnedNoText": [
+  "un1 pinned a message"
+ ],
+ "ActionRemovedPhoto": [
+  "un1 removed the group photo"
+ ],
+ "AddAnExplanationInfo": [
+  "Users will see this text after choosing the wrong answer, good for educational purposes."
+ ],
+ "AreYouSureDeleteAndExit": [
+  "Are you sure you want to delete and leave the group?"
+ ],
+ "AreYouSureDeleteAndExitChannel": [
+  "Do you want to delete and leave the channel?"
+ ],
+ "AskAQuestion": [
+  "Ask a Question"
+ ],
+ "Channel.DescriptionHolderDescrpiton": [
+  "You can provide an optional description for your channel."
+ ],
+ "Channel.UsernameAboutGroup": [
+  "People can share this link with others and find your group using Telegram search."
+ ],
+ "ChannelAddException": [
+  "Add Exception"
+ ],
+ "ChannelBlockedUsers": [
+  "Removed users"
+ ],
+ "ChannelDeleteMenu": [
+  "Delete channel"
+ ],
+ "ChannelPermissions": [
+  "Permissions"
+ ],
+ "ChannelPermissionsHeader": [
+  "What can members of this group do?"
+ ],
+ "ChannelType": [
+  "Channel Type"
+ ],
+ "Chat.Service.Channel.RemovedPhoto": [
+  "Channel photo removed"
+ ],
+ "Chat.Service.Channel.UpdatedPhoto": [
+  "Channel photo updated"
+ ],
+ "Chat.Service.Channel.UpdatedTitle": [
+  "Channel renamed to \"%@\""
+ ],
+ "Chat.Service.Channel.UpdatedVideo": [
+  "Channel photo updated"
+ ],
+ "Chat.Subscribe": [
+  "SUBSCRIBE"
+ ],
+ "Comments": [
+  "%1$d Comment",
+  "%1$d Comments"
+ ],
+ "CreateGroup.NameHolder": [
+  "Group Name"
+ ],
+ "Date.Today": [
+  "Today"
+ ],
+ "DeleteChannelForAll": [
+  "Delete for all subscribers"
+ ],
+ "DeleteChat.DeleteGroupForAll": [
+  "Delete for all members"
+ ],
+ "DeleteMega": [
+  "Delete Group"
+ ],
+ "DeleteMegaMenu": [
+  "Delete group"
+ ],
+ "DescriptionPlaceholder": [
+  "Description"
+ ],
+ "Edit": [
+  "Edit"
+ ],
+ "ExceptionModal.Search.Placeholder": [
+  "Add exception..."
+ ],
+ "GroupAddMembers": [
+  "Add Members"
+ ],
+ "GroupMembers": [
+  "Members"
+ ],
+ "GroupPermission.Delete": [
+  "Delete Exception"
+ ],
+ "GroupType": [
+  "Group Type"
+ ],
+ "Link.Available": [
+  "Link is available"
+ ],
+ "Link.Invalid": [
+  "Link is invalid"
+ ],
+ "LinkCopied": [
+  "Link copied to clipboard"
+ ],
+ "LinkCopiedPrivateInfo": [
+  "This link will only work for members of this chat."
+ ],
+ "MegaPrivate": [
+  "Private Group"
+ ],
+ "MegaPrivateInfo": [
+  "Private groups can only be joined if you were invited or have an invite link."
+ ],
+ "MegaPrivateLinkHelp": [
+  "People can join your group by following this link. You can revoke the link any time."
+ ],
+ "MegaPublic": [
+  "Public Group"
+ ],
+ "MegaPublicInfo": [
+  "Public groups can be found in search, chat history is available to everyone and anyone can join."
+ ],
+ "Members": [
+  "%1$d member",
+  "%1$d members"
+ ],
+ "NewChannel": [
+  "New Channel"
+ ],
+ "NewGroup": [
+  "New Group"
+ ],
+ "NewPoll": [
+  "New Poll"
+ ],
+ "NewPoll.Anonymous": [
+  "Anonymous Voting"
+ ],
+ "NewPoll.Explanation.Placeholder": [
+  "Add an Explanation (Optional)"
+ ],
+ "NewPoll.MultipleChoice": [
+  "Multiple Answers"
+ ],
+ "NewPoll.OptionsAddOption": [
+  "Add an Option"
+ ],
+ "NewPoll.Quiz": [
+  "Quiz Mode"
+ ],
+ "NoBlockedUsers": [
+  "No removed users"
+ ],
+ "Peer.Status.Member": [
+  "%d member",
+  "%d members"
+ ],
+ "Peer.Status.Subscribers": [
+  "%d subscriber",
+  "%d subscribers"
+ ],
+ "PeerInfo.Administrators": [
+  "Administrators"
+ ],
+ "PeerInfo.DeleteChannel": [
+  "Delete Channel"
+ ],
+ "PeerInfo.Discussion": [
+  "Discussion"
+ ],
+ "PeerInfo.Discussion.Add": [
+  "Add"
+ ],
+ "PeerInfo.SignMessages": [
+  "Sign Messages"
+ ],
+ "PeerInfo.Subscribers": [
+  "Subscribers"
+ ],
+ "Permissions.NoExceptions": [
+  "No exceptions"
+ ],
+ "PinnedMessage": [
+  "Pinned Message"
+ ],
+ "PollOptions": [
+  "Poll options"
+ ],
+ "PrivacyExceptions": [
+  "Exceptions"
+ ],
+ "RevokeAlert": [
+  "Are you sure you want to revoke this link? Once the link is revoked, no one will be able to join using it."
+ ],
+ "RevokeButton": [
+  "Revoke"
+ ],
+ "RevokeLink": [
+  "Revoke Link"
+ ],
+ "Search.From": [
+  "From:"
+ ],
+ "Search.Member": [
+  "Search Members"
+ ],
+ "SendMessageTo": [
+  "Add people..."
+ ],
+ "Settings": [
+  "Settings"
+ ],
+ "Subscribers": [
+  "%1$d subscriber",
+  "%1$d subscribers"
+ ],
+ "TypePrivate": [
+  "Private"
+ ],
+ "TypePrivateGroup": [
+  "Private"
+ ],
+ "UserRestrictions": [
+  "User Permissions"
+ ],
+ "UserRestrictionsBlock": [
+  "Ban and remove from group"
+ ],
+ "UserRestrictionsCanDo": [
+  "What can this user do?"
+ ],
+ "UserRestrictionsChangeInfo": [
+  "Change Chat Info"
+ ],
+ "UserRestrictionsEmbedLinks": [
+  "Embed Links"
+ ],
+ "UserRestrictionsInviteUsers": [
+  "Add Users"
+ ],
+ "UserRestrictionsPinMessages": [
+  "Pin Messages"
+ ],
+ "UserRestrictionsSend": [
+  "Send Messages"
+ ],
+ "UserRestrictionsSendMedia": [
+  "Send Media"
+ ],
+ "UserRestrictionsSendPolls": [
+  "Send Polls"
+ ],
+ "UserRestrictionsSendStickers": [
+  "Send Stickers and GIFs"
+ ]
+}

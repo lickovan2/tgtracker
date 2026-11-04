@@ -1,0 +1,113 @@
+{
+ "Archive": [
+  "Archive"
+ ],
+ "AreYouSureDeleteAndExitName": [
+  "Are you sure you want to delete and leave the group **%1$s**?"
+ ],
+ "AreYouSureDeleteThisChatWithUser": [
+  "Are you sure you want to delete the chat with **%1$s**?"
+ ],
+ "AttachAlbum": [
+  "Album"
+ ],
+ "AttachAudio": [
+  "Voice message"
+ ],
+ "AttachContact": [
+  "Contact"
+ ],
+ "AttachGif": [
+  "GIF"
+ ],
+ "AttachLiveLocation": [
+  "Live Location"
+ ],
+ "AttachPhoto": [
+  "Photo"
+ ],
+ "AttachRound": [
+  "Video message"
+ ],
+ "AttachSticker": [
+  "Sticker"
+ ],
+ "AttachVideo": [
+  "Video"
+ ],
+ "Chat.Service.Channel.UpdatedVideo": [
+  "Channel photo updated"
+ ],
+ "ChatList.Context.Mute": [
+  "Mute"
+ ],
+ "ChatList.Context.Pin": [
+  "Pin"
+ ],
+ "ChatList.Context.Unmute": [
+  "Unmute"
+ ],
+ "ChatList.Context.Unpin": [
+  "Unpin"
+ ],
+ "Contacts": [
+  "Contacts"
+ ],
+ "Delete": [
+  "Delete"
+ ],
+ "DeleteChatUser": [
+  "Delete chat"
+ ],
+ "DeleteMessagesOptionAlso": [
+  "Also delete for %1$s"
+ ],
+ "Draft": [
+  "Draft"
+ ],
+ "FromYou": [
+  "You"
+ ],
+ "HistoryCleared": [
+  "History was cleared"
+ ],
+ "LeaveMegaMenu": [
+  "Leave group"
+ ],
+ "MarkAsRead": [
+  "Mark as read"
+ ],
+ "MarkAsUnread": [
+  "Mark as unread"
+ ],
+ "NewChannel": [
+  "New Channel"
+ ],
+ "NewGroup": [
+  "New Group"
+ ],
+ "NewPrivateChat": [
+  "New Private Chat"
+ ],
+ "Saved": [
+  "Saved"
+ ],
+ "Settings": [
+  "Settings"
+ ],
+ "SettingsHelp": [
+  "Help"
+ ],
+ "SharedVoiceTab2": [
+  "Voice"
+ ],
+ "Suggestion.Notifications": [
+  "Never miss a message! %s"
+ ],
+ "Suggestion.Notifications.Subtitle": [
+  "Enable notifications to stay updated."
+ ],
+ "Unarchive": [
+  "Unarchive"
+ ]
+}

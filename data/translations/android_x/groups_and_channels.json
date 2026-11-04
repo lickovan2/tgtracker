@@ -1,0 +1,2668 @@
+{
+ "AccentColorBlue": [
+  "Blue"
+ ],
+ "AccentColorCyan": [
+  "Cyan"
+ ],
+ "AccentColorGreen": [
+  "Green"
+ ],
+ "AccentColorOrange": [
+  "Orange"
+ ],
+ "AccentColorPink": [
+  "Pink"
+ ],
+ "AccentColorPurple": [
+  "Purple"
+ ],
+ "AccentColorRed": [
+  "Red"
+ ],
+ "ActionChannelChangedPhoto": [
+  "Channel photo changed"
+ ],
+ "ActionChannelRemovedPhoto": [
+  "Channel photo removed"
+ ],
+ "ActionCreateChannel": [
+  "Channel created"
+ ],
+ "ActionPinnedFile": [
+  "%1$s pinned a **file**"
+ ],
+ "ActionPinnedGame": [
+  "%1$s pinned %2$s"
+ ],
+ "ActionPinnedGeo": [
+  "%1$s pinned a **location**"
+ ],
+ "ActionPinnedGeoLive": [
+  "%1$s pinned a **live location**"
+ ],
+ "ActionPinnedGif": [
+  "%1$s pinned a **GIF**"
+ ],
+ "ActionPinnedMusic": [
+  "%1$s pinned an **audio file**"
+ ],
+ "ActionPinnedNoText": [
+  "%1$s pinned a **message**"
+ ],
+ "ActionPinnedPhoto": [
+  "%1$s pinned a **photo**"
+ ],
+ "ActionPinnedQuiz": [
+  "%1$s pinned a **quiz**"
+ ],
+ "ActionPinnedRound": [
+  "%1$s pinned a **video message**"
+ ],
+ "ActionPinnedSticker": [
+  "%1$s pinned a **sticker**"
+ ],
+ "ActionPinnedText": [
+  "%1$s pinned \"%2$s\""
+ ],
+ "ActionPinnedVideo": [
+  "%1$s pinned a **video**"
+ ],
+ "ActionPinnedVoice": [
+  "%1$s pinned a **voice message**"
+ ],
+ "AddMember": [
+  "Add Members"
+ ],
+ "AddMemberBtn": [
+  "Add"
+ ],
+ "AddToTheGroup": [
+  "Add %1$s to the group?"
+ ],
+ "AddXEmojiPacks": [
+  "Add %1$s emoji pack",
+  "Add %1$s emoji packs"
+ ],
+ "AdditionalInviteLinks": [
+  "Additional Links"
+ ],
+ "AdditionalInviteLinksHint": [
+  "You can create additional invite links that have a limited time or number of users."
+ ],
+ "AdminRights": [
+  "Admin Rights"
+ ],
+ "AllMembers": [
+  "All members"
+ ],
+ "Apply": [
+  "Apply"
+ ],
+ "AreRecordingAudio": [
+  "%1$s are recording voice"
+ ],
+ "AreRecordingRound": [
+  "%1$s are recording video messages"
+ ],
+ "AreRecordingVideo": [
+  "%1$s are recording videos"
+ ],
+ "AreSendingContact": [
+  "%1$s are choosing contacts…"
+ ],
+ "AreSendingFile": [
+  "%1$s are sending files"
+ ],
+ "AreSendingGame": [
+  "%1$s are playing"
+ ],
+ "AreSendingLocation": [
+  "%1$s are choosing locations"
+ ],
+ "AreSendingPhoto": [
+  "%1$s are sending photos"
+ ],
+ "AreSendingRound": [
+  "%1$s are sending video messages"
+ ],
+ "AreSendingVideos": [
+  "%1$s are sending videos"
+ ],
+ "AreSendingVoice": [
+  "%1$s are sending voice"
+ ],
+ "AreTypingGroup": [
+  "%1$s are typing"
+ ],
+ "AreYouSureAcceptJoinRequest": [
+  "Are you sure you want to invite %1$s to %2$s?"
+ ],
+ "AreYouSureDeclineJoinRequest": [
+  "Are you sure you want to decline the request from %1$s?"
+ ],
+ "AreYouSureDeleteAllInviteLinks": [
+  "Are you sure you want to delete all revoked links?"
+ ],
+ "AreYouSureDeleteInviteLink": [
+  "Are you sure you want to delete this link?"
+ ],
+ "AreYouSureRevokeInviteLinkChannel": [
+  "Are you sure you want to revoke this link? Once this is done, nobody will be able to use it to join the channel."
+ ],
+ "AreYouSureRevokeInviteLinkGroup": [
+  "Are you sure you want to revoke this link? Once this is done, nobody will be able to use it to join the group."
+ ],
+ "AttachLiveLocation": [
+  "Live Location"
+ ],
+ "Audio": [
+  "Audio"
+ ],
+ "BanChannel": [
+  "Ban channel"
+ ],
+ "BanChannelHint": [
+  "Granular control over permissions is not available when restricting channels."
+ ],
+ "BanChatHint": [
+  "Granular control over permissions is not available when restricting groups."
+ ],
+ "BanMember": [
+  "Ban Member"
+ ],
+ "BanXGroup": [
+  "%1$s will be removed and banned from the group."
+ ],
+ "BannedByX": [
+  "Banned by %1$s"
+ ],
+ "BannedWillBeShownHere": [
+  "Banned members will be shown here"
+ ],
+ "BlockFor": [
+  "Block for"
+ ],
+ "BlockUntil": [
+  "Block until"
+ ],
+ "BlockUntilFuture": [
+  "Block until %1$s at %2$s"
+ ],
+ "BlockUntilToday": [
+  "Block until today at %1$s"
+ ],
+ "BlockUntilTomorrow": [
+  "Block until tomorrow at %1$s"
+ ],
+ "BlockUser": [
+  "Block user"
+ ],
+ "CallMessageOutgoingMissed": [
+  "Canceled Call"
+ ],
+ "Cancel": [
+  "Cancel"
+ ],
+ "ChannelAddAdmin": [
+  "Add administrator"
+ ],
+ "ChannelBroadcast": [
+  "Broadcast"
+ ],
+ "ChannelGroupExisting": [
+  "Choose existing"
+ ],
+ "ChannelGroupInfo": [
+  "Select a group chat for discussion that will be displayed in your channel."
+ ],
+ "ChannelGroupInfo2": [
+  "A link to %1$s is shown to all subscribers in the bottom panel.Everything you post in the channel will be forwarded to this group."
+ ],
+ "ChannelGroupNew": [
+  "Create new group"
+ ],
+ "ChannelGroupRemove": [
+  "Unlink Group"
+ ],
+ "ChannelLink": [
+  "Channel Link"
+ ],
+ "ChannelLinkInfo": [
+  "Anyone who has Telegram installed will be able to join your channel by following this link."
+ ],
+ "ChannelLinkSet": [
+  "Tap to set public channel link"
+ ],
+ "ChannelName": [
+  "Channel Name"
+ ],
+ "ChannelNotifyMembersInfoOff": [
+  "Subscribers will receive a silent notification."
+ ],
+ "ChannelNotifyMembersInfoOn": [
+  "Subscribers will be notified when you post."
+ ],
+ "ChannelOwner": [
+  "Owner"
+ ],
+ "ChannelPhoto": [
+  "Channel photo"
+ ],
+ "ChannelPrivate": [
+  "Private Channel"
+ ],
+ "ChannelPrivateInfo": [
+  "Private channels can only be joined via invite link."
+ ],
+ "ChannelPrivateLinkHelp": [
+  "People can join your channel by following this link. You can revoke the link at any time."
+ ],
+ "ChannelPublic": [
+  "Public Channel"
+ ],
+ "ChannelPublicInfo": [
+  "Public channels can be found in search, anyone can join them."
+ ],
+ "ChannelRemoveUser": [
+  "Remove from channel"
+ ],
+ "ChannelRenamed": [
+  "Channel renamed to \"%1$s\""
+ ],
+ "ChannelRestrictions": [
+  "Channel Permissions"
+ ],
+ "ChannelSignMessages": [
+  "Sign Messages"
+ ],
+ "ChannelSilentBroadcast": [
+  "Silent Broadcast"
+ ],
+ "ChannelTtl": [
+  "Auto-delete posts"
+ ],
+ "ChannelTtlDisabled": [
+  "Choose a period of time after which posts will be automatically deleted for subscribers of the channel."
+ ],
+ "ChannelTtlEnabled": [
+  "Automatically delete new posts after %1$s for subscribers of the channel."
+ ],
+ "ChannelTtlOff": [
+  "Off"
+ ],
+ "ChannelUsernameHelp": [
+  "If you set a public link, other people will be able to find and join your channel.You can use a–z, 0–9 and underscores.Minimum length is 5 characters."
+ ],
+ "ChatAccessPrivateChannel": [
+  "This channel is private"
+ ],
+ "ChatAccessRestrictedChannel": [
+  "You were banned in this channel"
+ ],
+ "ChatAccessRestrictedGroup": [
+  "You were banned in this group"
+ ],
+ "ChatContentGroupJoinPublic": [
+  "Joined the group"
+ ],
+ "ChatContentGroupPhoto": [
+  "Changed the group photo"
+ ],
+ "ChatDisabledDice": [
+  "Only admins can roll a die in this group. Hold to send it as an emoji."
+ ],
+ "ChatDisabledGifs": [
+  "Only admins can send GIFs in this group"
+ ],
+ "ChatDisabledStickers": [
+  "Only admins can send stickers in this group"
+ ],
+ "ChatDisabledVideoNotes": [
+  "Only admins can send video messages in this group"
+ ],
+ "ChatDisabledVoice": [
+  "Only admins can send voice messages in this group"
+ ],
+ "ChatHistory": [
+  "Chat History for New Members"
+ ],
+ "ChatHistoryHidden": [
+  "Hidden"
+ ],
+ "ChatHistoryHiddenInfo": [
+  "New members won't see earlier messages."
+ ],
+ "ChatHistoryVisible": [
+  "Visible"
+ ],
+ "ChatHistoryVisibleInfo": [
+  "New members will see messages that were sent before they joined."
+ ],
+ "ChatHistoryWarnLinkedChannel": [
+  "Warning: this group will be unlinked from %1$s."
+ ],
+ "ChatLinkRemove": [
+  "Remove Link"
+ ],
+ "ChatLinkRemoveAlert": [
+  "Wait! Are you sure you want to make %1$s private and release its public link? While free, it might be taken by any other user."
+ ],
+ "ChatPermissions": [
+  "Chat Permissions"
+ ],
+ "ChatPermissionsRestrictHint": [
+  "This permission is disabled for all members without admin privileges."
+ ],
+ "ChatRestrictedBotsUntil": [
+  "The admins of this group have restricted your ability to send inline content until %1$s"
+ ],
+ "ChatRestrictedDart": [
+  "Admins have restricted you from playing darts in this group. Hold to send it as an emoji."
+ ],
+ "ChatRestrictedDartUntil": [
+  "Admins have restricted you from playing darts in this group until %1$s. Hold to send it as an emoji."
+ ],
+ "ChatRestrictedDice": [
+  "Admins have restricted you from rolling a die in this group. Hold to send it as an emoji."
+ ],
+ "ChatRestrictedDiceUntil": [
+  "Admins have restricted you from rolling a die in this group until %1$s. Hold to send it as an emoji."
+ ],
+ "ChatRestrictedGifs": [
+  "The admins of this group have restricted your ability to send GIFs."
+ ],
+ "ChatRestrictedGifsUntil": [
+  "Admins have restricted you from sending GIFs in this group until %1$s"
+ ],
+ "ChatRestrictedMedia": [
+  "The admins of this group have restricted your ability to send media."
+ ],
+ "ChatRestrictedMediaUntil": [
+  "Admins have restricted you from sending media in this group until %1$s"
+ ],
+ "ChatRestrictedMessages": [
+  "Admins have restricted you from sending messages in this group"
+ ],
+ "ChatRestrictedMessagesUntil": [
+  "Admins have restricted you from sending messages in this group until %1$s"
+ ],
+ "ChatRestrictedStickers": [
+  "Admins have restricted you from sending stickers in this group"
+ ],
+ "ChatRestrictedStickersUntil": [
+  "Admins have restricted you from sending stickers in this group until %1$s"
+ ],
+ "ChatRestrictedVideoNotes": [
+  "Admins have restricted you from sending video messages in this group"
+ ],
+ "ChatRestrictedVideoNotesUntil": [
+  "The admins of this group have restricted your ability to send video messages until %1$s."
+ ],
+ "ChatRestrictedVoice": [
+  "Admins have restricted you from sending voice messages in this group"
+ ],
+ "ChatRestrictedVoiceUntil": [
+  "Admins have restricted you from sending voice messages in this group until %1$s"
+ ],
+ "ChatTitleEmpty": [
+  "Chat name can't be empty"
+ ],
+ "ChatTtl": [
+  "Auto-delete messages"
+ ],
+ "ChatTtlDisabled": [
+  "Choose a period of time after which messages will be automatically deleted from the group."
+ ],
+ "ChatTtlEnabled": [
+  "Automatically delete new messages after %1$s for members of the group."
+ ],
+ "ChatTtlOff": [
+  "Off"
+ ],
+ "ChatWithYourself": [
+  "Chat with yourself"
+ ],
+ "ChatsAndContacts": [
+  "Chats and Contacts"
+ ],
+ "ClearChannel": [
+  "Delete all messages"
+ ],
+ "ClearChannelConfirm": [
+  "Are you sure you want to clear history for this channel? This action cannot be undone."
+ ],
+ "ClearChannelSecondaryConfirm": [
+  "**No, seriously.**This will delete **all messages** for **all subscribers**. There will be no way to restore them."
+ ],
+ "ClearHistory": [
+  "Clear history"
+ ],
+ "ClearHistoryAll": [
+  "Clear history for everyone"
+ ],
+ "ClearHistoryAllConfirm": [
+  "Are you sure you want to clear history for this chat for all users? This action cannot be undone."
+ ],
+ "Copy": [
+  "Copy"
+ ],
+ "CopyLink": [
+  "Copy link"
+ ],
+ "CreateLink": [
+  "Create Link"
+ ],
+ "CreatePoll": [
+  "New Poll"
+ ],
+ "CreatedByXOnDate": [
+  "Created by %1$s %2$s"
+ ],
+ "CustomDate": [
+  "Custom date"
+ ],
+ "CustomTitle": [
+  "Member tag"
+ ],
+ "CustomTitleHint": [
+  "A title that members will see instead of '%1$s'."
+ ],
+ "CustomTitleTooBig": [
+  "Member tag is too long"
+ ],
+ "Delete": [
+  "Delete"
+ ],
+ "DeleteAllFrom": [
+  "Delete all from %1$s"
+ ],
+ "DeleteAllRevokedLinks": [
+  "Delete All Revoked Links"
+ ],
+ "DeleteAndLeave": [
+  "Delete and leave"
+ ],
+ "DeleteChat": [
+  "Delete chat"
+ ],
+ "DeleteForEveryone": [
+  "Delete for everyone"
+ ],
+ "DeleteXMoreFrom": [
+  "Delete %1$s more from %2$s",
+  "Delete %1$s more from %2$s"
+ ],
+ "Description": [
+  "Description"
+ ],
+ "DescriptionEmptyHint": [
+  "Enter description here"
+ ],
+ "DescriptionInfo": [
+  "You can provide an optional description for your channel."
+ ],
+ "DestroyChannel": [
+  "Destroy channel"
+ ],
+ "DestroyGroup": [
+  "Destroy group"
+ ],
+ "DestroyX": [
+  "Destroy %2$s? It will disappear for you and %1$s other member.",
+  "Destroy %2$s? It will disappear for you and %1$s other members."
+ ],
+ "DestroyXNoMembers": [
+  "Destroy %1$s?"
+ ],
+ "Discuss": [
+  "Discuss"
+ ],
+ "DismissAdmin": [
+  "Dismiss admin"
+ ],
+ "EditAdmin": [
+  "Edit Admin"
+ ],
+ "EditAdminAnonymous": [
+  "Make Anonymous"
+ ],
+ "EditAdminGroupDeleteMessages": [
+  "Delete Messages"
+ ],
+ "EditAdminPostMessages": [
+  "Post Messages"
+ ],
+ "EditAdminPublic": [
+  "Disclose Admin"
+ ],
+ "EditAdminRights": [
+  "Edit Admin Rights"
+ ],
+ "EditGroup": [
+  "Edit Group"
+ ],
+ "EditMessageTextTooLong": [
+  "Text exceeds the limit by %1$s character.",
+  "Text exceeds the limit by %1$s characters."
+ ],
+ "EditOwnerAnonymous": [
+  "Make Anonymous"
+ ],
+ "EditOwnerPublic": [
+  "Disclose Owner"
+ ],
+ "EditPrivacy": [
+  "Privacy Exceptions"
+ ],
+ "EditUserRestrictions": [
+  "Edit User Restrictions"
+ ],
+ "EmojiUsedFromSingle": [
+  "Emoji used from %1$s pack"
+ ],
+ "EmojiUsedFromX": [
+  "Emoji used from %1$s"
+ ],
+ "EnableNotifications": [
+  "Enable notifications"
+ ],
+ "ErrorUsersTooFew": [
+  "You can't add the selected users to groups because of their privacy settings."
+ ],
+ "EventLog": [
+  "Recent Actions"
+ ],
+ "EventLogAccentColorChanged": [
+  "%1$s changed accent color from %2$s to %3$s"
+ ],
+ "EventLogAccentColorChangedYou": [
+  "You changed accent color from %1$s to %2$s"
+ ],
+ "EventLogAllAdmins": [
+  "All admins"
+ ],
+ "EventLogAllEvents": [
+  "All actions"
+ ],
+ "EventLogChangedChannelLink": [
+  "%1$s changed the channel link:"
+ ],
+ "EventLogChangedGroupLink": [
+  "%1$s changed the group link:"
+ ],
+ "EventLogChannelRestricted": [
+  "banned %1$s"
+ ],
+ "EventLogChannelUnrestricted": [
+  "unbanned %1$s"
+ ],
+ "EventLogDeletedMessages": [
+  "%1$s deleted this message:"
+ ],
+ "EventLogEditedCaption": [
+  "%1$s edited caption:"
+ ],
+ "EventLogEditedChannelDescription": [
+  "%1$s edited the channel description:"
+ ],
+ "EventLogEditedGroupDescription": [
+  "%1$s edited the group description:"
+ ],
+ "EventLogEditedInviteLink": [
+  "Edited invite link %1$sUsage limit: %2$s → %3$sExpires: %4$s"
+ ],
+ "EventLogEditedInviteLinkExpireFuture": [
+  "Set invite link %1$s to expire %2$s at %3$s"
+ ],
+ "EventLogEditedInviteLinkExpireNever": [
+  "Set invite link %1$s to never expire"
+ ],
+ "EventLogEditedInviteLinkExpireToday": [
+  "Set invite link %1$s to expire today at %2$s"
+ ],
+ "EventLogEditedInviteLinkExpireTomorrow": [
+  "Set invite link %1$s to expire tomorrow at %2$s"
+ ],
+ "EventLogEditedInviteLinkLimit": [
+  "Changed invite link %1$s usage limit: %2$s —> %3$s"
+ ],
+ "EventLogEditedInviteLinkNoLimit": [
+  "no limit"
+ ],
+ "EventLogEditedMessages": [
+  "%1$s edited this message:"
+ ],
+ "EventLogEmojiChanged": [
+  "%1$s changed emoji from %2$s to %3$s"
+ ],
+ "EventLogEmojiChangedYou": [
+  "You changed emoji from %1$s to %2$s"
+ ],
+ "EventLogEmojiSet": [
+  "%1$s changed emoji from none to %2$s"
+ ],
+ "EventLogEmojiSetYou": [
+  "You changed emoji from none to %1$s"
+ ],
+ "EventLogEmojiUnset": [
+  "%1$s changed emoji from %2$s to none"
+ ],
+ "EventLogEmojiUnsetYou": [
+  "You changed emoji from %1$s to none"
+ ],
+ "EventLogEmpty": [
+  "**No recent actions**No notable actions taken by the members and admins of this group in the last 48 hours."
+ ],
+ "EventLogEmptyChannel": [
+  "**No recent actions**No notable actions takenby the admins of this channelin the last 48 hours."
+ ],
+ "EventLogEmptyFilter": [
+  "Please specify at least one filter"
+ ],
+ "EventLogEmptySearch": [
+  "**No actions found**No recent actions that match your querywere found."
+ ],
+ "EventLogEmptyTextSearch": [
+  "No recent actions that contain '%1$s' have been found."
+ ],
+ "EventLogFilterAll": [
+  "All actions"
+ ],
+ "EventLogFilterChannelInfo": [
+  "Channel info"
+ ],
+ "EventLogFilterChannelSettings": [
+  "Channel settings"
+ ],
+ "EventLogFilterDeletedMessages": [
+  "Deleted messages"
+ ],
+ "EventLogFilterEditedMessages": [
+  "Edited messages"
+ ],
+ "EventLogFilterGroupInfo": [
+  "Group info"
+ ],
+ "EventLogFilterGroupSettings": [
+  "Group settings"
+ ],
+ "EventLogFilterInviteLinks": [
+  "Invite links"
+ ],
+ "EventLogFilterLeavingMembers": [
+  "Members leaving"
+ ],
+ "EventLogFilterLiveStreams": [
+  "Live streams"
+ ],
+ "EventLogFilterNewAdmins": [
+  "Admin rights"
+ ],
+ "EventLogFilterNewMembers": [
+  "New members"
+ ],
+ "EventLogFilterNewRestrictions": [
+  "New restrictions"
+ ],
+ "EventLogFilterPinnedMessages": [
+  "Pinned messages"
+ ],
+ "EventLogFilterVoiceChats": [
+  "Video chats"
+ ],
+ "EventLogGroupBanned": [
+  "banned %1$sDuration: %2$s"
+ ],
+ "EventLogInfoDetail": [
+  "This is a list of all notable actions by group members and admins in the last 48 hours."
+ ],
+ "EventLogInfoDetailChannel": [
+  "This is a list of all notable actions by channel admins in the last 48 hours."
+ ],
+ "EventLogInfoTitle": [
+  "What are Recent Actions?"
+ ],
+ "EventLogLinkedChannelChanged": [
+  "%1$s linked this group to %2$s"
+ ],
+ "EventLogLinkedChannelRemoved": [
+  "%1$s unlinked this group from %2$s"
+ ],
+ "EventLogLinkedChannelRemovedUnknown": [
+  "This group was unlinked from %1$s"
+ ],
+ "EventLogLinkedGroupChanged": [
+  "%1$s made %2$s the discussion group for this channel"
+ ],
+ "EventLogLinkedGroupRemoved": [
+  "%1$s removed the discussion group %2$s"
+ ],
+ "EventLogLocationChanged": [
+  "%1$s changed group location to %2$s"
+ ],
+ "EventLogOriginalCaption": [
+  "Original caption"
+ ],
+ "EventLogOriginalCaptionEmpty": [
+  "Empty"
+ ],
+ "EventLogOriginalMessages": [
+  "Original message"
+ ],
+ "EventLogPermissionAddUsers": [
+  "Add users"
+ ],
+ "EventLogPermissionChangeInfo": [
+  "Change info"
+ ],
+ "EventLogPermissionPinMessages": [
+  "Pin messages"
+ ],
+ "EventLogPermissionSendEmbed": [
+  "Embed links"
+ ],
+ "EventLogPermissionSendMedia": [
+  "Send media"
+ ],
+ "EventLogPermissionSendMessages": [
+  "Send messages"
+ ],
+ "EventLogPermissionSendPolls": [
+  "Send polls"
+ ],
+ "EventLogPermissionSendStickers": [
+  "Send stickers & GIFs"
+ ],
+ "EventLogPermissionTopicsCreate": [
+  "Create topics"
+ ],
+ "EventLogPermissions": [
+  "changed default permissions"
+ ],
+ "EventLogPinnedMessages": [
+  "%1$s pinned this message:"
+ ],
+ "EventLogPollStopped": [
+  "%1$s stopped the poll:"
+ ],
+ "EventLogPreviousGroupDescription": [
+  "Previous description"
+ ],
+ "EventLogPreviousLink": [
+  "Previous link"
+ ],
+ "EventLogPromoted": [
+  "changed privileges of %1$s"
+ ],
+ "EventLogPromotedAddAdmins": [
+  "Add admins"
+ ],
+ "EventLogPromotedAddUsers": [
+  "Add users"
+ ],
+ "EventLogPromotedBanUsers": [
+  "Ban users"
+ ],
+ "EventLogPromotedChangeChannelInfo": [
+  "Change channel info"
+ ],
+ "EventLogPromotedChangeGroupInfo": [
+  "Change group info"
+ ],
+ "EventLogPromotedDeleteMessages": [
+  "Delete messages"
+ ],
+ "EventLogPromotedEditMessages": [
+  "Edit messages"
+ ],
+ "EventLogPromotedManageChannel": [
+  "Manage channel"
+ ],
+ "EventLogPromotedManageGroup": [
+  "Manage group"
+ ],
+ "EventLogPromotedManageLiveStreams": [
+  "Manage live streams"
+ ],
+ "EventLogPromotedManageTopics": [
+  "Manage topics"
+ ],
+ "EventLogPromotedManageVoiceChats": [
+  "Manage video chats"
+ ],
+ "EventLogPromotedNew": [
+  "promoted %1$s"
+ ],
+ "EventLogPromotedPinMessages": [
+  "Pin messages"
+ ],
+ "EventLogPromotedPostMessages": [
+  "Post messages"
+ ],
+ "EventLogPromotedRemainAnonymous": [
+  "Remain anonymous"
+ ],
+ "EventLogPromotedTitle": [
+  "Title: %1$s"
+ ],
+ "EventLogPromotedTitleChange": [
+  "Title: %1$s → %2$s"
+ ],
+ "EventLogQuizStopped": [
+  "%1$s stopped the quiz:"
+ ],
+ "EventLogRemovedCaption": [
+  "%1$s removed caption:"
+ ],
+ "EventLogRemovedChannelDescription": [
+  "%1$s removed the channel description"
+ ],
+ "EventLogRemovedChannelLink": [
+  "%1$s removed channel link"
+ ],
+ "EventLogRemovedGroupDescription": [
+  "%1$s removed the group description"
+ ],
+ "EventLogRemovedGroupLink": [
+  "%1$s removed group link:"
+ ],
+ "EventLogRestrictedAddUsers": [
+  "Add users"
+ ],
+ "EventLogRestrictedChangeInfo": [
+  "Change info"
+ ],
+ "EventLogRestrictedDeleted": [
+  "removed restrictions from %1$s"
+ ],
+ "EventLogRestrictedNew": [
+  "restricted %1$sDuration: %2$s"
+ ],
+ "EventLogRestrictedPinMessages": [
+  "Pin messages"
+ ],
+ "EventLogRestrictedReadMessages": [
+  "Read messages"
+ ],
+ "EventLogRestrictedSendEmbed": [
+  "Embed links"
+ ],
+ "EventLogRestrictedSendMedia": [
+  "Send media"
+ ],
+ "EventLogRestrictedSendMessages": [
+  "Send messages"
+ ],
+ "EventLogRestrictedSendPolls": [
+  "Send polls"
+ ],
+ "EventLogRestrictedSendStickers": [
+  "Send stickers & GIFs"
+ ],
+ "EventLogRestrictedUntil": [
+  "changed restrictions for %1$sDuration: %2$s"
+ ],
+ "EventLogSelectedEvents": [
+  "Selected actions"
+ ],
+ "EventLogSlowModeChanged": [
+  "%1$s set the slow mode timer to %2$s"
+ ],
+ "EventLogSlowModeDisabled": [
+  "%1$s disabled the slow mode"
+ ],
+ "EventLogToggledInvitesOff": [
+  "%1$s disabled group invites"
+ ],
+ "EventLogToggledInvitesOn": [
+  "%1$s enabled group invites"
+ ],
+ "EventLogToggledProtectionOff": [
+  "%1$s disabled content protection"
+ ],
+ "EventLogToggledProtectionOn": [
+  "%1$s enabled content protection"
+ ],
+ "EventLogToggledSignaturesOff": [
+  "%1$s disabled signatures"
+ ],
+ "EventLogToggledSignaturesOn": [
+  "%1$s enabled signatures"
+ ],
+ "EventLogUnpinnedMessages": [
+  "%1$s unpinned message"
+ ],
+ "EventLogUnpromoted": [
+  "removed admin privileges of %1$s"
+ ],
+ "Follow": [
+  "Follow"
+ ],
+ "FollowChannelX": [
+  "Follow channel %1$s?"
+ ],
+ "ForwardLastXMessages": [
+  "Forward last %1$s message",
+  "Forward last %1$s messages"
+ ],
+ "FoundMessagesFromSelf": [
+  "messages from you"
+ ],
+ "FoundMessagesFromUser": [
+  "messages from %1$s"
+ ],
+ "GeneratingLink": [
+  "Generating Link…"
+ ],
+ "GroupChannelInfo": [
+  "This group is linked as the discussion board for %1$s.All new messages posted there are forwarded to the group."
+ ],
+ "GroupChannelUnlink": [
+  "Unlink Channel"
+ ],
+ "GroupDontAdd": [
+  "Do not add to the group"
+ ],
+ "GroupEnterValidName": [
+  "Please enter a valid group name"
+ ],
+ "GroupIsFull": [
+  "The group you tried to join is full"
+ ],
+ "GroupLink": [
+  "Group Link"
+ ],
+ "GroupLinkSet": [
+  "Tap to set public group link"
+ ],
+ "GroupName": [
+  "Group name"
+ ],
+ "GroupPhoto": [
+  "Group photo"
+ ],
+ "GroupUpgraded": [
+  "Group upgraded to supergroup"
+ ],
+ "GroupUpgradedFrom": [
+  "Group upgraded to supergroup. Tap here to view older history."
+ ],
+ "GroupUpgradedTo": [
+  "Group upgraded to supergroup."
+ ],
+ "GroupsInCommon": [
+  "Groups in Common"
+ ],
+ "HideForYourself": [
+  "Dismiss for yourself"
+ ],
+ "HoldToSilentBroadcast": [
+  "Hold for silent broadcast and more."
+ ],
+ "IncomingCall": [
+  "Incoming Call"
+ ],
+ "Infinity": [
+  "∞"
+ ],
+ "InviteBackToChannel": [
+  "Invite back to channel"
+ ],
+ "InviteBackToGroup": [
+  "Invite back to group"
+ ],
+ "InviteLink": [
+  "Invite Link"
+ ],
+ "InviteLinkActionAccept": [
+  "Add to Group"
+ ],
+ "InviteLinkActionAcceptChannel": [
+  "Add to Channel"
+ ],
+ "InviteLinkActionDeclineAction": [
+  "Decline Request"
+ ],
+ "InviteLinkActionWrite": [
+  "Open Profile"
+ ],
+ "InviteLinkCopy": [
+  "Copy Link"
+ ],
+ "InviteLinkDelete": [
+  "Delete Link"
+ ],
+ "InviteLinkEdit": [
+  "Edit Link"
+ ],
+ "InviteLinkExpireFuture": [
+  "Expire %1$s at %2$s"
+ ],
+ "InviteLinkExpireInCustomDate": [
+  "Expire at specific date…"
+ ],
+ "InviteLinkExpireInDays": [
+  "Expire in %1$s day",
+  "Expire in %1$s days"
+ ],
+ "InviteLinkExpireInHours": [
+  "Expire in %1$s hour",
+  "Expire in %1$s hours"
+ ],
+ "InviteLinkExpireInWeeks": [
+  "Expire in %1$s week",
+  "Expire in %1$s weeks"
+ ],
+ "InviteLinkExpireTitle": [
+  "Expiration timer"
+ ],
+ "InviteLinkExpireToday": [
+  "Expire today at %1$s"
+ ],
+ "InviteLinkExpireTomorrow": [
+  "Expire tomorrow at %1$s"
+ ],
+ "InviteLinkExpiredAt": [
+  "expired at %1$s"
+ ],
+ "InviteLinkExpires_weekday": [
+  "expires %1$s at %2$s"
+ ],
+ "InviteLinkInvalid": [
+  "Invite link is invalid or not active anymore"
+ ],
+ "InviteLinkJoins": [
+  "%1$s joined",
+  "%1$s joined"
+ ],
+ "InviteLinkLimitedByPeriod": [
+  "Limit by time period"
+ ],
+ "InviteLinkLimitedByPeriodHint": [
+  "You can make the link expire after a certain time."
+ ],
+ "InviteLinkLimitedByPeriodItem": [
+  "Enter custom expire date"
+ ],
+ "InviteLinkLimitedByUsers": [
+  "Limit by number of users"
+ ],
+ "InviteLinkLimitedByUsersAlertHint": [
+  "0 — no limit"
+ ],
+ "InviteLinkLimitedByUsersCustom": [
+  "Enter custom limit"
+ ],
+ "InviteLinkLimitedByUsersHint": [
+  "You can make the link work only for a certain number of users."
+ ],
+ "InviteLinkLimitedByUsersItem": [
+  "Number of Users"
+ ],
+ "InviteLinkManage": [
+  "Manage Invite Links"
+ ],
+ "InviteLinkMemberLimitReached": [
+  "member limit reached"
+ ],
+ "InviteLinkNoJoins": [
+  "no one joined"
+ ],
+ "InviteLinkNoLimitSet": [
+  "no limit"
+ ],
+ "InviteLinkOtherAdminHint": [
+  "**%1$s** can see this link and use it to invite new members to **%2$s**."
+ ],
+ "InviteLinkRemains": [
+  "%1$s remaining",
+  "%1$s remaining"
+ ],
+ "InviteLinkRequestSince": [
+  "requested %1$s"
+ ],
+ "InviteLinkRequests": [
+  "Join Requests"
+ ],
+ "InviteLinkRequestsHint": [
+  "Some [additional links](%1$s) are set up to generate requests to join your group."
+ ],
+ "InviteLinkRequestsHintChannel": [
+  "Some [additional links](%1$s) are set up to generate requests to join your channel."
+ ],
+ "InviteLinkViewMembers": [
+  "View joined members"
+ ],
+ "InviteLinkViewMembersTitle": [
+  "Joined members"
+ ],
+ "InviteLinkViewRequests": [
+  "View join requests"
+ ],
+ "InviteLinks": [
+  "Invite Links"
+ ],
+ "IsRecordingAudio": [
+  "%1$s is recording voice"
+ ],
+ "IsRecordingRound": [
+  "%1$s is recording a video message"
+ ],
+ "IsSendingFile": [
+  "%1$s is sending file"
+ ],
+ "IsSendingGame": [
+  "%1$s is playing"
+ ],
+ "IsSendingPhoto": [
+  "%1$s is sending photo"
+ ],
+ "IsSendingVideo": [
+  "%1$s is sending video"
+ ],
+ "IsSendingVoice": [
+  "%1$s is sending voice"
+ ],
+ "IsTypingGroup": [
+  "%1$s is typing"
+ ],
+ "JoinChannel": [
+  "Join Channel"
+ ],
+ "JoinChat": [
+  "Join Chat"
+ ],
+ "JoinGroupX": [
+  "Join group %1$s?"
+ ],
+ "LeaveChannel": [
+  "Leave channel"
+ ],
+ "LeaveChatAdminHint": [
+  "Warning: you will lose all your admin rights after leaving"
+ ],
+ "LeaveCreatorHintChannel": [
+  "Warning: you might not be able to return to this channel unless added by an admin"
+ ],
+ "LeaveCreatorHintGroup": [
+  "Warning: you might not be able to return to this group unless added by another member"
+ ],
+ "LeaveMegaMenu": [
+  "Leave group"
+ ],
+ "LinkChannelHelp": [
+  "You can set a public link on **Telegram**. If you do, other people will be able to find and follow your channel by this link.You can use **a–z**, **0–9** and underscores.Minimum length is **5** characters."
+ ],
+ "LinkChecking": [
+  "Checking link availability…"
+ ],
+ "LinkCurrent": [
+  "t.me/%1$s is your current public link."
+ ],
+ "LinkExpiresFuture": [
+  "%1$s at %2$s"
+ ],
+ "LinkExpiresNever": [
+  "never"
+ ],
+ "LinkExpiresToday": [
+  "today at %1$s"
+ ],
+ "LinkExpiresTomorrow": [
+  "tomorrow at %1$s"
+ ],
+ "LinkGroup": [
+  "Add a group chat for comments"
+ ],
+ "LinkGroupConfirm": [
+  "Do you want to make %1$s the discussion board for %2$s?"
+ ],
+ "LinkGroupConfirmDone": [
+  "Link Group"
+ ],
+ "LinkGroupConfirmOverride": [
+  "Warning: %1$s will be unlinked from %2$s."
+ ],
+ "LinkGroupConfirmOverrideDone": [
+  "Unlink and Proceed"
+ ],
+ "LinkGroupConfirmWarnPreHistory": [
+  "**Chat history for new members** will be switched to **Visible**."
+ ],
+ "LinkGroupConfirmWarnPrivateGroup": [
+  "Anyone from the channel will be able to see messages in this group."
+ ],
+ "LinkGroupHelp": [
+  "You can set a public link on **Telegram**. If you do, other people will be able to find and join your group by this link.You can use **a–z**, **0–9** and underscores.Minimum length is **5** characters."
+ ],
+ "LinkGroupTitle": [
+  "Select Chat"
+ ],
+ "LinkInUse": [
+  "Sorry, this public link is already taken."
+ ],
+ "LinkInfo": [
+  "Anyone who has Telegram installed will be able to join your group by following this link."
+ ],
+ "LinkInvalid": [
+  "Sorry, this public link is invalid."
+ ],
+ "LinkInvalidShort": [
+  "Public links must have at least 5 characters."
+ ],
+ "LinkInvalidStartNumber": [
+  "Sorry, a link can't start with a number."
+ ],
+ "LinkJoinChannelPrimary": [
+  "%1$s subscribed via the primary invite link %2$s"
+ ],
+ "LinkJoinChannelTempWithApproval": [
+  "%1$s subscribed via %2$s's temporary invite link %3$s, approved by %4$s"
+ ],
+ "LinkJoinPrimaryWithApproval": [
+  "%1$s joined via the primary invite link %2$s, approved by %3$s"
+ ],
+ "LinkRevokePrimary": [
+  "%1$s revoked the primary invite link %2$s"
+ ],
+ "LinkRevokePrimaryYou": [
+  "You revoked the primary invite link %1$s"
+ ],
+ "LinkedChannel": [
+  "Linked Channel"
+ ],
+ "LinkedGroup": [
+  "Linked Group"
+ ],
+ "LiveLocationAlertGroup": [
+  "Choose for how long people in this chat will see your accurate location, including when the app is closed."
+ ],
+ "LiveStreamEndedYou": [
+  "You ended the live stream"
+ ],
+ "LiveStreamScheduledOn": [
+  "Live stream scheduled on %1$s"
+ ],
+ "LoadingActions": [
+  "Loading actions…"
+ ],
+ "LoadingMessageEmojiPack": [
+  "Loading…"
+ ],
+ "LocationAlertBot": [
+  "To make a location-based search via %1$s, allow Telegram X access to your location."
+ ],
+ "LocationAlertBotDisclaimer": [
+  "Note that Telegram X does not have any control over how the location data is processed by %1$s."
+ ],
+ "LocationAlertLiveLocation": [
+  "To send a Live Location, allow Telegram X access to your location in the background. This feature will send a message with your location that will be updated in real time for the duration you choose even if you're not using the app. You can stop Live Location at any time."
+ ],
+ "LocationAlertLocation": [
+  "To send a nearby place or your location, allow Telegram X access to your location."
+ ],
+ "LocationAlertLocationDisclaimer": [
+  "Telegram X does not use location data for any hidden purposes, and accesses it only by your explicit request."
+ ],
+ "LogInAsOn": [
+  "Log in as %1$s on %2$s"
+ ],
+ "ManageChannel": [
+  "Manage Channel"
+ ],
+ "ManageGroup": [
+  "Manage Group"
+ ],
+ "MapPreviewProviderTelegram": [
+  "Telegram"
+ ],
+ "MemberCanJoinChannel": [
+  "%1$s will be able to return to the channel."
+ ],
+ "MemberCanJoinGroup": [
+  "%1$s will be able to return to the group."
+ ],
+ "MemberCannotJoinChannel": [
+  "%1$s will not be able to return to the channel unless added back by admin."
+ ],
+ "MemberCannotJoinGroup": [
+  "%1$s will not be able to return to the group unless added back by admin."
+ ],
+ "MemberCannotJoinRegularGroup": [
+  "%1$s will not be able to return to the group unless added by another member or given an invite link."
+ ],
+ "MemberSince": [
+  "Member since %1$s at %2$s"
+ ],
+ "MembersDetailAdmins": [
+  "Administrators"
+ ],
+ "MembersDetailRestricted": [
+  "Members with restrictions"
+ ],
+ "Mention": [
+  "Mention"
+ ],
+ "MentionAdd": [
+  "Add"
+ ],
+ "MentionPlaceholder": [
+  "Text"
+ ],
+ "Message": [
+  "Message"
+ ],
+ "MessageInputTextDisabled": [
+  "Text is disabled"
+ ],
+ "MessageInputTextDisabledHint": [
+  "Admins of this group disabled ability to send text messages."
+ ],
+ "MessagePin": [
+  "Pin"
+ ],
+ "MessageReport": [
+  "Report message"
+ ],
+ "MessageUnpin": [
+  "Unpin"
+ ],
+ "MissedCall": [
+  "Missed Call"
+ ],
+ "Mute": [
+  "Mute"
+ ],
+ "MuteForXDays": [
+  "Mute for %1$s day",
+  "Mute for %1$s days"
+ ],
+ "MuteForXHours": [
+  "Mute for %1$s hour",
+  "Mute for %1$s hours"
+ ],
+ "MuteForever": [
+  "Mute forever"
+ ],
+ "NewPinnedMessage": [
+  "Pinned message: %1$s"
+ ],
+ "NoChannels": [
+  "No channels to show"
+ ],
+ "NoCommentChats": [
+  "No suitable chats found for a discussion."
+ ],
+ "NoDocumentsToShowInChannel": [
+  "Published documents and fileswill be shown here."
+ ],
+ "NoGroups": [
+  "No groups to show"
+ ],
+ "NoLinksToShowInChannel": [
+  "Published links and articleswill be shown here."
+ ],
+ "NoMediaToShow": [
+  "No media to show"
+ ],
+ "NoMediaToShowInChannel": [
+  "Published photos and videoswill be shown here."
+ ],
+ "NoMembersToShow": [
+  "No members to show"
+ ],
+ "NoMembersToShowDesc": [
+  "Try changing your search query.Found members will be shown here."
+ ],
+ "NoMessages": [
+  "No messages here yet…"
+ ],
+ "NoMusicToShowInChannel": [
+  "Published music and audio fileswill be shown here."
+ ],
+ "NoRestrictionsHint": [
+  "Specify at least one restriction rule"
+ ],
+ "NoRightAllowChangeInfo": [
+  "You cannot allow everyone to change group info, because you don't have corresponding admin right."
+ ],
+ "NoRightAllowChangeInfoPublic": [
+  "You cannot allow everyone to change group info, because this group is public."
+ ],
+ "NoRightAllowPin": [
+  "You cannot allow everyone to pin messages, because you don't have corresponding admin right."
+ ],
+ "NoRightAllowPinPublic": [
+  "You cannot allow everyone to pin messages, because this group is public."
+ ],
+ "NoRightDisallowChangeInfo": [
+  "All members can change info of this chat."
+ ],
+ "NoRightDisallowInvite": [
+  "All members can invite new members in this chat."
+ ],
+ "NoRightDisallowPin": [
+  "All members can pin messages in this chat."
+ ],
+ "NoVideoToShow": [
+  "No video messages to show"
+ ],
+ "NoVideoToShowInChannel": [
+  "Published video messageswill be shown here."
+ ],
+ "NoVotes": [
+  "No votes"
+ ],
+ "NoVotesResult": [
+  "No votes"
+ ],
+ "NotificationActionPinnedNoTextChannel": [
+  "%1$s pinned a message"
+ ],
+ "Notifications": [
+  "Notifications"
+ ],
+ "NotificationsCustomize": [
+  "Customize"
+ ],
+ "NotificationsDefault": [
+  "Use global settings (%1$s)"
+ ],
+ "NotificationsDefaultDisabled": [
+  "Disabled"
+ ],
+ "NotificationsDefaultInfo": [
+  "Notifications from this chat are explicitly enabled."
+ ],
+ "NotificationsDefaultValue": [
+  "%1$s (default)"
+ ],
+ "NotificationsDisabled": [
+  "Disabled"
+ ],
+ "NotificationsEnableOverride": [
+  "Enabling notifications for this chat will override the global value in Settings > Notifications (%1$s)."
+ ],
+ "OnlyAdmins": [
+  "Only admins"
+ ],
+ "OnlyOwnerGroup": [
+  "Only the group owner can toggle this setting."
+ ],
+ "Open": [
+  "Open"
+ ],
+ "OpenGroup": [
+  "View Group"
+ ],
+ "OpenLinkConfirm": [
+  "Do you want to open %1$s?"
+ ],
+ "OpenMessage": [
+  "View Message"
+ ],
+ "OpenSupergroup": [
+  "Open Supergroup"
+ ],
+ "Other": [
+  "Other"
+ ],
+ "OtherAdminsInviteLinks": [
+  "Links created by other admins"
+ ],
+ "PasteCustomEmoji": [
+  "Paste Emoji"
+ ],
+ "Pin": [
+  "Pin"
+ ],
+ "PinMessageInThisChannel": [
+  "Pin this message in this channel?"
+ ],
+ "PinMessageInThisGroup": [
+  "Pin this message in this group?"
+ ],
+ "PinNotify": [
+  "Notify all members"
+ ],
+ "PinNotify2": [
+  "Notify all subscribers"
+ ],
+ "PinnedMessage": [
+  "Pinned message"
+ ],
+ "PollAnonymous": [
+  "Anonymous Poll"
+ ],
+ "PollDiscard": [
+  "Discard Poll"
+ ],
+ "PollDiscardPrompt": [
+  "Are you sure you want to discard this poll?"
+ ],
+ "PollOption": [
+  "Option"
+ ],
+ "PollOptions": [
+  "Poll options"
+ ],
+ "PollOptionsAdd": [
+  "Add an option…"
+ ],
+ "PollOptionsLimit": [
+  "You can add %1$s more option",
+  "You can add %1$s more options"
+ ],
+ "PollOptionsMax": [
+  "You have added the maximum number of options."
+ ],
+ "PollPublic": [
+  "Poll"
+ ],
+ "PollPublicForwardHint": [
+  "Sorry, polls with visible votes can't be forwarded to channels."
+ ],
+ "PollQuestion": [
+  "Question"
+ ],
+ "PollQuestionEmpty": [
+  "Ask a Question"
+ ],
+ "PollResults": [
+  "Final Results"
+ ],
+ "Pornography": [
+  "Pornography"
+ ],
+ "PostNotFound": [
+  "Post not found"
+ ],
+ "PremiumRequiredSticker": [
+  "Sending this sticker requires a **Telegram Premium** subscription."
+ ],
+ "PrimaryInviteLink": [
+  "Primary Link"
+ ],
+ "PrimaryInviteLinkMenu": [
+  "Primary Invite Link"
+ ],
+ "ProgressCreateChannel": [
+  "Creating channel…"
+ ],
+ "PromotedByX": [
+  "Promoted by %1$s"
+ ],
+ "PublicLinkIsInvalid": [
+  "You can use only a–z, 0–9 and underscores for a Telegram public link."
+ ],
+ "PublicLinkTooShort": [
+  "Public link is too short"
+ ],
+ "QAddXToChannel": [
+  "Add %1$s to the channel?"
+ ],
+ "QDeleteXMessagesFromYRole": [
+  "Delete %1$s message from %2$s (%3$s)?",
+  "Delete %1$s messages from %2$s (%3$s)?"
+ ],
+ "QUnblockX": [
+  "Unblock %1$s?"
+ ],
+ "QuizResults": [
+  "Final Results"
+ ],
+ "ReactionsLimitChannel": [
+  "Maximum number of reactions"
+ ],
+ "ReactionsLimitChannelDesc": [
+  "Limit the number of different reactions that can be added to a post, including already published ones."
+ ],
+ "ReactionsLimitChat": [
+  "Maximum number of reactions"
+ ],
+ "ReactionsLimitChatDesc": [
+  "Limit the number of different reactions that can be added to a message, including already sent ones."
+ ],
+ "Recent": [
+  "Recent"
+ ],
+ "RecentActionsChannelHint": [
+  "Service actions in the channel in the last 48 hours."
+ ],
+ "RecentActionsGroupHint": [
+  "Service actions in the group in the last 48 hours."
+ ],
+ "RemoveChannelPhoto": [
+  "Remove Channel Photo"
+ ],
+ "RemoveFromGroup": [
+  "Remove from group"
+ ],
+ "RemoveGroupPhoto": [
+  "Remove Group Photo"
+ ],
+ "RemoveMember": [
+  "Remove"
+ ],
+ "RemoveRestrictions": [
+  "Remove restrictions"
+ ],
+ "RemoveXEmojiPacks": [
+  "Remove %1$s emoji pack",
+  "Remove %1$s emoji packs"
+ ],
+ "Reply": [
+  "Reply"
+ ],
+ "Report": [
+  "Report"
+ ],
+ "ReportChat": [
+  "Report %1$s"
+ ],
+ "ReportChatSent": [
+  "Report sent"
+ ],
+ "ReportMessage": [
+  "Report %1$s's message"
+ ],
+ "ReportMessages": [
+  "Report %1$s's messages"
+ ],
+ "ReportReasonDescription": [
+  "Description"
+ ],
+ "ReportSpam": [
+  "Report spam"
+ ],
+ "ReportXMessages": [
+  "Report %1$s message",
+  "Report %1$s messages"
+ ],
+ "RequestFollowChannelX": [
+  "Request channel admins to let you join %1$s?"
+ ],
+ "RequestJoinChannelBtn": [
+  "Request to join"
+ ],
+ "RequestJoinChannelSent": [
+  "Request to follow %1$s has been sent"
+ ],
+ "RequestJoinGroupBtn": [
+  "Request to join"
+ ],
+ "RequestJoinGroupSent": [
+  "Request to join %1$s has been sent"
+ ],
+ "RequestJoinGroupX": [
+  "Request group admins to let you join %1$s?"
+ ],
+ "RestrictFor": [
+  "Restrict for"
+ ],
+ "RestrictSaving": [
+  "Restrict Saving Content"
+ ],
+ "RestrictSavingChannelHint": [
+  "Subscribers won't be able to copy, save or forward content from this channel."
+ ],
+ "RestrictSavingChannelInfo": [
+  "Copying and forwarding is restricted by channel admins"
+ ],
+ "RestrictSavingGroupHint": [
+  "Members won't be able to copy, save or forward content from this group."
+ ],
+ "RestrictSavingGroupInfo": [
+  "Copying and forwarding is restricted by group admins"
+ ],
+ "RestrictSavingUserInfo": [
+  "Copying and forwarding of this message is restricted."
+ ],
+ "RestrictUntil": [
+  "Restrict until"
+ ],
+ "RestrictUntilFuture": [
+  "Restrict until %1$s at %2$s"
+ ],
+ "RestrictUntilToday": [
+  "Restrict until today at %1$s"
+ ],
+ "RestrictUntilTomorrow": [
+  "Restrict until tomorrow at %1$s"
+ ],
+ "RestrictUser": [
+  "Restrict user"
+ ],
+ "RestrictXGroup": [
+  "%1$s will not be removed from the group."
+ ],
+ "Restricted": [
+  "Restricted"
+ ],
+ "RestrictedByX": [
+  "Restricted by %1$s"
+ ],
+ "RestrictedWillBeShownHere": [
+  "Restricted members will be shown here"
+ ],
+ "RetractVote": [
+  "Retract Vote"
+ ],
+ "RevokeLink": [
+  "Revoke Link"
+ ],
+ "RevokedInviteLinks": [
+  "Revoked Links"
+ ],
+ "RightAddNewAdmins": [
+  "Add New Admins"
+ ],
+ "RightAnonymous": [
+  "Remain anonymous"
+ ],
+ "RightBanUsers": [
+  "Ban Users"
+ ],
+ "RightChangeChannelInfo": [
+  "Change Channel Info"
+ ],
+ "RightChangeGroupInfo": [
+  "Change Group Info"
+ ],
+ "RightEditMessages": [
+  "Edit Messages"
+ ],
+ "RightInviteViaLink": [
+  "Add Users"
+ ],
+ "RightLiveStreams": [
+  "Manage live streams"
+ ],
+ "RightMessages": [
+  "Messages"
+ ],
+ "RightPinMessages": [
+  "Pin Messages"
+ ],
+ "RightSendAudio": [
+  "Send Music"
+ ],
+ "RightSendDocs": [
+  "Send Files"
+ ],
+ "RightSendMedia": [
+  "Send Media"
+ ],
+ "RightSendPhoto": [
+  "Send Photos"
+ ],
+ "RightSendVideo": [
+  "Send Videos"
+ ],
+ "RightSendVideoNote": [
+  "Send Video Messages"
+ ],
+ "RightSendVoiceNote": [
+  "Send Voice Messages"
+ ],
+ "RightStories": [
+  "Stories"
+ ],
+ "RightStoriesDelete": [
+  "Delete Stories of Others"
+ ],
+ "RightStoriesEdit": [
+  "Edit Stories of Others"
+ ],
+ "RightStoriesPost": [
+  "Post Stories"
+ ],
+ "RightTopics": [
+  "Manage topics"
+ ],
+ "RightTopicsCreate": [
+  "Create topics"
+ ],
+ "RightVoiceChats": [
+  "Manage video chats"
+ ],
+ "RoleBanned": [
+  "banned member"
+ ],
+ "RoleLeft": [
+  "not a member"
+ ],
+ "RoleMember_days": [
+  "joined %1$s day ago",
+  "joined %1$s days ago"
+ ],
+ "RoleMember_hours": [
+  "joined %1$s hr ago",
+  "joined %1$s hrs ago"
+ ],
+ "RoleMember_minutes": [
+  "joined %1$s min ago",
+  "joined %1$s mins ago"
+ ],
+ "RoleMember_months": [
+  "joined %1$s month ago",
+  "joined %1$s months ago"
+ ],
+ "RoleMember_now": [
+  "joined just now"
+ ],
+ "RoleMember_today": [
+  "joined at %1$s"
+ ],
+ "RoleMember_weeks": [
+  "joined %1$s week ago",
+  "joined %1$s weeks ago"
+ ],
+ "RoleMember_years": [
+  "joined %1$s year ago",
+  "joined %1$s years ago"
+ ],
+ "RoleMember_yesterday": [
+  "joined yesterday at %1$s"
+ ],
+ "RoleOwner": [
+  "chat owner"
+ ],
+ "Save": [
+  "Save"
+ ],
+ "SaveToGallery": [
+  "Save to Gallery"
+ ],
+ "Search": [
+  "Search"
+ ],
+ "Select": [
+  "Select"
+ ],
+ "SelectChat": [
+  "Select Chat"
+ ],
+ "SelectedSuffix": [
+  " selected",
+  " selected"
+ ],
+ "SendMessageTo": [
+  "Send message to…"
+ ],
+ "SetAsAdmin": [
+  "Promote to Admin"
+ ],
+ "SetChannelPhoto": [
+  "Set Channel Photo"
+ ],
+ "SetGroupPhoto": [
+  "Set Group Photo"
+ ],
+ "Settings": [
+  "Settings"
+ ],
+ "Share": [
+  "Share"
+ ],
+ "ShareCustomEmoji": [
+  "Share Emoji"
+ ],
+ "ShareLink": [
+  "Share Link"
+ ],
+ "ShareTextLink": [
+  "Check out %1$s: %2$s"
+ ],
+ "SharingYouAndOtherName": [
+  "You and %1$s"
+ ],
+ "ShowPinnedList": [
+  "Show All"
+ ],
+ "ShowXMoreEmoji": [
+  "%1$s more",
+  "%1$s more"
+ ],
+ "SimilarChannels": [
+  "Similar Channels"
+ ],
+ "SlowMode": [
+  "Slow Mode"
+ ],
+ "SlowModeDisabled": [
+  "Choose how long each member must wait before sending their next message."
+ ],
+ "SlowModeHours": [
+  "Members will be able to send only one message every %1$s hour.",
+  "Members will be able to send only one message every %1$s hours."
+ ],
+ "SlowModeMinutes": [
+  "Members will be able to send only one message every %1$s minute.",
+  "Members will be able to send only one message every %1$s minutes."
+ ],
+ "SlowModeOff": [
+  "Off"
+ ],
+ "SlowModeSeconds": [
+  "Members will be able to send only one message every %1$s second.",
+  "Members will be able to send only one message every %1$s seconds."
+ ],
+ "Spam": [
+  "Spam"
+ ],
+ "SponsoredInfoMenu": [
+  "What are sponsored messages?"
+ ],
+ "SponsoredInfoText": [
+  "Unlike other apps, Telegram never uses your private data to target ads. Sponsored messages on Telegram are based solely on the topic of the public channels in which they are shown. This means that no user data is mined or analyzed to display ads, and every user viewing a channel on Telegram sees the same sponsored messages.Unlike other apps, Telegram doesn't track whether you tapped on a sponsored message and doesn't profile you based on your activity. We also prevent external links in sponsored messages to ensure that third parties can’t spy on our users. We believe that everyone has the right to privacy, and technological platforms should respect that.Telegram offers a free and unlimited service to hundreds of millions of users, which involves significant server and traffic costs. In order to remain independent and stay true to its values, Telegram developed a paid tool to promote messages with user privacy in mind. We welcome responsible advertisers at:"
+ ],
+ "SponsoredInfoText2": [
+  "Sponsored Messages are currently in test mode. Once they are fully launched and allow Telegram to cover its basic costs, we will start sharing ad revenue with the owners of public channels in which sponsored messages are displayed.Online ads should no longer be synonymous with abuse of user privacy. Let us redefine how a tech company should operate – together."
+ ],
+ "SponsoredSign": [
+  "ad"
+ ],
+ "Stats": [
+  "Statistics"
+ ],
+ "StatsChartActions": [
+  "Actions"
+ ],
+ "StatsChartFollowers": [
+  "Followers"
+ ],
+ "StatsChartFollowersBySource": [
+  "New followers by source"
+ ],
+ "StatsChartGrowth": [
+  "Growth"
+ ],
+ "StatsChartInteractions": [
+  "Interactions"
+ ],
+ "StatsChartIv": [
+  "IV Interactions"
+ ],
+ "StatsChartLanguage": [
+  "Languages"
+ ],
+ "StatsChartMembers": [
+  "Group members"
+ ],
+ "StatsChartMembersBySource": [
+  "New members by source"
+ ],
+ "StatsChartMembersLanguage": [
+  "Members' primary language"
+ ],
+ "StatsChartMessages": [
+  "Messages"
+ ],
+ "StatsChartNotifications": [
+  "Notifications"
+ ],
+ "StatsChartTopDays": [
+  "Top days of week"
+ ],
+ "StatsChartTopHours": [
+  "Top hours"
+ ],
+ "StatsChartViewsByHour": [
+  "Views by hours (UTC)"
+ ],
+ "StatsChartViewsBySource": [
+  "Views by source"
+ ],
+ "StatsMembers": [
+  "Members"
+ ],
+ "StatsMembersReading": [
+  "Viewing members"
+ ],
+ "StatsMembersWriting": [
+  "Posting members"
+ ],
+ "StatsMessageInfo": [
+  "Message Statistics"
+ ],
+ "StatsMessageSharesPrivate": [
+  "Private Shares"
+ ],
+ "StatsMessageSignature": [
+  "Author Signature"
+ ],
+ "StatsMessageViewCount": [
+  "View Count"
+ ],
+ "StatsMessages": [
+  "Messages"
+ ],
+ "StatsNotifications": [
+  "Enabled Notifications"
+ ],
+ "StatsRange": [
+  "Overview based on %1$s period."
+ ],
+ "StatsRecentPosts": [
+  "Recent Posts"
+ ],
+ "StatsShares": [
+  "Shares Per Post"
+ ],
+ "StatsTopAdmins": [
+  "Top admins"
+ ],
+ "StatsTopMembers": [
+  "Top members"
+ ],
+ "StatsValueFall": [
+  "%1$s: -%2$s (%3$s%%) ↓"
+ ],
+ "StatsValueGrowth": [
+  "%1$s: +%2$s (%3$s%%) ↑"
+ ],
+ "StatsViews": [
+  "Views Per Post"
+ ],
+ "StatsXBans": [
+  "%1$s ban",
+  "%1$s bans"
+ ],
+ "StatsXCharacters": [
+  "%1$s character per message",
+  "%1$s characters per message"
+ ],
+ "StatsXDeletions": [
+  "%1$s deletion",
+  "%1$s deletions"
+ ],
+ "StatsXRestrictions": [
+  "%1$s restriction",
+  "%1$s restrictions"
+ ],
+ "StatsXShared": [
+  "%1$s share",
+  "%1$s shares"
+ ],
+ "StopPoll": [
+  "Stop Poll"
+ ],
+ "StopPollWarn": [
+  "If you stop this poll now, nobody will be able to vote in it anymore.This action cannot be undone."
+ ],
+ "TabAdmins": [
+  "Admins"
+ ],
+ "TabBlacklist": [
+  "Blocked"
+ ],
+ "TabDocs": [
+  "Docs"
+ ],
+ "TabLinks": [
+  "Links"
+ ],
+ "TabMedia": [
+  "Media"
+ ],
+ "TabMembers": [
+  "Members"
+ ],
+ "TabRestricted": [
+  "Restricted"
+ ],
+ "TabSimilarChannels": [
+  "Similar"
+ ],
+ "TabVideoMessages": [
+  "Video"
+ ],
+ "TapToSetup": [
+  "Tap to set"
+ ],
+ "TextFormatSpoiler": [
+  "Spoiler"
+ ],
+ "TimerInstant": [
+  "Immediately"
+ ],
+ "Today": [
+  "Today"
+ ],
+ "Tomorrow": [
+  "Tomorrow"
+ ],
+ "TooManyPublicChannels": [
+  "Sorry, you have created too many public channels. You can either create a private channel or delete one of your existing channels first."
+ ],
+ "TooManyPublicLinks": [
+  "You have reserved too many public links. Try revoking the link from an older group or channel, or create a private one instead."
+ ],
+ "TransferOwnershipAlert": [
+  "Wait a bit…"
+ ],
+ "TransferOwnershipAlertChannel": [
+  "Are you really sure you want to transfer ownership of **%1$s** to **%2$s**?This operation is **irreversible**, so check again if the user you want to transfer the channel is the right person."
+ ],
+ "TransferOwnershipAlertGroup": [
+  "Are you really sure you want to transfer ownership of **%1$s** to **%2$s**?You will no longer be considered the creator of the group. The new owner will be free to remove any of your admin privileges or even ban you."
+ ],
+ "TransferOwnershipChannel": [
+  "Transfer Channel Ownership"
+ ],
+ "TransferOwnershipConfirm": [
+  "Transfer ownership"
+ ],
+ "TransferOwnershipGroup": [
+  "Transfer Group Ownership"
+ ],
+ "TransferOwnershipSecurityActionSetPassword": [
+  "Set password"
+ ],
+ "TransferOwnershipSecurityPasswordNeeded": [
+  "Sorry, but you can only transfer ownership if you have set up **Two-Step Verification** on your Telegram account."
+ ],
+ "TransferOwnershipSecurityWaitPassword": [
+  "Sorry, but you need to wait **%1$s** before you can transfer ownership, because you've set a password just recently."
+ ],
+ "Unban": [
+  "Unban"
+ ],
+ "UnbanMember": [
+  "Unban user"
+ ],
+ "UnlinkChannelConfirm": [
+  "Are you sure you want to unlink %1$s from this group?"
+ ],
+ "UnlinkChannelDone": [
+  "Unlink"
+ ],
+ "UnlinkGroupConfirm": [
+  "Are you sure you want to unlink %1$s from this channel?"
+ ],
+ "UnlinkGroupDone": [
+  "Unlink"
+ ],
+ "Unmute": [
+  "Unmute"
+ ],
+ "Unpin": [
+  "Unpin"
+ ],
+ "UnpinMessage": [
+  "Unpin message"
+ ],
+ "UntilX": [
+  "Until %1$s"
+ ],
+ "UserPrivacyRestricted": [
+  "Sorry, the user restricted this action in their privacy settings."
+ ],
+ "UserRestrictions": [
+  "User Permissions"
+ ],
+ "UserRestrictionsEmbedLinks": [
+  "Embed Links"
+ ],
+ "UserRestrictionsRead": [
+  "Read Messages"
+ ],
+ "UserRestrictionsSend": [
+  "Send Messages"
+ ],
+ "UserRestrictionsSendPolls": [
+  "Send Polls"
+ ],
+ "UserRestrictionsSendStickers": [
+  "Send Stickers & GIFs"
+ ],
+ "UserRestrictionsUntilForever": [
+  "Forever"
+ ],
+ "UsernameAvailable": [
+  "%1$s is available."
+ ],
+ "VideoChatScheduledFor": [
+  "Video chat scheduled for %1$s"
+ ],
+ "ViewAdminRights": [
+  "View Admin Rights"
+ ],
+ "ViewAdmins": [
+  "View admins"
+ ],
+ "ViewMessagesFromAnonymousAdmins": [
+  "Messages from anonymous admins"
+ ],
+ "ViewMessagesFromChat": [
+  "Messages from %1$s"
+ ],
+ "ViewMessagesFromUser": [
+  "Messages from %1$s"
+ ],
+ "ViewMessagesFromYou": [
+  "Messages from you"
+ ],
+ "ViewXPollResults": [
+  "View %1$s Result",
+  "View %1$s Results"
+ ],
+ "Violence": [
+  "Violence"
+ ],
+ "VoiceChatEnded": [
+  "Video chat ended"
+ ],
+ "VoiceChatEndedBy": [
+  "%1$s ended the video chat"
+ ],
+ "VoiceChatEndedYou": [
+  "You ended the video chat"
+ ],
+ "VoiceChatStarted": [
+  "Video chat started"
+ ],
+ "VoiceChatStartedBy": [
+  "%1$s started a video chat"
+ ],
+ "VoiceChatStartedYou": [
+  "You started a video chat"
+ ],
+ "WhatMembersCanDo": [
+  "What can members of this group do?"
+ ],
+ "WhatThisAdminCanDo": [
+  "What can this admin do?"
+ ],
+ "WhatThisChannelCanDo": [
+  "What can admins do on behalf of this channel?"
+ ],
+ "WhatThisUserCanDo": [
+  "What can this user do?"
+ ],
+ "XAcceptedToGroup": [
+  "%1$s was accepted to the group"
+ ],
+ "XAcceptedToGroupBy": [
+  "%1$s was accepted to the group by %2$s"
+ ],
+ "XCanAssignAdmins": [
+  "%1$s will be able to add new admins with the same (or more limited) permissions."
+ ],
+ "XCannotAssignAdmins": [
+  "%1$s will not be able to add new admins."
+ ],
+ "XChangedGroupStickerSet": [
+  "%1$s changed group sticker set"
+ ],
+ "XDisabledAutoDelete": [
+  "%1$s disabled the auto-delete timer"
+ ],
+ "XDisabledAutoDeletePosts": [
+  "%1$s disabled the auto-delete timer"
+ ],
+ "XFoundMessagesFromUser": [
+  "%1$s message from %2$s",
+  "%1$s messages from %2$s"
+ ],
+ "XIsAlreadyInChat": [
+  "%1$s is already a member of this chat"
+ ],
+ "XMadeGroupHistoryHidden": [
+  "%1$s made group history hidden for new members"
+ ],
+ "XMadeGroupHistoryVisible": [
+  "%1$s made group history visible for new members"
+ ],
+ "XPhotoSaved": [
+  "%1$s photo saved to Gallery",
+  "%1$s photos saved to Gallery"
+ ],
+ "XRemovedGroupStickerSet": [
+  "%1$s removed group sticker set"
+ ],
+ "XSetAutoDeleteDays": [
+  "%2$s set messages to auto-delete in %1$s day",
+  "%2$s set messages to auto-delete in %1$s days"
+ ],
+ "XSetAutoDeleteMonths": [
+  "%2$s set messages to auto-delete in %1$s month",
+  "%2$s set messages to auto-delete in %1$s months"
+ ],
+ "XSetAutoDeletePostsDays": [
+  "Admins set posts to auto-delete in %1$s day",
+  "Admins set posts to auto-delete in %1$s days"
+ ],
+ "XSetAutoDeletePostsMonths": [
+  "Admins set posts to auto-delete in %1$s month",
+  "Admins set posts to auto-delete in %1$s months"
+ ],
+ "XSetAutoDeletePostsWeeks": [
+  "Admins set posts to auto-delete in %1$s week",
+  "Admins set posts to auto-delete in %1$s weeks"
+ ],
+ "XSetAutoDeleteWeeks": [
+  "%2$s set messages to auto-delete in %1$s week",
+  "%2$s set messages to auto-delete in %1$s weeks"
+ ],
+ "XVideoSaved": [
+  "%1$s video saved to Gallery",
+  "%1$s videos saved to Gallery"
+ ],
+ "Yesterday": [
+  "Yesterday"
+ ],
+ "YouAcceptedToGroup": [
+  "You were accepted to the group"
+ ],
+ "YouCantInviteMembers": [
+  "You can't add members to this chat"
+ ],
+ "YouDisabledAutoDelete": [
+  "You disabled the auto-delete timer"
+ ],
+ "YouDisabledAutoDeletePosts": [
+  "You disabled the auto-delete timer"
+ ],
+ "YouPinnedMessage": [
+  "You pinned a message"
+ ],
+ "YouSetAutoDeleteDays": [
+  "You set messages to auto-delete in %1$s day",
+  "You set messages to auto-delete in %1$s days"
+ ],
+ "YouSetAutoDeleteMonths": [
+  "You set messages to auto-delete in %1$s month",
+  "You set messages to auto-delete in %1$s months"
+ ],
+ "YouSetAutoDeletePostsDays": [
+  "You set posts to auto-delete in %1$s day",
+  "You set posts to auto-delete in %1$s days"
+ ],
+ "YouSetAutoDeletePostsMonths": [
+  "You set posts to auto-delete in %1$s month",
+  "You set posts to auto-delete in %1$s months"
+ ],
+ "YouSetAutoDeletePostsWeeks": [
+  "You set posts to auto-delete in %1$s week",
+  "You set posts to auto-delete in %1$s weeks"
+ ],
+ "YouSetAutoDeleteWeeks": [
+  "You set messages to auto-delete in %1$s week",
+  "You set messages to auto-delete in %1$s weeks"
+ ],
+ "YouWereKicked": [
+  "you were kicked"
+ ],
+ "channel_create_somebody": [
+  "Channel \"%1$s\" created"
+ ],
+ "channel_user_add": [
+  "%1$s joined the channel"
+ ],
+ "channel_user_remove": [
+  "%1$s left the channel"
+ ],
+ "edit": [
+  "Edit"
+ ],
+ "errorPrivacyAddMember": [
+  "Sorry, the user restricted who can add them to chats in their privacy settings."
+ ],
+ "error_CHANNELS_TOO_MUCH": [
+  "Sorry, you are a member of too many groups or channels. Please leave some before joining a new one."
+ ],
+ "error_USER_NOT_MUTUAL_CONTACT": [
+  "If a person has left the group in the past, you need to be in their Telegram contacts to add them back.They can still join via the group's invite link as long as they are not on the Removed Users list."
+ ],
+ "fileSize_MB": [
+  "%1$s MB"
+ ],
+ "format_channelAndSignature": [
+  "%1$s (%2$s)"
+ ],
+ "format_dateTime": [
+  "%1$s at %2$s"
+ ],
+ "format_membersAndOnline": [
+  "%1$s, %2$s"
+ ],
+ "format_pinned": [
+  "Pinned: %1$s"
+ ],
+ "format_tomorrow": [
+  "tomorrow at %1$s"
+ ],
+ "format_xChatsAndMoreWithPremium": [
+  "%1$s, %2$s"
+ ],
+ "group_create_you": [
+  "You created the group \"%1$s\""
+ ],
+ "group_created": [
+  "%1$s created the group \"%2$s\""
+ ],
+ "group_photo_changed": [
+  "%1$s changed the group photo"
+ ],
+ "group_photo_changed_you": [
+  "You changed the group photo"
+ ],
+ "group_photo_deleted": [
+  "%1$s removed the group photo"
+ ],
+ "group_photo_deleted_you": [
+  "You removed the group photo"
+ ],
+ "group_title_changed": [
+  "%1$s renamed the group to \"%2$s\""
+ ],
+ "group_title_changed_you": [
+  "You renamed the group to \"%1$s\""
+ ],
+ "group_user_add": [
+  "%1$s joined the group"
+ ],
+ "group_user_add_self": [
+  "You joined the group"
+ ],
+ "group_user_added": [
+  "%1$s added %2$s"
+ ],
+ "group_user_join_by_link": [
+  "%1$s joined the group via invite link"
+ ],
+ "group_user_join_by_link_self": [
+  "You joined the group via invite link"
+ ],
+ "group_user_remove": [
+  "%1$s left the group"
+ ],
+ "group_user_removed": [
+  "%1$s kicked %2$s"
+ ],
+ "group_user_removed_self": [
+  "%1$s kicked you"
+ ],
+ "group_user_self_added": [
+  "You added %1$s"
+ ],
+ "group_user_self_removed": [
+  "You kicked %1$s"
+ ],
+ "inactiveGroup": [
+  "inactive group"
+ ],
+ "justAdd": [
+  "Just add to group"
+ ],
+ "location_personAwayMeters": [
+  "is %1$s m away"
+ ],
+ "location_personNearby": [
+  "is nearby"
+ ],
+ "message_adminSignPlain": [
+  "admin"
+ ],
+ "message_ownerSign": [
+  "owner"
+ ],
+ "message_viaBot": [
+  "via %1$s"
+ ],
+ "notInChat": [
+  "you are not in chat"
+ ],
+ "returnToChannel": [
+  "Return to Channel"
+ ],
+ "returnToGroup": [
+  "Return to Group"
+ ],
+ "status_LastSeenRecently": [
+  "last seen recently"
+ ],
+ "status_LastSeen_minutes": [
+  "seen %1$s minute ago",
+  "seen %1$s minutes ago"
+ ],
+ "status_Online": [
+  "online"
+ ],
+ "timestampShort_today": [
+  "%1$s"
+ ],
+ "timestamp_minutes": [
+  "%1$s minute ago",
+  "%1$s minutes ago"
+ ],
+ "timestamp_seconds": [
+  "%1$s second ago",
+  "%1$s seconds ago"
+ ],
+ "timestamp_today": [
+  "today at %1$s"
+ ],
+ "url_promote": [
+  "https://ads.telegram.org"
+ ],
+ "xActiveLinks": [
+  "%1$s active link",
+  "%1$s active links"
+ ],
+ "xAdmins": [
+  "%1$s admin",
+  "%1$s admins"
+ ],
+ "xAnswers": [
+  "%1$s answer",
+  "%1$s answers"
+ ],
+ "xBanned": [
+  "%1$s banned",
+  "%1$s banned"
+ ],
+ "xChats": [
+  "%1$s chat",
+  "%1$s chats"
+ ],
+ "xDays": [
+  "%1$s day",
+  "%1$s days"
+ ],
+ "xEmojiPacks": [
+  "%1$s emoji pack",
+  "%1$s emoji packs"
+ ],
+ "xGroups": [
+  "%1$s group",
+  "%1$s groups"
+ ],
+ "xJoinRequests": [
+  "%1$s join request",
+  "%1$s join requests"
+ ],
+ "xMembers": [
+  "%1$s member",
+  "%1$s members"
+ ],
+ "xMessages": [
+  "%1$s message",
+  "%1$s messages"
+ ],
+ "xMinutes": [
+  "%1$s minute",
+  "%1$s minutes"
+ ],
+ "xMonths": [
+  "%1$s month",
+  "%1$s months"
+ ],
+ "xMoreWithPremium": [
+  "%1$s more with **Telegram Premium**",
+  "%1$s more with **Telegram Premium**"
+ ],
+ "xOnline": [
+  "%1$s online",
+  "%1$s online"
+ ],
+ "xOtherPeopleNames": [
+  "and %1$s other",
+  "and %1$s others"
+ ],
+ "xPermissionsSendMediaAllowed": [
+  "Allowed %1$s/%2$s",
+  "Allowed %1$s/%2$s"
+ ],
+ "xReactionsLimit": [
+  "%1$s reaction",
+  "%1$s reactions"
+ ],
+ "xRevokedLinks": [
+  "%1$s revoked link",
+  "%1$s revoked links"
+ ],
+ "xSimilarChannels": [
+  "%1$s similar channel",
+  "%1$s similar channels"
+ ],
+ "xSlowModeRestrictionMinutes": [
+  "Slow mode is active. You can send the next message in %1$s minute",
+  "Slow mode is active. You can send the next message in %1$s minutes"
+ ],
+ "xSlowModeRestrictionSeconds": [
+  "Slow mode is active. You can send the next message in %1$s second",
+  "Slow mode is active. You can send the next message in %1$s seconds"
+ ],
+ "xStickersHide": [
+  "Archive %1$s pack",
+  "Archive %1$s packs"
+ ],
+ "xStickersInstall": [
+  "Install %1$s pack",
+  "Install %1$s packs"
+ ],
+ "xSubscribers": [
+  "%1$s subscriber",
+  "%1$s subscribers"
+ ],
+ "xUsers": [
+  "%1$s user",
+  "%1$s users"
+ ],
+ "xViews": [
+  "%1$s view",
+  "%1$s views"
+ ],
+ "xVotes": [
+  "%1$s vote",
+  "%1$s votes"
+ ],
+ "xWeeks": [
+  "%1$s week",
+  "%1$s weeks"
+ ]
+}

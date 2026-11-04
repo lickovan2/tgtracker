@@ -1,0 +1,684 @@
+{
+ "Appearance.CustomBackground.FileError": [
+  "The file size must not exceed 10MB and the image dimensions must not exceed 500x500px."
+ ],
+ "AudioController.voiceMessage": [
+  "voice message"
+ ],
+ "AudioRecord.Help.Fixed": [
+  "Click outside of circle to cancel"
+ ],
+ "AudioRecord.Help.Plain": [
+  "Release outside of circle to cancel"
+ ],
+ "Call.Confirm.DiscardCurrent.Description": [
+  "Finish the call with %@ and start a new one with %@?"
+ ],
+ "Call.Confirm.DiscardCurrent.Header": [
+  "Call in Progress"
+ ],
+ "Call.ParticipantVersionOutdatedError": [
+  "%@'s app does not support calls. They need to update their app before you can call them."
+ ],
+ "Call.PrivacyErrorMessage": [
+  "Sorry, you cannot call %@ because of their privacy settings. You can ask them to modify their setting or to call you instead."
+ ],
+ "Call.Recent.Missed": [
+  "Missed"
+ ],
+ "Call.ShortMinutes": [
+  "%d min",
+  "%d min"
+ ],
+ "Call.ShortSeconds": [
+  "%d sec",
+  "%d sec"
+ ],
+ "Call.StatusConnecting": [
+  "Connecting..."
+ ],
+ "Call.StatusFailed": [
+  "Call Failed"
+ ],
+ "Chat.Bubbles.ForwardedFrom": [
+  "Forwarded from: [%@]()"
+ ],
+ "Chat.Call.Incoming": [
+  "Incoming Call"
+ ],
+ "Chat.Call.Outgoing": [
+  "Outgoing Call"
+ ],
+ "Chat.Cancel": [
+  "Cancel"
+ ],
+ "Chat.ChatTheme.ResetToDefault": [
+  "Remove Wallpaper"
+ ],
+ "Chat.ChatTheme.SelectBackground": [
+  "Choose a Wallpaper"
+ ],
+ "Chat.Confirm.DeleteMessages1": [
+  "Delete selected message?",
+  "Delete selected messages?"
+ ],
+ "Chat.Confirm.ReportSpamUser": [
+  "Are you sure you want to report spam from this user?"
+ ],
+ "Chat.Context.DeleteSaved": [
+  "Are you sure you want to delete saved messages?"
+ ],
+ "Chat.Context.EditHelp": [
+  "click on date"
+ ],
+ "Chat.Context.Scheduled.Reschedule": [
+  "Re-schedule"
+ ],
+ "Chat.Context.Scheduled.SendNow": [
+  "Send Now"
+ ],
+ "Chat.Date.ScheduledFor": [
+  "Scheduled for %@"
+ ],
+ "Chat.Date.ScheduledForToday": [
+  "Scheduled for today"
+ ],
+ "Chat.Empty.LinkPreview": [
+  "Link Preview"
+ ],
+ "Chat.Header.ReportSpam": [
+  "Report Spam"
+ ],
+ "Chat.Input.Accessory.EditMessage": [
+  "Edit Message"
+ ],
+ "Chat.Input.Delete": [
+  "Delete and Leave"
+ ],
+ "Chat.Input.SecretChat.WaitingToOnline": [
+  "Waiting for the other user to come online..."
+ ],
+ "Chat.Input.SecretChat.WaitingToUserOnline": [
+  "Waiting for %@ to get online..."
+ ],
+ "Chat.Input.Unblock": [
+  "Unblock user"
+ ],
+ "Chat.List.Sticker": [
+  "%@ Sticker"
+ ],
+ "Chat.List.Voice": [
+  "Voice Message"
+ ],
+ "Chat.LiveLocation": [
+  "Live Location"
+ ],
+ "Chat.LiveLocation.Updated": [
+  "Updated %d minute ago",
+  "Updated %d minutes ago"
+ ],
+ "Chat.LiveLocation.UpdatedNow": [
+  "Updated just now"
+ ],
+ "Chat.Message.DeleteForMe": [
+  "Delete for Me"
+ ],
+ "Chat.Message.DeleteForMeAndPerson": [
+  "Delete for Me and %@"
+ ],
+ "Chat.Reaction.Context.AddLabel": [
+  "Add Name"
+ ],
+ "Chat.Reaction.Context.EditTag": [
+  "Edit Name"
+ ],
+ "Chat.Reaction.Context.EditTag.Info": [
+  "You can label your emoji tag with a text name."
+ ],
+ "Chat.Reaction.Context.FilterByTag": [
+  "Filter by Tag"
+ ],
+ "Chat.Reaction.Context.RemoveTag": [
+  "Remove Tag"
+ ],
+ "Chat.Reaction.EditTag.Placeholder": [
+  "Label..."
+ ],
+ "Chat.Recording.Cancel": [
+  "Are you sure you want to stop recording and discardyour voice message?"
+ ],
+ "Chat.Right.Context.Reminder": [
+  "Reminder"
+ ],
+ "Chat.SecretChat.1Feature": [
+  " - Use end-to-end encryption"
+ ],
+ "Chat.SecretChat.2Feature": [
+  " - Leave no trace on our servers"
+ ],
+ "Chat.SecretChat.3Feature": [
+  " - Have a self-destruct timer"
+ ],
+ "Chat.SecretChat.4Feature": [
+  " - Do not allow forwarding"
+ ],
+ "Chat.SecretChat.EmptyHeader": [
+  "Secret chats:"
+ ],
+ "Chat.Send.SendWhenOnline": [
+  "Send When Online"
+ ],
+ "Chat.Send.SetReminder": [
+  "Set a Reminder"
+ ],
+ "Chat.Send.WithoutSound": [
+  "Send Without Sound"
+ ],
+ "Chat.SendVoice.PrivacyError": [
+  "%@ doesn't accept voice and video messages"
+ ],
+ "Chat.Service.Call.Cancelled": [
+  "Canceled"
+ ],
+ "Chat.Service.Call.Missed": [
+  "Missed"
+ ],
+ "Chat.Service.Gift.View": [
+  "View"
+ ],
+ "Chat.Service.Group.TookScreenshot": [
+  "%@ took a screenshot!"
+ ],
+ "Chat.Service.PremiumGift.SentYou": [
+  "You sent a gift for %@"
+ ],
+ "Chat.Service.SecretChat.DisabledTimer": [
+  "%@ disabled the self-destruct timer"
+ ],
+ "Chat.Service.SecretChat.DisabledTimer.Self": [
+  "You disabled the self-destruct timer"
+ ],
+ "Chat.Service.SecretChat.SetTimer": [
+  "%@ set the self-destruct timer to %@"
+ ],
+ "Chat.Service.SecretChat.SetTimer.Self": [
+  "You set the self-destruct timer to %@"
+ ],
+ "Chat.Service.StarGift.From": [
+  "Gift from %@"
+ ],
+ "Chat.Service.StarGift.SentYou": [
+  "You sent a gift for %@"
+ ],
+ "Chat.Service.SuggestPhoto.Info.You": [
+  "You suggested %@ to use this photo for their Telegram profile."
+ ],
+ "Chat.State.HideOtherMessages": [
+  "Hide Other Messages"
+ ],
+ "Chat.State.ShowOtherMessages": [
+  "Show Other Messages"
+ ],
+ "Chat.Title.Reminder": [
+  "Reminder"
+ ],
+ "Chat.Translate.Menu.Hide.User.Tooltip": [
+  "Translation bar hidden.You can re-enable it on the info page."
+ ],
+ "Chat.VideoCall.Incoming": [
+  "Incoming Video Call"
+ ],
+ "Chat.WP.SelectFromFile": [
+  "Select From File"
+ ],
+ "Chat.Webpage.MediaCount": [
+  "%d of %d"
+ ],
+ "ChatInput.OpenChat": [
+  "Open Chat"
+ ],
+ "ChatList.AuthorHidden": [
+  "Author Hidden"
+ ],
+ "ChatList.FolderUpdates.Title": [
+  "%d New Chats Available",
+  "%d New Chats Available"
+ ],
+ "ChatList.SecretChat.Created": [
+  "%@ created a secret chat."
+ ],
+ "ChatList.SecretChat.ExKeys": [
+  "Waiting to come online"
+ ],
+ "ChatList.SecretChat.Joined": [
+  "%@ joined your secret chat."
+ ],
+ "ChatList.SecretChat.Terminated": [
+  "Secret chat canceled"
+ ],
+ "ChatList.Service.Call.Missed": [
+  "Missed Call"
+ ],
+ "ChatList.Service.Call.outgoing": [
+  "Outgoing Call (%@)"
+ ],
+ "ChatMessage.Folder.Expired": [
+  "The folder link has expired"
+ ],
+ "ChatMessage.ViewChatList": [
+  "VIEW CHAT LIST"
+ ],
+ "ChatService.ChangedToSameWallpaper": [
+  "%1$@ set the same wallpaper for this chat"
+ ],
+ "ChatService.ChangedWallpaper": [
+  "%1$@ set a new wallpaper for this chat"
+ ],
+ "ChatService.Suggest.View": [
+  "View Photo"
+ ],
+ "ChatService.UpdateBackground": [
+  "Update Wallpaper"
+ ],
+ "ChatService.ViewBackground": [
+  "View Wallpaper"
+ ],
+ "ChatService.YouChangedToSameWallpaper": [
+  "You set the same wallpaper as your chat partner"
+ ],
+ "ChatService.YouChangedWallpaper": [
+  "You set a new wallpaper for this chat"
+ ],
+ "ChatService.YouChangedWallpaperBoth": [
+  "You set a new wallpaper for %@ and you"
+ ],
+ "ChatTheme.Theme": [
+  "Select Theme"
+ ],
+ "ChatTheme.Theme.Info": [
+  "Theme will be also applied for %@"
+ ],
+ "Compose.Select.SecretChat": [
+  "Secret Chat"
+ ],
+ "Confirm.DeleteChatUser": [
+  "Are you sure you want to delete all message history?This action cannot be undone."
+ ],
+ "Contacts.NotRegistredDescription": [
+  "This person is not registered on Telegram yet.You will be able to send them a Telegram message as soon as they sign up."
+ ],
+ "Contacts.NotRegistredTitle": [
+  "Not a Telegram User"
+ ],
+ "Date.Today": [
+  "Today"
+ ],
+ "EncryptionKey.Description": [
+  "This image and text were derived from the encryption key for this secret chat with **%@**.If they look the same on **%@**'s device, end-to-end encryption is guaranteed."
+ ],
+ "GeneralSettings.EmojiPrediction.DisableText": [
+  "Disable emoji suggestions? You can re-enable them in Settings at any time."
+ ],
+ "Gift.Unique.Transfer": [
+  "change"
+ ],
+ "Gift.View.DisplayedInfoHide": [
+  "The gift is visible on your profile. [Hide >]()"
+ ],
+ "InputAttach.Popover.Gift": [
+  "Gift Premium"
+ ],
+ "LastSeen.HoursAgo": [
+  "last seen %d hour ago",
+  "last seen %d hours ago"
+ ],
+ "Message.ActionsPanel.Delete": [
+  "Delete"
+ ],
+ "Message.ActionsPanel.Forward": [
+  "Forward"
+ ],
+ "Message.ActionsPanel.SelectedCount": [
+  "%d message selected",
+  "%d messages selected"
+ ],
+ "Message.Context.Goto": [
+  "Show Message"
+ ],
+ "Messages.File.State.Remote": [
+  "Download"
+ ],
+ "Messages.UnreadMark": [
+  "Unread messages"
+ ],
+ "Navigation.Done": [
+  "Done"
+ ],
+ "NewContact.Exception.ShareMyPhoneNumber": [
+  "Share My Phone Number"
+ ],
+ "NewContact.Exception.ShareMyPhoneNumber.Desc": [
+  "You can make your phone visible to %@."
+ ],
+ "NewContact.Phone": [
+  "phone number"
+ ],
+ "NewContact.Title": [
+  "New Contact"
+ ],
+ "Notification.Input.Reply": [
+  "Type a message..."
+ ],
+ "Notification.Reply": [
+  "Reply"
+ ],
+ "Notification.StarsGift.UpgradeYou": [
+  "You turned the gift from %@ into a unique collectible"
+ ],
+ "Notification.Title.Reply": [
+  "Reply"
+ ],
+ "Peer.Activity.User.RecordingAudio": [
+  "recording voice"
+ ],
+ "Peer.Activity.User.RecordingVideo": [
+  "recording video"
+ ],
+ "Peer.Activity.User.SendingFile": [
+  "sending file"
+ ],
+ "Peer.Activity.User.SendingPhoto": [
+  "sending a photo"
+ ],
+ "Peer.Activity.User.SendingVideo": [
+  "sending a video"
+ ],
+ "Peer.Media.ShareMedia.SavedMessages": [
+  "Media will appear here."
+ ],
+ "Peer.SavedMessages": [
+  "Saved Messages"
+ ],
+ "Peer.Status.LastSeenAt": [
+  "last seen %@ at %@"
+ ],
+ "Peer.Status.Today": [
+  "today"
+ ],
+ "Peer.Status.Yesterday": [
+  "yesterday"
+ ],
+ "Peer.Status.lastMonth": [
+  "last seen within a month"
+ ],
+ "Peer.Status.lastWeek": [
+  "last seen within a week"
+ ],
+ "Peer.Status.longTimeAgo": [
+  "last seen a long time ago"
+ ],
+ "Peer.Status.online": [
+  "online"
+ ],
+ "Peer.Status.recently": [
+  "last seen recently"
+ ],
+ "PeerInfo.Action.Call": [
+  "Call"
+ ],
+ "PeerInfo.Action.Message": [
+  "Message"
+ ],
+ "PeerInfo.Action.More": [
+  "More"
+ ],
+ "PeerInfo.Action.SecretChat": [
+  "Secret"
+ ],
+ "PeerInfo.Action.Share": [
+  "Share"
+ ],
+ "PeerInfo.Action.Unmute": [
+  "Unmute"
+ ],
+ "PeerInfo.Action.VideoCall": [
+  "Video"
+ ],
+ "PeerInfo.AddUserToContact": [
+  "Add %@ to Contacts"
+ ],
+ "PeerInfo.Block.Header": [
+  "Block User"
+ ],
+ "PeerInfo.Block.OK": [
+  "Block"
+ ],
+ "PeerInfo.Block.Text": [
+  "Do you want to block %@ from messaging and calling you on Telegram?"
+ ],
+ "PeerInfo.BlockUser": [
+  "Block User"
+ ],
+ "PeerInfo.ChannelType": [
+  "Channel Type"
+ ],
+ "PeerInfo.ChatBackground": [
+  "Change Wallpaper"
+ ],
+ "PeerInfo.Confirm.Clear": [
+  "Clear"
+ ],
+ "PeerInfo.Confirm.StartSecretChat": [
+  "Are you sure you want to start a secret chat with \"%@\"?"
+ ],
+ "PeerInfo.DeleteSecretChat": [
+  "Delete Secret Chat"
+ ],
+ "PeerInfo.EncryptionKey": [
+  "Encryption Key"
+ ],
+ "PeerMedia.Saved": [
+  "Saved"
+ ],
+ "PeerMedia.SavedMessages": [
+  "Chats"
+ ],
+ "PlaybackSpeed.SetToDefault": [
+  "Set to Default"
+ ],
+ "QuickSwitcher.Description": [
+  "**TAB** or **↑ ↓** to navigate, **⮐** to select, **ESC** to dismiss"
+ ],
+ "SavedMessages.Tags.Unlock": [
+  "Unlock"
+ ],
+ "SecretTimer.Off": [
+  "Off"
+ ],
+ "ServiceMessage.DesturctingPhoto": [
+  "%@ sent you a self-destructing photo. Please view it on your mobile."
+ ],
+ "ServiceMessage.DesturctingVideo": [
+  "%@ sent you a self-destructing video. Please view it on your mobile device."
+ ],
+ "ServiceMessage.ExpiredVoiceMessage": [
+  "voice message has expired"
+ ],
+ "ShareExtension.Cancel": [
+  "Cancel"
+ ],
+ "ShareExtension.Unauthorized.OK": [
+  "OK"
+ ],
+ "SharedFolder.Alert.AlreadyMember.Channel": [
+  "You are already subscribed to this channel."
+ ],
+ "SharedFolder.Alert.AlreadyMember.Group": [
+  "You are already a member of this group."
+ ],
+ "SharedFolder.Done.AddFolder": [
+  "Add Folder"
+ ],
+ "SharedFolder.Done.DonNotJoinChats": [
+  "Do Not Join Any Chats"
+ ],
+ "SharedFolder.Done.JoinChats": [
+  "Join Chats"
+ ],
+ "SharedFolder.ListHeader.Already": [
+  "%d CHAT ALREADY JOINED",
+  "%d CHATS ALREADY JOINED"
+ ],
+ "SharedFolder.ListHeader.ChatsToJoin": [
+  "%d CHATS TO JOIN",
+  "%d CHATS TO JOIN"
+ ],
+ "SharedFolder.ListHeader.Updates": [
+  "%d CHAT TO JOIN",
+  "%d CHATS TO JOIN"
+ ],
+ "SharedFolder.Status.AddChats": [
+  "Do you want to add **%1$d** chat to your folder **%2$@**?",
+  "Do you want to add **%1$d** chats to your folder **%2$@**?"
+ ],
+ "SharedFolder.Status.AddChats_ZeroValueHolder": [
+  "Select chats to add them to your folder"
+ ],
+ "SharedFolder.Status.AddNew": [
+  "Do you want to add a new chat folder and join its groups and channels?"
+ ],
+ "SharedFolder.Status.FullyAdded": [
+  "You have already added this folder and its chats."
+ ],
+ "SharedFolder.Title.AddChats": [
+  "Add %d chat",
+  "Add %d chats"
+ ],
+ "SharedFolder.Title.AddFolder": [
+  "Add Folder"
+ ],
+ "SharedFolder.Title.AllChats": [
+  "All Chats"
+ ],
+ "SharedFolder.Title.Personal": [
+  "Personal"
+ ],
+ "Star.Transaction.Availability.Of": [
+  "%1$d of %2$@"
+ ],
+ "Star.Transaction.ConvertAlert.TooLate": [
+  "Sorry, you can't convert this gift to stars anymore."
+ ],
+ "Star.Transaction.Date": [
+  "Date"
+ ],
+ "Star.Transaction.From": [
+  "From"
+ ],
+ "Star.Transaction.SaleFor": [
+  "sell for %d star",
+  "sell for %d stars"
+ ],
+ "Star.Transaction.SendGift": [
+  "send a gift"
+ ],
+ "Star.Transaction.StarGift.DisplayOnPage.Alert": [
+  "This gift is now visible on your profile."
+ ],
+ "Star.Transaction.StarGift.HideFromMyPage": [
+  "Hide from my profile"
+ ],
+ "Star.Transaction.StarGift.HideFromMyPage.Alert": [
+  "The gift is no longer displayed in your profile."
+ ],
+ "Star.Transaction.StarGift.SeeInProfile": [
+  "The gift is visible on your profile. [View >](view)"
+ ],
+ "Star.Transaction.Value": [
+  "Value"
+ ],
+ "Star.Transaction.Visibility": [
+  "Visibility"
+ ],
+ "Stars.StarGift.Text.Incoming": [
+  "You can keep this gift on your Profile or convert it to %1$@."
+ ],
+ "Stars.StarGift.Text.KeepOrHide": [
+  "You can keep this gift on your profile or hide it."
+ ],
+ "Stars.StarGift.Text.KeptOnPage.Incoming": [
+  "You added this gift to your profile."
+ ],
+ "Stars.StarGift.Text.Link": [
+  "[More about Stars >](stars)"
+ ],
+ "Stars.StarGift.Text.Outgoing": [
+  "%1$@ can add this gift to their profile or convert it to %2$@."
+ ],
+ "Stars.Transaction.ReceivedGift": [
+  "Received Gift"
+ ],
+ "Stars.Transaction.SentGift": [
+  "Sent Gift"
+ ],
+ "Stickers.Count": [
+  "%d sticker",
+  "%d stickers"
+ ],
+ "Stickers.Count_countable": [
+  "%d"
+ ],
+ "Telegram.GroupsInCommonViewController": [
+  "Groups In Common"
+ ],
+ "Telegram.SecretChatKeyViewController": [
+  "Encryption Key"
+ ],
+ "Text.CopyLabel_PhoneNumber": [
+  "Copy Phone Number"
+ ],
+ "Time.at": [
+  "at"
+ ],
+ "Time.last_seen": [
+  "last seen"
+ ],
+ "Time.today": [
+  "today"
+ ],
+ "Timer.Days": [
+  "%d day",
+  "%d days"
+ ],
+ "Timer.Hours": [
+  "%d hour",
+  "%d hours"
+ ],
+ "Timer.Minutes": [
+  "%d minute",
+  "%d minutes"
+ ],
+ "Timer.Seconds": [
+  "%d second",
+  "%d seconds"
+ ],
+ "Timer.Weeks": [
+  "%d week",
+  "%d weeks"
+ ],
+ "UserInfo.Suggest.Tooltip": [
+  "You suggested a new photo for %@'s Telegram profile"
+ ],
+ "Wallpaper.Background.NoApplyToPeer": [
+  "%1$@ will be able to apply this wallpaper"
+ ],
+ "WallpaperPreview.Header": [
+  "Wallpaper Preview"
+ ],
+ "You": [
+  "You"
+ ],
+ "peerInfo.Confirm.ClearHistory.SavedMesssages": [
+  "This will delete all messages and media in this chat from your Telegram cloud."
+ ]
+}

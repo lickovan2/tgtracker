@@ -1,0 +1,2118 @@
+{
+ "AccessError": [
+  "Access error"
+ ],
+ "AccurateToMeters": [
+  "Accurate to %1$s meter",
+  "Accurate to %1$s meters"
+ ],
+ "AddAccount": [
+  "Add Account"
+ ],
+ "AddComment": [
+  "Add a comment…"
+ ],
+ "AddContact": [
+  "Add Contact"
+ ],
+ "AddFolderAndJoinXChats": [
+  "Add Folder and Join %1$s chat",
+  "Add Folder and Join %1$s chats"
+ ],
+ "AddToFavorites": [
+  "Add to Favorites"
+ ],
+ "AllowWriteAccess": [
+  "Allow %1$s to send me messages"
+ ],
+ "AndroidVersionWarning": [
+  "Sorry, this feature is available only on Android %1$s (%2$s) or higher"
+ ],
+ "AnimalsAndNature": [
+  "Animals & Nature"
+ ],
+ "AnimatedSticker": [
+  "Animated Sticker"
+ ],
+ "AnswerCall": [
+  "Answer"
+ ],
+ "AppLogs": [
+  "Application Logs"
+ ],
+ "AppUpdateAvailableVersionPrompt": [
+  "A new **Telegram X** `%2$s` update is available. Would you like to download? (%1$s)"
+ ],
+ "AppUpdateInstall": [
+  "Update"
+ ],
+ "AppUpdateReady": [
+  "Telegram X is ready to be updated."
+ ],
+ "ApplyToAll": [
+  "Apply to all"
+ ],
+ "AreChoosingSticker": [
+  "%1$s are choosing stickers"
+ ],
+ "AttachContact": [
+  "Contact"
+ ],
+ "AttachFolderHome": [
+  "Home"
+ ],
+ "AttachVideoNoteExpired": [
+  "Expired video message"
+ ],
+ "AttachVoiceNoteExpired": [
+  "Expired voice message"
+ ],
+ "AudioPlaybackError": [
+  "Failed to play audio, see logs for details."
+ ],
+ "Beginning": [
+  "Beginning"
+ ],
+ "BotStart": [
+  "START"
+ ],
+ "Busy": [
+  "Busy"
+ ],
+ "CalculatingDistance": [
+  "Calculating distance…"
+ ],
+ "CallBack": [
+  "Call Back"
+ ],
+ "CallBrandingIncoming": [
+  "Incoming Telegram Call"
+ ],
+ "CallMessageIncomingDeclined": [
+  "Declined Call"
+ ],
+ "CallMessageOutgoingMissed": [
+  "Canceled Call"
+ ],
+ "Calls": [
+  "Calls"
+ ],
+ "Cancel": [
+  "Cancel"
+ ],
+ "CancelAccountReset": [
+  "Cancel Account Reset"
+ ],
+ "CancelAccountResetInfo": [
+  "Somebody with access to your phone number **%1$s** has requested to delete your Telegram account and reset your 2-Step Verification password.If this wasn't you, please enter the code we've just sent you via SMS to your number. You can also cancel this by **changing your phone number** to a number you control."
+ ],
+ "Cancelled": [
+  "Canceled"
+ ],
+ "ChatBackgroundView": [
+  "View Wallpaper"
+ ],
+ "ChatContentChannelTtlDays": [
+  "Set posts to auto-delete in %1$s day",
+  "Set posts to auto-delete in %1$s days"
+ ],
+ "ChatContentChannelTtlMonths": [
+  "Set posts to auto-delete in %1$s month",
+  "Set posts to auto-delete in %1$s months"
+ ],
+ "ChatContentChannelTtlOff": [
+  "Disabled auto-delete"
+ ],
+ "ChatContentChannelTtlWeeks": [
+  "Set posts to auto-delete in %1$s week",
+  "Set posts to auto-delete in %1$s weeks"
+ ],
+ "ChatContentFile": [
+  "File"
+ ],
+ "ChatContentGroupTtlDays": [
+  "Set messages to auto-delete in %1$s day",
+  "Set messages to auto-delete in %1$s days"
+ ],
+ "ChatContentGroupTtlMonths": [
+  "Set messages to auto-delete in %1$s month",
+  "Set messages to auto-delete in %1$s months"
+ ],
+ "ChatContentGroupTtlOff": [
+  "Disabled auto-delete"
+ ],
+ "ChatContentGroupTtlWeeks": [
+  "Set messages to auto-delete in %1$s week",
+  "Set messages to auto-delete in %1$s weeks"
+ ],
+ "ChatContentTtlDays": [
+  "Set the self-destruct timer to %1$s day",
+  "Set the self-destruct timer to %1$s days"
+ ],
+ "ChatContentTtlHours": [
+  "Set the self-destruct timer to %1$s hour",
+  "Set the self-destruct timer to %1$s hours"
+ ],
+ "ChatContentTtlMinutes": [
+  "Set the self-destruct timer to %1$s minute",
+  "Set the self-destruct timer to %1$s minutes"
+ ],
+ "ChatContentTtlSeconds": [
+  "Set the self-destruct timer to %1$s second",
+  "Set the self-destruct timer to %1$s seconds"
+ ],
+ "ChatContentTtlWeeks": [
+  "Set the self-destruct timer to %1$s week",
+  "Set the self-destruct timer to %1$s weeks"
+ ],
+ "ChatFolderInviteLinkChatTypesNotSupported": [
+  "You can’t share folders which include or exclude specific chat types like **Groups**, **Contacts**, etc."
+ ],
+ "ChatFolderInviteLinkInfo": [
+  "Anyone with this link can add %2$s folder and the %1$s chat selected below.",
+  "Anyone with this link can add %2$s folder and the %1$s chats selected below."
+ ],
+ "ChatFolderInviteLinkInfoNoCounter": [
+  "Anyone with this link can add %1$s folder and the chats selected below."
+ ],
+ "ChatFolderInviteLinkJoinChatsHint": [
+  "You can deselect the chats you don’t want to join."
+ ],
+ "ChatFolderInviteLinkLeaveChatsHint": [
+  "You can deselect the chats you don’t want to leave."
+ ],
+ "ChatFolderInviteLinkNameHint": [
+  "Name"
+ ],
+ "ChatFolderInviteLinkNoChatsToShare": [
+  "There are no chats in this folder that you can share with others."
+ ],
+ "ChatFolderInviteLinkNoChatsToShareHeader": [
+  "These chats cannot be shared"
+ ],
+ "ChatFolderInviteLinkNoChatsToShareInfo": [
+  "You can only share groups and channels in which you are allowed to create invite links."
+ ],
+ "ChatFolderInviteLinkSelectGroupsAndChannelsInfo": [
+  "Select groups and channels that you want everyone who adds this folder to join."
+ ],
+ "ChatFolderInviteLinksInfo": [
+  "Share access to some of this folder’s groups and channels with others."
+ ],
+ "ChatFolderSaveChangesBeforeCreatingANewInviteLink": [
+  "Changes must be saved before creating a new link"
+ ],
+ "ChatFoldersSetupSuggestionAction": [
+  "Start setting up"
+ ],
+ "ChatFoldersSetupSuggestionText": [
+  "The wait is over. **Chat Folders** are here for everyone to enjoy… and **customize**.Prefer icons? We’ve got you covered. Bottom tabs? No problem. Filter chats inside a folder? Swipe tab to access it as well.Archive as folder, hiding tabs, marking folder as read, sharing folders, and more features are now available."
+ ],
+ "ChatFoldersSetupSuggestionTitle": [
+  "Folders are here!"
+ ],
+ "ChatLinkRemove": [
+  "Remove Link"
+ ],
+ "ChatLinkView": [
+  "View Chat"
+ ],
+ "ChatsAndContacts": [
+  "Chats and Contacts"
+ ],
+ "ChildAbuse": [
+  "Child Abuse"
+ ],
+ "ChoosingSticker": [
+  "choosing a sticker"
+ ],
+ "Clear": [
+  "Clear"
+ ],
+ "ClearHistory": [
+  "Clear history"
+ ],
+ "ClearRecentEmojiAction": [
+  "Clear Recent Emoji"
+ ],
+ "ClearRecentsHint": [
+  "Clear recent searches?"
+ ],
+ "CloudResume": [
+  "Resume Download"
+ ],
+ "ConfirmReportBtn": [
+  "Report"
+ ],
+ "Connected": [
+  "Connected"
+ ],
+ "Contacts": [
+  "Contacts"
+ ],
+ "CopiedBankCard": [
+  "Card number copied to the clipboard"
+ ],
+ "CopiedLink": [
+  "Link has been copied to the clipboard"
+ ],
+ "CopiedMessages": [
+  "Messages have been copied to the clipboard"
+ ],
+ "CopiedText": [
+  "Text has been copied to the clipboard"
+ ],
+ "CopiedUsername": [
+  "Username has been copied to the clipboard"
+ ],
+ "Copy": [
+  "Copy"
+ ],
+ "CopyBankCard": [
+  "Copy card number"
+ ],
+ "CopyLine": [
+  "Copy line"
+ ],
+ "CopyLink": [
+  "Copy link"
+ ],
+ "CopyText": [
+  "Copy text"
+ ],
+ "CopyUsername": [
+  "Copy username"
+ ],
+ "Copyright": [
+  "Copyright"
+ ],
+ "CreateANewLink": [
+  "Create a New Link"
+ ],
+ "CreateAnInviteLink": [
+  "Create an Invite Link"
+ ],
+ "CreateLink": [
+  "Create Link"
+ ],
+ "CreateLinkCancel": [
+  "Cancel"
+ ],
+ "CreateLinkDone": [
+  "Save"
+ ],
+ "CurrentAccount": [
+  "%1$s (current)"
+ ],
+ "DeclineCall": [
+  "Decline"
+ ],
+ "DeepLinkUnsupported": [
+  "Unknown or broken link format"
+ ],
+ "Default": [
+  "Default"
+ ],
+ "Delete": [
+  "Delete"
+ ],
+ "DeleteAccountIfAwayForDays": [
+  "%1$s day",
+  "%1$s days"
+ ],
+ "DeleteAndStop": [
+  "Delete and Block"
+ ],
+ "DeleteAndStopRepliesConfirm": [
+  "Are you sure you want to delete all **reply notifications** and stop receiving them?"
+ ],
+ "DeleteChat": [
+  "Delete chat"
+ ],
+ "DeleteFolder": [
+  "Delete Folder"
+ ],
+ "DeleteFolderAndLeaveXChats": [
+  "Delete Folder and Leave %1$s chat",
+  "Delete Folder and Leave %1$s chats"
+ ],
+ "DeleteFolderWithInviteLinksConfirm": [
+  "Are you sure you want to delete this folder? This will also **deactivate all the invite links** created to share this folder."
+ ],
+ "DeleteFromCache": [
+  "Clear from cache"
+ ],
+ "DeleteLanguageConfirm": [
+  "Are you sure you want to delete this localization file?%1$s / %2$s will no longer be available in the list of installed languages."
+ ],
+ "DeleteMessage": [
+  "Delete message"
+ ],
+ "DeleteScheduled": [
+  "Delete scheduled message"
+ ],
+ "DeleteXMessages": [
+  "Delete %1$s message",
+  "Delete %1$s messages"
+ ],
+ "DeleteXScheduled": [
+  "Delete %1$s scheduled message",
+  "Delete %1$s scheduled messages"
+ ],
+ "DeletedMessage": [
+  "Deleted message"
+ ],
+ "Description": [
+  "Description"
+ ],
+ "DidNotGetTheCode": [
+  "Didn't get the code?"
+ ],
+ "DirectionGo": [
+  "Go"
+ ],
+ "Directions": [
+  "Directions…"
+ ],
+ "DiscardChanges": [
+  "Discard changes"
+ ],
+ "DismissAllPinned": [
+  "Dismiss All Messages"
+ ],
+ "DoNotAddFolder": [
+  "Do not add folder"
+ ],
+ "Done": [
+  "Done"
+ ],
+ "DoneSave": [
+  "Saved"
+ ],
+ "DownloadUpdate": [
+  "Download update"
+ ],
+ "DownloadedXFiles": [
+  "Successfully downloaded %1$s file:%2$s",
+  "Successfully downloaded %1$s files:%2$s"
+ ],
+ "DownloadingOf": [
+  "%1$s of %2$s"
+ ],
+ "Downloads": [
+  "Downloads"
+ ],
+ "DraftPreFillWarning": [
+  "Your previous draft message in this chat is about to be replaced."
+ ],
+ "DroppedPin": [
+  "Dropped Pin"
+ ],
+ "EnableProxyAlertHint": [
+  "You can change your proxy server later in Settings > Data and Storage."
+ ],
+ "EnableProxyAlertHintMtproto": [
+  "This proxy may display a sponsored channel in your chat list. This doesn't reveal any of your Telegram traffic."
+ ],
+ "EnableProxyAlertTitle": [
+  "Are you sure you want to enable this proxy?"
+ ],
+ "EnterAPassword": [
+  "Enter a password"
+ ],
+ "EnterPassword": [
+  "Enter Password"
+ ],
+ "Error": [
+  "Error"
+ ],
+ "ErrorPinnedChatsLimit": [
+  "Sorry, you can pin up to %1$s chat and %1$s secret chat at once.",
+  "Sorry, you can pin up to %1$s chats and %1$s secret chats at once."
+ ],
+ "ErrorScheduled": [
+  "This action will become available after the message is published."
+ ],
+ "EventLogSlowModeChangedYou": [
+  "You set the slow mode timer to %1$s"
+ ],
+ "ExperimentalBuildInfo": [
+  "This version of **Telegram X** is not designed for long-term use.It may completely stop working over a time and you cannot turn notifications on.If you are looking for the proper Telegram X APK file, see https://t.me/tgx_log"
+ ],
+ "ExperimentalBuildTitle": [
+  "Caution: experimental build"
+ ],
+ "File": [
+  "File"
+ ],
+ "FileName": [
+  "File Name"
+ ],
+ "Flags": [
+  "Flags"
+ ],
+ "FolderLink": [
+  "Folder Link"
+ ],
+ "FolderVisible": [
+  "Folder visible"
+ ],
+ "Folders": [
+  "Folders"
+ ],
+ "FoodDrink": [
+  "Food & Drink"
+ ],
+ "ForgotPassword": [
+  "Forgot password?"
+ ],
+ "ForwardAuthorHidden": [
+  "This account was hidden by the user."
+ ],
+ "ForwardAuthorImported": [
+  "This message was imported from another app. It may not be real."
+ ],
+ "FoundMessagesFromSelf": [
+  "messages from you"
+ ],
+ "FoundPlaces": [
+  "Found Places"
+ ],
+ "FreeXofY": [
+  "Free %1$s of %2$s"
+ ],
+ "FreedX": [
+  "Freed %1$s of disk space"
+ ],
+ "FromXChats": [
+  "from %1$s chat",
+  "from %1$s chats"
+ ],
+ "Gallery": [
+  "Gallery"
+ ],
+ "GettingLinkInfo": [
+  "Getting Link Info…"
+ ],
+ "GifPlaybackError": [
+  "Failed to play GIF, see logs for details."
+ ],
+ "GiveawayAllWinnersReceivedLinks": [
+  "All winners received gift links in private messages."
+ ],
+ "GiveawayLearnMore": [
+  "Learn More"
+ ],
+ "GlobalSearch": [
+  "Global Search"
+ ],
+ "GroupPrivate": [
+  "Private Group"
+ ],
+ "GroupPublic": [
+  "Public Group"
+ ],
+ "GroupsWillBeShownHere": [
+  "Groups in common will be shown here"
+ ],
+ "HangUp": [
+  "Hang up"
+ ],
+ "HashtagDeleteHint": [
+  "Remove this hashtag from suggestions?"
+ ],
+ "Help": [
+  "Help"
+ ],
+ "HoldToSendAsCopy": [
+  "Hold to forward without quoting and other options."
+ ],
+ "ImportedSign": [
+  "imported"
+ ],
+ "IncomingCall": [
+  "Incoming Call"
+ ],
+ "Initializing": [
+  "Starting up…"
+ ],
+ "Install": [
+  "Install"
+ ],
+ "InstantView": [
+  "Instant View"
+ ],
+ "InvalidLocalisation": [
+  "Invalid Localization File"
+ ],
+ "Invite": [
+  "Invite"
+ ],
+ "InviteFriends": [
+  "Invite Friends"
+ ],
+ "InviteLinkAdminName": [
+  "Link Name (optional)"
+ ],
+ "InviteText": [
+  "Hey, let's switch to %1$s:%2$s"
+ ],
+ "InviteTextCommonMany": [
+  "Hey, I'm using Telegram to chat – and so is %1$s of our other contacts. Join us! Download it here: %2$s",
+  "Hey, I'm using Telegram to chat – and so are %1$s of our other contacts. Join us! Download it here: %2$s"
+ ],
+ "InviteTextCommonOverThousand": [
+  "Hey, I'm using Telegram to chat – and so are 1000+ of our other contacts. Join us! Download it here: %1$s"
+ ],
+ "IsChoosingSticker": [
+  "%1$s is choosing a sticker"
+ ],
+ "IsDefault": [
+  "%1$s (default)"
+ ],
+ "IsRecordingRound": [
+  "%1$s is recording a video message"
+ ],
+ "IsRecordingVideo": [
+  "%1$s is recording video"
+ ],
+ "IsSendingContact": [
+  "%1$s is choosing a contact…"
+ ],
+ "IsSendingLocation": [
+  "%1$s is choosing location"
+ ],
+ "IsSendingRound": [
+  "%1$s is sending a video message"
+ ],
+ "JoinXChats": [
+  "Join %1$s chat",
+  "Join %1$s chats"
+ ],
+ "Language": [
+  "Language"
+ ],
+ "LanguageInfo": [
+  "Are you sure you want to apply this localization file?Language: %1$s (%2$s)Locale: %3$s, %4$sTranslated: %5$d%% (%6$s)"
+ ],
+ "LanguageInstall": [
+  "Apply Localization"
+ ],
+ "LanguageSectionInstalled": [
+  "Installed"
+ ],
+ "LanguageSectionOfficial": [
+  "Official"
+ ],
+ "LanguageSectionRaw": [
+  "Beta"
+ ],
+ "LanguageWarning": [
+  "Warning: do not install localization files from untrusted sources."
+ ],
+ "LastName": [
+  "Last name"
+ ],
+ "LaunchApp": [
+  "Launch App"
+ ],
+ "LaunchAppCheckUpdate": [
+  "Check for Updates"
+ ],
+ "LaunchAppEraseDatabase": [
+  "Erase Database & Launch App"
+ ],
+ "LaunchAppGuideDatabaseBroken": [
+  "Telegram X has previously failed to launch because TDLib data has been corrupted. This could have happened because of device storage failure.Press **Launch App** to continue. If application keeps failing, follow these steps:• Check you have enough disk space available: **%1$s**.• Ensure there are no other storage issues, such as SD-card being ejected or unrecognized.• Restart your device.If this does not help, you may want to look for similar issues on [TDLib's GitHub page](https://github.com/tdlib/td/issues) for possible resolutions, or create a new one, including error message and device details."
+ ],
+ "LaunchAppGuideFatalError": [
+  "Telegram X has closed unexpectedly the last time you were using it.Press **Launch App** to try again."
+ ],
+ "LaunchAppShareError": [
+  "Share error details"
+ ],
+ "LaunchSubtitleDatabaseBroken": [
+  "Corrupted database"
+ ],
+ "LaunchSubtitleFatalError": [
+  "Unexpected error"
+ ],
+ "LaunchTitle": [
+  "Aw, Snap!"
+ ],
+ "LayerMapDark": [
+  "Dark"
+ ],
+ "LayerMapDefault": [
+  "Light"
+ ],
+ "LayerMapSatellite": [
+  "Satellite"
+ ],
+ "LayerMapTerrain": [
+  "Terrain"
+ ],
+ "LinkPreviewEnlarged": [
+  "Link preview media will be enlarged"
+ ],
+ "LinkPreviewMinimized": [
+  "Link preview media will be minimized"
+ ],
+ "LinkPreviewShowAbove": [
+  "Link preview will appear above the text"
+ ],
+ "LinkPreviewShowBelow": [
+  "Link preview will appear below the text"
+ ],
+ "LiveLocationAlertPrivate": [
+  "Choose for how long %1$s will see your live location."
+ ],
+ "LiveLocationError": [
+  "Unable to detect current location."
+ ],
+ "LiveLocations": [
+  "Live Locations"
+ ],
+ "LoadingMessages": [
+  "Loading messages…"
+ ],
+ "LoadingPlaces": [
+  "Finding Places…"
+ ],
+ "LocalisationApplied": [
+  "Localization successfully applied"
+ ],
+ "LocalisationShare": [
+  "Share as XML"
+ ],
+ "LocalizationCopy": [
+  "Copy original"
+ ],
+ "LocalizationCreateDone": [
+  "Create"
+ ],
+ "LocalizationCreateTitle": [
+  "Create Localization"
+ ],
+ "LocalizationEdit": [
+  "Edit Localization"
+ ],
+ "LocalizationEditConfirmDiscard": [
+  "Discard Changes"
+ ],
+ "LocalizationEditConfirmPrompt": [
+  "Current string (%1$s) has been modified. Would you like to save changes?"
+ ],
+ "LocalizationEditConfirmSave": [
+  "Save Changes"
+ ],
+ "LocalizationExit": [
+  "Save & Exit"
+ ],
+ "LocalizationFileNamePlaceholder": [
+  "YOUR_FILE_NAME"
+ ],
+ "LocalizationPaste": [
+  "Paste original"
+ ],
+ "LocalizationTranslation": [
+  "Translation"
+ ],
+ "Locating": [
+  "Waiting for location…"
+ ],
+ "Location": [
+  "Location"
+ ],
+ "LogInAsOn": [
+  "Log in as %1$s on %2$s"
+ ],
+ "LogOut": [
+  "Log out"
+ ],
+ "LoginPasswordText": [
+  "You have enabled Two-Step Verification, so your account is protected with an additional password."
+ ],
+ "ManyContactsJoined": [
+  "1000+ contacts on Telegram"
+ ],
+ "MarkFolderAsRead": [
+  "Mark Folder as Read"
+ ],
+ "MediaFeatureUnavailable": [
+  "Feature is not available for this type of media"
+ ],
+ "MediaHapticForward": [
+  "Forward"
+ ],
+ "Message": [
+  "Message"
+ ],
+ "MessageInputEmpty": [
+  "Message cannot be empty"
+ ],
+ "MessageNotFound": [
+  "Message not found"
+ ],
+ "MessagePinAlbum": [
+  "Pin album"
+ ],
+ "MessagePinFiles": [
+  "Pin files"
+ ],
+ "MessagePinPlaylist": [
+  "Pin playlist"
+ ],
+ "MessageReport": [
+  "Report message"
+ ],
+ "MessageSeenNobody": [
+  "Nobody Viewed"
+ ],
+ "MessageSeenPrivacy": [
+  "To protect privacy, views are only stored for 7 days."
+ ],
+ "MessageUnpinAlbum": [
+  "Unpin album"
+ ],
+ "MessageUnpinFiles": [
+  "Unpin files"
+ ],
+ "MessageUnpinPlaylist": [
+  "Unpin playlist"
+ ],
+ "MicrophoneMissing": [
+  "Microphone is required in order to make calls. It seems to be not present on your device."
+ ],
+ "MicrophonePermission": [
+  "Permission required"
+ ],
+ "MicrophonePermissionDesc": [
+  "Microphone access required in order to make calls."
+ ],
+ "Missed": [
+  "Missed"
+ ],
+ "MoreForwardOptions": [
+  "More options…"
+ ],
+ "MoreLanguages": [
+  "More Languages"
+ ],
+ "MoreMessageOptions": [
+  "More"
+ ],
+ "Music": [
+  "Music"
+ ],
+ "Mute": [
+  "Mute"
+ ],
+ "MuteForXDays": [
+  "Mute for %1$s day",
+  "Mute for %1$s days"
+ ],
+ "MuteForXHours": [
+  "Mute for %1$s hour",
+  "Mute for %1$s hours"
+ ],
+ "MuteForever": [
+  "Mute forever"
+ ],
+ "NearbyPlaces": [
+  "Nearby Places"
+ ],
+ "NightMode": [
+  "Night Mode"
+ ],
+ "NoAnswers": [
+  "No answers yet"
+ ],
+ "NoAnswersResult": [
+  "No answers"
+ ],
+ "NoAppToOpen": [
+  "Application to open this file not found"
+ ],
+ "NoCloudThemeSupport": [
+  "This theme is not designed for **Telegram X**.However, you may check for user-made themes in @tgx_perfection."
+ ],
+ "NoGoogleMaps": [
+  "This feature requires Google Maps installed."
+ ],
+ "NoLocationAccess": [
+  "This feature requires access to your location."
+ ],
+ "NoLocationAccessBackground": [
+  "This feature requires access to your location while app is in background."
+ ],
+ "NoMediaYet": [
+  "No photos or videos yet"
+ ],
+ "NoMessages": [
+  "No messages here yet…"
+ ],
+ "NoPlacesFound": [
+  "No places found"
+ ],
+ "NoReturnToChat": [
+  "You cannot return to this chat"
+ ],
+ "NoStorageAccess": [
+  "This feature requires storage access."
+ ],
+ "NobodyLikesSpam2": [
+  "Sorry, you can interact only with mutual contacts at the moment."
+ ],
+ "NothingFound": [
+  "Nothing found"
+ ],
+ "NotificationChannelCommonChannels": [
+  "Default notification settings for all channels."
+ ],
+ "NotificationChannelCommonGroups": [
+  "Default notification settings for all group chats."
+ ],
+ "NotificationChannelOther": [
+  "Other"
+ ],
+ "NotificationChannelOutgoingCall": [
+  "Outgoing Call"
+ ],
+ "NotificationChannelUser": [
+  "Custom notification settings for messages and mentions from %1$s."
+ ],
+ "NotificationContactJoined": [
+  "%1$s joined Telegram!"
+ ],
+ "NotificationLocked": [
+  "You have a new message"
+ ],
+ "NotificationLockedTitle": [
+  "Content Hidden"
+ ],
+ "Notifications": [
+  "Notifications"
+ ],
+ "NotificationsDefaultEnabled": [
+  "Enabled"
+ ],
+ "Open": [
+  "Open"
+ ],
+ "OpenBot": [
+  "View Bot"
+ ],
+ "OpenChannel": [
+  "View Channel"
+ ],
+ "OpenGroup": [
+  "View Group"
+ ],
+ "OpenLinkAs": [
+  "Open link as…"
+ ],
+ "OpenLinkConfirm": [
+  "Do you want to open %1$s?"
+ ],
+ "OpenProfile": [
+  "View Profile"
+ ],
+ "OpenThisLink": [
+  "Open this link?%1$s"
+ ],
+ "Optimizing": [
+  "Optimizing Database"
+ ],
+ "OptimizingInfo": [
+  "Telegram optimizes the database after an update. Please wait. This operation may take a while."
+ ],
+ "Other": [
+  "Other"
+ ],
+ "Outgoing": [
+  "Outgoing"
+ ],
+ "People": [
+  "People"
+ ],
+ "PhoneCall": [
+  "Phone Call"
+ ],
+ "PlaceSearchError": [
+  "Error Searching Places"
+ ],
+ "PlayListPlayNext": [
+  "Play Next"
+ ],
+ "PlayPause": [
+  "Pause"
+ ],
+ "PlayPlay": [
+  "Play"
+ ],
+ "PlayResume": [
+  "Resume"
+ ],
+ "PlaySkipNext": [
+  "Next"
+ ],
+ "PlaySkipPrev": [
+  "Previous"
+ ],
+ "PlayStop": [
+  "Stop"
+ ],
+ "PlaybackSpeed": [
+  "Speed"
+ ],
+ "PlaybackSpeed100": [
+  "Regular"
+ ],
+ "PlaybackSpeed120": [
+  "Slightly faster"
+ ],
+ "PlaybackSpeed150": [
+  "Faster"
+ ],
+ "PlaybackSpeed200": [
+  "Doubled speed"
+ ],
+ "PlaybackSpeed50": [
+  "Very slow"
+ ],
+ "PlaybackSpeed70": [
+  "Slow"
+ ],
+ "PlaybackSpeedHintAudio100": [
+  "Audio will play at normal speed"
+ ],
+ "PlaybackSpeedHintAudio150": [
+  "Audio will play at 1.5x speed"
+ ],
+ "PlaybackSpeedHintAudio200": [
+  "Audio will play two times faster"
+ ],
+ "PlaybackSpeedHintSwipe": [
+  "Hold and swipe horizontally for precise adjustment"
+ ],
+ "PlaybackSpeedHintTemplate": [
+  "%1$s.%2$s."
+ ],
+ "PollResultsTitle": [
+  "Poll Results"
+ ],
+ "Pornography": [
+  "Pornography"
+ ],
+ "PostedBy": [
+  "Posted by %1$s"
+ ],
+ "PrivacyAddToGroupsNobody": [
+  "Nobody can add you"
+ ],
+ "PrivacyAddToGroupsNobodyExcept": [
+  "Nobody (%1$s) can add you"
+ ],
+ "PrivateChat": [
+  "Private Chat"
+ ],
+ "PrivateChatsMentions": [
+  "Private Chats and Mentions"
+ ],
+ "ProxyEnable": [
+  "Enable"
+ ],
+ "ProxySaveForLater": [
+  "Save Proxy"
+ ],
+ "ProxySettings": [
+  "Proxy settings"
+ ],
+ "ProxySponsorAlert": [
+  "This channel is shown by your proxy server. To remove this channel from your chat list, disable the proxy in Telegram Settings."
+ ],
+ "PublicGroupsUnavailable": [
+  "Sorry, public groups are unavailable for your account."
+ ],
+ "PullToSeePlaces": [
+  "Pull up to see places"
+ ],
+ "QDeleteCallFromRecent": [
+  "Delete call from recents?"
+ ],
+ "QReportChat": [
+  "Report %1$s?"
+ ],
+ "QReportMessage": [
+  "Are you sure you want to report %1$s's message?"
+ ],
+ "QReportMessageUser": [
+  "Are you sure you want to report message from %1$s?"
+ ],
+ "QReportMessages": [
+  "Are you sure you want to report %1$s's messages?"
+ ],
+ "QReportMessagesUser": [
+  "Are you sure you want to report messages from %1$s?"
+ ],
+ "QReportXMessages": [
+  "Are you sure you want to report %1$s message?",
+  "Are you sure you want to report %1$s messages?"
+ ],
+ "QualityBetter": [
+  "Better quality"
+ ],
+ "QualityWorse": [
+  "Smaller size"
+ ],
+ "QuizAnonymous": [
+  "Anonymous Quiz"
+ ],
+ "QuizResults": [
+  "Final Results"
+ ],
+ "QuizResultsTitle": [
+  "Quiz Results"
+ ],
+ "ReadingXLine": [
+  "Reading line %1$s…"
+ ],
+ "Recent": [
+  "Recent"
+ ],
+ "RecordingRound": [
+  "recording a video message"
+ ],
+ "RecordingVideo": [
+  "recording video"
+ ],
+ "Registration": [
+  "Registration"
+ ],
+ "RemindAtCustomTime": [
+  "Remind at specific date…"
+ ],
+ "RemindInXHours": [
+  "Remind in %1$s hour",
+  "Remind in %1$s hours"
+ ],
+ "RemindInXMinutes": [
+  "Remind in %1$s minute",
+  "Remind in %1$s minutes"
+ ],
+ "RemindInXYears": [
+  "Remind in %1$s year",
+  "Remind in %1$s years"
+ ],
+ "Reminder": [
+  "📅 Reminder"
+ ],
+ "RemoveFromFavorites": [
+  "Remove from Favorites"
+ ],
+ "RemoveGifConfirm": [
+  "Delete saved GIF?"
+ ],
+ "RemoveLanguage": [
+  "Delete Localization"
+ ],
+ "RepliesBot": [
+  "Replies"
+ ],
+ "Reply": [
+  "Reply"
+ ],
+ "ReplyNotifications": [
+  "comment notifications"
+ ],
+ "Report": [
+  "Report"
+ ],
+ "ReportAd": [
+  "Report Ad"
+ ],
+ "ReportAdPolicy": [
+  "Learn more about our [Ad Policies and Guidelines](https://ads.telegram.org/guidelines)."
+ ],
+ "ReportAdSubtitle": [
+  "What's wrong with this ad?"
+ ],
+ "ReportChat": [
+  "Report %1$s"
+ ],
+ "ReportChatAlertBtn": [
+  "Report"
+ ],
+ "ReportChatPhoto": [
+  "Report %1$s's photo?"
+ ],
+ "ReportChatReasonRequired": [
+  "Description (required)"
+ ],
+ "ReportChatSpam": [
+  "Are you sure you want to report %1$s for spam?"
+ ],
+ "ReportMessageUser": [
+  "Report message from %1$s"
+ ],
+ "ReportMessagesUser": [
+  "Report messages from %1$s"
+ ],
+ "ReportSpam": [
+  "Report spam"
+ ],
+ "RetrievingMessages": [
+  "Checking for new messages"
+ ],
+ "Ringtone": [
+  "Ringtone"
+ ],
+ "RingtoneDisabled": [
+  "Disabled"
+ ],
+ "SaveToDownloads": [
+  "Save to Downloads"
+ ],
+ "SaveToMusic": [
+  "Save to Music"
+ ],
+ "SaveXToDownloads": [
+  "Save %1$s file to Downloads",
+  "Save %1$s files to Downloads"
+ ],
+ "SaveXToMusic": [
+  "Save %1$s file to Music",
+  "Save %1$s files to Music"
+ ],
+ "Saved": [
+  "Saved"
+ ],
+ "SavedMessages": [
+  "Saved Messages"
+ ],
+ "ScheduledDate": [
+  "Scheduled for %1$s"
+ ],
+ "ScheduledMessages": [
+  "Scheduled Messages"
+ ],
+ "ScheduledTomorrow": [
+  "Scheduled for tomorrow"
+ ],
+ "Search": [
+  "Search"
+ ],
+ "SearchForPlaces": [
+  "Search for places"
+ ],
+ "SearchPeople": [
+  "Search People"
+ ],
+ "SecretChatFeatureUnsupported": [
+  "%1$s's Telegram client doesn't support this feature. They need to install an update first."
+ ],
+ "SecretChatForwardError": [
+  "This message cannot be forwarded to secret chats."
+ ],
+ "Select": [
+  "Select"
+ ],
+ "Send": [
+  "Send"
+ ],
+ "SendAndOpen": [
+  "Send and open chat"
+ ],
+ "SendAtCustomTime": [
+  "Send at specific date…"
+ ],
+ "SendCurrentLocation": [
+  "Send My Location"
+ ],
+ "SendDartHint": [
+  "Send a %1$s emoji to play darts."
+ ],
+ "SendDateAt": [
+  "Send %1$s at %2$s"
+ ],
+ "SendDice": [
+  "Send a dice"
+ ],
+ "SendDiceAsEmoji": [
+  "Send as emoji"
+ ],
+ "SendDiceHint": [
+  "Send a %1$s emoji to any chat to get a random number from Telegram."
+ ],
+ "SendFailureInfo": [
+  "Send failed: %1$s"
+ ],
+ "SendInXHours": [
+  "Send in %1$s hour",
+  "Send in %1$s hours"
+ ],
+ "SendInXMinutes": [
+  "Send in %1$s minute",
+  "Send in %1$s minutes"
+ ],
+ "SendInXYears": [
+  "Send in %1$s year",
+  "Send in %1$s years"
+ ],
+ "SendLiveLocationInfo": [
+  "Updated in real time as you move"
+ ],
+ "SendMediaHint": [
+  "Send media without compression"
+ ],
+ "SendMusicHint": [
+  "Send audio and music files"
+ ],
+ "SendNoSound": [
+  "Send without sound"
+ ],
+ "SendNow": [
+  "Send Now"
+ ],
+ "SendSchedule": [
+  "Schedule message"
+ ],
+ "SendTo": [
+  "Send to"
+ ],
+ "SendTodayAt": [
+  "Send today at %1$s"
+ ],
+ "SendTomorrowAt": [
+  "Send tomorrow at %1$s"
+ ],
+ "SendVideoError": [
+  "Unsupported video format. Try using less video options or sending this video as a file. See log for details."
+ ],
+ "SendXMessagesNow": [
+  "Send %1$s message?",
+  "Send %1$s messages?"
+ ],
+ "SendXOriginals": [
+  "Send %1$s original",
+  "Send %1$s originals"
+ ],
+ "SendingContact": [
+  "choosing a contact…"
+ ],
+ "SendingLocation": [
+  "choosing location"
+ ],
+ "SendingRound": [
+  "sending a video message"
+ ],
+ "SendingVoice": [
+  "sending voice"
+ ],
+ "ServiceNotifications": [
+  "service notifications"
+ ],
+ "Settings": [
+  "Settings"
+ ],
+ "Share": [
+  "Share"
+ ],
+ "ShareAs": [
+  "Share as…"
+ ],
+ "ShareBtnLink": [
+  "Share Link"
+ ],
+ "ShareBtnMessage": [
+  "Share Link"
+ ],
+ "ShareBtnPost": [
+  "Share Link"
+ ],
+ "ShareFolder": [
+  "Share Folder"
+ ],
+ "ShareLiveLocation": [
+  "Share Live Location"
+ ],
+ "ShareMyContactInfo": [
+  "Share my contact"
+ ],
+ "ShareMyNumber": [
+  "Share my phone number with %1$s"
+ ],
+ "ShareTextBotLink": [
+  "Use %1$s on Telegram: %2$s"
+ ],
+ "ShareTextChannel": [
+  "%1$s's photo"
+ ],
+ "ShareTextChannelLink": [
+  "Follow %1$s on Telegram: %2$s"
+ ],
+ "ShareTextChat": [
+  "\"%1$s\"'s chat photo"
+ ],
+ "ShareTextChatLink": [
+  "Join \"%1$s\" on Telegram: %2$s"
+ ],
+ "ShareTextFile": [
+  "File from %1$s"
+ ],
+ "ShareTextGif": [
+  "GIF from %1$s"
+ ],
+ "ShareTextMessage": [
+  "Check out %2$s's message: %1$s"
+ ],
+ "ShareTextMusic": [
+  "Music from %1$s"
+ ],
+ "ShareTextMyLink2": [
+  "My Telegram link: %1$s"
+ ],
+ "ShareTextPost": [
+  "Check out %2$s's post: %1$s"
+ ],
+ "ShareTextProfile": [
+  "%1$s's profile photo"
+ ],
+ "ShareTextProfileLink": [
+  "Contact %1$s on Telegram: %2$s"
+ ],
+ "ShareTextProfileLink2": [
+  "Contact %1$s: %2$s"
+ ],
+ "ShareTextProxyLink": [
+  "Proxy for Telegram: %1$s. This link may be helpful in accessing Telegram if there is no connection in your region."
+ ],
+ "ShareTextProxyLink2": [
+  "%1$sThis link may be helpful in accessing Telegram in censored regions."
+ ],
+ "ShareTextSharedMedia": [
+  "Chat with %1$s"
+ ],
+ "ShareTextStickerLink": [
+  "Check out \"%1$s\" sticker set for Telegram: %2$s"
+ ],
+ "ShareTextStickerLink2": [
+  "Check out \"%1$s\" sticker set: %2$s"
+ ],
+ "ShareTextVideo": [
+  "Video from %1$s"
+ ],
+ "ShareTitleAudio": [
+  "Share audio to…"
+ ],
+ "ShareTitleAudioX": [
+  "Share %1$s audio to…",
+  "Share %1$s audios to…"
+ ],
+ "ShareTitleFile": [
+  "Share file to…"
+ ],
+ "ShareTitleFileX": [
+  "Share %1$s file to…",
+  "Share %1$s files to…"
+ ],
+ "ShareTitleGif": [
+  "Share GIF to…"
+ ],
+ "ShareTitleGifX": [
+  "Share %1$s GIF to…",
+  "Share %1$s GIFs to…"
+ ],
+ "ShareTitleImage": [
+  "Share photo to…"
+ ],
+ "ShareTitleImageX": [
+  "Share %1$s photo to…",
+  "Share %1$s photos to…"
+ ],
+ "ShareTitleText": [
+  "Share to…"
+ ],
+ "ShareTitleVideo": [
+  "Share video to…"
+ ],
+ "ShareTitleVideoX": [
+  "Share %1$s video to…",
+  "Share %1$s videos to…"
+ ],
+ "SomeCallInProgressDesc": [
+  "This action cannot be done while call is active."
+ ],
+ "Spam": [
+  "Spam"
+ ],
+ "SponsoredInfoMenu": [
+  "What are sponsored messages?"
+ ],
+ "SponsoredSign": [
+  "ad"
+ ],
+ "StopSharingLiveLocation": [
+  "Stop Sharing Live Location"
+ ],
+ "SuccessfullyChangedNumber": [
+  "Successfully changed number to %1$s."
+ ],
+ "SuggestInvitingUser": [
+  "%1$s is not on Telegram yet. Would you like to invite them via SMS?"
+ ],
+ "SuggestInvitingUserCommon": [
+  "%2$s is not on Telegram yet. Would you like to invite them via SMS? They may have up to %1$s contact on Telegram.",
+  "%2$s is not on Telegram yet. Would you like to invite them via SMS? They may have up to %1$s contacts on Telegram."
+ ],
+ "Support": [
+  "support"
+ ],
+ "SupportOnline": [
+  "support (online)"
+ ],
+ "SwipeToSwapLinkPreview": [
+  "Swipe to choose specific link preview"
+ ],
+ "SymbolsAndObjects": [
+  "Symbols & Objects"
+ ],
+ "TapToSelectLanguage": [
+  "Tap to select language"
+ ],
+ "TdlibLogs": [
+  "TDLib Logs"
+ ],
+ "TermsOfService": [
+  "Terms of Service"
+ ],
+ "TermsOfServiceDone": [
+  "Agree"
+ ],
+ "TextFormatBold": [
+  "Bold"
+ ],
+ "TextFormatItalic": [
+  "Italic"
+ ],
+ "TextFormatLink": [
+  "Create Link"
+ ],
+ "TextFormatMonospace": [
+  "Monospace"
+ ],
+ "TextFormatStrikethrough": [
+  "Strikethrough"
+ ],
+ "TextFormatUnderline": [
+  "Underline"
+ ],
+ "TextFormatting": [
+  "Text formatting"
+ ],
+ "TextFormattingTools": [
+  "Tools"
+ ],
+ "TextFormattingTranslate": [
+  "Translate"
+ ],
+ "ThisChatCantBeShared": [
+  "This chat can’t be shared"
+ ],
+ "Today": [
+  "Today"
+ ],
+ "Tomorrow": [
+  "Tomorrow"
+ ],
+ "ToolsExportText": [
+  "%1$s / %2$sExported from %3$s"
+ ],
+ "ToolsLocalePlaceholder": [
+  "Locale. Examples: **ja-JP**, **zh-CN**, **ro-RO**"
+ ],
+ "ToolsStringSectionFormat": [
+  "Formats"
+ ],
+ "ToolsStringSectionMain": [
+  "Main"
+ ],
+ "ToolsStringSectionPlural": [
+  "Plurals"
+ ],
+ "ToolsStringSectionRelativeDate": [
+  "Relative dates"
+ ],
+ "ToolsStringSectionSimple": [
+  "Simple strings"
+ ],
+ "ToolsStringSectionSimpleFormatted": [
+  "Formatted strings"
+ ],
+ "ToolsStringSectionUrl": [
+  "URLs"
+ ],
+ "TransferOwnershipSecurityAlert": [
+  "Security Check"
+ ],
+ "TransferOwnershipSecurityWaitSession": [
+  "Sorry, but you need to wait **%1$s** before you can transfer ownership, because you've signed in on the current device just recently."
+ ],
+ "Translate": [
+  "Translate"
+ ],
+ "TranslateLangUnknown": [
+  "Unknown"
+ ],
+ "TranslateOff": [
+  "Disable translation"
+ ],
+ "TranslateOriginal": [
+  "Original message"
+ ],
+ "TranslateWait": [
+  "Please wait…"
+ ],
+ "TranslatedFrom": [
+  "Translated from %1$s"
+ ],
+ "TranslatingTo": [
+  "Translating to %1$s"
+ ],
+ "TranslationCopy": [
+  "Copy translation"
+ ],
+ "TranslationMoreCreate": [
+  "Create"
+ ],
+ "TranslationMoreDone": [
+  "Got it"
+ ],
+ "TranslationMoreText": [
+  "The list of available languages is managed by the [Translation Platform](https://translations.telegram.org).Telegram will offer you to switch to your language when a corresponding translation becomes officially available.While you're waiting, you can install custom localization files, join the [translation process](https://translations.telegram.org/en/android_x/), or create [your own](https://t.me/tgx_android_translate/) localization files."
+ ],
+ "TranslationMoreTitle": [
+  "Can't find your language?"
+ ],
+ "TranslationsMissing": [
+  "%1$s untranslated",
+  "%1$s untranslated"
+ ],
+ "TravelAndPlaces": [
+  "Travel & Places"
+ ],
+ "TryAgainHours": [
+  "Try again in %1$s hour",
+  "Try again in %1$s hours"
+ ],
+ "TryAgainMinutes": [
+  "Try again in %1$s minute",
+  "Try again in %1$s minutes"
+ ],
+ "TryAgainSeconds": [
+  "Try again in %1$s second",
+  "Try again in %1$s seconds"
+ ],
+ "URL": [
+  "URL"
+ ],
+ "Unmute": [
+  "Unmute"
+ ],
+ "UnpinAll": [
+  "Unpin All Messages"
+ ],
+ "UnpinMessagesConfirm": [
+  "Unpin"
+ ],
+ "UnpinXMessages": [
+  "Unpin %1$s message?",
+  "Unpin %1$s messages?"
+ ],
+ "UnsupportedMessage": [
+  "Unsupported message"
+ ],
+ "UpdateSourceChanges": [
+  "View source code changes"
+ ],
+ "UseProxyPort": [
+  "Port"
+ ],
+ "UseProxyServer": [
+  "Server"
+ ],
+ "UserRestricted": [
+  "Sorry, you were restricted by chat admins from performing this action."
+ ],
+ "UserUnavailable": [
+  "user is unavailable"
+ ],
+ "UsernameNotOccupied": [
+  "Username %1$s not found"
+ ],
+ "Vibrate": [
+  "Vibrate"
+ ],
+ "Video": [
+  "Video"
+ ],
+ "VideoPlaybackUnsupported": [
+  "Video format is not supported."
+ ],
+ "ViewXQuizResults": [
+  "View %1$s Result",
+  "View %1$s Results"
+ ],
+ "Violence": [
+  "Violence"
+ ],
+ "VoiceCalls": [
+  "Voice Calls"
+ ],
+ "VoipAudioRoutingBluetooth": [
+  "Bluetooth"
+ ],
+ "VoipAudioRoutingEarpiece": [
+  "Earpiece"
+ ],
+ "VoipAudioRoutingSpeaker": [
+  "Speaker"
+ ],
+ "VoipBranding": [
+  "Telegram Call"
+ ],
+ "VoipBusy": [
+  "Line Busy"
+ ],
+ "VoipDeclined": [
+  "Call canceled"
+ ],
+ "VoipDisconnect": [
+  "Disconnected"
+ ],
+ "VoipEndCall": [
+  "End call"
+ ],
+ "VoipEstablishing": [
+  "Connecting…"
+ ],
+ "VoipExchangingKeysShort": [
+  "Exchanging keys"
+ ],
+ "VoipInCallBranding": [
+  "Telegram Call"
+ ],
+ "VoipOffline": [
+  "You're currently offline. Please connect to the Internet in order to make calls."
+ ],
+ "VoipOfflineAirplane": [
+  "You have airplane mode enabled. Please turn it off or connect to Wi-Fi to make calls."
+ ],
+ "VoipOfflineAirplaneTitle": [
+  "Airplane Mode"
+ ],
+ "VoipOfflineTitle": [
+  "Offline"
+ ],
+ "VoipRinging": [
+  "Ringing"
+ ],
+ "WhatThisBotCanDo": [
+  "What can this bot do?"
+ ],
+ "XFoundMessagesFromChat": [
+  "%1$s message from %2$s",
+  "%1$s messages from %2$s"
+ ],
+ "XFoundMessagesFromSelf": [
+  "%1$s message from you",
+  "%1$s messages from you"
+ ],
+ "XGifSaved": [
+  "%1$s new GIF available in the media keyboard",
+  "%1$s new GIFs available in the media keyboard"
+ ],
+ "XPinnedMessages": [
+  "%1$s pinned message",
+  "%1$s pinned messages"
+ ],
+ "XSetAutoDeleteSeconds": [
+  "%2$s set messages to auto-delete in %1$s second",
+  "%2$s set messages to auto-delete in %1$s seconds"
+ ],
+ "YouCantForwardMoreMessages": [
+  "Sorry, you can't forward more than %1$s message at once",
+  "Sorry, you can't forward more than %1$s messages at once"
+ ],
+ "YouHaveNewMessage": [
+  "You have a new message"
+ ],
+ "copied_phone": [
+  "Phone number has been copied to the clipboard"
+ ],
+ "edit": [
+  "Edit"
+ ],
+ "email_LoginHelp": [
+  "recover@telegram.org"
+ ],
+ "error_BOTS_TOO_MUCH": [
+  "There are too many bots in this group. Please remove some of the bots you're not using first."
+ ],
+ "error_INVITES_TOO_MUCH": [
+  "Sorry, you have too many invite links."
+ ],
+ "error_STICKERSET_INVALID": [
+  "Sticker set not found or no longer exists."
+ ],
+ "failed": [
+  "failed"
+ ],
+ "format_PasscodeTooManyAttempts": [
+  "Too many attempts. %1$s"
+ ],
+ "format_TooManyRequests": [
+  "Too many requests. %1$s"
+ ],
+ "format_chatTitlesAndOthers": [
+  "%1$s %2$s"
+ ],
+ "format_concatSeparatorLast": [
+  " and "
+ ],
+ "format_decimalSeparator": [
+  "."
+ ],
+ "format_fileSizeAndExtension": [
+  "%1$s %2$s"
+ ],
+ "format_fileSizeAndModifiedDate": [
+  "%1$s, %2$s"
+ ],
+ "format_ivAuthorDateSeparator": [
+  " • "
+ ],
+ "format_languageStatus": [
+  "%1$s (%2$d%%)"
+ ],
+ "format_mediaIndexAndTime": [
+  "%1$s, %2$s"
+ ],
+ "format_newMessagesFromChats": [
+  "%1$s %2$s"
+ ],
+ "format_notificationScheduledChannel": [
+  "📅 Scheduled message posted in %1$s"
+ ],
+ "format_notificationScheduledGroup": [
+  "📅 Scheduled message for %1$s"
+ ],
+ "format_notificationScheduledPrivate": [
+  "📅 Scheduled message for %1$s"
+ ],
+ "format_notificationSilentText": [
+  "🔕 %1$s"
+ ],
+ "format_notificationSilentTitle": [
+  "%1$s 🔕"
+ ],
+ "format_numberSuffix_billion": [
+  "B"
+ ],
+ "format_numberSuffix_million": [
+  "M"
+ ],
+ "format_numberSuffix_thousand": [
+  "K"
+ ],
+ "format_peopleNamesAndOthers": [
+  "%1$s %2$s"
+ ],
+ "format_photosAndVideos": [
+  "%1$s, %2$s"
+ ],
+ "format_thousandsSeparator": [
+  ","
+ ],
+ "format_timestamp": [
+  "%1$02d.%2$02d.%3$02d %4$s"
+ ],
+ "general_Messages": [
+  "Messages"
+ ],
+ "language_code": [
+  "en"
+ ],
+ "language_continueInLanguage": [
+  "Continue in English"
+ ],
+ "language_continueInLanguagePopupText": [
+  "**Telegram X** is now available in **English**.Would you like to switch app language?You can revert changes anytime later in Settings > Language."
+ ],
+ "language_dateFormatLocale": [
+  "en-UK"
+ ],
+ "language_disable_lowercase": [
+  "0"
+ ],
+ "language_emoji": [
+  "🇺🇸"
+ ],
+ "language_name": [
+  "English"
+ ],
+ "language_nameInEnglish": [
+  "English"
+ ],
+ "language_rtl": [
+  "0"
+ ],
+ "locationUpdated_date": [
+  "updated on %1$s at %2$s"
+ ],
+ "locationUpdated_hours": [
+  "updated %1$s hour ago",
+  "updated %1$s hours ago"
+ ],
+ "locationUpdated_minutes": [
+  "updated %1$s minute ago",
+  "updated %1$s minutes ago"
+ ],
+ "locationUpdated_now": [
+  "updated just now"
+ ],
+ "locationUpdated_weekday": [
+  "updated on %1$s at %2$s"
+ ],
+ "locationUpdated_yesterday": [
+  "updated yesterday at %1$s"
+ ],
+ "location_AwayKilometers": [
+  "%1$s km away"
+ ],
+ "location_AwayMeters": [
+  "%1$s m away"
+ ],
+ "location_Nearby": [
+  "Nearby"
+ ],
+ "location_personAwayKilometers": [
+  "is %1$s km away"
+ ],
+ "login_Code": [
+  "Code"
+ ],
+ "login_FirstName": [
+  "First name"
+ ],
+ "login_LastName": [
+  "Last name (optional)"
+ ],
+ "login_PhoneNumber": [
+  "Phone number"
+ ],
+ "login_PremiumRequired": [
+  "**Telegram Premium** is required to proceed.Unfortunately, it's currently not possible to make in-app purchases through **Telegram X**.Please use one of other official apps and enter the same phone number to set up the subscription."
+ ],
+ "login_PremiumRequiredBtn": [
+  "Visit telegram.org"
+ ],
+ "login_PremiumRequiredTitle": [
+  "Telegram Premium required"
+ ],
+ "mentionCount": [
+  "%1$s mention",
+  "%1$s mentions"
+ ],
+ "message_edited_date": [
+  "Edited on %1$s at %2$s"
+ ],
+ "message_edited_hours": [
+  "Edited %1$s hour ago",
+  "Edited %1$s hours ago"
+ ],
+ "message_edited_minutes": [
+  "Edited %1$s minute ago",
+  "Edited %1$s minutes ago"
+ ],
+ "message_edited_now": [
+  "Edited just now"
+ ],
+ "message_edited_today": [
+  "Edited today at %1$s"
+ ],
+ "message_edited_weekday": [
+  "Edited on %1$s at %2$s"
+ ],
+ "message_edited_yesterday": [
+  "Edited yesterday at %1$s"
+ ],
+ "network_Updating": [
+  "Updating…"
+ ],
+ "network_WaitingForNetwork": [
+  "Waiting for network…"
+ ],
+ "status_LastSeenRecently": [
+  "last seen recently"
+ ],
+ "status_LastSeen_date": [
+  "seen on %1$s at %2$s"
+ ],
+ "status_LastSeen_weekday": [
+  "seen on %1$s at %2$s"
+ ],
+ "status_LastSeen_yesterday": [
+  "seen yesterday at %1$s"
+ ],
+ "timestampShort_date": [
+  "%1$s at %2$s"
+ ],
+ "timestampShort_now": [
+  "now"
+ ],
+ "timestampShort_weekday": [
+  "%1$s at %2$s"
+ ],
+ "timestampShort_yesterday": [
+  "yesterday %1$s"
+ ],
+ "timestamp_date": [
+  "%1$s at %2$s"
+ ],
+ "timestamp_minutes": [
+  "%1$s minute ago",
+  "%1$s minutes ago"
+ ],
+ "timestamp_now": [
+  "just now"
+ ],
+ "timestamp_today": [
+  "today at %1$s"
+ ],
+ "timestamp_weekday": [
+  "%1$s at %2$s"
+ ],
+ "timestamp_yesterday": [
+  "yesterday at %1$s"
+ ],
+ "unknownUser": [
+  "unknown user"
+ ],
+ "url_translationsPrefix": [
+  "https://translations.telegram.org/en/android_x/unsorted/"
+ ],
+ "xAnswers": [
+  "%1$s answer",
+  "%1$s answers"
+ ],
+ "xAudios": [
+  "%1$s audio",
+  "%1$s audios"
+ ],
+ "xBotUsers": [
+  "%1$s monthly user",
+  "%1$s monthly users"
+ ],
+ "xCalls": [
+  "%1$s call",
+  "%1$s calls"
+ ],
+ "xChatsAlreadyJoined": [
+  "%1$s chat already joined",
+  "%1$s chats already joined"
+ ],
+ "xChatsToJoin": [
+  "%1$s chat to join",
+  "%1$s chats to join"
+ ],
+ "xChatsToLeave": [
+  "%1$s chat to leave",
+  "%1$s chats to leave"
+ ],
+ "xContacts": [
+  "%1$s contact",
+  "%1$s contacts"
+ ],
+ "xContactsJoined": [
+  "%1$s contact on Telegram",
+  "%1$s contacts on Telegram"
+ ],
+ "xCorrectAnswers": [
+  "%1$s correct answer",
+  "%1$s correct answers"
+ ],
+ "xDaysShort": [
+  "%1$sd",
+  "%1$sd"
+ ],
+ "xFiles": [
+  "%1$s file",
+  "%1$s files"
+ ],
+ "xGiveawayWinnersCountMore": [
+  "and %1$s more.",
+  "and %1$s more."
+ ],
+ "xHours": [
+  "%1$s hour",
+  "%1$s hours"
+ ],
+ "xHoursShort": [
+  "%1$sh",
+  "%1$sh"
+ ],
+ "xLines": [
+  "%1$s line",
+  "%1$s lines"
+ ],
+ "xMessages": [
+  "%1$s message",
+  "%1$s messages"
+ ],
+ "xMinutes": [
+  "%1$s minute",
+  "%1$s minutes"
+ ],
+ "xMinutesShort": [
+  "%1$sm",
+  "%1$sm"
+ ],
+ "xNewMessages": [
+  "%1$s new message",
+  "%1$s new messages"
+ ],
+ "xOtherChatTitles": [
+  "and %1$s other",
+  "and %1$s others"
+ ],
+ "xPhotos": [
+  "%1$s photo",
+  "%1$s photos"
+ ],
+ "xSec": [
+  "%1$s sec",
+  "%1$s sec"
+ ],
+ "xSecondsShort": [
+  "%1$ss",
+  "%1$ss"
+ ],
+ "xStrings": [
+  "%1$s string",
+  "%1$s strings"
+ ],
+ "xVideos": [
+  "%1$s video",
+  "%1$s videos"
+ ],
+ "xVotes": [
+  "%1$s vote",
+  "%1$s votes"
+ ],
+ "xWeeksShort": [
+  "%1$sw",
+  "%1$sw"
+ ]
+}

@@ -1,0 +1,1013 @@
+{
+ "AccDescrVoiceMessage": [
+  "Record voice message"
+ ],
+ "AddPhoto": [
+  "Set Profile Photo"
+ ],
+ "AnonymousPoll": [
+  "Anonymous Poll"
+ ],
+ "AnonymousQuizPoll": [
+  "Anonymous Quiz"
+ ],
+ "ApproveNewMembers": [
+  "Request Admin Approval"
+ ],
+ "ApproveNewMembersDescription": [
+  "Turn this on if you want users to join only after they are approved by an admin."
+ ],
+ "AreYouSureDeleteAndExit": [
+  "Are you sure you want to delete and leave the group?"
+ ],
+ "AreYouSureDeleteSingleMessage": [
+  "Are you sure you want to delete this message?"
+ ],
+ "AreYouSureDeleteThisChatWithGroup": [
+  "Are you sure you want to delete the chat **{chat}**?"
+ ],
+ "AriaNewChannelContinue": [
+  "Continue to Channel Info"
+ ],
+ "AriaNewGroupContinue": [
+  "Continue to Group Info"
+ ],
+ "AskAQuestion": [
+  "Ask a Question"
+ ],
+ "CallMessageWithDuration": [
+  "{time} ({duration})"
+ ],
+ "CanJoin": [
+  "{count} can join",
+  "{count} can join"
+ ],
+ "ChannelAddException": [
+  "Add Exception"
+ ],
+ "ChannelAddSubscribers": [
+  "Add Subscribers"
+ ],
+ "ChannelAddToChannel": [
+  "Add to channel"
+ ],
+ "ChannelAddToGroup": [
+  "Add to group"
+ ],
+ "ChannelAddUsers": [
+  "Add users"
+ ],
+ "ChannelAdmin": [
+  "Admin"
+ ],
+ "ChannelAdministrators": [
+  "Administrators"
+ ],
+ "ChannelBlockUser": [
+  "Remove User"
+ ],
+ "ChannelBlockedUsers": [
+  "Removed users"
+ ],
+ "ChannelCreator": [
+  "Owner"
+ ],
+ "ChannelDelete": [
+  "Delete Channel"
+ ],
+ "ChannelDeleteAlert": [
+  "Deleting this channel will remove all subscribers and all posts will be lost. Delete the channel anyway?"
+ ],
+ "ChannelDiscussionGroupLinkGroup": [
+  "Link Group"
+ ],
+ "ChannelEditAdminPermissionBanUsers": [
+  "Ban Users"
+ ],
+ "ChannelInaccessible": [
+  "channel is inaccessible"
+ ],
+ "ChannelIntroCreateChannel": [
+  "Create Channel"
+ ],
+ "ChannelJoin": [
+  "JOIN"
+ ],
+ "ChannelJoinRequest": [
+  "APPLY TO JOIN GROUP"
+ ],
+ "ChannelLeaveAlert": [
+  "Are you sure you want to leave this channel?"
+ ],
+ "ChannelLeaveAlertWithName": [
+  "Are you sure you want to leave **{chat}**?"
+ ],
+ "ChannelManagementAddAdminDescription": [
+  "You can add admins to help you manage your channel."
+ ],
+ "ChannelManagementAddModerator": [
+  "Add Admin"
+ ],
+ "ChannelManagementLinkDiscussion": [
+  "Do you want to make **{group}** the discussion board for **{channel}**?"
+ ],
+ "ChannelManagementLinkPrivate": [
+  "Anyone from the channel will be able to see messages in this group"
+ ],
+ "ChannelPermissionDeniedSendMessagesUntil": [
+  "The admins of this group have restricted you from messaging until {date}."
+ ],
+ "ChannelPermissions": [
+  "Permissions"
+ ],
+ "ChannelPermissionsHeader": [
+  "What can members of this group do?"
+ ],
+ "ChannelPersmissionDeniedSendMessagesDefaultRestrictedText": [
+  "Sending messages is not allowed in this group."
+ ],
+ "ChannelPersmissionDeniedSendMessagesForever": [
+  "The admins of this group have restricted your ability to send messages."
+ ],
+ "ChannelPrivate": [
+  "Private Channel"
+ ],
+ "ChannelPrivateInfo": [
+  "Private channels can only be joined via invite link."
+ ],
+ "ChannelPrivateLinkHelp": [
+  "People can join your channel by following this link. You can revoke the link at any time."
+ ],
+ "ChannelPublic": [
+  "Public Channel"
+ ],
+ "ChannelPublicInfo": [
+  "Public channels can be found in search, anyone can join them."
+ ],
+ "ChannelSettingsJoinRequest": [
+  "Approve new members"
+ ],
+ "ChannelSettingsJoinRequestInfo": [
+  "Turn this on if you want users to join only after they are approved by an admin."
+ ],
+ "ChannelSettingsJoinTitle": [
+  "Who can send messages?"
+ ],
+ "ChannelSettingsJoinToSend": [
+  "Only members"
+ ],
+ "ChannelSettingsJoinToSendInfo": [
+  "Turn this on if you expect users to join your group before being able to send messages."
+ ],
+ "ChannelSignMessages": [
+  "Sign Messages"
+ ],
+ "ChannelStatsGraphFollowers": [
+  "FOLLOWERS"
+ ],
+ "ChannelStatsGraphGrowth": [
+  "GROWTH"
+ ],
+ "ChannelStatsGraphInteractions": [
+  "INTERACTIONS"
+ ],
+ "ChannelStatsGraphLanguage": [
+  "LANGUAGES"
+ ],
+ "ChannelStatsGraphNewFollowersBySource": [
+  "FOLLOWERS BY SOURCE"
+ ],
+ "ChannelStatsGraphNotifications": [
+  "NOTIFICATIONS"
+ ],
+ "ChannelStatsGraphViewsByHours": [
+  "VIEWS BY HOURS (UTC)"
+ ],
+ "ChannelStatsGraphViewsBySource": [
+  "VIEWS BY SOURCE"
+ ],
+ "ChannelStatsOverviewEnabledNotifications": [
+  "Enabled Notifications"
+ ],
+ "ChannelStatsOverviewFollowers": [
+  "Followers"
+ ],
+ "ChannelStatsOverviewSharesPerPost": [
+  "Shares Per Post"
+ ],
+ "ChannelStatsOverviewViewsPerPost": [
+  "Views Per Post"
+ ],
+ "ChannelStatsRecentHeader": [
+  "TOP RECENT POSTS"
+ ],
+ "ChannelStatsTitle": [
+  "Channel Statistics"
+ ],
+ "ChannelStatsViewsCount": [
+  "{count} view",
+  "{count} views"
+ ],
+ "ChannelSubscribers": [
+  "Subscribers"
+ ],
+ "ChannelType": [
+  "Channel Type"
+ ],
+ "ChannelUsernameCreatePublicLinkHelp": [
+  "If you set a public link, other people will be able to find and join your channel.You can use a–z, 0–9 and underscores.Minimum length is 5 characters."
+ ],
+ "ChannelVisibilityForwardingChannelInfo": [
+  "Subscribers will be able to copy, save and forward content from this channel."
+ ],
+ "ChannelVisibilityForwardingChannelTitle": [
+  "Forwarding From This Channel"
+ ],
+ "ChannelVisibilityForwardingDisabled": [
+  "Restrict Saving Content"
+ ],
+ "ChannelVisibilityForwardingEnabled": [
+  "Allow Saving Content"
+ ],
+ "ChannelVisibilityForwardingGroupInfo": [
+  "Members will be able to copy, save and forward content from this group."
+ ],
+ "ChannelVisibilityForwardingGroupTitle": [
+  "Forwarding From This Group"
+ ],
+ "ChatConfirmReportSpamChannel": [
+  "Report Spam and Leave Channel?"
+ ],
+ "ChatContextReactionCount": [
+  "1 reaction",
+  "{count} reactions"
+ ],
+ "ChatForwardActionHeader": [
+  "Forward Messages"
+ ],
+ "ChatHistory": [
+  "Chat History for New Members"
+ ],
+ "ChatListDeleteAndLeaveGroupConfirmation": [
+  "Are you sure you want to leave and delete {chat}?"
+ ],
+ "ChatListDeleteForCurrentUser": [
+  "Delete just for me"
+ ],
+ "ChatMemberListNoAccess": [
+  "You have no access to group members list"
+ ],
+ "ChatPanelUnpinAllMessages": [
+  "Unpin All Messages"
+ ],
+ "ChatPinnedUnpinAll": [
+  "Unpin {count} Message",
+  "Unpin All {count} Messages"
+ ],
+ "ChatPollTotalVotesResultEmpty": [
+  "No votes"
+ ],
+ "ChatQuizTotalVotesEmpty": [
+  "No answers yet"
+ ],
+ "ChatUnpinAllMessagesConfirmation": [
+  "Do you want to unpin {count} message in this chat?",
+  "Do you want to unpin all {count} messages in this chat?"
+ ],
+ "Comments": [
+  "{count} Comment",
+  "{count} Comments"
+ ],
+ "CommentsCount": [
+  "{count} comment",
+  "{count} comments"
+ ],
+ "ContextCopySelectedItems": [
+  "Copy Selected as Text"
+ ],
+ "ContextRemoveFromGroup": [
+  "Remove from group"
+ ],
+ "ConversationContextMenuNoViews": [
+  "Nobody Viewed"
+ ],
+ "ConversationContextMenuSeen": [
+  "1 Seen",
+  "{count} Seen"
+ ],
+ "ConversationDefaultRestrictedMedia": [
+  "Sending media isn't allowed in this group."
+ ],
+ "ConversationDeleteMessagesForEveryone": [
+  "Delete for everyone"
+ ],
+ "ConversationPinMessageAlertPinAndNotifyMembers": [
+  "Pin and notify all members"
+ ],
+ "ConversationReportMessages": [
+  "Report Messages"
+ ],
+ "CopyLink": [
+  "Copy link"
+ ],
+ "CreateLink": [
+  "Create Link"
+ ],
+ "CreateNewLink": [
+  "Create a New Link"
+ ],
+ "CreatePermanentLinkTitle": [
+  "Primary link"
+ ],
+ "CreatePollAddOption": [
+  "Add an Option"
+ ],
+ "CreatePollExplanationInfo": [
+  "Users will see this comment after choosing a wrong answer, good for educational purposes."
+ ],
+ "DeleteAllRevokedLinkHelp": [
+  "This will delete all revoked links."
+ ],
+ "DeleteAllRevokedLinks": [
+  "Delete All Revoked Links"
+ ],
+ "DeleteForAll": [
+  "Delete for all members"
+ ],
+ "DeleteForEveryoneHint": [
+  "This will delete it for everyone in this chat.",
+  "This will delete them for everyone in this chat."
+ ],
+ "DeleteForMeChatHint": [
+  "This will delete it just for you, not for other participants of the chat.",
+  "This will delete them just for you, not for other participants of the chat."
+ ],
+ "DeleteGroupForAll": [
+  "Delete the group for all members"
+ ],
+ "DeleteLink": [
+  "Delete Link"
+ ],
+ "DeleteLinkHelp": [
+  "This will delete link."
+ ],
+ "DeleteMega": [
+  "Delete Group"
+ ],
+ "DeleteThisChat": [
+  "Delete this chat"
+ ],
+ "DescriptionInfo": [
+  "You can provide an optional description for your channel."
+ ],
+ "DescriptionOptionalPlaceholder": [
+  "Description (optional)"
+ ],
+ "DescriptionPlaceholder": [
+  "Description"
+ ],
+ "DiscussChannel": [
+  "channel"
+ ],
+ "Discussion": [
+  "Discussion"
+ ],
+ "DiscussionChannelHelp": [
+  "Select a group chat for discussion that will be displayed in your channel."
+ ],
+ "DiscussionChannelHelp2": [
+  "Everything you post in the channel will be forwarded to this group."
+ ],
+ "DiscussionCreateGroup": [
+  "Create a New Group"
+ ],
+ "DiscussionLinkGroup": [
+  "LINK GROUP"
+ ],
+ "DiscussionStarted": [
+  "Discussion started"
+ ],
+ "DiscussionUnlink": [
+  "Unlink"
+ ],
+ "DiscussionUnlinkChannel": [
+  "Unlink Channel"
+ ],
+ "DiscussionUnlinkChannelAlert": [
+  "Are you sure you want to unlink **{chat}** from this channel?"
+ ],
+ "DiscussionUnlinkGroup": [
+  "Unlink Group"
+ ],
+ "DiscussionUnlinkGroupAlert": [
+  "Are you sure you want to unlink **{channel}** from this group?"
+ ],
+ "DismissRequest": [
+  "Dismiss request"
+ ],
+ "EditAdminAddAdmins": [
+  "Add New Admins"
+ ],
+ "EditAdminBanUsers": [
+  "Ban Users"
+ ],
+ "EditAdminChangeChannelInfo": [
+  "Change Channel Info"
+ ],
+ "EditAdminChangeGroupInfo": [
+  "Change Group Info"
+ ],
+ "EditAdminDeleteMessages": [
+  "Delete Messages of Others"
+ ],
+ "EditAdminEditMessages": [
+  "Edit Messages of Others"
+ ],
+ "EditAdminGroupDeleteMessages": [
+  "Delete Messages"
+ ],
+ "EditAdminPinMessages": [
+  "Pin Messages"
+ ],
+ "EditAdminPostMessages": [
+  "Post Messages"
+ ],
+ "EditAdminPromotedBy": [
+  "Promoted by {user}"
+ ],
+ "EditAdminRank": [
+  "Member tag"
+ ],
+ "EditAdminRemoveAdmin": [
+  "Dismiss Admin"
+ ],
+ "EditAdminRights": [
+  "Edit Admin Rights"
+ ],
+ "EditAdminSendAnonymously": [
+  "Remain Anonymous"
+ ],
+ "EditAdminWhatCanDo": [
+  "What can this admin do?"
+ ],
+ "EditLink": [
+  "Edit link"
+ ],
+ "EmptyGroupInfoLine1": [
+  "• Up to {count} members"
+ ],
+ "EmptyGroupInfoLine2": [
+  "• Persistent chat history"
+ ],
+ "EmptyGroupInfoLine3": [
+  "• Public links such as t.me/title"
+ ],
+ "EmptyGroupInfoLine4": [
+  "• Admins with different rights"
+ ],
+ "EmptyGroupInfoSubtitle": [
+  "Groups can have:"
+ ],
+ "EmptyGroupInfoTitle": [
+  "You created a group"
+ ],
+ "EnterChannelName": [
+  "Channel name"
+ ],
+ "ErrorSendRestrictedStickersAll": [
+  "Sorry, sending stickers is not allowed in this group"
+ ],
+ "EventLog": [
+  "Recent Actions"
+ ],
+ "EventLogFilterPinnedMessages": [
+  "Pinned messages"
+ ],
+ "EventLogInfoDetail": [
+  "This is a list of all notable actions by group members and admins in the last 48 hours."
+ ],
+ "EventLogInfoDetailChannel": [
+  "This is a list of all notable actions by channel admins in the last 48 hours."
+ ],
+ "ExpiredLink": [
+  "Expired Link"
+ ],
+ "FinalResults": [
+  "Final Results"
+ ],
+ "GifPickerBlocked": [
+  "Sending GIFs is not allowed in this chat"
+ ],
+ "GraphZoomOut": [
+  "Zoom Out"
+ ],
+ "GroupAddMembers": [
+  "Add Members"
+ ],
+ "GroupInaccessible": [
+  "group is inaccessible"
+ ],
+ "GroupInfoAdminLog": [
+  "Recent Actions"
+ ],
+ "GroupInfoDeleteAndExit": [
+  "Delete and Leave"
+ ],
+ "GroupInfoInviteLinks": [
+  "Invite Links"
+ ],
+ "GroupInviteExpireCustom": [
+  "Custom"
+ ],
+ "GroupInviteTitle": [
+  "Invite links"
+ ],
+ "GroupInviteUsageCustom": [
+  "Custom"
+ ],
+ "GroupLeaveGroup": [
+  "Leave Group"
+ ],
+ "GroupManagementAddAdminDescription": [
+  "You can add admins to help you manage your group."
+ ],
+ "GroupManagementBanUserConfirm": [
+  "Are you sure you want to ban and remove this user from the group?"
+ ],
+ "GroupMembers": [
+  "Members"
+ ],
+ "GroupStatsTitle": [
+  "Group Statistics"
+ ],
+ "GroupStickers": [
+  "Group Stickers"
+ ],
+ "GroupType": [
+  "Group Type"
+ ],
+ "GroupUsernameCreatePublicLinkHelp": [
+  "People can share this link with others and find your group using Telegram search."
+ ],
+ "HidAccount": [
+  "The account was hidden by the user"
+ ],
+ "HideAd": [
+  "Hide"
+ ],
+ "Info": [
+  "Info"
+ ],
+ "InviteLink": [
+  "Invite Link"
+ ],
+ "InviteLinkExpired": [
+  "expired"
+ ],
+ "InviteLinkExpiresIn": [
+  "expires in {time}"
+ ],
+ "JoinGroup": [
+  "JOIN GROUP"
+ ],
+ "JoinRequestAcceptAllDescription": [
+  "Are you sure you want to accept all requests?"
+ ],
+ "JoinRequestAcceptAllTitle": [
+  "Accept all requests?"
+ ],
+ "JoinRequestRejectAllDescription": [
+  "Are you sure you want to reject all requests?"
+ ],
+ "JoinRequestRejectAllTitle": [
+  "Reject all requests?"
+ ],
+ "JoinRequests": [
+  "{count} join request",
+  "{count} join requests"
+ ],
+ "JumpToDate": [
+  "Jump to Date"
+ ],
+ "LeaveAComment": [
+  "Leave a comment"
+ ],
+ "LimitByPeriod": [
+  "Limit by time period"
+ ],
+ "LimitNumberOfUses": [
+  "Limit by number of users"
+ ],
+ "LinkCopied": [
+  "Link copied to clipboard."
+ ],
+ "LinkCreatedeBy": [
+  "Link created by"
+ ],
+ "LinkExpiresIn": [
+  "The link expires {time}"
+ ],
+ "LinkLimitReached": [
+  "Limit reached"
+ ],
+ "LinkNameHelp": [
+  "Only admins will see this name."
+ ],
+ "LinkNameHint": [
+  "Link Name (Optional)"
+ ],
+ "LinkedChannel": [
+  "Linked Channel"
+ ],
+ "ManageLinksInfoHelp": [
+  "You can create additional invite links that have a limited time or number of users."
+ ],
+ "MediaPollSolutionAria": [
+  "Show solution"
+ ],
+ "MegaPrivate": [
+  "Private Group"
+ ],
+ "MegaPrivateInfo": [
+  "Private groups can only be joined if you were invited or have an invite link."
+ ],
+ "MegaPrivateLinkHelp": [
+  "People can join your group by following this link. You can revoke the link at any time."
+ ],
+ "MegaPublic": [
+  "Public Group"
+ ],
+ "MegaPublicInfo": [
+  "Public groups can be found in search, chat history is available to everyone and anyone can join."
+ ],
+ "MemberRequests": [
+  "Join Requests"
+ ],
+ "MemberRequestsRequestToJoinChannel": [
+  "Request to Join Channel"
+ ],
+ "MemberRequestsRequestToJoinGroup": [
+  "Request to Join Group"
+ ],
+ "MessageRecommendedLabel": [
+  "recommended"
+ ],
+ "MessageScheduledOn": [
+  "Scheduled for {date}"
+ ],
+ "NMembers": [
+  "{count} member",
+  "{count} members"
+ ],
+ "NewChannelTitleEmptyError": [
+  "Channel title can't be empty"
+ ],
+ "NewChatTitleEmptyError": [
+  "Chat title can't be empty"
+ ],
+ "NewChatTooManyUsers": [
+  "Sorry, creating supergroups is not yet supported"
+ ],
+ "NewLink": [
+  "New Link"
+ ],
+ "NewPoll": [
+  "New Poll"
+ ],
+ "NoDiscussionsLinked": [
+  "No discussion groups found"
+ ],
+ "NoLimit": [
+  "No limit"
+ ],
+ "NoMemberRequests": [
+  "No join requests"
+ ],
+ "NoMemberRequestsDescription": [
+  "There are no pending join requests."
+ ],
+ "NoMessages": [
+  "No messages here yet…"
+ ],
+ "NoOneJoined": [
+  "No one joined"
+ ],
+ "NoOneJoinedYet": [
+  "No one joined yet"
+ ],
+ "NoSubscribeRequestsDescription": [
+  "There are no pending join requests."
+ ],
+ "OnlineCount": [
+  "{count} online",
+  "{count} online"
+ ],
+ "OptionHint": [
+  "Option"
+ ],
+ "PeerInfoConfirmRemovePeer": [
+  "Remove {user} from the group?"
+ ],
+ "PeopleCanJoinViaLinkCount": [
+  "{count} person can join via this link.",
+  "{count} people can join via this link."
+ ],
+ "PeopleJoined": [
+  "{count} person joined",
+  "{count} people joined"
+ ],
+ "PinMessageAlert": [
+  "Pin this message in the group?"
+ ],
+ "PinMessageAlertChannel": [
+  "Do you want to pin this message in this channel?"
+ ],
+ "PinMessageAlertChat": [
+  "Do you want to pin this message to the top of the chat?"
+ ],
+ "PinMessageAlertTitle": [
+  "Pin message"
+ ],
+ "PinnedMessagesCount": [
+  "Pinned Message",
+  "{count} Pinned Messages"
+ ],
+ "PollMultiple": [
+  "Allow Multiple Answers"
+ ],
+ "PollQuiz": [
+  "Set Correct Answer"
+ ],
+ "PollResults": [
+  "Final Results"
+ ],
+ "PollSubmitVotes": [
+  "Vote"
+ ],
+ "PollViewResults": [
+  "View Results"
+ ],
+ "PollsChooseAnswers": [
+  "Please enter at least two options."
+ ],
+ "PollsChooseCorrect": [
+  "Please choose the correct answer."
+ ],
+ "PollsChooseQuestion": [
+  "Please enter a question."
+ ],
+ "PollsRetract": [
+  "Retract vote"
+ ],
+ "PollsSolutionTitle": [
+  "Explanation"
+ ],
+ "PollsStop": [
+  "Stop poll"
+ ],
+ "PollsStopSure": [
+  "Stop"
+ ],
+ "PollsStopWarning": [
+  "If you stop this poll now, nobody will be able to vote in it anymore. This action cannot be undone."
+ ],
+ "PrimaryLinkHelp": [
+  "Anyone on Telegram will be able to join your group by following this link."
+ ],
+ "PrimaryLinkHelpChannel": [
+  "Anyone on Telegram will be able to join your channel by following this link."
+ ],
+ "ProfileJoinChannel": [
+  "Join Channel"
+ ],
+ "ProfileJoinGroup": [
+  "Join Group"
+ ],
+ "ProfileViewChannel": [
+  "View Channel"
+ ],
+ "PublicLink": [
+  "Public link"
+ ],
+ "PublicPoll": [
+  "Poll"
+ ],
+ "QuizPoll": [
+  "Quiz"
+ ],
+ "RequestToJoinChannelSentDescription": [
+  "You will be added to the channel once its admins approve your request."
+ ],
+ "RequestToJoinGroupSentDescription": [
+  "You will be added to the group once an admin approves your request."
+ ],
+ "RestictionReasonPrivateChannel": [
+  "This is a private channel"
+ ],
+ "RestictionReasonPrivateChat": [
+  "This is a private chat"
+ ],
+ "RevokeAlert": [
+  "Are you sure you want to revoke this link? Once the link is revoked, no one will be able to join using it."
+ ],
+ "RevokeButton": [
+  "Revoke"
+ ],
+ "RevokeLink": [
+  "Revoke Link"
+ ],
+ "Revoked": [
+  "Revoked"
+ ],
+ "RevokedLinks": [
+  "Revoked Links"
+ ],
+ "SaveLink": [
+  "Save Link"
+ ],
+ "ScheduledMessagesEmptyPlaceholder": [
+  "No scheduled messages here yet..."
+ ],
+ "SearchMessages": [
+  "Messages"
+ ],
+ "SendMessageAsTitle": [
+  "Send message as..."
+ ],
+ "SetAsAdmin": [
+  "Promote to Admin"
+ ],
+ "SetUrlInvalid": [
+  "Link contains invalid characters"
+ ],
+ "SetUrlLong": [
+  "Link is too long"
+ ],
+ "SetUrlPlaceholder": [
+  "Link"
+ ],
+ "SetUrlShort": [
+  "Link is too short"
+ ],
+ "ShowMoreVoters": [
+  "Show 1 more voter",
+  "Show {count} more voters"
+ ],
+ "SlowModeHint": [
+  "Slow Mode is active. You can send your next message in {time}."
+ ],
+ "SponsoredMessageInfo": [
+  "What are sponsoredmessages?"
+ ],
+ "SponsoredMessageInfoDescription1": [
+  "Unlike other apps, Telegram never uses your private data to target ads. Sponsored messages on Telegram are based solely on the topic of the public channels in which they are shown. This means that no user data is mined or analyzed to display ads, and every user viewing a channel on Telegram sees the same sponsored messages."
+ ],
+ "SponsoredMessageInfoDescription3": [
+  "Telegram offers a free and unlimited service to hundreds of millions of users, which involves significant server and traffic costs. In order to remain independent and stay true to its values, Telegram developed a paid tool to promote messages with user privacy in mind. We welcome responsible advertisers at:"
+ ],
+ "SponsoredMessageInfoDescription4": [
+  "Sponsored Messages are currently in test mode. Once they are fully launched and allow Telegram to cover its basic costs, we will start sharing ad revenue with the owners of public channels in which sponsored messages are displayed.Online ads should no longer be synonymous with abuse of user privacy. Let us redefine how a tech company should operate – together."
+ ],
+ "StartVoipChat": [
+  "Start Video chat"
+ ],
+ "StartVoipChatPermission": [
+  "Manage Video Chats"
+ ],
+ "StatisticOverview": [
+  "Overview"
+ ],
+ "Statistics": [
+  "Statistics"
+ ],
+ "StatsGroupActionsTitle": [
+  "ACTIONS"
+ ],
+ "StatsGroupGrowthTitle": [
+  "GROWTH"
+ ],
+ "StatsGroupLanguagesTitle": [
+  "MEMBERS' PRIMARY LANGUAGE"
+ ],
+ "StatsGroupMembers": [
+  "Members"
+ ],
+ "StatsGroupMembersTitle": [
+  "GROUP MEMBERS"
+ ],
+ "StatsGroupMessages": [
+  "Messages"
+ ],
+ "StatsGroupMessagesTitle": [
+  "MESSAGES"
+ ],
+ "StatsGroupPosters": [
+  "Posting Members"
+ ],
+ "StatsGroupTopHoursTitle": [
+  "TOP HOURS"
+ ],
+ "StatsGroupViewers": [
+  "Viewing Members"
+ ],
+ "StatsMessageInteractionsTitle": [
+  "INTERACTIONS"
+ ],
+ "StatsMessagePrivateShares": [
+  "Private Shares"
+ ],
+ "StatsMessagePublicShares": [
+  "Public Shares"
+ ],
+ "StatsMessageTitle": [
+  "Message Statistics"
+ ],
+ "StatsMessageViews": [
+  "Views"
+ ],
+ "StatsNoShares": [
+  "No shares"
+ ],
+ "SubscribeRequests": [
+  "Join Requests"
+ ],
+ "Subscribers": [
+  "{count} subscriber",
+  "{count} subscribers"
+ ],
+ "TimeLimitHelp": [
+  "You can make the link expire after a certain time."
+ ],
+ "TypePrivate": [
+  "Private"
+ ],
+ "TypePublic": [
+  "Public"
+ ],
+ "UnpinMessageAlertTitle": [
+  "Unpin message"
+ ],
+ "UserRemovedBy": [
+  "Removed by {user}"
+ ],
+ "UserRestrictions": [
+  "User Permissions"
+ ],
+ "UserRestrictionsBlock": [
+  "Ban and remove from group"
+ ],
+ "UserRestrictionsCanDo": [
+  "What can this user do?"
+ ],
+ "UserRestrictionsChangeInfo": [
+  "Change Chat Info"
+ ],
+ "UserRestrictionsInviteUsers": [
+  "Add Users"
+ ],
+ "UserRestrictionsNoEmbedLinks": [
+  "no embed links"
+ ],
+ "UserRestrictionsNoSendMedia": [
+  "no media"
+ ],
+ "UserRestrictionsNoSendPolls": [
+  "no polls"
+ ],
+ "UserRestrictionsNoSendStickers": [
+  "no stickers & GIFs"
+ ],
+ "UserRestrictionsPinMessages": [
+  "Pin Messages"
+ ],
+ "UserRestrictionsSend": [
+  "Send Messages"
+ ],
+ "UserRestrictionsSendMedia": [
+  "Send Media"
+ ],
+ "UsesLimitHelp": [
+  "You can make the link work only for a certain number of users."
+ ],
+ "VideoCall": [
+  "Video Call"
+ ],
+ "ViewDiscussion": [
+  "View Discussion"
+ ],
+ "VoipGroupInviteMember": [
+  "Invite Members"
+ ],
+ "VoipGroupJoinCall": [
+  "Join video chat"
+ ],
+ "VoipGroupLeave": [
+  "Leave"
+ ],
+ "VoipGroupPersonalAccount": [
+  "personal account"
+ ],
+ "VoipUnmute": [
+  "Unmute"
+ ]
+}

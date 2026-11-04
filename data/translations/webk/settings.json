@@ -1,0 +1,648 @@
+{
+ "AccountSettings.Filters": [
+  "Chat Folders"
+ ],
+ "AccountSettings.Language": [
+  "Language"
+ ],
+ "AccountSettings.Notifications": [
+  "Notifications and Sounds"
+ ],
+ "AccountSettings.PrivacyAndSecurity": [
+  "Privacy and Security"
+ ],
+ "Add": [
+  "Add"
+ ],
+ "AreYouSureSessionTitle": [
+  "Terminate session"
+ ],
+ "AreYouSureSessions": [
+  "Are you sure you want to terminate all other sessions?"
+ ],
+ "AreYouSureSessionsTitle": [
+  "Terminate sessions"
+ ],
+ "AutoDownloadMedia": [
+  "Auto-Download Media"
+ ],
+ "AutodownloadChannels": [
+  "Channels"
+ ],
+ "AutodownloadContacts": [
+  "Contacts"
+ ],
+ "AutodownloadGroupChats": [
+  "Group Chats"
+ ],
+ "AutodownloadPrivateChats": [
+  "Private Chats"
+ ],
+ "AutoplayGIF": [
+  "GIFs"
+ ],
+ "AutoplayVideo": [
+  "Videos"
+ ],
+ "Bio.Description": [
+  "Any details such as age, occupation or city.Example: 23 y.o. designer from San Francisco"
+ ],
+ "BlockModal.Search.Placeholder": [
+  "Block user..."
+ ],
+ "BlockedEmpty": [
+  "None"
+ ],
+ "BlockedUsers": [
+  "Blocked Users"
+ ],
+ "BlockedUsersInfo": [
+  "Blocked users can't send you messages or add you to groups. They will not see your profile photos, stories, online and last seen status."
+ ],
+ "Cancel": [
+  "Cancel"
+ ],
+ "Channels": [
+  "%1$d channel",
+  "%1$d channels"
+ ],
+ "ChatBackground": [
+  "Chat Wallpaper"
+ ],
+ "ChatBackground.Blur": [
+  "Blur Wallpaper Image"
+ ],
+ "ChatBackground.UploadWallpaper": [
+  "Upload Wallpaper"
+ ],
+ "ChatList.Filter.Archive": [
+  "Archived"
+ ],
+ "ChatList.Filter.Bots": [
+  "Bots"
+ ],
+ "ChatList.Filter.Channels": [
+  "Channels"
+ ],
+ "ChatList.Filter.Contacts": [
+  "Contacts"
+ ],
+ "ChatList.Filter.Exclude.AddChat": [
+  "Add Chats"
+ ],
+ "ChatList.Filter.Groups": [
+  "Groups"
+ ],
+ "ChatList.Filter.Header": [
+  "Create folders for different groups of chats and quickly switch between them."
+ ],
+ "ChatList.Filter.Include.AddChat": [
+  "Add Chats"
+ ],
+ "ChatList.Filter.List.Title": [
+  "Chat Folders"
+ ],
+ "ChatList.Filter.MutedChats": [
+  "Muted"
+ ],
+ "ChatList.Filter.NewTitle": [
+  "Create Folder"
+ ],
+ "ChatList.Filter.NonContacts": [
+  "Non-Contacts"
+ ],
+ "ChatList.Filter.ReadChats": [
+  "Read"
+ ],
+ "Chats": [
+  "%1$d chat",
+  "%1$d chats"
+ ],
+ "Checkbox.Disabled": [
+  "Disabled"
+ ],
+ "Checkbox.Enabled": [
+  "Enabled"
+ ],
+ "ContactJoined": [
+  "Contact joined Telegram"
+ ],
+ "Contacts": [
+  "Contacts"
+ ],
+ "Continue": [
+  "Continue"
+ ],
+ "CurrentSession": [
+  "This device"
+ ],
+ "EditAccount.Logout": [
+  "Log Out"
+ ],
+ "EditAccount.Title": [
+  "Edit Profile"
+ ],
+ "EditAccount.Username": [
+  "Username"
+ ],
+ "EditProfile.BioLabel": [
+  "Bio (optional)"
+ ],
+ "EditProfile.FirstNameLabel": [
+  "Name"
+ ],
+ "EditProfile.Username.Available": [
+  "Username is available"
+ ],
+ "EditProfile.Username.Invalid": [
+  "Username is invalid"
+ ],
+ "EditProfile.Username.Label": [
+  "Username (optional)"
+ ],
+ "EditProfile.Username.Taken": [
+  "Username is already taken"
+ ],
+ "EnableAnimations": [
+  "Enable Animations"
+ ],
+ "Experimental.A11y": [
+  "Keyboard and Screen Readers"
+ ],
+ "Experimental.A11y.Subtitle": [
+  "Keyboard navigation, focus rings and screen reader support"
+ ],
+ "Experimental.Connection": [
+  "Connection"
+ ],
+ "Experimental.CopyDebugInfo": [
+  "Copy Debug Info"
+ ],
+ "Experimental.CopyDebugInfo.Subtitle": [
+  "Version, browser and the settings above, for a bug report"
+ ],
+ "Experimental.Debug": [
+  "Debug Mode"
+ ],
+ "Experimental.Debug.Subtitle": [
+  "Detailed logs in the console of every thread"
+ ],
+ "Experimental.Debugging": [
+  "Debugging"
+ ],
+ "Experimental.Engine": [
+  "Engine"
+ ],
+ "Experimental.IconLibrary": [
+  "Icon Library"
+ ],
+ "Experimental.Info": [
+  "Tools for testing and debugging. They can make Telegram slower or less stable, so change them only if you know what they do."
+ ],
+ "Experimental.Interface": [
+  "Interface"
+ ],
+ "Experimental.Logs": [
+  "Debug Logs"
+ ],
+ "Experimental.Logs.Clear": [
+  "Clear Logs"
+ ],
+ "Experimental.Logs.Collect": [
+  "Collect Logs"
+ ],
+ "Experimental.Logs.Collect.Subtitle": [
+  "What Telegram does, kept in this device's memory"
+ ],
+ "Experimental.Logs.Download": [
+  "Download Logs"
+ ],
+ "Experimental.Logs.Info": [
+  "Logs leave this device only when you send them. They may contain chat names and parts of messages, so send them only to people you trust."
+ ],
+ "Experimental.Logs.Send": [
+  "Send Logs to a Chat"
+ ],
+ "Experimental.Logs.Share": [
+  "Share Logs"
+ ],
+ "Experimental.MemoryWatch": [
+  "Memory Watch"
+ ],
+ "Experimental.MemoryWatch.Subtitle": [
+  "Memory use every 15 minutes, added to the logs"
+ ],
+ "Experimental.OffscreenCanvas": [
+  "Stickers in Background"
+ ],
+ "Experimental.OffscreenCanvas.Subtitle": [
+  "Animated stickers are drawn off the main thread"
+ ],
+ "Experimental.Pfs": [
+  "Perfect Forward Secrecy"
+ ],
+ "Experimental.Pfs.Subtitle": [
+  "Temporary encryption keys, replaced every 24 hours"
+ ],
+ "Experimental.RTL": [
+  "Right-to-Left Layout"
+ ],
+ "Experimental.RTL.Subtitle": [
+  "Lays the app out right to left in any language"
+ ],
+ "Experimental.ReleaseMedia": [
+  "Free Media Memory"
+ ],
+ "Experimental.ReleaseMedia.Subtitle": [
+  "Lets go of pictures and videos no longer shown"
+ ],
+ "Experimental.ServiceWorker": [
+  "Service Worker"
+ ],
+ "Experimental.ServiceWorker.Subtitle": [
+  "Video streaming, downloads and notifications"
+ ],
+ "Experimental.SharedWorker": [
+  "Shared Connection"
+ ],
+ "Experimental.SharedWorker.Subtitle": [
+  "All tabs share one connection and one cache"
+ ],
+ "Experimental.ShowPeerIds": [
+  "Show Peer IDs"
+ ],
+ "Experimental.ShowPeerIds.Subtitle": [
+  "The ID and data center of users, bots, groups and channels, in their profiles"
+ ],
+ "Experimental.TestServer": [
+  "Test Server"
+ ],
+ "Experimental.TestServer.Subtitle": [
+  "Telegram's test servers, with accounts of their own. In this tab only"
+ ],
+ "Experimental.Title": [
+  "Experimental"
+ ],
+ "Experimental.Tools": [
+  "Developer Tools"
+ ],
+ "Experimental.Transport": [
+  "Transport"
+ ],
+ "Experimental.Transport.Auto": [
+  "Automatic"
+ ],
+ "Experimental.Transport.Auto.Subtitle": [
+  "Switches between WebSocket and HTTP, whichever works"
+ ],
+ "Experimental.Transport.HTTP": [
+  "HTTP Only"
+ ],
+ "Experimental.Transport.WebSocket": [
+  "WebSocket Only"
+ ],
+ "Experimental.Worker": [
+  "Network in Background"
+ ],
+ "Experimental.Worker.Subtitle": [
+  "Off, the connection runs in the tab itself, for debugging"
+ ],
+ "FilterAllBots": [
+  "All Bots"
+ ],
+ "FilterAllChannels": [
+  "All Channels"
+ ],
+ "FilterAllContacts": [
+  "All Contacts"
+ ],
+ "FilterAllGroups": [
+  "All Groups"
+ ],
+ "FilterAllNonContacts": [
+  "All Non-Contacts"
+ ],
+ "FilterAlwaysShow": [
+  "Include Chats"
+ ],
+ "FilterChatTypes": [
+  "Chat types"
+ ],
+ "FilterChats": [
+  "Chats"
+ ],
+ "FilterExclude": [
+  "Excluded Chats"
+ ],
+ "FilterHeaderEdit": [
+  "Edit Folder"
+ ],
+ "FilterInclude": [
+  "Included Chats"
+ ],
+ "FilterIncludeExcludeInfo": [
+  "Choose chats and types of chats that willappear and never appear in this folder."
+ ],
+ "FilterMenuDelete": [
+  "Delete Folder"
+ ],
+ "FilterNeverShow": [
+  "Exclude Chats"
+ ],
+ "FilterNew": [
+  "New Folder"
+ ],
+ "FilterRecommended": [
+  "Recommended Folders"
+ ],
+ "FilterShowMoreChats": [
+  "Show %1$d More Chat",
+  "Show %1$d More Chats"
+ ],
+ "Filters": [
+  "Folders"
+ ],
+ "General": [
+  "General"
+ ],
+ "General.Keyboard": [
+  "Keyboard"
+ ],
+ "General.SendShortcut.CtrlEnter": [
+  "Send by %s + Enter"
+ ],
+ "General.SendShortcut.Enter": [
+  "Send by Enter"
+ ],
+ "General.SendShortcut.NewLine.Enter": [
+  "New line by Enter"
+ ],
+ "General.SendShortcut.NewLine.ShiftEnter": [
+  "New line by Shift + Enter"
+ ],
+ "Groups": [
+  "%1$d group",
+  "%1$d groups"
+ ],
+ "InstalledStickers.LoopAnimated": [
+  "Loop Animated Stickers"
+ ],
+ "LastSeenTitle": [
+  "Who can see my Last Seen time?"
+ ],
+ "Login.Register.LastName.Placeholder": [
+  "Last Name"
+ ],
+ "Notifications.Sound": [
+  "Notification Sound"
+ ],
+ "NotificationsChannels": [
+  "Channels"
+ ],
+ "NotificationsForChannels": [
+  "Notifications for channels"
+ ],
+ "NotificationsForGroups": [
+  "Notifications for groups"
+ ],
+ "NotificationsForPrivateChats": [
+  "Notifications for private chats"
+ ],
+ "NotificationsGroups": [
+  "Groups"
+ ],
+ "NotificationsOther": [
+  "Other"
+ ],
+ "NotificationsPrivateChats": [
+  "Private Chats"
+ ],
+ "OtherSessions": [
+  "Active sessions"
+ ],
+ "PasswordAsHintError": [
+  "Hint must be different from your password"
+ ],
+ "Privacy.Devices": [
+  "%1$d device",
+  "%1$d devices"
+ ],
+ "PrivacyAndSecurity.Item.Off": [
+  "Off"
+ ],
+ "PrivacyAndSecurity.Item.On": [
+  "On"
+ ],
+ "PrivacyExceptions": [
+  "Exceptions"
+ ],
+ "PrivacyForwardsTitle": [
+  "Who can add a link to my account when forwarding my messages?"
+ ],
+ "PrivacyLastSeen": [
+  "Last Seen & Online"
+ ],
+ "PrivacyModal.Search.Placeholder": [
+  "Add Users or Groups..."
+ ],
+ "PrivacyP2PHeader": [
+  "Peer-to-Peer"
+ ],
+ "PrivacyPhone": [
+  "Phone Number"
+ ],
+ "PrivacyPhoneInfo": [
+  "Users who have your number saved in their contacts will also see it on Telegram."
+ ],
+ "PrivacyPhoneInfo3": [
+  "Users who add your number to their contacts will see it on Telegram only if they are your contacts."
+ ],
+ "PrivacyPhoneTitle": [
+  "Who can see my phone number?"
+ ],
+ "PrivacyPhoneTitle2": [
+  "Who can find me by my number?"
+ ],
+ "PrivacyProfilePhoto": [
+  "Profile Photos"
+ ],
+ "PrivacyProfilePhotoTitle": [
+  "Who can see my profile photos?"
+ ],
+ "PrivacySettings": [
+  "Privacy and Security"
+ ],
+ "PrivacySettings.Forwards": [
+  "Forwarded Messages"
+ ],
+ "PrivacySettings.Groups": [
+  "Groups and Channels"
+ ],
+ "PrivacySettings.VoiceCalls": [
+  "Calls"
+ ],
+ "PrivacySettingsController.AddUsers": [
+  "Add Users"
+ ],
+ "PrivacySettingsController.AlwaysAllow": [
+  "Always Allow"
+ ],
+ "PrivacySettingsController.AlwaysShare": [
+  "Always Share With"
+ ],
+ "PrivacySettingsController.Everbody": [
+  "Everybody"
+ ],
+ "PrivacySettingsController.Forwards.CustomHelp": [
+  "You can restrict who can add a link to your account when forwarding your messages."
+ ],
+ "PrivacySettingsController.GroupDescription": [
+  "You can restrict who can add you to groups and channels with granular precision."
+ ],
+ "PrivacySettingsController.LastSeenDescription": [
+  "Unless you are a Premium user, you won't see Last Seen or Online statuses for people with whom you don't share yours. Approximate times will be shown instead (recently, within a week, within a month)."
+ ],
+ "PrivacySettingsController.MyContacts": [
+  "My Contacts"
+ ],
+ "PrivacySettingsController.NeverAllow": [
+  "Never Allow"
+ ],
+ "PrivacySettingsController.NeverShare": [
+  "Never Share With"
+ ],
+ "PrivacySettingsController.Nobody": [
+  "Nobody"
+ ],
+ "PrivacySettingsController.P2p.Desc": [
+  "Disabling peer-to-peer will relay all calls through Telegram servers to avoid revealing your IP address, but may slightly decrease audio and video quality."
+ ],
+ "PrivacySettingsController.PeerInfo": [
+  "You can add users or entire groups as exceptions that will override the settings above."
+ ],
+ "PrivacySettingsController.PhoneCallDescription": [
+  "You can restrict who can call you with granular precision."
+ ],
+ "PrivacySettingsController.ProfilePhoto.CustomHelp": [
+  "You can restrict who can see your profile photo with granular precision."
+ ],
+ "PrivacySettingsController.UserCount": [
+  "%d user",
+  "%d users"
+ ],
+ "PrivacyTitle": [
+  "Privacy"
+ ],
+ "RecentSessions.Error.FreshReset": [
+  "For security reasons, you can't terminate older sessions from a device that you've just connected. Please use an earlier connection or wait for a few hours."
+ ],
+ "ResendCode": [
+  "Resend code"
+ ],
+ "SessionsTitle": [
+  "Active Sessions"
+ ],
+ "Settings": [
+  "Settings"
+ ],
+ "Stickers.SuggestStickers": [
+  "Suggest Stickers by Emoji"
+ ],
+ "StickersBotInfo": [
+  "Artists are welcome to add their own sticker sets using our @stickers bot."
+ ],
+ "Telegram.GeneralSettingsViewController": [
+  "General Settings"
+ ],
+ "Telegram.InstalledStickerPacksController": [
+  "Stickers"
+ ],
+ "Telegram.NotificationSettingsViewController": [
+  "Notifications"
+ ],
+ "Terminate": [
+  "Terminate"
+ ],
+ "TerminateAllSessions": [
+  "Terminate All Other Sessions"
+ ],
+ "TerminateSessionText": [
+  "Are you sure you want to terminate this session?"
+ ],
+ "TextSize": [
+  "Message Text Size"
+ ],
+ "TwoStepAuth.ChangeEmail": [
+  "Change Recovery Email"
+ ],
+ "TwoStepAuth.ChangePassword": [
+  "Change Password"
+ ],
+ "TwoStepAuth.ConfirmEmailCodeDesc": [
+  "Please enter the code we've just emailed to %@."
+ ],
+ "TwoStepAuth.EmailCodeChangeEmail": [
+  "Change Email"
+ ],
+ "TwoStepAuth.GenericHelp": [
+  "You have enabled Two-Step verification.You'll need the password you set up here to log in to your Telegram account."
+ ],
+ "TwoStepAuth.RecoveryCode": [
+  "Code"
+ ],
+ "TwoStepAuth.RecoveryCodeInvalid": [
+  "Invalid code. Please try again."
+ ],
+ "TwoStepAuth.RecoveryTitle": [
+  "Email Code"
+ ],
+ "TwoStepAuth.RemovePassword": [
+  "Disable Password"
+ ],
+ "TwoStepAuth.SetupHintPlaceholder": [
+  "Hint"
+ ],
+ "TwoStepAuth.SetupHintTitle": [
+  "Password Hint"
+ ],
+ "TwoStepVerification": [
+  "Two-Step Verification"
+ ],
+ "TwoStepVerificationPasswordReturnSettings": [
+  "Return to Settings"
+ ],
+ "TwoStepVerificationPasswordSet": [
+  "Password Set!"
+ ],
+ "TwoStepVerificationPasswordSetInfo": [
+  "This password will be required when you log in on a new device in addition to the code you get in the SMS."
+ ],
+ "TwoStepVerificationTitle": [
+  "Two-Step Verification"
+ ],
+ "Unblock": [
+  "Unblock"
+ ],
+ "UsernameHelpLink": [
+  "This link opens a chat with you:%1$s"
+ ],
+ "Users": [
+  "%1$d user",
+  "%1$d users"
+ ],
+ "WhoCanAddMe": [
+  "Who can add me?"
+ ],
+ "WhoCanCallMe": [
+  "Who can call me?"
+ ],
+ "YourEmailSkip": [
+  "Skip"
+ ],
+ "YourEmailSkipWarning": [
+  "Warning"
+ ],
+ "YourEmailSkipWarningText": [
+  "No, seriously.If you forget your password, you will lose access to your Telegram account. There will be no way to restore it."
+ ]
+}
