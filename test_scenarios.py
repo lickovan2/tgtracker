@@ -22,12 +22,7 @@ class FakeFetcher:
         self.pages = pages
 
     async def get(self, url, **_):
-        return self.pages.get(url, (404, "text/html", b"nope"))[:3]
-
-    async def get_page(self, url, **_):
-        # Четвёртый элемент ответа в сценарии задаёт адрес редиректа.
-        answer = self.pages.get(url, (404, "text/html", b"nope"))
-        return (*answer[:3], answer[3] if len(answer) > 3 else url)
+        return self.pages.get(url, (404, "text/html", b"nope"))
 
 
 def fresh_data():
@@ -94,26 +89,72 @@ def test_page_that_fails_once_is_not_deleted():
 def test_redirect_is_not_saved_as_a_page():
     root = fresh_data()
     pages = site()
-    pages["https://telegram.org/tour"] = (200, "text/html", (PAGE % "главная").encode(), "https://telegram.org/")
+    pages["https://telegram.org/tour"] = (302, "text/html", b"")
     crawl(pages)
     assert "web/telegram.org/tour.html" not in files(root)
 
 
-def test_page_that_became_a_redirect_is_removed():
+def test_copy_of_home_page_is_removed():
     root = fresh_data()
     crawl(site())
     pages = site()
-    pages["https://telegram.org/tour"] = (200, "text/html", (PAGE % "главная").encode(), "https://telegram.org/")
+    pages["https://telegram.org/tour"] = (302, "text/html", b"https://telegram.org/")
     crawl(pages)
     assert "web/telegram.org/tour.html" not in files(root)
+
+
+def test_region_redirect_keeps_page_and_tracks_its_target():
+    root = fresh_data()
+    crawl(site())
+    pages = site()
+    pages["https://telegram.org/tour"] = (302, "text/html", b"https://telegram.org/tour/eu")
+    pages["https://telegram.org/tour/eu"] = (200, "text/html", (PAGE % "регион").encode())
+    crawl(pages)
+    assert "web/telegram.org/tour.html" in files(root), "в другом регионе эта страница настоящая"
+    assert "web/telegram.org/tour/eu.html" in files(root)
+
+
+def test_redirect_to_other_site_is_not_followed():
+    root = fresh_data()
+    pages = site()
+    pages["https://telegram.org/tour"] = (302, "text/html", b"https://my.telegram.org/delete")
+    crawl(pages)
+    assert not any("my.telegram.org" in name for name in files(root))
+
+
+def test_text_files_are_saved_and_binary_are_not():
+    root = fresh_data()
+    links = '<a href="/errors.json">e</a><a href="/app.js">j</a><a href="/x.psd">b</a>'
+    pages = site()
+    pages["https://core.telegram.org/"] = (200, "text/html", (PAGE % links).encode())
+    pages["https://core.telegram.org/errors.json"] = (200, "application/json", b'{"a":1}')
+    pages["https://core.telegram.org/app.js"] = (200, "application/javascript", b"var a;")
+    pages["https://core.telegram.org/x.psd"] = (200, "image/vnd.adobe.photoshop", bytes([0, 1]))
+    crawl(pages)
+    assert (root / "web/core.telegram.org/errors.json").read_bytes() == b'{"a":1}'
+    assert (root / "web/core.telegram.org/app.js").read_bytes() == b"var a;"
+    assert "web/core.telegram.org/x.psd" not in files(root)
+    crawl(pages)
+    assert "web/core.telegram.org/errors.json" in files(root), "повторный обход не удаляет файл"
 
 
 def test_trailing_slash_redirect_stays_a_page():
     root = fresh_data()
     pages = site()
-    pages["https://telegram.org/tour"] = (200, "text/html", (PAGE % "тур").encode(), "https://telegram.org/tour/")
+    pages["https://telegram.org/tour"] = (301, "text/html", b"")
+    pages["https://telegram.org/tour/"] = (200, "text/html", (PAGE % "тур").encode())
     crawl(pages)
-    assert "web/telegram.org/tour.html" in files(root)
+    assert "тур" in (root / "web/telegram.org/tour.html").read_text(encoding="utf-8")
+
+
+def test_links_of_page_behind_slash_redirect_are_resolved_from_final_address():
+    root = fresh_data()
+    pages = site()
+    pages["https://telegram.org/tour"] = (301, "text/html", b"")
+    pages["https://telegram.org/tour/"] = (200, "text/html", b'<html><a href="next">n</a></html>')
+    pages["https://telegram.org/tour/next"] = (200, "text/html", (PAGE % "дальше").encode())
+    crawl(pages)
+    assert "web/telegram.org/tour/next.html" in files(root)
 
 
 def test_page_url_is_reverse_of_page_path():

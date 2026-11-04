@@ -28,6 +28,11 @@ CONCURRENCY = 12
 RETRIES = 4
 MAX_PAGES_PER_HOST = 20_000
 MAX_PATH_DEPTH = 6
+# Редирект или 404: по этому адресу своей страницы нет.
+REDIRECTS = (301, 302, 303, 307, 308)
+NOT_A_PAGE = (*REDIRECTS, 404)
+# Язык сайта задан явно, чтобы снимок не зависел от того, откуда идёт запрос.
+SITE_COOKIE = "stel_ln=en"
 # Файлы не удаляем, если получить удалось меньше этой доли страниц: похоже на сбой, а не на удаление.
 MIN_SUCCESS_FOR_DELETE = 0.97
 # Блокировка или заглушка не должны выглядеть как удаление сайта.
@@ -38,8 +43,8 @@ MIN_SIZE_KEPT = 0.2
 
 WEB_SEEDS = [
     "https://telegram.org/", "https://core.telegram.org/", "https://desktop.telegram.org/",
-    "https://instantview.telegram.org/", "https://promote.telegram.org/", "https://contest.com/",
-    "https://webk.telegram.org/", "https://webz.telegram.org/", "https://translations.telegram.org/",
+    "https://instantview.telegram.org/", "https://ads.telegram.org/", "https://contest.com/",
+    "https://webk.telegram.org/", "https://weba.telegram.org/", "https://translations.telegram.org/",
 ]
 WEB_HOSTS = {urlsplit(seed).hostname for seed in WEB_SEEDS}
 # Страницы переводов снимает отдельный режим, а здесь нужна только главная.
@@ -162,20 +167,18 @@ class Fetcher:
         self.session = session
         self.gate = asyncio.Semaphore(CONCURRENCY)
 
-    async def get(self, url: str, **kwargs) -> tuple[int, str, bytes]:
+    async def get(self, url: str, allow_redirects: bool = True) -> tuple[int, str, bytes]:
         """(статус, тип, тело). Сеть, 429 и 5xx повторяются; итоговый сбой даёт статус 0."""
-        status, ctype, body, _final = await self.get_page(url, **kwargs)
-        return status, ctype, body
-
-    async def get_page(self, url: str, **kwargs) -> tuple[int, str, bytes, str]:
-        """То же, плюс адрес после редиректов: страница с редиректом не считается отдельной."""
         delay = 2.0
         for attempt in range(RETRIES):
             try:
-                async with self.gate, self.session.get(url, allow_redirects=True, **kwargs) as resp:
+                async with self.gate, self.session.get(url, allow_redirects=allow_redirects) as resp:
                     body = await resp.read()
                     if resp.status != 429 and resp.status < 500:
-                        return resp.status, resp.headers.get("Content-Type", ""), body, str(resp.url)
+                        # У редиректа тела нет: вместо него отдаём адрес, куда он ведёт.
+                        if 300 <= resp.status < 400:
+                            body = resp.headers.get("Location", "").encode()
+                        return resp.status, resp.headers.get("Content-Type", ""), body
                     retry_after = resp.headers.get("Retry-After", "")
                     delay = max(delay, float(retry_after)) if retry_after.isdigit() else delay
             except (aiohttp.ClientError, asyncio.TimeoutError) as e:
@@ -183,12 +186,27 @@ class Fetcher:
             if attempt + 1 < RETRIES:
                 await asyncio.sleep(delay)
                 delay *= 2
-        return 0, "", b"", url
+        return 0, "", b""
 
 
-def same_page(a: str, b: str) -> bool:
-    first, second = urlsplit(a), urlsplit(b)
-    return first.hostname == second.hostname and first.path.rstrip("/") == second.path.rstrip("/")
+async def fetch_page(fetcher: Fetcher, url: str) -> tuple[str, int, str, bytes]:
+    """(адрес, статус, тип, тело) без перехода по редиректам.
+
+    Редирект ведёт на другую страницу, и её копия под этим адресом дала бы ложные изменения.
+    Настоящая страница может отличаться только слешем на конце, поэтому второй вариант пробуем один раз.
+    """
+    status, ctype, body = await fetcher.get(url, allow_redirects=False)
+    if status not in NOT_A_PAGE or urlsplit(url).path in ("", "/"):
+        return url, status, ctype, body
+    other = url[:-1] if url.endswith("/") else f"{url}/"
+    other_status, other_ctype, other_body = await fetcher.get(other, allow_redirects=False)
+    if other_status == 200:
+        return other, other_status, other_ctype, other_body
+    return url, status, ctype, body
+
+
+def is_site_root(url: str, location: bytes) -> bool:
+    return urlsplit(urljoin(url, location.decode("utf-8", "replace"))).path in ("", "/")
 
 
 def page_url(root: Path, path: Path) -> str:
@@ -209,8 +227,10 @@ async def remove_gone_pages(fetcher: Fetcher, root: Path, keep: set[Path]) -> No
 
     async def check(path: Path) -> None:
         url = page_url(root, path)
-        status, _ctype, _body, final = await fetcher.get_page(url)
-        if status in (404, 410) or (status == 200 and not same_page(url, final)):
+        _url, status, _ctype, body = await fetch_page(fetcher, url)
+        # Редирект на другую страницу удалением не считаем: у Telegram он зависит от региона (/tos -> /tos/eu).
+        # Редирект на главную значит, что своей страницы по адресу нет, а в файле лежала копия главной.
+        if status in (404, 410) or (status in REDIRECTS and is_site_root(url, body)):
             path.unlink()
         else:
             logger.info("web: %s не попала в обход, но отвечает %s, оставляю", url, status)
@@ -240,23 +260,28 @@ async def track_web(fetcher: Fetcher, limit: int | None) -> None:
 
     async def visit(url: str) -> set[str]:
         nonlocal fetched, failed
-        status, ctype, body, final = await fetcher.get_page(url)
+        final, status, ctype, body = await fetch_page(fetcher, url)
         if status == 0 or status >= 500:
             failed += 1
             return set()
-        # Редирект на другую страницу: копия чужого содержимого под этим адресом дала бы ложные изменения.
-        if not same_page(url, final):
-            fetched += 1
-            logger.info("web: редирект %s -> %s, ответ %s, тип %r", url, final, status, ctype)
-            return set()
-        if status != 200 or "html" not in ctype:
-            logger.warning("web: %s ответила %s, тип %r, размер %d", url, status, ctype, len(body))
         fetched += 1
-        if status != 200 or "html" not in ctype:
+        if status in REDIRECTS:
+            location = body.decode("utf-8", "replace")
+            logger.info("web: редирект %s, ответ %s -> %s", url, status, location)
+            # Цель редиректа на отслеживаемом сайте тоже страница, например /tos/eu.
+            return links_of(f'<a href="{html.escape(location)}">', final)[0]
+        if status != 200:
+            logger.warning("web: %s ответила %s, тип %r", url, status, ctype)
+            return set()
+        if "html" not in ctype:
+            if any(kind in ctype for kind in TEXT_TYPES):
+                snapshot[page_path(root, url, is_html=False)] = body.decode("utf-8", "replace")
+            else:
+                logger.info("web: пропускаю %s, тип %r", url, ctype)
             return set()
         text = body.decode("utf-8", "replace")
         snapshot[page_path(root, url)] = normalize_html(text)
-        pages, page_assets = links_of(text, url)
+        pages, page_assets = links_of(text, final)
         assets.update(page_assets)
         return pages
 
@@ -398,7 +423,9 @@ async def main() -> None:
     args = parser.parse_args()
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
     timeout = aiohttp.ClientTimeout(total=120)
-    async with aiohttp.ClientSession(timeout=timeout, headers={"User-Agent": UA}) as session:
+    # Куки сайта не накапливаем: иначе ответы зависят от порядка запросов в обходе.
+    headers = {"User-Agent": UA, "Cookie": SITE_COOKIE}
+    async with aiohttp.ClientSession(timeout=timeout, headers=headers, cookie_jar=aiohttp.DummyCookieJar()) as session:
         fetcher = Fetcher(session)
         if args.mode == "web":
             await track_web(fetcher, args.limit)
