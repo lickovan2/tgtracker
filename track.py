@@ -231,12 +231,13 @@ async def track_static(fetcher: Fetcher, assets: set[str], root: Path, limit: in
 
     async def save(url: str) -> None:
         status, ctype, body = await fetcher.get(url)
-        if status != 200:
+        # HTML вместо файла: заглушка сайта на адрес вроде шаблона SMALL из скрипта блога.
+        if status != 200 or "html" in ctype:
             return
         is_text = any(kind in ctype for kind in TEXT_TYPES)
         path = page_path(root, url, is_html=False)
         if is_text:
-            write_if_changed(path, normalize_html(body.decode("utf-8", "replace")) if "html" in ctype else body)
+            write_if_changed(path, body)
         else:
             path = path.with_name(path.name + ".sha256")
             write_if_changed(path, hashlib.sha256(body).hexdigest() + "\n")
