@@ -164,13 +164,18 @@ class Fetcher:
 
     async def get(self, url: str, **kwargs) -> tuple[int, str, bytes]:
         """(статус, тип, тело). Сеть, 429 и 5xx повторяются; итоговый сбой даёт статус 0."""
+        status, ctype, body, _final = await self.get_page(url, **kwargs)
+        return status, ctype, body
+
+    async def get_page(self, url: str, **kwargs) -> tuple[int, str, bytes, str]:
+        """То же, плюс адрес после редиректов: страница с редиректом не считается отдельной."""
         delay = 2.0
         for attempt in range(RETRIES):
             try:
                 async with self.gate, self.session.get(url, allow_redirects=True, **kwargs) as resp:
                     body = await resp.read()
                     if resp.status != 429 and resp.status < 500:
-                        return resp.status, resp.headers.get("Content-Type", ""), body
+                        return resp.status, resp.headers.get("Content-Type", ""), body, str(resp.url)
                     retry_after = resp.headers.get("Retry-After", "")
                     delay = max(delay, float(retry_after)) if retry_after.isdigit() else delay
             except (aiohttp.ClientError, asyncio.TimeoutError) as e:
@@ -178,7 +183,39 @@ class Fetcher:
             if attempt + 1 < RETRIES:
                 await asyncio.sleep(delay)
                 delay *= 2
-        return 0, "", b""
+        return 0, "", b"", url
+
+
+def same_page(a: str, b: str) -> bool:
+    first, second = urlsplit(a), urlsplit(b)
+    return first.hostname == second.hostname and first.path.rstrip("/") == second.path.rstrip("/")
+
+
+def page_url(root: Path, path: Path) -> str:
+    """Адрес страницы по файлу снимка, обратное к page_path."""
+    host, *rest = path.relative_to(root).parts
+    name = "/".join(rest).removesuffix(".html")
+    return f"https://{host}/" if name == "index" else f"https://{host}/{name}"
+
+
+async def remove_gone_pages(fetcher: Fetcher, root: Path, keep: set[Path]) -> None:
+    """Страница пропала из обхода: удаляем файл, только если адрес сейчас подтверждает, что её больше нет.
+
+    Один неудачный ответ не должен выглядеть как удаление страницы с сайта.
+    """
+    if not root.exists():
+        return
+    missing = [path for path in root.rglob("*") if path.is_file() and path not in keep]
+
+    async def check(path: Path) -> None:
+        url = page_url(root, path)
+        status, _ctype, _body, final = await fetcher.get_page(url)
+        if status in (404, 410) or (status == 200 and not same_page(url, final)):
+            path.unlink()
+        else:
+            logger.info("web: %s не попала в обход, но отвечает %s, оставляю", url, status)
+
+    await asyncio.gather(*(check(path) for path in missing))
 
 
 def looks_blocked(root: Path, snapshot: dict[Path, str]) -> bool:
@@ -203,10 +240,17 @@ async def track_web(fetcher: Fetcher, limit: int | None) -> None:
 
     async def visit(url: str) -> set[str]:
         nonlocal fetched, failed
-        status, ctype, body = await fetcher.get(url)
+        status, ctype, body, final = await fetcher.get_page(url)
         if status == 0 or status >= 500:
             failed += 1
             return set()
+        # Редирект на другую страницу: копия чужого содержимого под этим адресом дала бы ложные изменения.
+        if not same_page(url, final):
+            fetched += 1
+            logger.info("web: редирект %s -> %s, ответ %s, тип %r", url, final, status, ctype)
+            return set()
+        if status != 200 or "html" not in ctype:
+            logger.warning("web: %s ответила %s, тип %r, размер %d", url, status, ctype, len(body))
         fetched += 1
         if status != 200 or "html" not in ctype:
             return set()
@@ -242,7 +286,7 @@ async def track_web(fetcher: Fetcher, limit: int | None) -> None:
 
     static_written = await track_static(fetcher, assets, static_root, limit)
     if limit is None and fetched and fetched / (fetched + failed) >= MIN_SUCCESS_FOR_DELETE:
-        remove_missing(root, written)
+        await remove_gone_pages(fetcher, root, written)
         remove_missing(static_root, static_written)
     elif limit is None:
         logger.warning("web: много ошибок (%d из %d), удалённые страницы не трогаю", failed, fetched + failed)

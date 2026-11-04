@@ -22,7 +22,12 @@ class FakeFetcher:
         self.pages = pages
 
     async def get(self, url, **_):
-        return self.pages.get(url, (404, "text/html", b"nope"))
+        return self.pages.get(url, (404, "text/html", b"nope"))[:3]
+
+    async def get_page(self, url, **_):
+        # Четвёртый элемент ответа в сценарии задаёт адрес редиректа.
+        answer = self.pages.get(url, (404, "text/html", b"nope"))
+        return (*answer[:3], answer[3] if len(answer) > 3 else url)
 
 
 def fresh_data():
@@ -72,6 +77,49 @@ def test_removed_page_is_deleted():
     del pages["https://telegram.org/tour"]
     crawl(pages)
     assert "web/telegram.org/tour.html" not in files(root)
+
+
+def test_page_that_fails_once_is_not_deleted():
+    # Страница есть, но в этом обходе ответила 403 и ссылка на неё пропала: это не удаление.
+    root = fresh_data()
+    crawl(site())
+    pages = site()
+    for seed in track.WEB_SEEDS:
+        pages[seed] = (200, "text/html", b"<html>no links</html>")
+    pages["https://telegram.org/tour"] = (403, "text/html", b"forbidden")
+    crawl(pages)
+    assert "web/telegram.org/tour.html" in files(root)
+
+
+def test_redirect_is_not_saved_as_a_page():
+    root = fresh_data()
+    pages = site()
+    pages["https://telegram.org/tour"] = (200, "text/html", (PAGE % "главная").encode(), "https://telegram.org/")
+    crawl(pages)
+    assert "web/telegram.org/tour.html" not in files(root)
+
+
+def test_page_that_became_a_redirect_is_removed():
+    root = fresh_data()
+    crawl(site())
+    pages = site()
+    pages["https://telegram.org/tour"] = (200, "text/html", (PAGE % "главная").encode(), "https://telegram.org/")
+    crawl(pages)
+    assert "web/telegram.org/tour.html" not in files(root)
+
+
+def test_trailing_slash_redirect_stays_a_page():
+    root = fresh_data()
+    pages = site()
+    pages["https://telegram.org/tour"] = (200, "text/html", (PAGE % "тур").encode(), "https://telegram.org/tour/")
+    crawl(pages)
+    assert "web/telegram.org/tour.html" in files(root)
+
+
+def test_page_url_is_reverse_of_page_path():
+    root = Path("r")
+    for url in ("https://telegram.org/", "https://core.telegram.org/api/x"):
+        assert track.page_url(root, track.page_path(root, url)) == url
 
 
 def test_network_failure_keeps_pages():
