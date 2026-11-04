@@ -2619,7 +2619,7 @@
   "My folders"
  ],
  "lng_filters_title": [
-  "Folders"
+  "Chat Folders"
  ],
  "lng_filters_type_bots": [
   "Bots"
@@ -6091,7 +6091,7 @@
   "Chat Settings"
  ],
  "lng_settings_section_filters": [
-  "Folders"
+  "Chat Folders"
  ],
  "lng_settings_section_notify": [
   "Notifications and Sounds"
