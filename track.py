@@ -30,6 +30,11 @@ MAX_PAGES_PER_HOST = 20_000
 MAX_PATH_DEPTH = 6
 # Файлы не удаляем, если получить удалось меньше этой доли страниц: похоже на сбой, а не на удаление.
 MIN_SUCCESS_FOR_DELETE = 0.97
+# Блокировка или заглушка не должны выглядеть как удаление сайта.
+MIN_PAGES_FOR_GUARD = 20
+MIN_PAGES_KEPT = 0.5
+MIN_SIZE_FOR_STUB_CHECK = 2000
+MIN_SIZE_KEPT = 0.2
 
 WEB_SEEDS = [
     "https://telegram.org/", "https://core.telegram.org/", "https://desktop.telegram.org/",
@@ -176,10 +181,23 @@ class Fetcher:
         return 0, "", b""
 
 
+def looks_blocked(root: Path, snapshot: dict[Path, str]) -> bool:
+    """Страниц стало намного меньше сразу: это блокировка или сбой, сайт так не уменьшается."""
+    existing = sum(1 for path in root.rglob("*") if path.is_file()) if root.exists() else 0
+    return existing >= MIN_PAGES_FOR_GUARD and len(snapshot) < existing * MIN_PAGES_KEPT
+
+
+def is_stub_of(path: Path, content: str) -> bool:
+    if not path.is_file():
+        return False
+    previous = path.stat().st_size
+    return previous >= MIN_SIZE_FOR_STUB_CHECK and len(content.encode("utf-8")) < previous * MIN_SIZE_KEPT
+
+
 async def track_web(fetcher: Fetcher, limit: int | None) -> None:
     root, static_root = DATA / "web", DATA / "web_static"
     queue, seen, assets = list(WEB_SEEDS), set(WEB_SEEDS), set()
-    written: set[Path] = set()
+    snapshot: dict[Path, str] = {}
     host_counts: dict[str, int] = {}
     fetched = failed = 0
 
@@ -193,9 +211,7 @@ async def track_web(fetcher: Fetcher, limit: int | None) -> None:
         if status != 200 or "html" not in ctype:
             return set()
         text = body.decode("utf-8", "replace")
-        path = page_path(root, url)
-        write_if_changed(path, normalize_html(text))
-        written.add(path)
+        snapshot[page_path(root, url)] = normalize_html(text)
         pages, page_assets = links_of(text, url)
         assets.update(page_assets)
         return pages
@@ -213,6 +229,16 @@ async def track_web(fetcher: Fetcher, limit: int | None) -> None:
                 host_counts[host] = host_counts.get(host, 0) + 1
                 queue.append(page)
         logger.info("web: снято %d, ошибок %d, в очереди %d", fetched, failed, len(queue))
+
+    if limit is None and looks_blocked(root, snapshot):
+        logger.warning("web: снято всего %d страниц из прежних, похоже на блокировку, снимок не сохраняю", len(snapshot))
+        return
+    for path, content in snapshot.items():
+        if is_stub_of(path, content):
+            logger.warning("web: %s резко уменьшилась, похоже на заглушку, оставляю прежнюю", path)
+            continue
+        write_if_changed(path, content)
+    written = set(snapshot)
 
     static_written = await track_static(fetcher, assets, static_root, limit)
     if limit is None and fetched and fetched / (fetched + failed) >= MIN_SUCCESS_FOR_DELETE:
@@ -259,10 +285,10 @@ def remove_missing(root: Path, keep: set[Path]) -> None:
 async def track_tl(fetcher: Fetcher) -> None:
     for name, url in TL_SOURCES.items():
         status, _ctype, body = await fetcher.get(url)
-        if status == 200:
+        if status == 200 and body.strip():
             write_if_changed(DATA / "tl" / name, body)
         else:
-            logger.warning("tl %s: статус %s", name, status)
+            logger.warning("tl %s: статус %s, размер %d", name, status, len(body))
 
 
 def parse_translation_rows(page: str) -> dict[str, list[str]]:
@@ -310,7 +336,8 @@ async def track_translations(fetcher: Fetcher, limit: int | None) -> None:
         total = 0
         for section in sections:
             rows = await fetch_translation_section(fetcher, f"{TRANSLATIONS_URL}/en/{name}/{section}/")
-            if rows is None:
+            # Пустой разбор значит новую вёрстку или заглушку: прежние тексты стирать нельзя.
+            if not rows:
                 logger.warning("переводы %s/%s не получены", name, section)
                 continue
             total += len(rows)
