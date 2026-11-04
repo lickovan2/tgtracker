@@ -145,6 +145,7 @@ archive_and_mute_new_noncontact_peers
 archivehint_l
 around_animation
 array_completeness
+arrow_axis
 aspect_ratio
 aspect_ratio_info_present_flag
 atop_macro
@@ -685,6 +686,7 @@ dark_colors
 data_gasless
 data_hash
 data_normal
+datastore_shared_counter
 date_active
 date_created
 date_modified
@@ -746,6 +748,7 @@ dialog_bar_distance
 dialog_bar_exception
 dialog_bar_invite
 dialog_bar_location
+dialog_bar_replied
 dialog_bar_report
 dialog_bar_share
 dialog_bar_vis3
@@ -925,6 +928,8 @@ existing_instance_identifier
 exit_code
 exp_month
 exp_year
+experiment_ids_clear_blob
+experiment_ids_encrypted_blob
 experimental_settings_allowed
 expiration_month
 expiration_year
@@ -1000,11 +1005,9 @@ firebase_crashlytics_collection_enabled
 firebase_data_collection_default_enabled
 firebase_database_url
 firebase_messaging_auto_init_enabled
+firebase_messaging_installation_id_enabled
 firebase_messaging_notification_delegation_enabled
-firebase_sessions_cache_duration
-firebase_sessions_cache_updated_time
 firebase_sessions_enabled
-firebase_sessions_restart_timeout
 firebase_sessions_sampling_rate
 firebase_sessions_sessions_restart_timeout
 first_name
@@ -1064,6 +1067,7 @@ forwarded_count_max
 forwards_count
 forwards_first
 fourth_background_color
+fpnv_allowed
 frac_macro
 fragment_listed_count
 fragment_listed_url
@@ -1344,6 +1348,7 @@ is_admin
 is_app
 is_copy
 is_fullscreen
+is_fully_rolled_out
 is_megagroup
 is_outgoing
 is_output_switcher_enabled
@@ -1506,6 +1511,7 @@ main_button_pressed
 main_tab
 makeatletter_macro
 makeatother_macro
+malformed_locales
 manage_call
 manage_chat
 manage_direct_messages
@@ -1750,6 +1756,7 @@ noncontact_peers_paid_stars
 nopaid_messages_exception
 normal_macro
 nosound_video
+notification_data
 notification_type
 notifications_disabled
 notify_cloud_delay_ms
@@ -2041,6 +2048,7 @@ privacy_rules
 private_forward_name
 private_ia
 prize_description
+product_id
 profile_badge
 profile_color
 profile_last_check
@@ -2068,11 +2076,13 @@ proxy_list
 proxy_notification_initialized
 proxy_pass
 proxy_port
+proxy_retention
 proxy_secret
 proxy_type
 proxy_user
 psa_message
 psa_type
+pseudonymous_id
 pt_br
 pts_count
 pts_total_limit
@@ -2154,6 +2164,7 @@ read_loaded
 read_max_id
 read_messages
 read_outbox_max_id
+recaptcha_site_key
 receipt_msg_id
 receive_date
 received_by
@@ -2665,7 +2676,6 @@ stories_stealth_past_period
 stories_suggested_reactions_limit_default
 stories_suggested_reactions_limit_premium
 stories_unavailable
-stories_venue_search_username
 story_caption_length_limit_default
 story_caption_length_limit_premium
 story_colors
@@ -3098,6 +3108,7 @@ voice_messages_forbidden
 voice_msg_ids
 voice_to_text
 voip_answer
+voip_answer_token
 voip_chat
 voip_enable_stun_marking
 voip_logs

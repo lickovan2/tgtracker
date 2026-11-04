@@ -57,22 +57,28 @@
 ' and minimum length
 ' because
 ' because the temporal object being formatted contains date fields but does not represent a whole date:
+' can't be used in JSON as a key in the map. It should have either primitive or enum kind, but its kind is '
 ' contains no mapping for that range!
 ' defined in 'PredefinedTeXFormulas.xml'!
 ' defined in 'TeXSymbols.xml'!
 ' didn't match expected id '
 ' extension and '
 ' extension conflict with each other.
+' for
 ' for the predefined TeXFormula '
 ' for the range '
 ' has been detected. Emissions from 'catch' blocks are prohibited in order to avoid unspecified behaviour, 'Flow.catch' operator can be used instead. For a more detailed explanation, please refer to Flow documentation.
 ' has unrecognized value '
+' in numeric literal
 ' in program
+' in unicode escape
+' instead
 ' is mapped to a symbol with the name '
 ' is not a leap year
 ' is not defined as a delimiter (del='true') in 'TeXSymbols.xml'!
 ' is not defined as an accent (type='acc') in 'TeXSymbols.xml'!
 ' is not registered
+' is required for type with serial name '
 ' on the temporary TeXFormula '
 ' should be in range
 ' to an empty string. We interpret empty strings as null in requests. You may set '
@@ -87,8 +93,13 @@
 '! Insert a <Map>-element in 'TeXFormulaSettings.xml'.
 '! Insert a <SymbolMapping>-element in 'DefaultTeXFont.xml'.
 '! Insert a <TextStyleMapping>-element in 'DefaultTeXFont.xml'.
+', allowSpecialFloatingPointValues=false, useAlternativeNames=
+', but it was missing
 ', but that symbol is not defined as a delimiter (del='true') in 'TeXSymbols.xml'!
+', but they were missing
 ', but this symbol is not defined as an accent (type='acc') in 'TeXSymbols.xml'!
+', coerceInputValues=false, useArrayPolymorphism=false, classDiscriminator='
+', currentPosition=
 ', dateTime='
 ', developerName='
 ', displayName='
@@ -117,6 +128,7 @@
 ', type='
 '-value : '
 '. Assuming AES-CTR crypto mode.
+'. Use 'allowStructuredMapKeys = true' in 'Json {}' builder to convert such maps to [key1, value1, key2, value2,...] arrays.
 'Publish on' MMM d 'at' HH:mm
 'Publish on' MMM d yyyy 'at' HH:mm
 'Publish today at' HH:mm
@@ -143,7 +155,6 @@
 (Kotlin reflection is not available)
 (WEB)
 (at
-(base version
 (cpu_count =
 (edit=
 (expected M4A or M4P)
@@ -316,6 +327,7 @@
 , adGroupIndex=
 , adIndexInAdGroup=
 , adapter:
+, additionalCustomKeys=
 , address:
 , address=
 , aeMode=
@@ -391,6 +403,7 @@
 , backendName=
 , background=
 , backgroundColor:
+, backgroundTime=
 , badge:
 , balance=
 , base=
@@ -423,6 +436,7 @@
 , but current index is
 , but emission happened in
 , but got
+, but had '
 , but is '
 , but no secure decoder available. Trying to proceed with
 , but only 0x
@@ -436,8 +450,8 @@
 , bytesReceivedWifi=
 , bytesSentMobile=
 , cableAuthenticationExtension=
-, cacheDuration=
-, cacheUpdatedTime=
+, cacheDurationSeconds=
+, cacheUpdatedTimeSeconds=
 , calculated CRC value:
 , callback:
 , callbackIntervalMs={avg=
@@ -484,6 +498,7 @@
 , compatible=
 , compatibleSizes=
 , completing=
+, complianceData=
 , component=
 , composition=
 , configDescriptorDeadBytes=
@@ -584,6 +599,7 @@
 , enabled=
 , encodedPayload=
 , encoding=
+, encryptedBlob=
 , end=
 , endTimeMs=
 , endedAt=
@@ -611,6 +627,9 @@
 , expected
 , expected child of
 , expectedWaitMs=
+, experimentIds=
+, experimentIdsClear=
+, experimentIdsEncrypted=
 , expireDate=
 , expires in
 , expiresInSecs=
@@ -633,6 +652,7 @@
 , finality:
 , finality=
 , fingerprint=
+, firebaseAuthenticationToken=
 , firebaseInstallationId=
 , first=
 , firstFps=
@@ -758,9 +778,9 @@
 , jitter=
 , keepActive=
 , key=
-, key_id=
 , keyboardType:
 , keyframes=
+, kotlin.collections.LinkedHashMap expects only non-negative indices
 , labels=[
 , lane count:
 , lanes image:
@@ -880,6 +900,7 @@
 , name=
 , name='
 , namespaces.count:
+, namingStrategy=null, decodeEnumsCaseInsensitive=false, allowTrailingComma=false, allowComments=false, classDiscriminatorMode=
 , navbar height:
 , ndkPayload=
 , network=
@@ -972,19 +993,24 @@
 , preparationMs=
 , presentationDisplayId=
 , presentationTimeUs=
+, prettyPrintIndent='
 , preview=
 , previewMinFrameDurationNs=
 , prfExtension=
 , primaryGroupId=
 , primaryInputFrames=
 , priority=
+, processDataMap=
 , processName=
 , processingReason=
 , product=
 , productData=
+, productId=
 , productId='
+, productIdOrigin=
 , profileCompatibility=
 , profileLevelIndicationDescriptors=
+, profilingManagerInfo=
 , programSplicePlaybackPositionUs=
 , progress=
 , properties=
@@ -992,6 +1018,7 @@
 , providerPackageName=
 , proximityOn=
 , psPresentFlag=
+, pseudonymousId=
 , pss=
 , ptsUs=
 , public_key_id=
@@ -1020,6 +1047,7 @@
 , regular
 , relAddr=
 , relPort=
+, reload the whole langpack
 , remaining delay=[
 , remaining=
 , remainingSamplesAtTimestampDelta
@@ -1030,6 +1058,7 @@
 , renderer=
 , replace=
 , reportFile=
+, request=
 , requestId=
 , requestUptimeMs=
 , requested surface size:
@@ -1051,6 +1080,7 @@
 , resumes=
 , retainedDurationMs=
 , retries=
+, returned index for value:
 , right=
 , road:
 , roleFlags=[
@@ -1098,10 +1128,10 @@
 , sessionData=
 , sessionId=
 , sessionIndex=
-, sessionRestartTimeout=
 , sessionSamplingRate=
-, sessionSdkVersion=1.2.0, osVersion=
+, sessionSdkVersion=3.0.8, osVersion=
 , sessionStartTimestampUs=
+, sessionTimeoutSeconds=
 , setFuture=[
 , settingsIntent=
 , setup=
@@ -1212,6 +1242,7 @@
 , toIndex:
 , toX=
 , toY=
+, token=
 , tokenBinding=
 , tokenCreationEpochInSecs=
 , tokenCreationTimestamp=
@@ -1264,6 +1295,7 @@
 , vendor=
 , verdictOptOut=
 , version >=
+, version:
 , version=
 , versionCode=
 , versionName=
@@ -1282,6 +1314,7 @@
 , volume=
 , volumeHandling=
 , volumeMax=
+, wait for it
 , waitForAccurateLocation
 , wallClock=
 , watchfaceCategories=
@@ -1312,10 +1345,11 @@
 -----start log
 -> reload
 . Assuming:
-. Clients:
+. By default, non-finite floating point values are prohibited because they do not conform JSON specification
+. By default, non-finite floating point values are prohibited because they do not conform JSON specification. It is possible to deserialize them using 'JsonBuilder.allowSpecialFloatingPointValues = true' Current output:
 . Cycle detected.
 . Dependencies should be added at class load time.
-. Dropping.
+. Emit fallback session
 . Failed to query camera name.
 . Falling back to default.
 . FlowCollector is not thread-safe and concurrent emissions are prohibited. To mitigate this restriction please use 'channelFlow' builder instead of 'flow'
@@ -1328,7 +1362,6 @@
 . Please read KDoc to 'handleFatalException' method and report this incident to maintainers
 . Please refer to 'flow' documentation or use 'flowOn' instead
 . Please update the Kotlin standard library.
-. Queue size
 . Requires
 . Set account in GoogleSignInOptions.Builder instead.
 . Setting mimeType to audio/x-unknown
@@ -1344,6 +1377,7 @@
 . Supported: drawable, color
 . The number of frames is
 . This is likely due to a circular dependency.
+. This likely means that there are multiple instances of DataStore for this file. Ensure that you are only creating a single instance of datastore for this file.
 . This permission should normally be included by the manifest merger, but may needed to be manually added to your manifest
 . Using default settings values.
 . Using runtime media button receiver instead.
@@ -1358,7 +1392,6 @@
 .MCC:
 .MNC:
 .Phone:
-.This likely means that there are multiple instances of DataStore for this file. Ensure that you are only creating a single instance of datastore for this file.
 .properties file is dropped during release process. Failure to read app version is expected during Google internal testing where locally-built libraries are used
 / by zero
 /table
@@ -1524,6 +1557,7 @@ A cast to int has gone wrong. Please contact the mp4parser discussion group (
 A child of LinearLayout with index less than mBaselineAlignedChildIndex has weight > 0, which won't work. Either remove the weight, or don't set mBaselineAlignedChildIndex.
 A continuation frame was detected although a continuation had not started.
 A control frame is fragmented.
+A dialog should be displayed for missing feature:
 A frame from the server is masked.
 A frame has an unknown opcode: 0x
 A frame is already pending, dropping frame.
@@ -1585,6 +1619,7 @@ AND max_read_id <
 AND media = 0
 AND media = 1
 AND mention = 1 AND read_state IN(0, 1)
+AND mid
 AND mid !=
 AND mid != 0 AND out = 0 AND read_state IN(0,2)
 AND mid <
@@ -1640,6 +1675,7 @@ AND unread_count > 0
 ANR feature disabled.
 ANR feature enabled, but device is API
 ANR thread dump
+API disabled. Please use {@link #register()} instead or enable this API by removing {@code <meta-data android:name="firebase_messaging_installation_id_enabled" android:value="true" />} from your app's manifest.
 API failed to connect while resuming due to an unknown error.
 API is not supported:
 API is unsupported
@@ -1662,9 +1698,7 @@ Action: %s is not a pre-defined action.
 ActionImpl { { actionType: '
 Active Fragments:
 Active warm camera
-Activity backgrounding at
 Activity finished with resultCode
-Activity foregrounding at
 Activity handed an unsupported type
 Activity has been destroyed
 Activity must not be null
@@ -1679,7 +1713,6 @@ Activity's intent is null.
 AdPlaybackState(adsId=null, adResumePositionUs=0, adGroups=[
 Adaptive browser colors
 Adaptive icons cannot be used in notifications. Ignoring icon id:
-Add
 Added Fragments:
 Added View has RecyclerView as parent but view is not a real child. Unfiltered index:
 Added fragment to active set
@@ -1693,7 +1726,6 @@ Advertised atom size (
 Airplane Mode:
 Algorithm with COSE value
 Algorithmic Synthesis and Audio FX
-All group members are not in your contact list.
 All products must have the same package name.
 All products should be of the same product type.
 All products should have same ProductType.
@@ -1731,6 +1763,7 @@ An invalid account was specified when connecting. Please provide a valid account
 An invalid data collection token was used.
 An uncaught throwable was detected in the reading thread:
 An uncaught throwable was detected in the writing thread:
+An unknown field for index
 AnalyticsConnector now available.
 AncsNotificationParcelable{, id=
 Android Auto
@@ -1747,12 +1780,19 @@ Animations may only be canceled on the main thread
 Animations may only be started on the main thread
 Animator from operation
 Annex-B video sample contains no NAL units
+Another handler is already registered:
+Another handler was already registered and successfully invoked
 Api must not be null
 Api must not be null.
 ApiFailure should not be null
 ApiSuccess should not be null
 App Quality Sessions session changed:
-App has not yet foregrounded. Using previously stored session:
+App backgrounded on
+App backgrounded, but local SessionData not initialized
+App backgrounded, failed to update data. Message:
+App foregrounded on
+App foregrounded, but local SessionData not initialized
+App foregrounded, failed to update data. Message:
 App restored, clearing state
 App version unknown
 App version:
@@ -1967,7 +2007,6 @@ BillingUtilities.savePurpose: sending short version, original size is
 Binder for unknown IInterface:
 Binder object is null.
 Binding only allowed within app
-Binding service to application.
 Binding to service
 Binding to the service in the Play Store has failed. This can be due to having an old Play Store version installed on the device. Ask the user to update Play Store.
 Bitmap decoder rejected image
@@ -1975,6 +2014,7 @@ Bitmap is not valid
 Bits size does not equal capacity
 Black Metal
 Block ID too large
+Blocking call was interrupted due to parent cancellation
 Bluetooth SCO state updated:
 Blur Radius
 Body Main
@@ -1996,12 +2036,12 @@ Box Grey
 Box Red
 Box_Grey 2
 Broadcasting download intent for dependency
-Broadcasting new session:
 Bubble requires non-null pending intent
 Budhhist Era
 Buffer must be at least
 Buffer render error:
 Buffer too small (
+Buffered channel capacity must be at least 1, but
 Build id for
 Built-in AEC is not supported on this platform
 Built-in NS is not supported on this platform
@@ -2034,6 +2074,7 @@ ByteBuffer does not have backing array.
 Bytebuffer frame captured but camera is no longer running.
 C++ addTrack failed.
 C++ addTransceiver failed.
+CONFLATED capacity cannot be used with non-default onBufferOverflow
 COSE coordinates are the wrong size
 COSE key ill-formed
 COSE key missing required fields
@@ -2069,6 +2110,7 @@ Calling getViewModelStore() before a Fragment reaches onCreate() when using setM
 Calling onBackPressed via onBackPressed callback
 Calling play() omitted due to COMMAND_PLAY_PAUSE not being available. If this play command has started the service for instance for playback resumption, this may prevent the service from being started into the foreground.
 Calling popBackStackImmediate via onBackPressed callback
+Calling updateData inside updateData on the same DataStore instance is not supported since updates made in the parent updateData call will not be visible to the nested updateData call. See https://issuetracker.google.com/issues/241760537 for details.
 Camera
 Camera access exception:
 Camera and media
@@ -2152,6 +2194,7 @@ Can't change startDateUnixUs from %s to %s
 Can't change tag of fragment
 Can't change timelineOccupies from %s to %s
 Can't change timelineStyle from %s to %s
+Can't convert
 Can't determine channel mode of presentation
 Can't execute predefined custom command:
 Can't fetch the given art bitmap because it's already recycled.
@@ -2170,7 +2213,6 @@ Can't parse bitrate DSI.
 Can't put value with type
 Can't read exif
 Can't read identifier
-Can't read in final state.
 Can't recreate wrapped extractors. Outer type: %s
 Can't remove item by ID without COMMAND_GET_TIMELINE being available
 Can't scale timecode prior to timecodeScale being set.
@@ -2230,6 +2272,8 @@ Cannot load adaptive icon from uri:
 Cannot load package
 Cannot load thick client module, fall back to load optional module
 Cannot move a child from non-existing index:
+Cannot parse session configs
+Cannot parse session data
 Cannot perform swap since only one image data exists
 Cannot re-use a Hasher after calling hash() on it
 Cannot read metadata.
@@ -2263,7 +2307,7 @@ Canvas dimensions
 Canvas memory budget
 CaptchaController: executeTask failure
 CaptchaController: getTasksClient failure
-CaptchaController: got token for {action=
+CaptchaController: got token for account=
 CaptchaController: no activity found
 Capture failed:
 Car API level file car-app-api.level not found
@@ -2284,8 +2328,10 @@ Chamber Music
 Channel Wallpaper
 Channel map (
 Channel namespace cannot be null or empty
+Channel was cancelled
 Channel was closed
 Channel was closed normally
+Channel was consumed, consumer had failed
 ChannelEventParcelable[, channel=
 Char sequence is empty.
 CharAtom: '
@@ -2327,7 +2373,6 @@ Clearing restore credential failed
 Clearing the bluetooth route because it is no longer selectable:
 Clearing the default route because it is no longer selectable:
 Cleartext HTTP traffic not permitted. See https://developer.android.com/guide/topics/media/issues/cleartext-not-permitted
-Client
 Client AudioFormat: channel count=
 Client does not support ProductDetails.
 Client does not support extra params.
@@ -2355,7 +2400,7 @@ CodedInputStream encountered an embedded string or message which claimed to have
 CodedOutputStream was writing to a flat byte array and ran out of space (pos
 CodedOutputStream was writing to a flat byte array and ran out of space.
 CodedOutputStream was writing to a flat byte array and ran out of space.:
-Cold start detected.
+Cold app start detected
 CollectForDebugParcelable[skipPersistentStorage:
 Collecting Effects
 Collection is empty.
@@ -2375,6 +2420,7 @@ Communication with the client broken, or an bug in the handler code
 Comp 1
 Compile error
 Complete with:
+Completed exception processing, but no default exception handler.
 Completed exception processing. Invoking default exception handler.
 Completer object has been garbage collected, future will fail soon
 Components are not allowed to depend on interfaces they themselves provide.
@@ -2386,7 +2432,6 @@ Configuration does not contain a ISO start date
 Configured not to require a build ID.
 Conflict with existing AudioTrack.
 Conflicting discontinuities.
-Connected to SessionLifecycleService. Queue size
 Connected to service
 Connection progress callbacks cannot be null.
 Connection timed out waiting for Google Play services update to complete.
@@ -2438,6 +2483,9 @@ Coral Red
 Core pool size
 Coroutines with restricted suspension must have EmptyCoroutineContext
 Corrupted queue. Please check the queue contents and item separator provided
+CorruptionException in
+CorruptionException in session configs DataStore
+CorruptionException in session data DataStore
 Could not access the field in remoteBinder.
 Could not add event to report for
 Could not call getMaxAvailableHeightMethod(View, int, boolean) on PopupWindow. Using the public version.
@@ -2506,6 +2554,7 @@ Could not parse track duration:
 Could not parse track number:
 Could not parse year from:
 Could not parse year:
+Could not persist Profiling Manager info
 Could not persist event for session
 Could not persist report for session
 Could not prepare NFT transfer
@@ -2569,9 +2618,8 @@ Couldn't retrieve information from network
 Couldn't use Java reflection to implement protocol message reflection.
 Count must be greater than or equal to the maximum of all grid indices (and spans) defined in the LayoutParams of each child
 Crash reports are available to be sent.
-Crashlytics Android SDK/18.6.0
-Crashlytics Exception Handler
-Crashlytics Shutdown Hook for
+Crashlytics Android SDK/20.1.1
+Crashlytics Shutdown Hook for awaitEvenIfOnMainThread task continuation executor
 Crashlytics automatic data collection
 Crashlytics could not delete report file:
 Crashlytics detected incomplete initialization on previous app launch. Will initialize synchronously.
@@ -2655,8 +2703,6 @@ Dancing Script
 Dark Blue
 Dark Green
 Dark Lilac
-Data Collection is disabled for all subscribers. Skipping this Event
-Data Collection is enabled for at least one Subscriber
 Data buffers cannot be null.
 Data buffers must be direct byte buffers.
 Data bytes does not match offset
@@ -2669,6 +2715,7 @@ Data too big for any version
 Data too big for requested version
 Data too short to be an ID3 tag
 DataChannel has been disposed.
+DataStore running in process
 DataStore scope was cancelled before updateData could complete
 Database closed
 Database restored =
@@ -2764,7 +2811,6 @@ Discarding invalid ID3 tag
 Discarding retained Fragment
 Discarding trailing cue points with timestamps greater than total duration.
 Disconnect takes no parameters
-Disconnected from SessionLifecycleService
 Disconnected from service
 Disconnected:
 DiscoveryRequest{ selector=
@@ -2789,6 +2835,7 @@ Does not contain segment
 Does not support any other color space than I420 or I420mpeg2
 Does not support odd width or height
 Does not support uneven width or height
+Don't call JavaDataStorage.edit() from within an existing edit() callback. This causes deadlocks, and is generally indicative of a code smell. Instead, either pass around the initial `MutablePreferences` instance, or don't do everything in a single callback.
 Don't know how to calculate the frame size of non-NV21 image formats.
 Don't know how to handle message:
 Don't know how to handle this message:
@@ -2891,6 +2938,7 @@ Enable video qualities debug
 Encoding not supported, ignored
 Encountered DTVCC_PACKET_DATA before DTVCC_PACKET_START
 Encountered WebP file with invalid chunk size
+Encountered an unknown key '
 Encountered corrupt PNG file.
 Encountered corrupt WebP file.
 Encountered invalid CRC value for PNG-EXIF chunk. recorded CRC value:
@@ -2944,13 +2992,16 @@ Error encoding PublicKeyCredential to JSON object
 Error encoding UvmEntries to JSON object
 Error extracting the date
 Error extracting the time substring: %s
-Error failing to fetch the remote configs:
+Error failed to fetch the remote configs:
 Error fetching queue item ids, statusCode=
 Error fetching queue items, statusCode=
 Error fetching settings.
 Error getting Firebase Installation ID. Skipping this Session Event.
-Error getting Firebase Installation ID. Using an empty ID
+Error getting Firebase authentication token.
+Error getting Firebase installation id .
+Error getting Firebase installation id.
 Error getting app version code.
+Error getting authentication token.
 Error handling uncaught exception
 Error in decoding CborValue from bytes
 Error in eglInitialize.
@@ -2999,7 +3050,6 @@ Error preloading model resource
 Error printing proto:
 Error processing scroll; pointer index for id
 Error reading file
-Error reading stored session data.
 Error resetting (see logcat).
 Error resolution was canceled by the user, original error message:
 Error resolving target intent service, skipping classname enforcement. Resolved service was:
@@ -3078,35 +3128,45 @@ Exception while unparceling control hints.
 Exception:
 Excessive obu_size
 Executing operations from
-Executing shutdown hook for
+Executing shutdown hook for awaitEvenIfOnMainThread task continuation executor
 Executor must not be null
 Executor must not be null.
 Executor shouldn't be null
 Executor was null.
 Expanding scopes is not permitted, use implied scopes instead
 Expectation Failed
+Expected
 Expected 0, but type is 1
 Expected 1 broadcast receiver that handles android.intent.action.MEDIA_BUTTON, found
 Expected 3 decimal places, got:
+Expected EOF after parsing, but had
 Expected WEBVTT. Got
 Expected a
 Expected a 12- or 24-word recovery phrase
 Expected a friendly destination address
 Expected at least one element
+Expected beginning of the string, but got
 Expected block size:
+Expected closing quotation mark
+Expected comma after the key-value pair
 Expected condition to be true
 Expected destination buffer capacity to be at least
+Expected end of the array or comma
+Expected escape sequence to continue, got EOF
 Expected frames per block:
 Expected index to be within 0..size()-1, but was
+Expected numeric literal
 Expected object header. Got 0x
 Expected one JSON data parameter
 Expected one JSON transaction parameter
 Expected positive parallelism level, but got
 Expected size
 Expected size must be >= 0
+Expected string literal but 'null' literal was found
 Expected theme to define listPreferredItemHeight.
 Expected thread:
 Expected to be true
+Expected valid boolean literal prefix, but had '
 Expecting menu, got
 Experimental settings
 Extension bit is set in signal byte
@@ -3122,9 +3182,13 @@ Extractor added new track (id=
 FAILURE, cause=[
 FATAL/tmessages:
 FATAL/tmessages: at
+FCM Registration failed!
 FCM Registration not found.
 FCM received data:
+FID Change detected! Triggering re-sync
+FID_ALREADY_USED Detected. Retrying with FID cache clearing!
 FIS auth token is empty
+FIS auth token or FIS ID is empty
 FIS_v2
 FPS
 FaceDetector was not released with FaceDetector.release()
@@ -3155,7 +3219,7 @@ Failed to call newCastContextImpl
 Failed to call observer method
 Failed to check device credential. Client FragmentActivity not found.
 Failed to check feature availability
-Failed to check for beta update at null received:
+Failed to check for beta update at https://telegram.org/dl/android/apk-public-beta.json received:
 Failed to close file output stream
 Failed to close key/value metadata file.
 Failed to close rollouts state file.
@@ -3178,6 +3242,7 @@ Failed to create IconCompat from bundle
 Failed to create a new AudioRecord instance
 Failed to create capture session.
 Failed to create directory for
+Failed to create directory:
 Failed to create fake crypto object.
 Failed to create legacy image labeler.
 Failed to create new file
@@ -3191,6 +3256,7 @@ Failed to decode frame: id=
 Failed to decode image:
 Failed to decode with ffmpeg software codecs
 Failed to decompress the message:
+Failed to delete conflicting file:
 Failed to delete file which is a directory
 Failed to delete new file
 Failed to deserialize class:
@@ -3200,7 +3266,6 @@ Failed to determine which loading route to use.
 Failed to download image in time, showing notification without it
 Failed to download image:
 Failed to encode token:
-Failed to enqueue message
 Failed to enumerate thread/threadgroup
 Failed to fetch cached settings
 Failed to find FourCC VC1 initialization data
@@ -3260,6 +3325,7 @@ Failed to load saved values from file
 Failed to load subject segmentation module
 Failed to log
 Failed to make temporary EGL surface active:
+Failed to mmap counter file
 Failed to obtain TextDirectionHeuristic, auto size may be incorrect
 Failed to open
 Failed to open android.app.shortcuts meta-data resource of
@@ -3274,6 +3340,7 @@ Failed to parse cover art attribute
 Failed to parse data atom to int
 Failed to parse font size: '
 Failed to parse index/count attribute:
+Failed to parse int for input '
 Failed to parse metadata entry with key:
 Failed to parse notch info
 Failed to parse settings JSON from
@@ -3285,6 +3352,7 @@ Failed to parse the message.
 Failed to parse the playlist, could not identify any tags.
 Failed to parse the rule:
 Failed to parse token:
+Failed to parse type 'double' for input '
 Failed to parse uint8 attribute:
 Failed to parse vorbis picture
 Failed to parse xml resource
@@ -3303,6 +3371,7 @@ Failed to read resource
 Failed to read system property
 Failed to read xml resource
 Failed to register lifecycle callbacks, unexpected context
+Failed to register listener on re-connection.
 Failed to release child source.
 Failed to release legacy image labeler.
 Failed to release placeholder surface
@@ -3319,7 +3388,6 @@ Failed to resolve hostname
 Failed to resolve target intent service, skipping classname enforcement
 Failed to resolve time offset.
 Failed to restore view hierarchy state for fragment
-Failed to retrieve Firebase Installation ID.
 Failed to retrieve TextView#
 Failed to retrieve a key as Bitmap.
 Failed to retrieve remote module version.
@@ -3348,7 +3416,8 @@ Failed to start resolution intent. This may occur when resolving Google Play ser
 Failed to start service while in background:
 Failed to sync file output stream
 Failed to sync topics. Won't retry sync.
-Failed to update cache config value:
+Failed to truncate counter file
+Failed to update config values:
 Failed to update the DRM session, releasing the codec instead.
 Failed to validate ID3 tag with majorVersion=
 Failed to write to file
@@ -3368,9 +3437,11 @@ Fetched Firebase Installation ID:
 Fetched settings:
 Fetching settings from server.
 Field
+Field '
 Field has no @Protobuf config
 Field is not accessible:
 Field must have a fixed set of values:
+Fields
 File
 File extension for file:
 File is truncated. Expected length:
@@ -3390,7 +3461,9 @@ Finished handling requests, unbinding
 Finishing
 Fire Engine
 Firebase Background
+Firebase Background Thread #
 Firebase Blocking
+Firebase Blocking Thread #
 Firebase Installations Service is unavailable. Please try again later.
 Firebase Installations can not communicate with Firebase server APIs due to invalid configuration. Please update your Firebase initialization process and set valid Firebase options (API key, Project ID, Application ID) when initializing Firebase.
 Firebase Lite
@@ -3494,6 +3567,7 @@ GL surface flip applied: surface=
 GLES Version:
 GMS Clear credential flow failed, calling fallback
 GMS core API Availability. ConnectionResult=
+GMS core is set for proxying
 GPS Timestamp format is not rational. format=
 GPU:
 GROUP CALL UPDATES QUEUE PROCEED - OK
@@ -3504,7 +3578,6 @@ Gap
 Garage Rock
 General MIDI
 Generate Invite Link
-Generated new session
 GenericGFPolys do not have same GenericGF field
 Get supported formats for camera index
 GetCredentialResponse error returned from framework
@@ -3683,7 +3756,6 @@ Ignoring malformed tts extent:
 Ignoring messages sent after release.
 Ignoring negative offset to sample data.
 Ignoring non-pixel tts extent:
-Ignoring old message from
 Ignoring re-entrant call to moveToExpectedState() for
 Ignoring region with malformed extent:
 Ignoring region with malformed origin:
@@ -3714,11 +3786,13 @@ Illegal clipping:
 Illegal end, missing '}' !
 Illegal event code: %d
 Illegal frame size:
+Illegal index
 Illegal mode
 Illegal operation with an empty Formula!
 Illegal pattern character '
 Illegal pattern component:
 Illegal sign-in mode:
+Illegal state
 Illegal use of DownsampleAudioResampler
 Illegal use of DownsampleAudioResampler. Channels:
 Illegal use of PassThroughAudioResampler
@@ -3761,6 +3835,7 @@ Inflater did not finish
 Init
 Init playout error:
 Init recording error:
+Init session datastore failed with exception message:
 InitCall: keyID=
 InitRecording called twice without StopRecording.
 Initial camera is required
@@ -3770,9 +3845,10 @@ Initialization marker file was created.
 Initialization marker file was not properly removed.
 Initialization of audio track failed.
 InitializerApi.updateData should not be called after initialization is complete.
+Initializing Crashlytics blocked main for
 Initializing EglRenderer
-Initializing Firebase Crashlytics 18.6.0 for
-Initializing Firebase Sessions SDK.
+Initializing Firebase Crashlytics 20.1.1 for
+Initializing Firebase Sessions 3.0.8.
 Initiate binding to the service.
 Input Array of elements is too big, cutting off.
 Input buffer size:
@@ -3865,9 +3941,8 @@ Internal error occurred. Please see logs for detailed information
 Internal error with the back stack records
 Internal error: OnRecreation should be registered only on components that implement ViewModelStoreOwner
 Internal error: failed to encode "
-Internal notifications
 Interrupted while downloading image, showing notification without it
-Interrupted while waiting for
+Interrupted while waiting for awaitEvenIfOnMainThread task continuation executor to shut down. Requesting immediate shutdown.
 Interrupted while waiting for the write to disk to complete.
 Interrupted while waiting on busy count
 Interruption occurred while a frame was being read from the web socket:
@@ -3973,6 +4048,7 @@ Invalid encrypted comment size
 Invalid encrypted comment snake
 Invalid environment value
 Invalid era:
+Invalid escaped char '
 Invalid exif
 Invalid exif length
 Invalid expression for fontSize: '
@@ -4058,6 +4134,7 @@ Invalid surface:
 Invalid target position
 Invalid template:
 Invalid timeout, minimum value is 5_000L milliseconds
+Invalid toHexChar char '
 Invalid topic name:
 Invalid transaction
 Invalid transaction cell
@@ -4083,6 +4160,7 @@ Invoking onNewToken for app:
 Ip F30:1 A1:1
 Is source code for Android coming anytime soon?
 Issue:
+It is possible to deserialize them using 'JsonBuilder.allowSpecialFloatingPointValues = true'
 It's prohibited to register multiple handlers, tried to register
 Item at position
 Item is unavailable for purchase.
@@ -4092,6 +4170,7 @@ Iterator has failed.
 Ivory White
 JPEG segment:
 JSON Parse error
+JSON input:
 Jade Green
 Jam Band
 JapaneseDate before Meiji 6 are not supported
@@ -4108,8 +4187,10 @@ Job was cancelled
 Join of AudioRecordJavaThread timed out
 Join of AudioTrackThread timed out.
 Joining ongoing request for:
+JsonConfiguration(encodeDefaults=false, ignoreUnknownKeys=false, isLenient=false, allowStructuredMapKeys=false, prettyPrint=false, explicitNulls=
 Kanji byte size not even
 Kelias be pavadinimo
+Key
 Key must not be null
 Key rotation was interrupted before submission
 Key type invalid
@@ -4307,6 +4388,7 @@ Memory Leak Found
 Memory: class=
 MenuPopupHelper cannot be used without an anchor
 Message ack failed:
+Message ack timed out
 Message classes must extend GeneratedMessage or GeneratedMessageLite
 Message exceeds maximum size524288
 Message is malformed (%s); ignoring: %s
@@ -4361,7 +4443,14 @@ Missing profile key:
 Missing recovery phrase
 Missing registered session key
 Missing required properties:
+Missing required properties: content
+Missing required properties: files
+Missing required properties: identifier
 Missing required properties: nonce
+Missing required properties: profilingTrigger
+Missing required properties: rolloutAssignments
+Missing required properties: tokenExpirationTimestamp
+Missing required properties: trigger
 Missing required properties: verdictOptOut
 Missing required property: factory.
 Missing resolution for ConnectionResult.RESOLUTION_REQUIRED. Call GoogleApiAvailability#showErrorNotification(Context, ConnectionResult) instead.
@@ -4405,11 +4494,14 @@ Must be called at most once
 Must be called from main thread of fragment host
 Must be called from the main thread.
 Must be called on
+Must be called on a background thread, was called on
+Must be called on a blocking thread, was called on
 Must be false
 Must be true
 Must call PhenotypeContext.setContext() first
 Must call PhenotypeFlag.init() first
 Must not be called on GoogleApiHandler thread.
+Must not be called on a main thread, was called on
 Must not be called on the main application thread
 Must not set scopes in GoogleApiClient.Builder when using
 Must pass a ViewHolder when dragging
@@ -4550,6 +4642,8 @@ No package found for authority:
 No path:
 No periods found.
 No permissions were requested for
+No process data for
+No process data map
 No provider data returned
 No provider data returned.
 No relevant ApplicationExitInfo occurred during session:
@@ -4620,13 +4714,13 @@ Not on back stack
 Not on camera thread.
 Not on main thread!
 Not resetting the dialog. Context is null.
-Not running on background worker thread as intended.
 Not running on main thread when it is required to
 Not showing biometric prompt. Context is null.
 Not supported by GmsCore
 Not supported for bimaps
 Notification Channel requested (
 Notification Channel set in AndroidManifest.xml has not been created by the app. Default value will be used.
+Notification displayed for missing feature:
 Notification intent missing expected extra:
 Notification pending intent canceled
 NotificationsController dismissNotification
@@ -4710,6 +4804,7 @@ Null wallClock
 Num bits must be between 0 and 32
 Number of active recording sessions:
 Number of bits and data bytes does not match
+Numeric value overflow
 ON_ANY must not been send by anybody
 OR
 OR unread_count > 0)
@@ -5026,6 +5121,7 @@ Platform AEC is not supported
 Platform AEC state can't be modified while recording
 Platform NS is not supported
 Platform NS state can't be modified while recording
+Platform doesn't support proxying.
 Play Services needs to be updated. Ask the user to update Google Play Services.
 Play Store package certs are not valid. Found these sha256 certs: [
 Play Store package is disabled.
@@ -5079,7 +5175,6 @@ PostponeNotificationsCallback allowed only from MAIN thread
 Potential microphone conflict. Active sessions:
 Power Ballad
 PowerManager is null, therefore not creating the WakeLock.
-Powered by
 Pre-u credman get flow failed; retrying with gis flow
 Precondition Failed
 PreferencesSerializer does not support type:
@@ -5095,6 +5190,7 @@ Preview SurfaceTexture was destroyed
 Preview file is unavailable
 Previous sessions could not be finalized.
 Previous wallet send is still unresolved
+Primitive descriptor does not have elements
 PriorityMapping is missing known Priority value
 Problem closing file
 Problem encountered deleting Crashlytics initialization marker.
@@ -5102,6 +5198,7 @@ Problem in loading the class at
 Problem while matching changed view holders with the newones. The pre-layout information for the change holder
 Problem with command
 Problematic adapter:
+Process
 ProcessLifecycleInitializer cannot be initialized lazily. Please ensure that you have: <meta-data android:name='androidx.lifecycle.ProcessLifecycleInitializer' android:value='androidx.startup' /> under InitializationProvider in your AndroidManifest.xml
 Processing component
 Product id cannot be empty.
@@ -5116,12 +5213,12 @@ ProductDetailsParams cannot be null.
 ProductId can not be duplicated. Invalid product id:
 Progress display unsupported
 Progressive Rock
+Project ID or API Key is missing
 Property "autoMetadata" has not been set
 Protobuf runtime is not correctly loaded.
 Protocol message contained an invalid tag (zero).
 Protocol message end-group tag did not match expected tag.
 Protocol message had invalid UTF-8.
-Protocol message had too many levels of nesting. May be malicious. Use CodedInputStream.setRecursionLimit() to increase the depth limit.
 Protocol message had too many levels of nesting. May be malicious. Use setRecursionLimit() to increase the recursion depth limit.
 Protocol message tag had invalid wire type.
 Protocol message was too large. May be malicious. Use CodedInputStream.setSizeLimit() to increase the size limit.
@@ -5162,7 +5259,6 @@ Query product details with serialized docid is not supported.
 Querying owned items, item type:
 Querying product details is not supported.
 Queue size:
-Queued message
 Queueing
 Quitting render thread.
 REPLACE INTO
@@ -5187,9 +5283,11 @@ Ranger Green
 Re-encoded trim start produced no frames
 Reached EOF while skipping
 Read too much data during profile line parse
-Read version control info
+Read version control info from file
+Read version control info from string resource
 Reading EXIF from HEIF files is supported from SDK 28 and above
 Reading from byte array should not throw IOException.
+Reason:
 Recaptcha server url only allows using Http or Https.
 Receive (type=text, ns=%s) %s
 Received InstanceID error
@@ -5207,8 +5305,6 @@ Received null app settings, cannot send reports at crash time.
 Received null response from onSignInSuccess
 Received response for unknown request:
 Received response to request:
-Received unexpected event from the SessionLifecycleClient:
-Received unexpected event from the SessionLifecycleService:
 Reconnection failed due to timeout limit reached.
 Reconnection failed with result:
 Reconnection succeeded with result:
@@ -5248,7 +5344,6 @@ RemoteException during isReadyToPay
 RemoteException getting payment data
 RemoteUserInfo is null, ignoring command=
 Removed fragment from active set
-Removing dead client from list:
 Removing listener record for
 Removing route for appId
 Removing session over cap:
@@ -5305,6 +5400,7 @@ Resolutions unknown. Codec max resolution:
 ResolvableConnectionException can only be created with a connection result containing a resolution.
 Resolved path jumped beyond configured root
 Resource "
+Resource deadlock would occur
 Resource does not exist:
 Resource identifier must be an integer.
 Resource is compressed:
@@ -5331,6 +5427,7 @@ Rhythmic Soul
 RichQuote: laid out text doesn't match the formatted one
 Rifle Green
 Rock & Roll
+Rollout state is empty for session:
 Roman Silver
 Root index out of range
 Rotate 0°
@@ -5439,7 +5536,6 @@ SendGiftSheet with no star gift and no premium tier
 Sending
 Sending cached crash reports...
 Sending canceled result for garbage collected task!
-Sending lifecycle
 Sending report through Google DataTransport:
 Sending task
 Sent debug logs, response =
@@ -5452,8 +5548,6 @@ Serializing to a byte array threw an IOException (should never happen).
 Server error
 Service API version:
 Service Unavailable
-Service bound to new client on process
-Service bound with null intent. Ignoring.
 Service connected
 Service connection
 Service connection is disconnected.
@@ -5467,21 +5561,19 @@ Service took too long to process intent:
 Service was bonded successfully.
 ServiceConnection must not be null
 Session
-Session Event:
+Session Event Type: SESSION_START
 Session ID must be unique. ID=
 Session already open
 Session listener is required
 Session operation cancelled
 Session operation failed
 Session reference count less than zero:
-Session too long in background. Creating new session.
-Session update received:
 SessionPositionInfo {PositionInfo {mediaItemIndex=
 SessionProvider for category
 SessionResult must not be null
 SessionToken {pkg=
-Sessions SDK did not have any dependent SDKs register as dependencies. Events will not be sent.
-Sessions SDK disabled. Events will not be sent.
+Sessions SDK disabled through data collection. Events will not be sent.
+Sessions SDK disabled through settings API. Events will not be sent.
 Sessions SDK disabled. Not listening to lifecycle events.
 Sessions SDK has dropped this session due to sampling.
 Set error callback
@@ -5664,6 +5756,7 @@ Stop reading file since re-reading an IFD may cause an infinite loop:
 Stopping RouteDiscovery.
 Stopping media notification.
 Stopping the AudioTrackThread...
+StorageConnection has already been disposed.
 StoriesController add new story for full peer storyId=
 StoriesController add new story id=
 StoriesController add new user with story id=
@@ -5723,7 +5816,6 @@ String resource "fcm_fallback_notification_channel_label" is not found. Using de
 Stripe/v1 JavaBindings/3.5.0
 Structured transactions are not supported
 SubjectSegmenterOptions can not be null
-Subscribe to **Telegram Premium** to forward formatted messages without the sender’s name.
 Subscribe to topic:
 Subscriber
 Subtitle decoding failed. streamFormat=
@@ -5732,7 +5824,7 @@ Success not sent to client. Client is not awaiting a result.
 Successfully configured exception handler.
 Successfully consumed purchase.
 Successfully downloaded image:
-Successfully logged Session Start event:
+Successfully logged Session Start event.
 Supervisor must not be null
 Supplied transform has different Canvas attached
 Suppressed:
@@ -5864,6 +5956,7 @@ The encryption IV attribute must be present when an initialization segment is en
 The end of the stream has been reached unexpectedly.
 The extension contained in the Sec-WebSocket-Extensions header is not supported:
 The file descriptor for the given input is not seekable
+The file has a length of zero for session:
 The fully qualified name of the implementation of OptionsProvider must be provided as a metadata in the AndroidManifest.xml with key com.google.android.gms.cast.framework.OPTIONS_PROVIDER_CLASS_NAME.
 The given URI is null.
 The given timeout value is negative.
@@ -5881,7 +5974,6 @@ The message payload cannot be null or empty
 The meta-data tag in your app's AndroidManifest.xml does not have the right value. Expected
 The minimum width must be from 1 to 19 inclusive but was
 The module-to-client output switcher flag %s
-The number of acquired permits should be in 0..1
 The number of auxiliary track types from metadata (
 The number of released permits cannot be greater than 1
 The observer class has some methods that use newer APIs which are not available in the current OS version. Lifecycles cannot access even other methods so you should make sure that your observer classes only access framework classes that are available in your min API level OR use lifecycle:compiler annotation processor.
@@ -5909,6 +6001,7 @@ The status code of the opening handshake response is not '101 Switching Protocol
 The status line of the opening handshake response is badly formatted. The status line is:
 The status line of the opening handshake response is empty.
 The suffix must not be null
+The suggested name '
 The symbol type was not valid! Use one of the symbol type constants from the class 'TeXConstants'.
 The symbol with the name '
 The task was rejected
@@ -5946,6 +6039,7 @@ This coroutine had already completed
 This detector is already closed!
 This device doesn't support aot. Did you call deviceSupportsAotProfile()?
 This function can only be used for API Level < 29.
+This implementation does not support suspension for senders, use
 This is a bug in DataStore. Please file a bug at: https://issuetracker.google.com/issues/new?component=907884&template=1466542
 This is not supported, use MenuItemCompat.getActionProvider()
 This is not supported, use MenuItemCompat.setActionProvider()
@@ -5956,10 +6050,8 @@ This must be called before creating dialog
 This mutex is locked by
 This mutex is not locked
 This object has been released
-This phone number is already in your contacts. **View >**
-This phone number is not on Telegram. **Invite >**
-This phone number is on Telegram.
 This request has expired or has already been answered
+This scope has already been closed.
 This sequence can be consumed only once.
 This should never be called.
 This should never happen, if this method was called it means we're trying to reach into WebView APK code on an incompatible device. This most likely means the current method is being called too early, or is being called on start-up rather than lazily
@@ -6014,6 +6106,7 @@ Too many redirects:
 Too many stream changes, so dropping offset:
 Top 40
 Top bit not zero:
+Topic
 Topic operation failed without exception message. Will retry Topic operation.
 Topic operation failed:
 Topic sync or token retrieval failed on hard failure exceptions:
@@ -6022,6 +6115,8 @@ Total bytes mismatch
 Total observers more than 1000, need check for memory leak.
 Track has no sample table size information
 Trailing DEFLATE bytes
+Trailing comma before the end of JSON
+Trailing commas are non-complaint JSON and not allowed by default. Use 'allowTrailingCommas = true' in 'Json {}' builder to support them.
 Transaction comment could not be decrypted
 Transaction contains multiple decryptable comments
 Transaction has no encrypted comment
@@ -6042,6 +6137,7 @@ Triangle 4
 Tried to start the VoIP service when it's already started
 Tried to write a fatal exception while no session was open.
 Tried to write a non-fatal exception while no session was open.
+Trigger file
 Trim range has no video sync sample
 Trop Rock
 TrueHD chunk samples must be contiguous in the sample queue.
@@ -6107,7 +6203,7 @@ Unable to create preview EGL surface
 Unable to create preview MP4
 Unable to decode source
 Unable to delete existing encrypted file
-Unable to deliver message:
+Unable to delete migrated keys from SharedPreferences.
 Unable to determine duration of static manifest.
 Unable to determine start of period
 Unable to encode parameters to UTF-8. Please contact support@stripe.com for assistance.
@@ -6160,6 +6256,7 @@ Unable to log.
 Unable to make EGL context current
 Unable to make EGL context current: 0x
 Unable to make preview EGL surface current: 0x
+Unable to move the file from back up to non back up directory
 Unable to obtain ChronoLocalDateTime from TemporalAccessor:
 Unable to obtain ChronoZonedDateTime from TemporalAccessor:
 Unable to obtain Instant from TemporalAccessor:
@@ -6173,6 +6270,7 @@ Unable to obtain YearMonth from TemporalAccessor:
 Unable to obtain ZoneId from TemporalAccessor:
 Unable to obtain ZoneOffset from TemporalAccessor:
 Unable to obtain ZonedDateTime from TemporalAccessor:
+Unable to obtain package certificate history.
 Unable to obtain permission to request a cellular network.
 Unable to open emoji.pack
 Unable to open file.
@@ -6181,13 +6279,13 @@ Unable to parse CEA-608 channel number from:
 Unable to parse CEA-708 service block number from:
 Unable to parse map entry.
 Unable to parse preferences proto.
-Unable to push new session to
 Unable to query display refresh rate
 Unable to query the content provider
 Unable to query the maximum insets for IME
 Unable to read App Quality Sessions session id.
 Unable to read Car API level file
 Unable to read min API level from manifest
+Unable to read the Profiling Manager file
 Unable to register zone as one already registered with that ID:
 Unable to release
 Unable to rename
@@ -6203,6 +6301,7 @@ Unable to stop
 Unable to stop the camera segment
 Unable to swap EGL buffers: 0x
 Unable to swap preview EGL buffers: 0x
+Unable to touch trigger file
 Unable to trim final Opus output
 Unable to use fast mode since requested sample rate is not native
 Unable to verify null intent
@@ -6222,9 +6321,13 @@ Unexpected
 Unexpected Content-Length [
 Unexpected Content-Range [
 Unexpected EOF
+Unexpected EOF during unicode escape
 Unexpected EOF in header
+Unexpected Error
+Unexpected Error: FID NOT matching!
 Unexpected InterruptedException
 Unexpected InterruptedException:
+Unexpected JSON token at offset
 Unexpected MIME type.
 Unexpected NameNotFoundException:
 Unexpected Throwable subclass
@@ -6246,6 +6349,7 @@ Unexpected decode error
 Unexpected encoding:
 Unexpected end
 Unexpected end of DN:
+Unexpected end of boolean literal
 Unexpected end of chunk data
 Unexpected end of document
 Unexpected error code
@@ -6268,6 +6372,7 @@ Unexpected id:
 Unexpected intent action for CarAppPermissionActivity:
 Unexpected justification value:
 Unexpected lacing value:
+Unexpected leading comma
 Unexpected negative value:
 Unexpected non API exception when trying to deliver the task result to an activity!
 Unexpected non API exception!
@@ -6287,12 +6392,17 @@ Unexpected runtime error
 Unexpected saio entry count:
 Unexpected second root
 Unexpected size change. Configured
+Unexpected special floating-point value
 Unexpected start code prefix:
 Unexpected start code value
 Unexpected start indicator reading extended header
 Unexpected start indicator: expected
 Unexpected state of the iterator:
 Unexpected structured response
+Unexpected symbol
+Unexpected symbol '
+Unexpected symbol '+' in numeric literal
+Unexpected symbol '-' in numeric literal
 Unexpected type for bundle log reason:
 Unexpected type for bundle response code:
 Unexpected type for bundle sub response code:
@@ -6436,7 +6546,6 @@ Unsupported codec:
 Unsupported color format:
 Unsupported color type:
 Unsupported colorFormat:
-Unsupported content
 Unsupported coreSbrFrameLengthIndex
 Unsupported data type value
 Unsupported epConfig:
@@ -6483,6 +6592,8 @@ Upload for context %s is already scheduled. Returning...
 Upload the feature usage report.
 Upload your own background for the channel.
 Upon handling create public key credential response, fido module giving null bytes indicating internal error
+Use 'coerceInputValues = true' in 'Json {}' builder to coerce nulls if property has a default value.
+Use 'ignoreUnknownKeys = true' in 'Json {}' builder to ignore unknown keys.
 Use C.CLEARKEY_UUID instead
 Use Camera 2 API
 Use This Translation
@@ -6513,7 +6624,9 @@ Valid sender address is required
 Value case is null.
 Value for
 Value is null for field:
+Value must follow key in a map, index for key:
 Value not set.
+Value of type '
 Value out of range of 24-bit integer: %s
 Variable length description in sgpd found (unsupported)
 Vector magic in StoryDraft parse error (1)
@@ -6576,7 +6689,6 @@ WEB proxy: Base64 bridge installation timed out again; transport stopped
 WEB proxy: Base64 bridge installation timed out; retrying once
 WEB proxy: Base64 bridge ready
 WRITE YOUR COMMENT HERE:
-Wait until current upload is complete
 Waited
 Waiting for
 Waiting for send/deleteUnsentReports to be called.
@@ -6690,6 +6802,7 @@ ZoneId must match ZoneOffset
 ^<[a-zA-Z][a-zA-Z0-9.+-]{1,31}:[^<>��- ]*>
 ^NOTE([ ].*)?$
 _id IN (
+`hasNext()` has not been invoked
 a minute
 a new network is available
 accept call ok!
@@ -6812,6 +6925,7 @@ approve session
 appx. %1$s per %2$s
 arch
 are allowed
+are required for type with serial name '
 args =
 args=
 array index scale not a power of two
@@ -6822,6 +6936,8 @@ as part of execPendingActions for actions
 as part of execSingleAction for action
 at
 at index
+at path
+at path:
 at position
 at replied #
 at webpage of #
@@ -6848,7 +6964,9 @@ autoMetadata
 av1 codec failed, we think this codec is not supported
 avatarStartTime =
 avgExecutionTime:
+awaitClose() can only be invoked from the producer context
 awaitEvenIfOnMainThread task continuation executor
+awaitEvenIfOnMainThread task continuation executor did not shut down in the allocated time. Requesting immediate shutdown.
 away:
 back to TextureView in stories
 back to cpu blur
@@ -6897,7 +7015,6 @@ both camera devices opened; configuring dual sessions
 both eye views must be marked as available
 both prf and prfAlreadyHashed extensions found
 bottom=
-bound at
 bound must be greater than origin
 bound must be positive
 boundary=
@@ -6943,7 +7060,6 @@ bytes.
 bytesConsumed is not aligned to frame size: %s
 bytesNeeded=
 bytesRemaining=
-c.get(Qualified.qualifie…a, Executor::class.java))
 cScale =
 cache
 cache =
@@ -7078,6 +7194,7 @@ cannot be returned from method with return type
 cannot be used with
 cannot find valid CamcorderProfile
 cannot have more than 2 params
+cannot store more than Integer.MAX_VALUE elements
 cannot store more than MAX_VALUE elements
 cannot swap buffers!
 cant find topic
@@ -7156,12 +7273,14 @@ codec=
 codecs prepared: video=
 codecs:
 collection too large
+colon ':'
 color format:
 colorRange must be the same for both views
 colorSpace must be the same for both views
 colorTransfer must be the same for both views
 colspan="
 combined in one TrackGroup: '
+comma ','
 commandCode shouldn't be COMMAND_CODE_CUSTOM
 commit already called
 common A/V start armed; waiting for next camera frame: segmentElapsedMs=
@@ -7180,7 +7299,6 @@ connection or subscription timed out
 connection type is
 constructor (Kotlin reflection is not available)
 contact_id IN (
-contacts
 contacts imported
 contacts not changed!
 contacts sync disabled
@@ -7191,12 +7309,12 @@ contains an unknown "range name" '
 contains an unknown font id!
 contains an unknown temporary TeXFormula variable name '
 contains an unknown text style '
-content
 content-length was no number
 content=
 contents
 contents="
 context must not be null
+context.getSharedPrefere…me, Context.MODE_PRIVATE)
 context.getSystemService(Context.APP_OPS_SERVICE) is null
 context:
 context_id = ?
@@ -7206,6 +7324,7 @@ continuing pending switch after DUAL_ACTIVE fallback
 convertVideoInternal original=
 copy malformed files
 copyOf(this, newSize)
+copyOf(this, size)
 cores
 could not delete file
 could not encode subscription
@@ -7280,7 +7399,7 @@ data-type="user-profile" data-user-id="
 data:
 database recovered time
 database restored!!
-datatransport/3.1.9 android/
+datatransport/3.3.0 android/
 date
 date =
 date DESC
@@ -7380,7 +7499,6 @@ did not call through to super.onStart()
 did not call through to super.onStop()
 did not create a view.
 did not return a View from onCreateView() or this was called before onCreateView().
-did not shut down in the allocated time. Requesting immediate shutdown.
 did=
 didCrash=
 didn't pass lock check
@@ -7409,6 +7527,7 @@ disconnecting because it was signed out.
 disconnecting; socket=
 disk image is malformed
 disk image malformed detected, try recover
+disk worker: log non-fatal event to persistence
 diskSpace
 diskUsed
 display signing data
@@ -7449,6 +7568,7 @@ done loading contacts
 done processing contacts
 done. Time spent:
 done:
+downTo
 download queue: dc
 downloaded duplicate file part
 draw=
@@ -7462,6 +7582,7 @@ dropping pre-origin camera frame: deltaUs=
 dual capture sessions requested: activeId=
 due to dead object exception.
 due to service disconnection.
+duplicate element:
 duplicate key:
 duplicate variable name "
 duration =
@@ -7531,6 +7652,9 @@ end cannot be negative
 end change if necessary
 end index
 end index (%s) must not be less than start index (%s)
+end of the array ']'
+end of the input
+end of the object '}'
 end should be < than charSequence length
 end=
 endTime
@@ -7538,6 +7662,7 @@ endX value must be in the range [0, 1]
 ended
 ended keep-alive job
 entries when adding custom keys. Maximum allowable:
+enum value
 eof
 epsX must be >= 0
 epsY must be >= 0
@@ -7555,6 +7680,7 @@ error on receivedCall:
 error parsing app ID
 error parsing project number
 error parsing sender ID
+error retrieving notification delegate for package
 error starting call
 error, index=
 error:
@@ -7572,6 +7698,7 @@ exceeds the maximum print width of
 execute parameter required
 execution
 existingFileSize=
+exists for session:
 exitAnim=#
 expected FALSE or TRUE
 expected a non-null reference
@@ -7626,8 +7753,11 @@ failed to resume, server doesn't support partial content. downloading from the b
 failed to save prefs
 failed to translate a text
 failed with error:
+failed with status:
+failed:
 failed: Camera2Session.create returned null
 fatal error in state=
+fcntl failed: EAGAIN
 feat
 feat.
 featuring
@@ -7652,7 +7782,6 @@ file_part=
 filename
 filename cannot be null
 fileref updated for
-files
 files db created from_backup=
 files path =
 fillMessagesWithStories: applying stories for existing array
@@ -7713,6 +7842,7 @@ for mid
 for objectTypeIndication
 for session
 for verification.
+for:
 force import contacts
 force=
 forcing fallback to container DynamiteLoader impl
@@ -7787,7 +7917,6 @@ getInputBuffer with index=
 getItem(): Ignoring empty mediaId
 getJpegAttributes starting with:
 getLaunchBillingFlowSubResponseCodeFromBundle() got null response code, assuming OK
-getLocaleFileStrings: reloadLastFile = false
 getMapAsync() must be called on the main thread
 getPngAttributes starting with:
 getPurchase() failed. Response code:
@@ -7872,6 +8001,7 @@ has next
 has no events.
 has no service info.
 has no target state
+has not backgrounded yet
 has not been attached yet.
 has not been defined.
 has not been initialized
@@ -7935,6 +8065,7 @@ https://default.url
 https://developer.apple.com/streaming/emsg-id3
 https://developers.google.com/actions?invocation=
 https://dns.google.com/resolve?name=
+https://fcmregistrations.googleapis.com/v1/projects/
 https://firebase-settings.crashlytics.com/spi/v2/platforms/android/gmp/
 https://firebaseinstallations.googleapis.com/v1/
 https://fragment.com
@@ -7956,11 +8087,7 @@ https://play.google.com/store/account/subscriptions?sku=telegram_premium&package
 https://play.google.com/store/apps/details?id=com.google.android.webview
 https://play.google.com/store/apps/details?id=org.telegram.messenger
 https://player.vimeo.com/video/
-https://plus.google.com/
 https://promote.telegram.org/guidelines
-https://ss3.4sqi.net/img/categories_v2/
-https://ss3.4sqi.net/img/categories_v2/building/government_capitolbuilding_64.png
-https://ss3.4sqi.net/img/categories_v2/travel/hotel_64.png
 https://static-maps
 https://static-maps.yandex.ru/1.x/?ll=%.6f,%.6f&z=%d&size=%d,%d&l=map&scale=%d&lang=%s
 https://static-maps.yandex.ru/1.x/?ll=%.6f,%.6f&z=%d&size=%d,%d&l=map&scale=%d&pt=%.6f,%.6f,vkbkm&lang=%s
@@ -7992,6 +8119,7 @@ https://telegram.org/
 https://telegram.org/blog/telegram-stars
 https://telegram.org/deactivate?phone=
 https://telegram.org/dl
+https://telegram.org/dl/android/apk-public-beta.json
 https://telegram.org/embed
 https://tgb-playground.smart-glocal.com/cds/v1/tokenize/card
 https://tgb.smart-glocal.com/cds/v1/tokenize/card
@@ -8042,7 +8170,6 @@ ignoring stale socket callback; attempt=
 ignoring too old call
 ignoring unsupported entity: '&
 ill-formed authenticator data
-image must not be null
 image path =
 import contacts error
 import wallet: requesting proof challenge
@@ -8053,6 +8180,7 @@ in chat
 in class
 in component
 in dialog
+in numeric literal
 in onInterceptTouchEvent
 in onPostInitHandler; statusCode=%d
 in onTouchEvent
@@ -8088,6 +8216,7 @@ inputStream does not contain a valid media presentation description
 inputstream shouldn't be null
 installationUuid
 instance cannot be null
+instead
 integrityDialogWrapper
 interfaceVersion=
 internal error during password creation
@@ -8117,6 +8246,7 @@ invalid period count
 invalid position
 invalid streaming JSON
 invalid tag type:
+invalid token
 invalid wav format extension guid
 invite =
 invoice_closed
@@ -8126,6 +8256,8 @@ is already attached to a FragmentManager.
 is already attached to a RecyclerView:
 is already complete or completing, but is being completed with
 is already loaded !
+is already loading
+is already one of the names for
 is already registered
 is an AppCompat widget that can only be used with a Theme.AppCompat theme (or descendant).
 is an invalid index for size
@@ -8139,13 +8271,16 @@ is different from fragment sample count
 is different than previous
 is disconnected
 is expected
+is expired
 is greater than fragment sample count
 is intended to only be used once. You should create a new instance for each use.
 is less than zero.
 is malformed
+is missing in the map.
 is not Google Play services.
 is not a direct child of
 is not a supported timezone name
+is not a valid map index
 is not an active fragment of FragmentManager
 is not an found.
 is not an instance of com.google.firebase.components.ComponentRegistrar
@@ -8172,6 +8307,7 @@ is required!
 is shutting down
 is skipped, message date (
 is smaller than frame size:
+is stale
 is too big (
 is too big to fit in memory.
 is too long, truncating string.
@@ -8212,6 +8348,7 @@ key cannot be used to put a String
 key cannot be used to put a long
 key fingerprints don't match
 key must be repeating
+keys when adding event specific keys. Maximum allowable: 1024
 keys, must be at least
 keystore key missing
 keystore key type
@@ -8294,6 +8431,7 @@ localId != reqId
 local_id =
 locale does not support dates before 1868 AD) Unparseable date: "
 lock app
+lockFileStream.getChanne…LUE, /* shared= */ false)
 locusId cannot be null
 log session ended with error = %d
 logging failed.
@@ -8375,7 +8513,6 @@ media route is found and selected
 media transfer = %b, session transfer = %b, transfer to local = %b, in-app output switcher = %b
 mediaStatus should not be null
 mem mapping
-members are not in your contact list
 mergeFrom(MessageLite) can only merge messages of the same type.
 message
 message is missing a sequence number.
@@ -8591,6 +8728,8 @@ null cannot be cast to non-null type android.os.Handler
 null cannot be cast to non-null type androidx.collection.LongSparseArray<E of androidx.collection.LongSparseArray>
 null cannot be cast to non-null type androidx.collection.SparseArrayCompat<E of androidx.collection.SparseArrayCompat>
 null cannot be cast to non-null type androidx.credentials.CredentialProvider
+null cannot be cast to non-null type androidx.datastore.core.ReadException<T of androidx.datastore.core.DataStoreImpl.handleUpdate$lambda$2>
+null cannot be cast to non-null type androidx.datastore.preferences.core.MutablePreferences
 null cannot be cast to non-null type androidx.lifecycle.ReportFragment
 null cannot be cast to non-null type java.lang.Class<T of kotlin.jvm.JvmClassMappingKt.<get-java>>
 null cannot be cast to non-null type java.net.HttpURLConnection
@@ -8601,7 +8740,6 @@ null cannot be cast to non-null type kotlin.Function2<R of kotlin.coroutines.int
 null cannot be cast to non-null type kotlin.String
 null cannot be cast to non-null type kotlin.collections.Set<kotlin.String>
 null cannot be cast to non-null type kotlin.coroutines.CoroutineContext.Element
-null cannot be cast to non-null type kotlinx.coroutines.ChildHandle
 null cannot be cast to non-null type kotlinx.coroutines.CompletedExceptionally
 null cannot be cast to non-null type kotlinx.coroutines.ThreadContextElement<kotlin.Any?>
 null cannot be cast to non-null type kotlinx.coroutines.channels.ChannelSegment<E of kotlinx.coroutines.channels.BufferedChannel>
@@ -8610,6 +8748,7 @@ null cannot be cast to non-null type kotlinx.coroutines.flow.internal.AbstractSh
 null cannot be cast to non-null type kotlinx.coroutines.internal.DispatchedContinuation<*>
 null cannot be cast to non-null type kotlinx.coroutines.internal.DispatchedContinuation<T of kotlinx.coroutines.DispatchedTask>
 null cannot be cast to non-null type kotlinx.coroutines.internal.DispatchedContinuation<T of kotlinx.coroutines.DispatchedTaskKt.resume>
+null cannot be cast to non-null type kotlinx.coroutines.internal.LockFreeLinkedListNode
 null cannot be cast to non-null type org.json.JSONObject
 null context
 null current looper
@@ -8628,8 +8767,8 @@ oWidth =
 oauth_request
 objimg: detected #
 objimg: no objects
-obtain(null, messageCode, 0, 0)
 of
+of new fallback session
 of new session
 of type
 off=
@@ -8811,6 +8950,7 @@ overflow: checkedAdd(
 overflowCount
 overlay consumed (handle)
 overwrite stories
+package info is not set correctly
 package not found
 package shouldn't be null
 packageName should be nonempty
@@ -8988,6 +9128,7 @@ queue shouldn't have null items
 queueInputBuffer failed
 queued tasks
 queuedInputBuffers=
+quotation mark '"'
 rHeight =
 rWidth =
 r_{i-1} was zero
@@ -9070,6 +9211,7 @@ release() called on an object with refcount < 1
 release: Decoder is not running.
 releaseAudioResources
 releaseOutputBuffer failed
+reload locale because it was malformed before
 reload locale because locale file is not enough
 reload locale because one of file doesn't exist
 reload locale because one of file is corrupted
@@ -9161,7 +9303,6 @@ ring buffer filled size:
 ring buffer is full
 role flags
 role switch request failed
-rolloutAssignments
 rolloutId
 rolloutVariant
 root dir
@@ -9200,11 +9341,18 @@ saveAllState: adding back stack #
 saveAllState: adding fragment (
 saveAllState: no fragments!
 saveLogInToken
+saveRemoteLocaleStrings: can't read
+saveRemoteLocaleStrings: can't replace
 saveRemoteLocaleStrings: currentLocaleInfo != localeInfo, do nothing
 saveRemoteLocaleStrings: difference is from version
-saveRemoteLocaleStrings: difference is straight from the beginning
+saveRemoteLocaleStrings: difference is not newer than ours, skip
+saveRemoteLocaleStrings: difference is straight from the beginning, version
+saveRemoteLocaleStrings: difference starts after ours, request the missing part
 saveRemoteLocaleStrings: empty difference=
+saveRemoteLocaleStrings: no file for
 saveRemoteLocaleStrings: unknown language
+saveRemoteLocaleStrings: whole langpack is older than ours, skip
+saveRemoteLocaleStrings: written locale file is unreadable, keep the old one
 saved locale file to
 saved messages
 savedOffset=
@@ -9439,6 +9587,8 @@ start migrate with id
 start mozilla task
 start mozilla txt task
 start next preload from
+start of the array '['
+start of the object '{'
 start play youtube video
 start preloading file to temp =
 start read contacts from phone
@@ -9467,6 +9617,7 @@ state
 state =
 state changed to
 state:
+step
 sticker in EmojiAnimations
 stop encoder
 stop listen
@@ -9494,6 +9645,7 @@ stream=
 streaming
 streaming updates balance to
 stride:
+string escape sequence '\'
 string is empty or null
 string size too big
 stripByteCounts should not be null or have zero length.
@@ -9567,10 +9719,9 @@ the maximum supported unsigned/negative integer is 9223372036854775807
 the network is lost
 the total number of elements (%s) in the arrays must fit in an int
 the total number of elements must fit in an int
+the whole langpack
 this Android can't rename files
-this as java.lang.String).getBytes(charset)
 this as java.lang.String).substring(startIndex)
-this as java.lang.String).toLowerCase(Locale.ROOT)
 this as java.lang.String).toUpperCase(Locale.ROOT)
 this device requires a Google Play Services update for the given feature to be supported
 this future
@@ -9598,6 +9749,7 @@ to 181
 to Container
 to GONE
 to INVISIBLE
+to Long
 to VISIBLE
 to a ByteString threw an IOException (should never happen).
 to a byte array threw an IOException (should never happen).
@@ -9610,14 +9762,14 @@ to host
 to open
 to output buffer with offset
 to reserved bits must be zero after mapping coupling steps
-to service
-to shut down. Requesting immediate shutdown.
 toDelete=
 toIndex (
 toIndex < fromIndex
 token
 token=
 tokenCreationEpochInSecs
+tokenCreationTimestamp
+tokenExpirationTimestamp
 too many retries
 too short header:
 too small; defaulting to 1
@@ -9775,6 +9927,7 @@ us| #Usages:
 us| maxExecutionTime:
 us| totalTime:
 valid interface:
+valid token
 validBits (
 valign="
 value
@@ -9842,6 +9995,7 @@ was not an application, can't register for lifecycle callbacks. Some notificatio
 was not sent, it had been canceled.
 was null
 was requested, but cannot be performed. Only
+was specified
 was started more than once. Each instance of
 was terminated
 wasInBackground =
@@ -9874,13 +10028,11 @@ websocket error:
 webviewproxy.postEvent: no container
 which does not match what was given
 which is not a FragmentContainerView
-which is older than
 while other had
 while trying to fail enqueued calls.
 widget
 widget call
 widget height
-widget heights cleared
 widget payload:
 widget preview
 widget sendTransfer
@@ -9893,6 +10045,7 @@ window.Telegram.WebView.receiveEvent('accelerometer_changed',
 window.Telegram.WebView.receiveEvent('device_orientation_changed',
 window.Telegram.WebView.receiveEvent('gyroscope_changed',
 window.Telegram.WebView.receiveEvent('viewport_changed',
+window.__tg__postBackgroundChange && window.__tg__postBackgroundChange()
 with
 with another fragment for
 with cached meta
@@ -9910,6 +10063,7 @@ with tag
 with thanos
 with thanos effect
 with token =
+with url:
 with zone
 within the HlsRedundantGroup
 work must not be null

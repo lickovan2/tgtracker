@@ -1,6 +1,6 @@
 {
  "version": "13.2.0",
- "code": "72799",
+ "code": "72879",
  "package": "org.telegram.messenger.beta",
  "min_sdk": "23",
  "target_sdk": "36",
@@ -96,8 +96,7 @@
   "org.telegram.ui.PopupNotificationActivity",
   "org.telegram.ui.ShareActivity",
   "org.telegram.ui.VoIPFeedbackActivity",
-  "org.telegram.ui.VoIPPermissionActivity",
-  "org.telegram.ui.WidgetConformanceActivity"
+  "org.telegram.ui.VoIPPermissionActivity"
  ],
  "services": [
   "androidx.car.app.CarAppMetadataHolderService",

@@ -599,7 +599,6 @@ ui/Wallet/WalletEngine2$SendCallbacks
 ui/Wallet/WalletEngine2$SendPhase
 ui/Wallet/WalletEngine2$SendResolution
 ui/WallpapersListActivity
-ui/WidgetConformanceActivity
 ui/web/BotWebViewContainer$BotWebViewProxy
 ui/web/BotWebViewContainer$WebViewProxy
 ui/web/HttpGetFileTask
