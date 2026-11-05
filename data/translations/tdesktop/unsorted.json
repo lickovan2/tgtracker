@@ -658,6 +658,9 @@
  "lng_action_payment_refunded": [
   "{peer} refunded {amount}"
  ],
+ "lng_action_pinned_deleted": [
+  "{from} pinned a deleted message"
+ ],
  "lng_action_poll_added_answer": [
   "{from} added \"{option}\" to the poll."
  ],
@@ -717,6 +720,9 @@
  ],
  "lng_action_suggested_video_me": [
   "You suggested this photo for {user}'s Telegram profile."
+ ],
+ "lng_action_todo_task_quote": [
+  "\"{task}\""
  ],
  "lng_action_ton_connect_accepted": [
   "The request from {app} was accepted"
@@ -1128,6 +1134,10 @@
  ],
  "lng_article_limit_depth": [
   "The article is nested too deeply."
+ ],
+ "lng_article_paste_attach_files": [
+  "Pasting this content will attach {count} file from your computer to the message:",
+  "Pasting this content will attach {count} files from your computer to the message:"
  ],
  "lng_article_premium_choice_plain_save": [
   "Save Without Formatting"
@@ -2289,6 +2299,10 @@
   "{count} year ago",
   "{count} years ago"
  ],
+ "lng_days_badge": [
+  "{count}d",
+  "{count}d"
+ ],
  "lng_delete_for_other_my": [
   "Unsend my messages"
  ],
@@ -3158,6 +3172,10 @@
  "lng_guard_bot_approve_title": [
   "Approve New Members"
  ],
+ "lng_hours_badge": [
+  "{count}h",
+  "{count}h"
+ ],
  "lng_in_dlg_audio_count": [
   "{count} audio",
   "{count} audio"
@@ -3186,6 +3204,9 @@
  ],
  "lng_in_dlg_video_ttl": [
   "Self-Destructing Video"
+ ],
+ "lng_in_dlg_widget": [
+  "Widget"
  ],
  "lng_info_birthday_today": [
   "{emoji} {date}"
@@ -3263,6 +3284,18 @@
   "{count} unread",
   "{count} unread"
  ],
+ "lng_keys_legend_media_2x_hold": [
+  "Hold space for 2x speed"
+ ],
+ "lng_keys_legend_media_speed_scrub": [
+  "Hold to speed up playback, drag to scrub the speed"
+ ],
+ "lng_keys_legend_space": [
+  "Space"
+ ],
+ "lng_languages_custom": [
+  "Custom lang pack"
+ ],
  "lng_lastseen_premium_button": [
   "Subscribe to Telegram Premium"
  ],
@@ -3319,6 +3352,9 @@
  ],
  "lng_location_address": [
   "Enter Address"
+ ],
+ "lng_mac_cant_open_chooser": [
+  "Couldn't open the application chooser."
  ],
  "lng_mac_choose_app": [
   "Choose Application"
@@ -3432,6 +3468,9 @@
  "lng_maximize_window": [
   "Maximize"
  ],
+ "lng_media_audio_empty_search": [
+  "No voice messages found"
+ ],
  "lng_media_color_theme": [
   "Color theme"
  ],
@@ -3509,6 +3548,10 @@
  "lng_minimize_window": [
   "Minimize"
  ],
+ "lng_months_badge": [
+  "{count}m",
+  "{count}m"
+ ],
  "lng_mute_menu_duration_hours": [
   "Mute for {count} hour",
   "Mute for {count} hours"
@@ -3568,6 +3611,9 @@
  ],
  "lng_open_link_suspicious_chars": [
   "Highlighted characters are from a different alphabet than the rest of the address."
+ ],
+ "lng_open_link_unsupported": [
+  "Telegram can't open this link."
  ],
  "lng_open_menu": [
   "Open navigation menu"
@@ -4282,6 +4328,9 @@
  "lng_qr_box_gifts": [
   "Gifts"
  ],
+ "lng_qr_box_gifts_empty_about_chat": [
+  "There are no collectible gifts here yet."
+ ],
  "lng_quick_dialog_action_toast_archive_success": [
   "The chat has been archived."
  ],
@@ -4481,8 +4530,14 @@
  "lng_request_channel_delete_messages": [
   "delete messages"
  ],
+ "lng_request_channel_delete_stories": [
+  "delete stories of others"
+ ],
  "lng_request_channel_edit_messages": [
   "edit messages of others"
+ ],
+ "lng_request_channel_edit_stories": [
+  "edit stories of others"
  ],
  "lng_request_channel_manage_direct": [
   "manage direct messages"
@@ -4495,6 +4550,9 @@
  ],
  "lng_request_channel_no_about": [
   "You don't have channels that meet the requirements for this bot."
+ ],
+ "lng_request_channel_post_stories": [
+  "post stories"
  ],
  "lng_request_channel_public_no": [
   "The channel must be private."
@@ -4517,6 +4575,12 @@
  "lng_request_group_change_info": [
   "change group info"
  ],
+ "lng_request_group_delete_stories": [
+  "delete stories of others"
+ ],
+ "lng_request_group_edit_stories": [
+  "edit stories of others"
+ ],
  "lng_request_group_invite": [
   "invite users via link"
  ],
@@ -4528,6 +4592,9 @@
  ],
  "lng_request_group_pin_messages": [
   "pin messages"
+ ],
+ "lng_request_group_post_stories": [
+  "post stories"
  ],
  "lng_request_group_public_no": [
   "The group must be private."
@@ -4544,6 +4611,13 @@
  "lng_request_peer_confirm_add": [
   "This will also add {bot} to {chat}."
  ],
+ "lng_request_peer_confirm_add_maybe": [
+  "This will also add {bot} to {chat} if it is not already a member."
+ ],
+ "lng_request_peer_confirm_many": [
+  "Are you sure you want to send {count} chat to {bot}?",
+  "Are you sure you want to send {count} chats to {bot}?"
+ ],
  "lng_request_peer_confirm_rights": [
   "This will also add {bot} to {chat} with the following rights: {rights}."
  ],
@@ -4552,6 +4626,9 @@
  ],
  "lng_request_peer_rights_and": [
   "{rights} and {last}"
+ ],
+ "lng_request_peer_rights_other": [
+  "other administrator rights"
  ],
  "lng_request_user_no": [
   "No such users"
@@ -4967,6 +5044,18 @@
  ],
  "lng_similar_channels_more": [
   "More Channels"
+ ],
+ "lng_size_bytes": [
+  "B"
+ ],
+ "lng_size_gigabytes": [
+  "GB"
+ ],
+ "lng_size_kilobytes": [
+  "KB"
+ ],
+ "lng_size_megabytes": [
+  "MB"
  ],
  "lng_sponsored_info_description1_link": [
   "Learn more in the Privacy Policy"
@@ -5560,6 +5649,15 @@
  "lng_tagged_view_saved": [
   "View"
  ],
+ "lng_tgw_copied": [
+  "Copied: {text}"
+ ],
+ "lng_tgw_log": [
+  "Widget log"
+ ],
+ "lng_tgw_stopped": [
+  "Widget stopped"
+ ],
  "lng_theme_editor_attach_title": [
   "Attach desktop theme"
  ],
@@ -5791,6 +5889,9 @@
  ],
  "lng_via_link_shared_one": [
   "Link shared with **{user}**."
+ ],
+ "lng_video_editor_gif_too_large": [
+  "Videos larger than {size} can't be converted to a GIF"
  ],
  "lng_video_stream_stars": [
   "Add Stars to highlight your comment"
@@ -6338,6 +6439,14 @@
  ],
  "lng_wallet_walt_existing": [
   "You also have funds in Walt"
+ ],
+ "lng_weeks_badge": [
+  "{count}w",
+  "{count}w"
+ ],
+ "lng_years_badge": [
+  "{count}y",
+  "{count}y"
  ],
  "lng_you_paid_stars": [
   "You paid {count} Star.",
