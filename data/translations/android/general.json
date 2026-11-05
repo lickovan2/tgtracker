@@ -5023,6 +5023,15 @@
  "NewContact": [
   "New Contact"
  ],
+ "NewContactPhoneInContacts": [
+  "This phone number is already in your contacts. **View >**"
+ ],
+ "NewContactPhoneNotOnTelegram": [
+  "This phone number is not on Telegram. **Invite >**"
+ ],
+ "NewContactPhoneOnTelegram": [
+  "This phone number is on Telegram."
+ ],
  "NewContactTitle": [
   "New Contact"
  ],

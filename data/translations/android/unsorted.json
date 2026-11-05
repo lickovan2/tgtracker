@@ -4806,15 +4806,6 @@
  "NewContactAlertTitle": [
   "New contact"
  ],
- "NewContactPhoneInContacts": [
-  "This phone number is already in your contacts. **View >**"
- ],
- "NewContactPhoneNotOnTelegram": [
-  "This phone number is not on Telegram. **Invite >**"
- ],
- "NewContactPhoneOnTelegram": [
-  "This phone number is on Telegram."
- ],
  "NewPassword": [
   "New Password"
  ],
