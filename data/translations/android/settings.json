@@ -1009,6 +1009,9 @@
  "ColorYellow": [
   "Yellow"
  ],
+ "CompactMode": [
+  "Compact Mode"
+ ],
  "ConfirmCreatePasscode": [
   "Re-enter your passcode"
  ],
@@ -1696,6 +1699,39 @@
  ],
  "GroupsAndChannelsLimitTitle": [
   "Groups and Channels"
+ ],
+ "HeaderDoneButtonColor": [
+  "Done button color"
+ ],
+ "HeaderDoneButtonColorAccent": [
+  "Blue"
+ ],
+ "HeaderDoneButtonColorGlass": [
+  "White"
+ ],
+ "HeaderDoneButtonColorInfo": [
+  "A white button appears only when there is something to save. A blue button is always shown and is dimmed until then."
+ ],
+ "HeaderDoneButtonPreview": [
+  "Preview"
+ ],
+ "HeaderDoneButtonPreviewChanges": [
+  "Has changes"
+ ],
+ "HeaderDoneButtonPreviewInfo": [
+  "Toggle to see how the button in the header above reacts to changes."
+ ],
+ "HeaderDoneButtonShape": [
+  "Done button shape"
+ ],
+ "HeaderDoneButtonShapeIcon": [
+  "Round with a check"
+ ],
+ "HeaderDoneButtonShapeText": [
+  "Text"
+ ],
+ "HeaderSettings": [
+  "Header"
  ],
  "HideReadTime": [
   "Hide Read Time"
@@ -3466,6 +3502,9 @@
  "RoundVideoGeneral": [
   "Recorder"
  ],
+ "RoundVideoSettings": [
+  "Round Video"
+ ],
  "SETTINGS": [
   "Settings"
  ],
@@ -3726,6 +3765,9 @@
  ],
  "SettingsDevicesInfo": [
   "Manage connected devices"
+ ],
+ "SettingsExperimental": [
+  "Experimental"
  ],
  "SettingsFaqSearchTitle": [
   "Frequently asked questions"

@@ -2482,9 +2482,6 @@
  "CommunityYouAreAdminTitle": [
   "You are a community admin"
  ],
- "CompactMode": [
-  "Compact Mode"
- ],
  "ConferenceCallOther": [
   "%d person",
   "%d people"
@@ -4108,39 +4105,6 @@
  "HashtagMessagesFound": [
   "%d message found",
   "%d messages found"
- ],
- "HeaderDoneButtonColor": [
-  "Done button color"
- ],
- "HeaderDoneButtonColorAccent": [
-  "Blue"
- ],
- "HeaderDoneButtonColorGlass": [
-  "White"
- ],
- "HeaderDoneButtonColorInfo": [
-  "A white button appears only when there is something to save. A blue button is always shown and is dimmed until then."
- ],
- "HeaderDoneButtonPreview": [
-  "Preview"
- ],
- "HeaderDoneButtonPreviewChanges": [
-  "Has changes"
- ],
- "HeaderDoneButtonPreviewInfo": [
-  "Toggle to see how the button in the header above reacts to changes."
- ],
- "HeaderDoneButtonShape": [
-  "Done button shape"
- ],
- "HeaderDoneButtonShapeIcon": [
-  "Round with a check"
- ],
- "HeaderDoneButtonShapeText": [
-  "Text"
- ],
- "HeaderSettings": [
-  "Header"
  ],
  "HelpUpgradeGroup": [
   "Help upgrade group"
@@ -6696,9 +6660,6 @@
  "SetUsernameHeader": [
   "Set username"
  ],
- "SettingsExperimental": [
-  "Experimental"
- ],
  "ShadyJoining": [
   "joining..."
  ],
@@ -7852,15 +7813,6 @@
  "TopicsDeleted": [
   "Topic deleted.",
   "Topics deleted."
- ],
- "TopicsPanelAllMessages": [
-  "All Messages"
- ],
- "TopicsPanelDirectMessages": [
-  "Direct messages"
- ],
- "TopicsSidebar": [
-  "Sidebar"
  ],
  "TopicsTitleMedia": [
   "Media"

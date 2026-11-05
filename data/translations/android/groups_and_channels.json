@@ -5061,6 +5061,9 @@
  "TopicsLayoutTabs": [
   "Tabs"
  ],
+ "TopicsSidebar": [
+  "Sidebar"
+ ],
  "TopicsTitle": [
   "Topics"
  ],

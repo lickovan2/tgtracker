@@ -1817,6 +1817,12 @@
  "TimeToEditExpired": [
   "Sorry, editing time expired."
  ],
+ "TopicsPanelAllMessages": [
+  "All Messages"
+ ],
+ "TopicsPanelDirectMessages": [
+  "Direct messages"
+ ],
  "TypeMessage": [
   "Message"
  ],

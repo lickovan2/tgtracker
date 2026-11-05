@@ -362,6 +362,9 @@
  "lng_stickers_search_sets": [
   "Search sticker sets"
  ],
+ "lng_video_editor_gif_too_large": [
+  "Videos larger than {size} can't be converted to a GIF"
+ ],
  "lng_video_quality_original": [
   "Original"
  ],
