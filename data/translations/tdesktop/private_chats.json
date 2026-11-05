@@ -1471,9 +1471,6 @@
  "lng_mac_all_apps": [
   "All Applications"
  ],
- "lng_mac_menu_edit": [
-  "Edit"
- ],
  "lng_mac_not_known_app": [
   "It's not known if this application can open \"{file}\"."
  ],

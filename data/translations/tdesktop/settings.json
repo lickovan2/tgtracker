@@ -349,9 +349,6 @@
  "lng_context_mark_read_sure": [
   "Are you sure you want to mark all chats from this folder as read?"
  ],
- "lng_context_pack_add": [
-  "Add Stickers"
- ],
  "lng_continue": [
   "Continue"
  ],
@@ -3776,9 +3773,6 @@
  ],
  "lng_signin_recover_title": [
   "Password reset"
- ],
- "lng_status_bot": [
-  "bot"
  ],
  "lng_status_connecting": [
   "connecting..."

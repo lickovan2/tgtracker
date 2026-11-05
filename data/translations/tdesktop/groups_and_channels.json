@@ -1660,9 +1660,6 @@
  "lng_forum_view_as_topics": [
   "View as Topics"
  ],
- "lng_forward_send_files_cant": [
-  "Sorry, no way to send media here :("
- ],
  "lng_forwarding_from_two": [
   "{user} and {second_user}"
  ],

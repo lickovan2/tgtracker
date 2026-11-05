@@ -1808,9 +1808,6 @@
  "NetworkUsageSettings.WifiUsageSince": [
   "Wi-Fi usage since %@"
  ],
- "Notification.CallMissed": [
-  "Missed Call"
- ],
  "Notification.Exceptions.Add": [
   "Add"
  ],
@@ -4602,9 +4599,6 @@
  ],
  "UserInfo.NotificationsDefaultSound": [
   "Default (%@)"
- ],
- "UserInfo.Title": [
-  "Info"
  ],
  "Username.CheckingUsername": [
   "Checking username..."
