@@ -2795,7 +2795,7 @@
   "You will be able to transfer this gift in {duration}."
  ],
  "lng_gift_transfer_locked_text": [
-  "Transfer this gift to your Telegram account on Fragment to unlock this action."
+  "Move this gift from your wallet to your profile to unlock this action."
  ],
  "lng_gift_transfer_locked_title": [
   "Action Locked"
