@@ -1,9 +1,9 @@
-Telegram.app/Contents/CodeResources	3060	c7fb5d3b
+Telegram.app/Contents/CodeResources	3060	273223f6
 Telegram.app/Contents/Frameworks/Sparkle.framework/Resources	26	8702472c
 Telegram.app/Contents/Frameworks/Sparkle.framework/Sparkle	24	e7166028
 Telegram.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Info.plist	1590	0d433a0e
-Telegram.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/MacOS/Autoupdate	342112	92a04181
-Telegram.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/MacOS/fileop	203968	c50e60ca
+Telegram.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/MacOS/Autoupdate	342112	aeffb8ab
+Telegram.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/MacOS/fileop	203968	b1c8b4d2
 Telegram.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/PkgInfo	8	5b8a0449
 Telegram.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/AppIcon.icns	37132	2efdf988
 Telegram.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/SUStatus.nib	10770	3b6c13ba
@@ -76,7 +76,7 @@ Telegram.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/tr.lproj
 Telegram.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/uk.lproj/Sparkle.strings	7466	22d5f569
 Telegram.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/zh_CN.lproj/Sparkle.strings	5484	83376637
 Telegram.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/zh_TW.lproj/Sparkle.strings	5410	0d1494df
-Telegram.app/Contents/Frameworks/Sparkle.framework/Versions/A/Sparkle	979568	238a5b0d
+Telegram.app/Contents/Frameworks/Sparkle.framework/Versions/A/Sparkle	979568	2135ecc7
 Telegram.app/Contents/Frameworks/Sparkle.framework/Versions/Current	1	d3d99e8b
 Telegram.app/Contents/Frameworks/libswiftAVFoundation.dylib	128848	56f626b0
 Telegram.app/Contents/Frameworks/libswiftAccelerate.dylib	68240	1fcf9c32
@@ -107,11 +107,11 @@ Telegram.app/Contents/Frameworks/libswiftXPC.dylib	45632	b723136b
 Telegram.app/Contents/Frameworks/libswift_Concurrency.dylib	1124496	228eac31
 Telegram.app/Contents/Frameworks/libswiftos.dylib	72256	532beb1e
 Telegram.app/Contents/Frameworks/libswiftsimd.dylib	319232	7b73a5d5
-Telegram.app/Contents/Info.plist	3960	d0453f4a
-Telegram.app/Contents/MacOS/Telegram	265260688	eca3dc89
+Telegram.app/Contents/Info.plist	3960	a4859abf
+Telegram.app/Contents/MacOS/Telegram	265301024	6b0fb81e
 Telegram.app/Contents/PkgInfo	8	5b8a0449
-Telegram.app/Contents/PlugIns/TelegramShare.appex/Contents/Info.plist	2561	108d455a
-Telegram.app/Contents/PlugIns/TelegramShare.appex/Contents/MacOS/TelegramShare	85203424	50a1f888
+Telegram.app/Contents/PlugIns/TelegramShare.appex/Contents/Info.plist	2561	dc674cb8
+Telegram.app/Contents/PlugIns/TelegramShare.appex/Contents/MacOS/TelegramShare	85227520	01a4e521
 Telegram.app/Contents/PlugIns/TelegramShare.appex/Contents/Resources/Assets.car	3501288	1534efb8
 Telegram.app/Contents/PlugIns/TelegramShare.appex/Contents/Resources/Base.lproj/ShareViewController.nib	1347	f88bec24
 Telegram.app/Contents/PlugIns/TelegramShare.appex/Contents/Resources/SFCompactRounded-Semibold.otf	193812	fffa86fa
@@ -120,7 +120,7 @@ Telegram.app/Contents/PlugIns/TelegramShare.appex/Contents/Resources/de.lproj/Sh
 Telegram.app/Contents/PlugIns/TelegramShare.appex/Contents/Resources/duck_passcode.tgs	15448	fa2d5014
 Telegram.app/Contents/PlugIns/TelegramShare.appex/Contents/Resources/duck_upload_complete.tgs	13616	f7be8a67
 Telegram.app/Contents/PlugIns/TelegramShare.appex/Contents/Resources/duck_uploads.tgs	13320	a71dd6aa
-Telegram.app/Contents/PlugIns/TelegramShare.appex/Contents/Resources/en.lproj/Localizable.strings	1243598	b03dfd0a
+Telegram.app/Contents/PlugIns/TelegramShare.appex/Contents/Resources/en.lproj/Localizable.strings	1622816	c4e98ac8
 Telegram.app/Contents/PlugIns/TelegramShare.appex/Contents/Resources/es.lproj/Localizable.strings	0	00000000
 Telegram.app/Contents/PlugIns/TelegramShare.appex/Contents/Resources/es.lproj/ShareViewController.strings	1	32d70693
 Telegram.app/Contents/PlugIns/TelegramShare.appex/Contents/Resources/fonts/SFCompactRounded-Semibold.otf	193812	fffa86fa
@@ -156,7 +156,7 @@ Telegram.app/Contents/Resources/7.m4a	69973	b07baf3d
 Telegram.app/Contents/Resources/8.m4a	41005	8b815812
 Telegram.app/Contents/Resources/9.m4a	20930	3db06235
 Telegram.app/Contents/Resources/AppIcon.icns	55516	cd56a4fa
-Telegram.app/Contents/Resources/Assets.car	5153192	5b5ef09c
+Telegram.app/Contents/Resources/Assets.car	5153192	37032f52
 Telegram.app/Contents/Resources/Base.lproj/MainMenu.nib	16461	8be2f319
 Telegram.app/Contents/Resources/CallVideoLayer_CallVideoLayer.bundle/Contents/Info.plist	1150	b288f328
 Telegram.app/Contents/Resources/CallVideoLayer_CallVideoLayer.bundle/Contents/Resources/default.metallib	70503	8c7d3539
@@ -336,7 +336,7 @@ Telegram.app/Contents/Resources/emoji_category_tongue.tgs	2292	facf0164
 Telegram.app/Contents/Resources/emoji_category_vacation.tgs	3620	45d664db
 Telegram.app/Contents/Resources/emoji_category_what.tgs	2985	9369daad
 Telegram.app/Contents/Resources/emoji_category_work.tgs	3223	dd886eed
-Telegram.app/Contents/Resources/en.lproj/Localizable.strings	1243598	b03dfd0a
+Telegram.app/Contents/Resources/en.lproj/Localizable.strings	1622816	c4e98ac8
 Telegram.app/Contents/Resources/es.lproj/Localizable.strings	0	00000000
 Telegram.app/Contents/Resources/expired_story.tgs	1074	7dacea4e
 Telegram.app/Contents/Resources/flags.tgs	875	48af8685
