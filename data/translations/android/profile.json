@@ -449,7 +449,7 @@
   "Do you want to buy **%2$s** for **%1$d Stars** and gift it to **%3$s**?"
  ],
  "Gift2CantDoText": [
-  "Transfer this gift to your Telegram account on Fragment to unlock this action."
+  "Move this gift from your wallet to your profile to unlock this action."
  ],
  "Gift2CantDoTitle": [
   "Action Locked"
