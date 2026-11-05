@@ -5887,9 +5887,6 @@
  "lng_via_link_shared_one": [
   "Link shared with **{user}**."
  ],
- "lng_video_editor_gif_too_large": [
-  "Videos larger than {size} can't be converted to a GIF"
- ],
  "lng_video_stream_stars": [
   "Add Stars to highlight your comment"
  ],
