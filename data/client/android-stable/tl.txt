@@ -331,6 +331,7 @@ TL_botInlineMessageMediaVenue_layer77
 TL_botInlineMessageMediaWebPage
 TL_botInlineMessageRichMessage
 TL_botInlineMessageText
+TL_botInlineMessageWidget
 TL_botInlineResult
 TL_bots
 TL_bots.BotInfo
@@ -1121,6 +1122,8 @@ TL_inputMediaUploadedDocument
 TL_inputMediaUploadedPhoto
 TL_inputMediaVenue
 TL_inputMediaWebPage
+TL_inputMediaWidget
+TL_inputMediaWidgetId
 TL_inputMessageEntityMentionName
 TL_inputMessageReadMetric
 TL_inputMessagesFilterChatPhotos
@@ -1685,6 +1688,9 @@ TL_messageMediaVideo_layer45
 TL_messageMediaVideo_old
 TL_messageMediaWebPage
 TL_messageMediaWebPage_layer165
+TL_messageMediaWidget
+TL_messageMediaWidget_layer233
+TL_messageMediaWidget_old
 TL_messagePeerReaction
 TL_messagePeerReaction_layer137
 TL_messagePeerReaction_layer144
@@ -1755,6 +1761,7 @@ TL_messages_botCallbackAnswer
 TL_messages_botResults
 TL_messages_botResults_layer153
 TL_messages_botResults_layer71
+TL_messages_botWidgetQueryAnswer
 TL_messages_channelMessages
 TL_messages_chatAdminsWithInvites
 TL_messages_chatFull
@@ -1805,9 +1812,12 @@ TL_messages_editChatPhoto
 TL_messages_editChatTitle
 TL_messages_editExportedChatInvite
 TL_messages_editInlineBotMessage
+TL_messages_editInlineBotMessageWidgetData
 TL_messages_editMessage
+TL_messages_editMessageWidgetData
 TL_messages_editMessage_layer226
 TL_messages_editQuickReplyShortcut
+TL_messages_editWidgetData
 TL_messages_emojiGameOutcome
 TL_messages_emojiGroups
 TL_messages_emojiGroupsNotModified
@@ -1839,6 +1849,8 @@ TL_messages_getAvailableEffects
 TL_messages_getAvailableReactions
 TL_messages_getBotApp
 TL_messages_getBotCallbackAnswer
+TL_messages_getBotWidgetQueryAnswer
+TL_messages_getBotWidgetQueryAnswer_layer233
 TL_messages_getChatInviteImporters
 TL_messages_getChats
 TL_messages_getCommonChats
@@ -1920,6 +1932,7 @@ TL_messages_getUnreadPollVotes
 TL_messages_getUnreadReactions
 TL_messages_getWebPage
 TL_messages_getWebViewResult
+TL_messages_getWidgetPublicData
 TL_messages_hideAllChatJoinRequests
 TL_messages_hideChatJoinRequest
 TL_messages_hidePeerSettingsBar
@@ -2025,6 +2038,7 @@ TL_messages_sendWebViewResultMessage
 TL_messages_sentEncryptedFile
 TL_messages_sentEncryptedMessage
 TL_messages_setBotCallbackAnswer
+TL_messages_setBotWidgetQueryAnswer
 TL_messages_setChatAvailableReactions
 TL_messages_setChatTheme
 TL_messages_setChatWallPaper
@@ -2078,6 +2092,8 @@ TL_messages_viewSponsoredMessage
 TL_messages_votesList
 TL_messages_webPage
 TL_messages_webViewResult
+TL_messages_widgetPublicData
+TL_messages_widgetPublicDataNotModified
 TL_missingInvitee
 TL_monoForumDialog
 TL_nearestDc
@@ -2853,6 +2869,10 @@ TL_update.TL_updateAttachMenuBots
 TL_update.TL_updateBotCommands
 TL_update.TL_updateBotPurchasedPaidMedia
 TL_update.TL_updateBotSubscriptionExpire
+TL_update.TL_updateBotWidgetCopyQuery
+TL_update.TL_updateBotWidgetCopyQuery_layer233
+TL_update.TL_updateBotWidgetQuery
+TL_update.TL_updateBotWidgetQuery_layer233
 TL_update.TL_updateChannel
 TL_update.TL_updateChannelAvailableMessages
 TL_update.TL_updateChannelMessageForwards
@@ -2889,6 +2909,7 @@ TL_update.TL_updateDialogUnreadMark
 TL_update.TL_updateDraftMessage
 TL_update.TL_updateEditChannelMessage
 TL_update.TL_updateEditEphemeralMessage
+TL_update.TL_updateEditForumTopic
 TL_update.TL_updateEditMessage
 TL_update.TL_updateEmojiGameInfo
 TL_update.TL_updateEncryptedChatTyping
@@ -2905,6 +2926,8 @@ TL_update.TL_updateGroupCallEncryptedMessage
 TL_update.TL_updateGroupCallMessage
 TL_update.TL_updateGroupCallParticipants
 TL_update.TL_updateGroupCall_layer216
+TL_update.TL_updateInlineBotWidgetQuery
+TL_update.TL_updateInlineBotWidgetQuery_layer233
 TL_update.TL_updateJoinChatWebViewDecision
 TL_update.TL_updateLangPack
 TL_update.TL_updateLangPackTooLong
@@ -2915,6 +2938,7 @@ TL_update.TL_updateMessageID
 TL_update.TL_updateMessagePoll
 TL_update.TL_updateMessagePollVote
 TL_update.TL_updateMessageReactions
+TL_update.TL_updateMessageWidgetData
 TL_update.TL_updateMonoForumNoPaidException
 TL_update.TL_updateMoveStickerSetToTop
 TL_update.TL_updateNewAuthorization
@@ -3087,6 +3111,7 @@ TL_userStatusOffline
 TL_userStatusOnline
 TL_userStatusRecently
 TL_userStatusRecently_layer171
+TL_userWallet
 TL_user_layer104
 TL_user_layer131
 TL_user_layer144
@@ -3223,3 +3248,6 @@ TL_webPage_layer58
 TL_webPage_old
 TL_webViewMessageSent
 TL_webViewResultUrl
+TL_widgetQueryTypeData
+TL_widgetQueryTypeSentTransaction
+TL_widgetQueryTypeSignData
