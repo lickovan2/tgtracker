@@ -3845,9 +3845,6 @@
  "lng_photo_editor_keys_gesture_drag_handle": [
   "drag handle"
  ],
- "lng_photo_editor_keys_gesture_wheel": [
-  "wheel"
- ],
  "lng_photo_editor_keys_middle_click": [
   "Middle click"
  ],
@@ -3886,18 +3883,6 @@
  ],
  "lng_photo_editor_keys_shapes_proportions": [
   "Keep proportions or snap arrow angle"
- ],
- "lng_photo_editor_keys_timeline": [
-  "Timeline"
- ],
- "lng_photo_editor_keys_timeline_scroll": [
-  "Scroll timeline"
- ],
- "lng_photo_editor_keys_timeline_window": [
-  "Move trimmed range"
- ],
- "lng_photo_editor_keys_timeline_zoom": [
-  "Zoom timeline"
  ],
  "lng_photo_editor_keys_wheel": [
   "Wheel"
