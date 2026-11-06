@@ -232,6 +232,7 @@ tgnet/ConnectionsManager$GoogleDnsLoadTask
 tgnet/ConnectionsManager$INativeTlTest
 tgnet/ConnectionsManager$MozillaDnsLoadTask
 tgnet/ConnectionsManager$RequestCallbacks
+tgnet/ConnectionsManager$RequestException
 tgnet/ConnectionsManager$ResolveHostByNameTask
 tgnet/ConnectionsManager$ResolvedDomain
 tgnet/InputSerializedData

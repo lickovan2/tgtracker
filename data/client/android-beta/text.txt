@@ -455,6 +455,7 @@
 , calculated CRC value:
 , callback:
 , callbackIntervalMs={avg=
+, camera
 , cameraId=
 , cameraMode=
 , cameraSwitches=
@@ -786,6 +787,7 @@
 , lanes image:
 , language=
 , largeFrameGaps=
+, last frame
 , last notifies:
 , last=
 , layerNr=
@@ -869,6 +871,7 @@
 , message=
 , metadataInterval=
 , method=
+, mic muted
 , mic muted:
 , mid=
 , mimeType=
@@ -1055,6 +1058,7 @@
 , remainingSamplesInChunk
 , remainingTimestampDeltaChanges
 , remote is
+, rendered
 , renderer=
 , replace=
 , reportFile=
@@ -1745,6 +1749,7 @@ Alternative billing only dialog finished with resultCode
 AlternativeBillingListener and UserChoiceBillingListener is null.
 American Express
 AmsEntityUpdateParcelable{, mEntityId=
+An Activity context is required to call this API.
 An I/O error occurred when a frame was tried to be sent:
 An I/O error occurred while a frame was being read from the web socket:
 An entry modification is not supported
@@ -1763,6 +1768,7 @@ An invalid account was specified when connecting. Please provide a valid account
 An invalid data collection token was used.
 An uncaught throwable was detected in the reading thread:
 An uncaught throwable was detected in the writing thread:
+An unexpected error has occurred.
 An unknown field for index
 AnalyticsConnector now available.
 AncsNotificationParcelable{, id=
@@ -1934,6 +1940,7 @@ BRAVIA 4K 2015
 BUG: empty/null token!
 Back Stack Index:
 Back Stack:
+Backend rejected the test number token.
 Background color has not been defined.
 Background color not defined.
 Background execution failure.
@@ -2617,6 +2624,7 @@ Couldn't resolve menu item onClick handler
 Couldn't retrieve information from network
 Couldn't use Java reflection to implement protocol message reflection.
 Count must be greater than or equal to the maximum of all grid indices (and spans) defined in the LayoutParams of each child
+Count overflow has happened.
 Crash reports are available to be sent.
 Crashlytics Android SDK/20.1.1
 Crashlytics Shutdown Hook for awaitEvenIfOnMainThread task continuation executor
@@ -2797,6 +2805,7 @@ Didn't read enough bytes during decompression. expected=
 DiffUtil hit an unexpected case while trying to calculate the optimal path. Please make sure your data is not changing during the diff calculation.
 Different
 Different playlist URLs are found for pathway ID
+Digital Credential Option cannot be used with other credential option.
 Diners Club
 Disable Invoice Payment
 Disable failed.
@@ -3219,7 +3228,7 @@ Failed to call newCastContextImpl
 Failed to call observer method
 Failed to check device credential. Client FragmentActivity not found.
 Failed to check feature availability
-Failed to check for beta update at https://telegram.org/dl/android/apk-public-beta.json received:
+Failed to check for beta update at null received:
 Failed to close file output stream
 Failed to close key/value metadata file.
 Failed to close rollouts state file.
@@ -3237,6 +3246,7 @@ Failed to convert payload data into a string:
 Failed to convert predefined custom command:
 Failed to covert logging to UTF-8 byte array
 Failed to create EGL context: 0x
+Failed to create Firebase PNV payload
 Failed to create IDynamiteLoader.
 Failed to create IconCompat from bundle
 Failed to create a new AudioRecord instance
@@ -3268,6 +3278,8 @@ Failed to download image:
 Failed to encode token:
 Failed to enumerate thread/threadgroup
 Failed to fetch cached settings
+Failed to fetch the Verification Support Info
+Failed to fetch the Verification Support Info:
 Failed to find FourCC VC1 initialization data
 Failed to find configured root that contains
 Failed to find font-family tag
@@ -3289,6 +3301,7 @@ Failed to get service from broker.
 Failed to get the input stream of the raw socket:
 Failed to get the output stream from the raw socket:
 Failed to get thread context classloader
+Failed to get verification support info. Status:
 Failed to get visible insets. (Reflection error).
 Failed to get visible insets. getViewRootImpl() returned null from the provided view. This means that the view is either not attached or the method has been overridden
 Failed to inflate ColorStateList, leaving it to the framework
@@ -3579,10 +3592,12 @@ Garage Rock
 General MIDI
 Generate Invite Link
 GenericGFPolys do not have same GenericGF field
+Get digital credential failed, failure:
 Get supported formats for camera index
 GetCredentialResponse error returned from framework
 GetCredentialResponse returned from framework
 GetPublicKeyCredentialOption - rpId not specified in the request or is unexpectedly empty
+Getting Verification Support Info for all SIM slots
 Given String is empty or null
 Given job ID
 Giving up on delivering
@@ -3925,6 +3940,7 @@ IntStream.adapt(Spliterator<Integer> s)
 Integer value
 Integrity API error (
 Integrity API is not available. Integrity API is not enabled, or the Play Store version might be old. Recommended actions: 1) Make sure that Integrity API is enabled in Google Play Console. 2) Ask the user to update Play Store.
+Integrity check failed in an unexpected place.
 Intent Sender result delivered for unknown Fragment
 Intent to request permissions is missing the callback binder
 Intent(ACTION_INTENT_SEN…NT_SENDER_REQUEST, input)
@@ -4034,6 +4050,7 @@ Invalid date 'DayOfYear 366' as '
 Invalid date 'February 29' as '
 Invalid date format
 Invalid date/time format:
+Invalid digital credential response.
 Invalid direction:
 Invalid disconnect session or event ID
 Invalid display size:
@@ -4133,6 +4150,7 @@ Invalid subclass
 Invalid surface:
 Invalid target position
 Invalid template:
+Invalid test number ID(s) - might be empty, expired or duplicated.
 Invalid timeout, minimum value is 5_000L milliseconds
 Invalid toHexChar char '
 Invalid topic name:
@@ -5178,6 +5196,7 @@ PowerManager is null, therefore not creating the WakeLock.
 Pre-u credman get flow failed; retrying with gis flow
 Precondition Failed
 PreferencesSerializer does not support type:
+Preflight check failed - we could not mint a digital credentials request on the server.
 Premature end of parens in
 Premature left-side return of
 Premature right-side return of
@@ -5381,6 +5400,7 @@ Requested network does not match the wallet network
 Requested offscreen page limit
 Requested row is outside the image:
 Requesting settings from
+Requesting verification support info.
 Require finite 0 <= commonHiddenTop <= tabsPinnedTop
 Required array size too large
 Required array size too large:
@@ -5821,6 +5841,7 @@ Subscriber
 Subtitle decoding failed. streamFormat=
 SubtitleParser failed.
 Success not sent to client. Client is not awaiting a result.
+Successfully completed the operation
 Successfully configured exception handler.
 Successfully consumed purchase.
 Successfully downloaded image:
@@ -5879,6 +5900,7 @@ Telegram-Android/
 Temporary Redirect
 Test
 Test User
+Test session already enabled - `enableTestSession` should only be called once.
 Test-keys aren't accepted on this build.
 Text can not be null
 Texture frame captured but camera is no longer running.
@@ -5901,7 +5923,9 @@ ThanosEffect: killInternal
 ThanosEffect: killInternal failed, already dead
 ThanosEffect: vertexShader == 0 || fragmentShader == 0
 The
+The API is not supported - this API with the specified parameters is not intended to be called at this time.
 The Activity's LayoutInflater already has a Factory installed so we can not install AppCompat's
+The Android Credential Manager has failed unexpectedly.
 The Crashlytics build ID is missing. This occurs when the Crashlytics Gradle plugin is missing from your app's build configuration. Please review the Firebase Crashlytics onboarding instructions at https://firebase.google.com/docs/crashlytics/get-started?platform=android#add-plugin
 The Fragment
 The Google Play services resources were not found. Check your project configuration to ensure that the resources are included.
@@ -5934,6 +5958,7 @@ The auto-size step granularity (
 The bytes saved do not match expectation. actual=
 The calling app UID (user id) does not match the one from Package Manager. Something is wrong (possibly an attack). Non-actionable.
 The calling app is making too many requests to the API and hence is throttled. Retry with an exponential backoff.
+The carrier associated with this SIM is not supported.
 The certificate of the peer
 The character '
 The color definition must have four components !
@@ -6448,6 +6473,7 @@ Unknown app
 Unknown auto-size text type:
 Unknown backend for %s, deleting event batch for it...
 Unknown camera error:
+Unknown capability status:
 Unknown character : '
 Unknown chronology:
 Unknown class:
@@ -6634,6 +6660,7 @@ Vector magic in StoryDraft parse error (2)
 Vector magic in StoryDraft parse error (3)
 Vector magic in StoryDraft parse error (4)
 Vector magic in StoryDraft parse error (5)
+Verification support info received.
 VerificationService is not connected to %s, unable to check intent: %s
 Verified the intent with Assistant Go.
 Verified the intent with GSA.
@@ -6934,6 +6961,7 @@ arrowScroll tried to find focus based on non-child current focused view
 as
 as part of execPendingActions for actions
 as part of execSingleAction for action
+aspect=
 at
 at index
 at path
@@ -6962,6 +6990,7 @@ auto deleted info: files
 autoLockIn =
 autoMetadata
 av1 codec failed, we think this codec is not supported
+avatar
 avatarStartTime =
 avgExecutionTime:
 awaitClose() can only be invoked from the producer context
@@ -7015,6 +7044,7 @@ both camera devices opened; configuring dual sessions
 both eye views must be marked as available
 both prf and prfAlreadyHashed extensions found
 bottom=
+bound
 bound must be greater than origin
 bound must be positive
 boundary=
@@ -7072,6 +7102,7 @@ call discarded, stopping service
 call failed
 call id
 call is null
+call pip: action
 call to 'resume' before 'invoke' with coroutine
 callIShouldHavePutIntoIntent=
 callStateIsIdle=
@@ -7279,6 +7310,7 @@ colorRange must be the same for both views
 colorSpace must be the same for both views
 colorTransfer must be the same for both views
 colspan="
+columns
 combined in one TrackGroup: '
 comma ','
 commandCode shouldn't be COMMAND_CODE_CUSTOM
@@ -7326,6 +7358,7 @@ copy malformed files
 copyOf(this, newSize)
 copyOf(this, size)
 cores
+cost=
 could not delete file
 could not encode subscription
 could not execute call because it requires feature (
@@ -7530,6 +7563,7 @@ disk image malformed detected, try recover
 disk worker: log non-fatal event to persistence
 diskSpace
 diskUsed
+dismissed, prevState=
 display signing data
 display size =
 displayDistance must be a positive value
@@ -7540,6 +7574,7 @@ dkaraush has been here
 do not reuse LogEventBuilder
 doAudioRecordStateCallback:
 doAudioTrackStateCallback:
+doRead( TaskApiCal…Y) .build() )
 doUpdateVisitedHistory
 doc_id=
 documentName=
@@ -7820,6 +7855,8 @@ fixed volume=
 flags =
 flags=0x
 flash mode
+floating window added, overlay=
+floating, call
 floor type greater than 1 not decodable:
 flush queue called
 fm.fragmentFactory.insta…ontext.classLoader, name)
@@ -7969,6 +8006,8 @@ got message with in_seq =
 got random bytes less than needed
 got unexpected end of stream, lets try to resume
 gravity or linear sensor not found
+group call pip:
+group call pip: mosaic
 groupMemberId must not be empty
 groupRoute must not be null
 guid
@@ -8119,7 +8158,6 @@ https://telegram.org/
 https://telegram.org/blog/telegram-stars
 https://telegram.org/deactivate?phone=
 https://telegram.org/dl
-https://telegram.org/dl/android/apk-public-beta.json
 https://telegram.org/embed
 https://tgb-playground.smart-glocal.com/cds/v1/tokenize/card
 https://tgb.smart-glocal.com/cds/v1/tokenize/card
@@ -8186,6 +8224,7 @@ in onPostInitHandler; statusCode=%d
 in onTouchEvent
 in screen
 in shader:
+in the window
 in unsafe mode.
 in viewport
 inSel=
@@ -8386,6 +8425,7 @@ limit=10
 link manager handle
 link properties changed
 linkToDeath failed
+live story pip:
 load cacheOffset =
 load contacts don't change
 load contacts from cache
@@ -8576,6 +8616,7 @@ ms (requested up to
 ms [
 ms after scheduled time)
 ms ago
+ms ago, subscribed
 ms from
 ms getFile{time_ms=
 ms to
@@ -8840,7 +8881,6 @@ onGeolocationPermissionsHidePrompt: no dialog
 onGeolocationPermissionsShowPrompt
 onGeolocationPermissionsShowPrompt: no container
 onGetLayoutInflater() cannot be executed until the Fragment is attached to the FragmentManager.
-onMaxPrioritySourceChanged
 onMeasure(). New size:
 onMediaError
 onMetadataUpdated
@@ -8924,6 +8964,7 @@ opening websocket; attempt=
 options cannot be null
 or we're trying to assign a unique ID for an already added route
 order does not contain a valid category.
+order=
 orientation
 original transformed w =
 originalBitrate =
@@ -9197,6 +9238,7 @@ recursion limit reached
 reference can't update: fail operation
 reference updated resume download
 refillBuffer() called when
+register
 register callback = %s
 registerConnectionCallbacks(): listener
 registerConnectionFailedListener(): listener
@@ -9280,6 +9322,7 @@ restoreSaveState: added (
 restoreSaveState: re-attaching retained
 result
 result has retry contacts
+result:
 result=
 resultCode:
 resultMsg=
@@ -9317,8 +9360,10 @@ routeGroupId cannot be null
 routeId cannot be null
 routeId is changed from %s to %s
 row=
+rows
 rowspan="
 rss
+rtmp pip:
 running=[NOT STARTED YET]
 running=[RUNNING ON
 s for report:
@@ -9605,6 +9650,7 @@ start upload story
 start, adding stream
 startCapture:
 startCarApp from notification
+startFloating in state
 startTime =
 startTime cannot be negative or NaN.
 startX value must be in the range [0, 1]
@@ -9684,6 +9730,10 @@ sync2 =
 synthetic camera switch completed: elapsedMs=
 synthetic camera switch started: from=
 system time ms:
+system: closed by the user
+system: complete enter
+system: exit to app
+system: start enter, from state
 t.tag =
 tabsTop=
 tag "%s" is longer than the %d character maximum
@@ -9698,6 +9748,7 @@ tasks to
 templateVersion
 temporary file deletion failed:
 tenc atom is mandatory
+test_number_token is invalid
 tex =
 text=
 tgvoip version is not set
@@ -9945,6 +9996,7 @@ version:
 versioned
 versus
 vibrateTimings have invalid length
+video
 video drain failed while stopping
 video encoder EOS failed
 video encoder configure: codec=
