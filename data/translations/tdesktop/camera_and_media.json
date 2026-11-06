@@ -180,6 +180,24 @@
  "lng_photo_editor_font_serif": [
   "Serif"
  ],
+ "lng_photo_editor_keys_crop": [
+  "Crop"
+ ],
+ "lng_photo_editor_keys_crop_expand": [
+  "Grow canvas past the photo"
+ ],
+ "lng_photo_editor_keys_crop_room": [
+  "Zoom out for room around the photo"
+ ],
+ "lng_photo_editor_keys_gesture_drag_edge": [
+  "drag edge"
+ ],
+ "lng_photo_editor_keys_legend": [
+  "Show these shortcuts"
+ ],
+ "lng_photo_editor_keys_tooltip": [
+  "Keyboard shortcuts"
+ ],
  "lng_photo_editor_link_customize": [
   "Customize Link Text"
  ],

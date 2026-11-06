@@ -3821,15 +3821,6 @@
  "lng_photo_editor_keys_canvas_zoom": [
   "Zoom canvas at cursor"
  ],
- "lng_photo_editor_keys_crop": [
-  "Crop"
- ],
- "lng_photo_editor_keys_crop_expand": [
-  "Grow canvas past the photo"
- ],
- "lng_photo_editor_keys_crop_room": [
-  "Zoom out for room around the photo"
- ],
  "lng_photo_editor_keys_double_click": [
   "Double click"
  ],
@@ -3851,17 +3842,11 @@
  "lng_photo_editor_keys_gesture_drag": [
   "drag"
  ],
- "lng_photo_editor_keys_gesture_drag_edge": [
-  "drag edge"
- ],
  "lng_photo_editor_keys_gesture_drag_handle": [
   "drag handle"
  ],
  "lng_photo_editor_keys_gesture_wheel": [
   "wheel"
- ],
- "lng_photo_editor_keys_legend": [
-  "Show these shortcuts"
  ],
  "lng_photo_editor_keys_middle_click": [
   "Middle click"
@@ -3913,9 +3898,6 @@
  ],
  "lng_photo_editor_keys_timeline_zoom": [
   "Zoom timeline"
- ],
- "lng_photo_editor_keys_tooltip": [
-  "Keyboard shortcuts"
  ],
  "lng_photo_editor_keys_wheel": [
   "Wheel"
@@ -5480,6 +5462,9 @@
  ],
  "lng_stickers_add_emoji": [
   "Add emoji"
+ ],
+ "lng_stickers_already_in_set": [
+  "This Sticker is already in the Set."
  ],
  "lng_stickers_attached_sets": [
   "Sets of attached stickers"
