@@ -605,6 +605,12 @@
  "Audio.Playlist.Separator.Your": [
   "YOUR PLAYLIST"
  ],
+ "Auth.Controller.SmsFeeHeader": [
+  "SMS Fee"
+ ],
+ "Auth.Controller.SmsFeeInfo": [
+  "Telecom providers charge very high prices for SMS to this number, so Telegram can't send a login code here. Log in from Telegram on your phone or another device, for example by scanning the QR code."
+ ],
  "Auth.Login.ConfirmPhone": [
   "Is %@ your phone number?"
  ],
@@ -1121,6 +1127,9 @@
  "CHAT_MESSAGE_INVOICE": [
   "%1$@ sent an invoice for %3$@ to the group %2$@"
  ],
+ "CalendarSearch.Controller.Search": [
+  "Search"
+ ],
  "Call.Accept": [
   "Accept"
  ],
@@ -1316,6 +1325,9 @@
  ],
  "Channel.ErrorAddBlocked": [
   "Sorry, you can't add this user to channels."
+ ],
+ "Channel.EventFilter.Filters": [
+  "Filters"
  ],
  "Channel.EventLog.MessageChangedBackgroundEmojiSet.New": [
   "%1$@ updated channel background emoji"
@@ -1803,6 +1815,9 @@
  "ChannelParticipant.AddTag": [
   "Add tag"
  ],
+ "ChannelParticipant.Controller.PermissionsUnverified": [
+  "Could not confirm the updated permissions. Check the member’s permissions before trying again."
+ ],
  "ChannelParticipant.EditTag": [
   "Edit Tag"
  ],
@@ -2109,6 +2124,12 @@
  "Chat.Context.ReturnMessageFee": [
   "Return Messages Fee"
  ],
+ "Chat.Context.SaveAllPhotos": [
+  "Save All Photos..."
+ ],
+ "Chat.Context.SaveSelectedPhotos": [
+  "Save Selected Photos..."
+ ],
  "Chat.Context.Summarize": [
   "Summarize"
  ],
@@ -2143,17 +2164,30 @@
  "Chat.ContextMenu.AddTask": [
   "Add a Task"
  ],
+ "Chat.Controller.AIRewriteFailed": [
+  "AI couldn’t rewrite this message. Press Send again to send the original."
+ ],
+ "Chat.Controller.AddMembers": [
+  "Add Members"
+ ],
  "Chat.Controller.AddressCopied": [
   "Address copied"
  ],
  "Chat.Controller.CopyAddress": [
   "Copy Address"
  ],
+ "Chat.Controller.Select": [
+  "Select"
+ ],
  "Chat.Controller.SendMoney": [
   "Send Money"
  ],
  "Chat.Controller.ViewInExplorer": [
   "View in Explorer"
+ ],
+ "Chat.Date.PhotosAndVideos": [
+  "%d photo or video",
+  "%d photos and videos"
  ],
  "Chat.Date.ScheduledUntilOnline": [
   "Scheduled until online"
@@ -2481,6 +2515,48 @@
  "Chat.Input.Close": [
   "Close"
  ],
+ "Chat.Input.Dictation.Enhance": [
+  "Enhance"
+ ],
+ "Chat.Input.Dictation.Enhance.Accessibility": [
+  "Fix punctuation and grammar in the dictated text"
+ ],
+ "Chat.Input.Dictation.Enhance.Editor": [
+  "AI Editor…"
+ ],
+ "Chat.Input.Dictation.Enhance.Fix": [
+  "Fix Grammar"
+ ],
+ "Chat.Input.Dictation.Enhance.Styles": [
+  "Enhance Style"
+ ],
+ "Chat.Input.Dictation.Enhancing": [
+  "Enhancing…"
+ ],
+ "Chat.Input.Dictation.Error.Language": [
+  "Dictation is not available for your current input language."
+ ],
+ "Chat.Input.Dictation.Error.Microphone": [
+  "Telegram needs access to your microphone to dictate messages. You can allow it in System Settings → Privacy & Security → Microphone."
+ ],
+ "Chat.Input.Dictation.Error.NoInput": [
+  "No microphone found. Connect a microphone and try again."
+ ],
+ "Chat.Input.Dictation.Error.Speech": [
+  "Telegram needs Speech Recognition access to turn your voice into text. You can allow it in System Settings → Privacy & Security → Speech Recognition."
+ ],
+ "Chat.Input.Dictation.Error.Unavailable": [
+  "Speech recognition is not available right now. Please try again later."
+ ],
+ "Chat.Input.Dictation.Language.Automatic": [
+  "Automatic"
+ ],
+ "Chat.Input.Dictation.Start": [
+  "Dictate"
+ ],
+ "Chat.Input.Dictation.Stop": [
+  "Stop Dictation"
+ ],
  "Chat.Input.Error.MessageTooLong_countable": [
   "%d"
  ],
@@ -2674,6 +2750,18 @@
  "Chat.MessageMenuItems.SponsoredInfo": [
   "Unlike other apps, Telegram never uses your private data to target ads. [Learn more in the Privacy Policy](https://telegram.org/privacy#5-6-no-ads-based-on-user-data)You are seeing this message only because someone chose this public one-to-many channel as a space to promote their messages. This means that no user data is mined or analyzed to display ads, and every user viewing a channel on Telegram sees the same sponsored message.Unlike other apps, Telegram doesn't track whether you tapped on a sponsored message and doesn't profile you based on your activity. We also prevent external links in sponsored messages to ensure that third parties can't spy on our users. We believe that everyone has the right to privacy, and online platforms should respect that.Telegram offers free and unlimited service to hundreds of millions of users, which involves significant server and traffic costs. In order to remain independent and stay true to its values, Telegram developed a paid tool to promote messages with user privacy in mind. We welcome responsible advertisers at:[url]Ads should no longer be synonymous with abuse of user privacy. Let us redefine how a tech company should operate — together."
  ],
+ "Chat.MessageRangeDeleted.ForBothSides": [
+  "Messages for %1$d day deleted for both sides.",
+  "Messages for %1$d days deleted for both sides."
+ ],
+ "Chat.MessageRangeDeleted.ForMe": [
+  "Messages for %1$d day deleted.",
+  "Messages for %1$d days deleted."
+ ],
+ "Chat.MessageRangeDeleted.Messages": [
+  "%1$d message deleted.",
+  "%1$d messages deleted."
+ ],
  "Chat.MonoforumUI.AllTab": [
   "All"
  ],
@@ -2750,6 +2838,12 @@
  "Chat.Quiz.TotalVotes_countable": [
   "%d"
  ],
+ "Chat.Recording.Transcribe.Active": [
+  "Transcribing. Click anywhere to stop."
+ ],
+ "Chat.Recording.Transcribe.Swipe": [
+  "← Swipe to dictate"
+ ],
  "Chat.ReplyMarkup.PayXtr": [
   "Pay %@"
  ],
@@ -2807,6 +2901,9 @@
  ],
  "Chat.SendMessageErrorNonPremiumForbidden": [
   "Only Premium users can message %@"
+ ],
+ "Chat.SendReactionRestricted": [
+  "You cannot send reactions in this chat."
  ],
  "Chat.Service.Birthday.SuggestedToOther": [
   "You suggested %@ to add a birthday"
@@ -3228,6 +3325,12 @@
  "Chat.ServiceItem.WalletUnavailable": [
   "Wallet is currently unavailable."
  ],
+ "Chat.Sidebar.AllMessages": [
+  "All Messages"
+ ],
+ "Chat.Sidebar.ShowChats": [
+  "Show Chats"
+ ],
  "Chat.StarsGift.Button.Unpack": [
   "Unpack"
  ],
@@ -3328,6 +3431,18 @@
  ],
  "Chat.TopicHeader.Full": [
   "Topic started"
+ ],
+ "Chat.Transcription.Cancel": [
+  "Cancel"
+ ],
+ "Chat.Transcription.Edit": [
+  "Edit"
+ ],
+ "Chat.Transcription.Listening": [
+  "Listening…"
+ ],
+ "Chat.Transcription.Send": [
+  "Send"
  ],
  "Chat.Translate.Menu.Hide.Bot.Tooltip": [
   "Translation bar hidden.You can re-enable it in bot profile."
@@ -3441,6 +3556,25 @@
  ],
  "Chat.Webpage.MediaCount1": [
   "%1$d of %2$d"
+ ],
+ "ChatAudio.FileTranscription.Failed": [
+  "Audio transcription failed. Please try again."
+ ],
+ "ChatAudio.FileTranscription.InvalidAudio": [
+  "This audio could not be transcribed. Use a recording between 1 second and 30 minutes."
+ ],
+ "ChatAudio.FileTranscription.LimitExceeded": [
+  "",
+  "Too many transcription requests. Try again in %1$d seconds."
+ ],
+ "ChatAudio.FileTranscription.PremiumRequired": [
+  "Your free transcriptions have been used. Telegram Premium is required to transcribe more audio."
+ ],
+ "ChatAudio.FileTranscription.TooBig": [
+  "The audio is too large to transcribe. Trim the recording to less than 1 MB."
+ ],
+ "ChatAudio.FileTranscription.TooLong": [
+  "The audio is too long to transcribe. Trim the recording to 30 minutes or less."
  ],
  "ChatEmpty.BusinessIntro.How": [
   "**%@** added the message above for all empty chats. [How?]()"
@@ -3614,6 +3748,12 @@
  "ChatGift.Title.Unclaimed": [
   "**Unclaimed Prize**"
  ],
+ "ChatHTML.RowItem.NetworkWarning": [
+  "A tap may send data to the bot’s server"
+ ],
+ "ChatHeader.Controller.SetProfilePhoto": [
+  "Set Profile Photo"
+ ],
  "ChatHeader.Search.AddTags": [
   "Add Tags"
  ],
@@ -3655,6 +3795,9 @@
  ],
  "ChatInput.EmptyMessageError": [
   "You can't send an empty message."
+ ],
+ "ChatInput.RecordingView.ClickToEdit": [
+  "Click anywhere to edit"
  ],
  "ChatInput.RecordingView.Resume": [
   "Resume"
@@ -3945,6 +4088,18 @@
  "ChatList.RevealAction.Pin": [
   "Pin"
  ],
+ "ChatList.RowItem.CloseTopic": [
+  "Close Topic"
+ ],
+ "ChatList.RowItem.ReopenTopic": [
+  "Reopen Topic"
+ ],
+ "ChatList.RowView.Close": [
+  "Close"
+ ],
+ "ChatList.RowView.Reopen": [
+  "Reopen"
+ ],
  "ChatList.Service.VideoCall.outgoing": [
   "Outgoing Video Call (%@)"
  ],
@@ -4113,11 +4268,74 @@
  "ChatReactions.TagMessage.Premium": [
   "Organize your Saved Messages with tagsfor quicker access. [Learn More...]()"
  ],
+ "ChatRecorder.OverlayWindow.ConvertToText": [
+  "Convert to Text"
+ ],
  "ChatRow.BotForConnector": [
   " for "
  ],
  "ChatRow.Edited": [
   "edited %1$@"
+ ],
+ "ChatSend.Failure.AdminRequired": [
+  "You need admin rights to send this message."
+ ],
+ "ChatSend.Failure.ChannelRestricted": [
+  "You’re restricted from posting in this channel."
+ ],
+ "ChatSend.Failure.ChannelWriteForbidden": [
+  "You can’t post in this channel right now."
+ ],
+ "ChatSend.Failure.ChatInaccessible": [
+  "This channel or group is no longer accessible to you."
+ ],
+ "ChatSend.Failure.ChatWriteForbidden": [
+  "You can’t send messages in this chat right now."
+ ],
+ "ChatSend.Failure.EntitiesTooLong": [
+  "This message has too much formatting to send."
+ ],
+ "ChatSend.Failure.FileReferenceExpired": [
+  "The media reference expired. Try sending the media again."
+ ],
+ "ChatSend.Failure.ForwardsRestricted": [
+  "You can’t forward messages from a protected chat."
+ ],
+ "ChatSend.Failure.Generic": [
+  "This message could not be sent. Please try again."
+ ],
+ "ChatSend.Failure.GuestSendForbidden": [
+  "Join the discussion group before commenting."
+ ],
+ "ChatSend.Failure.MediaForbidden": [
+  "You can’t send this type of message in this chat."
+ ],
+ "ChatSend.Failure.MessageTooLong": [
+  "This message is too long to send."
+ ],
+ "ChatSend.Failure.PlainForbidden": [
+  "You can’t send text messages in this chat."
+ ],
+ "ChatSend.Failure.PremiumRequired": [
+  "Telegram Premium is required to send this message."
+ ],
+ "ChatSend.Failure.ServerError": [
+  "This message could not be sent. Server error: %1$@"
+ ],
+ "ChatSend.Failure.SlowModeWait": [
+  "Slow Mode is active. Try again in %1$@."
+ ],
+ "ChatSend.Failure.TopicDeleted": [
+  "This topic was deleted."
+ ],
+ "ChatSend.Failure.UserBlocked": [
+  "You can’t send this message because the recipient blocked you."
+ ],
+ "ChatSend.PaymentConfirmation.PriceChanged": [
+  "Price Changed"
+ ],
+ "ChatSend.PaymentConfirmation.PriceChangedInfo": [
+  "The price for sending messages to this chat has changed, so your message was not sent. Review the new price and send it again."
  ],
  "ChatService.AddedGroup": [
   "%1$@ added this group to the community %2$@."
@@ -4306,6 +4524,21 @@
  ],
  "ChatTitle.Business.GreetingMessages": [
   "Greeting Messages"
+ ],
+ "ChatVoice.Transcription.AutomaticPunctuation": [
+  "Automatic Punctuation"
+ ],
+ "ChatVoice.Transcription.Language": [
+  "Language: %1$@"
+ ],
+ "ChatVoice.Transcription.LanguageInfo": [
+  "The language you speak while dictating. Automatic uses this chat's language and your system languages."
+ ],
+ "ChatVoice.Transcription.RecordMessage": [
+  "Record Message"
+ ],
+ "ChatVoice.Transcription.ShortcutInfo": [
+  "What ⌘R does in the message field. Automatic dictates when the field has text and records a message when it is empty."
  ],
  "ChatbotSetup.Gift.Warning.CombinedText": [
   "The bot **%@** will be able to **manage your gifts and stars**, including giving them away to other users."
@@ -4912,6 +5145,21 @@
  "Context.Menu.Search": [
   "Search"
  ],
+ "ContextList.RowItem.Widget": [
+  "Widget"
+ ],
+ "Conversation.CopyProtectionForwardingDisabledBot": [
+  "Forwards from this bot are restricted"
+ ],
+ "Conversation.CopyProtectionForwardingDisabledChannel": [
+  "Forwards from this channel are restricted"
+ ],
+ "Conversation.CopyProtectionForwardingDisabledGroup": [
+  "Forwards from this group are restricted"
+ ],
+ "Conversation.CopyProtectionForwardingDisabledSecret": [
+  "Forwarding is restricted"
+ ],
  "Conversation.FreeTranscriptionCooldownTooltip": [
   "You have used all your **%d** free transcription this week.",
   "You have used all your **%d** free transcriptions this week."
@@ -5118,6 +5366,22 @@
  "CreateBot.LimitReachedPremium": [
   "You have reached the maximum limit of %1$d bots."
  ],
+ "CreateBot.ModalController.PremiumRequiredSubscribe": [
+  "%1$@ [Subscribe >]()"
+ ],
+ "CreateBot.ModalController.UnsavedChangesDiscard": [
+  "Discard"
+ ],
+ "CreateBot.ModalController.UnsavedChangesHeader": [
+  "Unsaved Changes"
+ ],
+ "CreateBot.ModalController.UnsavedChangesInfo": [
+  "You have not finished creating a bot."
+ ],
+ "CreateBot.ModalController.UsernameTooLong": [
+  "",
+  "A username can't be longer than %1$d characters."
+ ],
  "CreateBot.SuccessInfo": [
   "%1$@ will manage this bot for you."
  ],
@@ -5126,6 +5390,28 @@
  ],
  "CreateBot.Title": [
   "Create Bot"
+ ],
+ "CreateBot.Username.Count": [
+  "%1$d username",
+  "%1$d usernames"
+ ],
+ "CreateBot.Username.EndingsOr": [
+  "%1$@ or %2$@"
+ ],
+ "CreateBot.Username.Premium": [
+  "Telegram Premium"
+ ],
+ "CreateBot.Username.PremiumHint": [
+  "Must end in %1$@ – or %2$@ with %3$@."
+ ],
+ "CreateBot.Username.PremiumLink": [
+  "[Telegram Premium]()"
+ ],
+ "CreateBot.Username.PremiumRequired": [
+  "Usernames ending in %1$@ require Telegram Premium."
+ ],
+ "CreateBot.Username.SuffixLimit": [
+  "You can only have %1$@ ending in %2$@ across all your bots."
  ],
  "CreateBot.UsernameEndBot": [
   "Sorry, the username must end in 'bot'."
@@ -5259,6 +5545,12 @@
  "Deprecated.Title": [
   "Update macOS"
  ],
+ "Developer.ViewController.ResetApp": [
+  "Reset App"
+ ],
+ "Developer.ViewController.ResetAppLoginNotPreserved": [
+  "Could not preserve your login. The database has not been cleared."
+ ],
  "DiceRoll.EnterStakePlaceholder": [
   "Enter your stake"
  ],
@@ -5367,6 +5659,120 @@
  "EditAccountInfo.ChatAutomation": [
   "Chat Automation"
  ],
+ "EditImage.CanvasColorPicker.Blue": [
+  "BLUE"
+ ],
+ "EditImage.CanvasColorPicker.Green": [
+  "GREEN"
+ ],
+ "EditImage.CanvasColorPicker.Grid": [
+  "Grid"
+ ],
+ "EditImage.CanvasColorPicker.HexColor": [
+  "Hex Color #"
+ ],
+ "EditImage.CanvasColorPicker.Opacity": [
+  "OPACITY"
+ ],
+ "EditImage.CanvasColorPicker.PickFromImage": [
+  "Pick Color from Image"
+ ],
+ "EditImage.CanvasColorPicker.Red": [
+  "RED"
+ ],
+ "EditImage.CanvasColorPicker.Sliders": [
+  "Sliders"
+ ],
+ "EditImage.CanvasColorPicker.Spectrum": [
+  "Spectrum"
+ ],
+ "EditImage.CanvasColorPicker.Title": [
+  "Colors"
+ ],
+ "EditImage.CanvasController.ClearAll": [
+  "Clear All"
+ ],
+ "EditImage.CanvasController.ClearAllConfirm": [
+  "Clear all drawings, text and stickers?"
+ ],
+ "EditImage.CanvasController.CutOut": [
+  "Cut Out"
+ ],
+ "EditImage.CanvasController.Duplicate": [
+  "Duplicate"
+ ],
+ "EditImage.CanvasController.Flip": [
+  "Flip"
+ ],
+ "EditImage.CanvasController.MoveForward": [
+  "Move Forward"
+ ],
+ "EditImage.CanvasController.ShapeArrow": [
+  "Arrow"
+ ],
+ "EditImage.CanvasController.ShapeBubble": [
+  "Bubble"
+ ],
+ "EditImage.CanvasController.ShapeEllipse": [
+  "Ellipse"
+ ],
+ "EditImage.CanvasController.ShapeRectangle": [
+  "Rectangle"
+ ],
+ "EditImage.CanvasController.ShapeStar": [
+  "Star"
+ ],
+ "EditImage.CanvasControls.ClearAll": [
+  "Clear All"
+ ],
+ "EditImage.CanvasControls.Draw": [
+  "Draw"
+ ],
+ "EditImage.CanvasControls.Sticker": [
+  "Sticker"
+ ],
+ "EditImage.CanvasControls.SwitchToFill": [
+  "Switch to Fill"
+ ],
+ "EditImage.CanvasControls.SwitchToLine": [
+  "Switch to Line"
+ ],
+ "EditImage.CanvasControls.SwitchToOneSidedArrow": [
+  "Switch to One-Sided Arrow"
+ ],
+ "EditImage.CanvasControls.SwitchToOutline": [
+  "Switch to Outline"
+ ],
+ "EditImage.CanvasControls.SwitchToTwoSidedArrow": [
+  "Switch to Two-Sided Arrow"
+ ],
+ "EditImage.CanvasControls.Text": [
+  "Text"
+ ],
+ "EditImage.CanvasControls.TextAlignment": [
+  "Text Alignment"
+ ],
+ "EditImage.CanvasControls.TextStyle": [
+  "Text Style"
+ ],
+ "EditImage.CanvasControls.ZoomOut": [
+  "Zoom Out"
+ ],
+ "EditImage.Controls.CutOutObject": [
+  "Cut Out an Object"
+ ],
+ "EditImage.CutoutController.AddOutline": [
+  "Add Outline"
+ ],
+ "EditImage.CutoutController.CutOutObject": [
+  "Cut Out an Object"
+ ],
+ "EditImage.CutoutController.Hint": [
+  "Click on an object to cut it out"
+ ],
+ "EditImage.CutoutController.RemoveOutline": [
+  "Remove Outline"
+ ],
  "EditImageControl.Reset": [
   "RESET"
  ],
@@ -5387,6 +5793,63 @@
  ],
  "EditTheme.SlugPlaceholder": [
   "short link"
+ ],
+ "EditVideo.Controller.MutedTooltip": [
+  "Sound is now muted, so the video will autoplay and loop like a GIF."
+ ],
+ "EditVideo.Controller.Quality": [
+  "Quality"
+ ],
+ "EditVideo.Controller.Tools": [
+  "Tools"
+ ],
+ "EditVideo.Export.Brightness": [
+  "Brightness"
+ ],
+ "EditVideo.Export.Contrast": [
+  "Contrast"
+ ],
+ "EditVideo.Export.Enhance": [
+  "Enhance"
+ ],
+ "EditVideo.Export.Fade": [
+  "Fade"
+ ],
+ "EditVideo.Export.Highlights": [
+  "Highlights"
+ ],
+ "EditVideo.Export.Saturation": [
+  "Saturation"
+ ],
+ "EditVideo.Export.Shadows": [
+  "Shadows"
+ ],
+ "EditVideo.Export.Vignette": [
+  "Vignette"
+ ],
+ "EditVideo.Export.Warmth": [
+  "Warmth"
+ ],
+ "EditVideo.ToolsController.Highlights": [
+  "Highlights"
+ ],
+ "EditVideo.ToolsController.Original": [
+  "Original"
+ ],
+ "EditVideo.ToolsController.Shadows": [
+  "Shadows"
+ ],
+ "EditVideo.ToolsController.ShowEdited": [
+  "Show Edited"
+ ],
+ "EditVideo.ToolsController.ShowOriginal": [
+  "Show Original"
+ ],
+ "EditVideo.ToolsController.Tint": [
+  "Tint"
+ ],
+ "EditVideo.ToolsController.Tools": [
+  "Tools"
  ],
  "Email.CodeExpiredError": [
   "Code expired, please start over."
@@ -5805,6 +6268,13 @@
  "ForumSettings.TopicInfo": [
   "The group chat will be divided into topics created by admins or users."
  ],
+ "ForumSidebar.RowsView.DeleteTopics": [
+  "Delete Topics"
+ ],
+ "ForumSidebar.RowsView.DeleteTopicsInfo": [
+  "",
+  "Delete %1$d selected topics and all their messages?"
+ ],
  "ForumTopic.Context.AddMember": [
   "Add Members"
  ],
@@ -5970,6 +6440,9 @@
  "GeneralSettings.SendLargePhotos.Tooltip.Enabled": [
   "Photos will be sent in high quality"
  ],
+ "GeneralSettings.ShowContactsTab": [
+  "Show Contacts Tab"
+ ],
  "GeneralSettings.ShowProfileId.Text": [
   "Show Peer IDs in Profile"
  ],
@@ -5993,6 +6466,21 @@
  ],
  "Gift.ContextMenu.SetAsTheme": [
   "Set as Theme in..."
+ ],
+ "Gift.Delete.Success": [
+  "Gift Deleted"
+ ],
+ "Gift.Delete.Text": [
+  "Do you want to delete this gift?It will disappear from your profile and can't be restored."
+ ],
+ "Gift.Delete.Title": [
+  "Delete Gift"
+ ],
+ "Gift.Displayed.NewText": [
+  "The gift is now shown on your Page."
+ ],
+ "Gift.Hidden.NewText": [
+  "The gift is removed from your Page."
  ],
  "Gift.Marketplace.Attr.Backdrop": [
   "%d Backdrop",
@@ -6050,6 +6538,30 @@
  ],
  "Gift.Marketplace.Sort.Price": [
   "Sort by Price"
+ ],
+ "Gift.MoveToGifts.Success": [
+  "Gift moved to your account."
+ ],
+ "Gift.MoveToGifts.Text": [
+  "Transfer this collectible off-chain to your Telegram account?"
+ ],
+ "Gift.MoveToGifts.Title": [
+  "Move to My Gifts"
+ ],
+ "Gift.MoveToWallet.Location": [
+  "It will appear in"
+ ],
+ "Gift.MoveToWallet.Move": [
+  "Move"
+ ],
+ "Gift.MoveToWallet.Success": [
+  "Gift moved to your wallet."
+ ],
+ "Gift.MoveToWallet.Text": [
+  "Transfer this gift to your blockchain wallet?"
+ ],
+ "Gift.MoveToWallet.Title": [
+  "Move to My Wallet"
  ],
  "Gift.NotAccepting": [
   "Sorry, %@ is not accepting gifts."
@@ -6123,6 +6635,12 @@
  "Gift.Transfer.Confirmation.Transfer": [
   "Transfer for"
  ],
+ "Gift.Transfer.MoveToGifts": [
+  "Move to My Gifts"
+ ],
+ "Gift.Transfer.MoveToWallet": [
+  "Move to My Wallet"
+ ],
  "Gift.Transfer.SendUnlocks": [
   "unlocks in %@"
  ],
@@ -6137,6 +6655,12 @@
  ],
  "Gift.Transfer.UpdateRequired.Title": [
   "Update Required"
+ ],
+ "Gift.TransferController.FrequentContacts": [
+  "FREQUENT CONTACTS"
+ ],
+ "Gift.TransferController.Title": [
+  "Choose Recipient"
  ],
  "Gift.TransferTon.OK": [
   "Proceed"
@@ -6225,6 +6749,15 @@
  "Gift.Upgrade.Upgrade": [
   "Upgrade"
  ],
+ "Gift.View.Context.Delete": [
+  "Delete Gift"
+ ],
+ "Gift.View.Context.HideFromProfile": [
+  "Hide from Profile"
+ ],
+ "Gift.View.Context.ShowOnProfile": [
+  "Show on Profile"
+ ],
  "Gift.View.KeepOrConvertDescription.Channel": [
   "Your channel can add this gift to its profile or convert it to %@. [More About Stars >](https://telegram.org)"
  ],
@@ -6264,8 +6797,20 @@
  "Gift.Wear.Start": [
   "Start Wearing"
  ],
+ "Gift.Withdraw.ComeBackLater": [
+  "Please come back later."
+ ],
  "Gift.Withdraw.Proceed": [
   "Open Fragment"
+ ],
+ "Gift.Withdraw.SecurityCheck": [
+  "Security Check"
+ ],
+ "Gift.Withdraw.SecurityRequirements": [
+  "Gift withdrawals are available if:• 2-Step verification was enabled for your account more than **7 days** ago.• You have logged in on this device more than **24 hours** ago."
+ ],
+ "Gift.Withdraw.SetupTwoStepAuth": [
+  "Enable 2-Step Verification"
  ],
  "Gift.Withdraw.Text": [
   "You can use Fragment, a third-party service, to transfer **%@** to the TON blockchain. After that, you can manage it as an NFT with any TON wallet application.You can also move such NFTs back to your Telegram account via Fragment."
@@ -6806,6 +7351,52 @@
  "GroupStickers.EmptyHeader.Emoji": [
   "No such emoji set found"
  ],
+ "HTMLBubble.State.WidgetStopped": [
+  "Widget stopped"
+ ],
+ "HTMLDemo.Catalog.AllWidgets": [
+  "All Widgets"
+ ],
+ "HTMLDemo.Catalog.AllWidgetsWebKit": [
+  "All Widgets — WebKit"
+ ],
+ "HTMLDemo.Catalog.StatsCommandDescription": [
+  "Show or hide live render stats"
+ ],
+ "HTMLDemo.Catalog.StatsOff": [
+  "Live stats are off. Send %1$@ to show them."
+ ],
+ "HTMLDemo.Catalog.StatsOn": [
+  "Live stats are on. Each HTML message shows its render time per frame, frames per second, CPU and memory, and the whole app's CPU and memory. Send %1$@ to hide them."
+ ],
+ "HTMLDemo.Catalog.TypeToPick": [
+  "Type / to pick a message"
+ ],
+ "HTMLDemo.Catalog.WidgetsCount": [
+  "",
+  "%1$d widgets"
+ ],
+ "HTMLDemo.ChatContents.You": [
+  "You"
+ ],
+ "HTMLRender.Engine.Litehtml": [
+  "litehtml"
+ ],
+ "HTMLRender.Engine.LitehtmlGPU": [
+  "litehtml GPU"
+ ],
+ "HTMLRender.Engine.LitehtmlOptimized": [
+  "litehtml optimized"
+ ],
+ "HTMLRender.Engine.Twidget": [
+  "twidget"
+ ],
+ "HTMLRender.Engine.WebKit": [
+  "WebKit"
+ ],
+ "HTMLWidget.Store.WidgetUnavailable": [
+  "Widget unavailable"
+ ],
  "HashtagSearch.StoriesFound_countable": [
   "%d"
  ],
@@ -6823,6 +7414,12 @@
  ],
  "InAppLinks.Confirm.OpenExternalNew": [
   "Do you want to open \"%@\"?"
+ ],
+ "InAppLinks.FreeMessageLinkApplied": [
+  "You can now message %1$@ for free."
+ ],
+ "InAppLinks.FreeMessageLinkInvalid": [
+  "This free message link is invalid or has expired."
  ],
  "InAppLinks.IDNWarning": [
   "This link may be deceptive.Displayed: %1$@Actual: %2$@"
@@ -6934,6 +7531,30 @@
  "InviteLink.PeopleJoined_countable": [
   "%d"
  ],
+ "InviteLink.QrCode.InfoChannel": [
+  "Everyone on Telegram can scan this code to join your channel."
+ ],
+ "InviteLink.QrCode.InfoGroup": [
+  "Everyone on Telegram can scan this code to join your group."
+ ],
+ "InviteLink.QrCode.MenuCopyImage": [
+  "Copy Image"
+ ],
+ "InviteLink.QrCode.MenuCopyLink": [
+  "Copy Link"
+ ],
+ "InviteLink.QrCode.MenuSaveImage": [
+  "Save Image"
+ ],
+ "InviteLink.QrCode.MenuShare": [
+  "Share…"
+ ],
+ "InviteLink.QrCode.Share": [
+  "Share QR Code"
+ ],
+ "InviteLink.QrCode.Title": [
+  "Invite by QR Code"
+ ],
  "InviteLink.Requested_ZeroValueHolder": [
   "no one requested yet"
  ],
@@ -6976,8 +7597,32 @@
  "Language.OfficialTransationsHeader": [
   "OFFICIAL TRANSLATIONS"
  ],
+ "LeaveChat.Actions.ChatDeleted": [
+  "Chat deleted"
+ ],
+ "LeaveChat.Actions.ChatDeletedForBothSides": [
+  "Chat deleted for both sides"
+ ],
  "LeaveChat.Actions.DeleteForAllSubscribers": [
   "Delete for all subscribers"
+ ],
+ "LeaveChat.Actions.DeletedChannel": [
+  "Deleted channel"
+ ],
+ "LeaveChat.Actions.DeletedGroup": [
+  "Deleted group"
+ ],
+ "LeaveChat.Actions.LeftChannel": [
+  "Left channel"
+ ],
+ "LeaveChat.Actions.LeftGroup": [
+  "Left group"
+ ],
+ "LeaveChat.Actions.RemovedFromChatList": [
+  "Removed from your chat list."
+ ],
+ "LeaveChat.Actions.SecretChatDeleted": [
+  "Secret Chat deleted"
  ],
  "LiteMode.Key.liquidGlass.Info": [
   "Render UI surfaces with the macOS Tahoe liquid-glass effect. Turn off to fall back to a lightweight system blur and save GPU."
@@ -7240,6 +7885,9 @@
  "MESSAGE_INVOICE": [
   "%1$@ sent you an invoice for %2$@"
  ],
+ "ManageLinks.Context.QrCode": [
+  "Get QR Code"
+ ],
  "ManageLinks.Header.Desc": [
   "Anyone who has Telegram installed will be able to join your group by following this link."
  ],
@@ -7326,6 +7974,37 @@
  "Message.Status.Archiving1": [
   "%@ archived"
  ],
+ "MessageCalendar.ClearHistoryForTheseDays": [
+  "Clear History For These Days"
+ ],
+ "MessageCalendar.ClearHistoryForThisDay": [
+  "Clear History For This Day"
+ ],
+ "MessageCalendar.DaysSelectedTitle": [
+  "%1$d day selected",
+  "%1$d days selected"
+ ],
+ "MessageCalendar.DeleteAlertText": [
+  "Are you sure you want to delete all messages for the selected day?",
+  "Are you sure you want to delete all messages for the selected %1$d days?"
+ ],
+ "MessageCalendar.DeleteForAllAlertText": [
+  "Are you sure you want to delete all messages for the selected day for all members?",
+  "Are you sure you want to delete all messages for the selected %1$d days for all members?"
+ ],
+ "MessageCalendar.DeleteOwnAlertText": [
+  "Are you sure you want to delete all your messages for the selected day?",
+  "Are you sure you want to delete all your messages for the selected %1$d days?"
+ ],
+ "MessageCalendar.NothingToDelete": [
+  "There are no messages to delete for the selected days."
+ ],
+ "MessageCalendar.Select": [
+  "Select"
+ ],
+ "MessageCalendar.Title": [
+  "Calendar"
+ ],
  "MessagePollStats.Title": [
   "Poll Stats"
  ],
@@ -7364,6 +8043,12 @@
  ],
  "MessagesPrivacy.ChargeforMessages.Select.Info": [
   "You will receive %1$@ of the selected fee (~%2$@$) for each incoming message."
+ ],
+ "MessagesPrivacy.Controller.EnterWholeNumber": [
+  "Enter a whole number from 1 to %1$d."
+ ],
+ "MessagesPrivacy.Controller.PriceForEachMessage": [
+  "Price for each Message"
  ],
  "Modal.Create": [
   "Create"
@@ -7769,6 +8454,12 @@
  "Notification.GroupCreatorChangePending": [
   "%2$@ will become the new owner in 7 days if %1$@ does not return."
  ],
+ "Notification.NoPaidMessagesTokenUsed": [
+  "%@ used your link to message you for free"
+ ],
+ "Notification.NoPaidMessagesTokenUsedYou": [
+  "You used %@’s link to message for free"
+ ],
  "Notification.PaidMessage": [
   "%1$@ paid %2$@ to send a message"
  ],
@@ -7799,6 +8490,9 @@
  ],
  "Notification.PaidMessages_countable": [
   "%d"
+ ],
+ "Notification.Reaction.Hidden": [
+  "New reaction to your message"
  ],
  "Notification.Reminder": [
   "📆 Reminder"
@@ -7835,6 +8529,157 @@
  ],
  "Notification.StarsGift.UpgradeToSelf": [
   "You sent an upgrade worth **%@** for the gift **%@** received from you"
+ ],
+ "Notification.Story.Hidden": [
+  "New story was posted"
+ ],
+ "Notification.Story.Posted": [
+  "posted a story"
+ ],
+ "NotificationSettings.Category.ShowNotifications": [
+  "Show Notifications"
+ ],
+ "NotificationSettings.Category.ShowSender": [
+  "Show Sender's Name"
+ ],
+ "NotificationSettings.Category.Sound": [
+  "Sound"
+ ],
+ "NotificationSettings.Channels": [
+  "Channels"
+ ],
+ "NotificationSettings.Exception.AlertTonesHeader": [
+  "ALERT TONES"
+ ],
+ "NotificationSettings.Exception.AuthorNameHeader": [
+  "DISPLAY AUTHOR NAME"
+ ],
+ "NotificationSettings.Exception.ClassicTonesHeader": [
+  "CLASSIC"
+ ],
+ "NotificationSettings.Exception.NotificationsHeader": [
+  "NOTIFICATIONS"
+ ],
+ "NotificationSettings.Exception.PreviewHeader": [
+  "MESSAGE PREVIEW"
+ ],
+ "NotificationSettings.Exception.StoriesHeader": [
+  "STORY NOTIFICATIONS"
+ ],
+ "NotificationSettings.Exceptions": [
+  "",
+  "%1$d exceptions"
+ ],
+ "NotificationSettings.Exceptions.Add": [
+  "Add an Exception"
+ ],
+ "NotificationSettings.Exceptions.AlwaysOff": [
+  "Always Off"
+ ],
+ "NotificationSettings.Exceptions.AlwaysOn": [
+  "Always On"
+ ],
+ "NotificationSettings.Exceptions.Automatic": [
+  "%1$@ (automatic)"
+ ],
+ "NotificationSettings.Exceptions.CustomSound": [
+  "Custom Sound"
+ ],
+ "NotificationSettings.Exceptions.DeleteAll": [
+  "Delete All Exceptions"
+ ],
+ "NotificationSettings.Exceptions.DeleteAllConfirm": [
+  "Are you sure you want to delete all exceptions?"
+ ],
+ "NotificationSettings.Exceptions.Header": [
+  "EXCEPTIONS"
+ ],
+ "NotificationSettings.Exceptions.HideName": [
+  "Hide Name"
+ ],
+ "NotificationSettings.Exceptions.HidePreview": [
+  "Hide Preview"
+ ],
+ "NotificationSettings.Exceptions.MutedUntil": [
+  "Muted until %1$@"
+ ],
+ "NotificationSettings.Exceptions.Remove": [
+  "Remove from Exceptions"
+ ],
+ "NotificationSettings.Exceptions.ShowName": [
+  "Show Name"
+ ],
+ "NotificationSettings.Exceptions.ShowPreview": [
+  "Show Preview"
+ ],
+ "NotificationSettings.GroupChats": [
+  "Group Chats"
+ ],
+ "NotificationSettings.MessageNotifications": [
+  "MESSAGE NOTIFICATIONS"
+ ],
+ "NotificationSettings.NotifyMeAbout": [
+  "NOTIFY ME ABOUT..."
+ ],
+ "NotificationSettings.Off": [
+  "Off"
+ ],
+ "NotificationSettings.On": [
+  "On"
+ ],
+ "NotificationSettings.Options": [
+  "OPTIONS"
+ ],
+ "NotificationSettings.PrivateChats": [
+  "Private Chats"
+ ],
+ "NotificationSettings.Reactions": [
+  "Reactions"
+ ],
+ "NotificationSettings.Reactions.Contacts": [
+  "My Contacts"
+ ],
+ "NotificationSettings.Reactions.Everyone": [
+  "Everyone"
+ ],
+ "NotificationSettings.Reactions.From": [
+  "From"
+ ],
+ "NotificationSettings.Reactions.Messages": [
+  "Reactions to my Messages"
+ ],
+ "NotificationSettings.ResetAll": [
+  "Reset All Notifications"
+ ],
+ "NotificationSettings.ResetAllInfo": [
+  "Undo all custom notification settings for all your contacts, groups and channels."
+ ],
+ "NotificationSettings.Stories": [
+  "Stories"
+ ],
+ "NotificationSettings.Stories.Important": [
+  "Important Stories"
+ ],
+ "NotificationSettings.Stories.ImportantInfo": [
+  "Always on for top 5 contacts."
+ ],
+ "NotificationSettings.Stories.New": [
+  "New Stories"
+ ],
+ "NotificationSettings.ThisDevice.DefaultSound": [
+  "Default Sound"
+ ],
+ "NotificationSettings.ThisDevice.Header": [
+  "ON THIS DEVICE"
+ ],
+ "NotificationSettings.ThisDevice.Info": [
+  "These settings apply only to this device. Turning off 'Notifications' or 'Show Message Text' here overrides all the settings above. 'Default Sound' is used wherever a sound above is set to 'Default'; choosing 'None' silences every notification sound on this device."
+ ],
+ "NotificationSettings.ThisDevice.ShowMessageText": [
+  "Show Message Text"
+ ],
+ "NotificationSettings.TopChats": [
+  "Top 5"
  ],
  "NotificationSound.Tone.Voice": [
   "Voice Message"
@@ -8048,6 +8893,12 @@
  ],
  "PeerInfo.AutoTranslateMessages": [
   "Auto-Translate Messages"
+ ],
+ "PeerInfo.BalanceView.Accessibility": [
+  "Balance: %1$@"
+ ],
+ "PeerInfo.BalanceView.Title": [
+  "Balance:"
  ],
  "PeerInfo.BirthdaySuggested": [
   "Birthday suggested"
@@ -9055,6 +9906,87 @@
  "ProxySettings.Web.Warning.Title": [
   "Enable WEB Proxy?"
  ],
+ "QrStudio.ColorsTabView.Title": [
+  "Colors"
+ ],
+ "QrStudio.Controller.CodeExpiresInMinute": [
+  "This code will expire in 1 minute."
+ ],
+ "QrStudio.Controller.CodeFree": [
+  "Messages with this code are now free."
+ ],
+ "QrStudio.Controller.CodePermanent": [
+  "This code no longer expires."
+ ],
+ "QrStudio.Controller.CodeReset": [
+  "New code created. The old one no longer works."
+ ],
+ "QrStudio.Controller.CopyImage": [
+  "Copy Image"
+ ],
+ "QrStudio.Controller.FeeRestored": [
+  "Your message fee applies again."
+ ],
+ "QrStudio.Controller.ImageCopied": [
+  "Image copied to clipboard."
+ ],
+ "QrStudio.Controller.LinkCopied": [
+  "Link copied to clipboard."
+ ],
+ "QrStudio.Controller.MenuCopyLink": [
+  "Copy Link"
+ ],
+ "QrStudio.Controller.MenuDisableTimer": [
+  "Disable timer"
+ ],
+ "QrStudio.Controller.MenuExpireAfterMinute": [
+  "Expire after 1 minute"
+ ],
+ "QrStudio.Controller.MenuResetCode": [
+  "Reset Code"
+ ],
+ "QrStudio.Controller.MenuRestoreFee": [
+  "Restore message fee"
+ ],
+ "QrStudio.Controller.MenuSaveImage": [
+  "Save Image"
+ ],
+ "QrStudio.Controller.MenuShare": [
+  "Share…"
+ ],
+ "QrStudio.Controller.PillExpiresIn": [
+  "Expires in %1$@"
+ ],
+ "QrStudio.Controller.PillFree": [
+  "Free"
+ ],
+ "QrStudio.Controller.PillPermanent": [
+  "Permanent"
+ ],
+ "QrStudio.Controller.PillRemoveFee": [
+  "Remove ⭐%1$@ fee"
+ ],
+ "QrStudio.Controller.PremiumEmoji": [
+  "Subscribe to Premium to use all emoji."
+ ],
+ "QrStudio.Controller.SomethingWentWrong": [
+  "Something went wrong. Please try again."
+ ],
+ "QrStudio.Controller.Subscribe": [
+  "Subscribe"
+ ],
+ "QrStudio.GiftsTabView.Browse": [
+  "Browse Gifts"
+ ],
+ "QrStudio.GiftsTabView.EmptyText": [
+  "Use any collectible gift you ownto style your QR code."
+ ],
+ "QrStudio.GiftsTabView.EmptyTitle": [
+  "No gifts yet"
+ ],
+ "QrStudio.GiftsTabView.Title": [
+  "Collectibles"
+ ],
  "QuickReply.ChatRemoveGeneric.DeleteAction": [
   "Delete"
  ],
@@ -9084,6 +10016,18 @@
  ],
  "RecentCalls.RecentCalls": [
   "Recent Calls"
+ ],
+ "RecentSessions.Controller.Rename": [
+  "Rename"
+ ],
+ "RenameDevice.Controller.DeviceNameHeader": [
+  "DEVICE NAME"
+ ],
+ "RenameDevice.Controller.DeviceNameInfo": [
+  "This name is shown in the list of active sessions on your other devices."
+ ],
+ "RenameDevice.Controller.Title": [
+  "Rename Device"
  ],
  "Report.Complicated.Message.Title": [
   "Report Message"
@@ -9451,6 +10395,24 @@
  "RichTextEditor.Text": [
   "Text"
  ],
+ "RichTextEditor.WindowController.Action": [
+  "Action"
+ ],
+ "RichTextEditor.WindowController.ActionCopyText": [
+  "Copy Text"
+ ],
+ "RichTextEditor.WindowController.ActionURL": [
+  "URL"
+ ],
+ "RichTextEditor.WindowController.ActionUserProfile": [
+  "User Profile"
+ ],
+ "RichTextEditor.WindowController.ChooseUser": [
+  "Choose User"
+ ],
+ "RichTextEditor.WindowController.CopyTextPlaceholder": [
+  "Text to copy"
+ ],
  "RichTextEditorWindow.AiPremiumRequired": [
   "AI tools in the rich text editor are available with Telegram Premium."
  ],
@@ -9702,6 +10664,30 @@
  ],
  "ServiceMessage.ExpiredVideoMessage": [
   "video message has expired"
+ ],
+ "SessionModal.Controller.ConnectionHeader": [
+  "Connection"
+ ],
+ "SessionModal.Controller.DeviceHeader": [
+  "Device"
+ ],
+ "SessionModal.Controller.FirstSignedAt": [
+  "First Signed At"
+ ],
+ "SessionModal.Controller.LastActive": [
+  "Last Active"
+ ],
+ "SessionModal.Controller.LocationNotFound": [
+  "Couldn't find this location. Please try again."
+ ],
+ "SessionModal.Controller.OS": [
+  "OS"
+ ],
+ "SessionModal.Controller.OfficialApp": [
+  "This session is from the official Telegram app"
+ ],
+ "SessionModal.Controller.Version": [
+  "Version"
  ],
  "SettingsSearch.Recent": [
   "RECENT"
@@ -9969,6 +10955,9 @@
  ],
  "SettingsSearch.Synonyms.Watch": [
   "Apple Watch"
+ ],
+ "Share.IncompleteDelivery": [
+  "Sharing did not complete. Check the selected chats before trying again to avoid duplicates."
  ],
  "Share.Pay.Confirm.Text": [
   "You selected %1$@ who charge Stars for messages. Would you like to pay %2$@ to send %3$@?"
@@ -11440,6 +12429,27 @@
  "Stats.Ton": [
   "Grams"
  ],
+ "StickerPack.Editing.AddToSet": [
+  "Add to Sticker Set"
+ ],
+ "StickerPack.Editing.NamePlaceholder": [
+  "Name"
+ ],
+ "StickerPack.Editing.NewSet": [
+  "New Sticker Set"
+ ],
+ "StickerPack.Editing.NewSetText": [
+  "Choose a name for your sticker set."
+ ],
+ "StickerPack.Editing.SendSticker": [
+  "Send Sticker"
+ ],
+ "StickerPack.Editing.SetFull": [
+  "Sorry, you've reached the maximum number of stickers in this set. Try a different one."
+ ],
+ "StickerPack.Editing.StickerAdded": [
+  "Sticker added to **%1$@** sticker set."
+ ],
  "StickerPack.Emoji": [
   "Emoji"
  ],
@@ -11448,6 +12458,54 @@
  ],
  "StickerPack.Preview.SetGroup": [
   "Set as Group Emoji Pack"
+ ],
+ "StickerPack.PreviewModalController.AddExistingSticker": [
+  "Add an Existing Sticker"
+ ],
+ "StickerPack.PreviewModalController.AddSticker": [
+  "Add Sticker"
+ ],
+ "StickerPack.PreviewModalController.CreateSticker": [
+  "Create a New Sticker"
+ ],
+ "StickerPack.PreviewModalController.DeleteForEveryone": [
+  "Delete for Everyone"
+ ],
+ "StickerPack.PreviewModalController.DeleteSetHeader": [
+  "Delete Sticker Set"
+ ],
+ "StickerPack.PreviewModalController.DeleteSetInfo": [
+  "This will delete the sticker set for all users."
+ ],
+ "StickerPack.PreviewModalController.EditName": [
+  "Edit Name"
+ ],
+ "StickerPack.PreviewModalController.EditNameText": [
+  "Choose a new name for your set."
+ ],
+ "StickerPack.PreviewModalController.EditNameTitle": [
+  "Edit Sticker Set Name"
+ ],
+ "StickerPack.PreviewModalController.EditStickers": [
+  "EDIT STICKERS"
+ ],
+ "StickerPack.PreviewModalController.RemoveForMe": [
+  "Remove for Me"
+ ],
+ "StickerPack.PreviewModalController.Reorder": [
+  "Reorder"
+ ],
+ "StickerPack.PreviewModalController.ReplaceSticker": [
+  "Replace Sticker"
+ ],
+ "StickerPack.PreviewModalController.StickerAdded": [
+  "Sticker added to **%1$@** sticker set."
+ ],
+ "StickerPack.PreviewModalController.StickerUpdated": [
+  "Sticker updated."
+ ],
+ "StickerPack.PreviewModalController.StickersBotHint": [
+  "Check @stickers bot for more options."
  ],
  "StickerPack.Sets.Add1": [
   "Add %d Sticker Pack",
@@ -11474,6 +12532,9 @@
  "Stickers.SearchAdded": [
   "Added"
  ],
+ "Stickers.ViewController.CreateSticker": [
+  "Create Sticker"
+ ],
  "StorageExceptions.Header": [
   "%d EXCEPTION",
   "%d EXCEPTIONS"
@@ -11486,6 +12547,12 @@
  ],
  "StorageUsage.ClearChat.Info": [
   "Media files will be cleared from your disk, but will remain available for re-downloading if necessary."
+ ],
+ "StorageUsage.Controller.UsageLessThan": [
+  "Telegram uses less than %1$@ of your device storage."
+ ],
+ "StorageUsage.Controller.UsageText": [
+  "Telegram uses **%1$@** of your device storage."
  ],
  "StorageUsage.Media.File": [
   "File"
@@ -12011,6 +13078,9 @@
  "TextUtils.RemovedFromCommunity": [
   "Removed from a community"
  ],
+ "TextUtils.Widget": [
+  "Widget"
+ ],
  "TextView.Transform.Date": [
   "Date"
  ],
@@ -12516,6 +13586,12 @@
  "Translate.TranslateEntireChat": [
   "Translate Entire Chat"
  ],
+ "TranslateModal.Controller.AlwaysUse": [
+  "Always use in this chat"
+ ],
+ "TranslateModal.Controller.AlwaysUseInfo": [
+  "Apply the selected AI settings to new text messages before sending."
+ ],
  "TranslateModal.Create": [
   "Create"
  ],
@@ -12863,6 +13939,1277 @@
  "VoiceChat.Video.Stream.Share": [
   "share"
  ],
+ "VoiceOver.AIActivity.Failed": [
+  "Failed"
+ ],
+ "VoiceOver.AIActivity.HideSteps": [
+  "Hide Steps"
+ ],
+ "VoiceOver.AIActivity.HideSummary": [
+  "Hide Summary"
+ ],
+ "VoiceOver.AIActivity.InProgress": [
+  "In progress"
+ ],
+ "VoiceOver.AIActivity.ShowSteps": [
+  "Show Steps"
+ ],
+ "VoiceOver.AIActivity.ShowSummary": [
+  "Show Summary"
+ ],
+ "VoiceOver.AIActivity.Stopped": [
+  "Stopped"
+ ],
+ "VoiceOver.AIAssistant.StartNewChat": [
+  "Start New Chat"
+ ],
+ "VoiceOver.AltTab.RecentChats": [
+  "Recent Chats"
+ ],
+ "VoiceOver.Appearance.Theme": [
+  "%@ Theme"
+ ],
+ "VoiceOver.AttachMedia": [
+  "Send media"
+ ],
+ "VoiceOver.AuthSessions.CurrentSession": [
+  "Current Session"
+ ],
+ "VoiceOver.Boost.Progress": [
+  "%1$@ of %2$@ boosts to %3$@"
+ ],
+ "VoiceOver.BotCommands": [
+  "Bot Commands"
+ ],
+ "VoiceOver.BotKeyboard": [
+  "Bot Keyboard"
+ ],
+ "VoiceOver.Call.Minimize": [
+  "Minimize Call"
+ ],
+ "VoiceOver.Call.VideoCallCanceled": [
+  "Cancelled Video Call"
+ ],
+ "VoiceOver.Call.VideoCallIncoming": [
+  "Incoming Video Call"
+ ],
+ "VoiceOver.Call.VideoCallMissed": [
+  "Missed Video Call"
+ ],
+ "VoiceOver.Call.VideoCallOutgoing": [
+  "Outgoing Video Call"
+ ],
+ "VoiceOver.Call.VoiceCallCanceled": [
+  "Cancelled Voice Call"
+ ],
+ "VoiceOver.Call.VoiceCallIncoming": [
+  "Incoming Voice Call"
+ ],
+ "VoiceOver.Call.VoiceCallMissed": [
+  "Missed Voice Call"
+ ],
+ "VoiceOver.Call.VoiceCallOutgoing": [
+  "Outgoing Voice Call"
+ ],
+ "VoiceOver.Calls.RatingStars": [
+  "%d Star",
+  "%d Stars"
+ ],
+ "VoiceOver.Chart.Date": [
+  "Date"
+ ],
+ "VoiceOver.Chart.Description": [
+  "chart"
+ ],
+ "VoiceOver.Chart.LongerPeriod": [
+  "Show longer period"
+ ],
+ "VoiceOver.Chart.NoData": [
+  "No data"
+ ],
+ "VoiceOver.Chart.Period": [
+  "Period"
+ ],
+ "VoiceOver.Chart.Series": [
+  "%1$@, highest %2$@ on %3$@, lowest %4$@"
+ ],
+ "VoiceOver.Chart.SeriesAtTime": [
+  "%1$@, highest %2$@ at %3$@, lowest %4$@"
+ ],
+ "VoiceOver.Chart.ShorterPeriod": [
+  "Show shorter period"
+ ],
+ "VoiceOver.Chart.Value": [
+  "Value"
+ ],
+ "VoiceOver.Chat.AnimatedSticker": [
+  "Animated sticker"
+ ],
+ "VoiceOver.Chat.AnimatedStickerFrom": [
+  "Animated sticker, from: %@"
+ ],
+ "VoiceOver.Chat.AnonymousPoll": [
+  "Anonymous poll"
+ ],
+ "VoiceOver.Chat.AnonymousPollFrom": [
+  "Anonymous poll, from: %@"
+ ],
+ "VoiceOver.Chat.Caption": [
+  "Caption: %@"
+ ],
+ "VoiceOver.Chat.ChannelInfo": [
+  "Channel Info"
+ ],
+ "VoiceOver.Chat.Contact": [
+  "Shared contact"
+ ],
+ "VoiceOver.Chat.ContactEmail": [
+  "Email"
+ ],
+ "VoiceOver.Chat.ContactEmailCount": [
+  "%d email address",
+  "%d email addresses"
+ ],
+ "VoiceOver.Chat.ContactFrom": [
+  "Shared contact, from: %@"
+ ],
+ "VoiceOver.Chat.ContactOrganization": [
+  "Organization: %@"
+ ],
+ "VoiceOver.Chat.ContactPhoneNumber": [
+  "Phone number"
+ ],
+ "VoiceOver.Chat.ContactPhoneNumberCount": [
+  "%d phone number",
+  "%d phone numbers"
+ ],
+ "VoiceOver.Chat.Duration": [
+  "Duration: %@"
+ ],
+ "VoiceOver.Chat.Editor": [
+  "Editor"
+ ],
+ "VoiceOver.Chat.Failed": [
+  "Failed to send"
+ ],
+ "VoiceOver.Chat.File": [
+  "File"
+ ],
+ "VoiceOver.Chat.FileFrom": [
+  "File, from: %@"
+ ],
+ "VoiceOver.Chat.ForwardedFrom": [
+  "Forwarded from: %@"
+ ],
+ "VoiceOver.Chat.ForwardedFromYou": [
+  "Forwarded from you"
+ ],
+ "VoiceOver.Chat.GoToOriginalMessage": [
+  "Go to message"
+ ],
+ "VoiceOver.Chat.GroupInfo": [
+  "Group Info"
+ ],
+ "VoiceOver.Chat.MediaResults": [
+  "Media Results"
+ ],
+ "VoiceOver.Chat.Message": [
+  "Message"
+ ],
+ "VoiceOver.Chat.MessagesSelected": [
+  "%d message selected",
+  "%d messages selected"
+ ],
+ "VoiceOver.Chat.Music": [
+  "Music message"
+ ],
+ "VoiceOver.Chat.MusicFrom": [
+  "Music file, from: %@"
+ ],
+ "VoiceOver.Chat.MusicTitle": [
+  "%1$@, by %2$@"
+ ],
+ "VoiceOver.Chat.NotPlayedByRecipient": [
+  "Not played by recipient"
+ ],
+ "VoiceOver.Chat.NotPlayedByRecipients": [
+  "Not played by recipients"
+ ],
+ "VoiceOver.Chat.OpenHint": [
+  "Press to open"
+ ],
+ "VoiceOver.Chat.OpenLinkHint": [
+  "Press to open link"
+ ],
+ "VoiceOver.Chat.OptionSelected": [
+  "selected"
+ ],
+ "VoiceOver.Chat.PagePreview": [
+  "Page preview"
+ ],
+ "VoiceOver.Chat.Photo": [
+  "Photo"
+ ],
+ "VoiceOver.Chat.PhotoFrom": [
+  "Photo, from: %@"
+ ],
+ "VoiceOver.Chat.PlayHint": [
+  "Press to play"
+ ],
+ "VoiceOver.Chat.PlayedByRecipient": [
+  "Played by recipient"
+ ],
+ "VoiceOver.Chat.PlayedByRecipients": [
+  "Played by recipients"
+ ],
+ "VoiceOver.Chat.Poll": [
+  "Poll"
+ ],
+ "VoiceOver.Chat.Poll.RecentVoters": [
+  "Recent Voters"
+ ],
+ "VoiceOver.Chat.PollFinalResults": [
+  "Final results"
+ ],
+ "VoiceOver.Chat.PollFrom": [
+  "Poll, from: %@"
+ ],
+ "VoiceOver.Chat.PollNoVotes": [
+  "No votes"
+ ],
+ "VoiceOver.Chat.PollOptionCount": [
+  "%d option",
+  "%d options"
+ ],
+ "VoiceOver.Chat.PollVotes": [
+  "%d vote",
+  "%d votes"
+ ],
+ "VoiceOver.Chat.Profile": [
+  "Profile"
+ ],
+ "VoiceOver.Chat.Record": [
+  "Record"
+ ],
+ "VoiceOver.Chat.RecordModeHint": [
+  "Press to switch between voice and video message. Use the Record action to start recording."
+ ],
+ "VoiceOver.Chat.RecordModeVideoMessage": [
+  "Video message"
+ ],
+ "VoiceOver.Chat.RecordModeVoiceMessage": [
+  "Voice message"
+ ],
+ "VoiceOver.Chat.RecordPreviewVoiceMessage": [
+  "Preview voice message"
+ ],
+ "VoiceOver.Chat.Reply": [
+  "Reply to message"
+ ],
+ "VoiceOver.Chat.ReplyFrom": [
+  "Reply to message from: %@"
+ ],
+ "VoiceOver.Chat.ReplyToYourMessage": [
+  "Reply to your message"
+ ],
+ "VoiceOver.Chat.ReplyingToMessage": [
+  "In reply to message: %@"
+ ],
+ "VoiceOver.Chat.SearchByMember": [
+  "Search by Member"
+ ],
+ "VoiceOver.Chat.SeenByRecipient": [
+  "Seen by recipient"
+ ],
+ "VoiceOver.Chat.SeenByRecipients": [
+  "Seen by recipients"
+ ],
+ "VoiceOver.Chat.Selected": [
+  "Selected"
+ ],
+ "VoiceOver.Chat.SendAs": [
+  "Send As"
+ ],
+ "VoiceOver.Chat.Sending": [
+  "Sending"
+ ],
+ "VoiceOver.Chat.Size": [
+  "Size: %@"
+ ],
+ "VoiceOver.Chat.StakeAmounts": [
+  "Stake Amounts"
+ ],
+ "VoiceOver.Chat.Sticker": [
+  "Sticker"
+ ],
+ "VoiceOver.Chat.StickerFrom": [
+  "Sticker, from: %@"
+ ],
+ "VoiceOver.Chat.Stop": [
+  "Stop"
+ ],
+ "VoiceOver.Chat.SwitchTopicsView": [
+  "Switch Topics View"
+ ],
+ "VoiceOver.Chat.Title": [
+  "Title: %@"
+ ],
+ "VoiceOver.Chat.Transcription.Hide": [
+  "Hide Transcription"
+ ],
+ "VoiceOver.Chat.Transcription.Transcribe": [
+  "Transcribe"
+ ],
+ "VoiceOver.Chat.Transcription.TranscribePremium": [
+  "Transcribe, Telegram Premium"
+ ],
+ "VoiceOver.Chat.Unknown": [
+  "Unknown"
+ ],
+ "VoiceOver.Chat.UnreadMessages": [
+  "%d unread message",
+  "%d unread messages"
+ ],
+ "VoiceOver.Chat.Video": [
+  "Video"
+ ],
+ "VoiceOver.Chat.VideoFrom": [
+  "Video, from: %@"
+ ],
+ "VoiceOver.Chat.VideoMessage": [
+  "Video message"
+ ],
+ "VoiceOver.Chat.VideoMessageFrom": [
+  "Video message, from: %@"
+ ],
+ "VoiceOver.Chat.VoiceMessage": [
+  "Voice message"
+ ],
+ "VoiceOver.Chat.VoiceMessageFrom": [
+  "Voice message, from: %@"
+ ],
+ "VoiceOver.Chat.WebWidget": [
+  "Interactive Widget"
+ ],
+ "VoiceOver.Chat.YourAnimatedSticker": [
+  "Your animated sticker"
+ ],
+ "VoiceOver.Chat.YourAnonymousPoll": [
+  "Your anonymous poll"
+ ],
+ "VoiceOver.Chat.YourContact": [
+  "Your shared contact"
+ ],
+ "VoiceOver.Chat.YourFile": [
+  "Your file"
+ ],
+ "VoiceOver.Chat.YourMessage": [
+  "Your message"
+ ],
+ "VoiceOver.Chat.YourMusic": [
+  "Your music message"
+ ],
+ "VoiceOver.Chat.YourPhoto": [
+  "Your photo"
+ ],
+ "VoiceOver.Chat.YourPoll": [
+  "Your poll"
+ ],
+ "VoiceOver.Chat.YourSticker": [
+  "Your sticker"
+ ],
+ "VoiceOver.Chat.YourVideo": [
+  "Your video"
+ ],
+ "VoiceOver.Chat.YourVideoMessage": [
+  "Your video message"
+ ],
+ "VoiceOver.Chat.YourVoiceMessage": [
+  "Your voice message"
+ ],
+ "VoiceOver.ChatList.ArchiveOptions": [
+  "Archive Options"
+ ],
+ "VoiceOver.ChatList.CommunityOptions": [
+  "Community Options"
+ ],
+ "VoiceOver.ChatList.Message": [
+  "Message"
+ ],
+ "VoiceOver.ChatList.MessageEmpty": [
+  "Empty"
+ ],
+ "VoiceOver.ChatList.MessageFrom": [
+  "From: %@"
+ ],
+ "VoiceOver.ChatList.MessageRead": [
+  "Read"
+ ],
+ "VoiceOver.ChatList.OpenCommunity": [
+  "Open Community"
+ ],
+ "VoiceOver.ChatList.OutgoingMessage": [
+  "Outgoing Message"
+ ],
+ "VoiceOver.ChatList.SavedMessagesOptions": [
+  "Saved Messages Options"
+ ],
+ "VoiceOver.Color.And": [
+  "%1$@ and %2$@"
+ ],
+ "VoiceOver.Color.Black": [
+  "Black"
+ ],
+ "VoiceOver.Color.Blue": [
+  "Blue"
+ ],
+ "VoiceOver.Color.Cyan": [
+  "Cyan"
+ ],
+ "VoiceOver.Color.Gray": [
+  "Gray"
+ ],
+ "VoiceOver.Color.Green": [
+  "Green"
+ ],
+ "VoiceOver.Color.Orange": [
+  "Orange"
+ ],
+ "VoiceOver.Color.Pink": [
+  "Pink"
+ ],
+ "VoiceOver.Color.Red": [
+  "Red"
+ ],
+ "VoiceOver.Color.ThreeTone": [
+  "Three-Tone"
+ ],
+ "VoiceOver.Color.TwoTone": [
+  "Two-Tone"
+ ],
+ "VoiceOver.Color.Violet": [
+  "Violet"
+ ],
+ "VoiceOver.Color.White": [
+  "White"
+ ],
+ "VoiceOver.Color.Yellow": [
+  "Yellow"
+ ],
+ "VoiceOver.Common.Accept": [
+  "Accept"
+ ],
+ "VoiceOver.Common.Add": [
+  "Add"
+ ],
+ "VoiceOver.Common.Admins": [
+  "Admins"
+ ],
+ "VoiceOver.Common.Amount": [
+  "Amount"
+ ],
+ "VoiceOver.Common.Apply": [
+  "Apply"
+ ],
+ "VoiceOver.Common.Archive": [
+  "Archive"
+ ],
+ "VoiceOver.Common.AspectRatio": [
+  "Aspect Ratio"
+ ],
+ "VoiceOver.Common.Back": [
+  "Back"
+ ],
+ "VoiceOver.Common.BackTo": [
+  "Back to %1$@"
+ ],
+ "VoiceOver.Common.BotMenu": [
+  "Bot Menu"
+ ],
+ "VoiceOver.Common.Calendar": [
+  "Calendar"
+ ],
+ "VoiceOver.Common.Call": [
+  "Call"
+ ],
+ "VoiceOver.Common.Camera": [
+  "Camera"
+ ],
+ "VoiceOver.Common.Cancel": [
+  "Cancel"
+ ],
+ "VoiceOver.Common.CancelDownload": [
+  "Cancel Download"
+ ],
+ "VoiceOver.Common.Checked": [
+  "Checked"
+ ],
+ "VoiceOver.Common.ChooseIcon": [
+  "Choose Icon"
+ ],
+ "VoiceOver.Common.Clear": [
+  "Clear"
+ ],
+ "VoiceOver.Common.Close": [
+  "Close"
+ ],
+ "VoiceOver.Common.Collapse": [
+  "Collapse"
+ ],
+ "VoiceOver.Common.Color": [
+  "Color"
+ ],
+ "VoiceOver.Common.Contact": [
+  "Contact"
+ ],
+ "VoiceOver.Common.Copy": [
+  "Copy"
+ ],
+ "VoiceOver.Common.Crop": [
+  "Crop"
+ ],
+ "VoiceOver.Common.Currency": [
+  "Currency"
+ ],
+ "VoiceOver.Common.CustomColor": [
+  "Custom Color"
+ ],
+ "VoiceOver.Common.Date": [
+  "Date"
+ ],
+ "VoiceOver.Common.Decline": [
+  "Decline"
+ ],
+ "VoiceOver.Common.Delete": [
+  "Delete"
+ ],
+ "VoiceOver.Common.DigitOf": [
+  "Digit %1$d of %2$d"
+ ],
+ "VoiceOver.Common.Done": [
+  "Done"
+ ],
+ "VoiceOver.Common.Down": [
+  "Down"
+ ],
+ "VoiceOver.Common.Download": [
+  "Download"
+ ],
+ "VoiceOver.Common.Draw": [
+  "Draw"
+ ],
+ "VoiceOver.Common.Edit": [
+  "Edit"
+ ],
+ "VoiceOver.Common.Emoji": [
+  "Emoji"
+ ],
+ "VoiceOver.Common.EmojiStatus": [
+  "Emoji Status"
+ ],
+ "VoiceOver.Common.EndCall": [
+  "End Call"
+ ],
+ "VoiceOver.Common.ExitFullscreen": [
+  "Exit Fullscreen"
+ ],
+ "VoiceOver.Common.Expand": [
+  "Expand"
+ ],
+ "VoiceOver.Common.Fake": [
+  "Fake"
+ ],
+ "VoiceOver.Common.File": [
+  "File"
+ ],
+ "VoiceOver.Common.Filter": [
+  "Filter"
+ ],
+ "VoiceOver.Common.Flip": [
+  "Flip"
+ ],
+ "VoiceOver.Common.FontSize": [
+  "Font Size"
+ ],
+ "VoiceOver.Common.Forward": [
+  "Forward"
+ ],
+ "VoiceOver.Common.Fullscreen": [
+  "Fullscreen"
+ ],
+ "VoiceOver.Common.GIFs": [
+  "GIFs"
+ ],
+ "VoiceOver.Common.Gift": [
+  "Gift"
+ ],
+ "VoiceOver.Common.Help": [
+  "Help"
+ ],
+ "VoiceOver.Common.Hide": [
+  "Hide"
+ ],
+ "VoiceOver.Common.Hours": [
+  "Hours"
+ ],
+ "VoiceOver.Common.Info": [
+  "Info"
+ ],
+ "VoiceOver.Common.Invite": [
+  "Invite"
+ ],
+ "VoiceOver.Common.ItemOf": [
+  "%1$d of %2$d"
+ ],
+ "VoiceOver.Common.Leave": [
+  "Leave"
+ ],
+ "VoiceOver.Common.Left": [
+  "Left"
+ ],
+ "VoiceOver.Common.Like": [
+  "Like"
+ ],
+ "VoiceOver.Common.Link": [
+  "Link"
+ ],
+ "VoiceOver.Common.Live": [
+  "Live"
+ ],
+ "VoiceOver.Common.Loading": [
+  "Loading"
+ ],
+ "VoiceOver.Common.Location": [
+  "Location"
+ ],
+ "VoiceOver.Common.Lock": [
+  "Lock"
+ ],
+ "VoiceOver.Common.Locked": [
+  "Locked"
+ ],
+ "VoiceOver.Common.Maximize": [
+  "Maximize"
+ ],
+ "VoiceOver.Common.Members": [
+  "Members"
+ ],
+ "VoiceOver.Common.Mentions": [
+  "Mentions"
+ ],
+ "VoiceOver.Common.Menu": [
+  "Menu"
+ ],
+ "VoiceOver.Common.Microphone": [
+  "Microphone"
+ ],
+ "VoiceOver.Common.Minimize": [
+  "Minimize"
+ ],
+ "VoiceOver.Common.Minutes": [
+  "Minutes"
+ ],
+ "VoiceOver.Common.More": [
+  "More"
+ ],
+ "VoiceOver.Common.MoveDown": [
+  "Move Down"
+ ],
+ "VoiceOver.Common.MoveEarlier": [
+  "Move Earlier"
+ ],
+ "VoiceOver.Common.MoveLater": [
+  "Move Later"
+ ],
+ "VoiceOver.Common.MoveUp": [
+  "Move Up"
+ ],
+ "VoiceOver.Common.Music": [
+  "Music"
+ ],
+ "VoiceOver.Common.Mute": [
+  "Mute"
+ ],
+ "VoiceOver.Common.Muted": [
+  "Muted"
+ ],
+ "VoiceOver.Common.NewGroup": [
+  "New Group"
+ ],
+ "VoiceOver.Common.NewMessage": [
+  "New Message"
+ ],
+ "VoiceOver.Common.Next": [
+  "Next"
+ ],
+ "VoiceOver.Common.NoiseSuppression": [
+  "Noise Suppression"
+ ],
+ "VoiceOver.Common.NotSelected": [
+  "Not Selected"
+ ],
+ "VoiceOver.Common.Notifications": [
+  "Notifications"
+ ],
+ "VoiceOver.Common.Off": [
+  "Off"
+ ],
+ "VoiceOver.Common.On": [
+  "On"
+ ],
+ "VoiceOver.Common.Online": [
+  "Online"
+ ],
+ "VoiceOver.Common.Open": [
+  "Open"
+ ],
+ "VoiceOver.Common.OpenInSafari": [
+  "Open in Safari"
+ ],
+ "VoiceOver.Common.Options": [
+  "Options"
+ ],
+ "VoiceOver.Common.PageOf": [
+  "Page %1$d of %2$d"
+ ],
+ "VoiceOver.Common.Pause": [
+  "Pause"
+ ],
+ "VoiceOver.Common.Photo": [
+  "Photo"
+ ],
+ "VoiceOver.Common.PhotoOf": [
+  "Photo of %@"
+ ],
+ "VoiceOver.Common.PictureInPicture": [
+  "Picture-in-Picture"
+ ],
+ "VoiceOver.Common.Pin": [
+  "Pin"
+ ],
+ "VoiceOver.Common.Pinned": [
+  "Pinned"
+ ],
+ "VoiceOver.Common.Play": [
+  "Play"
+ ],
+ "VoiceOver.Common.PlaybackOrder": [
+  "Playback Order"
+ ],
+ "VoiceOver.Common.PlaybackPosition": [
+  "Playback Position"
+ ],
+ "VoiceOver.Common.PlaybackSpeed": [
+  "Playback Speed"
+ ],
+ "VoiceOver.Common.Playlist": [
+  "Playlist"
+ ],
+ "VoiceOver.Common.Poll": [
+  "Poll"
+ ],
+ "VoiceOver.Common.Premium": [
+  "Premium"
+ ],
+ "VoiceOver.Common.PremiumUser": [
+  "Premium User"
+ ],
+ "VoiceOver.Common.Previous": [
+  "Previous"
+ ],
+ "VoiceOver.Common.ProfilePhoto": [
+  "Profile Photo"
+ ],
+ "VoiceOver.Common.QRCode": [
+  "QR Code"
+ ],
+ "VoiceOver.Common.RaiseHand": [
+  "Raise Hand"
+ ],
+ "VoiceOver.Common.Reactions": [
+  "Reactions"
+ ],
+ "VoiceOver.Common.Recording": [
+  "Recording"
+ ],
+ "VoiceOver.Common.Redo": [
+  "Redo"
+ ],
+ "VoiceOver.Common.Refresh": [
+  "Refresh"
+ ],
+ "VoiceOver.Common.Remove": [
+  "Remove"
+ ],
+ "VoiceOver.Common.Reorder": [
+  "Reorder"
+ ],
+ "VoiceOver.Common.RepeatAll": [
+  "All"
+ ],
+ "VoiceOver.Common.RepeatOne": [
+  "One"
+ ],
+ "VoiceOver.Common.Report": [
+  "Report"
+ ],
+ "VoiceOver.Common.Repost": [
+  "Repost"
+ ],
+ "VoiceOver.Common.Reset": [
+  "Reset"
+ ],
+ "VoiceOver.Common.Resize": [
+  "Resize"
+ ],
+ "VoiceOver.Common.Retry": [
+  "Retry"
+ ],
+ "VoiceOver.Common.Reversed": [
+  "Reversed"
+ ],
+ "VoiceOver.Common.Right": [
+  "Right"
+ ],
+ "VoiceOver.Common.Rotate": [
+  "Rotate"
+ ],
+ "VoiceOver.Common.Save": [
+  "Save"
+ ],
+ "VoiceOver.Common.Scam": [
+  "Scam"
+ ],
+ "VoiceOver.Common.Schedule": [
+  "Schedule"
+ ],
+ "VoiceOver.Common.ScrollDown": [
+  "Scroll Down"
+ ],
+ "VoiceOver.Common.ScrollToBottom": [
+  "Scroll to Bottom"
+ ],
+ "VoiceOver.Common.ScrollUp": [
+  "Scroll Up"
+ ],
+ "VoiceOver.Common.Search": [
+  "Search"
+ ],
+ "VoiceOver.Common.Seconds": [
+  "Seconds"
+ ],
+ "VoiceOver.Common.Select": [
+  "Select"
+ ],
+ "VoiceOver.Common.Selected": [
+  "Selected"
+ ],
+ "VoiceOver.Common.SetPrice": [
+  "Set Price"
+ ],
+ "VoiceOver.Common.Settings": [
+  "Settings"
+ ],
+ "VoiceOver.Common.Share": [
+  "Share"
+ ],
+ "VoiceOver.Common.ShareScreen": [
+  "Share Screen"
+ ],
+ "VoiceOver.Common.Show": [
+  "Show"
+ ],
+ "VoiceOver.Common.ShowTips": [
+  "Show Tips"
+ ],
+ "VoiceOver.Common.Shuffle": [
+  "Shuffle"
+ ],
+ "VoiceOver.Common.SkinTone": [
+  "Skin Tone"
+ ],
+ "VoiceOver.Common.Sort": [
+  "Sort"
+ ],
+ "VoiceOver.Common.Speaker": [
+  "Speaker"
+ ],
+ "VoiceOver.Common.Stars": [
+  "Stars"
+ ],
+ "VoiceOver.Common.Sticker": [
+  "Sticker"
+ ],
+ "VoiceOver.Common.Stories": [
+  "Stories"
+ ],
+ "VoiceOver.Common.Story": [
+  "Story"
+ ],
+ "VoiceOver.Common.Tabs": [
+  "Tabs"
+ ],
+ "VoiceOver.Common.TagInfo": [
+  "Tag Info"
+ ],
+ "VoiceOver.Common.Text": [
+  "Text"
+ ],
+ "VoiceOver.Common.Theme": [
+  "Theme"
+ ],
+ "VoiceOver.Common.Time": [
+  "Time"
+ ],
+ "VoiceOver.Common.Toggle": [
+  "Toggle"
+ ],
+ "VoiceOver.Common.TonAmount": [
+  "TON Amount"
+ ],
+ "VoiceOver.Common.Translate": [
+  "Translate"
+ ],
+ "VoiceOver.Common.Typing": [
+  "Typing"
+ ],
+ "VoiceOver.Common.Unchecked": [
+  "Unchecked"
+ ],
+ "VoiceOver.Common.Undo": [
+  "Undo"
+ ],
+ "VoiceOver.Common.Unlock": [
+  "Unlock"
+ ],
+ "VoiceOver.Common.Unmute": [
+  "Unmute"
+ ],
+ "VoiceOver.Common.Unpin": [
+  "Unpin"
+ ],
+ "VoiceOver.Common.Unread": [
+  "Unread"
+ ],
+ "VoiceOver.Common.UnreadReactions": [
+  "Unread Reactions"
+ ],
+ "VoiceOver.Common.Up": [
+  "Up"
+ ],
+ "VoiceOver.Common.Verified": [
+  "Verified"
+ ],
+ "VoiceOver.Common.Video": [
+  "Video"
+ ],
+ "VoiceOver.Common.VideoCall": [
+  "Video Call"
+ ],
+ "VoiceOver.Common.VoiceMessage": [
+  "Voice Message"
+ ],
+ "VoiceOver.Common.Volume": [
+  "Volume"
+ ],
+ "VoiceOver.Common.Wallpaper": [
+  "Wallpaper"
+ ],
+ "VoiceOver.Common.Zoom": [
+  "Zoom"
+ ],
+ "VoiceOver.Common.ZoomIn": [
+  "Zoom In"
+ ],
+ "VoiceOver.Common.ZoomOut": [
+  "Zoom Out"
+ ],
+ "VoiceOver.Contacts.AddContact": [
+  "Add Contact"
+ ],
+ "VoiceOver.DiscardPreparedContent": [
+  "Discard"
+ ],
+ "VoiceOver.DismissContextMenu": [
+  "Dismiss Context Menu"
+ ],
+ "VoiceOver.Editing.ClearText": [
+  "Clear text"
+ ],
+ "VoiceOver.Entertainment.Tabs": [
+  "Emoji and Stickers"
+ ],
+ "VoiceOver.Forum.Sidebar": [
+  "Sidebar"
+ ],
+ "VoiceOver.Gallery.Delete": [
+  "Delete"
+ ],
+ "VoiceOver.Gallery.Edit": [
+  "Edit"
+ ],
+ "VoiceOver.Gallery.Fullscreen": [
+  "Fullscreen"
+ ],
+ "VoiceOver.Gallery.PictureInPicture": [
+  "Picture-in-Picture"
+ ],
+ "VoiceOver.Gallery.Share": [
+  "Share"
+ ],
+ "VoiceOver.Gallery.Stickers": [
+  "Stickers"
+ ],
+ "VoiceOver.Gallery.Title": [
+  "Media Viewer"
+ ],
+ "VoiceOver.Gift.PriceFrom": [
+  "from %1$@"
+ ],
+ "VoiceOver.GiftPremium": [
+  "Gift Telegram Premium"
+ ],
+ "VoiceOver.ImageEditor.Arrow": [
+  "Arrow"
+ ],
+ "VoiceOver.ImageEditor.ArrowType": [
+  "Arrow Type"
+ ],
+ "VoiceOver.ImageEditor.Blur": [
+  "Blur"
+ ],
+ "VoiceOver.ImageEditor.BrushSize": [
+  "Brush Size"
+ ],
+ "VoiceOver.ImageEditor.Eraser": [
+  "Eraser"
+ ],
+ "VoiceOver.ImageEditor.Eyedropper": [
+  "Eyedropper"
+ ],
+ "VoiceOver.ImageEditor.Filled": [
+  "Filled"
+ ],
+ "VoiceOver.ImageEditor.HexColor": [
+  "Hex Color"
+ ],
+ "VoiceOver.ImageEditor.Hue": [
+  "Hue"
+ ],
+ "VoiceOver.ImageEditor.Marker": [
+  "Marker"
+ ],
+ "VoiceOver.ImageEditor.Neon": [
+  "Neon"
+ ],
+ "VoiceOver.ImageEditor.Opacity": [
+  "Opacity"
+ ],
+ "VoiceOver.ImageEditor.Outline": [
+  "Outline"
+ ],
+ "VoiceOver.ImageEditor.Pen": [
+  "Pen"
+ ],
+ "VoiceOver.ImageEditor.Shade": [
+  "Shade"
+ ],
+ "VoiceOver.ImageEditor.ShadeOf": [
+  "%1$@, shade %2$d of %3$d"
+ ],
+ "VoiceOver.ImageEditor.TextAlignment": [
+  "Text Alignment"
+ ],
+ "VoiceOver.ImageEditor.TextStyle": [
+  "Text Style"
+ ],
+ "VoiceOver.InstantPage.DecreaseFontSize": [
+  "Decrease Font Size"
+ ],
+ "VoiceOver.InstantPage.IncreaseFontSize": [
+  "Increase Font Size"
+ ],
+ "VoiceOver.InstantPage.ResetFontSize": [
+  "Reset Font Size"
+ ],
+ "VoiceOver.Location.Map": [
+  "Map"
+ ],
+ "VoiceOver.Login.Password": [
+  "Password"
+ ],
+ "VoiceOver.Login.PhoneCountryCode": [
+  "Phone country code"
+ ],
+ "VoiceOver.Login.PhoneNumber": [
+  "Phone number"
+ ],
+ "VoiceOver.Login.QRCode": [
+  "QR code for login"
+ ],
+ "VoiceOver.Media.Forward15": [
+  "Forward 15 Seconds"
+ ],
+ "VoiceOver.Media.PlaybackPause": [
+  "Pause"
+ ],
+ "VoiceOver.Media.PlaybackPlay": [
+  "Play"
+ ],
+ "VoiceOver.Media.PlaybackRate": [
+  "Playback rate"
+ ],
+ "VoiceOver.Media.PlaybackRateFast": [
+  "Fast"
+ ],
+ "VoiceOver.Media.PlaybackRateNormal": [
+  "Normal"
+ ],
+ "VoiceOver.Media.PlaybackStop": [
+  "Stop playback"
+ ],
+ "VoiceOver.Media.Rewind15": [
+  "Rewind 15 Seconds"
+ ],
+ "VoiceOver.Media.TrimmedRange": [
+  "Trimmed Range"
+ ],
+ "VoiceOver.Message.BoostCount": [
+  "Boosted %1$d time",
+  "Boosted %1$d times"
+ ],
+ "VoiceOver.MessageContextDelete": [
+  "Delete"
+ ],
+ "VoiceOver.MessageContextForward": [
+  "Forward"
+ ],
+ "VoiceOver.MessageContextOpenMessageMenu": [
+  "Open message menu"
+ ],
+ "VoiceOver.MessageContextReply": [
+  "Reply"
+ ],
+ "VoiceOver.MessageContextReport": [
+  "Report"
+ ],
+ "VoiceOver.MessageContextSend": [
+  "Send"
+ ],
+ "VoiceOver.MessageContextShare": [
+  "Share"
+ ],
+ "VoiceOver.MessageSelectionButtonTag": [
+  "Tag"
+ ],
+ "VoiceOver.Navigation.Compose": [
+  "Compose"
+ ],
+ "VoiceOver.Navigation.ProxySettings": [
+  "Proxy settings"
+ ],
+ "VoiceOver.Navigation.Search": [
+  "Search"
+ ],
+ "VoiceOver.News.Feeds": [
+  "Feeds"
+ ],
+ "VoiceOver.Permissions.BoostsRequired": [
+  "Boosts Required"
+ ],
+ "VoiceOver.Recording.StopAndPreview": [
+  "Stop and preview"
+ ],
+ "VoiceOver.RichEditor.AICompose": [
+  "AI Compose"
+ ],
+ "VoiceOver.RichEditor.ButtonPreview": [
+  "Button Preview"
+ ],
+ "VoiceOver.RichEditor.FormulaResult": [
+  "Formula Result"
+ ],
+ "VoiceOver.RichEditor.List": [
+  "List"
+ ],
+ "VoiceOver.ScheduledMessages": [
+  "Scheduled Messages"
+ ],
+ "VoiceOver.ScrollStatus": [
+  "Row %1$@ of %2$@"
+ ],
+ "VoiceOver.Search.Clear": [
+  "Clear"
+ ],
+ "VoiceOver.Search.Filters": [
+  "Search Filters"
+ ],
+ "VoiceOver.Segment.ApplyColorTo": [
+  "Apply Color To"
+ ],
+ "VoiceOver.Segment.AvatarOptions": [
+  "Avatar Options"
+ ],
+ "VoiceOver.Segment.RecoveryPhraseLength": [
+  "Recovery Phrase Length"
+ ],
+ "VoiceOver.SelectPeers.Counter": [
+  "%1$@, %2$@ of %3$@ selected"
+ ],
+ "VoiceOver.SelfDestructTimerOff": [
+  "Self-destruct Timer Off"
+ ],
+ "VoiceOver.SelfDestructTimerOn": [
+  "Self-destruct Timer: %@"
+ ],
+ "VoiceOver.ShortPeer.TagAction": [
+  "Tag: %1$@"
+ ],
+ "VoiceOver.SilentPostOff": [
+  "Silent Broadcast Off"
+ ],
+ "VoiceOver.SilentPostOn": [
+  "Silent Broadcast On"
+ ],
+ "VoiceOver.Stats.Sections": [
+  "Statistics Sections"
+ ],
+ "VoiceOver.Stickers": [
+  "Stickers"
+ ],
+ "VoiceOver.StorageUsage.ChatsAndMedia": [
+  "Chats and Media"
+ ],
+ "VoiceOver.SuggestPost": [
+  "Suggest Post"
+ ],
+ "VoiceOver.Wallet.Details": [
+  "Details"
+ ],
+ "VoiceOver.Wallet.Sections": [
+  "Wallet Sections"
+ ],
+ "VoiceOver.Wallet.Word": [
+  "Word %d"
+ ],
+ "VoiceOver.Wallpaper.Gradient": [
+  "Gradient"
+ ],
+ "VoiceOver.Wallpaper.HexColor": [
+  "Hex Color"
+ ],
+ "VoiceOver.Wallpaper.Item": [
+  "Wallpaper %1$d, %2$@"
+ ],
+ "VoiceOver.Wallpaper.Pattern": [
+  "Pattern"
+ ],
+ "VoiceOver.Wallpaper.PatternItem": [
+  "Pattern %1$d"
+ ],
+ "VoiceOver.Wallpaper.Photo": [
+  "Photo"
+ ],
  "VoiecChat.ReduceMotion.Desc": [
   "You can reduce motion for better performance."
  ],
@@ -13047,6 +15394,33 @@
  "Wallet.CardView.GramsUnit": [
   " Grams"
  ],
+ "Wallet.Collectables.AddToCard": [
+  "Add to Card"
+ ],
+ "Wallet.Collectables.ApplyColor": [
+  "Apply Color"
+ ],
+ "Wallet.Collectables.RemoveColor": [
+  "Remove Color"
+ ],
+ "Wallet.Collectables.RemoveFromCard": [
+  "Remove from Card"
+ ],
+ "Wallet.Collectible.AlsoShowInMyGifts": [
+  "also show in my gifts"
+ ],
+ "Wallet.Collectible.Header.AddToCard": [
+  "add to card"
+ ],
+ "Wallet.Collectible.Header.ApplyColor": [
+  "apply color"
+ ],
+ "Wallet.Collectible.Header.RemoveColor": [
+  "remove color"
+ ],
+ "Wallet.Collectible.Header.RemoveFromCard": [
+  "remove from card"
+ ],
  "Wallet.CollectibleDetailsController.ActionSell": [
   "sell"
  ],
@@ -13074,6 +15448,9 @@
  "Wallet.CollectibleDetailsController.Collection": [
   "Collection"
  ],
+ "Wallet.CollectibleDetailsController.ContextSell": [
+  "Sell"
+ ],
  "Wallet.CollectibleDetailsController.Model": [
   "Model"
  ],
@@ -13091,6 +15468,9 @@
  ],
  "Wallet.CollectibleDetailsController.PreviousCollectible": [
   "Previous Collectible"
+ ],
+ "Wallet.CollectibleDetailsController.ReplayGiftAnimation": [
+  "Replay Gift Animation"
  ],
  "Wallet.CollectibleDetailsController.StillSyncing": [
   "The wallet is still syncing. Please try again in a moment."
@@ -13290,6 +15670,9 @@
  "Wallet.Controller.RequestFailed": [
   "Unable to complete this request. Please try again."
  ],
+ "Wallet.Controller.SaveCardFailed": [
+  "Couldn’t Save Card"
+ ],
  "Wallet.Controller.SecretPhraseRequired": [
   "Secret Phrase Required"
  ],
@@ -13313,6 +15696,21 @@
  ],
  "Wallet.Controller.SmallTransactionsHidden": [
   "Transactions under %1$@ are hidden."
+ ],
+ "Wallet.Controller.StickerBackgroundNotAllowedError": [
+  "This gift can’t be set as your card’s background."
+ ],
+ "Wallet.Controller.StickerGridFooter": [
+  "Hold a gift to peel it off and stick it on your card. Hold a sticker on the card to peel it again; use trackpad rotate and pinch gestures to turn and resize it."
+ ],
+ "Wallet.Controller.StickerInvalidError": [
+  "One of these stickers can’t be used on the card. Only gifts owned by this wallet are supported."
+ ],
+ "Wallet.Controller.StickerProfileError": [
+  "A gift displayed on your profile can’t also be a card sticker. Hide it from your profile first."
+ ],
+ "Wallet.Controller.StickerSaveErrorTitle": [
+  "Couldn’t Save Card"
  ],
  "Wallet.Controller.StillSyncing": [
   "The wallet is still syncing. Please try again in a moment."
@@ -13627,6 +16025,15 @@
  "Wallet.LogoutWarning.BackupsWillBeDeleted": [
   "This will cancel all your Secret Chats and **delete wallet backups holding %1$@**. You will lose access to these funds if you haven't saved their Secret Phrases.You can use Telegram on all your devices at once and use several accounts in the same app."
  ],
+ "Wallet.PeerBalanceController.HowDoesItWork": [
+  "How does it work?"
+ ],
+ "Wallet.PeerBalanceController.PeerBalanceNotice": [
+  "%1$@ owns %2$@ on the TON blockchain."
+ ],
+ "Wallet.PeerBalanceController.PublicBalanceNotice": [
+  "Your balance is public due to blockchain transparency."
+ ],
  "Wallet.ReceiveController.AddressCopied": [
   "✓ Address copied"
  ],
@@ -13639,6 +16046,12 @@
  "Wallet.ReceiveController.CopyAddress": [
   "Copy my address"
  ],
+ "Wallet.ReceiveController.CopyPeerAddress": [
+  "Copy Address"
+ ],
+ "Wallet.ReceiveController.PeerCaption": [
+  "Send GRAM to this addressor scan this QR code."
+ ],
  "Wallet.ReceiveController.PurchaseFailedInfo": [
   "The purchase couldn’t be started. Please try again."
  ],
@@ -13650,6 +16063,9 @@
  ],
  "Wallet.ReceiveController.PurchaseUnavailableTitle": [
   "Purchase Unavailable"
+ ],
+ "Wallet.ReceiveController.ShowPeerQr": [
+  "Show QR"
  ],
  "Wallet.ReceiveController.ShowQr": [
   "Show my QR"
@@ -13749,6 +16165,9 @@
  ],
  "Wallet.SendController.DepositFundsLink": [
   "Deposit funds ›"
+ ],
+ "Wallet.SendController.DiscardTransfer": [
+  "Discard this transfer?"
  ],
  "Wallet.SendController.EditComment": [
   "Edit Comment"
@@ -13990,8 +16409,26 @@
  "Wallet.SettingsController.WalletImportedInfo": [
   "Your wallet was restored from your secret phrase."
  ],
+ "Wallet.Sticker.ColorRestricted": [
+  "Only %@ can be used to change the color of your card."
+ ],
+ "Wallet.Sticker.ColorRestrictedCollection": [
+  "%@s"
+ ],
+ "Wallet.StickerTutorial.Card": [
+  "Drag this collectible here."
+ ],
+ "Wallet.StickerTutorial.Done": [
+  "You can add multiple collectibles."
+ ],
+ "Wallet.StickerTutorial.Tile": [
+  "Drag this collectible onto your card to decorate it."
+ ],
  "Wallet.TonConnect.Retry": [
   "Retry"
+ ],
+ "Wallet.TonConnect.SecretPhraseRequiredInfo": [
+  "Enter your secret phrase to restore access to this wallet and connect the app."
  ],
  "Wallet.TonConnectSigningRowItem.BinaryTitle": [
   "Binary content"
@@ -14183,6 +16620,12 @@
  "Wallet.TransactionRowItem.KeyUpdate": [
   "Key Update"
  ],
+ "Wallet.TransactionRowItem.MovedFromProfile": [
+  "moved from profile"
+ ],
+ "Wallet.TransactionRowItem.MovedToProfile": [
+  "moved to profile"
+ ],
  "Wallet.TransactionRowItem.OutgoingCollectible": [
   "Outgoing collectible"
  ],
@@ -14194,6 +16637,9 @@
  ],
  "Wallet.TransactionRowItem.Sending": [
   "Sending"
+ ],
+ "Wallet.TransactionRowItem.Telegram": [
+  "Telegram"
  ],
  "Wallet.TransactionRowItem.TelegramUser": [
   "Telegram User"
