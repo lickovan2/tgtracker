@@ -6750,6 +6750,7 @@ Wibe Big
 Wibe Big 3
 Wibe Small
 Widget heights cleared
+Widgets are disabled by the app config
 Window callback may not be null
 Window feature must be requested before adding content
 World Music

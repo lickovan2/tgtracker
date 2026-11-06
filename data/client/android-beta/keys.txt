@@ -3248,6 +3248,7 @@ widget_heights
 widget_id
 widget_link
 widget_state
+widgets_disabled
 wifi_p2p_state
 window_flags
 winners_are_visible
