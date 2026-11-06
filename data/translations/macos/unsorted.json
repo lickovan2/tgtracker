@@ -6477,10 +6477,10 @@
   "Delete Gift"
  ],
  "Gift.Displayed.NewText": [
-  "The gift is now shown on your Page."
+  "The gift is now shown on your profile."
  ],
  "Gift.Hidden.NewText": [
-  "The gift is removed from your Page."
+  "Gift was removed from your profile."
  ],
  "Gift.Marketplace.Attr.Backdrop": [
   "%d Backdrop",
