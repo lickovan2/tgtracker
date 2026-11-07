@@ -48,6 +48,9 @@
  "AccDescr.DeleteLastCharacter": [
   "Delete last character"
  ],
+ "AccDescr.DownloadDocument": [
+  "Download file %s"
+ ],
  "AccDescr.EditAvatar": [
   "Edit avatar"
  ],
@@ -144,6 +147,9 @@
  "AccDescr.WithMemberTag": [
   "with member tag: %1$s"
  ],
+ "AccDescr.Zoom": [
+  "Zoom"
+ ],
  "AccDescrChannel": [
   "Channel"
  ],
@@ -164,6 +170,12 @@
  ],
  "AccDescrIVTable": [
   "Table"
+ ],
+ "AccDescrRateTranscriptionDown": [
+  "Rate down"
+ ],
+ "AccDescrRateTranscriptionUp": [
+  "Rate up"
  ],
  "AccDescrTopic": [
   "Topic"
@@ -355,6 +367,9 @@
  "AdHidden": [
   "You will no longer see ads from Telegram."
  ],
+ "AddAdminErrorNotAMember": [
+  "Sorry, you can't add this user as an admin because they are not a member of this group and you are not allowed to add them."
+ ],
  "AddBannedErrorAdmin": [
   "You can't ban this user because they are an admin in this group and you are not allowed to demote them."
  ],
@@ -426,6 +441,9 @@
  ],
  "AddToGroup": [
   "Add to Group"
+ ],
+ "AddUserErrorBlacklisted": [
+  "Sorry, you can't add this user because they are in the Removed Users list and you can't unban them."
  ],
  "AddedToFavorites": [
   "Sticker added to Favorites."
@@ -763,6 +781,9 @@
  "AdminRecentActionMessage.ParticipantJoinedByInvite": [
   "Member joined via invite"
  ],
+ "AdminRecentActionMessage.ParticipantJoinedByPublicRequest": [
+  "Member joined via public request"
+ ],
  "AdminRecentActionMessage.ParticipantJoinedByRequest": [
   "Member joined by request"
  ],
@@ -885,6 +906,9 @@
  ],
  "AdminRecentActions.PreviousMessage": [
   "Previous message"
+ ],
+ "AdminRecentActions.PublicJoinRequest": [
+  "Public join request"
  ],
  "AdminRecentActions.SlowModeDuration": [
   "Slow mode duration"
@@ -1069,6 +1093,63 @@
  ],
  "AgeVerification.Title": [
   "Age Verification"
+ ],
+ "AiEditor.AlwaysUse": [
+  "Always use in this chat"
+ ],
+ "AiEditor.AlwaysUse.Footer": [
+  "Every message you send in this chat will be rewritten with these settings."
+ ],
+ "AiEditor.AlwaysUse.Summary": [
+  "→ %s"
+ ],
+ "AiEditor.AlwaysUse.Summary.Fix": [
+  "Fix grammar"
+ ],
+ "AiEditor.AlwaysUse.Summary.Prompt": [
+  "«%s»"
+ ],
+ "AiEditor.AlwaysUse.Summary.WithEmoji": [
+  "%s + emoji"
+ ],
+ "AiEditor.ApplyOnSend.Error": [
+  "The AI editor couldn't rewrite the message, so it wasn't sent. [Send as Written]()"
+ ],
+ "AiEditor.ApplyOnSend.Label.Fix": [
+  "Spelling fix"
+ ],
+ "AiEditor.ApplyOnSend.Label.Prompt": [
+  "Custom prompt"
+ ],
+ "AiEditor.ApplyOnSend.Label.Style": [
+  "%s style"
+ ],
+ "AiEditor.ApplyOnSend.Label.Translate": [
+  "Translation to %s"
+ ],
+ "AiEditor.ApplyOnSend.Label.WithEmoji": [
+  "%s with emoji"
+ ],
+ "AiEditor.ApplyOnSend.PremiumFlood": [
+  "You have hit the AI editor's limit for now, so the message wasn't sent. [Send as Written]() or get [Telegram Premium]() to raise the limit."
+ ],
+ "AiEditor.ApplyOnSend.Removed": [
+  "Messages in this chat will be sent as written."
+ ],
+ "AiEditor.ApplyOnSend.SendAsIs": [
+  "Send as Written"
+ ],
+ "AiEditor.ApplyOnSend.SendLabel": [
+  "%1$s, AI editor: %2$s"
+ ],
+ "AiEditor.ApplyOnSend.Stop": [
+  "Stop Rewriting"
+ ],
+ "AiEditor.ApplyOnSend.StyleMissing": [
+  "%1$s is no longer available, so the message wasn't sent and the style is turned off. [Send as Written]()"
+ ],
+ "AiEditor.ApplyOnSend.TurnOff": [
+  "Turn Off %s"
  ],
  "AiEditor.Chat.ViewStyle": [
   "View Style"
@@ -1268,6 +1349,15 @@
  "Apply": [
   "Apply"
  ],
+ "ApplyWallpaperForMe": [
+  "Apply for Me"
+ ],
+ "ApplyWallpaperForMeAndPeer": [
+  "Apply for Me and %s"
+ ],
+ "ApplyWallpaperForThisChat": [
+  "Apply For This Chat"
+ ],
  "ApproveNewMembers": [
   "Request Admin Approval"
  ],
@@ -1358,6 +1448,18 @@
  "ArchiveSettings.UnmutedChats.Title": [
   "Unmuted Chats"
  ],
+ "ArchivedStickers": [
+  "Archived Stickers"
+ ],
+ "ArchivedStickers.SearchKeywords": [
+  "archive, archived, old stickers, unarchive, restore stickers"
+ ],
+ "ArchivedStickersEmpty": [
+  "No archived stickers"
+ ],
+ "ArchivedStickersInfo": [
+  "You can add up to 200 sticker sets.Unused sets are archived when you add more."
+ ],
  "AreYouSureBlockContact2": [
   "Are you sure you want to block **%1$s**?"
  ],
@@ -1418,17 +1520,35 @@
  "AreYouSureShareMyContactInfoBot": [
   "The bot will know your phone number. This can be useful for integration with other services.⚠️ Warning! Never enter your Telegram login codes in mini apps."
  ],
+ "AreYouSureShareMyContactInfoBotUnblock": [
+  "This will also unblock the bot."
+ ],
  "AreYouSureShareMyContactInfoUser": [
   "Are you sure you want to share your phone number %1$s with **%2$s**?"
  ],
  "AreYouSureWebSessions": [
   "Are you sure you want to disconnect all websites where you logged in with Telegram?"
  ],
+ "AskAQuestion.SearchKeywords": [
+  "help, support, contact, feedback"
+ ],
+ "AskAQuestionInfo": [
+  "Please note that Telegram Support is done by volunteers. We try to respond as quickly as possible, but it may take a while.Please take a look at the [Telegram FAQ](https://telegram.org/faq#general-questions): it has answers to most questions and important tips for [troubleshooting](https://telegram.org/faq#troubleshooting)."
+ ],
+ "AskButton": [
+  "Ask a volunteer"
+ ],
+ "Attach.FileEmpty": [
+  "File: %s is empty and can't be sent."
+ ],
  "AttachGame": [
   "Game"
  ],
  "AttachLocation": [
   "Location"
+ ],
+ "AttachWidget": [
+  "Widget"
  ],
  "AudioAndVideoTranscription.PremiumAlert": [
   "Subscribe to Telegram Premium to unlock video and audio transcription. [Read More]()"
@@ -1580,6 +1700,12 @@
  "AutoNightSystemDefault": [
   "System Default"
  ],
+ "AutodeleteTimerDisabledForChats": [
+  "Self-destruct timer has been disabled in %1$s."
+ ],
+ "AutodeleteTimerEnabledForChats": [
+  "Self-destruct timer for **%1$s** has been enabled in %2$s."
+ ],
  "AutodownloadSizeLimitUpTo": [
   "up to %1$s"
  ],
@@ -1594,6 +1720,15 @@
  ],
  "AwayTo": [
   "%1$s away"
+ ],
+ "BackgroundBlurred": [
+  "Blurred"
+ ],
+ "BackgroundColorSinglePreviewLine3": [
+  "Apply the wallpaper in this chat."
+ ],
+ "BackgroundPreviewLooksGood": [
+  "Looks good."
  ],
  "Bans": [
   "%1$d ban",
@@ -1665,6 +1800,12 @@
  ],
  "BlockUser": [
   "Block user"
+ ],
+ "BlockUser.DeleteAllReplies": [
+  "Delete all replies from %s"
+ ],
+ "BlockUser.DeleteReply": [
+  "Delete this reply"
  ],
  "BlockedUsers.SearchKeywords": [
   "block, blacklist, unblock, ban"
@@ -2264,6 +2405,10 @@
  "BotOpenPageTitle": [
   "Open page"
  ],
+ "BotPreviews.SubtitleCount": [
+  "%d preview",
+  "%d previews"
+ ],
  "BotPrivacyPolicy": [
   "Bot Privacy Policy"
  ],
@@ -2451,6 +2596,72 @@
  ],
  "BusinessHoursTimezone": [
   "Time Zone"
+ ],
+ "BusinessIntroInfo": [
+  "You can customize the message people see before they start a chat with you."
+ ],
+ "BusinessIntroMessageHint": [
+  "Enter Message"
+ ],
+ "BusinessIntroReset": [
+  "Reset to Default"
+ ],
+ "BusinessIntroSticker": [
+  "Choose Sticker"
+ ],
+ "BusinessIntroStickerRandom": [
+  "Random"
+ ],
+ "BusinessIntroTitleHint": [
+  "Enter Title"
+ ],
+ "BusinessIntroUnsavedChanges": [
+  "You have changed your intro message. Apply changes?"
+ ],
+ "BusinessLinkDeleted": [
+  "Chat link deleted."
+ ],
+ "BusinessLinkEditTitle": [
+  "Edit Link"
+ ],
+ "BusinessLinkNewTitle": [
+  "New Link"
+ ],
+ "BusinessLinkSaved": [
+  "Preset message saved."
+ ],
+ "BusinessLinksAdd": [
+  "Create a Link to Chat"
+ ],
+ "BusinessLinksDeleteMessage": [
+  "Are you sure you want to delete this chat link?"
+ ],
+ "BusinessLinksDeleteTitle": [
+  "Delete chat link"
+ ],
+ "BusinessLinksEnter": [
+  "Add Preset Message"
+ ],
+ "BusinessLinksFooterOneLink": [
+  "You can also use a simple link for a chat with you — %s."
+ ],
+ "BusinessLinksFooterTwoLinks": [
+  "You can also use a simple link for a chat with you — %s or %s."
+ ],
+ "BusinessLinksInfo": [
+  "Give your customers short links that start a chat with you — and suggest the first message from them to you."
+ ],
+ "BusinessLinksIntro": [
+  "Add a message that will be entered in the message field for anyone who starts a chat with you using the link:"
+ ],
+ "BusinessLinksNamePlaceholder": [
+  "Link Name"
+ ],
+ "BusinessLinksRenameMessage": [
+  "Add a name for this link that only you will see."
+ ],
+ "BusinessLinksRenameTitle": [
+  "Link Name"
  ],
  "BusinessLocation": [
   "Location"
@@ -2779,6 +2990,9 @@
  "CancelPollConfirm.Title": [
   "Cancel Sending Poll"
  ],
+ "CantAddBotAsAdmin": [
+  "Sorry, bots can only be added to channels as administrators."
+ ],
  "CantBoostChat": [
   "Sorry, you can't boost this group or channel."
  ],
@@ -2805,6 +3019,9 @@
  ],
  "CaptionsLimitTitle": [
   "Captions"
+ ],
+ "CardNumberCopied": [
+  "Card number copied to clipboard"
  ],
  "Channel": [
   "Channel"
@@ -2999,6 +3216,9 @@
  ],
  "ChannelTopicsDiscussionForbidden": [
   "Topics are not yet available in the discussion groups of channels."
+ ],
+ "ChannelUserCantBot": [
+  "Sorry, too many bots in this channel."
  ],
  "ChannelVisibility.Confirm.MakePrivate.Channel": [
   "If you make this channel private, the name @%@ will be removed. Anyone else will be able to take it for their public groups or channels."
@@ -3623,6 +3843,9 @@
  "Chat.Poll.CopyOptionLink": [
   "Copy Option Link"
  ],
+ "Chat.Poll.DeleteOption": [
+  "Delete Option"
+ ],
  "Chat.Poll.EndsIn": [
   "ends in %s"
  ],
@@ -3898,6 +4121,9 @@
  "Chat.Service.PaymentSentRecurringUsedNoTitle": [
   "You have just successfully transferred **%1$@** to **%2$@** via recurrent payments"
  ],
+ "Chat.Service.PeerRequest.Confirm.Add": [
+  "Are you sure you want to send %1$@ to %2$@? This will also add %3$@ to %4$@."
+ ],
  "Chat.Service.PeerRequest.Confirm.Ok": [
   "Send"
  ],
@@ -3975,6 +4201,9 @@
  ],
  "ChatAdmin": [
   "admin"
+ ],
+ "ChatApplyTheme": [
+  "Apply Theme"
  ],
  "ChatAutomation.AccessibleChats": [
   "Chats the bot can access"
@@ -4240,6 +4469,12 @@
  "ChatBackground.SearchKeywords": [
   "wallpaper, background, picture"
  ],
+ "ChatBackgroundHint": [
+  "%s will be able to apply this wallpaper"
+ ],
+ "ChatChangeWallpaper": [
+  "Change Wallpaper"
+ ],
  "ChatEmpty.BusinessIntro.How": [
   "**%@** added the message above for all empty chats. [How?]()"
  ],
@@ -4369,6 +4604,9 @@
  "ChatMigration.To": [
   "Migrated to %s"
  ],
+ "ChatNoTheme": [
+  "No Theme"
+ ],
  "ChatPerFolderLimitSubtitle": [
   "Add up to %d chats into each of your folders"
  ],
@@ -4380,6 +4618,9 @@
  ],
  "ChatService.UserJoinedGroupByRequest": [
   "%@ was accepted to the group"
+ ],
+ "ChatThemeCantVoice": [
+  "Sorry, you can't change the chat theme while you have an unsent voice message."
  ],
  "ChatThemeChangedTo": [
   "%1$s changed the chat theme to %2$s"
@@ -4593,6 +4834,12 @@
  "ClearOtherWebSessionsHelp": [
   "You can log in on websites that support signing in with Telegram."
  ],
+ "ClearRecentReactionsAlertMessage": [
+  "Do you want to clear your recent reaction emoji from suggestions?"
+ ],
+ "ClearRecentReactionsAlertTitle": [
+  "Clear recent emoji"
+ ],
  "ClearRecentSearch": [
   "clear"
  ],
@@ -4601,6 +4848,10 @@
  ],
  "ClearRecentStickersAlertTitle": [
   "Clear recent stickers"
+ ],
+ "Clicks": [
+  "%d click",
+  "%d clicks"
  ],
  "ClientPip.Exit": [
   "Exit Picture-in-Picture"
@@ -5302,6 +5553,9 @@
  "ContactDetails.Url": [
   "URL"
  ],
+ "ContactLinkInvalid": [
+  "This link is invalid or has expired."
+ ],
  "ContactNoteRow": [
   "Notes"
  ],
@@ -5330,6 +5584,9 @@
  ],
  "Conversation.ShareMyPhoneNumber.StatusSuccess": [
   "%@ can now see your phone number."
+ ],
+ "CopyCardNumber": [
+  "Copy Card Number"
  ],
  "CopyCode": [
   "copy"
@@ -5452,6 +5709,12 @@
  "DaysShortAgo": [
   "%dd ago"
  ],
+ "Deactivated.LoadFailed.Subtitle": [
+  "Part of the app could not be downloaded. Check your connection.Click anywhere to reload this tab."
+ ],
+ "Deactivated.LoadFailed.Title": [
+  "Telegram didn't load..."
+ ],
  "Deactivated.OtherClient.Subtitle": [
   "Another app is running.Click anywhere to continue using this app."
  ],
@@ -5472,6 +5735,18 @@
  ],
  "Decline": [
   "Decline"
+ ],
+ "DeleteAccountHelp": [
+  "If you don't come online at least once within this period, your account will be deleted along with all groups, messages and contacts."
+ ],
+ "DeleteAccountIfAwayFor2": [
+  "Delete my account if away for"
+ ],
+ "DeleteAccountIfAwayFor2.SearchKeywords": [
+  "delete, destroy, inactive, account"
+ ],
+ "DeleteAccountTitle": [
+  "Account self-destruct"
  ],
  "DeleteAdditionalActions": [
   "Additional actions"
@@ -5912,6 +6187,10 @@
  "EditInvitation.Unlimited": [
   "Unlimited"
  ],
+ "EditLimitReached": [
+  "You've reached the message text limit. Please make the text shorter by %d character.",
+  "You've reached the message text limit. Please make the text shorter by %d characters."
+ ],
  "EditProfile.AddBirthdayRow": [
   "Add Birthday"
  ],
@@ -6229,6 +6508,9 @@
  "Experimental.Restart.Title": [
   "Restart Telegram"
  ],
+ "Experimental.WidgetSandbox": [
+  "Widget Sandbox"
+ ],
  "ExpiredStoryMention": [
   "The story you were mentioned in is no longer available"
  ],
@@ -6500,6 +6782,24 @@
  "ForwardedStoryFromAuthor1": [
   "Story From %s (%s)"
  ],
+ "ForwardsRestrictedInfoBot": [
+  "Copying and forwarding is not allowed from this bot."
+ ],
+ "ForwardsRestrictedInfoChannel": [
+  "Copying and forwarding is not allowed in this channel."
+ ],
+ "ForwardsRestrictedInfoGroup": [
+  "Copying and forwarding is not allowed in this group."
+ ],
+ "ForwardsRestrictedInfoUser": [
+  "Copying and forwarding is not allowed for this user."
+ ],
+ "ForwardsRestrictedInfoUserBecauseUser": [
+  "**%s** disabled copying and forwarding in this chat."
+ ],
+ "ForwardsRestrictedInfoUserBecauseYou": [
+  "You disabled copying and forwarding in this chat."
+ ],
  "FragmentPhoneMessage": [
   "This phone number was bought on **Fragment** on %1$s for **%2$s** %3$s"
  ],
@@ -6598,6 +6898,18 @@
  "GifSavedHint": [
   "Added to Favorite GIFs."
  ],
+ "Gift2ChannelNotify": [
+  "Notify About New Gifts"
+ ],
+ "Gift2ChannelNotifyChecked": [
+  "You will receive a message from Telegram when your channel receives a gift."
+ ],
+ "Gift2ChannelNotifyNotChecked": [
+  "You will not receive a message from Telegram when your channel receives a gift."
+ ],
+ "Gift2Reorder": [
+  "Reorder"
+ ],
  "GiftCode.Activation.After": [
   "You can activate this gift code after **%1$s** or **[send the link]()** to a friend."
  ],
@@ -6653,6 +6965,18 @@
  ],
  "GiftTelegramPremiumTitle": [
   "Gift Telegram Premium"
+ ],
+ "GiftThemesSetByOther": [
+  "%1$s set %2$s as a new theme for this chat."
+ ],
+ "GiftThemesSetByYou": [
+  "You set %s as a new theme for this chat."
+ ],
+ "GiftThemesSetIn": [
+  "Set as Theme in..."
+ ],
+ "GiftThemesSetInReuseInfo": [
+  "This gift is already your theme in the chat with **%s**. Remove it there and use it here instead?"
  ],
  "Giveaway.AlsoPrizes": [
   "**%s** also included **%d** **%s** in the prizes. %s"
@@ -6843,6 +7167,9 @@
  "GlobalAttachVoiceRestricted": [
   "Sending voice isn't allowed in this group."
  ],
+ "GlobalAutoDeleteInfo": [
+  "If enabled, all new messages in chats you start will be automatically deleted for everyone at some point after they have been sent. You can also [apply this setting for your existing chats]()."
+ ],
  "GlobalSearch": [
   "Global search"
  ],
@@ -6965,6 +7292,9 @@
  ],
  "GroupStickers.Updated": [
   "Group sticker set updated"
+ ],
+ "GroupUserCantBot": [
+  "Sorry, too many bots in this group."
  ],
  "GroupsAndChannelsHelp": [
   "Change who can add you to groups and channels."
@@ -7247,6 +7577,12 @@
  "InviteViaLink.Title": [
   "Invite via Link"
  ],
+ "IsSelectingContact": [
+  "%1$s is selecting contact to share"
+ ],
+ "IsSelectingLocation": [
+  "%1$s is selecting location to share"
+ ],
  "JoinByPeekChannelTitle": [
   "Join Channel"
  ],
@@ -7255,6 +7591,24 @@
  ],
  "JoinCall": [
   "JOIN CALL"
+ ],
+ "JoinRequestAcceptAll": [
+  "Accept all"
+ ],
+ "JoinRequestAcceptAllDescription": [
+  "Are you sure you want to accept all requests?"
+ ],
+ "JoinRequestAcceptAllTitle": [
+  "Accept all requests?"
+ ],
+ "JoinRequestDismissAll": [
+  "Dismiss all"
+ ],
+ "JoinRequestRejectAllDescription": [
+  "Are you sure you want to reject all requests?"
+ ],
+ "JoinRequestRejectAllTitle": [
+  "Reject all requests?"
  ],
  "JoinRequests": [
   "%1$d join request",
@@ -8134,6 +8488,15 @@
  "LoopAnimatedStickersInfo": [
   "Animated stickers will play continuously in chats."
  ],
+ "MainChannelProfilePhotoSetHint": [
+  "This is the main channel photo now."
+ ],
+ "MainGroupProfilePhotoSetHint": [
+  "This is the main group photo now."
+ ],
+ "MainProfilePhotoSetHint": [
+  "This is your main profile photo now."
+ ],
  "MakeMyselfVisible": [
   "Make Myself Visible"
  ],
@@ -8394,8 +8757,14 @@
  "MediaViewer.Context.Copy": [
   "Copy Media"
  ],
+ "MediaViewer.Context.CopyFrame": [
+  "Copy Frame"
+ ],
  "MediaViewer.Context.Download": [
   "Download"
+ ],
+ "MediaViewer.Context.ShareAtTime": [
+  "Share at %1$s"
  ],
  "MediaViewer.ProfilePublicPhoto": [
   "Public Photo"
@@ -8487,6 +8856,12 @@
  "MenuTelegramStarsTon": [
   "My Grams"
  ],
+ "Message.Context.AttachedStickers": [
+  "Attached Stickers"
+ ],
+ "Message.Context.CopyFilename": [
+  "Copy Filename"
+ ],
  "Message.Context.Goto": [
   "Show in chat"
  ],
@@ -8504,6 +8879,9 @@
  ],
  "Message.Unsupported.Mobile": [
   "__This message is currently not supported on Telegram Web. Try [telegram.org/dl](https://telegram.org/dl/)__"
+ ],
+ "MessageAuthorSentBy": [
+  "Sent by **%s**"
  ],
  "MessageContainsEmojiPack": [
   "This message contains emoji from %s pack."
@@ -8620,6 +8998,9 @@
  "MoreSimilar": [
   "More Channels"
  ],
+ "MoreSimilarBotsButton": [
+  "Show More Apps"
+ ],
  "MultiAccount.AccountsLimitDescription": [
   "You have reached the limit of **3** connected accounts. You can add more by subscribing to **Telegram Premium**."
  ],
@@ -8653,6 +9034,9 @@
  ],
  "MusicSearch.Profile": [
   "Profile Music"
+ ],
+ "MuteForPopup": [
+  "Mute for..."
  ],
  "MyNotes": [
   "My Notes"
@@ -8818,6 +9202,9 @@
  "NoBoostersHint": [
   "No users currently boost your channel"
  ],
+ "NoClicks": [
+  "no clicks"
+ ],
  "NoContactsViewed": [
   "None of your contacts viewed this story."
  ],
@@ -8841,6 +9228,21 @@
  ],
  "NoMicrophoneAccess": [
   "Please allow access to your microphone"
+ ],
+ "NoPaidMessagesToken.Imported": [
+  "You can now message **%s** for free."
+ ],
+ "NoPaidMessagesToken.Invalid": [
+  "This free messages link is invalid or has expired."
+ ],
+ "NoPaidMessagesToken.Used": [
+  "%s used your QR code and can message you for free"
+ ],
+ "NoPaidMessagesToken.UsedOut": [
+  "You used the QR code of %s and can message them for free"
+ ],
+ "NoPaidMessagesToken.UserInvalid": [
+  "This free messages link can't be used."
  ],
  "NoReactions": [
   "No reactions"
@@ -8934,8 +9336,23 @@
  "Notifications.Web": [
   "Web Notifications"
  ],
+ "NotificationsAddAnException": [
+  "Add an Exception"
+ ],
  "NotificationsChannels.SearchKeywords": [
   "channels, broadcast"
+ ],
+ "NotificationsDeleteAllException": [
+  "Delete All Exceptions"
+ ],
+ "NotificationsDeleteAllExceptionAlert": [
+  "Are you sure you want to delete all exceptions?"
+ ],
+ "NotificationsDeleteAllExceptionTitle": [
+  "Delete all exceptions"
+ ],
+ "NotificationsExceptions": [
+  "Exceptions"
  ],
  "NotificationsGroups.SearchKeywords": [
   "groups, supergroups"
@@ -9765,6 +10182,9 @@
  "Poll.VoteRestricted.SubscribersRecent": [
   "Only subscribers who joined more than 24 hours ago can vote."
  ],
+ "PollAddedByAtTime": [
+  "Added by **%1$s** %2$s"
+ ],
  "PollResults.LoadMore": [
   "",
   "Show More (%d)"
@@ -10038,6 +10458,9 @@
  "PremiumBusinessChatLinks": [
   "Links to Chat"
  ],
+ "PremiumBusinessChatLinks.SearchKeywords": [
+  "link, chat link, short link, preset message, business"
+ ],
  "PremiumBusinessChatLinksDescription": [
   "Create links that start a chat with you, suggesting the first message."
  ],
@@ -10055,6 +10478,9 @@
  ],
  "PremiumBusinessIntro": [
   "Start Page"
+ ],
+ "PremiumBusinessIntro.SearchKeywords": [
+  "intro, start page, greeting, empty chat, sticker, business"
  ],
  "PremiumBusinessIntroDescription": [
   "Customize the message people see before they start a chat with you."
@@ -10389,6 +10815,9 @@
  "PrivacyPhoneInfo4": [
   "This public link opens a chat with you:"
  ],
+ "PrivacyPremium": [
+  "Premium Users"
+ ],
  "PrivacySavedMusic": [
   "Saved Music"
  ],
@@ -10428,6 +10857,12 @@
  "PrivacySettingsController.UpdatePublicPhoto": [
   "Update Public Photo"
  ],
+ "PrivacyUserTypes": [
+  "User types"
+ ],
+ "PrivacyUsersAndGroups": [
+  "Users and groups"
+ ],
  "PrivacyVoiceMessages": [
   "Voice Messages"
  ],
@@ -10463,6 +10898,9 @@
  ],
  "Profile.Info.User": [
   "User Info"
+ ],
+ "ProfileBotPreviewTab": [
+  "Preview"
  ],
  "ProfileStories": [
   "Posts"
@@ -10516,6 +10954,21 @@
  "PushNotification.Message.Refreshing": [
   "Telegram is syncing in the background..."
  ],
+ "PushReactGramTransfer": [
+  "%2$s to your %3$s transfer"
+ ],
+ "PushReactGramTransferComment": [
+  "%2$s to your %3$s transfer: %4$s"
+ ],
+ "QRCode.BrowseGifts": [
+  "Browse Gifts"
+ ],
+ "QRCode.ChatNoCollectibles": [
+  "There are no collectible gifts here yet."
+ ],
+ "QRCode.Colors": [
+  "Profile colors"
+ ],
  "QRCode.Copied": [
   "QR Code copied to clipboard"
  ],
@@ -10524,6 +10977,84 @@
  ],
  "QRCode.Copy": [
   "Copy QR Code"
+ ],
+ "QRCode.CreatingLink": [
+  "Creating link…"
+ ],
+ "QRCode.LinkExpiring": [
+  "This link is about to expire."
+ ],
+ "QRCode.LoadingGifts": [
+  "Loading gifts…"
+ ],
+ "QRCode.NoGiftsInfo": [
+  "Use any collectible gift you ownto style your QR code."
+ ],
+ "QRCode.NoGiftsTitle": [
+  "No gifts yet"
+ ],
+ "QRCode.NoPaid.ExpiresIn": [
+  "Expires in %s"
+ ],
+ "QRCode.NoPaid.Free": [
+  "Free"
+ ],
+ "QRCode.NoPaid.Menu.DisableTimer": [
+  "Disable timer"
+ ],
+ "QRCode.NoPaid.Menu.DisableTimerInfo": [
+  "Stays free, no time limit"
+ ],
+ "QRCode.NoPaid.Menu.EnableTimer": [
+  "Enable timer"
+ ],
+ "QRCode.NoPaid.Menu.EnableTimerInfo": [
+  "Expires in 1 minute"
+ ],
+ "QRCode.NoPaid.Menu.Reset": [
+  "Reset Code"
+ ],
+ "QRCode.NoPaid.Menu.RestoreFee": [
+  "Restore message fee"
+ ],
+ "QRCode.NoPaid.NoTimeLimit": [
+  "No time limit"
+ ],
+ "QRCode.NoPaid.RemoveStarsFee": [
+  "Remove %s fee"
+ ],
+ "QRCode.NoPaid.Toast.Expired": [
+  "Code expired, fee is back"
+ ],
+ "QRCode.NoPaid.Toast.Expires": [
+  "This code will expire in 1 minute"
+ ],
+ "QRCode.NoPaid.Toast.Expiring": [
+  "This code is about to expire."
+ ],
+ "QRCode.NoPaid.Toast.FeeRestored": [
+  "Message fee restored"
+ ],
+ "QRCode.NoPaid.Toast.NewCode": [
+  "New code created"
+ ],
+ "QRCode.NoPaid.Toast.NoTimeLimit": [
+  "Code stays free, no time limit"
+ ],
+ "QRCode.PremiumGiftsToast": [
+  "Subscribe to Premium to usegifts in your QR code."
+ ],
+ "QRCode.PremiumSubscribe": [
+  "Subscribe"
+ ],
+ "QRCode.RemoveEmoji": [
+  "Remove %s"
+ ],
+ "QRCode.Saved": [
+  "QR code saved"
+ ],
+ "QRCode.Share": [
+  "Share QR Code"
  ],
  "QRCode.Show": [
   "Show QR code"
@@ -10570,6 +11101,9 @@
  "RateCallVideoPixelated": [
   "Video was pixelated"
  ],
+ "RateTranscription": [
+  "Rate transcription"
+ ],
  "Reaction.Tag.From": [
   "This tag is from **%s pack**."
  ],
@@ -10599,6 +11133,9 @@
  ],
  "ReactionsNotifyMessages": [
   "Reactions to my Messages"
+ ],
+ "ReactionsNotifyPollVotes": [
+  "Votes in my Polls"
  ],
  "ReactionsNotifyStories": [
   "Reactions to my Stories"
@@ -10667,6 +11204,9 @@
  "RemoveStickersCount": [
   "REMOVE %1$s"
  ],
+ "RemoveWallpaperMessage": [
+  "Are you sure you want to reset the wallpaper?"
+ ],
  "RemovedFromFavorites": [
   "Sticker was removed from Favorites."
  ],
@@ -10678,6 +11218,9 @@
  ],
  "RemovedUsers": [
   "Removed Users"
+ ],
+ "Rename": [
+  "Rename"
  ],
  "ReplaceBoostChannelDescription": [
   "You currently boost **%1$s**. Do you want to boost **%2$s** instead?"
@@ -10737,11 +11280,17 @@
  "ReportBug": [
   "Report Bug"
  ],
+ "ReportChannelPhotoTitle": [
+  "Report channel photo"
+ ],
  "ReportChat": [
   "Report"
  ],
  "ReportChatChild": [
   "Child Abuse"
+ ],
+ "ReportChatCopyright": [
+  "Copyright"
  ],
  "ReportChatDescription": [
   "Description"
@@ -10764,11 +11313,17 @@
  "ReportChatViolence": [
   "Violence"
  ],
+ "ReportGroupPhotoTitle": [
+  "Report group photo"
+ ],
  "ReportHint": [
   "Additional details..."
  ],
  "ReportInfo": [
   "Please enter any additional details relevant to your report."
+ ],
+ "ReportProfilePhotoTitle": [
+  "Report profile photo"
  ],
  "ReportSentInfo": [
   "Telegram moderators will review your report.Thank you for your cooperation!"
@@ -10833,6 +11388,9 @@
  "Reset": [
   "Reset"
  ],
+ "ResetAllNotifications": [
+  "Reset All Notifications"
+ ],
  "ResetAutomaticMediaDownload": [
   "Reset Auto-Download Settings"
  ],
@@ -10841,6 +11399,15 @@
  ],
  "ResetAutomaticMediaDownloadAlertTitle": [
   "Reset settings"
+ ],
+ "ResetNotificationsAlert": [
+  "Are you sure you want to reset all notification settings to default?"
+ ],
+ "ResetNotificationsAlertTitle": [
+  "Reset all notifications"
+ ],
+ "ResetNotificationsText": [
+  "All notification settings reset to default"
  ],
  "ResetPassword.Action": [
   "[Reset password]()"
@@ -11339,6 +11906,18 @@
  "SelectChat": [
   "Select Chat"
  ],
+ "SelectChats": [
+  "Select Chats"
+ ],
+ "SelectTheme": [
+  "Select theme"
+ ],
+ "SelectingContact": [
+  "selecting a contact to share"
+ ],
+ "SelectingLocation": [
+  "selecting a location to share"
+ ],
  "SelfDestructingOnMobile.Photo": [
   "%s sent you a self-destructing photo. Please view it on your mobile."
  ],
@@ -11381,6 +11960,9 @@
  "SendAnonymously": [
   "Send anonymously"
  ],
+ "SendAnotherGift": [
+  "Send Another Gift"
+ ],
  "SendAsFile": [
   "Send as file"
  ],
@@ -11389,6 +11971,9 @@
  ],
  "SendContactToGroupText": [
   "Do you want to send this contact to **%1$s**?"
+ ],
+ "SendGameToText": [
+  "Do you want to share this game to **%1$s**?"
  ],
  "SendGiftSelfCaption": [
   "buy yourself a gift"
@@ -11468,6 +12053,9 @@
  "SetAsEmojiStatusInfo": [
   "Emoji status set."
  ],
+ "SetAsMain": [
+  "Set as Main"
+ ],
  "SetColor": [
   "Set a color"
  ],
@@ -11489,8 +12077,14 @@
  "SetUrlPlaceholder": [
   "Link"
  ],
+ "SetWallpapers": [
+  "Set Wallpaper"
+ ],
  "Share": [
   "Share"
+ ],
+ "ShareAtTimeWith": [
+  "Share at %1$s with"
  ],
  "ShareContact": [
   "Share contact"
@@ -11627,6 +12221,9 @@
  "SharedFolder.Toast.NoTypes": [
   "Chat types are not supported in shared folders."
  ],
+ "SharedGIFsTab2": [
+  "GIFs"
+ ],
  "SharedMedia.Gifts": [
   "Gifts"
  ],
@@ -11657,6 +12254,15 @@
  "Show": [
   "Show"
  ],
+ "ShowAds": [
+  "Do Not Hide Ads"
+ ],
+ "ShowAdsInfo": [
+  "As a Premium subscriber, you don’t see any ads on Telegram, but you can turn them on, for example, to view your own ads that you launched on the [Telegram Ad Platform >](https://ads.telegram.org)"
+ ],
+ "ShowAdsTitle": [
+  "Ads in Channels"
+ ],
  "ShowAllReactions": [
   "Show All Reactions"
  ],
@@ -11677,6 +12283,17 @@
  ],
  "Sidebar.Resize.ShiftTip": [
   "Hold **Shift** to resize both columns at once"
+ ],
+ "SimilarBots": [
+  "Similar Bots"
+ ],
+ "SimilarBots.Unlock": [
+  "Subscribe to **[Telegram Premium]()** to unlock up to **%1$d** similar bot.",
+  "Subscribe to **[Telegram Premium]()** to unlock up to **%1$d** similar bots."
+ ],
+ "SimilarBotsCount": [
+  "%d similar bot",
+  "%d similar bots"
  ],
  "SimilarChannels": [
   "Similar Channels"
@@ -11736,6 +12353,12 @@
  ],
  "SortByTime": [
   "Newest First"
+ ],
+ "SoundOff": [
+  "Disable sound"
+ ],
+ "SoundOn": [
+  "Enable sound"
  ],
  "SponsoredMessage": [
   "ad"
@@ -11926,6 +12549,10 @@
  ],
  "StarGiftGiftUpgrade": [
   "Gift an Upgrade"
+ ],
+ "StarGiftGotStars": [
+  "You got **%d Star** for this gift.",
+  "You got **%d Stars** for this gift."
  ],
  "StarGiftHiddenHint": [
   "This gift is hidden. Only you can see it."
@@ -13579,6 +14206,15 @@
  "SuggestBirthdayRow": [
   "Suggest Date of Birth"
  ],
+ "SuggestContacts": [
+  "Suggest Frequent Contacts"
+ ],
+ "SuggestContacts.SearchKeywords": [
+  "suggest, frequent, top, people"
+ ],
+ "SuggestContactsInfo": [
+  "Display people you message frequently at the top of the search section for quick access."
+ ],
  "SuggestStickersAll": [
   "All Sets"
  ],
@@ -13811,6 +14447,15 @@
  "TelegramBusinessSubtitle": [
   "Subscribe to **Telegram Premium** to unlock these additional business features."
  ],
+ "TelegramFaq": [
+  "Telegram FAQ"
+ ],
+ "TelegramFaq.SearchKeywords": [
+  "help, support, questions"
+ ],
+ "TelegramFaqUrl": [
+  "https://telegram.org/faq#general-questions"
+ ],
  "TelegramFeatures": [
   "Telegram Features"
  ],
@@ -14002,6 +14647,9 @@
   "%d topic selected",
   "%d topics selected"
  ],
+ "TranscriptionReportSent": [
+  "Thank you for your feedback."
+ ],
  "Translate": [
   "Translate"
  ],
@@ -14104,6 +14752,9 @@
  ],
  "Undo": [
   "Undo"
+ ],
+ "UndoAllCustom": [
+  "Undo all custom notification settings for all your contacts, groups and channels."
  ],
  "UnknownBotUsers": [
   "Unknown users"
@@ -14482,6 +15133,9 @@
  "ViewStoryAlbum": [
   "VIEW ALBUM"
  ],
+ "ViewWallpaperAction": [
+  "View Wallpaper"
+ ],
  "ViewingMembers": [
   "Viewing Members"
  ],
@@ -14538,11 +15192,27 @@
  "VoiceChat.HandRaised": [
   "Hand raised"
  ],
+ "VoiceChat.Invite.Button": [
+  "Invite"
+ ],
+ "VoiceChat.Invite.DoneMany": [
+  "You invited **%d participant** to the video chat.",
+  "You invited **%d participants** to the video chat."
+ ],
  "VoiceChat.Invite.InviteMembers": [
   "Invite members"
  ],
+ "VoiceChat.JoinConfirm": [
+  "Join the video chat **%@**?"
+ ],
+ "VoiceChat.JoinConfirm.Channel": [
+  "Do you want to join the live stream **%@**?"
+ ],
  "VoiceChat.Leave": [
   "Leave"
+ ],
+ "VoiceChat.LinkInvalid": [
+  "This invite link is invalid or has expired."
  ],
  "VoiceChat.MuteForMe": [
   "Mute For Me"
@@ -14583,6 +15253,12 @@
  "VoiceChat.RemovePeer.Confirm.OK": [
   "Remove"
  ],
+ "VoiceChat.StartAs": [
+  "Start Video Chat as..."
+ ],
+ "VoiceChat.StartAs.Channel": [
+  "Start Live Stream as..."
+ ],
  "VoiceChat.Status.Connecting": [
   "Connecting..."
  ],
@@ -14607,6 +15283,12 @@
  ],
  "VoiceChat.Status.You": [
   "This is you"
+ ],
+ "VoiceChat.TitleChanged": [
+  "Video chat title changed to **%1$@**"
+ ],
+ "VoiceChat.TitleChanged.Channel": [
+  "Live stream title changed to **%1$@**"
  ],
  "VoiceChat.Topbar.Join": [
   "Join"
@@ -14635,14 +15317,47 @@
  "VoiceChat.YouCanNowSpeak": [
   "You can now speak."
  ],
+ "VoipChannelEditTitle": [
+  "Edit Live Stream Title"
+ ],
+ "VoipChannelJoinAs": [
+  "Join Live Stream as..."
+ ],
  "VoipChannelJoinVoiceChatUrl": [
   "Join Live Stream"
+ ],
+ "VoipChannelUserChanged": [
+  "Members of this live stream will now see you as **%1$@**"
  ],
  "VoipExchangingKeys": [
   "Exchanging encryption keys"
  ],
  "VoipFeedbackCommentHint": [
   "Add an optional comment"
+ ],
+ "VoipGroupDisplayAs": [
+  "Display me as..."
+ ],
+ "VoipGroupEditTitle": [
+  "Edit Video Chat Title"
+ ],
+ "VoipGroupInviteMember": [
+  "Invite Members"
+ ],
+ "VoipGroupInvitedUser": [
+  "You invited **%1$@** to the video chat."
+ ],
+ "VoipGroupJoinAs": [
+  "Join Video Chat as..."
+ ],
+ "VoipGroupPersonalAccount": [
+  "personal account"
+ ],
+ "VoipGroupStartAsInfo": [
+  "Choose whether you want to be displayed as your personal account or as your channel."
+ ],
+ "VoipGroupUserChanged": [
+  "Members of this video chat will now see you as **%1$@**"
  ],
  "VoipPeerIncompatible": [
   "**%1$s**'s app is using an incompatible protocol. They need to update their app before you can call them."
@@ -14664,6 +15379,1276 @@
  ],
  "WaitForTopicCreation": [
   "Wait for the topic to be created"
+ ],
+ "Wallet.About.FeesText": [
+  "First %d transfer each day is free, the rest cost almost nothing.",
+  "First %d transfers each day are free, the rest cost almost nothing."
+ ],
+ "Wallet.Action.Received": [
+  "%1$s sent you %2$s"
+ ],
+ "Wallet.Action.ReceivedCompact": [
+  "sent you %s"
+ ],
+ "Wallet.Action.ReceivedUnknown": [
+  "You received %s"
+ ],
+ "Wallet.Action.Sent": [
+  "You sent %1$s to %2$s"
+ ],
+ "Wallet.Action.SentUnknown": [
+  "You sent %s"
+ ],
+ "Wallet.Action.TonConnectAppDisconnect": [
+  "%s asks to disconnect"
+ ],
+ "Wallet.Action.TonConnectAppSignData": [
+  "%s asks you to sign data. Click to review."
+ ],
+ "Wallet.Action.WithComment": [
+  "%1$s: %2$s"
+ ],
+ "Wallet.Apps.AllDisconnected": [
+  "All apps disconnected."
+ ],
+ "Wallet.Apps.DisconnectAll": [
+  "Disconnect All Apps"
+ ],
+ "Wallet.Apps.DisconnectAllAction": [
+  "Disconnect All"
+ ],
+ "Wallet.Apps.DisconnectAllError": [
+  "Unable to disconnect these apps. Please try again."
+ ],
+ "Wallet.Apps.DisconnectAllText": [
+  "These apps will lose access to your wallet. You can connect them again at any time."
+ ],
+ "Wallet.Apps.DisconnectAllTitle": [
+  "Disconnect All Apps?"
+ ],
+ "Wallet.Apps.DisconnectError": [
+  "Unable to disconnect this app. Please try again."
+ ],
+ "Wallet.Apps.Disconnected": [
+  "%s disconnected."
+ ],
+ "Wallet.Apps.Disconnecting": [
+  "disconnecting"
+ ],
+ "Wallet.Apps.Empty": [
+  "No connected apps"
+ ],
+ "Wallet.Apps.Unknown": [
+  "Unknown app"
+ ],
+ "Wallet.Auth.BackupDisabledText": [
+  "Enable encrypted backup before restoring the recovery phrase from Telegram."
+ ],
+ "Wallet.Auth.BackupDisabledTitle": [
+  "Backup Is Disabled"
+ ],
+ "Wallet.Auth.BackupUnavailableText": [
+  "Encrypted backup is not available for this wallet."
+ ],
+ "Wallet.Auth.BackupUnavailableTitle": [
+  "Backup Unavailable"
+ ],
+ "Wallet.Auth.PasswordRetryAfter": [
+  "Try again in %s."
+ ],
+ "Wallet.Auth.PasswordTooNewTitle": [
+  "Password Is Too New"
+ ],
+ "Wallet.Auth.SessionRetryAfter": [
+  "For your security, try again in %s."
+ ],
+ "Wallet.Auth.SessionTooNewTitle": [
+  "Session Is Too New"
+ ],
+ "Wallet.Auth.TwoStepRequiredText": [
+  "Set up a Telegram password before changing this wallet."
+ ],
+ "Wallet.Auth.TwoStepRequiredTitle": [
+  "Two-Step Verification Required"
+ ],
+ "Wallet.Auth.UpdatePhraseErrorText": [
+  "The new recovery phrase was not activated. Your previous phrase and encrypted backup are still valid."
+ ],
+ "Wallet.Auth.VerificationExpiredText": [
+  "The wallet verification request expired. Please try importing it again."
+ ],
+ "Wallet.Auth.VerificationExpiredTitle": [
+  "Verification Expired"
+ ],
+ "Wallet.Auth.VerifyWalletErrorText": [
+  "Telegram couldn't verify that you own this wallet. Please try importing it again."
+ ],
+ "Wallet.Auth.VerifyWalletErrorTitle": [
+  "Couldn't Verify Wallet"
+ ],
+ "Wallet.Backup.CancelDisabling": [
+  "Cancel Disabling"
+ ],
+ "Wallet.Backup.CancelText": [
+  "Your recovery phrase will not be updated."
+ ],
+ "Wallet.Backup.CancelTitle": [
+  "Cancel Disabling Backup?"
+ ],
+ "Wallet.Backup.DisableErrorText": [
+  "Couldn't confirm that backup was disabled. Check the network connection and try again."
+ ],
+ "Wallet.Backup.DisableErrorTitle": [
+  "Couldn't Disable Backup"
+ ],
+ "Wallet.Backup.DisablePhraseUpdateErrorText": [
+  "The recovery phrase change could not be completed. Check your wallet state and try again."
+ ],
+ "Wallet.Backup.DisablePhraseUpdatePendingText": [
+  "Telegram couldn't confirm the recovery phrase change on the blockchain yet. Wait a moment and tap Disable again."
+ ],
+ "Wallet.Backup.DisableVerificationErrorText": [
+  "Telegram couldn't verify that you own this wallet. Please try again."
+ ],
+ "Wallet.Backup.DisableVerificationExpiredText": [
+  "The wallet verification request expired. Tap Disable to try again."
+ ],
+ "Wallet.Backup.DisableWalletChangedText": [
+  "The wallet's recovery phrase changed while you were updating backup settings. Restore access using the current recovery phrase and try again."
+ ],
+ "Wallet.Backup.EnableErrorTitle": [
+  "Couldn't Enable Backup"
+ ],
+ "Wallet.Backup.EnablePhraseUpdatePendingText": [
+  "Telegram couldn't confirm the recovery phrase change on the blockchain yet. Wait a moment and retry, or enter the current recovery phrase."
+ ],
+ "Wallet.Backup.EnableVerificationExpiredText": [
+  "The wallet verification request expired. Please try enabling backup again."
+ ],
+ "Wallet.Backup.EnterCurrentPhrase": [
+  "Enter Current Secret Phrase"
+ ],
+ "Wallet.Backup.InvalidPhraseText": [
+  "Check all words of your current recovery phrase and try again."
+ ],
+ "Wallet.Backup.KeyChanging": [
+  "Your wallet key is being changed. Try again once the change is confirmed."
+ ],
+ "Wallet.Backup.PhraseUpdatePendingTitle": [
+  "Secret Phrase Update Pending"
+ ],
+ "Wallet.Backup.RequiredBalance": [
+  "You need %1$s Grams (%2$s) to update your recovery phrase. Add funds and try again."
+ ],
+ "Wallet.Backup.RequiredBalanceGrams": [
+  "You need %s Grams to update your recovery phrase. Add funds and try again."
+ ],
+ "Wallet.Backup.RetryText": [
+  "%sTap Disable to try again."
+ ],
+ "Wallet.Backup.RotateFailedText": [
+  "%s Your recovery phrase was not changed — keep using your current one. The new words you wrote down are not in use."
+ ],
+ "Wallet.Backup.RotateFailedTitle": [
+  "Action Failed"
+ ],
+ "Wallet.Backup.RotateReasonFailed": [
+  "The update could not be completed."
+ ],
+ "Wallet.Backup.SureOk": [
+  "OK, sorry"
+ ],
+ "Wallet.Backup.SureText": [
+  "You didn't have enough time to write these words down."
+ ],
+ "Wallet.Backup.SureTitle": [
+  "All Done?"
+ ],
+ "Wallet.Backup.UpdateFee": [
+  "Network fee: %1$s Grams (%2$s)."
+ ],
+ "Wallet.Backup.UpdateFeeGrams": [
+  "Network fee: %s Grams."
+ ],
+ "Wallet.Backup.UpdatePhraseErrorTitle": [
+  "Couldn't Update Secret Phrase"
+ ],
+ "Wallet.Backup.UpdateTopUpText": [
+  "You need a non-zero balance to update your recovery phrase."
+ ],
+ "Wallet.Backup.VerifyPhraseErrorText": [
+  "This recovery phrase may be outdated for your wallet. Enter the current recovery phrase to enable backup."
+ ],
+ "Wallet.Backup.VerifyPhraseErrorTitle": [
+  "Couldn't Verify Secret Phrase"
+ ],
+ "Wallet.Backup.WalletChangedTitle": [
+  "Wallet Changed"
+ ],
+ "Wallet.Card.Address": [
+  "Wallet address"
+ ],
+ "Wallet.Card.Anonymous": [
+  "Anonymous"
+ ],
+ "Wallet.Card.DecryptComment": [
+  "Decrypt the comment"
+ ],
+ "Wallet.Card.Name": [
+  "Balance card"
+ ],
+ "Wallet.Card.Ticker": [
+  "Gram",
+  "Grams"
+ ],
+ "Wallet.ChatList.UnreadTransfer": [
+  "Unread transfer"
+ ],
+ "Wallet.Collectible.Collection": [
+  "Collection"
+ ],
+ "Wallet.Collectible.NftAbout": [
+  "A collectible stored on The Open Network (TON) blockchain."
+ ],
+ "Wallet.Collectible.NotOwned": [
+  "This collectible is no longer in your wallet."
+ ],
+ "Wallet.Collectible.NumberAbout": [
+  "The anonymous number %s that can be used to create a Telegram account that is not tied to a SIM card."
+ ],
+ "Wallet.Collectible.OwnWallet": [
+  "This collectible is already in your wallet."
+ ],
+ "Wallet.Collectible.PlayAnimation": [
+  "Play animation"
+ ],
+ "Wallet.Collectible.Sent": [
+  "🎉 %1$s has been sent to %2$s."
+ ],
+ "Wallet.Collectible.TopUpText": [
+  "You need at least %s Grams in your wallet to transfer an NFT. Top up your balance and try again."
+ ],
+ "Wallet.Collectible.UsernameAbout": [
+  "The %s username on Telegram."
+ ],
+ "Wallet.Confirm.Title": [
+  "Confirm Transfer"
+ ],
+ "Wallet.Conflict.Bar": [
+  "You also have an old wallet on this device"
+ ],
+ "Wallet.Conflict.Switch": [
+  "Switch Now"
+ ],
+ "Wallet.Conflict.SwitchError": [
+  "Couldn't remove the old wallet from this device."
+ ],
+ "Wallet.Conflict.SwitchText": [
+  "The key of the old wallet will be removed from this device. Only its recovery phrase will open it again."
+ ],
+ "Wallet.Conflict.Text": [
+  "A wallet you used before on this device. Save its recovery phrase before switching to your Telegram wallet."
+ ],
+ "Wallet.Conflict.Title": [
+  "Old Wallet"
+ ],
+ "Wallet.Conflict.UpdatePendingText": [
+  "The recovery phrase of this wallet was being changed and the blockchain hasn't confirmed which phrase is valid yet. Wait a moment and try again."
+ ],
+ "Wallet.Connect.Error": [
+  "Unable to connect this app. Please try again."
+ ],
+ "Wallet.Connect.Expired": [
+  "This connection request is no longer valid. Start the connection again from the app."
+ ],
+ "Wallet.Connect.Failed": [
+  "Couldn’t answer the request."
+ ],
+ "Wallet.Connect.HandledElsewhere": [
+  "This request was handled on another device."
+ ],
+ "Wallet.Connect.InvalidLink": [
+  "This TON Connect link is invalid."
+ ],
+ "Wallet.Connect.KeyChanging": [
+  "Your recovery phrase is being updated. Try again once the update is confirmed."
+ ],
+ "Wallet.Connect.KeyMismatch": [
+  "This app was connected with a different key of this wallet, so this device can’t answer it."
+ ],
+ "Wallet.Connect.ManifestInvalid": [
+  "This app’s details are invalid or belong to another domain, so the wallet was not connected."
+ ],
+ "Wallet.Connect.ManifestMissing": [
+  "Couldn’t load this app’s details, so the wallet was not connected."
+ ],
+ "Wallet.Connect.OutcomeUnknown": [
+  "This operation may already have been signed or sent. It will not be signed again. Check the wallet history."
+ ],
+ "Wallet.Connect.Proof": [
+  "It will ask you to prove ownership of this wallet to %s."
+ ],
+ "Wallet.Connect.Restore": [
+  "This device doesn’t hold the current key of this wallet. Restore it to use connected apps."
+ ],
+ "Wallet.Connect.RestoreAction": [
+  "Restore Wallet"
+ ],
+ "Wallet.Connect.SuccessText": [
+  "You are now connected to %s."
+ ],
+ "Wallet.Connect.SuccessTitle": [
+  "Connection Successful"
+ ],
+ "Wallet.Connect.Undelivered": [
+  "Couldn’t deliver the answer to the app."
+ ],
+ "Wallet.Connect.WrongNetwork": [
+  "This app requested a different wallet network."
+ ],
+ "Wallet.Details.DecryptErrorText": [
+  "The comment could not be decrypted."
+ ],
+ "Wallet.Details.DecryptErrorTitle": [
+  "Couldn't Decrypt Comment"
+ ],
+ "Wallet.Details.FeeUnknown": [
+  "Lookup failed"
+ ],
+ "Wallet.Details.FeesText": [
+  "Every transfer costs a small network fee%1$s.Telegram covers your first %2$s each day."
+ ],
+ "Wallet.Details.RestoreErrorTitle": [
+  "Couldn't Restore Wallet"
+ ],
+ "Wallet.Details.Transfers": [
+  "%d transfer",
+  "%d transfers"
+ ],
+ "Wallet.Error.Generic": [
+  "Something went wrong. Please try again."
+ ],
+ "Wallet.Error.InProgress": [
+  "Another transfer is still in progress. Please wait for it to complete."
+ ],
+ "Wallet.Error.Insufficient": [
+  "You don't have enough Grams for this transfer."
+ ],
+ "Wallet.Error.InvalidAddress": [
+  "Invalid address"
+ ],
+ "Wallet.Error.KeyChanged": [
+  "The key of this wallet was changed on another device. Restore the new recovery phrase to send."
+ ],
+ "Wallet.Error.LinkExpired": [
+  "This payment link has expired."
+ ],
+ "Wallet.Error.NameNotFound": [
+  "No wallet is linked to this name."
+ ],
+ "Wallet.Error.SendFailed": [
+  "The transfer could not be completed."
+ ],
+ "Wallet.Error.TooFresh": [
+  "You will be able to complete this action in %s."
+ ],
+ "Wallet.FeesText": [
+  "Every transfer on the blockchain pays a small network fee to the validators who record it. Some transfers to Telegram users are free: Telegram pays the fee for you."
+ ],
+ "Wallet.First.Rate": [
+  "**1 Gram** currently equals **%s**.You can:"
+ ],
+ "Wallet.First.SendText": [
+  "Transfer Grams to anyone.Click %1$s → %2$s in chats."
+ ],
+ "Wallet.First.StoreText": [
+  "Keep your Grams in Telegram(%1$s → %2$s) or other wallets."
+ ],
+ "Wallet.Gram.CheapText": [
+  "Fees are nearly zero, even on large transfers."
+ ],
+ "Wallet.Gram.CheapTitle": [
+  "Cheap"
+ ],
+ "Wallet.Gram.FastText": [
+  "Transfers confirm in seconds, anywhere in the world."
+ ],
+ "Wallet.Gram.FastTitle": [
+  "Fast"
+ ],
+ "Wallet.Gram.RateText": [
+  "The native currency of the TON blockchain. **1 Gram** currently equals **%s**."
+ ],
+ "Wallet.Gram.Text": [
+  "The native currency of the TON blockchain."
+ ],
+ "Wallet.Gram.Title": [
+  "Gram"
+ ],
+ "Wallet.Gram.UsefulText": [
+  "Pay for apps, services, and fees across the TON ecosystem."
+ ],
+ "Wallet.Gram.UsefulTitle": [
+  "Useful"
+ ],
+ "Wallet.GramTooltip": [
+  "Gram — Digital currency for Telegram"
+ ],
+ "Wallet.GramsAmount": [
+  "%1$s %2$s"
+ ],
+ "Wallet.Import.EnableBackupText": [
+  "Enter your wallet's current 12- or 24-word recovery phrase to enable encrypted backup."
+ ],
+ "Wallet.Import.ErrorText": [
+  "Check the recovery phrase and network connection, then try again."
+ ],
+ "Wallet.Import.ErrorTitle": [
+  "Couldn’t Import Wallet"
+ ],
+ "Wallet.Import.InvalidCurrentPhraseLength": [
+  "Your current recovery phrase must contain exactly 12 or 24 words. The pasted phrase contains %s."
+ ],
+ "Wallet.Import.InvalidPhraseLength": [
+  "A recovery phrase must contain exactly 12 or 24 words. The pasted phrase contains %s."
+ ],
+ "Wallet.Import.InvalidWord": [
+  "Invalid word"
+ ],
+ "Wallet.Import.PhraseChangedText": [
+  "The key for this wallet has changed. Enter the current 24-word recovery phrase."
+ ],
+ "Wallet.Import.PhraseChangedTitle": [
+  "Secret Phrase Has Changed"
+ ],
+ "Wallet.Import.Proceed": [
+  "Proceed"
+ ],
+ "Wallet.Keys.DeleteText": [
+  "You'll lose access to your funds unless you've saved your recovery phrase."
+ ],
+ "Wallet.Keys.DeviceKey": [
+  "Key is stored on this device"
+ ],
+ "Wallet.Keys.DeviceNoKey": [
+  "No key on this device"
+ ],
+ "Wallet.Keys.DeviceSection": [
+  "This Device"
+ ],
+ "Wallet.Keys.Forget": [
+  "Remove Key from This Device"
+ ],
+ "Wallet.Keys.ForgetText": [
+  "You will need your recovery phrase or the encrypted backup to send from this device again."
+ ],
+ "Wallet.Keys.ForgetUpdatePendingText": [
+  "The recovery phrase of this wallet is being updated. The key can be removed from this device once the update is finished."
+ ],
+ "Wallet.Keys.PhraseCaption": [
+  "You can transfer your wallet to another device by copying your 12- or 24-word recovery phrase."
+ ],
+ "Wallet.Keys.Restore": [
+  "Enter Secret Phrase"
+ ],
+ "Wallet.Keys.RestoreBackup": [
+  "Restore from encrypted backup"
+ ],
+ "Wallet.Keys.RestoreCaption": [
+  "Enter your recovery phrase to restore access to this wallet."
+ ],
+ "Wallet.LoadError": [
+  "Couldn't load your wallet."
+ ],
+ "Wallet.Logout.Local": [
+  "Your Gram wallet's keys are stored only on this device and Telegram has no backup of them. Continuing destroys them — only your recovery phrase can restore the wallet.",
+  "%d of your Gram wallets have their keys stored only on this device, with no Telegram backup. Continuing destroys them — only their recovery phrases can restore them."
+ ],
+ "Wallet.Logout.Parked": [
+  "This device also holds the keys of one other Gram wallet. Continuing destroys them, and that wallet can be restored only if its recovery phrase was written down.",
+  "This device also holds the keys of %d other Gram wallets. Continuing destroys them, and those wallets can be restored only if their recovery phrases were written down."
+ ],
+ "Wallet.Logout.Rotating": [
+  "A wallet key change on this device is not confirmed yet. Its replacement key is stored only here and Telegram has no backup of it. Continuing destroys it — if the change goes through, only the replacement recovery phrase can restore the wallet.",
+  "%d wallet key changes on this device are not confirmed yet. Their replacement keys are stored only here and Telegram has no backup of them. Continuing destroys them — if a change goes through, only its replacement recovery phrase can restore that wallet."
+ ],
+ "Wallet.Logout.Unknown": [
+  "If this device holds any Gram wallet keys, continuing destroys them. They can be restored only from a Telegram backup or your recovery phrase."
+ ],
+ "Wallet.Menu.Lock": [
+  "Lock Wallet"
+ ],
+ "Wallet.Menu.Passcode": [
+  "Passcode"
+ ],
+ "Wallet.NetworkError": [
+  "Check the network connection and try again."
+ ],
+ "Wallet.PasswordSetText": [
+  "Your account is now protected."
+ ],
+ "Wallet.Phrase.Error": [
+  "Couldn't show the recovery phrase."
+ ],
+ "Wallet.Phrase.ErrorTitle": [
+  "Couldn’t Show Secret Phrase"
+ ],
+ "Wallet.Phrase.PasswordText": [
+  "Please enter your password to view your recovery phrase."
+ ],
+ "Wallet.Provisioning": [
+  "Setting up your wallet…"
+ ],
+ "Wallet.ReadOnly": [
+  "This device can view this wallet but can't send from it."
+ ],
+ "Wallet.ReadOnly.Restore": [
+  "Restore from recovery phrase"
+ ],
+ "Wallet.Receive.PurchaseFailedText": [
+  "The purchase couldn't be started. Please try again."
+ ],
+ "Wallet.Receive.PurchaseFailedTitle": [
+  "Purchase Failed"
+ ],
+ "Wallet.Receive.PurchaseUnavailableText": [
+  "Purchasing is currently unavailable. Please try again later."
+ ],
+ "Wallet.Receive.PurchaseUnavailableTitle": [
+  "Purchase Unavailable"
+ ],
+ "Wallet.Recipient.InvalidAddress": [
+  "The pasted text is not a valid TON address."
+ ],
+ "Wallet.Recipient.InvalidAddressText": [
+  "This wallet address is invalid.Check it or try another address."
+ ],
+ "Wallet.Replace.CreateText": [
+  "Telegram makes a new wallet for this account."
+ ],
+ "Wallet.Replace.ErrorTitle": [
+  "Couldn't Replace Wallet"
+ ],
+ "Wallet.Replace.ImportText": [
+  "Bring in a wallet by its recovery phrase created in Telegram."
+ ],
+ "Wallet.Replace.PasswordText": [
+  "Enter your Two-Step Verification password to replace the wallet."
+ ],
+ "Wallet.Replace.Title": [
+  "Replace Wallet"
+ ],
+ "Wallet.Request.DeployContract": [
+  "Deploy Contract"
+ ],
+ "Wallet.Request.Excess": [
+  "Excess"
+ ],
+ "Wallet.Request.Expired": [
+  "The request has expired."
+ ],
+ "Wallet.Request.FeeFailed": [
+  "Couldn’t estimate the network fee."
+ ],
+ "Wallet.Request.FeeLoading": [
+  "Estimating the network fee…"
+ ],
+ "Wallet.Request.NotSent": [
+  "The transaction wasn’t sent. The app was told it failed."
+ ],
+ "Wallet.Request.Sent": [
+  "The transaction was sent."
+ ],
+ "Wallet.Request.TitleUnknown": [
+  "App Request"
+ ],
+ "Wallet.Request.TraceFailed": [
+  "The preview shows that part of this transaction may fail."
+ ],
+ "Wallet.Request.TraceIncomplete": [
+  "The preview of this transaction is incomplete."
+ ],
+ "Wallet.Request.UnknownOperation": [
+  "Unknown Operation"
+ ],
+ "Wallet.Restore.BackupText": [
+  "Enter your Two-Step Verification password to restore the key to this wallet from your encrypted backup."
+ ],
+ "Wallet.Restore.Done": [
+  "The key is restored on this device."
+ ],
+ "Wallet.Restore.ErrorTitle": [
+  "Couldn’t Restore Wallet"
+ ],
+ "Wallet.Restore.Foreign": [
+  "Only a recovery phrase created in Telegram can be imported here."
+ ],
+ "Wallet.Restore.Invalid": [
+  "These words are not a valid recovery phrase."
+ ],
+ "Wallet.Restore.Outdated": [
+  "These words are an old recovery phrase of this wallet. Enter the new phrase you got when its key was last updated."
+ ],
+ "Wallet.Restore.Suggestions": [
+  "Suggested words"
+ ],
+ "Wallet.Restore.TextBackup": [
+  "Enter your wallet's Secret Phrase to continue."
+ ],
+ "Wallet.Restore.Word": [
+  "Word %d"
+ ],
+ "Wallet.Retry": [
+  "Try Again"
+ ],
+ "Wallet.Row.Deposit": [
+  "Deposit"
+ ],
+ "Wallet.Row.Withdrawal": [
+  "Withdrawal"
+ ],
+ "Wallet.Send.NetworkFee": [
+  "Network fee:"
+ ],
+ "Wallet.Send.UnlinkedWallet": [
+  "Unlinked wallet"
+ ],
+ "Wallet.SendAmountLabel": [
+  "Amount"
+ ],
+ "Wallet.SendSwitchCurrency": [
+  "Switch currency"
+ ],
+ "Wallet.Sent": [
+  "🎉 Grams have been sent to %s."
+ ],
+ "Wallet.Sign.Done": [
+  "The data was signed."
+ ],
+ "Wallet.Transfer.CommentEncryptionErrorText": [
+  "The comment could not be encrypted for this wallet. Check the network connection and try again."
+ ],
+ "Wallet.Transfer.CommentEncryptionErrorTitle": [
+  "Couldn't Encrypt Comment"
+ ],
+ "Wallet.Transfer.CommentEncryptionUnavailable": [
+  "This wallet can't receive encrypted comments now."
+ ],
+ "Wallet.Transfer.CommentTooLongText": [
+  "The encrypted comment is too long. Shorten it and try again."
+ ],
+ "Wallet.Transfer.CommentTooLongTitle": [
+  "Comment Too Long"
+ ],
+ "Wallet.Transfer.PendingText": [
+  "The transfer may have been sent. Don't send it again while its status is being checked."
+ ],
+ "Wallet.Transfer.PendingTitle": [
+  "Transfer Pending"
+ ],
+ "Wallet.Transfer.PublicCommentTooLongText": [
+  "This comment is too long."
+ ],
+ "Wallet.Unavailable": [
+  "Wallet is not available for this account."
+ ],
+ "Wallet.Vault.Change": [
+  "Change Passcode"
+ ],
+ "Wallet.Vault.ChangeText": [
+  "Enter your current wallet passcode, then choose a new one."
+ ],
+ "Wallet.Vault.CreateText": [
+  "Choose a passcode to protect your wallet key on this device. You'll need it to send Grams."
+ ],
+ "Wallet.Vault.CreateTitle": [
+  "Protect Your Key"
+ ],
+ "Wallet.Vault.Current": [
+  "Current passcode"
+ ],
+ "Wallet.Vault.Forgot": [
+  "Forgot passcode?"
+ ],
+ "Wallet.Vault.ForgotText": [
+  "The key will be removed from this device. You can restore it again from your recovery phrase or the encrypted backup."
+ ],
+ "Wallet.Vault.New": [
+  "New passcode"
+ ],
+ "Wallet.Vault.NoPasscodeText": [
+  "Your wallet key on this device has no passcode: anyone with access to Telegram on this device can spend your funds."
+ ],
+ "Wallet.Vault.Passcode": [
+  "Passcode"
+ ],
+ "Wallet.Vault.PasscodeMismatch": [
+  "Passcodes don't match"
+ ],
+ "Wallet.Vault.PasscodeRepeat": [
+  "Repeat passcode"
+ ],
+ "Wallet.Vault.PasscodeShort": [
+  "Use at least 4 characters"
+ ],
+ "Wallet.Vault.Set": [
+  "Set Passcode"
+ ],
+ "Wallet.Vault.SetText": [
+  "Choose a passcode to protect your wallet key on this device. You'll need it to send Grams."
+ ],
+ "Wallet.Vault.SettingsText": [
+  "Your wallet key on this device is protected with a passcode. You'll need it to send Grams."
+ ],
+ "Wallet.Vault.SkipPasscode": [
+  "Don't use a passcode"
+ ],
+ "Wallet.Vault.SkipWarning": [
+  "Anyone with access to Telegram on this device will be able to spend your funds."
+ ],
+ "Wallet.Vault.TryLater": [
+  "Too many attempts. Try again in %1$s."
+ ],
+ "Wallet.Vault.TurnOffText": [
+  "Enter your wallet passcode to turn it off. Anyone with access to Telegram on this device will be able to spend your funds."
+ ],
+ "Wallet.Vault.UnlockText": [
+  "Enter your wallet passcode to continue."
+ ],
+ "Wallet.Vault.UnlockTitle": [
+  "Enter Passcode"
+ ],
+ "Wallet.Vault.Wrong": [
+  "Wrong passcode"
+ ],
+ "Wallet.ViewProfile": [
+  "View Profile ›"
+ ],
+ "WalletActiveConnections": [
+  "Active connections"
+ ],
+ "WalletAddFunds": [
+  "Add Funds"
+ ],
+ "WalletAddress": [
+  "Address"
+ ],
+ "WalletAddressCopiedBulletin": [
+  "Address copied."
+ ],
+ "WalletAddressCopiedShort": [
+  "Address copied"
+ ],
+ "WalletAddressLinkedToUser": [
+  "This TON Blockchain address is linked to **%1$s** on Telegram."
+ ],
+ "WalletAddressNoLinkedAccount": [
+  "This address has no linkedTelegram account."
+ ],
+ "WalletAppRequestsSignature": [
+  "%1$s requests your signature"
+ ],
+ "WalletAppRequestsTransfer": [
+  "%1$s requests a transfer"
+ ],
+ "WalletAttachMoney": [
+  "Money"
+ ],
+ "WalletAttachMoney.SearchKeywords": [
+  "wallet, gram, grams, ton, crypto, balance"
+ ],
+ "WalletBackupDisabled": [
+  "Backup Disabled"
+ ],
+ "WalletBackupDisabledDescription": [
+  "Your encrypted key backup will be split into three parts and stored across three continents.It can only be reassembled on your devices, so no one — not even Telegram — can access your key."
+ ],
+ "WalletBackupDisabledInfo": [
+  "Your recovery phrase is now the only way to restore your wallet"
+ ],
+ "WalletBackupEnabled": [
+  "Backup Enabled"
+ ],
+ "WalletBackupEnabledDescription": [
+  "Your encrypted key backup is split into three parts and stored across three continents.It can only be reassembled on your devices, so no one — not even Telegram — can access your key."
+ ],
+ "WalletBackupEnabledInfo": [
+  "Your keys are now stored encrypted across Telegram's datacenters."
+ ],
+ "WalletBalanceAmount": [
+  "Balance: %1$s"
+ ],
+ "WalletBinaryData": [
+  "Binary Data"
+ ],
+ "WalletBinaryDataWarning": [
+  "You are signing blindly. Sign only from trusted sources."
+ ],
+ "WalletBlockchainVerified": [
+  "Blockchain Verified"
+ ],
+ "WalletBlockchainVerifiedInfo": [
+  "All transactions are recorded and verifiable on a public ledger."
+ ],
+ "WalletBuyWithCashOrCrypto": [
+  "Buy with cash or crypto"
+ ],
+ "WalletCollectible": [
+  "Collectible"
+ ],
+ "WalletCollectibleModelBackdrop": [
+  "%1$s on %2$s"
+ ],
+ "WalletCollectibleNumber": [
+  "Collectible Number"
+ ],
+ "WalletCollectibleUsername": [
+  "Collectible Username"
+ ],
+ "WalletCollectibles": [
+  "Collectibles"
+ ],
+ "WalletConfirm": [
+  "Confirm"
+ ],
+ "WalletConnect": [
+  "Connect"
+ ],
+ "WalletConnectInfo": [
+  "The app will be able to view yourTON address, balance and activity."
+ ],
+ "WalletConnectPermissionInfo": [
+  "The app won’t be able to movefunds without permission."
+ ],
+ "WalletConnectToApp": [
+  "Connect wallet to %1$s"
+ ],
+ "WalletConnectToDApp": [
+  "Connect wallet to dApp"
+ ],
+ "WalletConnectedAppInfo": [
+  "This app can see your wallet address, balance and activity. It can't move funds without your approval."
+ ],
+ "WalletConnectedApps": [
+  "Connected Apps"
+ ],
+ "WalletConnectedAppsInfo": [
+  "Connected apps can see your wallet address, balance and activity. They can't move funds without your approval."
+ ],
+ "WalletContinue": [
+  "Continue"
+ ],
+ "WalletContractCall": [
+  "Contract call"
+ ],
+ "WalletCopyAddress": [
+  "Copy address"
+ ],
+ "WalletCreateNew": [
+  "Create a New Wallet"
+ ],
+ "WalletCreated": [
+  "Wallet Created"
+ ],
+ "WalletCreatedInfo": [
+  "Your new wallet is ready to use."
+ ],
+ "WalletCurrency": [
+  "Currency"
+ ],
+ "WalletDate": [
+  "Date"
+ ],
+ "WalletDecline": [
+  "Decline"
+ ],
+ "WalletDeleteAnyway": [
+  "Delete anyway"
+ ],
+ "WalletDeleteWallet": [
+  "Delete Wallet"
+ ],
+ "WalletDepositFunds": [
+  "Deposit funds"
+ ],
+ "WalletDisable": [
+  "Disable"
+ ],
+ "WalletDisableBackup": [
+  "Disable Backup"
+ ],
+ "WalletDisableBackupConfirmInfo": [
+  "Your distributed encrypted backup will be deleted. Your wallet will switch to the new secret phrase. This secret phrase will be the only way to recover this wallet."
+ ],
+ "WalletDisableBackupExistingPhraseInfo": [
+  "Your distributed encrypted backup will be deleted. Your secret phrase will be the only way to recover this wallet."
+ ],
+ "WalletDisableBackupInfo": [
+  "The only way to recover your funds will be to manually enter your recovery phrase."
+ ],
+ "WalletDisableBackupTitle": [
+  "Disable Backup?"
+ ],
+ "WalletDisconnect": [
+  "Disconnect"
+ ],
+ "WalletDomain": [
+  "Domain"
+ ],
+ "WalletDone": [
+  "Done"
+ ],
+ "WalletEnableBackup": [
+  "Enable Backup"
+ ],
+ "WalletEncryptedBackup": [
+  "Encrypted Backup"
+ ],
+ "WalletEnterSecretPhrase": [
+  "Enter your wallet's Secret Phraseto continue. [Why?]()"
+ ],
+ "WalletEnterSecretPhraseInfo": [
+  "Since you disabled backups for your wallet, you have to manually enter your Secret Phrase in every new Telegram session."
+ ],
+ "WalletFailed": [
+  "Failed"
+ ],
+ "WalletFee": [
+  "Fee"
+ ],
+ "WalletFeeAmount": [
+  "Fee: %1$s"
+ ],
+ "WalletFeeAmountWithCurrency": [
+  "Fee: %1$s (~%2$s)."
+ ],
+ "WalletFeePaidByTelegram": [
+  "Free (paid by Telegram)"
+ ],
+ "WalletFirstGrams": [
+  "Your first Grams!"
+ ],
+ "WalletFirstGramsActions": [
+  "You can:"
+ ],
+ "WalletFirstGramsTradeInfo": [
+  "Convert Grams to cash or crypto on exchanges."
+ ],
+ "WalletGotIt": [
+  "Got it"
+ ],
+ "WalletGramEarningsBalance": [
+  "You also have %1$s in Gram Earnings"
+ ],
+ "WalletGramWalletAddress": [
+  "Gram Wallet"
+ ],
+ "WalletHiddenTransactions": [
+  "Transactions under %1$s are hidden."
+ ],
+ "WalletHowItWorks": [
+  "How It Works"
+ ],
+ "WalletHowItWorksInfo": [
+  "Only you control your funds —no one else has access."
+ ],
+ "WalletImport": [
+  "Import Wallet"
+ ],
+ "WalletImportButton": [
+  "Import"
+ ],
+ "WalletImportExisting": [
+  "Import an Existing Wallet"
+ ],
+ "WalletImportPhraseInfo": [
+  "Enter the %1$d-word recovery phrase from another wallet you own."
+ ],
+ "WalletImported": [
+  "Wallet Imported"
+ ],
+ "WalletImportedInfo": [
+  "Your wallet was restored from your recovery phrase."
+ ],
+ "WalletIncomingCollectibleAmount": [
+  "+1 item"
+ ],
+ "WalletIncomingTransfer": [
+  "Incoming transfer"
+ ],
+ "WalletIncomingTransferNft": [
+  "Incoming collectible"
+ ],
+ "WalletInsufficientFunds": [
+  "Insufficient Funds."
+ ],
+ "WalletInvalidRecoveryPhrase": [
+  "Invalid Recovery Phrase"
+ ],
+ "WalletInvalidRecoveryPhraseInfo": [
+  "Check the word order.Only a recovery phrase created in Telegram can be imported here."
+ ],
+ "WalletKeyUpdate": [
+  "Key Update"
+ ],
+ "WalletKeysAndBackup": [
+  "Keys & Backup"
+ ],
+ "WalletMakeCommentPublic": [
+  "Make comment public"
+ ],
+ "WalletNetworkFee": [
+  "Network fee"
+ ],
+ "WalletNewSecretPhrase": [
+  "New Secret Phrase"
+ ],
+ "WalletNewSecretPhraseInfo": [
+  "A new recovery phrase for your wallet has been generated. Write it down and keep it secret."
+ ],
+ "WalletNoFees": [
+  "No Fees"
+ ],
+ "WalletNotEnoughGram": [
+  "Not enough Gram"
+ ],
+ "WalletOldWalletsBalance": [
+  "You also have %1$s in old wallets"
+ ],
+ "WalletOpenMyWallet": [
+  "Open My Wallet"
+ ],
+ "WalletOptionalComment": [
+  "Optional comment"
+ ],
+ "WalletOutgoingCollectibleAmount": [
+  "–1 item"
+ ],
+ "WalletOutgoingTransfer": [
+  "Outgoing transfer"
+ ],
+ "WalletOutgoingTransferNft": [
+  "Outgoing collectible"
+ ],
+ "WalletPaste": [
+  "Paste"
+ ],
+ "WalletPhraseWords": [
+  "%d word",
+  "%d words"
+ ],
+ "WalletPreview": [
+  "Preview"
+ ],
+ "WalletPreviousWalletLastUsed": [
+  "%1$s — last used %2$s"
+ ],
+ "WalletPrivateCommentInfo": [
+  "Visible only to you and the recipient."
+ ],
+ "WalletProtectAccount": [
+  "Protect your account"
+ ],
+ "WalletPublicCommentInfo": [
+  "The comment is visible to everyone."
+ ],
+ "WalletReceiveInfo": [
+  "Share your address or thisQR code to receive GRAM."
+ ],
+ "WalletRecipient": [
+  "Recipient"
+ ],
+ "WalletRecipientUnavailable": [
+  "Recipient wallet is unavailable"
+ ],
+ "WalletRecoveryPhraseFundsWarning": [
+  "If someone has your Recovery Phrase they **can steal your funds**."
+ ],
+ "WalletRecoveryPhraseInfo": [
+  "Your Secret Recovery Phrase is the key to back up your wallet. Keep it secret and secure at all times."
+ ],
+ "WalletRecoveryPhraseLearnButton": [
+  "Show Recovery Phrase"
+ ],
+ "WalletRecoveryPhraseLearnTitle": [
+  "Recovery Phrase"
+ ],
+ "WalletRecoveryPhraseNeverShare": [
+  "**Never share **your secret Recovery Phrase with anyone."
+ ],
+ "WalletRecoveryPhraseSupportWarning": [
+  "Telegram Support **will never ask you** for your Recovery Phrase."
+ ],
+ "WalletReplaceWalletTitle": [
+  "How do you want to replace the old wallet?"
+ ],
+ "WalletReviewSigningData": [
+  "Carefully review the message, and if you agree, sign data."
+ ],
+ "WalletSearchNoResults": [
+  "There were no results for \"%1$s\".Try another name or address."
+ ],
+ "WalletSecretPhrase": [
+  "Secret Phrase"
+ ],
+ "WalletSell": [
+  "Sell"
+ ],
+ "WalletSend": [
+  "Send"
+ ],
+ "WalletSendAmount": [
+  "Send %1$s"
+ ],
+ "WalletSendGrams": [
+  "Send Grams"
+ ],
+ "WalletSendInstantly": [
+  "Send Money Instantly"
+ ],
+ "WalletSendInstantlyInfo": [
+  "Send Grams in any chat, just like sharing a photo."
+ ],
+ "WalletSendMoney": [
+  "Send Money"
+ ],
+ "WalletSender": [
+  "Sender"
+ ],
+ "WalletSending": [
+  "Sending…"
+ ],
+ "WalletShowMyQR": [
+  "Show my QR"
+ ],
+ "WalletSign": [
+  "Sign"
+ ],
+ "WalletSignData": [
+  "Sign Data"
+ ],
+ "WalletSigningData": [
+  "Data"
+ ],
+ "WalletStore": [
+  "Store"
+ ],
+ "WalletTermsOfService": [
+  "By using Wallet you agree to [Terms of Service](https://telegram.org/tos)."
+ ],
+ "WalletTestPhrase": [
+  "Test Time"
+ ],
+ "WalletTestPhraseInfo": [
+  "Make sure you wrote your recovery phrase down correctly. Enter words **%1$d**, **%2$d** and **%3$d**."
+ ],
+ "WalletTitle": [
+  "Wallet"
+ ],
+ "WalletTonConnectRequestAppDeclined": [
+  "%s's transaction request declined"
+ ],
+ "WalletTonConnectRequestAppExpired": [
+  "%s's transaction request expired"
+ ],
+ "WalletTonConnectRequestAppPending": [
+  "%s requests a transaction. Click to review."
+ ],
+ "WalletTonConnectRequestAppProcessed": [
+  "%s's transaction request processed"
+ ],
+ "WalletTonConnectRequestDeclined": [
+  "App transaction request declined"
+ ],
+ "WalletTonConnectRequestExpired": [
+  "App transaction request expired"
+ ],
+ "WalletTonConnectRequestPending": [
+  "Connected app requests a transaction. Click to review."
+ ],
+ "WalletTonConnectRequestProcessed": [
+  "App transaction request processed"
+ ],
+ "WalletTonConnectRequestUnavailable": [
+  "This TON Connect request is unavailable or has already been answered"
+ ],
+ "WalletTopUp": [
+  "Top up"
+ ],
+ "WalletTrade": [
+  "Trade"
+ ],
+ "WalletTransactionTopUp": [
+  "Card Top-up"
+ ],
+ "WalletTransactionTopUpCrypto": [
+  "Crypto Top-up"
+ ],
+ "WalletTransactions": [
+  "Transactions"
+ ],
+ "WalletTransfer": [
+  "Transfer"
+ ],
+ "WalletTransferCollectible": [
+  "Transfer Collectible"
+ ],
+ "WalletTransferStatusFailed": [
+  "failed"
+ ],
+ "WalletTransferStatusReceived": [
+  "received"
+ ],
+ "WalletTransferStatusSent": [
+  "sent"
+ ],
+ "WalletTransferTo": [
+  "to %1$s"
+ ],
+ "WalletTransferToMultiple": [
+  "to %1$s  +%2$d"
+ ],
+ "WalletTransferWorth": [
+  "%1$s (%2$s)"
+ ],
+ "WalletUnknownAddress": [
+  "Unknown address"
+ ],
+ "WalletUpdateSecretPhrase": [
+  "Update Secret Phrase"
+ ],
+ "WalletUpdateSecretPhraseInfo": [
+  "You'll get a new phrase to write down. Address and balance stay the same."
+ ],
+ "WalletUserWallet": [
+  "%1$s's wallet"
+ ],
+ "WalletViewInExplorer": [
+  "View in Explorer"
+ ],
+ "WalletWaltFunds": [
+  "You also have funds in Walt"
+ ],
+ "WalletWhatIsGram": [
+  "What is Gram?"
+ ],
+ "WalletWhatIsWallet": [
+  "What is Wallet?"
+ ],
+ "WalletWrongSecretPhrase": [
+  "Wrong Secret Phrase"
+ ],
+ "WalletWrongSecretPhraseInfo": [
+  "The words you entered don't match the wallet."
+ ],
+ "WalletYourRecoveryPhrase": [
+  "Your Recovery Phrase"
+ ],
+ "WallpaperDimming": [
+  "Wallpaper dimming"
+ ],
+ "WallpaperPreview": [
+  "Wallpaper Preview"
  ],
  "WebApp.Attach.Success": [
   "\"%@\" added to your attachment menu."
@@ -14730,6 +16715,27 @@
  "WelcomeMessages.Title": [
   "Welcome Message"
  ],
+ "Widget.Copied": [
+  "Copied: %1$s"
+ ],
+ "Widget.Failed": [
+  "The widget couldn't be started."
+ ],
+ "Widget.NetworkMarker": [
+  "Tapping this widget may send data to the bot."
+ ],
+ "Widget.Restart": [
+  "Restart"
+ ],
+ "Widget.Stopped": [
+  "Widget stopped"
+ ],
+ "Widget.Title": [
+  "Interactive widget"
+ ],
+ "Widget.Unsupported": [
+  "This browser can't run widgets yet."
+ ],
  "WithinAMonth": [
   "last seen within a month"
  ],
@@ -14745,6 +16751,9 @@
  ],
  "Yesterday": [
   "yesterday"
+ ],
+ "YouBlockedUser": [
+  "Sorry, you can't add this user or bot to groups because you've blocked them. Please unblock to proceed."
  ],
  "YouBoostedChannel": [
   "You boosted the channel"
