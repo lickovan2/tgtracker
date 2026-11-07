@@ -386,6 +386,9 @@
  "lng_shortcuts_toggle_link_preview": [
   "Toggle link preview"
  ],
+ "lng_size_megabytes": [
+  "MB"
+ ],
  "lng_stickers_nothing_found": [
   "No stickers found"
  ],
