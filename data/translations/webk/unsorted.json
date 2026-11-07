@@ -15384,35 +15384,8 @@
   "First %d transfer each day is free, the rest cost almost nothing.",
   "First %d transfers each day are free, the rest cost almost nothing."
  ],
- "Wallet.Action.Received": [
-  "%1$s sent you %2$s"
- ],
- "Wallet.Action.ReceivedCompact": [
-  "sent you %s"
- ],
- "Wallet.Action.ReceivedUnknown": [
-  "You received %s"
- ],
- "Wallet.Action.Sent": [
-  "You sent %1$s to %2$s"
- ],
- "Wallet.Action.SentUnknown": [
-  "You sent %s"
- ],
- "Wallet.Action.TonConnectAppDisconnect": [
-  "%s asks to disconnect"
- ],
- "Wallet.Action.TonConnectAppSignData": [
-  "%s asks you to sign data. Click to review."
- ],
- "Wallet.Action.WithComment": [
-  "%1$s: %2$s"
- ],
  "Wallet.Apps.AllDisconnected": [
   "All apps disconnected."
- ],
- "Wallet.Apps.DisconnectAll": [
-  "Disconnect All Apps"
  ],
  "Wallet.Apps.DisconnectAllAction": [
   "Disconnect All"
@@ -15422,9 +15395,6 @@
  ],
  "Wallet.Apps.DisconnectAllText": [
   "These apps will lose access to your wallet. You can connect them again at any time."
- ],
- "Wallet.Apps.DisconnectAllTitle": [
-  "Disconnect All Apps?"
  ],
  "Wallet.Apps.DisconnectError": [
   "Unable to disconnect this app. Please try again."
@@ -15601,9 +15571,6 @@
   "Gram",
   "Grams"
  ],
- "Wallet.ChatList.UnreadTransfer": [
-  "Unread transfer"
- ],
  "Wallet.Collectible.Collection": [
   "Collection"
  ],
@@ -15655,57 +15622,6 @@
  "Wallet.Conflict.UpdatePendingText": [
   "The recovery phrase of this wallet was being changed and the blockchain hasn't confirmed which phrase is valid yet. Wait a moment and try again."
  ],
- "Wallet.Connect.Error": [
-  "Unable to connect this app. Please try again."
- ],
- "Wallet.Connect.Expired": [
-  "This connection request is no longer valid. Start the connection again from the app."
- ],
- "Wallet.Connect.Failed": [
-  "Couldn’t answer the request."
- ],
- "Wallet.Connect.HandledElsewhere": [
-  "This request was handled on another device."
- ],
- "Wallet.Connect.InvalidLink": [
-  "This TON Connect link is invalid."
- ],
- "Wallet.Connect.KeyChanging": [
-  "Your recovery phrase is being updated. Try again once the update is confirmed."
- ],
- "Wallet.Connect.KeyMismatch": [
-  "This app was connected with a different key of this wallet, so this device can’t answer it."
- ],
- "Wallet.Connect.ManifestInvalid": [
-  "This app’s details are invalid or belong to another domain, so the wallet was not connected."
- ],
- "Wallet.Connect.ManifestMissing": [
-  "Couldn’t load this app’s details, so the wallet was not connected."
- ],
- "Wallet.Connect.OutcomeUnknown": [
-  "This operation may already have been signed or sent. It will not be signed again. Check the wallet history."
- ],
- "Wallet.Connect.Proof": [
-  "It will ask you to prove ownership of this wallet to %s."
- ],
- "Wallet.Connect.Restore": [
-  "This device doesn’t hold the current key of this wallet. Restore it to use connected apps."
- ],
- "Wallet.Connect.RestoreAction": [
-  "Restore Wallet"
- ],
- "Wallet.Connect.SuccessText": [
-  "You are now connected to %s."
- ],
- "Wallet.Connect.SuccessTitle": [
-  "Connection Successful"
- ],
- "Wallet.Connect.Undelivered": [
-  "Couldn’t deliver the answer to the app."
- ],
- "Wallet.Connect.WrongNetwork": [
-  "This app requested a different wallet network."
- ],
  "Wallet.Details.DecryptErrorText": [
   "The comment could not be decrypted."
  ],
@@ -15755,15 +15671,6 @@
  "Wallet.FeesText": [
   "Every transfer on the blockchain pays a small network fee to the validators who record it. Some transfers to Telegram users are free: Telegram pays the fee for you."
  ],
- "Wallet.First.Rate": [
-  "**1 Gram** currently equals **%s**.You can:"
- ],
- "Wallet.First.SendText": [
-  "Transfer Grams to anyone.Click %1$s → %2$s in chats."
- ],
- "Wallet.First.StoreText": [
-  "Keep your Grams in Telegram(%1$s → %2$s) or other wallets."
- ],
  "Wallet.Gram.CheapText": [
   "Fees are nearly zero, even on large transfers."
  ],
@@ -15793,9 +15700,6 @@
  ],
  "Wallet.GramTooltip": [
   "Gram — Digital currency for Telegram"
- ],
- "Wallet.GramsAmount": [
-  "%1$s %2$s"
  ],
  "Wallet.Import.EnableBackupText": [
   "Enter your wallet's current 12- or 24-word recovery phrase to enable encrypted backup."
@@ -15830,17 +15734,8 @@
  "Wallet.Keys.DeviceKey": [
   "Key is stored on this device"
  ],
- "Wallet.Keys.DeviceNoKey": [
-  "No key on this device"
- ],
  "Wallet.Keys.DeviceSection": [
   "This Device"
- ],
- "Wallet.Keys.Forget": [
-  "Remove Key from This Device"
- ],
- "Wallet.Keys.ForgetText": [
-  "You will need your recovery phrase or the encrypted backup to send from this device again."
  ],
  "Wallet.Keys.ForgetUpdatePendingText": [
   "The recovery phrase of this wallet is being updated. The key can be removed from this device once the update is finished."
@@ -15860,21 +15755,6 @@
  "Wallet.LoadError": [
   "Couldn't load your wallet."
  ],
- "Wallet.Logout.Local": [
-  "Your Gram wallet's keys are stored only on this device and Telegram has no backup of them. Continuing destroys them — only your recovery phrase can restore the wallet.",
-  "%d of your Gram wallets have their keys stored only on this device, with no Telegram backup. Continuing destroys them — only their recovery phrases can restore them."
- ],
- "Wallet.Logout.Parked": [
-  "This device also holds the keys of one other Gram wallet. Continuing destroys them, and that wallet can be restored only if its recovery phrase was written down.",
-  "This device also holds the keys of %d other Gram wallets. Continuing destroys them, and those wallets can be restored only if their recovery phrases were written down."
- ],
- "Wallet.Logout.Rotating": [
-  "A wallet key change on this device is not confirmed yet. Its replacement key is stored only here and Telegram has no backup of it. Continuing destroys it — if the change goes through, only the replacement recovery phrase can restore the wallet.",
-  "%d wallet key changes on this device are not confirmed yet. Their replacement keys are stored only here and Telegram has no backup of them. Continuing destroys them — if a change goes through, only its replacement recovery phrase can restore that wallet."
- ],
- "Wallet.Logout.Unknown": [
-  "If this device holds any Gram wallet keys, continuing destroys them. They can be restored only from a Telegram backup or your recovery phrase."
- ],
  "Wallet.Menu.Lock": [
   "Lock Wallet"
  ],
@@ -15886,15 +15766,6 @@
  ],
  "Wallet.PasswordSetText": [
   "Your account is now protected."
- ],
- "Wallet.Phrase.Error": [
-  "Couldn't show the recovery phrase."
- ],
- "Wallet.Phrase.ErrorTitle": [
-  "Couldn’t Show Secret Phrase"
- ],
- "Wallet.Phrase.PasswordText": [
-  "Please enter your password to view your recovery phrase."
  ],
  "Wallet.Provisioning": [
   "Setting up your wallet…"
@@ -15938,66 +15809,6 @@
  "Wallet.Replace.Title": [
   "Replace Wallet"
  ],
- "Wallet.Request.DeployContract": [
-  "Deploy Contract"
- ],
- "Wallet.Request.Excess": [
-  "Excess"
- ],
- "Wallet.Request.Expired": [
-  "The request has expired."
- ],
- "Wallet.Request.FeeFailed": [
-  "Couldn’t estimate the network fee."
- ],
- "Wallet.Request.FeeLoading": [
-  "Estimating the network fee…"
- ],
- "Wallet.Request.NotSent": [
-  "The transaction wasn’t sent. The app was told it failed."
- ],
- "Wallet.Request.Sent": [
-  "The transaction was sent."
- ],
- "Wallet.Request.TitleUnknown": [
-  "App Request"
- ],
- "Wallet.Request.TraceFailed": [
-  "The preview shows that part of this transaction may fail."
- ],
- "Wallet.Request.TraceIncomplete": [
-  "The preview of this transaction is incomplete."
- ],
- "Wallet.Request.UnknownOperation": [
-  "Unknown Operation"
- ],
- "Wallet.Restore.BackupText": [
-  "Enter your Two-Step Verification password to restore the key to this wallet from your encrypted backup."
- ],
- "Wallet.Restore.Done": [
-  "The key is restored on this device."
- ],
- "Wallet.Restore.ErrorTitle": [
-  "Couldn’t Restore Wallet"
- ],
- "Wallet.Restore.Foreign": [
-  "Only a recovery phrase created in Telegram can be imported here."
- ],
- "Wallet.Restore.Invalid": [
-  "These words are not a valid recovery phrase."
- ],
- "Wallet.Restore.Outdated": [
-  "These words are an old recovery phrase of this wallet. Enter the new phrase you got when its key was last updated."
- ],
- "Wallet.Restore.Suggestions": [
-  "Suggested words"
- ],
- "Wallet.Restore.TextBackup": [
-  "Enter your wallet's Secret Phrase to continue."
- ],
- "Wallet.Restore.Word": [
-  "Word %d"
- ],
  "Wallet.Retry": [
   "Try Again"
  ],
@@ -16021,9 +15832,6 @@
  ],
  "Wallet.Sent": [
   "🎉 Grams have been sent to %s."
- ],
- "Wallet.Sign.Done": [
-  "The data was signed."
  ],
  "Wallet.Transfer.CommentEncryptionErrorText": [
   "The comment could not be encrypted for this wallet. Check the network connection and try again."
@@ -16051,78 +15859,6 @@
  ],
  "Wallet.Unavailable": [
   "Wallet is not available for this account."
- ],
- "Wallet.Vault.Change": [
-  "Change Passcode"
- ],
- "Wallet.Vault.ChangeText": [
-  "Enter your current wallet passcode, then choose a new one."
- ],
- "Wallet.Vault.CreateText": [
-  "Choose a passcode to protect your wallet key on this device. You'll need it to send Grams."
- ],
- "Wallet.Vault.CreateTitle": [
-  "Protect Your Key"
- ],
- "Wallet.Vault.Current": [
-  "Current passcode"
- ],
- "Wallet.Vault.Forgot": [
-  "Forgot passcode?"
- ],
- "Wallet.Vault.ForgotText": [
-  "The key will be removed from this device. You can restore it again from your recovery phrase or the encrypted backup."
- ],
- "Wallet.Vault.New": [
-  "New passcode"
- ],
- "Wallet.Vault.NoPasscodeText": [
-  "Your wallet key on this device has no passcode: anyone with access to Telegram on this device can spend your funds."
- ],
- "Wallet.Vault.Passcode": [
-  "Passcode"
- ],
- "Wallet.Vault.PasscodeMismatch": [
-  "Passcodes don't match"
- ],
- "Wallet.Vault.PasscodeRepeat": [
-  "Repeat passcode"
- ],
- "Wallet.Vault.PasscodeShort": [
-  "Use at least 4 characters"
- ],
- "Wallet.Vault.Set": [
-  "Set Passcode"
- ],
- "Wallet.Vault.SetText": [
-  "Choose a passcode to protect your wallet key on this device. You'll need it to send Grams."
- ],
- "Wallet.Vault.SettingsText": [
-  "Your wallet key on this device is protected with a passcode. You'll need it to send Grams."
- ],
- "Wallet.Vault.SkipPasscode": [
-  "Don't use a passcode"
- ],
- "Wallet.Vault.SkipWarning": [
-  "Anyone with access to Telegram on this device will be able to spend your funds."
- ],
- "Wallet.Vault.TryLater": [
-  "Too many attempts. Try again in %1$s."
- ],
- "Wallet.Vault.TurnOffText": [
-  "Enter your wallet passcode to turn it off. Anyone with access to Telegram on this device will be able to spend your funds."
- ],
- "Wallet.Vault.UnlockText": [
-  "Enter your wallet passcode to continue."
- ],
- "Wallet.Vault.UnlockTitle": [
-  "Enter Passcode"
- ],
- "Wallet.Vault.Wrong": [
-  "Wrong passcode"
- ],
- "Wallet.ViewProfile": [
-  "View Profile ›"
  ],
  "WalletActiveConnections": [
   "Active connections"
