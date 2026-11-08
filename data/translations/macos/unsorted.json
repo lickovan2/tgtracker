@@ -8972,6 +8972,12 @@
  "PeerInfo.Context.OpenPhoto": [
   "Open Photo"
  ],
+ "PeerInfo.CopyProtection.DisableSharing": [
+  "Disable Sharing"
+ ],
+ "PeerInfo.CopyProtection.EnableSharing": [
+  "Enable Sharing"
+ ],
  "PeerInfo.CopyProtection.EnableSharing.Confirm.Header": [
   "Enable Sharing"
  ],
@@ -8989,6 +8995,9 @@
  ],
  "PeerInfo.CopyProtection.RequiresPremium": [
   "This feature requires Telegram Premium."
+ ],
+ "PeerInfo.CopyProtection.Restrict": [
+  "Restrict Forwarding"
  ],
  "PeerInfo.DirectMessages.Off": [
   "Off"
@@ -11996,6 +12005,9 @@
  "StarGift.ModelBuilder.ViewOtherModels": [
   "View %1$@ models ›"
  ],
+ "StarGift.Nft.CantChooseFirst": [
+  "Can't Choose First"
+ ],
  "StarGift.Nft.CantChooseFirstInfo": [
   "This gift can't be used as the first one in crafting because it has been recorded on the blockchain."
  ],
@@ -13670,6 +13682,9 @@
  "UserTag.Info.Admin": [
   "Admin"
  ],
+ "UserTag.Info.AdminTag": [
+  "Admin Tag"
+ ],
  "UserTag.Info.AdminTagDesc": [
   " is %1$@'s admin tag in %2$@."
  ],
@@ -13679,8 +13694,14 @@
  "UserTag.Info.Member": [
   "Member"
  ],
+ "UserTag.Info.MemberTag": [
+  "Member Tag"
+ ],
  "UserTag.Info.Owner": [
   "Owner"
+ ],
+ "UserTag.Info.OwnerTag": [
+  "Owner Tag"
  ],
  "UserTag.Info.OwnerTagDesc": [
   " is %1$@'s owner tag in %2$@."
@@ -13696,6 +13717,9 @@
  ],
  "UserTag.Info.ThisRedTag": [
   "This purple tag "
+ ],
+ "UserTag.Info.Understood": [
+  "Understood"
  ],
  "Username.Activate.Info": [
   "Do you want to show this link on your profile page?"
