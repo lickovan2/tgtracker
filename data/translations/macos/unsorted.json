@@ -464,6 +464,12 @@
  "AiStylePreview.OpenLinkOnTelegram": [
   "Open the link on Telegram to add this style."
  ],
+ "Alert.ButtonOK.UpdateApp": [
+  "Update App"
+ ],
+ "Alert.Confirm.Discard": [
+  "Discard"
+ ],
  "Alert.Discard": [
   "Discard"
  ],
@@ -2040,6 +2046,9 @@
  "Chat.Context.AutoDelete": [
   "Auto-Delete Messages"
  ],
+ "Chat.Context.Ban": [
+  "Ban"
+ ],
  "Chat.Context.BlockGroup": [
   "Block Group"
  ],
@@ -2732,6 +2741,9 @@
  "Chat.Message.ViewGroup": [
   "VIEW GROUP"
  ],
+ "Chat.MessageAction.RequestToJoin": [
+  "REQUEST TO JOIN"
+ ],
  "Chat.MessageMenuItems.SendMoney": [
   "Send Money"
  ],
@@ -2849,6 +2861,15 @@
  ],
  "Chat.SecretChat.PremiumRequired": [
   "%@ only accepts secret chats from contacts and Premium users."
+ ],
+ "Chat.SecretChat.Preview.Header": [
+  "Secret Chat"
+ ],
+ "Chat.SecretChat.Preview.NO": [
+  "NO"
+ ],
+ "Chat.SecretChat.Preview.OK": [
+  "YES"
  ],
  "Chat.SecretChat.Preview.Text": [
   "Would you like to enable extended link previews in Secret Chats? Note that link previews are generated on Telegram servers."
@@ -5088,6 +5109,18 @@
  "CommunityView.Unmute": [
   "Unmute"
  ],
+ "ContactInfo.Job": [
+  "job"
+ ],
+ "ContactInfo.PhoneLabelHomeFax": [
+  "home fax"
+ ],
+ "ContactInfo.PhoneLabelWorkFax": [
+  "work fax"
+ ],
+ "ContactInfo.Title": [
+  "title"
+ ],
  "Contacts.Sort.ByLastSeen": [
   "by Last Seen"
  ],
@@ -5538,6 +5571,9 @@
  ],
  "DownloadsManager.Control.Navigate": [
   "%@ - [View in Chat]()"
+ ],
+ "Edit.Message.EditCurrentPhoto": [
+  "Edit"
  ],
  "Edit.PostSuggestion.Action.Free": [
   "Offer for Free"
@@ -6338,6 +6374,9 @@
  "Gallery.Context.CopySubject": [
   "Copy Subject"
  ],
+ "Gallery.Context.MainPhoto": [
+  "Set As Main Photo"
+ ],
  "Gallery.Context.Original": [
   "Original"
  ],
@@ -6346,6 +6385,9 @@
  ],
  "Gallery.Context.SendSubjectAsSticker": [
   "Send as Sticker"
+ ],
+ "Gallery.Context.Share.ThisFile": [
+  "This File"
  ],
  "Gallery.HideTranslation": [
   "Hide Translation"
@@ -8930,12 +8972,6 @@
  "PeerInfo.Context.OpenPhoto": [
   "Open Photo"
  ],
- "PeerInfo.CopyProtection.DisableSharing": [
-  "Disable Sharing"
- ],
- "PeerInfo.CopyProtection.EnableSharing": [
-  "Enable Sharing"
- ],
  "PeerInfo.CopyProtection.EnableSharing.Confirm.Header": [
   "Enable Sharing"
  ],
@@ -8953,9 +8989,6 @@
  ],
  "PeerInfo.CopyProtection.RequiresPremium": [
   "This feature requires Telegram Premium."
- ],
- "PeerInfo.CopyProtection.Restrict": [
-  "Restrict Forwarding"
  ],
  "PeerInfo.DirectMessages.Off": [
   "Off"
@@ -10004,6 +10037,9 @@
  ],
  "ReportReason.Report": [
   "Report"
+ ],
+ "RequestAcces.Error.Conirm.Settings": [
+  "Settings"
  ],
  "RequestAcces.Error.HaveNotAccess.Call": [
   "Telegram needs microphone access so that you can make calls."
@@ -11960,9 +11996,6 @@
  "StarGift.ModelBuilder.ViewOtherModels": [
   "View %1$@ models ›"
  ],
- "StarGift.Nft.CantChooseFirst": [
-  "Can't Choose First"
- ],
  "StarGift.Nft.CantChooseFirstInfo": [
   "This gift can't be used as the first one in crafting because it has been recorded on the blockchain."
  ],
@@ -13003,6 +13036,9 @@
  "Telegram.UpgradeDatabase.Title": [
   "Optimizing Database"
  ],
+ "TermsOfService.Accept.ConfirmAge": [
+  "Confirm"
+ ],
  "Text.Arrow": [
   "%1$@ → %2$@"
  ],
@@ -13634,9 +13670,6 @@
  "UserTag.Info.Admin": [
   "Admin"
  ],
- "UserTag.Info.AdminTag": [
-  "Admin Tag"
- ],
  "UserTag.Info.AdminTagDesc": [
   " is %1$@'s admin tag in %2$@."
  ],
@@ -13646,14 +13679,8 @@
  "UserTag.Info.Member": [
   "Member"
  ],
- "UserTag.Info.MemberTag": [
-  "Member Tag"
- ],
  "UserTag.Info.Owner": [
   "Owner"
- ],
- "UserTag.Info.OwnerTag": [
-  "Owner Tag"
  ],
  "UserTag.Info.OwnerTagDesc": [
   " is %1$@'s owner tag in %2$@."
@@ -13669,9 +13696,6 @@
  ],
  "UserTag.Info.ThisRedTag": [
   "This purple tag "
- ],
- "UserTag.Info.Understood": [
-  "Understood"
  ],
  "Username.Activate.Info": [
   "Do you want to show this link on your profile page?"
