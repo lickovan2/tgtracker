@@ -1,6 +1,6 @@
 {
  "version": "13.2.2",
- "code": "72979",
+ "code": "72989",
  "package": "org.telegram.messenger.beta",
  "min_sdk": "23",
  "target_sdk": "36",
