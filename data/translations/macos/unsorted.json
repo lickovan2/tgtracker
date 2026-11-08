@@ -15151,7 +15151,7 @@
   "Avatar Options"
  ],
  "VoiceOver.Segment.RecoveryPhraseLength": [
-  "Recovery Phrase Length"
+  "Secret Phrase Length"
  ],
  "VoiceOver.SelectPeers.Counter": [
   "%1$@, %2$@ of %3$@ selected"
