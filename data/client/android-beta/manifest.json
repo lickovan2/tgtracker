@@ -1,6 +1,6 @@
 {
- "version": "13.2.1",
- "code": "72919",
+ "version": "13.2.2",
+ "code": "72979",
  "package": "org.telegram.messenger.beta",
  "min_sdk": "23",
  "target_sdk": "36",
@@ -130,7 +130,8 @@
   "org.telegram.messenger.WearAuthListenerService",
   "org.telegram.messenger.voip.TelegramConnectionService",
   "org.telegram.messenger.voip.VoIPService",
-  "org.telegram.ui.Stories.recorder.StoryUploadingService"
+  "org.telegram.ui.Stories.recorder.StoryUploadingService",
+  "org.telegram.utils.twidget.WidgetEngineService"
  ],
  "receivers": [
   "androidx.car.app.notification.CarAppNotificationBroadcastReceiver",
