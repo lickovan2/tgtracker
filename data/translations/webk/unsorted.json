@@ -15614,7 +15614,7 @@
   "This collectible is no longer in your wallet."
  ],
  "Wallet.Collectible.NumberAbout": [
-  "The anonymous number %s that can be used to create a Telegram account that is not tied to a SIM card."
+  "The collectible number %s that can be used to create a Telegram account that is not tied to a SIM card."
  ],
  "Wallet.Collectible.OwnWallet": [
   "This collectible is already in your wallet."
