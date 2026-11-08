@@ -15490,7 +15490,7 @@
   "Cancel Disabling"
  ],
  "Wallet.Backup.CancelText": [
-  "Your recovery phrase will not be updated."
+  "Your secret phrase will not be updated."
  ],
  "Wallet.Backup.CancelTitle": [
   "Cancel Disabling Backup?"
@@ -16368,7 +16368,7 @@
   "Wallet Imported"
  ],
  "WalletImportedInfo": [
-  "Your wallet was restored from your recovery phrase."
+  "Your wallet was restored from your secret phrase."
  ],
  "WalletIncomingCollectibleAmount": [
   "+1 item"
@@ -16383,7 +16383,7 @@
   "Insufficient Funds."
  ],
  "WalletInvalidRecoveryPhrase": [
-  "Invalid Recovery Phrase"
+  "Invalid Secret Phrase"
  ],
  "WalletInvalidRecoveryPhraseInfo": [
   "Check the word order.Only a recovery phrase created in Telegram can be imported here."
@@ -16468,10 +16468,10 @@
   "Your Secret Recovery Phrase is the key to back up your wallet. Keep it secret and secure at all times."
  ],
  "WalletRecoveryPhraseLearnButton": [
-  "Show Recovery Phrase"
+  "Show Secret Phrase"
  ],
  "WalletRecoveryPhraseLearnTitle": [
-  "Recovery Phrase"
+  "Secret Phrase"
  ],
  "WalletRecoveryPhraseNeverShare": [
   "**Never share **your secret Recovery Phrase with anyone."
@@ -16642,7 +16642,7 @@
   "The words you entered don't match the wallet."
  ],
  "WalletYourRecoveryPhrase": [
-  "Your Recovery Phrase"
+  "Your Secret Phrase"
  ],
  "WallpaperDimming": [
   "Wallpaper dimming"
