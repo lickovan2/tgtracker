@@ -15574,7 +15574,7 @@
   "Couldn't Update Secret Phrase"
  ],
  "Wallet.Backup.UpdateTopUpText": [
-  "You need a non-zero balance to update your recovery phrase."
+  "You need a non-zero balance to update your secret phrase."
  ],
  "Wallet.Backup.VerifyPhraseErrorText": [
   "This recovery phrase may be outdated for your wallet. Enter the current recovery phrase to enable backup."
