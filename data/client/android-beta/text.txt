@@ -1004,8 +1004,6 @@
 , presentationDisplayId=
 , presentationTimeUs=
 , prettyPrintIndent='
-, preview=
-, previewMinFrameDurationNs=
 , prfExtension=
 , primaryGroupId=
 , primaryInputFrames=
@@ -1132,6 +1130,7 @@
 , selectionFlags=[
 , senderAppIdentifier:
 , senderAppLaunchUrl:
+, sensorAspect=
 , sensorIntervalMs={avg=
 , sensorOrientation=
 , serverCloseCode=
@@ -7256,7 +7255,7 @@ capture session closed
 capture session configured
 capture session configured: facing=
 capture session failed to configure
-capture session requested: preview=
+capture session requested: recording=
 capture stopped: samples=
 capturer is disposed.
 capturerObserver not set.
