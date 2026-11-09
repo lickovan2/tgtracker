@@ -1786,6 +1786,9 @@
  "AttachVoiceExpired": [
   "Expired voice message"
  ],
+ "AttachWidget": [
+  "Widget"
+ ],
  "AudioAddToProfile": [
   "Add to Profile"
  ],
@@ -9674,6 +9677,9 @@
  "PollAddingActionYou": [
   "You added \"{0}\" to the poll"
  ],
+ "PollEndsIn": [
+  "ends in {0}"
+ ],
  "PollItemQuote": [
   "Reply to Option"
  ],
@@ -9688,6 +9694,12 @@
  ],
  "PollResults": [
   "Poll Results"
+ ],
+ "PollResultsIn": [
+  "results in {0}"
+ ],
+ "PollResultsWillLater": [
+  "Results will appear after the poll ends"
  ],
  "PollSubmitVotes": [
   "VOTE"
@@ -9783,8 +9795,18 @@
  "PollV2ToastOnlyUsersFromCountriesCanVoteOther": [
   "Only users from **{0}** and **{1}** can vote."
  ],
+ "PollViewBack": [
+  "< Vote"
+ ],
  "PollViewResults": [
   "VIEW RESULTS"
+ ],
+ "PollViewVotesAsAdmin": [
+  "{0} Vote >",
+  "{0} Votes >"
+ ],
+ "PollViewVotesX": [
+  "View Votes ({0})"
  ],
  "PopularReactions": [
   "Popular"
@@ -11468,6 +11490,9 @@
  ],
  "SendMessageRestrictedForever": [
   "The admins of this group have restricted your ability to send messages."
+ ],
+ "SendSelectedLocation": [
+  "Send Selected Location"
  ],
  "SendTodayAt": [
   "'Send today at' HH:mm"
@@ -14643,6 +14668,9 @@
  "WalletAddressOrName": [
   "Address or name"
  ],
+ "WalletAppRequestsSignature": [
+  "{0} requests your signature"
+ ],
  "WalletAppRequestsTransfer": [
   "{0} requests a transfer"
  ],
@@ -14675,6 +14703,12 @@
  ],
  "WalletBalanceAmount": [
   "Balance: {0}"
+ ],
+ "WalletBinaryData": [
+  "Binary Data"
+ ],
+ "WalletBinaryDataWarning": [
+  "You are signing blindly. Sign only from trusted sources."
  ],
  "WalletBlockchainVerified": [
   "Blockchain Verified"
@@ -15085,6 +15119,9 @@
  "WalletReview": [
   "Review"
  ],
+ "WalletReviewSigningData": [
+  "Carefully review the message, and if you agree, sign data."
+ ],
  "WalletSearchNoResults": [
   "There were no results for \"{0}\".Try another name or address."
  ],
@@ -15132,6 +15169,15 @@
  ],
  "WalletShowMyQR": [
   "Show my QR"
+ ],
+ "WalletSign": [
+  "Sign"
+ ],
+ "WalletSignData": [
+  "Sign Data"
+ ],
+ "WalletSigningData": [
+  "Data"
  ],
  "WalletTermsOfService": [
   "By using this service you agree to its **Terms**."
@@ -15296,6 +15342,12 @@
  ],
  "White": [
   "White"
+ ],
+ "WidgetNetworkHint": [
+  "A tap may send data to the bot's server."
+ ],
+ "WidgetStopped": [
+  "Widget stopped"
  ],
  "WithdrawChannelAlertText": [
   "You can collect rewards only if you have:"
