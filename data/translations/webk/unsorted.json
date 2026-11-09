@@ -15846,7 +15846,7 @@
   "The recovery phrase of this wallet is being updated. The key can be removed from this device once the update is finished."
  ],
  "Wallet.Keys.PhraseCaption": [
-  "You can transfer your wallet to another device by copying your 12- or 24-word recovery phrase."
+  "You can transfer your wallet to another device by copying your 12- or 24-word secret phrase."
  ],
  "Wallet.Keys.Restore": [
   "Enter Secret Phrase"
@@ -15903,7 +15903,7 @@
   "This device can view this wallet but can't send from it."
  ],
  "Wallet.ReadOnly.Restore": [
-  "Restore from recovery phrase"
+  "Restore from secret phrase"
  ],
  "Wallet.Receive.PurchaseFailedText": [
   "The purchase couldn't be started. Please try again."
