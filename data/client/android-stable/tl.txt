@@ -268,8 +268,12 @@ TL_auth_codeTypeSms
 TL_auth_exportAuthorization
 TL_auth_exportLoginToken
 TL_auth_exportedAuthorization
+TL_auth_finishFirebasePnvLogin
+TL_auth_firebasePnvIntent
+TL_auth_firebasePnvSignUp
 TL_auth_importAuthorization
 TL_auth_importLoginToken
+TL_auth_initFirebasePnvLogin
 TL_auth_logOut
 TL_auth_loggedOut
 TL_auth_loginToken

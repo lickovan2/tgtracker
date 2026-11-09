@@ -145,6 +145,7 @@ archive_and_mute_new_noncontact_peers
 archivehint_l
 around_animation
 array_completeness
+arrow_axis
 aspect_ratio
 aspect_ratio_info_present_flag
 atop_macro
@@ -685,9 +686,11 @@ date_modified
 day_of_week
 dbg_force_connection_service
 dbg_force_tcp_in_calls
+dc_api
 dc_id
 dc_options
 dc_txt_domain_name
+dcql_query
 ddots_macro
 decimal_sep
 decline_call_alpha_end_close
@@ -739,6 +742,7 @@ dialog_bar_distance
 dialog_bar_exception
 dialog_bar_invite
 dialog_bar_location
+dialog_bar_replied
 dialog_bar_report
 dialog_bar_share
 dialog_bar_vis3
@@ -764,6 +768,7 @@ dialog_settings
 dialog_show_translate_count
 dialogs_hint
 diff_text
+digital_credential_payload
 direct_share
 disable_sharing_learn
 disabled_message
@@ -989,6 +994,8 @@ finish_light
 firebase_data_collection_default_enabled
 firebase_database_url
 firebase_messaging_auto_init_enabled
+firebase_messaging_installation_id_enabled
+firebase_messaging_notification_delegation_enabled
 first_name
 first_name_card
 first_name_native
@@ -1046,6 +1053,13 @@ forwarded_count_max
 forwards_count
 forwards_first
 fourth_background_color
+fpnv_allowed
+fpnv_exchange_credential_response_for_phone_number_api
+fpnv_get_consent_screen_intent
+fpnv_get_digital_credential_payload_api
+fpnv_get_verification_support_info
+fpnv_test_sessions
+fpnv_verify_phone_number
 frac_macro
 fragment_listed_count
 fragment_listed_url
@@ -1150,6 +1164,7 @@ google_sdk
 google_sdk_flags
 google_signin_allowed
 google_storage_bucket
+google_token
 gpay_parameters
 gram_wallet
 greeting_message
@@ -1305,7 +1320,6 @@ intertext_macro
 intro_crashed_time
 intro_description_length_limit
 intro_title_length_limit
-invalid_parameters
 invert_media
 invisible_actions
 invite_hash
@@ -1326,6 +1340,7 @@ is_admin
 is_app
 is_copy
 is_fullscreen
+is_fully_rolled_out
 is_megagroup
 is_outgoing
 is_output_switcher_enabled
@@ -1490,6 +1505,7 @@ main_button_pressed
 main_tab
 makeatletter_macro
 makeatother_macro
+malformed_locales
 manage_call
 manage_chat
 manage_direct_messages
@@ -1609,7 +1625,6 @@ minuscoloncolon_macro
 missing_balance
 missing_invitees
 missing_peers
-missing_to
 ml_sdk_instance_id
 module_flag_control
 monoforum_peer_id
@@ -1722,6 +1737,7 @@ no_activity_days
 no_ads
 no_forwards_request_expire_period
 no_funds
+no_joined_notifications
 no_muted
 no_otp
 no_otp_paid
@@ -1735,6 +1751,7 @@ noncontact_peers_paid_stars
 nopaid_messages_exception
 normal_macro
 nosound_video
+notification_data
 notification_type
 notifications_disabled
 notify_cloud_delay_ms
@@ -1970,6 +1987,7 @@ post_stories
 poster_photo_id
 posts_between
 posts_search
+preferences_pb
 preload_featured_stickers
 preload_messages
 preload_prefix_size
@@ -2046,8 +2064,10 @@ proxy_dialog
 proxy_enabled
 proxy_ip
 proxy_list
+proxy_notification_initialized
 proxy_pass
 proxy_port
+proxy_retention
 proxy_secret
 proxy_type
 proxy_user
@@ -2134,6 +2154,7 @@ read_loaded
 read_max_id
 read_messages
 read_outbox_max_id
+recaptcha_site_key
 receipt_msg_id
 receive_date
 received_by
@@ -2235,6 +2256,8 @@ resetview_params
 residence_country_code
 resize_frame
 resizebox_macro
+response_mode
+response_type
 restrict_members
 restricted_sponsored
 restrictedstatuses_last_check
@@ -2244,6 +2267,7 @@ result_id
 result_receiver
 result_text
 result_url
+resuming_sender
 retry_contacts
 retry_date
 return_back
@@ -2409,7 +2433,6 @@ seq_in
 seq_out
 seq_start
 sequence_num
-service_not_available
 session_id
 session_ids
 set_bundle_setting
@@ -2502,7 +2525,6 @@ sort_by_num
 sort_by_price
 sort_by_value
 source_groups
-source_id
 space_between
 speed_accuracy
 spend_purpose_peer
@@ -2715,6 +2737,7 @@ support_id2
 support_user
 supports_base_currencies
 supports_limits
+supports_message_handled
 supports_quote
 supports_streaming
 surd_macro
@@ -2771,6 +2794,7 @@ telegram_theme
 telegram_user
 telegram_videochat
 telegram_voicechat
+telephony_subscription_service
 temperature_c
 temporary_registration
 terms_of_service
@@ -3083,6 +3107,7 @@ voice_messages_forbidden
 voice_msg_ids
 voice_to_text
 voip_answer
+voip_answer_token
 voip_chat
 voip_enable_stun_marking
 voip_logs
@@ -3090,6 +3115,7 @@ voip_server_config
 volume_by_admin
 volume_id
 votes_graph
+vp_token
 vphantom_macro
 vsep_ext_bot
 vsep_ext_top
@@ -3208,6 +3234,7 @@ widget_heights
 widget_id
 widget_link
 widget_state
+widgets_disabled
 wifi_p2p_state
 window_flags
 winners_are_visible
