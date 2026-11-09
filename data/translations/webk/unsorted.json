@@ -15855,7 +15855,7 @@
   "Restore from encrypted backup"
  ],
  "Wallet.Keys.RestoreCaption": [
-  "Enter your recovery phrase to restore access to this wallet."
+  "Enter your secret phrase to restore access to this wallet."
  ],
  "Wallet.LoadError": [
   "Couldn't load your wallet."
