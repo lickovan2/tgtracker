@@ -15614,7 +15614,7 @@
   "This collectible is no longer in your wallet."
  ],
  "Wallet.Collectible.NumberAbout": [
-  "The collectible number %s that can be used to create a Telegram account that is not tied to a SIM card."
+  "A collectible number %s can be used to create a Telegram account that is not tied to a SIM card."
  ],
  "Wallet.Collectible.OwnWallet": [
   "This collectible is already in your wallet."
@@ -15876,7 +15876,7 @@
   "If this device holds any Gram wallet keys, continuing destroys them. They can be restored only from a Telegram backup or your recovery phrase."
  ],
  "Wallet.Menu.Lock": [
-  "Lock Wallet"
+  "Lock Money"
  ],
  "Wallet.Menu.Passcode": [
   "Passcode"
