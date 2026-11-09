@@ -15981,7 +15981,7 @@
   "Couldn’t Restore Wallet"
  ],
  "Wallet.Restore.Foreign": [
-  "Only a recovery phrase created in Telegram can be imported here."
+  "Only a secret phrase created in Telegram can be imported here."
  ],
  "Wallet.Restore.Invalid": [
   "These words are not a valid recovery phrase."
