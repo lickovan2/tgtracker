@@ -16465,7 +16465,7 @@
   "If someone has your Recovery Phrase they **can steal your funds**."
  ],
  "WalletRecoveryPhraseInfo": [
-  "Your Secret Recovery Phrase is the key to back up your wallet. Keep it secret and secure at all times."
+  "Your Secret Phrase is the key to back up your wallet. Keep it secret and secure at all times."
  ],
  "WalletRecoveryPhraseLearnButton": [
   "Show Secret Phrase"
