@@ -15825,7 +15825,7 @@
   "Proceed"
  ],
  "Wallet.Keys.DeleteText": [
-  "You'll lose access to your funds unless you've saved your recovery phrase."
+  "You'll lose access to your funds unless you've saved your secret phrase."
  ],
  "Wallet.Keys.DeviceKey": [
   "Key is stored on this device"
