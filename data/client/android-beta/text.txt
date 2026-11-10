@@ -7504,6 +7504,7 @@ deleted ASC
 deleted by size limit info: files
 deliverDecodedFrame failed
 deliverOutput failed
+delivered
 density =
 depositNFT: invalid payload
 depth metadata
@@ -9567,6 +9568,7 @@ sign data
 sign message
 sign message response
 signal
+signaling packets received before the call instance existed
 silent =
 sim status =
 simulator
