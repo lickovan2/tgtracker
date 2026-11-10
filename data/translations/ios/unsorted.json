@@ -68,8 +68,71 @@
  "AgeVerification.Verify": [
   "Verify My Age"
  ],
+ "Agent.AddAnotherProvider": [
+  "Add Another Provider"
+ ],
+ "Agent.AddKey": [
+  "Add Your AI API key"
+ ],
+ "Agent.AddKeyInfo": [
+  "This chatbot works only if you have an active subscription for an AI service."
+ ],
+ "Agent.Connect.ProviderHeader": [
+  "Provider"
+ ],
+ "Agent.Connect.ProviderInfo": [
+  "Select the AI provider you have an account with."
+ ],
+ "Agent.Connect.Title": [
+  "Connect API Key"
+ ],
+ "Agent.Connected.Start": [
+  "Start"
+ ],
+ "Agent.Connected.Text": [
+  "You can now use %@."
+ ],
+ "Agent.Connected.Title": [
+  "%@ connected!"
+ ],
+ "Agent.Effort": [
+  "Effort"
+ ],
+ "Agent.InputPlaceholder": [
+  "Ask Agent anything"
+ ],
+ "Agent.Key.Connect": [
+  "Connect %@"
+ ],
+ "Agent.Key.Connecting": [
+  "Connecting..."
+ ],
+ "Agent.Key.Header": [
+  "API Key"
+ ],
+ "Agent.Key.Info": [
+  "Get your API key or API token in your [AI provider's settings]()."
+ ],
+ "Agent.Key.Invalid": [
+  "Invalid API Key"
+ ],
+ "Agent.Key.Placeholder": [
+  "Paste your %@ API key"
+ ],
+ "Agent.Key.ProviderUnavailable": [
+  "%@ didn't respond. Please try again later."
+ ],
+ "Agent.Key.Title": [
+  "API Key"
+ ],
+ "Agent.ProvidersInfo": [
+  "Tap and hold to delete."
+ ],
  "Appearance.BubbleCorners.AdjustAdjacent": [
   "Adjust Adjacent Corners"
+ ],
+ "Appearance.BubbleMode": [
+  "Bubble Mode"
  ],
  "Appearance.CreateThemeInfo": [
   "A new theme template has been created from your current theme and was sent to your Saved Messages."
@@ -98,6 +161,12 @@
  "Appearance.TextSize.Automatic": [
   "System"
  ],
+ "Appearance.TextSize.FontDefault": [
+  "Default"
+ ],
+ "Appearance.TextSize.FontSerif": [
+  "New York"
+ ],
  "Appearance.TextSize.Title": [
   "Text Size"
  ],
@@ -106,6 +175,12 @@
  ],
  "Appearance.TextSizeSetting": [
   "Text Size"
+ ],
+ "Appearance.ThemeCarouselNeutral": [
+  "Neutral"
+ ],
+ "Appearance.ThemeCarouselNeutralNight": [
+  "Neutral Night"
  ],
  "Appearance.ThemeDayClassic": [
   "Day Classic"
@@ -181,6 +256,9 @@
  ],
  "AuthSessions.AddedDeviceTitle": [
   "Login Successful"
+ ],
+ "AuthSessions.LogOutApplicationsText": [
+  "Are you sure you want to disconnect all websites where you logged in with Telegram?"
  ],
  "AuthSessions.MessageApp": [
   "You allowed this bot to message you when you opened %@."
@@ -595,6 +673,9 @@
  "Call.Mute": [
   "mute"
  ],
+ "Call.PrivacyErrorMessageMultiple": [
+  "Sorry, %@ don't accept calls."
+ ],
  "Call.RemoteVideoPaused": [
   "%@'s video is paused"
  ],
@@ -618,6 +699,12 @@
  ],
  "Call.SystemStartErrorMessage": [
   "An error occurred"
+ ],
+ "Call.UnlockToSeeVideoNotification": [
+  "Unlock your phone to see and share video"
+ ],
+ "Call.UnlockToSeeVideoNotificationPad": [
+  "Unlock your iPad to see and share video"
  ],
  "Call.Video": [
   "video"
@@ -688,8 +775,20 @@
  "Channel.AddBotErrorNoRights": [
   "Bots can only be added to channels as admins."
  ],
+ "Channel.AddToChats": [
+  "Add to Chats"
+ ],
+ "Channel.AddToNews": [
+  "Add to News"
+ ],
  "Channel.AddUserKickedError": [
   "Sorry, you can't add this user because they are on the list of Removed Users and you can't unban them."
+ ],
+ "Channel.AddedToChats": [
+  "Added to Chats"
+ ],
+ "Channel.AddedToNews": [
+  "Added to News"
  ],
  "Channel.AdminLog.AntiSpamDisabled": [
   "%1$@ disabled anti-spam"
@@ -907,6 +1006,9 @@
  "Channel.DiscussionGroupInfo": [
   "Add a group chat for comments."
  ],
+ "Channel.DoNotNotify": [
+  "Do Not Notify"
+ ],
  "Channel.EditAdmin.GuardBotEnableSubscribersText": [
   "New subscribers will now need approval from **%@** before they can join this channel"
  ],
@@ -928,17 +1030,29 @@
  "Channel.Info.Description": [
   "description"
  ],
+ "Channel.IslandMenuHint": [
+  "Opens a menu."
+ ],
  "Channel.Management.DismissAdmin": [
   "Dismiss"
  ],
  "Channel.Management.LabelEditor": [
   "admin"
  ],
+ "Channel.Notify": [
+  "Notify"
+ ],
  "Channel.OwnershipTransfer.ErrorAdminsTooMuch": [
   "Sorry, this channel has too many admins and the new owner can't be added. Please remove one of the existing admins first."
  ],
  "Channel.OwnershipTransfer.ErrorPublicChannelsTooMuch": [
   "Sorry, the target user has too many public groups or channels already. Please ask them to make one of their existing groups or channels private first."
+ ],
+ "Channel.RemoveFromChats": [
+  "Remove from Chats"
+ ],
+ "Channel.RemoveFromNews": [
+  "Remove from News"
  ],
  "Channel.Setup.ActivateAlertShow": [
   "Show"
@@ -975,6 +1089,30 @@
  ],
  "Channel.Setup.TypeHeader": [
   "CHANNEL TYPE"
+ ],
+ "Channel.Toast.AddedToChats": [
+  "**%@** added to **Chats**."
+ ],
+ "Channel.Toast.AddedToNews": [
+  "**%@** added to **News** tab."
+ ],
+ "Channel.Toast.Archived": [
+  "**%@** archived."
+ ],
+ "Channel.Toast.NotificationsOff": [
+  "Notifications **off**."
+ ],
+ "Channel.Toast.NotificationsOn": [
+  "Notifications **on**."
+ ],
+ "Channel.Toast.RemovedFromChats": [
+  "**%@** removed from **Chats**."
+ ],
+ "Channel.Toast.RemovedFromNews": [
+  "**%@** removed from **News**."
+ ],
+ "Channel.Toast.Unarchived": [
+  "**%@** unarchived."
  ],
  "Channel.TooMuchBots": [
   "There are too many bots in this group. Please remove some of the bots you're not using first."
@@ -1621,6 +1759,21 @@
  ],
  "Chat.SensitiveContentShort": [
   "18+"
+ ],
+ "Chat.SideList.AllMessages": [
+  "All Messages"
+ ],
+ "Chat.SideList.Close": [
+  "Hide Chat List"
+ ],
+ "Chat.SideList.DirectMessages": [
+  "Direct messages"
+ ],
+ "Chat.SideList.NewTopic": [
+  "New Topic"
+ ],
+ "Chat.SideList.Open": [
+  "Show Chat List"
  ],
  "Chat.SimilarChannels.JoinedChannel": [
   "You joined channel **%@**."
@@ -3378,6 +3531,9 @@
  "Gift.Transfer.UpdateRequired.Title": [
   "Update Required"
  ],
+ "Gift.UnavailableAction.MoveToProfileText": [
+  "Move this gift from your wallet to your profile to unlock this action."
+ ],
  "Gift.Unique.OriginalInfoWithText": [
   "Gifted to %1$@ on %2$@ with comment \"%3$@\"."
  ],
@@ -4326,6 +4482,9 @@
  "Media.SendWithTimer": [
   "Send With Timer"
  ],
+ "MediaEditor.AddGeneratedImage": [
+  "Image"
+ ],
  "MediaEditor.AddGif": [
   "Add GIF"
  ],
@@ -4476,6 +4635,15 @@
  ],
  "Message.StickerText": [
   "%@ Sticker"
+ ],
+ "Message.Widget": [
+  "Widget"
+ ],
+ "Message.WidgetNetworkMarkerInfo": [
+  "Taps on this widget can send data to the bot."
+ ],
+ "Message.WidgetStopped": [
+  "Widget stopped"
  ],
  "MessageCalendar.DeleteConfirmation": [
   "Are you sure you want to delete all messages for the selected day?",
@@ -4647,6 +4815,105 @@
  ],
  "Navigation.AllChats": [
   "All Chats"
+ ],
+ "NewCall.ParticipantLimitAlert": [
+  "A call can have up to %@ participants."
+ ],
+ "News.Display.Compact": [
+  "Compact"
+ ],
+ "News.Display.Expanded": [
+  "Expanded"
+ ],
+ "News.Empty.Added": [
+  "Posts from your channels appear here"
+ ],
+ "News.Empty.ForYou": [
+  "No posts for you yet"
+ ],
+ "News.Error.Retry": [
+  "Retry"
+ ],
+ "News.Error.Text": [
+  "Couldn't load posts"
+ ],
+ "News.Feedback.Done.FewerLikeThis": [
+  "You'll see fewer posts like this"
+ ],
+ "News.Feedback.Done.HideChannel": [
+  "You won't see posts from %@"
+ ],
+ "News.Feedback.Done.RemoveFromNews": [
+  "%@ removed from News"
+ ],
+ "News.Feedback.FewerLikeThis": [
+  "Don't show posts like this"
+ ],
+ "News.Feedback.Hidden": [
+  "Post hidden. Tell us more?"
+ ],
+ "News.Feedback.HideChannel": [
+  "Don't show posts from %@"
+ ],
+ "News.Feedback.RemoveFromNews": [
+  "Remove %@ from News"
+ ],
+ "News.Interests.Title": [
+  "What are you interested in?"
+ ],
+ "News.MarkAllAsRead": [
+  "Mark All as Read"
+ ],
+ "News.NewPostsCount": [
+  "%@ new"
+ ],
+ "News.NewPostsPill": [
+  "New posts"
+ ],
+ "News.Refresh": [
+  "Refresh"
+ ],
+ "News.ReloadFeed": [
+  "Reload Feed"
+ ],
+ "News.Segment.Added": [
+  "Added"
+ ],
+ "News.Segment.ForYou": [
+  "For you"
+ ],
+ "News.ShowMore": [
+  "Show more"
+ ],
+ "News.Swipe.Collapse": [
+  "Collapse"
+ ],
+ "News.Swipe.Expand": [
+  "Expand"
+ ],
+ "News.Swipe.Interesting": [
+  "Interesting"
+ ],
+ "News.Swipe.NotInterested": [
+  "Not Interested"
+ ],
+ "News.Time.Days": [
+  "%@d"
+ ],
+ "News.Time.Hours": [
+  "%@h"
+ ],
+ "News.Time.Minutes": [
+  "%@m"
+ ],
+ "News.Time.Now": [
+  "now"
+ ],
+ "News.Time.Seconds": [
+  "%@s"
+ ],
+ "News.Title": [
+  "News"
  ],
  "Notification.BotWriteAllowed": [
   "You allowed this bot to message you when you added it to your attachment menu."
@@ -5721,6 +5988,12 @@
  "PeerInfo.Permissions.Biometry": [
   "Biometrics"
  ],
+ "PeerInfo.Permissions.Camera": [
+  "Camera"
+ ],
+ "PeerInfo.Permissions.Microphone": [
+  "Microphone"
+ ],
  "PeerInfo.PrivateShareLinkInfo": [
   "This link will only work for group members."
  ],
@@ -5733,6 +6006,9 @@
  "PeerInfo.TopicNotificationExceptions": [
   "[1 topic]() is listed as an exception.",
   "[%d topics]() are listed as exceptions."
+ ],
+ "PeerInfo.Topics.Sidebar": [
+  "Sidebar"
  ],
  "PeerInfo.TopicsLimitedDiscussionGroups": [
   "Topics are not yet available in the discussion groups of channels."
@@ -6485,6 +6761,24 @@
  ],
  "RichText.ButtonActionDisabled": [
   "Disabled"
+ ],
+ "RichText.ButtonActionTypeCopy": [
+  "Copy Text"
+ ],
+ "RichText.ButtonActionTypeURL": [
+  "URL"
+ ],
+ "RichText.ButtonActionTypeUserProfile": [
+  "User Profile"
+ ],
+ "RichText.ButtonChooseUser": [
+  "Choose User"
+ ],
+ "RichText.ButtonCopyTextPlaceholder": [
+  "Text to Copy"
+ ],
+ "RichText.ButtonSectionAction": [
+  "ACTION"
  ],
  "RichText.MenuButtonInline": [
   "Inline"
@@ -8005,6 +8299,30 @@
  "VoiceOver.BotKeyboard": [
   "Bot Keyboard"
  ],
+ "VoiceOver.Browser.Forward": [
+  "Forward"
+ ],
+ "VoiceOver.Browser.NextResult": [
+  "Next Result"
+ ],
+ "VoiceOver.Browser.PreviousResult": [
+  "Previous Result"
+ ],
+ "VoiceOver.Camera.Collage": [
+  "Collage"
+ ],
+ "VoiceOver.Camera.DualCamera": [
+  "Dual Camera"
+ ],
+ "VoiceOver.Camera.Flash": [
+  "Flash"
+ ],
+ "VoiceOver.Camera.RecordVideo": [
+  "Record Video"
+ ],
+ "VoiceOver.Camera.SwitchCamera": [
+  "Switch Camera"
+ ],
  "VoiceOver.Chat.AnimatedSticker": [
   "Animated sticker"
  ],
@@ -8081,11 +8399,68 @@
  "VoiceOver.ChatList.MessageRead": [
   "Read"
  ],
+ "VoiceOver.ChatList.Muted": [
+  "Muted"
+ ],
  "VoiceOver.ChatList.OutgoingMessage": [
   "Outgoing Message"
  ],
+ "VoiceOver.ChatList.Pinned": [
+  "Pinned"
+ ],
+ "VoiceOver.ChatList.ShowStoriesHint": [
+  "Double tap to show stories"
+ ],
+ "VoiceOver.ChatList.UnreadMentions": [
+  "Unread mentions"
+ ],
+ "VoiceOver.ChatList.UnreadReactions": [
+  "Unread reactions"
+ ],
+ "VoiceOver.Common.Add": [
+  "Add"
+ ],
+ "VoiceOver.Common.Collapse": [
+  "Collapse"
+ ],
+ "VoiceOver.Common.ColorNumber": [
+  "Color %@"
+ ],
+ "VoiceOver.Common.Expand": [
+  "Expand"
+ ],
+ "VoiceOver.Common.NoColor": [
+  "No Color"
+ ],
+ "VoiceOver.Common.Page": [
+  "Page"
+ ],
+ "VoiceOver.Common.SectionIndex": [
+  "Section Index"
+ ],
+ "VoiceOver.Common.Verified": [
+  "Verified"
+ ],
  "VoiceOver.DismissContextMenu": [
   "Dismiss Context Menu"
+ ],
+ "VoiceOver.EmojiPicker.None": [
+  "None"
+ ],
+ "VoiceOver.Gallery.PlaybackPosition": [
+  "Playback position"
+ ],
+ "VoiceOver.Gallery.SeekBackward": [
+  "Back 15 Seconds"
+ ],
+ "VoiceOver.Gallery.SeekForward": [
+  "Forward 15 Seconds"
+ ],
+ "VoiceOver.Gallery.TextRecognition": [
+  "Recognize Text"
+ ],
+ "VoiceOver.Gallery.VideoSettings": [
+  "Video Settings"
  ],
  "VoiceOver.GiftPremium": [
   "Gift Telegram Premium"
@@ -8093,8 +8468,29 @@
  "VoiceOver.Keyboard": [
   "Keyboard"
  ],
+ "VoiceOver.MediaEditor.Adjustments": [
+  "Adjustments"
+ ],
+ "VoiceOver.MediaEditor.Rotate": [
+  "Rotate"
+ ],
+ "VoiceOver.MessageInput.Timer": [
+  "Timer"
+ ],
  "VoiceOver.MessageSelectionButtonTag": [
   "Tag"
+ ],
+ "VoiceOver.Passcode.Incorrect": [
+  "Incorrect passcode. Please try again."
+ ],
+ "VoiceOver.QrCodeScan.Flashlight": [
+  "Flashlight"
+ ],
+ "VoiceOver.Reactions.Premium": [
+  "Premium Reactions"
+ ],
+ "VoiceOver.Reactions.ShowAll": [
+  "Show All Reactions"
  ],
  "VoiceOver.ScheduledMessages": [
   "Scheduled Messages"
@@ -8117,8 +8513,32 @@
  "VoiceOver.Stickers": [
   "Stickers"
  ],
+ "VoiceOver.Stories.Like": [
+  "Like"
+ ],
+ "VoiceOver.Stories.NextPeer": [
+  "Next: %@"
+ ],
+ "VoiceOver.Stories.Position": [
+  "Story %1$@ of %2$@"
+ ],
+ "VoiceOver.Stories.PreviousPeer": [
+  "Previous: %@"
+ ],
+ "VoiceOver.Stories.Repost": [
+  "Repost"
+ ],
+ "VoiceOver.Stories.Sound": [
+  "Sound"
+ ],
+ "VoiceOver.Stories.Unseen": [
+  "New stories"
+ ],
  "VoiceOver.SuggestPost": [
   "Suggest Post"
+ ],
+ "VoiceOver.TabBar.AttentionRequired": [
+  "Attention required"
  ],
  "Wallet.Apps.AllDisconnected": [
   "All apps disconnected."
@@ -8629,6 +9049,9 @@
  "Wallet.Transfer.ToAddress": [
   "to %@"
  ],
+ "Wallet.Transfer.TopUpText": [
+  "There are not enough Grams in your wallet for this payment and its network fee. Top up your balance and try again."
+ ],
  "Wallet.Transfer.Unavailable": [
   "Unavailable"
  ],
@@ -8680,6 +9103,18 @@
  "WebApp.AllowWriteTitle": [
   "Allow Sending Messages?"
  ],
+ "WebApp.CameraMicrophonePermission.Succeed": [
+  "**%@** can now have access to your camera and microphone."
+ ],
+ "WebApp.CameraMicrophonePermission.Text": [
+  "**%1$@** requests access to your **camera** and **microphone**. You will be able to revoke this access in the profile page of **%2$@**."
+ ],
+ "WebApp.CameraPermission.Succeed": [
+  "**%@** can now have access to your camera."
+ ],
+ "WebApp.CameraPermission.Text": [
+  "**%1$@** requests access to your **camera**. You will be able to revoke this access in the profile page of **%2$@**."
+ ],
  "WebApp.ImportData.AccountHeader": [
   "ACCOUNT TO IMPORT DATA FROM"
  ],
@@ -8709,6 +9144,12 @@
  ],
  "WebApp.MessagePreview": [
   "Message Preview"
+ ],
+ "WebApp.MicrophonePermission.Succeed": [
+  "**%@** can now have access to your microphone."
+ ],
+ "WebApp.MicrophonePermission.Text": [
+  "**%1$@** requests access to your **microphone**. You will be able to revoke this access in the profile page of **%2$@**."
  ],
  "WebApp.SelectChat": [
   "Select Chat"
