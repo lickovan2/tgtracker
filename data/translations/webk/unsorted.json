@@ -16422,7 +16422,7 @@
   "Optional comment"
  ],
  "WalletOutgoingCollectibleAmount": [
-  "–1 item"
+  "-1 item"
  ],
  "WalletOutgoingTransfer": [
   "Outgoing transfer"
@@ -16504,7 +16504,7 @@
   "Send Grams"
  ],
  "WalletSendInstantly": [
-  "Send Money Instantly"
+  "Instant Transfers"
  ],
  "WalletSendInstantlyInfo": [
   "Send Grams in any chat, just like sharing a photo."
@@ -16534,7 +16534,7 @@
   "Store"
  ],
  "WalletTermsOfService": [
-  "By using Wallet you agree to [Terms of Service](https://telegram.org/tos)."
+  "By using this service, you agree to its [Terms](https://telegram.org/tos)."
  ],
  "WalletTestPhrase": [
   "Test Time"
@@ -16543,7 +16543,7 @@
   "Make sure you wrote your recovery phrase down correctly. Enter words **%1$d**, **%2$d** and **%3$d**."
  ],
  "WalletTitle": [
-  "Wallet"
+  "Money"
  ],
  "WalletTonConnectRequestAppDeclined": [
   "%s's transaction request declined"
