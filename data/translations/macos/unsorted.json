@@ -16050,7 +16050,7 @@
   "Copy Address"
  ],
  "Wallet.ReceiveController.PeerCaption": [
-  "Send GRAM to this addressor scan this QR code."
+  "Send Grams to this addressor scan this QR code."
  ],
  "Wallet.ReceiveController.PurchaseFailedInfo": [
   "The purchase couldn’t be started. Please try again."
