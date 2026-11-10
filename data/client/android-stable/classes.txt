@@ -620,5 +620,8 @@ ui/web/HttpGetFileTask
 utils/code/highlight/PrismaHighlighter
 utils/recorder/audio/AudioNoiseSuppressor
 utils/recorder/audio/AudioRecorderNative
+utils/twidget/WidgetClientNative
+utils/twidget/WidgetEngineBackend
+utils/twidget/WidgetEngineService
 utils/twidget/WidgetSandboxBackend
 utils/twidget/WidgetSandboxNative

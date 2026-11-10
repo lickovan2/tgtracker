@@ -140,6 +140,7 @@
 (at
 (cpu_count =
 (edit=
+(engine started:
 (expected M4A or M4P)
 (experimental)
 (failed to query capabilities)
@@ -216,6 +217,7 @@
 ) when blockSize is 0
 ) zone offset (s):
 ), (isAcknowledged=
+), closing=
 ), extensionSamplingFrequency=
 ), samplingFrequency=
 ), samplingFrequencyIndex=
@@ -235,6 +237,7 @@
 ): videoCapturer.startCapture SCREEN
 ): videoCapturer.stopCapture
 ): videoCapturer.switchCamera CAMERA
+): widths come from the client
 ** IS FORCE-RELEASED ON TIMEOUT **
 +++ /dev/null
 +message did=
@@ -309,6 +312,7 @@
 , address:
 , aeMode=
 , aeModes=
+, afterClose=
 , ainfo:
 , algorithm=
 , alignedAudioStartDeltaUs=
@@ -366,7 +370,6 @@
 , avgFrameRate=
 , avgMaxFreq=
 , avgMinFreq=
-, axesSwapped=
 , back=
 , backSession=
 , backendName=
@@ -444,7 +447,9 @@
 , client session id=
 , clientCloseCode=
 , clientInfo=
+, closeElapsedMs=
 , closeReason=
+, closing=
 , cloudProjectNumber=
 , code=
 , codecLatencyAvgMs=
@@ -506,10 +511,12 @@
 , device=
 , devicePublicKeyExtension=
 , deviceType=
+, devices=
 , dialog=
 , direct=
 , display speed:
 , displayRefreshRate=
+, displayRotation=
 , distance display unit:
 , does not match actual size
 , dormant =
@@ -860,6 +867,7 @@
 , overdueBlurGrowth=0.35, revealMs=
 , overscan_appropriate_flag=
 , overscan_info_present_flag=
+, owned=
 , pLpos:
 , packageName='
 , pair=
@@ -892,11 +900,8 @@
 , position=
 , positionMs=
 , preOriginFrames=
-, preparationMs=
 , presentationDisplayId=
 , presentationTimeUs=
-, preview=
-, previewMinFrameDurationNs=
 , prfExtension=
 , primaryGroupId=
 , primaryInputFrames=
@@ -926,7 +931,7 @@
 , reason=no stream map
 , reason=pair not advertised
 , reason=session-wide fallback
-, reason=warm device not ready
+, reason=standby session not ready
 , receiveTimeout=
 , received error
 , received false
@@ -940,6 +945,7 @@
 , regular
 , relAddr=
 , relPort=
+, released=
 , reload the whole langpack
 , remaining=
 , remainingSamplesAtTimestampDelta
@@ -968,6 +974,7 @@
 , reserved=
 , residentKeyRequirement=
 , responseCode=
+, restarting
 , resultMode=
 , resumes=
 , retainedDurationMs=
@@ -993,7 +1000,6 @@
 , sar_height=
 , sar_width=
 , scale = 1
-, scale=
 , screen layout:
 , screenMaxRefreshRate=
 , screenRefreshRate=
@@ -1010,6 +1016,7 @@
 , selectionFlags=[
 , senderAppIdentifier:
 , senderAppLaunchUrl:
+, sensorAspect=
 , sensorIntervalMs={avg=
 , sensorOrientation=
 , serverCloseCode=
@@ -1042,7 +1049,6 @@
 , speedDivisor=
 , standard offset
 , standbyId=
-, standbyRemaining=
 , start=
 , state=
 , stats: [
@@ -1070,7 +1076,7 @@
 , swipeEdge=
 , switch=
 , switchElapsedMs=
-, switchPath=
+, switchPath=SEQUENTIAL, switchElapsedMs=
 , syncExtensionType=
 , syntheticFrames=
 , tag
@@ -1080,9 +1086,7 @@
 , tagValue: '
 , target=
 , targetBlurRadiusPx=
-, targetId=
 , targetMet=
-, targetRemaining=
 , targetSurface=
 , tcp=
 , tcpType=
@@ -1188,6 +1192,7 @@
 , wait for it
 , waitForAccurateLocation
 , wallClock=
+, warm=
 , watchfaceCategories=
 , wearDetails=
 , when our last_offset[
@@ -1307,6 +1312,7 @@
 : description=
 : diagnostic=
 : domain=
+: engine process died
 : integrity check failed to give a token in
 : integrity check failes to parse project id
 : integrity check gave null token in
@@ -1556,7 +1562,7 @@ Action not implemented
 Action: %s is not a pre-defined action.
 ActionImpl { { actionType: '
 Active Fragments:
-Active warm camera
+Active camera
 Activity finished with resultCode
 Activity handed an unsupported type
 Activity has been destroyed
@@ -2056,7 +2062,6 @@ Cannot compute scroll delta before calling start()
 Cannot contain more than Integer.MAX_VALUE elements!
 Cannot create SeekableByteOrderedDataInputStream with stream that does not support mark/reset
 Cannot create an instance of
-Cannot create bundle directory
 Cannot create fragment
 Cannot create media decoder
 Cannot create media encoder
@@ -2116,6 +2121,7 @@ Cannot use SIGN_IN_MODE_REQUIRED with GOOGLE_SIGN_IN_API. Use connect(SIGN_IN_MO
 Cannot use detector after release()
 Cannot use sign-in mode:
 Cannot verify the intent with package
+Canvas batch
 Canvas dimensions
 Canvas memory budget
 CaptchaController: executeTask failure
@@ -2560,6 +2566,7 @@ Disconnected:
 DiscoveryRequest{ selector=
 Dispatchers.Default cannot be closed
 Dispatching call
+Display list
 Divide by 0
 Division algorithm failed to reduce polynomial? r:
 Divisor and dividend must be integer numbers
@@ -3215,6 +3222,7 @@ Fragments Created Menus:
 Frame encryption is not supported
 Frame metrics
 Frame rate is required
+Frame size
 Frame size exceeds remaining tag data
 Frame size must be at least
 Frame stride and slice height:
@@ -5400,6 +5408,7 @@ Test User
 Test session already enabled - `enableTestSession` should only be called once.
 Test-keys aren't accepted on this build.
 Text can not be null
+Text too long
 Texture frame captured but camera is no longer running.
 Texture height must be positive, but was
 Texture size has not been set.
@@ -5614,6 +5623,7 @@ TokenBindingStatus
 Toncenter returned an invalid transaction response
 Too Many Requests
 Too large for unsigned long:
+Too many fonts
 Too many redirects:
 Too many stream changes, so dropping offset:
 Top 40
@@ -6207,6 +6217,14 @@ Wi-Fi:
 Wibe Big
 Wibe Big 3
 Wibe Small
+Widget bundles are missing
+Widget bundles:
+Widget client:
+Widget client: font
+Widget engine did not start
+Widget engine service is unavailable
+Widget engine stopped
+Widget engine: argument too large
 Widget heights cleared
 Widgets are disabled by the app config
 Window callback may not be null
@@ -6468,7 +6486,6 @@ blocks
 blocks for
 bookContactsSize=
 border="1"
-both camera devices opened; configuring active session
 both camera devices opened; configuring dual sessions
 both eye views must be marked as available
 both prf and prfAlreadyHashed extensions found
@@ -6550,47 +6567,42 @@ camera candidate accepted: id=
 camera candidate rejected: id=
 camera capabilities: id=
 camera capture rate: measuredFps=
-camera closed for sequential switch: elapsedMs=
-camera closed for warm-switch recovery: id=
 camera configured: facing=
+camera device closed: id=
 camera device switch started: from=
-camera disconnected while warm-switch recovery is closing it: id=
 camera disconnected: id=
 camera dual-active capability rejected: incompatible frame rate, first=
+camera dual-active capability unavailable:
 camera dual-active capability: supported=
+camera dual-active capability: supported=false, reason=API<30
+camera dual-active disabled: reason=
 camera dual-active fallback: reason=
 camera dual-active fallback: reason=GL pipeline initialization failed, error=
 camera dual-active fallback: reason=standby device
 camera error
-camera error while warm-switch recovery is closing it: id=
+camera error: id=
 camera facing requested:
 camera lost while recording
 camera motion
 camera open requested: id=
+camera open results settled after release; quitting thread
 camera open submitted: surface=
 camera opened: id=
 camera outputs restored from cache: id=
 camera outputs selected: output=
 camera preview
+camera recovery: reason=
+camera segment start ignored: controller released
 camera segment start: facing=
 camera segment stop requested
-camera session configuration failed with warm device open
-camera session request failed with warm device open:
 camera switch first new frame: waitMs=
 camera switch first preview frame: path=
 camera switch first preview frame: path=DUAL_ACTIVE, totalElapsedMs=
 camera switch path: DUAL_ACTIVE, activeId=
 camera switch path: sequential
 camera switch path: waiting for DUAL_ACTIVE standby session
-camera switch path: waiting for warm device open
-camera switch path: warm device, targetId=
 camera switch started: target=
 camera target must not be null.
-camera warm-switch capability unavailable:
-camera warm-switch capability: supported=false, reason=API<30
-camera warm-switch disabled: reason=
-camera warm-switch recovery reopening target sequentially: facing=
-camera warm-switch recovery started: reason=
 can be annotated with ParseDetail
 can only be used with a compatible window decor layout
 can only be used with android:layout_height="wrap_content"
@@ -6666,8 +6678,7 @@ capture session closed
 capture session configured
 capture session configured: facing=
 capture session failed to configure
-capture session requested: preview=
-capture session retry waiting for standby camera close: id=
+capture session requested: recording=
 capture stopped: samples=
 capturer is disposed.
 capturerObserver not set.
@@ -6711,6 +6722,7 @@ clearing request
 cleartext.*not permitted.*
 client audio source=
 close me=
+closing camera devices: count=
 closing stale connected websocket; attempt=
 closing wallet-engine of
 cloudProjectNumber
@@ -6771,6 +6783,7 @@ context_id = ?
 continueWith is not implemented
 continueWithTask is not implemented
 continuing pending switch after DUAL_ACTIVE fallback
+conversion failed, retrying without codec speedups
 convertVideoInternal original=
 copyOf(this, newSize)
 copyOf(this, size)
@@ -6789,6 +6802,7 @@ count must be positive but was:
 count=
 counter does not exist
 courier new
+create
 create SessionState with cached mediaInfo and mediaStatus
 create encoder with w =
 create failure
@@ -6902,6 +6916,7 @@ deleted ASC
 deleted by size limit info: files
 deliverDecodedFrame failed
 deliverOutput failed
+delivered
 delivered callback: success=
 density =
 depositNFT: invalid payload
@@ -6974,6 +6989,7 @@ disconnecting because it was signed out.
 disconnecting; socket=
 disk image malformed detected, try recover
 dismissed, prevState=
+display rotation applied: degrees=
 display signing data
 display size =
 displayDistance must be a positive value
@@ -7100,6 +7116,7 @@ endTime
 endX value must be in the range [0, 1]
 ended
 ended keep-alive job
+engine up:
 eof
 epsX must be >= 0
 epsY must be >= 0
@@ -7768,6 +7785,7 @@ len=
 length < 33 (len=
 length=
 lhvC must follow hvcC atom
+libtwidget is missing
 light sensor registered
 light sensor unregistered
 lightSettings don't have all three fields
@@ -7955,15 +7973,20 @@ moveto RESTORE_VIEW_STATE:
 moveto RESUMED:
 moveto STARTED:
 ms
+ms (bundles
 ms (requested up to
 ms [
 ms ago
 ms ago, subscribed
 ms from
+ms from fork to onCreate, library
 ms getFile{time_ms=
 ms to
+ms to bind)
 ms to fit to
+ms)
 ms, max=
+ms, seccomp
 ms.
 ms; errorCode=
 ms]
@@ -8046,6 +8069,7 @@ no calls to next() since the last call to remove()
 no error message provided
 no event down from
 no event up from
+no fonts in this process (
 no included points
 no parent
 no path defined
@@ -8291,7 +8315,6 @@ op #
 op should be remove or update.
 open menu msg_id=
 open operation=
-open request failed
 opened
 opening websocket; attempt=
 options cannot be null
@@ -8411,7 +8434,6 @@ pres_bytes is smaller than presentation bytes read.
 present fragment
 present time =
 presents
-preview SurfaceTexture unavailable
 preview frame delivery started: thread=
 preview frame delivery: callbackFps=
 preview output finalized: size=
@@ -8425,8 +8447,6 @@ preview snapshot started: file=
 preview surface available: view=
 preview surface destroyed: active=
 preview surface size changed: view=
-preview transform: GL output, identity matrix, view=
-preview transform: view=
 priority
 priority=
 probably forgot to put setCallback
@@ -8556,6 +8576,8 @@ registered for push, push type:
 registrationResponseJson must not be empty, and must be a valid JSON
 registrationStatus
 reinstalling
+release deferred: output is still finishing
+release waits for camera open results: pending=
 release without a matched acquire!
 release() called on a session that's already fully released.
 release() called on an object with refcount < 1
@@ -8585,7 +8607,6 @@ reportFullyDrawn() for ComponentActivity
 reqId
 request
 request spam button for
-request submission failed
 request=
 requestAndShowDialog(%s, %s)
 requestExpressIntegrityToken(%s, %s, %s)
@@ -8755,8 +8776,8 @@ service received new intent via bind strategy
 service=
 serviceNumber is non-zero (
 session
-session configuration failed
 session created: device=
+session in
 session request failed
 session summary: terminal=
 sessionCommand is already set. Only one of sessionCommand and playerCommand should be set.
@@ -8839,6 +8860,7 @@ sigmaTilde(0) was zero
 sign data
 sign message
 sign message response
+signaling packets received before the call instance existed
 silent =
 siteName
 size
@@ -8889,17 +8911,16 @@ sqlite query
 src="
 stMatrix =
 stacktrace:
+stale camera error ignored: id=
+stale camera open closed: id=
 stale capture session configuration failure ignored
 stale capture session configuration failure ignored: id=
 stale capture session ignored: deviceId=
 stale repeating request rejection ignored:
 stale standby capture session ignored: id=
 stale warm camera open ignored: id=
-standby camera closed: id=
 standby capture session configured: id=
-standby device
-standby device disconnected
-standby device error=
+standby open request failed
 standby request submission failed
 standby session configuration failed
 starRating is out of range [0, maxStars]
@@ -9296,11 +9317,12 @@ wallet read-back mismatch
 wallet staging cleanup
 wallet too large
 wallet-engine transaction
-warm camera disconnected while recovery is closing it: id=
-warm camera error while recovery is closing it: id=
-warm camera failed during startup; configuring active camera only
+warm camera disconnected: id=
+warm camera error: id=
 warm camera open requested: id=
 warm camera opened: id=
+warm: bundles in
+warmup failed
 was
 was cancelled
 was cancelled normally
