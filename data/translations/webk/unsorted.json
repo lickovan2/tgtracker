@@ -9856,7 +9856,7 @@
   "Sorry, it is not possible to deliver to your address."
  ],
  "PaymentPrecheckoutFailed": [
-  "Sorry, the payment was cancelled by the bot."
+  "Sorry, the payment was canceled by the bot."
  ],
  "PaymentReceipt": [
   "Receipt"
@@ -15327,7 +15327,7 @@
   "Join Live Stream"
  ],
  "VoipChannelUserChanged": [
-  "Members of this live stream will now see you as **%1$@**"
+  "Participants of this live stream will now see you as **%1$@**"
  ],
  "VoipExchangingKeys": [
   "Exchanging encryption keys"
