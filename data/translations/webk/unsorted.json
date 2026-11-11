@@ -3143,7 +3143,7 @@
   "Enable Paid Reactions"
  ],
  "ChannelEnablePaidReactionsInfo": [
-  "Switch this on to let your subscribers set paid reactions with Telegram Stars, which you will be able to withdraw later as GRAM. [Learn More >](https://telegram.org/tos/stars)"
+  "Switch this on to let your subscribers react to posts with Telegram Stars, which you will be able to withdraw as Grams. [Learn More >](https://telegram.org/tos/content-creator-rewards#2-3-subscriber-donations)"
  ],
  "ChannelHideMembers": [
   "Hide Members"
@@ -15739,7 +15739,7 @@
   "Connection Successful"
  ],
  "Wallet.Connect.Undelivered": [
-  "Couldn’t deliver the answer to the app."
+  "Couldn't deliver the answer to the app."
  ],
  "Wallet.Connect.WrongNetwork": [
   "This app requested a different wallet network."
