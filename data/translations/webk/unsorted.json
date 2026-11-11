@@ -11123,7 +11123,7 @@
   "This tag is from **%s pack**."
  ],
  "ReactionAddEmojiFromAnyPack": [
-  "You can add emoji from any emoji pack as a reaction."
+  "You can add emoji from any emoji pack as reactions."
  ],
  "ReactionAddReactionsHint": [
   "Add Reactions..."
@@ -15932,7 +15932,7 @@
   "Couldn’t Show Secret Phrase"
  ],
  "Wallet.Phrase.PasswordText": [
-  "Please enter your password to view your recovery phrase."
+  "Please enter your password to view your Secret Phrase."
  ],
  "Wallet.Provisioning": [
   "Setting up your wallet…"
