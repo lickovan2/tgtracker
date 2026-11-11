@@ -6914,7 +6914,7 @@
   "Telegram will send you a message when your channel receives a gift."
  ],
  "Gift2ChannelNotifyNotChecked": [
-  "You will not receive a message from Telegram when your channel receives a gift."
+  "You will not be notified when your channel receives a gift."
  ],
  "Gift2Reorder": [
   "Reorder"
@@ -15926,7 +15926,7 @@
   "Your account is now protected."
  ],
  "Wallet.Phrase.Error": [
-  "Couldn't show the recovery phrase."
+  "Couldn't show the secret phrase."
  ],
  "Wallet.Phrase.ErrorTitle": [
   "Couldn’t Show Secret Phrase"
@@ -16500,7 +16500,7 @@
   "Recipient wallet is unavailable"
  ],
  "WalletRecoveryPhraseFundsWarning": [
-  "If someone has your Recovery Phrase they **can steal your funds**."
+  "If someone has your Secret Phrase they **can steal your funds**."
  ],
  "WalletRecoveryPhraseInfo": [
   "Your Secret Phrase is the key to back up your wallet. Keep it secret and secure at all times."
@@ -16512,10 +16512,10 @@
   "Secret Phrase"
  ],
  "WalletRecoveryPhraseNeverShare": [
-  "**Never share **your secret Recovery Phrase with anyone."
+  "**Never share** your Secret Phrase with anyone."
  ],
  "WalletRecoveryPhraseSupportWarning": [
-  "Telegram Support **will never ask you** for your Recovery Phrase."
+  "Telegram Support **will never ask you** for your Secret Phrase."
  ],
  "WalletReplaceWalletTitle": [
   "How do you want to replace the old wallet?"
