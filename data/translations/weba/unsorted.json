@@ -2,6 +2,15 @@
  "AboutRevenueSharingAds": [
   "About These Ads"
  ],
+ "AccActionMute": [
+  "Mute"
+ ],
+ "AccActionPause": [
+  "Pause"
+ ],
+ "AccActionUnmute": [
+  "Unmute"
+ ],
  "AccDescrCloseTrendingStickers": [
   "Close trending stickers"
  ],
@@ -76,6 +85,15 @@
  "ActionChangedPhotoYou": [
   "You updated group photo"
  ],
+ "ActionChangedTheme": [
+  "{from} changed the chat theme to {theme}"
+ ],
+ "ActionChangedThemeChannel": [
+  "Channel theme changed to {theme}"
+ ],
+ "ActionChangedThemeYou": [
+  "You changed the chat theme to {theme}"
+ ],
  "ActionChangedTitle": [
   "{from} changed group name to «{title}»"
  ],
@@ -84,6 +102,24 @@
  ],
  "ActionChangedTitleYou": [
   "You changed group name to «{title}»"
+ ],
+ "ActionChangedWallpaper": [
+  "{from} set a new wallpaper for this chat"
+ ],
+ "ActionChangedWallpaperBothYou": [
+  "You set a new wallpaper for {peer} and you"
+ ],
+ "ActionChangedWallpaperChannel": [
+  "Channel set a new wallpaper"
+ ],
+ "ActionChangedWallpaperGroup": [
+  "Group set a new wallpaper"
+ ],
+ "ActionChangedWallpaperGroupYou": [
+  "You set a new wallpaper for this group"
+ ],
+ "ActionChangedWallpaperYou": [
+  "You set a new wallpaper for this chat"
  ],
  "ActionChannelJoinedByRequestChannelYou": [
   "Your request to join the channel was approved"
@@ -99,6 +135,15 @@
  ],
  "ActionCreatedChatYou": [
   "You created the group «{title}»"
+ ],
+ "ActionDisabledTheme": [
+  "{from} disabled the chat theme"
+ ],
+ "ActionDisabledThemeChannel": [
+  "Channel theme disabled"
+ ],
+ "ActionDisabledThemeYou": [
+  "You disabled the chat theme"
  ],
  "ActionExpiredVideo": [
   "Expired video message"
@@ -306,6 +351,12 @@
  "ActionNewCreatorPending": [
   "{user} will become the new owner in 7 days if {from} does not return."
  ],
+ "ActionNoPaidTokenUsed": [
+  "{user} used your link to message you for free"
+ ],
+ "ActionNoPaidTokenUsedYou": [
+  "You used {user}'s link to message for free"
+ ],
  "ActionOpenGiftButton": [
   "Open Gift"
  ],
@@ -434,6 +485,12 @@
  ],
  "ActionScreenshotTakenYou": [
   "You took a screenshot!"
+ ],
+ "ActionSetSameWallpaper": [
+  "{from} set the same wallpaper for this chat"
+ ],
+ "ActionSetSameWallpaperYou": [
+  "You set the same wallpaper as your chat partner"
  ],
  "ActionSharingDisabled": [
   "{from} disabled sharing in this chat"
@@ -672,12 +729,6 @@
  "ActionSuggestedPostSuccess": [
   "{channel} has received {amount} for publishing post"
  ],
- "ActionSuggestedVideoText": [
-  "Do you want to use this photo for your profile?"
- ],
- "ActionSuggestedVideoTitle": [
-  "Suggested Video"
- ],
  "ActionTTLChanged": [
   "{from} set messages to auto-delete in {time}"
  ],
@@ -794,6 +845,9 @@
  ],
  "AddedToDoNotTranslate": [
   "**{language}** is added to the Do Not Translate list."
+ ],
+ "Adjust": [
+  "Adjust"
  ],
  "AiEditorGenerate": [
   "Generate"
@@ -1013,6 +1067,9 @@
  "AriaComposerCloseRichInput": [
   "Collapse editor"
  ],
+ "AriaComposerHideBotKeyboard": [
+  "Hide bot keyboard"
+ ],
  "AriaComposerOpenRichInput": [
   "Open full editor"
  ],
@@ -1117,6 +1174,9 @@
  ],
  "AttachmentDragAddItems": [
   "Add Items"
+ ],
+ "AttachmentGifSeparateHint": [
+  "GIFs will be sent as separate messages."
  ],
  "AttachmentMenuArticle": [
   "Article"
@@ -1234,6 +1294,9 @@
  "AudioShuffleList": [
   "Shuffle list"
  ],
+ "AudioUpNext": [
+  "Up Next"
+ ],
  "AudioVolume": [
   "Volume"
  ],
@@ -1302,6 +1365,15 @@
  ],
  "AvailableReactions": [
   "Available reactions"
+ ],
+ "AvatarChooseFrame": [
+  "Choose a frame for your profile photo"
+ ],
+ "AvatarChooseFrameOther": [
+  "Choose a frame for this video"
+ ],
+ "AvatarVideoUnsupported": [
+  "Sorry, Telegram can't process that type of video."
  ],
  "BackgroundPatternIntensity": [
   "Pattern Intensity"
@@ -1787,11 +1859,17 @@
  "BotNameRequired": [
   "Please provide name"
  ],
+ "BotProfilePermissionCamera": [
+  "Camera"
+ ],
  "BotProfilePermissionEmojiStatus": [
   "Emoji Status"
  ],
  "BotProfilePermissionLocation": [
   "Geolocation"
+ ],
+ "BotProfilePermissionMicrophone": [
+  "Microphone"
  ],
  "BotReadTextFromClipboardConfirm": [
   "Allow"
@@ -2353,6 +2431,9 @@
  "ClearRecentStickersAlertMessage": [
   "Do you want to clear all your recent stickers?"
  ],
+ "ClearSearchAlert": [
+  "Are you sure you want to clear your search history?"
+ ],
  "CloseBrowserTabs": [
   "Close Browser Tabs"
  ],
@@ -2406,6 +2487,9 @@
  ],
  "CollectibleStatusesCategory": [
   "Collectibles"
+ ],
+ "ColorTheme": [
+  "Color theme"
  ],
  "CommentsTitle": [
   "Comments"
@@ -2542,6 +2626,9 @@
  "ContactInfoRegistration": [
   "Registration"
  ],
+ "ContactLinkInvalid": [
+  "This contact link is invalid or has expired."
+ ],
  "ContactShare": [
   "Share Contact"
  ],
@@ -2596,6 +2683,9 @@
  "ContextQuoteAndReply": [
   "Quote & Reply"
  ],
+ "Contrast": [
+  "Contrast"
+ ],
  "ConversationContextMenuSendGiftTo": [
   "Send Gift to {user}"
  ],
@@ -2623,6 +2713,15 @@
  ],
  "CopyAsText": [
   "Copy as text"
+ ],
+ "CopyProtectionInfoChannel": [
+  "Copying and forwarding is not allowed in this channel."
+ ],
+ "CopyProtectionInfoGroup": [
+  "Admins restricted members to copy or forward content from this group."
+ ],
+ "CopyProtectionInfoMessage": [
+  "Copying and forwarding is not allowed for this message."
  ],
  "CreateBotCreatedText": [
   "**{bot}** will manage this bot for you."
@@ -2702,6 +2801,21 @@
  ],
  "CurrencyStars": [
   "Stars"
+ ],
+ "Curves": [
+  "Curves"
+ ],
+ "CurvesAll": [
+  "All"
+ ],
+ "CurvesBlue": [
+  "Blue"
+ ],
+ "CurvesGreen": [
+  "Green"
+ ],
+ "CurvesRed": [
+  "Red"
  ],
  "CustomColor": [
   "Custom Color"
@@ -2857,6 +2971,12 @@
  "DisableSharing": [
   "Disable Sharing"
  ],
+ "Discard": [
+  "Discard"
+ ],
+ "DiscardChanges": [
+  "Discard changes"
+ ],
  "DoNotAskAgain": [
   "Don't ask again"
  ],
@@ -2953,6 +3073,84 @@
  "Edited": [
   "edited"
  ],
+ "EditorAdjustments": [
+  "Adjustments"
+ ],
+ "EditorChooseCoverFromComputer": [
+  "Choose from Computer"
+ ],
+ "EditorClearCover": [
+  "Clear Cover"
+ ],
+ "EditorCoverAspectHint": [
+  "The cover keeps the video's aspect ratio."
+ ],
+ "EditorCoverInvalidFile": [
+  "This file can't be used as a cover."
+ ],
+ "EditorDeleteLayer": [
+  "Delete"
+ ],
+ "EditorFont": [
+  "Font"
+ ],
+ "EditorGifHint": [
+  "Sound is now muted, so the video will play and loop like a GIF."
+ ],
+ "EditorMutedGifTooLarge": [
+  "Sound is now muted. Videos larger than {size} can't be converted to a GIF."
+ ],
+ "EditorMutedHint": [
+  "Sound is now muted."
+ ],
+ "EditorSendAsGif": [
+  "Send as GIF"
+ ],
+ "EditorSetCover": [
+  "Edit Cover"
+ ],
+ "EditorShowOriginal": [
+  "Show Original"
+ ],
+ "EditorStickersLoadFailed": [
+  "Couldn't load the stickers. Please try again."
+ ],
+ "EditorTextAlignCenter": [
+  "Align center"
+ ],
+ "EditorTextAlignLeft": [
+  "Align left"
+ ],
+ "EditorTextAlignRight": [
+  "Align right"
+ ],
+ "EditorTextFilled": [
+  "Filled"
+ ],
+ "EditorTextHint": [
+  "Click on the media to add text."
+ ],
+ "EditorTextPlain": [
+  "Plain"
+ ],
+ "EditorTextSemi": [
+  "Semi"
+ ],
+ "EditorTintNone": [
+  "No tint"
+ ],
+ "EditorTrimEnd": [
+  "Trim end"
+ ],
+ "EditorTrimStart": [
+  "Trim start"
+ ],
+ "EditorUnmutedHint": [
+  "Sound is now not muted."
+ ],
+ "EditorUseFrameAsCover": [
+  "Use Current Frame"
+ ],
  "EmbeddedMessageNoCaption": [
   "Caption removed"
  ],
@@ -2989,6 +3187,9 @@
  ],
  "English": [
   "English"
+ ],
+ "Enhance": [
+  "Enhance"
  ],
  "EnterPassword": [
   "Enter Password"
@@ -3320,11 +3521,17 @@
  "ExpiredViewsStub": [
   "List of viewers becomes unavailable **24 hours** after the story expires."
  ],
+ "Exposure": [
+  "Exposure"
+ ],
  "FactCheck": [
   "Fact Check"
  ],
  "FactCheckFooter": [
   "This clarification was provided by a fact checking agency assigned by the department of the government of your country ({country}) responsible for combating misinformation."
+ ],
+ "Fade": [
+  "Fade"
  ],
  "February": [
   "February"
@@ -4179,6 +4386,27 @@
  "GiftMessagePlaceholder": [
   "Enter Message (Optional)"
  ],
+ "GiftMoveAppear": [
+  "It will appear in"
+ ],
+ "GiftMoveButton": [
+  "Move"
+ ],
+ "GiftMoveError": [
+  "An error occurred. Please try again later."
+ ],
+ "GiftMoveToWallet": [
+  "Move to My Wallet"
+ ],
+ "GiftMoveToWalletDone": [
+  "Gift moved to your wallet."
+ ],
+ "GiftMoveToWalletKeep": [
+  "Keep showing on my profile"
+ ],
+ "GiftMoveToWalletText": [
+  "Transfer this gift to your blockchain wallet?"
+ ],
  "GiftOfferAccept": [
   "Accept"
  ],
@@ -4369,6 +4597,9 @@
  "GiftTransferTitle": [
   "Transfer"
  ],
+ "GiftTransferUnlocksTitle": [
+  "Unlocking in progress"
+ ],
  "GiftUnique": [
   "{title} #{number}"
  ],
@@ -4484,6 +4715,9 @@
  ],
  "GlobalSearch": [
   "Global Search"
+ ],
+ "Grain": [
+  "Grain"
  ],
  "GramAmount": [
   "💎{amount}"
@@ -4647,6 +4881,9 @@
  ],
  "HideReadTimeInfo": [
   "Hide the time when you read messages from people who can't see your last seen. If you turn this on, their read time will also be hidden from you (unless you are a Premium user).This setting does not affect group chats."
+ ],
+ "Highlights": [
+  "Highlights"
  ],
  "HintPublicPostsSearchQuota": [
   "You can make up to {count} search query per day.",
@@ -4903,6 +5140,18 @@
  "Media": [
   "{count} media",
   "{count} media"
+ ],
+ "MediaAccessCameraMicrophoneText": [
+  "**{name}** requests access to your **camera** and **microphone**. You will be able to revoke this access in the profile page of **{name}**."
+ ],
+ "MediaAccessCameraText": [
+  "**{name}** requests access to your **camera**. You will be able to revoke this access in the profile page of **{name}**."
+ ],
+ "MediaAccessMicrophoneText": [
+  "**{name}** requests access to your **microphone**. You will be able to revoke this access in the profile page of **{name}**."
+ ],
+ "MediaAccessReloadNote": [
+  "The mini app will need to be reloaded to apply this permission."
  ],
  "MediaCounter": [
   "{current} of {total}"
@@ -5317,6 +5566,15 @@
  "NoForwardsRequestYouTitle": [
   "You suggested to enable sharing in this chat, which includes:"
  ],
+ "NoPaidTokenImported": [
+  "You can now message **{user}** for free."
+ ],
+ "NoPaidTokenInvalid": [
+  "This free messages link is invalid or has expired."
+ ],
+ "NoPaidTokenUserInvalid": [
+  "This free messages link can't be used."
+ ],
  "NoReactions": [
   "No reactions"
  ],
@@ -5579,6 +5837,9 @@
  "PaymentCheckoutAcceptTerms": [
   "I accept the {link} of {bot}."
  ],
+ "PaymentCheckoutAcceptTermsLink": [
+  "Terms of Service"
+ ],
  "PaymentCheckoutMethodNewCard": [
   "New card"
  ],
@@ -5672,6 +5933,12 @@
  ],
  "PhoneCopied": [
   "Phone copied to clipboard"
+ ],
+ "PhotoEditorDiscardAlert": [
+  "Are you sure you want to discard all changes?"
+ ],
+ "PictureInPictureResizeHint": [
+  "Make this window larger to see its contents."
  ],
  "PinnedMessageTitle": [
   "Pinned message #{index}",
@@ -6328,8 +6595,17 @@
  "PublishNow": [
   "Publish Now"
  ],
+ "PushPreviewsWhenLocked": [
+  "Show previews when locked"
+ ],
+ "PushPreviewsWhenLockedInfo": [
+  "Show chat names and message text in background notifications, even when Telegram is locked."
+ ],
  "PushReactText": [
   "{emoji} to your \"{summary}\""
+ ],
+ "QrCodeColors": [
+  "Colors"
  ],
  "QrCodeCopied": [
   "QR code copied to clipboard."
@@ -6337,8 +6613,77 @@
  "QrCodeCopy": [
   "Copy QR"
  ],
+ "QrCodeDefaultColor": [
+  "Default"
+ ],
+ "QrCodeEmoji": [
+  "Emoji"
+ ],
+ "QrCodeGifts": [
+  "Gifts"
+ ],
+ "QrCodeGiftsBrowse": [
+  "Browse Gifts"
+ ],
+ "QrCodeGiftsEmptyAbout": [
+  "Use any collectible gift you own to style your QR code."
+ ],
+ "QrCodeGiftsEmptyAboutChat": [
+  "There are no collectible gifts here yet."
+ ],
+ "QrCodeGiftsEmptyTitle": [
+  "No gifts yet"
+ ],
  "QrCodeTitle": [
   "QR Code"
+ ],
+ "QrFreeExpiresIn": [
+  "Expires in {time}"
+ ],
+ "QrFreeMenuDisableTimer": [
+  "Disable timer"
+ ],
+ "QrFreeMenuDisableTimerAbout": [
+  "Stays free, no time limit"
+ ],
+ "QrFreeMenuEnableTimer": [
+  "Enable timer"
+ ],
+ "QrFreeMenuEnableTimerAbout": [
+  "Expires in 1 minute"
+ ],
+ "QrFreeMenuReset": [
+  "Reset Code"
+ ],
+ "QrFreeMenuRestoreFee": [
+  "Restore message fee"
+ ],
+ "QrFreeNoTimeLimit": [
+  "No time limit"
+ ],
+ "QrFreeRemoveFee": [
+  "Remove {amount} fee"
+ ],
+ "QrFreeToastExpired": [
+  "Code expired, fee is back"
+ ],
+ "QrFreeToastExpires": [
+  "This code will expire in **1** minute"
+ ],
+ "QrFreeToastExpiring": [
+  "This code is about to expire."
+ ],
+ "QrFreeToastPermanent": [
+  "Code stays free, no time limit"
+ ],
+ "QrFreeToastReset": [
+  "New code created"
+ ],
+ "QrFreeToastRestored": [
+  "Message fee restored"
+ ],
+ "Quality": [
+  "Quality"
  ],
  "QuickPreview": [
   "Quick Preview"
@@ -6485,6 +6830,15 @@
  ],
  "RemoveRichFormattingTitle": [
   "Remove Formatting?"
+ ],
+ "RemoveUnsupportedBlocks": [
+  "Remove"
+ ],
+ "RemoveUnsupportedBlocksText": [
+  "This message contains blocks that the web version of Telegram can't send. Remove them to send the message."
+ ],
+ "RemoveUnsupportedBlocksTitle": [
+  "Remove Unsupported Blocks?"
  ],
  "Replace": [
   "Replace"
@@ -6981,6 +7335,9 @@
  "RightsChargeStarsAbout": [
   "If you turn this on, regular members of the group will have to pay Stars to send messages."
  ],
+ "Saturation": [
+  "Saturation"
+ ],
  "SaveToPosts": [
   "Post to Profile"
  ],
@@ -7460,9 +7817,6 @@
  "SettingsPerformanceTextStreaming": [
   "Text Streaming"
  ],
- "SettingsPerformanceThanos": [
-  "Dust-effect deletion"
- ],
  "SettingsPrivacyDesc": [
   "Last Seen, Password, Blocked Users"
  ],
@@ -7490,6 +7844,9 @@
  "SettingsWindowSystem": [
   "Window title bar"
  ],
+ "Shadows": [
+  "Shadows"
+ ],
  "Share": [
   "Share"
  ],
@@ -7498,6 +7855,9 @@
  ],
  "ShareWith": [
   "Share with"
+ ],
+ "Sharpen": [
+  "Sharpen"
  ],
  "ShowFolderTags": [
   "Show Folder Tags"
@@ -8442,6 +8802,15 @@
  "TimeIn": [
   "in {time}"
  ],
+ "Tint": [
+  "Tint"
+ ],
+ "TintHighlights": [
+  "Highlights"
+ ],
+ "TintShadows": [
+  "Shadows"
+ ],
  "TitleAddTask": [
   "Add a task"
  ],
@@ -8647,6 +9016,15 @@
  "UnofficialSecurityRisk": [
   "{peer} uses an unofficial Telegram client — messages to this user may be less secure."
  ],
+ "UnsupportedBlockMessage": [
+  "This part of the message is not supported on the web version of Telegram"
+ ],
+ "UnsupportedBlockTitle": [
+  "Unsupported Block"
+ ],
+ "UnsupportedMessageTitle": [
+  "Unsupported Message"
+ ],
  "UpgradeCostDrops": [
   "Upgrade cost drops every minute."
  ],
@@ -8841,6 +9219,9 @@
  "VerifyCodesNotifications": [
   "Verification Codes"
  ],
+ "VideoAudioUnsupported": [
+  "This video's sound can't be processed in your browser. Mute the video to edit it."
+ ],
  "VideoConversionDone": [
   "Video published."
  ],
@@ -8853,6 +9234,18 @@
  "VideoConversionView": [
   "View"
  ],
+ "VideoEditingUnsupportedCover": [
+  "Your browser can't process video. You can still choose a cover."
+ ],
+ "VideoEditingUnsupportedCoverMute": [
+  "Your browser can't process video. You can still choose a cover or mute it."
+ ],
+ "VideoEditingUnsupportedMute": [
+  "Your browser can't process video. You can still mute it."
+ ],
+ "VideoEditorLoadFailed": [
+  "Couldn't open this video for editing."
+ ],
  "VideoMessagePermissionDenied": [
   "To record video messages, allow access to your camera and microphone."
  ],
@@ -8864,6 +9257,18 @@
  ],
  "VideoPlayerPictureInPicture": [
   "Picture-in-Picture"
+ ],
+ "VideoProcessingFailed": [
+  "Couldn't process the video."
+ ],
+ "VideoQualityGifHint": [
+  "GIF quality is set automatically."
+ ],
+ "VideoQualityInfo": [
+  "{type} • ~{size} • {width}×{height}"
+ ],
+ "VideoTooLargeToEdit": [
+  "This video is too large to edit."
  ],
  "VideoUnsupportedDesktop": [
   "__Unfortunately, this video can't be played on Telegram Web. Try opening it with our [desktop app](https://getdesktop.telegram.org/) instead.__"
@@ -8925,6 +9330,9 @@
  "Views": [
   "{count} view",
   "{count} views"
+ ],
+ "Vignette": [
+  "Vignette"
  ],
  "Voice": [
   "{count} voice message",
@@ -8991,86 +9399,11 @@
  "WalletBackupTitle": [
   "Encrypted Backup"
  ],
- "WalletBuyAmountLabel": [
-  "You pay in {currency}"
- ],
- "WalletBuyBuyWith": [
-  "Buy with"
- ],
- "WalletBuyContinue": [
-  "Buy"
- ],
  "WalletBuyCurrency": [
   "Currency"
  ],
  "WalletBuyError": [
   "Could not start the purchase. Please try again."
- ],
- "WalletBuyExtraFee": [
-  "Extra fee"
- ],
- "WalletBuyFee": [
-  "Fee"
- ],
- "WalletBuyMethodAchBankTransfer": [
-  "ACH Bank Transfer"
- ],
- "WalletBuyMethodApplePay": [
-  "Apple Pay"
- ],
- "WalletBuyMethodCard": [
-  "Card"
- ],
- "WalletBuyMethodCrossChain": [
-  "Cross-Chain Transfer"
- ],
- "WalletBuyMethodGbpBankTransfer": [
-  "GBP Bank Transfer"
- ],
- "WalletBuyMethodGooglePay": [
-  "Google Pay"
- ],
- "WalletBuyMethodOpenBanking": [
-  "Open Banking"
- ],
- "WalletBuyMethodP2pExpress": [
-  "P2P Express"
- ],
- "WalletBuyMethodPaypal": [
-  "PayPal"
- ],
- "WalletBuyMethodPix": [
-  "PIX"
- ],
- "WalletBuyMethodSepaBankTransfer": [
-  "SEPA Bank Transfer"
- ],
- "WalletBuyMethodVenmo": [
-  "Venmo"
- ],
- "WalletBuyMethodWalletBalance": [
-  "Wallet Balance"
- ],
- "WalletBuyMinMax": [
-  "Min {min} · Max {max}"
- ],
- "WalletBuyNetworkFee": [
-  "Network fee"
- ],
- "WalletBuyPayWith": [
-  "Pay with"
- ],
- "WalletBuyTitle": [
-  "Buy Grams"
- ],
- "WalletBuyTotal": [
-  "Total"
- ],
- "WalletBuyUnavailable": [
-  "Buying Grams is not available in your region."
- ],
- "WalletBuyYouGet": [
-  "you get"
  ],
  "WalletCollectibleGift": [
   "Collectible Gift"
@@ -9096,11 +9429,11 @@
  "WalletCollectibleSell": [
   "Sell"
  ],
+ "WalletCollectibleShowInGifts": [
+  "also show in my gifts"
+ ],
  "WalletCollectibleTitle": [
   "Collectible"
- ],
- "WalletCollectibleTraits": [
-  "{model} on {backdrop}"
  ],
  "WalletCollectibleTransfer": [
   "Transfer"
@@ -9126,6 +9459,27 @@
  "WalletConnectAccess": [
   "Connected apps can see your wallet address, balance and activity. They can't move funds without your approval."
  ],
+ "WalletConnectActionCallContract": [
+  "Call Contract"
+ ],
+ "WalletConnectActionDeployContract": [
+  "Deploy Contract"
+ ],
+ "WalletConnectActionDeposit": [
+  "Deposit"
+ ],
+ "WalletConnectActionExcess": [
+  "Excess"
+ ],
+ "WalletConnectActionTransfer": [
+  "Transfer"
+ ],
+ "WalletConnectActionUnknown": [
+  "Unknown Operation"
+ ],
+ "WalletConnectActionWithdraw": [
+  "Withdrawal"
+ ],
  "WalletConnectActive": [
   "Active connections"
  ],
@@ -9150,6 +9504,9 @@
  "WalletConnectContractData": [
   "Contract data"
  ],
+ "WalletConnectData": [
+  "Data"
+ ],
  "WalletConnectDataCopied": [
   "Data is copied to clipboard"
  ],
@@ -9165,6 +9522,12 @@
  "WalletConnectEmpty": [
   "No connected apps"
  ],
+ "WalletConnectEmulationFailed": [
+  "The preview shows that part of this transaction may fail."
+ ],
+ "WalletConnectEmulationIncomplete": [
+  "The preview of this transaction is incomplete."
+ ],
  "WalletConnectError": [
   "Couldn't complete the wallet request. Please try again."
  ],
@@ -9177,6 +9540,9 @@
  ],
  "WalletConnectFee": [
   "Estimated network fee: {amount}"
+ ],
+ "WalletConnectFeeEstimating": [
+  "Estimating network fee…"
  ],
  "WalletConnectFeeUnavailable": [
   "Transaction simulation failed."
@@ -9196,11 +9562,15 @@
  "WalletConnectPermissionInfo": [
   "The app won't be able to move funds without permission."
  ],
+ "WalletConnectPreview": [
+  "Preview"
+ ],
  "WalletConnectProofAccess": [
   "The app will be able to view your wallet address, balance and activity, and request a signature to sign you in. This is not a transfer."
  ],
- "WalletConnectRemaining": [
-  "Time remaining: {seconds}s"
+ "WalletConnectRecipients": [
+  "{count} recipient",
+  "{count} recipients"
  ],
  "WalletConnectRequest": [
   "Wallet request"
@@ -9246,9 +9616,6 @@
  ],
  "WalletConnectSignMessageNote": [
   "This transfer is signed but not sent. The app can send it later, and the funds will move then."
- ],
- "WalletConnectSignTitle": [
-  "{name} requests your signature"
  ],
  "WalletConnectStale": [
   "This request is out of date. Request a new one from the app."
@@ -9435,6 +9802,15 @@
  ],
  "WalletMenuItem": [
   "Money"
+ ],
+ "WalletMoveToGifts": [
+  "Move to My Gifts"
+ ],
+ "WalletMoveToGiftsDone": [
+  "Gift moved to your account."
+ ],
+ "WalletMoveToGiftsText": [
+  "Transfer this collectible off-chain to your Telegram account?"
  ],
  "WalletNetworkFeesInfo": [
   "Every transfer costs a small network fee (**~{fee} Grams**). Telegram covers your first **{count}** transfer each day.",
@@ -9642,6 +10018,9 @@
  "WalletSendError": [
   "Failed to send Grams. Please try again."
  ],
+ "WalletSendFailedTitle": [
+  "Transfer Failed"
+ ],
  "WalletSendFeeUnavailable": [
   "Couldn't estimate the network fee."
  ],
@@ -9668,6 +10047,9 @@
  ],
  "WalletSendNetworkFee": [
   "Network fee: {amount}"
+ ],
+ "WalletSendPasswordRequired": [
+  "Two-Step Verification is on. Send again and enter your password."
  ],
  "WalletSendPending": [
   "The transfer may have been sent. Don’t send it again while its status is being checked."
@@ -9713,6 +10095,49 @@
  ],
  "WalletShowRecoveryPhrase": [
   "Show Secret Phrase"
+ ],
+ "WalletStickerAddToCard": [
+  "Add to Card"
+ ],
+ "WalletStickerApplyColor": [
+  "Apply Color"
+ ],
+ "WalletStickerBackgroundError": [
+  "This gift can’t be set as your card’s background."
+ ],
+ "WalletStickerColorCollection": [
+  "{collection}s"
+ ],
+ "WalletStickerColorRestricted": [
+  "Only {collections} can be used to change the color of your card."
+ ],
+ "WalletStickerGridFooter": [
+  "Hold a gift to peel it off and stick it on your card. Hold a sticker on the card to peel it again. A second finger turns and resizes it."
+ ],
+ "WalletStickerInvalidError": [
+  "One of these stickers can’t be used on the card. Only gifts owned by this wallet are supported."
+ ],
+ "WalletStickerLimitError": [
+  "You can place up to {count} gift on your card.Remove one to add another.",
+  "You can place up to {count} gifts on your card.Remove one to add another."
+ ],
+ "WalletStickerProfileError": [
+  "A gift displayed on your profile can’t also be a card sticker. Hide it from your profile first."
+ ],
+ "WalletStickerRemoveColor": [
+  "Remove Color"
+ ],
+ "WalletStickerRemoveFromCard": [
+  "Remove from Card"
+ ],
+ "WalletStickerSaveError": [
+  "An error occurred, please try again later."
+ ],
+ "WalletStickerSaveErrorTitle": [
+  "Couldn’t Save Card"
+ ],
+ "WalletStickerTutorialTile": [
+  "Drag this collectible onto your card to decorate it."
  ],
  "WalletSwitchAnyway": [
   "Switch without keeping it"
@@ -9861,11 +10286,29 @@
  "WalletYourRecoveryPhrase": [
   "Your Secret Phrase"
  ],
+ "Warmth": [
+  "Warmth"
+ ],
  "WebAppAddToAttachmentAllowMessages": [
   "Allow **{user}** to send me messages"
  ],
+ "WebAppCameraAccessRevoked": [
+  "Camera access is turned off, the app was restarted."
+ ],
  "WebAppCollapse": [
   "Collapse"
+ ],
+ "WebAppMediaAccessRevoked": [
+  "Camera and microphone access is turned off, the app was restarted."
+ ],
+ "WebAppMediaReloadButton": [
+  "Reload"
+ ],
+ "WebAppMediaReloadText": [
+  "Reload the mini app to apply new permission settings."
+ ],
+ "WebAppMicrophoneAccessRevoked": [
+  "Microphone access is turned off, the app was restarted."
  ],
  "WebAppShareMessageInfo": [
   "{user} mini app suggests you to send this message to a chat you select."
@@ -9875,6 +10318,18 @@
  ],
  "WebLoginInvalid": [
   "This login link is invalid or has expired. Open a fresh link or log in normally."
+ ],
+ "Widget": [
+  "Widget"
+ ],
+ "WidgetStopped": [
+  "Widget stopped"
+ ],
+ "WidgetUnavailable": [
+  "Widget unavailable"
+ ],
+ "WidgetUnsupportedBrowser": [
+  "Unsupported browser"
  ],
  "Yes": [
   "Yes"
