@@ -15480,7 +15480,7 @@
   "Unknown app"
  ],
  "Wallet.Auth.BackupDisabledText": [
-  "Enable encrypted backup before restoring the recovery phrase from Telegram."
+  "Enable encrypted backup before restoring the secret phrase from Telegram."
  ],
  "Wallet.Auth.BackupDisabledTitle": [
   "Backup Is Disabled"
