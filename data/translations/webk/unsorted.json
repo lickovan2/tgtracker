@@ -15540,7 +15540,7 @@
   "Couldn't Disable Backup"
  ],
  "Wallet.Backup.DisablePhraseUpdateErrorText": [
-  "The recovery phrase change could not be completed. Check your wallet state and try again."
+  "The secret phrase change could not be completed. Check your wallet state and try again."
  ],
  "Wallet.Backup.DisablePhraseUpdatePendingText": [
   "Telegram couldn't confirm the recovery phrase change on the blockchain yet. Wait a moment and tap Disable again."
@@ -15881,7 +15881,7 @@
   "You will need your recovery phrase or the encrypted backup to send from this device again."
  ],
  "Wallet.Keys.ForgetUpdatePendingText": [
-  "The recovery phrase of this wallet is being updated. The key can be removed from this device once the update is finished."
+  "The secret phrase of this wallet is being updated. The key can be removed from this device once the update is finished."
  ],
  "Wallet.Keys.PhraseCaption": [
   "You can transfer your wallet to another device by copying your 12- or 24-word secret phrase."
@@ -16022,7 +16022,7 @@
   "Only a secret phrase created in Telegram can be imported here."
  ],
  "Wallet.Restore.Invalid": [
-  "These words are not a valid recovery phrase."
+  "These words are not a valid secret phrase."
  ],
  "Wallet.Restore.Outdated": [
   "These words are an old recovery phrase of this wallet. Enter the new phrase you got when its key was last updated."
@@ -16322,7 +16322,7 @@
   "Your distributed encrypted backup will be deleted. Your secret phrase will be the only way to recover this wallet."
  ],
  "WalletDisableBackupInfo": [
-  "The only way to recover your funds will be to manually enter your recovery phrase."
+  "The only way to recover your funds will be to manually enter your secret phrase."
  ],
  "WalletDisableBackupTitle": [
   "Disable Backup?"
