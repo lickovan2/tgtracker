@@ -15579,7 +15579,7 @@
   "You need %1$s Grams (%2$s) to update your recovery phrase. Add funds and try again."
  ],
  "Wallet.Backup.RequiredBalanceGrams": [
-  "You need %s Grams to update your recovery phrase. Add funds and try again."
+  "You need %s Grams to update your secret phrase. Add funds and try again."
  ],
  "Wallet.Backup.RetryText": [
   "%sTap Disable to try again."
@@ -15854,7 +15854,7 @@
   "Invalid word"
  ],
  "Wallet.Import.PhraseChangedText": [
-  "The key for this wallet has changed. Enter the current 24-word recovery phrase."
+  "The key for this wallet has changed. Enter the current 24-word secret phrase."
  ],
  "Wallet.Import.PhraseChangedTitle": [
   "Secret Phrase Has Changed"
@@ -15899,8 +15899,8 @@
   "Couldn't load your wallet."
  ],
  "Wallet.Logout.Local": [
-  "Your Gram wallet's keys are stored only on this device and Telegram has no backup of them. Continuing destroys them — only your recovery phrase can restore the wallet.",
-  "%d of your Gram wallets have their keys stored only on this device, with no Telegram backup. Continuing destroys them — only their recovery phrases can restore them."
+  "Your wallet's keys are stored only on this device and Telegram has no backup of them. Continuing destroys them — only your Secret Phrase can restore the wallet.",
+  "%d of your wallets have their keys stored only on this device, with no Telegram backup. Continuing destroys them — only their Secret Phrases can restore them."
  ],
  "Wallet.Logout.Parked": [
   "This device also holds the keys of one other Gram wallet. Continuing destroys them, and that wallet can be restored only if its recovery phrase was written down.",
