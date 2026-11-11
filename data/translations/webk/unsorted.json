@@ -6911,7 +6911,7 @@
   "Notify About New Gifts"
  ],
  "Gift2ChannelNotifyChecked": [
-  "You will receive a message from Telegram when your channel receives a gift."
+  "Telegram will send you a message when your channel receives a gift."
  ],
  "Gift2ChannelNotifyNotChecked": [
   "You will not receive a message from Telegram when your channel receives a gift."
