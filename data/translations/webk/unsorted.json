@@ -15395,7 +15395,7 @@
   "Choose whether you want to be displayed as your personal account or as your channel."
  ],
  "VoipGroupUserChanged": [
-  "Members of this video chat will now see you as **%1$@**"
+  "Participants of this video chat will now see you as **%1$@**"
  ],
  "VoipPeerIncompatible": [
   "**%1$s**'s app is using an incompatible protocol. They need to update their app before you can call them."
@@ -15903,15 +15903,15 @@
   "%d of your wallets have their keys stored only on this device, with no Telegram backup. Continuing destroys them — only their Secret Phrases can restore them."
  ],
  "Wallet.Logout.Parked": [
-  "This device also holds the keys of one other Gram wallet. Continuing destroys them, and that wallet can be restored only if its recovery phrase was written down.",
-  "This device also holds the keys of %d other Gram wallets. Continuing destroys them, and those wallets can be restored only if their recovery phrases were written down."
+  "This device also holds the keys of one other Gram wallet. Continuing destroys them, and that wallet can be restored only if its secret phrase was written down.",
+  "This device also holds the keys of %d other Gram wallets. Continuing destroys them, and those wallets can be restored only if their secret phrases were written down."
  ],
  "Wallet.Logout.Rotating": [
   "A wallet key change on this device is not confirmed yet. Its replacement key is stored only here and Telegram has no backup of it. Continuing destroys it — if the change goes through, only the replacement recovery phrase can restore the wallet.",
   "%d wallet key changes on this device are not confirmed yet. Their replacement keys are stored only here and Telegram has no backup of them. Continuing destroys them — if a change goes through, only its replacement recovery phrase can restore that wallet."
  ],
  "Wallet.Logout.Unknown": [
-  "If this device holds any Gram wallet keys, continuing destroys them. They can be restored only from a Telegram backup or your recovery phrase."
+  "If this device holds any Gram wallet keys, continuing destroys them. They can be restored only from a Telegram backup or your Secret Phrase."
  ],
  "Wallet.Menu.Lock": [
   "Lock Money"
@@ -16202,7 +16202,7 @@
   "Your encrypted key backup will be split into three parts and stored across three continents.It can only be reassembled on your devices, so no one — not even Telegram — can access your key."
  ],
  "WalletBackupDisabledInfo": [
-  "Your recovery phrase is now the only way to restore your wallet"
+  "Your secret phrase is now the only way to restore your wallet"
  ],
  "WalletBackupEnabled": [
   "Backup Enabled"
@@ -16442,7 +16442,7 @@
   "New Secret Phrase"
  ],
  "WalletNewSecretPhraseInfo": [
-  "A new recovery phrase for your wallet has been generated. Write it down and keep it secret."
+  "A new secret phrase for your wallet has been generated. Write it down and keep it secret."
  ],
  "WalletNoFees": [
   "Zero Fees"
