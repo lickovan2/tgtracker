@@ -7177,7 +7177,7 @@
   "Sending voice isn't allowed in this group."
  ],
  "GlobalAutoDeleteInfo": [
-  "If enabled, all new messages in chats you start will be automatically deleted for everyone at some point after they have been sent. You can also [apply this setting for your existing chats]()."
+  "If enabled, all new messages in chats you start will be automatically deleted for everyone at some point after they are sent. You can also [apply this setting for your existing chats]()."
  ],
  "GlobalSearch": [
   "Global search"
