@@ -15839,7 +15839,7 @@
   "Enter your wallet's current 12- or 24-word secret phrase to enable encrypted backup."
  ],
  "Wallet.Import.ErrorText": [
-  "Check the recovery phrase and network connection, then try again."
+  "Check the secret phrase and network connection, then try again."
  ],
  "Wallet.Import.ErrorTitle": [
   "Couldn’t Import Wallet"
