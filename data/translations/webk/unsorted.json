@@ -16424,7 +16424,7 @@
   "Invalid Secret Phrase"
  ],
  "WalletInvalidRecoveryPhraseInfo": [
-  "Check the word order.Only a recovery phrase created in Telegram can be imported here."
+  "Check the word order.Only a secret phrase created in Telegram can be imported here."
  ],
  "WalletKeyUpdate": [
   "Key Update"
@@ -16578,7 +16578,7 @@
   "Test Time"
  ],
  "WalletTestPhraseInfo": [
-  "Make sure you wrote your recovery phrase down correctly. Enter words **%1$d**, **%2$d** and **%3$d**."
+  "Make sure you wrote your secret phrase down correctly. Enter words **%1$d**, **%2$d** and **%3$d**."
  ],
  "WalletTitle": [
   "Money"
