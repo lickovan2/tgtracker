@@ -15529,7 +15529,7 @@
   "Enter Current Secret Phrase"
  ],
  "Wallet.Backup.InvalidPhraseText": [
-  "Check all words of your current recovery phrase and try again."
+  "Check all words of your current secret phrase and try again."
  ],
  "Wallet.Backup.KeyChanging": [
   "Your wallet key is being changed. Try again once the change is confirmed."
@@ -15798,7 +15798,7 @@
   "%1$s %2$s"
  ],
  "Wallet.Import.EnableBackupText": [
-  "Enter your wallet's current 12- or 24-word recovery phrase to enable encrypted backup."
+  "Enter your wallet's current 12- or 24-word secret phrase to enable encrypted backup."
  ],
  "Wallet.Import.ErrorText": [
   "Check the recovery phrase and network connection, then try again."
