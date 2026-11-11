@@ -1324,6 +1324,9 @@
  "Allow": [
   "Allow"
  ],
+ "AllowReactions": [
+  "Allow Reactions"
+ ],
  "AndOther": [
   "and %1$d other",
   "and %1$d others"
@@ -3135,6 +3138,12 @@
  ],
  "ChannelDirectMessages.WelcomePaid": [
   "%scharges %s per message to its admin"
+ ],
+ "ChannelEnablePaidReactions": [
+  "Enable Paid Reactions"
+ ],
+ "ChannelEnablePaidReactionsInfo": [
+  "Switch this on to let your subscribers set paid reactions with Telegram Stars, which you will be able to withdraw later as GRAM. [Learn More >](https://telegram.org/tos/stars)"
  ],
  "ChannelHideMembers": [
   "Hide Members"
@@ -8527,6 +8536,12 @@
  "MarkupTooltip.LinkPlaceholder": [
   "Enter URL..."
  ],
+ "MaximumReactionsHeader": [
+  "Maximum reactions per post"
+ ],
+ "MaximumReactionsInfo": [
+  "Limit the number of different reactions that can be added to a post, including already published posts."
+ ],
  "Media": [
   "",
   "%d media"
@@ -11106,6 +11121,29 @@
  ],
  "Reaction.Tag.From": [
   "This tag is from **%s pack**."
+ ],
+ "ReactionAddEmojiFromAnyPack": [
+  "You can add emoji from any emoji pack as a reaction."
+ ],
+ "ReactionAddReactionsHint": [
+  "Add Reactions..."
+ ],
+ "ReactionApplyChangesDialog": [
+  "You have changed the list of reactions. Apply changes?"
+ ],
+ "ReactionCreateOwnEmojiPacks": [
+  "You can also [create your own](https://t.me/stickers) emoji packs and use them."
+ ],
+ "ReactionCustomReactions": [
+  "Custom Reactions"
+ ],
+ "ReactionMaxCountError": [
+  "You can select at most %1$d reaction.",
+  "You can select at most %1$d reactions."
+ ],
+ "ReactionReachLvlForReactionShort": [
+  "Your channel needs to reach Level **%2$d** to add **%1$d** custom emoji as reactions.",
+  "Your channel needs to reach Level **%2$d** to add **%1$d** custom emoji as reactions."
  ],
  "Reactions": [
   "Reactions"
