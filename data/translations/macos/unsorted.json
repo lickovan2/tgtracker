@@ -5391,10 +5391,6 @@
  "CreateBot.Title": [
   "Create Bot"
  ],
- "CreateBot.Username.Count": [
-  "%1$d username",
-  "%1$d usernames"
- ],
  "CreateBot.Username.EndingsOr": [
   "%1$@ or %2$@"
  ],
