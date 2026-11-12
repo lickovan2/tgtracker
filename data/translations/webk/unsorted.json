@@ -16400,7 +16400,7 @@
   "Import an Existing Wallet"
  ],
  "WalletImportPhraseInfo": [
-  "Enter the %1$d-word recovery phrase from another wallet you own."
+  "Enter the %1$d-word secret phrase from another wallet you own."
  ],
  "WalletImported": [
   "Wallet Imported"
