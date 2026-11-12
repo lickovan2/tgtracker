@@ -15585,7 +15585,7 @@
   "%sTap Disable to try again."
  ],
  "Wallet.Backup.RotateFailedText": [
-  "%s Your recovery phrase was not changed — keep using your current one. The new words you wrote down are not in use."
+  "%s Your secret phrase was not changed — keep using your current one. The new words you wrote down are not in use."
  ],
  "Wallet.Backup.RotateFailedTitle": [
   "Action Failed"
