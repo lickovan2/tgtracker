@@ -2174,6 +2174,10 @@
  "ChatList.LabelAutodeleteDisabled": [
   "auto-delete disabled"
  ],
+ "ChatList.MaxThreadPinsFinalText": [
+  "Sorry, you can't pin more than **%@** topic to the top. Unpin some that are currently pinned.",
+  "Sorry, you can't pin more than **%@** topics to the top. Unpin some that are currently pinned."
+ ],
  "ChatList.PeerTypeNonContact": [
   "user"
  ],
@@ -3662,7 +3666,7 @@
   "**%@** will be listed for sale once the network confirms it."
  ],
  "Gift.Onchain.OpenWallet": [
-  "Open Wallet"
+  "Open My Money"
  ],
  "Gift.Onchain.Unlist.Sent": [
   "**%@** will be removed from sale once the network confirms it."
@@ -5046,6 +5050,9 @@
  ],
  "Monetization.Bot.BalanceTitle": [
   "AVAILABLE BALANCE"
+ ],
+ "Monetization.Bot.Header": [
+  "Telegram shares 50% of the revenue from ads displayed in your bot as rewards. [Learn More >]()"
  ],
  "Monetization.Intro.Bot.Ads.Text": [
   "Telegram can display ads in your bot."
