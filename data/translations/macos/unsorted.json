@@ -14441,9 +14441,6 @@
  "VoiceOver.Common.CancelDownload": [
   "Cancel Download"
  ],
- "VoiceOver.Common.Checked": [
-  "Checked"
- ],
  "VoiceOver.Common.ChooseIcon": [
   "Choose Icon"
  ],
@@ -14458,9 +14455,6 @@
  ],
  "VoiceOver.Common.Color": [
   "Color"
- ],
- "VoiceOver.Common.Contact": [
-  "Contact"
  ],
  "VoiceOver.Common.Copy": [
   "Copy"
@@ -14576,9 +14570,6 @@
  "VoiceOver.Common.Live": [
   "Live"
  ],
- "VoiceOver.Common.Loading": [
-  "Loading"
- ],
  "VoiceOver.Common.Location": [
   "Location"
  ],
@@ -14590,9 +14581,6 @@
  ],
  "VoiceOver.Common.Maximize": [
   "Maximize"
- ],
- "VoiceOver.Common.Members": [
-  "Members"
  ],
  "VoiceOver.Common.Mentions": [
   "Mentions"
@@ -14836,9 +14824,6 @@
  ],
  "VoiceOver.Common.Stars": [
   "Stars"
- ],
- "VoiceOver.Common.Sticker": [
-  "Sticker"
  ],
  "VoiceOver.Common.Stories": [
   "Stories"
