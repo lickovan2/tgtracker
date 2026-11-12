@@ -15682,7 +15682,7 @@
   "Couldn't remove the old wallet from this device."
  ],
  "Wallet.Conflict.SwitchText": [
-  "The key of the old wallet will be removed from this device. Only its recovery phrase will open it again."
+  "The key of the old wallet will be removed from this device. Only its secret phrase will open it again."
  ],
  "Wallet.Conflict.Text": [
   "Wallet you used before on this device. Save the secret phrase before switching to your Telegram wallet."
