@@ -15543,7 +15543,7 @@
   "The secret phrase change could not be completed. Check your wallet state and try again."
  ],
  "Wallet.Backup.DisablePhraseUpdatePendingText": [
-  "Telegram couldn't confirm the recovery phrase change on the blockchain yet. Wait a moment and tap Disable again."
+  "Telegram couldn’t confirm the secret phrase change on the blockchain yet. Wait a moment and click Disable again."
  ],
  "Wallet.Backup.DisableVerificationErrorText": [
   "Telegram couldn't verify that you own this wallet. Please try again."
