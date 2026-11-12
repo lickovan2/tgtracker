@@ -1,0 +1,9 @@
+{
+ "ChatList.MaxThreadPinsFinalText": [
+  "Sorry, you can't pin more than **%@** topic to the top. Unpin some that are currently pinned.",
+  "Sorry, you can't pin more than **%@** topics to the top. Unpin some that are currently pinned."
+ ],
+ "Common.OK": [
+  "OK"
+ ]
+}

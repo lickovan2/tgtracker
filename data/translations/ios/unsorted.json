@@ -86,6 +86,9 @@
  "Agent.Connect.Title": [
   "Connect API Key"
  ],
+ "Agent.ConnectModel": [
+  "Connect Model"
+ ],
  "Agent.Connected.Start": [
   "Start"
  ],
@@ -97,6 +100,18 @@
  ],
  "Agent.Effort": [
   "Effort"
+ ],
+ "Agent.Effort.Expert": [
+  "Expert"
+ ],
+ "Agent.Effort.Fast": [
+  "Fast"
+ ],
+ "Agent.Effort.Medium": [
+  "Medium"
+ ],
+ "Agent.Effort.Ultra": [
+  "Ultra"
  ],
  "Agent.InputPlaceholder": [
   "Ask Agent anything"
@@ -125,6 +140,12 @@
  "Agent.Key.Title": [
   "API Key"
  ],
+ "Agent.Models.NotFound": [
+  "No models found"
+ ],
+ "Agent.Models.Search": [
+  "Search Models"
+ ],
  "Agent.ProvidersInfo": [
   "Tap and hold to delete."
  ],
@@ -142,6 +163,12 @@
  ],
  "Appearance.Publish": [
   "Publish"
+ ],
+ "Appearance.RemoveThemeAlert.Text": [
+  "Are you sure you want to remove this theme?"
+ ],
+ "Appearance.RemoveThemeAlert.Title": [
+  "Remove Theme?"
  ],
  "Appearance.RemoveThemeColor": [
   "Remove"
@@ -286,6 +313,12 @@
  ],
  "AutoremoveSetup.AdditionalGlobalSettingsInfo": [
   "You can also set a default [self-destruct timer]() for all chats in Settings."
+ ],
+ "Avatar.CancelUploadConfirmation.Title": [
+  "Cancel Upload?"
+ ],
+ "Avatar.RemovePhotoConfirmation.Title": [
+  "Remove Photo?"
  ],
  "AvatarEditor.PremiumNeeded.Emoji": [
   "Subscribe to Telegram Premium to choose this emoji."
@@ -452,6 +485,9 @@
  "Bot.Slow": [
   "bot replies slowly"
  ],
+ "BotPreview.DeleteConfirmation.Title": [
+  "Delete Preview?"
+ ],
  "BotPreviews.SubtitleLoading": [
   "loading"
  ],
@@ -517,6 +553,12 @@
  ],
  "Business.Chatbots": [
   "Coming Later"
+ ],
+ "Business.Links.DeleteItemAlert.Text": [
+  "Are you sure you want to delete this link?"
+ ],
+ "Business.Links.DeleteItemAlert.Title": [
+  "Delete Link?"
  ],
  "Business.Links.SimpleLinkInfoPhone": [
   "You can also use a simple link for a chat with you — [t.me/⁠+⁠%@](phone)."
@@ -1009,6 +1051,15 @@
  "Channel.DoNotNotify": [
   "Do Not Notify"
  ],
+ "Channel.Edit.PrivateConfirmation.Continue": [
+  "Continue"
+ ],
+ "Channel.Edit.PrivateConfirmation.Text": [
+  "Your channel's public link t.me/%@ will be removed, and this username will become available to anyone. Continue?"
+ ],
+ "Channel.Edit.PrivateConfirmation.Title": [
+  "Make Channel Private?"
+ ],
  "Channel.EditAdmin.GuardBotEnableSubscribersText": [
   "New subscribers will now need approval from **%@** before they can join this channel"
  ],
@@ -1038,6 +1089,15 @@
  ],
  "Channel.Management.LabelEditor": [
   "admin"
+ ],
+ "Channel.Moderator.DismissAlert.Action": [
+  "Dismiss"
+ ],
+ "Channel.Moderator.DismissAlert.Text": [
+  "This admin will lose all admin rights."
+ ],
+ "Channel.Moderator.DismissAlert.Title": [
+  "Dismiss Admin?"
  ],
  "Channel.Notify": [
   "Notify"
@@ -1202,6 +1262,15 @@
  "Chat.AdminActionSheet.RestrictMultiple": [
   "Restrict Users"
  ],
+ "Chat.AlwaysUseAI.ErrorGeneric": [
+  "Couldn't rewrite the message, so it wasn't sent. Tap Send to send it as it is."
+ ],
+ "Chat.AlwaysUseAI.ErrorLimit": [
+  "You've reached the AI limit, so the message wasn't sent. Tap Send to send it as it is."
+ ],
+ "Chat.AlwaysUseAI.ErrorTooLong": [
+  "The message is too long for AI, so it wasn't sent. Tap Send to send it as it is."
+ ],
  "Chat.Auction.Finished": [
   "finished"
  ],
@@ -1287,6 +1356,48 @@
  ],
  "Chat.DeletePaidMessageTon.Title": [
   "Grams Will Be Lost"
+ ],
+ "Chat.Dictation.AllStyles": [
+  "All Styles"
+ ],
+ "Chat.Dictation.ConvertToText": [
+  "Convert to Text"
+ ],
+ "Chat.Dictation.Enhance": [
+  "Enhance"
+ ],
+ "Chat.Dictation.EnhanceErrorGeneric": [
+  "Couldn't enhance the text. Please try again."
+ ],
+ "Chat.Dictation.EnhanceErrorLimit": [
+  "You've reached the AI limit for now. Try again later."
+ ],
+ "Chat.Dictation.EnhanceErrorTooLong": [
+  "The text is too long to enhance."
+ ],
+ "Chat.Dictation.Enhancing": [
+  "Enhancing…"
+ ],
+ "Chat.Dictation.ErrorGeneric": [
+  "Couldn't recognize speech. Please try again."
+ ],
+ "Chat.Dictation.ErrorSpeechDenied": [
+  "Allow Speech Recognition for Telegram in Settings to dictate."
+ ],
+ "Chat.Dictation.ErrorUnavailable": [
+  "Dictation is not available for this language right now."
+ ],
+ "Chat.Dictation.ErrorUnsupportedLanguage": [
+  "Dictation doesn't support %@ yet."
+ ],
+ "Chat.Dictation.Hint": [
+  "Swipe here to convert speech to text"
+ ],
+ "Chat.Dictation.Listening": [
+  "Listening…"
+ ],
+ "Chat.Dictation.Stop": [
+  "Stop Dictation"
  ],
  "Chat.EmptyStateIntroFooterPremiumActionButton": [
   "OK"
@@ -1966,6 +2077,17 @@
  "ChatList.Context.Unarchive": [
   "Unarchive"
  ],
+ "ChatList.ContextShowUnread": [
+  "Show Unread"
+ ],
+ "ChatList.DeleteChatsAlert.Text": [
+  "This chat will be removed from your chat list.",
+  "These chats will be removed from your chat list."
+ ],
+ "ChatList.DeleteChatsAlert.Title": [
+  "Delete Chat?",
+  "Delete %@ Chats?"
+ ],
  "ChatList.DeleteForAllMembersConfirmationText": [
   "This will **delete all messages** in this chat for **all participants**."
  ],
@@ -1981,6 +2103,14 @@
  ],
  "ChatList.DeleteTopicConfirmationText": [
   "This will delete the topic and all its messages"
+ ],
+ "ChatList.DeleteTopicsAlert.Text": [
+  "This will delete the topic and all its messages.",
+  "This will delete the topics and all their messages."
+ ],
+ "ChatList.DeleteTopicsAlert.Title": [
+  "Delete Topic?",
+  "Delete %@ Topics?"
  ],
  "ChatList.DeletedChats": [
   "Deleted 1 chat",
@@ -2043,10 +2173,6 @@
  ],
  "ChatList.LabelAutodeleteDisabled": [
   "auto-delete disabled"
- ],
- "ChatList.MaxThreadPinsFinalText": [
-  "Sorry, you can't pin more than **%@** topic to the top. Unpin some that are currently pinned.",
-  "Sorry, you can't pin more than **%@** topics to the top. Unpin some that are currently pinned."
  ],
  "ChatList.PeerTypeNonContact": [
   "user"
@@ -2169,6 +2295,12 @@
  ],
  "ChatList.ToastFolderUnmutedV2": [
   "All chats in {folder} are now unmuted"
+ ],
+ "ChatList.UnreadOnlyPanel.Info": [
+  "only unread chats shown"
+ ],
+ "ChatList.UnreadOnlyPanel.ShowAll": [
+  "Show All Chats"
  ],
  "ChatList.UserReacted": [
   "Reacted %@ to your message"
@@ -2303,6 +2435,14 @@
  ],
  "ContactList.Context.VideoCall": [
   "Video Call"
+ ],
+ "ContactList.DeleteAlert.Text": [
+  "This contact will be removed from your contact list.",
+  "These contacts will be removed from your contact list."
+ ],
+ "ContactList.DeleteAlert.Title": [
+  "Delete Contact?",
+  "Delete %@ Contacts?"
  ],
  "ContactList.DeletedContacts": [
   "Deleted %@ Contact",
@@ -2878,6 +3018,12 @@
  ],
  "DataUsage.AutoDownloadSettings": [
   "Auto-Download Settings"
+ ],
+ "DataUsage.ResetAlert.Action": [
+  "Reset"
+ ],
+ "DataUsage.ResetAlert.Title": [
+  "Reset Statistics?"
  ],
  "DataUsage.SettingsHelpCellular": [
   "You can change your auto-download settings to reduce mobile data usage."
@@ -3473,6 +3619,180 @@
  "Gift.MoveToWallet.Success": [
   "Gift moved to your wallet."
  ],
+ "Gift.Onchain.Buy.Sent": [
+  "Purchase sent. **%@** will appear in your wallet once the network confirms it."
+ ],
+ "Gift.Onchain.Error.CancellationPending": [
+  "Your gift was removed from sale, but the network hasn't confirmed it yet. Set the new price once it's confirmed."
+ ],
+ "Gift.Onchain.Error.NotForSale": [
+  "This gift is no longer for sale."
+ ],
+ "Gift.Onchain.Error.NotMinted": [
+  "This gift isn't on the blockchain yet."
+ ],
+ "Gift.Onchain.Error.NotOwner": [
+  "This gift isn't in your wallet."
+ ],
+ "Gift.Onchain.Error.OnlyForSelf": [
+  "Fragment listings can only be bought for yourself."
+ ],
+ "Gift.Onchain.Error.PriceInvalid": [
+  "This price is outside the allowed range."
+ ],
+ "Gift.Onchain.Error.RelistFailed": [
+  "Your gift was removed from sale, but listing it at the new price failed: %@"
+ ],
+ "Gift.Onchain.Error.SaleActive": [
+  "This gift is still listed. Wait for the previous transaction to complete and try again."
+ ],
+ "Gift.Onchain.Error.SaleDisabled": [
+  "Fragment listings are unavailable right now."
+ ],
+ "Gift.Onchain.Error.SaleInactive": [
+  "This gift isn't listed for sale."
+ ],
+ "Gift.Onchain.Error.SelfPurchase": [
+  "You can't buy your own listing."
+ ],
+ "Gift.Onchain.InsufficientBalance.Text": [
+  "Not enough Grams in your wallet. This requires **%@** including network fees."
+ ],
+ "Gift.Onchain.List.Sent": [
+  "**%@** will be listed for sale once the network confirms it."
+ ],
+ "Gift.Onchain.OpenWallet": [
+  "Open Wallet"
+ ],
+ "Gift.Onchain.Unlist.Sent": [
+  "**%@** will be removed from sale once the network confirms it."
+ ],
+ "Gift.Onchain.UseEarnings.Pending": [
+  "Your Gram Earnings are on their way to your wallet. Buy the gift once they arrive."
+ ],
+ "Gift.Onchain.UseEarnings.Proceed": [
+  "Proceed"
+ ],
+ "Gift.Onchain.UseEarnings.Text": [
+  "**%@** will be moved from Gram Earnings to your balance and used to buy this gift."
+ ],
+ "Gift.Onchain.UseEarnings.Title": [
+  "Use Gram Earnings?"
+ ],
+ "Gift.Onchain.WalletCannotSign.Text": [
+  "Your wallet can't sign transactions on this device. Open the wallet to restore access."
+ ],
+ "Gift.Onchain.WalletCreating.Text": [
+  "Your wallet is still being created. Please try again in a moment."
+ ],
+ "Gift.Onchain.WalletRequired.Text": [
+  "Fragment listings are paid for and sold from your Telegram wallet."
+ ],
+ "Gift.OnchainOffer.Confirm.Confirm": [
+  "Confirm"
+ ],
+ "Gift.OnchainOffer.Confirm.Expires": [
+  "Offer expires"
+ ],
+ "Gift.OnchainOffer.Confirm.PlatformFee": [
+  "Platform fee"
+ ],
+ "Gift.OnchainOffer.Confirm.Refund": [
+  "If the seller declines your offer or it expires, **%@** will be automatically returned to you."
+ ],
+ "Gift.OnchainOffer.Confirm.Text": [
+  "Are you sure you want to offer **%1$@** for **%2$@**?"
+ ],
+ "Gift.OnchainOffer.Confirm.Title": [
+  "Confirm Offer"
+ ],
+ "Gift.OnchainOffer.Confirm.YouPay": [
+  "You pay"
+ ],
+ "Gift.OnchainOffer.Confirm.YouReceive": [
+  "You receive"
+ ],
+ "Gift.OnchainOffer.Confirm.YourOffer": [
+  "Your offer"
+ ],
+ "Gift.OnchainOffer.Decline.Action": [
+  "Decline"
+ ],
+ "Gift.OnchainOffer.Decline.Text": [
+  "The buyer's **%@** will be returned to them."
+ ],
+ "Gift.OnchainOffer.Decline.Title": [
+  "Decline Offer?"
+ ],
+ "Gift.OnchainOffer.DepositFunds": [
+  "Deposit funds >"
+ ],
+ "Gift.OnchainOffer.DurationDescription": [
+  "Choose how long the owner has to accept your offer. When it expires, your Grams will be automatically refunded."
+ ],
+ "Gift.OnchainOffer.Error.AlreadyActive": [
+  "You already have an active offer for this gift. Withdraw it in your chat with Telegram to make a new one."
+ ],
+ "Gift.OnchainOffer.Error.InProgress": [
+  "Your previous offer for this gift is still being processed. Please try again in a minute."
+ ],
+ "Gift.OnchainOffer.Error.NotOwner": [
+  "This gift is no longer in your wallet."
+ ],
+ "Gift.OnchainOffer.Error.OnSale": [
+  "This gift is listed for sale. Remove it from sale first to accept the offer."
+ ],
+ "Gift.OnchainOffer.InsufficientFunds": [
+  "Insufficient funds."
+ ],
+ "Gift.OnchainOffer.MinAmountToast": [
+  "You cannot offer less than %@ for this gift"
+ ],
+ "Gift.OnchainOffer.PriceDescription": [
+  "Enter the number of Grams you'd like to offer for **%@**."
+ ],
+ "Gift.OnchainOffer.Sale.Decline": [
+  "Decline"
+ ],
+ "Gift.OnchainOffer.Sale.Price": [
+  "Price"
+ ],
+ "Gift.OnchainOffer.Sale.Sell": [
+  "Sell"
+ ],
+ "Gift.OnchainOffer.Sale.Sent": [
+  "Sale submitted. You'll receive **%@** once it's confirmed on-chain."
+ ],
+ "Gift.OnchainOffer.Sale.Text": [
+  "Sell **%1$@** for **%2$@**?"
+ ],
+ "Gift.OnchainOffer.Sale.Title": [
+  "Confirm Sale"
+ ],
+ "Gift.OnchainOffer.Sent.Text": [
+  "%1$@ held until %2$@."
+ ],
+ "Gift.OnchainOffer.Sent.Title": [
+  "Offer sent"
+ ],
+ "Gift.OnchainOffer.Withdraw.Action": [
+  "Withdraw for %@"
+ ],
+ "Gift.OnchainOffer.Withdraw.ActionFree": [
+  "Withdraw"
+ ],
+ "Gift.OnchainOffer.Withdraw.Sent": [
+  "Withdrawal submitted. Your Grams will be returned once it's confirmed on-chain."
+ ],
+ "Gift.OnchainOffer.Withdraw.Text": [
+  "Withdrawing early costs **%1$@**.**%2$@** will be returned to you."
+ ],
+ "Gift.OnchainOffer.Withdraw.TextFree": [
+  "**%@** will be returned to you."
+ ],
+ "Gift.OnchainOffer.Withdraw.Title": [
+  "Withdraw Offer?"
+ ],
  "Gift.Options.Collectibles.Text": [
   "Collectible gifts are unique digital items you can exchange or sell."
  ],
@@ -3515,6 +3835,18 @@
  ],
  "Gift.Send.Upgrade.ForcedInfo": [
   "%1$@ accepts only unique gifts. [Learn More >]()"
+ ],
+ "Gift.Store.Filter.FixedSale": [
+  "On-Chain Sales"
+ ],
+ "Gift.Store.Filter.Fragment": [
+  "From Fragment"
+ ],
+ "Gift.Store.Filter.Stars": [
+  "For Stars"
+ ],
+ "Gift.Store.Filter.Ton": [
+  "For Grams"
  ],
  "Gift.Transfer.Confirmation.TextFree": [
   "Do you want to transfer ownership of **%1$@** to **%2$@**?"
@@ -3770,6 +4102,15 @@
  "Group.Appearance.Wallpaper": [
   "Group Wallpaper"
  ],
+ "Group.Edit.PrivateConfirmation.Continue": [
+  "Continue"
+ ],
+ "Group.Edit.PrivateConfirmation.Text": [
+  "Your group's public link t.me/%@ will be removed, and this username will become available to anyone. Continue?"
+ ],
+ "Group.Edit.PrivateConfirmation.Title": [
+  "Make Group Private?"
+ ],
  "Group.EditAdmin.MemberTagTitle": [
   "Member Tag"
  ],
@@ -3922,17 +4263,17 @@
   "%@ Member",
   "%@ Members"
  ],
- "GroupMembers.HideMembers": [
-  "Hide Members"
- ],
- "GroupMembers.MembersHiddenOff": [
-  "Switch this on to hide the list of members in this group. Admins will remain visible."
- ],
  "GroupMembers.MembersHiddenOn": [
   "Switch this off to show the list of members in this group."
  ],
  "GroupPermission.AddMembersNotAvailable": [
   "You don't have permission to add members."
+ ],
+ "GroupPermission.DeleteAlert.Text": [
+  "This user's permissions will be reset to the group's defaults."
+ ],
+ "GroupPermission.DeleteAlert.Title": [
+  "Delete Exception?"
  ],
  "GroupPermission.EditingDisabled": [
   "You cannot edit restrictions of this user."
@@ -4103,6 +4444,9 @@
  ],
  "LiveStream.ChatFullAlertText": [
   "Sorry, this live stream has too many participants at the moment."
+ ],
+ "LiveStream.DeleteMessageConfirmation.Title": [
+  "Delete Message?"
  ],
  "LiveStream.ErrorMaxAllowedEmoji.Text": [
   "You can send up to %d emoji.",
@@ -4703,9 +5047,6 @@
  "Monetization.Bot.BalanceTitle": [
   "AVAILABLE BALANCE"
  ],
- "Monetization.Bot.Header": [
-  "Telegram shares 50% of the revenue from ads displayed in your bot as rewards. [Learn More >]()"
- ],
  "Monetization.Intro.Bot.Ads.Text": [
   "Telegram can display ads in your bot."
  ],
@@ -5042,6 +5383,12 @@
  "Notification.GramTransfer": [
   "%1$@ sent you %2$@"
  ],
+ "Notification.GramTransferReceived": [
+  "You received %@"
+ ],
+ "Notification.GramTransferReceived.WithFiat": [
+  "You received %1$@ (%2$@)"
+ ],
  "Notification.GroupCreatorChangeApplied": [
   "%1$@ has transferred ownership of the group to %2$@."
  ],
@@ -5200,6 +5547,51 @@
  ],
  "Notification.StarGiftOffer.Expiration.Delimiter": [
   " "
+ ],
+ "Notification.StarGiftOnchainOffer.ListOffer": [
+  "You were offered %1$@ for %2$@"
+ ],
+ "Notification.StarGiftOnchainOffer.ListOfferYou": [
+  "You offered %1$@ for %2$@"
+ ],
+ "Notification.StarGiftOnchainOffer.Offer": [
+  "You were offered **%1$@** (%2$@) for **%3$@**."
+ ],
+ "Notification.StarGiftOnchainOffer.OfferNoValue": [
+  "You were offered **%1$@** for **%2$@**."
+ ],
+ "Notification.StarGiftOnchainOffer.OfferYou": [
+  "You offered **%1$@** for **%2$@**."
+ ],
+ "Notification.StarGiftOnchainOffer.Review": [
+  "Review"
+ ],
+ "Notification.StarGiftOnchainOffer.Sold": [
+  "SOLD"
+ ],
+ "Notification.StarGiftOnchainOffer.Status.Accepted": [
+  "The offer was accepted."
+ ],
+ "Notification.StarGiftOnchainOffer.Status.Cancelling": [
+  "The offer is being cancelled."
+ ],
+ "Notification.StarGiftOnchainOffer.Status.Declined": [
+  "The offer was declined."
+ ],
+ "Notification.StarGiftOnchainOffer.Status.Expired": [
+  "The offer has expired."
+ ],
+ "Notification.StarGiftOnchainOffer.Status.Expires": [
+  "The offer expires in"
+ ],
+ "Notification.StarGiftOnchainOffer.Status.Settling": [
+  "The sale is being completed."
+ ],
+ "Notification.StarGiftOnchainOffer.Status.Withdrawn": [
+  "The offer was withdrawn."
+ ],
+ "Notification.StarGiftOnchainOffer.Withdraw": [
+  "Withdraw"
  ],
  "Notification.StarsGift.Assigned": [
   "You added %@ to your profile."
@@ -5952,6 +6344,10 @@
  "PeerInfo.ChannelMessages": [
   "Direct Messages"
  ],
+ "PeerInfo.DeleteMessagesConfirmation.Title": [
+  "Delete 1 Message?",
+  "Delete %@ Messages?"
+ ],
  "PeerInfo.Gifts.SendGift": [
   "Send Gift"
  ],
@@ -5961,6 +6357,9 @@
  ],
  "PeerInfo.GroupAboutItem": [
   "about"
+ ],
+ "PeerInfo.GroupsInCommon.CreateGroup": [
+  "Create Group with %@"
  ],
  "PeerInfo.HideMembersLimitedParticipantCountText": [
   "Only groups with more than **%d member** can hide members.",
@@ -6503,6 +6902,18 @@
  ],
  "QrStudio.Toast.Failed": [
   "Something went wrong. Please try again."
+ ],
+ "QuickReply.DeleteAlert.TextMultiple": [
+  "These quick replies and all their messages will be deleted."
+ ],
+ "QuickReply.DeleteAlert.TextSingle": [
+  "This quick reply and all its messages will be deleted."
+ ],
+ "QuickReply.DeleteAlert.TitleMultiple": [
+  "Delete Quick Replies?"
+ ],
+ "QuickReply.DeleteAlert.TitleSingle": [
+  "Delete Quick Reply?"
  ],
  "REACT_GAME_SCORE": [
   "%1$@|reacted %2$@ to your game score"
@@ -7438,9 +7849,37 @@
  "StickerPackActionInfo.RemovedTitle": [
   "Stickers Removed"
  ],
+ "StickerPacks.ArchivePacksAlert.Text": [
+  "You can quickly restore this set later from the Archived Stickers section.",
+  "You can quickly restore these sets later from the Archived Stickers section."
+ ],
+ "StickerPacks.ArchivePacksAlert.Title": [
+  "Archive Sticker Set?",
+  "Archive %@ Sticker Sets?"
+ ],
+ "StickerPacks.DeleteEmojiPacksAlert.Title": [
+  "Delete Emoji Pack?",
+  "Delete %@ Emoji Packs?"
+ ],
  "StickerPacks.DeleteEmojiPacksConfirmation": [
   "Delete 1 Emoji Pack",
   "Delete %@ Emoji Packs"
+ ],
+ "StickerPacks.DeletePacksAlert.Text": [
+  "This set will be removed from your list.",
+  "These sets will be removed from your list."
+ ],
+ "StickerPacks.DeleteStickerPacksAlert.Title": [
+  "Delete Sticker Set?",
+  "Delete %@ Sticker Sets?"
+ ],
+ "StickerPacks.UnarchivePacksAlert.Text": [
+  "This pack will be added back to your list.",
+  "These packs will be added back to your list."
+ ],
+ "StickerPacks.UnarchivePacksAlert.Title": [
+  "Unarchive Pack?",
+  "Unarchive %@ Packs?"
  ],
  "StickerPacksSettings.ArchivedMasks.Info": [
   "You can add up to 200 sets of masks.Unused sets are archived when you add more."
@@ -7472,6 +7911,9 @@
  ],
  "Story.CaptionShowMore": [
   "Show more"
+ ],
+ "Story.DeleteConfirmation.Title": [
+  "Delete Story?"
  ],
  "Story.Editor.CollageDraftAllMediaMissing": [
   "None of the media in this collage are available anymore. This draft will be deleted."
@@ -7570,6 +8012,27 @@
  ],
  "TextProcessing.AlertTooManyStyles.Title": [
   "Too Many Styles"
+ ],
+ "TextProcessing.AlwaysUse": [
+  "Always use in this chat"
+ ],
+ "TextProcessing.AlwaysUseFooter": [
+  "Every message you send in this chat will be rewritten with these settings."
+ ],
+ "TextProcessing.AlwaysUseSummary": [
+  "→ %@"
+ ],
+ "TextProcessing.AlwaysUseSummaryEmoji": [
+  "Emoji"
+ ],
+ "TextProcessing.AlwaysUseSummaryFix": [
+  "Fix grammar"
+ ],
+ "TextProcessing.AlwaysUseSummaryStyledLanguage": [
+  "%1$@ %2$@"
+ ],
+ "TextProcessing.AlwaysUseSummaryWithEmoji": [
+  "%@ + emoji"
  ],
  "TextProcessing.StyleFooterCreatedByFormat": [
   "%1$@. %2$@"
@@ -7677,6 +8140,27 @@
  ],
  "Time.TomorrowAt": [
   "tomorrow at %@"
+ ],
+ "Ton.Withdraw": [
+  "Withdraw"
+ ],
+ "Ton.WithdrawToWallet.AmountTooLarge": [
+  "This amount exceeds the withdrawal limit."
+ ],
+ "Ton.WithdrawToWallet.OutcomeUnknown": [
+  "Couldn't confirm the withdrawal. Check your transaction history before trying again."
+ ],
+ "Ton.WithdrawToWallet.Text": [
+  "The Grams will go to your self-custodial wallet (%@)."
+ ],
+ "Ton.WithdrawToWallet.Title": [
+  "Withdraw %@"
+ ],
+ "Ton.WithdrawToWallet.WalletCreating": [
+  "Your wallet is being set up. Please try again in a minute."
+ ],
+ "Ton.WithdrawToWallet.WalletUnavailable": [
+  "Your wallet is unavailable right now. Please try again later."
  ],
  "Translate.Languages.Title": [
   "Languages"
@@ -8308,6 +8792,10 @@
  "VoiceOver.Browser.PreviousResult": [
   "Previous Result"
  ],
+ "VoiceOver.Call.Rating": [
+  "%@ Star",
+  "%@ Stars"
+ ],
  "VoiceOver.Camera.Collage": [
   "Collage"
  ],
@@ -8335,11 +8823,26 @@
  "VoiceOver.Chat.Failed": [
   "Failed to send"
  ],
+ "VoiceOver.Chat.GoToBottom": [
+  "Go to bottom"
+ ],
  "VoiceOver.Chat.GoToOriginalMessage": [
   "Go to message"
  ],
  "VoiceOver.Chat.GroupInfo": [
   "Group Info"
+ ],
+ "VoiceOver.Chat.NextMention": [
+  "Next mention"
+ ],
+ "VoiceOver.Chat.NextPollVote": [
+  "Next poll vote"
+ ],
+ "VoiceOver.Chat.NextReaction": [
+  "Next reaction"
+ ],
+ "VoiceOver.Chat.NextResult": [
+  "Next result"
  ],
  "VoiceOver.Chat.NotPlayedByRecipient": [
   "Not played by recipient"
@@ -8352,6 +8855,9 @@
  ],
  "VoiceOver.Chat.PlayedByRecipients": [
   "Played by recipients"
+ ],
+ "VoiceOver.Chat.PreviousResult": [
+  "Previous result"
  ],
  "VoiceOver.Chat.Profile": [
   "Profile"
@@ -8429,6 +8935,12 @@
  "VoiceOver.Common.Expand": [
   "Expand"
  ],
+ "VoiceOver.Common.MoveDown": [
+  "Move Down"
+ ],
+ "VoiceOver.Common.MoveUp": [
+  "Move Up"
+ ],
  "VoiceOver.Common.NoColor": [
   "No Color"
  ],
@@ -8440,6 +8952,15 @@
  ],
  "VoiceOver.Common.Verified": [
   "Verified"
+ ],
+ "VoiceOver.DatePicker.Date": [
+  "Date"
+ ],
+ "VoiceOver.DatePicker.NextMonth": [
+  "Next Month"
+ ],
+ "VoiceOver.DatePicker.PreviousMonth": [
+  "Previous Month"
  ],
  "VoiceOver.DismissContextMenu": [
   "Dismiss Context Menu"
@@ -8468,8 +8989,47 @@
  "VoiceOver.Keyboard": [
   "Keyboard"
  ],
+ "VoiceOver.Map.MapType": [
+  "Map Type"
+ ],
+ "VoiceOver.Map.ShowMyLocation": [
+  "Show My Location"
+ ],
+ "VoiceOver.Media.NextTrack": [
+  "Next Track"
+ ],
+ "VoiceOver.Media.PlaybackOrder": [
+  "Order"
+ ],
+ "VoiceOver.Media.PlaybackOrderRegular": [
+  "In Order"
+ ],
+ "VoiceOver.Media.PlaybackOrderReversed": [
+  "Reverse Order"
+ ],
+ "VoiceOver.Media.PlaybackOrderShuffle": [
+  "Shuffle"
+ ],
+ "VoiceOver.Media.PreviousTrack": [
+  "Previous Track"
+ ],
+ "VoiceOver.Media.Repeat": [
+  "Repeat"
+ ],
+ "VoiceOver.Media.RepeatAll": [
+  "All"
+ ],
+ "VoiceOver.Media.RepeatOne": [
+  "One"
+ ],
  "VoiceOver.MediaEditor.Adjustments": [
   "Adjustments"
+ ],
+ "VoiceOver.MediaEditor.AspectRatio": [
+  "Aspect Ratio"
+ ],
+ "VoiceOver.MediaEditor.Crop": [
+  "Crop"
  ],
  "VoiceOver.MediaEditor.Rotate": [
   "Rotate"
@@ -8491,6 +9051,9 @@
  ],
  "VoiceOver.Reactions.ShowAll": [
   "Show All Reactions"
+ ],
+ "VoiceOver.Recording.RecordMore": [
+  "Record More"
  ],
  "VoiceOver.ScheduledMessages": [
   "Scheduled Messages"
@@ -8539,6 +9102,12 @@
  ],
  "VoiceOver.TabBar.AttentionRequired": [
   "Attention required"
+ ],
+ "VoiceOver.Wallpaper.PatternNumber": [
+  "Pattern %@"
+ ],
+ "VoiceOver.Wallpaper.WallpaperNumber": [
+  "Wallpaper %@"
  ],
  "Wallet.Apps.AllDisconnected": [
   "All apps disconnected."
@@ -8921,6 +9490,42 @@
  "Wallet.Transaction.Collectible": [
   "Collectible"
  ],
+ "Wallet.Transaction.CollectibleMovedFromProfile": [
+  "Moved from profile"
+ ],
+ "Wallet.Transaction.CollectibleMovedToProfile": [
+  "Moved to profile"
+ ],
+ "Wallet.Transaction.CollectibleOfferAccepted": [
+  "Offer accepted"
+ ],
+ "Wallet.Transaction.CollectibleOfferCancelled": [
+  "Offer cancelled"
+ ],
+ "Wallet.Transaction.CollectibleOfferDeclined": [
+  "Offer declined"
+ ],
+ "Wallet.Transaction.CollectibleOfferExpired": [
+  "Offer expired"
+ ],
+ "Wallet.Transaction.CollectibleOfferSent": [
+  "Offer sent"
+ ],
+ "Wallet.Transaction.CollectiblePurchased": [
+  "Purchased"
+ ],
+ "Wallet.Transaction.CollectiblePutOnSale": [
+  "Put on sale"
+ ],
+ "Wallet.Transaction.CollectibleReceived": [
+  "Received"
+ ],
+ "Wallet.Transaction.CollectibleRemovedFromSale": [
+  "Removed from sale"
+ ],
+ "Wallet.Transaction.CollectibleSent": [
+  "Sent"
+ ],
  "Wallet.Transaction.CommentDecryptionErrorText": [
   "The comment could not be decrypted."
  ],
@@ -8953,6 +9558,27 @@
  ],
  "Wallet.Transaction.KeyUpdate": [
   "Key Update"
+ ],
+ "Wallet.Transaction.NetworkFee": [
+  "Network fee"
+ ],
+ "Wallet.Transaction.OfferBuyer": [
+  "Buyer"
+ ],
+ "Wallet.Transaction.OfferCancellationFee": [
+  "Cancellation fee"
+ ],
+ "Wallet.Transaction.OfferExpiration": [
+  "Expiration"
+ ],
+ "Wallet.Transaction.OfferPlatformFee": [
+  "Platform fee"
+ ],
+ "Wallet.Transaction.OfferPrice": [
+  "Price"
+ ],
+ "Wallet.Transaction.OfferSeller": [
+  "Seller"
  ],
  "Wallet.Transaction.OutgoingCollectible": [
   "Outgoing collectible"

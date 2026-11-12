@@ -765,6 +765,9 @@
  "Common.OK": [
   "OK"
  ],
+ "Common.Search": [
+  "Search"
+ ],
  "Conversation.BotInteractiveUrlAlert": [
   "Allow %@ to pass your Telegram name and id (not your phone number) to pages you open with this bot?"
  ],

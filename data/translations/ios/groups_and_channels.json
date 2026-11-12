@@ -3709,6 +3709,12 @@
  "GroupInfo.WelcomeMessages": [
   "Welcome Message"
  ],
+ "GroupMembers.HideMembers": [
+  "Hide Members"
+ ],
+ "GroupMembers.MembersHiddenOff": [
+  "Switch this on to hide the list of members in this group. Admins will remain visible."
+ ],
  "GroupPermission.AddException": [
   "Add Exception"
  ],
@@ -4094,11 +4100,19 @@
  "Join.ChannelsTooMuch": [
   "Sorry, you are a member of too many groups and channels. Please leave one before joining another."
  ],
+ "LastSeen.HoursAgo": [
+  "last seen 1 hour ago",
+  "last seen %@ hours ago"
+ ],
  "LastSeen.JustNow": [
   "last seen just now"
  ],
  "LastSeen.Lately": [
   "last seen recently"
+ ],
+ "LastSeen.MinutesAgo": [
+  "last seen 1 minute ago",
+  "last seen %@ minutes ago"
  ],
  "LeaveGroup.AppointAnotherOwner": [
   "Appoint Another Owner"
