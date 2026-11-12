@@ -15709,7 +15709,7 @@
   "This TON Connect link is invalid."
  ],
  "Wallet.Connect.KeyChanging": [
-  "Your recovery phrase is being updated. Try again once the update is confirmed."
+  "Your secret phrase is being updated. Try again once the update is confirmed."
  ],
  "Wallet.Connect.KeyMismatch": [
   "This app was connected with a different key of this wallet, so this device can’t answer it."
