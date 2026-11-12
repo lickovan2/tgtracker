@@ -15552,7 +15552,7 @@
   "The wallet verification request expired. Tap Disable to try again."
  ],
  "Wallet.Backup.DisableWalletChangedText": [
-  "The wallet's recovery phrase changed while you were updating backup settings. Restore access using the current recovery phrase and try again."
+  "The wallet's secret phrase changed while you were updating backup settings. Restore access using the current secret phrase and try again."
  ],
  "Wallet.Backup.EnableErrorTitle": [
   "Couldn't Enable Backup"
