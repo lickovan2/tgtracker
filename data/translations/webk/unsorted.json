@@ -15510,7 +15510,7 @@
   "Two-Step Verification Required"
  ],
  "Wallet.Auth.UpdatePhraseErrorText": [
-  "The new recovery phrase was not activated. Your previous phrase and encrypted backup are still valid."
+  "The new secret phrase was not activated. Your previous phrase and encrypted backup are still valid."
  ],
  "Wallet.Auth.VerificationExpiredText": [
   "The wallet verification request expired. Please try importing it again."
