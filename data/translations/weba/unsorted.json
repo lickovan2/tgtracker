@@ -10115,7 +10115,7 @@
   "Only {collections} can be used to change the color of your card."
  ],
  "WalletStickerGridFooter": [
-  "Hold a gift to peel it off and stick it on your card. Hold a sticker on the card to peel it again. A second finger turns and resizes it."
+  "Hold a gift to peel it off and stick it on your card. Hold a gift on the card to peel it again, and use another finger to rotate or resize it."
  ],
  "WalletStickerInvalidError": [
   "One of these stickers can’t be used on the card. Only gifts owned by this wallet are supported."
