@@ -15558,7 +15558,7 @@
   "Couldn't Enable Backup"
  ],
  "Wallet.Backup.EnablePhraseUpdatePendingText": [
-  "Telegram couldn't confirm the recovery phrase change on the blockchain yet. Wait a moment and retry, or enter the current recovery phrase."
+  "Telegram couldn't confirm the secret phrase change on the blockchain yet. Wait a moment and retry, or enter the current secret phrase."
  ],
  "Wallet.Backup.EnableVerificationExpiredText": [
   "The wallet verification request expired. Please try enabling backup again."
@@ -16109,7 +16109,7 @@
   "Forgot passcode?"
  ],
  "Wallet.Vault.ForgotText": [
-  "The key will be removed from this device. You can restore it again from your recovery phrase or the encrypted backup."
+  "The key will be removed from this device. You can restore it again from your secret phrase or the encrypted backup."
  ],
  "Wallet.Vault.New": [
   "New passcode"
