@@ -15576,7 +15576,7 @@
   "Secret Phrase Update Pending"
  ],
  "Wallet.Backup.RequiredBalance": [
-  "You need %1$s Grams (%2$s) to update your recovery phrase. Add funds and try again."
+  "You need %1$s Grams (%2$s) to update your secret phrase. Add funds and try again."
  ],
  "Wallet.Backup.RequiredBalanceGrams": [
   "You need %s Grams to update your secret phrase. Add funds and try again."
