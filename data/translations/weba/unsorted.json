@@ -1059,7 +1059,7 @@
   "Are you sure you want to close all browser tabs?"
  ],
  "AreYouSureLogoutGrams": [
-  "Are you sure you want to log out?This will cancel all your Secret Chats and **delete wallet backups holding {amount}**. Without their Secret Phrases, you'll lose access to these funds.You can use Telegram on all your devices at once and use several accounts in the same app."
+  "Are you sure you want to log out?This will **delete wallet backups holding {amount}**. Without their Secret Phrases, you'll lose access to these funds.You can use Telegram on all your devices at once and use several accounts in the same app."
  ],
  "AriaComposerBotKeyboard": [
   "Show bot keyboard"
@@ -1147,6 +1147,15 @@
  ],
  "AspectRatio": [
   "Aspect ratio"
+ ],
+ "AspectRatioFree": [
+  "Free"
+ ],
+ "AspectRatioOriginal": [
+  "Original"
+ ],
+ "AspectRatioSquare": [
+  "Square"
  ],
  "AttachGiveaway": [
   "Giveaway"
@@ -3781,9 +3790,6 @@
  "FragmentUsernameTitle": [
   "**{username}** is a collectible username that belongs to"
  ],
- "Free": [
-  "Free"
- ],
  "FrozenAccountAppealSubtitle": [
   "Appeal via {botLink} before {date} or your account will be deleted."
  ],
@@ -5678,9 +5684,6 @@
  "OptionPremiumRequiredMessage": [
   "Subscribe to **Telegram Premium** to select this option."
  ],
- "Original": [
-  "Original"
- ],
  "PageContentEmbed": [
   "Embedded content"
  ],
@@ -6636,6 +6639,9 @@
  ],
  "QrCodeTitle": [
   "QR Code"
+ ],
+ "QrFree": [
+  "Free"
  ],
  "QrFreeExpiresIn": [
   "Expires in {time}"
@@ -7925,9 +7931,6 @@
  ],
  "SponsoredPeerBadge": [
   "Ad"
- ],
- "Square": [
-  "Square"
  ],
  "StarGift": [
   "Star Gift"
@@ -9271,10 +9274,10 @@
   "This video is too large to edit."
  ],
  "VideoUnsupportedDesktop": [
-  "__Unfortunately, this video can't be played on Telegram Web. Try opening it with our [desktop app](https://getdesktop.telegram.org/) instead.__"
+  "Unfortunately, this video can't be played on Telegram Web. Try opening it with our **desktop app** instead."
  ],
  "VideoUnsupportedMobile": [
-  "__Unfortunately, this video can't be played on Telegram Web. Try opening it with our [mobile app](https://telegram.org/dl/) instead.__"
+  "Unfortunately, this video can't be played on Telegram Web. Try opening it with our **mobile app** instead."
  ],
  "ViewButtonAiStyle": [
   "VIEW STYLE"
@@ -9813,8 +9816,8 @@
   "Transfer this collectible off-chain to your Telegram account?"
  ],
  "WalletNetworkFeesInfo": [
-  "Every transfer costs a small network fee (**~{fee} Grams**). Telegram covers your first **{count}** transfer each day.",
-  "Every transfer costs a small network fee (**~{fee} Grams**). Telegram covers your first **{count}** transfers each day."
+  "Every transfer costs a small network fee (**~{fee}**). Telegram covers your first **{count}** transfer each day.",
+  "Every transfer costs a small network fee (**~{fee}**). Telegram covers your first **{count}** transfers each day."
  ],
  "WalletNetworkFeesInfoShort": [
   "Every transfer costs a small network fee. Telegram covers your first **{count}** transfer each day.",
