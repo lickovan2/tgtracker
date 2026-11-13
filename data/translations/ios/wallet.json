@@ -5,6 +5,9 @@
  "Common.Cancel": [
   "Cancel"
  ],
+ "Common.Done": [
+  "Done"
+ ],
  "Common.Edit": [
   "Edit"
  ],
@@ -317,8 +320,14 @@
  "Wallet.HiddenTransactions": [
   "Transactions under %@ are hidden."
  ],
+ "Wallet.Import.Action": [
+  "Import"
+ ],
  "Wallet.Import.EnableBackupText": [
   "Enter your wallet's current 12- or 24-word secret phrase to enable encrypted backup."
+ ],
+ "Wallet.Import.EnterPhraseText": [
+  "Enter your wallet's Secret Phraseto continue. [Why?]()"
  ],
  "Wallet.Import.ErrorText": [
   "Check the secret phrase and network connection, then try again."
@@ -349,6 +358,15 @@
  ],
  "Wallet.Import.RecoveryExplanation": [
   "Since you disabled backups for your wallet, you have to manually enter your Secret Phrase in every new Telegram session."
+ ],
+ "Wallet.Import.TestText": [
+  "Make sure you wrote your secret phrase down correctly.Enter words **%1$@**, **%2$@** and **%3$@**."
+ ],
+ "Wallet.Import.TestTextFallback": [
+  "Make sure you wrote your secret phrase down correctly."
+ ],
+ "Wallet.Import.TestTitle": [
+  "Test Time"
  ],
  "Wallet.Import.Text": [
   "Enter the 12- or 24-word secret phrase from another wallet you own."
@@ -387,17 +405,35 @@
  "Wallet.Info.FirstGramsRateText": [
   "**1 Gram** currently equals **%@**.You can:"
  ],
+ "Wallet.Info.FirstGramsText": [
+  "You can:"
+ ],
  "Wallet.Info.FirstGramsTitle": [
   "Your first Grams!"
  ],
  "Wallet.Info.GramRateText": [
   "The native currency of the TON blockchain. **1 Gram** currently equals **%@**."
  ],
+ "Wallet.Info.GramText": [
+  "The native currency of the TON blockchain."
+ ],
  "Wallet.Info.GramTitle": [
   "Gram"
  ],
  "Wallet.Info.InstantTransfersText": [
   "Send Grams in any chat, just likesharing a photo."
+ ],
+ "Wallet.Info.InstantTransfersTitle": [
+  "Instant Transfers"
+ ],
+ "Wallet.Info.NeverSharePhrase": [
+  "**Never share** your Secret Phrase with anyone."
+ ],
+ "Wallet.Info.PhraseSupportWarning": [
+  "Telegram Support **will never ask you** for your Secret Phrase."
+ ],
+ "Wallet.Info.PhraseTheftWarning": [
+  "If someone has your Secret Phrase, they **can steal your funds**."
  ],
  "Wallet.Info.SendText": [
   "Transfer Grams to anyone.Tap  # → Money in chats."
@@ -410,6 +446,9 @@
  ],
  "Wallet.Info.StoreTitle": [
   "Store"
+ ],
+ "Wallet.Info.Text": [
+  "Only you control your funds —no one else has access."
  ],
  "Wallet.Info.Title": [
   "How It Works"
@@ -428,6 +467,9 @@
  ],
  "Wallet.Info.ZeroFeesText": [
   "The first 5 transfers each day are free. The rest cost almost nothing."
+ ],
+ "Wallet.Info.ZeroFeesTitle": [
+  "Zero Fees"
  ],
  "Wallet.KeysAndBackup": [
   "Keys & Backup"
@@ -636,6 +678,12 @@
  "Wallet.ShowSecretPhrase": [
   "Show Secret Phrase"
  ],
+ "Wallet.Sign.BinaryContent": [
+  "Binary content"
+ ],
+ "Wallet.Sign.BinaryWarning": [
+  "You are signing blindly. Only sign data from trusted sources."
+ ],
  "Wallet.Sign.Confirm": [
   "Confirm"
  ],
@@ -660,6 +708,18 @@
  "Wallet.Sign.FieldComment": [
   "comment"
  ],
+ "Wallet.Sign.FieldMessage": [
+  "message"
+ ],
+ "Wallet.Sign.FieldPayload": [
+  "payload (BOC/Base64)"
+ ],
+ "Wallet.Sign.FieldStateInit": [
+  "stateInit (BOC/Base64)"
+ ],
+ "Wallet.Sign.FieldValidUntil": [
+  "valid_until"
+ ],
  "Wallet.Sign.MessageExplanation": [
   "Review the message details and sign if you agree."
  ],
@@ -671,6 +731,9 @@
  ],
  "Wallet.Sign.Submission": [
   "The app will submit this transfer."
+ ],
+ "Wallet.Sign.SubmissionUntil": [
+  "The app can submit this transfer until %@."
  ],
  "Wallet.Sticker.BackgroundNotAllowedError": [
   "This gift can’t be set as your card’s background."
@@ -705,11 +768,20 @@
  "Wallet.Transaction.Address": [
   "Address"
  ],
+ "Wallet.Transaction.AnonymousNumber": [
+  "Collectible Number"
+ ],
  "Wallet.Transaction.CallContract": [
   "Call Contract"
  ],
  "Wallet.Transaction.CardTopUp": [
   "Card top-up"
+ ],
+ "Wallet.Transaction.Collectible": [
+  "Collectible"
+ ],
+ "Wallet.Transaction.CollectibleGift": [
+  "Collectible Gift"
  ],
  "Wallet.Transaction.CommentDecryptionErrorText": [
   "The comment could not be decrypted."
@@ -717,8 +789,14 @@
  "Wallet.Transaction.CommentDecryptionErrorTitle": [
   "Couldn't Decrypt Comment"
  ],
+ "Wallet.Transaction.CryptoTopUp": [
+  "Crypto top-up"
+ ],
  "Wallet.Transaction.Date": [
   "Date"
+ ],
+ "Wallet.Transaction.DeployContract": [
+  "Deploy Contract"
  ],
  "Wallet.Transaction.Deposit": [
   "Deposit"
@@ -735,6 +813,15 @@
  "Wallet.Transaction.Fee": [
   "Fee"
  ],
+ "Wallet.Transaction.FreeFee": [
+  "Free (paid by Telegram)"
+ ],
+ "Wallet.Transaction.GramInfo": [
+  "What's Gram?"
+ ],
+ "Wallet.Transaction.IncomingTransfer": [
+  "Incoming transfer"
+ ],
  "Wallet.Transaction.ItemCount": [
   "%@ item",
   "%@ items"
@@ -742,14 +829,38 @@
  "Wallet.Transaction.KeyUpdate": [
   "Key Update"
  ],
+ "Wallet.Transaction.MovedFromProfile": [
+  "moved from profile"
+ ],
+ "Wallet.Transaction.MovedToProfile": [
+  "moved to profile"
+ ],
  "Wallet.Transaction.NetworkFeesText": [
   "Every transfer costs a small network fee%1$@.Telegram covers your first %2$@ each day."
  ],
  "Wallet.Transaction.NetworkFeesTitle": [
   "Network fees"
  ],
+ "Wallet.Transaction.OpenWallet": [
+  "Open My Money"
+ ],
+ "Wallet.Transaction.OutgoingTransfer": [
+  "Outgoing transfer"
+ ],
+ "Wallet.Transaction.Processing": [
+  "Processing..."
+ ],
+ "Wallet.Transaction.Recipient": [
+  "Recipient"
+ ],
+ "Wallet.Transaction.Send": [
+  "send"
+ ],
  "Wallet.Transaction.SendCollectible": [
   "Send Collectible"
+ ],
+ "Wallet.Transaction.Sender": [
+  "Sender"
  ],
  "Wallet.Transaction.Telegram": [
   "Telegram"
@@ -761,8 +872,14 @@
   "%@ transfer",
   "%@ transfers"
  ],
+ "Wallet.Transaction.UnknownAddress": [
+  "Unknown Address"
+ ],
  "Wallet.Transaction.UnknownOperation": [
   "Unknown Operation"
+ ],
+ "Wallet.Transaction.Username": [
+  "Username"
  ],
  "Wallet.Transaction.WhatIsGram": [
   "What is Gram?"
@@ -772,6 +889,9 @@
  ],
  "Wallet.Transactions": [
   "Transactions"
+ ],
+ "Wallet.Transfer.AllBalance": [
+  "All Balance"
  ],
  "Wallet.Transfer.CollectibleSuccess": [
   "The collectible has been sent to **%@**."
@@ -821,11 +941,18 @@
  "Wallet.Transfer.PreviewHeader": [
   "PREVIEW"
  ],
+ "Wallet.Transfer.RecipientCount": [
+  "%@ recipient",
+  "%@ recipients"
+ ],
  "Wallet.Transfer.ToAddress": [
   "to %@"
  ],
  "Wallet.Transfer.TopUpText": [
   "There are not enough Grams in your wallet for this payment and its network fee. Top up your balance and try again."
+ ],
+ "Wallet.Transfer.Unavailable": [
+  "Unavailable"
  ],
  "Wallet.Unavailable": [
   "Money is currently unavailable."

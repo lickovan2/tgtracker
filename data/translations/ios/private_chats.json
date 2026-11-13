@@ -2846,6 +2846,9 @@
  "Gift.Transfer.Confirmation.Transfer": [
   "Transfer for"
  ],
+ "Gift.Transfer.MoveToGifts": [
+  "Move to My Gifts"
+ ],
  "Gift.Transfer.SendUnlocks": [
   "unlocks in %@"
  ],
@@ -5041,6 +5044,12 @@
  ],
  "Wallet.CopyAddress": [
   "Copy Address"
+ ],
+ "Wallet.Recipient.Placeholder": [
+  "Name or wallet address"
+ ],
+ "Wallet.Recipient.Title": [
+  "Choose Recipient"
  ],
  "Wallet.SendMoney": [
   "Send Money"

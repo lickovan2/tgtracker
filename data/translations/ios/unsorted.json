@@ -4264,47 +4264,14 @@
  "Wallet.HowDoesItWork": [
   "How does it work?"
  ],
- "Wallet.Import.EnterPhraseText": [
-  "Enter your wallet's Secret Phraseto continue. [Why?]()"
- ],
- "Wallet.Import.TestTextFallback": [
-  "Make sure you wrote your secret phrase down correctly."
- ],
- "Wallet.Info.FirstGramsText": [
-  "You can:"
- ],
- "Wallet.Info.GramText": [
-  "The native currency of the TON blockchain."
- ],
  "Wallet.Receive.Buy": [
   "Buy with cash or crypto"
  ],
  "Wallet.Send.AmountPlaceholder": [
   "Tap to set amount"
  ],
- "Wallet.Sign.BinaryContent": [
-  "Binary content"
- ],
- "Wallet.Sign.BinaryWarning": [
-  "You are signing blindly. Only sign data from trusted sources."
- ],
  "Wallet.Sign.FeeWithFiat": [
   "Fee: %1$@ (%2$@)."
- ],
- "Wallet.Sign.FieldMessage": [
-  "message"
- ],
- "Wallet.Sign.FieldPayload": [
-  "payload (BOC/Base64)"
- ],
- "Wallet.Sign.FieldStateInit": [
-  "stateInit (BOC/Base64)"
- ],
- "Wallet.Sign.FieldValidUntil": [
-  "valid_until"
- ],
- "Wallet.Sign.SubmissionUntil": [
-  "The app can submit this transfer until %@."
  ],
  "Wallet.Sign.TextExplanation": [
   "Carefully review the message and, if you agree, sign the data."
@@ -4347,12 +4314,6 @@
  ],
  "Wallet.TonConnect.Error.WrongNetwork": [
   "This app requested a different wallet network."
- ],
- "Wallet.Transaction.AnonymousNumber": [
-  "Collectible Number"
- ],
- "Wallet.Transaction.Collectible": [
-  "Collectible"
  ],
  "Wallet.Transaction.CollectibleMovedFromProfile": [
   "Moved from profile"
@@ -4399,12 +4360,6 @@
  "Wallet.Transaction.CommentPrivacy": [
   "Comment privacy"
  ],
- "Wallet.Transaction.CryptoTopUp": [
-  "Crypto top-up"
- ],
- "Wallet.Transaction.DeployContract": [
-  "Deploy Contract"
- ],
  "Wallet.Transaction.IncomingCollectible": [
   "Incoming collectible"
  ],
@@ -4435,36 +4390,14 @@
  "Wallet.Transaction.PrivateComment": [
   "Visible only to you and the recipient."
  ],
- "Wallet.Transaction.Processing": [
-  "Processing..."
- ],
  "Wallet.Transaction.PublicComment": [
   "The comment is visible to everyone."
- ],
- "Wallet.Transaction.Sender": [
-  "Sender"
- ],
- "Wallet.Transaction.UnknownAddress": [
-  "Unknown Address"
- ],
- "Wallet.Transaction.Username": [
-  "Username"
- ],
- "Wallet.Transfer.AllBalance": [
-  "All Balance"
  ],
  "Wallet.Transfer.DetailsHeader": [
   "DETAILS"
  ],
- "Wallet.Transfer.RecipientCount": [
-  "%@ recipient",
-  "%@ recipients"
- ],
  "Wallet.Transfer.Success": [
   "Grams have been sent to **%@**."
- ],
- "Wallet.Transfer.Unavailable": [
-  "Unavailable"
  ],
  "Wallpaper.ErrorNotFound": [
   "Sorry, this chat wallpaper doesn't seem to exist."
