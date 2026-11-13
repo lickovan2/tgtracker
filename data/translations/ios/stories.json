@@ -83,6 +83,9 @@
  "AutoDownloadSettings.StoriesTitle": [
   "Stories"
  ],
+ "Calls.TabTitle": [
+  "Calls"
+ ],
  "Camera.CollageDelete": [
   "Delete"
  ],
@@ -202,6 +205,9 @@
   "**%@** story per day",
   "**%@** stories per day"
  ],
+ "ChannelBoost.Title": [
+  "Boost Channel"
+ ],
  "ChannelBoost.YouBoostedChannel": [
   "You Boosted %1$@!"
  ],
@@ -223,10 +229,6 @@
  "ChatList.Archive.ContextSettings": [
   "Archive Settings"
  ],
- "ChatList.ArchiveStoryCount": [
-  "1 story",
-  "%d stories"
- ],
  "ChatList.Context.Archive": [
   "Archive"
  ],
@@ -242,11 +244,35 @@
  "ChatList.StoryFeedTooltipUsers": [
   "Tap above to view stories from %@"
  ],
+ "Common.Back": [
+  "Back"
+ ],
  "Common.Cancel": [
   "Cancel"
  ],
+ "Common.OK": [
+  "OK"
+ ],
+ "Common.Search": [
+  "Search"
+ ],
  "Contacts.DeselectAll": [
   "Deselect All"
+ ],
+ "Contacts.InviteFriends": [
+  "Invite Friends"
+ ],
+ "Contacts.PermissionsText": [
+  "Please allow Telegram access to your phonebook to seamlessly find all your friends."
+ ],
+ "Contacts.PermissionsTitle": [
+  "Access to Contacts"
+ ],
+ "Contacts.SortedByPresence": [
+  "Sorted by Last Seen Time"
+ ],
+ "Contacts.Title": [
+  "Contacts"
  ],
  "Conversation.BoostChannel": [
   "BOOST"
@@ -293,6 +319,10 @@
  "LastSeen.HoursAgo": [
   "last seen 1 hour ago",
   "last seen %@ hours ago"
+ ],
+ "LastSeen.MinutesAgo": [
+  "last seen 1 minute ago",
+  "last seen %@ minutes ago"
  ],
  "LiveStream.CommentsDisabledPlaceholder": [
   "Comments disabled"
@@ -414,6 +444,10 @@
  "Message.ForwardedStoryShort": [
   "Forwarded StoryFrom: %@"
  ],
+ "MessageTimer.Minutes": [
+  "%@ minute",
+  "%@ minutes"
+ ],
  "Notification.Exceptions.AddException": [
   "Add Exception"
  ],
@@ -501,6 +535,9 @@
  "PeerInfo.PaneStories": [
   "Posts"
  ],
+ "Permissions.ContactsAllowInSettings.v0": [
+  "Allow in Settings"
+ ],
  "Premium.CreateMultipleStories": [
   "Create Multiple Stories"
  ],
@@ -530,6 +567,9 @@
  ],
  "Premium.StoriesInfo": [
   "Unlimited posting, priority order, stealth mode, permanent view history and more."
+ ],
+ "Presence.online": [
+  "online"
  ],
  "Profile.AvatarStoryCount": [
   "1 Story",
@@ -573,6 +613,9 @@
  ],
  "Settings.StoriesArchive": [
   "Story Archive"
+ ],
+ "Settings.Title": [
+  "Settings"
  ],
  "Share.PostToStory": [
   "Postto Story"
@@ -619,6 +662,15 @@
  "Stats.Boosts.ExpiresOn": [
   "Boost expires on %@"
  ],
+ "Stats.Boosts.GetBoosts": [
+  "Get Boosts via Gifts"
+ ],
+ "Stats.Boosts.GetBoostsInfo": [
+  "Get more boosts for your channel by gifting Premium to your subscribers."
+ ],
+ "Stats.Boosts.Giveaway": [
+  "Giveaway"
+ ],
  "Stats.Boosts.Level": [
   "Level"
  ],
@@ -636,6 +688,16 @@
  ],
  "Stats.Boosts.PremiumSubscribers": [
   "Premium Subscribers"
+ ],
+ "Stats.Boosts.ShortMonth": [
+  "%@m"
+ ],
+ "Stats.Boosts.ShowMoreBoosts": [
+  "Show %@ More Boost",
+  "Show %@ More Boosts"
+ ],
+ "Stats.Boosts.ToBeDistributed": [
+  "To Be Distributed"
  ],
  "Stats.Statistics": [
   "Statistics"
@@ -1536,6 +1598,9 @@
  "StoryFeed.TooltipPremiumPosting": [
   "Posting stories is currently available onlyto subscribers of [Telegram Premium]()."
  ],
+ "StoryFeed.TooltipStoryLimit": [
+  "You can't post more than **%@** in **24 hours**."
+ ],
  "StoryFeed.TooltipStoryLimitValue": [
   "1 story",
   "%d stories"
@@ -1697,5 +1762,8 @@
  "Time.HoursAgo": [
   "%@ hour ago",
   "%@ hours ago"
+ ],
+ "Undo.Undo": [
+  "Undo"
  ]
 }

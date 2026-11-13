@@ -5532,6 +5532,9 @@
  "LOCKED_MESSAGE": [
   "You have a new message%1$@"
  ],
+ "LastSeen.Lately": [
+  "last seen recently"
+ ],
  "LiveLocation.MenuChatsCount": [
   "You are sharing Live Location with 1 chat.",
   "You are sharing Live Location with %@ chats."
@@ -8278,6 +8281,9 @@
  "Share.AuthTitle": [
   "Log in to Telegram"
  ],
+ "Share.MultipleMessagesDisabled": [
+  "Slow Mode is enabled. You can't send multiple messages at once."
+ ],
  "Share.ShareToInstagramStories": [
   "Share to Instagram Stories"
  ],
@@ -8292,6 +8298,9 @@
  ],
  "ShareMenu.CopyShareLink": [
   "Copy Link"
+ ],
+ "ShareMenu.SelectTopic": [
+  "Select topic"
  ],
  "ShareMenu.Send": [
   "Send"

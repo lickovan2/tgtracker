@@ -795,6 +795,9 @@
  "Chat.ReactionSection.Popular": [
   "Popular"
  ],
+ "ChatList.ChannelsSection": [
+  "Channels"
+ ],
  "ChatListFilter.AlertCreateFolderBeforeSharingText": [
   "Please finish creating this folder to share it."
  ],
@@ -876,8 +879,23 @@
  "ChatListFolder.CategoryArchived": [
   "Archived"
  ],
+ "ChatListFolder.CategoryBots": [
+  "Bots"
+ ],
+ "ChatListFolder.CategoryChannels": [
+  "Channels"
+ ],
+ "ChatListFolder.CategoryContacts": [
+  "Contacts"
+ ],
+ "ChatListFolder.CategoryGroups": [
+  "Groups"
+ ],
  "ChatListFolder.CategoryMuted": [
   "Muted"
+ ],
+ "ChatListFolder.CategoryNonContacts": [
+  "Non-Contacts"
  ],
  "ChatListFolder.CategoryRead": [
   "Read"
@@ -894,6 +912,21 @@
  "ChatListFolder.IncludedSectionHeader": [
   "INCLUDED CHATS"
  ],
+ "ChatListFolder.NameBots": [
+  "Bots"
+ ],
+ "ChatListFolder.NameChannels": [
+  "Channels"
+ ],
+ "ChatListFolder.NameContacts": [
+  "Contacts"
+ ],
+ "ChatListFolder.NameGroups": [
+  "Groups"
+ ],
+ "ChatListFolder.NameNonContacts": [
+  "Non-Contacts"
+ ],
  "ChatListFolder.NamePlaceholder": [
   "Folder Name"
  ],
@@ -902,6 +935,9 @@
  ],
  "ChatListFolder.TitleCreate": [
   "New Folder"
+ ],
+ "ChatListFolder.TitleEdit": [
+  "Edit Folder"
  ],
  "ChatListFolderSettings.AddRecommended": [
   "ADD"
@@ -1318,6 +1354,9 @@
  "DeleteAccount.Success": [
   "The account has been successfully deleted."
  ],
+ "DialogList.SearchSectionMessagesIn": [
+  "Messages in %@"
+ ],
  "DialogList.Title": [
   "Chats"
  ],
@@ -1457,6 +1496,9 @@
  "EnterPasscode.RepeatNewPasscode": [
   "Re-enter your new passcode"
  ],
+ "Exceptions.AddToExceptions": [
+  "ADD TO EXCEPTIONS"
+ ],
  "FeaturedStickerPacks.Title": [
   "Trending Stickers"
  ],
@@ -1571,6 +1613,9 @@
  "FolderLinkScreen.TitleDescriptionDeselected": [
   "Anyone with this link can add the folder **%@** and the chats selected below."
  ],
+ "FolderLinkScreen.TitleDescriptionDeselectedV2": [
+  "Anyone with this link can add {folder} folder and the chats selected below."
+ ],
  "FolderLinkScreen.TitleDescriptionSelected": [
   "Anyone with this link can add the folder **%1$@** and %2$@ selected below."
  ],
@@ -1578,11 +1623,23 @@
   "the chat",
   "the %d chats"
  ],
+ "FolderLinkScreen.TitleDescriptionSelectedV2": [
+  "Anyone with this link can add {folder} folder and {chats} selected below."
+ ],
  "FolderLinkScreen.TitleDescriptionUnavailable": [
   "You can only share groups and channels in which you are allowed to create invite links."
  ],
  "FolderLinkScreen.ToastNewChatAdded": [
   "People who already used the invite link will be able to join newly added chats."
+ ],
+ "ForcedPasswordSetup.Intro.Action": [
+  "Set a Password"
+ ],
+ "ForcedPasswordSetup.Intro.Text": [
+  "If you want to log into your account frequently, please choose a password."
+ ],
+ "ForcedPasswordSetup.Intro.Title": [
+  "Set a Password"
  ],
  "GlobalAutodeleteSettings.InfoEnabled": [
   "All new messages in chats you start will be automatically deleted for everyone %@ after they are sent. You can also [apply this setting for your existing chats]()."
@@ -1598,6 +1655,9 @@
  ],
  "GlobalAutodeleteSettings.Title": [
   "Auto-Delete Messages"
+ ],
+ "Group.GroupMembersHeader": [
+  "GROUP MEMBERS"
  ],
  "GroupInfo.Permissions.Exceptions": [
   "EXCEPTIONS"
@@ -1807,6 +1867,12 @@
  ],
  "LogoutOptions.Title": [
   "Log out"
+ ],
+ "Map.AddressOnMap": [
+  "Address On Map"
+ ],
+ "Map.PlacesNearby": [
+  "Places Nearby"
  ],
  "MaskStickerSettings.Info": [
   "You can add masks to photos and videos in the media editor before sending."
@@ -4418,6 +4484,9 @@
  ],
  "StorageManagement.SectionStickers": [
   "Stickers"
+ ],
+ "StorageManagement.SectionStories": [
+  "Stories"
  ],
  "StorageManagement.SectionVideos": [
   "Videos"

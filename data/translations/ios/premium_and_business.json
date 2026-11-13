@@ -8,14 +8,54 @@
  "BoostGift.AdditionalPrizes": [
   "Additional Prizes"
  ],
+ "BoostGift.AdditionalPrizesInfoForMonths": [
+  "for **%@** month",
+  "for **%@** months"
+ ],
  "BoostGift.AdditionalPrizesInfoOff": [
   "Turn this on if you want to give the winners your own prizes in addition to Premium subscriptions."
+ ],
+ "BoostGift.AdditionalPrizesInfoOn": [
+  "All prizes: **%1$@** %2$@ %3$@."
+ ],
+ "BoostGift.AdditionalPrizesInfoStars": [
+  "**%@** Star",
+  "**%@** Stars"
+ ],
+ "BoostGift.AdditionalPrizesInfoStarsAndOther": [
+  " and **%1$@** %2$@"
+ ],
+ "BoostGift.AdditionalPrizesInfoStarsOff": [
+  "Turn this on if you want to give the winners your own prizes in addition to Stars."
+ ],
+ "BoostGift.AdditionalPrizesInfoStarsOn": [
+  "All prizes: %1$@%2$@."
+ ],
+ "BoostGift.AdditionalPrizesInfoSubscriptions": [
+  "%@ Telegram Premium subscription",
+  "%@ Telegram Premium subscriptions"
+ ],
+ "BoostGift.AdditionalPrizesInfoWithSubscriptions": [
+  "with %@ Telegram Premium subscription",
+  "with %@ Telegram Premium subscriptions"
+ ],
+ "BoostGift.AdditionalPrizesPlaceholder": [
+  "Enter Your Prize"
  ],
  "BoostGift.AllSubscribers": [
   "All subscribers"
  ],
  "BoostGift.Channels.MaximumReached": [
   "You can select up to %@ channels."
+ ],
+ "BoostGift.Channels.PrivateChannel.Add": [
+  "Add"
+ ],
+ "BoostGift.Channels.PrivateChannel.Text": [
+  "Are you sure you want to add a private channel? Users won't be able to join it without an invite link."
+ ],
+ "BoostGift.Channels.PrivateChannel.Title": [
+  "Channel is Private"
  ],
  "BoostGift.ChannelsAndGroupsInfo": [
   "Choose additional channels or groups users need to join to take part in the giveaway."
@@ -49,6 +89,19 @@
  "BoostGift.FromAllCountries": [
   "from all countries"
  ],
+ "BoostGift.FromCountries": [
+  "from %@ country",
+  "from %@ countries"
+ ],
+ "BoostGift.FromOneCountry": [
+  "from %1$@"
+ ],
+ "BoostGift.FromTwoCountries": [
+  "from %1$@ and %2$@"
+ ],
+ "BoostGift.GiftPremium": [
+  "Gift Premium"
+ ],
  "BoostGift.GiveawayCreated.Text": [
   "Check your channel's [Statistics]() to see how this giveaway boosted your channel."
  ],
@@ -77,12 +130,21 @@
  "BoostGift.Group.PremiumGifted.Text": [
   "Check your groups's [Boosts]() to see how gifts boosted your group."
  ],
+ "BoostGift.Group.StarsDateInfo": [
+  "Choose when %@ of your group will be randomly selected to receive Stars."
+ ],
  "BoostGift.Group.StarsGiveawayCreated.Text": [
   "Check your group's [Boosts]() to see how this giveaway boosted your group."
  ],
  "BoostGift.GroupBoosts": [
   "this group will receive %@ boost",
   "this group will receive %@ boosts"
+ ],
+ "BoostGift.Groups.PrivateGroup.Text": [
+  "Are you sure you want to add a private group? Users won't be able to join it without an invite link."
+ ],
+ "BoostGift.Groups.PrivateGroup.Title": [
+  "Group is Private"
  ],
  "BoostGift.GroupsAndChannelsInfo": [
   "Choose additional groups or channels users need to join to take part in the giveaway."
@@ -114,6 +176,24 @@
  "BoostGift.PremiumInfo": [
   "You can review the list of features and more details about Telegram Premium [here]()."
  ],
+ "BoostGift.PrepaidGiveaway.StarsCount": [
+  "%@ Star",
+  "%@ Stars"
+ ],
+ "BoostGift.PrepaidGiveaway.StarsWinners": [
+  "for %@ winner",
+  "among %@ winners"
+ ],
+ "BoostGift.PrepaidGiveawayCount": [
+  "%@ Telegram Premium",
+  "%@ Telegram Premium"
+ ],
+ "BoostGift.PrepaidGiveawayMonths": [
+  "%@-month subscriptions"
+ ],
+ "BoostGift.PrepaidGiveawayTitle": [
+  "PREPAID GIVEAWAY"
+ ],
  "BoostGift.Prize": [
   "PRIZE"
  ],
@@ -141,6 +221,9 @@
  ],
  "BoostGift.ReduceQuantity.Title": [
   "Reduce Quantity"
+ ],
+ "BoostGift.StarsDateInfo": [
+  "Choose when %@ of your channel will be randomly selected to receive Stars."
  ],
  "BoostGift.StarsGiveawayCreated.Text": [
   "Check your channel's [Statistics]() to see how this giveaway boosted your channel."
@@ -485,11 +568,23 @@
  "ChannelBoost.Error.PremiumNeededTitle": [
   "Premium Needed"
  ],
+ "ChannelBoost.Header.Boost": [
+  "boost"
+ ],
+ "ChannelBoost.Header.Features": [
+  "features"
+ ],
+ "ChannelBoost.Header.Giveaway": [
+  "giveaway"
+ ],
  "ChannelBoost.IncreaseLimit": [
   "Increase Story Limit"
  ],
  "ChannelBoost.IncreaseLimitText": [
   "Your channel needs %1$@ to post %2$@.Ask your **Premium** subscribers to boost your channel with this link:"
+ ],
+ "ChannelBoost.Info": [
+  "Subscribers of your channel can **boost** it so that it **levels up** and gets **exclusive features**."
  ],
  "ChannelBoost.Level": [
   "Level %@"
@@ -528,6 +623,12 @@
  ],
  "ChannelBoost.ProfileIcon": [
   "Set Cover Logo"
+ ],
+ "ChannelBoost.Replace": [
+  "Replace"
+ ],
+ "ChannelBoost.ReplaceBoost": [
+  "You currently boost **%1$@**. Do you want to boost **%2$@** instead?"
  ],
  "ChannelBoost.StoriesPerDay": [
   "**%@** story per day",
@@ -593,6 +694,9 @@
   "%@ Channel Background",
   "%@ Channel Backgrounds"
  ],
+ "ChannelBoost.Title": [
+  "Boost Channel"
+ ],
  "ChannelBoost.Title.Current": [
   "Boost Channel"
  ],
@@ -608,6 +712,9 @@
  "ChannelBoost.YouBoostedOtherChannelText": [
   "You boosted this channel"
  ],
+ "Chat.EmptyStateIntroFooterPremiumActionButton": [
+  "OK"
+ ],
  "Chat.Placeholder.AwayMessage": [
   "Add away message..."
  ],
@@ -616,6 +723,9 @@
  ],
  "Chat.Placeholder.GreetingMessage": [
   "Add greeting message..."
+ ],
+ "ChatList.ArchivedChatsTitle": [
+  "Archived Chats"
  ],
  "ChatList.MaxThreadPinsFinalText": [
   "Sorry, you can't pin more than **%@** topic to the top. Unpin some that are currently pinned.",
@@ -757,6 +867,9 @@
  "EmptyState.GreetingMessage.Title": [
   "New Greeting Message"
  ],
+ "FileSize.GB": [
+  "%@ GB"
+ ],
  "Gift.Options.Premium.Months": [
   "%@ month",
   "%@ months"
@@ -840,17 +953,128 @@
  "Premium.AiTools": [
   "AI Tools"
  ],
+ "Premium.AnimatedEmoji": [
+  "Animated Emoji"
+ ],
+ "Premium.AnimatedEmoji.Proceed": [
+  "Unlock Animated Emoji"
+ ],
+ "Premium.AnimatedEmojiStandaloneInfo": [
+  "Include animated emoji from different emoji packs in any message you send."
+ ],
  "Premium.Annual": [
   "Annual"
  ],
+ "Premium.AppIconStandalone": [
+  "Premium App Icons"
+ ],
+ "Premium.AppIconStandaloneInfo": [
+  "Unlock a wider range of app icons by subscribing to **Telegram Premium**."
+ ],
+ "Premium.AppIcons.Proceed": [
+  "Unlock Premium Icons"
+ ],
  "Premium.Biannual": [
   "2 Years"
+ ],
+ "Premium.Business": [
+  "Telegram Business"
+ ],
+ "Premium.Business.Away.Text": [
+  "Define messages that are automatically sent when you are off."
+ ],
+ "Premium.Business.Away.Title": [
+  "Away Messages"
+ ],
+ "Premium.Business.Chatbots.Text": [
+  "Add any third party chatbots that will process customer interactions."
+ ],
+ "Premium.Business.Chatbots.Title": [
+  "Chatbots"
+ ],
+ "Premium.Business.Description": [
+  "Turn your account to a business page with these additional features."
+ ],
+ "Premium.Business.Greetings.Text": [
+  "Create greetings that will be automatically sent to new customers."
+ ],
+ "Premium.Business.Greetings.Title": [
+  "Greeting Messages"
+ ],
+ "Premium.Business.Hours.Text": [
+  "Show to your customers when you are open for business."
+ ],
+ "Premium.Business.Hours.Title": [
+  "Opening Hours"
+ ],
+ "Premium.Business.Intro.Text": [
+  "Customize the message people see before they start a chat with you."
+ ],
+ "Premium.Business.Intro.Title": [
+  "Start Page"
+ ],
+ "Premium.Business.Links.Text": [
+  "Create links that start a chat with you, suggesting the first message."
+ ],
+ "Premium.Business.Links.Title": [
+  "Links to Chat"
+ ],
+ "Premium.Business.Location.Text": [
+  "Display the location of your business on your account."
+ ],
+ "Premium.Business.Location.Title": [
+  "Location"
+ ],
+ "Premium.Business.Replies.Text": [
+  "Set up shortcuts with rich text and media to respond to messages faster."
+ ],
+ "Premium.Business.Replies.Title": [
+  "Quick Replies"
+ ],
+ "Premium.ChatManagement": [
+  "Advanced Chat Management"
+ ],
+ "Premium.ChatManagement.Proceed": [
+  "About Telegram Premium"
+ ],
+ "Premium.ChatManagementStandaloneInfo": [
+  "Subscribers of **Telegram Premium** can set a default folder, auto-archive and hide new chats from non-contacts."
  ],
  "Premium.CurrentPlan": [
   "your current plan"
  ],
  "Premium.Description": [
   "Go **beyond the limits** and unlock **dozens of exclusive features** by subscribing to **Telegram Premium**."
+ ],
+ "Premium.DoubledLimits": [
+  "Doubled Limits"
+ ],
+ "Premium.FasterSpeed": [
+  "Faster Download Speed"
+ ],
+ "Premium.FasterSpeed.Proceed": [
+  "About Telegram Premium"
+ ],
+ "Premium.FasterSpeedInfo": [
+  "No more limits on the speed with which media and documents are downloaded."
+ ],
+ "Premium.FasterSpeedStandaloneInfo": [
+  "Subscribe to **Telegram Premium** to download media and files at the fastest possible speed."
+ ],
+ "Premium.FileTooLarge": [
+  "File Too Large"
+ ],
+ "Premium.FolderTags": [
+  "Folder Tags"
+ ],
+ "Premium.FolderTags.Proceed": [
+  "About Telegram Premium"
+ ],
+ "Premium.FolderTagsStandaloneInfo": [
+  "Add colorful labels to chats for faster access with Telegram Premium."
+ ],
+ "Premium.Free": [
+  "Free"
  ],
  "Premium.Gift.ApplyLink.AlreadyHasPremium.Text": [
   "You can activate this gift link after **%@** or [send the link]() to a friend."
@@ -891,8 +1115,99 @@
  "Premium.Gift.ContactSelection.TransferSelf": [
   "send yourself a gift"
  ],
+ "Premium.Gift.GiftSubscription": [
+  "Gift Subscription for %@"
+ ],
  "Premium.LimitReached": [
   "Limit Reached"
+ ],
+ "Premium.Limits.Accounts": [
+  "Connected Accounts"
+ ],
+ "Premium.Limits.AccountsInfo": [
+  "Connect 4 accounts with different phone numbers"
+ ],
+ "Premium.Limits.Bio": [
+  "Bio"
+ ],
+ "Premium.Limits.BioInfo": [
+  "Add more characters and use links in your bio"
+ ],
+ "Premium.Limits.Captions": [
+  "Captions"
+ ],
+ "Premium.Limits.CaptionsInfo": [
+  "Use longer descriptions for your photos and videos"
+ ],
+ "Premium.Limits.ChatsPerFolder": [
+  "Chats per Folder"
+ ],
+ "Premium.Limits.ChatsPerFolderInfo": [
+  "Add up to 200 chats into each of your folders"
+ ],
+ "Premium.Limits.FavedStickers": [
+  "Favorite Stickers"
+ ],
+ "Premium.Limits.FavedStickersInfo": [
+  "Save up to 10 stickers in your Favorite Stickers"
+ ],
+ "Premium.Limits.Folders": [
+  "Folders"
+ ],
+ "Premium.Limits.FoldersInfo": [
+  "Organize your chats into 30 folders"
+ ],
+ "Premium.Limits.GroupsAndChannels": [
+  "Groups and Channels"
+ ],
+ "Premium.Limits.GroupsAndChannelsInfo": [
+  "Join up to 1000 channels and large groups"
+ ],
+ "Premium.Limits.Messages": [
+  "Messages"
+ ],
+ "Premium.Limits.MessagesInfo": [
+  "Express yourself with longer messages"
+ ],
+ "Premium.Limits.PinnedChats": [
+  "Pinned Chats"
+ ],
+ "Premium.Limits.PinnedChatsInfo": [
+  "Pin up to 10 chats in your main chat list"
+ ],
+ "Premium.Limits.PublicLinks": [
+  "Public Links"
+ ],
+ "Premium.Limits.PublicLinksInfo": [
+  "Reserve up to 20 [t.me/username]() links"
+ ],
+ "Premium.Limits.RecommendedChannels": [
+  "Similar Channels"
+ ],
+ "Premium.Limits.RecommendedChannelsInfo": [
+  "View up to 100 similar channels"
+ ],
+ "Premium.Limits.SavedGifs": [
+  "Saved GIFs"
+ ],
+ "Premium.Limits.SavedGifsInfo": [
+  "Save up to 400 GIFs in your Favorite GIFs"
+ ],
+ "Premium.MaxAccountsNoPremiumText": [
+  "You have reached the limit of **%@** connected accounts."
+ ],
+ "Premium.MaxChannelsNoPremiumText": [
+  "You can only join **%1$@** groups and channels. This limit may increase in the future."
+ ],
+ "Premium.MaxChatsInFolderNoPremiumText": [
+  "Sorry, you can't add more than **%1$@** chats to a folder. We are working to let you increase this limit in the future."
+ ],
+ "Premium.MaxExpiringStoriesNoPremiumTextFormat": [
+  "You have reached the limit of %@ per **24** hours."
+ ],
+ "Premium.MaxExpiringStoriesNoPremiumTextNumberFormat": [
+  "**%d** story",
+  "**%d** stories"
  ],
  "Premium.MaxFavedStickersFinalText": [
   "An older sticker was replaced with this one."
@@ -903,6 +1218,15 @@
  "Premium.MaxFavedStickersTitle": [
   "Limit of %@ Stickers Reached"
  ],
+ "Premium.MaxFileSizeNoPremiumText": [
+  "The document can't be sent, because it is larger than **%@**. We are working to let you increase this limit in the future."
+ ],
+ "Premium.MaxFoldersCountNoPremiumText": [
+  "You have reached the limit of **%1$@** folders. We are working to let you increase this limit in the future."
+ ],
+ "Premium.MaxPinsNoPremiumText": [
+  "Sorry, you can't pin more than **%@** chats to the top. Unpin some that are currently pinned."
+ ],
  "Premium.MaxSavedGifsFinalText": [
   "An older GIF was replaced with this one."
  ],
@@ -912,11 +1236,47 @@
  "Premium.MaxSavedGifsTitle": [
   "Limit of %@ GIFs Reached"
  ],
+ "Premium.MaxSavedPinsNoPremiumText": [
+  "Sorry, you can't pin more than **%@** chats to the top. Unpin some that are currently pinned."
+ ],
+ "Premium.MaxSharedFolderLinksFinalText": [
+  "Sorry, you can only create **%1$@** invite links"
+ ],
+ "Premium.MaxSharedFolderLinksNoPremiumText": [
+  "You can only create **%1$@** invite links. This number may increase in the future."
+ ],
+ "Premium.MaxSharedFolderMembershipFinalText": [
+  "Sorry, you can only add **%1$@** shareable folders."
+ ],
+ "Premium.MaxSharedFolderMembershipNoPremiumText": [
+  "You can only add **%1$@** shareable folders. This limit may increase in the future."
+ ],
+ "Premium.MaxStoriesMonthlyNoPremiumText": [
+  "You have reached the limit of **%@** stories per month."
+ ],
+ "Premium.MaxStoriesWeeklyNoPremiumText": [
+  "You have reached the limit of **%@** stories per week."
+ ],
  "Premium.Monthly": [
   "Monthly"
  ],
  "Premium.New": [
   "NEW"
+ ],
+ "Premium.NoAds": [
+  "No Ads"
+ ],
+ "Premium.NoAds.Proceed": [
+  "About Telegram Premium"
+ ],
+ "Premium.NoAdsInfo": [
+  "No more ads in public channels where Telegram sometimes shows ads."
+ ],
+ "Premium.NoAdsStandaloneInfo": [
+  "Remove ads such as this one by subscribing to **Telegram Premium**."
+ ],
+ "Premium.Premium": [
+  "Premium"
  ],
  "Premium.PricePerMonth": [
   "%@/month"
@@ -948,8 +1308,62 @@
  "Premium.Stories": [
   "Stories"
  ],
+ "Premium.Stories.Captions.Text": [
+  "Add 10x longer captions to your stories."
+ ],
+ "Premium.Stories.Captions.Title": [
+  "Longer Captions"
+ ],
+ "Premium.Stories.Expiration.Text": [
+  "Set custom durations like 6 or 48 hours for your stories."
+ ],
+ "Premium.Stories.Expiration.Title": [
+  "Expiration Options"
+ ],
+ "Premium.Stories.Format.Text": [
+  "Add links and formatting to your story captions."
+ ],
+ "Premium.Stories.Format.Title": [
+  "Links and Formatting"
+ ],
+ "Premium.Stories.Order.Text": [
+  "Get more views as your stories are always displayed first."
+ ],
+ "Premium.Stories.Order.Title": [
+  "Priority Order"
+ ],
+ "Premium.Stories.Quality.Text": [
+  "View video stories in double the resolution."
+ ],
+ "Premium.Stories.Quality.Title": [
+  "Higher Quality"
+ ],
+ "Premium.Stories.Save.Text": [
+  "Save other people's stories that are not protected."
+ ],
+ "Premium.Stories.Save.Title": [
+  "Save Stories to Photos"
+ ],
+ "Premium.Stories.Stealth.Text": [
+  "Hide the fact that you viewed other people's stories."
+ ],
+ "Premium.Stories.Stealth.Title": [
+  "Stealth Mode"
+ ],
+ "Premium.Stories.Title": [
+  "Stories"
+ ],
+ "Premium.Stories.Views.Text": [
+  "Check who opens your stories — even after they expire."
+ ],
+ "Premium.Stories.Views.Title": [
+  "Permanent View History"
+ ],
  "Premium.StoriesInfo": [
   "Unlimited posting, priority order, stealth mode, permanent view history and more."
+ ],
+ "Premium.SubscribeFor": [
+  "Subscribe for %@ / month"
  ],
  "Premium.SubscribeForAnnual": [
   "Subscribe for %@ / year"
@@ -972,8 +1386,21 @@
  "Premium.UpgradeForBiannual": [
   "Upgrade for %@ / 2 years"
  ],
+ "Premium.VoiceToText": [
+  "Voice-to-Text Conversion"
+ ],
+ "Premium.VoiceToText.Proceed": [
+  "About Telegram Premium"
+ ],
+ "Premium.VoiceToTextStandaloneInfo": [
+  "Subscribe to **Telegram Premium** to be able to convert voice and video messages to text."
+ ],
  "Premium.WhatsIncluded": [
   "WHAT'S INCLUDED"
+ ],
+ "PremiumGift.LabelRecipients": [
+  "1 recipient",
+  "%d recipients"
  ],
  "PremiumNeeded.Subscribe": [
   "Subscribe"
@@ -1038,6 +1465,42 @@
  ],
  "Stars.Purchase.GiftStars": [
   "Gift Stars"
+ ],
+ "Stats.Boosts.BoostsToLevelUp": [
+  "Boosts to Level Up"
+ ],
+ "Stats.Boosts.ExistingBoosts": [
+  "Active Boosts"
+ ],
+ "Stats.Boosts.Level": [
+  "Level"
+ ],
+ "Stats.Boosts.OverviewHeader": [
+  "OVERVIEW"
+ ],
+ "Stats.Boosts.PremiumSubscribers": [
+  "Premium Subscribers"
+ ],
+ "Stats.Boosts.PrepaidGiveawayCount": [
+  "%@ Telegram Premium",
+  "%@ Telegram Premiums"
+ ],
+ "Stats.Boosts.PrepaidGiveawayMonths": [
+  "%@-month subscriptions"
+ ],
+ "Stats.Boosts.PrepaidGiveawaysTitle": [
+  "PREPAID GIVEAWAYS"
+ ],
+ "Stats.Boosts.Stars": [
+  "%@ Star",
+  "%@ Stars"
+ ],
+ "Stats.Boosts.StarsWinners": [
+  "for %@ winner",
+  "among %@ winners"
+ ],
+ "Story.PremiumUpgradeStoriesButton": [
+  "Upgrade Stories"
  ],
  "Weekday.ShortSaturday": [
   "Sat"

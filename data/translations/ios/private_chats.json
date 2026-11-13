@@ -35,8 +35,20 @@
  "Appearance.LargeEmoji": [
   "Large Emoji"
  ],
+ "Attachment.Audio": [
+  "Audio"
+ ],
+ "Attachment.File": [
+  "File"
+ ],
+ "Attachment.Gallery": [
+  "Gallery"
+ ],
  "Attachment.Gift": [
   "Gift"
+ ],
+ "Attachment.Location": [
+  "Location"
  ],
  "Attachment.Reply": [
   "Reply"
@@ -308,6 +320,12 @@
   "1 reaction",
   "%@ reactions"
  ],
+ "Chat.ContextViewAsMessages": [
+  "View as Messages"
+ ],
+ "Chat.ContextViewAsTopics": [
+  "View as Topics"
+ ],
  "Chat.CreateTopic": [
   "New Topic"
  ],
@@ -446,6 +464,9 @@
  "Chat.Giveaway.Info.EndedIntro": [
   "The giveaway was sponsored by the admins of **%1$@**, who acquired %2$@ for %3$@ for its followers."
  ],
+ "Chat.Giveaway.Info.EndedNew": [
+  "On **%1$@**, Telegram automatically selected %2$@ that joined **%3$@** after **%4$@**."
+ ],
  "Chat.Giveaway.Info.EndedTitle": [
   "Giveaway Ended"
  ],
@@ -562,6 +583,12 @@
  "Chat.InlineTopicMenu.AllTab": [
   "All"
  ],
+ "Chat.InlineTopicMenu.Edit": [
+  "Edit"
+ ],
+ "Chat.InlineTopicMenu.Reorder": [
+  "Reorder"
+ ],
  "Chat.InputPlaceholderMessageInTopic": [
   "Message in %1$@"
  ],
@@ -576,6 +603,9 @@
  ],
  "Chat.JumpToDate": [
   "Jump to Date"
+ ],
+ "Chat.Message.TopicAuthorBadge": [
+  "Topic Creator"
  ],
  "Chat.MessageContextMenu.NonPremiumTagsTitle": [
   "Organize your Saved Messages with tags for quicker access. [Learn more...]()"
@@ -724,6 +754,9 @@
  ],
  "Chat.PanelHidePinnedMessages": [
   "Hide Pinned Messages"
+ ],
+ "Chat.PanelRestartTopic": [
+  "Reopen Topic"
  ],
  "Chat.PanelStatusAuthorHidden": [
   "Senders of these messages restricted to linktheir name when forwarding."
@@ -934,6 +967,9 @@
  "Chat.SearchTagsPlaceholder": [
   "Search messages or tags"
  ],
+ "Chat.SendAllowedContentPeerText": [
+  "The admins of %1$@ only allow sending %2$@."
+ ],
  "Chat.SendAllowedContentText": [
   "The admins of this group only allow sending %1$@."
  ],
@@ -966,6 +1002,9 @@
  ],
  "Chat.SendMessageMenu.ToastPremiumRequired.Text": [
   "Subscribe to [Telegram Premium]() to add this animated effect."
+ ],
+ "Chat.SendNotAllowedPeerText": [
+  "Sending messages is not allowed in %@"
  ],
  "Chat.SensitiveContent": [
   "18+ Content"
@@ -1036,6 +1075,12 @@
  ],
  "Chat.ToastMessageTagged.Text": [
   "Message tagged with %@"
+ ],
+ "Chat.ToastMessagingRestrictedToPremium.Action": [
+  "View"
+ ],
+ "Chat.ToastMessagingRestrictedToPremium.Text": [
+  "**%@** only accepts messages from contacts and **Premium** users."
  ],
  "Chat.ToastPhoneNumberCopied": [
   "Phone number copied to clipboard."
@@ -1120,6 +1165,9 @@
  "ChatContextMenu.TextSelectionTip2": [
   "Hold a word, then move cursor to select more| text to copy or quote."
  ],
+ "ChatList.ArchivedChatsTitle": [
+  "Archived Chats"
+ ],
  "ChatList.AuthorHidden": [
   "Author Hidden"
  ],
@@ -1132,8 +1180,23 @@
  "ChatList.Context.Back": [
   "Back"
  ],
+ "ChatList.Context.CloseTopic": [
+  "Close"
+ ],
  "ChatList.Context.Delete": [
   "Delete"
+ ],
+ "ChatList.Context.Mute": [
+  "Mute"
+ ],
+ "ChatList.Context.ReopenTopic": [
+  "Reopen"
+ ],
+ "ChatList.Context.Select": [
+  "Select"
+ ],
+ "ChatList.Context.Unpin": [
+  "Unpin"
  ],
  "ChatList.DeleteForAllSubscribers": [
   "Delete for all subscribers"
@@ -1156,6 +1219,30 @@
  "ChatList.ItemMoreMessagesFormat": [
   "+1 MORE",
   "+%d MORE"
+ ],
+ "ChatList.Search.FilterApps": [
+  "Apps"
+ ],
+ "ChatList.Search.FilterChannels": [
+  "Channels"
+ ],
+ "ChatList.Search.FilterGlobalPosts": [
+  "Posts"
+ ],
+ "ChatList.Search.Messages.AllChats": [
+  "From All Chats"
+ ],
+ "ChatList.Search.Messages.Menu.AllChats": [
+  "All Chats"
+ ],
+ "ChatList.Search.Messages.Menu.Channels": [
+  "Channels"
+ ],
+ "ChatList.Search.Messages.Menu.GroupChats": [
+  "Group Chats"
+ ],
+ "ChatList.Search.Messages.Menu.PrivateChats": [
+  "Private Chats"
  ],
  "ChatSearch.ResultsTooltip": [
   "Tap to view as a list."
@@ -1214,6 +1301,15 @@
  "ContactInfo.PhoneLabelMobile": [
   "mobile"
  ],
+ "Contacts.InviteFriends": [
+  "Invite Friends"
+ ],
+ "Contacts.LimitedAccess.Manage": [
+  "MANAGE"
+ ],
+ "Contacts.LimitedAccess.Text": [
+  "You have limited Telegram from accessing all of your contacts."
+ ],
  "Contacts.PermissionsText": [
   "Please allow Telegram access to your phonebook to seamlessly find all your friends."
  ],
@@ -1225,6 +1321,16 @@
  ],
  "Contacts.SearchUsersAndGroupsLabel": [
   "Search for users and groups"
+ ],
+ "Contacts.SelectedContacts": [
+  "%@ Selected",
+  "%@ Selected"
+ ],
+ "Contacts.SortedByPresence": [
+  "Sorted by Last Seen Time"
+ ],
+ "Contacts.Title": [
+  "Contacts"
  ],
  "Contacts.TopSection": [
   "CONTACTS"
@@ -1246,6 +1352,15 @@
  ],
  "Conversation.AudioRateOptionsTooltip": [
   "Long press for more speed options."
+ ],
+ "Conversation.AudioRateTooltip15X": [
+  "Audio will play at 1.5X speed."
+ ],
+ "Conversation.AudioRateTooltipCustom": [
+  "Audio will play at %@x speed."
+ ],
+ "Conversation.AudioRateTooltipSpeedUp": [
+  "Audio will play two times faster."
  ],
  "Conversation.AutoremoveActionEdit": [
   "Edit Auto-Delete Settings"
@@ -2117,6 +2232,9 @@
  "DialogList.Replies": [
   "Replies"
  ],
+ "DialogList.SearchSectionMessages": [
+  "Messages"
+ ],
  "DialogList.You": [
   "You"
  ],
@@ -2410,6 +2528,9 @@
  "Group.Status": [
   "group"
  ],
+ "GroupInfo.AddParticipant": [
+  "Add Members"
+ ],
  "GroupInfo.AddParticipantTitle": [
   "Contacts"
  ],
@@ -2418,6 +2539,9 @@
  ],
  "GroupInfo.InviteByLink": [
   "Invite to Group via Link"
+ ],
+ "GroupInfo.Title": [
+  "Group Info"
  ],
  "Invitation.GroupCall": [
   "Group Call"
@@ -2795,6 +2919,14 @@
  "Month.ShortSeptember": [
   "Sep"
  ],
+ "MuteFor.Days": [
+  "Mute for 1 day",
+  "Mute for %@ days"
+ ],
+ "MuteFor.Hours": [
+  "Mute for 1 hour",
+  "Mute for %@ hours"
+ ],
  "NewCall.SearchPlaceholder": [
   "Search for contacts or usernames"
  ],
@@ -2846,11 +2978,17 @@
  "Notification.CreatedChatWithTitle": [
   "%@ created the group \"%@\""
  ],
+ "Notification.ForumTopicClosedAuthor": [
+  "%1$@ closed topic"
+ ],
  "Notification.ForumTopicHiddenAuthor": [
   "%1$@ hid the topic"
  ],
  "Notification.ForumTopicIconChangedAuthor": [
   "%1$@ changed the topic icon to %2$@"
+ ],
+ "Notification.ForumTopicRenamedAuthor": [
+  "%1$@ changed the topic name to \"%2$@\""
  ],
  "Notification.ForumTopicUnhiddenAuthor": [
   "%1$@ unhid the topic"
@@ -3271,6 +3409,9 @@
  "PeerInfo.HiddenStatusBadge": [
   "when?"
  ],
+ "PeerInfo.MuteForCustom": [
+  "Mute until..."
+ ],
  "PeerInfo.PaneGroups": [
   "Groups"
  ],
@@ -3529,6 +3670,16 @@
  ],
  "SecretVideo.Title": [
   "Disappearing Video"
+ ],
+ "SendInviteLink.ActionInvite": [
+  "Send Invite Link"
+ ],
+ "SendInviteLink.InviteTitle": [
+  "Invite via Link"
+ ],
+ "SendInviteLink.TextAvailableMultipleUsers": [
+  "**%d user** restricts adding them to groups.You can send them an invite link instead.",
+  "**%d users** restrict adding them to groups.You can send them an invite link instead."
  ],
  "ServiceMessage.GameScoreExtended": [
   "{name} scored %@ in {game}",

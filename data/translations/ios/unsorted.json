@@ -288,9 +288,6 @@
  "BoostGift.ChannelsOrGroups.MaximumReached": [
   "You can select maximum %@ channels and groups."
  ],
- "BoostGift.GiftPremium": [
-  "Gift Premium"
- ],
  "BoostGift.Group.Members.Joined": [
   "joined %@"
  ],
@@ -660,9 +657,6 @@
  "Call.YourMicrophoneOff": [
   "Your microphone is off"
  ],
- "CallList.DeleteAll": [
-  "Delete All"
- ],
  "CallSettings.Title": [
   "Calls"
  ],
@@ -848,9 +842,6 @@
  ],
  "Channel.BotDoesntSupportGroups": [
   "Sorry, this bot is telling us it doesn't want to be added to groups. You can't add this bot unless its developers change their mind."
- ],
- "Channel.ChannelSubscribersHeader": [
-  "CHANNEL SUBSCRIBERS"
  ],
  "Channel.CommentsGroup.Header": [
   "Select a group chat that will host comments from your channel."
@@ -1039,9 +1030,6 @@
  "Chat.CallMessage.IncomingGroupCall": [
   "Incoming Group Call"
  ],
- "Chat.CallMessage.OutgoingGroupCall": [
-  "Outgoing Group Call"
- ],
  "Chat.ClearReactionsAlertAction": [
   "Clear Recent Emoji"
  ],
@@ -1051,17 +1039,8 @@
  "Chat.ContactChannel": [
   "CONTACT CHANNEL"
  ],
- "Chat.ContextMenu.AdSponsorInfo": [
-  "Advertiser Info"
- ],
  "Chat.ContextMenuReadDate.ReadFormat": [
   "read %@"
- ],
- "Chat.ContextViewAsMessages": [
-  "View as Messages"
- ],
- "Chat.ContextViewAsTopics": [
-  "View as Topics"
  ],
  "Chat.CreateBotLink": [
   "Create Bot"
@@ -1122,9 +1101,6 @@
  ],
  "Chat.Dictation.Stop": [
   "Stop Dictation"
- ],
- "Chat.EmptyStateIntroFooterPremiumActionButton": [
-  "OK"
  ],
  "Chat.EmptyTopicPlaceholder.Text": [
   "Send a messageto start the topic."
@@ -1205,9 +1181,6 @@
  "Chat.InlineTopicMenu.TabAll": [
   "All"
  ],
- "Chat.Message.TopicAuthorBadge": [
-  "Topic Creator"
- ],
  "Chat.MessageForwardInfo.ExpiredStoryHeader": [
   "Expired story from"
  ],
@@ -1238,17 +1211,8 @@
  "Chat.OpenStory": [
   "VIEW STORY"
  ],
- "Chat.PanelRestartTopic": [
-  "Reopen Topic"
- ],
  "Chat.PauseVideoMessageTooltip": [
   "Pause to trim or replay."
- ],
- "Chat.PostApproval.DetailStatus.PostedPaid": [
-  "**%1$@** received **%2$@** for publishing this post"
- ],
- "Chat.PostApproval.DetailStatus.UserFailedRefunded": [
-  "Suggested post was refunded due to insufficient balance"
  ],
  "Chat.PostApproval.Message.UserAgreementFuture": [
   "📅 The post will be automatically published in **%1$@** **%2$@**."
@@ -1261,18 +1225,6 @@
  ],
  "Chat.PostApproval.Message.UserTitleRejected": [
   "❌ **%@** rejected your post."
- ],
- "Chat.PostApproval.Status.AdminApproved": [
-  "The post was approved"
- ],
- "Chat.PostApproval.Status.AdminRejected": [
-  "The post was rejected"
- ],
- "Chat.PostApproval.Status.UserApproved": [
-  "Your post was approved"
- ],
- "Chat.PostApproval.Status.UserRejected": [
-  "Your post was rejected"
  ],
  "Chat.PostSuggestion.ChannelChangeP": [
   "**%@** suggested a new pricefor this post."
@@ -1328,9 +1280,6 @@
  "Chat.ReplyPanel.HintReplyOptionsShort": [
   "Tap here for options"
  ],
- "Chat.SendAllowedContentPeerText": [
-  "The admins of %1$@ only allow sending %2$@."
- ],
  "Chat.SendNotAllowedAudioMessage": [
   "Sending voice messages is not allowed in this group"
  ],
@@ -1339,9 +1288,6 @@
  ],
  "Chat.SendNotAllowedMusic": [
   "Sending music is not allowed in this group"
- ],
- "Chat.SendNotAllowedPeerText": [
-  "Sending messages is not allowed in %@"
  ],
  "Chat.SendNotAllowedPhoto": [
   "Sending photos is not allowed in this group"
@@ -1379,12 +1325,6 @@
  "Chat.ToastMessagesTagged.Text": [
   "Messages tagged with %@"
  ],
- "Chat.ToastMessagingRestrictedToPremium.Action": [
-  "View"
- ],
- "Chat.ToastMessagingRestrictedToPremium.Text": [
-  "**%@** only accepts messages from contacts and **Premium** users."
- ],
  "Chat.Todo.Message.Title": [
   "Checklist"
  ],
@@ -1404,18 +1344,6 @@
  ],
  "ChatContextMenu.ReactionEmojiSetSingle": [
   "This message contains#[%@]() reactions."
- ],
- "ChatImport.SelectionErrorGroupGeneric": [
-  "Sorry, you can't import history to this group."
- ],
- "ChatImportActivity.ErrorInvalidChatType": [
-  "Wrong type of chat for the messages you are trying to import."
- ],
- "ChatImportActivity.ErrorLimitExceeded": [
-  "Daily maximum reached,please come back tomorrow."
- ],
- "ChatImportActivity.ErrorNotAdmin": [
-  "You need to be an admin in the group to import messages."
  ],
  "ChatImportActivity.OpenApp": [
   "Open Telegram"
@@ -1482,18 +1410,6 @@
  "ChatList.AutoarchiveSuggestion.Title": [
   "Hide new chats?"
  ],
- "ChatList.CloseAction": [
-  "Close"
- ],
- "ChatList.Context.AddToContacts": [
-  "Add to Contacts"
- ],
- "ChatList.Context.ReopenTopic": [
-  "Reopen"
- ],
- "ChatList.Context.Select": [
-  "Select"
- ],
  "ChatList.Context.Unarchive": [
   "Unarchive"
  ],
@@ -1526,46 +1442,11 @@
   "Delete Topic?",
   "Delete %@ Topics?"
  ],
- "ChatList.DeletedChats": [
-  "Deleted 1 chat",
-  "Deleted %@ chats"
- ],
- "ChatList.DeletedThreads": [
-  "Deleted 1 topic",
-  "Deleted %@ topics"
- ],
- "ChatList.EditFolders": [
-  "Edit Folders"
- ],
  "ChatList.EmptyChatFilterList": [
   "This folder is empty."
  ],
- "ChatList.EmptyListContactsHeader": [
-  "YOUR CONTACTS ON TELEGRAM"
- ],
- "ChatList.EmptyListContactsHeaderHide": [
-  "Hide"
- ],
- "ChatList.EmptyListTooltip": [
-  "Send a message orstart a group here."
- ],
- "ChatList.EmptyTopicsCreate": [
-  "Create New Topic"
- ],
- "ChatList.EmptyTopicsDescription": [
-  "Older messages from this group have been moved to the \"General\" topic."
- ],
  "ChatList.EmptyTopicsShowAsMessages": [
   "Show as Messages"
- ],
- "ChatList.EmptyTopicsTitle": [
-  "No topics here yet"
- ],
- "ChatList.GenericPsaAlert": [
-  "This provides public service announcements in your chat list."
- ],
- "ChatList.GenericPsaLabel": [
-  "PSA"
  ],
  "ChatList.LabelAutodeleteAfter": [
   "auto-delete after %@"
@@ -1603,9 +1484,6 @@
  "ChatList.PsaLabel.psa": [
   "Announcement"
  ],
- "ChatList.RemoveFolder": [
-  "Remove"
- ],
  "ChatList.RemovedFromFolderTooltipV2": [
   "{chat} has been removed from folder {folder}"
  ],
@@ -1633,61 +1511,17 @@
  "ChatList.Search.NoResultsFitlerVoice": [
   "Voice and video messages from all your chats will be shown here."
  ],
- "ChatList.SelectedTopics": [
-  "%@ Topic Selected",
-  "%@ Topics Selected"
- ],
- "ChatList.StartAction": [
-  "Start"
- ],
  "ChatList.StartMessaging": [
   "Select a chat to start messaging"
  ],
- "ChatList.StorageHintText": [
-  "Clear storage space on your iPhone"
- ],
- "ChatList.StorageHintTitle": [
-  "Free up to %@"
- ],
- "ChatList.SubscriptionsLowBalance.Multiple.Text": [
-  "Insufficient funds to cover your subscriptions."
- ],
- "ChatList.SubscriptionsLowBalance.Multiple.Title": [
-  "%@ for your subscriptions"
- ],
- "ChatList.SubscriptionsLowBalance.Single.Text": [
-  "Insufficient funds to cover your subscription."
- ],
- "ChatList.SubscriptionsLowBalance.Single.Title": [
-  "%1$@ for %2$@"
- ],
- "ChatList.SubscriptionsLowBalance.Stars": [
-  "%@ Star needed",
-  "%@ Stars needed"
- ],
  "ChatList.Tabs.All": [
   "All"
- ],
- "ChatList.ThreadHideAction": [
-  "Hide"
- ],
- "ChatList.ThreadUnhideAction": [
-  "Unhide"
- ],
- "ChatList.ToastFolderMutedV2": [
-  "All chats in {folder} are now muted"
- ],
- "ChatList.ToastFolderUnmutedV2": [
-  "All chats in {folder} are now unmuted"
  ],
  "ChatList.UnreadOnlyPanel.Info": [
   "only unread chats shown"
  ],
  "ChatList.UnreadOnlyPanel.ShowAll": [
   "Show All Chats"
- ],
- "ChatList.UserReacted": [
-  "Reacted %@ to your message"
  ],
  "ChatListFilter.CreateLinkErrorSomeoneHasChannelLimit": [
   "One of the groups in this folder can’t be added because one of its admins has too many groups and channels."
@@ -1698,12 +1532,6 @@
  "ChatListFilter.ShowMoreChats": [
   "Show %@ More Chat",
   "Show %@ More Chats"
- ],
- "ChatListFolder.NameNonMuted": [
-  "Not Muted"
- ],
- "ChatListFolder.NameUnread": [
-  "Unread"
  ],
  "ChatState.ConnectingToProxy": [
   "connecting to proxy..."
@@ -1798,15 +1626,8 @@
   "Delete Contact?",
   "Delete %@ Contacts?"
  ],
- "ContactList.DeletedContacts": [
-  "Deleted %@ Contact",
-  "Deleted %@ Contacts"
- ],
  "Contacts.InviteSearchLabel": [
   "Search contacts"
- ],
- "Contacts.NotRegisteredSection": [
-  "Phonebook"
  ],
  "Contacts.Sort": [
   "Sort"
@@ -1819,15 +1640,6 @@
  ],
  "Contacts.VoiceOver.AddContact": [
   "Add Contact"
- ],
- "Conversation.AudioRateTooltip15X": [
-  "Audio will play at 1.5X speed."
- ],
- "Conversation.AudioRateTooltipCustom": [
-  "Audio will play at %@x speed."
- ],
- "Conversation.AudioRateTooltipSpeedUp": [
-  "Audio will play two times faster."
  ],
  "Conversation.AutoremoveTimerSetUserGlobal": [
   "%1$@ uses a self-destruct timer for all chats.All new messages in this chat will be automatically deleted %2$@ after they are sent."
@@ -2096,29 +1908,14 @@
  "DeleteAccount.Options.AddAccountPremiumText": [
   "You can use up to 4 accounts in one app at the same time."
  ],
- "DialogList.MultipleTyping": [
-  "%@ and %@"
- ],
  "DialogList.SearchLabelCompact": [
   "Search"
  ],
  "DialogList.SearchSectionChats": [
   "Chats"
  ],
- "DialogList.SearchSectionMessagesIn": [
-  "Messages in %@"
- ],
- "DialogList.SearchSectionTopics": [
-  "Topics"
- ],
- "DialogList.SingleChoosingStickerSuffix": [
-  "%@ is choosing a sticker"
- ],
  "DialogList.UnknownPinLimitError": [
   "Sorry, you can't pin any more chats to the top."
- ],
- "DownloadList.ResumeAll": [
-  "Resume All"
  ],
  "EditRank.EditTag": [
   "Edit Tag"
@@ -2252,9 +2049,6 @@
  "EmojiStatusSetup.SetUntil": [
   "Set Until"
  ],
- "Exceptions.AddToExceptions": [
-  "ADD TO EXCEPTIONS"
- ],
  "External.OpenIn": [
   "Open in %@"
  ],
@@ -2321,15 +2115,6 @@
  "FolderLinkScreen.AlertTextUnavailablePublicChannel": [
   "You don't have the admin rights to share invite links to this channel."
  ],
- "FolderLinkScreen.TitleDescriptionDeselectedV2": [
-  "Anyone with this link can add {folder} folder and the chats selected below."
- ],
- "FolderLinkScreen.TitleDescriptionSelectedV2": [
-  "Anyone with this link can add {folder} folder and {chats} selected below."
- ],
- "ForcedPasswordSetup.Intro.Action": [
-  "Set a Password"
- ],
  "ForcedPasswordSetup.Intro.DismissActionCancel": [
   "No, let me set a password"
  ],
@@ -2345,12 +2130,6 @@
  ],
  "ForcedPasswordSetup.Intro.DoneAction": [
   "Done"
- ],
- "ForcedPasswordSetup.Intro.Text": [
-  "If you want to log into your account frequently, please choose a password."
- ],
- "ForcedPasswordSetup.Intro.Title": [
-  "Set a Password"
  ],
  "FormattedDate.DaysAgo": [
   "%@ day ago",
@@ -2734,12 +2513,6 @@
  "Gift.View.UpgradeFreeDescription": [
   "Upgrade this gift for free to turn it into a unique collectible."
  ],
- "GiftLink.PersonalUsedDescription": [
-  "This link allowed **%@** to activate a **Telegram Premium** subscription."
- ],
- "GiftLink.UnclaimedDescription": [
-  "This link allows anyone to activate a **Telegram Premium** subscription."
- ],
  "GlobalAutodeleteSettings.ApplyChatsSubject": [
   "%@ chat",
   "%@ chats"
@@ -3072,9 +2845,6 @@
  "KeyCommand.SwitchToPIP": [
   "Switch to Picture-in-Picture"
  ],
- "LeaveGroup.LegacyGroupText": [
-  "If you leave, **%1$@** will immediately become the owner of **%2$@**."
- ],
  "LiveStream.ChatFullAlertText": [
   "Sorry, this live stream has too many participants at the moment."
  ],
@@ -3338,9 +3108,6 @@
  "MESSAGE_WALLET_TONCONNECT_REQUEST_DAPP": [
   "You have a TON Connect request from %2$@"
  ],
- "Map.AddressOnMap": [
-  "Address On Map"
- ],
  "Map.ETADays": [
   "%@ day",
   "%@ days"
@@ -3353,9 +3120,6 @@
  ],
  "Map.HomeAndWorkTitle": [
   "Home & Work Addresses"
- ],
- "Map.PlacesNearby": [
-  "Places Nearby"
  ],
  "Map.SearchNoResultsDescription": [
   "There were no results for \"%@\".Try a new search."
@@ -3463,13 +3227,6 @@
  "Message.Game": [
   "Game"
  ],
- "Message.GiveawayEndedNoWinners": [
-  "Due to the giveaway terms, no winners could be selected by Telegram"
- ],
- "Message.GiveawayEndedWinners": [
-  "%@ winner of the giveaway was randomly selected by Telegram",
-  "%@ winners of the giveaway were randomly selected by Telegram"
- ],
  "Message.GiveawayFinished": [
   "Giveaway: %1$@ on %2$@"
  ],
@@ -3489,9 +3246,6 @@
  ],
  "Message.RecommendedLabel": [
   "recommended"
- ],
- "Message.StickerText": [
-  "%@ Sticker"
  ],
  "Message.WidgetNetworkMarkerInfo": [
   "Taps on this widget can send data to the bot."
@@ -3550,12 +3304,6 @@
  "Monetization.Bot.BalanceTitle": [
   "AVAILABLE BALANCE"
  ],
- "Monetization.Intro.Bot.Ads.Text": [
-  "Telegram can display ads in your bot."
- ],
- "Monetization.Intro.Bot.Title": [
-  "Earn From Your Bot"
- ],
  "Monetization.Proceeds.TonAndStars.Info": [
   "Stars and Grams from your total balance can be used for ads or withdrawn as rewards 21 and 3 days respectively after they are earned."
  ],
@@ -3563,29 +3311,11 @@
  "Monetization.TonTransactions": [
   "Gram Transactions"
  ],
- "Monetization.Transaction.Failed": [
-  "Not Completed"
- ],
  "Monetization.Transaction.Refund": [
   "Refund"
  ],
  "Monetization.Transaction.Withdrawal": [
   "Collection via %@"
- ],
- "Monetization.TransactionInfo.Failed": [
-  "Not Completed"
- ],
- "Monetization.TransactionInfo.Pending": [
-  "Pending"
- ],
- "Monetization.TransactionInfo.Refund": [
-  "Refund"
- ],
- "Monetization.TransactionInfo.ViewInExplorer": [
-  "View in Explorer"
- ],
- "Monetization.TransactionInfo.Withdrawal": [
-  "Collecting Rewards via %@"
  ],
  "Monetization.TransactionsTitle": [
   "TRANSACTION HISTORY"
@@ -3730,14 +3460,8 @@
  "Notification.CommunityRemovedGroup": [
   "%1$@ removed this group from a community"
  ],
- "Notification.CreatedGroup": [
-  "Group created"
- ],
  "Notification.ForumTopicClosed": [
   "Topic closed"
- ],
- "Notification.ForumTopicClosedAuthor": [
-  "%1$@ closed topic"
  ],
  "Notification.ForumTopicCreated": [
   "Topic created"
@@ -3750,9 +3474,6 @@
  ],
  "Notification.ForumTopicRenamed": [
   "Topic renamed to \"%1$@\""
- ],
- "Notification.ForumTopicRenamedAuthor": [
-  "%1$@ changed the topic name to \"%2$@\""
  ],
  "Notification.ForumTopicRenamedIconChangedAuthor": [
   "%1$@ changed the topic name and icon to %2$@ %3$@"
@@ -3767,18 +3488,8 @@
   "scored %@ in {game}",
   "scored %@ in {game}"
  ],
- "Notification.Gift": [
-  "Gift"
- ],
  "Notification.GiftAuction.Acquired": [
   "You've successfully bought a gift in the auction for %@."
- ],
- "Notification.GiftStars": [
-  "Gift for %@"
- ],
- "Notification.GiftStars.Stars": [
-  "%@ Star",
-  "%@ Stars"
  ],
  "Notification.GiveawayResultsMixedUnclaimed": [
   "**%@** undistributed gift link was forwarded to channel administrators",
@@ -4035,12 +3746,6 @@
  ],
  "Notification.StarsGiveawayResultsNoWinners": [
   "Due to the giveaway terms, no winners could be selected by Telegram, all stars were credited to channel administrators."
- ],
- "Notification.StarsGiveawayResultsNoWinners.Group": [
-  "Due to the giveaway terms, no winners could be selected by Telegram, all stars were credited to group administrators."
- ],
- "Notification.SuggestBirthdate": [
-  "Suggested Birthday"
  ],
  "Notification.TodoMultiple": [
   "%1$@ marked %2$@."
@@ -4701,12 +4406,6 @@
  "Premium.BoostByGiftDescription": [
   " "
  ],
- "Premium.ChatManagement.Proceed": [
-  "About Telegram Premium"
- ],
- "Premium.ChatManagementStandaloneInfo": [
-  "Subscribers of **Telegram Premium** can set a default folder, auto-archive and hide new chats from non-contacts."
- ],
  "Premium.Colors.Proceed": [
   "About Telegram Premium"
  ],
@@ -4716,17 +4415,8 @@
  "Premium.Emoji.Proceed": [
   "Unlock Premium Emoji"
  ],
- "Premium.FasterSpeed.Proceed": [
-  "About Telegram Premium"
- ],
- "Premium.FasterSpeedStandaloneInfo": [
-  "Subscribe to **Telegram Premium** to download media and files at the fastest possible speed."
- ],
  "Premium.Gift.Description": [
   "Give **%@** access to exclusive features with **Telegram Premium**."
- ],
- "Premium.Gift.GiftSubscription": [
-  "Gift Subscription for %@"
  ],
  "Premium.Gift.Info": [
   "You can review the list of features and more details about Telegram Premium [here]()."
@@ -4791,26 +4481,14 @@
  "Premium.LastSeen.Proceed": [
   "About Telegram Premium"
  ],
- "Premium.Limits.Messages": [
-  "Messages"
- ],
- "Premium.Limits.MessagesInfo": [
-  "Express yourself with longer messages"
- ],
  "Premium.MaxAccountsFinalText": [
   "You have reached the limit of **%@** connected accounts."
- ],
- "Premium.MaxChannelsNoPremiumText": [
-  "You can only join **%1$@** groups and channels. This limit may increase in the future."
  ],
  "Premium.MaxChannelsText": [
   "You can only join **%1$@** groups and channels. Upgrade to **Telegram Premium** to join up to **%2$@**."
  ],
  "Premium.MaxChatsInFolderFinalText": [
   "Sorry, you can't add more than **%@** chats to a folder."
- ],
- "Premium.MaxChatsInFolderNoPremiumText": [
-  "Sorry, you can't add more than **%1$@** chats to a folder. We are working to let you increase this limit in the future."
  ],
  "Premium.MaxChatsInFolderText": [
   "Sorry, you can't add more than **%1$@** chats to a folder. You can increase this limit to **%2$@** by subscribing to **Telegram Premium**."
@@ -4828,13 +4506,6 @@
  "Premium.MaxExpiringStoriesNoPremiumText": [
   "You've reached the limit of **%@** story in **24** hours."
  ],
- "Premium.MaxExpiringStoriesNoPremiumTextFormat": [
-  "You have reached the limit of %@ per **24** hours."
- ],
- "Premium.MaxExpiringStoriesNoPremiumTextNumberFormat": [
-  "**%d** story",
-  "**%d** stories"
- ],
  "Premium.MaxExpiringStoriesTextFormat": [
   "You can post %@ in **24** hours. Subscribe to **Telegram Premium** to increase this limit to **%@**."
  ],
@@ -4846,17 +4517,11 @@
   "**%d** story",
   "**%d** stories"
  ],
- "Premium.MaxFileSizeNoPremiumText": [
-  "The document can't be sent, because it is larger than **%@**. We are working to let you increase this limit in the future."
- ],
  "Premium.MaxFileSizeText": [
   "Double this limit to %@ per file by subscribing to **Telegram Premium**."
  ],
  "Premium.MaxFoldersCountFinalText": [
   "Sorry, you can't create more than **%1$@** folders."
- ],
- "Premium.MaxFoldersCountNoPremiumText": [
-  "You have reached the limit of **%1$@** folders. We are working to let you increase this limit in the future."
  ],
  "Premium.MaxPinsText": [
   "You can't pin more than **%1$@** chats to the top. Unpin some that are currently pinned – or subscribe to **Telegram Premium** to double the limit to **%2$@** chats."
@@ -4864,23 +4529,8 @@
  "Premium.MaxSavedPinsFinalText": [
   "Sorry, you can't pin more than **%@** chats to the top. Unpin some that are currently pinned."
  ],
- "Premium.MaxSavedPinsNoPremiumText": [
-  "Sorry, you can't pin more than **%@** chats to the top. Unpin some that are currently pinned."
- ],
  "Premium.MaxSavedPinsText": [
   "Sorry, you can't pin more than **%1$@** chats to the top. Unpin some that are currently pinned or subscribe to **Telegram Premium** to double the limit to **%2$@** chats."
- ],
- "Premium.MaxSharedFolderLinksFinalText": [
-  "Sorry, you can only create **%1$@** invite links"
- ],
- "Premium.MaxSharedFolderLinksNoPremiumText": [
-  "You can only create **%1$@** invite links. This number may increase in the future."
- ],
- "Premium.MaxSharedFolderMembershipFinalText": [
-  "Sorry, you can only add **%1$@** shareable folders."
- ],
- "Premium.MaxSharedFolderMembershipNoPremiumText": [
-  "You can only add **%1$@** shareable folders. This limit may increase in the future."
  ],
  "Premium.MaxSharedFolderMembershipText": [
   "You can only add **%1$@** shareable folders. Upgrade to **Telegram Premium** to add up to **%2$@**."
@@ -4888,13 +4538,7 @@
  "Premium.MaxStoriesMonthlyFinalText": [
   "You have reached the limit of **%@** stories per month."
  ],
- "Premium.MaxStoriesMonthlyNoPremiumText": [
-  "You have reached the limit of **%@** stories per month."
- ],
  "Premium.MaxStoriesWeeklyFinalText": [
-  "You have reached the limit of **%@** stories per week."
- ],
- "Premium.MaxStoriesWeeklyNoPremiumText": [
   "You have reached the limit of **%@** stories per week."
  ],
  "Premium.MessagePrivacy.Proceed": [
@@ -4922,21 +4566,11 @@
  "Premium.SignUp.SignUpNewInfoNone": [
   "Get Telegram Premium"
  ],
- "Premium.VoiceToText.Proceed": [
-  "About Telegram Premium"
- ],
- "Premium.VoiceToTextStandaloneInfo": [
-  "Subscribe to **Telegram Premium** to be able to convert voice and video messages to text."
- ],
  "Premium.Week.SignUp": [
   "Sign up for %@"
  ],
  "Premium.Week.SignUpInfo": [
   "Get Telegram Premium for 1 week"
- ],
- "PremiumGift.LabelRecipients": [
-  "1 recipient",
-  "%d recipients"
  ],
  "Privacy.Bio.AlwaysShareWith.Title": [
   "Always Share With"
@@ -5178,27 +4812,6 @@
  "RequestPeer.Requirement.Channel.HasUsernameOn": [
   "The channel must be public."
  ],
- "RequestPeer.Requirement.Channel.Rights.AddAdmins": [
-  "add new admins"
- ],
- "RequestPeer.Requirement.Channel.Rights.Anonymous": [
-  "remain anonymous"
- ],
- "RequestPeer.Requirement.Channel.Rights.Info": [
-  "change channel info"
- ],
- "RequestPeer.Requirement.Channel.Rights.Invite": [
-  "invite users via link"
- ],
- "RequestPeer.Requirement.Channel.Rights.Pin": [
-  "pin messages"
- ],
- "RequestPeer.Requirement.Channel.Rights.Topics": [
-  "manage topics"
- ],
- "RequestPeer.Requirement.Channel.Rights.VideoChats": [
-  "manage live streams"
- ],
  "RequestPeer.Requirement.Group.ForumOn": [
   "The group must have topics turned on."
  ],
@@ -5207,36 +4820,6 @@
  ],
  "RequestPeer.Requirement.Group.ParticipantOn": [
   "The bot must be in the group."
- ],
- "RequestPeer.Requirement.Group.Rights.AddAdmins": [
-  "add new admins"
- ],
- "RequestPeer.Requirement.Group.Rights.Anonymous": [
-  "remain anonymous"
- ],
- "RequestPeer.Requirement.Group.Rights.Ban": [
-  "ban users"
- ],
- "RequestPeer.Requirement.Group.Rights.Edit": [
-  "edit messages"
- ],
- "RequestPeer.Requirement.Group.Rights.Info": [
-  "change group info"
- ],
- "RequestPeer.Requirement.Group.Rights.Invite": [
-  "add members"
- ],
- "RequestPeer.Requirement.Group.Rights.Pin": [
-  "pin messages"
- ],
- "RequestPeer.Requirement.Group.Rights.Send": [
-  "post messages"
- ],
- "RequestPeer.Requirement.Group.Rights.Topics": [
-  "manage topics"
- ],
- "RequestPeer.Requirement.Group.Rights.VideoChats": [
-  "manage video chats"
  ],
  "RequestPeer.Requirement.UserPremiumOn": [
   "The user must have a Premium subscription."
@@ -5314,58 +4897,8 @@
  "SecretVideo.ViewOnce.Title": [
   "Disappearing Video"
  ],
- "SendInviteLink.ActionClose": [
-  "Close"
- ],
- "SendInviteLink.ActionSkip": [
-  "Skip"
- ],
- "SendInviteLink.ChannelTextContactsAndPremiumMultipleUsers": [
-  "{user_list}, and **%d** more person only accept invitations to channels from contacts and **Premium** users.",
-  "{user_list}, and **%d** more people only accept invitations to channels from contacts and **Premium** users."
- ],
- "SendInviteLink.ChannelTextContactsAndPremiumOneUser": [
-  "**%@** accepts invitations to channels from contacts and **Premium** users."
- ],
- "SendInviteLink.LinkUnavailableTitle": [
-  "You can't create a link"
- ],
  "SendInviteLink.SkipAction": [
   "Skip"
- ],
- "SendInviteLink.StatusAvailableToPremiumOnly": [
-  "Available only to Premium users"
- ],
- "SendInviteLink.TextAvailableMultipleUsers": [
-  "**%d user** restricts adding them to groups.You can send them an invite link instead.",
-  "**%d users** restrict adding them to groups.You can send them an invite link instead."
- ],
- "SendInviteLink.TextAvailableSingleUser": [
-  "**%@** restricts adding them to groups.You can send them an invite link instead."
- ],
- "SendInviteLink.TextCallsRestrictedMultipleUsers": [
-  "{user_list}, and **%d** more person do not accept calls.",
-  "{user_list}, and **%d** more people do not accept calls."
- ],
- "SendInviteLink.TextCallsRestrictedOneUser": [
-  "%@ does not accept calls."
- ],
- "SendInviteLink.TextCallsRestrictedSendOneInviteLink": [
-  "**%@** restricts calling them. You can send them an invite link to this call instead."
- ],
- "SendInviteLink.TextContactsAndPremiumMultipleUsers": [
-  "{user_list}, and **%d** more person only accept invitations to groups from contacts and **Premium** users.",
-  "{user_list}, and **%d** more people only accept invitations to groups from contacts and **Premium** users."
- ],
- "SendInviteLink.TextSendInviteLink": [
-  "You can try to send an invite link instead."
- ],
- "SendInviteLink.TextUnavailableMultipleUsers": [
-  "**%d user** can only be invited via link, but you don't have permission to share invite links to this group.",
-  "**%d users** can only be invited via link, but you don't have permission to share invite links to this group."
- ],
- "SendInviteLink.TextUnavailableSingleUser": [
-  "**%@** can only be invited via invite link, but you don't have permission to share invite links to this group."
  ],
  "SetTimeoutFor.Days": [
   "Set for 1 day",
@@ -5496,14 +5029,8 @@
  "SettingsSearch.Synonyms.Premium.VoiceToText": [
   "Transcribe"
  ],
- "Share.MultipleMessagesDisabled": [
-  "Slow Mode is enabled. You can't send multiple messages at once."
- ],
  "Share.VideoStartAt": [
   "Start at %@"
- ],
- "ShareMenu.SelectTopic": [
-  "Select topic"
  ],
  "ShareScreen.Caption": [
   "Add a caption..."
@@ -5545,25 +5072,6 @@
  ],
  "Stars.Intro.Subscriptions.ShowMore": [
   "Show More"
- ],
- "Stars.Intro.Transaction.GiftDropOriginalDetails": [
-  "Gift Description Removal"
- ],
- "Stars.Intro.Transaction.GiftTransfer": [
-  "Gift Transfer"
- ],
- "Stars.Intro.Transaction.GiftUpgrade": [
-  "Gift Upgrade"
- ],
- "Stars.Intro.Transaction.PrepaidGiftUpgrade": [
-  "Gift Upgrade"
- ],
- "Stars.Intro.Transaction.TelegramBotApi.Messages": [
-  "%@ Message",
-  "%@ Messages"
- ],
- "Stars.Intro.Transaction.TelegramBotApi.Title": [
-  "Paid Broadcast"
  ],
  "Stars.SendStars.AmountInfo": [
   "Send %@ or more to highlight your profile in the TOP 3 supporters of this message."
@@ -5821,9 +5329,6 @@
  ],
  "Story.Views.ViewsExpired": [
   "List of viewers becomes unavailable **24 hours** after the story expires."
- ],
- "StoryFeed.TooltipStoryLimit": [
-  "You can't post more than **%@** in **24 hours**."
  ],
  "StoryList.ItemAction.Edit": [
   "Edit"
@@ -6163,9 +5668,6 @@
  ],
  "TwoStepAuth.SetupResendEmailCodeAlert": [
   "The code has been sent. Please check your email. Be sure to check the spam folder as well."
- ],
- "Undo.DeletedTopic": [
-  "Topic Deleted"
  ],
  "Update.AppVersion": [
   "Telegram %@"

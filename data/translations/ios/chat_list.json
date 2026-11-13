@@ -47,6 +47,9 @@
  "Calls.TabTitle": [
   "Calls"
  ],
+ "Channel.Info.Members": [
+  "Members"
+ ],
  "Channel.LeaveChannel": [
   "Leave Channel"
  ],
@@ -74,6 +77,9 @@
  "ChatList.AddBirthdayTitle": [
   "Add your birthday! 🎂"
  ],
+ "ChatList.AddChatsToFolder": [
+  "Add Chats"
+ ],
  "ChatList.AddFolder": [
   "Add Folder"
  ],
@@ -92,8 +98,15 @@
  "ChatList.ArchiveAction": [
   "Archive"
  ],
+ "ChatList.ArchiveStoryCount": [
+  "1 story",
+  "%d stories"
+ ],
  "ChatList.ArchivedChatsTitle": [
   "Archived Chats"
+ ],
+ "ChatList.AuthorHidden": [
+  "Author Hidden"
  ],
  "ChatList.BirthdayInSettingsInfo": [
   "You can always set your birthday in **Settings**."
@@ -126,11 +139,20 @@
  "ChatList.ClearSearchHistory.Confirm": [
   "Clear"
  ],
+ "ChatList.CloseAction": [
+  "Close"
+ ],
+ "ChatList.Context.AddToContacts": [
+  "Add to Contacts"
+ ],
  "ChatList.Context.AddToFolder": [
   "Add to Folder"
  ],
  "ChatList.Context.Back": [
   "Back"
+ ],
+ "ChatList.Context.CloseTopic": [
+  "Close"
  ],
  "ChatList.Context.Delete": [
   "Delete"
@@ -140,6 +162,9 @@
  ],
  "ChatList.Context.JoinChannel": [
   "Join Channel"
+ ],
+ "ChatList.Context.JoinChat": [
+  "Join Chat"
  ],
  "ChatList.Context.MarkAllAsRead": [
   "Mark All as Read"
@@ -161,6 +186,9 @@
  ],
  "ChatList.Context.RemoveFromRecents": [
   "Remove from Recent"
+ ],
+ "ChatList.Context.Select": [
+  "Select"
  ],
  "ChatList.Context.Ungroup": [
   "Ungroup"
@@ -211,6 +239,9 @@
  "ChatList.DeleteForAllMembersConfirmationText": [
   "This will **delete all messages** in this chat for **all participants**."
  ],
+ "ChatList.DeleteForAllSubscribers": [
+  "Delete for all subscribers"
+ ],
  "ChatList.DeleteForAllSubscribersConfirmationText": [
   "This will **delete all messages** in this channel for **all subscribers**."
  ],
@@ -250,8 +281,19 @@
  "ChatList.DeleteSecretChatConfirmation": [
   "Are you sure you want to delete the secret chatwith %@?"
  ],
+ "ChatList.DeletedChats": [
+  "Deleted 1 chat",
+  "Deleted %@ chats"
+ ],
+ "ChatList.DeletedThreads": [
+  "Deleted 1 topic",
+  "Deleted %@ topics"
+ ],
  "ChatList.EditFolder": [
   "Edit Folder"
+ ],
+ "ChatList.EditFolders": [
+  "Edit Folders"
  ],
  "ChatList.EmptyChatList": [
   "You have noconversations yet."
@@ -270,6 +312,21 @@
  ],
  "ChatList.EmptyChatListWithArchive": [
   "All of your chats are archived."
+ ],
+ "ChatList.EmptyListContactsHeader": [
+  "YOUR CONTACTS ON TELEGRAM"
+ ],
+ "ChatList.EmptyListContactsHeaderHide": [
+  "Hide"
+ ],
+ "ChatList.EmptyTopicsCreate": [
+  "Create New Topic"
+ ],
+ "ChatList.EmptyTopicsDescription": [
+  "Older messages from this group have been moved to the \"General\" topic."
+ ],
+ "ChatList.EmptyTopicsTitle": [
+  "No topics here yet"
  ],
  "ChatList.FolderAllChats": [
   "All Chats"
@@ -295,11 +352,65 @@
  "ChatList.GeneralUnhiddenInfo": [
   "Swipe left on the general topic to hide it."
  ],
+ "ChatList.GenericPsaAlert": [
+  "This provides public service announcements in your chat list."
+ ],
+ "ChatList.GenericPsaLabel": [
+  "PSA"
+ ],
+ "ChatList.GlobalSearch.LimitPlaceholder.Text": [
+  "You can make up to%@ search query per day.",
+  "You can make up to%@ search queries per day."
+ ],
+ "ChatList.GlobalSearch.LimitPlaceholder.Title": [
+  "Limit Reached"
+ ],
+ "ChatList.GlobalSearch.SearchButton": [
+  "Search"
+ ],
+ "ChatList.GlobalSearch.SearchButtonPaidSubtitle": [
+  "free search unlocks in %@"
+ ],
+ "ChatList.GlobalSearch.SearchButtonPaidTitle": [
+  "Search for  *  %@"
+ ],
+ "ChatList.GlobalSearch.SearchButtonPremium": [
+  "Subscribe to Premium"
+ ],
+ "ChatList.GlobalSearch.SearchButtonQuery": [
+  "Search {}"
+ ],
+ "ChatList.GlobalSearch.StartPlaceholder.RemainingSubtitle": [
+  "%@ free search remaining today.",
+  "%@ free searches remaining today."
+ ],
+ "ChatList.GlobalSearch.StartPlaceholder.Subtitle": [
+  "Global search is a Premium feature."
+ ],
+ "ChatList.GlobalSearch.StartPlaceholder.Text": [
+  "Type a keyword to search for postsfrom public channels."
+ ],
+ "ChatList.GlobalSearch.StartPlaceholder.Title": [
+  "Global Search"
+ ],
+ "ChatList.HeaderPublicPosts": [
+  "PUBLIC POSTS"
+ ],
  "ChatList.HideAction": [
   "Hide"
  ],
  "ChatList.InlineButtonOpenApp": [
   "OPEN"
+ ],
+ "ChatList.ItemMenuDelete": [
+  "Delete"
+ ],
+ "ChatList.ItemMenuEdit": [
+  "Edit"
+ ],
+ "ChatList.ItemMoreMessagesFormat": [
+  "+1 MORE",
+  "+%d MORE"
  ],
  "ChatList.LabelAutodeleteDisabled": [
   "auto-delete disabled"
@@ -369,6 +480,12 @@
  "ChatList.ReadAll": [
   "Read All"
  ],
+ "ChatList.Remove": [
+  "Remove"
+ ],
+ "ChatList.RemoveFolder": [
+  "Remove"
+ ],
  "ChatList.RemoveFolderAction": [
   "Remove"
  ],
@@ -411,6 +528,18 @@
  "ChatList.Search.FilterVoice": [
   "Voice"
  ],
+ "ChatList.Search.Messages.AllChats": [
+  "From All Chats"
+ ],
+ "ChatList.Search.Messages.Channels": [
+  "From Channels"
+ ],
+ "ChatList.Search.Messages.GroupChats": [
+  "From Group Chats"
+ ],
+ "ChatList.Search.Messages.PrivateChats": [
+  "From Private Chats"
+ ],
  "ChatList.Search.NoResults": [
   "No Results"
  ],
@@ -429,11 +558,20 @@
  "ChatList.Search.RecommendedChannelsEmpty.Title": [
   "No Channels Yet..."
  ],
+ "ChatList.Search.SectionActionShowLess": [
+  "Show Less"
+ ],
  "ChatList.Search.SectionApps": [
   "APPS"
  ],
  "ChatList.Search.SectionPopularApps": [
   "GROSSING APPS"
+ ],
+ "ChatList.Search.SectionRecentApps": [
+  "APPS YOU USE"
+ ],
+ "ChatList.Search.SectionRecommendedChannels": [
+  "SIMILAR CHANNELS"
  ],
  "ChatList.Search.ShowLess": [
   "Show Less"
@@ -448,11 +586,46 @@
   "%@ Chat Selected",
   "%@ Chats Selected"
  ],
+ "ChatList.SelectedTopics": [
+  "%@ Topic Selected",
+  "%@ Topics Selected"
+ ],
  "ChatList.SessionReview.PanelConfirm": [
   "Yes, it's me"
  ],
  "ChatList.SessionReview.PanelReject": [
   "No, it's not me!"
+ ],
+ "ChatList.SessionReview.PanelText": [
+  "We detected a new login to your account from %1$@, %2$@. Is it you?"
+ ],
+ "ChatList.SessionReview.PanelTitle": [
+  "Someone just got access to your messages!"
+ ],
+ "ChatList.StartAction": [
+  "Start"
+ ],
+ "ChatList.StorageHintText": [
+  "Clear storage space on your iPhone"
+ ],
+ "ChatList.StorageHintTitle": [
+  "Free up to %@"
+ ],
+ "ChatList.SubscriptionsLowBalance.Multiple.Text": [
+  "Insufficient funds to cover your subscriptions."
+ ],
+ "ChatList.SubscriptionsLowBalance.Multiple.Title": [
+  "%@ for your subscriptions"
+ ],
+ "ChatList.SubscriptionsLowBalance.Single.Text": [
+  "Insufficient funds to cover your subscription."
+ ],
+ "ChatList.SubscriptionsLowBalance.Single.Title": [
+  "%1$@ for %2$@"
+ ],
+ "ChatList.SubscriptionsLowBalance.Stars": [
+  "%@ Star needed",
+  "%@ Stars needed"
  ],
  "ChatList.TabIconFoldersTooltipEmptyFolders": [
   "Hold to organize your chats with folders."
@@ -463,11 +636,23 @@
  "ChatList.Tabs.AllChats": [
   "All Chats"
  ],
+ "ChatList.ThreadHideAction": [
+  "Hide"
+ ],
+ "ChatList.ThreadUnhideAction": [
+  "Unhide"
+ ],
  "ChatList.ToastFolderMuted": [
   "All chats in **%@** are now muted"
  ],
+ "ChatList.ToastFolderMutedV2": [
+  "All chats in {folder} are now muted"
+ ],
  "ChatList.ToastFolderUnmuted": [
   "All chats in **%@** are now unmuted"
+ ],
+ "ChatList.ToastFolderUnmutedV2": [
+  "All chats in {folder} are now unmuted"
  ],
  "ChatList.UnarchiveAction": [
   "Unarchive"
@@ -507,6 +692,9 @@
  ],
  "ChatList.Unmute": [
   "Unmute"
+ ],
+ "ChatList.UserReacted": [
+  "Reacted %@ to your message"
  ],
  "ChatListFilter.AddChatsSearchPlaceholder": [
   "Search Chats"
@@ -583,11 +771,17 @@
  "ChatListFolder.IncludedSectionHeader": [
   "INCLUDED CHATS"
  ],
+ "ChatListFolder.NameNonMuted": [
+  "Not Muted"
+ ],
  "ChatListFolder.NamePlaceholder": [
   "Folder Name"
  ],
  "ChatListFolder.NameSectionHeader": [
   "FOLDER NAME"
+ ],
+ "ChatListFolder.NameUnread": [
+  "Unread"
  ],
  "ChatListFolder.TitleCreate": [
   "New Folder"
@@ -634,6 +828,9 @@
  "Common.Edit": [
   "Edit"
  ],
+ "Common.OK": [
+  "OK"
+ ],
  "Common.Search": [
   "Search"
  ],
@@ -658,8 +855,15 @@
  "Compose.TokenListPlaceholder": [
   "Who would you like to add?"
  ],
+ "ContactList.DeletedContacts": [
+  "Deleted %@ Contact",
+  "Deleted %@ Contacts"
+ ],
  "Contacts.AddPhoneNumber": [
   "Add %@"
+ ],
+ "Contacts.NotRegisteredSection": [
+  "Phonebook"
  ],
  "Contacts.PermissionsText": [
   "Please allow Telegram access to your phonebook to seamlessly find all your friends."
@@ -725,6 +929,10 @@
  "Conversation.MessageDialogEdit": [
   "Edit"
  ],
+ "Conversation.Messages": [
+  "%@ message",
+  "%@ messages"
+ ],
  "Conversation.MoveReplyToAnotherChatTitle": [
   "Reply in..."
  ],
@@ -753,8 +961,14 @@
  "Conversation.UnpinMessageAlert": [
   "Would you like to unpin this message?"
  ],
+ "Date.ChatDateHeader": [
+  "%1$@ %2$@"
+ ],
  "DialogList.AdLabel": [
   "Proxy Sponsor"
+ ],
+ "DialogList.AwaitingEncryption": [
+  "Waiting for %@ to come online..."
  ],
  "DialogList.ClearHistoryConfirmation": [
   "Clear History"
@@ -786,8 +1000,14 @@
  "DialogList.EncryptionRejected": [
   "Secret Chat canceled"
  ],
+ "DialogList.MultipleTyping": [
+  "%@ and %@"
+ ],
  "DialogList.MultipleTypingPair": [
   "%@ and %@ are typing"
+ ],
+ "DialogList.MultipleTypingSuffix": [
+  "%d are typing"
  ],
  "DialogList.NoMessagesText": [
   "Start messaging by tapping the pencil button in the top right corner or go to the Contacts section."
@@ -810,6 +1030,9 @@
  "DialogList.RecentTitlePeople": [
   "People"
  ],
+ "DialogList.Replies": [
+  "Replies"
+ ],
  "DialogList.SavedMessages": [
   "Saved Messages"
  ],
@@ -822,11 +1045,26 @@
  "DialogList.SearchLabel": [
   "Search chats"
  ],
+ "DialogList.SearchSectionGlobal": [
+  "Global Search"
+ ],
+ "DialogList.SearchSectionMessages": [
+  "Messages"
+ ],
+ "DialogList.SearchSectionPublicPosts": [
+  "Public Posts"
+ ],
  "DialogList.SearchSectionRecent": [
   "Recent"
  ],
+ "DialogList.SearchSectionTopics": [
+  "Topics"
+ ],
  "DialogList.SearchSubtitleFormat": [
   "%1$@, %2$@"
+ ],
+ "DialogList.SingleChoosingStickerSuffix": [
+  "%@ is choosing a sticker"
  ],
  "DialogList.SinglePlayingGameSuffix": [
   "%@ is playing a game"
@@ -864,11 +1102,20 @@
  "DialogList.Unread": [
   "Unread"
  ],
+ "DialogList.You": [
+  "You"
+ ],
  "DownloadList.Clear": [
   "Clear"
  ],
  "DownloadList.DownloadedHeader": [
   "Recently Downloaded"
+ ],
+ "DownloadList.DownloadingHeader": [
+  "Downloading"
+ ],
+ "DownloadList.PauseAll": [
+  "Pause All"
  ],
  "DownloadList.RemoveFileAlertRemove": [
   "Remove"
@@ -880,6 +1127,15 @@
  "DownloadList.RemoveFileAlertTitle": [
   "Remove Download?",
   "Remove %@ Downloads?"
+ ],
+ "DownloadList.ResumeAll": [
+  "Resume All"
+ ],
+ "Exceptions.AddToExceptions": [
+  "ADD TO EXCEPTIONS"
+ ],
+ "FileSize.GB": [
+  "%@ GB"
  ],
  "FolderLinkPreview.ButtonDoNotJoinChats": [
   "Do Not Join Any Chats"
@@ -1005,6 +1261,9 @@
  "GlobalAutodeleteSettings.ApplyChatsTitle": [
   "Select Chats"
  ],
+ "Group.DeleteGroup": [
+  "Delete Group"
+ ],
  "Group.LeaveGroup": [
   "Leave Group"
  ],
@@ -1024,6 +1283,12 @@
  "LastSeen.MinutesAgo": [
   "last seen 1 minute ago",
   "last seen %@ minutes ago"
+ ],
+ "Map.AddressOnMap": [
+  "Address On Map"
+ ],
+ "MemberSearch.BotSection": [
+  "BOTS"
  ],
  "Message.Animation": [
   "GIF"
@@ -1103,6 +1368,27 @@
  "Message.VideoMessage": [
   "Video Message"
  ],
+ "Monetization.TransactionInfo.Failed": [
+  "Not Completed"
+ ],
+ "Monetization.TransactionInfo.Pending": [
+  "Pending"
+ ],
+ "Monetization.TransactionInfo.Proceeds": [
+  "Rewards from Ads displayed in"
+ ],
+ "Monetization.TransactionInfo.Refund": [
+  "Refund"
+ ],
+ "Month.GenAugust": [
+  "August"
+ ],
+ "Month.ShortOctober": [
+  "Oct"
+ ],
+ "Month.ShortSeptember": [
+  "Sep"
+ ],
  "NewContact.Title": [
   "New Contact"
  ],
@@ -1117,6 +1403,15 @@
  ],
  "Notification.ChannelInviterSelf": [
   "You joined this channel"
+ ],
+ "Notification.ForumTopicClosedAuthor": [
+  "%1$@ closed topic"
+ ],
+ "Notification.ForumTopicIconChangedAuthor": [
+  "%1$@ changed the topic icon to %2$@"
+ ],
+ "Notification.ForumTopicRenamedAuthor": [
+  "%1$@ changed the topic name to \"%2$@\""
  ],
  "Notification.GameScoreExtended": [
   "scored %@ in {game}",
@@ -1184,6 +1479,12 @@
  "Permissions.ContactsAllowInSettings.v0": [
   "Allow in Settings"
  ],
+ "Premium.Gift.ContactSelection.DeselectAll": [
+  "DESELECT ALL"
+ ],
+ "Premium.Gift.ContactSelection.FrequentContacts": [
+  "FREQUENT CONTACTS"
+ ],
  "Premium.LimitReached": [
   "Limit Reached"
  ],
@@ -1223,6 +1524,21 @@
  "RichText.MenuButtonRow": [
   "Button Row"
  ],
+ "SendInviteLink.ActionInvite": [
+  "Send Invite Link"
+ ],
+ "SendInviteLink.InviteTitle": [
+  "Invite via Link"
+ ],
+ "SendInviteLink.TextAvailableSingleUser": [
+  "**%@** restricts adding them to groups.You can send them an invite link instead."
+ ],
+ "SendInviteLink.TextCallsRestrictedSendInviteLink": [
+  "You can try to send an invite link instead."
+ ],
+ "SendInviteLink.TextCallsRestrictedSendOneInviteLink": [
+  "**%@** restricts calling them. You can send them an invite link to this call instead."
+ ],
  "Settings.Context.Logout": [
   "Log Out"
  ],
@@ -1255,6 +1571,9 @@
  ],
  "Target.ShareGameConfirmationPrivate": [
   "Share the game with %@?"
+ ],
+ "Time.PreciseDate_m10": [
+  "Oct %1$@, %2$@ at %3$@"
  ],
  "Time.TimerDays": [
   "%@-day",
@@ -1301,6 +1620,9 @@
  ],
  "Undo.DeletedMonoforum": [
   "Removed from your chat list."
+ ],
+ "Undo.DeletedTopic": [
+  "Topic Deleted"
  ],
  "Undo.LeftChannel": [
   "You left the channel."

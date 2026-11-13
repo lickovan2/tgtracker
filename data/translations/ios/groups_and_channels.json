@@ -111,6 +111,9 @@
  "Attachment.MessagesPreview": [
   "Messages Preview"
  ],
+ "Attachment.Money": [
+  "Money"
+ ],
  "Attachment.MyAlbums": [
   "My Albums"
  ],
@@ -157,6 +160,9 @@
  ],
  "Attachment.SendWithoutGrouping": [
   "Send Without Grouping"
+ ],
+ "Attachment.Todo": [
+  "Checklist"
  ],
  "Attachment.Ungrouped": [
   "Ungrouped"
@@ -474,6 +480,15 @@
  ],
  "Call.LiveStreamInProgressTitle": [
   "Live Stream in Progress"
+ ],
+ "CallList.ActiveVoiceChatsHeader": [
+  "ACTIVE VIDEO CHATS"
+ ],
+ "CallList.RecentCallsHeader": [
+  "RECENT CALLS"
+ ],
+ "Calls.TabTitle": [
+  "Calls"
  ],
  "Channel.About.Help": [
   "You can provide an optional description for your channel."
@@ -1122,6 +1137,9 @@
  "Channel.BlackList.Title": [
   "Banned"
  ],
+ "Channel.ChannelSubscribersHeader": [
+  "CHANNEL SUBSCRIBERS"
+ ],
  "Channel.CommentsGroup.HeaderGroupSet": [
   "%@ links the group as its discussion board."
  ],
@@ -1647,6 +1665,9 @@
  "ChannelBoost.Info": [
   "Subscribers of your channel can **boost** it so that it **levels up** and gets **exclusive features**."
  ],
+ "ChannelBoost.Level": [
+  "Level %@"
+ ],
  "ChannelBoost.MaxLevelReached": [
   "Maximum Level Reached"
  ],
@@ -2002,6 +2023,9 @@
  "Chat.ContextMenu.AboutAd": [
   "About This Ad"
  ],
+ "Chat.ContextMenu.AdSponsorInfo": [
+  "Advertiser Info"
+ ],
  "Chat.ContextMenu.AuthorInfo": [
   "Sent by %@"
  ],
@@ -2041,11 +2065,17 @@
  "Chat.Giveaway.Info.AdditionalPrizes": [
   "**%1$@** also included **%2$@** with the prizes. The channel admins are responsible for delivering these prizes."
  ],
+ "Chat.Giveaway.Info.AlmostOver": [
+  "The giveaway is almost over."
+ ],
  "Chat.Giveaway.Info.DidntWin": [
   "You didn't win a prize in this giveaway."
  ],
  "Chat.Giveaway.Info.EndedIntro": [
   "The giveaway was sponsored by the admins of **%1$@**, who acquired %2$@ for %3$@ for its followers."
+ ],
+ "Chat.Giveaway.Info.EndedMany": [
+  "On **%1$@**, Telegram automatically selected %2$@ of **%3$@** and other listed communities."
  ],
  "Chat.Giveaway.Info.EndedNewMany": [
   "On **%1$@**, Telegram automatically selected %2$@ that joined **%3$@** and other listed channels after **%4$@**."
@@ -2094,6 +2124,12 @@
  "Chat.Giveaway.Info.OtherGroups": [
   "**%@** other listed group",
   "**%@** other listed groups"
+ ],
+ "Chat.Giveaway.Info.Participating": [
+  "You are participating in this giveaway because you joined the channel **%1$@**."
+ ],
+ "Chat.Giveaway.Info.ParticipatingMany": [
+  "You are participating in this giveaway because you joined the channel **%1$@** (and %2$@)."
  ],
  "Chat.Giveaway.Info.RandomSubscribers": [
   "**%@** random subscriber",
@@ -2703,6 +2739,30 @@
  "ChatContextMenu.TextSelectionTip2": [
   "Hold a word, then move cursor to select more| text to copy or quote."
  ],
+ "ChatImport.SelectionConfirmationAlertImportAction": [
+  "Import"
+ ],
+ "ChatImport.SelectionConfirmationAlertTitle": [
+  "Import Messages"
+ ],
+ "ChatImport.SelectionConfirmationGroupWithoutTitle": [
+  "Do you want to import messages into **%@**?Messages will be imported into the current day but will also include their original timestamps. All members will see the messages."
+ ],
+ "ChatImport.SelectionConfirmationUserWithoutTitle": [
+  "Do you want to import messages into the chat with **%@?**Messages will be imported into the current day but will also include their original timestamps. Both sides will see the messages."
+ ],
+ "ChatImport.SelectionErrorGroupGeneric": [
+  "Sorry, you can't import history to this group."
+ ],
+ "ChatImportActivity.ErrorInvalidChatType": [
+  "Wrong type of chat for the messages you are trying to import."
+ ],
+ "ChatImportActivity.ErrorLimitExceeded": [
+  "Daily maximum reached,please come back tomorrow."
+ ],
+ "ChatImportActivity.ErrorNotAdmin": [
+  "You need to be an admin in the group to import messages."
+ ],
  "ChatList.ArchivedChatsTitle": [
   "Archived Chats"
  ],
@@ -2798,6 +2858,9 @@
  ],
  "Contacts.PermissionsTitle": [
   "Access to Contacts"
+ ],
+ "Contacts.Title": [
+  "Contacts"
  ],
  "Contacts.TopSection": [
   "CONTACTS"
@@ -3005,6 +3068,12 @@
  "Conversation.ForwardOptions.HideSendersNames": [
   "Hide Sender Names"
  ],
+ "Conversation.ForwardOptions.SendMessage": [
+  "Send Message"
+ ],
+ "Conversation.ForwardOptions.ShowSendersName": [
+  "Show Sender Name"
+ ],
  "Conversation.ForwardOptions.TapForOptions": [
   "Tap here for forwarding options"
  ],
@@ -3047,6 +3116,9 @@
  "Conversation.LinkCopied": [
   "Link copied to clipboard."
  ],
+ "Conversation.LinkDialogCopy": [
+  "Copy"
+ ],
  "Conversation.LinkDialogOpen": [
   "Open"
  ],
@@ -3071,6 +3143,10 @@
  ],
  "Conversation.MessageViewCommentsFormat": [
   "%1$@ %2$@"
+ ],
+ "Conversation.Messages": [
+  "%@ message",
+  "%@ messages"
  ],
  "Conversation.Moderate.Ban": [
   "Ban User"
@@ -3256,6 +3332,9 @@
  "Conversation.SendMesageAsPremiumInfo": [
   "Subscribe to **Telegram Premium** to be able to comment on behalf of your channels in any group chat."
  ],
+ "Conversation.SendMessage.SendSilently": [
+  "Send Without Sound"
+ ],
  "Conversation.SendMessageErrorGroupRestricted": [
   "Sorry, you are currently restricted from posting in this group."
  ],
@@ -3416,6 +3495,15 @@
  ],
  "DialogList.Replies": [
   "Replies"
+ ],
+ "DialogList.SavedMessages": [
+  "Saved Messages"
+ ],
+ "DialogList.SearchSectionMessagesIn": [
+  "Messages in %@"
+ ],
+ "DialogList.Title": [
+  "Chats"
  ],
  "DownloadList.CancelDownloading": [
   "Cancel Download"
@@ -3707,6 +3795,9 @@
  ],
  "Group.ErrorSendRestrictedStickers": [
   "The admins of this group have restricted your ability to send stickers."
+ ],
+ "Group.GroupMembersHeader": [
+  "GROUP MEMBERS"
  ],
  "Group.Info.AdminLog": [
   "Recent Actions"
@@ -4657,6 +4748,9 @@
  "LeaveGroup.AppointAnotherOwner": [
   "Appoint Another Owner"
  ],
+ "LeaveGroup.LegacyGroupText": [
+  "If you leave, **%1$@** will immediately become the owner of **%2$@**."
+ ],
  "LeaveGroup.Proceed": [
   "Leave Group"
  ],
@@ -5174,6 +5268,12 @@
  ],
  "Notification.CreatedChannel": [
   "Channel created"
+ ],
+ "Notification.ForumTopicIconChangedAuthor": [
+  "%1$@ changed the topic icon to %2$@"
+ ],
+ "Notification.ForumTopicRenamedAuthor": [
+  "%1$@ changed the topic name to \"%2$@\""
  ],
  "Notification.ForumTopicReopenedAuthor": [
   "%1$@ reopened the topic"
@@ -5977,11 +6077,67 @@
  "ScheduledMessages.ScheduledToday": [
   "Scheduled for today"
  ],
+ "SendInviteLink.ActionClose": [
+  "Close"
+ ],
+ "SendInviteLink.ActionInvite": [
+  "Send Invite Link"
+ ],
+ "SendInviteLink.ActionSkip": [
+  "Skip"
+ ],
+ "SendInviteLink.ChannelTextContactsAndPremiumMultipleUsers": [
+  "{user_list}, and **%d** more person only accept invitations to channels from contacts and **Premium** users.",
+  "{user_list}, and **%d** more people only accept invitations to channels from contacts and **Premium** users."
+ ],
+ "SendInviteLink.ChannelTextContactsAndPremiumOneUser": [
+  "**%@** accepts invitations to channels from contacts and **Premium** users."
+ ],
+ "SendInviteLink.InviteTitle": [
+  "Invite via Link"
+ ],
+ "SendInviteLink.LinkUnavailableTitle": [
+  "You can't create a link"
+ ],
+ "SendInviteLink.PremiumOrSendSectionSeparator": [
+  "or"
+ ],
+ "SendInviteLink.StatusAvailableToPremiumOnly": [
+  "Available only to Premium users"
+ ],
  "SendInviteLink.SubscribeToPremiumButton": [
   "Subscribe to Telegram Premium"
  ],
+ "SendInviteLink.TextAvailableMultipleUsers": [
+  "**%d user** restricts adding them to groups.You can send them an invite link instead.",
+  "**%d users** restrict adding them to groups.You can send them an invite link instead."
+ ],
+ "SendInviteLink.TextCallsRestrictedMultipleUsers": [
+  "{user_list}, and **%d** more person do not accept calls.",
+  "{user_list}, and **%d** more people do not accept calls."
+ ],
+ "SendInviteLink.TextCallsRestrictedOneUser": [
+  "%@ does not accept calls."
+ ],
+ "SendInviteLink.TextCallsRestrictedSendInviteLink": [
+  "You can try to send an invite link instead."
+ ],
+ "SendInviteLink.TextContactsAndPremiumMultipleUsers": [
+  "{user_list}, and **%d** more person only accept invitations to groups from contacts and **Premium** users.",
+  "{user_list}, and **%d** more people only accept invitations to groups from contacts and **Premium** users."
+ ],
  "SendInviteLink.TextContactsAndPremiumOneUser": [
   "**%@** accepts invitations to groups from contacts and **Premium** users."
+ ],
+ "SendInviteLink.TextSendInviteLink": [
+  "You can try to send an invite link instead."
+ ],
+ "SendInviteLink.TextUnavailableMultipleUsers": [
+  "**%d user** can only be invited via link, but you don't have permission to share invite links to this group.",
+  "**%d users** can only be invited via link, but you don't have permission to share invite links to this group."
+ ],
+ "SendInviteLink.TextUnavailableSingleUser": [
+  "**%@** can only be invited via invite link, but you don't have permission to share invite links to this group."
  ],
  "SendInviteLink.TitleUpgradeToPremium": [
   "Upgrade to Premium"
@@ -6037,6 +6193,9 @@
  ],
  "Settings.SetPhoto": [
   "Set Photo"
+ ],
+ "Settings.Title": [
+  "Settings"
  ],
  "Share.MessagePreview": [
   "Message Preview"
@@ -6296,12 +6455,36 @@
  "Stats.Boosts": [
   "Boosts"
  ],
+ "Stats.Boosts.BoostersInfo": [
+  "Your channel is currently boosted by these users."
+ ],
  "Stats.Boosts.Boosts": [
   "%@ BOOST",
   "%@ BOOSTS"
  ],
  "Stats.Boosts.BoostsNone": [
   "BOOSTS"
+ ],
+ "Stats.Boosts.BoostsToLevelUp": [
+  "Boosts to Level Up"
+ ],
+ "Stats.Boosts.ExistingBoosts": [
+  "Active Boosts"
+ ],
+ "Stats.Boosts.ExpiresOn": [
+  "Boost expires on %@"
+ ],
+ "Stats.Boosts.GetBoosts": [
+  "Get Boosts via Gifts"
+ ],
+ "Stats.Boosts.GetBoostsInfo": [
+  "Get more boosts for your channel by gifting Premium to your subscribers."
+ ],
+ "Stats.Boosts.Gift": [
+  "Gift"
+ ],
+ "Stats.Boosts.Giveaway": [
+  "Giveaway"
  ],
  "Stats.Boosts.Group.BoostersInfo": [
   "Your group is currently boosted by these members."
@@ -6314,6 +6497,21 @@
  ],
  "Stats.Boosts.Group.NoBoostersYet": [
   "No users currently boost your group"
+ ],
+ "Stats.Boosts.Level": [
+  "Level"
+ ],
+ "Stats.Boosts.LinkHeader": [
+  "LINK FOR BOOSTING"
+ ],
+ "Stats.Boosts.LinkInfo": [
+  "Share this link with your subscribers to get more boosts."
+ ],
+ "Stats.Boosts.NoBoostersYet": [
+  "No users currently boost your channel"
+ ],
+ "Stats.Boosts.OverviewHeader": [
+  "OVERVIEW"
  ],
  "Stats.Boosts.PremiumMembers": [
   "Premium Members"
@@ -6331,6 +6529,13 @@
  "Stats.Boosts.PrepaidGiveawaysTitle": [
   "PREPAID GIVEAWAYS"
  ],
+ "Stats.Boosts.ShortMonth": [
+  "%@m"
+ ],
+ "Stats.Boosts.ShowMoreBoosts": [
+  "Show %@ More Boost",
+  "Show %@ More Boosts"
+ ],
  "Stats.Boosts.Stars": [
   "%@ Star",
   "%@ Stars"
@@ -6338,6 +6543,20 @@
  "Stats.Boosts.StarsWinners": [
   "for %@ winner",
   "among %@ winners"
+ ],
+ "Stats.Boosts.TabBoosts": [
+  "%@ Boost",
+  "%@ Boosts"
+ ],
+ "Stats.Boosts.TabGifts": [
+  "%@ Gift",
+  "%@ Gifts"
+ ],
+ "Stats.Boosts.ToBeDistributed": [
+  "To Be Distributed"
+ ],
+ "Stats.Boosts.Unclaimed": [
+  "Unclaimed"
  ],
  "Stats.EnabledNotifications": [
   "Enabled Notifications"

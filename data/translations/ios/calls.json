@@ -52,6 +52,9 @@
  "Call.VoiceChatInProgressTitle": [
   "Video Chat in Progress"
  ],
+ "CallList.DeleteAll": [
+  "Delete All"
+ ],
  "CallList.DeleteAllForEveryone": [
   "Delete for me and Others"
  ],
@@ -63,6 +66,9 @@
  ],
  "CallList.NewCallLink": [
   "Create Call Link"
+ ],
+ "CallList.RecentCallsHeader": [
+  "RECENT CALLS"
  ],
  "CallList.ToastCallLinkCopied.Action": [
   "View Call"
@@ -76,6 +82,9 @@
  "CallSettings.TabIconDescription": [
   "A call icon will appear in the tab bar."
  ],
+ "Calls.All": [
+  "All"
+ ],
  "Calls.HideCallsTab": [
   "Hide Calls Tab"
  ],
@@ -84,6 +93,9 @@
  ],
  "Calls.NewCall": [
   "New Call"
+ ],
+ "Calls.NoMissedCallsPlacehoder": [
+  "You have no missed calls"
  ],
  "Calls.NoVoiceAndVideoCallsPlaceholder": [
   "Your recent voice and video calls will appear here."
@@ -94,6 +106,9 @@
  "Calls.StartNewCall": [
   "Start New Call"
  ],
+ "Calls.TabTitle": [
+  "Calls"
+ ],
  "Common.Cancel": [
   "Cancel"
  ],
@@ -103,11 +118,17 @@
  "Common.OK": [
   "OK"
  ],
+ "Common.Search": [
+  "Search"
+ ],
  "Contacts.PermissionsText": [
   "Please allow Telegram access to your phonebook to seamlessly find all your friends."
  ],
  "Contacts.PermissionsTitle": [
   "Access to Contacts"
+ ],
+ "Contacts.Title": [
+  "Contacts"
  ],
  "GroupCall.RevokeLinkText": [
   "Are you sure you want to revoke this link? Once you do, no one will be able to join the call using it."
@@ -180,6 +201,9 @@
  "Presence.online": [
   "online"
  ],
+ "Settings.Title": [
+  "Settings"
+ ],
  "VoiceChat.AnonymousDisabledAlertText": [
   "Sorry, you can't join video chats as an anonymous admin."
  ],
@@ -191,5 +215,14 @@
  ],
  "VoiceChat.CreateNewVoiceChatText": [
   "Video chat ended. Start a new one?"
+ ],
+ "Weekday.ShortFriday": [
+  "Fri"
+ ],
+ "Weekday.ShortSaturday": [
+  "Sat"
+ ],
+ "Weekday.ShortSunday": [
+  "Sun"
  ]
 }

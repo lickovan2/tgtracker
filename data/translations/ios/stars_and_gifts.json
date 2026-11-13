@@ -1681,11 +1681,23 @@
  "GiftLink.LinkSharedToSavedMessages": [
   "Gift link forwarded to **Saved Messages**"
  ],
+ "GiftLink.NoRecipient": [
+  "No recipient"
+ ],
  "GiftLink.NotUsedFooter": [
   "This link hasn't been used yet."
  ],
  "GiftLink.PersonalDescription": [
   "This link allows **%@** to activate a **Telegram Premium** subscription."
+ ],
+ "GiftLink.PersonalUsedDescription": [
+  "This link allowed **%@** to activate a **Telegram Premium** subscription."
+ ],
+ "GiftLink.Reason": [
+  "Reason"
+ ],
+ "GiftLink.Reason.Unclaimed": [
+  "Incomplete Giveaway"
  ],
  "GiftLink.TelegramPremium": [
   "Telegram Premium for %@ month",
@@ -1696,6 +1708,9 @@
  ],
  "GiftLink.To": [
   "To"
+ ],
+ "GiftLink.UnclaimedDescription": [
+  "This link allows anyone to activate a **Telegram Premium** subscription."
  ],
  "Monetization.AdRevenueTitle": [
   "AD REWARDS"
@@ -1715,8 +1730,56 @@
  "Monetization.ImpressionsTitle": [
   "AD IMPRESSIONS (BY HOURS)"
  ],
+ "Monetization.Intro.Ads.Text": [
+  "Telegram can display ads in your channel."
+ ],
+ "Monetization.Intro.Ads.Title": [
+  "Telegram Ads"
+ ],
+ "Monetization.Intro.Bot.Ads.Text": [
+  "Telegram can display ads in your bot."
+ ],
+ "Monetization.Intro.Bot.Title": [
+  "Earn From Your Bot"
+ ],
+ "Monetization.Intro.Info.Text": [
+  "Gram is the cryptocurrency of the TON blockchain platform, which Telegram uses for its high speed and low commissions on transactions. [Learn More >]()"
+ ],
+ "Monetization.Intro.Info.Title": [
+  "What's #Gram?"
+ ],
+ "Monetization.Intro.Split.Text": [
+  "You receive 50% of the ad revenue as rewards in Grams."
+ ],
+ "Monetization.Intro.Split.Title": [
+  "50:50 Revenue Split"
+ ],
+ "Monetization.Intro.Title": [
+  "Earn From Your Channel"
+ ],
+ "Monetization.Intro.Understood": [
+  "Understood"
+ ],
+ "Monetization.Intro.Withdrawal.Text": [
+  "You can collect your Grams any time."
+ ],
+ "Monetization.Intro.Withdrawal.Title": [
+  "Flexible Withdrawals"
+ ],
+ "Monetization.StarsTransactions": [
+  "Stars Transactions"
+ ],
+ "Monetization.Transaction.Failed": [
+  "Not Completed"
+ ],
  "Monetization.Transaction.Pending": [
   "Pending"
+ ],
+ "Monetization.TransactionInfo.ViewInExplorer": [
+  "View in Explorer"
+ ],
+ "Monetization.TransactionInfo.Withdrawal": [
+  "Collecting Rewards via %@"
  ],
  "Monetization.Withdraw.AmountTooSmallError": [
   "You cannot withdraw less than 10 Grams."
@@ -1970,8 +2033,29 @@
  "Stars.Intro.Transaction.FragmentWithdrawal.Title": [
   "Withdrawal"
  ],
+ "Stars.Intro.Transaction.Gift": [
+  "Gift"
+ ],
  "Stars.Intro.Transaction.Gift.Title": [
   "Received Gift"
+ ],
+ "Stars.Intro.Transaction.GiftAuctionBid": [
+  "Gift Auction Bid"
+ ],
+ "Stars.Intro.Transaction.GiftDropOriginalDetails": [
+  "Gift Description Removal"
+ ],
+ "Stars.Intro.Transaction.GiftPurchase": [
+  "Gift Purchase"
+ ],
+ "Stars.Intro.Transaction.GiftSale": [
+  "Gift Sale"
+ ],
+ "Stars.Intro.Transaction.GiftTransfer": [
+  "Gift Transfer"
+ ],
+ "Stars.Intro.Transaction.GiftUpgrade": [
+  "Gift Upgrade"
  ],
  "Stars.Intro.Transaction.GiveawayPrize": [
   "Giveaway Prize"
@@ -1989,6 +2073,9 @@
  "Stars.Intro.Transaction.LiveStreamReaction": [
   "Live Stream Reaction"
  ],
+ "Stars.Intro.Transaction.MediaPurchase": [
+  "Media Purchase"
+ ],
  "Stars.Intro.Transaction.PaidMessage": [
   "Fee for %@ Message",
   "Fee for %@ Messages"
@@ -1999,6 +2086,9 @@
  "Stars.Intro.Transaction.PremiumBotTopUp.Title": [
   "Stars Top-Up"
  ],
+ "Stars.Intro.Transaction.PrepaidGiftUpgrade": [
+  "Gift Upgrade"
+ ],
  "Stars.Intro.Transaction.Reaction.Title": [
   "Star Reaction"
  ],
@@ -2008,11 +2098,21 @@
  "Stars.Intro.Transaction.SearchFee": [
   "Public Post Search"
  ],
+ "Stars.Intro.Transaction.SubscriptionFee.Title": [
+  "Monthly Subscription Fee"
+ ],
  "Stars.Intro.Transaction.TelegramAds.Subtitle": [
   "via Telegram Ads"
  ],
  "Stars.Intro.Transaction.TelegramAds.Title": [
   "Withdrawal"
+ ],
+ "Stars.Intro.Transaction.TelegramBotApi.Messages": [
+  "%@ Message",
+  "%@ Messages"
+ ],
+ "Stars.Intro.Transaction.TelegramBotApi.Title": [
+  "Paid Broadcast"
  ],
  "Stars.Intro.Transaction.TelegramPremium": [
   "Premium for %@ Month",
@@ -2460,6 +2560,9 @@
  ],
  "Time.MediumDate": [
   "%1$@ at %2$@"
+ ],
+ "Time.PreciseDate_m10": [
+  "Oct %1$@, %2$@ at %3$@"
  ],
  "Wallet.Collectibles": [
   "Collectibles"

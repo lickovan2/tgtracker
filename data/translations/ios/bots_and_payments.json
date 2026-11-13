@@ -1119,14 +1119,35 @@
  "RequestPeer.Requirement.Channel.Rights": [
   "You must have the admin rights to %@."
  ],
+ "RequestPeer.Requirement.Channel.Rights.AddAdmins": [
+  "add new admins"
+ ],
+ "RequestPeer.Requirement.Channel.Rights.Anonymous": [
+  "remain anonymous"
+ ],
  "RequestPeer.Requirement.Channel.Rights.Delete": [
   "delete messages"
  ],
  "RequestPeer.Requirement.Channel.Rights.Edit": [
   "edit messages"
  ],
+ "RequestPeer.Requirement.Channel.Rights.Info": [
+  "change channel info"
+ ],
+ "RequestPeer.Requirement.Channel.Rights.Invite": [
+  "invite users via link"
+ ],
+ "RequestPeer.Requirement.Channel.Rights.Pin": [
+  "pin messages"
+ ],
  "RequestPeer.Requirement.Channel.Rights.Send": [
   "post messages"
+ ],
+ "RequestPeer.Requirement.Channel.Rights.Topics": [
+  "manage topics"
+ ],
+ "RequestPeer.Requirement.Channel.Rights.VideoChats": [
+  "manage live streams"
  ],
  "RequestPeer.Requirement.Group.CreatorOn": [
   "You must be the owner of the group."
@@ -1140,8 +1161,38 @@
  "RequestPeer.Requirement.Group.Rights": [
   "You must have the admin rights to %@."
  ],
+ "RequestPeer.Requirement.Group.Rights.AddAdmins": [
+  "add new admins"
+ ],
+ "RequestPeer.Requirement.Group.Rights.Anonymous": [
+  "remain anonymous"
+ ],
+ "RequestPeer.Requirement.Group.Rights.Ban": [
+  "ban users"
+ ],
  "RequestPeer.Requirement.Group.Rights.Delete": [
   "delete messages"
+ ],
+ "RequestPeer.Requirement.Group.Rights.Edit": [
+  "edit messages"
+ ],
+ "RequestPeer.Requirement.Group.Rights.Info": [
+  "change group info"
+ ],
+ "RequestPeer.Requirement.Group.Rights.Invite": [
+  "add members"
+ ],
+ "RequestPeer.Requirement.Group.Rights.Pin": [
+  "pin messages"
+ ],
+ "RequestPeer.Requirement.Group.Rights.Send": [
+  "post messages"
+ ],
+ "RequestPeer.Requirement.Group.Rights.Topics": [
+  "manage topics"
+ ],
+ "RequestPeer.Requirement.Group.Rights.VideoChats": [
+  "manage video chats"
  ],
  "RequestPeer.Requirement.UserPremiumOff": [
   "The user must not have a Premium subscription."
