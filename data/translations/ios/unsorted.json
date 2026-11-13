@@ -38,18 +38,6 @@
  "AffiliateSetup.ProgramLeave": [
   "Leave"
  ],
- "AgeVerification.Fail.Text": [
-  "Sorry, you can't view this content."
- ],
- "AgeVerification.Fail.Title": [
-  "Age check failed"
- ],
- "AgeVerification.Success.Text": [
-  "You can now view this content."
- ],
- "AgeVerification.Success.Title": [
-  "Age check passed!"
- ],
  "AgeVerification.Text": [
   "To access this content, you must confirm you are at least **18** years old.This is a one-time process using your phone's camera. Your selfie will not be stored by Telegram."
  ],
@@ -88,15 +76,6 @@
  ],
  "Agent.ConnectModel": [
   "Connect Model"
- ],
- "Agent.Connected.Start": [
-  "Start"
- ],
- "Agent.Connected.Text": [
-  "You can now use %@."
- ],
- "Agent.Connected.Title": [
-  "%@ connected!"
  ],
  "Agent.Effort": [
   "Effort"
@@ -348,9 +327,6 @@
  "BlockedUsers.SelectUserTitle": [
   "Block User"
  ],
- "BoostGift.Channels.MaximumReached": [
-  "You can select up to %@ channels."
- ],
  "BoostGift.ChannelsAndGroupsInfo": [
   "Choose additional channels or groups users need to join to take part in the giveaway."
  ],
@@ -399,9 +375,6 @@
  "BoostGift.GroupsOrChannels.MaximumReached": [
   "You can select maximum %@ groups and channels."
  ],
- "BoostGift.Members.MaximumReached": [
-  "You can select maximum %@ members."
- ],
  "BoostGift.PrepaidGiveawayStarsCount": [
   "%@ Telegram Premium",
   "%@ Telegram Premium"
@@ -418,9 +391,6 @@
  ],
  "BoostGift.StarsGiveawayCreated.Title": [
   "Stars Giveaway Created"
- ],
- "BoostGift.Subscribers.MaximumReached": [
-  "You can select up to %@ subscribers."
  ],
  "Bot.AcceptTermsInfo": [
   "I accept the [Terms of Service]() of **%1$@**"
@@ -1192,9 +1162,6 @@
  "ChannelMessages.PriceSectionFooterValue": [
   "You will receive %1$@% of the selected fee for each incoming message."
  ],
- "ChannelReactions.ToastMaxReactionsReached": [
-  "You can select up to 100 reactions."
- ],
  "Chat.AdminAction.ToastMessagesDeletedTextMultiple": [
   "Messages Deleted."
  ],
@@ -1820,9 +1787,6 @@
  "Chat.SideList.Open": [
   "Show Chat List"
  ],
- "Chat.SimilarChannels.JoinedChannel": [
-  "You joined channel **%@**."
- ],
  "Chat.SlowmodeAttachmentLimitReached": [
   "Slow Mode is enabled. You can't select more items."
  ],
@@ -1852,9 +1816,6 @@
  ],
  "Chat.ToastMessagingRestrictedToPremium.Text": [
   "**%@** only accepts messages from contacts and **Premium** users."
- ],
- "Chat.ToastPhoneNumberCopied": [
-  "Phone number copied to clipboard."
  ],
  "Chat.ToastStarsSent.AnonymousTitle": [
   "Star sent anonymously!",
@@ -2528,9 +2489,6 @@
  "Conversation.LaunchApp": [
   "LAUNCH APP"
  ],
- "Conversation.LinksCopied": [
-  "Links copied to clipboard"
- ],
  "Conversation.LiveLocationYouAndOther": [
   "**You** and %@"
  ],
@@ -2625,15 +2583,6 @@
  ],
  "Conversation.SendWhenOnlineTooltip": [
   "Long tap to send your message later."
- ],
- "Conversation.ShareLinkTooltip.Chat.One": [
-  "Link shared with **%@**"
- ],
- "Conversation.ShareLinkTooltip.ManyChats.One": [
-  "Link shared with **%@** and %@ others."
- ],
- "Conversation.ShareLinkTooltip.TwoChats.One": [
-  "Link shared with **%@** and **%@**."
  ],
  "Conversation.ShareMyPhoneNumber.StatusSuccess": [
   "%@ can now see your phone number."
@@ -2826,12 +2775,6 @@
  ],
  "CreatePoll.EnableQuizInfo": [
   "Mark one option as the right answer"
- ],
- "CreatePoll.MediaUploading.Text": [
-  "Poll media is still uploading..."
- ],
- "CreatePoll.MediaUploading.Title": [
-  "Please Wait"
  ],
  "CreateTodo.AddTitle": [
   "Add a Task"
@@ -3346,12 +3289,6 @@
  "Gift.Auction.UpcomingAuction": [
   "Upcoming Auction"
  ],
- "Gift.AuctionBid.AddMoreStars": [
-  "Add at least %@ to increase your bid."
- ],
- "Gift.AuctionBid.AddMoreStars.Set": [
-  "Set"
- ],
  "Gift.AuctionBid.AddMoreStars.Stars": [
   "%@ Star",
   "%@ Stars"
@@ -3367,9 +3304,6 @@
  ],
  "Gift.AuctionBid.Increased.Title": [
   "Your bid has been increased"
- ],
- "Gift.AuctionBid.MinimumBidIncreased": [
-  "The minimum bid increased to **%@**."
  ],
  "Gift.AuctionBid.RoundSubtitle": [
   "Round %@ of %@"
@@ -3407,9 +3341,6 @@
  "Gift.Buy.ErrorPriceChanged.Text.Stars": [
   "%@ Star",
   "%@ Stars"
- ],
- "Gift.Convert.Success.ChannelText": [
-  "%1$@ to channel's balance."
  ],
  "Gift.Convert.Success.ChannelText.Stars": [
   "**%@ Star** was sent",
@@ -3623,9 +3554,6 @@
  "Gift.Options.Gift.ViewAuction": [
   "View"
  ],
- "Gift.RemoveDetails.Success": [
-  "Removed %@'s description!"
- ],
  "Gift.Send.Limited.Success.Text.None": [
   "You've reached your limit on this gift."
  ],
@@ -3813,9 +3741,6 @@
  "Gift.Withdraw.SetupTwoStepAuth": [
   "Enable Two-Step Verification"
  ],
- "GiftLink.LinkHidden": [
-  "Only the recipient can see the link."
- ],
  "GiftLink.NotUsedFooter": [
   "This link hasn't been used yet."
  ],
@@ -3882,15 +3807,6 @@
  ],
  "GlobalAutodeleteSettings.Title": [
   "Auto-Delete Messages"
- ],
- "Group.AdminLog.AntiSpamFalsePositiveReportedText": [
-  "Telegram moderators will review your report. Thank you!"
- ],
- "Group.AdminLog.AntiSpamText": [
-  "You can manage anti-spam settings in Group Info > [Administrators]()."
- ],
- "Group.AdminLog.AntiSpamTitle": [
-  "Telegram Anti-Spam"
  ],
  "Group.Appearance.EmojiPackUpdated": [
   "Group emoji pack updated."
@@ -4525,12 +4441,6 @@
  "LoginEmail.Description": [
   "You will receive Telegram login codes via email and not SMS. Please enter an email address to which you have access."
  ],
- "LoginEmail.Success.Text": [
-  "Your account is now protected!"
- ],
- "LoginEmail.Success.Title": [
-  "Email added"
- ],
  "LoginEmail.Title": [
   "Add Email"
  ],
@@ -4631,9 +4541,6 @@
  "MediaEditor.HoldToRecordVideo": [
   "Hold to record video"
  ],
- "MediaEditor.StickersTooMuch": [
-  "Sorry, you've reached the maximum number of stickers in this set. Try a different one."
- ],
  "MediaPicker.AddImage": [
   "Add Image"
  ],
@@ -4694,12 +4601,6 @@
  ],
  "Message.AudioTranscription.ErrorTooLong": [
   "This voice message is too long to transcribe"
- ],
- "Message.AudioTranscription.SubscribeToPremium": [
-  "Subscribe to **Telegram Premium** to convert voice to text."
- ],
- "Message.AudioTranscription.SubscribeToPremiumAction": [
-  "More"
  ],
  "Message.FactCheck": [
   "Fact Check"
@@ -6108,19 +6009,11 @@
  "PeerInfo.Gifts.SendGift": [
   "Send Gift"
  ],
- "PeerInfo.Gifts.ToastPinLimit.Text": [
-  "You can't pin more than %@ gift.",
-  "You can't pin more than %@ gifts."
- ],
  "PeerInfo.GroupAboutItem": [
   "about"
  ],
  "PeerInfo.GroupsInCommon.CreateGroup": [
   "Create Group with %@"
- ],
- "PeerInfo.HideMembersLimitedParticipantCountText": [
-  "Only groups with more than **%d member** can hide members.",
-  "Only groups with more than **%d members** can hide members."
  ],
  "PeerInfo.NotificationMemberAdded": [
   "**%1$@** added to the group."
@@ -6161,9 +6054,6 @@
  ],
  "PeerInfo.Topics.Sidebar": [
   "Sidebar"
- ],
- "PeerInfo.TopicsLimitedDiscussionGroups": [
-  "Topics are not yet available in the discussion groups of channels."
  ],
  "PeerInfo.UnofficialSecurityRisk": [
   "%@ uses an unofficial Telegram client – messages to this user may be less secure."
@@ -6247,12 +6137,6 @@
  ],
  "Premium.FasterSpeedStandaloneInfo": [
   "Subscribe to **Telegram Premium** to download media and files at the fastest possible speed."
- ],
- "Premium.Gift.ApplyLink.AlreadyHasPremium.Text": [
-  "You can activate this gift link after **%@** or [send the link]() to a friend."
- ],
- "Premium.Gift.ApplyLink.AlreadyHasPremium.Title": [
-  "You already have Telegram Premium"
  ],
  "Premium.Gift.ContactSelection.TransferSelf": [
   "send yourself a gift"
@@ -6465,9 +6349,6 @@
  "Premium.Purchase.Pending": [
   "Purchase Pending"
  ],
- "Premium.Purchase.PendingInfo": [
-  "Your purchase is awaiting confirmation. You can leave this screen. Premium will activate when the purchase is confirmed."
- ],
  "Premium.Restore.ErrorUnknown": [
   "An error occurred. Please try again."
  ],
@@ -6504,6 +6385,9 @@
  ],
  "Premium.VoiceToText.Proceed": [
   "About Telegram Premium"
+ ],
+ "Premium.VoiceToTextStandaloneInfo": [
+  "Subscribe to **Telegram Premium** to be able to convert voice and video messages to text."
  ],
  "Premium.Week.SignUp": [
   "Sign up for %@"
@@ -7134,6 +7018,9 @@
  "SettingsSearch.Synonyms.Premium.AnimatedEmoji": [
   " "
  ],
+ "SettingsSearch.Synonyms.Premium.AppIcon": [
+  " "
+ ],
  "SettingsSearch.Synonyms.Premium.Avatar": [
   "Video Avatar"
  ],
@@ -7467,9 +7354,6 @@
   "%@ Star",
   "%@ Stars"
  ],
- "Stars.Transfer.PurchasedText": [
-  "You acquired **%1$@** in **%2$@** for **%3$@**."
- ],
  "Stars.Transfer.Terms": [
   "By purchasing you agree to the [Terms of Service]()."
  ],
@@ -7666,12 +7550,6 @@
  "Story.ToastDeletedContact": [
   "**%@** has been removed from your contacts."
  ],
- "Story.ToastRemovedFromGroupText": [
-  "Story removed from the group page"
- ],
- "Story.ToastSavedToChannelTitle": [
-  "Story posted to the channel page"
- ],
  "Story.ToastUserBlocked": [
   "**%@** has been blocked."
  ],
@@ -7698,10 +7576,6 @@
  ],
  "StoryList.ItemAction.Edit": [
   "Edit"
- ],
- "StoryList.TooltipStoriesSavedToGroup": [
-  "Story saved to group's profile.",
-  "%d stories saved to group's profile."
  ],
  "SuggestBirthdate.Accept.Added": [
   "Birthday added. You can change it in **Settings**."
@@ -7777,12 +7651,6 @@
  ],
  "Theme.Context.Apply": [
   "Apply"
- ],
- "Theme.ThemeChanged": [
-  "Color Theme Changed"
- ],
- "Theme.ThemeChangedText": [
-  "You can change it back in[Settings > Appearance]()."
  ],
  "Time.AfterDays": [
   "%@ day",
@@ -8261,18 +8129,6 @@
  ],
  "UserInfo.FakeUserWarning": [
   "⚠️ Warning: Many users reported that this account impersonates a famous person or organization."
- ],
- "UserInfo.LinkForwardTooltip.Chat.One": [
-  "Link sent to **%@**."
- ],
- "UserInfo.LinkForwardTooltip.ManyChats.One": [
-  "Link sent to **%@** and %@ other chats."
- ],
- "UserInfo.LinkForwardTooltip.SavedMessages.One": [
-  "Link sent to **Saved Messages**."
- ],
- "UserInfo.LinkForwardTooltip.TwoChats.One": [
-  "Link sent to **%@** and **%@**."
  ],
  "UserInfo.PublicVideo": [
   "public video"
@@ -9493,9 +9349,6 @@
  ],
  "WebBrowser.ClearCache.ClearConfirmation.Text": [
   "Are you sure you want to clear cache?"
- ],
- "WebBrowser.ClearCache.Succeed": [
-  "Cache cleared."
  ],
  "WebBrowser.Download.Confirmation": [
   "Do you want to download \"%@\"?"

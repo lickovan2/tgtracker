@@ -119,6 +119,9 @@
  "Wallet.Transfer.TopUpText": [
   "There are not enough Grams in your wallet for this payment and its network fee. Top up your balance and try again."
  ],
+ "Wallet.Unavailable": [
+  "Money is currently unavailable."
+ ],
  "Wallet.ViewInExplorer": [
   "View in Explorer"
  ]

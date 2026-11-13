@@ -494,6 +494,9 @@
  "Chat.SendMessageMenu.ToastPremiumRequired.Text": [
   "Subscribe to [Telegram Premium]() to add this animated effect."
  ],
+ "Chat.SimilarChannels.JoinedChannel": [
+  "You joined channel **%@**."
+ ],
  "Chat.TagSearchHideMessages": [
   "Hide Other Messages"
  ],
@@ -518,6 +521,9 @@
  ],
  "Chat.ToastCallLinkExpired.Text": [
   "This link is no longer active"
+ ],
+ "Chat.ToastPhoneNumberCopied": [
+  "Phone number copied to clipboard."
  ],
  "Chat.TooltipAddTagLabel": [
   "Tap and hold to add a name to your tag"
@@ -733,6 +739,9 @@
  "Conversation.LinkDialogOpen": [
   "Open"
  ],
+ "Conversation.LinksCopied": [
+  "Links copied to clipboard"
+ ],
  "Conversation.Mute": [
   "Mute"
  ],
@@ -819,6 +828,15 @@
  ],
  "Conversation.SetReminder.Title": [
   "Set a Reminder"
+ ],
+ "Conversation.ShareLinkTooltip.Chat.One": [
+  "Link shared with **%@**"
+ ],
+ "Conversation.ShareLinkTooltip.ManyChats.One": [
+  "Link shared with **%@** and %@ others."
+ ],
+ "Conversation.ShareLinkTooltip.TwoChats.One": [
+  "Link shared with **%@** and **%@**."
  ],
  "Conversation.SlideToCancel": [
   "Slide to cancel"
@@ -915,6 +933,12 @@
  ],
  "CreateExternalStream.Title": [
   "Stream With..."
+ ],
+ "CreatePoll.MediaUploading.Text": [
+  "Poll media is still uploading..."
+ ],
+ "CreatePoll.MediaUploading.Title": [
+  "Please Wait"
  ],
  "Currency.Grams": [
   "%@ Gram",
@@ -1305,6 +1329,12 @@
  ],
  "MediaPicker.TimerTooltip": [
   "You can now set a self-destruct timer"
+ ],
+ "Message.AudioTranscription.SubscribeToPremium": [
+  "Subscribe to **Telegram Premium** to convert voice to text."
+ ],
+ "Message.AudioTranscription.SubscribeToPremiumAction": [
+  "More"
  ],
  "Message.File": [
   "File"

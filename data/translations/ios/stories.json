@@ -1334,11 +1334,17 @@
  "Story.ToastRemovedFromChannelText": [
   "Story removed from the channel page"
  ],
+ "Story.ToastRemovedFromGroupText": [
+  "Story removed from the group page"
+ ],
  "Story.ToastRemovedFromProfileText": [
   "Story removed from your profile"
  ],
  "Story.ToastSavedToChannelText": [
   "Posted stories can be viewed by others on the channel page until an admin removes them."
+ ],
+ "Story.ToastSavedToChannelTitle": [
+  "Story posted to the channel page"
  ],
  "Story.ToastSavedToGroupText": [
   "Posted stories can be viewed by others on the group page until an admin removes them."
@@ -1679,6 +1685,10 @@
  "StoryList.TooltipStoriesSavedToChannel": [
   "Story saved to channel's profile.",
   "%d stories saved to channel's profile."
+ ],
+ "StoryList.TooltipStoriesSavedToGroup": [
+  "Story saved to group's profile.",
+  "%d stories saved to group's profile."
  ],
  "StoryList.TooltipStoriesSavedToProfile": [
   "Story posted on your profile.",

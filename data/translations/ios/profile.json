@@ -766,6 +766,10 @@
  "PeerInfo.Gifts.ShareCollection": [
   "Share"
  ],
+ "PeerInfo.Gifts.ToastPinLimit.Text": [
+  "You can't pin more than %@ gift.",
+  "You can't pin more than %@ gifts."
+ ],
  "PeerInfo.Gifts.ToastPinned.ReplacingText": [
   "replacing %@."
  ],
@@ -780,6 +784,10 @@
  ],
  "PeerInfo.Gifts.ToastUnpinned.Text": [
   "Gift Unpinned."
+ ],
+ "PeerInfo.HideMembersLimitedParticipantCountText": [
+  "Only groups with more than **%d member** can hide members.",
+  "Only groups with more than **%d members** can hide members."
  ],
  "PeerInfo.Location.Label": [
   "location"
@@ -831,6 +839,9 @@
  ],
  "PeerInfo.ToastNoteCopied": [
   "Note copied to clipboard."
+ ],
+ "PeerInfo.TopicsLimitedDiscussionGroups": [
+  "Topics are not yet available in the discussion groups of channels."
  ],
  "PeerStatusExpiration.AtDate": [
   "Your status expires on %@"
@@ -1313,6 +1324,18 @@
  ],
  "UserInfo.GenericPhoneLabel": [
   "mobile"
+ ],
+ "UserInfo.LinkForwardTooltip.Chat.One": [
+  "Link sent to **%@**."
+ ],
+ "UserInfo.LinkForwardTooltip.ManyChats.One": [
+  "Link sent to **%@** and %@ other chats."
+ ],
+ "UserInfo.LinkForwardTooltip.SavedMessages.One": [
+  "Link sent to **Saved Messages**."
+ ],
+ "UserInfo.LinkForwardTooltip.TwoChats.One": [
+  "Link sent to **%@** and **%@**."
  ],
  "UserInfo.NotificationsDefault": [
   "Default"

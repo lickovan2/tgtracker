@@ -854,6 +854,9 @@
  "FolderLinkPreview.ToastLeftTitle": [
   "Folder %@ deleted"
  ],
+ "FolderLinkScreen.SaveUnknownError": [
+  "An error occurred while updating the link"
+ ],
  "FolderLinkScreen.ToastLinkUpdated": [
   "Link updated"
  ],

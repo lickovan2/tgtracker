@@ -1,4 +1,10 @@
 {
+ "BoostGift.Channels.MaximumReached": [
+  "You can select up to %@ channels."
+ ],
+ "BoostGift.Members.MaximumReached": [
+  "You can select maximum %@ members."
+ ],
  "BoostGift.ReduceQuantity.Reduce": [
   "Reduce"
  ],
@@ -16,6 +22,9 @@
  ],
  "BoostGift.StartConfirmation.Title": [
   "Start Giveaway"
+ ],
+ "BoostGift.Subscribers.MaximumReached": [
+  "You can select up to %@ subscribers."
  ],
  "Business.Links.AlertUnsavedAction": [
   "Reset"
@@ -62,6 +71,21 @@
  "BusinessMessageSetup.ErrorNoRecipients.Text": [
   "No recipients selected. Reset?"
  ],
+ "ChannelBoost.BoostLinkCopied": [
+  "Boost link copied to clipboard"
+ ],
+ "ChannelBoost.BoostLinkForwardTooltip.Chat.One": [
+  "Boost link forwarded to **%@**"
+ ],
+ "ChannelBoost.BoostLinkForwardTooltip.ManyChats.One": [
+  "Boost link forwarded to **%@** and %@ others"
+ ],
+ "ChannelBoost.BoostLinkForwardTooltip.SavedMessages.One": [
+  "Boost link forwarded to **Saved Messages**"
+ ],
+ "ChannelBoost.BoostLinkForwardTooltip.TwoChats.One": [
+  "Boost link forwarded to **%@** and **%@**"
+ ],
  "ChannelBoost.Error.BoostTooOftenText": [
   "You can only change the channel you boost once a day. You will be able to boost in **%@**."
  ],
@@ -86,6 +110,9 @@
  "ChatList.MaxThreadPinsFinalText": [
   "Sorry, you can't pin more than **%@** topic to the top. Unpin some that are currently pinned.",
   "Sorry, you can't pin more than **%@** topics to the top. Unpin some that are currently pinned."
+ ],
+ "ChatbotSetup.BotInstalled": [
+  "%@ now manages your account."
  ],
  "ChatbotSetup.ErrorBotNotBusinessCapable": [
   "This bot doesn't support Secretary Mode yet."
@@ -138,6 +165,12 @@
  "GroupBoost.Error.PremiumNeededText": [
   "Only **Telegram Premium** subscribers can boost groups. Do you want to subscribe to **Telegram Premium**?"
  ],
+ "Premium.Gift.ApplyLink.AlreadyHasPremium.Text": [
+  "You can activate this gift link after **%@** or [send the link]() to a friend."
+ ],
+ "Premium.Gift.ApplyLink.AlreadyHasPremium.Title": [
+  "You already have Telegram Premium"
+ ],
  "Premium.Gift.ContactSelection.OpenProfile": [
   "Open Profile"
  ],
@@ -159,6 +192,9 @@
  "Premium.Purchase.OnlyOneSubscriptionAllowed": [
   "You have already purchased Telegram Premium for another account. You can only have one Telegram Premium subscription on one Apple ID."
  ],
+ "Premium.Purchase.PendingInfo": [
+  "Your purchase is awaiting confirmation. You can leave this screen. Premium will activate when the purchase is confirmed."
+ ],
  "QuickReply.ChatRemoveAwayMessage.Text": [
   "You didn't create an away message. Exiting will remove it."
  ],
@@ -179,5 +215,11 @@
  ],
  "QuickReply.ChatRemoveGreetingMessage.Title": [
   "Remove Greeting Message"
+ ],
+ "ReassignBoost.Success": [
+  "%1$@ from %2$@."
+ ],
+ "ReassignBoost.WaitForCooldown": [
+  "Wait until the boost is available or get **%1$@** more boosts by gifting a **Telegram Premium** subscription."
  ]
 }

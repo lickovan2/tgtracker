@@ -1792,6 +1792,9 @@
   "Level 1",
   "Level %d"
  ],
+ "ChannelReactions.ToastMaxReactionsReached": [
+  "You can select up to 100 reactions."
+ ],
  "ChannelReactions.UnsavedChangesAlertApply": [
   "Apply"
  ],
@@ -3155,6 +3158,15 @@
  ],
  "Group.About.Help": [
   "You can provide an optional description for your group."
+ ],
+ "Group.AdminLog.AntiSpamFalsePositiveReportedText": [
+  "Telegram moderators will review your report. Thank you!"
+ ],
+ "Group.AdminLog.AntiSpamText": [
+  "You can manage anti-spam settings in Group Info > [Administrators]()."
+ ],
+ "Group.AdminLog.AntiSpamTitle": [
+  "Telegram Anti-Spam"
  ],
  "Group.AdminLog.EmptyText": [
   "No notable actions taken by the members and admins of this group in the last 48 hours."

@@ -287,6 +287,12 @@
  "Login.WillSendSms": [
   "Telegram will send you an SMS in %@"
  ],
+ "LoginEmail.Success.Text": [
+  "Your account is now protected!"
+ ],
+ "LoginEmail.Success.Title": [
+  "Email added"
+ ],
  "LoginPassword.FloodError": [
   "Too many attempts, please try again later."
  ],

@@ -254,6 +254,9 @@
  "MediaEditor.AddGif": [
   "Add GIF"
  ],
+ "MediaEditor.StickersTooMuch": [
+  "Sorry, you've reached the maximum number of stickers in this set. Try a different one."
+ ],
  "MediaPicker.AddCaption": [
   "Add a caption..."
  ],

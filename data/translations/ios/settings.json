@@ -8,6 +8,18 @@
  "AccessDenied.Wallpapers": [
   "Telegram needs access to your photo library so that you can set a custom wallpaper.Please go to your device's settings > Privacy > Photos and set Telegram to ON."
  ],
+ "AgeVerification.Fail.Text": [
+  "Sorry, you can't view this content."
+ ],
+ "AgeVerification.Fail.Title": [
+  "Age check failed"
+ ],
+ "AgeVerification.Success.Text": [
+  "You can now view this content."
+ ],
+ "AgeVerification.Success.Title": [
+  "Age check passed!"
+ ],
  "Appearance.AccentColor": [
   "Accent Color"
  ],
@@ -4245,6 +4257,12 @@
  "Theme.Context.ChangeColors": [
   "Change Colors"
  ],
+ "Theme.ThemeChanged": [
+  "Color Theme Changed"
+ ],
+ "Theme.ThemeChangedText": [
+  "You can change it back in[Settings > Appearance]()."
+ ],
  "Theme.UsersCount": [
   "%@ person is using this theme",
   "%@ people are using this theme"
@@ -4598,6 +4616,9 @@
  ],
  "TwoStepAuth.Title": [
   "Two-Step Verification"
+ ],
+ "Undo.Undo": [
+  "Undo"
  ],
  "UserCount": [
   "1 user",

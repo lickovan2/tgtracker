@@ -227,6 +227,15 @@
  "AffiliateSetup.UpdateTitle": [
   "Update Affiliate Program"
  ],
+ "Agent.Connected.Start": [
+  "Start"
+ ],
+ "Agent.Connected.Text": [
+  "You can now use %@."
+ ],
+ "Agent.Connected.Title": [
+  "%@ connected!"
+ ],
  "AuthConfirmation.AllowMessages": [
   "Allow Messages"
  ],
@@ -1426,6 +1435,9 @@
  ],
  "WebApp.TermsOfUse_URL": [
   "https://telegram.org/tos/mini-apps"
+ ],
+ "WebBrowser.ClearCache.Succeed": [
+  "Cache cleared."
  ],
  "Your_card_has_expired": [
   "Your card has expired."
