@@ -83,6 +83,9 @@
  "Appearance.BubbleCornersSetting": [
   "Message Corners"
  ],
+ "Appearance.BubbleMode": [
+  "Bubble Mode"
+ ],
  "Appearance.ColorTheme": [
   "COLOR THEME"
  ],
@@ -146,11 +149,17 @@
  "Appearance.TextSize": [
   "TEXT SIZE"
  ],
+ "Appearance.TextSize.Automatic": [
+  "System"
+ ],
  "Appearance.TextSize.Title": [
   "Text Size"
  ],
  "Appearance.TextSize.UseSystem": [
   "Use System Text Size"
+ ],
+ "Appearance.TextSizeSetting": [
+  "Text Size"
  ],
  "Appearance.ThemeCarouselClassic": [
   "Classic"

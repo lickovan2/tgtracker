@@ -97,6 +97,9 @@
  "CancelResetAccount.Title": [
   "Cancel Account Reset"
  ],
+ "ChangePhoneNumberCode.CodePlaceholder": [
+  "Code"
+ ],
  "ChannelInfo.ScamChannelWarning": [
   "⚠️ Warning: Many users reported this channel as a scam or a fake account. Please be careful, especially if it asks you for money."
  ],
@@ -147,6 +150,9 @@
  ],
  "Common.Edit": [
   "Edit"
+ ],
+ "Common.Next": [
+  "Next"
  ],
  "Common.OK": [
   "OK"
@@ -720,8 +726,14 @@
  "PeerInfo.AddToContacts": [
   "Add to Contacts"
  ],
+ "PeerInfo.AllowedReactions.GroupOptionAllInfo": [
+  "Members of the group can use any emoji as reactions to messages."
+ ],
  "PeerInfo.AllowedReactions.GroupOptionNoInfo": [
   "Members of the group can't add any reactions to messages."
+ ],
+ "PeerInfo.AllowedReactions.GroupOptionSomeInfo": [
+  "Members of the group can use only certain approved emoji as reactions to messages."
  ],
  "PeerInfo.AllowedReactions.OptionAllReactions": [
   "All Reactions"

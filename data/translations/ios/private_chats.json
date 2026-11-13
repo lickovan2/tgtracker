@@ -389,6 +389,9 @@
   "Delete message",
   "Delete %@ messages"
  ],
+ "Chat.DeleteReactionInfo": [
+  "Hold down to delete reaction."
+ ],
  "Chat.EditTagTitle.Placeholder": [
   "Name"
  ],
@@ -1217,6 +1220,9 @@
  "Chat.TagsHeaderPanel.AddTagsSuffix": [
   "to your Saved Messages"
  ],
+ "Chat.TagsHeaderPanel.Unlock": [
+  "Unlock"
+ ],
  "Chat.TapToPlayVideoMessageOnceTooltip": [
   "Tap to set this message to **Play Once**"
  ],
@@ -1336,6 +1342,16 @@
  ],
  "Chat.ViewStyle": [
   "VIEW STYLE"
+ ],
+ "ChatContextMenu.EmojiSet": [
+  "This message contains emoji from [%@ pack]().",
+  "This message contains emoji from [%@ packs]()."
+ ],
+ "ChatContextMenu.EmojiSetSingle": [
+  "This message contains#[%@]() emoji."
+ ],
+ "ChatContextMenu.SingleReactionEmojiSet": [
+  "This reaction is from #[%@]() emoji pack."
  ],
  "ChatContextMenu.TextSelectionTip": [
   "Hold on a word, then move the cursor to select more| text to copy."
@@ -1904,6 +1920,12 @@
  ],
  "Conversation.ForwardTooltip.ManyChats.Many": [
   "Messages sent to **%@** and %@ other chats."
+ ],
+ "Conversation.ForwardTooltip.SavedMessages.Many": [
+  "Messages forwarded to **Saved Messages**."
+ ],
+ "Conversation.ForwardTooltip.SavedMessages.One": [
+  "Message forwarded to **Saved Messages**."
  ],
  "Conversation.ForwardTooltip.TwoChats.Many": [
   "Messages forwarded to **%@** and **%@**."
@@ -4310,6 +4332,9 @@
  ],
  "QuickReply.Title": [
   "Quick Replies"
+ ],
+ "ReportPeer.BanAndReport": [
+  "Ban and Report"
  ],
  "ReportPeer.Report": [
   "Report"

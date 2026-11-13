@@ -530,8 +530,17 @@
  "Channel.AdminLog.AddMembers": [
   "Add Members"
  ],
+ "Channel.AdminLog.AllowedNewMembersToSpeak": [
+  "%1$@ allowed new video chat participants to speak"
+ ],
  "Channel.AdminLog.AllowedReactionsUpdated": [
   "%1$@ updated the list of allowed reactions to: %2$@"
+ ],
+ "Channel.AdminLog.AntiSpamDisabled": [
+  "%1$@ disabled anti-spam"
+ ],
+ "Channel.AdminLog.AntiSpamEnabled": [
+  "%1$@ enabled anti-spam"
  ],
  "Channel.AdminLog.BanEmbedLinks": [
   "Embed Links"
@@ -572,11 +581,23 @@
  "Channel.AdminLog.CanDeleteMessages": [
   "Delete Messages"
  ],
+ "Channel.AdminLog.CanDeleteMessagesOfOthers": [
+  "Delete Messages of Others"
+ ],
+ "Channel.AdminLog.CanDeleteStoriesOfOthers": [
+  "Delete Stories of Others"
+ ],
  "Channel.AdminLog.CanEditMessages": [
   "Edit Messages of Others"
  ],
+ "Channel.AdminLog.CanEditStoriesOfOthers": [
+  "Edit Stories of Others"
+ ],
  "Channel.AdminLog.CanInviteUsers": [
   "Add Users"
+ ],
+ "Channel.AdminLog.CanInviteUsersViaLink": [
+  "Invite Users via Link"
  ],
  "Channel.AdminLog.CanManageCalls": [
   "Manage Video Chats"
@@ -593,6 +614,9 @@
  "Channel.AdminLog.CanPinMessages": [
   "Pin Messages"
  ],
+ "Channel.AdminLog.CanPostStories": [
+  "Post Stories"
+ ],
  "Channel.AdminLog.CanSendMessages": [
   "Post Messages"
  ],
@@ -605,11 +629,26 @@
  "Channel.AdminLog.ChannelChangedNameColor": [
   "%1$@ changed the channel name color to %2$@"
  ],
+ "Channel.AdminLog.ChannelChangedNameColorAndIcon": [
+  "%1$@ changed the name color and link logo to %2$@ %3$@"
+ ],
+ "Channel.AdminLog.ChannelChangedProfileColor": [
+  "%1$@ changed the channel profile color to %2$@"
+ ],
+ "Channel.AdminLog.ChannelChangedProfileColorAndIcon": [
+  "%1$@ changed the channel profile color and logo to %2$@ %3$@"
+ ],
  "Channel.AdminLog.ChannelChangedWallpaper": [
   "%1$@ set a new wallpaper"
  ],
+ "Channel.AdminLog.ChannelRemovedProfileColorAndIcon": [
+  "%1$@ reset the profile color and icon"
+ ],
  "Channel.AdminLog.ChannelRemovedStatus": [
   "%1$@ removed the channel status"
+ ],
+ "Channel.AdminLog.ChannelRemovedWallpaper": [
+  "%1$@ removed the wallpaper"
  ],
  "Channel.AdminLog.ChannelUpdatedStatus": [
   "%1$@ changed the channel status to %2$@"
@@ -665,11 +704,20 @@
  "Channel.AdminLog.InfoPanelTitle": [
   "What Is This?"
  ],
+ "Channel.AdminLog.JoinedViaFolderInviteLink": [
+  "%1$@ joined via folder invite link %2$@"
+ ],
+ "Channel.AdminLog.JoinedViaInviteLink": [
+  "%1$@ joined via invite link %2$@"
+ ],
  "Channel.AdminLog.JoinedViaPublicRequest": [
   "%1$@ joined via public request, approved by %2$@"
  ],
  "Channel.AdminLog.JoinedViaRequest": [
   "%1$@ joined via invite link %2$@, approved by %3$@"
+ ],
+ "Channel.AdminLog.ManageTopics": [
+  "Manage Topics"
  ],
  "Channel.AdminLog.MessageAddedAdminName": [
   "promoted %1$@"
@@ -804,6 +852,9 @@
  "Channel.AdminLog.MessageRankName": [
   "changed custom title for %1$@:%2$@"
  ],
+ "Channel.AdminLog.MessageRankNameNew": [
+  "changed member tag for %1$@:%2$@"
+ ],
  "Channel.AdminLog.MessageRankNew": [
   "changed member tag:%1$@"
  ],
@@ -812,6 +863,12 @@
  ],
  "Channel.AdminLog.MessageRankUsernameNew": [
   "changed member tag for %1$@ (%2$@):%3$@"
+ ],
+ "Channel.AdminLog.MessageRemovedAdminName": [
+  "demoted %1$@"
+ ],
+ "Channel.AdminLog.MessageRemovedAdminNameUsername": [
+  "demoted %1$@ (%2$@)"
  ],
  "Channel.AdminLog.MessageRemovedChannelUsername": [
   "%@ removed channel link"
@@ -842,6 +899,12 @@
  ],
  "Channel.AdminLog.MessageRestrictedUntil": [
   "until %@"
+ ],
+ "Channel.AdminLog.MessageSent": [
+  "%@ sent message:"
+ ],
+ "Channel.AdminLog.MessageToggleAutoTranslateOff": [
+  "%@ disabled auto-translation"
  ],
  "Channel.AdminLog.MessageToggleAutoTranslateOn": [
   "%@ enabled auto-translation"
@@ -888,6 +951,12 @@
  "Channel.AdminLog.MessageUnpinnedExtended": [
   "%@ unpinned message:"
  ],
+ "Channel.AdminLog.MutedNewMembers": [
+  "%1$@ muted new video chat participants"
+ ],
+ "Channel.AdminLog.MutedParticipant": [
+  "%1$@ muted %2$@ in a video chat"
+ ],
  "Channel.AdminLog.PinMessages": [
   "Pin Messages"
  ],
@@ -896,6 +965,9 @@
  ],
  "Channel.AdminLog.ReactionsDisabled": [
   "%1$@ disabled reactions"
+ ],
+ "Channel.AdminLog.ReactionsEnabled": [
+  "%1$@ enabled all reactions"
  ],
  "Channel.AdminLog.RevokedInviteLink": [
   "%1$@ revoked invite link %2$@"
@@ -919,17 +991,62 @@
  "Channel.AdminLog.StartedLiveStream": [
   "%1$@ started a live stream"
  ],
+ "Channel.AdminLog.StartedVoiceChat": [
+  "%1$@ started a video chat"
+ ],
  "Channel.AdminLog.TitleAllEvents": [
   "All Actions"
  ],
  "Channel.AdminLog.TitleSelectedEvents": [
   "Selected Actions"
  ],
+ "Channel.AdminLog.TopicChangedIcon": [
+  "%1$@ changed topic %2$@ icon to %3$@"
+ ],
+ "Channel.AdminLog.TopicClosed": [
+  "%1$@ closed topic %2$@"
+ ],
+ "Channel.AdminLog.TopicCreated": [
+  "%1$@ created topic %2$@"
+ ],
+ "Channel.AdminLog.TopicDeleted": [
+  "%1$@ deleted topic %2$@"
+ ],
+ "Channel.AdminLog.TopicHidden": [
+  "%1$@ hid topic %2$@"
+ ],
+ "Channel.AdminLog.TopicPinned": [
+  "%1$@ pinned topic %2$@"
+ ],
+ "Channel.AdminLog.TopicRemovedIcon": [
+  "%1$@ removed topic %2$@ icon"
+ ],
+ "Channel.AdminLog.TopicRenamed": [
+  "%1$@ renamed topic %2$@ to %3$@"
+ ],
  "Channel.AdminLog.TopicRenamedWithIcon": [
   "%1$@ renamed topic %2$@ to %3$@ and changed icon to %4$@"
  ],
  "Channel.AdminLog.TopicRenamedWithRemovedIcon": [
   "%1$@ renamed topic %2$@ to %3$@ and removed icon"
+ ],
+ "Channel.AdminLog.TopicReopened": [
+  "%1$@ reopened topic %2$@"
+ ],
+ "Channel.AdminLog.TopicUnhidden": [
+  "%1$@ unhid topic %2$@"
+ ],
+ "Channel.AdminLog.TopicUnpinned": [
+  "%1$@ unpinned topic %2$@"
+ ],
+ "Channel.AdminLog.TopicsDisabled": [
+  "%1$@ disabled topics"
+ ],
+ "Channel.AdminLog.TopicsEnabled": [
+  "%1$@ enabled topics"
+ ],
+ "Channel.AdminLog.UnmutedMutedParticipant": [
+  "%1$@ unmuted %2$@ in a video chat"
  ],
  "Channel.AdminLog.UpdatedParticipantVolume": [
   "%1$@ changed %2$@ volume to %3$@"
@@ -1633,8 +1750,14 @@
  "Channel.Username.InvalidCharacters": [
   "Sorry, this name is invalid."
  ],
+ "Channel.Username.InvalidEndsWithUnderscore": [
+  "Channel names can't end with an underscore."
+ ],
  "Channel.Username.InvalidStartsWithNumber": [
   "Public links can't start with a number."
+ ],
+ "Channel.Username.InvalidStartsWithUnderscore": [
+  "Channel names can't start with an underscore."
  ],
  "Channel.Username.InvalidTaken": [
   "Sorry, this link is already taken."
@@ -1874,6 +1997,9 @@
  ],
  "ChannelInfo.InviteLink.RevokeAlert.Text": [
   "Are you sure you want to revoke this link? Once you do, no one will be able to join the channel using it."
+ ],
+ "ChannelInfo.ScamChannelWarning": [
+  "⚠️ Warning: Many users reported this channel as a scam or a fake account. Please be careful, especially if it asks you for money."
  ],
  "ChannelInfo.ScheduleLiveStream": [
   "Schedule Live Stream"
@@ -4504,8 +4630,14 @@
  "Group.Username.CreatePublicLinkHelp": [
   "People can share this link with others and find your group using Telegram search."
  ],
+ "Group.Username.InvalidEndsWithUnderscore": [
+  "Group names can't end with an underscore."
+ ],
  "Group.Username.InvalidStartsWithNumber": [
   "Public links can't start with a number."
+ ],
+ "Group.Username.InvalidStartsWithUnderscore": [
+  "Group names can't start with an underscore."
  ],
  "Group.Username.InvalidTooShort": [
   "Group names must have at least 5 characters."
@@ -4785,6 +4917,9 @@
  ],
  "GroupInfo.Permissions.Title": [
   "Permissions"
+ ],
+ "GroupInfo.ScamGroupWarning": [
+  "⚠️ Warning: Many users reported this group as a scam or a fake account. Please be careful, especially if it asks you for money."
  ],
  "GroupInfo.SetGroupPhoto": [
   "Set Group Photo"
@@ -5531,6 +5666,10 @@
  "MessageTimer.Months": [
   "%@ month",
   "%@ months"
+ ],
+ "MessageTimer.Seconds": [
+  "%@ second",
+  "%@ seconds"
  ],
  "MessageTimer.ShortHours": [
   "%@h",
@@ -6580,6 +6719,9 @@
  ],
  "Premium.Group.BoostByGiveawayDescription": [
   "Get more boosts and members for your group by giving away prizes. [Get boosts >]()"
+ ],
+ "Premium.IncreaseLimit": [
+  "Increase Limit"
  ],
  "Premium.MaxFavedStickersFinalText": [
   "An older sticker was replaced with this one."

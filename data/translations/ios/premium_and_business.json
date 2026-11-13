@@ -1,4 +1,10 @@
 {
+ "AvatarEditor.PremiumNeeded.Background": [
+  "Subscribe to Telegram Premium to use this background."
+ ],
+ "AvatarEditor.PremiumNeeded.Sticker": [
+  "Subscribe to Telegram Premium to choose this sticker."
+ ],
  "BoostGift.AddChannelOrGroup": [
   "Add Channel or Group"
  ],
@@ -1081,6 +1087,9 @@
  ],
  "Group.Username.RemoveExistingUsernamesFinalInfo": [
   "You have reserved too many public links. Try revoking the link from an older group or channel, or create a private one instead."
+ ],
+ "Group.Username.RemoveExistingUsernamesOrExtendInfo": [
+  "You have reserved too many public links. Try revoking a link from an older group or channel, or subscribe to **Telegram Premium** to double the limit to **%@** public links."
  ],
  "GroupBoost.AdditionalFeaturesText": [
   "By gaining **boosts**, your group reaches higher levels and unlocks more features."

@@ -5890,6 +5890,9 @@
  "Map.SendThisLocation": [
   "Send This Location"
  ],
+ "Map.SendThisPlace": [
+  "Send This Place"
+ ],
  "Map.SetThisLocation": [
   "Set This Location"
  ],

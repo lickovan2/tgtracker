@@ -98,9 +98,6 @@
  "Appearance.BubbleCorners.AdjustAdjacent": [
   "Adjust Adjacent Corners"
  ],
- "Appearance.BubbleMode": [
-  "Bubble Mode"
- ],
  "Appearance.CreateThemeInfo": [
   "A new theme template has been created from your current theme and was sent to your Saved Messages."
  ],
@@ -131,17 +128,11 @@
  "Appearance.TextSize.Apply": [
   "Set"
  ],
- "Appearance.TextSize.Automatic": [
-  "System"
- ],
  "Appearance.TextSize.FontDefault": [
   "Default"
  ],
  "Appearance.TextSize.FontSerif": [
   "New York"
- ],
- "Appearance.TextSizeSetting": [
-  "Text Size"
  ],
  "Appearance.ThemeCarouselNeutral": [
   "Neutral"
@@ -355,54 +346,6 @@
  ],
  "BotVerification.ChooseChat": [
   "Choose Chat to Verify"
- ],
- "BotVerification.Remove.Bot.Text": [
-  "This bot is already verified by you. Do you want to remove verification?"
- ],
- "BotVerification.Remove.Channel.Text": [
-  "This channel is already verified by you. Do you want to remove verification?"
- ],
- "BotVerification.Remove.Group.Text": [
-  "This group is already verified by you. Do you want to remove verification?"
- ],
- "BotVerification.Remove.Remove": [
-  "Remove"
- ],
- "BotVerification.Remove.Title": [
-  "Remove Verification"
- ],
- "BotVerification.Remove.User.Text": [
-  "This user is already verified by you. Do you want to remove verification?"
- ],
- "BotVerification.Verify.Bot.Text": [
-  "Do you want to verify this bot with your verification mark and description?"
- ],
- "BotVerification.Verify.Bot.Title": [
-  "Verify Bot"
- ],
- "BotVerification.Verify.Channel.Text": [
-  "Do you want to verify this channel with your verification mark and description?"
- ],
- "BotVerification.Verify.Channel.Title": [
-  "Verify Channel"
- ],
- "BotVerification.Verify.Group.Text": [
-  "Do you want to verify this group with your verification mark and description?"
- ],
- "BotVerification.Verify.Group.Title": [
-  "Verify Group"
- ],
- "BotVerification.Verify.Placeholder": [
-  "This page is verified by %@"
- ],
- "BotVerification.Verify.User.Text": [
-  "Do you want to verify this user with your verification mark and description?"
- ],
- "BotVerification.Verify.User.Title": [
-  "Verify User"
- ],
- "BotVerification.Verify.Verify": [
-  "Verify"
  ],
  "Business.Chatbots": [
   "Coming Later"
@@ -657,38 +600,11 @@
  "Channel.AddedToNews": [
   "Added to News"
  ],
- "Channel.AdminLog.AntiSpamDisabled": [
-  "%1$@ disabled anti-spam"
- ],
- "Channel.AdminLog.AntiSpamEnabled": [
-  "%1$@ enabled anti-spam"
- ],
- "Channel.AdminLog.CanDeleteMessagesOfOthers": [
-  "Delete Messages of Others"
- ],
- "Channel.AdminLog.CanDeleteStoriesOfOthers": [
-  "Delete Stories of Others"
- ],
  "Channel.AdminLog.CanEditMessagesOfOthers": [
   "Edit Messages of Others"
  ],
- "Channel.AdminLog.CanEditStoriesOfOthers": [
-  "Edit Stories of Others"
- ],
- "Channel.AdminLog.CanPostStories": [
-  "Post Stories"
- ],
- "Channel.AdminLog.ChannelChangedNameColorAndIcon": [
-  "%1$@ changed the name color and link logo to %2$@ %3$@"
- ],
  "Channel.AdminLog.ChannelChangedNameIcon": [
   "%1$@ changed the channel link logo to %2$@"
- ],
- "Channel.AdminLog.ChannelChangedProfileColor": [
-  "%1$@ changed the channel profile color to %2$@"
- ],
- "Channel.AdminLog.ChannelChangedProfileColorAndIcon": [
-  "%1$@ changed the channel profile color and logo to %2$@ %3$@"
  ],
  "Channel.AdminLog.ChannelChangedProfileIcon": [
   "%1$@ changed the profile logo to %2$@"
@@ -699,29 +615,14 @@
  "Channel.AdminLog.ChannelRemovedProfileColor": [
   "%1$@ reset the profile color"
  ],
- "Channel.AdminLog.ChannelRemovedProfileColorAndIcon": [
-  "%1$@ reset the profile color and icon"
- ],
  "Channel.AdminLog.ChannelRemovedProfileIcon": [
   "%1$@ removed the profile icon"
- ],
- "Channel.AdminLog.ChannelRemovedWallpaper": [
-  "%1$@ removed the wallpaper"
  ],
  "Channel.AdminLog.CreatedInviteLink": [
   "%1$@ created invite link %2$@"
  ],
  "Channel.AdminLog.EmptyText": [
   "No notable actions taken by the members and admins of this channel in the last 48 hours."
- ],
- "Channel.AdminLog.JoinedViaFolderInviteLink": [
-  "%1$@ joined via folder invite link %2$@"
- ],
- "Channel.AdminLog.JoinedViaInviteLink": [
-  "%1$@ joined via invite link %2$@"
- ],
- "Channel.AdminLog.ManageTopics": [
-  "Manage Topics"
  ],
  "Channel.AdminLog.MessageChangedAutoremoveTimeoutRemove": [
   "%1$@ disabled auto-delete timer"
@@ -731,63 +632,6 @@
  ],
  "Channel.AdminLog.MessageChangedThemeSet": [
   "%1$@ changed the chat theme to %2$@"
- ],
- "Channel.AdminLog.MessageRankNameNew": [
-  "changed member tag for %1$@:%2$@"
- ],
- "Channel.AdminLog.MessageRemovedAdminName": [
-  "demoted %1$@"
- ],
- "Channel.AdminLog.MessageRemovedAdminNameUsername": [
-  "demoted %1$@ (%2$@)"
- ],
- "Channel.AdminLog.MessageSent": [
-  "%@ sent message:"
- ],
- "Channel.AdminLog.MessageToggleAutoTranslateOff": [
-  "%@ disabled auto-translation"
- ],
- "Channel.AdminLog.ReactionsEnabled": [
-  "%1$@ enabled all reactions"
- ],
- "Channel.AdminLog.TopicChangedIcon": [
-  "%1$@ changed topic %2$@ icon to %3$@"
- ],
- "Channel.AdminLog.TopicClosed": [
-  "%1$@ closed topic %2$@"
- ],
- "Channel.AdminLog.TopicCreated": [
-  "%1$@ created topic %2$@"
- ],
- "Channel.AdminLog.TopicDeleted": [
-  "%1$@ deleted topic %2$@"
- ],
- "Channel.AdminLog.TopicHidden": [
-  "%1$@ hid topic %2$@"
- ],
- "Channel.AdminLog.TopicPinned": [
-  "%1$@ pinned topic %2$@"
- ],
- "Channel.AdminLog.TopicRemovedIcon": [
-  "%1$@ removed topic %2$@ icon"
- ],
- "Channel.AdminLog.TopicRenamed": [
-  "%1$@ renamed topic %2$@ to %3$@"
- ],
- "Channel.AdminLog.TopicReopened": [
-  "%1$@ reopened topic %2$@"
- ],
- "Channel.AdminLog.TopicUnhidden": [
-  "%1$@ unhid topic %2$@"
- ],
- "Channel.AdminLog.TopicUnpinned": [
-  "%1$@ unpinned topic %2$@"
- ],
- "Channel.AdminLog.TopicsDisabled": [
-  "%1$@ disabled topics"
- ],
- "Channel.AdminLog.TopicsEnabled": [
-  "%1$@ enabled topics"
  ],
  "Channel.AdminLogFilter.Title": [
   "Filter"
@@ -887,12 +731,6 @@
  ],
  "Channel.TooMuchBots": [
   "There are too many bots in this group. Please remove some of the bots you're not using first."
- ],
- "Channel.Username.InvalidEndsWithUnderscore": [
-  "Channel names can't end with an underscore."
- ],
- "Channel.Username.InvalidStartsWithUnderscore": [
-  "Channel names can't start with an underscore."
  ],
  "Channel.Username.RevokeExistingUsernamesInfo": [
   "You can revoke the link from one of your older groups or channels, or create a private channel instead."
@@ -1115,21 +953,11 @@
  "Chat.SlowmodeAttachmentLimitReached": [
   "Slow Mode is enabled. You can't select more items."
  ],
- "Chat.TagsHeaderPanel.Unlock": [
-  "Unlock"
- ],
  "Chat.ToastMessagesTagged.Text": [
   "Messages tagged with %@"
  ],
  "Chat.VideoProcessingInfo": [
   "The video will be published once converted and optimized."
- ],
- "ChatContextMenu.EmojiSet": [
-  "This message contains emoji from [%@ pack]().",
-  "This message contains emoji from [%@ packs]()."
- ],
- "ChatContextMenu.EmojiSetSingle": [
-  "This message contains#[%@]() emoji."
  ],
  "ChatContextMenu.ReactionEmojiSet": [
   "This message contains reactions from [%@ pack]().",
@@ -2098,17 +1926,8 @@
  "Group.Setup.PublicLink": [
   "PUBLIC LINK"
  ],
- "Group.Username.InvalidEndsWithUnderscore": [
-  "Group names can't end with an underscore."
- ],
- "Group.Username.InvalidStartsWithUnderscore": [
-  "Group names can't start with an underscore."
- ],
  "Group.Username.RemoveExistingUsernamesNoPremiumInfo": [
   "You have reserved too many public links. Try revoking the link from an older group or channel. We are working to let you increase this limit in the future."
- ],
- "Group.Username.RemoveExistingUsernamesOrExtendInfo": [
-  "You have reserved too many public links. Try revoking a link from an older group or channel, or subscribe to **Telegram Premium** to double the limit to **%@** public links."
  ],
  "Group.Username.RevokeExistingUsernamesInfo": [
   "You can revoke the link from one of your older groups or channels, or create a private group instead."
@@ -2398,12 +2217,6 @@
  "Login.EnterCodeNewEmailTitle": [
   "Check Your New Email"
  ],
- "Login.EnterPhraseText": [
-  "We've sent you an SMS with a secret phrase to your phone **%@**."
- ],
- "Login.EnterWordText": [
-  "We've sent you an SMS with a secret word to your phone **%@**."
- ],
  "Login.ErrorAppOutdated": [
   "Please update Telegram to the latest version to log in."
  ],
@@ -2475,12 +2288,6 @@
  "Login.PhonePaidEmailSubject": [
   "Payment Issue"
  ],
- "Login.ReturnToPhrase": [
-  "Return to entering the phrase"
- ],
- "Login.ReturnToWord": [
-  "Return to entering the word"
- ],
  "Login.SendCodeAsSMS": [
   "Send the code as an SMS"
  ],
@@ -2546,9 +2353,6 @@
  ],
  "Map.SearchNoResultsDescription": [
   "There were no results for \"%@\".Try a new search."
- ],
- "Map.SendThisPlace": [
-  "Send This Place"
  ],
  "Map.Work": [
   "Work"
@@ -3947,9 +3751,6 @@
  ],
  "Stars.Transfer.Terms_URL": [
   "https://telegram.org/tos/stars"
- ],
- "Stars.Transfer.UnlockBotInfo": [
-  "Do you want to unlock %1$@ from **%2$@** for **%3$@**?"
  ],
  "StarsTransaction.Commission": [
   "Commission"

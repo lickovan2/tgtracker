@@ -200,6 +200,9 @@
  "Login.EnterPhrasePlaceholder": [
   "Enter Phrase from SMS"
  ],
+ "Login.EnterPhraseText": [
+  "We've sent you an SMS with a secret phrase to your phone **%@**."
+ ],
  "Login.EnterPhraseTitle": [
   "Enter Phrase"
  ],
@@ -317,6 +320,12 @@
  "Login.ReturnToCode": [
   "Return to entering the code"
  ],
+ "Login.ReturnToPhrase": [
+  "Return to entering the phrase"
+ ],
+ "Login.ReturnToWord": [
+  "Return to entering the word"
+ ],
  "Login.SelectCountry": [
   "Country"
  ],
@@ -346,6 +355,9 @@
  ],
  "Login.TermsOfService.ProceedBot": [
   "Agree and proceed to %@."
+ ],
+ "Login.TermsOfServiceAgree": [
+  "Agree & Continue"
  ],
  "Login.TermsOfServiceDecline": [
   "Decline"

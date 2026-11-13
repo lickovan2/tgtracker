@@ -1871,6 +1871,10 @@
   "%@ month",
   "%@ months"
  ],
+ "MessageTimer.ShortMinutes": [
+  "%@m",
+  "%@m"
+ ],
  "Monetization.AdRevenueTitle": [
   "AD REWARDS"
  ],
@@ -2138,6 +2142,64 @@
  "SendStarReactions.Balance": [
   "Balance"
  ],
+ "SendStarReactions.LiveStreamActionButton": [
+  "Add  # %@"
+ ],
+ "SendStarReactions.LiveStreamMessageText": [
+  "Highlight and pin a messageby adding Stars for **%@**"
+ ],
+ "SendStarReactions.LiveStreamMessageTitle": [
+  "Highlight and Pin"
+ ],
+ "SendStarReactions.LiveStreamPerk1Title": [
+  "pin in chat"
+ ],
+ "SendStarReactions.LiveStreamPerk2Title": [
+  "characters"
+ ],
+ "SendStarReactions.LiveStreamPerk3Title": [
+  "emoji"
+ ],
+ "SendStarReactions.LiveStreamReactionText": [
+  "Highlight and pin a messageby adding Stars for **%@**"
+ ],
+ "SendStarReactions.OwnLiveStreamCloseButton": [
+  "Close"
+ ],
+ "SendStarReactions.OwnLiveStreamInfoText": [
+  "You can't send Star Reactions to your own Live Story."
+ ],
+ "SendStarReactions.SectionTop": [
+  "Top Senders"
+ ],
+ "SendStarReactions.SendButtonTitle": [
+  "Send  # %@"
+ ],
+ "SendStarReactions.ShowMyselfInTop": [
+  "Show me in Top Senders"
+ ],
+ "SendStarReactions.SliderTop": [
+  "TOP"
+ ],
+ "SendStarReactions.SubtitleFrom": [
+  "from %@"
+ ],
+ "SendStarReactions.TermsOfServiceFooter": [
+  "By sending Stars you agree to the [Terms of Service](https://telegram.org/tos/stars)"
+ ],
+ "SendStarReactions.TextGeneric": [
+  "Choose how many Stars you want to send to **%@** to support this post."
+ ],
+ "SendStarReactions.TextSentStars": [
+  "You sent **1** star to support this post.",
+  "You sent **%d** stars to support this post."
+ ],
+ "SendStarReactions.Title": [
+  "React with Stars"
+ ],
+ "SendStarReactions.UserLabelAnonymous": [
+  "Anonymous"
+ ],
  "Settings.Money": [
   "Money"
  ],
@@ -2203,6 +2265,9 @@
  ],
  "Stars.Intro.Balance": [
   "Balance"
+ ],
+ "Stars.Intro.Buy": [
+  "Buy More Stars"
  ],
  "Stars.Intro.BuyShort": [
   "Top Up"
@@ -2745,8 +2810,15 @@
   "%@ Star",
   "%@ Stars"
  ],
+ "Stars.Transfer.MediaAnd": [
+  "%1$@ and %2$@"
+ ],
  "Stars.Transfer.Pay": [
   "Confirm and Pay"
+ ],
+ "Stars.Transfer.Photos": [
+  "%@ photo",
+  "%@ photos"
  ],
  "Stars.Transfer.Purchased.Stars": [
   "%@ Star",
@@ -2757,6 +2829,12 @@
  ],
  "Stars.Transfer.PurchasedTitle": [
   "Purchase Completed"
+ ],
+ "Stars.Transfer.SinglePhoto": [
+  "photo"
+ ],
+ "Stars.Transfer.SingleVideo": [
+  "video"
  ],
  "Stars.Transfer.Subscribe.Channel.Title": [
   "Subscribe"
@@ -2785,8 +2863,18 @@
  "Stars.Transfer.Unavailable": [
   "Sorry, purchasing Stars is not available in your country."
  ],
+ "Stars.Transfer.UnlockBotInfo": [
+  "Do you want to unlock %1$@ from **%2$@** for **%3$@**?"
+ ],
+ "Stars.Transfer.UnlockInfo": [
+  "Do you want to unlock %1$@ in **%2$@** for **%3$@**?"
+ ],
  "Stars.Transfer.UnlockedText": [
   "You unlocked media for **%1$@**."
+ ],
+ "Stars.Transfer.Videos": [
+  "%@ video",
+  "%@ videos"
  ],
  "Stars.Withdraw.AmountTitle": [
   "ENTER AMOUNT TO WITHDRAW"
