@@ -54,6 +54,9 @@
  "Birthday.FloodError": [
   "Sorry, you can’t change your birthday so often."
  ],
+ "BotPreviews.MenuDeleteLanguage": [
+  "Delete %@"
+ ],
  "BotPreviews.MenuReorder": [
   "Reorder"
  ],

@@ -77,6 +77,9 @@
  "Wallet.Transaction.NetworkFeesTitle": [
   "Network fees"
  ],
+ "Wallet.Transaction.WhatIsGram": [
+  "What is Gram?"
+ ],
  "Wallet.Transfer.CollectibleTopUpText": [
   "You need at least 0.1 Grams in your wallet to transfer an NFT. Top up your balance and try again."
  ],
@@ -115,5 +118,8 @@
  ],
  "Wallet.Transfer.TopUpText": [
   "There are not enough Grams in your wallet for this payment and its network fee. Top up your balance and try again."
+ ],
+ "Wallet.ViewInExplorer": [
+  "View in Explorer"
  ]
 }

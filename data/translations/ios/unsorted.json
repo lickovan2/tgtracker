@@ -1293,9 +1293,6 @@
  "Chat.CreateBotLink": [
   "Create Bot"
  ],
- "Chat.CreateTopic": [
-  "New Topic"
- ],
  "Chat.DeleteMessagesConfirmation": [
   "Delete message",
   "Delete %@ messages"
@@ -2011,9 +2008,6 @@
  "ChatList.Context.AddToContacts": [
   "Add to Contacts"
  ],
- "ChatList.Context.Back": [
-  "Back"
- ],
  "ChatList.Context.ReopenTopic": [
   "Reopen"
  ],
@@ -2436,9 +2430,6 @@
  "Conversation.ContextMenuAddFactCheck": [
   "Add Fact Check"
  ],
- "Conversation.ContextMenuBlock": [
-  "Block User"
- ],
  "Conversation.ContextMenuBuyGift": [
   "Buy Yourself a Gift"
  ],
@@ -2634,9 +2625,6 @@
  ],
  "Conversation.PressVolumeButtonForSound": [
   "Press volume buttonto unmute the video"
- ],
- "Conversation.ReadAllPollVotes": [
-  "Read All Votes"
  ],
  "Conversation.ReadMore": [
   "Read More"
@@ -2910,9 +2898,6 @@
  ],
  "CreateTopic.CreateTitle": [
   "New Topic"
- ],
- "CreateTopic.EditTitle": [
-  "Edit Topic"
  ],
  "CreateTopic.EnterTopicTitle": [
   "ENTER TOPIC NAME"
@@ -4687,9 +4672,6 @@
  ],
  "MediaEditor.AddGeneratedImage": [
   "Image"
- ],
- "MediaEditor.AddGif": [
-  "Add GIF"
  ],
  "MediaEditor.AddLocation": [
   "Add Location"
@@ -7016,15 +6998,6 @@
  "RichText.ButtonSectionAction": [
   "ACTION"
  ],
- "RichText.MenuButtonInline": [
-  "Inline"
- ],
- "RichText.MenuFormulaInline": [
-  "Inline"
- ],
- "RichText.MenuFormulaStandalone": [
-  "Standalone"
- ],
  "RichText.PlaceholderCodeLanguage": [
   "Language"
  ],
@@ -9331,7 +9304,7 @@
   "Removed from sale"
  ],
  "Wallet.Transaction.CollectibleRepriced": [
-  "Repriced from %1$@ to %2$@"
+  "Repriced to %@"
  ],
  "Wallet.Transaction.CollectibleSent": [
   "Sent"

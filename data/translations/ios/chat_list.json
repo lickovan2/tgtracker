@@ -123,6 +123,9 @@
  "ChatList.Context.AddToFolder": [
   "Add to Folder"
  ],
+ "ChatList.Context.Back": [
+  "Back"
+ ],
  "ChatList.Context.Delete": [
   "Delete"
  ],
@@ -1046,6 +1049,15 @@
  ],
  "RequestPeer.SelectionConfirmationSend": [
   "Send"
+ ],
+ "RichText.MenuButtonInline": [
+  "Inline"
+ ],
+ "RichText.MenuButtonRow": [
+  "Button Row"
+ ],
+ "Settings.Context.Logout": [
+  "Log Out"
  ],
  "State.Connecting": [
   "Connecting..."

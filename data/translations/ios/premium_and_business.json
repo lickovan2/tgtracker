@@ -26,6 +26,9 @@
  "Business.Links.ErrorTooManyLinks": [
   "Sorry, you can't create more links."
  ],
+ "Business.Links.ItemActionShare": [
+  "Share"
+ ],
  "BusinessHoursSetup.ErrorIntersectingDays.ResetAction": [
   "Reset"
  ],
@@ -119,6 +122,9 @@
  ],
  "Common.Close": [
   "Close"
+ ],
+ "Common.Delete": [
+  "Delete"
  ],
  "Common.OK": [
   "OK"

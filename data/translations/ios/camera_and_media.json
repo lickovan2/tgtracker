@@ -100,6 +100,9 @@
  "Conversation.ContextMenuCancelSending": [
   "Cancel Sending"
  ],
+ "Conversation.ContextMenuDelete": [
+  "Delete"
+ ],
  "Conversation.Dice": [
   "Send a 🎲 emoji to any chat to get a random number from Telegram."
  ],
@@ -247,6 +250,9 @@
  "Media.ShareVideo": [
   "1 Video",
   "All %@ Videos"
+ ],
+ "MediaEditor.AddGif": [
+  "Add GIF"
  ],
  "MediaPicker.AddCaption": [
   "Add a caption..."

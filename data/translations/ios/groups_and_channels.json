@@ -2833,6 +2833,9 @@
  "Conversation.ScheduledVoiceChatStartsTomorrowShort": [
   "Starts tomorrow at %@"
  ],
+ "Conversation.Search": [
+  "Search"
+ ],
  "Conversation.SearchByName.Placeholder": [
   "Search Members"
  ],
@@ -2966,6 +2969,9 @@
  ],
  "CreatePoll.DiscardPoll": [
   "Discard Poll?"
+ ],
+ "CreateTopic.EditTitle": [
+  "Edit Topic"
  ],
  "DialogList.AdNoticeAlert": [
   "This channel is shown by your proxy server. To remove this channel from your chat list, disable the proxy in Telegram Settings > Data and Storage."

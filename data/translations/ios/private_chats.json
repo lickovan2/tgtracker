@@ -208,6 +208,9 @@
  "Chat.ContextMenuTagsTitle": [
   "Tag the message with an emoji for quick access later"
  ],
+ "Chat.CreateTopic": [
+  "New Topic"
+ ],
  "Chat.EditTagTitle.Placeholder": [
   "Name"
  ],
@@ -522,6 +525,9 @@
  "ChatList.ClearSavedMessagesConfirmation": [
   "Are you sure you want to permanently delete all your Saved Messages?"
  ],
+ "ChatList.Context.Back": [
+  "Back"
+ ],
  "ChatList.Context.Delete": [
   "Delete"
  ],
@@ -625,6 +631,12 @@
  "Conversation.ContactMessage": [
   "MESSAGE"
  ],
+ "Conversation.ContextMenuBlock": [
+  "Block User"
+ ],
+ "Conversation.ContextMenuOpenProfile": [
+  "Open Profile"
+ ],
  "Conversation.ContextMenuReply": [
   "Reply"
  ],
@@ -723,6 +735,9 @@
  ],
  "Conversation.PinOlderMessageAlertTitle": [
   "Pin Message"
+ ],
+ "Conversation.ReadAllPollVotes": [
+  "Read All Votes"
  ],
  "Conversation.Report": [
   "Report Spam"
@@ -1733,6 +1748,12 @@
  ],
  "ReportSpam.DeleteThisChat": [
   "Delete this Chat"
+ ],
+ "RichText.MenuFormulaInline": [
+  "Inline"
+ ],
+ "RichText.MenuFormulaStandalone": [
+  "Standalone"
  ],
  "SavedMessages.OpenChannel": [
   "Open Channel"

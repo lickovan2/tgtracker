@@ -15907,8 +15907,8 @@
   "This device also holds the keys of %d other Gram wallets. Continuing destroys them, and those wallets can be restored only if their secret phrases were written down."
  ],
  "Wallet.Logout.Rotating": [
-  "A wallet key change on this device is not confirmed yet. Its replacement key is stored only here and Telegram has no backup of it. Continuing destroys it — if the change goes through, only the replacement recovery phrase can restore the wallet.",
-  "%d wallet key changes on this device are not confirmed yet. Their replacement keys are stored only here and Telegram has no backup of them. Continuing destroys them — if a change goes through, only its replacement recovery phrase can restore that wallet."
+  "A wallet key change on this device is not confirmed yet. Its replacement key is stored only here and Telegram has no backup of it. Continuing destroys it — if the change goes through, only the replacement secret phrase can restore the wallet.",
+  "%d wallet key changes on this device are not confirmed yet. Their replacement keys are stored only here and Telegram has no backup of them. Continuing destroys them — if a change goes through, only its replacement secret phrase can restore that wallet."
  ],
  "Wallet.Logout.Unknown": [
   "If this device holds any Gram wallet keys, continuing destroys them. They can be restored only from a Telegram backup or your Secret Phrase."
@@ -16025,7 +16025,7 @@
   "These words are not a valid secret phrase."
  ],
  "Wallet.Restore.Outdated": [
-  "These words are an old recovery phrase of this wallet. Enter the new phrase you got when its key was last updated."
+  "These words are an old secret phrase of this wallet. Enter the new phrase you got when its key was last updated."
  ],
  "Wallet.Restore.Suggestions": [
   "Suggested words"
