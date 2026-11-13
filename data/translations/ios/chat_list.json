@@ -616,6 +616,21 @@
  "Contacts.TabTitle": [
   "Contacts"
  ],
+ "Conversation.ContextMenuCopyLink": [
+  "Copy Link"
+ ],
+ "Conversation.ContextMenuDelete": [
+  "Delete"
+ ],
+ "Conversation.ContextMenuForward": [
+  "Forward"
+ ],
+ "Conversation.ContextMenuReply": [
+  "Reply"
+ ],
+ "Conversation.ContextMenuReport": [
+  "Report"
+ ],
  "Conversation.ContextMenuSelect": [
   "Select"
  ],
@@ -652,6 +667,12 @@
  ],
  "Conversation.ReportSpamAndLeave": [
   "Report Spam and Leave"
+ ],
+ "Conversation.SaveGif": [
+  "Add to GIFs"
+ ],
+ "Conversation.SaveToFiles": [
+  "Save to Files"
  ],
  "Conversation.Unarchive": [
   "Unarchive"
@@ -901,6 +922,9 @@
  ],
  "FrozenAccount.Violation.Title": [
   "Violation of Terms"
+ ],
+ "Gallery.SaveVideo": [
+  "Save Video"
  ],
  "GlobalAutodeleteSettings.ApplyChatsPlaceholder": [
   "Select chats to apply a %@ self-destruct timer"

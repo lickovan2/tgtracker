@@ -2689,6 +2689,9 @@
  "Conversation.ContextMenuCopyLink": [
   "Copy Link"
  ],
+ "Conversation.ContextMenuDelete": [
+  "Delete"
+ ],
  "Conversation.ContextMenuForward": [
   "Forward"
  ],
@@ -2805,11 +2808,29 @@
   "Forward %@ Message",
   "Forward %@ Messages"
  ],
+ "Conversation.ForwardOptions.ForwardTitleSingle": [
+  "Forward Message"
+ ],
+ "Conversation.ForwardOptions.GroupMessageForwardVisible": [
+  "Recipients will see that it was forwarded"
+ ],
  "Conversation.ForwardOptions.GroupMessagesForwardVisible": [
   "Recipients will see they were forwarded"
  ],
+ "Conversation.ForwardOptions.HideCaption": [
+  "Hide Captions"
+ ],
+ "Conversation.ForwardOptions.HideSendersName": [
+  "Hide Sender Name"
+ ],
  "Conversation.ForwardOptions.HideSendersNames": [
   "Hide Sender Names"
+ ],
+ "Conversation.ForwardOptions.UserMessageForwardVisible": [
+  "%@ will see that it was forwarded"
+ ],
+ "Conversation.ForwardOptions.UserMessagesForwardVisible": [
+  "%@ will see they were forwarded"
  ],
  "Conversation.ForwardOptionsCancel": [
   "Do Not Forward"
@@ -4614,6 +4635,10 @@
  ],
  "MessagePoll.SubmitVote": [
   "Vote"
+ ],
+ "MessagePoll.VotedCount": [
+  "1 vote",
+  "%@ votes"
  ],
  "MessageTimer.Custom": [
   "Custom"

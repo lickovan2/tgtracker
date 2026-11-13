@@ -100,6 +100,9 @@
  "Conversation.ContextMenuCancelSending": [
   "Cancel Sending"
  ],
+ "Conversation.ContextMenuCopyLink": [
+  "Copy Link"
+ ],
  "Conversation.ContextMenuDelete": [
   "Delete"
  ],
@@ -313,6 +316,10 @@
  ],
  "MessagePoll.NoVotes": [
   "No votes"
+ ],
+ "MessagePoll.ViewVote": [
+  "%@ vote >",
+  "%@ votes >"
  ],
  "MessagePoll.VotedCount": [
   "1 vote",

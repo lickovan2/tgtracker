@@ -374,9 +374,6 @@
  "Bot.AcceptTermsInfo": [
   "I accept the [Terms of Service]() of **%1$@**"
  ],
- "Bot.Active": [
-  "bot is active now"
- ],
  "Bot.AddToChannel.Title": [
   "Add to Channel"
  ],
@@ -412,12 +409,6 @@
  ],
  "Bot.AddToGroup.Title": [
   "Add to Group"
- ],
- "Bot.Inactive": [
-  "bot is not active"
- ],
- "Bot.Slow": [
-  "bot replies slowly"
  ],
  "BotPreview.DeleteConfirmation.Title": [
   "Delete Preview?"
@@ -1395,18 +1386,6 @@
  "Chat.Poll.Restriction.Subscribers.TimeLimit": [
   "Only subscribers who joined more than **24 hours** ago can vote."
  ],
- "Chat.PollOptionAddedTimestamp.Date": [
-  "Added by %1$@ %2$@"
- ],
- "Chat.PollOptionAddedTimestampYou.Date": [
-  "Added by you %1$@"
- ],
- "Chat.PollOptionAddedTimestampYou.TodayAt": [
-  "Added by you today at %1$@"
- ],
- "Chat.PollOptionAddedTimestampYou.YesterdayAt": [
-  "Added by you yesterday at %1$@"
- ],
  "Chat.PostApproval.DetailStatus.PostedPaid": [
   "**%1$@** received **%2$@** for publishing this post"
  ],
@@ -1622,9 +1601,6 @@
  ],
  "Chat.Todo.PremiumRequired": [
   "Only [Telegram Premium]() subscribers can mark tasks as done."
- ],
- "Chat.TodoItemCompletionTimestamp.YesterdayAt": [
-  "completed yesterday at %@"
  ],
  "Chat.VideoProcessingInfo": [
   "The video will be published once converted and optimized."
@@ -2106,9 +2082,6 @@
  "Conversation.ClearChatConfirmation": [
   "Warning, this will delete your **entire chat history** with %@."
  ],
- "Conversation.ContactAddContactLong": [
-  "ADD CONTACT"
- ],
  "Conversation.ContextMenuBuyGift": [
   "Buy Yourself a Gift"
  ],
@@ -2126,9 +2099,6 @@
  ],
  "Conversation.CopyProtectionForwardingDisabledSecret": [
   "Forwarding is restricted"
- ],
- "Conversation.CopyProtectionInfoPrivateYou": [
-  "You disabled copying and forwarding in this chat."
  ],
  "Conversation.CopyProtectionSavingDisabledBot": [
   "Saving content from this bot is restricted"
@@ -2178,9 +2148,6 @@
  "Conversation.ForwardOptions.TapForOptionsShort": [
   "Tap here for options"
  ],
- "Conversation.ForwardOptions.Text": [
-  "What would you like to do with %1$@ from %2$@?"
- ],
  "Conversation.HoldForAudioOnly": [
   "Hold to record audio."
  ],
@@ -2217,10 +2184,6 @@
  "Conversation.MessageLeaveCommentShort": [
   "Comment"
  ],
- "Conversation.Messages": [
-  "%@ message",
-  "%@ messages"
- ],
  "Conversation.OpenBotApp": [
   "LAUNCH"
  ],
@@ -2253,9 +2216,6 @@
  ],
  "Conversation.RestrictedMedia": [
   "The admins of this group have restricted your ability to send media."
- ],
- "Conversation.SaveToFiles": [
-  "Save to Files"
  ],
  "Conversation.ScheduledLiveStreamStartsOn": [
   "Live stream starts on %@"
@@ -3808,9 +3768,6 @@
  "LiveStream.StopLiveStream": [
   "Stop Live Stream"
  ],
- "LiveStream.Watching": [
-  "watching"
- ],
  "LiveStream.Watching.Members": [
   "%@ watching",
   "%@ watching"
@@ -4225,10 +4182,6 @@
  "MessagePoll.EndsInDays": [
   "ends in %@ day",
   "ends in %@ days"
- ],
- "MessagePoll.ViewVote": [
-  "%@ vote >",
-  "%@ votes >"
  ],
  "MessageTimer.LargeShortDays": [
   "%@d",
@@ -4647,9 +4600,6 @@
  ],
  "Notification.StarGift.Bot.Subtitle.Displaying": [
   "You are displaying this gift on your profile."
- ],
- "Notification.StarGift.Burned": [
-  "burned"
  ],
  "Notification.StarGift.ReleasedBy": [
   "released by %@"
@@ -6139,9 +6089,6 @@
  ],
  "RequestPeer.SelectionConfirmationInviteWithRightsText": [
   "This will also add %1$@ to %2$@ with the following rights:%3$@"
- ],
- "RequestPeer.UsersAllEmpty": [
-  "You don't know any users."
  ],
  "RequestPeer.UsersEmpty": [
   "You don't know users who meet the following requirements:"
@@ -8482,9 +8429,6 @@
  ],
  "Wallet.Words.NewTitle": [
   "New Secret Phrase"
- ],
- "Wallpaper.ErrorNotFound": [
-  "Sorry, this chat wallpaper doesn't seem to exist."
  ],
  "WallpaperPreview.AnimateDescription": [
   "Colors will move when you send messages"

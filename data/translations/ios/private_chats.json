@@ -247,6 +247,9 @@
  "Chat.ContextMenu.AuthorInfo": [
   "Sent by %@"
  ],
+ "Chat.ContextMenu.OpenInBrowser": [
+  "Open in Browser"
+ ],
  "Chat.ContextMenu.SuggestedPost.Create": [
   "Suggest Post"
  ],
@@ -529,6 +532,9 @@
  "Chat.PanelCustomStatusShortInfo": [
   "%@ is a mark for [Premium subscribers >]()"
  ],
+ "Chat.PanelHidePinnedMessages": [
+  "Hide Pinned Messages"
+ ],
  "Chat.PanelStatusAuthorHidden": [
   "Senders of these messages restricted to linktheir name when forwarding."
  ],
@@ -567,6 +573,36 @@
  ],
  "Chat.PlayVoiceMessageOnceTooltip": [
   "The recipient will be able to listen only once."
+ ],
+ "Chat.Poll.ContextMenu.SectionOption": [
+  "Option"
+ ],
+ "Chat.Poll.ContextMenu.SectionPoll": [
+  "Poll"
+ ],
+ "Chat.Poll.ContextMenu.SectionsInfo": [
+  "You're viewing actions for one option.You can switch to actions for the list."
+ ],
+ "Chat.Poll.RemoveOption": [
+  "Remove"
+ ],
+ "Chat.Poll.ReplyToOption": [
+  "Reply to Option"
+ ],
+ "Chat.Poll.VoteOption": [
+  "Vote"
+ ],
+ "Chat.PollOptionAddedTimestamp.Date": [
+  "Added by %1$@ %2$@"
+ ],
+ "Chat.PollOptionAddedTimestampYou.Date": [
+  "Added by you %1$@"
+ ],
+ "Chat.PollOptionAddedTimestampYou.TodayAt": [
+  "Added by you today at %1$@"
+ ],
+ "Chat.PollOptionAddedTimestampYou.YesterdayAt": [
+  "Added by you yesterday at %1$@"
  ],
  "Chat.PostApproval.DetailStatus.AdminFailedRefunded": [
   "Suggested post was refunded because the user didn't have enough funds"
@@ -731,8 +767,15 @@
   "%@ of {count} completed",
   "%@ of {count} completed"
  ],
+ "Chat.Todo.Message.CompletedBy": [
+  "%@ of {count} completed by {name}",
+  "%@ of {count} completed by {name}"
+ ],
  "Chat.Todo.Message.TitleGroup": [
   "Group Checklist"
+ ],
+ "Chat.Todo.Message.TitlePersonal": [
+  "%@'s Checklist"
  ],
  "Chat.TooltipAddTagLabel": [
   "Tap and hold to add a name to your tag"
@@ -892,6 +935,9 @@
  "Conversation.ContactAddContact": [
   "ADD"
  ],
+ "Conversation.ContactAddContactLong": [
+  "ADD CONTACT"
+ ],
  "Conversation.ContactMessage": [
   "MESSAGE"
  ],
@@ -941,6 +987,10 @@
  "Conversation.ContextMenuReport": [
   "Report"
  ],
+ "Conversation.ContextMenuSeen": [
+  "%@ Seen",
+  "%@ Seen"
+ ],
  "Conversation.ContextMenuSelect": [
   "Select"
  ],
@@ -964,6 +1014,9 @@
  "Conversation.CopyProtectionInfoPrivate": [
   "**%@** disabled copying and forwarding in this chat."
  ],
+ "Conversation.CopyProtectionInfoPrivateYou": [
+  "You disabled copying and forwarding in this chat."
+ ],
  "Conversation.DateReminderSet": [
   "You have set a reminder in [Saved Messages]()."
  ],
@@ -985,11 +1038,20 @@
  "Conversation.Dice.u1F3B0": [
   "Send a slot machine emoji to try your luck."
  ],
+ "Conversation.Dice.u1F3B2": [
+  "Send a dice emoji to any chat to roll a die."
+ ],
  "Conversation.Dice.u1F3B3": [
   "Send a bowling emoji to try your luck."
  ],
  "Conversation.Dice.u1F3C0": [
   "Send a basketball emoji to try your luck."
+ ],
+ "Conversation.Dice.u26BD": [
+  "Send a football emoji to try your luck."
+ ],
+ "Conversation.EmptyPlaceholder": [
+  "No messages here yet..."
  ],
  "Conversation.EncryptedDescription1": [
   "Use end-to-end encryption"
@@ -1012,6 +1074,9 @@
  "Conversation.EncryptedPlaceholderTitleOutgoing": [
   "You invited %@ to join a Secret Chat."
  ],
+ "Conversation.EncryptionProcessing": [
+  "Exchanging encryption keys..."
+ ],
  "Conversation.EncryptionWaiting": [
   "Waiting for %@ to get online..."
  ],
@@ -1021,6 +1086,9 @@
  "Conversation.ForwardFrom": [
   "From: %@"
  ],
+ "Conversation.ForwardOptions.CancelForwarding": [
+  "Cancel Forwarding"
+ ],
  "Conversation.ForwardOptions.ForwardTitle": [
   "Forward %@ Message",
   "Forward %@ Messages"
@@ -1028,11 +1096,28 @@
  "Conversation.ForwardOptions.ForwardTitleSingle": [
   "Forward Message"
  ],
+ "Conversation.ForwardOptions.Messages": [
+  "%@ message",
+  "%@ messages"
+ ],
  "Conversation.ForwardOptions.SenderNamesRemoved": [
   "Sender names removed"
  ],
+ "Conversation.ForwardOptions.ShowOptions": [
+  "Show Forwarding Options"
+ ],
+ "Conversation.ForwardOptions.Text": [
+  "What would you like to do with %1$@ from %2$@?"
+ ],
+ "Conversation.ForwardOptions.TextPersonal": [
+  "What would you like to do with %1$@ from your chat with %2$@?"
+ ],
  "Conversation.ForwardOptions.TextSaved": [
   "What would you like to do with %1$@ from your Saved Messages?"
+ ],
+ "Conversation.ForwardOptions.Title": [
+  "%@ Message",
+  "%@ Messages"
  ],
  "Conversation.ForwardTooltip.Chat.Many": [
   "Messages forwarded to **%@**."
@@ -1091,6 +1176,10 @@
  ],
  "Conversation.MessageDoesntExist": [
   "Message doesn't exist"
+ ],
+ "Conversation.Messages": [
+  "%@ message",
+  "%@ messages"
  ],
  "Conversation.Moderate.Report": [
   "Report Spam"
@@ -1151,6 +1240,9 @@
  ],
  "Conversation.ReportSpamGroupConfirmation": [
   "Are you sure you want to report this group for spam?"
+ ],
+ "Conversation.SaveToFiles": [
+  "Save to Files"
  ],
  "Conversation.SavedMessages": [
   "Saved Messages"
@@ -1231,6 +1323,18 @@
  ],
  "Conversation.StopLiveLocation": [
   "Stop Sharing"
+ ],
+ "Conversation.StopPollConfirmation": [
+  "Stop Poll"
+ ],
+ "Conversation.StopPollConfirmationTitle": [
+  "If you stop this poll now, nobody will be able to vote in it anymore. This action cannot be undone."
+ ],
+ "Conversation.StopQuizConfirmation": [
+  "Stop Quiz"
+ ],
+ "Conversation.StopQuizConfirmationTitle": [
+  "If you stop this quiz now, nobody will be able to submit answers. This action cannot be undone."
  ],
  "Conversation.SuggestedBirthdate.Day": [
   "Day"
@@ -1625,6 +1729,9 @@
  "Group.MessagePhotoRemoved": [
   "Group photo removed"
  ],
+ "GroupInfo.DeleteAndExit": [
+  "Delete and Exit"
+ ],
  "Invitation.GroupCall": [
   "Group Call"
  ],
@@ -1881,6 +1988,9 @@
  "Month.GenDecember": [
   "December"
  ],
+ "Month.GenJuly": [
+  "July"
+ ],
  "Month.GenNovember": [
   "November"
  ],
@@ -2130,6 +2240,9 @@
  ],
  "Notification.StarGift.Bot.Subtitle": [
   "Display this gift on your profile."
+ ],
+ "Notification.StarGift.Burned": [
+  "burned"
  ],
  "Notification.StarGift.Collectible": [
   "Collectible"
@@ -2627,6 +2740,9 @@
  "Share.Title": [
   "Share"
  ],
+ "ShareMenu.CopyShareLink": [
+  "Copy Link"
+ ],
  "SponsoredMessageMenu.Hide": [
   "Hide"
  ],
@@ -2719,6 +2835,9 @@
  ],
  "UserInfo.GroupsInCommon": [
   "Groups In Common"
+ ],
+ "UserInfo.PhoneCall": [
+  "Phone Call"
  ],
  "Wallet.CopyAddress": [
   "Copy Address"
