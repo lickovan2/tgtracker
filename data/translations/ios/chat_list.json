@@ -319,6 +319,9 @@
  "ChatList.EmptyListContactsHeaderHide": [
   "Hide"
  ],
+ "ChatList.EmptyListTooltip": [
+  "Send a message orstart a group here."
+ ],
  "ChatList.EmptyTopicsCreate": [
   "Create New Topic"
  ],
@@ -708,6 +711,13 @@
  "ChatListFilter.SaveAlertActionSave": [
   "Save"
  ],
+ "ChatListFilter.ShowMoreChats": [
+  "Show %@ More Chat",
+  "Show %@ More Chats"
+ ],
+ "ChatListFilter.TagSectionTitle": [
+  "FOLDER COLOR"
+ ],
  "ChatListFilterList.CreateFolder": [
   "Create a Folder"
  ],
@@ -923,6 +933,9 @@
  "Conversation.ForwardTitle": [
   "Forward"
  ],
+ "Conversation.InputTextPlaceholder": [
+  "Message"
+ ],
  "Conversation.Location": [
   "Location"
  ],
@@ -952,6 +965,10 @@
   "1 monthly user",
   "%d monthly users"
  ],
+ "Conversation.StatusMembers": [
+  "1 member",
+  "%@ members"
+ ],
  "Conversation.Unarchive": [
   "Unarchive"
  ],
@@ -960,6 +977,23 @@
  ],
  "Conversation.UnpinMessageAlert": [
   "Would you like to unpin this message?"
+ ],
+ "CountriesList.SaveCountries": [
+  "Save Countries"
+ ],
+ "CountriesList.Search": [
+  "Search"
+ ],
+ "CountriesList.SelectCountries": [
+  "Select Countries"
+ ],
+ "CountriesList.SelectUpTo": [
+  "select up to %@ country",
+  "select up to %@ countries"
+ ],
+ "Currency.Grams": [
+  "%@ Gram",
+  "%@ Grams"
  ],
  "Date.ChatDateHeader": [
   "%1$@ %2$@"
@@ -1305,6 +1339,13 @@
  "Message.File": [
   "File"
  ],
+ "Message.GiveawayEndedNoWinners": [
+  "Due to the giveaway terms, no winners could be selected by Telegram"
+ ],
+ "Message.GiveawayEndedWinners": [
+  "%@ winner of the giveaway was randomly selected by Telegram",
+  "%@ winners of the giveaway were randomly selected by Telegram"
+ ],
  "Message.GiveawayStarted": [
   "Channel started a giveaway"
  ],
@@ -1313,6 +1354,9 @@
  ],
  "Message.GiveawayStartedOther": [
   "%@ started a giveaway"
+ ],
+ "Message.LiveLocation": [
+  "Live Location"
  ],
  "Message.LivePhoto": [
   "Live Photo"
@@ -1362,6 +1406,9 @@
  "Message.Sticker": [
   "Sticker"
  ],
+ "Message.StickerText": [
+  "%@ Sticker"
+ ],
  "Message.Video": [
   "Video"
  ],
@@ -1383,6 +1430,9 @@
  "Month.GenAugust": [
   "August"
  ],
+ "Month.GenSeptember": [
+  "September"
+ ],
  "Month.ShortOctober": [
   "Oct"
  ],
@@ -1398,6 +1448,9 @@
  "Notification.ChangedGroupPhoto": [
   "%@ changed group photo"
  ],
+ "Notification.ChangedThemeGift": [
+  "%1$@ changed chat theme to %2$@"
+ ],
  "Notification.ChannelInviter": [
   "%@ invited you to this channel"
  ],
@@ -1406,6 +1459,9 @@
  ],
  "Notification.ForumTopicClosedAuthor": [
   "%1$@ closed topic"
+ ],
+ "Notification.ForumTopicCreated": [
+  "Topic created"
  ],
  "Notification.ForumTopicIconChangedAuthor": [
   "%1$@ changed the topic icon to %2$@"
@@ -1449,6 +1505,13 @@
  "Notification.JoinedGroupByLink": [
   "%@ joined the group via invite link"
  ],
+ "Notification.PrepaidGiftUpgrade": [
+  "Gift Upgrade for %@"
+ ],
+ "Notification.PrepaidGiftUpgrade.Stars": [
+  "%@ Star",
+  "%@ Stars"
+ ],
  "Notification.RenamedChannel": [
   "Channel renamed"
  ],
@@ -1461,6 +1524,9 @@
  "Notification.SecretChatScreenshot": [
   "Screenshot taken!"
  ],
+ "Notification.Story": [
+  "Story"
+ ],
  "Notification.SuggestedProfilePhoto": [
   "Suggested Profile Photo"
  ],
@@ -1472,6 +1538,9 @@
  ],
  "Notification.TodoIncompletedYou": [
   "You marked \"%1$@\" as not done"
+ ],
+ "Notification.YouChangedThemeGift": [
+  "You changed chat theme to %@"
  ],
  "Notifications.AddExceptionTitle": [
   "Add Exception"
@@ -1518,11 +1587,29 @@
  "RequestPeer.SelectionConfirmationSend": [
   "Send"
  ],
+ "RichText.ButtonRowAlignCenter": [
+  "Center"
+ ],
+ "RichText.ButtonRowAlignJustify": [
+  "Justify"
+ ],
+ "RichText.ButtonRowAlignLeft": [
+  "Left"
+ ],
+ "RichText.ButtonRowAlignRight": [
+  "Right"
+ ],
  "RichText.MenuButtonInline": [
   "Inline"
  ],
  "RichText.MenuButtonRow": [
   "Button Row"
+ ],
+ "RichText.MenuHeadingItem": [
+  "Heading %@"
+ ],
+ "RichText.TitleArticle": [
+  "Text"
  ],
  "SendInviteLink.ActionInvite": [
   "Send Invite Link"

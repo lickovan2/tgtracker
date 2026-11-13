@@ -838,6 +838,10 @@
  "ChatListFilter.SectionShare": [
   "SHARE FOLDER"
  ],
+ "ChatListFilter.ShowMoreChats": [
+  "Show %@ More Chat",
+  "Show %@ More Chats"
+ ],
  "ChatListFilter.TagLabelNoTag": [
   "NO TAG"
  ],
@@ -1177,6 +1181,9 @@
   "1 member",
   "%@ members"
  ],
+ "DataUsage.AutoDownloadSettings": [
+  "Auto-Download Settings"
+ ],
  "DataUsage.Header": [
   "Data Usage"
  ],
@@ -1218,6 +1225,9 @@
  ],
  "DataUsage.SectionsInfo": [
   "Tap on each section for details."
+ ],
+ "DataUsage.SettingsHelpCellular": [
+  "You can change your auto-download settings to reduce mobile data usage."
  ],
  "DataUsage.SettingsHelpWifi": [
   "You can change your auto-download settings for media to reduce data usage when on wifi."
@@ -1662,6 +1672,9 @@
  "GroupInfo.Permissions.Exceptions": [
   "EXCEPTIONS"
  ],
+ "GroupInfo.SetGroupPhotoDelete": [
+  "Remove Photo"
+ ],
  "GroupInfo.SharedMediaNone": [
   "None"
  ],
@@ -1701,11 +1714,18 @@
  "ImportStickerPack.ChooseNameDescription": [
   "Please choose a name for your set."
  ],
+ "ImportStickerPack.CreateNewStickerSet": [
+  "Create a New Sticker Set"
+ ],
  "ImportStickerPack.GeneratingLink": [
   "generating link..."
  ],
  "ImportStickerPack.NamePlaceholder": [
   "Name"
+ ],
+ "ImportStickerPack.StickerCount": [
+  "1 Sticker",
+  "%@ Stickers"
  ],
  "IntentsSettings.MainAccount": [
   "Main Account"
@@ -1879,6 +1899,18 @@
  ],
  "MaskStickerSettings.Title": [
   "Masks"
+ ],
+ "MediaEditor.Erase": [
+  "Erase"
+ ],
+ "MediaEditor.NewStickerPack.Text": [
+  "Choose a name for your set."
+ ],
+ "MediaEditor.NewStickerPack.Title": [
+  "New Sticker Set"
+ ],
+ "MediaEditor.Outline": [
+  "Add Outline"
  ],
  "Message.ForwardedMessageShort": [
   "Forwarded From%@"
@@ -4590,6 +4622,9 @@
  "Time.PreciseDate_m10": [
   "Oct %1$@, %2$@ at %3$@"
  ],
+ "Time.PreciseDate_m9": [
+  "Sep %1$@, %2$@ at %3$@"
+ ],
  "Time.TodayAt": [
   "today at %@"
  ],
@@ -5059,6 +5094,9 @@
  ],
  "WallpaperPreview.PreviewBottomTextAnimatable": [
   "Tap the play button to view the wallpaper animation."
+ ],
+ "WallpaperPreview.PreviewInNightMode": [
+  "Preview this wallpaper in night mode."
  ],
  "WallpaperPreview.PreviewTopText": [
   "Tap Set to apply the wallpaper"

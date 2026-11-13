@@ -115,6 +115,9 @@
  "Common.Delete": [
   "Delete"
  ],
+ "Common.Done": [
+  "Done"
+ ],
  "Common.Edit": [
   "Edit"
  ],
@@ -168,6 +171,9 @@
  ],
  "EmojiStatusSetup.TimerOther": [
   "Other"
+ ],
+ "FileSize.KB": [
+  "%@ KB"
  ],
  "Gift.Buy.Confirm.BuyFor": [
   "Buy for %@ Star",
@@ -455,6 +461,9 @@
  ],
  "GroupInfo.SetGroupPhotoDelete": [
   "Remove Photo"
+ ],
+ "InviteLink.QRCode.Share": [
+  "Share QR Code"
  ],
  "LastSeen.Lately": [
   "last seen recently"
@@ -867,11 +876,26 @@
  "PeerInfo.PaneArchivedStories": [
   "Archived Posts"
  ],
+ "PeerInfo.PaneAudio": [
+  "Music"
+ ],
+ "PeerInfo.PaneFiles": [
+  "Files"
+ ],
+ "PeerInfo.PaneGifs": [
+  "GIFs"
+ ],
  "PeerInfo.PaneGifts": [
   "Gifts"
  ],
+ "PeerInfo.PaneMedia": [
+  "Media"
+ ],
  "PeerInfo.PaneStories": [
   "Posts"
+ ],
+ "PeerInfo.PaneVoiceAndVideo": [
+  "Voice"
  ],
  "PeerInfo.Permissions.EmojiStatus": [
   "Emoji Status"
@@ -884,6 +908,9 @@
  ],
  "PeerInfo.QRCode.Scan": [
   "Scan QR Code"
+ ],
+ "PeerInfo.QRCode.Title": [
+  "QR Code"
  ],
  "PeerInfo.SetEmojiStatus": [
   "Set Emoji Status"
@@ -1052,6 +1079,12 @@
  "ProfilePhoto.SetEmoji": [
   "Set Emoji"
  ],
+ "ProfilePhoto.SetMainPhoto": [
+  "Set as Main Photo"
+ ],
+ "ProfilePhoto.SetMainVideo": [
+  "Set as Main Photo"
+ ],
  "QrStudio.Colors.Profile": [
   "Colors"
  ],
@@ -1196,6 +1229,12 @@
  "Settings.ChatAutomationOff": [
   "Off"
  ],
+ "Settings.EditPhoto": [
+  "Edit"
+ ],
+ "Settings.EditVideo": [
+  "Edit"
+ ],
  "Settings.PersonalChannelAddedToast": [
   "Personal channel added."
  ],
@@ -1219,6 +1258,12 @@
  ],
  "Settings.PersonalChannelUpdatedToast": [
   "Personal channel updated."
+ ],
+ "Settings.RemoveVideo": [
+  "Remove Photo"
+ ],
+ "Settings.SetNewProfilePhotoOrVideo": [
+  "Set New Photo"
  ],
  "SharedMedia.CalendarTooltip": [
   "Tap on this icon for calendar view"
@@ -1249,6 +1294,14 @@
  "SharedMedia.MusicCount": [
   "1 music file",
   "%@ music files"
+ ],
+ "SharedMedia.PhotoCount": [
+  "1 photo",
+  "%@ photos"
+ ],
+ "SharedMedia.VideoCount": [
+  "1 video",
+  "%@ videos"
  ],
  "SharedMedia.VoiceMessageCount": [
   "1 voice message",
@@ -1345,6 +1398,12 @@
  "Stories.ToastAlbumNotAvailable": [
   "This album is no longer available."
  ],
+ "Story.Footer.NoViews": [
+  "No views yet"
+ ],
+ "Story.HeaderYourStory": [
+  "Your story"
+ ],
  "StoryList.SavedEmptyPosts.Title": [
   "No posts yet..."
  ],
@@ -1356,6 +1415,13 @@
  ],
  "SuggestBirthdate.Suggest.Title": [
   "%@'s Birthday"
+ ],
+ "Time.HoursAgo": [
+  "%@ hour ago",
+  "%@ hours ago"
+ ],
+ "Time.PreciseDate_m9": [
+  "Sep %1$@, %2$@ at %3$@"
  ],
  "UserInfo.AddContact": [
   "Add to Contacts"

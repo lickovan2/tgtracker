@@ -152,6 +152,21 @@
  "BoostGift.GroupsAndChannelsTitle": [
   "INCLUDED GROUPS AND CHANNELS"
  ],
+ "BoostGift.GroupsOrChannels.Save": [
+  "Save Groups and Channels"
+ ],
+ "BoostGift.GroupsOrChannels.Search": [
+  "Search Groups and Channels"
+ ],
+ "BoostGift.GroupsOrChannels.SectionTitle": [
+  "GROUPS AND CHANNELS"
+ ],
+ "BoostGift.GroupsOrChannels.Subtitle": [
+  "select up to %@ groups or channels"
+ ],
+ "BoostGift.GroupsOrChannels.Title": [
+  "Add Groups or Channels"
+ ],
  "BoostGift.LimitSubscribersInfo": [
   "Choose if you want to limit the giveaway only to those who joined the channel after the giveaway started or to users from specific countries."
  ],
@@ -498,6 +513,9 @@
  ],
  "BusinessMessageSetup.ToggleGreetingMessage": [
   "Send Greeting Message"
+ ],
+ "Calls.TabTitle": [
+  "Calls"
  ],
  "ChannelBoost.AutoTranslate": [
   "Auto-translation of Messages"
@@ -846,11 +864,22 @@
  "Contacts.PermissionsTitle": [
   "Access to Contacts"
  ],
+ "Contacts.Title": [
+  "Contacts"
+ ],
  "Conversation.EmptyPlaceholder": [
   "No messages here yet..."
  ],
  "Conversation.GreetingText": [
   "Send a message or tap on the greeting below."
+ ],
+ "Conversation.StatusMembers": [
+  "1 member",
+  "%@ members"
+ ],
+ "Conversation.StatusSubscribers": [
+  "%@ subscriber",
+  "%@ subscribers"
  ],
  "Conversation.Summary.Limit.Text": [
   "Summarize large messages with AI – unlimited with Telegram Premium."
@@ -1462,6 +1491,9 @@
  ],
  "ReassignBoost.WaitForCooldown": [
   "Wait until the boost is available or get **%1$@** more boosts by gifting a **Telegram Premium** subscription."
+ ],
+ "Settings.Title": [
+  "Settings"
  ],
  "Stars.Purchase.GiftStars": [
   "Gift Stars"

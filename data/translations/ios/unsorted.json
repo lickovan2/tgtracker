@@ -819,12 +819,6 @@
  "Channel.AdminLog.TopicsEnabled": [
   "%1$@ enabled topics"
  ],
- "Channel.AdminLogFilter.EventsAll": [
-  "All Actions"
- ],
- "Channel.AdminLogFilter.EventsTitle": [
-  "ACTIONS"
- ],
  "Channel.AdminLogFilter.Title": [
   "Filter"
  ],
@@ -1017,16 +1011,6 @@
  "Chat.AlwaysUseAI.ErrorTooLong": [
   "The message is too long for AI, so it wasn't sent. Tap Send to send it as it is."
  ],
- "Chat.Auction.Finished": [
-  "finished"
- ],
- "Chat.Auction.ViewResults": [
-  "VIEW RESULTS"
- ],
- "Chat.CallMessage.GroupCallParticipantCount": [
-  "1 person",
-  "%d people"
- ],
  "Chat.CallMessage.IncomingGroupCall": [
   "Incoming Group Call"
  ],
@@ -1036,14 +1020,8 @@
  "Chat.ClearReactionsAlertText": [
   "Do you want to clear your recent reaction emoji from suggestions?"
  ],
- "Chat.ContactChannel": [
-  "CONTACT CHANNEL"
- ],
  "Chat.ContextMenuReadDate.ReadFormat": [
   "read %@"
- ],
- "Chat.CreateBotLink": [
-  "Create Bot"
  ],
  "Chat.DeletePaidMessage.Action": [
   "Delete Anyway"
@@ -1137,38 +1115,6 @@
   "**%@** other listed group and channel",
   "**%@** other listed groups and channels"
  ],
- "Chat.Giveaway.Message.CountriesDelimiter": [
-  ", "
- ],
- "Chat.Giveaway.Message.CountriesLastDelimiter": [
-  " and "
- ],
- "Chat.Giveaway.Message.CustomPrizeQuantity": [
-  "%@",
-  "%@"
- ],
- "Chat.Giveaway.Message.Group.Participants": [
-  "All members of this group:"
- ],
- "Chat.Giveaway.Message.Group.ParticipantsMany": [
-  "All members of the groups below:"
- ],
- "Chat.Giveaway.Message.Group.ParticipantsNewMany": [
-  "All users who join the groups below after this date:"
- ],
- "Chat.Giveaway.Message.ParticipantsMany": [
-  "All subscribers of the channels below:"
- ],
- "Chat.Giveaway.Message.ParticipantsNewMany": [
-  "All users who join the channels below after this announcement:"
- ],
- "Chat.Giveaway.Message.WinnersInfo.Stars.Many": [
-  "All winners received a total of %@."
- ],
- "Chat.Giveaway.Message.WithSubscriptions": [
-  "**%@** Telegram Premium Subscription",
-  "**%@** Telegram Premium Subscriptions"
- ],
  "Chat.GramTransfer.WithFiat": [
   "%1$@ sent you %2$@ (%3$@)"
  ],
@@ -1181,23 +1127,11 @@
  "Chat.InlineTopicMenu.TabAll": [
   "All"
  ],
- "Chat.MessageForwardInfo.ExpiredStoryHeader": [
-  "Expired story from"
- ],
  "Chat.MessageForwardInfo.StoryHeader": [
   "Forwarded story from"
  ],
  "Chat.MessageForwardInfo.UnavailableStoryHeader": [
   "Expired story from"
- ],
- "Chat.MessageSeenTimestamp.Date": [
-  "%@"
- ],
- "Chat.MessageSeenTimestamp.TodayAt": [
-  "today at %@"
- ],
- "Chat.MessageSeenTimestamp.YesterdayAt": [
-  "yesterday at %@"
  ],
  "Chat.NextChannelFolderSwipeActionV2": [
   "Release to go to the {folder} folder"
@@ -1208,35 +1142,8 @@
  "Chat.NonContactUser.GroupsNone": [
   "None"
  ],
- "Chat.OpenStory": [
-  "VIEW STORY"
- ],
  "Chat.PauseVideoMessageTooltip": [
   "Pause to trim or replay."
- ],
- "Chat.PostApproval.Message.UserAgreementFuture": [
-  "📅 The post will be automatically published in **%1$@** **%2$@**."
- ],
- "Chat.PostApproval.Message.UserAgreementNoTime": [
-  "📅 The post was automatically published in **%1$@**."
- ],
- "Chat.PostApproval.Message.UserAgreementPriceTon": [
-  "💰 You have been charged %1$@.⌛ **%2$@** will receive the Grams once the post has been live for 24 hours.🔄 If admins remove the post before it has been live for 24 hours, your Grams will be refunded."
- ],
- "Chat.PostApproval.Message.UserTitleRejected": [
-  "❌ **%@** rejected your post."
- ],
- "Chat.PostSuggestion.ChannelChangeP": [
-  "**%@** suggested a new pricefor this post."
- ],
- "Chat.PostSuggestion.ChannelChangePTA": [
-  "**%@** suggested a new price,time and attachments for this post."
- ],
- "Chat.PostSuggestion.ChannelChangePTC": [
-  "**%@** suggested a new price,time and contents for this post."
- ],
- "Chat.PostSuggestion.ChannelChangePTT": [
-  "**%@** suggested a new price,time and text for this post."
  ],
  "Chat.PostSuggestion.UserChangePTA": [
   "You suggested a new price,time and attachments for this post."
@@ -1324,9 +1231,6 @@
  ],
  "Chat.ToastMessagesTagged.Text": [
   "Messages tagged with %@"
- ],
- "Chat.Todo.Message.Title": [
-  "Checklist"
  ],
  "Chat.VideoProcessingInfo": [
   "The video will be published once converted and optimized."
@@ -1529,10 +1433,6 @@
  "ChatListFilter.CreateLinkUnknownError": [
   "An error occurred while creating the invite link"
  ],
- "ChatListFilter.ShowMoreChats": [
-  "Show %@ More Chat",
-  "Show %@ More Chats"
- ],
  "ChatState.ConnectingToProxy": [
   "connecting to proxy..."
  ],
@@ -1647,14 +1547,8 @@
  "Conversation.AutoremoveTimerSetUserGlobalYou": [
   "You set a self-destruct timer for all chats.All new messages in this chat will be automatically deleted %1$@ after they're sent."
  ],
- "Conversation.BotApp": [
-  "Bot Application"
- ],
  "Conversation.CantPhoneCallAnonymousNumberError": [
   "You can't call this phone number."
- ],
- "Conversation.ChatBackground": [
-  "Chat Wallpaper"
  ],
  "Conversation.ClearChatConfirmation": [
   "Warning, this will delete your **entire chat history** with %@."
@@ -1674,18 +1568,6 @@
  "Conversation.DiscardRecordedVoiceMessageDescription": [
   "Are you sure you want to discard your voice message?"
  ],
- "Conversation.EmojiStake.Lost": [
-  "%1$@ lost $%2$@"
- ],
- "Conversation.EmojiStake.LostYou": [
-  "You lost $%@"
- ],
- "Conversation.EmojiStake.Won": [
-  "%1$@ won $%2$@"
- ],
- "Conversation.EmojiStake.WonYou": [
-  "You won $%@"
- ],
  "Conversation.ForwardOptions.TapForOptionsShort": [
   "Tap here for options"
  ],
@@ -1704,20 +1586,11 @@
  "Conversation.LaunchApp": [
   "LAUNCH APP"
  ],
- "Conversation.LiveStream": [
-  "Live Stream"
- ],
  "Conversation.MessageLeaveCommentShort": [
   "Comment"
  ],
- "Conversation.OpenBotApp": [
-  "LAUNCH"
- ],
  "Conversation.OpenLink": [
   "OPEN LINK"
- ],
- "Conversation.OpenProfile": [
-  "OPEN PROFILE"
  ],
  "Conversation.PeerNearbyDistance": [
   "%1$@ is %2$@ away"
@@ -1730,12 +1603,6 @@
  ],
  "Conversation.ReadMore": [
   "Read More"
- ],
- "Conversation.RequestToJoinChannel": [
-  "REQUEST TO JOIN"
- ],
- "Conversation.RequestToJoinGroup": [
-  "REQUEST TO JOIN"
  ],
  "Conversation.RestrictedMedia": [
   "The admins of this group have restricted your ability to send media."
@@ -1770,14 +1637,8 @@
  "Conversation.SuggestedPhotoText": [
   "**%@** suggests this photo for your Telegram profile."
  ],
- "Conversation.SuggestedPhotoTextExpanded": [
-  "%@ suggests this photo for your Telegram profile."
- ],
  "Conversation.SuggestedPhotoTextYou": [
   "You suggested this photo for **%@'s** Telegram profile."
- ],
- "Conversation.SuggestedPhotoTitle": [
-  "Suggested Photo"
  ],
  "Conversation.SuggestedPhotoView": [
   "View Photo"
@@ -1796,9 +1657,6 @@
  ],
  "Conversation.SuggestedVideoTextYou": [
   "You suggested this photo for **%@'s** Telegram profile."
- ],
- "Conversation.SuggestedVideoTitle": [
-  "Suggested Photo"
  ],
  "Conversation.SuggestedVideoView": [
   "View Photo"
@@ -1893,17 +1751,11 @@
  "DataUpgrade.Running": [
   "Optimizing..."
  ],
- "DataUsage.AutoDownloadSettings": [
-  "Auto-Download Settings"
- ],
  "DataUsage.ResetAlert.Action": [
   "Reset"
  ],
  "DataUsage.ResetAlert.Title": [
   "Reset Statistics?"
- ],
- "DataUsage.SettingsHelpCellular": [
-  "You can change your auto-download settings to reduce mobile data usage."
  ],
  "DeleteAccount.Options.AddAccountPremiumText": [
   "You can use up to 4 accounts in one app at the same time."
@@ -2058,14 +1910,8 @@
  "FaceScan.Instruction.Rotate": [
   "Move your head slowly tocomplete the circle"
  ],
- "FactCheck.Placeholder": [
-  "Add Fact Check"
- ],
  "FactCheck.Remove": [
   "Remove"
- ],
- "FactCheck.Title": [
-  "Fact Check"
  ],
  "FastTwoStepSetup.EmailHelp": [
   "Please add a valid email address. It is the only way to recover a forgotten password."
@@ -2220,20 +2066,8 @@
  "Gallery.AirPlayPlaceholder": [
   "This video is playing on the TV using AirPlay"
  ],
- "Gallery.ImagesAndVideosSaved": [
-  "Media saved to Photos."
- ],
  "Gallery.VideoSettings.IconQualityQHD": [
   "QHD"
- ],
- "Gallery.VideoSettings.QualityQHD": [
-  "Ultra-High"
- ],
- "Gallery.ViewOncePhotoTooltip": [
-  "This photo can only be viewed once."
- ],
- "Gallery.ViewOnceVideoTooltip": [
-  "This video can only be viewed once."
  ],
  "Gallery.VoiceOver.Delete": [
   "Delete"
@@ -2730,9 +2564,6 @@
   "%@ Emoji",
   "%@ Emoji"
  ],
- "ImportStickerPack.ImportingEmojis": [
-  "Importing Emoji"
- ],
  "InstantPage.FontNewYork": [
   "New York"
  ],
@@ -2889,18 +2720,6 @@
  ],
  "Location.AddMyLocation": [
   "Add My Current Location"
- ],
- "Location.ProximityAlertSetText": [
-  "We will notify you once %1$@ is within %2$@ from you."
- ],
- "Location.ProximityNotification.DistanceMI": [
-  "mi"
- ],
- "Location.ProximityNotification.NotifyLong": [
-  "Notify when %1$@ is within %2$@"
- ],
- "Location.TypeLocation": [
-  "Location"
  ],
  "Login.AddEmailTitle": [
   "Choose a login email"
@@ -3108,10 +2927,6 @@
  "MESSAGE_WALLET_TONCONNECT_REQUEST_DAPP": [
   "You have a TON Connect request from %2$@"
  ],
- "Map.ETADays": [
-  "%@ day",
-  "%@ days"
- ],
  "Map.Home": [
   "Home"
  ],
@@ -3126,9 +2941,6 @@
  ],
  "Map.SendThisPlace": [
   "Send This Place"
- ],
- "Map.SetThisPlace": [
-  "Set This Place"
  ],
  "Map.Work": [
   "Work"
@@ -3162,9 +2974,6 @@
  ],
  "MediaEditor.Draft": [
   "Draft"
- ],
- "MediaEditor.HoldToRecordVideo": [
-  "Hold to record video"
  ],
  "MediaPicker.AddImage": [
   "Add Image"
@@ -3208,9 +3017,6 @@
  ],
  "MediaPlayer.ContextMenu.Forward": [
   "Forward"
- ],
- "Message.AdRecommendedLabel": [
-  "Recommended"
  ],
  "Message.FakeAccount": [
   "Fake"
@@ -3435,9 +3241,6 @@
  "Notification.BotWriteAllowedRequest": [
   "You allowed this bot to message you in its web-app."
  ],
- "Notification.ChangedThemeGift": [
-  "%1$@ changed chat theme to %2$@"
- ],
  "Notification.ChannelChangedTheme": [
   "Channel theme changed to %1$@"
  ],
@@ -3451,20 +3254,8 @@
  "Notification.ChannelMessagePriceZeroChangedAndEnabledChannelMessage": [
   "%@ now accepts private messages"
  ],
- "Notification.ChatTheme.Text": [
-  "%1$@ set **%2$@** as a new theme for this chat."
- ],
- "Notification.ChatTheme.TextYou": [
-  "You set **%@** as a new theme for this chat."
- ],
- "Notification.CommunityRemovedGroup": [
-  "%1$@ removed this group from a community"
- ],
  "Notification.ForumTopicClosed": [
   "Topic closed"
- ],
- "Notification.ForumTopicCreated": [
-  "Topic created"
  ],
  "Notification.ForumTopicHidden": [
   "Topic hidden"
@@ -3487,21 +3278,6 @@
  "Notification.GameScoreSelfExtended": [
   "scored %@ in {game}",
   "scored %@ in {game}"
- ],
- "Notification.GiftAuction.Acquired": [
-  "You've successfully bought a gift in the auction for %@."
- ],
- "Notification.GiveawayResultsMixedUnclaimed": [
-  "**%@** undistributed gift link was forwarded to channel administrators",
-  "**%@** undistributed gift links were forwarded to channel administrators"
- ],
- "Notification.GiveawayResultsMixedUnclaimed.Group": [
-  "**%@** undistributed gift link was forwarded to group administrators",
-  "**%@** undistributed gift links were forwarded to group administrators"
- ],
- "Notification.GiveawayResultsMixedWinners": [
-  "**%@** winner of the giveaway was randomly selected by Telegram and received their gift link in a private message.",
-  "**%@** winners of the giveaway were randomly selected by Telegram and received their gift links in private messages."
  ],
  "Notification.GiveawayResultsNoWinners.Group": [
   "Due to the giveaway terms, no winners could be selected by Telegram, a gift link was forwarded to group administrators.",
@@ -3531,17 +3307,11 @@
  "Notification.InvitedMultiple": [
   "%@ invited %@"
  ],
- "Notification.JoinedChannelByRequestYou": [
-  "Your request to join the channel was approved"
- ],
  "Notification.JoinedGroupByLinkYou": [
   "You joined the group via invite link"
  ],
  "Notification.JoinedGroupViaCommunity": [
   "%@ joined the group via community"
- ],
- "Notification.JoinedGroupViaCommunityYou": [
-  "You joined the group via community"
  ],
  "Notification.LockScreenReactionPlaceholder": [
   "Reaction"
@@ -3555,49 +3325,18 @@
  "Notification.NoPaidMessagesTokenUsed": [
   "%@ used your link to message you for free"
  ],
- "Notification.NoPaidMessagesTokenUsedYou": [
-  "You used %@’s link to message for free"
- ],
  "Notification.OverviewTopicCreated": [
   "%1$@ \"%2$@\" was created"
  ],
  "Notification.OverviewTopicReopened": [
   "%1$@ reopened %2$@ %3$@"
  ],
- "Notification.PaidMessagePriceChangedYou": [
-  "You changed price to %1$@ per message"
- ],
  "Notification.PaymentSentNoTitle": [
   "You successfully transferred {amount} to {name}"
- ],
- "Notification.PaymentSentRecurringInit": [
-  "You successfully transferred {amount} to {name} for {title} and allowed future recurring payments"
- ],
- "Notification.PaymentSentRecurringUsed": [
-  "You have just successfully transferred {amount} to {name} for {title} via recurrent payments"
- ],
- "Notification.PaymentSentRecurringUsedNoTitle": [
-  "You have just successfully transferred {amount} to {name} via recurrent payments"
- ],
- "Notification.PinnedQuizMessage": [
-  "%@ pinned a quiz"
- ],
- "Notification.PollAddedOptionYou": [
-  "You added the option \"%1$@\" to the poll"
- ],
- "Notification.PollDeletedOptionYou": [
-  "You deleted the option \"%1$@\" from the poll"
- ],
- "Notification.PremiumGift.DaysTitle": [
-  "%@ Day Premium",
-  "%@ Days Premium"
  ],
  "Notification.PremiumGift.Months": [
   "%@ month",
   "%@ months"
- ],
- "Notification.PremiumGift.Sent": [
-  "%1$@ sent you a gift for %2$@"
  ],
  "Notification.PremiumGift.Subtitle": [
   "for %@"
@@ -3605,24 +3344,11 @@
  "Notification.PremiumGift.Title": [
   "Telegram Premium"
  ],
- "Notification.PrepaidGiftUpgrade": [
-  "Gift Upgrade for %@"
- ],
- "Notification.PrepaidGiftUpgrade.Stars": [
-  "%@ Star",
-  "%@ Stars"
- ],
  "Notification.Refund": [
   "You received a refund of {amount} from {name}"
  ],
  "Notification.RequestedPeerMultiple": [
   "You shared %1$@ with %2$@."
- ],
- "Notification.StarGift.Bot.Subtitle.Displaying": [
-  "You are displaying this gift on your profile."
- ],
- "Notification.StarGift.ReleasedBy": [
-  "released by %@"
  ],
  "Notification.StarGift.Sold": [
   "sold"
@@ -3687,29 +3413,11 @@
  "Notification.StarsGift.BoughtYou": [
   "You gifted %1$@ for %2$@"
  ],
- "Notification.StarsGift.Channel.Sent": [
-  "%1$@ sent a gift to %2$@ for %3$@"
- ],
  "Notification.StarsGift.SentUpgradeOther": [
   "%1$@ sent an upgrade worth %2$@ for the gift you received from %3$@"
  ],
- "Notification.StarsGift.SentUpgradeYouOther": [
-  "You sent an upgrade worth %1$@ for the gift %2$@ received from %3$@"
- ],
- "Notification.StarsGift.SentUpgradeYouUnknown": [
-  "You sent an upgrade worth %1$@ for the gift to %2$@"
- ],
- "Notification.StarsGift.TransferToChannel": [
-  "%1$@ transferred a unique collectible to %2$@"
- ],
- "Notification.StarsGift.TransferToChannelYou": [
-  "You transferred a unique collectible to %@"
- ],
  "Notification.StarsGift.Upgrade": [
   "%@ turned the gift from you into a unique collectible"
- ],
- "Notification.StarsGift.UpgradePrepaid": [
-  "%@ unboxed the gift that you helped upgrade"
  ],
  "Notification.StarsGiftOffer.Accepted": [
   "%1$@ accepted your offer and sold you %2$@ for %3$@"
@@ -3812,12 +3520,6 @@
  ],
  "Notification.TopicReopenedAuthor": [
   "%1$@ reopened the topic"
- ],
- "Notification.VoiceChatScheduled": [
-  "%1$@ scheduled a video chat for %2$@"
- ],
- "Notification.YouChangedThemeGift": [
-  "You changed chat theme to %@"
  ],
  "Notifications.DisplayNamesOnLockScreenInfo": [
   "Display names in notifications when the device is locked. To disable, open iOS Settings > Telegram > Notifications, and set \"Show Previews\" to \"When Unlocked\" or \"Never\"."
@@ -4248,20 +3950,11 @@
  "Paint.ColorTitle": [
   "Colors"
  ],
- "Paint.Draw": [
-  "Draw"
- ],
  "Paint.Flip": [
   "Flip"
  ],
  "Paint.MoveForward": [
   "Move Forward"
- ],
- "Paint.Sticker": [
-  "Sticker"
- ],
- "Paint.Text": [
-  "Text"
  ],
  "Paint.ZoomOut": [
   "Zoom Out"
@@ -4393,9 +4086,6 @@
  ],
  "PhotoEditor.SelectCoverFrameSuggestion": [
   "Choose a frame for this profile photo"
- ],
- "PhotoEditor.SetAsMyPhoto": [
-  "Set as My Photo"
  ],
  "PhotoEditor.SetAsMyVideo": [
   "Set as My Video"
@@ -4776,9 +4466,6 @@
  "REACT_WALLPAPER": [
   "%1$@|reacted %2$@ to the new background"
  ],
- "RankInfo.ChangeInfo": [
-  "Only admins can assign member tags in this group."
- ],
  "RecentSessions.ConnectedBot.TerminateCheckbox": [
   "Also terminate %@"
  ],
@@ -4893,9 +4580,6 @@
  ],
  "SecretImage.ViewOnce.Title": [
   "Disappearing Photo"
- ],
- "SecretVideo.ViewOnce.Title": [
-  "Disappearing Video"
  ],
  "SendInviteLink.SkipAction": [
   "Skip"
@@ -5269,66 +4953,15 @@
  "Story.DeleteConfirmation.Title": [
   "Delete Story?"
  ],
- "Story.Editor.CollageDraftAllMediaMissing": [
-  "None of the media in this collage are available anymore. This draft will be deleted."
- ],
- "Story.Editor.DownloadingMedia": [
-  "Downloading from iCloud..."
- ],
- "Story.Editor.MediaUnavailable": [
-  "This media isn't stored on your device and couldn't be downloaded from iCloud. Check your connection and try again."
- ],
- "Story.Editor.MediaUnavailableSomeSkipped": [
-  "Some media isn't stored on your device and couldn't be downloaded from iCloud. Only the available items will be posted."
- ],
- "Story.Editor.TooltipPremiumReaction": [
-  "Subscribe to [Telegram Premium]() to use this reaction."
- ],
  "Story.Footer.Views": [
   "1 view",
   "%d views"
  ],
- "Story.ForwardAuthorHiddenTooltip": [
-  "This account was hidden by the user"
- ],
- "Story.GroupCommentingRestrictedPlaceholder": [
-  "Comments restricted. Boost the group to unlock."
- ],
- "Story.GroupCommentingRestrictedPlaceholderAction": [
-  "Learn More..."
- ],
- "Story.MessagingRestrictedPlaceholder": [
-  "%@ only accepts messages from contacts or Premium users."
- ],
- "Story.MessagingRestrictedPlaceholderAction": [
-  "Learn more..."
- ],
- "Story.StealthModePlaceholder": [
-  "Stealth Mode active — {m}:{s}"
- ],
- "Story.ToastDeletedContact": [
-  "**%@** has been removed from your contacts."
- ],
- "Story.ToastUserBlocked": [
-  "**%@** has been blocked."
- ],
- "Story.TooltipUnmuteVideoSound": [
-  "Tap here to enable sound"
- ],
  "Story.ViewList.EmptyTextSearch": [
   "No views found"
  ],
- "Story.ViewList.NotFullyRecorded": [
-  "Information about the other viewers wasn't recorded."
- ],
- "Story.ViewList.TitleEmpty": [
-  "No Views"
- ],
  "Story.Views.Commented": [
   " • commented"
- ],
- "Story.Views.ViewsExpired": [
-  "List of viewers becomes unavailable **24 hours** after the story expires."
  ],
  "StoryList.ItemAction.Edit": [
   "Edit"
@@ -6557,9 +6190,6 @@
  ],
  "WallpaperPreview.PreviewInDayMode": [
   "Preview this wallpaper in day mode."
- ],
- "WallpaperPreview.PreviewInNightMode": [
-  "Preview this wallpaper in night mode."
  ],
  "Watch.Message.Unsupported": [
   "Unsupported Message"

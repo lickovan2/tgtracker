@@ -5369,6 +5369,9 @@
  "ImportStickerPack.CreateStickerSet": [
   "Create Sticker Set"
  ],
+ "ImportStickerPack.ImportingEmojis": [
+  "Importing Emoji"
+ ],
  "ImportStickerPack.ImportingStickers": [
   "Importing Stickers"
  ],
@@ -5762,6 +5765,10 @@
  "Map.DistanceAway": [
   "%@ away"
  ],
+ "Map.ETADays": [
+  "%@ day",
+  "%@ days"
+ ],
  "Map.ETAHours": [
   "%@ h",
   "%@ h"
@@ -5882,6 +5889,9 @@
  ],
  "Map.SetThisLocation": [
   "Set This Location"
+ ],
+ "Map.SetThisPlace": [
+  "Set This Place"
  ],
  "Map.ShareLiveLocation": [
   "Share My Live Location for..."
@@ -9184,6 +9194,9 @@
  ],
  "Time.PreciseDate_m8": [
   "Aug %1$@, %2$@ at %3$@"
+ ],
+ "Time.PreciseDate_m9": [
+  "Sep %1$@, %2$@ at %3$@"
  ],
  "TimeZoneSelection.Title": [
   "Time Zone"

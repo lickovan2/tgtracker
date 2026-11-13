@@ -481,6 +481,10 @@
  "Call.LiveStreamInProgressTitle": [
   "Live Stream in Progress"
  ],
+ "Call.Minutes": [
+  "%@ minute",
+  "%@ minutes"
+ ],
  "CallList.ActiveVoiceChatsHeader": [
   "ACTIVE VIDEO CHATS"
  ],
@@ -933,6 +937,9 @@
  "Channel.AdminLogFilter.EventsAdmins": [
   "Admin Rights"
  ],
+ "Channel.AdminLogFilter.EventsAll": [
+  "All Actions"
+ ],
  "Channel.AdminLogFilter.EventsCalls": [
   "Video Chats"
  ],
@@ -980,6 +987,9 @@
  ],
  "Channel.AdminLogFilter.EventsSentMessages": [
   "Sent Messages"
+ ],
+ "Channel.AdminLogFilter.EventsTitle": [
+  "ACTIONS"
  ],
  "Channel.AdminLogFilter.FilterActionsAdminsTitle": [
   "FILTER ACTIONS BY ADMINS"
@@ -2011,6 +2021,13 @@
  "Chat.AudioTranscriptionRateAction": [
   "Rate Transcription"
  ],
+ "Chat.CallMessage.GroupCallParticipantCount": [
+  "1 person",
+  "%d people"
+ ],
+ "Chat.CallMessage.OutgoingGroupCall": [
+  "Outgoing Group Call"
+ ],
  "Chat.ChannelMessagesHint": [
   "Send a message to the channel's admin"
  ],
@@ -2168,6 +2185,9 @@
  "Chat.Giveaway.Message.CountriesFrom": [
   "from %@"
  ],
+ "Chat.Giveaway.Message.CountriesLastDelimiter": [
+  " and "
+ ],
  "Chat.Giveaway.Message.DateTitle": [
   "Winner Selection Date"
  ],
@@ -2183,6 +2203,9 @@
  ],
  "Chat.Giveaway.Message.Participants": [
   "All subscribers of this channel:"
+ ],
+ "Chat.Giveaway.Message.ParticipantsMany": [
+  "All subscribers of the channels below:"
  ],
  "Chat.Giveaway.Message.ParticipantsNew": [
   "All users who join this channel after this announcement:"
@@ -2220,6 +2243,9 @@
  "Chat.Giveaway.Message.WinnersInfo.Stars": [
   "**%@ Star**",
   "**%@ Stars**"
+ ],
+ "Chat.Giveaway.Message.WinnersInfo.Stars.Many": [
+  "All winners received a total of %@."
  ],
  "Chat.Giveaway.Message.WinnersInfo.Stars.One": [
   "The winner received %@."
@@ -2338,6 +2364,9 @@
  "Chat.PaidMessage.Confirm.DontAskAgain": [
   "Don't ask again"
  ],
+ "Chat.PaidMessage.Confirm.Multiple.Text": [
+  "You selected %1$@ who charge Stars for messages. Would you like to pay **%2$@** Stars to send %3$@?"
+ ],
  "Chat.PaidMessage.Confirm.PayForMessage": [
   "Pay for %@ Message",
   "Pay for %@ Messages"
@@ -2352,6 +2381,10 @@
  "Chat.PaidMessage.Confirm.Text.Stars": [
   "%@ Star",
   "%@ Stars"
+ ],
+ "Chat.PaidMessage.Confirm.Text.Users": [
+  "**%@** user",
+  "**%@** users"
  ],
  "Chat.PaidMessage.Confirm.Title": [
   "Confirm Payment"
@@ -2392,9 +2425,19 @@
  "Chat.PostApproval.DetailStatus.FailedDeleted": [
   "Suggested post was refunded because the message was deleted"
  ],
+ "Chat.PostApproval.DetailStatus.PostedPaid": [
+  "**%1$@** received **%2$@** for publishing this post"
+ ],
  "Chat.PostApproval.DetailStatus.StarsAmount": [
   "# Star",
   "# Stars"
+ ],
+ "Chat.PostApproval.DetailStatus.TonAmount": [
+  "# Gram",
+  "# Grams"
+ ],
+ "Chat.PostApproval.DetailStatus.UserFailedRefunded": [
+  "Suggested post was refunded due to insufficient balance"
  ],
  "Chat.PostApproval.Message.ActionApprove": [
   "Approve"
@@ -2438,14 +2481,26 @@
  "Chat.PostApproval.Message.TitleApproved": [
   "🤝 Agreement Reached!"
  ],
+ "Chat.PostApproval.Message.UserAgreementFuture": [
+  "📅 The post will be automatically published in **%1$@** **%2$@**."
+ ],
+ "Chat.PostApproval.Message.UserAgreementNoTime": [
+  "📅 The post was automatically published in **%1$@**."
+ ],
  "Chat.PostApproval.Message.UserAgreementPast": [
   "📅 The post has been automatically published in **%1$@** **%2$@**."
  ],
  "Chat.PostApproval.Message.UserAgreementPriceStars": [
   "💰 You have been charged %1$@.⌛ **%2$@** will receive the Stars once the post has been live for 24 hours.🔄 If admins remove the post before it has been live for 24 hours, your Stars will be refunded."
  ],
+ "Chat.PostApproval.Message.UserAgreementPriceTon": [
+  "💰 You have been charged %1$@.⌛ **%2$@** will receive the Grams once the post has been live for 24 hours.🔄 If admins remove the post before it has been live for 24 hours, your Grams will be refunded."
+ ],
  "Chat.PostApproval.Message.UserTitleFailedFunds": [
   "⚠️ **Transaction failed** because you didn't have enough Stars."
+ ],
+ "Chat.PostApproval.Message.UserTitleRejected": [
+  "❌ **%@** rejected your post."
  ],
  "Chat.PostApproval.Message.UserTitleRejectedComment": [
   "❌ **%@** rejected your message with the comment:"
@@ -2787,6 +2842,9 @@
  "ClearCache.FreeSpaceDescription": [
   "If you want to save space on your device, you don't need to delete anything.You can use cache settings to remove unnecessary media — and re-download files if you need them again."
  ],
+ "CocoonInfo.Understood": [
+  "Understood"
+ ],
  "CommentsGroup.ErrorAccessDenied": [
   "Sorry, you can't access this chat because you were banned by an admin."
  ],
@@ -2901,6 +2959,9 @@
  "Conversation.BoostToUnrestrictText": [
   "Boost this group to send messages"
  ],
+ "Conversation.ChatBackground": [
+  "Chat Wallpaper"
+ ],
  "Conversation.ClearAll": [
   "Clear Chat"
  ],
@@ -2912,6 +2973,9 @@
  ],
  "Conversation.ClearGroupHistory": [
   "This will delete all messages and media in this chat from your Telegram cloud. Other members of the group will still have them."
+ ],
+ "Conversation.ContactAddContactLong": [
+  "ADD CONTACT"
  ],
  "Conversation.ContextMenuBan": [
   "Restrict"
@@ -3122,6 +3186,9 @@
  "Conversation.LinkDialogOpen": [
   "Open"
  ],
+ "Conversation.LiveStream": [
+  "Live Stream"
+ ],
  "Conversation.LiveStreamMediaRecordingRestricted": [
   "You can't record voice and video messages during a live stream."
  ],
@@ -3263,6 +3330,9 @@
  ],
  "Conversation.ReportSpamChannelConfirmation": [
   "Are you sure you want to report this channel for spam?"
+ ],
+ "Conversation.RequestToJoinGroup": [
+  "REQUEST TO JOIN"
  ],
  "Conversation.RequestsToJoin": [
   "%@ Join Request",
@@ -3412,6 +3482,9 @@
  "Conversation.UsersTooMuchError": [
   "Unable to join this group because it has too many members."
  ],
+ "Conversation.ViewBackground": [
+  "VIEW WALLPAPER"
+ ],
  "Conversation.ViewMessage": [
   "VIEW MESSAGE"
  ],
@@ -3481,8 +3554,15 @@
  "CreateTopic.EditTitle": [
   "Edit Topic"
  ],
+ "Currency.Grams": [
+  "%@ Gram",
+  "%@ Grams"
+ ],
  "Date.ChatDateHeader": [
   "%1$@ %2$@"
+ ],
+ "Date.ChatDateHeaderYear": [
+  "%1$@ %2$@, %3$@"
  ],
  "DialogList.AdNoticeAlert": [
   "This channel is shown by your proxy server. To remove this channel from your chat list, disable the proxy in Telegram Settings > Data and Storage."
@@ -3504,6 +3584,9 @@
  ],
  "DialogList.Title": [
   "Chats"
+ ],
+ "DialogList.You": [
+  "You"
  ],
  "DownloadList.CancelDownloading": [
   "Cancel Download"
@@ -4860,6 +4943,9 @@
  "Location.ProximityAlertCancelled": [
   "Proximity alert canceled"
  ],
+ "Location.ProximityAlertSetText": [
+  "We will notify you once %1$@ is within %2$@ from you."
+ ],
  "Location.ProximityAlertSetTextGroup": [
   "We will notify you once any group member is within %@ from you."
  ],
@@ -4952,20 +5038,47 @@
  "Message.AdWhatIsThis": [
   "what's this?"
  ],
+ "Message.AuthorPinnedGame": [
+  "%@ pinned a game"
+ ],
  "Message.FullDateFormat": [
   "%1$@, %2$@"
+ ],
+ "Message.ImageExpired": [
+  "Expired photo"
  ],
  "Message.Story": [
   "Story"
  ],
+ "Message.VideoExpired": [
+  "Expired video"
+ ],
+ "Message.VideoMessageExpired": [
+  "Expired video message"
+ ],
+ "Message.VoiceMessageExpired": [
+  "Expired voice message"
+ ],
  "Message.Widget": [
   "Widget"
+ ],
+ "MessagePoll.LabelAnonymous": [
+  "Anonymous Poll"
+ ],
+ "MessagePoll.LabelAnonymousQuiz": [
+  "Anonymous Quiz"
  ],
  "MessagePoll.LabelClosed": [
   "Final Results"
  ],
+ "MessagePoll.NoVotes": [
+  "No votes"
+ ],
  "MessagePoll.SubmitVote": [
   "Vote"
+ ],
+ "MessagePoll.ViewVotes": [
+  "View Votes (%@)"
  ],
  "MessagePoll.VotedCount": [
   "1 vote",
@@ -5158,11 +5271,41 @@
  "Monoforum.NameFormat": [
   "%@ Messages"
  ],
+ "Month.GenApril": [
+  "April"
+ ],
  "Month.GenAugust": [
   "August"
  ],
+ "Month.GenDecember": [
+  "December"
+ ],
+ "Month.GenFebruary": [
+  "February"
+ ],
+ "Month.GenJanuary": [
+  "January"
+ ],
+ "Month.GenJuly": [
+  "July"
+ ],
+ "Month.GenJune": [
+  "June"
+ ],
+ "Month.GenMarch": [
+  "March"
+ ],
+ "Month.GenMay": [
+  "May"
+ ],
+ "Month.GenNovember": [
+  "November"
+ ],
  "Month.GenOctober": [
   "October"
+ ],
+ "Month.GenSeptember": [
+  "September"
  ],
  "Month.ShortOctober": [
   "Oct"
@@ -5207,6 +5350,9 @@
  "Notification.Boost.Times": [
   "%@ time",
   "%@ times"
+ ],
+ "Notification.CallFormat": [
+  "%1$@, %2$@"
  ],
  "Notification.ChangedGroupName": [
   "%@ changed the group name to \"%@\""
@@ -5282,12 +5428,26 @@
   "**%@** winner of the giveaway was randomly selected by Telegram and received their gift link in a private message.",
   "**%@** winners of the giveaway were randomly selected by Telegram and received their gift links in private messages."
  ],
+ "Notification.GiveawayResultsMixedUnclaimed": [
+  "**%@** undistributed gift link was forwarded to channel administrators",
+  "**%@** undistributed gift links were forwarded to channel administrators"
+ ],
+ "Notification.GiveawayResultsMixedWinners": [
+  "**%@** winner of the giveaway was randomly selected by Telegram and received their gift link in a private message.",
+  "**%@** winners of the giveaway were randomly selected by Telegram and received their gift links in private messages."
+ ],
  "Notification.GiveawayResultsNoWinners": [
   "Due to the giveaway terms, no winners could be selected by Telegram, a gift link was forwarded to channel administrators.",
   "Due to the giveaway terms, no winners could be selected by Telegram, all **%@** gift links were forwarded to channel administrators."
  ],
+ "Notification.GiveawayStarted": [
+  "%1$@ just started a giveaway of Telegram Premium subscriptions for its followers."
+ ],
  "Notification.GiveawayStartedGroup": [
   "%1$@ just started a giveaway of Telegram Premium subscriptions for its members."
+ ],
+ "Notification.GramTransferYou": [
+  "You sent %1$@ %2$@"
  ],
  "Notification.GroupChangedWallpaper": [
   "Group set a new wallpaper"
@@ -5341,11 +5501,26 @@
   "%@ Star",
   "%@ Stars"
  ],
+ "Notification.PassportValueAddress": [
+  "your address"
+ ],
+ "Notification.PassportValuePhone": [
+  "phone number"
+ ],
+ "Notification.PassportValueProofOfAddress": [
+  "proof of address"
+ ],
+ "Notification.PassportValuesSentMessage": [
+  "%1$@ received the following documents: %2$@"
+ ],
  "Notification.PinnedAnimationMessage": [
   "%@ pinned a GIF"
  ],
  "Notification.PinnedAudioMessage": [
   "%@ pinned a voice message"
+ ],
+ "Notification.PinnedContactMessage": [
+  "%@ pinned a contact"
  ],
  "Notification.PinnedDeletedMessage": [
   "%@ pinned deleted message"
@@ -5368,11 +5543,27 @@
  "Notification.PinnedRoundMessage": [
   "%@ pinned a video message"
  ],
+ "Notification.PinnedStickerMessage": [
+  "%@ pinned a sticker"
+ ],
  "Notification.PinnedTextMessage": [
   "%@ pinned \"%@\""
  ],
  "Notification.PinnedVideoMessage": [
   "%@ pinned a video"
+ ],
+ "Notification.PremiumGift.SubscriptionDescription": [
+  "Subscription for exclusive Telegram features."
+ ],
+ "Notification.PremiumGift.UseGift": [
+  "Use Gift"
+ ],
+ "Notification.PremiumGift.View": [
+  "View"
+ ],
+ "Notification.PremiumGift.YearsTitle": [
+  "%@ Year Premium",
+  "%@ Years Premium"
  ],
  "Notification.ProximityReached": [
   "%1$@ is now within %2$@ from %3$@"
@@ -5412,6 +5603,12 @@
  "Notification.StarsPrize": [
   "You received a gift"
  ],
+ "Notification.VoiceChatEnded": [
+  "Video chat ended (%@)"
+ ],
+ "Notification.VoiceChatScheduled": [
+  "%1$@ scheduled a video chat for %2$@"
+ ],
  "Notification.VoiceChatScheduledChannel": [
   "Video chat scheduled for %@"
  ],
@@ -5435,6 +5632,9 @@
  ],
  "Notification.YouChangedWallpaper": [
   "You set a new wallpaper for this chat"
+ ],
+ "Notification.YouDisabledTheme": [
+  "You disabled the chat theme"
  ],
  "Notifications.PermissionsEnable": [
   "Enable"
@@ -5909,6 +6109,9 @@
  "RankInfo.AdminTag": [
   "Admin Tag"
  ],
+ "RankInfo.ChangeInfo": [
+  "Only admins can assign member tags in this group."
+ ],
  "RankInfo.Member.Text": [
   "This gray tag %1$@ is **%2$@**'s member tag in **%4$@**."
  ],
@@ -6233,12 +6436,20 @@
  "ShareMenu.ShareTo": [
   "Share with"
  ],
+ "SharedMedia.GifCount": [
+  "1 GIF",
+  "%@ GIFs"
+ ],
  "SharedMedia.SimilarChannelCount": [
   "%@ channel",
   "%@ channels"
  ],
  "SharedMedia.ViewInChat": [
   "Show in Chat"
+ ],
+ "SharedMedia.VoiceMessageCount": [
+  "1 voice message",
+  "%@ voice messages"
  ],
  "SponsoredMessageMenu.Hide": [
   "Hide"
@@ -6772,6 +6983,14 @@
  "StickerPack.CopyLink": [
   "Copy Link"
  ],
+ "StickerPack.EmojiCount": [
+  "1 emoji",
+  "%@ emoji"
+ ],
+ "StickerPack.StickerCount": [
+  "1 sticker",
+  "%@ stickers"
+ ],
  "Stickers.GroupChooseStickerPack": [
   "CHOOSE STICKER SET"
  ],
@@ -6792,6 +7011,9 @@
  ],
  "Story.MessageReposted.Channel": [
   "Message reposted to **%@**."
+ ],
+ "Story.Privacy.PostStoryAs": [
+  "Post Story As"
  ],
  "SuggestPost.SetTime.Label": [
   "Time"

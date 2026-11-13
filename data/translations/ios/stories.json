@@ -110,6 +110,9 @@
  "Camera.OpenChat": [
   "Open Chat"
  ],
+ "Channel.Status": [
+  "channel"
+ ],
  "ChannelBoost.BoostAgain": [
   "Boost Again"
  ],
@@ -214,6 +217,9 @@
  "ChannelBoost.YouBoostedOtherChannel": [
   "You Boosted The Channel"
  ],
+ "Chat.MessageSeenTimestamp.TodayAt": [
+  "today at %@"
+ ],
  "Chat.ReplyExpiredStory": [
   "Expired story"
  ],
@@ -228,6 +234,9 @@
  ],
  "ChatList.Archive.ContextSettings": [
   "Archive Settings"
+ ],
+ "ChatList.ArchivedChatsTitle": [
+  "Archived Chats"
  ],
  "ChatList.Context.Archive": [
   "Archive"
@@ -249,6 +258,12 @@
  ],
  "Common.Cancel": [
   "Cancel"
+ ],
+ "Common.Delete": [
+  "Delete"
+ ],
+ "Common.Edit": [
+  "Edit"
  ],
  "Common.OK": [
   "OK"
@@ -279,6 +294,14 @@
  ],
  "Conversation.ContextMenuSelect": [
   "Select"
+ ],
+ "Conversation.StatusMembers": [
+  "1 member",
+  "%@ members"
+ ],
+ "Conversation.StatusSubscribers": [
+  "%@ subscriber",
+  "%@ subscribers"
  ],
  "Conversation.StoryExpiredMentionTextIncoming": [
   "The story you were mentioned inis no longer available"
@@ -313,8 +336,17 @@
  "CreateExternalStream.RevokeStreamKey": [
   "Revoke Stream Key"
  ],
+ "DialogList.SavedMessages": [
+  "Saved Messages"
+ ],
+ "Group.Status": [
+  "group"
+ ],
  "InviteLink.Share": [
   "Share Link"
+ ],
+ "LastSeen.AtDate": [
+  "last seen %@"
  ],
  "LastSeen.HoursAgo": [
   "last seen 1 hour ago",
@@ -340,6 +372,9 @@
  "LiveStream.StoryViewerEmpty": [
   "no viewers"
  ],
+ "LiveStreamSettings.ConnectStream": [
+  "Connect Stream"
+ ],
  "LiveStreamSettings.PricePerComment": [
   "PRICE PER COMMENT"
  ],
@@ -353,17 +388,44 @@
  "LiveStreamSettings.PricePerCommentInfo": [
   "The price a viewer must pay to send a comment."
  ],
+ "LiveStreamSettings.SaveSettings": [
+  "Save Settings"
+ ],
+ "LiveStreamSettings.StartLiveAs": [
+  "START LIVE AS"
+ ],
+ "LiveStreamSettings.Title": [
+  "Live Settings"
+ ],
+ "LiveStreamSettings.WhoCanView": [
+  "WHO CAN VIEW THIS LIVE"
+ ],
  "LiveStreamSettings.WhoCanViewInfo": [
   "[Select people]() who will never see your Live Stories."
  ],
  "Location.AddThisLocation": [
   "Add This Location"
  ],
+ "Location.PollSubtitle.Description": [
+  "Add location to the poll description"
+ ],
+ "Location.PollSubtitle.Explanation": [
+  "Add location to the quiz explanation"
+ ],
+ "Location.PollSubtitle.PollOption": [
+  "Add location to this option"
+ ],
  "Location.TypeCity": [
   "City"
  ],
+ "Location.TypeLocation": [
+  "Location"
+ ],
  "Location.TypeStreet": [
   "Street"
+ ],
+ "Map.ChooseLocationTitle": [
+  "Location"
  ],
  "Map.Locating": [
   "Locating..."
@@ -437,6 +499,12 @@
  ],
  "MediaPlayer.AudioForwardedToSavedMesagesTooltip": [
   "Audio forwarded to Saved Messages."
+ ],
+ "MediaPlayer.SavedMusic.AddedToProfile": [
+  "Audio added to your profile."
+ ],
+ "MediaPlayer.SavedMusic.AddedToProfile.View": [
+  "View"
  ],
  "Message.ForwardedExpiredStoryShort": [
   "Expired StoryFrom: %@"
@@ -538,6 +606,12 @@
  "Permissions.ContactsAllowInSettings.v0": [
   "Allow in Settings"
  ],
+ "PlaybackSpeed.Normal": [
+  "Normal"
+ ],
+ "PlaybackSpeed.Title": [
+  "Playback Speed"
+ ],
  "Premium.CreateMultipleStories": [
   "Create Multiple Stories"
  ],
@@ -577,6 +651,9 @@
  ],
  "Report.Title.Story": [
   "Report Story"
+ ],
+ "RichText.AddMediaTitle": [
+  "Add Media"
  ],
  "SendStarReactions.LiveStreamActionButton": [
   "Add  # %@"
@@ -710,6 +787,9 @@
  ],
  "Stories.MenuNewAlbum": [
   "New Album"
+ ],
+ "Stories.StatusEmpty": [
+  "no stories"
  ],
  "Story.AlertStealthModeActiveAction": [
   "Proceed"
@@ -878,6 +958,9 @@
  "Story.Editor.Blur.Title": [
   "Blur"
  ],
+ "Story.Editor.CollageDraftAllMediaMissing": [
+  "None of the media in this collage are available anymore. This draft will be deleted."
+ ],
  "Story.Editor.Curves.All": [
   "All"
  ],
@@ -892,6 +975,9 @@
  ],
  "Story.Editor.Done": [
   "Done"
+ ],
+ "Story.Editor.DownloadingMedia": [
+  "Downloading from iCloud..."
  ],
  "Story.Editor.DraftDiscaedText": [
   "If you go back without saving, you will lose any changes you made."
@@ -920,6 +1006,12 @@
  ],
  "Story.Editor.InputPlaceholderAddCaption": [
   "Add a caption..."
+ ],
+ "Story.Editor.MediaUnavailable": [
+  "This media isn't stored on your device and couldn't be downloaded from iCloud. Check your connection and try again."
+ ],
+ "Story.Editor.MediaUnavailableSomeSkipped": [
+  "Some media isn't stored on your device and couldn't be downloaded from iCloud. Only the available items will be posted."
  ],
  "Story.Editor.Next": [
   "Next"
@@ -994,6 +1086,9 @@
  "Story.Editor.TooltipPremiumMore": [
   "More"
  ],
+ "Story.Editor.TooltipPremiumReaction": [
+  "Subscribe to [Telegram Premium]() to use this reaction."
+ ],
  "Story.Editor.TooltipPremiumReactionLimitText": [
   "Upgrade to [Telegram Premium]() to add up to %@ to a story."
  ],
@@ -1048,6 +1143,15 @@
  "Story.FooterReplyUnavailable": [
   "You can't reply to this story"
  ],
+ "Story.ForwardAuthorHiddenTooltip": [
+  "This account was hidden by the user"
+ ],
+ "Story.GroupCommentingRestrictedPlaceholder": [
+  "Comments restricted. Boost the group to unlock."
+ ],
+ "Story.GroupCommentingRestrictedPlaceholderAction": [
+  "Learn More..."
+ ],
  "Story.Guide.BackDescription": [
   "Tap the left edge"
  ],
@@ -1098,6 +1202,12 @@
  ],
  "Story.MessageReposted.Personal": [
   "Message reposted to your stories."
+ ],
+ "Story.MessagingRestrictedPlaceholder": [
+  "%@ only accepts messages from contacts or Premium users."
+ ],
+ "Story.MessagingRestrictedPlaceholderAction": [
+  "Learn more..."
  ],
  "Story.PremiumUpgradeStoriesButton": [
   "Upgrade Stories"
@@ -1366,6 +1476,12 @@
  "Story.StealthModeActivePlaceholder": [
   "Stealth Mode active – %@"
  ],
+ "Story.StealthModePlaceholder": [
+  "Stealth Mode active — {m}:{s}"
+ ],
+ "Story.ToastDeletedContact": [
+  "**%@** has been removed from your contacts."
+ ],
  "Story.ToastHideStoriesFrom": [
   "**%@** will not be able to see your stories."
  ],
@@ -1432,6 +1548,9 @@
  "Story.ToastStealthModeActiveTitle": [
   "You are in Stealth Mode now"
  ],
+ "Story.ToastUserBlocked": [
+  "**%@** has been blocked."
+ ],
  "Story.ToastViewInChat": [
   "View in Chat"
  ],
@@ -1461,6 +1580,9 @@
  ],
  "Story.TooltipSaving": [
   "Saving"
+ ],
+ "Story.TooltipUnmuteVideoSound": [
+  "Tap here to enable sound"
  ],
  "Story.TooltipVideoHasNoSound": [
   "This video has no sound"
@@ -1510,9 +1632,6 @@
  "Story.ViewList.PremiumUpgradeAction": [
   "Learn More"
  ],
- "Story.ViewList.PremiumUpgradeInlineText": [
-  "To unlock future viewer lists for expired and posted stories, subscribe to [Telegram Premium]()."
- ],
  "Story.ViewList.PremiumUpgradeText": [
   "The list of viewers disappears 24 hours after a story expires.To unlock future viewer lists for expired and posted stories, subscribe to [Telegram Premium]()."
  ],
@@ -1521,6 +1640,9 @@
  ],
  "Story.ViewList.TabTitleContacts": [
   "Contacts"
+ ],
+ "Story.ViewList.TitleEmpty": [
+  "No Views"
  ],
  "Story.ViewList.TitleReactions": [
   "Reactions"
@@ -1543,6 +1665,9 @@
  ],
  "Story.Views.NoViews": [
   "Nobody has viewedyour story yet."
+ ],
+ "Story.Views.ViewsExpired": [
+  "List of viewers becomes unavailable **24 hours** after the story expires."
  ],
  "Story.Views.ViewsNotRecorded": [
   "Information about viewers wasn't recorded."
@@ -1765,5 +1890,8 @@
  ],
  "Undo.Undo": [
   "Undo"
+ ],
+ "VoiceChat.PersonalAccount": [
+  "personal account"
  ]
 }

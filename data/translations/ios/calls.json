@@ -109,6 +109,9 @@
  "Calls.TabTitle": [
   "Calls"
  ],
+ "Channel.Status": [
+  "channel"
+ ],
  "Common.Cancel": [
   "Cancel"
  ],
@@ -129,6 +132,10 @@
  ],
  "Contacts.Title": [
   "Contacts"
+ ],
+ "Conversation.StatusSubscribers": [
+  "%@ subscriber",
+  "%@ subscribers"
  ],
  "GroupCall.RevokeLinkText": [
   "Are you sure you want to revoke this link? Once you do, no one will be able to join the call using it."
@@ -164,6 +171,43 @@
  ],
  "LiveStream.CreateNewVoiceChatText": [
   "Live stream ended. Start a new one?"
+ ],
+ "LiveStreamSettings.AllowComments": [
+  "Allow Comments"
+ ],
+ "LiveStreamSettings.AllowScreenshots": [
+  "Allow Screenshots"
+ ],
+ "LiveStreamSettings.ConnectStream": [
+  "Connect Stream"
+ ],
+ "LiveStreamSettings.ConnectStreamInfo": [
+  "Stream with a different app."
+ ],
+ "LiveStreamSettings.PricePerComment": [
+  "PRICE PER COMMENT"
+ ],
+ "LiveStreamSettings.PricePerComment.Free": [
+  "Free"
+ ],
+ "LiveStreamSettings.PricePerComment.Stars": [
+  "%@ Star",
+  "%@ Stars"
+ ],
+ "LiveStreamSettings.PricePerCommentInfo": [
+  "The price a viewer must pay to send a comment."
+ ],
+ "LiveStreamSettings.SaveSettings": [
+  "Save Settings"
+ ],
+ "LiveStreamSettings.StartLiveAs": [
+  "START LIVE AS"
+ ],
+ "LiveStreamSettings.Title": [
+  "Live Settings"
+ ],
+ "LiveStreamSettings.WhoCanViewInfo": [
+  "[Select people]() who will never see your Live Stories."
  ],
  "NewCall.ActionCallMultiple": [
   "Call"
@@ -204,6 +248,22 @@
  "Settings.Title": [
   "Settings"
  ],
+ "Story.Privacy.CategoryCloseFriends": [
+  "Close Friends"
+ ],
+ "Story.Privacy.CategorySelectedContacts": [
+  "Selected Users"
+ ],
+ "Story.Privacy.Choose": [
+  "choose"
+ ],
+ "Story.Privacy.People": [
+  "1 person",
+  "%@ people"
+ ],
+ "Story.Privacy.StartLiveAs": [
+  "Start Live Story As"
+ ],
  "VoiceChat.AnonymousDisabledAlertText": [
   "Sorry, you can't join video chats as an anonymous admin."
  ],
@@ -215,6 +275,9 @@
  ],
  "VoiceChat.CreateNewVoiceChatText": [
   "Video chat ended. Start a new one?"
+ ],
+ "VoiceChat.PersonalAccount": [
+  "personal account"
  ],
  "Weekday.ShortFriday": [
   "Fri"
