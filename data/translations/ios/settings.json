@@ -1538,6 +1538,9 @@
  "IntentsSettings.MainAccountInfo": [
   "Choose an account for Siri and share suggestions."
  ],
+ "IntentsSettings.Reset": [
+  "Reset"
+ ],
  "IntentsSettings.ResetAll": [
   "Reset All Share Suggestions"
  ],

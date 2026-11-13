@@ -242,6 +242,9 @@
  "ChatList.StoryFeedTooltipUsers": [
   "Tap above to view stories from %@"
  ],
+ "Common.Cancel": [
+  "Cancel"
+ ],
  "Contacts.DeselectAll": [
   "Deselect All"
  ],

@@ -415,15 +415,6 @@
  "BoostGift.PrepaidGiveawayStarsMonths": [
   "%@-month subscriptions"
  ],
- "BoostGift.ReduceQuantity.Reduce": [
-  "Reduce"
- ],
- "BoostGift.ReduceQuantity.Text": [
-  "You can't acquire %1$@ %2$@-month subscriptions in the app. Do you want to reduce the quantity to %3$@?"
- ],
- "BoostGift.ReduceQuantity.Title": [
-  "Reduce Quantity"
- ],
  "BoostGift.Stars.Boosts": [
   "%@ BOOST",
   "%@ BOOSTS"
@@ -1060,9 +1051,6 @@
  "Channel.Edit.PrivateConfirmation.Title": [
   "Make Channel Private?"
  ],
- "Channel.EditAdmin.GuardBotEnableSubscribersText": [
-  "New subscribers will now need approval from **%@** before they can join this channel"
- ],
  "Channel.EditAdmin.PermissionEnabledByDefault": [
   "This option is permitted for all members in Group Permissions."
  ],
@@ -1209,9 +1197,6 @@
  ],
  "ChannelBoost.MaxLevelReachedTextAuthor": [
   "This channel reached **Level %1$@** and can now post %2$@."
- ],
- "ChannelBoost.MoreBoosts.Gift": [
-  "Gift Premium"
  ],
  "ChannelBoost.MoreBoostsNeeded.Boosted.Level.Text": [
   "This channel reached **Level %@** and unlocked new features."
@@ -2087,12 +2072,6 @@
  "ChatList.DeleteChatsAlert.Title": [
   "Delete Chat?",
   "Delete %@ Chats?"
- ],
- "ChatList.DeleteForAllMembersConfirmationText": [
-  "This will **delete all messages** in this chat for **all participants**."
- ],
- "ChatList.DeleteForAllSubscribersConfirmationText": [
-  "This will **delete all messages** in this channel for **all subscribers**."
  ],
  "ChatList.DeleteThreadsConfirmation": [
   "Delete Topic",
@@ -4210,9 +4189,6 @@
  "GroupBoost.EnableStoriesText": [
   "Your group needs %1$@ to enable posting stories."
  ],
- "GroupBoost.Error.BoostTooOftenText": [
-  "You can change the group you boost only once a day. Next time you can boost is in **%@**."
- ],
  "GroupBoost.IncreaseLimitText": [
   "Your group needs %1$@ to post %2$@."
  ],
@@ -4332,9 +4308,6 @@
  ],
  "Intents.ErrorLockedTitle": [
   "Locked"
- ],
- "IntentsSettings.Reset": [
-  "Reset"
  ],
  "IntentsSettings.SuggestedAndSpotlightChatsInfo": [
   "Suggestions will appear in the Share Sheet and Spotlight search results. Archived chats will not be suggested."
@@ -6723,9 +6696,6 @@
  ],
  "Premium.Purchase.ErrorUnknown": [
   "An error occurred. Please try again."
- ],
- "Premium.Purchase.OnlyOneSubscriptionAllowed": [
-  "You have already purchased Telegram Premium for another account. You can only have one Telegram Premium subscription on one Apple ID."
  ],
  "Premium.Purchase.Pending": [
   "Purchase Pending"

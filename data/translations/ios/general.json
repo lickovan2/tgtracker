@@ -5567,6 +5567,9 @@
  "Login.UnknownError": [
   "An error occurred, please try again later."
  ],
+ "LoginPassword.InvalidPasswordError": [
+  "Invalid password, please try again."
+ ],
  "MESSAGES": [
   "%1$@ sent you %2$@ messages"
  ],

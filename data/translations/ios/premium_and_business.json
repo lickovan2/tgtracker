@@ -1,9 +1,69 @@
 {
+ "BoostGift.ReduceQuantity.Reduce": [
+  "Reduce"
+ ],
+ "BoostGift.ReduceQuantity.Text": [
+  "You can't acquire %1$@ %2$@-month subscriptions in the app. Do you want to reduce the quantity to %3$@?"
+ ],
+ "BoostGift.ReduceQuantity.Title": [
+  "Reduce Quantity"
+ ],
+ "BoostGift.StartConfirmation.Start": [
+  "Start"
+ ],
+ "BoostGift.StartConfirmation.Text": [
+  "Are you sure you want to start giveaway now?"
+ ],
+ "BoostGift.StartConfirmation.Title": [
+  "Start Giveaway"
+ ],
+ "ChannelBoost.Error.BoostTooOftenText": [
+  "You can only change the channel you boost once a day. You will be able to boost in **%@**."
+ ],
+ "ChannelBoost.Error.BoostTooOftenTitle": [
+  "Can't Boost Too Often"
+ ],
+ "ChannelBoost.Error.PremiumNeededText": [
+  "Only **Telegram Premium** subscribers can boost channels. Do you want to subscribe to **Telegram Premium**?"
+ ],
+ "ChannelBoost.Error.PremiumNeededTitle": [
+  "Premium Needed"
+ ],
+ "ChannelBoost.MoreBoosts.Gift": [
+  "Gift Premium"
+ ],
+ "ChannelBoost.MoreBoosts.Text": [
+  "To boost **%1$@**, gift **Telegram Premium** to a friend and get **%2$@** additional boosts."
+ ],
+ "ChannelBoost.MoreBoosts.Title": [
+  "More Boosts Needed"
+ ],
  "ChatList.MaxThreadPinsFinalText": [
   "Sorry, you can't pin more than **%@** topic to the top. Unpin some that are currently pinned.",
   "Sorry, you can't pin more than **%@** topics to the top. Unpin some that are currently pinned."
  ],
+ "Common.Cancel": [
+  "Cancel"
+ ],
+ "Common.Close": [
+  "Close"
+ ],
  "Common.OK": [
   "OK"
+ ],
+ "Common.Yes": [
+  "Yes"
+ ],
+ "GroupBoost.Error.BoostTooOftenText": [
+  "You can change the group you boost only once a day. Next time you can boost is in **%@**."
+ ],
+ "GroupBoost.Error.PremiumNeededText": [
+  "Only **Telegram Premium** subscribers can boost groups. Do you want to subscribe to **Telegram Premium**?"
+ ],
+ "Premium.LimitReached": [
+  "Limit Reached"
+ ],
+ "Premium.Purchase.OnlyOneSubscriptionAllowed": [
+  "You have already purchased Telegram Premium for another account. You can only have one Telegram Premium subscription on one Apple ID."
  ]
 }

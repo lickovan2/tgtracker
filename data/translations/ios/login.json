@@ -26,6 +26,9 @@
  "ChatList.SessionReview.PanelTitle": [
   "Someone just got access to your messages!"
  ],
+ "ChatSettings.ConnectionType.UseProxy": [
+  "Use Proxy"
+ ],
  "Common.Back": [
   "Back"
  ],
@@ -429,8 +432,14 @@
  "TwoStepAuth.RecoveryEmailUnavailable": [
   "Unable to access %@?"
  ],
+ "TwoStepAuth.RecoveryFailed": [
+  "Your remaining options are either to remember your password or to reset your account."
+ ],
  "TwoStepAuth.RecoveryTitle": [
   "Email Code"
+ ],
+ "TwoStepAuth.RecoveryUnavailable": [
+  "Since you didn't provide a recovery email when setting up your password, your remaining options are either to remember your password or to reset your account."
  ],
  "TwoStepAuth.ResetAccountConfirmation": [
   "You will lose all your Telegram chats, messages, media and files if you proceed with resetting your account."

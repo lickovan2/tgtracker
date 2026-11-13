@@ -47,6 +47,9 @@
  "Channel.Setup.Title": [
   "Channel"
  ],
+ "ChannelInfo.DeleteChannelConfirmation": [
+  "Deleting this channel will remove all subscribers and all posts will be lost. Delete the channel anyway?"
+ ],
  "ChannelInfo.DeleteGroupConfirmation": [
   "Deleting this group will remove all members and all messages will be lost. Do you want to delete the group?"
  ],
@@ -195,6 +198,12 @@
  ],
  "ChatList.DeleteForAllMembers": [
   "Delete for all members"
+ ],
+ "ChatList.DeleteForAllMembersConfirmationText": [
+  "This will **delete all messages** in this chat for **all participants**."
+ ],
+ "ChatList.DeleteForAllSubscribersConfirmationText": [
+  "This will **delete all messages** in this channel for **all subscribers**."
  ],
  "ChatList.DeleteForAllWhenPossible": [
   "Delete from both sides where possible"
@@ -441,6 +450,9 @@
  ],
  "ChatListFilter.AddChatsTitle": [
   "Add Chats..."
+ ],
+ "ChatListFilter.SaveAlertActionSave": [
+  "Save"
  ],
  "ChatListFolder.AddChats": [
   "Add Chats"
