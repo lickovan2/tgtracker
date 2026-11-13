@@ -8349,6 +8349,12 @@
  "WallpaperPreview.GroupHeader": [
   "All members will see this wallpaper"
  ],
+ "WallpaperPreview.Pattern": [
+  "Pattern"
+ ],
+ "WallpaperPreview.WallpaperColors": [
+  "Colors"
+ ],
  "Watch.Conversation.GroupInfo": [
   "Group Info"
  ],

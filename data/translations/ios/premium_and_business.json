@@ -1,4 +1,10 @@
 {
+ "AuthSessions.View.Location": [
+  "Location"
+ ],
+ "AuthSessions.View.TerminateSession": [
+  "Terminate Session"
+ ],
  "AvatarEditor.PremiumNeeded.Background": [
   "Subscribe to Telegram Premium to use this background."
  ],
@@ -520,6 +526,9 @@
  "BusinessLocationSetup.AlertUnsavedChanges.Text": [
   "You have unsaved changes."
  ],
+ "BusinessLocationSetup.DeleteLocation": [
+  "Delete Location"
+ ],
  "BusinessLocationSetup.ErrorAddressEmpty.Text": [
   "Address can't be empty."
  ],
@@ -592,6 +601,9 @@
  "BusinessMessageSetup.Recipients.CategoryNonContacts": [
   "Non-Contacts"
  ],
+ "BusinessMessageSetup.Recipients.ExcludeSearchTitle": [
+  "Exclude Chats"
+ ],
  "BusinessMessageSetup.Recipients.ExcludedSectionHeader": [
   "EXCLUDED CHATS"
  ],
@@ -654,6 +666,9 @@
  ],
  "BusinessMessageSetup.ToggleGreetingMessage": [
   "Send Greeting Message"
+ ],
+ "Cache.ByPeerHeader": [
+  "CHATS"
  ],
  "Calls.TabTitle": [
   "Calls"
@@ -974,6 +989,9 @@
  "ChatList.ArchivedChatsTitle": [
   "Archived Chats"
  ],
+ "ChatList.ChatTypesSection": [
+  "CHAT TYPES"
+ ],
  "ChatList.MaxThreadPinsFinalText": [
   "Sorry, you can't pin more than **%@** topic to the top. Unpin some that are currently pinned.",
   "Sorry, you can't pin more than **%@** topics to the top. Unpin some that are currently pinned."
@@ -983,6 +1001,9 @@
  ],
  "ChatList.PeerTypeNonContactUser": [
   "non-contact"
+ ],
+ "ChatListFilter.AddChatsSearchPlaceholder": [
+  "Search Chats"
  ],
  "ChatbotSetup.BotAddAction": [
   "ADD"
@@ -1048,6 +1069,9 @@
  "ChatbotSetup.Recipients.ExcludedSectionFooter": [
   "Select chats or entire chat categories which the bot **WILL NOT** have access to."
  ],
+ "ChatbotSetup.Recipients.IncludedListTitle": [
+  "Included Chats"
+ ],
  "ChatbotSetup.Recipients.IncludedSectionFooter": [
   "Select chats or entire chat categories which the bot **WILL** have access to."
  ],
@@ -1056,6 +1080,27 @@
  ],
  "ChatbotSetup.RecipientsSectionHeader": [
   "CHATS THE BOT CAN ACCESS"
+ ],
+ "ChatbotSetup.Rights.ChangeGiftSettings": [
+  "Change Gift Settings"
+ ],
+ "ChatbotSetup.Rights.DeleteReceivedMessages": [
+  "Delete Any Message"
+ ],
+ "ChatbotSetup.Rights.DeleteSentMessages": [
+  "Delete Sent Messages"
+ ],
+ "ChatbotSetup.Rights.EditBio": [
+  "Edit Bio"
+ ],
+ "ChatbotSetup.Rights.EditName": [
+  "Edit Name"
+ ],
+ "ChatbotSetup.Rights.EditProfilePhoto": [
+  "Edit Profile Photo"
+ ],
+ "ChatbotSetup.Rights.EditUsername": [
+  "Edit Username"
  ],
  "ChatbotSetup.Rights.ManageGiftsAndStars": [
   "Manage Gifts and Stars"
@@ -1068,6 +1113,27 @@
  ],
  "ChatbotSetup.Rights.ManageStories": [
   "Manage Stories"
+ ],
+ "ChatbotSetup.Rights.MarkAsRead": [
+  "Mark Messages as Read"
+ ],
+ "ChatbotSetup.Rights.ReadMessages": [
+  "Read Messages"
+ ],
+ "ChatbotSetup.Rights.ReplyToMessages": [
+  "Reply to Messages"
+ ],
+ "ChatbotSetup.Rights.SellGifts": [
+  "Convert Gifts to Stars"
+ ],
+ "ChatbotSetup.Rights.TransferAndUpgradeGifts": [
+  "Transfer and Upgrade Gifts"
+ ],
+ "ChatbotSetup.Rights.TransferStars": [
+  "Transfer Stars"
+ ],
+ "ChatbotSetup.Rights.ViewGifts": [
+  "View Gifts and Stars"
  ],
  "ChatbotSetup.SetupNotCompleted.Leave": [
   "Leave"
@@ -1268,6 +1334,12 @@
  "LastSeen.MinutesAgo": [
   "last seen 1 minute ago",
   "last seen %@ minutes ago"
+ ],
+ "Localization.DoNotTranslate": [
+  "Do Not Translate"
+ ],
+ "Localization.TranslateEntireChat": [
+  "Translate Entire Chats"
  ],
  "MessageTimer.Days": [
   "%@ day",
@@ -1883,6 +1955,9 @@
  "Premium.Purchase.PendingInfo": [
   "Your purchase is awaiting confirmation. You can leave this screen. Premium will activate when the purchase is confirmed."
  ],
+ "Premium.Reactions": [
+  "Unique Reactions"
+ ],
  "Premium.Reactions.Proceed": [
   "Unlock Premium Reactions"
  ],
@@ -2065,6 +2140,15 @@
  "PremiumNeeded.Title": [
   "Premium Needed"
  ],
+ "QuickReplies.EmptyState.AddButton": [
+  "Add Quick Reply"
+ ],
+ "QuickReplies.EmptyState.Text": [
+  "Set up shortcuts with rich text and media to respond to messages faster."
+ ],
+ "QuickReplies.EmptyState.Title": [
+  "No Quick Replies"
+ ],
  "QuickReply.ChatRemoveAwayMessage.Text": [
   "You didn't create an away message. Exiting will remove it."
  ],
@@ -2085,6 +2169,9 @@
  ],
  "QuickReply.ChatRemoveGreetingMessage.Title": [
   "Remove Greeting Message"
+ ],
+ "QuickReply.CreateShortcutText": [
+  "Add a shortcut for your quick reply."
  ],
  "QuickReply.CreateShortcutTitle": [
   "New Quick Reply"
@@ -2108,6 +2195,9 @@
  ],
  "QuickReply.ShortcutExistsInlineError": [
   "Shortcut with that name already exists"
+ ],
+ "QuickReply.ShortcutPlaceholder": [
+  "Shortcut"
  ],
  "QuickReply.Title": [
   "Quick Replies"
@@ -2152,6 +2242,30 @@
  "ReassignBoost.WaitForCooldown": [
   "Wait until the boost is available or get **%1$@** more boosts by gifting a **Telegram Premium** subscription."
  ],
+ "RecentSession.ConnectedBot.ConnectedFrom": [
+  "CONNECTED FROM"
+ ],
+ "RecentSession.ConnectedBot.Date": [
+  "Date"
+ ],
+ "RecentSession.ConnectedBot.Device": [
+  "Device"
+ ],
+ "RecentSession.ConnectedBot.Subtitle": [
+  "Chat Automation Bot"
+ ],
+ "Settings.AppLanguage": [
+  "Language"
+ ],
+ "Settings.Business": [
+  "Telegram Business"
+ ],
+ "Settings.Premium": [
+  "Telegram Premium"
+ ],
+ "Settings.Stars": [
+  "My Stars"
+ ],
  "Settings.Title": [
   "Settings"
  ],
@@ -2193,6 +2307,12 @@
  ],
  "Story.PremiumUpgradeStoriesButton": [
   "Upgrade Stories"
+ ],
+ "Time.MediumDate": [
+  "%1$@ at %2$@"
+ ],
+ "User.DeletedAccount": [
+  "Deleted Account"
  ],
  "Weekday.Friday": [
   "Friday"

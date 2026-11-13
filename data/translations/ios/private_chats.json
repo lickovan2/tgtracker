@@ -4946,6 +4946,12 @@
  "WallpaperPreview.NotAppliedInfo": [
   "**%@** will be able to apply this wallpaper"
  ],
+ "WallpaperPreview.Pattern": [
+  "Pattern"
+ ],
+ "WallpaperPreview.WallpaperColors": [
+  "Colors"
+ ],
  "Watch.Conversation.Unblock": [
   "Unblock"
  ],

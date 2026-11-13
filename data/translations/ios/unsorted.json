@@ -1,15 +1,6 @@
 {
- "AccessDenied.AgeVerificationCamera": [
-  "Telegram needs access to your camera for age verification.Open your device's Settings > Privacy > Camera and set Telegram to ON."
- ],
- "AccessDenied.LocationDisabled": [
-  "Telegram needs access to your location so that you can share it with your contacts.Please go to your device‘s settings > Privacy > Location Services and set it to ON."
- ],
  "AccessDenied.QrCode": [
   "Telegram needs access to your photo library so that you can scan QR codes.Please go to your device's settings > Privacy > Photos and set Telegram to ON."
- ],
- "AccessDenied.VideoCallCamera": [
-  "Telegram needs access to your camera so that you can make video calls.Please go to your device‘s settings > Privacy > Camera and set Telegram to ON."
  ],
  "AccessDenied.VideoMessageMicrophone": [
   "Telegram needs access to your microphone so that you can send video messages.Please go to your device‘s settings > Privacy > Microphone and set Telegram to ON."
@@ -3014,9 +3005,6 @@
  "PasscodeSettings.WalletProtectionError": [
   "Couldn't update wallet protection. Please try again."
  ],
- "Passkeys.AddPasskey": [
-  "Add Passkey"
- ],
  "Passport.PasswordCompleteSetup": [
   "Complete Password Setup"
  ],
@@ -3140,12 +3128,6 @@
  "Premium.Restore.Success": [
   "Done"
  ],
- "Privacy.Bio.AlwaysShareWith.Title": [
-  "Always Share With"
- ],
- "Privacy.Bio.NeverShareWith.Title": [
-  "Never Share With"
- ],
  "Privacy.GroupsAndChannels.CustomShareHelp": [
   "These users will or will not be able to add you to groups and channels regardless of the settings above."
  ],
@@ -3175,9 +3157,6 @@
  ],
  "ProfileColorSetup.ChannelColorInfoLabel": [
   "Choose a color for the channel's profile"
- ],
- "ProfileColorSetup.NoProfileGiftsPlaceholder": [
-  "You don't have any gifts you can use as styles for your profile."
  ],
  "ProfilePhoto.OpenInEditor": [
   "Open in Editor"
@@ -3950,21 +3929,6 @@
  "TwoFactorSetup.EmailVerification.Placeholder": [
   "Code"
  ],
- "TwoFactorSetup.ResetDone.Action": [
-  "Continue"
- ],
- "TwoFactorSetup.ResetDone.Text": [
-  "This password will be required when you log in on a new device in addition to the code you get via SMS."
- ],
- "TwoFactorSetup.ResetDone.TextNoPassword": [
-  "You can always set a new password inSettings > Privacy & Security > Two-Step Verification"
- ],
- "TwoFactorSetup.ResetDone.Title": [
-  "New Password Set!"
- ],
- "TwoFactorSetup.ResetDone.TitleNoPassword": [
-  "Password Removed"
- ],
  "TwoStepAuth.ConfirmationText": [
   "Please check your email and click on the validation link to complete Two-Step Verification setup. Be sure to check the spam folder as well."
  ],
@@ -3973,9 +3937,6 @@
  ],
  "TwoStepAuth.EmailCodeExpired": [
   "This confirmation code has expired. Please try again."
- ],
- "TwoStepAuth.SetupEmail": [
-  "Set Recovery Email"
  ],
  "TwoStepAuth.SetupResendEmailCodeAlert": [
   "The code has been sent. Please check your email. Be sure to check the spam folder as well."
@@ -4045,20 +4006,11 @@
  "Username.DeactivateAlertTitle": [
   "Deactivate Username"
  ],
- "Username.InvalidEndsWithUnderscore": [
-  "Sorry, a username can't end with an underscore."
- ],
- "Username.InvalidStartsWithUnderscore": [
-  "Sorry, a username can't start with an underscore."
- ],
  "Username.LinkCopied": [
   "Link copied to clipboard."
  ],
  "Username.TooManyPublicUsernamesError": [
   "Sorry, you have reserved too many public usernames."
- ],
- "Username.UsernamePurchaseAvailable": [
-  "**This username is already taken.** However, it is currently available for purchase. [Learn more...]()"
  ],
  "VideoChat.EncryptionKeyLabelShort": [
   "Encrypted"

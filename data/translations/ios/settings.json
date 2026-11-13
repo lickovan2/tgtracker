@@ -677,6 +677,9 @@
  "BlockedUsers.Unblock": [
   "Unblock"
  ],
+ "Business.DontHideAds": [
+  "Do Not Hide Ads"
+ ],
  "Cache.ByPeerHeader": [
   "CHATS"
  ],
@@ -770,6 +773,9 @@
  ],
  "Calls.NotNow": [
   "Not Now"
+ ],
+ "Calls.StartNewCall": [
+  "Start New Call"
  ],
  "Calls.TabTitle": [
   "Calls"
@@ -1036,6 +1042,12 @@
  "ChatListFolderSettings.Info": [
   "Create folders for different groups of chats and quickly switch between them."
  ],
+ "ChatListFolderSettings.NewFolder": [
+  "Create New Folder"
+ ],
+ "ChatListFolderSettings.RecommendedFoldersSection": [
+  "RECOMMENDED FOLDERS"
+ ],
  "ChatListFolderSettings.RecommendedNewFolder": [
   "Add Custom Folder"
  ],
@@ -1239,6 +1251,9 @@
  ],
  "Conversation.ClearCache": [
   "Clear Cache"
+ ],
+ "Conversation.ContextMenuShare": [
+  "Share"
  ],
  "Conversation.InputTextPlaceholder": [
   "Message"
@@ -2745,6 +2760,9 @@
  "PasscodeSettings.WalletProtectionInfo": [
   "Required when sending funds or confirming other sensitive actions."
  ],
+ "Passkeys.AddPasskey": [
+  "Add Passkey"
+ ],
  "Passkeys.ButtonCreate": [
   "Create Passkey"
  ],
@@ -3283,8 +3301,14 @@
  "Privacy.Bio": [
   "Bio"
  ],
+ "Privacy.Bio.AlwaysShareWith.Title": [
+  "Always Share With"
+ ],
  "Privacy.Bio.CustomHelp": [
   "You can restrict who can see the bio on your profile with granular precision."
+ ],
+ "Privacy.Bio.NeverShareWith.Title": [
+  "Never Share With"
  ],
  "Privacy.Bio.WhoCanSeeMyBio": [
   "WHO CAN SEE MY BIO"
@@ -4975,6 +4999,21 @@
  "TwoFactorSetup.PasswordRecovery.Title": [
   "Create New Password"
  ],
+ "TwoFactorSetup.ResetDone.Action": [
+  "Continue"
+ ],
+ "TwoFactorSetup.ResetDone.Text": [
+  "This password will be required when you log in on a new device in addition to the code you get via SMS."
+ ],
+ "TwoFactorSetup.ResetDone.TextNoPassword": [
+  "You can always set a new password inSettings > Privacy & Security > Two-Step Verification"
+ ],
+ "TwoFactorSetup.ResetDone.Title": [
+  "New Password Set!"
+ ],
+ "TwoFactorSetup.ResetDone.TitleNoPassword": [
+  "Password Removed"
+ ],
  "TwoFactorSetup.ResetFloodWait": [
   "You recently requested a password reset that was canceled. Please wait %@ before making a new request."
  ],
@@ -5055,6 +5094,9 @@
  ],
  "TwoStepAuth.EnterEmailCode": [
   "Enter Code"
+ ],
+ "TwoStepAuth.EnterPasswordForgot": [
+  "Forgot password?"
  ],
  "TwoStepAuth.EnterPasswordHelp": [
   "You have Two-Step Verification enabled, so your account is protected with an additional password."
@@ -5140,6 +5182,9 @@
  "TwoStepAuth.SetPasswordHelp": [
   "You can set a password that will be required when you log in on a new device in addition to the code you get in the SMS."
  ],
+ "TwoStepAuth.SetupEmail": [
+  "Set Recovery Email"
+ ],
  "TwoStepAuth.SetupHint": [
   "Please create a hint for your password:"
  ],
@@ -5210,14 +5255,23 @@
  "Username.InvalidCharacters": [
   "Only a–z, 0–9, and underscores allowed."
  ],
+ "Username.InvalidEndsWithUnderscore": [
+  "Sorry, a username can't end with an underscore."
+ ],
  "Username.InvalidStartsWithNumber": [
   "Usernames can't start with a number."
+ ],
+ "Username.InvalidStartsWithUnderscore": [
+  "Sorry, a username can't start with an underscore."
  ],
  "Username.InvalidTaken": [
   "Sorry, this username is already taken."
  ],
  "Username.InvalidTooShort": [
   "Usernames must have at least 5 characters."
+ ],
+ "Username.InvalidValue": [
+  "Sorry, this username is invalid."
  ],
  "Username.LinkHint": [
   "This link opens a chat with you:[https://t.me/%@]"
@@ -5233,6 +5287,9 @@
  ],
  "Username.UsernameIsAvailable": [
   "%@ is available."
+ ],
+ "Username.UsernamePurchaseAvailable": [
+  "**This username is already taken.** However, it is currently available for purchase. [Learn more...]()"
  ],
  "VoiceChat.RemovePeer": [
   "Remove"

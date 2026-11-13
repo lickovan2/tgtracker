@@ -1202,6 +1202,9 @@
  "ProfileColorSetup.NoNameGiftsPlaceholder": [
   "You don't have any gifts you can use as styles for your name."
  ],
+ "ProfileColorSetup.NoProfileGiftsPlaceholder": [
+  "You don't have any gifts you can use as styles for your profile."
+ ],
  "ProfileColorSetup.ProfileColorPreviewInfo": [
   "You can change the color of your name and customize replies to you. [Change >]()"
  ],

@@ -1,4 +1,10 @@
 {
+ "AuthSessions.LinkDesktopDevice": [
+  "Add Device"
+ ],
+ "AuthSessions.TerminateOtherSessions": [
+  "Terminate all other sessions"
+ ],
  "Call.AlertMoveToConference": [
   "End current call and start a group call?"
  ],
@@ -114,6 +120,9 @@
  ],
  "Channel.Status": [
   "channel"
+ ],
+ "ChatListFolderSettings.NewFolder": [
+  "Create New Folder"
  ],
  "Common.Cancel": [
   "Cancel"
@@ -286,6 +295,12 @@
  ],
  "Presence.online": [
   "online"
+ ],
+ "Settings.ChatFolders": [
+  "Chat Folders"
+ ],
+ "Settings.Devices": [
+  "Devices"
  ],
  "Settings.MyProfile": [
   "My Profile"
