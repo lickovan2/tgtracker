@@ -15691,7 +15691,7 @@
   "Old Wallet"
  ],
  "Wallet.Conflict.UpdatePendingText": [
-  "The recovery phrase of this wallet was being changed and the blockchain hasn't confirmed which phrase is valid yet. Wait a moment and try again."
+  "The secret phrase of this wallet was being changed and the blockchain hasn't confirmed which phrase is valid yet. Wait a moment and try again."
  ],
  "Wallet.Connect.Error": [
   "Unable to connect this app. Please try again."
@@ -15968,7 +15968,7 @@
   "Couldn't Replace Wallet"
  ],
  "Wallet.Replace.ImportText": [
-  "Bring in a wallet by its recovery phrase created in Telegram."
+  "Bring in a wallet by its secret phrase created in Telegram."
  ],
  "Wallet.Replace.PasswordText": [
   "Enter your Two-Step Verification password to replace the wallet."
