@@ -423,11 +423,17 @@
  "Permissions.NotificationsAllow.v0": [
   "Turn Notifications ON"
  ],
+ "Permissions.NotificationsAllowInSettings.v0": [
+  "Turn ON in Settings"
+ ],
  "Permissions.NotificationsText.v0": [
   "Don't miss important messages from your friends and coworkers."
  ],
  "Permissions.NotificationsTitle.v0": [
   "Turn ON Notifications"
+ ],
+ "Permissions.Skip": [
+  "Skip"
  ],
  "PrivacyPolicy.Accept": [
   "Accept & Continue"

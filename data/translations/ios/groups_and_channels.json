@@ -139,6 +139,9 @@
  "Attachment.RecentlySentFiles": [
   "Recently Sent Files"
  ],
+ "Attachment.ScanDocument": [
+  "Scan Document"
+ ],
  "Attachment.SearchWeb": [
   "Search Web"
  ],
@@ -1450,8 +1453,14 @@
  "Channel.OwnershipTransfer.EnterPasswordText": [
   "Please enter your Two-Step Verification password to complete this action."
  ],
+ "Channel.OwnershipTransfer.ErrorAdminsTooMuch": [
+  "Sorry, this channel has too many admins and the new owner can't be added. Please remove one of the existing admins first."
+ ],
  "Channel.OwnershipTransfer.ErrorPrivacyRestricted": [
   "Sorry, this user is not a member of this channel and their privacy settings prevent you from adding them manually."
+ ],
+ "Channel.OwnershipTransfer.ErrorPublicChannelsTooMuch": [
+  "Sorry, the target user has too many public groups or channels already. Please ask them to make one of their existing groups or channels private first."
  ],
  "Channel.OwnershipTransfer.PasswordPlaceholder": [
   "Password"
@@ -2842,6 +2851,12 @@
  "ChatImportActivity.ErrorNotAdmin": [
   "You need to be an admin in the group to import messages."
  ],
+ "ChatImportActivity.Retry": [
+  "Retry"
+ ],
+ "ChatImportActivity.Title": [
+  "Importing Chat"
+ ],
  "ChatList.ArchivedChatsTitle": [
   "Archived Chats"
  ],
@@ -2908,8 +2923,79 @@
  "Common.Yes": [
   "Yes"
  ],
+ "Community.Add.ActionAddToCommunity": [
+  "Add to Community"
+ ],
+ "Community.Add.Title": [
+  "Add Chat"
+ ],
+ "Community.Add.VisibilityHeader": [
+  "CHAT VISIBILITY"
+ ],
+ "Community.Add.VisibilityHidden": [
+  "Hidden"
+ ],
+ "Community.Add.VisibilityHiddenInfo": [
+  "Only invited members and community admins will see this chat."
+ ],
+ "Community.Add.VisibilityInfo": [
+  "You won't be able to change this later."
+ ],
+ "Community.Add.VisibilityVisible": [
+  "Visible"
+ ],
+ "Community.Add.VisibilityVisibleInfo": [
+  "Anyone in the community will be able to see this chat."
+ ],
+ "Community.AdminActions.WarningChatCount": [
+  "%@ chat",
+  "%@ chats"
+ ],
+ "Community.AdminActions.WarningText": [
+  "Banning **%@** will also remove **%@** they created from the community."
+ ],
+ "Community.AdminActions.WarningTitle": [
+  "Warning"
+ ],
  "Community.CommunityAdded.View": [
   "View"
+ ],
+ "Community.Edit.AddChat": [
+  "Add Chat to Community"
+ ],
+ "Community.Edit.ChatsHeader": [
+  "%@ CHAT",
+  "%@ CHATS"
+ ],
+ "Community.Edit.CommunityNamePlaceholder": [
+  "Community Name"
+ ],
+ "Community.Edit.PermissionAllMembers": [
+  "All Members"
+ ],
+ "Community.Edit.PermissionAllMembersInfo": [
+  "Allow members to add their groups and channels to the community."
+ ],
+ "Community.Edit.PermissionOnlyAdmins": [
+  "Only Admins"
+ ],
+ "Community.Edit.PermissionOnlyAdminsInfo": [
+  "Chats suggested by community members require admin approval."
+ ],
+ "Community.Edit.WhoCanAddChats": [
+  "WHO CAN ADD CHATS"
+ ],
+ "Community.Request.ApprovedToast": [
+  "You've added the chat to the community."
+ ],
+ "Community.Request.DeclinedToast": [
+  "You declined adding the chat to the community."
+ ],
+ "Community.View.PendingRequestApprovedToast": [
+  "You've added the group to the community."
+ ],
+ "Community.View.PendingRequestDeclinedToast": [
+  "You declined adding the chat to the community."
  ],
  "Compose.ChannelMembers": [
   "Members"
@@ -3410,6 +3496,9 @@
  "Conversation.SearchByName.Prefix": [
   "from: "
  ],
+ "Conversation.SearchNoResults": [
+  "No Results"
+ ],
  "Conversation.SecretLinkPreviewAlert": [
   "Would you like to enable extended link previews in Secret Chats? Note that link previews are generated on Telegram servers."
  ],
@@ -3425,6 +3514,9 @@
  ],
  "Conversation.SendMesageAsPremiumInfo": [
   "Subscribe to **Telegram Premium** to be able to comment on behalf of your channels in any group chat."
+ ],
+ "Conversation.SendMessage.ScheduleMessage": [
+  "Schedule Message"
  ],
  "Conversation.SendMessage.SendSilently": [
   "Send Without Sound"
@@ -3648,6 +3740,12 @@
  "EditRank.AddTag": [
   "Add Tag"
  ],
+ "EditRank.EditTag": [
+  "Edit Tag"
+ ],
+ "EditRank.Info": [
+  "Add a short tag next to %@'s name."
+ ],
  "EditRank.InfoYou": [
   "Share your role, title or how you're known in this group. Your tag is visible to all members."
  ],
@@ -3702,6 +3800,10 @@
  "FolderLinkPreview.ButtonAddFolder": [
   "Add Folder"
  ],
+ "FolderLinkPreview.ChatSectionHeader": [
+  "1 CHAT IN THIS FOLDER",
+  "%d CHATS IN THIS FOLDER"
+ ],
  "FolderLinkPreview.ChatSectionJoinHeader": [
   "1 CHAT TO JOIN",
   "%d CHATS TO JOIN"
@@ -3709,11 +3811,22 @@
  "FolderLinkPreview.LabelPeerMember": [
   "You are already a member"
  ],
+ "FolderLinkPreview.LabelPeerMembers": [
+  "%d member",
+  "%d members"
+ ],
  "FolderLinkPreview.LabelPeerSubscriber": [
   "You are already a subscriber"
  ],
+ "FolderLinkPreview.LabelPeerSubscribers": [
+  "%d subscriber",
+  "%d subscribers"
+ ],
  "FolderLinkPreview.TextAddFolder": [
   "Do you want to add a new chat folderand join its groups and channels?"
+ ],
+ "FolderLinkPreview.TextAllAdded": [
+  "You have already added thisfolder and its chats."
  ],
  "FolderLinkPreview.TitleAddFolder": [
   "Add Folder"
@@ -4045,6 +4158,9 @@
  ],
  "Group.OwnershipTransfer.DescriptionShortInfo": [
   "This will transfer full **owner rights** for **%1$@** to **%2$@**."
+ ],
+ "Group.OwnershipTransfer.ErrorAdminsTooMuch": [
+  "Sorry, this group has too many admins and the new owner can't be added. Please remove one of the existing admins first."
  ],
  "Group.OwnershipTransfer.ErrorLocatedGroupsTooMuch": [
   "Sorry, the target user owns too many location-based groups. Please ask them to delete or transfer an existing one first."
@@ -4613,6 +4729,12 @@
  ],
  "HashtagSearch.LocalStoriesFound": [
   "%1$@ in %2$@"
+ ],
+ "HashtagSearch.NoResults": [
+  "No Results"
+ ],
+ "HashtagSearch.NoResultsQueryDescription": [
+  "There were no results for %@.Try another hashtag."
  ],
  "HashtagSearch.Stories": [
   "%@ Story",
@@ -5749,12 +5871,30 @@
  "Notifications.UploadSuccess.Title": [
   "Sound Added"
  ],
+ "OldChannels.ChannelFormat": [
+  "channel, "
+ ],
  "OldChannels.ChannelsHeader": [
   "LEAST ACTIVE"
+ ],
+ "OldChannels.GroupEmptyFormat": [
+  "group, "
+ ],
+ "OldChannels.InactiveMonth": [
+  "inactive %@ month",
+  "inactive %@ months"
+ ],
+ "OldChannels.InactiveWeek": [
+  "inactive %@ week",
+  "inactive %@ weeks"
  ],
  "OldChannels.InactiveYear": [
   "inactive %@ year",
   "inactive %@ years"
+ ],
+ "OldChannels.LeaveCommunities": [
+  "Leave %@ Community",
+  "Leave %@ Communities"
  ],
  "OldChannels.NoticeText": [
   "Sorry, you are a member of too many groups and channels. Please leave one before joining another."
@@ -5768,8 +5908,41 @@
  "OldChannels.Title": [
   "Limit Reached"
  ],
+ "OldChannels.TooManyCommunitiesCreateFinalText": [
+  "You are a member of **%@** groups and channels. Please leave some before creating a new one."
+ ],
+ "OldChannels.TooManyCommunitiesCreateNoPremiumText": [
+  "You are a member of **%@** groups and channels. Please leave some before creating a new one. We are working to let you increase this limit in the future."
+ ],
+ "OldChannels.TooManyCommunitiesCreateText": [
+  "You are a member of **%@** groups and channels. Please leave some before creating a new one — or subscribe to **Telegram Premium** to double the limit to **%@** groups and channels."
+ ],
+ "OldChannels.TooManyCommunitiesFinalText": [
+  "You are a member of **%@** groups and channels. Please leave some before joining a new one."
+ ],
+ "OldChannels.TooManyCommunitiesNoPremiumText": [
+  "You are a member of **%@** groups and channels. Please leave some before joining a new one. We are working to let you increase this limit in the future."
+ ],
+ "OldChannels.TooManyCommunitiesText": [
+  "You are a member of **%@** groups and channels. Please leave some before joining a new one — or subscribe to **Telegram Premium** to double the limit to **%@** groups and channels."
+ ],
+ "OldChannels.TooManyCommunitiesUpgradeFinalText": [
+  "You are a member of **%@** groups and channels. For technical reasons, you need to leave some first before changing this setting in your groups."
+ ],
+ "OldChannels.TooManyCommunitiesUpgradeNoPremiumText": [
+  "You are a member of **%@** groups and channels. For technical reasons, you need to leave some first before changing this setting in your groups. We are working to let you increase this limit in the future."
+ ],
+ "OldChannels.TooManyCommunitiesUpgradeText": [
+  "You are a member of **%@** groups and channels. For technical reasons, you need to leave some first before changing this setting in your groups or subscribe to **Telegram Premium** to double the limit to **%@** groups and channels."
+ ],
  "OwnershipTransfer.ComeBackLater": [
   "Please come back later."
+ ],
+ "OwnershipTransfer.EnterPassword": [
+  "Enter Password"
+ ],
+ "OwnershipTransfer.EnterPasswordText": [
+  "Please enter your Two-Step Verification password to confirm this action."
  ],
  "OwnershipTransfer.SecurityCheck": [
   "Security Check"
@@ -6140,6 +6313,9 @@
  "Premium.FileTooLarge": [
   "File Too Large"
  ],
+ "Premium.Free": [
+  "Free"
+ ],
  "Premium.Group.BoostByGiftDescription": [
   "Boost your group by gifting your members Telegram Premium. [Get boosts >]()"
  ],
@@ -6160,6 +6336,9 @@
  ],
  "Premium.MaxSavedGifsTitle": [
   "Limit of %@ GIFs Reached"
+ ],
+ "Premium.Premium": [
+  "Premium"
  ],
  "Premium.Reactions.Proceed": [
   "Unlock Premium Reactions"
@@ -6489,6 +6668,9 @@
  "SensitiveContent.ViewAnyway": [
   "View Anyway"
  ],
+ "Settings.Search": [
+  "Search"
+ ],
  "Settings.SetNewProfilePhotoOrVideo": [
   "Set New Photo"
  ],
@@ -6500,6 +6682,9 @@
  ],
  "Share.MessagePreview": [
   "Message Preview"
+ ],
+ "Share.RepostStory": [
+  "RepostStory"
  ],
  "Share.RepostToStory": [
   "Repostto Story"

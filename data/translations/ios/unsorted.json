@@ -20,23 +20,14 @@
  "AffiliateSetup.ProgramLeave": [
   "Leave"
  ],
- "AgeVerification.Text": [
-  "To access this content, you must confirm you are at least **18** years old.This is a one-time process using your phone's camera. Your selfie will not be stored by Telegram."
- ],
  "AgeVerification.Text.GB": [
   "To access this content, you must confirm you are at least **18** years old as required by UK law.This is a one-time process using your phone's camera. Your selfie will not be stored by Telegram."
- ],
- "AgeVerification.Title": [
-  "Age Verification"
  ],
  "AgeVerification.Unavailable.Text": [
   "This media may contain sensitive content suitable only for adults."
  ],
  "AgeVerification.Unavailable.Title": [
   "18+"
- ],
- "AgeVerification.Verify": [
-  "Verify My Age"
  ],
  "Agent.AddAnotherProvider": [
   "Add Another Provider"
@@ -897,12 +888,6 @@
  "Channel.Notify": [
   "Notify"
  ],
- "Channel.OwnershipTransfer.ErrorAdminsTooMuch": [
-  "Sorry, this channel has too many admins and the new owner can't be added. Please remove one of the existing admins first."
- ],
- "Channel.OwnershipTransfer.ErrorPublicChannelsTooMuch": [
-  "Sorry, the target user has too many public groups or channels already. Please ask them to make one of their existing groups or channels private first."
- ],
  "Channel.RemoveFromChats": [
   "Remove from Chats"
  ],
@@ -969,9 +954,6 @@
  "ChannelBoost.Error.GiftedPremiumNotAllowedTitle": [
   "Can't Boost with Gifted Premium"
  ],
- "ChannelBoost.MaxLevelReached.Text": [
-  "**%1$@** reached **Level %2$@**."
- ],
  "ChannelBoost.MaxLevelReachedText": [
   "This channel reached **Level %1$@** and can now post %2$@."
  ],
@@ -980,9 +962,6 @@
  ],
  "ChannelBoost.Table.WearGift": [
   "Wear Unique Collectibles"
- ],
- "ChannelBoost.Title.Other": [
-  "Help Upgrade This Channel"
  ],
  "ChannelInfo.AddParticipantConfirmation": [
   "Add %@ to the channel?"
@@ -1237,9 +1216,6 @@
  "ChatList.AddedToFolderTooltip": [
   "%1$@ has been added to %2$@"
  ],
- "ChatList.AddedToFolderTooltipV2": [
-  "{chat} has been added to folder {folder}"
- ],
  "ChatList.AlertResumeLiveStreamAction": [
   "Resume"
  ],
@@ -1340,24 +1316,6 @@
  "ChatList.PeerTypeNonContact": [
   "user"
  ],
- "ChatList.PremiumAnnualDiscountText": [
-  "Sign up for the annual payment plan for Telegram Premium now to get the discount."
- ],
- "ChatList.PremiumAnnualDiscountTitle": [
-  "Telegram Premium with a %@ discount"
- ],
- "ChatList.PremiumAnnualUpgradeText": [
-  "Upgrade to the annual payment plan for Telegram Premium to get the discount."
- ],
- "ChatList.PremiumAnnualUpgradeTitle": [
-  "Save up to %@ on your subscription"
- ],
- "ChatList.PremiumRestoreDiscountText": [
-  "Your Telegram Premium has recently expired. Tap here to extend it."
- ],
- "ChatList.PremiumRestoreDiscountTitle": [
-  "Get Premium back with up to %@ off"
- ],
  "ChatList.PsaAlert.covid": [
   "This message provides you with a public service announcement in relation to the ongoing COVID-19 pandemic. Learn more about this initiative at https://telegram.org/blog/coronavirus"
  ],
@@ -1369,9 +1327,6 @@
  ],
  "ChatList.PsaLabel.psa": [
   "Announcement"
- ],
- "ChatList.RemovedFromFolderTooltipV2": [
-  "{chat} has been removed from folder {folder}"
  ],
  "ChatList.Search.Apps.Empty.Text": [
   "No Apps Found"
@@ -1457,39 +1412,17 @@
  "Common.ActionNotAllowedError": [
   "Sorry, you are not allowed to do this."
  ],
- "Community.AdminActions.WarningChatCount": [
-  "%@ chat",
-  "%@ chats"
- ],
- "Community.AdminActions.WarningText": [
-  "Banning **%@** will also remove **%@** they created from the community."
- ],
- "Community.AdminActions.WarningTitle": [
-  "Warning"
- ],
  "Community.Blacklist.UsersSectionTitle": [
   "REMOVED USERS"
  ],
  "Community.Edit.ChatsLimitReached": [
   "Sorry, this community has reached the maximum number of chats."
  ],
- "Community.Request.ApprovedToast": [
-  "You've added the chat to the community."
- ],
- "Community.Request.DeclinedToast": [
-  "You declined adding the chat to the community."
- ],
  "Community.Request.UnknownRequester": [
   "Someone"
  ],
  "Community.View.ChatsLimitReached": [
   "Sorry, this community has reached the maximum number of chats."
- ],
- "Community.View.PendingRequestApprovedToast": [
-  "You've added the group to the community."
- ],
- "Community.View.PendingRequestDeclinedToast": [
-  "You declined adding the chat to the community."
  ],
  "Community.View.PendingRequestHeader": [
   "PENDING REQUEST"
@@ -1631,32 +1564,8 @@
  "Conversation.Summary.Limit.Title": [
   "AI Summary"
  ],
- "Conversation.Theme.GiftTransfer.Proceed": [
-  "Yes"
- ],
- "Conversation.Theme.GiftTransfer.Text": [
-  "This gift is already your theme in the chat with **%@**. Remove it there and use it here instead?"
- ],
  "Conversation.Theme.SwitchToLight": [
   "Switch to light appearance"
- ],
- "Conversation.Timer.Send": [
-  "Send With Timer"
- ],
- "Conversation.Timer.Title": [
-  "Send With Timer"
- ],
- "Conversation.Translation.ChooseLanguage": [
-  "Choose Another Language"
- ],
- "Conversation.Translation.DoNotTranslate": [
-  "Do Not Translate %@"
- ],
- "Conversation.Translation.DoNotTranslateOther": [
-  "Do Not Translate %@"
- ],
- "Conversation.Translation.Hide": [
-  "Hide"
  ],
  "Conversation.UnsupportedMedia.Action": [
   "Update"
@@ -1690,9 +1599,6 @@
  ],
  "CreateGroup.PeersTitleDelimeter": [
   ", "
- ],
- "CreateTodo.AddTitle": [
-  "Add a Task"
  ],
  "CreateTopic.Create": [
   "Create"
@@ -1735,12 +1641,6 @@
  ],
  "DialogList.UnknownPinLimitError": [
   "Sorry, you can't pin any more chats to the top."
- ],
- "EditRank.EditTag": [
-  "Edit Tag"
- ],
- "EditRank.Info": [
-  "Add a short tag next to %@'s name."
  ],
  "EditTheme.FileReadError": [
   "Invalid theme file"
@@ -1912,18 +1812,6 @@
  ],
  "FastTwoStepSetup.Title": [
   "Password & Email"
- ],
- "FolderLinkPreview.TextAddChatsV2": [
-  "Do you want to add {chats} to thefolder {folder}?"
- ],
- "FolderLinkPreview.ToastChatsAddedTitleV2": [
-  "Folder {folder} Updated"
- ],
- "FolderLinkPreview.ToastFolderAddedTitleV2": [
-  "Folder {folder} Added"
- ],
- "FolderLinkPreview.ToastLeftTitleV2": [
-  "Folder {folder} deleted"
  ],
  "FolderLinkScreen.AlertTextUnavailablePublicChannel": [
   "You don't have the admin rights to share invite links to this channel."
@@ -2310,9 +2198,6 @@
  "Group.Management.AntiSpamMagic": [
   "magic"
  ],
- "Group.OwnershipTransfer.ErrorAdminsTooMuch": [
-  "Sorry, this group has too many admins and the new owner can't be added. Please remove one of the existing admins first."
- ],
  "Group.Setup.ActivateAlertShow": [
   "Show"
  ],
@@ -2373,14 +2258,8 @@
  "Group.Username.RevokeExistingUsernamesInfo": [
   "You can revoke the link from one of your older groups or channels, or create a private group instead."
  ],
- "GroupBoost.BoostGroup": [
-  "Boost Group"
- ],
  "GroupBoost.CustomWallpaper": [
   "Set Custom Group Wallpaper"
- ],
- "GroupBoost.EnableStoriesText": [
-  "Your group needs %1$@ to enable posting stories."
  ],
  "GroupBoost.MoreBoostsNeeded.Boosted.Level.Text": [
   "This group reached **Level %@** and unlocked new features."
@@ -2877,40 +2756,6 @@
  "MediaPicker.AddImage": [
   "Add Image"
  ],
- "MediaPicker.InvertCaption.Updated.Down.Text": [
-  "Text will be shown below the media."
- ],
- "MediaPicker.Timer.Description": [
-  "Choose how long the media will be kept after opening."
- ],
- "MediaPicker.Timer.DoNotDelete": [
-  "Do Not Delete"
- ],
- "MediaPicker.Timer.Photo.KeepTooltip": [
-  "Photo will be kept in chat."
- ],
- "MediaPicker.Timer.Photo.TimerTooltip": [
-  "Photo will be deleted%@ seconds after opening."
- ],
- "MediaPicker.Timer.Photo.ViewOnceTooltip": [
-  "Photo set to view once."
- ],
- "MediaPicker.Timer.Seconds": [
-  "%d Second",
-  "%d Seconds"
- ],
- "MediaPicker.Timer.Video.KeepTooltip": [
-  "Video will be kept in chat."
- ],
- "MediaPicker.Timer.Video.TimerTooltip": [
-  "Video will be deleted in%@ seconds after opening."
- ],
- "MediaPicker.Timer.Video.ViewOnceTooltip": [
-  "Video set to view once."
- ],
- "MediaPicker.Timer.ViewOnce": [
-  "View Once"
- ],
  "MediaPicker.VoiceOver.Camera": [
   "Camera"
  ],
@@ -3372,67 +3217,16 @@
  "OAUTH_REQUEST": [
   "Login request for %1$@, location: %2$@"
  ],
- "OldChannels.ChannelFormat": [
-  "channel, "
- ],
- "OldChannels.GroupEmptyFormat": [
-  "group, "
- ],
  "OldChannels.GroupFormat": [
   "%@ member ",
   "%@ members "
- ],
- "OldChannels.InactiveMonth": [
-  "inactive %@ month",
-  "inactive %@ months"
- ],
- "OldChannels.InactiveWeek": [
-  "inactive %@ week",
-  "inactive %@ weeks"
  ],
  "OldChannels.Leave": [
   "Leave %@ Chat",
   "Leave %@ Chats"
  ],
- "OldChannels.LeaveCommunities": [
-  "Leave %@ Community",
-  "Leave %@ Communities"
- ],
  "OldChannels.NoticeCreateText": [
   "Sorry, you are member of too many groups and channels.Please leave some before creating a new one."
- ],
- "OldChannels.TooManyCommunitiesCreateFinalText": [
-  "You are a member of **%@** groups and channels. Please leave some before creating a new one."
- ],
- "OldChannels.TooManyCommunitiesCreateNoPremiumText": [
-  "You are a member of **%@** groups and channels. Please leave some before creating a new one. We are working to let you increase this limit in the future."
- ],
- "OldChannels.TooManyCommunitiesCreateText": [
-  "You are a member of **%@** groups and channels. Please leave some before creating a new one — or subscribe to **Telegram Premium** to double the limit to **%@** groups and channels."
- ],
- "OldChannels.TooManyCommunitiesFinalText": [
-  "You are a member of **%@** groups and channels. Please leave some before joining a new one."
- ],
- "OldChannels.TooManyCommunitiesNoPremiumText": [
-  "You are a member of **%@** groups and channels. Please leave some before joining a new one. We are working to let you increase this limit in the future."
- ],
- "OldChannels.TooManyCommunitiesText": [
-  "You are a member of **%@** groups and channels. Please leave some before joining a new one — or subscribe to **Telegram Premium** to double the limit to **%@** groups and channels."
- ],
- "OldChannels.TooManyCommunitiesUpgradeFinalText": [
-  "You are a member of **%@** groups and channels. For technical reasons, you need to leave some first before changing this setting in your groups."
- ],
- "OldChannels.TooManyCommunitiesUpgradeNoPremiumText": [
-  "You are a member of **%@** groups and channels. For technical reasons, you need to leave some first before changing this setting in your groups. We are working to let you increase this limit in the future."
- ],
- "OldChannels.TooManyCommunitiesUpgradeText": [
-  "You are a member of **%@** groups and channels. For technical reasons, you need to leave some first before changing this setting in your groups or subscribe to **Telegram Premium** to double the limit to **%@** groups and channels."
- ],
- "OwnershipTransfer.EnterPassword": [
-  "Enter Password"
- ],
- "OwnershipTransfer.EnterPasswordText": [
-  "Please enter your Two-Step Verification password to confirm this action."
  ],
  "PINNED_GIVEAWAY": [
   "%1$@ pinned a giveaway"
@@ -3777,21 +3571,6 @@
  "PUSH_VIDEO_CALL_REQUEST": [
   "%1$@|is calling you!"
  ],
- "Paint.ColorGrid": [
-  "Grid"
- ],
- "Paint.ColorOpacity": [
-  "OPACITY"
- ],
- "Paint.ColorSliders": [
-  "Sliders"
- ],
- "Paint.ColorSpectrum": [
-  "Spectrum"
- ],
- "Paint.ColorTitle": [
-  "Colors"
- ],
  "Paint.Flip": [
   "Flip"
  ],
@@ -3841,9 +3620,6 @@
  ],
  "PeerInfo.ButtonVideoCall": [
   "Video"
- ],
- "PeerInfo.ChangeProfileColor": [
-  "Change Profile Color"
  ],
  "PeerInfo.ChannelMessages": [
   "Direct Messages"
@@ -3905,24 +3681,6 @@
  "PeopleNearby.VisibleUntil": [
   "visible until %@"
  ],
- "Permissions.ContactsText.v0": [
-  "See who's on Telegram and switch seamlessly, without having to \"add\" your friends."
- ],
- "Permissions.ContactsTitle.v0": [
-  "Sync Your Contacts"
- ],
- "Permissions.SiriAllow.v0": [
-  "Turn Siri ON"
- ],
- "Permissions.SiriAllowInSettings.v0": [
-  "Turn ON in Settings"
- ],
- "Permissions.SiriText.v0": [
-  "Use Siri to send messages and make calls."
- ],
- "Permissions.SiriTitle.v0": [
-  "Turn ON Siri"
- ],
  "PhotoEditor.BlurToolPortrait": [
   "Portrait"
  ],
@@ -3937,9 +3695,6 @@
  ],
  "Premium.BoostByGiftDescription": [
   " "
- ],
- "Premium.Colors.Proceed": [
-  "About Telegram Premium"
  ],
  "Premium.Emoji.Description": [
   "Unlock this emoji and many more by subscribing to Telegram Premium."
@@ -4010,30 +3765,11 @@
  "Premium.GiftedTitleYou.6Month": [
   "You gifted [%@]() a 6-month subscription to Telegram Premium"
  ],
- "Premium.LastSeen.Proceed": [
-  "About Telegram Premium"
- ],
- "Premium.MaxAccountsFinalText": [
-  "You have reached the limit of **%@** connected accounts."
- ],
- "Premium.MaxChannelsText": [
-  "You can only join **%1$@** groups and channels. Upgrade to **Telegram Premium** to join up to **%2$@**."
- ],
  "Premium.MaxChatsInFolderFinalText": [
   "Sorry, you can't add more than **%@** chats to a folder."
  ],
- "Premium.MaxChatsInFolderText": [
-  "Sorry, you can't add more than **%1$@** chats to a folder. You can increase this limit to **%2$@** by subscribing to **Telegram Premium**."
- ],
  "Premium.MaxExpiringStoriesFinalText": [
   "You've reached the limit of **%@** story in **24** hours."
- ],
- "Premium.MaxExpiringStoriesFinalTextFormat": [
-  "You have reached the limit of %@ per **24** hours."
- ],
- "Premium.MaxExpiringStoriesFinalTextNumberFormat": [
-  "**%d** story",
-  "**%d** stories"
  ],
  "Premium.MaxExpiringStoriesNoPremiumText": [
   "You've reached the limit of **%@** story in **24** hours."
@@ -4049,12 +3785,6 @@
   "**%d** story",
   "**%d** stories"
  ],
- "Premium.MaxFileSizeText": [
-  "Double this limit to %@ per file by subscribing to **Telegram Premium**."
- ],
- "Premium.MaxFoldersCountFinalText": [
-  "Sorry, you can't create more than **%1$@** folders."
- ],
  "Premium.MaxPinsText": [
   "You can't pin more than **%1$@** chats to the top. Unpin some that are currently pinned – or subscribe to **Telegram Premium** to double the limit to **%2$@** chats."
  ],
@@ -4064,17 +3794,8 @@
  "Premium.MaxSavedPinsText": [
   "Sorry, you can't pin more than **%1$@** chats to the top. Unpin some that are currently pinned or subscribe to **Telegram Premium** to double the limit to **%2$@** chats."
  ],
- "Premium.MaxSharedFolderMembershipText": [
-  "You can only add **%1$@** shareable folders. Upgrade to **Telegram Premium** to add up to **%2$@**."
- ],
  "Premium.MaxStoriesMonthlyFinalText": [
   "You have reached the limit of **%@** stories per month."
- ],
- "Premium.MaxStoriesWeeklyFinalText": [
-  "You have reached the limit of **%@** stories per week."
- ],
- "Premium.MessagePrivacy.Proceed": [
-  "About Telegram Premium"
  ],
  "Premium.PricePerYear": [
   "%@/year"
@@ -4087,22 +3808,6 @@
  ],
  "Premium.Restore.Success": [
   "Done"
- ],
- "Premium.SignUp.SignUpNewInfo": [
-  "Get Telegram Premium for %@"
- ],
- "Premium.SignUp.SignUpNewInfo.Days": [
-  "%@ day",
-  "%@ days"
- ],
- "Premium.SignUp.SignUpNewInfoNone": [
-  "Get Telegram Premium"
- ],
- "Premium.Week.SignUp": [
-  "Sign up for %@"
- ],
- "Premium.Week.SignUpInfo": [
-  "Get Telegram Premium for 1 week"
  ],
  "Privacy.Bio.AlwaysShareWith.Title": [
   "Always Share With"
@@ -4124,18 +3829,6 @@
  ],
  "PrivacyInfo.ShowReadTime.AlwaysToast.Text": [
   "Set **Last Seen** privacy to 'Nobody' or 'My Contacts.'"
- ],
- "PrivacyInfo.ShowReadTime.ButtonTitle": [
-  "Show My Read Time"
- ],
- "PrivacyInfo.ShowReadTime.PremiumInfo": [
-  "Subscribing will let you see **%@'s** read time without showing yours."
- ],
- "PrivacyInfo.ShowReadTime.Text": [
-  "To see when **%@** read the message, either start showing your own read time:"
- ],
- "PrivacyInfo.ShowReadTime.Title": [
-  "Show Your Read Time"
  ],
  "PrivacyPhoneNumberSettings.CustomHelp": [
   "Users who have your number saved in their contacts will also see it on Telegram."
@@ -4329,33 +4022,6 @@
  "RequestPeer.ChannelsAllEmpty": [
   "You don't have any channels."
  ],
- "RequestPeer.GroupsEmpty": [
-  "You don't have groups that meet the following requirements:"
- ],
- "RequestPeer.Requirement.Channel.CreatorOn": [
-  "You must be the owner of the channel."
- ],
- "RequestPeer.Requirement.Channel.HasUsernameOff": [
-  "The channel must be private."
- ],
- "RequestPeer.Requirement.Channel.HasUsernameOn": [
-  "The channel must be public."
- ],
- "RequestPeer.Requirement.Group.ForumOn": [
-  "The group must have topics turned on."
- ],
- "RequestPeer.Requirement.Group.HasUsernameOn": [
-  "The group must be public."
- ],
- "RequestPeer.Requirement.Group.ParticipantOn": [
-  "The bot must be in the group."
- ],
- "RequestPeer.Requirement.UserPremiumOn": [
-  "The user must have a Premium subscription."
- ],
- "RequestPeer.UsersEmpty": [
-  "You don't know users who meet the following requirements:"
- ],
  "Resolve.ChannelErrorNotFound": [
   "Sorry, this channel doesn't seem to exist."
  ],
@@ -4450,12 +4116,6 @@
  "Settings.SuggestSetupPasswordAction": [
   "Set Additional Password"
  ],
- "Settings.SuggestSetupPasswordText": [
-  "Set a password that will be required each time you log in with this phone number."
- ],
- "Settings.SuggestSetupPasswordTitle": [
-  "Protect Your Account"
- ],
  "Settings.Terms_URL": [
   "https://telegram.org/tos"
  ],
@@ -4534,14 +4194,8 @@
  "SettingsSearch.Synonyms.Premium.VoiceToText": [
   "Transcribe"
  ],
- "ShareScreen.Caption": [
-  "Add a caption..."
- ],
  "ShareScreen.CreateGroupTooltip": [
   "Create a group and share with it"
- ],
- "ShareScreen.RecentChats": [
-  "Recent chats"
  ],
  "SharedMedia.SimilarBot.Users": [
   "%@ monthly user",
@@ -4556,9 +4210,6 @@
  ],
  "SocksProxySetup.UseSocks5": [
   "Use SOCKS5 Proxy"
- ],
- "SponsoredMessageInfoScreen.MarkdownText": [
-  "Unlike other apps, Telegram never uses your private data to target ads. [Learn more in the Privacy Policy](https://telegram.org/privacy#5-6-no-ads-based-on-user-data)You are seeing this message only because someone chose this public one-to-many channel as a space to promote their messages. This means that no user data is mined or analyzed to display ads, and every user viewing a channel on Telegram sees the same sponsored message.Unlike other apps, Telegram doesn't track whether you tapped on a sponsored message and doesn't profile you based on your activity. We also prevent external links in sponsored messages to ensure that third parties can't spy on our users. We believe that everyone has the right to privacy, and online platforms should respect that.Telegram offers free and unlimited service to hundreds of millions of users, which involves significant server and traffic costs. In order to remain independent and stay true to its values, Telegram developed a paid tool to promote messages with user privacy in mind. We welcome responsible advertisers at:[url]Ads should no longer be synonymous with abuse of user privacy. Let us redefine how a tech company should operate — together."
  ],
  "Stars.BotRevenue.Transactions.Title": [
   "Transaction History"
@@ -5101,9 +4752,6 @@
  ],
  "TwoStepAuth.SetupResendEmailCodeAlert": [
   "The code has been sent. Please check your email. Be sure to check the spam folder as well."
- ],
- "Update.AppVersion": [
-  "Telegram %@"
  ],
  "Updated.AtDate": [
   "%@"
@@ -5674,27 +5322,6 @@
  "VoiceOver.Wallpaper.WallpaperNumber": [
   "Wallpaper %@"
  ],
- "Wallet.Apps.AllDisconnected": [
-  "All apps disconnected."
- ],
- "Wallet.Apps.DisconnectAllAction": [
-  "Disconnect All"
- ],
- "Wallet.Apps.DisconnectAllError": [
-  "Unable to disconnect these apps. Please try again."
- ],
- "Wallet.Apps.DisconnectAllText": [
-  "These apps will lose access to your wallet. You can connect them again at any time."
- ],
- "Wallet.Apps.DisconnectAllTitle": [
-  "Disconnect All Apps?"
- ],
- "Wallet.Apps.DisconnectError": [
-  "Unable to disconnect this app. Please try again."
- ],
- "Wallet.Apps.Disconnected": [
-  "%@ disconnected."
- ],
  "Wallet.AuthenticationReason": [
   "Confirm access to your wallet"
  ],
@@ -5704,35 +5331,14 @@
  "Wallet.Authorization.PasswordTitle": [
   "Telegram Password"
  ],
- "Wallet.Collectible.Header.RemoveColor": [
-  "remove color"
- ],
  "Wallet.HowDoesItWork": [
   "How does it work?"
- ],
- "Wallet.Import.EnableBackupText": [
-  "Enter your wallet's current 12- or 24-word secret phrase to enable encrypted backup."
  ],
  "Wallet.Import.EnterPhraseText": [
   "Enter your wallet's Secret Phraseto continue. [Why?]()"
  ],
- "Wallet.Import.ErrorText": [
-  "Check the secret phrase and network connection, then try again."
- ],
- "Wallet.Import.ErrorTitle": [
-  "Couldn’t Import Wallet"
- ],
- "Wallet.Import.RecoveryExplanation": [
-  "Since you disabled backups for your wallet, you have to manually enter your Secret Phrase in every new Telegram session."
- ],
  "Wallet.Import.TestTextFallback": [
   "Make sure you wrote your secret phrase down correctly."
- ],
- "Wallet.Import.WrongPhraseText": [
-  "The words you entered don't match the wallet."
- ],
- "Wallet.Import.WrongPhraseTitle": [
-  "Wrong Secret Phrase"
  ],
  "Wallet.Info.FirstGramsText": [
   "You can:"
@@ -5743,26 +5349,8 @@
  "Wallet.Receive.Buy": [
   "Buy with cash or crypto"
  ],
- "Wallet.Receive.PurchaseFailedText": [
-  "The purchase couldn't be started. Please try again."
- ],
- "Wallet.Receive.PurchaseFailedTitle": [
-  "Purchase Failed"
- ],
- "Wallet.Receive.PurchaseUnavailableText": [
-  "Purchasing is currently unavailable. Please try again later."
- ],
- "Wallet.Receive.PurchaseUnavailableTitle": [
-  "Purchase Unavailable"
- ],
- "Wallet.Recipient.InvalidAddressText": [
-  "This wallet address is invalid.Check it or try another address."
- ],
  "Wallet.Send.AmountPlaceholder": [
   "Tap to set amount"
- ],
- "Wallet.Send.EditComment": [
-  "Edit Comment"
  ],
  "Wallet.Sign.BinaryContent": [
   "Binary content"
@@ -5790,12 +5378,6 @@
  ],
  "Wallet.Sign.TextExplanation": [
   "Carefully review the message and, if you agree, sign the data."
- ],
- "Wallet.Sticker.ApplyColor": [
-  "Apply Color"
- ],
- "Wallet.Sticker.RemoveColor": [
-  "Remove Color"
  ],
  "Wallet.Sticker.TutorialCard": [
   "Drag this collectible here."
@@ -5884,12 +5466,6 @@
  "Wallet.Transaction.CollectibleSent": [
   "Sent"
  ],
- "Wallet.Transaction.CommentDecryptionErrorText": [
-  "The comment could not be decrypted."
- ],
- "Wallet.Transaction.CommentDecryptionErrorTitle": [
-  "Couldn't Decrypt Comment"
- ],
  "Wallet.Transaction.CommentPrivacy": [
   "Comment privacy"
  ],
@@ -5898,9 +5474,6 @@
  ],
  "Wallet.Transaction.DeployContract": [
   "Deploy Contract"
- ],
- "Wallet.Transaction.FailedOperation": [
-  "%@ · Failed"
  ],
  "Wallet.Transaction.IncomingCollectible": [
   "Incoming collectible"
@@ -5938,15 +5511,8 @@
  "Wallet.Transaction.PublicComment": [
   "The comment is visible to everyone."
  ],
- "Wallet.Transaction.SendCollectible": [
-  "Send Collectible"
- ],
  "Wallet.Transaction.Sender": [
   "Sender"
- ],
- "Wallet.Transaction.Transfers": [
-  "%@ transfer",
-  "%@ transfers"
  ],
  "Wallet.Transaction.UnknownAddress": [
   "Unknown Address"
@@ -5956,9 +5522,6 @@
  ],
  "Wallet.Transfer.AllBalance": [
   "All Balance"
- ],
- "Wallet.Transfer.CollectibleSuccess": [
-  "The collectible has been sent to **%@**."
  ],
  "Wallet.Transfer.DetailsHeader": [
   "DETAILS"
@@ -5972,9 +5535,6 @@
  ],
  "Wallet.Transfer.Unavailable": [
   "Unavailable"
- ],
- "Wallet.WaltBalance": [
-  "You also have funds in Walt"
  ],
  "Wallpaper.ErrorNotFound": [
   "Sorry, this chat wallpaper doesn't seem to exist."

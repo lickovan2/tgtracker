@@ -20,6 +20,15 @@
  "AgeVerification.Success.Title": [
   "Age check passed!"
  ],
+ "AgeVerification.Text": [
+  "To access this content, you must confirm you are at least **18** years old.This is a one-time process using your phone's camera. Your selfie will not be stored by Telegram."
+ ],
+ "AgeVerification.Title": [
+  "Age Verification"
+ ],
+ "AgeVerification.Verify": [
+  "Verify My Age"
+ ],
  "Appearance.AccentColor": [
   "Accent Color"
  ],
@@ -789,11 +798,17 @@
  "Channel.MessagePhotoUpdated": [
   "Channel photo updated"
  ],
+ "ChannelBoost.Or": [
+  "or"
+ ],
  "Chat.MessageForwardInfo.MessageHeader": [
   "Forwarded from"
  ],
  "Chat.ReactionSection.Popular": [
   "Popular"
+ ],
+ "ChatList.ArchivedChatsTitle": [
+  "Archived Chats"
  ],
  "ChatList.ChannelsSection": [
   "Channels"
@@ -1669,6 +1684,10 @@
  "Group.GroupMembersHeader": [
   "GROUP MEMBERS"
  ],
+ "GroupInfo.ParticipantCount": [
+  "1 member",
+  "%@ members"
+ ],
  "GroupInfo.Permissions.Exceptions": [
   "EXCEPTIONS"
  ],
@@ -2083,11 +2102,23 @@
  "Notification.Exceptions.PreviewAlwaysOff": [
   "Hide Preview"
  ],
+ "Notification.Exceptions.PreviewAlwaysOn": [
+  "Show Preview"
+ ],
+ "Notification.Exceptions.RemoveFromExceptions": [
+  "Remove from Exceptions"
+ ],
  "Notification.Exceptions.Sound": [
   "Sound: %@"
  ],
  "Notification.Exceptions.SoundCustom": [
   "Sound: Custom"
+ ],
+ "Notification.Exceptions.StoriesDisplayAuthorName": [
+  "DISPLAY AUTHOR NAME"
+ ],
+ "Notification.Exceptions.StoriesHeader": [
+  "STORY NOTIFICATIONS"
  ],
  "NotificationSettings.ContactJoined": [
   "New Contacts"
@@ -3561,6 +3592,24 @@
  "Privacy.VoiceMessages.WhoCanSend": [
   "WHO CAN SEND ME VOICE & VIDEO MESSAGES"
  ],
+ "PrivacyInfo.ShowReadTime.ButtonTitle": [
+  "Show My Read Time"
+ ],
+ "PrivacyInfo.ShowReadTime.PremiumInfo": [
+  "Subscribing will let you see **%@'s** read time without showing yours."
+ ],
+ "PrivacyInfo.ShowReadTime.Text": [
+  "To see when **%@** read the message, either start showing your own read time:"
+ ],
+ "PrivacyInfo.ShowReadTime.Title": [
+  "Show Your Read Time"
+ ],
+ "PrivacyInfo.UpgradeToPremium.ButtonTitle": [
+  "Subscribe to Telegram Premium"
+ ],
+ "PrivacyInfo.UpgradeToPremium.Title": [
+  "Upgrade to Premium"
+ ],
  "PrivacyLastSeenSettings.AddUsers": [
   "Add 1 user to this list?",
   "Add %@ users to this list?"
@@ -4113,6 +4162,12 @@
  ],
  "Settings.Stars": [
   "My Stars"
+ ],
+ "Settings.SuggestSetupPasswordText": [
+  "Set a password that will be required each time you log in with this phone number."
+ ],
+ "Settings.SuggestSetupPasswordTitle": [
+  "Protect Your Account"
  ],
  "Settings.Support": [
   "Ask a Question"

@@ -273,8 +273,44 @@
  "BoostGift.WinnersInfo": [
   "Choose whether to make the list of winners public when the giveaway ends."
  ],
+ "Business.AddPost": [
+  "Add a Post"
+ ],
+ "Business.AddPostInfo": [
+  "Publish photos and videos of your goods or services on your page."
+ ],
+ "Business.AdsInfo": [
+  "As a Premium subscriber, you don't see any ads on Telegram, but you can turn them on, for example, to view your own ads that you launched on the [Telegram Ad Platform >]()"
+ ],
+ "Business.AdsTitle": [
+  "ADS IN CHANNELS"
+ ],
+ "Business.AwayMessages": [
+  "Away Messages"
+ ],
+ "Business.AwayMessagesInfo": [
+  "Define messages that are automatically sent when you are off."
+ ],
+ "Business.ChatbotsInfo": [
+  "Add any third-party chatbots that will process customer interactions."
+ ],
+ "Business.ChatbotsItem": [
+  "Chatbots"
+ ],
  "Business.Description": [
   "Turn your account into a **business page** with these additional features by subscribing to **Telegram Premium**."
+ ],
+ "Business.DontHideAds": [
+  "Do Not Hide Ads"
+ ],
+ "Business.GreetingMessages": [
+  "Greeting Messages"
+ ],
+ "Business.GreetingMessagesInfo": [
+  "Create greetings that will be automatically sent to new customers."
+ ],
+ "Business.Intro": [
+  "Start Page"
  ],
  "Business.Intro.CustomizeSectionFooter": [
   "You can customize the message people see before they start a chat with you."
@@ -296,6 +332,9 @@
  ],
  "Business.Intro.Title": [
   "Start Page"
+ ],
+ "Business.IntroInfo": [
+  "Customize the message people see before they start a chat with you."
  ],
  "Business.Links": [
   "Links to Chat"
@@ -346,17 +385,47 @@
  "Business.Links.Text": [
   "Give your customers short links that start a chat with you — and suggest the first message from them to you."
  ],
+ "Business.LinksInfo": [
+  "Create links that start a chat with you, suggesting the first message."
+ ],
  "Business.Location": [
   "Location"
  ],
  "Business.LocationInfo": [
   "Display the location of your business on your account."
  ],
+ "Business.MoreFeaturesInfo": [
+  "Check this section later for new business features."
+ ],
+ "Business.MoreFeaturesTitle": [
+  "MORE BUSINESS FEATURES"
+ ],
  "Business.OpeningHours": [
   "Opening Hours"
  ],
  "Business.OpeningHoursInfo": [
   "Show to your customers when you are open for business."
+ ],
+ "Business.QuickReplies": [
+  "Quick Replies"
+ ],
+ "Business.QuickRepliesInfo": [
+  "Set up shortcuts with rich text and media to respond to messages faster."
+ ],
+ "Business.SetEmojiStatus": [
+  "Set Emoji Status"
+ ],
+ "Business.SetEmojiStatusInfo": [
+  "Display the current status of your business next to your name."
+ ],
+ "Business.SubscribedDescription": [
+  "You have now unlocked Telegram Business features. These features are **temporarily included** with your Premium Subscription."
+ ],
+ "Business.TagYourChats": [
+  "Tag Your Chats"
+ ],
+ "Business.TagYourChatsInfo": [
+  "Add colorful labels to chats for faster access in chat list."
  ],
  "Business.Title": [
   "Telegram Business"
@@ -517,6 +586,9 @@
  "Calls.TabTitle": [
   "Calls"
  ],
+ "ChannelBoost.AdditionalFeaturesText": [
+  "By gaining **boosts**, your channel reaches higher levels and unlocks more features."
+ ],
  "ChannelBoost.AutoTranslate": [
   "Auto-translation of Messages"
  ],
@@ -525,6 +597,9 @@
  ],
  "ChannelBoost.Boost": [
   "Boost"
+ ],
+ "ChannelBoost.BoostChannel": [
+  "Boost Channel"
  ],
  "ChannelBoost.BoostLinkCopied": [
   "Boost link copied to clipboard"
@@ -562,14 +637,26 @@
  "ChannelBoost.EnableEmojiStatusLevelText": [
   "Your channel needs **Level %1$@** to use emoji statuses."
  ],
+ "ChannelBoost.EnableNameColorLevelText": [
+  "Your channel needs **Level %1$@** to change its color."
+ ],
  "ChannelBoost.EnableNameIconLevelText": [
   "Your channel needs **Level %1$@** to change the link logo."
  ],
  "ChannelBoost.EnableNoAdsLevelText": [
   "Your channel needs **Level %1$@** to switch off ads."
  ],
+ "ChannelBoost.EnableProfileColorLevelText": [
+  "Your channel needs **Level %1$@** to change the cover color."
+ ],
  "ChannelBoost.EnableProfileIconLevelText": [
   "Your channel needs **Level %1$@** to change the cover logo."
+ ],
+ "ChannelBoost.EnableStories": [
+  "Enable Stories"
+ ],
+ "ChannelBoost.EnableStoriesText": [
+  "Your channel needs %1$@ to enable posting stories.Ask your **Premium** subscribers to boost your channel with this link:"
  ],
  "ChannelBoost.EnableWallpaperLevelText": [
   "Your channel needs **Level %1$@** to set a wallpaper."
@@ -607,6 +694,12 @@
  "ChannelBoost.Level": [
   "Level %@"
  ],
+ "ChannelBoost.MaxLevelReached": [
+  "Maximum Level Reached"
+ ],
+ "ChannelBoost.MaxLevelReached.Text": [
+  "**%1$@** reached **Level %2$@**."
+ ],
  "ChannelBoost.MoreBoosts": [
   "**%@** more boost",
   "**%@** more boosts"
@@ -630,6 +723,12 @@
   "**%@** more boost",
   "**%@** more boosts"
  ],
+ "ChannelBoost.MoreBoostsNeeded.Text": [
+  "**%1$@** needs %2$@ to unlock new features."
+ ],
+ "ChannelBoost.NameColor": [
+  "Enable Colors"
+ ],
  "ChannelBoost.NameIcon": [
   "Set Link Logo"
  ],
@@ -638,6 +737,9 @@
  ],
  "ChannelBoost.PremiumUsersCanBoost": [
   "**Premium** users can boost your channel with this link:"
+ ],
+ "ChannelBoost.ProfileColor": [
+  "Set Cover Color"
  ],
  "ChannelBoost.ProfileIcon": [
   "Set Cover Logo"
@@ -717,6 +819,9 @@
  ],
  "ChannelBoost.Title.Current": [
   "Boost Channel"
+ ],
+ "ChannelBoost.Title.Other": [
+  "Help Upgrade This Channel"
  ],
  "ChannelBoost.Wallpaper": [
   "Set Channel Wallpaper"
@@ -922,14 +1027,42 @@
  "Gift.Transfer.Title": [
   "Transfer"
  ],
+ "GroupBoost.AdditionalFeaturesText": [
+  "By gaining **boosts**, your group reaches higher levels and unlocks more features."
+ ],
  "GroupBoost.AudioTranscription": [
   "Audio Transcription"
+ ],
+ "GroupBoost.BoostGroup": [
+  "Boost Group"
+ ],
+ "GroupBoost.BoostToUnrestrict": [
+  "Boost the group %1$@ to remove messaging restrictions. Your boosts will help **%2$@** to unlock new features."
+ ],
+ "GroupBoost.BoostToUnrestrict.Times": [
+  "**%@** time",
+  "**%@** times"
  ],
  "GroupBoost.EmojiPack": [
   "Set Group Emoji Pack"
  ],
+ "GroupBoost.EnableCustomWallpaperLevelText": [
+  "Your group needs **Level %1$@** to set custom group wallpaper."
+ ],
  "GroupBoost.EnableEmojiPackLevelText": [
   "Your group needs **Level %1$@** to set emoji pack."
+ ],
+ "GroupBoost.EnableEmojiStatusLevelText": [
+  "Your group needs **Level %1$@** to use emoji statuses."
+ ],
+ "GroupBoost.EnableProfileColorLevelText": [
+  "Your group needs **Level %1$@** to change group cover color."
+ ],
+ "GroupBoost.EnableProfileIconLevelText": [
+  "Your group needs **Level %1$@** to change group cover icon."
+ ],
+ "GroupBoost.EnableStoriesText": [
+  "Your group needs %1$@ to enable posting stories."
  ],
  "GroupBoost.EnableWallpaperLevelText": [
   "Your group needs **Level %1$@** to set group wallpaper."
@@ -943,6 +1076,16 @@
  "GroupBoost.IncreaseLimitText": [
   "Your group needs %1$@ to post %2$@."
  ],
+ "GroupBoost.MemberBoosted": [
+  "**%1$@** boosted the group %2$@."
+ ],
+ "GroupBoost.MemberBoosted.BoostForBadge": [
+  "Boost **%1$@** to help it unlock new features and get a booster **badge** for your messages."
+ ],
+ "GroupBoost.MemberBoosted.Times": [
+  "**%@** time",
+  "**%@** times"
+ ],
  "GroupBoost.PremiumUsersCanBoost": [
   "**Premium** users can boost your group with this link:"
  ],
@@ -951,6 +1094,12 @@
  ],
  "GroupBoost.Table.Group.VoiceToText": [
   "Voice-to-Text Conversion"
+ ],
+ "GroupBoost.Title.Current": [
+  "Boost Group"
+ ],
+ "GroupBoost.Title.Other": [
+  "Help Upgrade This Group"
  ],
  "GroupInfo.InviteLink.CopyLink": [
   "Copy Link"
@@ -979,8 +1128,17 @@
  "Permissions.ContactsAllowInSettings.v0": [
   "Allow in Settings"
  ],
+ "Premium.AboutText": [
+  "While the free version of Telegram already gives its users more than any other messaging application, **Telegram Premium** pushes its capabilities even further.**Telegram Premium** is a paid option, because most Premium Features require additional expenses from Telegram to third parties such as data center providers and server manufacturers. Contributions from **Telegram Premium** users allow us to cover such costs and also help Telegram stay free for everyone."
+ ],
+ "Premium.AboutTitle": [
+  "ABOUT TELEGRAM PREMIUM"
+ ],
  "Premium.AiTools": [
   "AI Tools"
+ ],
+ "Premium.AiToolsInfo": [
+  "Transform your messages and entire chats in your preferred style and language."
  ],
  "Premium.AnimatedEmoji": [
   "Animated Emoji"
@@ -988,11 +1146,20 @@
  "Premium.AnimatedEmoji.Proceed": [
   "Unlock Animated Emoji"
  ],
+ "Premium.AnimatedEmojiInfo": [
+  "Include animated emoji from different packs in any message you send."
+ ],
  "Premium.AnimatedEmojiStandaloneInfo": [
   "Include animated emoji from different emoji packs in any message you send."
  ],
  "Premium.Annual": [
   "Annual"
+ ],
+ "Premium.AppIcon": [
+  "Telegram App Icon"
+ ],
+ "Premium.AppIconInfo": [
+  "Choose from a selection of Telegram app icons for your homescreen."
  ],
  "Premium.AppIconStandalone": [
   "Premium App Icons"
@@ -1002,6 +1169,18 @@
  ],
  "Premium.AppIcons.Proceed": [
   "Unlock Premium Icons"
+ ],
+ "Premium.Avatar": [
+  "Animated Profile Pictures"
+ ],
+ "Premium.AvatarInfo": [
+  "Video avatars animated in chat lists and chats to allow for additional self-expression."
+ ],
+ "Premium.Badge": [
+  "Profile Badge"
+ ],
+ "Premium.BadgeInfo": [
+  "An exclusive badge next to your name showing that you subscribe to Telegram Premium."
  ],
  "Premium.Biannual": [
   "2 Years"
@@ -1060,14 +1239,38 @@
  "Premium.Business.Replies.Title": [
   "Quick Replies"
  ],
+ "Premium.BusinessInfo": [
+  "Upgrade your account with business features such as location, opening hours and quick replies."
+ ],
  "Premium.ChatManagement": [
   "Advanced Chat Management"
  ],
  "Premium.ChatManagement.Proceed": [
   "About Telegram Premium"
  ],
+ "Premium.ChatManagementInfo": [
+  "Tools to set the default folder, auto-archive and hide new chats from non-contacts."
+ ],
  "Premium.ChatManagementStandaloneInfo": [
   "Subscribers of **Telegram Premium** can set a default folder, auto-archive and hide new chats from non-contacts."
+ ],
+ "Premium.Colors": [
+  "Name and Profile Colors"
+ ],
+ "Premium.Colors.Proceed": [
+  "About Telegram Premium"
+ ],
+ "Premium.ColorsInfo": [
+  "Choose a color and logo for your profile and replies to your messages."
+ ],
+ "Premium.CopyProtection": [
+  "Disable Sharing"
+ ],
+ "Premium.CopyProtectionInfo": [
+  "Prevent forwarding, saving and copying content in private chats."
+ ],
+ "Premium.CreateMultipleStories": [
+  "Create Multiple Stories"
  ],
  "Premium.CurrentPlan": [
   "your current plan"
@@ -1077,6 +1280,18 @@
  ],
  "Premium.DoubledLimits": [
   "Doubled Limits"
+ ],
+ "Premium.DoubledLimitsInfo": [
+  "Up to 1000 channels, 30 folders, 10 pins, 20 public links, 4 accounts and more."
+ ],
+ "Premium.EmojiStatus": [
+  "Emoji Statuses"
+ ],
+ "Premium.EmojiStatus.Proceed": [
+  "Unlock Emoji Statuses"
+ ],
+ "Premium.EmojiStatusInfo": [
+  "Choose from thousands of emoji to display current activity next to your name."
  ],
  "Premium.FasterSpeed": [
   "Faster Download Speed"
@@ -1146,6 +1361,24 @@
  ],
  "Premium.Gift.GiftSubscription": [
   "Gift Subscription for %@"
+ ],
+ "Premium.IncreaseLimit": [
+  "Increase Limit"
+ ],
+ "Premium.InfiniteReactions": [
+  "Infinite Reactions"
+ ],
+ "Premium.InfiniteReactionsInfo": [
+  "React with thousands of emoji — using multiple reactions per message."
+ ],
+ "Premium.LastSeen": [
+  "Last Seen Times"
+ ],
+ "Premium.LastSeen.Proceed": [
+  "About Telegram Premium"
+ ],
+ "Premium.LastSeenInfo": [
+  "View the last seen and read times of others even if you hide yours."
  ],
  "Premium.LimitReached": [
   "Limit Reached"
@@ -1222,14 +1455,30 @@
  "Premium.Limits.SavedGifsInfo": [
   "Save up to 400 GIFs in your Favorite GIFs"
  ],
+ "Premium.MaxAccountsFinalText": [
+  "You have reached the limit of **%@** connected accounts."
+ ],
  "Premium.MaxAccountsNoPremiumText": [
   "You have reached the limit of **%@** connected accounts."
  ],
  "Premium.MaxChannelsNoPremiumText": [
   "You can only join **%1$@** groups and channels. This limit may increase in the future."
  ],
+ "Premium.MaxChannelsText": [
+  "You can only join **%1$@** groups and channels. Upgrade to **Telegram Premium** to join up to **%2$@**."
+ ],
  "Premium.MaxChatsInFolderNoPremiumText": [
   "Sorry, you can't add more than **%1$@** chats to a folder. We are working to let you increase this limit in the future."
+ ],
+ "Premium.MaxChatsInFolderText": [
+  "Sorry, you can't add more than **%1$@** chats to a folder. You can increase this limit to **%2$@** by subscribing to **Telegram Premium**."
+ ],
+ "Premium.MaxExpiringStoriesFinalTextFormat": [
+  "You have reached the limit of %@ per **24** hours."
+ ],
+ "Premium.MaxExpiringStoriesFinalTextNumberFormat": [
+  "**%d** story",
+  "**%d** stories"
  ],
  "Premium.MaxExpiringStoriesNoPremiumTextFormat": [
   "You have reached the limit of %@ per **24** hours."
@@ -1250,8 +1499,20 @@
  "Premium.MaxFileSizeNoPremiumText": [
   "The document can't be sent, because it is larger than **%@**. We are working to let you increase this limit in the future."
  ],
+ "Premium.MaxFileSizeText": [
+  "Double this limit to %@ per file by subscribing to **Telegram Premium**."
+ ],
+ "Premium.MaxFoldersCountFinalText": [
+  "Sorry, you can't create more than **%1$@** folders."
+ ],
  "Premium.MaxFoldersCountNoPremiumText": [
   "You have reached the limit of **%1$@** folders. We are working to let you increase this limit in the future."
+ ],
+ "Premium.MaxFoldersCountText": [
+  "You have reached the limit of **%1$@** folders. You can double the limit to **%2$@** folders by subscribing to **Telegram Premium**."
+ ],
+ "Premium.MaxPinsFinalText": [
+  "Sorry, you can't pin more than **%@** chats to the top. Unpin some that are currently pinned."
  ],
  "Premium.MaxPinsNoPremiumText": [
   "Sorry, you can't pin more than **%@** chats to the top. Unpin some that are currently pinned."
@@ -1274,17 +1535,53 @@
  "Premium.MaxSharedFolderLinksNoPremiumText": [
   "You can only create **%1$@** invite links. This number may increase in the future."
  ],
+ "Premium.MaxSharedFolderLinksText": [
+  "You can only create **%1$@** invite links. Upgrade to **Telegram Premium** to create up to **%2$@**."
+ ],
  "Premium.MaxSharedFolderMembershipFinalText": [
   "Sorry, you can only add **%1$@** shareable folders."
  ],
  "Premium.MaxSharedFolderMembershipNoPremiumText": [
   "You can only add **%1$@** shareable folders. This limit may increase in the future."
  ],
+ "Premium.MaxSharedFolderMembershipText": [
+  "You can only add **%1$@** shareable folders. Upgrade to **Telegram Premium** to add up to **%2$@**."
+ ],
  "Premium.MaxStoriesMonthlyNoPremiumText": [
   "You have reached the limit of **%@** stories per month."
  ],
+ "Premium.MaxStoriesMonthlyText": [
+  "You can post **%@** stories per month. Subscribe to **Telegram Premium** to increase this limit to **%@**."
+ ],
+ "Premium.MaxStoriesWeeklyFinalText": [
+  "You have reached the limit of **%@** stories per week."
+ ],
  "Premium.MaxStoriesWeeklyNoPremiumText": [
   "You have reached the limit of **%@** stories per week."
+ ],
+ "Premium.MessageEffects": [
+  "Message Effects"
+ ],
+ "Premium.MessageEffectsInfo": [
+  "Add over 500 animated effects to private messages."
+ ],
+ "Premium.MessagePrivacy": [
+  "Message Privacy"
+ ],
+ "Premium.MessagePrivacy.Proceed": [
+  "About Telegram Premium"
+ ],
+ "Premium.MessagePrivacyInfo": [
+  "Limit messages from strangers or charge for incoming messages."
+ ],
+ "Premium.MessageTags": [
+  "Tags for Messages"
+ ],
+ "Premium.MessageTags.Proceed": [
+  "About Telegram Premium"
+ ],
+ "Premium.MessageTagsInfo": [
+  "Organize your Saved Messages with tags for quicker access."
  ],
  "Premium.Monthly": [
   "Monthly"
@@ -1303,6 +1600,15 @@
  ],
  "Premium.NoAdsStandaloneInfo": [
   "Remove ads such as this one by subscribing to **Telegram Premium**."
+ ],
+ "Premium.PaidMessages.Proceed": [
+  "About Telegram Premium"
+ ],
+ "Premium.PersonalDescription": [
+  "Owners of **Telegram Premium** accounts have exclusive access to multiple additional features."
+ ],
+ "Premium.PersonalTitle": [
+  "[%@]() is a subscriberof Telegram Premium"
  ],
  "Premium.Premium": [
   "Premium"
@@ -1331,8 +1637,36 @@
  "Premium.Purchase.PendingInfo": [
   "Your purchase is awaiting confirmation. You can leave this screen. Premium will activate when the purchase is confirmed."
  ],
+ "Premium.Reactions.Proceed": [
+  "Unlock Premium Reactions"
+ ],
+ "Premium.RichText": [
+  "Formatting Tools"
+ ],
+ "Premium.RichTextInfo": [
+  "Add headers, tables, inline media and AI content to messages."
+ ],
  "Premium.Semiannual": [
   "Semiannual"
+ ],
+ "Premium.SignUp.SignUpNewInfo": [
+  "Get Telegram Premium for %@"
+ ],
+ "Premium.SignUp.SignUpNewInfo.Days": [
+  "%@ day",
+  "%@ days"
+ ],
+ "Premium.SignUp.SignUpNewInfoNone": [
+  "Get Telegram Premium"
+ ],
+ "Premium.Stickers": [
+  "Premium Stickers"
+ ],
+ "Premium.Stickers.Proceed": [
+  "Unlock Premium Stickers"
+ ],
+ "Premium.StickersInfo": [
+  "Exclusive enlarged stickers featuring additional effects, updated regularly."
  ],
  "Premium.Stories": [
   "Stories"
@@ -1400,8 +1734,32 @@
  "Premium.SubscribeForBiannual": [
   "Subscribe for %@ / 2 years"
  ],
+ "Premium.SubscribedDescription": [
+  "Thank you for subscribing to **Telegram Premium**. Here's what is now unlocked."
+ ],
+ "Premium.SubscribedTitle": [
+  "You are all set!"
+ ],
  "Premium.Title": [
   "Telegram Premium"
+ ],
+ "Premium.Todo": [
+  "Checklists"
+ ],
+ "Premium.TodoInfo": [
+  "Plan, assign and complete tasks – seamlessly and efficiently."
+ ],
+ "Premium.Translation": [
+  "Real-Time Translation"
+ ],
+ "Premium.Translation.Proceed": [
+  "About Telegram Premium"
+ ],
+ "Premium.TranslationInfo": [
+  "Real-time translation of chats and channels into other languages."
+ ],
+ "Premium.TranslationStandaloneInfo": [
+  "Subscribe to **Telegram Premium** to be able to translate all messages in a chat at once."
  ],
  "Premium.UpgradeDescription": [
   "Your current **Telegram Premium** plan can be upgraded at a **discount**."
@@ -1415,14 +1773,35 @@
  "Premium.UpgradeForBiannual": [
   "Upgrade for %@ / 2 years"
  ],
+ "Premium.UploadSize": [
+  "Unlimited Cloud Storage"
+ ],
+ "Premium.UploadSizeInfo": [
+  "4 GB per each document, unlimited storage for your chats and media overall."
+ ],
  "Premium.VoiceToText": [
   "Voice-to-Text Conversion"
  ],
  "Premium.VoiceToText.Proceed": [
   "About Telegram Premium"
  ],
+ "Premium.VoiceToTextInfo": [
+  "Ability to read the transcript of any incoming voice message."
+ ],
  "Premium.VoiceToTextStandaloneInfo": [
   "Subscribe to **Telegram Premium** to be able to convert voice and video messages to text."
+ ],
+ "Premium.Wallpaper.Proceed": [
+  "About Telegram Premium"
+ ],
+ "Premium.Wallpapers": [
+  "Wallpapers for Both Sides"
+ ],
+ "Premium.WallpapersInfo": [
+  "Set custom wallpapers for you and your chat partner."
+ ],
+ "Premium.Week.SignUp": [
+  "Sign up for %@"
  ],
  "Premium.WhatsIncluded": [
   "WHAT'S INCLUDED"

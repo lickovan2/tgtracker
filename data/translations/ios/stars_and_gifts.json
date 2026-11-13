@@ -169,6 +169,27 @@
   "%@ Gram",
   "%@ Grams"
  ],
+ "EmojiStake.Description": [
+  "An emoji game for users with **Level 5** or higher. 💎 earned in the game can only be spent on Telegram gifts and posts."
+ ],
+ "EmojiStake.ResultsTitle": [
+  "RESULTS AND RETURNS"
+ ],
+ "EmojiStake.Roll": [
+  "Save and Roll"
+ ],
+ "EmojiStake.StakePlaceholder": [
+  "Amount"
+ ],
+ "EmojiStake.StakeTitle": [
+  "STAKE"
+ ],
+ "EmojiStake.StreakInfo": [
+  "A streak resets after 3 # or a stake change."
+ ],
+ "EmojiStake.Title": [
+  "Emoji Stake"
+ ],
  "Gift.Acquired.AcceptedBid": [
   "Accepted Bid"
  ],
@@ -1355,6 +1376,9 @@
  "Gift.View.Context.Share": [
   "Share"
  ],
+ "Gift.View.Context.ShowOnProfile": [
+  "Show on Profile"
+ ],
  "Gift.View.Context.Transfer": [
   "Transfer"
  ],
@@ -1666,6 +1690,12 @@
  "GiftLink.Date": [
   "Date"
  ],
+ "GiftLink.Description": [
+  "This link allows you to activate a **Telegram Premium** subscription."
+ ],
+ "GiftLink.Footer": [
+  "You can also [send this link]() to a friend as a gift."
+ ],
  "GiftLink.From": [
   "From"
  ],
@@ -1696,6 +1726,12 @@
  "GiftLink.Reason": [
   "Reason"
  ],
+ "GiftLink.Reason.Gift": [
+  "You were selected by the channel"
+ ],
+ "GiftLink.Reason.Giveaway": [
+  "Giveaway"
+ ],
  "GiftLink.Reason.Unclaimed": [
   "Incomplete Giveaway"
  ],
@@ -1711,6 +1747,18 @@
  ],
  "GiftLink.UnclaimedDescription": [
   "This link allows anyone to activate a **Telegram Premium** subscription."
+ ],
+ "GiftLink.UseLink": [
+  "Use Link"
+ ],
+ "GiftLink.UsedDescription": [
+  "This link was used to activate a **Telegram Premium** subscription."
+ ],
+ "GiftLink.UsedFooter": [
+  "This link was used on %@."
+ ],
+ "GiftLink.UsedTitle": [
+  "Used Gift Link"
  ],
  "Monetization.AdRevenueTitle": [
   "AD REWARDS"
@@ -2564,7 +2612,37 @@
  "Time.PreciseDate_m10": [
   "Oct %1$@, %2$@ at %3$@"
  ],
+ "Wallet.Collectible.AlsoShowInMyGifts": [
+  "also show in my gifts"
+ ],
+ "Wallet.Collectible.Header.AddToCard": [
+  "add to card"
+ ],
+ "Wallet.Collectible.Header.ApplyColor": [
+  "apply color"
+ ],
+ "Wallet.Collectible.Header.RemoveColor": [
+  "remove color"
+ ],
+ "Wallet.Collectible.Header.RemoveFromCard": [
+  "remove from card"
+ ],
  "Wallet.Collectibles": [
   "Collectibles"
+ ],
+ "Wallet.Sticker.AddToCard": [
+  "Add to Card"
+ ],
+ "Wallet.Sticker.ApplyColor": [
+  "Apply Color"
+ ],
+ "Wallet.Sticker.RemoveColor": [
+  "Remove Color"
+ ],
+ "Wallet.Sticker.RemoveFromCard": [
+  "Remove from Card"
+ ],
+ "Wallet.ViewInExplorer": [
+  "View in Explorer"
  ]
 }

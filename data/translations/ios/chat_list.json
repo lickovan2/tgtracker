@@ -89,6 +89,9 @@
  "ChatList.AddPhoto.Title": [
   "Add your photo! 📸"
  ],
+ "ChatList.AddedToFolderTooltipV2": [
+  "{chat} has been added to folder {folder}"
+ ],
  "ChatList.AlertDeleteFolderText": [
   "Are you sure you want to delete this folder? This will also deactivate all the invite links created to share this folder."
  ],
@@ -278,6 +281,9 @@
  "ChatList.DeleteSavedMessagesConfirmationTitle": [
   "Warning!"
  ],
+ "ChatList.DeleteSavedPeerConfirmation": [
+  "Are you sure you want to delete saved messages from %@?"
+ ],
  "ChatList.DeleteSecretChatConfirmation": [
   "Are you sure you want to delete the secret chatwith %@?"
  ],
@@ -462,6 +468,18 @@
  "ChatList.PeerTypeNonContactUser": [
   "non-contact"
  ],
+ "ChatList.PremiumAnnualDiscountText": [
+  "Sign up for the annual payment plan for Telegram Premium now to get the discount."
+ ],
+ "ChatList.PremiumAnnualDiscountTitle": [
+  "Telegram Premium with a %@ discount"
+ ],
+ "ChatList.PremiumAnnualUpgradeText": [
+  "Upgrade to the annual payment plan for Telegram Premium to get the discount."
+ ],
+ "ChatList.PremiumAnnualUpgradeTitle": [
+  "Save up to %@ on your subscription"
+ ],
  "ChatList.PremiumGiftInSettingsInfo": [
   "You can send gifts to friends later from **Settings**."
  ],
@@ -470,6 +488,12 @@
  ],
  "ChatList.PremiumGraceTitle": [
   "⚠️ Don't lose access to Telegram Premium!"
+ ],
+ "ChatList.PremiumRestoreDiscountText": [
+  "Your Telegram Premium has recently expired. Tap here to extend it."
+ ],
+ "ChatList.PremiumRestoreDiscountTitle": [
+  "Get Premium back with up to %@ off"
  ],
  "ChatList.PremiumXmasGiftText": [
   "Send limited-edition collectibles to friends!"
@@ -500,6 +524,9 @@
  ],
  "ChatList.RemovedFromFolderTooltip": [
   "%1$@ has been removed from %2$@"
+ ],
+ "ChatList.RemovedFromFolderTooltipV2": [
+  "{chat} has been removed from folder {folder}"
  ],
  "ChatList.ReorderTabs": [
   "Reorder Tabs"
@@ -708,6 +735,10 @@
  "ChatListFilter.ExcludeChatsAction": [
   "Add Chats to Exclude"
  ],
+ "ChatListFilter.LinkLabelChatCount": [
+  "includes 1 chat",
+  "includes %d chats"
+ ],
  "ChatListFilter.SaveAlertActionSave": [
   "Save"
  ],
@@ -829,6 +860,9 @@
  "Common.Cancel": [
   "Cancel"
  ],
+ "Common.Close": [
+  "Close"
+ ],
  "Common.Delete": [
   "Delete"
  ],
@@ -843,6 +877,12 @@
  ],
  "Common.Search": [
   "Search"
+ ],
+ "Community.PrivateChat.Info": [
+  "This chat is invite-only.Only its members can view it."
+ ],
+ "Community.PrivateChat.MessageOwner": [
+  "Message Chat Owner"
  ],
  "Compose.NewChannel": [
   "New Channel"
@@ -955,6 +995,9 @@
  "Conversation.Mute": [
   "Mute"
  ],
+ "Conversation.Mute.SetupTitle": [
+  "Mute Until..."
+ ],
  "Conversation.ReportSpamAndLeave": [
   "Report Spam and Leave"
  ],
@@ -964,6 +1007,9 @@
  "Conversation.SaveToFiles": [
   "Save to Files"
  ],
+ "Conversation.SearchNoResults": [
+  "No Results"
+ ],
  "Conversation.StatusBotSubscribers": [
   "1 monthly user",
   "%d monthly users"
@@ -971,6 +1017,18 @@
  "Conversation.StatusMembers": [
   "1 member",
   "%@ members"
+ ],
+ "Conversation.Theme.NoTheme": [
+  "NoTheme"
+ ],
+ "Conversation.Theme.Reset": [
+  "Reset Theme for This Chat"
+ ],
+ "Conversation.Theme.SetPhotoWallpaper": [
+  "Choose Wallpaper from Photos"
+ ],
+ "Conversation.Theme.Title": [
+  "Select Theme"
  ],
  "Conversation.Unarchive": [
   "Unarchive"
@@ -1190,6 +1248,23 @@
   "1 CHAT TO JOIN",
   "%d CHATS TO JOIN"
  ],
+ "FolderLinkPreview.LabelPeerMember": [
+  "You are already a member"
+ ],
+ "FolderLinkPreview.LabelPeerMembers": [
+  "%d member",
+  "%d members"
+ ],
+ "FolderLinkPreview.LabelPeerSubscriber": [
+  "You are already a subscriber"
+ ],
+ "FolderLinkPreview.LabelPeerSubscribers": [
+  "%d subscriber",
+  "%d subscribers"
+ ],
+ "FolderLinkPreview.LinkSectionHeader": [
+  "INVITE LINKS"
+ ],
  "FolderLinkPreview.ListSelectionSelectAllDynamicPartDeselect": [
   "DESELECT"
  ],
@@ -1216,6 +1291,9 @@
   "%d chat",
   "%d chats"
  ],
+ "FolderLinkPreview.TextAddChatsV2": [
+  "Do you want to add {chats} to thefolder {folder}?"
+ ],
  "FolderLinkPreview.TextLinkList": [
   "Create more links to set up different accesslevels for different people."
  ],
@@ -1239,6 +1317,9 @@
  "FolderLinkPreview.ToastChatsAddedTitle": [
   "Folder %@ Updated"
  ],
+ "FolderLinkPreview.ToastChatsAddedTitleV2": [
+  "Folder {folder} Updated"
+ ],
  "FolderLinkPreview.ToastFolderAddedText": [
   "You also joined %d chat",
   "You also joined %d chats"
@@ -1246,12 +1327,18 @@
  "FolderLinkPreview.ToastFolderAddedTitle": [
   "Folder %@ Added"
  ],
+ "FolderLinkPreview.ToastFolderAddedTitleV2": [
+  "Folder {folder} Added"
+ ],
  "FolderLinkPreview.ToastLeftChatsText": [
   "You also left **%d** chat",
   "You also left **%d** chats"
  ],
  "FolderLinkPreview.ToastLeftTitle": [
   "Folder %@ deleted"
+ ],
+ "FolderLinkPreview.ToastLeftTitleV2": [
+  "Folder {folder} deleted"
  ],
  "FolderLinkScreen.SaveUnknownError": [
   "An error occurred while updating the link"
@@ -1304,8 +1391,20 @@
  "Group.LeaveGroup": [
   "Leave Group"
  ],
+ "HashtagSearch.MyMessages": [
+  "My Chats"
+ ],
+ "HashtagSearch.NoResults": [
+  "No Results"
+ ],
  "HashtagSearch.NoResultsQueryCashtagDescription": [
   "There were no results for %@.Try another cashtag."
+ ],
+ "HashtagSearch.NoResultsQueryDescription": [
+  "There were no results for %@.Try another hashtag."
+ ],
+ "HashtagSearch.PublicPosts": [
+  "Public Posts"
  ],
  "HashtagSearch.StoriesFound": [
   "%@ Story Found",
@@ -1313,6 +1412,9 @@
  ],
  "HashtagSearch.StoriesFoundInfo": [
   "View stories with %@"
+ ],
+ "InviteLink.Create": [
+  "Create a New Link"
  ],
  "LastSeen.Lately": [
   "last seen recently"
@@ -1323,6 +1425,9 @@
  ],
  "Map.AddressOnMap": [
   "Address On Map"
+ ],
+ "Map.OpenIn": [
+  "Open In"
  ],
  "MemberSearch.BotSection": [
   "BOTS"
@@ -1590,6 +1695,18 @@
  "PrivacySettings.SearchUsersTitle": [
   "Add Users"
  ],
+ "Report.Comment.Info": [
+  "Please help us by telling what is wrong with the message you are reporting."
+ ],
+ "Report.Comment.Placeholder": [
+  "Add Comment"
+ ],
+ "Report.Comment.Placeholder.Optional": [
+  "Add Comment (Optional)"
+ ],
+ "Report.Send": [
+  "Send Report"
+ ],
  "RequestPeer.SelectionConfirmationSend": [
   "Send"
  ],
@@ -1658,6 +1775,12 @@
  ],
  "ShareMenu.SelectChats": [
   "Select chats"
+ ],
+ "ShareMenu.Send": [
+  "Send"
+ ],
+ "ShareScreen.Caption": [
+  "Add a caption..."
  ],
  "ShareScreen.Title": [
   "Share with"

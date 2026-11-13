@@ -76,6 +76,12 @@
  "Chat.AttachmentLimitReached": [
   "You can't select more items."
  ],
+ "ChatImportActivity.InProgress": [
+  "Please keep this window openuntil the import is completed."
+ ],
+ "ChatImportActivity.Title": [
+  "Importing Chat"
+ ],
  "Clipboard.SendPhoto": [
   "Send Photo"
  ],
@@ -323,6 +329,12 @@
  "MediaPicker.GroupDescription": [
   "Group media into one message"
  ],
+ "MediaPicker.InvertCaption.Updated.Down.Text": [
+  "Text will be shown below the media."
+ ],
+ "MediaPicker.InvertCaption.Updated.Down.Title": [
+  "Caption moved down"
+ ],
  "MediaPicker.LivePhotoDescription": [
   "The live photo will autoplay and loop like a GIF."
  ],
@@ -331,6 +343,37 @@
  ],
  "MediaPicker.TapToUngroupDescription": [
   "Tap to send media separately"
+ ],
+ "MediaPicker.Timer.Description": [
+  "Choose how long the media will be kept after opening."
+ ],
+ "MediaPicker.Timer.DoNotDelete": [
+  "Do Not Delete"
+ ],
+ "MediaPicker.Timer.Photo.KeepTooltip": [
+  "Photo will be kept in chat."
+ ],
+ "MediaPicker.Timer.Photo.TimerTooltip": [
+  "Photo will be deleted%@ seconds after opening."
+ ],
+ "MediaPicker.Timer.Photo.ViewOnceTooltip": [
+  "Photo set to view once."
+ ],
+ "MediaPicker.Timer.Seconds": [
+  "%d Second",
+  "%d Seconds"
+ ],
+ "MediaPicker.Timer.Video.KeepTooltip": [
+  "Video will be kept in chat."
+ ],
+ "MediaPicker.Timer.Video.TimerTooltip": [
+  "Video will be deleted in%@ seconds after opening."
+ ],
+ "MediaPicker.Timer.Video.ViewOnceTooltip": [
+  "Video set to view once."
+ ],
+ "MediaPicker.Timer.ViewOnce": [
+  "View Once"
  ],
  "MediaPicker.UngroupDescription": [
   "Show media as separate messages"
@@ -384,6 +427,21 @@
  ],
  "Paint.ClearConfirm": [
   "Clear Painting"
+ ],
+ "Paint.ColorGrid": [
+  "Grid"
+ ],
+ "Paint.ColorOpacity": [
+  "OPACITY"
+ ],
+ "Paint.ColorSliders": [
+  "Sliders"
+ ],
+ "Paint.ColorSpectrum": [
+  "Spectrum"
+ ],
+ "Paint.ColorTitle": [
+  "Colors"
  ],
  "Paint.Delete": [
   "Delete"

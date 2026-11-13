@@ -1112,9 +1112,21 @@
  "RequestPeer.GroupsAllEmpty": [
   "You don't have any groups."
  ],
+ "RequestPeer.GroupsEmpty": [
+  "You don't have groups that meet the following requirements:"
+ ],
  "RequestPeer.ReachedMaximum": [
   "You can select up to %@ user.",
   "You can select up to %@ users."
+ ],
+ "RequestPeer.Requirement.Channel.CreatorOn": [
+  "You must be the owner of the channel."
+ ],
+ "RequestPeer.Requirement.Channel.HasUsernameOff": [
+  "The channel must be private."
+ ],
+ "RequestPeer.Requirement.Channel.HasUsernameOn": [
+  "The channel must be public."
  ],
  "RequestPeer.Requirement.Channel.Rights": [
   "You must have the admin rights to %@."
@@ -1155,8 +1167,17 @@
  "RequestPeer.Requirement.Group.ForumOff": [
   "The group must have topics turned off."
  ],
+ "RequestPeer.Requirement.Group.ForumOn": [
+  "The group must have topics turned on."
+ ],
  "RequestPeer.Requirement.Group.HasUsernameOff": [
   "The group must be private."
+ ],
+ "RequestPeer.Requirement.Group.HasUsernameOn": [
+  "The group must be public."
+ ],
+ "RequestPeer.Requirement.Group.ParticipantOn": [
+  "The bot must be in the group."
  ],
  "RequestPeer.Requirement.Group.Rights": [
   "You must have the admin rights to %@."
@@ -1197,6 +1218,9 @@
  "RequestPeer.Requirement.UserPremiumOff": [
   "The user must not have a Premium subscription."
  ],
+ "RequestPeer.Requirement.UserPremiumOn": [
+  "The user must have a Premium subscription."
+ ],
  "RequestPeer.Requirements": [
   "Requirements:"
  ],
@@ -1217,6 +1241,9 @@
  ],
  "RequestPeer.UsersAllEmpty": [
   "You don't know any users."
+ ],
+ "RequestPeer.UsersEmpty": [
+  "You don't know users who meet the following requirements:"
  ],
  "ScheduledIn.Hours": [
   "%@ hour",

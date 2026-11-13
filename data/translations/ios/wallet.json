@@ -11,6 +11,12 @@
  "Common.OK": [
   "OK"
  ],
+ "Common.Paste": [
+  "Paste"
+ ],
+ "Common.Save": [
+  "Save"
+ ],
  "Common.Search": [
   "Search"
  ],
@@ -62,6 +68,9 @@
  "Wallet.Apps.ActiveConnections": [
   "Active Connections"
  ],
+ "Wallet.Apps.AllDisconnected": [
+  "All apps disconnected."
+ ],
  "Wallet.Apps.AllPermissions": [
   "Connected apps can see your wallet address, balance and activity. They can't move funds without your approval."
  ],
@@ -70,6 +79,24 @@
  ],
  "Wallet.Apps.DisconnectAll": [
   "Disconnect All Apps"
+ ],
+ "Wallet.Apps.DisconnectAllAction": [
+  "Disconnect All"
+ ],
+ "Wallet.Apps.DisconnectAllError": [
+  "Unable to disconnect these apps. Please try again."
+ ],
+ "Wallet.Apps.DisconnectAllText": [
+  "These apps will lose access to your wallet. You can connect them again at any time."
+ ],
+ "Wallet.Apps.DisconnectAllTitle": [
+  "Disconnect All Apps?"
+ ],
+ "Wallet.Apps.DisconnectError": [
+  "Unable to disconnect this app. Please try again."
+ ],
+ "Wallet.Apps.Disconnected": [
+  "%@ disconnected."
  ],
  "Wallet.Apps.Permissions": [
   "This app can see your wallet address, balance and activity. It can't move funds without your approval."
@@ -275,6 +302,15 @@
  "Wallet.HiddenTransactions": [
   "Transactions under %@ are hidden."
  ],
+ "Wallet.Import.EnableBackupText": [
+  "Enter your wallet's current 12- or 24-word secret phrase to enable encrypted backup."
+ ],
+ "Wallet.Import.ErrorText": [
+  "Check the secret phrase and network connection, then try again."
+ ],
+ "Wallet.Import.ErrorTitle": [
+  "Couldn’t Import Wallet"
+ ],
  "Wallet.Import.InvalidCurrentPhraseLength": [
   "Your current secret phrase must contain exactly 12 or 24 words. The pasted phrase contains %@."
  ],
@@ -295,6 +331,25 @@
  ],
  "Wallet.Import.Proceed": [
   "Proceed"
+ ],
+ "Wallet.Import.RecoveryExplanation": [
+  "Since you disabled backups for your wallet, you have to manually enter your Secret Phrase in every new Telegram session."
+ ],
+ "Wallet.Import.Text": [
+  "Enter the 12- or 24-word secret phrase from another wallet you own."
+ ],
+ "Wallet.Import.Title": [
+  "Import Wallet"
+ ],
+ "Wallet.Import.WordCount": [
+  "%@ word",
+  "%@ words"
+ ],
+ "Wallet.Import.WrongPhraseText": [
+  "The words you entered don't match the wallet."
+ ],
+ "Wallet.Import.WrongPhraseTitle": [
+  "Wrong Secret Phrase"
  ],
  "Wallet.Info.BlockchainVerifiedText": [
   "All transactions are recordedand verifiable on a public ledger."
@@ -389,8 +444,26 @@
  "Wallet.Receive.CopyAddress": [
   "Copy my address"
  ],
+ "Wallet.Receive.PeerShowQR": [
+  "Show QR"
+ ],
  "Wallet.Receive.PeerText": [
   "Send Grams to this addressor scan this QR code."
+ ],
+ "Wallet.Receive.PurchaseFailedText": [
+  "The purchase couldn't be started. Please try again."
+ ],
+ "Wallet.Receive.PurchaseFailedTitle": [
+  "Purchase Failed"
+ ],
+ "Wallet.Receive.PurchaseUnavailableText": [
+  "Purchasing is currently unavailable. Please try again later."
+ ],
+ "Wallet.Receive.PurchaseUnavailableTitle": [
+  "Purchase Unavailable"
+ ],
+ "Wallet.Receive.ShowQR": [
+  "Show my QR"
  ],
  "Wallet.Receive.Text": [
   "Share your address or thisQR code to receive GRAM."
@@ -403,6 +476,27 @@
  ],
  "Wallet.Recipient.InvalidAddress": [
   "The pasted text is not a valid TON address."
+ ],
+ "Wallet.Recipient.InvalidAddressText": [
+  "This wallet address is invalid.Check it or try another address."
+ ],
+ "Wallet.Recipient.LinkedAddress": [
+  "This TON Blockchain address is linked to %@ on Telegram."
+ ],
+ "Wallet.Recipient.NoRecentRecipients": [
+  "Recent recipientswill appear here"
+ ],
+ "Wallet.Recipient.NoResults": [
+  "No Results"
+ ],
+ "Wallet.Recipient.NoResultsText": [
+  "There were no results for \"%@\".Try another name or address."
+ ],
+ "Wallet.Recipient.Placeholder": [
+  "Name or wallet address"
+ ],
+ "Wallet.Recipient.UnlinkedAddress": [
+  "This TON Blockchain address has no linked Telegram account."
  ],
  "Wallet.RestoreErrorTitle": [
   "Couldn’t Restore Wallet"
@@ -425,11 +519,17 @@
  "Wallet.Send.AddComment": [
   "Add comment"
  ],
+ "Wallet.Send.Amount": [
+  "Send %@"
+ ],
  "Wallet.Send.Balance": [
   "Balance: %@"
  ],
  "Wallet.Send.DepositFunds": [
   "Deposit funds"
+ ],
+ "Wallet.Send.EditComment": [
+  "Edit Comment"
  ],
  "Wallet.Send.InsufficientFunds": [
   "Insufficient funds."
@@ -437,8 +537,14 @@
  "Wallet.Send.PublicComment": [
   "Make comment public"
  ],
+ "Wallet.Send.RecipientWallet": [
+  "%@’s wallet"
+ ],
  "Wallet.Send.Title": [
   "Send Money to"
+ ],
+ "Wallet.Send.UnlinkedWallet": [
+  "Unlinked wallet"
  ],
  "Wallet.Settings.Backup": [
   "Encrypted Backup"
@@ -499,6 +605,12 @@
  ],
  "Wallet.Settings.ShowPhraseErrorTitle": [
   "Couldn’t Show Secret Phrase"
+ ],
+ "Wallet.Settings.WalletCreatedText": [
+  "Your new wallet is ready to use."
+ ],
+ "Wallet.Settings.WalletCreatedTitle": [
+  "Wallet Created"
  ],
  "Wallet.Settings.WalletImportedText": [
   "Your wallet was restored from your secret phrase."
@@ -575,11 +687,23 @@
  "Wallet.TonAddressCopied": [
   "TON address copied to clipboard"
  ],
+ "Wallet.Transaction.Address": [
+  "Address"
+ ],
  "Wallet.Transaction.CallContract": [
   "Call Contract"
  ],
  "Wallet.Transaction.CardTopUp": [
   "Card top-up"
+ ],
+ "Wallet.Transaction.CommentDecryptionErrorText": [
+  "The comment could not be decrypted."
+ ],
+ "Wallet.Transaction.CommentDecryptionErrorTitle": [
+  "Couldn't Decrypt Comment"
+ ],
+ "Wallet.Transaction.Date": [
+  "Date"
  ],
  "Wallet.Transaction.Deposit": [
   "Deposit"
@@ -589,6 +713,12 @@
  ],
  "Wallet.Transaction.Failed": [
   "Failed"
+ ],
+ "Wallet.Transaction.FailedOperation": [
+  "%@ · Failed"
+ ],
+ "Wallet.Transaction.Fee": [
+  "Fee"
  ],
  "Wallet.Transaction.ItemCount": [
   "%@ item",
@@ -603,11 +733,18 @@
  "Wallet.Transaction.NetworkFeesTitle": [
   "Network fees"
  ],
+ "Wallet.Transaction.SendCollectible": [
+  "Send Collectible"
+ ],
  "Wallet.Transaction.Telegram": [
   "Telegram"
  ],
  "Wallet.Transaction.Transfer": [
   "Transfer"
+ ],
+ "Wallet.Transaction.Transfers": [
+  "%@ transfer",
+  "%@ transfers"
  ],
  "Wallet.Transaction.UnknownOperation": [
   "Unknown Operation"
@@ -620,6 +757,9 @@
  ],
  "Wallet.Transactions": [
   "Transactions"
+ ],
+ "Wallet.Transfer.CollectibleSuccess": [
+  "The collectible has been sent to **%@**."
  ],
  "Wallet.Transfer.CollectibleTopUpText": [
   "You need at least 0.1 Grams in your wallet to transfer an NFT. Top up your balance and try again."
@@ -677,6 +817,9 @@
  ],
  "Wallet.ViewInExplorer": [
   "View in Explorer"
+ ],
+ "Wallet.WaltBalance": [
+  "You also have funds in Walt"
  ],
  "Wallet.Words.NewText": [
   "A new secret phrase for your wallet has been generated. Write it down and keep it secret."

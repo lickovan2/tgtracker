@@ -76,6 +76,9 @@
  "CallList.ToastCallLinkCopied.Text": [
   "Call link copied"
  ],
+ "CallSettings.RecentCalls": [
+  "Recent Calls"
+ ],
  "CallSettings.TabIcon": [
   "Show Calls Tab"
  ],
@@ -137,6 +140,9 @@
   "%@ subscriber",
   "%@ subscribers"
  ],
+ "DialogList.Title": [
+  "Chats"
+ ],
  "GroupCall.RevokeLinkText": [
   "Are you sure you want to revoke this link? Once you do, no one will be able to join the call using it."
  ],
@@ -171,6 +177,9 @@
  ],
  "LiveStream.CreateNewVoiceChatText": [
   "Live stream ended. Start a new one?"
+ ],
+ "LiveStream.RemoveAndBanPeerConfirmation": [
+  "Do you want to remove %1$@ from the live stream and ban them in %2$@?"
  ],
  "LiveStreamSettings.AllowComments": [
   "Allow Comments"
@@ -245,6 +254,12 @@
  "Presence.online": [
   "online"
  ],
+ "Settings.MyProfile": [
+  "My Profile"
+ ],
+ "Settings.SavedMessages": [
+  "Saved Messages"
+ ],
  "Settings.Title": [
   "Settings"
  ],
@@ -278,6 +293,12 @@
  ],
  "VoiceChat.PersonalAccount": [
   "personal account"
+ ],
+ "VoiceChat.RemoveAndBanPeerConfirmation": [
+  "Do you want to remove %1$@ from the video chat and ban them in %2$@?"
+ ],
+ "VoiceChat.RemovePeerRemove": [
+  "Remove"
  ],
  "Weekday.ShortFriday": [
   "Fri"

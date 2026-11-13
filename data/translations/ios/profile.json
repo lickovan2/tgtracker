@@ -79,6 +79,12 @@
   "%@ minute",
   "%@ minutes"
  ],
+ "CallSettings.RecentCalls": [
+  "Recent Calls"
+ ],
+ "Calls.TabTitle": [
+  "Calls"
+ ],
  "CancelResetAccount.TextSMS": [
   "Somebody with access to your phone number %@ has requested to delete your Telegram account and reset your 2-Step Verification password.If it wasn't you, please enter the code we've just sent you via SMS to your number. You can also cancel this by **changing your phone number** to a number you control."
  ],
@@ -139,6 +145,9 @@
  "Contacts.InviteToTelegram": [
   "Invite to Telegram"
  ],
+ "Contacts.Title": [
+  "Contacts"
+ ],
  "Conversation.BlockUser": [
   "Block User"
  ],
@@ -168,6 +177,9 @@
  ],
  "DialogList.SavedMessages": [
   "Saved Messages"
+ ],
+ "DialogList.Title": [
+  "Chats"
  ],
  "EmojiSearch.SearchStatusesEmptyResult": [
   "No emoji found"
@@ -715,6 +727,9 @@
  "PeerInfo.ChangeEmojiStatus": [
   "Change Emoji Status"
  ],
+ "PeerInfo.ChangeProfileColor": [
+  "Change Profile Color"
+ ],
  "PeerInfo.ClearMessages": [
   "Clear Messages"
  ],
@@ -1247,6 +1262,9 @@
  "Settings.EditVideo": [
   "Edit"
  ],
+ "Settings.MyProfile": [
+  "My Profile"
+ ],
  "Settings.PersonalChannelAddedToast": [
   "Personal channel added."
  ],
@@ -1274,8 +1292,17 @@
  "Settings.RemoveVideo": [
   "Remove Photo"
  ],
+ "Settings.SavedMessages": [
+  "Saved Messages"
+ ],
  "Settings.SetNewProfilePhotoOrVideo": [
   "Set New Photo"
+ ],
+ "Settings.SetProfilePhotoOrVideo": [
+  "Set Profile Photo"
+ ],
+ "Settings.SetUsername": [
+  "Set Username"
  ],
  "ShareMenu.CopyShareLink": [
   "Copy Link"
