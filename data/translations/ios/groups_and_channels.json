@@ -448,6 +448,9 @@
  "BroadcastGroups.LimitAlert.LearnMore": [
   "Learn More"
  ],
+ "BroadcastGroups.LimitAlert.SettingsTip": [
+  "If you change your mind, go to your group's Settings > Permissions."
+ ],
  "BroadcastGroups.LimitAlert.Text": [
   "Your group has reached a limit of **%@** members.You can increase this limit by converting the group to a **broadcast group** where only admins can post. Interested?"
  ],
@@ -558,6 +561,9 @@
  ],
  "Channel.AdminLog.ChannelChangedNameColor": [
   "%1$@ changed the channel name color to %2$@"
+ ],
+ "Channel.AdminLog.ChannelChangedWallpaper": [
+  "%1$@ set a new wallpaper"
  ],
  "Channel.AdminLog.ChannelRemovedStatus": [
   "%1$@ removed the channel status"
@@ -712,6 +718,9 @@
  ],
  "Channel.AdminLog.MessagePreviousLink": [
   "Previous link"
+ ],
+ "Channel.AdminLog.MessagePreviousLinks": [
+  "Previous links"
  ],
  "Channel.AdminLog.MessagePreviousMessage": [
   "Original message"
@@ -1203,6 +1212,9 @@
  "Channel.EditAdmin.PermissionManageRanks": [
   "Edit Member Tags"
  ],
+ "Channel.EditAdmin.PermissionManageTopics": [
+  "Manage Topics"
+ ],
  "Channel.EditAdmin.PermissionManageWelcomeMessages": [
   "Manage Welcome Messages"
  ],
@@ -1223,6 +1235,12 @@
  ],
  "Channel.EditAdmin.PermissionsHeader": [
   "WHAT CAN THIS ADMIN DO?"
+ ],
+ "Channel.EditAdmin.SectionMessages": [
+  "Manage Messages"
+ ],
+ "Channel.EditAdmin.SectionStories": [
+  "Manage Stories"
  ],
  "Channel.ErrorAccessDenied": [
   "This channel is unavailable."
@@ -1373,6 +1391,9 @@
  ],
  "Channel.Setup.ApproveNewSubscribers": [
   "Approve New Subscribers"
+ ],
+ "Channel.Setup.ApproveNewSubscribersInfo": [
+  "Turn this on if you want users to join only after they are approved by an admin."
  ],
  "Channel.Setup.LinkTypePrivate": [
   "Private"
@@ -2175,6 +2196,12 @@
  "Chat.PostApproval.Message.ActionSuggestChanges": [
   "Suggest Changes"
  ],
+ "Chat.PostApproval.Message.AdminAgreementFuture": [
+  "📅 Your post will be automatically published in **%1$@** **%2$@**."
+ ],
+ "Chat.PostApproval.Message.AdminAgreementNoTime": [
+  "📅 Your post was automatically published in **%1$@**."
+ ],
  "Chat.PostApproval.Message.AdminAgreementPast": [
   "📅 Your post has been automatically published in **%1$@** **%2$@**."
  ],
@@ -2330,6 +2357,9 @@
  ],
  "Chat.PremiumReactionToastTitle": [
   "Subscribe to **Telegram Premium** to unlock this reaction."
+ ],
+ "Chat.ReplyStoryPrivateChannel": [
+  "Private story"
  ],
  "Chat.SaveForNotifications": [
   "Save for Notifications"
@@ -2662,6 +2692,9 @@
  "Conversation.InputTextBroadcastPlaceholder": [
   "Broadcast"
  ],
+ "Conversation.InputTextPlaceholder": [
+  "Message"
+ ],
  "Conversation.InputTextPlaceholderComment": [
   "Comment"
  ],
@@ -2976,6 +3009,9 @@
  "CreateTopic.EditTitle": [
   "Edit Topic"
  ],
+ "Date.ChatDateHeader": [
+  "%1$@ %2$@"
+ ],
  "DialogList.AdNoticeAlert": [
   "This channel is shown by your proxy server. To remove this channel from your chat list, disable the proxy in Telegram Settings > Data and Storage."
  ],
@@ -3210,6 +3246,9 @@
  "Group.EditAdmin.MemberTagInfo": [
   "Add short tag next to %@'s name."
  ],
+ "Group.EditAdmin.MemberTagTitle": [
+  "Member Tag"
+ ],
  "Group.EditAdmin.PermissionChangeInfo": [
   "Change Group Info"
  ],
@@ -3319,6 +3358,9 @@
   "Group photo removed"
  ],
  "Group.MessagePhotoUpdated": [
+  "Group photo updated"
+ ],
+ "Group.MessageVideoUpdated": [
   "Group photo updated"
  ],
  "Group.OwnershipTransfer.DescriptionInfo": [
@@ -3591,6 +3633,9 @@
  "GroupInfo.AddParticipantTitle": [
   "Contacts"
  ],
+ "GroupInfo.AddRank": [
+  "Add Tag"
+ ],
  "GroupInfo.AddUserLeftError": [
   "Sorry, if a person is no longer part of a group, you need to add each other to your respective contact lists to be able to add them back.Note that they could still join via the group's invite link as long as they are not in the Removed Users list."
  ],
@@ -3805,8 +3850,14 @@
  "GroupPermission.NoEditRank": [
   "no tag"
  ],
+ "GroupPermission.NoManageTopics": [
+  "no topics"
+ ],
  "GroupPermission.NoPinMessages": [
   "no pinning"
+ ],
+ "GroupPermission.NoSendFile": [
+  "no files"
  ],
  "GroupPermission.NoSendGifs": [
   "no GIFs"
@@ -3820,11 +3871,26 @@
  "GroupPermission.NoSendMessages": [
   "no messages"
  ],
+ "GroupPermission.NoSendMusic": [
+  "no music"
+ ],
+ "GroupPermission.NoSendPhoto": [
+  "no photos"
+ ],
  "GroupPermission.NoSendPolls": [
   "no polls"
  ],
  "GroupPermission.NoSendReactions": [
   "no reactions"
+ ],
+ "GroupPermission.NoSendVideo": [
+  "no videos"
+ ],
+ "GroupPermission.NoSendVideoMessage": [
+  "no video messages"
+ ],
+ "GroupPermission.NoSendVoiceMessage": [
+  "no voice messages"
  ],
  "GroupPermission.NotAvailableInPublicGroups": [
   "This permission is not available in public groups."
@@ -4171,6 +4237,9 @@
   "last seen 1 minute ago",
   "last seen %@ minutes ago"
  ],
+ "LastSeen.TodayAt": [
+  "last seen today at %@"
+ ],
  "LeaveGroup.AppointAnotherOwner": [
   "Appoint Another Owner"
  ],
@@ -4374,6 +4443,12 @@
  ],
  "Message.AdWhatIsThis": [
   "what's this?"
+ ],
+ "Message.Story": [
+  "Story"
+ ],
+ "Message.Widget": [
+  "Widget"
  ],
  "MessagePoll.SubmitVote": [
   "Vote"
@@ -4637,6 +4712,9 @@
  "Notification.ChannelMigratedFrom": [
   "This group was upgraded to a supergroup"
  ],
+ "Notification.CommunityAddedBot": [
+  "This bot was added to the community %1$@"
+ ],
  "Notification.CommunityAddedChannel": [
   "This channel was added to the community %1$@"
  ],
@@ -4646,14 +4724,26 @@
  "Notification.CommunityAddedGroupUnknown": [
   "This group was added to the community %1$@"
  ],
+ "Notification.CommunityAddedGroupYou": [
+  "You added this group to the community %1$@"
+ ],
  "Notification.CommunityRemovedChannel": [
   "This channel was removed from a community"
  ],
  "Notification.CommunityRemovedGroupYou": [
   "You removed this group from a community"
  ],
+ "Notification.CopyProtection.Request": [
+  "%@ would like to enable sharing in this chat"
+ ],
+ "Notification.CopyProtection.RequestYou": [
+  "You suggested to enable sharing in this chat"
+ ],
  "Notification.CreatedChannel": [
   "Channel created"
+ ],
+ "Notification.ForumTopicReopenedAuthor": [
+  "%1$@ reopened the topic"
  ],
  "Notification.GiveawayResults": [
   "**%@** winner of the giveaway was randomly selected by Telegram and received their gift link in a private message.",
@@ -4698,6 +4788,9 @@
  ],
  "Notification.LiveStreamScheduled": [
   "Live stream scheduled for %@"
+ ],
+ "Notification.LiveStreamScheduledToday": [
+  "Live stream scheduled for today at %@"
  ],
  "Notification.LiveStreamScheduledTomorrow": [
   "Live stream scheduled for tomorrow at %@"
@@ -4789,8 +4882,14 @@
  "Notification.VoiceChatScheduledChannel": [
   "Video chat scheduled for %@"
  ],
+ "Notification.VoiceChatScheduledToday": [
+  "%1$@ scheduled a video chat for today at %2$@"
+ ],
  "Notification.VoiceChatScheduledTodayChannel": [
   "Video chat scheduled for today at %@"
+ ],
+ "Notification.VoiceChatScheduledTomorrow": [
+  "%1$@ scheduled a video chat for tomorrow at %2$@"
  ],
  "Notification.VoiceChatScheduledTomorrowChannel": [
   "Video chat scheduled for tomorrow at %@"
@@ -4938,11 +5037,17 @@
  "PeerInfo.ButtonAddMember": [
   "Add Members"
  ],
+ "PeerInfo.ButtonLeave": [
+  "Leave"
+ ],
  "PeerInfo.ButtonLiveStream": [
   "Live Stream"
  ],
  "PeerInfo.ButtonMore": [
   "More"
+ ],
+ "PeerInfo.ButtonMute": [
+  "Mute"
  ],
  "PeerInfo.ButtonSearch": [
   "Search"
@@ -5395,6 +5500,12 @@
  "ScheduledIn.Weeks": [
   "%@ week",
   "%@ weeks"
+ ],
+ "ScheduledMessages.ScheduledOnline": [
+  "Scheduled until online"
+ ],
+ "ScheduledMessages.ScheduledToday": [
+  "Scheduled for today"
  ],
  "SendInviteLink.SubscribeToPremiumButton": [
   "Subscribe to Telegram Premium"
@@ -5978,6 +6089,9 @@
  "SuggestPost.SetTimeFormat.Any": [
   "Anytime"
  ],
+ "SuggestPost.SetTimeFormat.Date": [
+  "%@"
+ ],
  "SuggestPost.SetTimeFormat.TodayAt": [
   "Today at %@"
  ],
@@ -6046,6 +6160,9 @@
  ],
  "Undo.Undo": [
   "Undo"
+ ],
+ "User.DeletedAccount": [
+  "Deleted Account"
  ],
  "UserInfo.NotificationsDisable": [
   "Disable"

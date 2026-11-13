@@ -414,9 +414,6 @@
  "Message.ForwardedStoryShort": [
   "Forwarded StoryFrom: %@"
  ],
- "Message.Story": [
-  "Story"
- ],
  "Notification.Exceptions.AddException": [
   "Add Exception"
  ],

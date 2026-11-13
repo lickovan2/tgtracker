@@ -118,6 +118,12 @@
  "Common.OK": [
   "OK"
  ],
+ "ContactInfo.PhoneLabelMain": [
+  "main"
+ ],
+ "Contacts.InviteToTelegram": [
+  "Invite to Telegram"
+ ],
  "Conversation.ContextMenuCopy": [
   "Copy"
  ],
@@ -1281,6 +1287,9 @@
  ],
  "Stories.ToastAlbumNotAvailable": [
   "This album is no longer available."
+ ],
+ "SuggestBirthdate.Accept.Added": [
+  "Birthday added. You can change it in **Settings**."
  ],
  "SuggestBirthdate.Suggest.Action": [
   "Suggest Date of Birth"

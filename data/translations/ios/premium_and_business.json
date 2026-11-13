@@ -1,9 +1,116 @@
 {
+ "BoostGift.AddChannelOrGroup": [
+  "Add Channel or Group"
+ ],
+ "BoostGift.AddGroupOrChannel": [
+  "Add Group or Channel"
+ ],
+ "BoostGift.AdditionalPrizes": [
+  "Additional Prizes"
+ ],
+ "BoostGift.AdditionalPrizesInfoOff": [
+  "Turn this on if you want to give the winners your own prizes in addition to Premium subscriptions."
+ ],
+ "BoostGift.AllSubscribers": [
+  "All subscribers"
+ ],
  "BoostGift.Channels.MaximumReached": [
   "You can select up to %@ channels."
  ],
+ "BoostGift.ChannelsAndGroupsInfo": [
+  "Choose additional channels or groups users need to join to take part in the giveaway."
+ ],
+ "BoostGift.ChannelsAndGroupsTitle": [
+  "INCLUDED CHANNELS AND GROUPS"
+ ],
+ "BoostGift.ChannelsBoosts": [
+  "this channel will receive %@ boost",
+  "this channel will receive %@ boosts"
+ ],
+ "BoostGift.CreateGiveawayInfo": [
+  "winners are chosen randomly"
+ ],
+ "BoostGift.DateEnds": [
+  "Ends"
+ ],
+ "BoostGift.DateInfo": [
+  "Choose when %1$@ of your channel will be randomly selected to receive Telegram Premium."
+ ],
+ "BoostGift.DateInfoSubscribers": [
+  "%@ subscriber",
+  "%@ subscribers"
+ ],
+ "BoostGift.DateTitle": [
+  "DATE WHEN GIVEAWAY ENDS"
+ ],
+ "BoostGift.DurationTitle": [
+  "DURATION OF PREMIUM SUBSCRIPTIONS"
+ ],
+ "BoostGift.FromAllCountries": [
+  "from all countries"
+ ],
+ "BoostGift.Group.AllMembers": [
+  "All members"
+ ],
+ "BoostGift.Group.DateInfo": [
+  "Choose when %1$@ of your group will be randomly selected to receive Telegram Premium."
+ ],
+ "BoostGift.Group.DateInfoMembers": [
+  "%@ member",
+  "%@ members"
+ ],
+ "BoostGift.Group.LimitMembersInfo": [
+  "Choose if you want to limit the giveaway only to those who joined the group after the giveaway started."
+ ],
+ "BoostGift.Group.OnlyNewMembers": [
+  "Only new members"
+ ],
+ "BoostGift.GroupBoosts": [
+  "this group will receive %@ boost",
+  "this group will receive %@ boosts"
+ ],
+ "BoostGift.GroupsAndChannelsInfo": [
+  "Choose additional groups or channels users need to join to take part in the giveaway."
+ ],
+ "BoostGift.GroupsAndChannelsTitle": [
+  "INCLUDED GROUPS AND CHANNELS"
+ ],
+ "BoostGift.LimitSubscribersInfo": [
+  "Choose if you want to limit the giveaway only to those who joined the channel after the giveaway started or to users from specific countries."
+ ],
  "BoostGift.Members.MaximumReached": [
   "You can select maximum %@ members."
+ ],
+ "BoostGift.NewDescription": [
+  "Get more boosts and subscribers foryour channel by giving away prizes."
+ ],
+ "BoostGift.NewDescriptionGroup": [
+  "Get more boosts and members foryour group by giving away prizes."
+ ],
+ "BoostGift.OnlyNewSubscribers": [
+  "Only new subscribers"
+ ],
+ "BoostGift.PremiumInfo": [
+  "You can review the list of features and more details about Telegram Premium [here]()."
+ ],
+ "BoostGift.Prize": [
+  "PRIZE"
+ ],
+ "BoostGift.Prize.Premium": [
+  "Telegram Premium"
+ ],
+ "BoostGift.Prize.Stars": [
+  "Telegram Stars"
+ ],
+ "BoostGift.QuantityBoosts": [
+  "%@ BOOST",
+  "%@ BOOSTS"
+ ],
+ "BoostGift.QuantityInfo": [
+  "Choose how many Premium subscriptions to give away and boosts to receive."
+ ],
+ "BoostGift.QuantityTitle": [
+  "QUANTITY OF PRIZES"
  ],
  "BoostGift.ReduceQuantity.Reduce": [
   "Reduce"
@@ -23,14 +130,32 @@
  "BoostGift.StartConfirmation.Title": [
   "Start Giveaway"
  ],
+ "BoostGift.StartGiveaway": [
+  "Start Giveaway"
+ ],
  "BoostGift.Subscribers.MaximumReached": [
   "You can select up to %@ subscribers."
+ ],
+ "BoostGift.Title": [
+  "Boosts via Gifts"
+ ],
+ "BoostGift.UsersTitle": [
+  "USERS ELIGIBLE FOR THE GIVEAWAY"
+ ],
+ "BoostGift.Winners": [
+  "Show Winners"
+ ],
+ "BoostGift.WinnersInfo": [
+  "Choose whether to make the list of winners public when the giveaway ends."
  ],
  "Business.Links.AlertUnsavedAction": [
   "Reset"
  ],
  "Business.Links.AlertUnsavedText": [
   "You have unsaved changes. Reset?"
+ ],
+ "Business.Links.EditLinkToastSaved": [
+  "Preset message saved."
  ],
  "Business.Links.ErrorTooManyLinks": [
   "Sorry, you can't create more links."
@@ -71,6 +196,15 @@
  "BusinessMessageSetup.ErrorNoRecipients.Text": [
   "No recipients selected. Reset?"
  ],
+ "ChannelBoost.AutoTranslate": [
+  "Auto-translation of Messages"
+ ],
+ "ChannelBoost.AutoTranslateLevelText": [
+  "Your channel needs to reach **Level %1$@** to enable auto-translation."
+ ],
+ "ChannelBoost.Boost": [
+  "Boost"
+ ],
  "ChannelBoost.BoostLinkCopied": [
   "Boost link copied to clipboard"
  ],
@@ -86,6 +220,39 @@
  "ChannelBoost.BoostLinkForwardTooltip.TwoChats.One": [
   "Boost link forwarded to **%@** and **%@**"
  ],
+ "ChannelBoost.Copy": [
+  "Copy"
+ ],
+ "ChannelBoost.CustomReactions": [
+  "Custom Reactions"
+ ],
+ "ChannelBoost.CustomReactionsText": [
+  "Your channel needs to reach **Level %1$@** to add **%2$@** custom emoji as reactions.Ask your **Premium** subscribers to boost your channel with this link:"
+ ],
+ "ChannelBoost.CustomWallpaper": [
+  "Set Custom Channel Wallpaper"
+ ],
+ "ChannelBoost.EmojiStatus": [
+  "Use Emoji Statuses"
+ ],
+ "ChannelBoost.EnableCustomWallpaperLevelText": [
+  "Your channel needs **Level %1$@** to set a custom wallpaper."
+ ],
+ "ChannelBoost.EnableEmojiStatusLevelText": [
+  "Your channel needs **Level %1$@** to use emoji statuses."
+ ],
+ "ChannelBoost.EnableNameIconLevelText": [
+  "Your channel needs **Level %1$@** to change the link logo."
+ ],
+ "ChannelBoost.EnableNoAdsLevelText": [
+  "Your channel needs **Level %1$@** to switch off ads."
+ ],
+ "ChannelBoost.EnableProfileIconLevelText": [
+  "Your channel needs **Level %1$@** to change the cover logo."
+ ],
+ "ChannelBoost.EnableWallpaperLevelText": [
+  "Your channel needs **Level %1$@** to set a wallpaper."
+ ],
  "ChannelBoost.Error.BoostTooOftenText": [
   "You can only change the channel you boost once a day. You will be able to boost in **%@**."
  ],
@@ -98,6 +265,19 @@
  "ChannelBoost.Error.PremiumNeededTitle": [
   "Premium Needed"
  ],
+ "ChannelBoost.IncreaseLimit": [
+  "Increase Story Limit"
+ ],
+ "ChannelBoost.IncreaseLimitText": [
+  "Your channel needs %1$@ to post %2$@.Ask your **Premium** subscribers to boost your channel with this link:"
+ ],
+ "ChannelBoost.Level": [
+  "Level %@"
+ ],
+ "ChannelBoost.MoreBoosts": [
+  "**%@** more boost",
+  "**%@** more boosts"
+ ],
  "ChannelBoost.MoreBoosts.Gift": [
   "Gift Premium"
  ],
@@ -106,6 +286,94 @@
  ],
  "ChannelBoost.MoreBoosts.Title": [
   "More Boosts Needed"
+ ],
+ "ChannelBoost.NameIcon": [
+  "Set Link Logo"
+ ],
+ "ChannelBoost.NoAds": [
+  "Switch Off Ads"
+ ],
+ "ChannelBoost.PremiumUsersCanBoost": [
+  "**Premium** users can boost your channel with this link:"
+ ],
+ "ChannelBoost.ProfileIcon": [
+  "Set Cover Logo"
+ ],
+ "ChannelBoost.StoriesPerDay": [
+  "**%@** story per day",
+  "**%@** stories per day"
+ ],
+ "ChannelBoost.Table.AutoTranslate": [
+  "Auto-translation of Messages"
+ ],
+ "ChannelBoost.Table.CustomReactions": [
+  "%@ Custom Reaction",
+  "%@ Custom Reactions"
+ ],
+ "ChannelBoost.Table.CustomWallpaper": [
+  "Custom Channel Background"
+ ],
+ "ChannelBoost.Table.EmojiStatus": [
+  "1000+ Emoji Statuses"
+ ],
+ "ChannelBoost.Table.Group.CustomWallpaper": [
+  "Custom Group Background"
+ ],
+ "ChannelBoost.Table.Group.ProfileColor": [
+  "%@ Color for Group Cover",
+  "%@ Colors for Group Cover"
+ ],
+ "ChannelBoost.Table.Group.ProfileLogo": [
+  "Custom Logo for Group Cover"
+ ],
+ "ChannelBoost.Table.Group.Wallpaper": [
+  "%@ Group Background",
+  "%@ Group Backgrounds"
+ ],
+ "ChannelBoost.Table.HeadersLogo": [
+  "Custom Logo for Links and Quotes"
+ ],
+ "ChannelBoost.Table.Level": [
+  "Level %@",
+  "Level %@"
+ ],
+ "ChannelBoost.Table.LevelUnlocks": [
+  "Level %@ Unlocks:",
+  "Level %@ Unlocks:"
+ ],
+ "ChannelBoost.Table.NoAds": [
+  "Switch Off Ads"
+ ],
+ "ChannelBoost.Table.ProfileColor": [
+  "%@ Color for Channel Cover",
+  "%@ Colors for Channel Cover"
+ ],
+ "ChannelBoost.Table.ProfileLogo": [
+  "Custom Logo for Channel Cover"
+ ],
+ "ChannelBoost.Table.StoriesPerDay": [
+  "%@ Story Per Day",
+  "%@ Stories Per Day"
+ ],
+ "ChannelBoost.Table.StyleForHeaders": [
+  "%@ Style for Links and Quotes",
+  "%@ Styles for Links and Quotes"
+ ],
+ "ChannelBoost.Table.Wallpaper": [
+  "%@ Channel Background",
+  "%@ Channel Backgrounds"
+ ],
+ "ChannelBoost.Wallpaper": [
+  "Set Channel Wallpaper"
+ ],
+ "ChannelBoost.WearGift": [
+  "Wear Item"
+ ],
+ "ChannelBoost.WearGiftLevelText": [
+  "Your channel needs **Level %1$@** to wear collectibles."
+ ],
+ "ChannelBoost.YouBoostedOtherChannelText": [
+  "You boosted this channel"
  ],
  "ChatList.MaxThreadPinsFinalText": [
   "Sorry, you can't pin more than **%@** topic to the top. Unpin some that are currently pinned.",
@@ -153,17 +421,44 @@
  "Common.Delete": [
   "Delete"
  ],
+ "Common.Edit": [
+  "Edit"
+ ],
  "Common.OK": [
   "OK"
  ],
  "Common.Yes": [
   "Yes"
  ],
+ "GroupBoost.AudioTranscription": [
+  "Audio Transcription"
+ ],
+ "GroupBoost.EmojiPack": [
+  "Set Group Emoji Pack"
+ ],
+ "GroupBoost.EnableEmojiPackLevelText": [
+  "Your group needs **Level %1$@** to set emoji pack."
+ ],
+ "GroupBoost.EnableWallpaperLevelText": [
+  "Your group needs **Level %1$@** to set group wallpaper."
+ ],
  "GroupBoost.Error.BoostTooOftenText": [
   "You can change the group you boost only once a day. Next time you can boost is in **%@**."
  ],
  "GroupBoost.Error.PremiumNeededText": [
   "Only **Telegram Premium** subscribers can boost groups. Do you want to subscribe to **Telegram Premium**?"
+ ],
+ "GroupBoost.IncreaseLimitText": [
+  "Your group needs %1$@ to post %2$@."
+ ],
+ "GroupBoost.PremiumUsersCanBoost": [
+  "**Premium** users can boost your group with this link:"
+ ],
+ "GroupBoost.Table.Group.EmojiPack": [
+  "Custom Emoji Pack"
+ ],
+ "GroupBoost.Table.Group.VoiceToText": [
+  "Voice-to-Text Conversion"
  ],
  "Premium.Gift.ApplyLink.AlreadyHasPremium.Text": [
   "You can activate this gift link after **%@** or [send the link]() to a friend."

@@ -236,6 +236,12 @@
  "Agent.Connected.Title": [
   "%@ connected!"
  ],
+ "Agent.Effort": [
+  "Effort"
+ ],
+ "Agent.InputPlaceholder": [
+  "Ask Agent anything"
+ ],
  "AuthConfirmation.AllowMessages": [
   "Allow Messages"
  ],
@@ -437,6 +443,9 @@
  ],
  "Chat.NewThreadInfo.Title": [
   "New Thread"
+ ],
+ "Chat.NonContactUser.Disclaimer": [
+  "Not an official account"
  ],
  "Chat.PanelSetBotPhoto": [
   "Set Profile Photo"
@@ -786,6 +795,12 @@
  "Conversation.ContextMenuSelect": [
   "Select"
  ],
+ "Conversation.DiscussionNotStarted": [
+  "No comments here yet..."
+ ],
+ "Conversation.DiscussionStarted": [
+  "Discussion started"
+ ],
  "Conversation.Edit": [
   "Edit"
  ],
@@ -816,6 +831,9 @@
  "Conversation.StatusBotSubscribers": [
   "1 monthly user",
   "%d monthly users"
+ ],
+ "Conversation.UnreadMessages": [
+  "Unread Messages"
  ],
  "CreateBot.ActionButton": [
   "Create"
@@ -916,6 +934,9 @@
  "CreatePoll.QuizTitle": [
   "New Quiz"
  ],
+ "Date.ChatDateHeader": [
+  "%1$@ %2$@"
+ ],
  "GroupInfo.Notifications": [
   "Notifications"
  ],
@@ -934,6 +955,9 @@
  "MessageTimer.Months": [
   "%@ month",
   "%@ months"
+ ],
+ "Month.GenOctober": [
+  "October"
  ],
  "Notification.BotWriteAllowedMenu": [
   "You allowed this bot to message you when you added it to your attachment menu."
@@ -1036,6 +1060,10 @@
  ],
  "RequestPeer.CreateNewGroup": [
   "Create a New Group for This"
+ ],
+ "RequestPeer.ReachedMaximum": [
+  "You can select up to %@ user.",
+  "You can select up to %@ users."
  ],
  "RequestPeer.Requirement.Channel.Rights": [
   "You must have the admin rights to %@."

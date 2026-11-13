@@ -5,6 +5,9 @@
  "Common.OK": [
   "OK"
  ],
+ "Wallet.AddressCopied": [
+  "Address copied"
+ ],
  "Wallet.Backup.CancelDisabling": [
   "Cancel Disabling"
  ],
@@ -17,6 +20,18 @@
  "Wallet.Backup.DisableWalletChangedText": [
   "The wallet's secret phrase changed while you were updating backup settings. Restore access using the current secret phrase and try again."
  ],
+ "Wallet.Backup.DisabledText": [
+  "Your secret phrase is now the only way to restore your wallet."
+ ],
+ "Wallet.Backup.DisabledTitle": [
+  "Backup Disabled"
+ ],
+ "Wallet.Backup.EnabledText": [
+  "Your keys are now stored encrypted across Telegram's datacenters."
+ ],
+ "Wallet.Backup.EnabledTitle": [
+  "Backup Enabled"
+ ],
  "Wallet.Backup.InsufficientFundsTitle": [
   "Not Enough Grams"
  ],
@@ -28,6 +43,12 @@
  ],
  "Wallet.Connect.Error": [
   "Unable to connect this app. Please try again."
+ ],
+ "Wallet.Connect.SuccessText": [
+  "You are now connected to [%@]()."
+ ],
+ "Wallet.Connect.SuccessTitle": [
+  "Connection Successful"
  ],
  "Wallet.Continue": [
   "Continue"
@@ -56,8 +77,17 @@
  "Wallet.Import.Proceed": [
   "Proceed"
  ],
+ "Wallet.PasswordSetText": [
+  "Your account is now protected."
+ ],
+ "Wallet.PasswordSetTitle": [
+  "Password set"
+ ],
  "Wallet.Recipient.Error": [
   "An unknown error occurred. Please try again later."
+ ],
+ "Wallet.Recipient.InvalidAddress": [
+  "The pasted text is not a valid TON address."
  ],
  "Wallet.Settings.DeleteAnyway": [
   "Delete Anyway"
@@ -68,8 +98,23 @@
  "Wallet.Settings.DeleteWalletTitle": [
   "Delete Wallet?"
  ],
+ "Wallet.Settings.WalletImportedText": [
+  "Your wallet was restored from your secret phrase."
+ ],
+ "Wallet.Settings.WalletImportedTitle": [
+  "Wallet Imported"
+ ],
  "Wallet.Sign.Error": [
   "Unable to complete this request. Please try again."
+ ],
+ "Wallet.Sticker.LimitError": [
+  "You can place up to %@ gifts on your card.Remove one to add another."
+ ],
+ "Wallet.Sticker.TutorialDone": [
+  "You can add multiple collectibles."
+ ],
+ "Wallet.TonAddressCopied": [
+  "TON address copied to clipboard"
  ],
  "Wallet.Transaction.NetworkFeesText": [
   "Every transfer costs a small network fee%1$@.Telegram covers your first %2$@ each day."

@@ -2188,6 +2188,9 @@
  "NotificationsSound.Alert": [
   "Alert"
  ],
+ "NotificationsSound.Antic": [
+  "Antic"
+ ],
  "NotificationsSound.Aurora": [
   "Aurora"
  ],
@@ -2199,6 +2202,9 @@
  ],
  "NotificationsSound.Calypso": [
   "Calypso"
+ ],
+ "NotificationsSound.Cheers": [
+  "Cheers"
  ],
  "NotificationsSound.Chime": [
   "Chime"
@@ -2212,8 +2218,14 @@
  "NotificationsSound.Complete": [
   "Complete"
  ],
+ "NotificationsSound.Droplet": [
+  "Droplet"
+ ],
  "NotificationsSound.Glass": [
   "Glass"
+ ],
+ "NotificationsSound.Handoff": [
+  "Handoff"
  ],
  "NotificationsSound.Hello": [
   "Hello"
@@ -2223,6 +2235,9 @@
  ],
  "NotificationsSound.Keys": [
   "Keys"
+ ],
+ "NotificationsSound.Milestone": [
+  "Milestone"
  ],
  "NotificationsSound.None": [
   "None"
@@ -3697,6 +3712,9 @@
  ],
  "Settings.PremiumGift": [
   "Gift Premium"
+ ],
+ "Settings.Privacy.MessageReadTimeRevealedToast": [
+  "Your read times are now visible."
  ],
  "Settings.Privacy.Messages": [
   "Messages"

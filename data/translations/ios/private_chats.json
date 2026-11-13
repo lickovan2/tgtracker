@@ -59,6 +59,10 @@
  "Call.ConnectionErrorTitle": [
   "Unable to Call"
  ],
+ "Call.Days": [
+  "%@ day",
+  "%@ days"
+ ],
  "Call.EmojiDescription": [
   "If the emoji on %@'s screen are the same, this call is 100%% secure."
  ],
@@ -143,6 +147,25 @@
  ],
  "ChannelBoost.Or": [
   "or"
+ ],
+ "Chat.Auction": [
+  "Gift Auction"
+ ],
+ "Chat.Auction.Gifts": [
+  "%@ gift",
+  "%@ gifts"
+ ],
+ "Chat.Auction.Join": [
+  "JOIN"
+ ],
+ "Chat.Auction.StartsIn": [
+  "starts in "
+ ],
+ "Chat.Auction.Upcoming": [
+  "Upcoming Auction"
+ ],
+ "Chat.Auction.View": [
+  "VIEW"
  ],
  "Chat.BirthdayTooltip": [
   "🎂 You can send %1$@ a gift for their birthday today."
@@ -317,6 +340,9 @@
  "Chat.MessageEffectMenu.TitleAddEffect": [
   "Add an animated effect"
  ],
+ "Chat.MessageHeaderBotNewThread": [
+  "New Thread"
+ ],
  "Chat.MessageRangeDeleted.ForBothSides": [
   "Messages for 1 day deleted for both sides.",
   "Messages for %@ days deleted for both sides."
@@ -337,6 +363,13 @@
  "Chat.NonContactUser.Disclaimer": [
   "Not an official account"
  ],
+ "Chat.NonContactUser.Groups": [
+  "Shared Groups"
+ ],
+ "Chat.NonContactUser.GroupsCount": [
+  "%@ group",
+  "%@ groups"
+ ],
  "Chat.NonContactUser.PhoneNumber": [
   "Phone Number"
  ],
@@ -353,6 +386,10 @@
  "Chat.NonContactUser.UpdatedHours": [
   "%@ hour ago",
   "%@ hours ago"
+ ],
+ "Chat.NonContactUser.UpdatedMinutes": [
+  "%@ minute ago",
+  "%@ minutes ago"
  ],
  "Chat.NonContactUser.UpdatedName": [
   "User updated name %1$@"
@@ -443,6 +480,38 @@
  "Chat.PlayVoiceMessageOnceTooltip": [
   "The recipient will be able to listen only once."
  ],
+ "Chat.PostApproval.DetailStatus.AdminFailedRefunded": [
+  "Suggested post was refunded because the user didn't have enough funds"
+ ],
+ "Chat.PostApproval.DetailStatus.StarsAmount": [
+  "# Star",
+  "# Stars"
+ ],
+ "Chat.PostApproval.DetailStatus.TonAmount": [
+  "# Gram",
+  "# Grams"
+ ],
+ "Chat.PostApproval.Message.AdminAgreementFuture": [
+  "📅 Your post will be automatically published in **%1$@** **%2$@**."
+ ],
+ "Chat.PostApproval.Message.AdminAgreementNoTime": [
+  "📅 Your post was automatically published in **%1$@**."
+ ],
+ "Chat.PostApproval.Message.AdminAgreementPast": [
+  "📅 Your post has been automatically published in **%1$@** **%2$@**."
+ ],
+ "Chat.PostApproval.Message.AdminAgreementPriceStars": [
+  "💰 The user has been charged %1$@.⌛ **%2$@** will receive the Stars once the post has been live for 24 hours.🔄 If you remove the post before it has been live for 24 hours, the user's Stars will be refunded."
+ ],
+ "Chat.PostApproval.Message.AdminAgreementPriceTon": [
+  "💰 The user has been charged %1$@.⌛ **%2$@** will receive the Grams once the post has been live for 24 hours.🔄 If you remove the post before it has been live for 24 hours, the user's Grams will be refunded."
+ ],
+ "Chat.PostApproval.Message.TitleApproved": [
+  "🤝 Agreement Reached!"
+ ],
+ "Chat.PostSuggestion.StarsDisclaimer": [
+  "Transactions in **Stars** may be reversed by the payment provider within **21** days. Only accept Stars from people you trust."
+ ],
  "Chat.PrivateMessageSeenTimestamp.Date": [
   "read %@"
  ],
@@ -494,6 +563,12 @@
  "Chat.SendMessageMenu.ToastPremiumRequired.Text": [
   "Subscribe to [Telegram Premium]() to add this animated effect."
  ],
+ "Chat.SensitiveContent": [
+  "18+ Content"
+ ],
+ "Chat.SensitiveContentShort": [
+  "18+"
+ ],
  "Chat.SimilarChannels.JoinedChannel": [
   "You joined channel **%@**."
  ],
@@ -524,6 +599,9 @@
  ],
  "Chat.ToastPhoneNumberCopied": [
   "Phone number copied to clipboard."
+ ],
+ "Chat.ToastVoiceMessageDeviceMuted": [
+  "Device is muted."
  ],
  "Chat.TooltipAddTagLabel": [
   "Tap and hold to add a name to your tag"
@@ -649,6 +727,9 @@
  "Conversation.ClousStorageInfo.Description4": [
   "• Use search to quickly find things"
  ],
+ "Conversation.CodeCopied": [
+  "Code copied to clipboard"
+ ],
  "Conversation.ContactAddContact": [
   "ADD"
  ],
@@ -718,6 +799,9 @@
  "Conversation.ForwardTooltip.TwoChats.Many": [
   "Messages forwarded to **%@** and **%@**."
  ],
+ "Conversation.GigagroupDescription": [
+  "Only admins can send messages in this group."
+ ],
  "Conversation.GreetingText": [
   "Send a message or tap on the greeting below."
  ],
@@ -741,6 +825,9 @@
  ],
  "Conversation.LinksCopied": [
   "Links copied to clipboard"
+ ],
+ "Conversation.MessageDoesntExist": [
+  "Message doesn't exist"
  ],
  "Conversation.Mute": [
   "Mute"
@@ -796,6 +883,15 @@
  "Conversation.SavedMessages": [
   "Saved Messages"
  ],
+ "Conversation.ScheduleMessage.SendOn": [
+  "Send on %@ at %@"
+ ],
+ "Conversation.ScheduleMessage.SendWhenOnline": [
+  "Send When Online"
+ ],
+ "Conversation.ScheduleMessage.Title": [
+  "Schedule Message"
+ ],
  "Conversation.Search": [
   "Search"
  ],
@@ -838,6 +934,9 @@
  "Conversation.ShareLinkTooltip.TwoChats.One": [
   "Link shared with **%@** and **%@**."
  ],
+ "Conversation.ShareMyPhoneNumber.StatusSuccess": [
+  "%@ can now see your phone number."
+ ],
  "Conversation.SlideToCancel": [
   "Slide to cancel"
  ],
@@ -861,6 +960,12 @@
  ],
  "Conversation.SuggestedBirthdateTextYou": [
   "You suggested **%@** to add a birthday"
+ ],
+ "Conversation.SwipeToReplyHintText": [
+  "Swipe left on any message to reply to it."
+ ],
+ "Conversation.SwipeToReplyHintTitle": [
+  "Swipe To Reply"
  ],
  "Conversation.Theme.ChooseColorTitle": [
   "Set a Color"
@@ -900,6 +1005,9 @@
  ],
  "Conversation.TitleUnmute": [
   "Unmute"
+ ],
+ "Conversation.UnarchiveDone": [
+  "The chat was moved to your main list."
  ],
  "Conversation.Unblock": [
   "Unblock"
@@ -943,6 +1051,12 @@
  "Currency.Grams": [
   "%@ Gram",
   "%@ Grams"
+ ],
+ "Date.ChatDateHeader": [
+  "%1$@ %2$@"
+ ],
+ "Date.ChatDateHeaderYear": [
+  "%1$@ %2$@, %3$@"
  ],
  "DialogList.AwaitingEncryption": [
   "Waiting for %@ to come online..."
@@ -1191,6 +1305,9 @@
  "Gift.View.Title": [
   "Gift"
  ],
+ "Gift.View.Unknown.Title": [
+  "Gift"
+ ],
  "Gift.View.UpgradeForFree": [
   "Upgrade for Free"
  ],
@@ -1199,6 +1316,9 @@
  ],
  "Gift.View.ViewUpgraded": [
   "View Upgraded Gift"
+ ],
+ "Group.MessagePhotoRemoved": [
+  "Group photo removed"
  ],
  "Invitation.GroupCall": [
   "Group Call"
@@ -1342,8 +1462,17 @@
  "Message.ForwardedMessage": [
   "Forwarded MessageFrom: %@"
  ],
+ "Message.FullDateFormat": [
+  "%1$@, %2$@"
+ ],
  "Message.ImageExpired": [
   "Expired photo"
+ ],
+ "Message.InvoiceLabel": [
+  "INVOICE"
+ ],
+ "Message.ReplyActionButtonShowReceipt": [
+  "Show Receipt"
  ],
  "Message.VideoExpired": [
   "Expired video"
@@ -1357,6 +1486,19 @@
  "MessageCalendar.DeleteAlertText": [
   "Are you sure you want to delete all messages for the selected day?",
   "Are you sure you want to delete all messages for the selected %@ days?"
+ ],
+ "MessagePoll.EndsIn": [
+  "ends in %@"
+ ],
+ "MessagePoll.LabelAnonymous": [
+  "Anonymous Poll"
+ ],
+ "MessagePoll.ResultsIn": [
+  "results in %@"
+ ],
+ "MessagePoll.VotedCount": [
+  "1 vote",
+  "%@ votes"
  ],
  "MessageTimer.Days": [
   "%@ day",
@@ -1386,6 +1528,10 @@
   "%@m",
   "%@m"
  ],
+ "MessageTimer.ShortMonths": [
+  "%@mo",
+  "%@mo"
+ ],
  "MessageTimer.ShortSeconds": [
   "%@s",
   "%@s"
@@ -1394,9 +1540,83 @@
   "%@w",
   "%@w"
  ],
+ "MessageTimer.ShortYears": [
+  "%@y",
+  "%@y"
+ ],
  "MessageTimer.Weeks": [
   "%@ week",
   "%@ weeks"
+ ],
+ "MessageTimer.Years": [
+  "%@ year",
+  "%@ years"
+ ],
+ "Month.GenOctober": [
+  "October"
+ ],
+ "Month.NomApril": [
+  "April"
+ ],
+ "Month.NomFebruary": [
+  "February"
+ ],
+ "Month.NomJanuary": [
+  "January"
+ ],
+ "Month.NomJuly": [
+  "July"
+ ],
+ "Month.NomJune": [
+  "June"
+ ],
+ "Month.NomMarch": [
+  "March"
+ ],
+ "Month.NomMay": [
+  "May"
+ ],
+ "Month.NomNovember": [
+  "November"
+ ],
+ "Month.NomOctober": [
+  "October"
+ ],
+ "Month.NomSeptember": [
+  "September"
+ ],
+ "Month.ShortApril": [
+  "Apr"
+ ],
+ "Month.ShortAugust": [
+  "Aug"
+ ],
+ "Month.ShortFebruary": [
+  "Feb"
+ ],
+ "Month.ShortJanuary": [
+  "Jan"
+ ],
+ "Month.ShortJuly": [
+  "Jul"
+ ],
+ "Month.ShortJune": [
+  "Jun"
+ ],
+ "Month.ShortMay": [
+  "May"
+ ],
+ "Month.ShortNovember": [
+  "Nov"
+ ],
+ "Month.ShortOctober": [
+  "Oct"
+ ],
+ "Month.ShortSeptember": [
+  "Sep"
+ ],
+ "Notification.BotWriteAllowed": [
+  "You allowed this bot to message you when you added it to your attachment menu."
  ],
  "Notification.CallFormat": [
   "%1$@, %2$@"
@@ -1412,6 +1632,9 @@
  ],
  "Notification.ChangedWallpaper": [
   "%1$@ set a new wallpaper for this chat"
+ ],
+ "Notification.CommunityRemovedBot": [
+  "This bot was removed from a community"
  ],
  "Notification.CopyProtection.Disabled": [
   "%1$@ enabled sharing in this chat"
@@ -1446,8 +1669,14 @@
  "Notification.GramTransfer.WithFiatYou": [
   "You sent %1$@ %2$@ (%3$@)"
  ],
+ "Notification.GramTransferUnknown": [
+  "Someone sent you %@"
+ ],
  "Notification.GramTransferUnknown.WithFiat": [
   "Someone sent you %1$@ (%2$@)"
+ ],
+ "Notification.LiveStreamEnded": [
+  "Live stream ended (%@)"
  ],
  "Notification.MessageLifetime1d": [
   "1 day"
@@ -1503,6 +1732,12 @@
  "Notification.PaidMessageRefundYou": [
   "You refunded %1$@ to %2$@"
  ],
+ "Notification.PaidMessageYou": [
+  "You paid %1$@ to send a message"
+ ],
+ "Notification.PaidMessageYouMany": [
+  "You paid %1$@ to send %2$@"
+ ],
  "Notification.PremiumGift.MonthsTitle": [
   "%@ Month Premium",
   "%@ Months Premium"
@@ -1519,6 +1754,15 @@
  "Notification.PremiumGift.View": [
   "View"
  ],
+ "Notification.PremiumPrize.GiveawayText": [
+  "You won a prize in a giveaway organized by **%1$@**.Your prize is a **Telegram Premium** subscription for %2$@."
+ ],
+ "Notification.PremiumPrize.Title": [
+  "Congratulations!"
+ ],
+ "Notification.PremiumPrize.View": [
+  "Open Gift Link"
+ ],
  "Notification.ProximityReachedYou": [
   "%1$@ is now within %2$@ from you"
  ],
@@ -1534,6 +1778,15 @@
  "Notification.StarGift.Backdrop": [
   "Backdrop"
  ],
+ "Notification.StarGift.Bot.Subtitle": [
+  "Display this gift on your profile."
+ ],
+ "Notification.StarGift.Collectible": [
+  "Collectible"
+ ],
+ "Notification.StarGift.Crafted.Title": [
+  "Crafted Gift"
+ ],
  "Notification.StarGift.Gift": [
   "gift"
  ],
@@ -1542,6 +1795,9 @@
  ],
  "Notification.StarGift.OneOf": [
   "1 of %@"
+ ],
+ "Notification.StarGift.Purchased.Title": [
+  "Purchased Gift"
  ],
  "Notification.StarGift.Subtitle": [
   "Add this gift to your profile or convert it to %@."
@@ -1583,8 +1839,14 @@
  "Notification.StarGift.Title": [
   "Gift from %@"
  ],
+ "Notification.StarGift.TitleShort": [
+  "Gift"
+ ],
  "Notification.StarGift.Unpack": [
   "Unpack"
+ ],
+ "Notification.StarGift.Upgraded.Title": [
+  "Upgraded Gift"
  ],
  "Notification.StarGift.View": [
   "View"
@@ -1619,11 +1881,27 @@
  "Notification.StarGiftOffer.Status.Rejected": [
   "This offer was rejected."
  ],
+ "Notification.StarsGift.Assigned": [
+  "You added %@ to your profile."
+ ],
  "Notification.StarsGift.Bought": [
   "%1$@ gifted you %2$@ for %3$@"
  ],
+ "Notification.StarsGift.Bought.Stars": [
+  "%@ Star",
+  "%@ Stars"
+ ],
+ "Notification.StarsGift.BoughtForYouself": [
+  "You bought this gift for %1$@"
+ ],
+ "Notification.StarsGift.Crafted": [
+  "You crafted a new gift"
+ ],
  "Notification.StarsGift.Sent": [
   "%1$@ sent you a gift for %2$@"
+ ],
+ "Notification.StarsGift.SentSomeone": [
+  "Someone sent you a gift"
  ],
  "Notification.StarsGift.SentYou": [
   "You sent a gift for %@"
@@ -1648,6 +1926,15 @@
  "Notification.StarsGift.TransferYou": [
   "You transferred a unique collectible"
  ],
+ "Notification.StarsGift.UnknownUser": [
+  "Unknown user"
+ ],
+ "Notification.StarsGift.UpgradeChannel": [
+  "A gift was turned into a unique collectible"
+ ],
+ "Notification.StarsGift.UpgradeSelf": [
+  "You turned the gift into a unique collectible"
+ ],
  "Notification.StarsGift.UpgradeYou": [
   "You turned the gift from %@ into a unique collectible"
  ],
@@ -1658,7 +1945,17 @@
   "%@ Star",
   "%@ Stars"
  ],
+ "Notification.StarsGiftOffer.Offer": [
+  "The user offered you %2$@ for your gift %3$@"
+ ],
  "Notification.StarsGiftOffer.Offer.Stars": [
+  "%@ Star",
+  "%@ Stars"
+ ],
+ "Notification.StarsGiftOffer.OfferYou": [
+  "You offered %1$@ %2$@ for their gift %3$@"
+ ],
+ "Notification.StarsGiftOffer.OfferYou.Stars": [
   "%@ Star",
   "%@ Stars"
  ],
@@ -1679,6 +1976,12 @@
  ],
  "Notification.VideoCallOutgoing": [
   "Outgoing Video Call"
+ ],
+ "Notification.VoiceChatEnded": [
+  "Video chat ended (%@)"
+ ],
+ "Notification.VoiceChatEndedGroup": [
+  "%1$@ ended the video chat (%2$@)"
  ],
  "Notification.Wallpaper.View": [
   "View Wallpaper"
@@ -1949,6 +2252,24 @@
  "SuggestBirthdate.Accept.HideYear": [
   "Hide the Year"
  ],
+ "SuggestPost.SetTimeFormat.Date": [
+  "%@"
+ ],
+ "Time.MediumDate": [
+  "%1$@ at %2$@"
+ ],
+ "Time.MonthOfYear_m11": [
+  "November %@"
+ ],
+ "Time.MonthOfYear_m3": [
+  "March %@"
+ ],
+ "Time.MonthOfYear_m4": [
+  "April %@"
+ ],
+ "Time.MonthOfYear_m8": [
+  "August %@"
+ ],
  "Undo.ChatClearedForBothSides": [
   "Chat cleared for both sides."
  ],
@@ -2044,5 +2365,8 @@
  ],
  "Watch.UserInfo.Unmute": [
   "Unmute"
+ ],
+ "Weekday.Today": [
+  "Today"
  ]
 }

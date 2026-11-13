@@ -1,9 +1,24 @@
 {
+ "AuthConfirmation.LoginFail.TextUnknown": [
+  "Please try logging in again."
+ ],
+ "AuthConfirmation.LoginFail.Title": [
+  "Login Failed"
+ ],
+ "AuthConfirmation.LoginSuccess.TextNoNumber": [
+  "You are logged in to [%@](), but you didn't grant access to your phone number."
+ ],
+ "AuthConfirmation.LoginSuccess.Title": [
+  "Login Successful"
+ ],
  "AuthSessions.AddDevice.UrlLoginHint": [
   "This code can be used to allow someone to log in to your Telegram account.To confirm Telegram login, please go to Settings > Devices > Add Device and scan the code."
  ],
  "AuthSessions.AddDeviceIntro.Title": [
   "Log in by QR Code"
+ ],
+ "ChangePhoneNumberCode.CallTimer": [
+  "Telegram will call you in %@"
  ],
  "ChangePhoneNumberCode.Called": [
   "Telegram dialed your number"
@@ -98,8 +113,14 @@
  "Login.CodeFloodError": [
   "Too many attempts, please try again later."
  ],
+ "Login.CodePhonePatternInfoText": [
+  "Please enter the last digitsof the number that called."
+ ],
  "Login.CodeSentCall": [
   "Calling your phone to dictate the code."
+ ],
+ "Login.CodeSentCallText": [
+  "Calling **%@** to dictate the code."
  ],
  "Login.CodeSentInternal": [
   "We've sent the code to the **Telegram** app on your other device"
@@ -118,6 +139,9 @@
  ],
  "Login.Edit": [
   "Edit"
+ ],
+ "Login.Email.CantAccess": [
+  "Can't access this email?"
  ],
  "Login.Email.PremiumRequiredText": [
   "Due to high cost of SMS in your country, you need to have a **Telegram Premium** account to reset this email via an SMS code.You can ask a friend to gift a Premium subscription for your account**%@**"
@@ -143,14 +167,53 @@
  "Login.EnterCodeEmailTitle": [
   "Check Your Email"
  ],
+ "Login.EnterCodeFragmentText": [
+  "Get the code for **%@** in the Numbers section on **Fragment**."
+ ],
+ "Login.EnterCodeFragmentTitle": [
+  "Enter Code"
+ ],
  "Login.EnterCodeSMSText": [
   "We've sent an SMS with an activation code to your phone **%@**."
  ],
  "Login.EnterCodeSMSTitle": [
   "Enter Code"
  ],
+ "Login.EnterCodeTelegramText": [
+  "We've sent the code to the **Telegram app** for %@ on your other device."
+ ],
+ "Login.EnterCodeTelegramTitle": [
+  "Enter Code"
+ ],
+ "Login.EnterMissingDigits": [
+  "Enter the missing digits"
+ ],
  "Login.EnterNewEmailTitle": [
   "Enter New Email"
+ ],
+ "Login.EnterPhraseBeginningText": [
+  "We've sent you an SMS with a secret phrase that starts with **\"%1$@\"** to your phone **%2$@**."
+ ],
+ "Login.EnterPhraseHint": [
+  "You can copy and paste the phrase here."
+ ],
+ "Login.EnterPhrasePlaceholder": [
+  "Enter Phrase from SMS"
+ ],
+ "Login.EnterPhraseTitle": [
+  "Enter Phrase"
+ ],
+ "Login.EnterWordBeginningText": [
+  "We've sent you an SMS with a secret word that starts with **\"%1$@\"** to your phone **%2$@**."
+ ],
+ "Login.EnterWordPlaceholder": [
+  "Enter Word from SMS"
+ ],
+ "Login.EnterWordTitle": [
+  "Enter Word"
+ ],
+ "Login.GetCodeViaFragment": [
+  "Get a code via Fragment"
  ],
  "Login.HaveNotReceivedCodeInternal": [
   "Didn't get the code?"
@@ -194,6 +257,9 @@
  "Login.NetworkError": [
   "Please check your Internet connection and try again."
  ],
+ "Login.OpenFragment": [
+  "Open Fragment"
+ ],
  "Login.Or": [
   "or"
  ],
@@ -202,6 +268,9 @@
  ],
  "Login.PadPhoneHelpTitle": [
   "Your Phone Number"
+ ],
+ "Login.Paste": [
+  "Paste"
  ],
  "Login.PhoneAndCountryHelp": [
   "Please confirm your country codeand enter your phone number."
@@ -245,14 +314,26 @@
  "Login.ResetAccountProtected.Title": [
   "Reset Account"
  ],
+ "Login.ReturnToCode": [
+  "Return to entering the code"
+ ],
  "Login.SelectCountry": [
   "Country"
  ],
  "Login.SelectCountry.Title": [
   "Country"
  ],
+ "Login.SendCodeViaCall": [
+  "Get code on this phone"
+ ],
+ "Login.SendCodeViaFlashCall": [
+  "Get the code via phone call"
+ ],
  "Login.SendCodeViaSms": [
   "Tap to get a code via SMS"
+ ],
+ "Login.ShortCallTitle": [
+  "In a few seconds you shouldreceive a short call from:"
  ],
  "Login.SmsRequestState1": [
   "Sending you an SMS in %d:%.2d"
@@ -287,11 +368,17 @@
  "Login.WillSendSms": [
   "Telegram will send you an SMS in %@"
  ],
+ "LoginEmail.Description": [
+  "You will receive Telegram login codes via email and not SMS. Please enter an email address to which you have access."
+ ],
  "LoginEmail.Success.Text": [
   "Your account is now protected!"
  ],
  "LoginEmail.Success.Title": [
   "Email added"
+ ],
+ "LoginEmail.Title": [
+  "Add Email"
  ],
  "LoginPassword.FloodError": [
   "Too many attempts, please try again later."
@@ -310,6 +397,18 @@
  ],
  "LoginPassword.Title": [
   "Your Password"
+ ],
+ "MessageTimer.Days": [
+  "%@ day",
+  "%@ days"
+ ],
+ "MessageTimer.Hours": [
+  "%@ hour",
+  "%@ hours"
+ ],
+ "MessageTimer.Minutes": [
+  "%@ minute",
+  "%@ minutes"
  ],
  "Notifications.PermissionsAllow": [
   "Turn Notifications ON"
@@ -375,6 +474,9 @@
  "SessionReview.Title": [
   "New Login Prevented"
  ],
+ "Settings.Logout": [
+  "Log Out"
+ ],
  "Tour.StartButton": [
   "Start Messaging"
  ],
@@ -417,6 +519,9 @@
  "TwoStepAuth.EnterPasswordForgot": [
   "Forgot password?"
  ],
+ "TwoStepAuth.EnterPasswordHelp": [
+  "You have Two-Step Verification enabled, so your account is protected with an additional password."
+ ],
  "TwoStepAuth.EnterPasswordInvalid": [
   "Invalid password, please try again."
  ],
@@ -455,5 +560,11 @@
  ],
  "TwoStepAuth.SetupPasswordTitle": [
   "Your Password"
+ ],
+ "UserInfo.FirstNamePlaceholder": [
+  "First Name"
+ ],
+ "UserInfo.LastNamePlaceholder": [
+  "Last Name"
  ]
 }

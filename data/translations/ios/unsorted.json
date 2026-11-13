@@ -32,9 +32,6 @@
  "AdsInfo.Launch.Text_URL": [
   "https://ads.telegram.org"
  ],
- "AffiliateProgram.OpenBot": [
-  "View %@"
- ],
  "AffiliateSetup.ProgramLeave": [
   "Leave"
  ],
@@ -77,9 +74,6 @@
  "Agent.ConnectModel": [
   "Connect Model"
  ],
- "Agent.Effort": [
-  "Effort"
- ],
  "Agent.Effort.Expert": [
   "Expert"
  ],
@@ -91,9 +85,6 @@
  ],
  "Agent.Effort.Ultra": [
   "Ultra"
- ],
- "Agent.InputPlaceholder": [
-  "Ask Agent anything"
  ],
  "Agent.Key.Connect": [
   "Connect %@"
@@ -242,12 +233,6 @@
  "AuthConfirmation.Emoji.Description": [
   "Telegram wants to make sure it's really you."
  ],
- "AuthConfirmation.LoginFail.TextUnknown": [
-  "Please try logging in again."
- ],
- "AuthConfirmation.LoginSuccess.TextNoNumber": [
-  "You are logged in to [%@](), but you didn't grant access to your phone number."
- ],
  "AuthConfirmation.UnverifiedApp": [
   "Unverified App"
  ],
@@ -326,9 +311,6 @@
  ],
  "BlockedUsers.SelectUserTitle": [
   "Block User"
- ],
- "BoostGift.ChannelsAndGroupsInfo": [
-  "Choose additional channels or groups users need to join to take part in the giveaway."
  ],
  "BoostGift.ChannelsOrGroups.MaximumReached": [
   "You can select maximum %@ channels and groups."
@@ -503,9 +485,6 @@
  "BotVerification.Verify.Verify": [
   "Verify"
  ],
- "BroadcastGroups.LimitAlert.SettingsTip": [
-  "If you change your mind, go to your group's Settings > Permissions."
- ],
  "Business.Chatbots": [
   "Coming Later"
  ],
@@ -622,10 +601,6 @@
  ],
  "Call.CameraTooltip": [
   "Tap here to turn on your camera"
- ],
- "Call.Days": [
-  "%@ day",
-  "%@ days"
  ],
  "Call.End": [
   "end"
@@ -808,9 +783,6 @@
  "Channel.AdminLog.ChannelChangedProfileIcon": [
   "%1$@ changed the profile logo to %2$@"
  ],
- "Channel.AdminLog.ChannelChangedWallpaper": [
-  "%1$@ set a new wallpaper"
- ],
  "Channel.AdminLog.ChannelEmptyText": [
   "No service actions were taken by the channel's admins in the last 48 hours."
  ],
@@ -873,9 +845,6 @@
  ],
  "Channel.AdminLog.MessageParticipantSubscriptionExtended": [
   "%@ extended their subscription"
- ],
- "Channel.AdminLog.MessagePreviousLinks": [
-  "Previous links"
  ],
  "Channel.AdminLog.MessageRankNameNew": [
   "changed member tag for %1$@:%2$@"
@@ -1057,9 +1026,6 @@
  "Channel.Setup.ActiveLimitReachedError": [
   "Sorry, you have too many active public links already. Please hide one of your active public links first."
  ],
- "Channel.Setup.ApproveNewSubscribersInfo": [
-  "Turn this on if you want users to join only after they are approved by an admin."
- ],
  "Channel.Setup.DeactivateAlertHide": [
   "Hide"
  ],
@@ -1144,9 +1110,6 @@
  "ChannelBoost.MoreBoostsNeeded.Boosted.Level.Text": [
   "This channel reached **Level %@** and unlocked new features."
  ],
- "ChannelBoost.PremiumUsersCanBoost": [
-  "**Premium** users can boost your channel with this link:"
- ],
  "ChannelBoost.Table.WearGift": [
   "Wear Unique Collectibles"
  ],
@@ -1198,15 +1161,6 @@
  ],
  "Chat.Auction.Finished": [
   "finished"
- ],
- "Chat.Auction.StartsIn": [
-  "starts in "
- ],
- "Chat.Auction.Upcoming": [
-  "Upcoming Auction"
- ],
- "Chat.Auction.View": [
-  "VIEW"
  ],
  "Chat.Auction.ViewResults": [
   "VIEW RESULTS"
@@ -1490,9 +1444,6 @@
  "Chat.MessageForwardInfo.UnavailableStoryHeader": [
   "Expired story from"
  ],
- "Chat.MessageHeaderBotNewThread": [
-  "New Thread"
- ],
  "Chat.MessageSeenTimestamp.Date": [
   "%@"
  ],
@@ -1519,10 +1470,6 @@
  ],
  "Chat.NonContactUser.GroupsNone": [
   "None"
- ],
- "Chat.NonContactUser.UpdatedMinutes": [
-  "%@ minute ago",
-  "%@ minutes ago"
  ],
  "Chat.OpenStory": [
   "VIEW STORY"
@@ -1576,27 +1523,11 @@
  "Chat.PollOptionAddedTimestampYou.YesterdayAt": [
   "Added by you yesterday at %1$@"
  ],
- "Chat.PostApproval.DetailStatus.AdminFailedRefunded": [
-  "Suggested post was refunded because the user didn't have enough funds"
- ],
  "Chat.PostApproval.DetailStatus.PostedPaid": [
   "**%1$@** received **%2$@** for publishing this post"
  ],
- "Chat.PostApproval.DetailStatus.TonAmount": [
-  "# Gram",
-  "# Grams"
- ],
  "Chat.PostApproval.DetailStatus.UserFailedRefunded": [
   "Suggested post was refunded due to insufficient balance"
- ],
- "Chat.PostApproval.Message.AdminAgreementFuture": [
-  "📅 Your post will be automatically published in **%1$@** **%2$@**."
- ],
- "Chat.PostApproval.Message.AdminAgreementNoTime": [
-  "📅 Your post was automatically published in **%1$@**."
- ],
- "Chat.PostApproval.Message.AdminAgreementPriceTon": [
-  "💰 The user has been charged %1$@.⌛ **%2$@** will receive the Grams once the post has been live for 24 hours.🔄 If you remove the post before it has been live for 24 hours, the user's Grams will be refunded."
  ],
  "Chat.PostApproval.Message.UserAgreementFuture": [
   "📅 The post will be automatically published in **%1$@** **%2$@**."
@@ -1658,9 +1589,6 @@
  "Chat.PostSuggestion.ChannelChangePTT": [
   "**%@** suggested a new price,time and text for this post."
  ],
- "Chat.PostSuggestion.StarsDisclaimer": [
-  "Transactions in **Stars** may be reversed by the payment provider within **21** days. Only accept Stars from people you trust."
- ],
  "Chat.PostSuggestion.Suggest.OfferDateDescription": [
   "Select the date and time you want the post to be published."
  ],
@@ -1708,9 +1636,6 @@
  ],
  "Chat.ReplyPanel.ReplyTo": [
   "Reply to %@"
- ],
- "Chat.ReplyStoryPrivateChannel": [
-  "Private story"
  ],
  "Chat.SendAllowedContentPeerText": [
   "The admins of %1$@ only allow sending %2$@."
@@ -1769,9 +1694,6 @@
  "Chat.SendStarsToBecomeTopInfo": [
   "Send %@ or more to highlight your profile"
  ],
- "Chat.SensitiveContentShort": [
-  "18+"
- ],
  "Chat.SideList.AllMessages": [
   "All Messages"
  ],
@@ -1823,9 +1745,6 @@
  ],
  "Chat.ToastVideoPublished.Action": [
   "View"
- ],
- "Chat.ToastVoiceMessageDeviceMuted": [
-  "Device is muted."
  ],
  "Chat.Todo.CompletionLimited": [
   "%@ has restricted others from editing this checklist."
@@ -2343,9 +2262,6 @@
  "Conversation.ClearChatConfirmation": [
   "Warning, this will delete your **entire chat history** with %@."
  ],
- "Conversation.CodeCopied": [
-  "Code copied to clipboard"
- ],
  "Conversation.ContactAddContactLong": [
   "ADD CONTACT"
  ],
@@ -2459,9 +2375,6 @@
  "Conversation.FreeTranscriptionWaitOrSubscribe": [
   "Wait until **%@** to use it again or subscribe to [Telegram Premium]() now."
  ],
- "Conversation.GigagroupDescription": [
-  "Only admins can send messages in this group."
- ],
  "Conversation.HoldForAudioOnly": [
   "Hold to record audio."
  ],
@@ -2497,9 +2410,6 @@
  ],
  "Conversation.LiveStreamMediaRecordingRestricted": [
   "You can't record voice and video messages during a live stream."
- ],
- "Conversation.MessageDoesntExist": [
-  "Message doesn't exist"
  ],
  "Conversation.MessageLeaveCommentShort": [
   "Comment"
@@ -2584,9 +2494,6 @@
  "Conversation.SendWhenOnlineTooltip": [
   "Long tap to send your message later."
  ],
- "Conversation.ShareMyPhoneNumber.StatusSuccess": [
-  "%@ can now see your phone number."
- ],
  "Conversation.ShareMyPhoneNumberConfirmation.Action": [
   "Share"
  ],
@@ -2653,12 +2560,6 @@
  "Conversation.Summary.Limit.Title": [
   "AI Summary"
  ],
- "Conversation.SwipeToReplyHintText": [
-  "Swipe left on any message to reply to it."
- ],
- "Conversation.SwipeToReplyHintTitle": [
-  "Swipe To Reply"
- ],
  "Conversation.Theme.GiftTransfer.Proceed": [
   "Yes"
  ],
@@ -2712,9 +2613,6 @@
  ],
  "Conversation.Translation.TranslationBarHiddenGroupText": [
   "The translation bar is now hidden for this group."
- ],
- "Conversation.UnarchiveDone": [
-  "The chat was moved to your main list."
  ],
  "Conversation.UnsupportedMedia.Action": [
   "Update"
@@ -3702,9 +3600,6 @@
  "Gift.View.UniqueHiddenInfo.Channel": [
   "This gift is not visible on your channel's profile."
  ],
- "Gift.View.Unknown.Title": [
-  "Gift"
- ],
  "Gift.View.UpgradeFreeDescription": [
   "Upgrade this gift for free to turn it into a unique collectible."
  ],
@@ -3823,9 +3718,6 @@
  "Group.Edit.PrivateConfirmation.Title": [
   "Make Group Private?"
  ],
- "Group.EditAdmin.MemberTagTitle": [
-  "Member Tag"
- ],
  "Group.ErrorAdminsTooMuch": [
   "Sorry, too many administrators in this group."
  ],
@@ -3843,9 +3735,6 @@
  ],
  "Group.Management.AntiSpamMagic": [
   "magic"
- ],
- "Group.MessageVideoUpdated": [
-  "Group photo updated"
  ],
  "Group.OwnershipTransfer.ErrorAdminsTooMuch": [
   "Sorry, this group has too many admins and the new owner can't be added. Please remove one of the existing admins first."
@@ -3910,9 +3799,6 @@
  "Group.Username.RevokeExistingUsernamesInfo": [
   "You can revoke the link from one of your older groups or channels, or create a private group instead."
  ],
- "GroupBoost.AudioTranscription": [
-  "Audio Transcription"
- ],
  "GroupBoost.BoostGroup": [
   "Boost Group"
  ],
@@ -3921,9 +3807,6 @@
  ],
  "GroupBoost.EnableStoriesText": [
   "Your group needs %1$@ to enable posting stories."
- ],
- "GroupBoost.IncreaseLimitText": [
-  "Your group needs %1$@ to post %2$@."
  ],
  "GroupBoost.MoreBoostsNeeded.Boosted.Level.Text": [
   "This group reached **Level %@** and unlocked new features."
@@ -3936,9 +3819,6 @@
  ],
  "GroupInfo.ActionEditRank": [
   "Edit Member Tag"
- ],
- "GroupInfo.AddRank": [
-  "Add Tag"
  ],
  "GroupInfo.FakeGroupWarning": [
   "⚠️ Warning: Many users reported that this account impersonates a famous person or organization."
@@ -3986,9 +3866,6 @@
  ],
  "GroupPermission.EditingDisabled": [
   "You cannot edit restrictions of this user."
- ],
- "GroupPermission.NoManageTopics": [
-  "no topics"
  ],
  "GroupPermission.NotAvailableInDiscussionGroups": [
   "This permission is not available in discussion groups."
@@ -4238,15 +4115,6 @@
  "Login.CodeExpired": [
   "Code expired, please login again."
  ],
- "Login.CodePhonePatternInfoText": [
-  "Please enter the last digitsof the number that called."
- ],
- "Login.CodeSentCallText": [
-  "Calling **%@** to dictate the code."
- ],
- "Login.Email.CantAccess": [
-  "Can't access this email?"
- ],
  "Login.Email.ElapsedTime": [
   "in %@"
  ],
@@ -4271,53 +4139,17 @@
  "Login.EmailNotAllowedError": [
   "Sorry, this email can't be used."
  ],
- "Login.EnterCodeFragmentText": [
-  "Get the code for **%@** in the Numbers section on **Fragment**."
- ],
- "Login.EnterCodeFragmentTitle": [
-  "Enter Code"
- ],
  "Login.EnterCodeNewEmailText": [
   "Please enter the code we have sent to your new email %@."
  ],
  "Login.EnterCodeNewEmailTitle": [
   "Check Your New Email"
  ],
- "Login.EnterCodeTelegramText": [
-  "We've sent the code to the **Telegram app** for %@ on your other device."
- ],
- "Login.EnterCodeTelegramTitle": [
-  "Enter Code"
- ],
- "Login.EnterMissingDigits": [
-  "Enter the missing digits"
- ],
- "Login.EnterPhraseBeginningText": [
-  "We've sent you an SMS with a secret phrase that starts with **\"%1$@\"** to your phone **%2$@**."
- ],
- "Login.EnterPhraseHint": [
-  "You can copy and paste the phrase here."
- ],
- "Login.EnterPhrasePlaceholder": [
-  "Enter Phrase from SMS"
- ],
  "Login.EnterPhraseText": [
   "We've sent you an SMS with a secret phrase to your phone **%@**."
  ],
- "Login.EnterPhraseTitle": [
-  "Enter Phrase"
- ],
- "Login.EnterWordBeginningText": [
-  "We've sent you an SMS with a secret word that starts with **\"%1$@\"** to your phone **%2$@**."
- ],
- "Login.EnterWordPlaceholder": [
-  "Enter Word from SMS"
- ],
  "Login.EnterWordText": [
   "We've sent you an SMS with a secret word to your phone **%@**."
- ],
- "Login.EnterWordTitle": [
-  "Enter Word"
  ],
  "Login.ErrorAppOutdated": [
   "Please update Telegram to the latest version to log in."
@@ -4369,9 +4201,6 @@
  "Login.Fee.Verification.Title": [
   "Verification Required"
  ],
- "Login.GetCodeViaFragment": [
-  "Get a code via Fragment"
- ],
  "Login.InvalidEmailAddressError": [
   "An error occurred. Please try again."
  ],
@@ -4384,12 +4213,6 @@
  "Login.NewNumber": [
   "New Number"
  ],
- "Login.OpenFragment": [
-  "Open Fragment"
- ],
- "Login.Paste": [
-  "Paste"
- ],
  "Login.PhoneGenericEmailBody": [
   "I'm trying to use my mobile phone number: %1$@But Telegram shows an error. Please help.Error: %2$@App version: %3$@OS version: %4$@Locale: %5$@MNC: %6$@"
  ],
@@ -4399,9 +4222,6 @@
  "Login.PhonePaidEmailSubject": [
   "Payment Issue"
  ],
- "Login.ReturnToCode": [
-  "Return to entering the code"
- ],
  "Login.ReturnToPhrase": [
   "Return to entering the phrase"
  ],
@@ -4410,15 +4230,6 @@
  ],
  "Login.SendCodeAsSMS": [
   "Send the code as an SMS"
- ],
- "Login.SendCodeViaCall": [
-  "Get code on this phone"
- ],
- "Login.SendCodeViaFlashCall": [
-  "Get the code via phone call"
- ],
- "Login.ShortCallTitle": [
-  "In a few seconds you shouldreceive a short call from:"
  ],
  "Login.VoiceOver.Password": [
   "Password"
@@ -4437,12 +4248,6 @@
  ],
  "Login.Yes": [
   "Yes"
- ],
- "LoginEmail.Description": [
-  "You will receive Telegram login codes via email and not SMS. Please enter an email address to which you have access."
- ],
- "LoginEmail.Title": [
-  "Add Email"
  ],
  "MESSAGE_GIFTCODE": [
   "%1$@ sent you a Gift Code for %2$@ months of Telegram Premium"
@@ -4620,9 +4425,6 @@
  "Message.ForwardedUnavailableStoryShort": [
   "Private StoryFrom: %@"
  ],
- "Message.FullDateFormat": [
-  "%1$@, %2$@"
- ],
  "Message.Game": [
   "Game"
  ],
@@ -4662,9 +4464,6 @@
  "Message.StickerText": [
   "%@ Sticker"
  ],
- "Message.Widget": [
-  "Widget"
- ],
  "Message.WidgetNetworkMarkerInfo": [
   "Taps on this widget can send data to the bot."
  ],
@@ -4677,9 +4476,6 @@
  ],
  "MessagePoll.BackToVote": [
   "< Vote"
- ],
- "MessagePoll.EndsIn": [
-  "ends in %@"
  ],
  "MessagePoll.EndsInDays": [
   "ends in %@ day",
@@ -4784,41 +4580,11 @@
  "Monetization.Withdraw.SetupTwoStepAuth": [
   "Enable 2-Step Verification"
  ],
- "Month.NomApril": [
-  "April"
- ],
  "Month.NomAugust": [
   "August"
  ],
  "Month.NomDecember": [
   "December"
- ],
- "Month.NomFebruary": [
-  "February"
- ],
- "Month.NomJanuary": [
-  "January"
- ],
- "Month.NomJuly": [
-  "July"
- ],
- "Month.NomJune": [
-  "June"
- ],
- "Month.NomMarch": [
-  "March"
- ],
- "Month.NomMay": [
-  "May"
- ],
- "Month.NomNovember": [
-  "November"
- ],
- "Month.NomOctober": [
-  "October"
- ],
- "Month.NomSeptember": [
-  "September"
  ],
  "MuteFor.Forever": [
   "Mute Forever"
@@ -4926,9 +4692,6 @@
  "News.Title": [
   "News"
  ],
- "Notification.BotWriteAllowed": [
-  "You allowed this bot to message you when you added it to your attachment menu."
- ],
  "Notification.BotWriteAllowedRequest": [
   "You allowed this bot to message you in its web-app."
  ],
@@ -4954,17 +4717,8 @@
  "Notification.ChatTheme.TextYou": [
   "You set **%@** as a new theme for this chat."
  ],
- "Notification.CommunityAddedGroupYou": [
-  "You added this group to the community %1$@"
- ],
  "Notification.CommunityRemovedGroup": [
   "%1$@ removed this group from a community"
- ],
- "Notification.CopyProtection.Request": [
-  "%@ would like to enable sharing in this chat"
- ],
- "Notification.CopyProtection.RequestYou": [
-  "You suggested to enable sharing in this chat"
  ],
  "Notification.CreatedGroup": [
   "Group created"
@@ -5001,9 +4755,6 @@
  ],
  "Notification.ForumTopicReopened": [
   "Topic reopened"
- ],
- "Notification.ForumTopicReopenedAuthor": [
-  "%1$@ reopened the topic"
  ],
  "Notification.ForumTopicUnhidden": [
   "Topic unhidden"
@@ -5113,9 +4864,6 @@
  "Notification.PaidMessagePriceChangedYou": [
   "You changed price to %1$@ per message"
  ],
- "Notification.PaidMessageYouMany": [
-  "You paid %1$@ to send %2$@"
- ],
  "Notification.PaymentSentNoTitle": [
   "You successfully transferred {amount} to {name}"
  ],
@@ -5170,20 +4918,11 @@
  "Notification.RequestedPeerMultiple": [
   "You shared %1$@ with %2$@."
  ],
- "Notification.StarGift.Bot.Subtitle": [
-  "Display this gift on your profile."
- ],
  "Notification.StarGift.Bot.Subtitle.Displaying": [
   "You are displaying this gift on your profile."
  ],
  "Notification.StarGift.Burned": [
   "burned"
- ],
- "Notification.StarGift.Collectible": [
-  "Collectible"
- ],
- "Notification.StarGift.Purchased.Title": [
-  "Purchased Gift"
  ],
  "Notification.StarGift.ReleasedBy": [
   "released by %@"
@@ -5206,14 +4945,8 @@
  "Notification.StarGift.Subtitle.Upgrade.Other": [
   "%1$@ can turn this gift into a unique collectible."
  ],
- "Notification.StarGift.TitleShort": [
-  "Gift"
- ],
  "Notification.StarGift.TitleTo": [
   "Gift for %@"
- ],
- "Notification.StarGift.Upgraded.Title": [
-  "Upgraded Gift"
  ],
  "Notification.StarGiftOffer.Expiration.Delimiter": [
   " "
@@ -5263,24 +4996,11 @@
  "Notification.StarGiftOnchainOffer.Withdraw": [
   "Withdraw"
  ],
- "Notification.StarsGift.Assigned": [
-  "You added %@ to your profile."
- ],
- "Notification.StarsGift.Bought.Stars": [
-  "%@ Star",
-  "%@ Stars"
- ],
- "Notification.StarsGift.BoughtForYouself": [
-  "You bought this gift for %1$@"
- ],
  "Notification.StarsGift.BoughtYou": [
   "You gifted %1$@ for %2$@"
  ],
  "Notification.StarsGift.Channel.Sent": [
   "%1$@ sent a gift to %2$@ for %3$@"
- ],
- "Notification.StarsGift.SentSomeone": [
-  "Someone sent you a gift"
  ],
  "Notification.StarsGift.SentUpgradeOther": [
   "%1$@ sent an upgrade worth %2$@ for the gift you received from %3$@"
@@ -5306,9 +5026,6 @@
  "Notification.StarsGift.UpgradePrepaid": [
   "%@ unboxed the gift that you helped upgrade"
  ],
- "Notification.StarsGift.UpgradeSelf": [
-  "You turned the gift into a unique collectible"
- ],
  "Notification.StarsGiftOffer.Accepted": [
   "%1$@ accepted your offer and sold you %2$@ for %3$@"
  ],
@@ -5331,16 +5048,6 @@
   "The offer from %1$@ to buy your %2$@ for %3$@ has expired"
  ],
  "Notification.StarsGiftOffer.ExpiredYou.Stars": [
-  "%@ Star",
-  "%@ Stars"
- ],
- "Notification.StarsGiftOffer.Offer": [
-  "The user offered you %2$@ for your gift %3$@"
- ],
- "Notification.StarsGiftOffer.OfferYou": [
-  "You offered %1$@ %2$@ for their gift %3$@"
- ],
- "Notification.StarsGiftOffer.OfferYou.Stars": [
   "%@ Star",
   "%@ Stars"
  ],
@@ -5427,17 +5134,8 @@
  "Notification.TopicReopenedAuthor": [
   "%1$@ reopened the topic"
  ],
- "Notification.VoiceChatEndedGroup": [
-  "%1$@ ended the video chat (%2$@)"
- ],
  "Notification.VoiceChatScheduled": [
   "%1$@ scheduled a video chat for %2$@"
- ],
- "Notification.VoiceChatScheduledToday": [
-  "%1$@ scheduled a video chat for today at %2$@"
- ],
- "Notification.VoiceChatScheduledTomorrow": [
-  "%1$@ scheduled a video chat for tomorrow at %2$@"
  ],
  "Notification.Wallpaper.Remove": [
   "Remove"
@@ -5453,30 +5151,6 @@
  ],
  "Notifications.TopChats": [
   "Top 5"
- ],
- "NotificationsSound.Antic": [
-  "Antic"
- ],
- "NotificationsSound.Cheers": [
-  "Cheers"
- ],
- "NotificationsSound.Droplet": [
-  "Droplet"
- ],
- "NotificationsSound.Handoff": [
-  "Handoff"
- ],
- "NotificationsSound.Milestone": [
-  "Milestone"
- ],
- "NotificationsSound.Passage": [
-  "Passage"
- ],
- "NotificationsSound.Portal": [
-  "Portal"
- ],
- "NotificationsSound.Rattle": [
-  "Rattle"
  ],
  "NotificationsSound.Rebound": [
   "Rebound"
@@ -5989,9 +5663,6 @@
  ],
  "PeerInfo.ButtonDiscuss": [
   "Discuss"
- ],
- "PeerInfo.ButtonLeave": [
-  "Leave"
  ],
  "PeerInfo.ButtonVideoCall": [
   "Video"
@@ -6668,10 +6339,6 @@
  "RequestPeer.GroupsEmpty": [
   "You don't have groups that meet the following requirements:"
  ],
- "RequestPeer.ReachedMaximum": [
-  "You can select up to %@ user.",
-  "You can select up to %@ users."
- ],
  "RequestPeer.Requirement.Channel.CreatorOn": [
   "You must be the owner of the channel."
  ],
@@ -6961,9 +6628,6 @@
  "Settings.New": [
   "NEW"
  ],
- "Settings.Privacy.MessageReadTimeRevealedToast": [
-  "Your read times are now visible."
- ],
  "Settings.PrivacyPolicy_URL": [
   "https://telegram.org/privacy"
  ],
@@ -7204,12 +6868,6 @@
  ],
  "Stars.Intro.Transaction.Unsupported.Title": [
   "Unsupported"
- ],
- "Stars.Purchase.BuyAnyway": [
-  "Buy Anyway"
- ],
- "Stars.Purchase.EnoughStars": [
-  "You have enough Stars at the moment."
  ],
  "Stars.Purchase.GenericPurchasePurpose": [
   "Buy Stars to unlock content and services on Telegram."
@@ -7577,14 +7235,8 @@
  "StoryList.ItemAction.Edit": [
   "Edit"
  ],
- "SuggestBirthdate.Accept.Added": [
-  "Birthday added. You can change it in **Settings**."
- ],
  "SuggestBirthdate.Accept.Title": [
   "Date of Birth"
- ],
- "SuggestPost.SetTimeFormat.Date": [
-  "%@"
  ],
  "TextFormat.Format": [
   "Format"
@@ -8856,12 +8508,6 @@
  "Wallet.PasscodeTouchId": [
   "Passcode & Touch ID"
  ],
- "Wallet.PasswordSetText": [
-  "Your account is now protected."
- ],
- "Wallet.PasswordSetTitle": [
-  "Password set"
- ],
  "Wallet.ProtectAccount": [
   "Protect Your Account"
  ],
@@ -8879,9 +8525,6 @@
  ],
  "Wallet.Receive.PurchaseUnavailableTitle": [
   "Purchase Unavailable"
- ],
- "Wallet.Recipient.InvalidAddress": [
-  "The pasted text is not a valid TON address."
  ],
  "Wallet.Recipient.InvalidAddressText": [
   "This wallet address is invalid.Check it or try another address."
@@ -8979,9 +8622,6 @@
  "Wallet.Sticker.InvalidError": [
   "One of these stickers can’t be used on the card. Only gifts owned by this wallet are supported."
  ],
- "Wallet.Sticker.LimitError": [
-  "You can place up to %@ gifts on your card.Remove one to add another."
- ],
  "Wallet.Sticker.ProfileError": [
   "A gift displayed on your profile can’t also be a card sticker. Hide it from your profile first."
  ],
@@ -8993,9 +8633,6 @@
  ],
  "Wallet.Sticker.TutorialCard": [
   "Drag this collectible here."
- ],
- "Wallet.Sticker.TutorialDone": [
-  "You can add multiple collectibles."
  ],
  "Wallet.TermsText_URL": [
   "https://telegram.org/tos"
