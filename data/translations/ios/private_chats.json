@@ -26,6 +26,9 @@
  "AddContact.StatusSuccess": [
   "%@ is now in your contacts."
  ],
+ "Appearance.LargeEmoji": [
+  "Large Emoji"
+ ],
  "Attachment.Gift": [
   "Gift"
  ],
@@ -145,8 +148,15 @@
  "Camera.LiveStream.End.Title": [
   "End Live Stream"
  ],
+ "Channel.NotificationLoading": [
+  "Loading..."
+ ],
  "ChannelBoost.Or": [
   "or"
+ ],
+ "Chat.AdminActionSheet.DeleteTitle": [
+  "Delete 1 Message",
+  "Delete %d Messages"
  ],
  "Chat.Auction": [
   "Gift Auction"
@@ -166,6 +176,9 @@
  ],
  "Chat.Auction.View": [
   "VIEW"
+ ],
+ "Chat.AudioTranscriptionFeedbackTip": [
+  "Thank you for your feedback."
  ],
  "Chat.BirthdayTooltip": [
   "🎂 You can send %1$@ a gift for their birthday today."
@@ -231,11 +244,31 @@
  "Chat.ContextMenu.AdSponsorInfoCopied": [
   "Text copied."
  ],
+ "Chat.ContextMenu.AuthorInfo": [
+  "Sent by %@"
+ ],
+ "Chat.ContextMenu.SuggestedPost.Create": [
+  "Suggest Post"
+ ],
+ "Chat.ContextMenuReadDate.ReadAvailableBadge": [
+  "show when"
+ ],
+ "Chat.ContextMenuReadDate.ReadAvailablePrefix": [
+  "read"
+ ],
  "Chat.ContextMenuTagsTitle": [
   "Tag the message with an emoji for quick access later"
  ],
+ "Chat.ContextReactionCount": [
+  "1 reaction",
+  "%@ reactions"
+ ],
  "Chat.CreateTopic": [
   "New Topic"
+ ],
+ "Chat.DeleteMessagesConfirmation": [
+  "Delete message",
+  "Delete %@ messages"
  ],
  "Chat.EditTagTitle.Placeholder": [
   "Name"
@@ -261,11 +294,20 @@
  "Chat.EmptyStateMessagingRestrictedToPremium.Text": [
   "Subscribe to **Premium**to message **%@**."
  ],
+ "Chat.EmptyStateMessagingRestrictedToPremiumDisabled.Text": [
+  "Subscribe to **Premium**to message **%@**."
+ ],
  "Chat.EmptyStatePaidMessaging.Action": [
   "Buy Stars"
  ],
  "Chat.EmptyStatePaidMessaging.Text": [
   "**%1$@** charges **%2$@**for each message."
+ ],
+ "Chat.EmptyStatePaidMessagingDisabled.Text": [
+  "**%1$@** charges **%2$@**for each message."
+ ],
+ "Chat.EnableSharingOffer.Accept": [
+  "Accept"
  ],
  "Chat.EnableSharingOffer.AcceptConfirmation.Accept": [
   "Enable"
@@ -275,6 +317,27 @@
  ],
  "Chat.EnableSharingOffer.AcceptConfirmation.Title": [
   "Enable Sharing"
+ ],
+ "Chat.EnableSharingOffer.Reject": [
+  "Reject"
+ ],
+ "Chat.EphemeralMessage.AnchoredInfo": [
+  "This version of the message is only visible to you."
+ ],
+ "Chat.EphemeralMessage.Revert": [
+  "Revert"
+ ],
+ "Chat.EphemeralMessage.RevertInfo": [
+  "Restores the message to its original content"
+ ],
+ "Chat.ErrorQuoteOutdatedActionEdit": [
+  "Edit"
+ ],
+ "Chat.ErrorQuoteOutdatedText": [
+  "**%@** updated the message you are quoting. Edit your quote to make it up-to-date."
+ ],
+ "Chat.ErrorQuoteOutdatedTitle": [
+  "Quote Outdated"
  ],
  "Chat.ForwardToSavedMessageTagSelectionTitle": [
   "You can add a tag to the message"
@@ -318,6 +381,18 @@
  ],
  "Chat.GramTransfer.Sent": [
   "sent"
+ ],
+ "Chat.GroupEmojiTooltip": [
+  "All members of this group canuse the # **%@** pack"
+ ],
+ "Chat.InlineTopicMenu.AllTab": [
+  "All"
+ ],
+ "Chat.InputPlaceholderMessageInTopic": [
+  "Message in %1$@"
+ ],
+ "Chat.InputTextPaidMessagePlaceholder": [
+  "Message for %@"
  ],
  "Chat.JoinedGroup.AddTag": [
   "Add Tag"
@@ -397,6 +472,13 @@
  "Chat.NonContactUser.UpdatedPhoto": [
   "User updated photo %1$@"
  ],
+ "Chat.OutgoingContextMixedReactionCount": [
+  "%1$@/%2$@ reacted"
+ ],
+ "Chat.OutgoingContextReactionCount": [
+  "1 reacted",
+  "%@ reacted"
+ ],
  "Chat.PaidMessage.Confirm.Single.Text": [
   "**%1$@** charges **%2$@** per incoming message. Would you like to pay **%3$@** to send %4$@?"
  ],
@@ -452,6 +534,12 @@
  ],
  "Chat.PanelUnpinAllMessages": [
   "Unpin All Messages"
+ ],
+ "Chat.PauseVoiceMessageTooltip": [
+  "Pause to trim or replay."
+ ],
+ "Chat.PinnedGroupCallTitle": [
+  "Pinned Group Call"
  ],
  "Chat.PlayOnceMesasge.DisableScreenCapture": [
   "Sorry, you can't play this message while screen recording is active."
@@ -512,6 +600,12 @@
  "Chat.PostSuggestion.StarsDisclaimer": [
   "Transactions in **Stars** may be reversed by the payment provider within **21** days. Only accept Stars from people you trust."
  ],
+ "Chat.PrivateMessageEditTimestamp.TodayAt": [
+  "edited today at %@"
+ ],
+ "Chat.PrivateMessageEditTimestamp.YesterdayAt": [
+  "edited yesterday at %@"
+ ],
  "Chat.PrivateMessageSeenTimestamp.Date": [
   "read %@"
  ],
@@ -542,6 +636,15 @@
  "Chat.ReinstatePaidMessages": [
   "Charge Message Fee"
  ],
+ "Chat.ReplyPanel.ReplyToQuoteBy": [
+  "Reply to Quote from %@"
+ ],
+ "Chat.RichText.ShowMore": [
+  "Show more"
+ ],
+ "Chat.SaveForNotifications": [
+  "Save for Notifications"
+ ],
  "Chat.SavedMessagesChatsTooltip": [
   "Tap to view your Saved Messages organized by type or source"
  ],
@@ -550,6 +653,9 @@
  ],
  "Chat.SavedMessagesModeMenu.ViewAsMessages": [
   "View as Messages"
+ ],
+ "Chat.SavedMessagesStatusViewAsChats": [
+  "Tap to view as chats"
  ],
  "Chat.SavedMessagesTabInfoText": [
   "Messages you sent to **Saved Messages**"
@@ -572,6 +678,9 @@
  "Chat.SimilarChannels.JoinedChannel": [
   "You joined channel **%@**."
  ],
+ "Chat.SlowmodeTooltipPending": [
+  "Slow Mode is active. You can't send more than one message at once."
+ ],
  "Chat.TagSearchHideMessages": [
   "Hide Other Messages"
  ],
@@ -590,6 +699,9 @@
  "Chat.TapToPlayVoiceMessageOnceTooltip": [
   "Tap to set this message to **Play Once**"
  ],
+ "Chat.TitleJoinGroupCall": [
+  "Join"
+ ],
  "Chat.TitlePinnedMessages": [
   "Pinned Message",
   "%@ Pinned Messages"
@@ -597,14 +709,39 @@
  "Chat.ToastCallLinkExpired.Text": [
   "This link is no longer active"
  ],
+ "Chat.ToastMessageTagged.Action": [
+  "View"
+ ],
+ "Chat.ToastMessageTagged.Text": [
+  "Message tagged with %@"
+ ],
  "Chat.ToastPhoneNumberCopied": [
   "Phone number copied to clipboard."
+ ],
+ "Chat.ToastVideoPublished.Action": [
+  "View"
+ ],
+ "Chat.ToastVideoPublished.Title": [
+  "Video Published"
  ],
  "Chat.ToastVoiceMessageDeviceMuted": [
   "Device is muted."
  ],
+ "Chat.Todo.Message.Completed": [
+  "%@ of {count} completed",
+  "%@ of {count} completed"
+ ],
+ "Chat.Todo.Message.TitleGroup": [
+  "Group Checklist"
+ ],
  "Chat.TooltipAddTagLabel": [
   "Tap and hold to add a name to your tag"
+ ],
+ "Chat.UnsendMyMessages": [
+  "Unsend My Messages"
+ ],
+ "Chat.UnsendMyMessagesAlertTitle": [
+  "Unsending will also delete messages you sent on %@'s side."
  ],
  "Chat.ViewGroupCall": [
   "JOIN GROUP CALL"
@@ -614,6 +751,9 @@
  ],
  "ChatContextMenu.TextSelectionTip": [
   "Hold on a word, then move the cursor to select more| text to copy."
+ ],
+ "ChatContextMenu.TextSelectionTip2": [
+  "Hold a word, then move cursor to select more| text to copy or quote."
  ],
  "ChatList.AuthorHidden": [
   "Author Hidden"
@@ -635,6 +775,9 @@
  ],
  "ChatList.DeleteForCurrentUser": [
   "Delete just for me"
+ ],
+ "ChatList.DeleteForEveryone": [
+  "Delete for me and %@"
  ],
  "ChatList.DeleteSavedPeerConfirmation": [
   "Are you sure you want to delete saved messages from %@?"
@@ -688,6 +831,16 @@
  "Conversation.AudioRateOptionsTooltip": [
   "Long press for more speed options."
  ],
+ "Conversation.AutoremoveActionEdit": [
+  "Edit Auto-Delete Settings"
+ ],
+ "Conversation.AutoremoveRemainingDays": [
+  "auto-deletes in %@ day",
+  "auto-deletes in %@ days"
+ ],
+ "Conversation.AutoremoveRemainingTime": [
+  "auto-deletes in %@"
+ ],
  "Conversation.BlockUser": [
   "Block User"
  ],
@@ -696,6 +849,12 @@
  ],
  "Conversation.Call": [
   "Call"
+ ],
+ "Conversation.ChecksTooltip.Delivered": [
+  "Delivered"
+ ],
+ "Conversation.ChecksTooltip.Read": [
+  "Read"
  ],
  "Conversation.ClearAll": [
   "Clear Chat"
@@ -736,14 +895,54 @@
  "Conversation.ContactMessage": [
   "MESSAGE"
  ],
+ "Conversation.ContextMenuAddFactCheck": [
+  "Add Fact Check"
+ ],
  "Conversation.ContextMenuBlock": [
   "Block User"
+ ],
+ "Conversation.ContextMenuCancelSending": [
+  "Cancel Sending"
+ ],
+ "Conversation.ContextMenuCopy": [
+  "Copy"
+ ],
+ "Conversation.ContextMenuCopyLink": [
+  "Copy Link"
+ ],
+ "Conversation.ContextMenuDelete": [
+  "Delete"
+ ],
+ "Conversation.ContextMenuEditFactCheck": [
+  "Edit Fact Check"
+ ],
+ "Conversation.ContextMenuForward": [
+  "Forward"
+ ],
+ "Conversation.ContextMenuListened": [
+  "1 Listened",
+  "%@ Listened"
+ ],
+ "Conversation.ContextMenuNoViews": [
+  "Nobody Viewed"
+ ],
+ "Conversation.ContextMenuNobodyListened": [
+  "Nobody Listened"
+ ],
+ "Conversation.ContextMenuNobodyWatched": [
+  "Nobody Watched"
  ],
  "Conversation.ContextMenuOpenProfile": [
   "Open Profile"
  ],
  "Conversation.ContextMenuReply": [
   "Reply"
+ ],
+ "Conversation.ContextMenuReport": [
+  "Report"
+ ],
+ "Conversation.ContextMenuSelect": [
+  "Select"
  ],
  "Conversation.ContextMenuSendAnotherGift": [
   "Send Another Gift"
@@ -754,14 +953,43 @@
  "Conversation.ContextMenuStickerPackAdd": [
   "Add Stickers"
  ],
+ "Conversation.ContextMenuWatched": [
+  "1 Listened",
+  "%@ Listened"
+ ],
+ "Conversation.ContextViewReplies": [
+  "View %@ Reply",
+  "View %@ Replies"
+ ],
+ "Conversation.CopyProtectionInfoPrivate": [
+  "**%@** disabled copying and forwarding in this chat."
+ ],
+ "Conversation.DateReminderSet": [
+  "You have set a reminder in [Saved Messages]()."
+ ],
  "Conversation.DeleteMessagesFor": [
   "Delete for me and %@"
  ],
  "Conversation.DeleteMessagesForMe": [
   "Delete for me"
  ],
+ "Conversation.Dice.Change": [
+  "change"
+ ],
+ "Conversation.Dice.Stake": [
+  "Stake:"
+ ],
+ "Conversation.Dice.u1F3AF": [
+  "Send a dart emoji to try your luck."
+ ],
  "Conversation.Dice.u1F3B0": [
   "Send a slot machine emoji to try your luck."
+ ],
+ "Conversation.Dice.u1F3B3": [
+  "Send a bowling emoji to try your luck."
+ ],
+ "Conversation.Dice.u1F3C0": [
+  "Send a basketball emoji to try your luck."
  ],
  "Conversation.EncryptedDescription1": [
   "Use end-to-end encryption"
@@ -787,6 +1015,22 @@
  "Conversation.EncryptionWaiting": [
   "Waiting for %@ to get online..."
  ],
+ "Conversation.FactCheck.Description": [
+  "This clarification was provided by Telegram."
+ ],
+ "Conversation.ForwardFrom": [
+  "From: %@"
+ ],
+ "Conversation.ForwardOptions.ForwardTitle": [
+  "Forward %@ Message",
+  "Forward %@ Messages"
+ ],
+ "Conversation.ForwardOptions.ForwardTitleSingle": [
+  "Forward Message"
+ ],
+ "Conversation.ForwardOptions.SenderNamesRemoved": [
+  "Sender names removed"
+ ],
  "Conversation.ForwardOptions.TextSaved": [
   "What would you like to do with %1$@ from your Saved Messages?"
  ],
@@ -799,11 +1043,21 @@
  "Conversation.ForwardTooltip.TwoChats.Many": [
   "Messages forwarded to **%@** and **%@**."
  ],
+ "Conversation.FreeTranscriptionCooldownTooltip": [
+  "You have used your **%@** free transcription this week.",
+  "You have used your **%@** free transcriptions this week."
+ ],
+ "Conversation.FreeTranscriptionWaitOrSubscribe": [
+  "Wait until **%@** to use it again or subscribe to [Telegram Premium]() now."
+ ],
  "Conversation.GigagroupDescription": [
   "Only admins can send messages in this group."
  ],
  "Conversation.GreetingText": [
   "Send a message or tap on the greeting below."
+ ],
+ "Conversation.ImageCopied": [
+  "Image copied to clipboard."
  ],
  "Conversation.Info": [
   "Info"
@@ -817,6 +1071,12 @@
  "Conversation.InteractiveEmojiSyncTip": [
   "If %@ had this chat open right now, they would also see the animation."
  ],
+ "Conversation.LargeEmojiDisabledInfo": [
+  "You have disabled large emoji, so they appear small and show no effects."
+ ],
+ "Conversation.LargeEmojiEnable": [
+  "Enable Large Emoji"
+ ],
  "Conversation.LinkDialogCopy": [
   "Copy"
  ],
@@ -826,8 +1086,14 @@
  "Conversation.LinksCopied": [
   "Links copied to clipboard"
  ],
+ "Conversation.MessageDialogEdit": [
+  "Edit"
+ ],
  "Conversation.MessageDoesntExist": [
   "Message doesn't exist"
+ ],
+ "Conversation.Moderate.Report": [
+  "Report Spam"
  ],
  "Conversation.Mute": [
   "Mute"
@@ -844,6 +1110,9 @@
  "Conversation.PeerNearbyTitle": [
   "%1$@ is %2$@ away"
  ],
+ "Conversation.Pin": [
+  "Pin"
+ ],
  "Conversation.PinMessageAlertPin": [
   "Pin"
  ],
@@ -858,6 +1127,9 @@
  ],
  "Conversation.PinOlderMessageAlertTitle": [
   "Pin Message"
+ ],
+ "Conversation.PinnedPreviousMessage": [
+  "Previous Message"
  ],
  "Conversation.ReadAllPollVotes": [
   "Read All Votes"
@@ -886,6 +1158,9 @@
  "Conversation.ScheduleMessage.SendOn": [
   "Send on %@ at %@"
  ],
+ "Conversation.ScheduleMessage.SendTomorrow": [
+  "Send tomorrow at %@"
+ ],
  "Conversation.ScheduleMessage.SendWhenOnline": [
   "Send When Online"
  ],
@@ -900,6 +1175,9 @@
  ],
  "Conversation.SecretLinkPreviewAlert": [
   "Would you like to enable extended link previews in Secret Chats? Note that link previews are generated on Telegram servers."
+ ],
+ "Conversation.SendDice": [
+  "Send"
  ],
  "Conversation.SendMessage.SendWhenOnline": [
   "Send When Online"
@@ -940,6 +1218,14 @@
  "Conversation.SlideToCancel": [
   "Slide to cancel"
  ],
+ "Conversation.StatusMembers": [
+  "1 member",
+  "%@ members"
+ ],
+ "Conversation.StatusSubscribers": [
+  "%@ subscriber",
+  "%@ subscribers"
+ ],
  "Conversation.StatusTyping": [
   "typing"
  ],
@@ -973,6 +1259,9 @@
  "Conversation.Theme.ChooseWallpaperTitle": [
   "Choose Wallpaper"
  ],
+ "Conversation.Theme.NoTheme": [
+  "NoTheme"
+ ],
  "Conversation.Theme.PreviewDark": [
   "Tap to view how %@ will see the chat when using night mode."
  ],
@@ -984,6 +1273,9 @@
  ],
  "Conversation.Theme.PreviewLightShort": [
   "Tap to view this theme in day mode."
+ ],
+ "Conversation.Theme.Reset": [
+  "Reset Theme for This Chat"
  ],
  "Conversation.Theme.ResetWallpaper": [
   "Remove Wallpaper"
@@ -1003,6 +1295,9 @@
  "Conversation.Theme.Subtitle": [
   "Theme will be also applied for %@"
  ],
+ "Conversation.Theme.Title": [
+  "Select Theme"
+ ],
  "Conversation.TitleUnmute": [
   "Unmute"
  ],
@@ -1012,6 +1307,9 @@
  "Conversation.Unblock": [
   "Unblock"
  ],
+ "Conversation.UnsupportedMedia.Title": [
+  "Unsupported message"
+ ],
  "Conversation.UserSendMessage": [
   "SEND MESSAGE"
  ],
@@ -1020,6 +1318,9 @@
  ],
  "Conversation.ViewInChannel": [
   "View in Channel"
+ ],
+ "Conversation.ViewReply": [
+  "View in Chat"
  ],
  "ConversationProfile.LeaveDeleteAndExit": [
   "Delete and Leave"
@@ -1124,6 +1425,10 @@
  ],
  "Forward.ChannelReadOnly": [
   "Sorry, you can't post to this channel."
+ ],
+ "ForwardedPolls": [
+  "Forwarded poll",
+  "%@ forwarded polls"
  ],
  "Generic.ErrorMoreInfo": [
   "Learn More"
@@ -1450,6 +1755,15 @@
  "MediaPicker.TimerTooltip": [
   "You can now set a self-destruct timer"
  ],
+ "Message.Approximate": [
+  "appx. %@"
+ ],
+ "Message.AudioTranscription.ErrorEmpty": [
+  "No words recognized."
+ ],
+ "Message.AudioTranscription.ErrorTooLong": [
+  "This voice message is too long to transcribe"
+ ],
  "Message.AudioTranscription.SubscribeToPremium": [
   "Subscribe to **Telegram Premium** to convert voice to text."
  ],
@@ -1465,6 +1779,9 @@
  "Message.FullDateFormat": [
   "%1$@, %2$@"
  ],
+ "Message.GenericForwardedPsa": [
+  "Public Service AnnouncementFrom: %@"
+ ],
  "Message.ImageExpired": [
   "Expired photo"
  ],
@@ -1474,6 +1791,9 @@
  "Message.ReplyActionButtonShowReceipt": [
   "Show Receipt"
  ],
+ "Message.Theme": [
+  "Color Theme"
+ ],
  "Message.VideoExpired": [
   "Expired video"
  ],
@@ -1482,6 +1802,9 @@
  ],
  "Message.VoiceMessageExpired": [
   "Expired voice message"
+ ],
+ "Message.Wallpaper": [
+  "Chat Wallpaper"
  ],
  "MessageCalendar.DeleteAlertText": [
   "Are you sure you want to delete all messages for the selected day?",
@@ -1552,11 +1875,26 @@
   "%@ year",
   "%@ years"
  ],
+ "Month.GenAugust": [
+  "August"
+ ],
+ "Month.GenDecember": [
+  "December"
+ ],
+ "Month.GenNovember": [
+  "November"
+ ],
  "Month.GenOctober": [
   "October"
  ],
  "Month.NomApril": [
   "April"
+ ],
+ "Month.NomAugust": [
+  "August"
+ ],
+ "Month.NomDecember": [
+  "December"
  ],
  "Month.NomFebruary": [
   "February"
@@ -1660,6 +1998,9 @@
  "Notification.CopyProtection.StillEnabled": [
   "Sharing in this chat is still disabled"
  ],
+ "Notification.ForumTopicIconChangedAuthor": [
+  "%1$@ changed the topic icon to %2$@"
+ ],
  "Notification.GramTransfer.UnknownUser": [
   "UNKNOWN USER"
  ],
@@ -1707,6 +2048,15 @@
  ],
  "Notification.MessageLifetimeRemovedOutgoing": [
   "You disabled the self-destruct timer"
+ ],
+ "Notification.OverviewTopicClosed": [
+  "%1$@ closed %2$@ %3$@"
+ ],
+ "Notification.OverviewTopicHidden": [
+  "%1$@ hid %2$@ %3$@"
+ ],
+ "Notification.OverviewTopicUnhidden": [
+  "%1$@ unhid %2$@ %3$@"
  ],
  "Notification.PaidMessage": [
   "%1$@ paid %2$@ to send a message"
@@ -1983,6 +2333,9 @@
  "Notification.VoiceChatEndedGroup": [
   "%1$@ ended the video chat (%2$@)"
  ],
+ "Notification.Wallpaper.Remove": [
+  "Remove"
+ ],
  "Notification.Wallpaper.View": [
   "View Wallpaper"
  ],
@@ -1998,11 +2351,23 @@
  "Notification.YouChangingWallpaper": [
   "Setting new wallpaper"
  ],
+ "Notifications.SaveSuccess.Text": [
+  "You can use this sound as a notification tone in your [custom notification settings]()."
+ ],
+ "Notifications.UploadSuccess.Title": [
+  "Sound Added"
+ ],
  "OpenFile.PotentiallyDangerousContentAlert": [
   "Previewing this file can potentially expose your IP address to its sender. Continue?"
  ],
  "OpenFile.Proceed": [
   "Proceed"
+ ],
+ "OpenLinkConfirmation.Open": [
+  "Open"
+ ],
+ "OpenLinkConfirmation.Title": [
+  "Open link?"
  ],
  "PUSH_MESSAGE_WALLPAPER": [
   "%1$@ set a new wallpaper for the chat with you"
@@ -2042,6 +2407,16 @@
  ],
  "PeerInfo.PaneGroups": [
   "Groups"
+ ],
+ "PollResults.Collapse": [
+  "COLLAPSE"
+ ],
+ "PollResults.ShowMore": [
+  "Show More (%@)",
+  "Show More (%@)"
+ ],
+ "PollResults.Title": [
+  "Poll Results"
  ],
  "Premium.Gift.TitleShort": [
   "Telegram Premium"
@@ -2124,6 +2499,15 @@
  "RichText.MenuFormulaStandalone": [
   "Standalone"
  ],
+ "RichTextPreview.Channel": [
+  "Channel"
+ ],
+ "RichTextPreview.EmbeddedContent": [
+  "Embedded content"
+ ],
+ "RichTextPreview.Music": [
+  "Music"
+ ],
  "SavedMessages.OpenChannel": [
   "Open Channel"
  ],
@@ -2172,6 +2556,30 @@
  "ScheduleMessage.Time": [
   "Time"
  ],
+ "ScheduledMessages.Delete": [
+  "Delete Scheduled Message"
+ ],
+ "ScheduledMessages.DeleteMany": [
+  "Delete Scheduled Messages"
+ ],
+ "ScheduledMessages.EmptyPlaceholder": [
+  "No scheduled messages here yet..."
+ ],
+ "ScheduledMessages.Reminder.Delete": [
+  "Delete Reminder"
+ ],
+ "ScheduledMessages.Reminder.DeleteMany": [
+  "Delete Reminders"
+ ],
+ "ScheduledMessages.ReminderNotification": [
+  "📅 Reminder"
+ ],
+ "ScheduledMessages.RemindersTitle": [
+  "Reminders"
+ ],
+ "ScheduledMessages.ScheduledDate": [
+  "Scheduled for %@"
+ ],
  "ScheduledMessages.ScheduledOnline": [
   "Scheduled until online"
  ],
@@ -2219,6 +2627,12 @@
  "Share.Title": [
   "Share"
  ],
+ "SponsoredMessageMenu.Hide": [
+  "Hide"
+ ],
+ "SponsoredMessageMenu.Info": [
+  "What are sponsoredmessages?"
+ ],
  "Stars.Gift.Received.Text": [
   "Use Stars to unlock content and services on Telegram. [See Examples >]()"
  ],
@@ -2257,6 +2671,9 @@
  ],
  "Time.MediumDate": [
   "%1$@ at %2$@"
+ ],
+ "Time.MonthOfYear_m10": [
+  "October %@"
  ],
  "Time.MonthOfYear_m11": [
   "November %@"
@@ -2365,6 +2782,30 @@
  ],
  "Watch.UserInfo.Unmute": [
   "Unmute"
+ ],
+ "WebBrowser.Exception.OpenInApp": [
+  "Always open this site in-app"
+ ],
+ "WebBrowser.Exception.OpenInBrowser": [
+  "Always open this site in browser"
+ ],
+ "WebBrowser.ExceptionAdded.Text": [
+  "This site will always open in-app."
+ ],
+ "WebBrowser.ExceptionAdded.Title": [
+  "Exception Added"
+ ],
+ "Weekday.ShortFriday": [
+  "Fri"
+ ],
+ "Weekday.ShortSaturday": [
+  "Sat"
+ ],
+ "Weekday.ShortSunday": [
+  "Sun"
+ ],
+ "Weekday.ShortThursday": [
+  "Thu"
  ],
  "Weekday.Today": [
   "Today"

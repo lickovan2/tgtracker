@@ -103,6 +103,15 @@
  "Conversation.ContextMenuDelete": [
   "Delete"
  ],
+ "Conversation.ContextMenuForward": [
+  "Forward"
+ ],
+ "Conversation.ContextMenuReply": [
+  "Reply"
+ ],
+ "Conversation.ContextMenuSelect": [
+  "Select"
+ ],
  "Conversation.Dice": [
   "Send a 🎲 emoji to any chat to get a random number from Telegram."
  ],
@@ -142,8 +151,14 @@
  "Conversation.StopPollConfirmationTitle": [
   "If you stop this poll now, nobody will be able to vote in it anymore. This action cannot be undone."
  ],
+ "Conversation.StopQuiz": [
+  "Stop Quiz"
+ ],
  "Conversation.UnvotePoll": [
   "Retract Vote"
+ ],
+ "Conversation.ViewPollStats": [
+  "View Statistics"
  ],
  "ConversationMedia.Title": [
   "Media"

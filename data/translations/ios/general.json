@@ -2592,6 +2592,9 @@
  "Common.Done": [
   "Done"
  ],
+ "Common.Edit": [
+  "Edit"
+ ],
  "Common.More": [
   "More"
  ],
@@ -9110,9 +9113,6 @@
  "Time.MonthOfYear_m1": [
   "January %@"
  ],
- "Time.MonthOfYear_m10": [
-  "October %@"
- ],
  "Time.MonthOfYear_m12": [
   "December %@"
  ],
@@ -9139,9 +9139,6 @@
  ],
  "Time.PreciseDate_m11": [
   "Nov %1$@, %2$@ at %3$@"
- ],
- "Time.PreciseDate_m12": [
-  "Dec %1$@, %2$@ at %3$@"
  ],
  "Time.PreciseDate_m2": [
   "Feb %1$@, %2$@ at %3$@"

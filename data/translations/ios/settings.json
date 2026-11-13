@@ -560,6 +560,9 @@
  "AutoNightTheme.UseSunsetSunrise": [
   "Use Local Sunset & Sunrise"
  ],
+ "Autoremove.OptionOff": [
+  "Off"
+ ],
  "Autosave.AddException": [
   "Add Exception"
  ],
@@ -984,6 +987,9 @@
  "ClearCache.ClearDescription": [
   "All media will stay in the Telegram cloud and can be re-downloaded if you need them again."
  ],
+ "ClearCache.Description": [
+  "Media files will be cleared from your disk, but will remain available for re-downloading if necessary."
+ ],
  "ClearCache.Forever": [
   "Forever"
  ],
@@ -998,6 +1004,9 @@
  ],
  "ClearCache.StorageOtherApps": [
   "Other Apps"
+ ],
+ "ClearCache.StorageUsage": [
+  "Storage Usage"
  ],
  "ClearCache.Success": [
   "**%@** freed on your %@!"
@@ -1043,6 +1052,12 @@
  ],
  "Contacts.SearchUsersAndGroupsLabel": [
   "Search for users and groups"
+ ],
+ "Conversation.ClearCache": [
+  "Clear Cache"
+ ],
+ "Conversation.InputTextPlaceholder": [
+  "Message"
  ],
  "Conversation.Kilobytes": [
   "%d KB"
@@ -1118,6 +1133,9 @@
  ],
  "DataUsage.TopSectionWifi": [
   "Wi-Fi"
+ ],
+ "Date.ChatDateHeader": [
+  "%1$@ %2$@"
  ],
  "DeleteAccount.AlternativeOptionsTitle": [
   "Alternative Options"
@@ -1499,6 +1517,21 @@
  "FolderLinkScreen.ToastNewChatAdded": [
   "People who already used the invite link will be able to join newly added chats."
  ],
+ "GlobalAutodeleteSettings.InfoEnabled": [
+  "All new messages in chats you start will be automatically deleted for everyone %@ after they are sent. You can also [apply this setting for your existing chats]()."
+ ],
+ "GlobalAutodeleteSettings.OptionTitle": [
+  "After %@"
+ ],
+ "GlobalAutodeleteSettings.OptionsHeader": [
+  "SELF-DESTRUCT TIMER"
+ ],
+ "GlobalAutodeleteSettings.SetCustomTime": [
+  "Set Custom Time..."
+ ],
+ "GlobalAutodeleteSettings.Title": [
+  "Auto-Delete Messages"
+ ],
  "GroupInfo.Permissions.Exceptions": [
   "EXCEPTIONS"
  ],
@@ -1600,6 +1633,10 @@
  ],
  "InviteLink.QRCodeFolder.Title": [
   "Invite by QR Code"
+ ],
+ "LastSeen.MinutesAgo": [
+  "last seen 1 minute ago",
+  "last seen %@ minutes ago"
  ],
  "Localization.DoNotTranslate": [
   "Do Not Translate"
@@ -1714,6 +1751,9 @@
  "MessageTimer.Weeks": [
   "%@ week",
   "%@ weeks"
+ ],
+ "Month.GenOctober": [
+  "October"
  ],
  "NameColor.ApplyColor": [
   "Apply Color"
@@ -2245,11 +2285,26 @@
  "NotificationsSound.Note": [
   "Note"
  ],
+ "NotificationsSound.Passage": [
+  "Passage"
+ ],
  "NotificationsSound.Popcorn": [
   "Popcorn"
  ],
+ "NotificationsSound.Portal": [
+  "Portal"
+ ],
  "NotificationsSound.Pulse": [
   "Pulse"
+ ],
+ "NotificationsSound.Rattle": [
+  "Rattle"
+ ],
+ "NotificationsSound.Rebound": [
+  "Rebound"
+ ],
+ "NotificationsSound.Slide": [
+  "Slide"
  ],
  "NotificationsSound.Synth": [
   "Synth"
@@ -2262,6 +2317,9 @@
  ],
  "NotificationsSound.Tritone": [
   "Tri-tone"
+ ],
+ "NotificationsSound.Welcome": [
+  "Welcome"
  ],
  "Paint.Stickers": [
   "Stickers"
@@ -4300,6 +4358,30 @@
  "Themes.Title": [
   "Chat Themes"
  ],
+ "Time.AfterDays": [
+  "%@ day",
+  "%@ days"
+ ],
+ "Time.AfterMinutes": [
+  "%@ minute",
+  "%@ minutes"
+ ],
+ "Time.AfterMonths": [
+  "%@ month",
+  "%@ months"
+ ],
+ "Time.AfterSeconds": [
+  "%@ second",
+  "%@ seconds"
+ ],
+ "Time.AfterWeeks": [
+  "%@ week",
+  "%@ weeks"
+ ],
+ "Time.AfterYears": [
+  "%@ year",
+  "%@ years"
+ ],
  "Time.HoursAgo": [
   "%@ hour ago",
   "%@ hours ago"
@@ -4951,5 +5033,8 @@
  ],
  "Weekday.ShortSunday": [
   "Sun"
+ ],
+ "Weekday.Today": [
+  "Today"
  ]
 }

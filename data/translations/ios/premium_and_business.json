@@ -148,11 +148,41 @@
  "BoostGift.WinnersInfo": [
   "Choose whether to make the list of winners public when the giveaway ends."
  ],
+ "Business.Intro.CustomizeSectionFooter": [
+  "You can customize the message people see before they start a chat with you."
+ ],
+ "Business.Intro.CustomizeSectionHeader": [
+  "CUSTOMIZE YOUR START PAGE"
+ ],
+ "Business.Intro.IntroSticker": [
+  "Choose Sticker"
+ ],
+ "Business.Intro.IntroStickerValueRandom": [
+  "Random"
+ ],
+ "Business.Intro.IntroTextPlaceholder": [
+  "Enter Message"
+ ],
+ "Business.Intro.IntroTitlePlaceholder": [
+  "Title"
+ ],
+ "Business.Intro.Title": [
+  "Start Page"
+ ],
+ "Business.Links": [
+  "Links to Chat"
+ ],
  "Business.Links.AlertUnsavedAction": [
   "Reset"
  ],
  "Business.Links.AlertUnsavedText": [
   "You have unsaved changes. Reset?"
+ ],
+ "Business.Links.CreateAction": [
+  "Create a Link to Chat"
+ ],
+ "Business.Links.EditLinkTitle": [
+  "Link to Chat"
  ],
  "Business.Links.EditLinkToastSaved": [
   "Preset message saved."
@@ -162,6 +192,31 @@
  ],
  "Business.Links.ItemActionShare": [
   "Share"
+ ],
+ "Business.Links.ItemClickCount": [
+  "1 click",
+  "%d clicks"
+ ],
+ "Business.Links.ItemNoClicks": [
+  "no clicks"
+ ],
+ "Business.Links.ItemNoText": [
+  "No text"
+ ],
+ "Business.Links.LinksSectionHeader": [
+  "LINKS TO CHAT"
+ ],
+ "Business.Links.PreviewText": [
+  "Add a message that will be entered in the message input field for anyone who starts a chat with you using this link:"
+ ],
+ "Business.Links.PreviewTitle": [
+  "Link to Chat"
+ ],
+ "Business.Links.SimpleLinkInfoPhone": [
+  "You can also use a simple link for a chat with you — [t.me/⁠+⁠%@](phone)."
+ ],
+ "Business.Links.Text": [
+  "Give your customers short links that start a chat with you — and suggest the first message from them to you."
  ],
  "BusinessHoursSetup.ErrorIntersectingDays.ResetAction": [
   "Reset"
@@ -175,11 +230,23 @@
  "BusinessHoursSetup.ErrorIntersectingHours.Text": [
   "Your business hours overlap. Do you want to reset them?"
  ],
+ "BusinessHoursSetup.MainToggle": [
+  "Show Business Hours"
+ ],
+ "BusinessHoursSetup.Text": [
+  "Turn this on to show your opening hours schedule to your customers."
+ ],
+ "BusinessHoursSetup.Title": [
+  "Business Hours"
+ ],
  "BusinessLink.AlertTextLimitText": [
   "The message text limit is 4096 characters"
  ],
  "BusinessLink.ErrorExpired": [
   "Link Expired"
+ ],
+ "BusinessLocationSetup.AddressPlaceholder": [
+  "Enter Address"
  ],
  "BusinessLocationSetup.AlertUnsavedChanges.ResetAction": [
   "Undo"
@@ -190,11 +257,119 @@
  "BusinessLocationSetup.ErrorAddressEmpty.Text": [
   "Address can't be empty."
  ],
+ "BusinessLocationSetup.SetLocationOnMap": [
+  "Set Location on Map"
+ ],
+ "BusinessLocationSetup.Text": [
+  "Display the location of your business on your account."
+ ],
+ "BusinessLocationSetup.Title": [
+  "Location"
+ ],
+ "BusinessMessageSetup.AwayMessageSectionHeader": [
+  "AWAY MESSAGE"
+ ],
+ "BusinessMessageSetup.CreateAwayMessage": [
+  "Create an Away Message"
+ ],
+ "BusinessMessageSetup.CreateGreetingMessage": [
+  "Create a Greeting Message"
+ ],
  "BusinessMessageSetup.ErrorNoRecipients.ResetAction": [
   "Reset"
  ],
  "BusinessMessageSetup.ErrorNoRecipients.Text": [
   "No recipients selected. Reset?"
+ ],
+ "BusinessMessageSetup.GreetingMessageSectionHeader": [
+  "GREETING MESSAGE"
+ ],
+ "BusinessMessageSetup.InactivitySectionFooter": [
+  "Choose how many days should pass after your last interaction with a recipient to send them the greeting in response to their message."
+ ],
+ "BusinessMessageSetup.InactivitySectionHeader": [
+  "PERIOD OF NO ACTIVITY"
+ ],
+ "BusinessMessageSetup.Recipients.AddExclude": [
+  "Exclude Chats..."
+ ],
+ "BusinessMessageSetup.Recipients.AddInclude": [
+  "Include Chats..."
+ ],
+ "BusinessMessageSetup.Recipients.AwayMessageFooter": [
+  "Choose chats or entire chat categories for sending an away message."
+ ],
+ "BusinessMessageSetup.Recipients.CategoryContacts": [
+  "Contacts"
+ ],
+ "BusinessMessageSetup.Recipients.CategoryExistingChats": [
+  "Existing Chats"
+ ],
+ "BusinessMessageSetup.Recipients.CategoryNewChats": [
+  "New Chats"
+ ],
+ "BusinessMessageSetup.Recipients.CategoryNonContacts": [
+  "Non-Contacts"
+ ],
+ "BusinessMessageSetup.Recipients.ExcludedSectionHeader": [
+  "EXCLUDED CHATS"
+ ],
+ "BusinessMessageSetup.Recipients.GreetingMessageFooter": [
+  "Select chats or entire chat categories for sending greeting messages."
+ ],
+ "BusinessMessageSetup.Recipients.IncludedSectionHeader": [
+  "INCLUDED CHATS"
+ ],
+ "BusinessMessageSetup.RecipientsOptionAllExcept": [
+  "All Private Chats Except..."
+ ],
+ "BusinessMessageSetup.RecipientsOptionOnly": [
+  "Only Selected Chats"
+ ],
+ "BusinessMessageSetup.RecipientsSectionHeader": [
+  "RECIPIENTS"
+ ],
+ "BusinessMessageSetup.ScheduleAlways": [
+  "Always Send"
+ ],
+ "BusinessMessageSetup.ScheduleCustom": [
+  "Custom Schedule"
+ ],
+ "BusinessMessageSetup.ScheduleEndTime": [
+  "End Time"
+ ],
+ "BusinessMessageSetup.ScheduleOutsideBusinessHours": [
+  "Outside of Business Hours"
+ ],
+ "BusinessMessageSetup.ScheduleSectionHeader": [
+  "SCHEDULE"
+ ],
+ "BusinessMessageSetup.ScheduleStartTime": [
+  "Start Time"
+ ],
+ "BusinessMessageSetup.SendWhenOffline": [
+  "Only if Offline"
+ ],
+ "BusinessMessageSetup.SendWhenOfflineFooter": [
+  "Don't send the away message if you've recently been online."
+ ],
+ "BusinessMessageSetup.TextAwayMessage": [
+  "Automatically reply with a message when you are away."
+ ],
+ "BusinessMessageSetup.TextGreetingMessage": [
+  "Greet customers when they message you the first time or after a period of no activity."
+ ],
+ "BusinessMessageSetup.TitleAwayMessage": [
+  "Away Message"
+ ],
+ "BusinessMessageSetup.TitleGreetingMessage": [
+  "Greeting Message"
+ ],
+ "BusinessMessageSetup.ToggleAwayMessage": [
+  "Send Away Message"
+ ],
+ "BusinessMessageSetup.ToggleGreetingMessage": [
+  "Send Greeting Message"
  ],
  "ChannelBoost.AutoTranslate": [
   "Auto-translation of Messages"
@@ -375,12 +550,30 @@
  "ChannelBoost.YouBoostedOtherChannelText": [
   "You boosted this channel"
  ],
+ "Chat.Placeholder.AwayMessage": [
+  "Add away message..."
+ ],
+ "Chat.Placeholder.BusinessLinkPreset": [
+  "Add a preset message..."
+ ],
+ "Chat.Placeholder.GreetingMessage": [
+  "Add greeting message..."
+ ],
  "ChatList.MaxThreadPinsFinalText": [
   "Sorry, you can't pin more than **%@** topic to the top. Unpin some that are currently pinned.",
   "Sorry, you can't pin more than **%@** topics to the top. Unpin some that are currently pinned."
  ],
+ "ChatList.PeerTypeContact": [
+  "contact"
+ ],
+ "ChatList.PeerTypeNonContactUser": [
+  "non-contact"
+ ],
  "ChatbotSetup.BotInstalled": [
   "%@ now manages your account."
+ ],
+ "ChatbotSetup.BotSectionFooter": [
+  "Choose a bot to manage your chats automatically."
  ],
  "ChatbotSetup.ErrorBotNotBusinessCapable": [
   "This bot doesn't support Secretary Mode yet."
@@ -403,6 +596,46 @@
  "ChatbotSetup.Gift.Warning.UsernameText": [
   "The bot **%@** will be able to **set and remove usernames** for your account, which may result in the loss of your current username."
  ],
+ "ChatbotSetup.PermissionsSectionFooter": [
+  "The bot can only reply on your behalf in chats that were active during the last 24h."
+ ],
+ "ChatbotSetup.PermissionsSectionHeader": [
+  "BOT PERMISSIONS"
+ ],
+ "ChatbotSetup.RecipientSummary.ExcludedChatsItem": [
+  "Excluded Chats"
+ ],
+ "ChatbotSetup.RecipientSummary.IncludedChatsItem": [
+  "Included Chats"
+ ],
+ "ChatbotSetup.RecipientSummary.ValueEmpty": [
+  "Add"
+ ],
+ "ChatbotSetup.RecipientSummary.ValueItems": [
+  "1 item",
+  "%d items"
+ ],
+ "ChatbotSetup.Recipients.ExcludedSectionFooter": [
+  "Select chats or entire chat categories which the bot **WILL NOT** have access to."
+ ],
+ "ChatbotSetup.Recipients.IncludedSectionFooter": [
+  "Select chats or entire chat categories which the bot **WILL** have access to."
+ ],
+ "ChatbotSetup.RecipientsSectionHeader": [
+  "CHATS THE BOT CAN ACCESS"
+ ],
+ "ChatbotSetup.Rights.ManageGiftsAndStars": [
+  "Manage Gifts and Stars"
+ ],
+ "ChatbotSetup.Rights.ManageMessages": [
+  "Manage Messages"
+ ],
+ "ChatbotSetup.Rights.ManageProfile": [
+  "Manage Profile"
+ ],
+ "ChatbotSetup.Rights.ManageStories": [
+  "Manage Stories"
+ ],
  "ChatbotSetup.SetupNotCompleted.Leave": [
   "Leave"
  ],
@@ -411,6 +644,12 @@
  ],
  "ChatbotSetup.SetupNotCompleted.Title": [
   "No Bot Added"
+ ],
+ "ChatbotSetup.Text": [
+  "Add a bot to reply to messages on your behalf."
+ ],
+ "ChatbotSetup.TitleItem": [
+  "Chat Automation"
  ],
  "Common.Cancel": [
   "Cancel"
@@ -427,8 +666,32 @@
  "Common.OK": [
   "OK"
  ],
+ "Common.Search": [
+  "Search"
+ ],
  "Common.Yes": [
   "Yes"
+ ],
+ "Conversation.EmptyPlaceholder": [
+  "No messages here yet..."
+ ],
+ "Conversation.GreetingText": [
+  "Send a message or tap on the greeting below."
+ ],
+ "Conversation.Summary.Limit.Text": [
+  "Summarize large messages with AI – unlimited with Telegram Premium."
+ ],
+ "EmptyState.AwayMessage.Text": [
+  "Add messages that are automatically sent when you are off."
+ ],
+ "EmptyState.AwayMessage.Title": [
+  "New Away Message"
+ ],
+ "EmptyState.GreetingMessage.Text": [
+  "Create greetings that will be automatically sent to new customers"
+ ],
+ "EmptyState.GreetingMessage.Title": [
+  "New Greeting Message"
  ],
  "GroupBoost.AudioTranscription": [
   "Audio Transcription"
@@ -460,6 +723,19 @@
  "GroupBoost.Table.Group.VoiceToText": [
   "Voice-to-Text Conversion"
  ],
+ "GroupInfo.InviteLink.CopyLink": [
+  "Copy Link"
+ ],
+ "GroupInfo.InviteLink.ShareLink": [
+  "Share Link"
+ ],
+ "MessageTimer.Days": [
+  "%@ day",
+  "%@ days"
+ ],
+ "Month.ShortDecember": [
+  "Dec"
+ ],
  "Premium.Gift.ApplyLink.AlreadyHasPremium.Text": [
   "You can activate this gift link after **%@** or [send the link]() to a friend."
  ],
@@ -475,6 +751,15 @@
  "Premium.LimitReached": [
   "Limit Reached"
  ],
+ "Premium.MaxFavedStickersFinalText": [
+  "An older sticker was replaced with this one."
+ ],
+ "Premium.MaxFavedStickersText": [
+  "An older sticker was replaced with this one. You can [increase the limit]() to %@ stickers."
+ ],
+ "Premium.MaxFavedStickersTitle": [
+  "Limit of %@ Stickers Reached"
+ ],
  "Premium.MaxSavedGifsFinalText": [
   "An older GIF was replaced with this one."
  ],
@@ -489,6 +774,12 @@
  ],
  "Premium.Purchase.PendingInfo": [
   "Your purchase is awaiting confirmation. You can leave this screen. Premium will activate when the purchase is confirmed."
+ ],
+ "PremiumNeeded.Subscribe": [
+  "Subscribe"
+ ],
+ "PremiumNeeded.Title": [
+  "Premium Needed"
  ],
  "QuickReply.ChatRemoveAwayMessage.Text": [
   "You didn't create an away message. Exiting will remove it."
@@ -511,10 +802,25 @@
  "QuickReply.ChatRemoveGreetingMessage.Title": [
   "Remove Greeting Message"
  ],
+ "QuickReply.InlineCreateAction": [
+  "New Quick Reply"
+ ],
+ "QuickReply.Title": [
+  "Quick Replies"
+ ],
+ "QuickReply.TitleAwayMessage": [
+  "Away Message"
+ ],
+ "QuickReply.TitleGreetingMessage": [
+  "Greeting Message"
+ ],
  "ReassignBoost.Success": [
   "%1$@ from %2$@."
  ],
  "ReassignBoost.WaitForCooldown": [
   "Wait until the boost is available or get **%1$@** more boosts by gifting a **Telegram Premium** subscription."
+ ],
+ "Weekday.ShortSaturday": [
+  "Sat"
  ]
 }

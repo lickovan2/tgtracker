@@ -292,6 +292,9 @@
  "ChatList.InlineButtonOpenApp": [
   "OPEN"
  ],
+ "ChatList.LabelAutodeleteDisabled": [
+  "auto-delete disabled"
+ ],
  "ChatList.LeaveGroupConfirmation": [
   "Are you sure you want to leave %@?"
  ],
@@ -577,6 +580,9 @@
  "Common.Edit": [
   "Edit"
  ],
+ "Common.Search": [
+  "Search"
+ ],
  "Compose.NewChannel": [
   "New Channel"
  ],
@@ -607,6 +613,9 @@
  "Contacts.SearchLabel": [
   "Search for contacts or usernames"
  ],
+ "Contacts.TabTitle": [
+  "Contacts"
+ ],
  "Conversation.ContextMenuSelect": [
   "Select"
  ],
@@ -634,6 +643,9 @@
  ],
  "Conversation.MessageDialogEdit": [
   "Edit"
+ ],
+ "Conversation.MoveReplyToAnotherChatTitle": [
+  "Reply in..."
  ],
  "Conversation.Mute": [
   "Mute"
@@ -745,6 +757,9 @@
  ],
  "DialogList.SingleUploadingVideoSuffix": [
   "%@ is sending video"
+ ],
+ "DialogList.TabTitle": [
+  "Chats"
  ],
  "DialogList.Title": [
   "Chats"
@@ -886,6 +901,12 @@
  ],
  "FrozenAccount.Violation.Title": [
   "Violation of Terms"
+ ],
+ "GlobalAutodeleteSettings.ApplyChatsPlaceholder": [
+  "Select chats to apply a %@ self-destruct timer"
+ ],
+ "GlobalAutodeleteSettings.ApplyChatsTitle": [
+  "Select Chats"
  ],
  "Group.LeaveGroup": [
   "Leave Group"
@@ -1092,6 +1113,12 @@
  "State.connecting": [
   "connecting"
  ],
+ "StickerPackActionInfo.RemovedText": [
+  "%@ is no longer in your stickers."
+ ],
+ "StickerPackActionInfo.RemovedTitle": [
+  "Stickers Removed"
+ ],
  "StoryFeed.AddStory": [
   "Add Story"
  ],
@@ -1103,6 +1130,34 @@
  ],
  "Target.ShareGameConfirmationPrivate": [
   "Share the game with %@?"
+ ],
+ "Time.TimerDays": [
+  "%@-day",
+  "%@-day"
+ ],
+ "Time.TimerHours": [
+  "%@-hour",
+  "%@-hour"
+ ],
+ "Time.TimerMinutes": [
+  "%@-minute",
+  "%@-minute"
+ ],
+ "Time.TimerMonths": [
+  "%@-month",
+  "%@-month"
+ ],
+ "Time.TimerSeconds": [
+  "%@-second",
+  "%@-second"
+ ],
+ "Time.TimerWeeks": [
+  "%@-week",
+  "%@-week"
+ ],
+ "Time.TimerYears": [
+  "%@-year",
+  "%@-year"
  ],
  "Undo.ChatCleared": [
   "Chat cleared."

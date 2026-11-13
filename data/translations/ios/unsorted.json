@@ -263,9 +263,6 @@
  "AutoNightTheme.System": [
   "System"
  ],
- "Autoremove.OptionOff": [
-  "Off"
- ],
  "Autoremove.SetCustomTime": [
   "Set Custom Time..."
  ],
@@ -493,9 +490,6 @@
  ],
  "Business.Links.DeleteItemAlert.Title": [
   "Delete Link?"
- ],
- "Business.Links.SimpleLinkInfoPhone": [
-  "You can also use a simple link for a chat with you — [t.me/⁠+⁠%@](phone)."
  ],
  "Business.Links.SimpleLinkInfoUsername": [
   "You can also use a simple link for a chat with you — [t.me/%@](username)."
@@ -762,9 +756,6 @@
  "Channel.AdminLog.CanEditStoriesOfOthers": [
   "Edit Stories of Others"
  ],
- "Channel.AdminLog.CanManageTopics": [
-  "Manage Topics"
- ],
  "Channel.AdminLog.CanPostStories": [
   "Post Stories"
  ],
@@ -801,12 +792,6 @@
  "Channel.AdminLog.CreatedInviteLink": [
   "%1$@ created invite link %2$@"
  ],
- "Channel.AdminLog.EditRank": [
-  "Edit Member Tags"
- ],
- "Channel.AdminLog.EditRankOwn": [
-  "Edit Member Tag"
- ],
  "Channel.AdminLog.EmptyText": [
   "No notable actions taken by the members and admins of this channel in the last 48 hours."
  ],
@@ -819,32 +804,14 @@
  "Channel.AdminLog.ManageTopics": [
   "Manage Topics"
  ],
- "Channel.AdminLog.MessageAddedAdminName": [
-  "promoted %1$@"
- ],
- "Channel.AdminLog.MessageAddedAdminNameUsername": [
-  "promoted %1$@ (%2$@)"
- ],
  "Channel.AdminLog.MessageChangedAutoremoveTimeoutRemove": [
   "%1$@ disabled auto-delete timer"
- ],
- "Channel.AdminLog.MessageChangedChannelUsernames": [
-  "%@ changed channel links:"
- ],
- "Channel.AdminLog.MessageChangedGroupGeoLocation": [
-  "changed group location to \"%@\""
- ],
- "Channel.AdminLog.MessageChangedGroupUsernames": [
-  "%@ changed group links:"
  ],
  "Channel.AdminLog.MessageChangedThemeRemove": [
   "%1$@ disabled the chat theme"
  ],
  "Channel.AdminLog.MessageChangedThemeSet": [
   "%1$@ changed the chat theme to %2$@"
- ],
- "Channel.AdminLog.MessageParticipantSubscriptionExtended": [
-  "%@ extended their subscription"
  ],
  "Channel.AdminLog.MessageRankNameNew": [
   "changed member tag for %1$@:%2$@"
@@ -863,9 +830,6 @@
  ],
  "Channel.AdminLog.ReactionsEnabled": [
   "%1$@ enabled all reactions"
- ],
- "Channel.AdminLog.SendReactions": [
-  "Send Reactions"
  ],
  "Channel.AdminLog.TopicChangedIcon": [
   "%1$@ changed topic %2$@ icon to %3$@"
@@ -890,12 +854,6 @@
  ],
  "Channel.AdminLog.TopicRenamed": [
   "%1$@ renamed topic %2$@ to %3$@"
- ],
- "Channel.AdminLog.TopicRenamedWithIcon": [
-  "%1$@ renamed topic %2$@ to %3$@ and changed icon to %4$@"
- ],
- "Channel.AdminLog.TopicRenamedWithRemovedIcon": [
-  "%1$@ renamed topic %2$@ to %3$@ and removed icon"
  ],
  "Channel.AdminLog.TopicReopened": [
   "%1$@ reopened topic %2$@"
@@ -1047,30 +1005,6 @@
  "Channel.Setup.TypeHeader": [
   "CHANNEL TYPE"
  ],
- "Channel.Toast.AddedToChats": [
-  "**%@** added to **Chats**."
- ],
- "Channel.Toast.AddedToNews": [
-  "**%@** added to **News** tab."
- ],
- "Channel.Toast.Archived": [
-  "**%@** archived."
- ],
- "Channel.Toast.NotificationsOff": [
-  "Notifications **off**."
- ],
- "Channel.Toast.NotificationsOn": [
-  "Notifications **on**."
- ],
- "Channel.Toast.RemovedFromChats": [
-  "**%@** removed from **Chats**."
- ],
- "Channel.Toast.RemovedFromNews": [
-  "**%@** removed from **News**."
- ],
- "Channel.Toast.Unarchived": [
-  "**%@** unarchived."
- ],
  "Channel.TooMuchBots": [
   "There are too many bots in this group. Please remove some of the bots you're not using first."
  ],
@@ -1190,15 +1124,6 @@
  "Chat.ContextMenu.AdSponsorInfo": [
   "Advertiser Info"
  ],
- "Chat.ContextMenu.AuthorInfo": [
-  "Sent by %@"
- ],
- "Chat.ContextMenuReadDate.ReadAvailableBadge": [
-  "show when"
- ],
- "Chat.ContextMenuReadDate.ReadAvailablePrefix": [
-  "read"
- ],
  "Chat.ContextMenuReadDate.ReadFormat": [
   "read %@"
  ],
@@ -1210,10 +1135,6 @@
  ],
  "Chat.CreateBotLink": [
   "Create Bot"
- ],
- "Chat.DeleteMessagesConfirmation": [
-  "Delete message",
-  "Delete %@ messages"
  ],
  "Chat.DeletePaidMessage.Action": [
   "Delete Anyway"
@@ -1275,23 +1196,11 @@
  "Chat.EmptyStateIntroFooterPremiumActionButton": [
   "OK"
  ],
- "Chat.EmptyStateMessagingRestrictedToPremiumDisabled.Text": [
-  "Subscribe to **Premium**to message **%@**."
- ],
- "Chat.EmptyStatePaidMessagingDisabled.Text": [
-  "**%1$@** charges **%2$@**for each message."
- ],
  "Chat.EmptyTopicPlaceholder.Text": [
   "Send a messageto start the topic."
  ],
  "Chat.EmptyTopicPlaceholder.Title": [
   "Almost done!"
- ],
- "Chat.EnableSharingOffer.Accept": [
-  "Accept"
- ],
- "Chat.EnableSharingOffer.Reject": [
-  "Reject"
  ],
  "Chat.EnableSharingOffer.RejectConfirmation.Reject": [
   "Keep Disabled"
@@ -1307,15 +1216,6 @@
  ],
  "Chat.ErrorInvoiceNotFound": [
   "Invoice not found."
- ],
- "Chat.ErrorQuoteOutdatedActionEdit": [
-  "Edit"
- ],
- "Chat.ErrorQuoteOutdatedText": [
-  "**%@** updated the message you are quoting. Edit your quote to make it up-to-date."
- ],
- "Chat.ErrorQuoteOutdatedTitle": [
-  "Quote Outdated"
  ],
  "Chat.GenericPsaTooltip": [
   "This is a public service announcement"
@@ -1417,20 +1317,11 @@
  "Chat.GramTransfer.WithFiatYou": [
   "You sent %1$@ %2$@ (%3$@)"
  ],
- "Chat.GroupEmojiTooltip": [
-  "All members of this group canuse the # **%@** pack"
- ],
  "Chat.InlineTopicMenu.NewForumThreadTab": [
   "New Chat"
  ],
  "Chat.InlineTopicMenu.TabAll": [
   "All"
- ],
- "Chat.InputPlaceholderMessageInTopic": [
-  "Message in %1$@"
- ],
- "Chat.InputPlaceholderReplyInTopic": [
-  "Reply in %1$@"
  ],
  "Chat.Message.TopicAuthorBadge": [
   "Topic Creator"
@@ -1474,10 +1365,6 @@
  "Chat.OpenStory": [
   "VIEW STORY"
  ],
- "Chat.OutgoingContextReactionCount": [
-  "1 reacted",
-  "%@ reacted"
- ],
  "Chat.PanelForumModeReplyText": [
   "Swipe left on a message to reply"
  ],
@@ -1489,9 +1376,6 @@
  ],
  "Chat.PauseVideoMessageTooltip": [
   "Pause to trim or replay."
- ],
- "Chat.PinnedGroupCallTitle": [
-  "Pinned Group Call"
  ],
  "Chat.PinnedMessagesHiddenText": [
   "Pinned messages will be shown again if a new message is pinned."
@@ -1715,20 +1599,8 @@
  "Chat.SlowmodeSendError": [
   "Slow Mode is enabled."
  ],
- "Chat.SlowmodeTooltipPending": [
-  "Slow Mode is active. You can't send more than one message at once."
- ],
  "Chat.TagsHeaderPanel.Unlock": [
   "Unlock"
- ],
- "Chat.TitleJoinGroupCall": [
-  "Join"
- ],
- "Chat.ToastMessageTagged.Action": [
-  "View"
- ],
- "Chat.ToastMessageTagged.Text": [
-  "Message tagged with %@"
  ],
  "Chat.ToastMessagesTagged.Text": [
   "Messages tagged with %@"
@@ -1738,13 +1610,6 @@
  ],
  "Chat.ToastMessagingRestrictedToPremium.Text": [
   "**%@** only accepts messages from contacts and **Premium** users."
- ],
- "Chat.ToastStarsSent.AnonymousTitle": [
-  "Star sent anonymously!",
-  "Stars sent anonymously!"
- ],
- "Chat.ToastVideoPublished.Action": [
-  "View"
  ],
  "Chat.Todo.CompletionLimited": [
   "%@ has restricted others from editing this checklist."
@@ -1760,15 +1625,6 @@
  ],
  "Chat.TodoItemCompletionTimestamp.YesterdayAt": [
   "completed yesterday at %@"
- ],
- "Chat.TopicIsClosedLabel": [
-  "Topic \"%1$@\" is closed"
- ],
- "Chat.UnsendMyMessages": [
-  "Unsend My Messages"
- ],
- "Chat.UnsendMyMessagesAlertTitle": [
-  "Unsending will also delete messages you sent on %@'s side."
  ],
  "Chat.VideoProcessingInfo": [
   "The video will be published once converted and optimized."
@@ -1786,9 +1642,6 @@
  ],
  "ChatContextMenu.ReactionEmojiSetSingle": [
   "This message contains#[%@]() reactions."
- ],
- "ChatContextMenu.TextSelectionTip2": [
-  "Hold a word, then move cursor to select more| text to copy or quote."
  ],
  "ChatImport.SelectionErrorGroupGeneric": [
   "Sorry, you can't import history to this group."
@@ -1957,9 +1810,6 @@
  ],
  "ChatList.LabelAutodeleteAfter": [
   "auto-delete after %@"
- ],
- "ChatList.LabelAutodeleteDisabled": [
-  "auto-delete disabled"
  ],
  "ChatList.PeerTypeNonContact": [
   "user"
@@ -2132,9 +1982,6 @@
  "ClearCache.Clear": [
   "Clear"
  ],
- "ClearCache.Description": [
-  "Media files will be cleared from your disk, but will remain available for re-downloading if necessary."
- ],
  "ClearCache.NoProgress": [
   "Clearing the Cache"
  ],
@@ -2143,9 +1990,6 @@
  ],
  "ClearCache.StorageTitle": [
   "%@ STORAGE"
- ],
- "ClearCache.StorageUsage": [
-  "Storage Usage"
  ],
  "CollectibleItemInfo.ButtonCopyPhone": [
   "Copy Phone Number"
@@ -2265,45 +2109,23 @@
  "Conversation.ContactAddContactLong": [
   "ADD CONTACT"
  ],
- "Conversation.ContextMenuAddFactCheck": [
-  "Add Fact Check"
- ],
  "Conversation.ContextMenuBuyGift": [
   "Buy Yourself a Gift"
  ],
  "Conversation.ContextMenuCancelEditing": [
   "Cancel Editing"
  ],
- "Conversation.ContextMenuEditFactCheck": [
-  "Edit Fact Check"
- ],
  "Conversation.ContextMenuLookUp": [
   "Look Up"
  ],
- "Conversation.ContextMenuNoViews": [
-  "Nobody Viewed"
- ],
- "Conversation.ContextMenuNobodyListened": [
-  "Nobody Listened"
- ],
- "Conversation.ContextMenuNobodyWatched": [
-  "Nobody Watched"
- ],
  "Conversation.ContextMenuOpenInfo": [
   "Open Info"
- ],
- "Conversation.ContextMenuWatched": [
-  "1 Listened",
-  "%@ Listened"
  ],
  "Conversation.CopyProtectionForwardingDisabledBot": [
   "Forwarding from this chat is restricted"
  ],
  "Conversation.CopyProtectionForwardingDisabledSecret": [
   "Forwarding is restricted"
- ],
- "Conversation.CopyProtectionInfoPrivate": [
-  "**%@** disabled copying and forwarding in this chat."
  ],
  "Conversation.CopyProtectionInfoPrivateYou": [
   "You disabled copying and forwarding in this chat."
@@ -2313,9 +2135,6 @@
  ],
  "Conversation.CopyProtectionSavingDisabledSecret": [
   "Saving is restricted"
- ],
- "Conversation.DateReminderSet": [
-  "You have set a reminder in [Saved Messages]()."
  ],
  "Conversation.DiscardRecordedVoiceMessageAction": [
   "Discard"
@@ -2338,9 +2157,6 @@
  "Conversation.EmojiTooltip": [
   "Tap here to choose more emoji"
  ],
- "Conversation.FactCheck.Description": [
-  "This clarification was provided by Telegram."
- ],
  "Conversation.FactCheck.InnerDescription": [
   "This clarification was provided by Telegram."
  ],
@@ -2359,21 +2175,11 @@
  "Conversation.ForwardOptions.RecipientsMessagesForwardVisible": [
   "Recipients will see they were forwarded"
  ],
- "Conversation.ForwardOptions.SenderNamesRemoved": [
-  "Sender names removed"
- ],
  "Conversation.ForwardOptions.TapForOptionsShort": [
   "Tap here for options"
  ],
  "Conversation.ForwardOptions.Text": [
   "What would you like to do with %1$@ from %2$@?"
- ],
- "Conversation.FreeTranscriptionCooldownTooltip": [
-  "You have used your **%@** free transcription this week.",
-  "You have used your **%@** free transcriptions this week."
- ],
- "Conversation.FreeTranscriptionWaitOrSubscribe": [
-  "Wait until **%@** to use it again or subscribe to [Telegram Premium]() now."
  ],
  "Conversation.HoldForAudioOnly": [
   "Hold to record audio."
@@ -2389,9 +2195,6 @@
  ],
  "Conversation.IncreaseSpeed": [
   "Increase Speed"
- ],
- "Conversation.InputTextPlaceholderReply": [
-  "Reply"
  ],
  "Conversation.InviteRequestInfo": [
   "You received this message because you requested to join %1$@ on %2$@."
@@ -2429,13 +2232,6 @@
  ],
  "Conversation.PeerNearbyDistance": [
   "%1$@ is %2$@ away"
- ],
- "Conversation.PinnedGiveaway.Finished": [
-  "%1$@ on %2$@"
- ],
- "Conversation.PinnedGiveaway.Finished.Winners": [
-  "%@ winner was selected",
-  "%@ winners were selected"
  ],
  "Conversation.PinnedQuiz": [
   "Pinned Quiz"
@@ -2554,9 +2350,6 @@
  "Conversation.SuggestedVideoView": [
   "View Photo"
  ],
- "Conversation.Summary.Limit.Text": [
-  "Summarize large messages with AI – unlimited with Telegram Premium."
- ],
  "Conversation.Summary.Limit.Title": [
   "AI Summary"
  ],
@@ -2574,9 +2367,6 @@
  ],
  "Conversation.Timer.Title": [
   "Send With Timer"
- ],
- "Conversation.TitleCommentsEmpty": [
-  "Comments"
  ],
  "Conversation.TitleRepliesFormat": [
   "%1$@ %2$@"
@@ -2620,20 +2410,11 @@
  "Conversation.UnsupportedMedia.Text": [
   "Update Telegram to view this message"
  ],
- "Conversation.UnsupportedMedia.Title": [
-  "Unsupported message"
- ],
  "Conversation.UpdateTelegram": [
   "UPDATE TELEGRAM"
  ],
- "Conversation.ViewPollStats": [
-  "View Statistics"
- ],
  "Conversation.ViewPost": [
   "VIEW POST"
- ],
- "Conversation.ViewReply": [
-  "View in Chat"
  ],
  "Conversation.VoiceChatMediaRecordingRestricted": [
   "You can't record voice and video messages during a video chat."
@@ -2871,9 +2652,6 @@
  ],
  "EmojiSearch.SearchTopicIconsPlaceholder": [
   "Search Topic Icons"
- ],
- "EmojiStatus.AppliedText": [
-  "Your emoji status has been updated."
  ],
  "EmojiStatusSetup.SetUntil": [
   "Set Until"
@@ -3648,15 +3426,9 @@
  "GiftLink.UnclaimedDescription": [
   "This link allows anyone to activate a **Telegram Premium** subscription."
  ],
- "GlobalAutodeleteSettings.ApplyChatsPlaceholder": [
-  "Select chats to apply a %@ self-destruct timer"
- ],
  "GlobalAutodeleteSettings.ApplyChatsSubject": [
   "%@ chat",
   "%@ chats"
- ],
- "GlobalAutodeleteSettings.ApplyChatsTitle": [
-  "Select Chats"
  ],
  "GlobalAutodeleteSettings.ApplyChatsToast": [
   "You applied the %1$@ self-destruct timer to %2$@."
@@ -3673,15 +3445,6 @@
  "GlobalAutodeleteSettings.InfoDisabled": [
   "If enabled, all new messages in chats you start will be automatically deleted for everyone at some point after they have been sent. This will not affect your existing chats."
  ],
- "GlobalAutodeleteSettings.InfoEnabled": [
-  "All new messages in chats you start will be automatically deleted for everyone %@ after they are sent. You can also [apply this setting for your existing chats]()."
- ],
- "GlobalAutodeleteSettings.OptionTitle": [
-  "After %@"
- ],
- "GlobalAutodeleteSettings.OptionsHeader": [
-  "SELF-DESTRUCT TIMER"
- ],
  "GlobalAutodeleteSettings.SetConfirmAction": [
   "Enable Auto-Deletion"
  ],
@@ -3696,12 +3459,6 @@
  ],
  "GlobalAutodeleteSettings.SetConfirmToastEnabled": [
   "Messages in all new chats you start will be automatically deleted after %@."
- ],
- "GlobalAutodeleteSettings.SetCustomTime": [
-  "Set Custom Time..."
- ],
- "GlobalAutodeleteSettings.Title": [
-  "Auto-Delete Messages"
  ],
  "Group.Appearance.EmojiPackUpdated": [
   "Group emoji pack updated."
@@ -4398,15 +4155,6 @@
  "Message.AdRecommendedLabel": [
   "Recommended"
  ],
- "Message.Approximate": [
-  "appx. %@"
- ],
- "Message.AudioTranscription.ErrorEmpty": [
-  "No words recognized."
- ],
- "Message.AudioTranscription.ErrorTooLong": [
-  "This voice message is too long to transcribe"
- ],
  "Message.FactCheck": [
   "Fact Check"
  ],
@@ -4427,9 +4175,6 @@
  ],
  "Message.Game": [
   "Game"
- ],
- "Message.GenericForwardedPsa": [
-  "Public Service AnnouncementFrom: %@"
  ],
  "Message.GiveawayEndedNoWinners": [
   "Due to the giveaway terms, no winners could be selected by Telegram"
@@ -4579,12 +4324,6 @@
  ],
  "Monetization.Withdraw.SetupTwoStepAuth": [
   "Enable 2-Step Verification"
- ],
- "Month.NomAugust": [
-  "August"
- ],
- "Month.NomDecember": [
-  "December"
  ],
  "MuteFor.Forever": [
   "Mute Forever"
@@ -4741,9 +4480,6 @@
  "Notification.ForumTopicIconChanged": [
   "Topic icon changed to %1$@"
  ],
- "Notification.ForumTopicIconChangedAuthor": [
-  "%1$@ changed the topic icon to %2$@"
- ],
  "Notification.ForumTopicRenamed": [
   "Topic renamed to \"%1$@\""
  ],
@@ -4846,20 +4582,11 @@
  "Notification.NoPaidMessagesTokenUsedYou": [
   "You used %@’s link to message for free"
  ],
- "Notification.OverviewTopicClosed": [
-  "%1$@ closed %2$@ %3$@"
- ],
  "Notification.OverviewTopicCreated": [
   "%1$@ \"%2$@\" was created"
  ],
- "Notification.OverviewTopicHidden": [
-  "%1$@ hid %2$@ %3$@"
- ],
  "Notification.OverviewTopicReopened": [
   "%1$@ reopened %2$@ %3$@"
- ],
- "Notification.OverviewTopicUnhidden": [
-  "%1$@ unhid %2$@ %3$@"
  ],
  "Notification.PaidMessagePriceChangedYou": [
   "You changed price to %1$@ per message"
@@ -5137,9 +4864,6 @@
  "Notification.VoiceChatScheduled": [
   "%1$@ scheduled a video chat for %2$@"
  ],
- "Notification.Wallpaper.Remove": [
-  "Remove"
- ],
  "Notification.YouChangedThemeGift": [
   "You changed chat theme to %@"
  ],
@@ -5151,15 +4875,6 @@
  ],
  "Notifications.TopChats": [
   "Top 5"
- ],
- "NotificationsSound.Rebound": [
-  "Rebound"
- ],
- "NotificationsSound.Slide": [
-  "Slide"
- ],
- "NotificationsSound.Welcome": [
-  "Welcome"
  ],
  "OAUTH_REQUEST": [
   "Login request for %1$@, location: %2$@"
@@ -5775,10 +5490,6 @@
  "Poll.Timer.MinutesSeconds": [
   "%1$@:%2$@"
  ],
- "PollResults.ShowMore": [
-  "Show More (%@)",
-  "Show More (%@)"
- ],
  "Premium.Annual": [
   "Annual"
  ],
@@ -5935,9 +5646,6 @@
  "Premium.MaxExpiringStoriesTextPremiumNumberFormat": [
   "**%d** story",
   "**%d** stories"
- ],
- "Premium.MaxFavedStickersText": [
-  "An older sticker was replaced with this one. You can [increase the limit]() to %@ stickers."
  ],
  "Premium.MaxFileSizeNoPremiumText": [
   "The document can't be sent, because it is larger than **%@**. We are working to let you increase this limit in the future."
@@ -6480,17 +6188,8 @@
  "RichText.PlaceholderQuoteAuthor": [
   "Add author"
  ],
- "RichTextPreview.Channel": [
-  "Channel"
- ],
- "RichTextPreview.EmbeddedContent": [
-  "Embedded content"
- ],
  "RichTextPreview.Formula": [
   "[formula]"
- ],
- "RichTextPreview.Music": [
-  "Music"
  ],
  "RichTextPreview.Table": [
   "[table]"
@@ -6504,19 +6203,9 @@
  "ScheduleVoiceChatChannel.Title": [
   "Schedule Video Chat"
  ],
- "ScheduledIn.Seconds": [
-  "%@ second",
-  "%@ seconds"
- ],
  "ScheduledIn.Years": [
   "%@ year",
   "%@ years"
- ],
- "ScheduledMessages.DeleteMany": [
-  "Delete Scheduled Messages"
- ],
- "ScheduledMessages.ReminderNotification": [
-  "📅 Reminder"
  ],
  "ScheduledMessages.TodoUnavailable": [
   "Completing tasks will become available after the message is published."
@@ -7096,12 +6785,6 @@
   "%@ pack is no longer in your stickers.",
   "%@ packs are no longer in your stickers."
  ],
- "StickerPackActionInfo.RemovedText": [
-  "%@ is no longer in your stickers."
- ],
- "StickerPackActionInfo.RemovedTitle": [
-  "Stickers Removed"
- ],
  "StickerPacks.ArchivePacksAlert.Text": [
   "You can quickly restore this set later from the Archived Stickers section.",
   "You can quickly restore these sets later from the Archived Stickers section."
@@ -7304,70 +6987,15 @@
  "Theme.Context.Apply": [
   "Apply"
  ],
- "Time.AfterDays": [
-  "%@ day",
-  "%@ days"
- ],
  "Time.AfterHours": [
   "%@ hour",
   "%@ hours"
- ],
- "Time.AfterMinutes": [
-  "%@ minute",
-  "%@ minutes"
- ],
- "Time.AfterMonths": [
-  "%@ month",
-  "%@ months"
- ],
- "Time.AfterSeconds": [
-  "%@ second",
-  "%@ seconds"
- ],
- "Time.AfterWeeks": [
-  "%@ week",
-  "%@ weeks"
- ],
- "Time.AfterYears": [
-  "%@ year",
-  "%@ years"
  ],
  "Time.AtDate": [
   "%@"
  ],
  "Time.AtPreciseDate": [
   "%@ at %@"
- ],
- "Time.TimerDays": [
-  "%@-day",
-  "%@-day"
- ],
- "Time.TimerHours": [
-  "%@-hour",
-  "%@-hour"
- ],
- "Time.TimerMinutes": [
-  "%@-minute",
-  "%@-minute"
- ],
- "Time.TimerMonths": [
-  "%@-month",
-  "%@-month"
- ],
- "Time.TimerSeconds": [
-  "%@-second",
-  "%@-second"
- ],
- "Time.TimerWeeks": [
-  "%@-week",
-  "%@-week"
- ],
- "Time.TimerYears": [
-  "%@-year",
-  "%@-year"
- ],
- "Time.TomorrowAt": [
-  "tomorrow at %@"
  ],
  "Ton.Withdraw": [
   "Withdraw"

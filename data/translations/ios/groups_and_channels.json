@@ -547,6 +547,9 @@
  "Channel.AdminLog.CanManageLiveStreams": [
   "Manage Live Streams"
  ],
+ "Channel.AdminLog.CanManageTopics": [
+  "Manage Topics"
+ ],
  "Channel.AdminLog.CanPinMessages": [
   "Pin Messages"
  ],
@@ -579,6 +582,12 @@
  ],
  "Channel.AdminLog.DisabledSlowmode": [
   "%@ disabled the slow mode"
+ ],
+ "Channel.AdminLog.EditRank": [
+  "Edit Member Tags"
+ ],
+ "Channel.AdminLog.EditRankOwn": [
+  "Edit Member Tag"
  ],
  "Channel.AdminLog.EditedInviteLink": [
   "%1$@ edited invite link %2$@"
@@ -622,6 +631,12 @@
  "Channel.AdminLog.JoinedViaRequest": [
   "%1$@ joined via invite link %2$@, approved by %3$@"
  ],
+ "Channel.AdminLog.MessageAddedAdminName": [
+  "promoted %1$@"
+ ],
+ "Channel.AdminLog.MessageAddedAdminNameUsername": [
+  "promoted %1$@ (%2$@)"
+ ],
  "Channel.AdminLog.MessageAdmin": [
   "%@ changed privileges for %@ (%@)"
  ],
@@ -640,17 +655,26 @@
  "Channel.AdminLog.MessageChangedChannelUsername": [
   "%@ changed channel link:"
  ],
+ "Channel.AdminLog.MessageChangedChannelUsernames": [
+  "%@ changed channel links:"
+ ],
  "Channel.AdminLog.MessageChangedGroupAbout": [
   "%@ edited the group description:"
  ],
  "Channel.AdminLog.MessageChangedGroupEmojiPack": [
   "%@ changed group emoji pack"
  ],
+ "Channel.AdminLog.MessageChangedGroupGeoLocation": [
+  "changed group location to \"%@\""
+ ],
  "Channel.AdminLog.MessageChangedGroupStickerPack": [
   "%@ changed group sticker set"
  ],
  "Channel.AdminLog.MessageChangedGroupUsername": [
   "%@ changed group link:"
+ ],
+ "Channel.AdminLog.MessageChangedGroupUsernames": [
+  "%@ changed group links:"
  ],
  "Channel.AdminLog.MessageChangedLinkedChannel": [
   "%1$@ linked this group to %2$@"
@@ -706,6 +730,9 @@
  ],
  "Channel.AdminLog.MessageManyDeletedMore": [
   "%1$@ deleted %2$@ from %3$@  %4$@"
+ ],
+ "Channel.AdminLog.MessageParticipantSubscriptionExtended": [
+  "%@ extended their subscription"
  ],
  "Channel.AdminLog.MessagePinned": [
   "%@ pinned message:"
@@ -836,6 +863,9 @@
  "Channel.AdminLog.SendPolls": [
   "Send Polls"
  ],
+ "Channel.AdminLog.SendReactions": [
+  "Send Reactions"
+ ],
  "Channel.AdminLog.SetSlowmode": [
   "%1$@ set the slow mode timer to %2$@"
  ],
@@ -854,6 +884,12 @@
  ],
  "Channel.AdminLog.TitleSelectedEvents": [
   "Selected Actions"
+ ],
+ "Channel.AdminLog.TopicRenamedWithIcon": [
+  "%1$@ renamed topic %2$@ to %3$@ and changed icon to %4$@"
+ ],
+ "Channel.AdminLog.TopicRenamedWithRemovedIcon": [
+  "%1$@ renamed topic %2$@ to %3$@ and removed icon"
  ],
  "Channel.AdminLog.UpdatedParticipantVolume": [
   "%1$@ changed %2$@ volume to %3$@"
@@ -1461,6 +1497,30 @@
  "Channel.TitleInfo": [
   "Channel Info"
  ],
+ "Channel.Toast.AddedToChats": [
+  "**%@** added to **Chats**."
+ ],
+ "Channel.Toast.AddedToNews": [
+  "**%@** added to **News** tab."
+ ],
+ "Channel.Toast.Archived": [
+  "**%@** archived."
+ ],
+ "Channel.Toast.NotificationsOff": [
+  "Notifications **off**."
+ ],
+ "Channel.Toast.NotificationsOn": [
+  "Notifications **on**."
+ ],
+ "Channel.Toast.RemovedFromChats": [
+  "**%@** removed from **Chats**."
+ ],
+ "Channel.Toast.RemovedFromNews": [
+  "**%@** removed from **News**."
+ ],
+ "Channel.Toast.Unarchived": [
+  "**%@** unarchived."
+ ],
  "Channel.TypeSetup.Title": [
   "Channel Type"
  ],
@@ -1927,6 +1987,9 @@
  "Chat.ContextMenu.AboutAd": [
   "About This Ad"
  ],
+ "Chat.ContextMenu.AuthorInfo": [
+  "Sent by %@"
+ ],
  "Chat.ContextMenu.RemoveAd": [
   "Remove Ads"
  ],
@@ -2021,11 +2084,30 @@
  "Chat.Giveaway.Message.CountriesFrom": [
   "from %@"
  ],
+ "Chat.Giveaway.Message.DateTitle": [
+  "Winner Selection Date"
+ ],
  "Chat.Giveaway.Message.Group.ParticipantsNew": [
   "All users who join this group after this date:"
  ],
+ "Chat.Giveaway.Message.LearnMore": [
+  "LEARN MORE"
+ ],
+ "Chat.Giveaway.Message.Months": [
+  "**%@** month",
+  "**%@** months"
+ ],
+ "Chat.Giveaway.Message.Participants": [
+  "All subscribers of this channel:"
+ ],
  "Chat.Giveaway.Message.ParticipantsNew": [
   "All users who join this channel after this announcement:"
+ ],
+ "Chat.Giveaway.Message.ParticipantsTitle": [
+  "Participants"
+ ],
+ "Chat.Giveaway.Message.PrizeText": [
+  "%1$@ for %2$@."
  ],
  "Chat.Giveaway.Message.PrizeTitle": [
   "Giveaway Prizes"
@@ -2040,6 +2122,10 @@
  "Chat.Giveaway.Message.Stars.Winners": [
   "to **%@** winner",
   "among **%@** winners"
+ ],
+ "Chat.Giveaway.Message.Subscriptions": [
+  "**%@** Telegram Premium Subscription",
+  "**%@** Telegram Premium Subscriptions"
  ],
  "Chat.Giveaway.Message.WinnersInfo.Many": [
   "All winners received gift links in private messages."
@@ -2094,6 +2180,9 @@
  ],
  "Chat.InlineTopicMenu.AllTab": [
   "All"
+ ],
+ "Chat.InputPlaceholderReplyInTopic": [
+  "Reply in %1$@"
  ],
  "Chat.InputTextPaidCommentPlaceholder": [
   "Comment for %@"
@@ -2412,6 +2501,10 @@
  "Chat.ToastStarsReactionsDisabled": [
   "Star Reactions were disabled in %@"
  ],
+ "Chat.ToastStarsSent.AnonymousTitle": [
+  "Star sent anonymously!",
+  "Stars sent anonymously!"
+ ],
  "Chat.ToastStarsSent.Text": [
   "You have reacted with %1$@ %2$@."
  ],
@@ -2423,11 +2516,18 @@
   "Star sent!",
   "Stars sent!"
  ],
+ "Chat.ToastStarsSent.TitleChannel": [
+  "Star sent as {name}!",
+  "Stars sent as {name}!"
+ ],
  "Chat.ToastSubscribedToScheduledLiveStream.Text": [
   "You will be notified when the live stream starts."
  ],
  "Chat.ToastVideoPublished.Title": [
   "Video Published"
+ ],
+ "Chat.TopicIsClosedLabel": [
+  "Topic \"%1$@\" is closed"
  ],
  "Chat.VideoProcessingServiceMessage": [
   "This video will be published once converted and optimized",
@@ -2448,6 +2548,9 @@
  "ChatAdmins.Title": [
   "Chat Admins"
  ],
+ "ChatContextMenu.TextSelectionTip2": [
+  "Hold a word, then move cursor to select more| text to copy or quote."
+ ],
  "ChatList.Context.Delete": [
   "Delete"
  ],
@@ -2456,6 +2559,12 @@
  ],
  "ChatList.Search.FilterDownloads": [
   "Downloads"
+ ],
+ "ClearCache.FreeSpace": [
+  "Free Space"
+ ],
+ "ClearCache.FreeSpaceDescription": [
+  "If you want to save space on your device, you don't need to delete anything.You can use cache settings to remove unnecessary media — and re-download files if you need them again."
  ],
  "CommentsGroup.ErrorAccessDenied": [
   "Sorry, you can't access this chat because you were banned by an admin."
@@ -2580,6 +2689,9 @@
  "Conversation.ContextMenuCopyLink": [
   "Copy Link"
  ],
+ "Conversation.ContextMenuForward": [
+  "Forward"
+ ],
  "Conversation.ContextMenuMention": [
   "Mention"
  ],
@@ -2597,6 +2709,9 @@
  ],
  "Conversation.ContextMenuReply": [
   "Reply"
+ ],
+ "Conversation.ContextMenuReport": [
+  "Report"
  ],
  "Conversation.ContextMenuReportFalsePositive": [
   "Report False Positive"
@@ -2683,6 +2798,22 @@
  "Conversation.ErrorInaccessibleMessage": [
   "Unfortunately, you can't access this message. You aren't a member of the chat where it was posted."
  ],
+ "Conversation.ForwardOptions.ChangeRecipient": [
+  "Change Recipient"
+ ],
+ "Conversation.ForwardOptions.ForwardTitle": [
+  "Forward %@ Message",
+  "Forward %@ Messages"
+ ],
+ "Conversation.ForwardOptions.GroupMessagesForwardVisible": [
+  "Recipients will see they were forwarded"
+ ],
+ "Conversation.ForwardOptions.HideSendersNames": [
+  "Hide Sender Names"
+ ],
+ "Conversation.ForwardOptionsCancel": [
+  "Do Not Forward"
+ ],
  "Conversation.InfoGroup": [
   "Group"
  ],
@@ -2697,6 +2828,9 @@
  ],
  "Conversation.InputTextPlaceholderComment": [
   "Comment"
+ ],
+ "Conversation.InputTextPlaceholderReply": [
+  "Reply"
  ],
  "Conversation.InputTextSilentBroadcastPlaceholder": [
   "Silent Broadcast"
@@ -2721,6 +2855,9 @@
  ],
  "Conversation.MessageLeaveComment": [
   "Leave a Comment"
+ ],
+ "Conversation.MessageOptionsApplyChanges": [
+  "Apply Changes"
  ],
  "Conversation.MessageViewComments": [
   "[%@]Comment",
@@ -2786,6 +2923,13 @@
  "Conversation.PinnedGiveaway": [
   "Giveaway"
  ],
+ "Conversation.PinnedGiveaway.Finished": [
+  "%1$@ on %2$@"
+ ],
+ "Conversation.PinnedGiveaway.Finished.Winners": [
+  "%@ winner was selected",
+  "%@ winners were selected"
+ ],
  "Conversation.PinnedGiveaway.Ongoing": [
   "%1$@ on %2$@"
  ],
@@ -2817,14 +2961,23 @@
  "Conversation.PrivateMessageLinkCopied": [
   "This link will only work for chat members"
  ],
+ "Conversation.PrivateMessageLinkCopiedLong": [
+  "Link copied to clipboard. This link will only work for members of this chat."
+ ],
  "Conversation.ReadAllReactions": [
   "Read All Reactions"
+ ],
+ "Conversation.ReplyMessagePanelTitle": [
+  "Reply to %@"
  ],
  "Conversation.ReportGroupLocation": [
   "Group unrelated to location?"
  ],
  "Conversation.ReportSpamAndLeave": [
   "Report Spam and Leave"
+ ],
+ "Conversation.ReportSpamChannelConfirmation": [
+  "Are you sure you want to report this channel for spam?"
  ],
  "Conversation.RequestsToJoin": [
   "%@ Join Request",
@@ -2929,6 +3082,9 @@
  "Conversation.TitleComments": [
   "[%@]Comment",
   "[%@]Comments"
+ ],
+ "Conversation.TitleCommentsEmpty": [
+  "Comments"
  ],
  "Conversation.TitleCommentsFormat": [
   "%1$@ %2$@"
@@ -3101,6 +3257,9 @@
  ],
  "ExplicitContent.AlertChannel": [
   "You can't access this channel because it violates App Store rules."
+ ],
+ "FileSize.KB": [
+  "%@ KB"
  ],
  "FolderLinkPreview.ButtonAddFolder": [
   "Add Folder"
@@ -4450,6 +4609,9 @@
  "Message.Widget": [
   "Widget"
  ],
+ "MessagePoll.LabelClosed": [
+  "Final Results"
+ ],
  "MessagePoll.SubmitVote": [
   "Vote"
  ],
@@ -4639,6 +4801,9 @@
  ],
  "Month.GenAugust": [
   "August"
+ ],
+ "Month.GenOctober": [
+  "October"
  ],
  "MuteFor.Days": [
   "Mute for 1 day",
@@ -6128,6 +6293,15 @@
  "Time.MediumDate": [
   "%1$@ at %2$@"
  ],
+ "Time.PreciseDate_m12": [
+  "Dec %1$@, %2$@ at %3$@"
+ ],
+ "Time.TodayAt": [
+  "today at %@"
+ ],
+ "Time.TomorrowAt": [
+  "tomorrow at %@"
+ ],
  "Time.YesterdayAt": [
   "yesterday at %@"
  ],
@@ -6621,6 +6795,12 @@
  ],
  "WelcomeMessages.Off": [
   "Off"
+ ],
+ "WelcomeMessages.ServiceHeader1": [
+  "New members will see these messages when they join"
+ ],
+ "WelcomeMessages.ServiceHeader2": [
+  "Press and hold it to delete"
  ],
  "WelcomeMessages.Title": [
   "Welcome Message"

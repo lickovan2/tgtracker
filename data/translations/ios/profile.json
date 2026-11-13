@@ -154,6 +154,9 @@
  "EmojiSearch.SearchStatusesPlaceholder": [
   "Search Statuses"
  ],
+ "EmojiStatus.AppliedText": [
+  "Your emoji status has been updated."
+ ],
  "EmojiStatusSetup.TimerOther": [
   "Other"
  ],

@@ -453,6 +453,9 @@
  "Chat.RichText.ShowMore": [
   "Show more"
  ],
+ "ChatList.ArchivedChatsTitle": [
+  "Archived Chats"
+ ],
  "ChatList.Context.RemoveFromRecents": [
   "Remove from Recent"
  ],
@@ -783,6 +786,9 @@
  "Common.Done": [
   "Done"
  ],
+ "Common.Edit": [
+  "Edit"
+ ],
  "Common.OK": [
   "OK"
  ],
@@ -1095,9 +1101,25 @@
  "RequestPeer.SelectionConfirmationTitle": [
   "Are you sure you want to send %1$@ to %2$@?"
  ],
+ "ScheduledIn.Hours": [
+  "%@ hour",
+  "%@ hours"
+ ],
  "ScheduledIn.Minutes": [
   "%@ minute",
   "%@ minutes"
+ ],
+ "ScheduledIn.Months": [
+  "%@ month",
+  "%@ months"
+ ],
+ "ScheduledIn.Seconds": [
+  "%@ second",
+  "%@ seconds"
+ ],
+ "ScheduledIn.Weeks": [
+  "%@ week",
+  "%@ weeks"
  ],
  "Settings.BotListSettings": [
   "Bot Settings"
