@@ -138,8 +138,23 @@
  "GroupBoost.Error.PremiumNeededText": [
   "Only **Telegram Premium** subscribers can boost groups. Do you want to subscribe to **Telegram Premium**?"
  ],
+ "Premium.Gift.ContactSelection.OpenProfile": [
+  "Open Profile"
+ ],
+ "Premium.Gift.ContactSelection.SendMessage": [
+  "Send Message"
+ ],
  "Premium.LimitReached": [
   "Limit Reached"
+ ],
+ "Premium.MaxSavedGifsFinalText": [
+  "An older GIF was replaced with this one."
+ ],
+ "Premium.MaxSavedGifsText": [
+  "An older GIF was replaced with this one. You can [increase the limit]() to %@ GIFs."
+ ],
+ "Premium.MaxSavedGifsTitle": [
+  "Limit of %@ GIFs Reached"
  ],
  "Premium.Purchase.OnlyOneSubscriptionAllowed": [
   "You have already purchased Telegram Premium for another account. You can only have one Telegram Premium subscription on one Apple ID."

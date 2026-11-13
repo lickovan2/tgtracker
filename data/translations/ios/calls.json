@@ -50,6 +50,12 @@
  "CallList.DeleteAllForMe": [
   "Delete for me"
  ],
+ "CallList.ToastCallLinkCopied.Action": [
+  "View Call"
+ ],
+ "CallList.ToastCallLinkCopied.Text": [
+  "Call link copied"
+ ],
  "Calls.HideCallsTab": [
   "Hide Calls Tab"
  ],

@@ -205,6 +205,9 @@
  "Chat.Context.Date.SetReminder": [
   "Set a Reminder"
  ],
+ "Chat.ContextMenu.AdSponsorInfoCopied": [
+  "Text copied."
+ ],
  "Chat.ContextMenuTagsTitle": [
   "Tag the message with an emoji for quick access later"
  ],
@@ -292,6 +295,12 @@
  ],
  "Chat.GramTransfer.Sent": [
   "sent"
+ ],
+ "Chat.JoinedGroup.AddTag": [
+  "Add Tag"
+ ],
+ "Chat.JoinedGroup.Text": [
+  "You joined the group"
  ],
  "Chat.JumpToDate": [
   "Jump to Date"
@@ -464,6 +473,9 @@
  "Chat.ReinstatePaidMessages": [
   "Charge Message Fee"
  ],
+ "Chat.SavedMessagesChatsTooltip": [
+  "Tap to view your Saved Messages organized by type or source"
+ ],
  "Chat.SavedMessagesModeMenu.ViewAsChats": [
   "View as Chats"
  ],
@@ -475,6 +487,9 @@
  ],
  "Chat.SearchTagsPlaceholder": [
   "Search messages or tags"
+ ],
+ "Chat.SendGiftTooltip": [
+  "Tap here to send a gift"
  ],
  "Chat.SendMessageMenu.ToastPremiumRequired.Text": [
   "Subscribe to [Telegram Premium]() to add this animated effect."
@@ -586,6 +601,9 @@
  "Conversation.AddToReadingList": [
   "Add to Reading List"
  ],
+ "Conversation.AudioRateOptionsTooltip": [
+  "Long press for more speed options."
+ ],
  "Conversation.BlockUser": [
   "Block User"
  ],
@@ -684,6 +702,15 @@
  ],
  "Conversation.ForwardOptions.TextSaved": [
   "What would you like to do with %1$@ from your Saved Messages?"
+ ],
+ "Conversation.ForwardTooltip.Chat.Many": [
+  "Messages forwarded to **%@**."
+ ],
+ "Conversation.ForwardTooltip.ManyChats.Many": [
+  "Messages sent to **%@** and %@ other chats."
+ ],
+ "Conversation.ForwardTooltip.TwoChats.Many": [
+  "Messages forwarded to **%@** and **%@**."
  ],
  "Conversation.GreetingText": [
   "Send a message or tap on the greeting below."
@@ -826,8 +853,14 @@
  "Conversation.Theme.PreviewDark": [
   "Tap to view how %@ will see the chat when using night mode."
  ],
+ "Conversation.Theme.PreviewDarkShort": [
+  "Tap to view this theme in night mode."
+ ],
  "Conversation.Theme.PreviewLight": [
   "Tap to view how %@ will see the chat when using day mode."
+ ],
+ "Conversation.Theme.PreviewLightShort": [
+  "Tap to view this theme in day mode."
  ],
  "Conversation.Theme.ResetWallpaper": [
   "Remove Wallpaper"
@@ -855,6 +888,9 @@
  ],
  "Conversation.UserSendMessage": [
   "SEND MESSAGE"
+ ],
+ "Conversation.VideoTimeLinkCopied": [
+  "Link with start time at %@ copied to clipboard."
  ],
  "Conversation.ViewInChannel": [
   "View in Channel"

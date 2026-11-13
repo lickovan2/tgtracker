@@ -1269,9 +1269,6 @@
  "Chat.ContextMenu.AdSponsorInfo": [
   "Advertiser Info"
  ],
- "Chat.ContextMenu.AdSponsorInfoCopied": [
-  "Text copied."
- ],
  "Chat.ContextMenu.AuthorInfo": [
   "Sent by %@"
  ],
@@ -1514,12 +1511,6 @@
  "Chat.InputPlaceholderReplyInTopic": [
   "Reply in %1$@"
  ],
- "Chat.JoinedGroup.AddTag": [
-  "Add Tag"
- ],
- "Chat.JoinedGroup.Text": [
-  "You joined the group"
- ],
  "Chat.Message.TopicAuthorBadge": [
   "Topic Creator"
  ],
@@ -1754,9 +1745,6 @@
  "Chat.ReplyStoryPrivateChannel": [
   "Private story"
  ],
- "Chat.SavedMessagesChatsTooltip": [
-  "Tap to view your Saved Messages organized by type or source"
- ],
  "Chat.SendAllowedContentPeerText": [
   "The admins of %1$@ only allow sending %2$@."
  ],
@@ -1786,9 +1774,6 @@
  ],
  "Chat.SendAllowedContentTypeVoiceMessage": [
   "voice messages"
- ],
- "Chat.SendGiftTooltip": [
-  "Tap here to send a gift"
  ],
  "Chat.SendNotAllowedAudioMessage": [
   "Sending voice messages is not allowed in this group"
@@ -2084,18 +2069,6 @@
  "ChatList.FolderAllChats": [
   "All Chats"
  ],
- "ChatList.GeneralHidden": [
-  "General topic hidden"
- ],
- "ChatList.GeneralHiddenInfo": [
-  "Pull down to see the general topic."
- ],
- "ChatList.GeneralUnhidden": [
-  "General topic unhidden"
- ],
- "ChatList.GeneralUnhiddenInfo": [
-  "Swipe left on the general topic to hide it."
- ],
  "ChatList.GenericPsaAlert": [
   "This provides public service announcements in your chat list."
  ],
@@ -2212,9 +2185,6 @@
   "%@ Star needed",
   "%@ Stars needed"
  ],
- "ChatList.TabIconFoldersTooltipEmptyFolders": [
-  "Hold to organize your chats with folders."
- ],
  "ChatList.Tabs.All": [
   "All"
  ],
@@ -2260,12 +2230,6 @@
  ],
  "ChatListFolder.NameUnread": [
   "Unread"
- ],
- "ChatListFolderSettings.SubscribeToMoveAll": [
-  "Subscribe to **Telegram Premium** to move the \"All Chats\" folder."
- ],
- "ChatListFolderSettings.SubscribeToMoveAllAction": [
-  "More"
  ],
  "ChatState.ConnectingToProxy": [
   "connecting to proxy..."
@@ -2390,9 +2354,6 @@
  ],
  "Conversation.AddToContactsLong": [
   "Add to Contacts"
- ],
- "Conversation.AudioRateOptionsTooltip": [
-  "Long press for more speed options."
  ],
  "Conversation.AudioRateTooltip15X": [
   "Audio will play at 1.5X speed."
@@ -2529,15 +2490,6 @@
  ],
  "Conversation.ForwardOptions.Text": [
   "What would you like to do with %1$@ from %2$@?"
- ],
- "Conversation.ForwardTooltip.Chat.Many": [
-  "Messages forwarded to **%@**."
- ],
- "Conversation.ForwardTooltip.ManyChats.Many": [
-  "Messages sent to **%@** and %@ other chats."
- ],
- "Conversation.ForwardTooltip.TwoChats.Many": [
-  "Messages forwarded to **%@** and **%@**."
  ],
  "Conversation.FreeTranscriptionCooldownTooltip": [
   "You have used your **%@** free transcription this week.",
@@ -2764,12 +2716,6 @@
  "Conversation.Theme.GiftTransfer.Text": [
   "This gift is already your theme in the chat with **%@**. Remove it there and use it here instead?"
  ],
- "Conversation.Theme.PreviewDarkShort": [
-  "Tap to view this theme in night mode."
- ],
- "Conversation.Theme.PreviewLightShort": [
-  "Tap to view this theme in day mode."
- ],
  "Conversation.Theme.SwitchToLight": [
   "Switch to light appearance"
  ],
@@ -2832,9 +2778,6 @@
  ],
  "Conversation.UpdateTelegram": [
   "UPDATE TELEGRAM"
- ],
- "Conversation.VideoTimeLinkCopied": [
-  "Link with start time at %@ copied to clipboard."
  ],
  "Conversation.ViewPollStats": [
   "View Statistics"
@@ -3162,9 +3105,6 @@
  ],
  "FolderLinkScreen.AlertTextUnavailablePublicChannel": [
   "You don't have the admin rights to share invite links to this channel."
- ],
- "FolderLinkScreen.SaveUnknownError": [
-  "An error occurred while updating the link"
  ],
  "FolderLinkScreen.TitleDescriptionDeselectedV2": [
   "Anyone with this link can add {folder} folder and the chats selected below."
@@ -6278,15 +6218,6 @@
   "Show More (%@)",
   "Show More (%@)"
  ],
- "PowerSaving.AlertEnabledAction": [
-  "Disable"
- ],
- "PowerSaving.AlertEnabledText": [
-  "%@% battery remaining."
- ],
- "PowerSaving.AlertEnabledTitle": [
-  "Power Saving Mode Enabled"
- ],
  "Premium.Annual": [
   "Annual"
  ],
@@ -6468,9 +6399,6 @@
  "Premium.MaxPinsText": [
   "You can't pin more than **%1$@** chats to the top. Unpin some that are currently pinned – or subscribe to **Telegram Premium** to double the limit to **%2$@** chats."
  ],
- "Premium.MaxSavedGifsFinalText": [
-  "An older GIF was replaced with this one."
- ],
  "Premium.MaxSavedPinsFinalText": [
   "Sorry, you can't pin more than **%@** chats to the top. Unpin some that are currently pinned."
  ],
@@ -6576,9 +6504,6 @@
  ],
  "Premium.VoiceToText.Proceed": [
   "About Telegram Premium"
- ],
- "Premium.VoiceToTextStandaloneInfo": [
-  "Subscribe to **Telegram Premium** to be able to convert voice and video messages to text."
  ],
  "Premium.Week.SignUp": [
   "Sign up for %@"
@@ -7207,9 +7132,6 @@
   " "
  ],
  "SettingsSearch.Synonyms.Premium.AnimatedEmoji": [
-  " "
- ],
- "SettingsSearch.Synonyms.Premium.AppIcon": [
   " "
  ],
  "SettingsSearch.Synonyms.Premium.Avatar": [

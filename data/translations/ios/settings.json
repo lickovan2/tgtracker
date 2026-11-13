@@ -2420,6 +2420,15 @@
  "PhoneNumberHelp.Help": [
   "You can change your Telegram number here. Your account and all your cloud data — messages, media, contacts, etc. will be moved to the new number."
  ],
+ "PowerSaving.AlertEnabledAction": [
+  "Disable"
+ ],
+ "PowerSaving.AlertEnabledText": [
+  "%@% battery remaining."
+ ],
+ "PowerSaving.AlertEnabledTitle": [
+  "Power Saving Mode Enabled"
+ ],
  "PowerSaving.AllDescriptionAlways": [
   "Always disable all resource-intensive processes, regardless of the battery charge level."
  ],

@@ -274,6 +274,18 @@
  "ChatList.FrozenAccount.Title": [
   "Your account is frozen"
  ],
+ "ChatList.GeneralHidden": [
+  "General topic hidden"
+ ],
+ "ChatList.GeneralHiddenInfo": [
+  "Pull down to see the general topic."
+ ],
+ "ChatList.GeneralUnhidden": [
+  "General topic unhidden"
+ ],
+ "ChatList.GeneralUnhiddenInfo": [
+  "Swipe left on the general topic to hide it."
+ ],
  "ChatList.HideAction": [
   "Hide"
  ],
@@ -399,6 +411,9 @@
  ],
  "ChatList.SessionReview.PanelReject": [
   "No, it's not me!"
+ ],
+ "ChatList.TabIconFoldersTooltipEmptyFolders": [
+  "Hold to organize your chats with folders."
  ],
  "ChatList.TabIconFoldersTooltipNonEmptyFolders": [
   "Hold on 'Chats' to edit folders and switch between views."
@@ -540,6 +555,12 @@
  ],
  "ChatListFolderSettings.RecommendedFoldersSection": [
   "RECOMMENDED FOLDERS"
+ ],
+ "ChatListFolderSettings.SubscribeToMoveAll": [
+  "Subscribe to **Telegram Premium** to move the \"All Chats\" folder."
+ ],
+ "ChatListFolderSettings.SubscribeToMoveAllAction": [
+  "More"
  ],
  "ChatListFolderSettings.Title": [
   "Folders"
