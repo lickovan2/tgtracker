@@ -242,9 +242,6 @@
  "Attachment.DiscardPasteboardAlertText": [
   "Discard pasted items?"
  ],
- "Attachment.DiscardTodoAlertText": [
-  "Discard checklist items?"
- ],
  "Attachment.EnableSpoiler": [
   "Hide With Spoiler"
  ],
@@ -256,9 +253,6 @@
  ],
  "Attachment.PublicMusic": [
   "PUBLIC CHATS"
- ],
- "AuthCode.Alert": [
-  "Your login code is %@. Enter it in the Telegram app where you are trying to log in.Do not give this code to anyone."
  ],
  "AuthConfirmation.DescriptionApp": [
   "This app will receive your **name**,**username** and **profile photo**."
@@ -446,9 +440,6 @@
  "Bot.AddToChat.Add.MemberAlertAdd": [
   "Add as Member"
  ],
- "Bot.AddToChat.Add.MemberAlertTextChannel": [
-  "Are you sure you want to add the bot as a subscriber in **%@**?"
- ],
  "Bot.AddToChat.Add.MemberAlertTextGroup": [
   "Are you sure you want to add the bot as a member in **%@**?"
  ],
@@ -557,12 +548,6 @@
  "Business.Links.SimpleLinkInfoUsername": [
   "You can also use a simple link for a chat with you — [t.me/%@](username)."
  ],
- "BusinessHoursSetup.ErrorIntersectingDays.ResetAction": [
-  "Reset"
- ],
- "BusinessHoursSetup.ErrorIntersectingDays.Text": [
-  "Your business hours overlap. Do you want to reset them?"
- ],
  "BusinessLocationSetup.ErrorAddressEmpty.ResetAction": [
   "Delete"
  ],
@@ -638,9 +623,6 @@
  "Calendar.ShortWednesday": [
   "W"
  ],
- "Call.AlertMoveToConference": [
-  "End current call and start a group call?"
- ],
  "Call.Audio": [
   "audio"
  ],
@@ -675,9 +657,6 @@
  "Call.End": [
   "end"
  ],
- "Call.ExternalCallInProgressMessage": [
-  "Please finish the current call first."
- ],
  "Call.Flip": [
   "flip"
  ],
@@ -696,9 +675,6 @@
  ],
  "Call.IncomingVoiceCall": [
   "Incoming Voice Call"
- ],
- "Call.LiveStreamInProgressConferenceMessage": [
-  "Leave live stream in %1$@ and start a group call?"
  ],
  "Call.MicrophoneOff": [
   "%@'s microphone is off"
@@ -741,9 +717,6 @@
  ],
  "Call.Video": [
   "video"
- ],
- "Call.VoiceChatInProgressConferenceMessage": [
-  "Leave video chat in %1$@ and start a group call?"
  ],
  "Call.VoiceOver.Minimize": [
   "Minimize Call"
@@ -1401,9 +1374,6 @@
  ],
  "Chat.EnableSharingOffer.Accept": [
   "Accept"
- ],
- "Chat.EnableSharingOffer.AcceptConfirmation.Title": [
-  "Enable Sharing"
  ],
  "Chat.EnableSharingOffer.Reject": [
   "Reject"
@@ -2360,15 +2330,6 @@
  "Common.ActionNotAllowedError": [
   "Sorry, you are not allowed to do this."
  ],
- "Community.Add.Confirm.TextBot": [
-  "If this bot is approved by a community admin, community members will be able to see and use it."
- ],
- "Community.Add.Confirm.TextChannel": [
-  "If this channel is approved by a community admin, its subscribers will be able to join or request to join other chats in the community."
- ],
- "Community.Add.Confirm.TextGroup": [
-  "If this group is approved by a community admin, its members will be able to join or request to join other chats in the community."
- ],
  "Community.AdminActions.WarningChatCount": [
   "%@ chat",
   "%@ chats"
@@ -2757,9 +2718,6 @@
  ],
  "Conversation.ShareMyPhoneNumber.StatusSuccess": [
   "%@ can now see your phone number."
- ],
- "Conversation.ShareMyPhoneNumberConfirmation": [
-  "Do you want to share your phone number %1$@ with %2$@?"
  ],
  "Conversation.StopVoiceMessageDescription": [
   "Are you sure you want to pause recording?"
@@ -3548,21 +3506,9 @@
  "Gift.AuctionTransfer.Title": [
   "Change Recipient"
  ],
- "Gift.Buy.ErrorPriceChanged.Text": [
-  "The price has increased from **%1$@** to **%2$@**. Buy the gift anyway?"
- ],
  "Gift.Buy.ErrorPriceChanged.Text.Stars": [
   "%@ Star",
   "%@ Stars"
- ],
- "Gift.Buy.ErrorPriceChanged.Title": [
-  "Warning"
- ],
- "Gift.Buy.ErrorTooEarly.Title": [
-  "Try Later"
- ],
- "Gift.Buy.ErrorUnknown": [
-  "An error occurred. Please try again."
  ],
  "Gift.Convert.Success.ChannelText": [
   "%1$@ to channel's balance."
@@ -3571,23 +3517,11 @@
   "**%@ Star** was sent",
   "**%@ Stars** were sent"
  ],
- "Gift.Craft.Error.NotAvailable": [
-  "One of the gifts is not available for crafting."
- ],
  "Gift.Craft.Select.NoGiftsFromCollection": [
   "You don't have other giftsfrom this collection"
  ],
  "Gift.Craft.Select.SaleGifts": [
   "Suitable Gifts On Sale"
- ],
- "Gift.Craft.Unavailable.Text": [
-  "You will be able to craft this gift on %@."
- ],
- "Gift.Craft.UnavailableBlockchain.Text": [
-  "This gift can't be used as the first one in crafting because it has been recorded on the blockchain."
- ],
- "Gift.Craft.UnavailableBlockchain.Title": [
-  "Crafting Unavailable"
  ],
  "Gift.Delete.Success": [
   "Gift Deleted"
@@ -3794,18 +3728,6 @@
  "Gift.RemoveDetails.Success": [
   "Removed %@'s description!"
  ],
- "Gift.Resale.Unavailable.Text": [
-  "You will be able to resell this gift on %@."
- ],
- "Gift.Resale.Unavailable.Title": [
-  "Try Later"
- ],
- "Gift.Send.ErrorUnknown": [
-  "An error occurred. Please try again."
- ],
- "Gift.Send.GiftsDisallowed": [
-  "%@ doesn't accept gifts."
- ],
  "Gift.Send.Limited.Success.Text.None": [
   "You've reached your limit on this gift."
  ],
@@ -3833,17 +3755,11 @@
  "Gift.Transfer.Confirmation.TransferFree": [
   "Transfer"
  ],
- "Gift.Transfer.Unavailable.Title": [
-  "Try Later"
- ],
  "Gift.Transfer.UpdateRequired.Text": [
   "The Telegram version that enables gift transfers to the blockchain is currently under review by the App Store. Please wait a few days."
  ],
  "Gift.Transfer.UpdateRequired.Title": [
   "Update Required"
- ],
- "Gift.UnavailableAction.MoveToProfileText": [
-  "Move this gift from your wallet to your profile to unlock this action."
  ],
  "Gift.Unique.OriginalInfoWithText": [
   "Gifted to %1$@ on %2$@ with comment \"%3$@\"."
@@ -4411,9 +4327,6 @@
  ],
  "LeaveGroup.LegacyGroupText": [
   "If you leave, **%1$@** will immediately become the owner of **%2$@**."
- ],
- "LiveStream.AnonymousDisabledAlertText": [
-  "Sorry, you can't join live streams as an anonymous admin."
  ],
  "LiveStream.ChatFullAlertText": [
   "Sorry, this live stream has too many participants at the moment."
@@ -5066,9 +4979,6 @@
  "Monetization.TransactionsTitle": [
   "TRANSACTION HISTORY"
  ],
- "Monetization.Withdraw.AmountTooSmallError": [
-  "You cannot withdraw less than 10 Grams."
- ],
  "Monetization.Withdraw.ComeBackLater": [
   "Please come back later."
  ],
@@ -5132,9 +5042,6 @@
  ],
  "Navigation.AllChats": [
   "All Chats"
- ],
- "NewCall.ParticipantLimitAlert": [
-  "A call can have up to %@ participants."
  ],
  "News.Display.Compact": [
   "Compact"
@@ -6954,9 +6861,6 @@
  "REACT_THEME": [
   "%1$@|reacted %2$@ to your theme change"
  ],
- "REACT_TODO_APPEND": [
-  "%1$@|reacted %2$@ to your task update"
- ],
  "REACT_TODO_DONE": [
   "%1$@|reacted %2$@ to your task update"
  ],
@@ -7729,9 +7633,6 @@
  "Stars.Transfer.Terms_URL": [
   "https://telegram.org/tos/stars"
  ],
- "Stars.Transfer.Unavailable": [
-  "Sorry, purchasing Stars is not available in your country."
- ],
  "Stars.Transfer.UnlockBotInfo": [
   "Do you want to unlock %1$@ from **%2$@** for **%3$@**?"
  ],
@@ -8474,9 +8375,6 @@
  "TwoStepAuth.ConfirmationText": [
   "Please check your email and click on the validation link to complete Two-Step Verification setup. Be sure to check the spam folder as well."
  ],
- "TwoStepAuth.Disable": [
-  "Disable"
- ],
  "TwoStepAuth.Email": [
   "Email"
  ],
@@ -9160,9 +9058,6 @@
  "Wallet.Authorization.VerifyWalletErrorTitle": [
   "Couldn't Verify Wallet"
  ],
- "Wallet.Backup.CancelDisablingTitle": [
-  "Keep Backup?"
- ],
  "Wallet.Backup.DisableErrorText": [
   "Couldn't confirm that backup was disabled. Check the network connection and try again."
  ],
@@ -9184,9 +9079,6 @@
  "Wallet.Backup.DisableVerificationExpiredText": [
   "The wallet verification request expired. Tap Disable to try again."
  ],
- "Wallet.Backup.DisableWalletChangedText": [
-  "The wallet's secret phrase changed while you were updating backup settings. Restore access using the current secret phrase and try again."
- ],
  "Wallet.Backup.DisableWithNewPhraseText": [
   "Your distributed encrypted backup will be deleted. Your wallet will switch to the new secret phrase. This secret phrase will be the only way to recover this wallet."
  ],
@@ -9205,9 +9097,6 @@
  "Wallet.Backup.EnterCurrentPhrase": [
   "Enter Current Secret Phrase"
  ],
- "Wallet.Backup.InsufficientFundsTitle": [
-  "Not Enough Grams"
- ],
  "Wallet.Backup.InvalidPhraseText": [
   "Check all words of your current secret phrase and try again."
  ],
@@ -9216,9 +9105,6 @@
  ],
  "Wallet.Backup.RequiredBalanceText": [
   "You need %@ to update your secret phrase. Add funds and try again."
- ],
- "Wallet.Backup.TopUp": [
-  "Top Up"
  ],
  "Wallet.Backup.UpdateErrorTitle": [
   "Couldn’t Update Backup"
@@ -9235,14 +9121,8 @@
  "Wallet.Backup.VerifyPhraseErrorTitle": [
   "Couldn't Verify Secret Phrase"
  ],
- "Wallet.Backup.WalletChangedTitle": [
-  "Wallet Changed"
- ],
  "Wallet.Collectible.Header.RemoveColor": [
   "remove color"
- ],
- "Wallet.Connect.Error": [
-  "Unable to connect this app. Please try again."
  ],
  "Wallet.EarningsBalance": [
   "You have %@ in Gram Earnings"
@@ -9261,12 +9141,6 @@
  ],
  "Wallet.Import.ErrorTitle": [
   "Couldn’t Import Wallet"
- ],
- "Wallet.Import.InvalidCurrentPhraseLength": [
-  "Your current secret phrase must contain exactly 12 or 24 words. The pasted phrase contains %@."
- ],
- "Wallet.Import.InvalidPhraseLength": [
-  "A secret phrase must contain exactly 12 or 24 words. The pasted phrase contains %@."
  ],
  "Wallet.Import.PhraseChangedText": [
   "The key for this wallet has changed. Enter the current 24-word secret phrase."
@@ -9325,9 +9199,6 @@
  "Wallet.Receive.PurchaseUnavailableTitle": [
   "Purchase Unavailable"
  ],
- "Wallet.Recipient.Error": [
-  "An unknown error occurred. Please try again later."
- ],
  "Wallet.Recipient.InvalidAddress": [
   "The pasted text is not a valid TON address."
  ],
@@ -9372,9 +9243,6 @@
  ],
  "Wallet.Sign.Data": [
   "Data"
- ],
- "Wallet.Sign.Error": [
-  "Unable to complete this request. Please try again."
  ],
  "Wallet.Sign.Fee": [
   "Fee: %@."
@@ -9596,24 +9464,6 @@
  "Wallet.Transfer.CollectibleSuccess": [
   "The collectible has been sent to **%@**."
  ],
- "Wallet.Transfer.CollectibleTopUpText": [
-  "You need at least 0.1 Grams in your wallet to transfer an NFT. Top up your balance and try again."
- ],
- "Wallet.Transfer.CommentEncryptionErrorText": [
-  "The comment could not be encrypted for this wallet. Check the network connection and try again."
- ],
- "Wallet.Transfer.CommentEncryptionErrorTitle": [
-  "Couldn't Encrypt Comment"
- ],
- "Wallet.Transfer.CommentEncryptionUnavailable": [
-  "This wallet can't receive encrypted comments now."
- ],
- "Wallet.Transfer.CommentTooLongText": [
-  "The encrypted comment is too long. Shorten it and try again."
- ],
- "Wallet.Transfer.CommentTooLongTitle": [
-  "Comment Too Long"
- ],
  "Wallet.Transfer.DetailsHeader": [
   "DETAILS"
  ],
@@ -9622,18 +9472,6 @@
  ],
  "Wallet.Transfer.HeaderMultiple": [
   "TRANSFERS"
- ],
- "Wallet.Transfer.KeyChangedText": [
-  "The wallet key has changed. Refresh the wallet and restore access with its current Secret Phrase if needed, then confirm the transfer again."
- ],
- "Wallet.Transfer.KeyChangedTitle": [
-  "Wallet Key Changed"
- ],
- "Wallet.Transfer.PendingText": [
-  "The transfer may have been sent. Don’t send it again while its status is being checked."
- ],
- "Wallet.Transfer.PendingTitle": [
-  "Transfer Pending"
  ],
  "Wallet.Transfer.PreviewHeader": [
   "PREVIEW"
@@ -9647,9 +9485,6 @@
  ],
  "Wallet.Transfer.ToAddress": [
   "to %@"
- ],
- "Wallet.Transfer.TopUpText": [
-  "There are not enough Grams in your wallet for this payment and its network fee. Top up your balance and try again."
  ],
  "Wallet.Transfer.Unavailable": [
   "Unavailable"

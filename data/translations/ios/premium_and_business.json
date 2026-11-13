@@ -17,6 +17,45 @@
  "BoostGift.StartConfirmation.Title": [
   "Start Giveaway"
  ],
+ "Business.Links.AlertUnsavedAction": [
+  "Reset"
+ ],
+ "Business.Links.AlertUnsavedText": [
+  "You have unsaved changes. Reset?"
+ ],
+ "Business.Links.ErrorTooManyLinks": [
+  "Sorry, you can't create more links."
+ ],
+ "BusinessHoursSetup.ErrorIntersectingDays.ResetAction": [
+  "Reset"
+ ],
+ "BusinessHoursSetup.ErrorIntersectingDays.Text": [
+  "Your business hours overlap. Do you want to reset them?"
+ ],
+ "BusinessHoursSetup.ErrorIntersectingHours.ResetAction": [
+  "Reset"
+ ],
+ "BusinessHoursSetup.ErrorIntersectingHours.Text": [
+  "Your business hours overlap. Do you want to reset them?"
+ ],
+ "BusinessLink.AlertTextLimitText": [
+  "The message text limit is 4096 characters"
+ ],
+ "BusinessLocationSetup.AlertUnsavedChanges.ResetAction": [
+  "Undo"
+ ],
+ "BusinessLocationSetup.AlertUnsavedChanges.Text": [
+  "You have unsaved changes."
+ ],
+ "BusinessLocationSetup.ErrorAddressEmpty.Text": [
+  "Address can't be empty."
+ ],
+ "BusinessMessageSetup.ErrorNoRecipients.ResetAction": [
+  "Reset"
+ ],
+ "BusinessMessageSetup.ErrorNoRecipients.Text": [
+  "No recipients selected. Reset?"
+ ],
  "ChannelBoost.Error.BoostTooOftenText": [
   "You can only change the channel you boost once a day. You will be able to boost in **%@**."
  ],
@@ -42,6 +81,18 @@
   "Sorry, you can't pin more than **%@** topic to the top. Unpin some that are currently pinned.",
   "Sorry, you can't pin more than **%@** topics to the top. Unpin some that are currently pinned."
  ],
+ "ChatbotSetup.ErrorBotNotBusinessCapable": [
+  "This bot doesn't support Secretary Mode yet."
+ ],
+ "ChatbotSetup.SetupNotCompleted.Leave": [
+  "Leave"
+ ],
+ "ChatbotSetup.SetupNotCompleted.Text": [
+  "You haven’t added a bot to manage your account. Leave anyway?"
+ ],
+ "ChatbotSetup.SetupNotCompleted.Title": [
+  "No Bot Added"
+ ],
  "Common.Cancel": [
   "Cancel"
  ],
@@ -65,5 +116,26 @@
  ],
  "Premium.Purchase.OnlyOneSubscriptionAllowed": [
   "You have already purchased Telegram Premium for another account. You can only have one Telegram Premium subscription on one Apple ID."
+ ],
+ "QuickReply.ChatRemoveAwayMessage.Text": [
+  "You didn't create an away message. Exiting will remove it."
+ ],
+ "QuickReply.ChatRemoveAwayMessage.Title": [
+  "Remove Away Message"
+ ],
+ "QuickReply.ChatRemoveGeneric.DeleteAction": [
+  "Delete"
+ ],
+ "QuickReply.ChatRemoveGeneric.Text": [
+  "You didn't create a quick reply message. Exiting will remove the shortcut."
+ ],
+ "QuickReply.ChatRemoveGeneric.Title": [
+  "Remove Shortcut"
+ ],
+ "QuickReply.ChatRemoveGreetingMessage.Text": [
+  "You didn't create a greeting message. Exiting will remove it."
+ ],
+ "QuickReply.ChatRemoveGreetingMessage.Title": [
+  "Remove Greeting Message"
  ]
 }

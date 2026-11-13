@@ -1,0 +1,110 @@
+{
+ "Common.Cancel": [
+  "Cancel"
+ ],
+ "Common.OK": [
+  "OK"
+ ],
+ "Wallet.Backup.CancelDisabling": [
+  "Cancel Disabling"
+ ],
+ "Wallet.Backup.CancelDisablingText": [
+  "Your secret phrase will not be updated."
+ ],
+ "Wallet.Backup.CancelDisablingTitle": [
+  "Keep Backup?"
+ ],
+ "Wallet.Backup.DisableWalletChangedText": [
+  "The wallet's secret phrase changed while you were updating backup settings. Restore access using the current secret phrase and try again."
+ ],
+ "Wallet.Backup.InsufficientFundsTitle": [
+  "Not Enough Grams"
+ ],
+ "Wallet.Backup.TopUp": [
+  "Top Up"
+ ],
+ "Wallet.Backup.WalletChangedTitle": [
+  "Wallet Changed"
+ ],
+ "Wallet.Connect.Error": [
+  "Unable to connect this app. Please try again."
+ ],
+ "Wallet.Continue": [
+  "Continue"
+ ],
+ "Wallet.GotIt": [
+  "Got it"
+ ],
+ "Wallet.Import.InvalidCurrentPhraseLength": [
+  "Your current secret phrase must contain exactly 12 or 24 words. The pasted phrase contains %@."
+ ],
+ "Wallet.Import.InvalidPhraseLength": [
+  "A secret phrase must contain exactly 12 or 24 words. The pasted phrase contains %@."
+ ],
+ "Wallet.Import.InvalidPhraseText": [
+  "Check the word order.Only a secret phrase created in Telegram can be imported here."
+ ],
+ "Wallet.Import.InvalidPhraseTitle": [
+  "Invalid Secret Phrase"
+ ],
+ "Wallet.Recipient.Error": [
+  "An unknown error occurred. Please try again later."
+ ],
+ "Wallet.Settings.DeleteAnyway": [
+  "Delete Anyway"
+ ],
+ "Wallet.Settings.DeleteWalletText": [
+  "You'll lose access to your funds unless you've saved your secret phrase."
+ ],
+ "Wallet.Settings.DeleteWalletTitle": [
+  "Delete Wallet?"
+ ],
+ "Wallet.Sign.Error": [
+  "Unable to complete this request. Please try again."
+ ],
+ "Wallet.Transaction.NetworkFeesText": [
+  "Every transfer costs a small network fee%1$@.Telegram covers your first %2$@ each day."
+ ],
+ "Wallet.Transaction.NetworkFeesTitle": [
+  "Network fees"
+ ],
+ "Wallet.Transfer.CollectibleTopUpText": [
+  "You need at least 0.1 Grams in your wallet to transfer an NFT. Top up your balance and try again."
+ ],
+ "Wallet.Transfer.CommentEncryptionErrorText": [
+  "The comment could not be encrypted for this wallet. Check the network connection and try again."
+ ],
+ "Wallet.Transfer.CommentEncryptionErrorTitle": [
+  "Couldn't Encrypt Comment"
+ ],
+ "Wallet.Transfer.CommentEncryptionUnavailable": [
+  "This wallet can't receive encrypted comments now."
+ ],
+ "Wallet.Transfer.CommentTooLongText": [
+  "The encrypted comment is too long. Shorten it and try again."
+ ],
+ "Wallet.Transfer.CommentTooLongTitle": [
+  "Comment Too Long"
+ ],
+ "Wallet.Transfer.ErrorText": [
+  "The transfer could not be prepared or sent. Check the address, balance and network connection, then try again."
+ ],
+ "Wallet.Transfer.ErrorTitle": [
+  "Transfer Failed"
+ ],
+ "Wallet.Transfer.KeyChangedText": [
+  "The wallet key has changed. Refresh the wallet and restore access with its current Secret Phrase if needed, then confirm the transfer again."
+ ],
+ "Wallet.Transfer.KeyChangedTitle": [
+  "Wallet Key Changed"
+ ],
+ "Wallet.Transfer.PendingText": [
+  "The transfer may have been sent. Don’t send it again while its status is being checked."
+ ],
+ "Wallet.Transfer.PendingTitle": [
+  "Transfer Pending"
+ ],
+ "Wallet.Transfer.TopUpText": [
+  "There are not enough Grams in your wallet for this payment and its network fee. Top up your balance and try again."
+ ]
+}

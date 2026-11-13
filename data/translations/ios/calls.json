@@ -1,0 +1,77 @@
+{
+ "Call.AlertMoveToConference": [
+  "End current call and start a group call?"
+ ],
+ "Call.CallInProgressLiveStreamMessage": [
+  "End call with %1$@ and start a live stream in %2$@?"
+ ],
+ "Call.CallInProgressMessage": [
+  "End call with %1$@ and start a new one with %2$@?"
+ ],
+ "Call.CallInProgressTitle": [
+  "Call in Progress"
+ ],
+ "Call.CallInProgressVoiceChatMessage": [
+  "End call with %1$@ and start a video chat in %2$@?"
+ ],
+ "Call.ExternalCallInProgressMessage": [
+  "Please finish the current call first."
+ ],
+ "Call.LiveStreamInProgressCallMessage": [
+  "Leave live stream in %1$@ and start a call with %2$@?"
+ ],
+ "Call.LiveStreamInProgressConferenceMessage": [
+  "Leave live stream in %1$@ and start a group call?"
+ ],
+ "Call.LiveStreamInProgressMessage": [
+  "Leave live stream in %1$@ and start a new one in %2$@?"
+ ],
+ "Call.LiveStreamInProgressTitle": [
+  "Live Stream in Progress"
+ ],
+ "Call.RecordingDisabledMessage": [
+  "Please end your call before recording a voice message."
+ ],
+ "Call.VoiceChatInProgressCallMessage": [
+  "Leave video chat in %1$@ and call %2$@?"
+ ],
+ "Call.VoiceChatInProgressConferenceMessage": [
+  "Leave video chat in %1$@ and start a group call?"
+ ],
+ "Call.VoiceChatInProgressMessage": [
+  "Leave the video chat in %1$@ and start a new one in %2$@?"
+ ],
+ "Call.VoiceChatInProgressTitle": [
+  "Video Chat in Progress"
+ ],
+ "Calls.NotNow": [
+  "Not Now"
+ ],
+ "Common.Cancel": [
+  "Cancel"
+ ],
+ "Common.OK": [
+  "OK"
+ ],
+ "LiveStream.AnonymousDisabledAlertText": [
+  "Sorry, you can't join live streams as an anonymous admin."
+ ],
+ "LiveStream.CreateNewVoiceChatText": [
+  "Live stream ended. Start a new one?"
+ ],
+ "Passport.NotLoggedInMessage": [
+  "Please log in to your account to use Telegram Passport"
+ ],
+ "VoiceChat.AnonymousDisabledAlertText": [
+  "Sorry, you can't join video chats as an anonymous admin."
+ ],
+ "VoiceChat.CreateNewVoiceChatSchedule": [
+  "Schedule"
+ ],
+ "VoiceChat.CreateNewVoiceChatStartNow": [
+  "Start Now"
+ ],
+ "VoiceChat.CreateNewVoiceChatText": [
+  "Video chat ended. Start a new one?"
+ ]
+}

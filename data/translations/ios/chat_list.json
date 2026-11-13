@@ -623,6 +623,9 @@
  "Conversation.Unpin": [
   "Unpin"
  ],
+ "Conversation.UnpinMessageAlert": [
+  "Would you like to unpin this message?"
+ ],
  "DialogList.AdLabel": [
   "Proxy Sponsor"
  ],

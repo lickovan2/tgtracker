@@ -1,5 +1,129 @@
 {
- "Monetization.AdRevenueTitle": [
-  "AD REWARDS"
+ "AffiliateSetup.AlertTerminate.Action": [
+  "End Anyway"
+ ],
+ "AffiliateSetup.AlertTerminate.Text": [
+  "If you end your affiliate program:• Any referral links already shared will be disabled in 24 hours.• All participating affiliates will be notified.• You will not be able to start a new affiliate program for 24 hours."
+ ],
+ "AffiliateSetup.AlertTerminate.Title": [
+  "Warning"
+ ],
+ "Common.Cancel": [
+  "Cancel"
+ ],
+ "Common.Delete": [
+  "Delete"
+ ],
+ "Common.OK": [
+  "OK"
+ ],
+ "Gift.Buy.Confirm.BuyFor": [
+  "Buy for %@ Star",
+  "Buy for %@ Stars"
+ ],
+ "Gift.Buy.Confirm.BuyForTon": [
+  "Buy for %@ Grams"
+ ],
+ "Gift.Buy.ErrorPriceChanged.Text": [
+  "The price has increased from **%1$@** to **%2$@**. Buy the gift anyway?"
+ ],
+ "Gift.Buy.ErrorPriceChanged.Title": [
+  "Warning"
+ ],
+ "Gift.Buy.ErrorTooEarly.Text": [
+  "You will be able to buy this gift on %@."
+ ],
+ "Gift.Buy.ErrorTooEarly.Title": [
+  "Try Later"
+ ],
+ "Gift.Buy.ErrorUnknown": [
+  "An error occurred. Please try again."
+ ],
+ "Gift.Convert.Convert": [
+  "Convert"
+ ],
+ "Gift.Convert.Period.Text": [
+  "Do you want to convert this gift from **%1$@** to **%2$@**?Conversion is available for the next %3$@.This will permanently destroy the gift."
+ ],
+ "Gift.Convert.Period.Unavailable.Text": [
+  "Sorry, you can't convert this gift.Stars can only be claimed within %@ after receiving a gift."
+ ],
+ "Gift.Convert.Title": [
+  "Convert Gift to Stars"
+ ],
+ "Gift.Craft.Error.NotAvailable": [
+  "One of the gifts is not available for crafting."
+ ],
+ "Gift.Craft.Unavailable.Text": [
+  "You will be able to craft this gift on %@."
+ ],
+ "Gift.Craft.Unavailable.Title": [
+  "Try Later"
+ ],
+ "Gift.Craft.UnavailableBlockchain.Text": [
+  "This gift can't be used as the first one in crafting because it has been recorded on the blockchain."
+ ],
+ "Gift.Craft.UnavailableBlockchain.Title": [
+  "Crafting Unavailable"
+ ],
+ "Gift.Delete.Text": [
+  "Do you want to delete this gift?It will disappear from your profile and can't be restored."
+ ],
+ "Gift.Delete.Title": [
+  "Delete Gift"
+ ],
+ "Gift.Resale.Unavailable.Text": [
+  "You will be able to resell this gift on %@."
+ ],
+ "Gift.Resale.Unavailable.Title": [
+  "Try Later"
+ ],
+ "Gift.Send.ErrorUnknown": [
+  "An error occurred. Please try again."
+ ],
+ "Gift.Send.GiftsDisallowed": [
+  "%@ doesn't accept gifts."
+ ],
+ "Gift.Send.Premium.Confirmation.Confirm": [
+  "Confirm"
+ ],
+ "Gift.Send.Premium.Confirmation.Text": [
+  "Are you sure you want to gift **Telegram Premium** to **%1$@** for **%2$@**?"
+ ],
+ "Gift.Send.Premium.Confirmation.Title": [
+  "Send a Gift"
+ ],
+ "Gift.Transfer.Unavailable.Text": [
+  "You will be able to transfer this gift on %@."
+ ],
+ "Gift.Transfer.Unavailable.Title": [
+  "Try Later"
+ ],
+ "Gift.UnavailableAction.MoveToProfileText": [
+  "Move this gift from your wallet to your profile to unlock this action."
+ ],
+ "Gift.UnavailableAction.OpenFragment": [
+  "Open Fragment"
+ ],
+ "Gift.UnavailableAction.Text": [
+  "Move this gift from your wallet to your profile to unlock this action."
+ ],
+ "Gift.UnavailableAction.Title": [
+  "Action Locked"
+ ],
+ "Gift.View.Resale.Unlist.Text": [
+  "It will no longer be for sale."
+ ],
+ "Gift.View.Resale.Unlist.Title": [
+  "Unlist This Item?"
+ ],
+ "Gift.View.Resale.Unlist.Unlist": [
+  "Unlist"
+ ],
+ "Monetization.Withdraw.AmountTooSmallError": [
+  "You cannot withdraw less than 10 Grams."
+ ],
+ "Stars.Transfer.Unavailable": [
+  "Sorry, purchasing Stars is not available in your country."
  ]
 }

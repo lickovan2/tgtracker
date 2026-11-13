@@ -2610,6 +2610,15 @@
  "Community.Add.Confirm.Add": [
   "Add"
  ],
+ "Community.Add.Confirm.TextBot": [
+  "If this bot is approved by a community admin, community members will be able to see and use it."
+ ],
+ "Community.Add.Confirm.TextChannel": [
+  "If this channel is approved by a community admin, its subscribers will be able to join or request to join other chats in the community."
+ ],
+ "Community.Add.Confirm.TextGroup": [
+  "If this group is approved by a community admin, its members will be able to join or request to join other chats in the community."
+ ],
  "Community.Add.Title": [
   "Add Chat"
  ],
@@ -3557,6 +3566,9 @@
  ],
  "Conversation.ShareMyPhoneNumber": [
   "Share My Phone Number"
+ ],
+ "Conversation.ShareMyPhoneNumberConfirmation": [
+  "Do you want to share your phone number %1$@ with %2$@?"
  ],
  "Conversation.StatusBotSubscribers": [
   "1 monthly user",
@@ -5545,6 +5557,9 @@
  ],
  "Login.InvalidPhoneEmailSubject": [
   "Invalid phone number: %@"
+ ],
+ "Login.InvalidPhoneError": [
+  "Invalid phone number, please try again."
  ],
  "Login.PRIVACY_URL": [
   "https://telegram.org/privacy"

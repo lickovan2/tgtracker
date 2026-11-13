@@ -4428,6 +4428,9 @@
  "TwoStepAuth.ConfirmationTitle": [
   "Two-Step Verification"
  ],
+ "TwoStepAuth.Disable": [
+  "Disable"
+ ],
  "TwoStepAuth.DisableSuccess": [
   "Two-Step verificationis disabled."
  ],

@@ -15878,7 +15878,7 @@
   "Remove Key from This Device"
  ],
  "Wallet.Keys.ForgetText": [
-  "You will need your recovery phrase or the encrypted backup to send from this device again."
+  "You will need your secret phrase or the encrypted backup to send from this device again."
  ],
  "Wallet.Keys.ForgetUpdatePendingText": [
   "The secret phrase of this wallet is being updated. The key can be removed from this device once the update is finished."

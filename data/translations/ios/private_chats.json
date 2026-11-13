@@ -241,6 +241,9 @@
  "Chat.EnableSharingOffer.AcceptConfirmation.Text": [
   "Are you sure you want to enable sharing?"
  ],
+ "Chat.EnableSharingOffer.AcceptConfirmation.Title": [
+  "Enable Sharing"
+ ],
  "Chat.ForwardToSavedMessageTagSelectionTitle": [
   "You can add a tag to the message"
  ],
@@ -549,6 +552,9 @@
  ],
  "Common.NotNow": [
   "Not Now"
+ ],
+ "Common.OK": [
+  "OK"
  ],
  "Common.Select": [
   "Select"

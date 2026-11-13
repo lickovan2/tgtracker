@@ -605,6 +605,9 @@
  "Time.PreciseDate_m7": [
   "Jul %1$@, %2$@ at %3$@"
  ],
+ "TwoStepAuth.Disable": [
+  "Disable"
+ ],
  "TwoStepAuth.PasswordRemovePassportConfirmation": [
   "Are you sure you want to disable your password?All data saved in your Telegram Passport will be lost."
  ]
