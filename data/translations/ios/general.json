@@ -9152,9 +9152,6 @@
  "Time.PreciseDate_m1": [
   "Jan %1$@, %2$@ at %3$@"
  ],
- "Time.PreciseDate_m10": [
-  "Oct %1$@, %2$@ at %3$@"
- ],
  "Time.PreciseDate_m11": [
   "Nov %1$@, %2$@ at %3$@"
  ],
@@ -9178,9 +9175,6 @@
  ],
  "Time.PreciseDate_m8": [
   "Aug %1$@, %2$@ at %3$@"
- ],
- "Time.PreciseDate_m9": [
-  "Sep %1$@, %2$@ at %3$@"
  ],
  "TimeZoneSelection.Title": [
   "Time Zone"

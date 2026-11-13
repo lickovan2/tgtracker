@@ -49,6 +49,12 @@
  "BoostGift.FromAllCountries": [
   "from all countries"
  ],
+ "BoostGift.GiveawayCreated.Text": [
+  "Check your channel's [Statistics]() to see how this giveaway boosted your channel."
+ ],
+ "BoostGift.GiveawayCreated.Title": [
+  "Giveaway Created"
+ ],
  "BoostGift.Group.AllMembers": [
   "All members"
  ],
@@ -59,11 +65,20 @@
   "%@ member",
   "%@ members"
  ],
+ "BoostGift.Group.GiveawayCreated.Text": [
+  "Check your group's [Boosts]() to see how this giveaway boosted your group."
+ ],
  "BoostGift.Group.LimitMembersInfo": [
   "Choose if you want to limit the giveaway only to those who joined the group after the giveaway started."
  ],
  "BoostGift.Group.OnlyNewMembers": [
   "Only new members"
+ ],
+ "BoostGift.Group.PremiumGifted.Text": [
+  "Check your groups's [Boosts]() to see how gifts boosted your group."
+ ],
+ "BoostGift.Group.StarsGiveawayCreated.Text": [
+  "Check your group's [Boosts]() to see how this giveaway boosted your group."
  ],
  "BoostGift.GroupBoosts": [
   "this group will receive %@ boost",
@@ -89,6 +104,12 @@
  ],
  "BoostGift.OnlyNewSubscribers": [
   "Only new subscribers"
+ ],
+ "BoostGift.PremiumGifted.Text": [
+  "Check your channel's [Statistics]() to see how the gifts boosted your channel."
+ ],
+ "BoostGift.PremiumGifted.Title": [
+  "Premium Subscriptions Gifted"
  ],
  "BoostGift.PremiumInfo": [
   "You can review the list of features and more details about Telegram Premium [here]()."
@@ -120,6 +141,12 @@
  ],
  "BoostGift.ReduceQuantity.Title": [
   "Reduce Quantity"
+ ],
+ "BoostGift.StarsGiveawayCreated.Text": [
+  "Check your channel's [Statistics]() to see how this giveaway boosted your channel."
+ ],
+ "BoostGift.StarsGiveawayCreated.Title": [
+  "Stars Giveaway Created"
  ],
  "BoostGift.StartConfirmation.Start": [
   "Start"
@@ -810,6 +837,9 @@
  "Permissions.ContactsAllowInSettings.v0": [
   "Allow in Settings"
  ],
+ "Premium.AiTools": [
+  "AI Tools"
+ ],
  "Premium.Annual": [
   "Annual"
  ],
@@ -885,11 +915,29 @@
  "Premium.Monthly": [
   "Monthly"
  ],
+ "Premium.New": [
+  "NEW"
+ ],
  "Premium.PricePerMonth": [
   "%@/month"
  ],
+ "Premium.Purchase.ErrorCantMakePayments": [
+  "In-app purchases are not allowed on this device."
+ ],
+ "Premium.Purchase.ErrorNetwork": [
+  "Please check your Internet connection and try again."
+ ],
+ "Premium.Purchase.ErrorNotAllowed": [
+  "The device is not allowed to make the payment."
+ ],
+ "Premium.Purchase.ErrorUnknown": [
+  "An error occurred. Please try again."
+ ],
  "Premium.Purchase.OnlyOneSubscriptionAllowed": [
   "You have already purchased Telegram Premium for another account. You can only have one Telegram Premium subscription on one Apple ID."
+ ],
+ "Premium.Purchase.Pending": [
+  "Purchase Pending"
  ],
  "Premium.Purchase.PendingInfo": [
   "Your purchase is awaiting confirmation. You can leave this screen. Premium will activate when the purchase is confirmed."
@@ -923,6 +971,9 @@
  ],
  "Premium.UpgradeForBiannual": [
   "Upgrade for %@ / 2 years"
+ ],
+ "Premium.WhatsIncluded": [
+  "WHAT'S INCLUDED"
  ],
  "PremiumNeeded.Subscribe": [
   "Subscribe"
@@ -970,6 +1021,14 @@
  "ReassignBoost.OtherChannels": [
   "%@ other chat",
   "%@ other chats"
+ ],
+ "ReassignBoost.OtherGroups": [
+  "%@ other group",
+  "%@ other groups"
+ ],
+ "ReassignBoost.OtherGroupsAndChannels": [
+  "%@ other group and channel",
+  "%@ other groups and channels"
  ],
  "ReassignBoost.Success": [
   "%1$@ from %2$@."

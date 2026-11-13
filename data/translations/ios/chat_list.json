@@ -41,6 +41,9 @@
  "BlockedUsers.LeavePrefix": [
   "Leave "
  ],
+ "Cache.ByPeerHeader": [
+  "CHATS"
+ ],
  "Calls.TabTitle": [
   "Calls"
  ],
@@ -1201,6 +1204,15 @@
  ],
  "Presence.online": [
   "online"
+ ],
+ "PrivacySettings.LastSeenContacts": [
+  "My Contacts"
+ ],
+ "PrivacySettings.SearchUsersPlaceholder": [
+  "Search users and groups"
+ ],
+ "PrivacySettings.SearchUsersTitle": [
+  "Add Users"
  ],
  "RequestPeer.SelectionConfirmationSend": [
   "Send"

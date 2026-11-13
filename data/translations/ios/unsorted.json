@@ -149,12 +149,6 @@
  "Appearance.TextSize.FontSerif": [
   "New York"
  ],
- "Appearance.TextSize.Title": [
-  "Text Size"
- ],
- "Appearance.TextSize.UseSystem": [
-  "Use System Text Size"
- ],
  "Appearance.TextSizeSetting": [
   "Text Size"
  ],
@@ -245,9 +239,6 @@
  "AutoNightTheme.NotAvailable": [
   "N/A"
  ],
- "AutoNightTheme.System": [
-  "System"
- ],
  "Autoremove.SetCustomTime": [
   "Set Custom Time..."
  ],
@@ -300,15 +291,6 @@
  "BoostGift.GiftPremium": [
   "Gift Premium"
  ],
- "BoostGift.GiveawayCreated.Text": [
-  "Check your channel's [Statistics]() to see how this giveaway boosted your channel."
- ],
- "BoostGift.GiveawayCreated.Title": [
-  "Giveaway Created"
- ],
- "BoostGift.Group.GiveawayCreated.Text": [
-  "Check your group's [Boosts]() to see how this giveaway boosted your group."
- ],
  "BoostGift.Group.Members.Joined": [
   "joined %@"
  ],
@@ -330,12 +312,6 @@
  "BoostGift.Group.Members.Title": [
   "Gift Premium"
  ],
- "BoostGift.Group.PremiumGifted.Text": [
-  "Check your groups's [Boosts]() to see how gifts boosted your group."
- ],
- "BoostGift.Group.StarsGiveawayCreated.Text": [
-  "Check your group's [Boosts]() to see how this giveaway boosted your group."
- ],
  "BoostGift.GroupsOrChannels.MaximumReached": [
   "You can select maximum %@ groups and channels."
  ],
@@ -349,12 +325,6 @@
  "BoostGift.Stars.Boosts": [
   "%@ BOOST",
   "%@ BOOSTS"
- ],
- "BoostGift.StarsGiveawayCreated.Text": [
-  "Check your channel's [Statistics]() to see how this giveaway boosted your channel."
- ],
- "BoostGift.StarsGiveawayCreated.Title": [
-  "Stars Giveaway Created"
  ],
  "Bot.AcceptTermsInfo": [
   "I accept the [Terms of Service]() of **%1$@**"
@@ -920,9 +890,6 @@
  ],
  "Channel.Info.BoostLevelPlusBadge": [
   "Level %@+"
- ],
- "Channel.Info.Description": [
-  "description"
  ],
  "Channel.IslandMenuHint": [
   "Opens a menu."
@@ -2123,9 +2090,6 @@
  "CreateGroup.PeersTitleDelimeter": [
   ", "
  ],
- "CreatePoll.EnableQuizInfo": [
-  "Mark one option as the right answer"
- ],
  "CreateTodo.AddTitle": [
   "Add a Task"
  ],
@@ -2552,59 +2516,12 @@
  "GifSearch.SearchGifPlaceholder": [
   "Search GIFs"
  ],
- "Gift.Acquired.GiftRound": [
-  "%1$@ in round %2$@"
- ],
  "Gift.Auction.AveragePriceInfo": [
   "**%1$@** is the average sale price for %2$@ gifts."
- ],
- "Gift.Auction.End": [
-  "End"
- ],
- "Gift.Auction.Extension": [
-  "+ %1$@ for late bids in top %2$@"
- ],
- "Gift.Auction.Hours": [
-  "%@ hour",
-  "%@ hours"
- ],
- "Gift.Auction.HoursEach": [
-  "%@ hour each",
-  "%@ hours each"
- ],
- "Gift.Auction.Minutes": [
-  "%@ minute",
-  "%@ minutes"
- ],
- "Gift.Auction.MinutesEach": [
-  "%@ minute each",
-  "%@ minutes each"
- ],
- "Gift.Auction.Quantity": [
-  "Quantity"
- ],
- "Gift.Auction.Seconds": [
-  "%@ second",
-  "%@ seconds"
  ],
  "Gift.Auction.Stars": [
   "%@ Star",
   "%@ Stars"
- ],
- "Gift.Auction.Start": [
-  "Start"
- ],
- "Gift.Auction.TimeRound": [
-  "Round %@"
- ],
- "Gift.Auction.TimeRounds": [
-  "Rounds %@"
- ],
- "Gift.Auction.TotalRounds": [
-  "Rounds"
- ],
- "Gift.Auction.UpcomingAuction": [
-  "Upcoming Auction"
  ],
  "Gift.AuctionBid.CustomBid.Placeholder": [
   "Amount"
@@ -2612,10 +2529,6 @@
  "Gift.Buy.ErrorPriceChanged.Text.Stars": [
   "%@ Star",
   "%@ Stars"
- ],
- "Gift.Convert.Success.ChannelText.Stars": [
-  "**%@ Star** was sent",
-  "**%@ Stars** were sent"
  ],
  "Gift.Craft.Select.SaleGifts": [
   "Suitable Gifts On Sale"
@@ -2803,9 +2716,6 @@
  "Gift.Send.SendShort": [
   "Send"
  ],
- "Gift.Send.Upgrade.ForcedInfo": [
-  "%1$@ accepts only unique gifts. [Learn More >]()"
- ],
  "Gift.Store.Filter.FixedSale": [
   "On-Chain Sales"
  ],
@@ -2829,12 +2739,6 @@
  ],
  "Gift.Unique.OriginalInfoWithText": [
   "Gifted to %1$@ on %2$@ with comment \"%3$@\"."
- ],
- "Gift.Upgrade.Gift.Sent.GiftMore": [
-  "Gift More"
- ],
- "Gift.Upgrade.Gift.Sent.Text": [
-  "Upgrade sent!"
  ],
  "Gift.Upgrade.GiftDescription": [
   "Let %@ turn this gift into a unique collectible."
@@ -2876,12 +2780,6 @@
  "Gift.View.BotDescription": [
   "You can add this gift to your profile or hide it."
  ],
- "Gift.View.FreeUpgradeOtherDescription": [
-  "%1$@ can turn this gift into a unique collectible."
- ],
- "Gift.View.HiddenInfoChannelNew": [
-  "This gift is hidden. [Show on Profile >]()"
- ],
  "Gift.View.HiddenInfoShow.Channel": [
   "This item is hidden from visitors to your channel. [Show >]()"
  ],
@@ -2893,18 +2791,6 @@
  ],
  "Gift.View.OpenChatTheme": [
   "This gift is the chat's theme. [Change Theme >]()"
- ],
- "Gift.View.OtherNoConvertDescription": [
-  "We will notify %1$@ when this gift can be upgraded."
- ],
- "Gift.View.Resale.SuccessYou.Text": [
-  "%@ is now yours."
- ],
- "Gift.View.Resale.SuccessYou.Title": [
-  "Gift Acquired"
- ],
- "Gift.View.SellingGiftInfo": [
-  "%@ is selling this gift and you can buy it."
  ],
  "Gift.View.UpgradeFreeDescription": [
   "Upgrade this gift for free to turn it into a unique collectible."
@@ -2987,12 +2873,6 @@
  ],
  "Group.ErrorSupergroupConversionNotPossible": [
   "Sorry, you are a member of too many groups and channels. Please leave some before creating a new one."
- ],
- "Group.Management.AntiSpam": [
-  "Aggressive Anti-Spam"
- ],
- "Group.Management.AntiSpamInfo": [
-  "Telegram will filter more spam but may occasionally affect ordinary messages. You can report false positives in Recent Actions."
  ],
  "Group.Management.AntiSpamMagic": [
   "magic"
@@ -3113,9 +2993,6 @@
   "%@ Member",
   "%@ Members"
  ],
- "GroupMembers.MembersHiddenOn": [
-  "Switch this off to show the list of members in this group."
- ],
  "GroupPermission.AddMembersNotAvailable": [
   "You don't have permission to add members."
  ],
@@ -3179,12 +3056,6 @@
  ],
  "Intents.ErrorLockedTitle": [
   "Locked"
- ],
- "IntentsSettings.SuggestedAndSpotlightChatsInfo": [
-  "Suggestions will appear in the Share Sheet and Spotlight search results. Archived chats will not be suggested."
- ],
- "IntentsSettings.Title": [
-  "Share Sheet"
  ],
  "Invitation.Group.AlreadyJoinedMultiple": [
   "%@ already joined this group."
@@ -4127,17 +3998,8 @@
  "Notification.StarGift.Subtitle.NoConvert": [
   "Display this gift on your profile and turn it into a collectible."
  ],
- "Notification.StarGift.Subtitle.OtherNoConvert": [
-  "Display this gift on your profile and turn it into a collectible."
- ],
  "Notification.StarGift.Subtitle.Refunded": [
   "This gift cannot be converted to Stars because the payment related to it was refunded."
- ],
- "Notification.StarGift.Subtitle.Upgrade.Other": [
-  "%1$@ can turn this gift into a unique collectible."
- ],
- "Notification.StarGift.TitleTo": [
-  "Gift for %@"
  ],
  "Notification.StarGiftOffer.Expiration.Delimiter": [
   " "
@@ -4201,9 +4063,6 @@
  ],
  "Notification.StarsGift.SentUpgradeYouUnknown": [
   "You sent an upgrade worth %1$@ for the gift to %2$@"
- ],
- "Notification.StarsGift.Subtitle.Self": [
-  "You can add this gift to your profile or upgrade it to a unique collectible to keep or transfer."
  ],
  "Notification.StarsGift.TransferToChannel": [
   "%1$@ transferred a unique collectible to %2$@"
@@ -4336,9 +4195,6 @@
  ],
  "Notifications.SystemTones": [
   "SYSTEM TONES"
- ],
- "Notifications.TopChats": [
-  "Top 5"
  ],
  "OAUTH_REQUEST": [
   "Login request for %1$@, location: %2$@"
@@ -4805,18 +4661,6 @@
  "Passport.PasswordCompleteSetup": [
   "Complete Password Setup"
  ],
- "PeerInfo.AllowedReactions.GroupOptionNoInfo": [
-  "Members of the group can't add any reactions to messages."
- ],
- "PeerInfo.AllowedReactions.OptionAllReactions": [
-  "All Reactions"
- ],
- "PeerInfo.AllowedReactions.OptionNoReactions": [
-  "No Reactions"
- ],
- "PeerInfo.AllowedReactions.OptionSomeReactions": [
-  "Some Reactions"
- ],
  "PeerInfo.AutoremoveMessages": [
   "Auto-Delete Messages"
  ],
@@ -4827,21 +4671,9 @@
   "%@ Star",
   "%@ Stars"
  ],
- "PeerInfo.BotBalance.Stars": [
-  "Stars"
- ],
- "PeerInfo.BotBalance.Title": [
-  "BALANCE"
- ],
- "PeerInfo.BotBalance.Ton": [
-  "Grams"
- ],
  "PeerInfo.BusinessHours.StatusOpensInDays": [
   "Opens in 1 day",
   "Opens in %d days"
- ],
- "PeerInfo.ButtonDiscuss": [
-  "Discuss"
  ],
  "PeerInfo.ButtonVideoCall": [
   "Video"
@@ -4872,14 +4704,8 @@
   "**%d** member added to the group.",
   "**%d** members added to the group."
  ],
- "PeerInfo.PaneGifs": [
-  "GIFs"
- ],
  "PeerInfo.PaneVoice": [
   "Voice Messages"
- ],
- "PeerInfo.PaneVoiceAndVideo": [
-  "Voice"
  ],
  "PeerInfo.Permissions.Biometry": [
   "Biometrics"
@@ -4898,9 +4724,6 @@
  ],
  "PeerInfo.TopicIconInfoText": [
   "This topic's icon is from **%@**."
- ],
- "PeerInfo.Topics.Sidebar": [
-  "Sidebar"
  ],
  "PeerInfo.UnofficialSecurityRisk": [
   "%@ uses an unofficial Telegram client – messages to this user may be less secure."
@@ -5156,23 +4979,8 @@
  "Premium.PricePerYear": [
   "%@/year"
  ],
- "Premium.Purchase.ErrorCantMakePayments": [
-  "In-app purchases are not allowed on this device."
- ],
- "Premium.Purchase.ErrorNetwork": [
-  "Please check your Internet connection and try again."
- ],
- "Premium.Purchase.ErrorNotAllowed": [
-  "The device is not allowed to make the payment."
- ],
  "Premium.Purchase.ErrorTryLater": [
   "An error occurred. Please try again."
- ],
- "Premium.Purchase.ErrorUnknown": [
-  "An error occurred. Please try again."
- ],
- "Premium.Purchase.Pending": [
-  "Purchase Pending"
  ],
  "Premium.Restore.ErrorUnknown": [
   "An error occurred. Please try again."
@@ -5212,9 +5020,6 @@
  "Privacy.Bio.NeverShareWith.Title": [
   "Never Share With"
  ],
- "Privacy.Exceptions": [
-  "EXCEPTIONS"
- ],
  "Privacy.GroupsAndChannels.CustomShareHelp": [
   "These users will or will not be able to add you to groups and channels regardless of the settings above."
  ],
@@ -5248,14 +5053,8 @@
  "PrivacySettings.LastSeenCloseFriends": [
   "Close Friends"
  ],
- "PrivacySettings.LastSeenCloseFriendsPlus": [
-  "Close Friends (+%@)"
- ],
  "PrivacySettings.LoginEmailSetupInfo": [
   "Setup your email address for Telegram login codes."
- ],
- "PrivacySettings.Passcode": [
-  "Passcode Lock"
  ],
  "PrivacySettings.SecurityTitle": [
   "SECURITY"
@@ -5265,9 +5064,6 @@
  ],
  "PrivacySettings.ValueCloseFriendsAndPremiumPlus": [
   "Close Friends, Premium +%@"
- ],
- "PrivacySettings.WebSessions": [
-  "Active Websites"
  ],
  "Profile.AdditionalUsernames": [
   "also %@"
@@ -5280,9 +5076,6 @@
  ],
  "ProfileColorSetup.NoProfileGiftsPlaceholder": [
   "You don't have any gifts you can use as styles for your profile."
- ],
- "ProfileColorSetup.ProfileColorPreviewInfo": [
-  "You can change the color of your name and customize replies to you. [Change >]()"
  ],
  "ProfileLevelInfo.FutureRatingTitle": [
   "Future Rating"
@@ -5427,14 +5220,6 @@
  ],
  "RankInfo.ChangeInfo": [
   "Only admins can assign member tags in this group."
- ],
- "ReassignBoost.OtherGroups": [
-  "%@ other group",
-  "%@ other groups"
- ],
- "ReassignBoost.OtherGroupsAndChannels": [
-  "%@ other group and channel",
-  "%@ other groups and channels"
  ],
  "RecentSessions.ConnectedBot.TerminateCheckbox": [
   "Also terminate %@"
@@ -5685,15 +5470,6 @@
  "Settings.ApplyProxyAlertEnable": [
   "Enable"
  ],
- "Settings.AutoDeleteInfo": [
-  "Automatically delete messages for everyone after a period of time in all new chats you start."
- ],
- "Settings.AutoDeleteTitle": [
-  "Auto-Delete Messages"
- ],
- "Settings.AutosaveMediaOff": [
-  "Off"
- ],
  "Settings.CancelUpload": [
   "Cancel Upload"
  ],
@@ -5834,12 +5610,6 @@
  "SponsoredMessageInfoScreen.MarkdownText": [
   "Unlike other apps, Telegram never uses your private data to target ads. [Learn more in the Privacy Policy](https://telegram.org/privacy#5-6-no-ads-based-on-user-data)You are seeing this message only because someone chose this public one-to-many channel as a space to promote their messages. This means that no user data is mined or analyzed to display ads, and every user viewing a channel on Telegram sees the same sponsored message.Unlike other apps, Telegram doesn't track whether you tapped on a sponsored message and doesn't profile you based on your activity. We also prevent external links in sponsored messages to ensure that third parties can't spy on our users. We believe that everyone has the right to privacy, and online platforms should respect that.Telegram offers free and unlimited service to hundreds of millions of users, which involves significant server and traffic costs. In order to remain independent and stay true to its values, Telegram developed a paid tool to promote messages with user privacy in mind. We welcome responsible advertisers at:[url]Ads should no longer be synonymous with abuse of user privacy. Let us redefine how a tech company should operate — together."
  ],
- "Stars.AccountRevenue.Proceeds.Info": [
-  "Stars from your total balance can be withdrawn as rewards 21 days after they are earned."
- ],
- "Stars.AccountRevenue.Withdraw.Info": [
-  "You can collect rewards for Stars using Fragment. You cannot withdraw less than 1000 stars. [Learn More >]()"
- ],
  "Stars.BotRevenue.Transactions.Title": [
   "Transaction History"
  ],
@@ -5871,33 +5641,6 @@
  "Stars.Intro.Transaction.TelegramBotApi.Title": [
   "Paid Broadcast"
  ],
- "Stars.Purchase.GenericPurchasePurpose": [
-  "Buy Stars to unlock content and services on Telegram."
- ],
- "Stars.Purchase.PurchasePurpose.subs": [
-  "Buy Stars to keep all your subscriptions."
- ],
- "Stars.Purchase.RemoveOriginalDetailsStarGiftInfo": [
-  "Buy Stars to remove the description from your gift."
- ],
- "Stars.Purchase.StarGiftOfferInfo": [
-  "Buy Stars to make offers to buy gifts."
- ],
- "Stars.Purchase.StarsReactionsNeededInfo": [
-  "Buy Stars to send paid reactions to **%@** and other channels."
- ],
- "Stars.Purchase.SubscriptionInfo": [
-  "Buy Stars to subscribe to **%@**."
- ],
- "Stars.Purchase.SubscriptionRenewInfo": [
-  "Buy Stars to keep your subscription to **%@**."
- ],
- "Stars.Purchase.TransferStarGiftInfo": [
-  "Buy Stars to transfer ownership of your unique collectible."
- ],
- "Stars.Purchase.UpgradeStarGiftInfo": [
-  "Buy Stars to upgrade your gift into a unique collectible."
- ],
  "Stars.SendStars.AmountInfo": [
   "Send %@ or more to highlight your profile in the TOP 3 supporters of this message."
  ],
@@ -5922,23 +5665,8 @@
  "Stars.Transaction.AppleTopUp.Title": [
   "Stars Top-Up"
  ],
- "Stars.Transaction.FragmentTopUp.Subtitle": [
-  "Fragment"
- ],
- "Stars.Transaction.FragmentTopUp.Title": [
-  "Stars Top-Up"
- ],
- "Stars.Transaction.FragmentTopUpTon.Title": [
-  "Gram Top-Up"
- ],
  "Stars.Transaction.FragmentUnknown_URL": [
   "https://fragment.com/stars"
- ],
- "Stars.Transaction.FragmentWithdrawalTon.Title": [
-  "Gram Withdrawal"
- ],
- "Stars.Transaction.GiftAuctionBid": [
-  "Gift Auction Bid"
  ],
  "Stars.Transaction.GiftFrom": [
   "Gift From"
@@ -5984,13 +5712,6 @@
  "Stars.Transaction.TelegramAds.Title": [
   "Stars Withdrawal"
  ],
- "Stars.Transaction.TelegramBotApi.Messages": [
-  "%@ Message",
-  "%@ Messages"
- ],
- "Stars.Transaction.TelegramBotApi.Title": [
-  "Paid Broadcast"
- ],
  "Stars.Transaction.TelegramPremium": [
   "Premium for %@ Month",
   "Premium for %@ Months"
@@ -6007,9 +5728,6 @@
  ],
  "Stars.Transfer.UnlockBotInfo": [
   "Do you want to unlock %1$@ from **%2$@** for **%3$@**?"
- ],
- "Stars.Withdraw.Withdraw.ErrorMinimum": [
-  "You cannot withdraw less than [%@]()."
  ],
  "StarsTransaction.Commission": [
   "Commission"
@@ -6039,20 +5757,8 @@
  "Stats.ReactionsByEmotionTitle": [
   "REACTIONS BY EMOTION"
  ],
- "Stats.ReactionsPerPost": [
-  "Reactions Per Post"
- ],
- "Stats.ReactionsPerStory": [
-  "Reactions Per Story"
- ],
  "Stats.RevenueInTon": [
   "Revenue in Grams"
- ],
- "Stats.SharesPerStory": [
-  "Shares Per Story"
- ],
- "Stats.ViewsPerStory": [
-  "Views Per Story"
  ],
  "StickerPack.AddEmojiCount": [
   "Add 1 Emoji",
@@ -6264,9 +5970,6 @@
  "TextProcessing.TitleTranslate": [
   "Translation"
  ],
- "Theme.Colors.Accent": [
-  "Accent"
- ],
  "Theme.Colors.Background": [
   "Background"
  ],
@@ -6276,17 +5979,11 @@
  "Theme.Colors.ColorWallpaperWarningProceed": [
   "Proceed"
  ],
- "Theme.Colors.Messages": [
-  "Messages"
- ],
  "Theme.Colors.Proceed": [
   "Proceed"
  ],
  "Theme.Context.Apply": [
   "Apply"
- ],
- "Time.AtDate": [
-  "%@"
  ],
  "Time.AtPreciseDate": [
   "%@ at %@"
@@ -6673,9 +6370,6 @@
  ],
  "Username.TooManyPublicUsernamesError": [
   "Sorry, you have reserved too many public usernames."
- ],
- "Username.Username": [
-  "USERNAME"
  ],
  "Username.UsernamePurchaseAvailable": [
   "**This username is already taken.** However, it is currently available for purchase. [Learn more...]()"

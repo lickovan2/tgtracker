@@ -159,9 +159,31 @@
  "Contacts.Title": [
   "Contacts"
  ],
+ "Conversation.ForwardTooltip.TwoChats.One": [
+  "Message forwarded to **%@** and **%@**."
+ ],
  "Currency.Grams": [
   "%@ Gram",
   "%@ Grams"
+ ],
+ "Gift.Acquired.AcceptedBid": [
+  "Accepted Bid"
+ ],
+ "Gift.Acquired.Date": [
+  "Date"
+ ],
+ "Gift.Acquired.GiftRound": [
+  "%1$@ in round %2$@"
+ ],
+ "Gift.Acquired.Recipient": [
+  "Recipient"
+ ],
+ "Gift.Acquired.Title": [
+  "%@ Item Bought",
+  "%@ Items Bought"
+ ],
+ "Gift.Acquired.Top": [
+  "TOP %@"
  ],
  "Gift.ActiveAuctions.Outbid": [
   "Your bid of **%@** was outbid"
@@ -185,6 +207,9 @@
  "Gift.Attribute.Epic": [
   "epic"
  ],
+ "Gift.Attribute.Rare": [
+  "rare"
+ ],
  "Gift.Auction.Availability": [
   "Availability"
  ],
@@ -203,14 +228,77 @@
  "Gift.Auction.Context.Share": [
   "Share"
  ],
+ "Gift.Auction.CurrentRound": [
+  "Current Round"
+ ],
  "Gift.Auction.EarlyBid": [
   "Place an Early Bid"
+ ],
+ "Gift.Auction.End": [
+  "End"
  ],
  "Gift.Auction.Ended": [
   "Auction Ended"
  ],
+ "Gift.Auction.Ends": [
+  "Ends"
+ ],
+ "Gift.Auction.Extension": [
+  "+ %1$@ for late bids in top %2$@"
+ ],
  "Gift.Auction.FirstSale": [
   "First Sale"
+ ],
+ "Gift.Auction.GiftAuction": [
+  "Gift Auction"
+ ],
+ "Gift.Auction.Hours": [
+  "%@ hour",
+  "%@ hours"
+ ],
+ "Gift.Auction.HoursEach": [
+  "%@ hour each",
+  "%@ hours each"
+ ],
+ "Gift.Auction.Info.Carryover.Text": [
+  "If your bid leaves the top %@, it will automatically join the next round."
+ ],
+ "Gift.Auction.Info.Carryover.Title": [
+  "Bid Carryover"
+ ],
+ "Gift.Auction.Info.Description": [
+  "Join the battle for exclusive gifts."
+ ],
+ "Gift.Auction.Info.Missed.Text": [
+  "If your bid doesn't win after the final round, your Stars will be fully refunded."
+ ],
+ "Gift.Auction.Info.Missed.Title": [
+  "Missed Bidders"
+ ],
+ "Gift.Auction.Info.Title": [
+  "Auction"
+ ],
+ "Gift.Auction.Info.TopBidders.Bidders": [
+  "%@ bidder",
+  "%@ bidders"
+ ],
+ "Gift.Auction.Info.TopBidders.Gifts": [
+  "%@ gift",
+  "%@ gifts"
+ ],
+ "Gift.Auction.Info.TopBidders.Rounds": [
+  "%@ round",
+  "%@ rounds"
+ ],
+ "Gift.Auction.Info.TopBidders.Text": [
+  "%@ are dropped in %@ to the top %@ by bid amount."
+ ],
+ "Gift.Auction.Info.TopBidders.Title": [
+  "Top %@ Bidder",
+  "Top %@ Bidders"
+ ],
+ "Gift.Auction.Info.Understood": [
+  "Understood"
  ],
  "Gift.Auction.ItemsBought": [
   "item bought",
@@ -225,6 +313,30 @@
  "Gift.Auction.LearnMore": [
   "Learn more about Telegram Gifts >"
  ],
+ "Gift.Auction.Minutes": [
+  "%@ minute",
+  "%@ minutes"
+ ],
+ "Gift.Auction.MinutesEach": [
+  "%@ minute each",
+  "%@ minutes each"
+ ],
+ "Gift.Auction.Quantity": [
+  "Quantity"
+ ],
+ "Gift.Auction.Round": [
+  "%@ of %@"
+ ],
+ "Gift.Auction.Seconds": [
+  "%@ second",
+  "%@ seconds"
+ ],
+ "Gift.Auction.Start": [
+  "Start"
+ ],
+ "Gift.Auction.Started": [
+  "Started"
+ ],
  "Gift.Auction.StartsInHours": [
   "auction starts in {h}:{m}:{s}"
  ],
@@ -236,6 +348,18 @@
  ],
  "Gift.Auction.TimeLeftMinutes": [
   "{m}:{s} left"
+ ],
+ "Gift.Auction.TimeRound": [
+  "Round %@"
+ ],
+ "Gift.Auction.TimeRounds": [
+  "Rounds %@"
+ ],
+ "Gift.Auction.TotalRounds": [
+  "Rounds"
+ ],
+ "Gift.Auction.UpcomingAuction": [
+  "Upcoming Auction"
  ],
  "Gift.Auction.Variants": [
   "%@ Variant",
@@ -407,6 +531,10 @@
  "Gift.Convert.Success.ChannelText": [
   "%1$@ to channel's balance."
  ],
+ "Gift.Convert.Success.ChannelText.Stars": [
+  "**%@ Star** was sent",
+  "**%@ Stars** were sent"
+ ],
  "Gift.Convert.Success.Text": [
   "You received **%1$@** instead."
  ],
@@ -517,6 +645,30 @@
  ],
  "Gift.Delete.Title": [
   "Delete Gift"
+ ],
+ "Gift.Demo.Description": [
+  "Gifts are collectible items you can trade or showcase on your profile."
+ ],
+ "Gift.Demo.Title": [
+  "Telegram Gifts"
+ ],
+ "Gift.Demo.Tradable.Text": [
+  "Sell your gift on Telegram or on third-party NFT marketplaces."
+ ],
+ "Gift.Demo.Tradable.Title": [
+  "Tradable"
+ ],
+ "Gift.Demo.Understood": [
+  "Understood"
+ ],
+ "Gift.Demo.Unique.Text": [
+  "Upgrade your gifts to get a unique number, model, backdrop and symbol."
+ ],
+ "Gift.Demo.Unique.Title": [
+  "Unique"
+ ],
+ "Gift.Demo.Wearable.Title": [
+  "Wearable"
  ],
  "Gift.Displayed.ChannelText": [
   "The gift is now visible on the channel's profile."
@@ -659,6 +811,18 @@
  "Gift.Options.Gift.ViewAuction": [
   "View"
  ],
+ "Gift.Options.GiftChannel.Text": [
+  "Select a gift to show appreciation for **%@**."
+ ],
+ "Gift.Options.GiftChannel.Title": [
+  "Send a Gift"
+ ],
+ "Gift.Options.GiftSelf.Text": [
+  "Buy yourself a gift to add to your profile or reserve for later.Limited-edition gifts upgraded to collectibles can be gifted to others."
+ ],
+ "Gift.Options.GiftSelf.Title": [
+  "Buy a Gift"
+ ],
  "Gift.Options.Premium.Months": [
   "%@ month",
   "%@ months"
@@ -711,14 +875,32 @@
  "Gift.Sell.Confirm.Title": [
   "Confirm Sale"
  ],
+ "Gift.Send.AvailableForResale": [
+  "Available for Resale"
+ ],
+ "Gift.Send.Buy": [
+  "Buy a Gift for"
+ ],
  "Gift.Send.Customize.MessagePlaceholder": [
   "Enter Message (Optional)"
+ ],
+ "Gift.Send.ErrorDisallowed": [
+  "**%@** doesn't accept this kind of gifts."
+ ],
+ "Gift.Send.ErrorOutOfStock": [
+  "Sorry, this gift is sold out. Please choose another gift."
  ],
  "Gift.Send.ErrorUnknown": [
   "An error occurred. Please try again."
  ],
  "Gift.Send.GiftsDisallowed": [
   "%@ doesn't accept gifts."
+ ],
+ "Gift.Send.HideMyName": [
+  "Hide My Name"
+ ],
+ "Gift.Send.HideMyName.Info": [
+  "Hide my name and message from visitors to %1$@'s profile. %2$@ will still see your name and message."
  ],
  "Gift.Send.PayWithStars": [
   "Pay with %@"
@@ -746,6 +928,34 @@
   "%@ sold",
   "%@ sold"
  ],
+ "Gift.Send.Success": [
+  "You sent a gift to **%1$@** for **%2$@**."
+ ],
+ "Gift.Send.Success.Stars": [
+  "%@ Star",
+  "%@ Stars"
+ ],
+ "Gift.Send.Upgrade": [
+  "Make Unique for %@"
+ ],
+ "Gift.Send.Upgrade.ForcedInfo": [
+  "%1$@ accepts only unique gifts. [Learn More >]()"
+ ],
+ "Gift.Send.Upgrade.Info": [
+  "Enable this to let %1$@ turn your gift into a unique collectible. [Learn More >]()"
+ ],
+ "Gift.SendChannel.HideMyName.Info": [
+  "Hide my name and message from visitors to this channel. The channel admins will still see them."
+ ],
+ "Gift.SendChannel.Upgrade.Info": [
+  "Enable this to let the admins of %@ turn your gift into a unique collectible. [Learn More >]()"
+ ],
+ "Gift.SendSelf.HideMyName": [
+  "Hide My Name"
+ ],
+ "Gift.SendSelf.HideMyName.Info": [
+  "Hide my name and message from visitors to my profile."
+ ],
  "Gift.Setup.AuctionInfo": [
   "%@ are dropped to the top %@ by bid amount. [Learn more >]()"
  ],
@@ -756,6 +966,9 @@
  "Gift.Setup.AuctionInfo.Gifts": [
   "%@ gift",
   "%@ gifts"
+ ],
+ "Gift.Setup.PlaceBid": [
+  "Place a Bid"
  ],
  "Gift.Store.ClearFilters": [
   "Clear Filters"
@@ -915,6 +1128,12 @@
  "Gift.Upgrade.Confirm": [
   "Confirm"
  ],
+ "Gift.Upgrade.Gift.Sent.GiftMore": [
+  "Gift More"
+ ],
+ "Gift.Upgrade.Gift.Sent.Text": [
+  "Upgrade sent!"
+ ],
  "Gift.Upgrade.GiftTitle": [
   "Make Unique"
  ],
@@ -1032,6 +1251,9 @@
  "Gift.Variants.Models": [
   "Models"
  ],
+ "Gift.Variants.RandomTraits": [
+  "Random Traits"
+ ],
  "Gift.Variants.SelectedTraits": [
   "Selected Traits"
  ],
@@ -1040,6 +1262,12 @@
  ],
  "Gift.Variants.Symbols": [
   "Symbols"
+ ],
+ "Gift.View.Availability": [
+  "Availability"
+ ],
+ "Gift.View.Availability.NewOf": [
+  "%1$@ of %2$@ left"
  ],
  "Gift.View.BuyFor": [
   "Buy for"
@@ -1074,14 +1302,27 @@
  "Gift.View.Context.ViewInProfile": [
   "View in Profile"
  ],
+ "Gift.View.ConvertedDescription": [
+  "You converted this gift to %@. [More About Stars >]()"
+ ],
+ "Gift.View.ConvertedDescription.Stars": [
+  "%@ Star",
+  "%@ Stars"
+ ],
  "Gift.View.CopiedAddress": [
   "TON address copied to clipboard."
  ],
  "Gift.View.Date": [
   "Date"
  ],
+ "Gift.View.Display": [
+  "Add to My Profile"
+ ],
  "Gift.View.Display.Channel": [
   "Add to Profile"
+ ],
+ "Gift.View.DisplayedInfoChannelNew": [
+  "This gift is visible. [Hide from Profile >]()"
  ],
  "Gift.View.DisplayedInfoNew": [
   "This gift is visible. [Hide from Profile >]()"
@@ -1089,8 +1330,20 @@
  "Gift.View.EqualsTo": [
   "Equal to %@"
  ],
+ "Gift.View.FirstSale": [
+  "First Sale"
+ ],
+ "Gift.View.FreeUpgradeDescription": [
+  "Upgrade this gift for free to turn it into a unique collectible."
+ ],
+ "Gift.View.FreeUpgradeOtherDescription": [
+  "%1$@ can turn this gift into a unique collectible."
+ ],
  "Gift.View.From": [
   "From"
+ ],
+ "Gift.View.GiftUpgrade": [
+  "Gift an Upgrade"
  ],
  "Gift.View.Header.TakeOff": [
   "take off"
@@ -1101,15 +1354,36 @@
  "Gift.View.Header.Wear": [
   "wear"
  ],
+ "Gift.View.HiddenInfoChannelNew": [
+  "This gift is hidden. [Show on Profile >]()"
+ ],
  "Gift.View.HiddenInfoNew": [
   "This gift is hidden. [Show on Profile >]()"
+ ],
+ "Gift.View.HiddenName": [
+  "Hidden Name"
  ],
  "Gift.View.KeepOrConvertDescription": [
   "You can add this gift to your Profile or convert it to %@. [More About Stars >]()"
  ],
+ "Gift.View.KeepOrConvertDescription.Channel": [
+  "Your channel can add this gift to its profile or convert it to %@. [More About Stars >]()"
+ ],
  "Gift.View.KeepOrConvertDescription.Stars": [
   "%@ Star",
   "%@ Stars"
+ ],
+ "Gift.View.LastSale": [
+  "Last Sale"
+ ],
+ "Gift.View.NameAndMessageHidden": [
+  "Only you can see the sender's name and message."
+ ],
+ "Gift.View.NameHidden": [
+  "Only you can see the sender's name."
+ ],
+ "Gift.View.NoConvertDescription": [
+  "We will notify you when this gift can be upgraded."
  ],
  "Gift.View.OnSale": [
   "On sale for %@"
@@ -1120,6 +1394,9 @@
  "Gift.View.OtherDescription.Stars": [
   "%@ Star",
   "%@ Stars"
+ ],
+ "Gift.View.OtherNoConvertDescription": [
+  "We will notify %1$@ when this gift can be upgraded."
  ],
  "Gift.View.Outgoing.NameAndMessageHidden": [
   "Only %@ can see your name and message."
@@ -1142,6 +1419,18 @@
  "Gift.View.Resale.Relist.Success.Stars": [
   "%@ Star",
   "%@ Stars"
+ ],
+ "Gift.View.Resale.Success.Text": [
+  "%@ has been notified about your gift."
+ ],
+ "Gift.View.Resale.Success.Title": [
+  "Gift Sent"
+ ],
+ "Gift.View.Resale.SuccessYou.Text": [
+  "%@ is now yours."
+ ],
+ "Gift.View.Resale.SuccessYou.Title": [
+  "Gift Acquired"
  ],
  "Gift.View.Resale.Unlist.Success": [
   "%@ removed from sale."
@@ -1168,6 +1457,9 @@
  "Gift.View.Sell": [
   "sell"
  ],
+ "Gift.View.SellingGiftInfo": [
+  "%@ is selling this gift and you can buy it."
+ ],
  "Gift.View.Send": [
   "send a gift"
  ],
@@ -1186,8 +1478,23 @@
  "Gift.View.TookOff": [
   "You took off %@"
  ],
+ "Gift.View.TooltipPremiumWearing": [
+  "Subscribe to [Telegram Premium]() to wear collectibles."
+ ],
+ "Gift.View.UnavailableDescription": [
+  "This gift has sold out"
+ ],
+ "Gift.View.UnavailableTitle": [
+  "Unavailable"
+ ],
+ "Gift.View.UniqueHiddenInfo": [
+  "This gift is not visible on your profile."
+ ],
  "Gift.View.UniqueHiddenInfo.Channel": [
   "This gift is not visible on your channel's profile."
+ ],
+ "Gift.View.Unknown.Title": [
+  "Gift"
  ],
  "Gift.View.Unlist": [
   "unlist"
@@ -1195,8 +1502,44 @@
  "Gift.View.Upgrade": [
   "Upgrade"
  ],
+ "Gift.View.UpgradeForFree": [
+  "Upgrade for Free"
+ ],
+ "Gift.View.UpgradedDescription": [
+  "This gift was turned into a unique collectible."
+ ],
  "Gift.View.Value": [
   "Value"
+ ],
+ "Gift.View.ViewUpgraded": [
+  "View Upgraded Gift"
+ ],
+ "Gift.Wear.Badge.Text": [
+  "This gift will be displayed next to your name with a glittering icon."
+ ],
+ "Gift.Wear.Badge.Title": [
+  "Radiant Badge"
+ ],
+ "Gift.Wear.Design.Text": [
+  "Your profile will have the same backdrop and symbol as this gift."
+ ],
+ "Gift.Wear.Design.Title": [
+  "Unique Profile Design"
+ ],
+ "Gift.Wear.GetBenefits": [
+  "and get these benefits:"
+ ],
+ "Gift.Wear.Proof.Text": [
+  "Tapping the icon next to your name will show the gift's owner and attributes."
+ ],
+ "Gift.Wear.Proof.Title": [
+  "Proof of Ownership"
+ ],
+ "Gift.Wear.Start": [
+  "Start Wearing"
+ ],
+ "Gift.Wear.Wear": [
+  "Wear %@"
  ],
  "Gift.WearPreview.FreeUpgrade": [
   "FreeUpgrade"
@@ -1261,6 +1604,9 @@
  "Monetization.EarnStarsInfo.Title": [
   "Earn Stars"
  ],
+ "Monetization.Header": [
+  "Telegram shares 50% of the revenue from ads displayed in your channel as rewards. [Learn More >]()"
+ ],
  "Monetization.ImpressionsTitle": [
   "AD IMPRESSIONS (BY HOURS)"
  ],
@@ -1308,8 +1654,56 @@
  "Notification.StarGift.Gift": [
   "gift"
  ],
+ "Notification.StarGift.OneOf": [
+  "1 of %@"
+ ],
+ "Notification.StarGift.Purchased.Title": [
+  "Purchased Gift"
+ ],
+ "Notification.StarGift.Subtitle.Channel": [
+  "Add this gift to your channel's profile or convert it to %@."
+ ],
+ "Notification.StarGift.Subtitle.Other": [
+  "%1$@ can add this gift to their profile or convert it to %2$@."
+ ],
+ "Notification.StarGift.Subtitle.Other.Stars": [
+  "%@ Star",
+  "%@ Stars"
+ ],
+ "Notification.StarGift.Subtitle.OtherNoConvert": [
+  "Display this gift on your profile and turn it into a collectible."
+ ],
+ "Notification.StarGift.Subtitle.Stars": [
+  "%@ Star",
+  "%@ Stars"
+ ],
+ "Notification.StarGift.Subtitle.Upgrade.Other": [
+  "%1$@ can turn this gift into a unique collectible."
+ ],
  "Notification.StarGift.Title": [
   "Gift from %@"
+ ],
+ "Notification.StarGift.TitleTo": [
+  "Gift for %@"
+ ],
+ "Notification.StarGift.Unpack": [
+  "Unpack"
+ ],
+ "Notification.StarGift.View": [
+  "View"
+ ],
+ "Notification.StarsGift.Self.Bought": [
+  "You bought a gift for %@"
+ ],
+ "Notification.StarsGift.SentYou": [
+  "You sent a gift for %@"
+ ],
+ "Notification.StarsGift.Stars": [
+  "%@ Star",
+  "%@ Stars"
+ ],
+ "Notification.StarsGift.Subtitle.Self": [
+  "You can add this gift to your profile or upgrade it to a unique collectible to keep or transfer."
  ],
  "OwnershipTransfer.SecurityCheck": [
   "Security Check"
@@ -1334,6 +1728,12 @@
  ],
  "Settings.Title": [
   "Settings"
+ ],
+ "Stars.AccountRevenue.Proceeds.Info": [
+  "Stars from your total balance can be withdrawn as rewards 21 days after they are earned."
+ ],
+ "Stars.AccountRevenue.Withdraw.Info": [
+  "You can collect rewards for Stars using Fragment. You cannot withdraw less than 1000 stars. [Learn More >]()"
  ],
  "Stars.BotRevenue.Proceeds.Available": [
   "Available Balance"
@@ -1510,6 +1910,9 @@
  "Stars.Intro.Transaction.Unsupported.Title": [
   "Unsupported"
  ],
+ "Stars.Intro.Withdraw": [
+  "Withdraw"
+ ],
  "Stars.Intro.YourBalance": [
   "your balance"
  ],
@@ -1534,8 +1937,79 @@
  "Stars.Purchase.BuyAnyway": [
   "Buy Anyway"
  ],
+ "Stars.Purchase.BuyStarGiftInfo": [
+  "Buy Stars to acquire a unique collectible."
+ ],
  "Stars.Purchase.EnoughStars": [
   "You have enough Stars at the moment."
+ ],
+ "Stars.Purchase.GenericPurchasePurpose": [
+  "Buy Stars to unlock content and services on Telegram."
+ ],
+ "Stars.Purchase.GetStars": [
+  "Get Stars"
+ ],
+ "Stars.Purchase.GetStarsInfo": [
+  "Choose how many Stars you would like to buy."
+ ],
+ "Stars.Purchase.GiftInfo": [
+  "With Stars, **%1$@** will be able to unlock content and services on Telegram. [See Examples >]()"
+ ],
+ "Stars.Purchase.GiftStars": [
+  "Gift Stars"
+ ],
+ "Stars.Purchase.Info": [
+  "By proceeding and purchasing Stars, you agree with [Terms and Conditions]()."
+ ],
+ "Stars.Purchase.PurchasePurpose.subs": [
+  "Buy Stars to keep all your subscriptions."
+ ],
+ "Stars.Purchase.RemoveOriginalDetailsStarGiftInfo": [
+  "Buy Stars to remove the description from your gift."
+ ],
+ "Stars.Purchase.SendGroupMessageInfo": [
+  "Buy Stars to send a message in **%@**."
+ ],
+ "Stars.Purchase.SendMessageInfo": [
+  "Buy Stars to send a message to **%@**."
+ ],
+ "Stars.Purchase.ShowMore": [
+  "Show More Options"
+ ],
+ "Stars.Purchase.StarGiftInfo": [
+  "Buy Stars to send **%@** gifts that can be added to their profile or converted to Stars."
+ ],
+ "Stars.Purchase.StarGiftOfferInfo": [
+  "Buy Stars to make offers to buy gifts."
+ ],
+ "Stars.Purchase.Stars": [
+  "%@ Star",
+  "%@ Stars"
+ ],
+ "Stars.Purchase.StarsNeeded": [
+  "%@ Star Needed",
+  "%@ Stars Needed"
+ ],
+ "Stars.Purchase.StarsNeededInfo": [
+  "Buy Stars to use them on **%@** and other mini apps."
+ ],
+ "Stars.Purchase.StarsNeededUnlockInfo": [
+  "Buy Stars to unlock media and use them on mini apps."
+ ],
+ "Stars.Purchase.StarsReactionsNeededInfo": [
+  "Buy Stars to send paid reactions to **%@** and other channels."
+ ],
+ "Stars.Purchase.SubscriptionInfo": [
+  "Buy Stars to subscribe to **%@**."
+ ],
+ "Stars.Purchase.SubscriptionRenewInfo": [
+  "Buy Stars to keep your subscription to **%@**."
+ ],
+ "Stars.Purchase.TransferStarGiftInfo": [
+  "Buy Stars to transfer ownership of your unique collectible."
+ ],
+ "Stars.Purchase.UpgradeStarGiftInfo": [
+  "Buy Stars to upgrade your gift into a unique collectible."
  ],
  "Stars.SellGift.AmountInfo": [
   "You will receive **%@**."
@@ -1571,6 +2045,9 @@
  "Stars.SellGift.TonAmountTitle": [
   "PRICE IN GRAMS"
  ],
+ "Stars.SellGiftMinAmountToast.Text": [
+  "You cannot sell gift for less than %@"
+ ],
  "Stars.SendMessage.AdjustmentAction": [
   "OK"
  ],
@@ -1592,12 +2069,33 @@
  "Stars.Transaction.Date": [
   "Date"
  ],
+ "Stars.Transaction.FragmentTopUp.Subtitle": [
+  "Fragment"
+ ],
+ "Stars.Transaction.FragmentTopUp.Title": [
+  "Stars Top-Up"
+ ],
+ "Stars.Transaction.FragmentTopUpTon.Title": [
+  "Gram Top-Up"
+ ],
+ "Stars.Transaction.FragmentWithdrawal.Subtitle": [
+  "Fragment"
+ ],
+ "Stars.Transaction.FragmentWithdrawalTon.Title": [
+  "Gram Withdrawal"
+ ],
+ "Stars.Transaction.GiftAuctionBid": [
+  "Gift Auction Bid"
+ ],
  "Stars.Transaction.Id": [
   "Transaction ID"
  ],
  "Stars.Transaction.LiveStreamPaidMessage": [
   "Fee for %@ Live Story Message",
   "Fee for %@ Live Story Messages"
+ ],
+ "Stars.Transaction.LiveStreamPaidMessage.Text": [
+  "You receive **%@%** of the price that you charge for each incoming message."
  ],
  "Stars.Transaction.Subscription.Active": [
   "If you cancel now, you can still access your subscription until %@"
@@ -1659,11 +2157,21 @@
  "Stars.Transaction.SubscriptionFee": [
   "Monthly Subscription Fee"
  ],
+ "Stars.Transaction.TelegramBotApi.Messages": [
+  "%@ Message",
+  "%@ Messages"
+ ],
+ "Stars.Transaction.TelegramBotApi.Title": [
+  "Paid Broadcast"
+ ],
  "Stars.Transaction.Terms": [
   "Review the [Terms of Service]() for Stars."
  ],
  "Stars.Transaction.To": [
   "To"
+ ],
+ "Stars.Transaction.Via": [
+  "Via"
  ],
  "Stars.Transfer.Balance": [
   "Balance"
@@ -1730,6 +2238,9 @@
  "Stars.Withdraw.Withdraw": [
   "Withdraw"
  ],
+ "Stars.Withdraw.Withdraw.ErrorMinimum": [
+  "You cannot withdraw less than [%@]()."
+ ],
  "Stars.Withdraw.Withdraw.ErrorMinimum.Stars": [
   "%@ Star",
   "%@ Stars"
@@ -1739,6 +2250,27 @@
  ],
  "StarsBalance.YourBalance": [
   "Your balance is %@"
+ ],
+ "StarsTransaction.StarRefReason.Miniapp": [
+  "Mini App"
+ ],
+ "StarsTransaction.StarRefReason.Program": [
+  "Affiliate Program"
+ ],
+ "StarsTransaction.StarRefReason.Title": [
+  "Reason"
+ ],
+ "StarsTransaction.TitleCommission": [
+  "%@% Commission"
+ ],
+ "Stats.Boosts": [
+  "Boosts"
+ ],
+ "Stats.Monetization": [
+  "Monetization"
+ ],
+ "Stats.Statistics": [
+  "Statistics"
  ],
  "Stats.TonBotRevenue.Title": [
   "Gram Balance"

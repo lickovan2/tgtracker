@@ -137,6 +137,12 @@
  "Appearance.TextSize": [
   "TEXT SIZE"
  ],
+ "Appearance.TextSize.Title": [
+  "Text Size"
+ ],
+ "Appearance.TextSize.UseSystem": [
+  "Use System Text Size"
+ ],
  "Appearance.ThemeCarouselClassic": [
   "Classic"
  ],
@@ -473,6 +479,9 @@
  "AutoDownloadSettings.ResetSettings": [
   "Reset Auto-Download Settings"
  ],
+ "AutoDownloadSettings.Stories": [
+  "Stories"
+ ],
  "AutoDownloadSettings.Title": [
   "Auto-Download"
  ],
@@ -550,6 +559,9 @@
  ],
  "AutoNightTheme.ScheduledTo": [
   "To"
+ ],
+ "AutoNightTheme.System": [
+  "System"
  ],
  "AutoNightTheme.Title": [
   "Auto-Night Mode"
@@ -699,6 +711,9 @@
  "Calls.NotNow": [
   "Not Now"
  ],
+ "Calls.TabTitle": [
+  "Calls"
+ ],
  "CancelResetAccount.Success": [
   "The deletion process was canceled for your account %@."
  ],
@@ -773,6 +788,9 @@
  ],
  "Channel.MessagePhotoUpdated": [
   "Channel photo updated"
+ ],
+ "Chat.MessageForwardInfo.MessageHeader": [
+  "Forwarded from"
  ],
  "Chat.ReactionSection.Popular": [
   "Popular"
@@ -875,6 +893,12 @@
  ],
  "ChatListFolder.IncludedSectionHeader": [
   "INCLUDED CHATS"
+ ],
+ "ChatListFolder.NamePlaceholder": [
+  "Folder Name"
+ ],
+ "ChatListFolder.NameSectionHeader": [
+  "FOLDER NAME"
  ],
  "ChatListFolder.TitleCreate": [
   "New Folder"
@@ -1065,6 +1089,9 @@
  "Common.OK": [
   "OK"
  ],
+ "Common.Search": [
+  "Search"
+ ],
  "Common.edit": [
   "edit"
  ],
@@ -1079,6 +1106,9 @@
  ],
  "Contacts.SearchUsersAndGroupsLabel": [
   "Search for users and groups"
+ ],
+ "Contacts.Title": [
+  "Contacts"
  ],
  "Conversation.ClearCache": [
   "Clear Cache"
@@ -1288,6 +1318,9 @@
  "DeleteAccount.Success": [
   "The account has been successfully deleted."
  ],
+ "DialogList.Title": [
+  "Chats"
+ ],
  "DoNotTranslate.Title": [
   "Do Not Translate"
  ],
@@ -1426,6 +1459,9 @@
  ],
  "FeaturedStickerPacks.Title": [
   "Trending Stickers"
+ ],
+ "FileSize.B": [
+  "%@ B"
  ],
  "FileSize.GB": [
   "%@ GB"
@@ -1632,6 +1668,9 @@
  "IntentsSettings.SuggestByShare": [
   "Only Shared Messages"
  ],
+ "IntentsSettings.SuggestedAndSpotlightChatsInfo": [
+  "Suggestions will appear in the Share Sheet and Spotlight search results. Archived chats will not be suggested."
+ ],
  "IntentsSettings.SuggestedChats": [
   "Suggested Chats"
  ],
@@ -1649,6 +1688,9 @@
  ],
  "IntentsSettings.SuggestedChatsSavedMessages": [
   "Saved Messages"
+ ],
+ "IntentsSettings.Title": [
+  "Share Sheet"
  ],
  "InviteLink.Create": [
   "Create a New Link"
@@ -2146,6 +2188,9 @@
  "Notifications.Options": [
   "Options"
  ],
+ "Notifications.PermissionsAllow": [
+  "Turn Notifications ON"
+ ],
  "Notifications.PermissionsAllowInSettings": [
   "Turn ON in Settings"
  ],
@@ -2233,6 +2278,9 @@
  "Notifications.ResetAllNotificationsText": [
   "Are you sure you want to reset all notification settings to default?"
  ],
+ "Notifications.Stories": [
+  "Stories"
+ ],
  "Notifications.Stories.DisplayName": [
   "Show Sender's Name"
  ],
@@ -2245,6 +2293,9 @@
  "Notifications.Stories.SettingsHeader": [
   "NOTIFY ME ABOUT..."
  ],
+ "Notifications.StoriesTitle": [
+  "Stories"
+ ],
  "Notifications.TelegramTones": [
   "TELEGRAM TONES"
  ],
@@ -2253,6 +2304,9 @@
  ],
  "Notifications.Title": [
   "Notifications"
+ ],
+ "Notifications.TopChats": [
+  "Top 5"
  ],
  "Notifications.UploadSound": [
   "Upload Sound"
@@ -3086,6 +3140,9 @@
  "Privacy.DeleteDrafts.DraftsDeleted": [
   "All cloud drafts deleted."
  ],
+ "Privacy.Exceptions": [
+  "EXCEPTIONS"
+ ],
  "Privacy.Exceptions.DeleteAll": [
   "Delete All"
  ],
@@ -3509,6 +3566,9 @@
  "PrivacySettings.LastSeen": [
   "Last Seen & Online"
  ],
+ "PrivacySettings.LastSeenCloseFriendsPlus": [
+  "Close Friends (+%@)"
+ ],
  "PrivacySettings.LastSeenContacts": [
   "My Contacts"
  ],
@@ -3547,6 +3607,9 @@
  ],
  "PrivacySettings.LoginEmailInfo": [
   "Change your email address for Telegram login codes."
+ ],
+ "PrivacySettings.Passcode": [
+  "Passcode Lock"
  ],
  "PrivacySettings.PasscodeAndFaceId": [
   "Passcode & Face ID"
@@ -3599,6 +3662,9 @@
  "PrivacySettings.ValuePremiumPlus": [
   "Premium Users +%@"
  ],
+ "PrivacySettings.WebSessions": [
+  "Active Websites"
+ ],
  "PrivateDataSettings.Title": [
   "Data Settings"
  ],
@@ -3610,6 +3676,9 @@
  ],
  "ProfilePhoto.SearchWeb": [
   "Search Web"
+ ],
+ "ProfilePhoto.SetEmoji": [
+  "Set Emoji"
  ],
  "ReportPeer.ReasonOther.Placeholder": [
   "Description"
@@ -3665,6 +3734,12 @@
  "Settings.AppleWatch": [
   "Apple Watch"
  ],
+ "Settings.AutoDeleteInfo": [
+  "Automatically delete messages for everyone after a period of time in all new chats you start."
+ ],
+ "Settings.AutoDeleteTitle": [
+  "Auto-Delete Messages"
+ ],
  "Settings.AutosaveMediaAllMedia": [
   "All Media (%@)"
  ],
@@ -3673,6 +3748,9 @@
  ],
  "Settings.AutosaveMediaNoVideo": [
   "No Videos"
+ ],
+ "Settings.AutosaveMediaOff": [
+  "Off"
  ],
  "Settings.AutosaveMediaOn": [
   "On"
@@ -4368,6 +4446,12 @@
  "StorageManagement.TitleCleared": [
   "Storage Cleared"
  ],
+ "Theme.Colors.Accent": [
+  "Accent"
+ ],
+ "Theme.Colors.Messages": [
+  "Messages"
+ ],
  "Theme.Context.ChangeColors": [
   "Change Colors"
  ],
@@ -4420,6 +4504,9 @@
   "%@ year",
   "%@ years"
  ],
+ "Time.AtDate": [
+  "%@"
+ ],
  "Time.HoursAgo": [
   "%@ hour ago",
   "%@ hours ago"
@@ -4431,8 +4518,14 @@
   "%@ minute ago",
   "%@ minutes ago"
  ],
+ "Time.PreciseDate_m10": [
+  "Oct %1$@, %2$@ at %3$@"
+ ],
  "Time.TodayAt": [
   "today at %@"
+ ],
+ "Time.YesterdayAt": [
+  "yesterday at %@"
  ],
  "TwoFactorRemember.CheckPassword": [
   "Check Password"
@@ -4806,6 +4899,9 @@
  ],
  "Username.Title": [
   "Username"
+ ],
+ "Username.Username": [
+  "USERNAME"
  ],
  "Username.UsernameIsAvailable": [
   "%@ is available."

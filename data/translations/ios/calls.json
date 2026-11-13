@@ -32,6 +32,14 @@
  "Call.RecordingDisabledMessage": [
   "Please end your call before recording a voice message."
  ],
+ "Call.ShortMinutes": [
+  "%@ min",
+  "%@ min"
+ ],
+ "Call.ShortSeconds": [
+  "%@ sec",
+  "%@ sec"
+ ],
  "Call.VoiceChatInProgressCallMessage": [
   "Leave video chat in %1$@ and call %2$@?"
  ],
@@ -50,17 +58,35 @@
  "CallList.DeleteAllForMe": [
   "Delete for me"
  ],
+ "CallList.NewCall": [
+  "Start New Call"
+ ],
+ "CallList.NewCallLink": [
+  "Create Call Link"
+ ],
  "CallList.ToastCallLinkCopied.Action": [
   "View Call"
  ],
  "CallList.ToastCallLinkCopied.Text": [
   "Call link copied"
  ],
+ "CallSettings.TabIcon": [
+  "Show Calls Tab"
+ ],
+ "CallSettings.TabIconDescription": [
+  "A call icon will appear in the tab bar."
+ ],
  "Calls.HideCallsTab": [
   "Hide Calls Tab"
  ],
+ "Calls.Missed": [
+  "Missed"
+ ],
  "Calls.NewCall": [
   "New Call"
+ ],
+ "Calls.NoVoiceAndVideoCallsPlaceholder": [
+  "Your recent voice and video calls will appear here."
  ],
  "Calls.NotNow": [
   "Not Now"
@@ -70,6 +96,9 @@
  ],
  "Common.Cancel": [
   "Cancel"
+ ],
+ "Common.Edit": [
+  "Edit"
  ],
  "Common.OK": [
   "OK"
@@ -129,6 +158,18 @@
  ],
  "NewCall.VideoOption": [
   "Join with camera on"
+ ],
+ "Notification.CallIncomingShort": [
+  "Incoming"
+ ],
+ "Notification.CallMissedShort": [
+  "Missed"
+ ],
+ "Notification.CallOutgoingShort": [
+  "Outgoing"
+ ],
+ "Notification.CallTimeFormat": [
+  "%1$@ (%2$@)"
  ],
  "Passport.NotLoggedInMessage": [
   "Please log in to your account to use Telegram Passport"

@@ -163,6 +163,9 @@
  "Camera.LiveStream.End.Title": [
   "End Live Stream"
  ],
+ "Channel.Members.Title": [
+  "Members"
+ ],
  "Channel.NotificationLoading": [
   "Loading..."
  ],
@@ -1111,14 +1114,23 @@
  "Compose.TokenListPlaceholder": [
   "Who would you like to add?"
  ],
+ "ContactInfo.PhoneLabelMobile": [
+  "mobile"
+ ],
  "Contacts.PermissionsText": [
   "Please allow Telegram access to your phonebook to seamlessly find all your friends."
  ],
  "Contacts.PermissionsTitle": [
   "Access to Contacts"
  ],
+ "Contacts.SearchLabel": [
+  "Search for contacts or usernames"
+ ],
  "Contacts.SearchUsersAndGroupsLabel": [
   "Search for users and groups"
+ ],
+ "Contacts.TopSection": [
+  "CONTACTS"
  ],
  "Conversation.AddContact": [
   "Add Contact"
@@ -1922,11 +1934,62 @@
  "CreateExternalStream.Title": [
   "Stream With..."
  ],
+ "CreatePoll.AddingOptions": [
+  "Allow Adding Options"
+ ],
+ "CreatePoll.AddingOptionsInfo": [
+  "Participants can suggest new options"
+ ],
+ "CreatePoll.EnableQuiz": [
+  "Set Correct Answer"
+ ],
+ "CreatePoll.EnableQuizInfo": [
+  "Mark one option as the right answer"
+ ],
+ "CreatePoll.Explanation": [
+  "Add an Explanation (Optional)"
+ ],
+ "CreatePoll.ExplanationHeader": [
+  "EXPLANATION"
+ ],
+ "CreatePoll.ExplanationInfo": [
+  "Users will see this comment after choosing a wrong answer, good for educational purposes."
+ ],
+ "CreatePoll.LimitDuration": [
+  "Limit Duration"
+ ],
+ "CreatePoll.LimitDurationInfo": [
+  "Automatically close the poll at a set time"
+ ],
  "CreatePoll.MediaUploading.Text": [
   "Poll media is still uploading..."
  ],
  "CreatePoll.MediaUploading.Title": [
   "Please Wait"
+ ],
+ "CreatePoll.MultiAnswer": [
+  "Allow Multiple Answers"
+ ],
+ "CreatePoll.MultiAnswerInfo": [
+  "Voters can select more than one option"
+ ],
+ "CreatePoll.QuizTitle": [
+  "New Quiz"
+ ],
+ "CreatePoll.Revoting": [
+  "Allow Revoting"
+ ],
+ "CreatePoll.RevotingInfo": [
+  "Voters can change their vote"
+ ],
+ "CreatePoll.ShowWhoVotedInfo": [
+  "Display voter names on each option"
+ ],
+ "CreatePoll.ShuffleOptions": [
+  "Shuffle Options"
+ ],
+ "CreatePoll.ShuffleOptionsInfo": [
+  "Answers appear in a random order for each voter"
  ],
  "Currency.Grams": [
   "%@ Gram",
@@ -2074,8 +2137,20 @@
  "Gift.PremiumOrStars.Title": [
   "Send a Gift"
  ],
+ "Gift.Send.AvailableForResale": [
+  "Available for Resale"
+ ],
  "Gift.Send.Buy": [
   "Buy a Gift for"
+ ],
+ "Gift.Send.Customize.MessagePlaceholder": [
+  "Enter Message (Optional)"
+ ],
+ "Gift.Send.HideMyName": [
+  "Hide My Name"
+ ],
+ "Gift.Send.HideMyName.Info": [
+  "Hide my name and message from visitors to %1$@'s profile. %2$@ will still see your name and message."
  ],
  "Gift.Send.Limited.Success.Text": [
   "You can send **%@** more.",
@@ -2086,6 +2161,12 @@
  ],
  "Gift.Send.Limited.Success.Title": [
   "Gift Sent!"
+ ],
+ "Gift.Send.Send": [
+  "Send a Gift for"
+ ],
+ "Gift.Send.Upgrade": [
+  "Make Unique for %@"
  ],
  "Gift.Transfer.Confirmation.Text": [
   "Do you want to transfer ownership of **%1$@** to **%2$@** for **%3$@**?"
@@ -2238,6 +2319,9 @@
  "GroupInfo.DeleteAndExit": [
   "Delete and Exit"
  ],
+ "GroupInfo.InviteByLink": [
+  "Invite to Group via Link"
+ ],
  "Invitation.GroupCall": [
   "Group Call"
  ],
@@ -2282,6 +2366,9 @@
  ],
  "LastSeen.Offline": [
   "last seen a long time ago"
+ ],
+ "LastSeen.TodayAt": [
+  "last seen today at %@"
  ],
  "LastSeen.WithinAMonth": [
   "last seen within a month"
@@ -2367,6 +2454,9 @@
  ],
  "Media.SendingOptionsTooltip": [
   "Hold this button to send your message with a self-destruct timer."
+ ],
+ "MediaPicker.Send": [
+  "Send"
  ],
  "MediaPicker.TimerTooltip": [
   "You can now set a self-destruct timer"
@@ -2862,6 +2952,9 @@
  "Notification.StarGift.TitleShort": [
   "Gift"
  ],
+ "Notification.StarGift.TitleTo": [
+  "Gift for %@"
+ ],
  "Notification.StarGift.Unpack": [
   "Unpack"
  ],
@@ -3066,8 +3159,14 @@
  "PeerInfo.ClearConfirmationUser": [
   "Do you want to delete all messages with %@?"
  ],
+ "PeerInfo.ClearMessages": [
+  "Clear Messages"
+ ],
  "PeerInfo.DisableSharing": [
   "Disable Sharing"
+ ],
+ "PeerInfo.EnableAutoDelete": [
+  "Enable Auto-Delete"
  ],
  "PeerInfo.EnableSharing": [
   "Enable Sharing"
@@ -3077,6 +3176,9 @@
  ],
  "PeerInfo.PaneGroups": [
   "Groups"
+ ],
+ "PeerInfo.PanePolls": [
+  "Polls"
  ],
  "Permissions.ContactsAllowInSettings.v0": [
   "Allow in Settings"
@@ -3181,6 +3283,12 @@
  "Profile.MessageLifetimeForever": [
   "Off"
  ],
+ "Profile.SendGift": [
+  "Send a Gift"
+ ],
+ "Profile.ShareContactButton": [
+  "Share Contact"
+ ],
  "QrStudio.NoPaidToken.Imported": [
   "You can now message %@ for free."
  ],
@@ -3189,6 +3297,9 @@
  ],
  "QuickReply.Title": [
   "Quick Replies"
+ ],
+ "ReportPeer.Report": [
+  "Report"
  ],
  "ReportSpam.DeleteThisChat": [
   "Delete this Chat"
@@ -3548,6 +3659,9 @@
  ],
  "UserInfo.PhoneCall": [
   "Phone Call"
+ ],
+ "UserInfo.StartSecretChat": [
+  "Start Secret Chat"
  ],
  "Wallet.CopyAddress": [
   "Copy Address"

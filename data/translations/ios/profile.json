@@ -115,14 +115,23 @@
  "Common.Delete": [
   "Delete"
  ],
+ "Common.Edit": [
+  "Edit"
+ ],
  "Common.OK": [
   "OK"
  ],
  "ContactInfo.PhoneLabelMain": [
   "main"
  ],
+ "ContactInfo.PhoneLabelMobile": [
+  "mobile"
+ ],
  "Contacts.InviteToTelegram": [
   "Invite to Telegram"
+ ],
+ "Conversation.BlockUser": [
+  "Block User"
  ],
  "Conversation.ContextMenuCopy": [
   "Copy"
@@ -447,6 +456,9 @@
  "GroupInfo.SetGroupPhotoDelete": [
   "Remove Photo"
  ],
+ "LastSeen.Lately": [
+  "last seen recently"
+ ],
  "LastSeen.TodayAt": [
   "last seen today at %@"
  ],
@@ -614,6 +626,24 @@
  "PeerInfo.AddNotesPlaceholder": [
   "Add Notes"
  ],
+ "PeerInfo.AllowedReactions.GroupOptionNoInfo": [
+  "Members of the group can't add any reactions to messages."
+ ],
+ "PeerInfo.AllowedReactions.OptionAllReactions": [
+  "All Reactions"
+ ],
+ "PeerInfo.AllowedReactions.OptionNoReactions": [
+  "No Reactions"
+ ],
+ "PeerInfo.AllowedReactions.OptionSomeReactions": [
+  "Some Reactions"
+ ],
+ "PeerInfo.AllowedReactions.ReactionListHeader": [
+  "AVAILABLE REACTIONS"
+ ],
+ "PeerInfo.AllowedReactions.Title": [
+  "Reactions"
+ ],
  "PeerInfo.BusinessHours.DayClosed": [
   "closed"
  ],
@@ -652,11 +682,29 @@
  "PeerInfo.BusinessHours.TimezoneSwitchMy": [
   "my time"
  ],
+ "PeerInfo.ButtonMessage": [
+  "Message"
+ ],
+ "PeerInfo.ButtonMore": [
+  "More"
+ ],
+ "PeerInfo.ButtonMute": [
+  "Mute"
+ ],
  "PeerInfo.ChangeEmojiStatus": [
   "Change Emoji Status"
  ],
+ "PeerInfo.ClearMessages": [
+  "Clear Messages"
+ ],
  "PeerInfo.DeleteReaction": [
   "Delete Reaction"
+ ],
+ "PeerInfo.DisableSharing": [
+  "Disable Sharing"
+ ],
+ "PeerInfo.EnableAutoDelete": [
+  "Enable Auto-Delete"
  ],
  "PeerInfo.GiftPremium": [
   "Gift Premium"
@@ -934,6 +982,9 @@
  "ProfileColorSetup.NoNameGiftsPlaceholder": [
   "You don't have any gifts you can use as styles for your name."
  ],
+ "ProfileColorSetup.ProfileColorPreviewInfo": [
+  "You can change the color of your name and customize replies to you. [Change >]()"
+ ],
  "ProfileColorSetup.ResetAction": [
   "Reset Profile Color"
  ],
@@ -1078,6 +1129,9 @@
  ],
  "ReportPeer.BanAndReport": [
   "Ban and Report"
+ ],
+ "ReportPeer.Report": [
+  "Report"
  ],
  "ReportPeer.ReportReaction": [
   "Report Reaction"
@@ -1291,6 +1345,9 @@
  "Stories.ToastAlbumNotAvailable": [
   "This album is no longer available."
  ],
+ "StoryList.SavedEmptyPosts.Title": [
+  "No posts yet..."
+ ],
  "SuggestBirthdate.Accept.Added": [
   "Birthday added. You can change it in **Settings**."
  ],
@@ -1321,6 +1378,9 @@
  ],
  "UserInfo.ChangeCustomPhoto": [
   "Change Photo for %@"
+ ],
+ "UserInfo.ChangeWallpaper": [
+  "Change Wallpaper"
  ],
  "UserInfo.CreateNewContact": [
   "Create New Contact"
@@ -1405,6 +1465,9 @@
  ],
  "UserInfo.ShareMyContactInfo": [
   "Share My Contact Info"
+ ],
+ "UserInfo.StartSecretChat": [
+  "Start Secret Chat"
  ],
  "UserInfo.StartSecretChatConfirmation": [
   "Are you sure you want to start a secret chat with%@?"

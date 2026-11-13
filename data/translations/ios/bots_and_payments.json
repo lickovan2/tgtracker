@@ -1007,6 +1007,15 @@
  "PeerInfo.Bot.Username": [
   "Username"
  ],
+ "PeerInfo.BotBalance.Stars": [
+  "Stars"
+ ],
+ "PeerInfo.BotBalance.Title": [
+  "BALANCE"
+ ],
+ "PeerInfo.BotBalance.Ton": [
+  "Grams"
+ ],
  "PeerInfo.BotBlockedText": [
   "This bot will not be able to message you."
  ],
@@ -1016,8 +1025,23 @@
  "PeerInfo.BotLinks": [
   "Public Links"
  ],
+ "PeerInfo.ButtonMessage": [
+  "Message"
+ ],
+ "PeerInfo.ButtonMore": [
+  "More"
+ ],
+ "PeerInfo.ButtonMute": [
+  "Mute"
+ ],
  "PeerInfo.ButtonStop": [
   "Block"
+ ],
+ "PeerInfo.ClearMessages": [
+  "Clear Messages"
+ ],
+ "PeerInfo.EnableAutoDelete": [
+  "Enable Auto-Delete"
  ],
  "PeerInfo.ItemAffiliateProgram.Footer": [
   "Share a link to %1$@ with your friends and earn %2$@% of their spending there."
@@ -1320,6 +1344,9 @@
  ],
  "Time.MediumDate": [
   "%1$@ at %2$@"
+ ],
+ "UserInfo.BotHelp": [
+  "Help"
  ],
  "UserInfo.BotNamePlaceholder": [
   "Bot Name"
