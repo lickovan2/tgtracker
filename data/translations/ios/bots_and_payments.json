@@ -813,6 +813,12 @@
  "Conversation.Info": [
   "Info"
  ],
+ "Conversation.InputMenu": [
+  "Menu"
+ ],
+ "Conversation.InputTextPlaceholder": [
+  "Message"
+ ],
  "Conversation.InviteRequestAdminChannel": [
   "%1$@ is an admin of %2$@, a channel you requested to join."
  ],
@@ -1055,11 +1061,23 @@
  "ReportPeer.Report": [
   "Report"
  ],
+ "RequestPeer.BotsAllEmpty": [
+  "You don't have any bots."
+ ],
+ "RequestPeer.ChannelsEmpty": [
+  "You don't have channels that meet the following requirements:"
+ ],
+ "RequestPeer.ChooseBotTitle": [
+  "Choose a Bot"
+ ],
  "RequestPeer.ChooseChannelTitle": [
   "Choose a Channel"
  ],
  "RequestPeer.ChooseGroupTitle": [
   "Choose a Group"
+ ],
+ "RequestPeer.ChooseUserTitle": [
+  "Choose a User"
  ],
  "RequestPeer.CreateNewChannel": [
   "Create a New Channel for This"
@@ -1067,12 +1085,21 @@
  "RequestPeer.CreateNewGroup": [
   "Create a New Group for This"
  ],
+ "RequestPeer.GroupsAllEmpty": [
+  "You don't have any groups."
+ ],
  "RequestPeer.ReachedMaximum": [
   "You can select up to %@ user.",
   "You can select up to %@ users."
  ],
  "RequestPeer.Requirement.Channel.Rights": [
   "You must have the admin rights to %@."
+ ],
+ "RequestPeer.Requirement.Channel.Rights.Delete": [
+  "delete messages"
+ ],
+ "RequestPeer.Requirement.Channel.Rights.Edit": [
+  "edit messages"
  ],
  "RequestPeer.Requirement.Channel.Rights.Send": [
   "post messages"
@@ -1092,14 +1119,29 @@
  "RequestPeer.Requirement.Group.Rights.Delete": [
   "delete messages"
  ],
+ "RequestPeer.Requirement.UserPremiumOff": [
+  "The user must not have a Premium subscription."
+ ],
  "RequestPeer.Requirements": [
   "Requirements:"
  ],
  "RequestPeer.SelectionConfirmationInviteAdminText": [
   "This will also add %1$@ to %2$@ as an admin."
  ],
+ "RequestPeer.SelectionConfirmationInviteText": [
+  "This will also add %1$@ to %2$@."
+ ],
+ "RequestPeer.SelectionConfirmationInviteWithRightsText": [
+  "This will also add %1$@ to %2$@ with the following rights:%3$@"
+ ],
+ "RequestPeer.SelectionConfirmationSend": [
+  "Send"
+ ],
  "RequestPeer.SelectionConfirmationTitle": [
   "Are you sure you want to send %1$@ to %2$@?"
+ ],
+ "RequestPeer.UsersAllEmpty": [
+  "You don't know any users."
  ],
  "ScheduledIn.Hours": [
   "%@ hour",

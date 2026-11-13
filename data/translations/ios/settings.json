@@ -852,6 +852,33 @@
  "ChatListFilterList.ShowTagsFooter": [
   "Display folder names for each chat in the chat list."
  ],
+ "ChatListFolder.AddChats": [
+  "Add Chats"
+ ],
+ "ChatListFolder.CategoryArchived": [
+  "Archived"
+ ],
+ "ChatListFolder.CategoryMuted": [
+  "Muted"
+ ],
+ "ChatListFolder.CategoryRead": [
+  "Read"
+ ],
+ "ChatListFolder.ExcludeSectionInfo": [
+  "Choose chats or types of chats that will not appear in this folder."
+ ],
+ "ChatListFolder.ExcludedSectionHeader": [
+  "EXCLUDED CHATS"
+ ],
+ "ChatListFolder.IncludeSectionInfo": [
+  "Choose chats or types of chats that will appear in this folder."
+ ],
+ "ChatListFolder.IncludedSectionHeader": [
+  "INCLUDED CHATS"
+ ],
+ "ChatListFolder.TitleCreate": [
+  "New Folder"
+ ],
  "ChatListFolderSettings.AddRecommended": [
   "ADD"
  ],
@@ -1079,6 +1106,10 @@
  ],
  "Conversation.OpenBotLinkTitle": [
   "Open Link"
+ ],
+ "Conversation.StatusMembers": [
+  "1 member",
+  "%@ members"
  ],
  "DataUsage.Header": [
   "Data Usage"
@@ -1633,6 +1664,13 @@
  ],
  "InviteLink.QRCodeFolder.Title": [
   "Invite by QR Code"
+ ],
+ "LastSeen.HoursAgo": [
+  "last seen 1 hour ago",
+  "last seen %@ hours ago"
+ ],
+ "LastSeen.Lately": [
+  "last seen recently"
  ],
  "LastSeen.MinutesAgo": [
   "last seen 1 minute ago",

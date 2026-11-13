@@ -374,6 +374,9 @@
  "Bot.AcceptTermsInfo": [
   "I accept the [Terms of Service]() of **%1$@**"
  ],
+ "Bot.Active": [
+  "bot is active now"
+ ],
  "Bot.AddToChannel.Title": [
   "Add to Channel"
  ],
@@ -409,6 +412,12 @@
  ],
  "Bot.AddToGroup.Title": [
   "Add to Group"
+ ],
+ "Bot.Inactive": [
+  "bot is not active"
+ ],
+ "Bot.Slow": [
+  "bot replies slowly"
  ],
  "BotPreview.DeleteConfirmation.Title": [
   "Delete Preview?"
@@ -1050,22 +1059,6 @@
  "ChannelMessages.PriceSectionFooterValue": [
   "You will receive %1$@% of the selected fee for each incoming message."
  ],
- "Chat.AdminAction.ToastMessagesDeletedTextMultiple": [
-  "Messages Deleted."
- ],
- "Chat.AdminAction.ToastMessagesDeletedTitleSingle": [
-  "Message Deleted"
- ],
- "Chat.AdminAction.ToastReactionsDeletedTextSingle": [
-  "Reaction Deleted."
- ],
- "Chat.AdminAction.ToastReactionsDeletedTitleSingle": [
-  "Reaction Deleted"
- ],
- "Chat.AdminAction.ToastRestrictedText": [
-  "**1** user restricted.",
-  "**%d** users restricted."
- ],
  "Chat.AdminActionSheet.BanFooterMultiple": [
   "Fully ban users"
  ],
@@ -1089,9 +1082,6 @@
  ],
  "Chat.Auction.ViewResults": [
   "VIEW RESULTS"
- ],
- "Chat.BusinessBotPanel.StatusHasAccess": [
-  "bot has access to this chat"
  ],
  "Chat.CallMessage.GroupCallParticipantCount": [
   "1 person",
@@ -1208,9 +1198,6 @@
  "Chat.ErrorInvoiceNotFound": [
   "Invoice not found."
  ],
- "Chat.GenericPsaTooltip": [
-  "This is a public service announcement"
- ],
  "Chat.Gifs.SavedSectionHeader": [
   "MY GIFS"
  ],
@@ -1293,15 +1280,6 @@
   "**%@** Telegram Premium Subscription",
   "**%@** Telegram Premium Subscriptions"
  ],
- "Chat.Giveaway.Toast.AlmostOver": [
-  "The giveaway is almost over."
- ],
- "Chat.Giveaway.Toast.NotQualified": [
-  "You are not qualified for this giveaway yet."
- ],
- "Chat.Giveaway.Toast.Participating": [
-  "You are participating in this giveaway."
- ],
  "Chat.GramTransfer.WithFiat": [
   "%1$@ sent you %2$@ (%3$@)"
  ],
@@ -1335,9 +1313,6 @@
  "Chat.MessageSeenTimestamp.YesterdayAt": [
   "yesterday at %@"
  ],
- "Chat.MultipleTextMessagesDisabled": [
-  "Slow Mode is enabled. You can't send multiple messages at once."
- ],
  "Chat.MultipleTypingMore": [
   "%@ and %@ others"
  ],
@@ -1356,35 +1331,11 @@
  "Chat.OpenStory": [
   "VIEW STORY"
  ],
- "Chat.PanelForumModeReplyText": [
-  "Swipe left on a message to reply"
- ],
  "Chat.PanelRestartTopic": [
   "Reopen Topic"
  ],
- "Chat.PanelTopicClosedText": [
-  "The topic is closed"
- ],
  "Chat.PauseVideoMessageTooltip": [
   "Pause to trim or replay."
- ],
- "Chat.PinnedMessagesHiddenText": [
-  "Pinned messages will be shown again if a new message is pinned."
- ],
- "Chat.PinnedMessagesHiddenTitle": [
-  "Pinned Messages Hidden"
- ],
- "Chat.PlaceholderTextNotAllowed": [
-  "Text not allowed"
- ],
- "Chat.Poll.Restriction.Country.CountriesDelimiter": [
-  ", "
- ],
- "Chat.Poll.Restriction.Country.CountriesLastDelimiter": [
-  " and "
- ],
- "Chat.Poll.Restriction.Subscribers.TimeLimit": [
-  "Only subscribers who joined more than **24 hours** ago can vote."
  ],
  "Chat.PostApproval.DetailStatus.PostedPaid": [
   "**%1$@** received **%2$@** for publishing this post"
@@ -1415,24 +1366,6 @@
  ],
  "Chat.PostApproval.Status.UserRejected": [
   "Your post was rejected"
- ],
- "Chat.PostSuggestion.Approve.Action": [
-  "Publish"
- ],
- "Chat.PostSuggestion.Approve.AdminConfirmationPriceStars": [
-  "You will receive %1$@ Stars (%2$@%)for publishing this post. It must remain visible for **24** hours after publication."
- ],
- "Chat.PostSuggestion.Approve.AdminConfirmationPriceTon": [
-  "You will receive %1$@ Grams (%2$@%)for publishing this post. It must remain visible for **24** hours after publication."
- ],
- "Chat.PostSuggestion.Approve.AdminConfirmationText": [
-  "Do you really want to publish this post from **%@**?"
- ],
- "Chat.PostSuggestion.Approve.Title": [
-  "Accept Terms"
- ],
- "Chat.PostSuggestion.Approve.UserConfirmationText": [
-  "Do you really want to publish this post?"
  ],
  "Chat.PostSuggestion.ApproveTime.AdminConfirmationPriceStars": [
   "You will receive %1$@ Stars (%2$@%)for publishing this post."
@@ -1497,38 +1430,8 @@
  "Chat.ReplyPanel.HintReplyOptionsShort": [
   "Tap here for options"
  ],
- "Chat.ReplyPanel.ReplyTo": [
-  "Reply to %@"
- ],
  "Chat.SendAllowedContentPeerText": [
   "The admins of %1$@ only allow sending %2$@."
- ],
- "Chat.SendAllowedContentText": [
-  "The admins of this group only allow sending %1$@."
- ],
- "Chat.SendAllowedContentTypeFile": [
-  "files"
- ],
- "Chat.SendAllowedContentTypeMusic": [
-  "music"
- ],
- "Chat.SendAllowedContentTypePhoto": [
-  "photos"
- ],
- "Chat.SendAllowedContentTypeSticker": [
-  "stickers & GIFs"
- ],
- "Chat.SendAllowedContentTypeText": [
-  "text messages"
- ],
- "Chat.SendAllowedContentTypeVideo": [
-  "videos"
- ],
- "Chat.SendAllowedContentTypeVideoMessage": [
-  "video messages"
- ],
- "Chat.SendAllowedContentTypeVoiceMessage": [
-  "voice messages"
  ],
  "Chat.SendNotAllowedAudioMessage": [
   "Sending voice messages is not allowed in this group"
@@ -1544,9 +1447,6 @@
  ],
  "Chat.SendNotAllowedPhoto": [
   "Sending photos is not allowed in this group"
- ],
- "Chat.SendNotAllowedText": [
-  "Sending messages is not allowed in this group."
  ],
  "Chat.SendNotAllowedVideo": [
   "Sending videos is not allowed in this group"
@@ -1575,9 +1475,6 @@
  "Chat.SlowmodeAttachmentLimitReached": [
   "Slow Mode is enabled. You can't select more items."
  ],
- "Chat.SlowmodeSendError": [
-  "Slow Mode is enabled."
- ],
  "Chat.TagsHeaderPanel.Unlock": [
   "Unlock"
  ],
@@ -1590,17 +1487,8 @@
  "Chat.ToastMessagingRestrictedToPremium.Text": [
   "**%@** only accepts messages from contacts and **Premium** users."
  ],
- "Chat.Todo.CompletionLimited": [
-  "%@ has restricted others from editing this checklist."
- ],
- "Chat.Todo.CompletionLimitedForward": [
-  "You can’t make changes to forwarded checklists."
- ],
  "Chat.Todo.Message.Title": [
   "Checklist"
- ],
- "Chat.Todo.PremiumRequired": [
-  "Only [Telegram Premium]() subscribers can mark tasks as done."
  ],
  "Chat.VideoProcessingInfo": [
   "The video will be published once converted and optimized."
@@ -1775,9 +1663,6 @@
  "ChatList.EmptyTopicsTitle": [
   "No topics here yet"
  ],
- "ChatList.FolderAllChats": [
-  "All Chats"
- ],
  "ChatList.GenericPsaAlert": [
   "This provides public service announcements in your chat list."
  ],
@@ -1850,15 +1735,6 @@
  "ChatList.Search.NoResultsFitlerVoice": [
   "Voice and video messages from all your chats will be shown here."
  ],
- "ChatList.Search.Open": [
-  "OPEN"
- ],
- "ChatList.Search.RecommendedChannelsEmpty.Text": [
-  "You are not currently subscribed to any channel."
- ],
- "ChatList.Search.RecommendedChannelsEmpty.Title": [
-  "No Channels Yet..."
- ],
  "ChatList.SelectedTopics": [
   "%@ Topic Selected",
   "%@ Topics Selected"
@@ -1915,9 +1791,6 @@
  "ChatList.UserReacted": [
   "Reacted %@ to your message"
  ],
- "ChatListFilter.AddChatsSearchPlaceholder": [
-  "Search Chats"
- ],
  "ChatListFilter.CreateLinkErrorSomeoneHasChannelLimit": [
   "One of the groups in this folder can’t be added because one of its admins has too many groups and channels."
  ],
@@ -1927,9 +1800,6 @@
  "ChatListFilter.ShowMoreChats": [
   "Show %@ More Chat",
   "Show %@ More Chats"
- ],
- "ChatListFilterList.CreateFolder": [
-  "Create a Folder"
  ],
  "ChatListFolder.NameNonMuted": [
   "Not Muted"
@@ -2052,9 +1922,6 @@
  "Contacts.VoiceOver.AddContact": [
   "Add Contact"
  ],
- "Conversation.AddToContactsLong": [
-  "Add to Contacts"
- ],
  "Conversation.AudioRateTooltip15X": [
   "Audio will play at 1.5X speed."
  ],
@@ -2088,23 +1955,8 @@
  "Conversation.ContextMenuCancelEditing": [
   "Cancel Editing"
  ],
- "Conversation.ContextMenuLookUp": [
-  "Look Up"
- ],
  "Conversation.ContextMenuOpenInfo": [
   "Open Info"
- ],
- "Conversation.CopyProtectionForwardingDisabledBot": [
-  "Forwarding from this chat is restricted"
- ],
- "Conversation.CopyProtectionForwardingDisabledSecret": [
-  "Forwarding is restricted"
- ],
- "Conversation.CopyProtectionSavingDisabledBot": [
-  "Saving content from this bot is restricted"
- ],
- "Conversation.CopyProtectionSavingDisabledSecret": [
-  "Saving is restricted"
  ],
  "Conversation.DiscardRecordedVoiceMessageAction": [
   "Discard"
@@ -2124,41 +1976,11 @@
  "Conversation.EmojiStake.WonYou": [
   "You won $%@"
  ],
- "Conversation.EmojiTooltip": [
-  "Tap here to choose more emoji"
- ],
- "Conversation.FactCheck.InnerDescription": [
-  "This clarification was provided by Telegram."
- ],
- "Conversation.FormatDate.AddDate": [
-  "Add Date"
- ],
- "Conversation.ForwardOptions.RecipientsMessageForwardHidden": [
-  "Recipients won't see that it was forwarded"
- ],
- "Conversation.ForwardOptions.RecipientsMessageForwardVisible": [
-  "Recipients will see that it was forwarded"
- ],
- "Conversation.ForwardOptions.RecipientsMessagesForwardHidden": [
-  "Recipients won't see they were forwarded"
- ],
- "Conversation.ForwardOptions.RecipientsMessagesForwardVisible": [
-  "Recipients will see they were forwarded"
- ],
  "Conversation.ForwardOptions.TapForOptionsShort": [
   "Tap here for options"
  ],
- "Conversation.HoldForAudioOnly": [
-  "Hold to record audio."
- ],
- "Conversation.HoldForVideoOnly": [
-  "Hold to record video."
- ],
  "Conversation.ImportProgress": [
   "Importing Messages... %@%"
- ],
- "Conversation.ImportedMessageHint": [
-  "This message was imported from another app. We can't guarantee it's real."
  ],
  "Conversation.IncreaseSpeed": [
   "Increase Speed"
@@ -2172,14 +1994,8 @@
  "Conversation.LaunchApp": [
   "LAUNCH APP"
  ],
- "Conversation.LiveLocationYouAndOther": [
-  "**You** and %@"
- ],
  "Conversation.LiveStream": [
   "Live Stream"
- ],
- "Conversation.LiveStreamMediaRecordingRestricted": [
-  "You can't record voice and video messages during a live stream."
  ],
  "Conversation.MessageLeaveCommentShort": [
   "Comment"
@@ -2202,9 +2018,6 @@
  "Conversation.PremiumUploadFileTooLarge": [
   "File could not be sent because it is larger than 4 GB.You can send as many files as you like, but each must be smaller than 4 GB."
  ],
- "Conversation.PressVolumeButtonForSound": [
-  "Press volume buttonto unmute the video"
- ],
  "Conversation.ReadMore": [
   "Read More"
  ],
@@ -2217,38 +2030,8 @@
  "Conversation.RestrictedMedia": [
   "The admins of this group have restricted your ability to send media."
  ],
- "Conversation.ScheduledLiveStreamStartsOn": [
-  "Live stream starts on %@"
- ],
- "Conversation.ScheduledLiveStreamStartsToday": [
-  "Live stream starts today at %@"
- ],
- "Conversation.ScheduledLiveStreamStartsTomorrow": [
-  "Live stream starts tomorrow at %@"
- ],
- "Conversation.ScheduledVoiceChatStartsOn": [
-  "Video chat starts %@"
- ],
- "Conversation.ScheduledVoiceChatStartsToday": [
-  "Video chat starts today at %@"
- ],
- "Conversation.ScheduledVoiceChatStartsTomorrow": [
-  "Video chat starts tomorrow at %@"
- ],
  "Conversation.SendMessageErrorNonPremiumForbidden": [
   "Only Premium users can message %@"
- ],
- "Conversation.SendMessageErrorTooFast": [
-  "You are sending messages too fast. Please wait a bit."
- ],
- "Conversation.SendMessageErrorTooFastTitle": [
-  "Not so fast"
- ],
- "Conversation.SendMessageErrorTooMuchScheduled": [
-  "Sorry, you can not schedule more than 100 messages."
- ],
- "Conversation.SendWhenOnlineTooltip": [
-  "Long tap to send your message later."
  ],
  "Conversation.ShareMyPhoneNumberConfirmation.Action": [
   "Share"
@@ -2343,27 +2126,6 @@
  "Conversation.Translation.Hide": [
   "Hide"
  ],
- "Conversation.Translation.Settings": [
-  "Settings"
- ],
- "Conversation.Translation.ShowOriginal": [
-  "Show Original"
- ],
- "Conversation.Translation.TranslateTo": [
-  "Translate to %@"
- ],
- "Conversation.Translation.TranslateToOther": [
-  "Translate to %@"
- ],
- "Conversation.Translation.TranslationBarHiddenChannelText": [
-  "The translation bar is now hidden for this channel."
- ],
- "Conversation.Translation.TranslationBarHiddenChatText": [
-  "Translation bar hidden for this chat."
- ],
- "Conversation.Translation.TranslationBarHiddenGroupText": [
-  "The translation bar is now hidden for this group."
- ],
  "Conversation.UnsupportedMedia.Action": [
   "Update"
  ],
@@ -2375,9 +2137,6 @@
  ],
  "Conversation.ViewPost": [
   "VIEW POST"
- ],
- "Conversation.VoiceChatMediaRecordingRestricted": [
-  "You can't record voice and video messages during a video chat."
  ],
  "Conversation.VoiceMessagesRestricted": [
   "%@ doesn't accept voice or video messages"
@@ -2394,23 +2153,11 @@
  "CreateExternalStream.StreamKeyTitle": [
   "Stream Key"
  ],
- "CreateGroup.AutoDeleteText": [
-  "Automatically delete messages in this group for everyone after a period of time."
- ],
- "CreateGroup.AutoDeleteTitle": [
-  "Auto-Delete Messages"
- ],
  "CreateGroup.ErrorLocatedGroupsTooMuch": [
   "Sorry, you have too many location-based groups already. Please delete one of your existing ones first."
  ],
  "CreateGroup.PeersTitleDelimeter": [
   ", "
- ],
- "CreateGroup.PublicLinkInfo": [
-  "You can use **a-z**, **0-9** and underscores. Minimum length is **5** characters."
- ],
- "CreateGroup.PublicLinkTitle": [
-  "SET A PUBLIC LINK"
  ],
  "CreatePoll.EnableQuizInfo": [
   "Mark one option as the right answer"
@@ -2513,9 +2260,6 @@
  ],
  "EmojiInput.PanelTitleRecent": [
   "Recent"
- ],
- "EmojiInput.PremiumEmojiToast.Action": [
-  "More"
  ],
  "EmojiInput.PremiumEmojiToast.Text": [
   "Subscribe to Telegram Premium to unlock premium emoji."
@@ -3768,6 +3512,9 @@
  "LiveStream.StopLiveStream": [
   "Stop Live Stream"
  ],
+ "LiveStream.Watching": [
+  "watching"
+ ],
  "LiveStream.Watching.Members": [
   "%@ watching",
   "%@ watching"
@@ -4112,12 +3859,6 @@
  "Message.AdRecommendedLabel": [
   "Recommended"
  ],
- "Message.FactCheck": [
-  "Fact Check"
- ],
- "Message.FactCheck.WhatIsThis": [
-  "what's this?"
- ],
  "Message.FakeAccount": [
   "Fake"
  ],
@@ -4159,9 +3900,6 @@
  ],
  "Message.RecommendedLabel": [
   "recommended"
- ],
- "Message.RepeatAt": [
-  "%1$@ at %2$@"
  ],
  "Message.StickerText": [
   "%@ Sticker"
@@ -4427,9 +4165,6 @@
  "Notification.ForumTopicHidden": [
   "Topic hidden"
  ],
- "Notification.ForumTopicHiddenAuthor": [
-  "%1$@ hid the topic"
- ],
  "Notification.ForumTopicIconChanged": [
   "Topic icon changed to %1$@"
  ],
@@ -4447,9 +4182,6 @@
  ],
  "Notification.ForumTopicUnhidden": [
   "Topic unhidden"
- ],
- "Notification.ForumTopicUnhiddenAuthor": [
-  "%1$@ unhid the topic"
  ],
  "Notification.GameScoreSelfExtended": [
   "scored %@ in {game}",
@@ -5358,9 +5090,6 @@
   "**%d** member added to the group.",
   "**%d** members added to the group."
  ],
- "PeerInfo.OptionTopicsText": [
-  "The group chat will be divided into topics created by admins or users."
- ],
  "PeerInfo.PaneGifs": [
   "GIFs"
  ],
@@ -5469,9 +5198,6 @@
  ],
  "Premium.FasterSpeedStandaloneInfo": [
   "Subscribe to **Telegram Premium** to download media and files at the fastest possible speed."
- ],
- "Premium.Gift.ContactSelection.TransferSelf": [
-  "send yourself a gift"
  ],
  "Premium.Gift.Description": [
   "Give **%@** access to exclusive features with **Telegram Premium**."
@@ -5976,23 +5702,8 @@
  "ReportPeer.ReasonFake": [
   "Fake Account"
  ],
- "RequestPeer.BotsAllEmpty": [
-  "You don't have any bots."
- ],
  "RequestPeer.ChannelsAllEmpty": [
   "You don't have any channels."
- ],
- "RequestPeer.ChannelsEmpty": [
-  "You don't have channels that meet the following requirements:"
- ],
- "RequestPeer.ChooseBotTitle": [
-  "Choose a Bot"
- ],
- "RequestPeer.ChooseUserTitle": [
-  "Choose a User"
- ],
- "RequestPeer.GroupsAllEmpty": [
-  "You don't have any groups."
  ],
  "RequestPeer.GroupsEmpty": [
   "You don't have groups that meet the following requirements:"
@@ -6011,12 +5722,6 @@
  ],
  "RequestPeer.Requirement.Channel.Rights.Anonymous": [
   "remain anonymous"
- ],
- "RequestPeer.Requirement.Channel.Rights.Delete": [
-  "delete messages"
- ],
- "RequestPeer.Requirement.Channel.Rights.Edit": [
-  "edit messages"
  ],
  "RequestPeer.Requirement.Channel.Rights.Info": [
   "change channel info"
@@ -6072,23 +5777,8 @@
  "RequestPeer.Requirement.Group.Rights.VideoChats": [
   "manage video chats"
  ],
- "RequestPeer.Requirement.UserPremiumOff": [
-  "The user must not have a Premium subscription."
- ],
  "RequestPeer.Requirement.UserPremiumOn": [
   "The user must have a Premium subscription."
- ],
- "RequestPeer.SelectUsers": [
-  "Select Users"
- ],
- "RequestPeer.SelectUsers.SearchPlaceholder": [
-  "Search"
- ],
- "RequestPeer.SelectionConfirmationInviteText": [
-  "This will also add %1$@ to %2$@."
- ],
- "RequestPeer.SelectionConfirmationInviteWithRightsText": [
-  "This will also add %1$@ to %2$@ with the following rights:%3$@"
  ],
  "RequestPeer.UsersEmpty": [
   "You don't know users who meet the following requirements:"
@@ -6968,110 +6658,8 @@
  "Translate.Languages.Title": [
   "Languages"
  ],
- "Translation.Language.ar": [
-  "Arabic"
- ],
- "Translation.Language.be": [
-  "Belarusian"
- ],
- "Translation.Language.ca": [
-  "Catalan"
- ],
- "Translation.Language.cs": [
-  "Czech"
- ],
- "Translation.Language.de": [
-  "German"
- ],
- "Translation.Language.en": [
-  "English"
- ],
- "Translation.Language.eo": [
-  "Esperanto"
- ],
- "Translation.Language.es": [
-  "Spanish"
- ],
- "Translation.Language.fa": [
-  "Persian"
- ],
- "Translation.Language.fi": [
-  "Finnish"
- ],
- "Translation.Language.fr": [
-  "French"
- ],
- "Translation.Language.he": [
-  "Hebrew"
- ],
- "Translation.Language.hr": [
-  "Croatian"
- ],
- "Translation.Language.hu": [
-  "Hungarian"
- ],
- "Translation.Language.id": [
-  "Indonesian"
- ],
- "Translation.Language.it": [
-  "Italian"
- ],
- "Translation.Language.ja": [
-  "Japanese"
- ],
- "Translation.Language.ko": [
-  "Korean"
- ],
  "Translation.Language.kz": [
   "Kazakh"
- ],
- "Translation.Language.ml": [
-  "Malayalam"
- ],
- "Translation.Language.ms": [
-  "Malay"
- ],
- "Translation.Language.nl": [
-  "Dutch"
- ],
- "Translation.Language.no": [
-  "Norwegian"
- ],
- "Translation.Language.po": [
-  "Polish"
- ],
- "Translation.Language.pt": [
-  "Portuguese"
- ],
- "Translation.Language.ro": [
-  "Romanian"
- ],
- "Translation.Language.ru": [
-  "Russian"
- ],
- "Translation.Language.sk": [
-  "Slovak"
- ],
- "Translation.Language.sr": [
-  "Serbian"
- ],
- "Translation.Language.sv": [
-  "Swedish"
- ],
- "Translation.Language.ta": [
-  "Tamil"
- ],
- "Translation.Language.tr": [
-  "Turkish"
- ],
- "Translation.Language.uk": [
-  "Ukrainian"
- ],
- "Translation.Language.uz": [
-  "Uzbek"
- ],
- "Translation.Language.zh": [
-  "Chinese"
  ],
  "Translation.LanguageFrom.AR": [
   "Arabic"
@@ -7318,9 +6906,6 @@
  ],
  "Undo.DeletedTopic": [
   "Topic Deleted"
- ],
- "Undo.ScheduledMessagesCleared": [
-  "Scheduled messages cleared"
  ],
  "Update.AppVersion": [
   "Telegram %@"
@@ -8429,6 +8014,9 @@
  ],
  "Wallet.Words.NewTitle": [
   "New Secret Phrase"
+ ],
+ "Wallpaper.ErrorNotFound": [
+  "Sorry, this chat wallpaper doesn't seem to exist."
  ],
  "WallpaperPreview.AnimateDescription": [
   "Colors will move when you send messages"

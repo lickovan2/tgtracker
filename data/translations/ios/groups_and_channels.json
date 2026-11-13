@@ -170,6 +170,9 @@
  "AuthSessions.View.TerminateSession": [
   "Terminate Session"
  ],
+ "Autoremove.OptionOff": [
+  "Off"
+ ],
  "AutoremoveSetup.TimeSectionHeader": [
   "AUTO-DELETE MESSAGES"
  ],
@@ -1907,6 +1910,9 @@
  "Chat.AdminAction.ToastReactionsDeletedTextMultiple": [
   "Reactions Deleted."
  ],
+ "Chat.AdminAction.ToastReactionsDeletedTitleSingle": [
+  "Reaction Deleted"
+ ],
  "Chat.AdminAction.ToastReportedSpamText": [
   "**1** user reported for spam.",
   "**%d** users reported for spam."
@@ -2163,6 +2169,24 @@
  "Chat.Giveaway.Message.With": [
   "with"
  ],
+ "Chat.Giveaway.Toast.AlmostOver": [
+  "The giveaway is almost over."
+ ],
+ "Chat.Giveaway.Toast.Ended": [
+  "This giveaway has ended."
+ ],
+ "Chat.Giveaway.Toast.LearnMore": [
+  "Learn More"
+ ],
+ "Chat.Giveaway.Toast.NotAllowed": [
+  "You can't participate in this giveaway."
+ ],
+ "Chat.Giveaway.Toast.NotQualified": [
+  "You are not qualified for this giveaway yet."
+ ],
+ "Chat.Giveaway.Toast.Participating": [
+  "You are participating in this giveaway."
+ ],
  "Chat.HashtagSuggestion.UseGeneric.Text": [
   "searches posts from all channels"
  ],
@@ -2254,17 +2278,35 @@
  "Chat.PaidMessage.Confirm.Title": [
   "Confirm Payment"
  ],
+ "Chat.PanelForumModeReplyText": [
+  "Swipe left on a message to reply"
+ ],
  "Chat.PanelHidePinnedMessages": [
   "Hide Pinned Messages"
+ ],
+ "Chat.PanelUnpinAllMessages": [
+  "Unpin All Messages"
  ],
  "Chat.Placeholder.WelcomeMessage": [
   "Add a message..."
  ],
+ "Chat.PlaceholderTextNotAllowed": [
+  "Text not allowed"
+ ],
  "Chat.Poll.Restriction.Country": [
   "Only users from %@ can vote."
  ],
+ "Chat.Poll.Restriction.Country.CountriesDelimiter": [
+  ", "
+ ],
+ "Chat.Poll.Restriction.Country.CountriesLastDelimiter": [
+  " and "
+ ],
  "Chat.Poll.Restriction.Subscribers": [
   "Only subscribers of **%@** can vote."
+ ],
+ "Chat.Poll.Restriction.Subscribers.TimeLimit": [
+  "Only subscribers who joined more than **24 hours** ago can vote."
  ],
  "Chat.Poll.Restriction.SubscribersCountry": [
   "Only subscribers of **%@** from %@ can vote."
@@ -2329,6 +2371,15 @@
  ],
  "Chat.PostApproval.Message.UserTitleRejectedComment": [
   "❌ **%@** rejected your message with the comment:"
+ ],
+ "Chat.PostSuggestion.Approve.Action": [
+  "Publish"
+ ],
+ "Chat.PostSuggestion.Approve.Title": [
+  "Accept Terms"
+ ],
+ "Chat.PostSuggestion.Approve.UserConfirmationText": [
+  "Do you really want to publish this post?"
  ],
  "Chat.PostSuggestion.ApproveTime.NoTimeAction": [
   "Post Now"
@@ -2447,6 +2498,15 @@
  "Chat.PremiumReactionToastTitle": [
   "Subscribe to **Telegram Premium** to unlock this reaction."
  ],
+ "Chat.Reactions.MultiplePremiumTooltip": [
+  "You can send multiple reactions with [Telegram Premium]()."
+ ],
+ "Chat.ReplyPanel.HintReplyOptions": [
+  "Tap here for reply options"
+ ],
+ "Chat.ReplyPanel.ReplyTo": [
+  "Reply to %@"
+ ],
  "Chat.ReplyStoryPrivateChannel": [
   "Private story"
  ],
@@ -2461,6 +2521,12 @@
  ],
  "Chat.ScheduledForceSendProcessingVideo.Title": [
   "Wait!"
+ ],
+ "Chat.SendNotAllowedText": [
+  "Sending messages is not allowed in this group."
+ ],
+ "Chat.SendReactionRestricted": [
+  "You cannot send reactions in this chat."
  ],
  "Chat.SensitiveContent": [
   "18+ Content"
@@ -2488,6 +2554,10 @@
  ],
  "Chat.TagUpdated.Removed": [
   "Tag removed"
+ ],
+ "Chat.TitlePinnedMessages": [
+  "Pinned Message",
+  "%@ Pinned Messages"
  ],
  "Chat.TitleVideochatPanel.NotifyScheduledButton": [
   "Notify Me"
@@ -2525,6 +2595,13 @@
  ],
  "Chat.ToastVideoPublished.Title": [
   "Video Published"
+ ],
+ "Chat.Todo.Message.Completed": [
+  "%@ of {count} completed",
+  "%@ of {count} completed"
+ ],
+ "Chat.Todo.Message.TitleGroup": [
+  "Group Checklist"
  ],
  "Chat.TopicIsClosedLabel": [
   "Topic \"%1$@\" is closed"
@@ -2637,6 +2714,9 @@
  ],
  "Contacts.TopSection": [
   "CONTACTS"
+ ],
+ "Conversation.AddMembers": [
+  "Add Members"
  ],
  "Conversation.Admin": [
   "admin"
@@ -2804,6 +2884,12 @@
  "Conversation.ForwardOptions.ChangeRecipient": [
   "Change Recipient"
  ],
+ "Conversation.ForwardOptions.ChannelMessageForwardVisible": [
+  "Recipients will see that it was forwarded"
+ ],
+ "Conversation.ForwardOptions.ChannelMessagesForwardVisible": [
+  "Recipients will see they were forwarded"
+ ],
  "Conversation.ForwardOptions.ForwardTitle": [
   "Forward %@ Message",
   "Forward %@ Messages"
@@ -2825,6 +2911,9 @@
  ],
  "Conversation.ForwardOptions.HideSendersNames": [
   "Hide Sender Names"
+ ],
+ "Conversation.ForwardOptions.TapForOptions": [
+  "Tap here for forwarding options"
  ],
  "Conversation.ForwardOptions.UserMessageForwardVisible": [
   "%@ will see that it was forwarded"
@@ -2867,6 +2956,9 @@
  ],
  "Conversation.LinkDialogOpen": [
   "Open"
+ ],
+ "Conversation.LiveStreamMediaRecordingRestricted": [
+  "You can't record voice and video messages during a live stream."
  ],
  "Conversation.MessageDialogDelete": [
   "Delete"
@@ -3120,6 +3212,15 @@
  "Conversation.TitleRepliesEmpty": [
   "Replies"
  ],
+ "Conversation.Translation.AddedToDoNotTranslateText": [
+  "**%@** added to your Do Not Translate list."
+ ],
+ "Conversation.Translation.Settings": [
+  "Settings"
+ ],
+ "Conversation.Translation.TranslationBarHiddenChannelText": [
+  "The translation bar is now hidden for this channel."
+ ],
  "Conversation.Unmute": [
   "Unmute"
  ],
@@ -3171,11 +3272,23 @@
  "CreateExternalStream.Title": [
   "Stream With..."
  ],
+ "CreateGroup.AutoDeleteText": [
+  "Automatically delete messages in this group for everyone after a period of time."
+ ],
+ "CreateGroup.AutoDeleteTitle": [
+  "Auto-Delete Messages"
+ ],
  "CreateGroup.ChannelsTooMuch": [
   "Sorry, you are a member of too many groups and channels. Please leave some before creating a new one."
  ],
  "CreateGroup.PeersTitleLastDelimeter": [
   " and "
+ ],
+ "CreateGroup.PublicLinkInfo": [
+  "You can use **a-z**, **0-9** and underscores. Minimum length is **5** characters."
+ ],
+ "CreateGroup.PublicLinkTitle": [
+  "SET A PUBLIC LINK"
  ],
  "CreateGroup.SoftUserLimitAlert": [
   "You will be able to add more members after you create the group."
@@ -3252,6 +3365,9 @@
  "Emoji.GroupEmoji": [
   "GROUP EMOJI"
  ],
+ "EmojiInput.PremiumEmojiToast.Action": [
+  "More"
+ ],
  "EmojiSearch.SearchReactionsEmptyResult": [
   "No emoji found"
  ],
@@ -3313,6 +3429,9 @@
  "ForwardedMessages": [
   "Forwarded message",
   "%@ forwarded messages"
+ ],
+ "Generic.ErrorMoreInfo": [
+  "Learn More"
  ],
  "Generic.OpenHiddenLinkAlert": [
   "Open %@?"
@@ -5362,6 +5481,9 @@
  "PeerInfo.OptionTopics.Enabled": [
   "Enabled"
  ],
+ "PeerInfo.OptionTopicsText": [
+  "The group chat will be divided into topics created by admins or users."
+ ],
  "PeerInfo.PaneFiles": [
   "Files"
  ],
@@ -5590,6 +5712,9 @@
  ],
  "RepliesChat.DescriptionText": [
   "This chat helps you keep track of replies to your comments in Channels."
+ ],
+ "Report.Succeed": [
+  "Telegram moderators will review your report. Thank you!"
  ],
  "Report.Title.Channel": [
   "Report Channel"
@@ -6577,6 +6702,16 @@
  ],
  "VoiceChat.OpenChat": [
   "Open Chat"
+ ],
+ "VoiceChat.Panel.Members": [
+  "%@ participant",
+  "%@ participants"
+ ],
+ "VoiceChat.Panel.TapToJoin": [
+  "Tap to join"
+ ],
+ "VoiceChat.PanelJoin": [
+  "Join"
  ],
  "VoiceChat.ParticipantIsSpeaking": [
   "%1$@ is speaking"

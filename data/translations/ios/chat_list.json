@@ -41,6 +41,9 @@
  "BlockedUsers.LeavePrefix": [
   "Leave "
  ],
+ "Calls.TabTitle": [
+  "Calls"
+ ],
  "Channel.LeaveChannel": [
   "Leave Channel"
  ],
@@ -265,6 +268,9 @@
  "ChatList.EmptyChatListWithArchive": [
   "All of your chats are archived."
  ],
+ "ChatList.FolderAllChats": [
+  "All Chats"
+ ],
  "ChatList.FoldersTip": [
   "Tap and hold  #**Chats**to view all folders."
  ],
@@ -327,11 +333,17 @@
  "ChatList.PeerTypeBot": [
   "bot"
  ],
+ "ChatList.PeerTypeChannel": [
+  "channel"
+ ],
  "ChatList.PeerTypeContact": [
   "contact"
  ],
  "ChatList.PeerTypeGroup": [
   "group"
+ ],
+ "ChatList.PeerTypeNonContactUser": [
+  "non-contact"
  ],
  "ChatList.PremiumGiftInSettingsInfo": [
   "You can send gifts to friends later from **Settings**."
@@ -369,11 +381,20 @@
  "ChatList.ReorderTabs": [
   "Reorder Tabs"
  ],
+ "ChatList.Search.FilterApps": [
+  "Apps"
+ ],
+ "ChatList.Search.FilterChannels": [
+  "Channels"
+ ],
  "ChatList.Search.FilterChats": [
   "Chats"
  ],
  "ChatList.Search.FilterFiles": [
   "Files"
+ ],
+ "ChatList.Search.FilterGlobalPosts": [
+  "Posts"
  ],
  "ChatList.Search.FilterLinks": [
   "Links"
@@ -396,14 +417,29 @@
  "ChatList.Search.NoResultsQueryDescription": [
   "There were no results for \"%@\".Try a new search."
  ],
+ "ChatList.Search.Open": [
+  "OPEN"
+ ],
+ "ChatList.Search.RecommendedChannelsEmpty.Text": [
+  "You are not currently subscribed to any channel."
+ ],
+ "ChatList.Search.RecommendedChannelsEmpty.Title": [
+  "No Channels Yet..."
+ ],
  "ChatList.Search.SectionApps": [
   "APPS"
+ ],
+ "ChatList.Search.SectionPopularApps": [
+  "GROSSING APPS"
  ],
  "ChatList.Search.ShowLess": [
   "Show Less"
  ],
  "ChatList.Search.ShowMore": [
   "Show More"
+ ],
+ "ChatList.Search.TopAppsInfo": [
+  "Which apps are included here? [Learn >]()"
  ],
  "ChatList.SelectedChats": [
   "%@ Chat Selected",
@@ -469,11 +505,26 @@
  "ChatList.Unmute": [
   "Unmute"
  ],
+ "ChatListFilter.AddChatsSearchPlaceholder": [
+  "Search Chats"
+ ],
  "ChatListFilter.AddChatsTitle": [
   "Add Chats..."
  ],
+ "ChatListFilter.ExcludeChatsAction": [
+  "Add Chats to Exclude"
+ ],
  "ChatListFilter.SaveAlertActionSave": [
   "Save"
+ ],
+ "ChatListFilterList.CreateFolder": [
+  "Create a Folder"
+ ],
+ "ChatListFilterList.ShowTags": [
+  "Show Folder Tags"
+ ],
+ "ChatListFilterList.ShowTagsFooter": [
+  "Display folder names for each chat in the chat list."
  ],
  "ChatListFolder.AddChats": [
   "Add Chats"
@@ -607,13 +658,25 @@
  "Contacts.AddPhoneNumber": [
   "Add %@"
  ],
+ "Contacts.PermissionsText": [
+  "Please allow Telegram access to your phonebook to seamlessly find all your friends."
+ ],
+ "Contacts.PermissionsTitle": [
+  "Access to Contacts"
+ ],
  "Contacts.PhoneNumber": [
   "Phone Number"
  ],
  "Contacts.SearchLabel": [
   "Search for contacts or usernames"
  ],
+ "Contacts.SortedByPresence": [
+  "Sorted by Last Seen Time"
+ ],
  "Contacts.TabTitle": [
+  "Contacts"
+ ],
+ "Contacts.Title": [
   "Contacts"
  ],
  "Conversation.ContextMenuCopyLink": [
@@ -673,6 +736,10 @@
  ],
  "Conversation.SaveToFiles": [
   "Save to Files"
+ ],
+ "Conversation.StatusBotSubscribers": [
+  "1 monthly user",
+  "%d monthly users"
  ],
  "Conversation.Unarchive": [
   "Unarchive"
@@ -948,6 +1015,10 @@
  "LastSeen.Lately": [
   "last seen recently"
  ],
+ "LastSeen.MinutesAgo": [
+  "last seen 1 minute ago",
+  "last seen %@ minutes ago"
+ ],
  "Message.Animation": [
   "GIF"
  ],
@@ -959,6 +1030,9 @@
  ],
  "Message.Contact": [
   "Contact"
+ ],
+ "Message.File": [
+  "File"
  ],
  "Message.GiveawayStarted": [
   "Channel started a giveaway"
@@ -1022,6 +1096,9 @@
  ],
  "Message.VideoMessage": [
   "Video Message"
+ ],
+ "NewContact.Title": [
+  "New Contact"
  ],
  "Notification.CallMissed": [
   "Missed Call"
@@ -1098,6 +1175,9 @@
  "Notifications.AddExceptionTitle": [
   "Add Exception"
  ],
+ "Permissions.ContactsAllowInSettings.v0": [
+  "Allow in Settings"
+ ],
  "Premium.LimitReached": [
   "Limit Reached"
  ],
@@ -1116,6 +1196,9 @@
  "Premium.MaxSharedFolderLinksText": [
   "You can only create **%1$@** invite links. Upgrade to **Telegram Premium** to create up to **%2$@**."
  ],
+ "Presence.online": [
+  "online"
+ ],
  "RequestPeer.SelectionConfirmationSend": [
   "Send"
  ],
@@ -1127,6 +1210,9 @@
  ],
  "Settings.Context.Logout": [
   "Log Out"
+ ],
+ "Settings.Title": [
+  "Settings"
  ],
  "State.Connecting": [
   "Connecting..."

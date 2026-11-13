@@ -672,6 +672,12 @@
  "Common.Yes": [
   "Yes"
  ],
+ "Contacts.PermissionsText": [
+  "Please allow Telegram access to your phonebook to seamlessly find all your friends."
+ ],
+ "Contacts.PermissionsTitle": [
+  "Access to Contacts"
+ ],
  "Conversation.EmptyPlaceholder": [
   "No messages here yet..."
  ],
@@ -692,6 +698,25 @@
  ],
  "EmptyState.GreetingMessage.Title": [
   "New Greeting Message"
+ ],
+ "Gift.PremiumOrStars.Title": [
+  "Send a Gift"
+ ],
+ "Gift.Transfer.MoveToGifts": [
+  "Move to My Gifts"
+ ],
+ "Gift.Transfer.SendUnlocks": [
+  "unlocks in %@"
+ ],
+ "Gift.Transfer.SendUnlocks.Days": [
+  "%@ day",
+  "%@ days"
+ ],
+ "Gift.Transfer.SendViaBlockchain": [
+  "Send via Blockchain"
+ ],
+ "Gift.Transfer.Title": [
+  "Transfer"
  ],
  "GroupBoost.AudioTranscription": [
   "Audio Transcription"
@@ -729,6 +754,17 @@
  "GroupInfo.InviteLink.ShareLink": [
   "Share Link"
  ],
+ "LastSeen.HoursAgo": [
+  "last seen 1 hour ago",
+  "last seen %@ hours ago"
+ ],
+ "LastSeen.Lately": [
+  "last seen recently"
+ ],
+ "LastSeen.MinutesAgo": [
+  "last seen 1 minute ago",
+  "last seen %@ minutes ago"
+ ],
  "MessageTimer.Days": [
   "%@ day",
   "%@ days"
@@ -736,17 +772,47 @@
  "Month.ShortDecember": [
   "Dec"
  ],
+ "Permissions.ContactsAllowInSettings.v0": [
+  "Allow in Settings"
+ ],
  "Premium.Gift.ApplyLink.AlreadyHasPremium.Text": [
   "You can activate this gift link after **%@** or [send the link]() to a friend."
  ],
  "Premium.Gift.ApplyLink.AlreadyHasPremium.Title": [
   "You already have Telegram Premium"
  ],
+ "Premium.Gift.ContactSelection.AddBirthday": [
+  "Add Your Birthday"
+ ],
+ "Premium.Gift.ContactSelection.BirthdayToday": [
+  "🎂 BIRTHDAY TODAY"
+ ],
+ "Premium.Gift.ContactSelection.BirthdayTomorrow": [
+  "BIRTHDAY TOMORROW"
+ ],
+ "Premium.Gift.ContactSelection.BirthdayYesterday": [
+  "BIRTHDAY YESTERDAY"
+ ],
+ "Premium.Gift.ContactSelection.BuySelf": [
+  "buy yourself a gift"
+ ],
  "Premium.Gift.ContactSelection.OpenProfile": [
   "Open Profile"
  ],
+ "Premium.Gift.ContactSelection.Proceed": [
+  "Proceed"
+ ],
  "Premium.Gift.ContactSelection.SendMessage": [
   "Send Message"
+ ],
+ "Premium.Gift.ContactSelection.ThisIsYou": [
+  "THIS IS YOU"
+ ],
+ "Premium.Gift.ContactSelection.Title": [
+  "Gift Premium"
+ ],
+ "Premium.Gift.ContactSelection.TransferSelf": [
+  "send yourself a gift"
  ],
  "Premium.LimitReached": [
   "Limit Reached"
@@ -819,6 +885,9 @@
  ],
  "ReassignBoost.WaitForCooldown": [
   "Wait until the boost is available or get **%1$@** more boosts by gifting a **Telegram Premium** subscription."
+ ],
+ "Stars.Purchase.GiftStars": [
+  "Gift Stars"
  ],
  "Weekday.ShortSaturday": [
   "Sat"
