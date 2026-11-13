@@ -82,6 +82,15 @@
  "CallList.ToastCallLinkCopied.Text": [
   "Call link copied"
  ],
+ "CallSettings.Always": [
+  "Always"
+ ],
+ "CallSettings.Never": [
+  "Never"
+ ],
+ "CallSettings.OnMobile": [
+  "On Mobile Network"
+ ],
  "CallSettings.RecentCalls": [
   "Recent Calls"
  ],
@@ -90,6 +99,12 @@
  ],
  "CallSettings.TabIconDescription": [
   "A call icon will appear in the tab bar."
+ ],
+ "CallSettings.Title": [
+  "Calls"
+ ],
+ "CallSettings.UseLessDataLongDescription": [
+  "Using less data may improve your experience on bad networks, but will slightly decrease audio and video quality."
  ],
  "Calls.All": [
   "All"

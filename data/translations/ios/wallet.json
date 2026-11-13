@@ -266,14 +266,29 @@
  "Wallet.Backup.WalletChangedTitle": [
   "Wallet Changed"
  ],
+ "Wallet.Connect.Action": [
+  "Connect"
+ ],
+ "Wallet.Connect.Disclaimer": [
+  "%@ won’t be able to move funds without permission."
+ ],
  "Wallet.Connect.Error": [
   "Unable to connect this app. Please try again."
+ ],
+ "Wallet.Connect.Permissions": [
+  "It will be able to view your wallet address, balance and activity."
+ ],
+ "Wallet.Connect.Proof": [
+  "%@ requires you to prove ownership of this wallet."
  ],
  "Wallet.Connect.SuccessText": [
   "You are now connected to [%@]()."
  ],
  "Wallet.Connect.SuccessTitle": [
   "Connection Successful"
+ ],
+ "Wallet.Connect.Title": [
+  "Connect to %@"
  ],
  "Wallet.Continue": [
   "Continue"

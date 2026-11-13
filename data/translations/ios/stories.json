@@ -2,6 +2,12 @@
  "AccessDenied.LocationWeather": [
   "Telegram needs access to your location so that you can add weather widgets to your stories.Please go to Settings > Privacy > Location Services and set Telegram to ON."
  ],
+ "AccessDenied.Settings": [
+  "Settings"
+ ],
+ "AccessDenied.Title": [
+  "Please Allow Access"
+ ],
  "ArchiveInfo.ChatsText": [
   "Move any chat into your Archive and back by swiping on it."
  ],
@@ -274,6 +280,9 @@
  "Common.Edit": [
   "Edit"
  ],
+ "Common.NotNow": [
+  "Not Now"
+ ],
  "Common.OK": [
   "OK"
  ],
@@ -367,9 +376,15 @@
   "last seen 1 hour ago",
   "last seen %@ hours ago"
  ],
+ "LastSeen.Lately": [
+  "last seen recently"
+ ],
  "LastSeen.MinutesAgo": [
   "last seen 1 minute ago",
   "last seen %@ minutes ago"
+ ],
+ "LastSeen.WithinAWeek": [
+  "last seen within a week"
  ],
  "LiveStream.CommentsDisabledPlaceholder": [
   "Comments disabled"
@@ -530,6 +545,12 @@
  "MessageTimer.Minutes": [
   "%@ minute",
   "%@ minutes"
+ ],
+ "Monetization.AdRevenueTitle": [
+  "AD REWARDS"
+ ],
+ "Monetization.StarsRevenueTitle": [
+  "REVENUE"
  ],
  "Month.GenAugust": [
   "August"
@@ -745,6 +766,10 @@
  "Stats.Boosts.BoostersNone": [
   "BOOSTERS"
  ],
+ "Stats.Boosts.Boosts": [
+  "%@ BOOST",
+  "%@ BOOSTS"
+ ],
  "Stats.Boosts.BoostsToLevelUp": [
   "Boosts to Level Up"
  ],
@@ -790,6 +815,9 @@
  ],
  "Stats.Boosts.ToBeDistributed": [
   "To Be Distributed"
+ ],
+ "Stats.Monetization": [
+  "Monetization"
  ],
  "Stats.Statistics": [
   "Statistics"
@@ -1846,10 +1874,6 @@
  "StoryList.SubtitleArchived": [
   "1 archived post",
   "%d archived posts"
- ],
- "StoryList.SubtitleCount": [
-  "1 story",
-  "%d stories"
  ],
  "StoryList.SubtitleSaved": [
   "1 posted story",

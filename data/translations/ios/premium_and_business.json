@@ -79,6 +79,21 @@
   "this channel will receive %@ boost",
   "this channel will receive %@ boosts"
  ],
+ "BoostGift.ChannelsOrGroups.Save": [
+  "Save Channels and Groups"
+ ],
+ "BoostGift.ChannelsOrGroups.Search": [
+  "Search Channels and Groups"
+ ],
+ "BoostGift.ChannelsOrGroups.SectionTitle": [
+  "CHANNELS AND GROUPS"
+ ],
+ "BoostGift.ChannelsOrGroups.Subtitle": [
+  "select up to %@ channels or groups"
+ ],
+ "BoostGift.ChannelsOrGroups.Title": [
+  "Add Channels or Groups"
+ ],
  "BoostGift.CreateGiveawayInfo": [
   "winners are chosen randomly"
  ],
@@ -185,6 +200,15 @@
  "BoostGift.Members.MaximumReached": [
   "You can select maximum %@ members."
  ],
+ "BoostGift.Members.Search": [
+  "Search Members"
+ ],
+ "BoostGift.Members.SectionTitle": [
+  "MEMBERS"
+ ],
+ "BoostGift.Members.Subtitle": [
+  "select up to %@ members"
+ ],
  "BoostGift.NewDescription": [
   "Get more boosts and subscribers foryour channel by giving away prizes."
  ],
@@ -270,8 +294,26 @@
  "BoostGift.StartGiveaway": [
   "Start Giveaway"
  ],
+ "BoostGift.Subscribers.Joined": [
+  "joined %@"
+ ],
  "BoostGift.Subscribers.MaximumReached": [
   "You can select up to %@ subscribers."
+ ],
+ "BoostGift.Subscribers.Save": [
+  "Save Recipients"
+ ],
+ "BoostGift.Subscribers.Search": [
+  "Search Subscribers"
+ ],
+ "BoostGift.Subscribers.SectionTitle": [
+  "SUBSCRIBERS"
+ ],
+ "BoostGift.Subscribers.Subtitle": [
+  "select up to %@ subscribers"
+ ],
+ "BoostGift.Subscribers.Title": [
+  "Gift Premium"
  ],
  "BoostGift.Title": [
   "Boosts via Gifts"

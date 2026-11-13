@@ -101,6 +101,15 @@
  "Login.AnonymousNumbers": [
   "Collectible Numbers"
  ],
+ "Login.BackToCode": [
+  "Back to entering the code"
+ ],
+ "Login.BackToPhrase": [
+  "Back to entering the phrase"
+ ],
+ "Login.BackToWord": [
+  "Back to entering the word"
+ ],
  "Login.BannedPhoneBody": [
   "I'm trying to use my mobile phone number: %@But Telegram says it's banned, please help."
  ],
@@ -187,6 +196,9 @@
  ],
  "Login.Email.ResetTitle": [
   "Reset Email"
+ ],
+ "Login.Email.ResetingNow": [
+  "Please wait..."
  ],
  "Login.Email.WillBeResetIn": [
   "Email will be reset %@"

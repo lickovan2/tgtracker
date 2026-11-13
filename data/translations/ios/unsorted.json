@@ -1,7 +1,4 @@
 {
- "AccessDenied.QrCode": [
-  "Telegram needs access to your photo library so that you can scan QR codes.Please go to your device's settings > Privacy > Photos and set Telegram to ON."
- ],
  "AccessDenied.VideoMessageMicrophone": [
   "Telegram needs access to your microphone so that you can send video messages.Please go to your device‘s settings > Privacy > Microphone and set Telegram to ON."
  ],
@@ -119,12 +116,6 @@
  "Appearance.TextSize.Apply": [
   "Set"
  ],
- "Appearance.TextSize.FontDefault": [
-  "Default"
- ],
- "Appearance.TextSize.FontSerif": [
-  "New York"
- ],
  "Appearance.ThemeCarouselNeutral": [
   "Neutral"
  ],
@@ -181,9 +172,6 @@
  ],
  "AuthSessions.AddDevice.InvalidQRCode": [
   "Invalid QR Code"
- ],
- "AuthSessions.MessageApp": [
-  "You allowed this bot to message you when you opened %@."
  ],
  "AuthSessions.View.Device": [
   "Device"
@@ -534,9 +522,6 @@
  "Call.YourMicrophoneOff": [
   "Your microphone is off"
  ],
- "CallSettings.Title": [
-  "Calls"
- ],
  "Camera.CollageManagementTooltip": [
   "Tap a tile to delete or reorder it."
  ],
@@ -641,9 +626,6 @@
  ],
  "Channel.IslandMenuHint": [
   "Opens a menu."
- ],
- "Channel.Management.DismissAdmin": [
-  "Dismiss"
  ],
  "Channel.Management.LabelEditor": [
   "admin"
@@ -1152,12 +1134,6 @@
  "Contacts.VoiceOver.AddContact": [
   "Add Contact"
  ],
- "Conversation.AutoremoveTimerSetUserGlobal": [
-  "%1$@ uses a self-destruct timer for all chats.All new messages in this chat will be automatically deleted %2$@ after they are sent."
- ],
- "Conversation.AutoremoveTimerSetUserGlobalYou": [
-  "You set a self-destruct timer for all chats.All new messages in this chat will be automatically deleted %1$@ after they're sent."
- ],
  "Conversation.CantPhoneCallAnonymousNumberError": [
   "You can't call this phone number."
  ],
@@ -1235,12 +1211,6 @@
  ],
  "Conversation.StopVoiceMessageTitle": [
   "Audio Recording"
- ],
- "Conversation.SuggestedBirthdate.View": [
-  "View"
- ],
- "Conversation.SuggestedPhotoText": [
-  "**%@** suggests this photo for your Telegram profile."
  ],
  "Conversation.SuggestedVideoTextExpanded": [
   "%@ suggests this photo for your Telegram profile."
@@ -1436,39 +1406,6 @@
  "FactCheck.Remove": [
   "Remove"
  ],
- "FastTwoStepSetup.EmailHelp": [
-  "Please add a valid email address. It is the only way to recover a forgotten password."
- ],
- "FastTwoStepSetup.EmailPlaceholder": [
-  "Your email"
- ],
- "FastTwoStepSetup.EmailSection": [
-  "RECOVERY EMAIL"
- ],
- "FastTwoStepSetup.HintHelp": [
-  "You can create an optional hint for your password."
- ],
- "FastTwoStepSetup.HintPlaceholder": [
-  "Add a hint"
- ],
- "FastTwoStepSetup.HintSection": [
-  "HINT"
- ],
- "FastTwoStepSetup.PasswordConfirmationPlaceholder": [
-  "Re-enter your password"
- ],
- "FastTwoStepSetup.PasswordHelp": [
-  "Please create a password to protect your payment info. You'll be asked to enter it when you log in."
- ],
- "FastTwoStepSetup.PasswordPlaceholder": [
-  "Enter a password"
- ],
- "FastTwoStepSetup.PasswordSection": [
-  "PASSWORD"
- ],
- "FastTwoStepSetup.Title": [
-  "Password & Email"
- ],
  "ForcedPasswordSetup.Intro.DismissActionCancel": [
   "No, let me set a password"
  ],
@@ -1484,9 +1421,6 @@
  ],
  "ForcedPasswordSetup.Intro.DoneAction": [
   "Done"
- ],
- "FormattedDate.LongDate_m12": [
-  "December %1$@, %2$@"
  ],
  "Forward.ErrorDisabledForChat": [
   "Sorry, you can't forward messages to this chat."
@@ -1968,9 +1902,6 @@
  "InviteLink.Create.Subscription.Placeholder": [
   "Star amount per month"
  ],
- "InviteLink.LabelJoinedViaFolder": [
-  "joined via a folder invite link"
- ],
  "InviteLink.PermanentLink": [
   "Invite Link"
  ],
@@ -2058,15 +1989,6 @@
  "Login.AddEmailTitle": [
   "Choose a login email"
  ],
- "Login.BackToCode": [
-  "Back to entering the code"
- ],
- "Login.BackToPhrase": [
-  "Back to entering the phrase"
- ],
- "Login.BackToWord": [
-  "Back to entering the word"
- ],
  "Login.CallRequestState3": [
   "Telegram dialed your number[Didn't get the code?]"
  ],
@@ -2081,9 +2003,6 @@
  ],
  "Login.CodeExpired": [
   "Code expired, please login again."
- ],
- "Login.Email.ResetingNow": [
-  "Please wait..."
  ],
  "Login.EmailNotAllowedError": [
   "Sorry, this email can't be used."
@@ -2391,15 +2310,6 @@
  "News.Title": [
   "News"
  ],
- "Notification.BotWriteAllowedRequest": [
-  "You allowed this bot to message you in its web-app."
- ],
- "Notification.ChannelChangedTheme": [
-  "Channel theme changed to %1$@"
- ],
- "Notification.ChannelDisabledTheme": [
-  "Channel theme disabled"
- ],
  "Notification.ChannelMessagePriceChangedAndEnabledChannelMessage": [
   "{name} now accepts private messages for %d Star",
   "{name} now accepts private messages for %d Stars"
@@ -2410,10 +2320,6 @@
  "Notification.GameScoreSelfExtended": [
   "scored %@ in {game}",
   "scored %@ in {game}"
- ],
- "Notification.GiveawayResultsNoWinners.Group": [
-  "Due to the giveaway terms, no winners could be selected by Telegram, a gift link was forwarded to group administrators.",
-  "Due to the giveaway terms, no winners could be selected by Telegram, all **%@** gift links were forwarded to group administrators."
  ],
  "Notification.GiveawayStartedStars": [
   "%1$@ just started a giveaway of %2$@ Telegram Stars for its followers."
@@ -2427,35 +2333,11 @@
  "Notification.GramTransferReceived.WithFiat": [
   "You received %1$@ (%2$@)"
  ],
- "Notification.GroupCreatorChangeApplied": [
-  "%1$@ has transferred ownership of the group to %2$@."
- ],
- "Notification.GroupCreatorChangePending": [
-  "%2$@ will become the new owner in 7 days if %1$@ does not return."
- ],
- "Notification.InvitedMultiple": [
-  "%@ invited %@"
- ],
- "Notification.JoinedGroupByLinkYou": [
-  "You joined the group via invite link"
- ],
- "Notification.JoinedGroupViaCommunity": [
-  "%@ joined the group via community"
- ],
  "Notification.LockScreenReactionPlaceholder": [
   "Reaction"
  ],
  "Notification.LockScreenStoryPlaceholder": [
   "New Story"
- ],
- "Notification.ManagedBotCreated": [
-  "%@ bot created"
- ],
- "Notification.NoPaidMessagesTokenUsed": [
-  "%@ used your link to message you for free"
- ],
- "Notification.PaymentSentNoTitle": [
-  "You successfully transferred {amount} to {name}"
  ],
  "Notification.PremiumGift.Months": [
   "%@ month",
@@ -2467,23 +2349,11 @@
  "Notification.PremiumGift.Title": [
   "Telegram Premium"
  ],
- "Notification.Refund": [
-  "You received a refund of {amount} from {name}"
- ],
- "Notification.RequestedPeerMultiple": [
-  "You shared %1$@ with %2$@."
- ],
  "Notification.StarGift.Subtitle.Downgraded": [
   "This gift was downgraded because a request to refund the payment related to this gift was made, and the money was returned."
  ],
  "Notification.StarGift.Subtitle.NoConvert": [
   "Display this gift on your profile and turn it into a collectible."
- ],
- "Notification.StarGift.Subtitle.Refunded": [
-  "This gift cannot be converted to Stars because the payment related to it was refunded."
- ],
- "Notification.StarGiftOffer.Expiration.Delimiter": [
-  " "
  ],
  "Notification.StarGiftOnchainOffer.ListOffer": [
   "You were offered %1$@ for %2$@"
@@ -2533,12 +2403,6 @@
  "Notification.StarsGift.SentUpgradeOther": [
   "%1$@ sent an upgrade worth %2$@ for the gift you received from %3$@"
  ],
- "Notification.StarsGift.Upgrade": [
-  "%@ turned the gift from you into a unique collectible"
- ],
- "Notification.StarsGiftOffer.Accepted": [
-  "%1$@ accepted your offer and sold you %2$@ for %3$@"
- ],
  "Notification.StarsGiftOffer.AcceptedYou.Stars": [
   "%@ Star",
   "%@ Stars"
@@ -2547,19 +2411,9 @@
   "%@ hours",
   "%@ hours"
  ],
- "Notification.StarsGiftOffer.Rejected.Stars": [
-  "%@ Star",
-  "%@ Stars"
- ],
  "Notification.StarsGiftOffer.RejectedYou.Stars": [
   "%@ Star",
   "%@ Stars"
- ],
- "Notification.StarsGiveawayResultsNoWinners": [
-  "Due to the giveaway terms, no winners could be selected by Telegram, all stars were credited to channel administrators."
- ],
- "Notification.TodoMultiple": [
-  "%1$@ marked %2$@."
  ],
  "Notification.TodoMultipleCompleted": [
   "%1$@ marked %2$@ as done"
@@ -2573,20 +2427,9 @@
  "Notification.TodoMultipleIncompletedYou": [
   "You marked %1$@ as not done"
  ],
- "Notification.TodoMultipleYou": [
-  "You marked %1$@."
- ],
  "Notification.TodoTasks": [
   "%@ task",
   "%@ tasks"
- ],
- "Notification.TodoTasksDone": [
-  "%@ task as done",
-  "%@ tasks as done"
- ],
- "Notification.TodoTasksUndone": [
-  "%@ task as not done",
-  "%@ tasks as not done"
  ],
  "Notification.TopicClosed": [
   "Topic closed"
@@ -3146,9 +2989,6 @@
  "PrivacyPhoneNumberSettings.CustomHelp": [
   "Users who have your number saved in their contacts will also see it on Telegram."
  ],
- "PrivacySettings.LoginEmailSetupInfo": [
-  "Setup your email address for Telegram login codes."
- ],
  "PrivacySettings.SecurityTitle": [
   "SECURITY"
  ],
@@ -3465,38 +3305,14 @@
  "Stars.Intro.Subscriptions.ShowMore": [
   "Show More"
  ],
- "Stars.SendStars.AmountInfo": [
-  "Send %@ or more to highlight your profile in the TOP 3 supporters of this message."
- ],
- "Stars.SendStars.AmountPlaceholder": [
-  "Star Amount"
- ],
- "Stars.SendStars.AmountTitle": [
-  "ENTER AMOUNT"
- ],
  "Stars.SendStars.SendStars": [
   "Confirm and Send"
- ],
- "Stars.SendStars.Title": [
-  "Send Stars"
  ],
  "Stars.Subscription.Terms_URL": [
   "https://telegram.org/tos/stars"
  ],
- "Stars.Transaction.AppleTopUp.Subtitle": [
-  "App Store"
- ],
- "Stars.Transaction.AppleTopUp.Title": [
-  "Stars Top-Up"
- ],
  "Stars.Transaction.FragmentUnknown_URL": [
   "https://fragment.com/stars"
- ],
- "Stars.Transaction.GiftFrom": [
-  "Gift From"
- ],
- "Stars.Transaction.GiftUpgrade": [
-  "Gift Upgrade"
  ],
  "Stars.Transaction.Giveaway.Boost.Members": [
   "%@ Member",
@@ -3506,32 +3322,10 @@
   "%@ Subscriber",
   "%@ Subscribers"
  ],
- "Stars.Transaction.GoogleTopUp.Subtitle": [
-  "Google Play"
- ],
- "Stars.Transaction.GoogleTopUp.Title": [
-  "Stars Top-Up"
- ],
- "Stars.Transaction.TelegramAds.Subtitle": [
-  "Telegram Ads"
- ],
- "Stars.Transaction.TelegramAds.Title": [
-  "Stars Withdrawal"
- ],
- "Stars.Transaction.TelegramPremium": [
-  "Premium for %@ Month",
-  "Premium for %@ Months"
- ],
- "Stars.Transaction.Unsupported.Title": [
-  "Unsupported"
- ],
  "Stars.Transfer.Terms_URL": [
   "https://telegram.org/tos/stars"
  ],
  "StarsTransaction.Commission": [
-  "Commission"
- ],
- "StarsTransaction.StarRefReason.Commission": [
   "Commission"
  ],
  "Stats.GroupShowMoreTopAdmins": [
@@ -3545,13 +3339,6 @@
  "Stats.MessageForwards": [
   "%@ shared",
   "%@ shared"
- ],
- "Stats.MessageViews": [
-  "%@ view",
-  "%@ views"
- ],
- "Stats.ReactionsByEmotionTitle": [
-  "REACTIONS BY EMOTION"
  ],
  "Stats.RevenueInTon": [
   "Revenue in Grams"
@@ -3925,12 +3712,6 @@
  ],
  "Translation.LanguageTo.ZH": [
   "Chinese"
- ],
- "TwoFactorSetup.EmailVerification.Placeholder": [
-  "Code"
- ],
- "TwoStepAuth.ConfirmationText": [
-  "Please check your email and click on the validation link to complete Two-Step Verification setup. Be sure to check the spam folder as well."
  ],
  "TwoStepAuth.Email": [
   "Email"

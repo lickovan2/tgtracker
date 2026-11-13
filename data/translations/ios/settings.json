@@ -5,6 +5,9 @@
  "AccessDenied.Settings": [
   "Settings"
  ],
+ "AccessDenied.Title": [
+  "Please Allow Access"
+ ],
  "AccessDenied.Wallpapers": [
   "Telegram needs access to your photo library so that you can set a custom wallpaper.Please go to your device's settings > Privacy > Photos and set Telegram to ON."
  ],
@@ -154,6 +157,12 @@
  ],
  "Appearance.TextSize.Automatic": [
   "System"
+ ],
+ "Appearance.TextSize.FontDefault": [
+  "Default"
+ ],
+ "Appearance.TextSize.FontSerif": [
+  "New York"
  ],
  "Appearance.TextSize.Title": [
   "Text Size"
@@ -1617,6 +1626,39 @@
  ],
  "Exceptions.AddToExceptions": [
   "ADD TO EXCEPTIONS"
+ ],
+ "FastTwoStepSetup.EmailHelp": [
+  "Please add a valid email address. It is the only way to recover a forgotten password."
+ ],
+ "FastTwoStepSetup.EmailPlaceholder": [
+  "Your email"
+ ],
+ "FastTwoStepSetup.EmailSection": [
+  "RECOVERY EMAIL"
+ ],
+ "FastTwoStepSetup.HintHelp": [
+  "You can create an optional hint for your password."
+ ],
+ "FastTwoStepSetup.HintPlaceholder": [
+  "Add a hint"
+ ],
+ "FastTwoStepSetup.HintSection": [
+  "HINT"
+ ],
+ "FastTwoStepSetup.PasswordConfirmationPlaceholder": [
+  "Re-enter your password"
+ ],
+ "FastTwoStepSetup.PasswordHelp": [
+  "Please create a password to protect your payment info. You'll be asked to enter it when you log in."
+ ],
+ "FastTwoStepSetup.PasswordPlaceholder": [
+  "Enter a password"
+ ],
+ "FastTwoStepSetup.PasswordSection": [
+  "PASSWORD"
+ ],
+ "FastTwoStepSetup.Title": [
+  "Password & Email"
  ],
  "FeaturedStickerPacks.Title": [
   "Trending Stickers"
@@ -3898,6 +3940,9 @@
  "PrivacySettings.LoginEmailInfo": [
   "Change your email address for Telegram login codes."
  ],
+ "PrivacySettings.LoginEmailSetupInfo": [
+  "Setup your email address for Telegram login codes."
+ ],
  "PrivacySettings.Passcode": [
   "Passcode Lock"
  ],
@@ -4927,6 +4972,9 @@
  "TwoFactorSetup.EmailVerification.ChangeAction": [
   "Change Email"
  ],
+ "TwoFactorSetup.EmailVerification.Placeholder": [
+  "Code"
+ ],
  "TwoFactorSetup.EmailVerification.ResendAction": [
   "Re-send Code"
  ],
@@ -5052,6 +5100,9 @@
  ],
  "TwoStepAuth.ConfirmationAbort": [
   "Abort Two-Step Verification Setup"
+ ],
+ "TwoStepAuth.ConfirmationText": [
+  "Please check your email and click on the validation link to complete Two-Step Verification setup. Be sure to check the spam folder as well."
  ],
  "TwoStepAuth.ConfirmationTitle": [
   "Two-Step Verification"

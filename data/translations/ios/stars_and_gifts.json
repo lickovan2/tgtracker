@@ -2252,6 +2252,9 @@
  "Stars.BotRevenue.Withdraw.WithdrawShort": [
   "Withdraw"
  ],
+ "Stars.Gift.Received.Text": [
+  "Use Stars to unlock content and services on Telegram. [See Examples >]()"
+ ],
  "Stars.Gift.Received.Title": [
   "Received Gift"
  ],
@@ -2263,6 +2266,39 @@
  ],
  "Stars.Gift.Ton.Text": [
   "Use Grams to buy gifts and suggest posts to channels."
+ ],
+ "Stars.Info.Description": [
+  "Telegram Stars allow users to:"
+ ],
+ "Stars.Info.Done": [
+  "Got It"
+ ],
+ "Stars.Info.Gift.Text": [
+  "Give your friends gifts that can be added to their profiles or converted to Stars."
+ ],
+ "Stars.Info.Gift.Title": [
+  "Send Gifts to Friends"
+ ],
+ "Stars.Info.Media.Text": [
+  "Get access to paid content and services in Telegram channels."
+ ],
+ "Stars.Info.Media.Title": [
+  "Unlock Content in Channels"
+ ],
+ "Stars.Info.Miniapp.Text": [
+  "Buy additional content and services in Telegram mini apps. [See Examples >]()"
+ ],
+ "Stars.Info.Miniapp.Title": [
+  "Use Stars in Mini Apps"
+ ],
+ "Stars.Info.Reaction.Text": [
+  "Support your favorite channels by sending Star reactions to their posts."
+ ],
+ "Stars.Info.Reaction.Title": [
+  "Send Star Reactions"
+ ],
+ "Stars.Info.Title": [
+  "What are Stars?"
  ],
  "Stars.Intro.AllTransactions": [
   "All Transactions"
@@ -2588,14 +2624,35 @@
  "Stars.SendMessage.AdjustmentSectionFooterEmptyValue": [
   "You will receive **%1$@%**."
  ],
+ "Stars.SendMessage.AdjustmentSectionFooterValue": [
+  "You will receive **%@ Stars**."
+ ],
  "Stars.SendMessage.AdjustmentSectionHeader": [
   "PRICE IN STARS"
  ],
  "Stars.SendMessage.AdjustmentTitle": [
   "Price for each Message"
  ],
+ "Stars.SendStars.AmountInfo": [
+  "Send %@ or more to highlight your profile in the TOP 3 supporters of this message."
+ ],
+ "Stars.SendStars.AmountPlaceholder": [
+  "Star Amount"
+ ],
+ "Stars.SendStars.AmountTitle": [
+  "ENTER AMOUNT"
+ ],
+ "Stars.SendStars.Title": [
+  "Send Stars"
+ ],
  "Stars.Subscription.Terms": [
   "By subscribing you agree to the [Terms of Service]()."
+ ],
+ "Stars.Transaction.AppleTopUp.Subtitle": [
+  "App Store"
+ ],
+ "Stars.Transaction.AppleTopUp.Title": [
+  "Stars Top-Up"
  ],
  "Stars.Transaction.CopiedId": [
   "Transaction ID copied to clipboard."
@@ -2615,20 +2672,35 @@
  "Stars.Transaction.FragmentWithdrawal.Subtitle": [
   "Fragment"
  ],
+ "Stars.Transaction.FragmentWithdrawal.Title": [
+  "Stars Withdrawal"
+ ],
  "Stars.Transaction.FragmentWithdrawalTon.Title": [
   "Gram Withdrawal"
  ],
  "Stars.Transaction.From": [
   "From"
  ],
+ "Stars.Transaction.Gift.Title": [
+  "Gift"
+ ],
  "Stars.Transaction.GiftAuctionBid": [
   "Gift Auction Bid"
+ ],
+ "Stars.Transaction.GiftFrom": [
+  "Gift From"
+ ],
+ "Stars.Transaction.GiftPurchase": [
+  "Gift Purchase"
  ],
  "Stars.Transaction.GiftSale": [
   "Gift Sale"
  ],
  "Stars.Transaction.GiftTransfer": [
   "Gift Transfer"
+ ],
+ "Stars.Transaction.GiftUpgrade": [
+  "Gift Upgrade"
  ],
  "Stars.Transaction.Giveaway.Boost.Boosts": [
   "%@ Boost",
@@ -2650,6 +2722,15 @@
  "Stars.Transaction.Giveaway.Stars": [
   "%@ Star",
   "%@ Stars"
+ ],
+ "Stars.Transaction.Giveaway.Title": [
+  "Received Prize"
+ ],
+ "Stars.Transaction.GoogleTopUp.Subtitle": [
+  "Google Play"
+ ],
+ "Stars.Transaction.GoogleTopUp.Title": [
+  "Stars Top-Up"
  ],
  "Stars.Transaction.Id": [
   "Transaction ID"
@@ -2690,11 +2771,23 @@
   "%@ Photo",
   "%@ Photos"
  ],
+ "Stars.Transaction.PremiumBotTopUp.Subtitle": [
+  "Premium Bot"
+ ],
+ "Stars.Transaction.PremiumBotTopUp.Title": [
+  "Stars Top-Up"
+ ],
  "Stars.Transaction.Reaction.Post": [
   "Post"
  ],
  "Stars.Transaction.Reaction.Title": [
   "Star reaction"
+ ],
+ "Stars.Transaction.Refund": [
+  "Refund"
+ ],
+ "Stars.Transaction.SearchFee.Title": [
+  "Public Post Search"
  ],
  "Stars.Transaction.SinglePhoto": [
   "Photo"
@@ -2777,6 +2870,12 @@
  "Stars.Transaction.SubscriptionFee": [
   "Monthly Subscription Fee"
  ],
+ "Stars.Transaction.TelegramAds.Subtitle": [
+  "Telegram Ads"
+ ],
+ "Stars.Transaction.TelegramAds.Title": [
+  "Stars Withdrawal"
+ ],
  "Stars.Transaction.TelegramBotApi.Messages": [
   "%@ Message",
   "%@ Messages"
@@ -2784,11 +2883,18 @@
  "Stars.Transaction.TelegramBotApi.Title": [
   "Paid Broadcast"
  ],
+ "Stars.Transaction.TelegramPremium": [
+  "Premium for %@ Month",
+  "Premium for %@ Months"
+ ],
  "Stars.Transaction.Terms": [
   "Review the [Terms of Service]() for Stars."
  ],
  "Stars.Transaction.To": [
   "To"
+ ],
+ "Stars.Transaction.Unsupported.Title": [
+  "Unsupported"
  ],
  "Stars.Transaction.Via": [
   "Via"
@@ -2905,11 +3011,20 @@
  "StarsBalance.YourBalance": [
   "Your balance is %@"
  ],
+ "StarsTransaction.StarRefReason.Affiliate": [
+  "Affiliate"
+ ],
+ "StarsTransaction.StarRefReason.Commission": [
+  "Commission"
+ ],
  "StarsTransaction.StarRefReason.Miniapp": [
   "Mini App"
  ],
  "StarsTransaction.StarRefReason.Program": [
   "Affiliate Program"
+ ],
+ "StarsTransaction.StarRefReason.Referred": [
+  "Referred User"
  ],
  "StarsTransaction.StarRefReason.Title": [
   "Reason"

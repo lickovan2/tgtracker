@@ -2,6 +2,9 @@
  "AccessDenied.LocationPreciseDenied": [
   "To share your specific location in this chat, please go to Settings > Privacy > Location Services > Telegram and set Precise Location to On."
  ],
+ "AccessDenied.Settings": [
+  "Settings"
+ ],
  "AccessDenied.Title": [
   "Please Allow Access"
  ],
@@ -492,6 +495,10 @@
  ],
  "Call.CallInProgressLiveStreamMessage": [
   "End call with %1$@ and start a live stream in %2$@?"
+ ],
+ "Call.Hours": [
+  "%@ hour",
+  "%@ hours"
  ],
  "Call.LiveStreamInProgressMessage": [
   "Leave live stream in %1$@ and start a new one in %2$@?"
@@ -1513,6 +1520,9 @@
  "Channel.Info.Subscribers": [
   "Subscribers"
  ],
+ "Channel.JoinChannel": [
+  "Join"
+ ],
  "Channel.LeaveChannel": [
   "Leave Channel"
  ],
@@ -1527,6 +1537,9 @@
  ],
  "Channel.Management.AddModeratorHelp": [
   "You can add admins to help you manage your channel."
+ ],
+ "Channel.Management.DismissAdmin": [
+  "Dismiss"
  ],
  "Channel.Management.LabelAdministrator": [
   "admin"
@@ -1587,6 +1600,9 @@
  ],
  "Channel.MessageTitleUpdated": [
   "Channel renamed to \"%@\""
+ ],
+ "Channel.MessageVideoUpdated": [
+  "Channel photo updated"
  ],
  "Channel.Moderator.AccessLevelRevoke": [
   "Dismiss Admin"
@@ -3118,6 +3134,9 @@
  "Common.No": [
   "No"
  ],
+ "Common.NotNow": [
+  "Not Now"
+ ],
  "Common.OK": [
   "OK"
  ],
@@ -3153,6 +3172,12 @@
  ],
  "Community.Add.VisibilityVisibleInfo": [
   "Anyone in the community will be able to see this chat."
+ ],
+ "Community.AddChat.Description": [
+  "Select a chat to add to this community"
+ ],
+ "Community.AddChat.Title": [
+  "Add a Chat"
  ],
  "Community.AdminActions.BanFromCommunity": [
   "Ban from the Community"
@@ -3371,11 +3396,17 @@
  "Conversation.AutoremoveTimerRemovedGroup": [
   "A group admin disabled the auto-delete timer"
  ],
+ "Conversation.AutoremoveTimerRemovedUserYou": [
+  "You disabled the auto-delete timer"
+ ],
  "Conversation.AutoremoveTimerSetChannel": [
   "Messages in this channel will be automatically deleted after %1$@"
  ],
  "Conversation.AutoremoveTimerSetGroup": [
   "A group admin set messages to auto-delete after %1$@"
+ ],
+ "Conversation.AutoremoveTimerSetUserYou": [
+  "You set messages to auto-delete after %1$@"
  ],
  "Conversation.BoostGroup": [
   "BOOST"
@@ -5315,6 +5346,9 @@
   "%@ invite link",
   "%@ invite links"
  ],
+ "InviteLink.LabelJoinedViaFolder": [
+  "joined via a folder invite link"
+ ],
  "InviteLink.Manage": [
   "Manage Invite Links"
  ],
@@ -5638,6 +5672,9 @@
  ],
  "Message.FullDateFormat": [
   "%1$@, %2$@"
+ ],
+ "Message.Giveaway": [
+  "Giveaway"
  ],
  "Message.ImageExpired": [
   "Expired photo"
@@ -5965,8 +6002,14 @@
  "Notification.ChangedGroupVideo": [
   "%@ changed the group photo"
  ],
+ "Notification.ChannelChangedTheme": [
+  "Channel theme changed to %1$@"
+ ],
  "Notification.ChannelChangedWallpaper": [
   "Channel set a new wallpaper"
+ ],
+ "Notification.ChannelDisabledTheme": [
+  "Channel theme disabled"
  ],
  "Notification.ChannelInviterSelf": [
   "You joined this channel"
@@ -6008,6 +6051,15 @@
  "Notification.CommunityRemovedGroupYou": [
   "You removed this group from a community"
  ],
+ "Notification.CopyProtection.DisabledYou": [
+  "You enabled sharing in this chat"
+ ],
+ "Notification.CopyProtection.Enabled": [
+  "%1$@ disabled sharing in this chat"
+ ],
+ "Notification.CopyProtection.EnabledYou": [
+  "You disabled sharing in this chat"
+ ],
  "Notification.CopyProtection.Request": [
   "%@ would like to enable sharing in this chat"
  ],
@@ -6016,6 +6068,12 @@
  ],
  "Notification.CreatedChannel": [
   "Channel created"
+ ],
+ "Notification.CreatedChatWithTitle": [
+  "%@ created the group \"%@\""
+ ],
+ "Notification.DisabledTheme": [
+  "%@ disabled the chat theme"
  ],
  "Notification.ForumTopicIconChangedAuthor": [
   "%1$@ changed the topic icon to %2$@"
@@ -6042,6 +6100,10 @@
   "Due to the giveaway terms, no winners could be selected by Telegram, a gift link was forwarded to channel administrators.",
   "Due to the giveaway terms, no winners could be selected by Telegram, all **%@** gift links were forwarded to channel administrators."
  ],
+ "Notification.GiveawayResultsNoWinners.Group": [
+  "Due to the giveaway terms, no winners could be selected by Telegram, a gift link was forwarded to group administrators.",
+  "Due to the giveaway terms, no winners could be selected by Telegram, all **%@** gift links were forwarded to group administrators."
+ ],
  "Notification.GiveawayStarted": [
   "%1$@ just started a giveaway of Telegram Premium subscriptions for its followers."
  ],
@@ -6054,10 +6116,19 @@
  "Notification.GroupChangedWallpaper": [
   "Group set a new wallpaper"
  ],
+ "Notification.GroupCreatorChangeApplied": [
+  "%1$@ has transferred ownership of the group to %2$@."
+ ],
+ "Notification.GroupCreatorChangePending": [
+  "%2$@ will become the new owner in 7 days if %1$@ does not return."
+ ],
  "Notification.GroupInviterSelf": [
   "You joined this group"
  ],
  "Notification.Invited": [
+  "%@ invited %@"
+ ],
+ "Notification.InvitedMultiple": [
   "%@ invited %@"
  ],
  "Notification.JoinedChannel": [
@@ -6066,11 +6137,20 @@
  "Notification.JoinedChat": [
   "%@ joined the group"
  ],
+ "Notification.JoinedGroupByLink": [
+  "%@ joined the group via invite link"
+ ],
+ "Notification.JoinedGroupByLinkYou": [
+  "You joined the group via invite link"
+ ],
  "Notification.JoinedGroupByRequest": [
   "%@ was accepted to the group"
  ],
  "Notification.JoinedGroupByRequestYou": [
   "Your request to join the group was approved"
+ ],
+ "Notification.JoinedGroupViaCommunity": [
+  "%@ joined the group via community"
  ],
  "Notification.Kicked": [
   "%@ removed %@"
@@ -6081,6 +6161,9 @@
  "Notification.LeftChat": [
   "%@ left the group"
  ],
+ "Notification.LiveStreamEnded": [
+  "Live stream ended (%@)"
+ ],
  "Notification.LiveStreamScheduled": [
   "Live stream scheduled for %@"
  ],
@@ -6089,6 +6172,9 @@
  ],
  "Notification.LiveStreamScheduledTomorrow": [
   "Live stream scheduled for tomorrow at %@"
+ ],
+ "Notification.LiveStreamStarted": [
+  "Live stream started"
  ],
  "Notification.MessageLifetime1d": [
   "1 day"
@@ -6154,6 +6240,12 @@
  "Notification.PinnedVideoMessage": [
   "%@ pinned a video"
  ],
+ "Notification.PollAddedOption": [
+  "%1$@ added the option \"%2$@\" to the poll"
+ ],
+ "Notification.PollDeletedOption": [
+  "%1$@ deleted the option \"%2$@\" from the poll"
+ ],
  "Notification.PremiumGift.SubscriptionDescription": [
   "Subscription for exclusive Telegram features."
  ],
@@ -6192,6 +6284,9 @@
  "Notification.StarsGiveaway.Title": [
   "Congratulations!"
  ],
+ "Notification.StarsGiveawayResultsNoWinners": [
+  "Due to the giveaway terms, no winners could be selected by Telegram, all stars were credited to channel administrators."
+ ],
  "Notification.StarsGiveawayStarted": [
   "%1$@ just started a giveaway of %2$@ for its followers."
  ],
@@ -6205,8 +6300,56 @@
  "Notification.StarsPrize": [
   "You received a gift"
  ],
+ "Notification.TodoAddedMultipleTasks": [
+  "%1$@ added %2$@ to \"%3$@\""
+ ],
+ "Notification.TodoAddedMultipleTasksYou": [
+  "You added %1$@ to \"%2$@\""
+ ],
+ "Notification.TodoAddedTask": [
+  "%1$@ added a new task \"%2$@\" to \"%3$@\"."
+ ],
+ "Notification.TodoAddedTaskYou": [
+  "You added a new task \"%1$@\" to \"%2$@\"."
+ ],
+ "Notification.TodoAddedTasks": [
+  "%@ task",
+  "%@ tasks"
+ ],
+ "Notification.TodoCompletedYou": [
+  "You marked \"%1$@\" as done"
+ ],
+ "Notification.TodoIncompleted": [
+  "%1$@ marked \"%2$@\" as undone"
+ ],
+ "Notification.TodoIncompletedYou": [
+  "You marked \"%1$@\" as not done"
+ ],
+ "Notification.TodoMultiple": [
+  "%1$@ marked %2$@."
+ ],
+ "Notification.TodoMultipleYou": [
+  "You marked %1$@."
+ ],
+ "Notification.TodoTasksDone": [
+  "%@ task as done",
+  "%@ tasks as done"
+ ],
+ "Notification.TodoTasksUndone": [
+  "%@ task as not done",
+  "%@ tasks as not done"
+ ],
  "Notification.VoiceChatEnded": [
   "Video chat ended (%@)"
+ ],
+ "Notification.VoiceChatEndedGroup": [
+  "%1$@ ended the video chat (%2$@)"
+ ],
+ "Notification.VoiceChatInvitation": [
+  "%1$@ invited %2$@ to the video chat"
+ ],
+ "Notification.VoiceChatInvitationForYou": [
+  "%1$@ invited you to the video chat"
  ],
  "Notification.VoiceChatScheduled": [
   "%1$@ scheduled a video chat for %2$@"
@@ -6226,11 +6369,20 @@
  "Notification.VoiceChatScheduledTomorrowChannel": [
   "Video chat scheduled for tomorrow at %@"
  ],
+ "Notification.VoiceChatStarted": [
+  "%1$@ started a video chat"
+ ],
  "Notification.VoiceChatStartedChannel": [
   "Video chat started"
  ],
  "Notification.YouChangedGroupWallpaper": [
   "You set a new wallpaper for this group"
+ ],
+ "Notification.YouChangedTheme": [
+  "You changed the chat theme to %@"
+ ],
+ "Notification.YouChangedToSameWallpaper": [
+  "You set the same wallpaper as your chat partner."
  ],
  "Notification.YouChangedWallpaper": [
   "You set a new wallpaper for this chat"
@@ -7105,6 +7257,20 @@
  "SensitiveContent.ViewAnyway": [
   "View Anyway"
  ],
+ "ServiceMessage.GameScoreSelfSimple": [
+  "You scored %@",
+  "You scored %@"
+ ],
+ "ServiceMessage.GameScoreSimple": [
+  "{name} scored %@",
+  "{name} scored %@"
+ ],
+ "Settings.PersonalChannelSelectSubtitle": [
+  "select your channel"
+ ],
+ "Settings.PersonalChannelSelectTitle": [
+  "Channel"
+ ],
  "Settings.Search": [
   "Search"
  ],
@@ -7669,6 +7835,10 @@
  "Stats.MessageTitle": [
   "Message Statistics"
  ],
+ "Stats.MessageViews": [
+  "%@ view",
+  "%@ views"
+ ],
  "Stats.MessageViews.NoViews": [
   "No views"
  ],
@@ -7683,6 +7853,9 @@
  ],
  "Stats.PostsTitle": [
   "RECENT POSTS"
+ ],
+ "Stats.ReactionsByEmotionTitle": [
+  "REACTIONS BY EMOTION"
  ],
  "Stats.ReactionsPerPost": [
   "Reactions Per Post"
@@ -7766,6 +7939,10 @@
  ],
  "Story.Privacy.PostStoryAs": [
   "Post Story As"
+ ],
+ "StoryList.SubtitleCount": [
+  "1 story",
+  "%d stories"
  ],
  "SuggestPost.SetTime.Label": [
   "Time"

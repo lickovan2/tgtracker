@@ -101,6 +101,14 @@
  "Cache.ByPeerHeader": [
   "CHATS"
  ],
+ "Call.Minutes": [
+  "%@ minute",
+  "%@ minutes"
+ ],
+ "Call.Seconds": [
+  "%@ second",
+  "%@ seconds"
+ ],
  "Calls.TabTitle": [
   "Calls"
  ],
@@ -700,6 +708,9 @@
  ],
  "ChatList.StorageHintTitle": [
   "Free up to %@"
+ ],
+ "ChatList.StoryFeedTooltipUsers": [
+  "Tap above to view stories from %@"
  ],
  "ChatList.SubscriptionsLowBalance.Multiple.Text": [
   "Insufficient funds to cover your subscriptions."
@@ -1500,6 +1511,10 @@
  "InviteLink.Create": [
   "Create a New Link"
  ],
+ "LastSeen.HoursAgo": [
+  "last seen 1 hour ago",
+  "last seen %@ hours ago"
+ ],
  "LastSeen.Lately": [
   "last seen recently"
  ],
@@ -1640,6 +1655,9 @@
  "Month.GenMarch": [
   "March"
  ],
+ "Month.GenOctober": [
+  "October"
+ ],
  "Month.GenSeptember": [
   "September"
  ],
@@ -1655,8 +1673,20 @@
  "NewContact.Title": [
   "New Contact"
  ],
+ "Notification.CallCanceled": [
+  "Canceled Call"
+ ],
+ "Notification.CallFormat": [
+  "%1$@, %2$@"
+ ],
+ "Notification.CallIncoming": [
+  "Incoming Call"
+ ],
  "Notification.CallMissed": [
   "Missed Call"
+ ],
+ "Notification.CallOutgoing": [
+  "Outgoing Call"
  ],
  "Notification.ChangedGroupPhoto": [
   "%@ changed group photo"

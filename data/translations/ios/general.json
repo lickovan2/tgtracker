@@ -8,6 +8,9 @@
  "AUTH_UNKNOWN_SEPARATED": [
   "New login|from unrecognized device %1$@"
  ],
+ "AccessDenied.AgeVerificationCamera": [
+  "Telegram needs access to your camera for age verification.Open your device's Settings > Privacy > Camera and set Telegram to ON."
+ ],
  "AccessDenied.CallMicrophone": [
   "Telegram needs access to your microphone so that you can make calls.Please go to your device‘s settings > Privacy > Microphone and set Telegram to ON."
  ],
@@ -29,6 +32,9 @@
  "AccessDenied.LocationDenied": [
   "Telegram needs access to your location so that you can share it with your contacts.Please go to your device‘s settings > Privacy > Location Services and set Telegram to ON."
  ],
+ "AccessDenied.LocationDisabled": [
+  "Telegram needs access to your location so that you can share it with your contacts.Please go to your device‘s settings > Privacy > Location Services and set it to ON."
+ ],
  "AccessDenied.LocationTracking": [
   "Telegram needs access to your location so that you can share it with your friends.Please go to your device‘s settings > Privacy > Location Services and set it to ON."
  ],
@@ -44,6 +50,9 @@
  "AccessDenied.QrCamera": [
   "Telegram needs access to your camera to scan QR codes.Please go to your device's settings > Privacy > Camera and set Telegram to ON."
  ],
+ "AccessDenied.QrCode": [
+  "Telegram needs access to your photo library so that you can scan QR codes.Please go to your device's settings > Privacy > Photos and set Telegram to ON."
+ ],
  "AccessDenied.SaveMedia": [
   "Telegram needs access to your photo library so that you can save photos and videos.Please go to your device‘s settings > Privacy > Photos and set Telegram to ON."
  ],
@@ -52,6 +61,9 @@
  ],
  "AccessDenied.Title": [
   "Please Allow Access"
+ ],
+ "AccessDenied.VideoCallCamera": [
+  "Telegram needs access to your camera so that you can make video calls.Please go to your device‘s settings > Privacy > Camera and set Telegram to ON."
  ],
  "AccessDenied.VideoMessageCamera": [
   "Telegram needs access to your camera so that you can send video messages.Please go to your device‘s settings > Privacy > Camera and set Telegram to ON."
@@ -8972,6 +8984,9 @@
  ],
  "SuggestPost.SetTimeFormat.Any": [
   "Anytime"
+ ],
+ "SuggestPost.SetTimeFormat.Date": [
+  "%@"
  ],
  "TextFormat.AddLinkPlaceholder": [
   "URL"

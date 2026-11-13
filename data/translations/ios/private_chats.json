@@ -1,4 +1,10 @@
 {
+ "AccessDenied.Settings": [
+  "Settings"
+ ],
+ "AccessDenied.Title": [
+  "Please Allow Access"
+ ],
  "AccessDenied.VoiceMicrophone": [
   "Telegram needs access to your microphone so that you can send voice messages.Please go to your device‘s settings > Privacy > Microphone and set Telegram to ON."
  ],
@@ -55,6 +61,12 @@
  ],
  "Attachment.Reply": [
   "Reply"
+ ],
+ "AuthSessions.Message": [
+  "You allowed this bot to message you when you logged in on %@."
+ ],
+ "AuthSessions.MessageApp": [
+  "You allowed this bot to message you when you opened %@."
  ],
  "AutoremoveSetup.AdditionalGlobalSettingsInfo": [
   "You can also set a default [self-destruct timer]() for all chats in Settings."
@@ -193,6 +205,9 @@
  ],
  "Calls.SubmitRating": [
   "Submit"
+ ],
+ "Calls.TabTitle": [
+  "Calls"
  ],
  "Camera.LiveStream.End": [
   "End"
@@ -1605,8 +1620,20 @@
  "Conversation.AutoremoveRemainingTime": [
   "auto-deletes in %@"
  ],
+ "Conversation.AutoremoveTimerRemovedUser": [
+  "%1$@ disabled the auto-delete timer"
+ ],
  "Conversation.AutoremoveTimerSetToastText": [
   "Messages in this chat are automaticallydeleted %@ after they are sent."
+ ],
+ "Conversation.AutoremoveTimerSetUser": [
+  "%1$@ set messages to auto-delete in %2$@"
+ ],
+ "Conversation.AutoremoveTimerSetUserGlobal": [
+  "%1$@ uses a self-destruct timer for all chats.All new messages in this chat will be automatically deleted %2$@ after they are sent."
+ ],
+ "Conversation.AutoremoveTimerSetUserGlobalYou": [
+  "You set a self-destruct timer for all chats.All new messages in this chat will be automatically deleted %1$@ after they're sent."
  ],
  "Conversation.BlockUser": [
   "Block User"
@@ -2028,6 +2055,9 @@
  "Conversation.MessageEditedLabel": [
   "edited"
  ],
+ "Conversation.MessageViaUser": [
+  "via %@"
+ ],
  "Conversation.MessageViewComments": [
   "[%@]Comment",
   "[%@]Comments"
@@ -2284,6 +2314,9 @@
  "Conversation.SuggestedBirthdate.Month": [
   "Month"
  ],
+ "Conversation.SuggestedBirthdate.View": [
+  "View"
+ ],
  "Conversation.SuggestedBirthdate.Year": [
   "Year"
  ],
@@ -2298,6 +2331,9 @@
  ],
  "Conversation.SuggestedPhotoSuccessText": [
   "You can change it in [Settings]()."
+ ],
+ "Conversation.SuggestedPhotoText": [
+  "**%@** suggests this photo for your Telegram profile."
  ],
  "Conversation.SuggestedPhotoTextExpanded": [
   "%@ suggests this photo for your Telegram profile."
@@ -2700,6 +2736,9 @@
  ],
  "FolderLinkPreview.ToastAlreadyMemberChannel": [
   "You are already subscribed to this channel."
+ ],
+ "FormattedDate.LongDate_m12": [
+  "December %1$@, %2$@"
  ],
  "Forward.ChannelReadOnly": [
   "Sorry, you can't post to this channel."
@@ -3446,6 +3485,9 @@
  "Notification.BotWriteAllowedMenu": [
   "You allowed this bot to message you when you added it to your attachment menu."
  ],
+ "Notification.BotWriteAllowedRequest": [
+  "You allowed this bot to message you in its web-app."
+ ],
  "Notification.CallCanceled": [
   "Canceled Call"
  ],
@@ -3460,6 +3502,9 @@
  ],
  "Notification.CallOutgoing": [
   "Outgoing Call"
+ ],
+ "Notification.ChangedTheme": [
+  "%1$@ changed the chat theme to %2$@"
  ],
  "Notification.ChangedToSameWallpaper": [
   "%1$@ set the same wallpaper for this chat"
@@ -3508,6 +3553,9 @@
  ],
  "Notification.CreatedGroup": [
   "Group created"
+ ],
+ "Notification.DisabledTheme": [
+  "%@ disabled the chat theme"
  ],
  "Notification.ForumTopicClosed": [
   "Topic closed"
@@ -3593,6 +3641,9 @@
  "Notification.GramTransferYou": [
   "You sent %1$@ %2$@"
  ],
+ "Notification.Joined": [
+  "%@ joined Telegram"
+ ],
  "Notification.JoinedChannelByRequestYou": [
   "Your request to join the channel was approved"
  ],
@@ -3601,6 +3652,9 @@
  ],
  "Notification.LiveStreamEnded": [
   "Live stream ended (%@)"
+ ],
+ "Notification.ManagedBotCreated": [
+  "%@ bot created"
  ],
  "Notification.MessageLifetime1d": [
   "1 day"
@@ -3631,6 +3685,9 @@
  ],
  "Notification.MessageLifetimeRemovedOutgoing": [
   "You disabled the self-destruct timer"
+ ],
+ "Notification.NoPaidMessagesTokenUsed": [
+  "%@ used your link to message you for free"
  ],
  "Notification.NoPaidMessagesTokenUsedYou": [
   "You used %@’s link to message for free"
@@ -3664,6 +3721,9 @@
  "Notification.PaidMessageMany": [
   "%1$@ paid %2$@ to send %3$@"
  ],
+ "Notification.PaidMessagePriceChanged": [
+  "%1$@ changed price to %2$@ per message"
+ ],
  "Notification.PaidMessagePriceChanged.Stars": [
   "%@ Star",
   "%@ Stars"
@@ -3687,8 +3747,23 @@
  "Notification.PaidMessageYouMany": [
   "You paid %1$@ to send %2$@"
  ],
+ "Notification.PassportValueEmail": [
+  "email address"
+ ],
+ "Notification.PassportValuePersonalDetails": [
+  "personal details"
+ ],
+ "Notification.PassportValueProofOfIdentity": [
+  "proof of identity"
+ ],
+ "Notification.PassportValuesSentMessage": [
+  "%1$@ received the following documents: %2$@"
+ ],
  "Notification.PaymentSent": [
   "You successfully transferred {amount} to {name} for {title}"
+ ],
+ "Notification.PaymentSentNoTitle": [
+  "You successfully transferred {amount} to {name}"
  ],
  "Notification.PaymentSentRecurringInit": [
   "You successfully transferred {amount} to {name} for {title} and allowed future recurring payments"
@@ -3781,6 +3856,15 @@
  "Notification.ProximityYouReached": [
   "You are now within %1$@ from %2$@"
  ],
+ "Notification.Refund": [
+  "You received a refund of {amount} from {name}"
+ ],
+ "Notification.RequestedPeer": [
+  "You shared %1$@ with %2$@."
+ ],
+ "Notification.RequestedPeerMultiple": [
+  "You shared %1$@ with %2$@."
+ ],
  "Notification.SecretChatMessageScreenshot": [
   "%@ took a screenshot!"
  ],
@@ -3847,6 +3931,9 @@
   "%@ Star",
   "%@ Stars"
  ],
+ "Notification.StarGift.Subtitle.Refunded": [
+  "This gift cannot be converted to Stars because the payment related to it was refunded."
+ ],
  "Notification.StarGift.Subtitle.Stars": [
   "%@ Star",
   "%@ Stars"
@@ -3880,6 +3967,9 @@
  ],
  "Notification.StarGift.View": [
   "View"
+ ],
+ "Notification.StarGiftOffer.Expiration.Delimiter": [
+  " "
  ],
  "Notification.StarGiftOffer.Expiration.Hours": [
   "%@h",
@@ -3983,6 +4073,9 @@
  "Notification.StarsGift.UnknownUser": [
   "Unknown user"
  ],
+ "Notification.StarsGift.Upgrade": [
+  "%@ turned the gift from you into a unique collectible"
+ ],
  "Notification.StarsGift.UpgradeChannel": [
   "A gift was turned into a unique collectible"
  ],
@@ -3997,6 +4090,9 @@
  ],
  "Notification.StarsGift.UpgradeYou": [
   "You turned the gift from %@ into a unique collectible"
+ ],
+ "Notification.StarsGiftOffer.Accepted": [
+  "%1$@ accepted your offer and sold you %2$@ for %3$@"
  ],
  "Notification.StarsGiftOffer.Accepted.Stars": [
   "%@ Star",
@@ -4036,8 +4132,18 @@
  "Notification.StarsGiftOffer.Rejected": [
   "%1$@ rejected your offer for %2$@ – your %3$@ have been refunded"
  ],
+ "Notification.StarsGiftOffer.Rejected.Stars": [
+  "%@ Star",
+  "%@ Stars"
+ ],
  "Notification.StarsGiftOffer.RejectedYou": [
   "You rejected %1$@'s offer"
+ ],
+ "Notification.StarsGiveaway.Subtitle": [
+  "You won a prize in a giveaway organized by **%1$@**.Your prize is **%2$@**."
+ ],
+ "Notification.StarsGiveaway.Title": [
+  "Congratulations!"
  ],
  "Notification.StarsGiveawayResultsNoWinners.Group": [
   "Due to the giveaway terms, no winners could be selected by Telegram, all stars were credited to group administrators."
@@ -4056,6 +4162,9 @@
  ],
  "Notification.TodoCompleted": [
   "%1$@ marked \"%2$@\" as done"
+ ],
+ "Notification.Ton.Subtitle": [
+  "Use Grams to buy gifts and suggest posts to channels."
  ],
  "Notification.Ton.SubtitleYou": [
   "With Grams, %@ will be able to submit post suggestions to channels."
@@ -4090,6 +4199,9 @@
  "Notification.Wallpaper.View": [
   "View Wallpaper"
  ],
+ "Notification.WebAppSentData": [
+  "Data from the \"%@\" button was transferred to the bot."
+ ],
  "Notification.YouChangedToSameWallpaper": [
   "You set the same wallpaper as your chat partner."
  ],
@@ -4101,6 +4213,10 @@
  ],
  "Notification.YouChangingWallpaper": [
   "Setting new wallpaper"
+ ],
+ "Notifications.Exceptions": [
+  "%@ chat",
+  "%@ chats"
  ],
  "Notifications.SaveSuccess.Text": [
   "You can use this sound as a notification tone in your [custom notification settings]()."
@@ -4208,6 +4324,9 @@
  ],
  "PeerInfo.PaneGroups": [
   "Groups"
+ ],
+ "PeerInfo.PaneLinks": [
+  "Links"
  ],
  "PeerInfo.PanePolls": [
   "Polls"
@@ -4567,6 +4686,9 @@
  "Settings.Privacy.LastSeenRevealedToast": [
   "Your last seen time is now visible."
  ],
+ "Settings.Title": [
+  "Settings"
+ ],
  "Share.Title": [
   "Share"
  ],
@@ -4616,8 +4738,26 @@
  "Story.InputPlaceholderReplyPrivately": [
   "Reply Privately..."
  ],
+ "Story.Privacy.CategoryCloseFriends": [
+  "Close Friends"
+ ],
+ "Story.Privacy.CategorySelectedContacts": [
+  "Selected Users"
+ ],
+ "Story.Privacy.ContactsHeader": [
+  "CONTACTS"
+ ],
+ "Story.Privacy.ExcludedPeople": [
+  "Excluded Contacts"
+ ],
  "Story.Privacy.KeepOnMyPage": [
   "Post to My Profile"
+ ],
+ "Story.Privacy.SaveList": [
+  "Save List"
+ ],
+ "Story.Privacy.SearchContacts": [
+  "Search Contacts"
  ],
  "Story.ViewList.NotFullyRecorded": [
   "Information about the other viewers wasn't recorded."
@@ -4631,6 +4771,10 @@
  "Story.ViewList.ViewerCount": [
   "1 Viewer",
   "%d Viewers"
+ ],
+ "StoryList.SubtitleCount": [
+  "1 story",
+  "%d stories"
  ],
  "SuggestBirthdate.Accept.Action": [
   "Add to My Profile"
