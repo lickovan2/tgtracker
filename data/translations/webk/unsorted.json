@@ -15776,7 +15776,7 @@
   "Invalid address"
  ],
  "Wallet.Error.KeyChanged": [
-  "The key of this wallet was changed on another device. Restore the new recovery phrase to send."
+  "The key of this wallet was changed on another device. Restore the new secret phrase to send."
  ],
  "Wallet.Error.LinkExpired": [
   "This payment link has expired."
