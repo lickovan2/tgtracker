@@ -2698,6 +2698,9 @@
  "Conversation.ShareMyPhoneNumber.StatusSuccess": [
   "%@ can now see your phone number."
  ],
+ "Conversation.ShareMyPhoneNumberConfirmation.Action": [
+  "Share"
+ ],
  "Conversation.StopVoiceMessageDescription": [
   "Are you sure you want to pause recording?"
  ],
@@ -3730,6 +3733,9 @@
  ],
  "Gift.Transfer.UpdateRequired.Title": [
   "Update Required"
+ ],
+ "Gift.UnavailableAction.UnlistText": [
+  "Unlist this gift from sale to unlock this action."
  ],
  "Gift.Unique.OriginalInfoWithText": [
   "Gifted to %1$@ on %2$@ with comment \"%3$@\"."
@@ -9243,6 +9249,39 @@
  "Wallet.TermsText_URL": [
   "https://telegram.org/tos"
  ],
+ "Wallet.TonConnect.Error.BridgeUnavailable": [
+  "The TON Connect response is waiting for network delivery."
+ ],
+ "Wallet.TonConnect.Error.ConflictingLink": [
+  "This app is already using a different connection request. Reconnect from the app."
+ ],
+ "Wallet.TonConnect.Error.Expired": [
+  "This TON Connect request has expired."
+ ],
+ "Wallet.TonConnect.Error.HandledElsewhere": [
+  "This request was handled on another device."
+ ],
+ "Wallet.TonConnect.Error.InsufficientBalance": [
+  "Not enough funds in the wallet to send this transaction."
+ ],
+ "Wallet.TonConnect.Error.InvalidLink": [
+  "This TON Connect link is invalid."
+ ],
+ "Wallet.TonConnect.Error.InvalidManifest": [
+  "Unable to load a valid manifest for this app."
+ ],
+ "Wallet.TonConnect.Error.KeyMismatch": [
+  "This connection belongs to a different wallet key."
+ ],
+ "Wallet.TonConnect.Error.OutcomeUnknown": [
+  "This operation may already have been signed or sent. It will not be signed again. Check the wallet history."
+ ],
+ "Wallet.TonConnect.Error.Unavailable": [
+  "This TON Connect request is no longer available."
+ ],
+ "Wallet.TonConnect.Error.WrongNetwork": [
+  "This app requested a different wallet network."
+ ],
  "Wallet.Transaction.AnonymousNumber": [
   "Collectible Number"
  ],
@@ -9282,11 +9321,17 @@
  "Wallet.Transaction.CollectiblePutOnSale": [
   "Put on sale"
  ],
+ "Wallet.Transaction.CollectiblePutOnSaleFor": [
+  "Put on sale for %@"
+ ],
  "Wallet.Transaction.CollectibleReceived": [
   "Received"
  ],
  "Wallet.Transaction.CollectibleRemovedFromSale": [
   "Removed from sale"
+ ],
+ "Wallet.Transaction.CollectibleRepriced": [
+  "Repriced from %1$@ to %2$@"
  ],
  "Wallet.Transaction.CollectibleSent": [
   "Sent"
