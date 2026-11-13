@@ -5,6 +5,9 @@
  "AccessDenied.Title": [
   "Please Allow Access"
  ],
+ "AddGifts.Title": [
+  "Add Gifts"
+ ],
  "AdsInfo.Ads.Text": [
   "You can turn off ads by subscribing to [Telegram Premium](), and Level %@ channels can remove them for their subscribers."
  ],
@@ -2381,6 +2384,12 @@
  "Chat.PostSuggestion.Approve.UserConfirmationText": [
   "Do you really want to publish this post?"
  ],
+ "Chat.PostSuggestion.ApproveTime.AdminConfirmationPriceStars": [
+  "You will receive %1$@ Stars (%2$@%)for publishing this post."
+ ],
+ "Chat.PostSuggestion.ApproveTime.AdminConfirmationPriceTon": [
+  "You will receive %1$@ Grams (%2$@%)for publishing this post."
+ ],
  "Chat.PostSuggestion.ApproveTime.NoTimeAction": [
   "Post Now"
  ],
@@ -2420,6 +2429,9 @@
  "Chat.PostSuggestion.SetTime.Title": [
   "Time"
  ],
+ "Chat.PostSuggestion.StarsDisclaimer": [
+  "Transactions in **Stars** may be reversed by the payment provider within **21** days. Only accept Stars from people you trust."
+ ],
  "Chat.PostSuggestion.Suggest.AdminMinAmountStars.Text": [
   "You cannot request less than %@ Stars."
  ],
@@ -2440,6 +2452,9 @@
  ],
  "Chat.PostSuggestion.Suggest.OfferButtonPrice": [
   "Offer  %@"
+ ],
+ "Chat.PostSuggestion.Suggest.OfferDateDescription": [
+  "Select the date and time you want the post to be published."
  ],
  "Chat.PostSuggestion.Suggest.OfferDescriptionStars": [
   "Choose how many Stars you want to offer %@ to publish this message."
@@ -2628,8 +2643,14 @@
  "ChatContextMenu.TextSelectionTip2": [
   "Hold a word, then move cursor to select more| text to copy or quote."
  ],
+ "ChatList.ArchivedChatsTitle": [
+  "Archived Chats"
+ ],
  "ChatList.Context.Delete": [
   "Delete"
+ ],
+ "ChatList.DeleteForCurrentUser": [
+  "Delete just for me"
  ],
  "ChatList.PeerTypeChannel": [
   "channel"
@@ -2675,6 +2696,9 @@
  ],
  "Common.Save": [
   "Save"
+ ],
+ "Common.Search": [
+  "Search"
  ],
  "Common.Yes": [
   "Yes"
@@ -2727,6 +2751,9 @@
  "Conversation.AutoremoveActionEdit": [
   "Edit Auto-Delete Settings"
  ],
+ "Conversation.AutoremoveActionEnable": [
+  "Enable Auto-Delete"
+ ],
  "Conversation.AutoremoveChanged": [
   "Auto-Delete timer set to %@."
  ],
@@ -2747,6 +2774,9 @@
  ],
  "Conversation.BoostToUnrestrictText": [
   "Boost this group to send messages"
+ ],
+ "Conversation.ClearAll": [
+  "Clear Chat"
  ],
  "Conversation.ClearCache": [
   "Clear Cache"
@@ -3086,6 +3116,9 @@
  "Conversation.ReportGroupLocation": [
   "Group unrelated to location?"
  ],
+ "Conversation.ReportMessages": [
+  "Report Messages"
+ ],
  "Conversation.ReportSpamAndLeave": [
   "Report Spam and Leave"
  ],
@@ -3146,6 +3179,13 @@
  ],
  "Conversation.SecretLinkPreviewAlert": [
   "Would you like to enable extended link previews in Secret Chats? Note that link previews are generated on Telegram servers."
+ ],
+ "Conversation.SelectMessages": [
+  "Select Messages"
+ ],
+ "Conversation.SelectedMessagesFormat": [
+  "{} Selected",
+  "{} Selected"
  ],
  "Conversation.SendMesageAs": [
   "Send Message As..."
@@ -3304,6 +3344,9 @@
  ],
  "DialogList.AdNoticeAlert": [
   "This channel is shown by your proxy server. To remove this channel from your chat list, disable the proxy in Telegram Settings > Data and Storage."
+ ],
+ "DialogList.ClearHistoryConfirmation": [
+  "Clear History"
  ],
  "DialogList.MultipleTypingSuffix": [
   "%d are typing"
@@ -4937,6 +4980,9 @@
  "Monetization.Withdraw.EnterPassword.Title": [
   "Enter Password"
  ],
+ "Monetization.Withdraw.SecurityRequirements": [
+  "You can only collect rewards if:• 2-Step Verification was enabled for your account more than **7 days** ago.• You have logged in on this device more than **24 hours** ago."
+ ],
  "Monoforum.DeleteTopic.Title": [
   "Delete %@"
  ],
@@ -5435,6 +5481,9 @@
  ],
  "PeerInfo.Gifts.Unlimited": [
   "Unlimited"
+ ],
+ "PeerInfo.Gifts.Upgradable": [
+  "Upgradable"
  ],
  "PeerInfo.Group.Boost": [
   "Boost Group"

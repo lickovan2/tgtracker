@@ -14,21 +14,6 @@
  "AccessDenied.VideoMessageMicrophone": [
   "Telegram needs access to your microphone so that you can send video messages.Please go to your device‘s settings > Privacy > Microphone and set Telegram to ON."
  ],
- "AdsInfo.Bot.Ads.Text": [
-  "You can turn off ads by subscribing to [Telegram Premium]()."
- ],
- "AdsInfo.Bot.Launch.Text": [
-  "Anyone can create ads to display in this bot – with minimal budgets. Check out the Telegram Ad Platform for details. [Learn More >]()"
- ],
- "AdsInfo.Bot.Respect.Text": [
-  "We don't use the contents of your private chats or contacts lists for ad targeting or other commercial purposes. "
- ],
- "AdsInfo.Bot.Split.Text": [
-  "50% of the revenue from Telegram Ads goes to the owner of the bot where they are displayed."
- ],
- "AdsInfo.Bot.Split.Title": [
-  "Help the Bot Creator"
- ],
  "AdsInfo.Launch.Text_URL": [
   "https://ads.telegram.org"
  ],
@@ -1041,9 +1026,6 @@
  "ChannelBoost.MaxLevelReachedTextAuthor": [
   "This channel reached **Level %1$@** and can now post %2$@."
  ],
- "ChannelBoost.MoreBoostsNeeded.Boosted.Level.Text": [
-  "This channel reached **Level %@** and unlocked new features."
- ],
  "ChannelBoost.Table.WearGift": [
   "Wear Unique Collectibles"
  ],
@@ -1313,12 +1295,6 @@
  "Chat.MessageSeenTimestamp.YesterdayAt": [
   "yesterday at %@"
  ],
- "Chat.MultipleTypingMore": [
-  "%@ and %@ others"
- ],
- "Chat.MultipleTypingPair": [
-  "%@ and %@"
- ],
  "Chat.NextChannelFolderSwipeActionV2": [
   "Release to go to the {folder} folder"
  ],
@@ -1367,12 +1343,6 @@
  "Chat.PostApproval.Status.UserRejected": [
   "Your post was rejected"
  ],
- "Chat.PostSuggestion.ApproveTime.AdminConfirmationPriceStars": [
-  "You will receive %1$@ Stars (%2$@%)for publishing this post."
- ],
- "Chat.PostSuggestion.ApproveTime.AdminConfirmationPriceTon": [
-  "You will receive %1$@ Grams (%2$@%)for publishing this post."
- ],
  "Chat.PostSuggestion.ChannelChangeP": [
   "**%@** suggested a new pricefor this post."
  ],
@@ -1384,9 +1354,6 @@
  ],
  "Chat.PostSuggestion.ChannelChangePTT": [
   "**%@** suggested a new price,time and text for this post."
- ],
- "Chat.PostSuggestion.Suggest.OfferDateDescription": [
-  "Select the date and time you want the post to be published."
  ],
  "Chat.PostSuggestion.UserChangePTA": [
   "You suggested a new price,time and attachments for this post."
@@ -2111,9 +2078,6 @@
  "Conversation.Timer.Title": [
   "Send With Timer"
  ],
- "Conversation.TitleRepliesFormat": [
-  "%1$@ %2$@"
- ],
  "Conversation.Translation.ChooseLanguage": [
   "Choose Another Language"
  ],
@@ -2591,26 +2555,8 @@
  "Gift.Acquired.GiftRound": [
   "%1$@ in round %2$@"
  ],
- "Gift.ActiveAuctions.Outbid": [
-  "Your bid of **%@** was outbid"
- ],
- "Gift.ActiveAuctions.RaiseBid": [
-  "Raise Bid"
- ],
- "Gift.ActiveAuctions.Round": [
-  "Round %@ of %@"
- ],
- "Gift.ActiveAuctions.UpcomingBid": [
-  "You've placed an early bid"
- ],
- "Gift.ActiveAuctions.Winning": [
-  "Your bid of **%@** is ranked **#%@**"
- ],
  "Gift.Auction.AveragePriceInfo": [
   "**%1$@** is the average sale price for %2$@ gifts."
- ],
- "Gift.Auction.EarlyBid": [
-  "Place an Early Bid"
  ],
  "Gift.Auction.End": [
   "End"
@@ -2648,15 +2594,6 @@
  "Gift.Auction.Start": [
   "Start"
  ],
- "Gift.Auction.StartsInHours": [
-  "auction starts in {h}:{m}:{s}"
- ],
- "Gift.Auction.StartsInMinutes": [
-  "auction starts in {m}:{s}"
- ],
- "Gift.Auction.TimeLeftMinutes": [
-  "{m}:{s} left"
- ],
  "Gift.Auction.TimeRound": [
   "Round %@"
  ],
@@ -2669,54 +2606,8 @@
  "Gift.Auction.UpcomingAuction": [
   "Upcoming Auction"
  ],
- "Gift.AuctionBid.AddMoreStars.Stars": [
-  "%@ Star",
-  "%@ Stars"
- ],
- "Gift.AuctionBid.BeforeStart": [
-  "before start"
- ],
  "Gift.AuctionBid.CustomBid.Placeholder": [
   "Amount"
- ],
- "Gift.AuctionBid.Increased.Text": [
-  "If you fall below the top %@, your bid will roll over to the next round."
- ],
- "Gift.AuctionBid.Increased.Title": [
-  "Your bid has been increased"
- ],
- "Gift.AuctionBid.RoundSubtitle": [
-  "Round %@ of %@"
- ],
- "Gift.AuctionBid.Top": [
-  "TOP %@"
- ],
- "Gift.AuctionBid.TopWinnersTotal": [
-  "Top 3 of %@ Winners"
- ],
- "Gift.AuctionBid.UntilEnd": [
-  "until the end"
- ],
- "Gift.AuctionBid.UpcomingBid": [
-  "You've placed an early bid"
- ],
- "Gift.AuctionBid.UpcomingTitle": [
-  "Place an Early Bid"
- ],
- "Gift.AuctionTransfer.Change": [
-  "Change"
- ],
- "Gift.AuctionTransfer.Text": [
-  "The current recipient of this gift is **%@**. Change to **%@**?"
- ],
- "Gift.AuctionTransfer.TextFromYourself": [
-  "The current recipient of this gift is you. Change to **%@**?"
- ],
- "Gift.AuctionTransfer.TextToYourself": [
-  "The current recipient of this gift is **%@**. Change to yourself?"
- ],
- "Gift.AuctionTransfer.Title": [
-  "Change Recipient"
  ],
  "Gift.Buy.ErrorPriceChanged.Text.Stars": [
   "%@ Star",
@@ -2726,14 +2617,8 @@
   "**%@ Star** was sent",
   "**%@ Stars** were sent"
  ],
- "Gift.Craft.Select.NoGiftsFromCollection": [
-  "You don't have other giftsfrom this collection"
- ],
  "Gift.Craft.Select.SaleGifts": [
   "Suitable Gifts On Sale"
- ],
- "Gift.Delete.Success": [
-  "Gift Deleted"
  ],
  "Gift.MoveToGifts.Success": [
   "Gift moved to your account."
@@ -2915,28 +2800,6 @@
  "Gift.OnchainOffer.Withdraw.Title": [
   "Withdraw Offer?"
  ],
- "Gift.Options.Collectibles.Text": [
-  "Collectible gifts are unique digital items you can exchange or sell."
- ],
- "Gift.Options.Gift.Auction": [
-  "auction"
- ],
- "Gift.Options.Gift.JoinAuction": [
-  "Join"
- ],
- "Gift.Options.Gift.Limited.Left": [
-  "%@ left",
-  "%@ left"
- ],
- "Gift.Options.Gift.Soon": [
-  "soon"
- ],
- "Gift.Options.Gift.ViewAuction": [
-  "View"
- ],
- "Gift.Send.Limited.Success.Text.None": [
-  "You've reached your limit on this gift."
- ],
  "Gift.Send.SendShort": [
   "Send"
  ],
@@ -2955,12 +2818,6 @@
  "Gift.Store.Filter.Ton": [
   "For Grams"
  ],
- "Gift.Transfer.Confirmation.TextFree": [
-  "Do you want to transfer ownership of **%1$@** to **%2$@**?"
- ],
- "Gift.Transfer.Confirmation.TransferFree": [
-  "Transfer"
- ],
  "Gift.Transfer.UpdateRequired.Text": [
   "The Telegram version that enables gift transfers to the blockchain is currently under review by the App Store. Please wait a few days."
  ],
@@ -2973,18 +2830,6 @@
  "Gift.Unique.OriginalInfoWithText": [
   "Gifted to %1$@ on %2$@ with comment \"%3$@\"."
  ],
- "Gift.Unique.Telegram": [
-  "Telegram"
- ],
- "Gift.Upgrade.AddChannelName": [
-  "Add channel name to the gift"
- ],
- "Gift.Upgrade.AddMyName": [
-  "Add my name to the gift"
- ],
- "Gift.Upgrade.AddNameAndComment": [
-  "Add sender's name and comment"
- ],
  "Gift.Upgrade.Gift.Sent.GiftMore": [
   "Gift More"
  ],
@@ -2994,23 +2839,14 @@
  "Gift.Upgrade.GiftDescription": [
   "Let %@ turn this gift into a unique collectible."
  ],
- "Gift.Upgrade.GiftTitle": [
-  "Make Unique"
- ],
  "Gift.Upgrade.PriceWillDecrease": [
   "Price decreases in {m}:{s}"
  ],
  "Gift.Upgrade.SeePriceDecrease": [
   "See how this price will decrease >"
  ],
- "Gift.Upgrade.Tradable.GiftDescription": [
-  "%@ will be able to auction the gift on third-party NFT marketplaces."
- ],
  "Gift.Upgrade.Transferable.GiftDescription": [
   "%@ will be able to send the gift to anyone on Telegram."
- ],
- "Gift.Upgrade.Unique.GiftDescription": [
-  "%@ will get a unique number, model, backdrop and symbol for the gift."
  ],
  "Gift.Upgrade.UpgradeFor": [
   "Upgrade for %@"
@@ -3040,9 +2876,6 @@
  "Gift.View.BotDescription": [
   "You can add this gift to your profile or hide it."
  ],
- "Gift.View.Context.SetAsTheme": [
-  "Set as Theme in..."
- ],
  "Gift.View.FreeUpgradeOtherDescription": [
   "%1$@ can turn this gift into a unique collectible."
  ],
@@ -3064,12 +2897,6 @@
  "Gift.View.OtherNoConvertDescription": [
   "We will notify %1$@ when this gift can be upgraded."
  ],
- "Gift.View.Outgoing.NameAndMessageHidden": [
-  "Only %@ can see your name and message."
- ],
- "Gift.View.Outgoing.NameHidden": [
-  "Only %@ can see your name."
- ],
  "Gift.View.Resale.SuccessYou.Text": [
   "%@ is now yours."
  ],
@@ -3078,9 +2905,6 @@
  ],
  "Gift.View.SellingGiftInfo": [
   "%@ is selling this gift and you can buy it."
- ],
- "Gift.View.UniqueHiddenInfo.Channel": [
-  "This gift is not visible on your channel's profile."
  ],
  "Gift.View.UpgradeFreeDescription": [
   "Upgrade this gift for free to turn it into a unique collectible."
@@ -3093,30 +2917,6 @@
  ],
  "Gift.Wear.Proof.ChannelText": [
   "Tapping the icon next to your channel's name will show the gift's owner and attributes."
- ],
- "Gift.WearPreview.FreeUpgrade": [
-  "FreeUpgrade"
- ],
- "Gift.WearPreview.LearnMore": [
-  "Learn more about wearing Telegram Gifts >"
- ],
- "Gift.WearPreview.Limited": [
-  "limited"
- ],
- "Gift.WearPreview.Upgraded": [
-  "upgraded"
- ],
- "Gift.Withdraw.ComeBackLater": [
-  "Please come back later."
- ],
- "Gift.Withdraw.SecurityCheck": [
-  "Security Check"
- ],
- "Gift.Withdraw.SecurityRequirements": [
-  "Gift withdrawals are only available if:• Two-Step verification was enabled for your account more than **7 days** ago.• You logged in on this device more than **24 hours** ago."
- ],
- "Gift.Withdraw.SetupTwoStepAuth": [
-  "Enable Two-Step Verification"
  ],
  "GiftLink.NotUsedFooter": [
   "This link hasn't been used yet."
@@ -3850,12 +3650,6 @@
  "MediaPlayer.ContextMenu.Forward": [
   "Forward"
  ],
- "MediaPlayer.UnknownArtist": [
-  "Unknown Artist"
- ],
- "MediaPlayer.UnknownTrack": [
-  "Unknown Track"
- ],
  "Message.AdRecommendedLabel": [
   "Recommended"
  ],
@@ -3977,9 +3771,6 @@
  "Monetization.Transaction.Failed": [
   "Not Completed"
  ],
- "Monetization.Transaction.Pending": [
-  "Pending"
- ],
  "Monetization.Transaction.Refund": [
   "Refund"
  ],
@@ -4004,14 +3795,8 @@
  "Monetization.TransactionsTitle": [
   "TRANSACTION HISTORY"
  ],
- "Monetization.Withdraw.ComeBackLater": [
-  "Please come back later."
- ],
  "Monetization.Withdraw.SecurityCheck": [
   "Security Check"
- ],
- "Monetization.Withdraw.SecurityRequirements": [
-  "You can only collect rewards if:• 2-Step Verification was enabled for your account more than **7 days** ago.• You have logged in on this device more than **24 hours** ago."
  ],
  "Monetization.Withdraw.SetupTwoStepAuth": [
   "Enable 2-Step Verification"
@@ -4307,9 +4092,6 @@
  ],
  "Notification.PremiumGift.Sent": [
   "%1$@ sent you a gift for %2$@"
- ],
- "Notification.PremiumGift.SentYou": [
-  "You sent a gift for %@"
  ],
  "Notification.PremiumGift.Subtitle": [
   "for %@"
@@ -5169,9 +4951,6 @@
  "Poll.Timer.MinutesSeconds": [
   "%1$@:%2$@"
  ],
- "Premium.Annual": [
-  "Annual"
- ],
  "Premium.BoostByGiftDescription": [
   " "
  ],
@@ -5183,9 +4962,6 @@
  ],
  "Premium.Colors.Proceed": [
   "About Telegram Premium"
- ],
- "Premium.CurrentPlan": [
-  "your current plan"
  ],
  "Premium.Emoji.Description": [
   "Unlock this emoji and many more by subscribing to Telegram Premium."
@@ -5377,12 +5153,6 @@
  "Premium.MessagePrivacy.Proceed": [
   "About Telegram Premium"
  ],
- "Premium.Monthly": [
-  "Monthly"
- ],
- "Premium.PricePerMonth": [
-  "%@/month"
- ],
  "Premium.PricePerYear": [
   "%@/year"
  ],
@@ -5410,9 +5180,6 @@
  "Premium.Restore.Success": [
   "Done"
  ],
- "Premium.Semiannual": [
-  "Semiannual"
- ],
  "Premium.SignUp.SignUpNewInfo": [
   "Get Telegram Premium for %@"
  ],
@@ -5422,21 +5189,6 @@
  ],
  "Premium.SignUp.SignUpNewInfoNone": [
   "Get Telegram Premium"
- ],
- "Premium.SubscribeForAnnual": [
-  "Subscribe for %@ / year"
- ],
- "Premium.UpgradeDescription": [
-  "Your current **Telegram Premium** plan can be upgraded at a **discount**."
- ],
- "Premium.UpgradeFor": [
-  "Upgrade for %@"
- ],
- "Premium.UpgradeForAnnual": [
-  "Upgrade for %@ / year"
- ],
- "Premium.UpgradeForBiannual": [
-  "Upgrade for %@ / 2 years"
  ],
  "Premium.VoiceToText.Proceed": [
   "About Telegram Premium"
@@ -6088,38 +5840,8 @@
  "Stars.AccountRevenue.Withdraw.Info": [
   "You can collect rewards for Stars using Fragment. You cannot withdraw less than 1000 stars. [Learn More >]()"
  ],
- "Stars.BotRevenue.Proceeds.Available": [
-  "Available Balance"
- ],
- "Stars.BotRevenue.Proceeds.Current": [
-  "Total Balance"
- ],
- "Stars.BotRevenue.Proceeds.Info": [
-  "Stars from your total balance can be used for ads or withdrawn as rewards 21 days after they are earned."
- ],
- "Stars.BotRevenue.Proceeds.Title": [
-  "Rewards Overview"
- ],
- "Stars.BotRevenue.Proceeds.Total": [
-  "Lifetime Proceeds"
- ],
- "Stars.BotRevenue.Revenue.Title": [
-  "Stars Received"
- ],
- "Stars.BotRevenue.Title": [
-  "Stars Balance"
- ],
  "Stars.BotRevenue.Transactions.Title": [
   "Transaction History"
- ],
- "Stars.BotRevenue.Withdraw.Balance": [
-  "Available Balance"
- ],
- "Stars.BotRevenue.Withdraw.BuyAds": [
-  "Buy Ads"
- ],
- "Stars.BotRevenue.Withdraw.Info": [
-  "You can collect rewards for Stars using Fragment, or use Stars to advertise your bot. You cannot withdraw less than 1000 stars. [Learn More >]()"
  ],
  "Stars.BotRevenue.Withdraw.Info_URL": [
   "https://telegram.org/tos/bot-developers#6-2-2-tpa-balance"
@@ -6127,35 +5849,8 @@
  "Stars.BotRevenue.Withdraw.Withdraw": [
   "Withdraw via Fragment"
  ],
- "Stars.BotRevenue.Withdraw.WithdrawShort": [
-  "Withdraw"
- ],
- "Stars.Intro.Balance": [
-  "Balance"
- ],
- "Stars.Intro.Subscriptions.Expired": [
-  "expired on %@"
- ],
- "Stars.Intro.Subscriptions.ExpiredStatus": [
-  "expired"
- ],
  "Stars.Intro.Subscriptions.ShowMore": [
   "Show More"
- ],
- "Stars.Intro.Transaction.AppleTopUp.Title": [
-  "Stars Top-Up"
- ],
- "Stars.Intro.Transaction.Commission.Title": [
-  "%@ commission"
- ],
- "Stars.Intro.Transaction.FragmentTopUp.Subtitle": [
-  "via Fragment"
- ],
- "Stars.Intro.Transaction.FragmentTopUp.Title": [
-  "Stars Top-Up"
- ],
- "Stars.Intro.Transaction.Gift.Title": [
-  "Received Gift"
  ],
  "Stars.Intro.Transaction.GiftDropOriginalDetails": [
   "Gift Description Removal"
@@ -6166,20 +5861,8 @@
  "Stars.Intro.Transaction.GiftUpgrade": [
   "Gift Upgrade"
  ],
- "Stars.Intro.Transaction.GoogleTopUp.Subtitle": [
-  "via Google Play"
- ],
- "Stars.Intro.Transaction.GoogleTopUp.Title": [
-  "Stars Top-Up"
- ],
  "Stars.Intro.Transaction.PrepaidGiftUpgrade": [
   "Gift Upgrade"
- ],
- "Stars.Intro.Transaction.TelegramAds.Subtitle": [
-  "via Telegram Ads"
- ],
- "Stars.Intro.Transaction.TelegramAds.Title": [
-  "Withdrawal"
  ],
  "Stars.Intro.Transaction.TelegramBotApi.Messages": [
   "%@ Message",
@@ -6187,13 +5870,6 @@
  ],
  "Stars.Intro.Transaction.TelegramBotApi.Title": [
   "Paid Broadcast"
- ],
- "Stars.Intro.Transaction.TelegramPremium": [
-  "Premium for %@ Month",
-  "Premium for %@ Months"
- ],
- "Stars.Intro.Transaction.Unsupported.Title": [
-  "Unsupported"
  ],
  "Stars.Purchase.GenericPurchasePurpose": [
   "Buy Stars to unlock content and services on Telegram."
@@ -6221,9 +5897,6 @@
  ],
  "Stars.Purchase.UpgradeStarGiftInfo": [
   "Buy Stars to upgrade your gift into a unique collectible."
- ],
- "Stars.SendMessage.AdjustmentSectionFooterEmptyValue": [
-  "You will receive **%1$@%**."
  ],
  "Stars.SendStars.AmountInfo": [
   "Send %@ or more to highlight your profile in the TOP 3 supporters of this message."
@@ -6305,15 +5978,6 @@
  "Stars.Transaction.Subscription.CancelledByBusiness": [
   "Your subscription was canceled by the business."
  ],
- "Stars.Transaction.Subscription.Expired": [
-  "Your subscription expired on %@."
- ],
- "Stars.Transaction.Subscription.JoinChannel": [
-  "Join Channel"
- ],
- "Stars.Transaction.Subscription.Status.Expired": [
-  "Expired"
- ],
  "Stars.Transaction.TelegramAds.Subtitle": [
   "Telegram Ads"
  ],
@@ -6337,9 +6001,6 @@
  "Stars.Transfer.Purchased.Stars": [
   "%@ Star",
   "%@ Stars"
- ],
- "Stars.Transfer.Terms": [
-  "By purchasing you agree to the [Terms of Service]()."
  ],
  "Stars.Transfer.Terms_URL": [
   "https://telegram.org/tos/stars"
@@ -6623,10 +6284,6 @@
  ],
  "Theme.Context.Apply": [
   "Apply"
- ],
- "Time.AfterHours": [
-  "%@ hour",
-  "%@ hours"
  ],
  "Time.AtDate": [
   "%@"
@@ -7485,9 +7142,6 @@
  "Wallet.Apps.AllDisconnected": [
   "All apps disconnected."
  ],
- "Wallet.Apps.DisconnectAll": [
-  "Disconnect All Apps"
- ],
  "Wallet.Apps.DisconnectAllAction": [
   "Disconnect All"
  ],
@@ -7509,125 +7163,14 @@
  "Wallet.AuthenticationReason": [
   "Confirm access to your wallet"
  ],
- "Wallet.Authorization.BackupDisabledText": [
-  "Enable encrypted backup before restoring the secret phrase from Telegram."
- ],
- "Wallet.Authorization.BackupDisabledTitle": [
-  "Backup Is Disabled"
- ],
- "Wallet.Authorization.BackupUnavailableText": [
-  "Encrypted backup is not available for this wallet."
- ],
- "Wallet.Authorization.BackupUnavailableTitle": [
-  "Backup Unavailable"
- ],
- "Wallet.Authorization.PasswordRetryAfter": [
-  "Try again in %@."
- ],
  "Wallet.Authorization.PasswordText": [
   "Enter your Telegram 2-Step Verification password to continue."
  ],
  "Wallet.Authorization.PasswordTitle": [
   "Telegram Password"
  ],
- "Wallet.Authorization.PasswordTooNewTitle": [
-  "Password Is Too New"
- ],
- "Wallet.Authorization.SessionRetryAfter": [
-  "For your security, try again in %@."
- ],
- "Wallet.Authorization.SessionTooNewTitle": [
-  "Session Is Too New"
- ],
- "Wallet.Authorization.TwoStepRequiredText": [
-  "Set up a Telegram password before changing this wallet."
- ],
- "Wallet.Authorization.TwoStepRequiredTitle": [
-  "Two-Step Verification Required"
- ],
- "Wallet.Authorization.UpdatePhraseErrorText": [
-  "The new secret phrase was not activated. Your previous phrase and encrypted backup are still valid."
- ],
- "Wallet.Authorization.VerificationExpiredText": [
-  "The wallet verification request expired. Please try importing it again."
- ],
- "Wallet.Authorization.VerificationExpiredTitle": [
-  "Verification Expired"
- ],
- "Wallet.Authorization.VerifyWalletErrorText": [
-  "Telegram couldn't verify that you own this wallet. Please try importing it again."
- ],
- "Wallet.Authorization.VerifyWalletErrorTitle": [
-  "Couldn't Verify Wallet"
- ],
- "Wallet.Backup.DisableErrorText": [
-  "Couldn't confirm that backup was disabled. Check the network connection and try again."
- ],
- "Wallet.Backup.DisableErrorTitle": [
-  "Couldn't Disable Backup"
- ],
- "Wallet.Backup.DisablePhraseUpdateErrorText": [
-  "The secret phrase change could not be completed. Check your wallet state and try again."
- ],
- "Wallet.Backup.DisablePhraseUpdatePendingText": [
-  "Telegram couldn't confirm the secret phrase change on the blockchain yet. Wait a moment and tap Disable again."
- ],
- "Wallet.Backup.DisableRetryText": [
-  "%@Tap Disable to try again."
- ],
- "Wallet.Backup.DisableVerificationErrorText": [
-  "Telegram couldn't verify that you own this wallet. Please try again."
- ],
- "Wallet.Backup.DisableVerificationExpiredText": [
-  "The wallet verification request expired. Tap Disable to try again."
- ],
- "Wallet.Backup.DisableWithNewPhraseText": [
-  "Your distributed encrypted backup will be deleted. Your wallet will switch to the new secret phrase. This secret phrase will be the only way to recover this wallet."
- ],
- "Wallet.Backup.EnableErrorTitle": [
-  "Couldn't Enable Backup"
- ],
- "Wallet.Backup.EnablePhraseUpdatePendingText": [
-  "Telegram couldn't confirm the secret phrase change on the blockchain yet. Wait a moment and retry, or enter the current secret phrase."
- ],
- "Wallet.Backup.EnableVerificationExpiredText": [
-  "The wallet verification request expired. Please try enabling backup again."
- ],
- "Wallet.Backup.EnableWalletChangedText": [
-  "The wallet changed while enabling backup. Open its settings and try again."
- ],
- "Wallet.Backup.EnterCurrentPhrase": [
-  "Enter Current Secret Phrase"
- ],
- "Wallet.Backup.InvalidPhraseText": [
-  "Check all words of your current secret phrase and try again."
- ],
- "Wallet.Backup.PhraseUpdatePendingTitle": [
-  "Secret Phrase Update Pending"
- ],
- "Wallet.Backup.RequiredBalanceText": [
-  "You need %@ to update your secret phrase. Add funds and try again."
- ],
- "Wallet.Backup.UpdateErrorTitle": [
-  "Couldn’t Update Backup"
- ],
- "Wallet.Backup.UpdatePhraseErrorTitle": [
-  "Couldn't Update Secret Phrase"
- ],
- "Wallet.Backup.UpdatePhraseTopUpText": [
-  "You need a non-zero balance to update your secret phrase."
- ],
- "Wallet.Backup.VerifyPhraseErrorText": [
-  "This secret phrase may be outdated for your wallet. Enter the current secret phrase to enable backup."
- ],
- "Wallet.Backup.VerifyPhraseErrorTitle": [
-  "Couldn't Verify Secret Phrase"
- ],
  "Wallet.Collectible.Header.RemoveColor": [
   "remove color"
- ],
- "Wallet.EarningsBalance": [
-  "You have %@ in Gram Earnings"
  ],
  "Wallet.HowDoesItWork": [
   "How does it work?"
@@ -7662,15 +7205,6 @@
  "Wallet.Info.GramText": [
   "The native currency of the TON blockchain."
  ],
- "Wallet.NetworkError": [
-  "Check the network connection and try again."
- ],
- "Wallet.PasscodeTouchId": [
-  "Passcode & Touch ID"
- ],
- "Wallet.ProtectAccount": [
-  "Protect Your Account"
- ],
  "Wallet.Receive.Buy": [
   "Buy with cash or crypto"
  ],
@@ -7689,29 +7223,11 @@
  "Wallet.Recipient.InvalidAddressText": [
   "This wallet address is invalid.Check it or try another address."
  ],
- "Wallet.RestoreErrorTitle": [
-  "Couldn’t Restore Wallet"
- ],
- "Wallet.Retry": [
-  "Retry"
- ],
  "Wallet.Send.AmountPlaceholder": [
   "Tap to set amount"
  ],
  "Wallet.Send.EditComment": [
   "Edit Comment"
- ],
- "Wallet.Settings.EnterSecretPhrase": [
-  "Enter Secret Phrase"
- ],
- "Wallet.Settings.EnterSecretPhraseInfo": [
-  "Enter your secret phrase to restore access to this wallet."
- ],
- "Wallet.Settings.ReplaceWalletErrorTitle": [
-  "Couldn’t Replace Wallet"
- ],
- "Wallet.Settings.ShowPhraseErrorTitle": [
-  "Couldn’t Show Secret Phrase"
  ],
  "Wallet.Sign.BinaryContent": [
   "Binary content"
@@ -7719,29 +7235,8 @@
  "Wallet.Sign.BinaryWarning": [
   "You are signing blindly. Only sign data from trusted sources."
  ],
- "Wallet.Sign.Confirm": [
-  "Confirm"
- ],
- "Wallet.Sign.ConfirmAction": [
-  "Confirm Action"
- ],
- "Wallet.Sign.Data": [
-  "Data"
- ],
- "Wallet.Sign.Fee": [
-  "Fee: %@."
- ],
  "Wallet.Sign.FeeWithFiat": [
   "Fee: %1$@ (%2$@)."
- ],
- "Wallet.Sign.FieldAddress": [
-  "address"
- ],
- "Wallet.Sign.FieldAmount": [
-  "amount"
- ],
- "Wallet.Sign.FieldComment": [
-  "comment"
  ],
  "Wallet.Sign.FieldMessage": [
   "message"
@@ -7755,18 +7250,6 @@
  "Wallet.Sign.FieldValidUntil": [
   "valid_until"
  ],
- "Wallet.Sign.MessageExplanation": [
-  "Review the message details and sign if you agree."
- ],
- "Wallet.Sign.Sign": [
-  "Sign"
- ],
- "Wallet.Sign.SignData": [
-  "Sign Data"
- ],
- "Wallet.Sign.Submission": [
-  "The app will submit this transfer."
- ],
  "Wallet.Sign.SubmissionUntil": [
   "The app can submit this transfer until %@."
  ],
@@ -7776,20 +7259,8 @@
  "Wallet.Sticker.ApplyColor": [
   "Apply Color"
  ],
- "Wallet.Sticker.BackgroundNotAllowedError": [
-  "This gift can’t be set as your card’s background."
- ],
- "Wallet.Sticker.InvalidError": [
-  "One of these stickers can’t be used on the card. Only gifts owned by this wallet are supported."
- ],
- "Wallet.Sticker.ProfileError": [
-  "A gift displayed on your profile can’t also be a card sticker. Hide it from your profile first."
- ],
  "Wallet.Sticker.RemoveColor": [
   "Remove Color"
- ],
- "Wallet.Sticker.SaveErrorTitle": [
-  "Couldn’t Save Card"
  ],
  "Wallet.Sticker.TutorialCard": [
   "Drag this collectible here."
@@ -7832,12 +7303,6 @@
  ],
  "Wallet.Transaction.AnonymousNumber": [
   "Collectible Number"
- ],
- "Wallet.Transaction.CallContract": [
-  "Call Contract"
- ],
- "Wallet.Transaction.CardTopUp": [
-  "Card top-up"
  ],
  "Wallet.Transaction.Collectible": [
   "Collectible"
@@ -7899,23 +7364,11 @@
  "Wallet.Transaction.DeployContract": [
   "Deploy Contract"
  ],
- "Wallet.Transaction.Deposit": [
-  "Deposit"
- ],
- "Wallet.Transaction.Excess": [
-  "Excess"
- ],
- "Wallet.Transaction.Failed": [
-  "Failed"
- ],
  "Wallet.Transaction.FailedOperation": [
   "%@ · Failed"
  ],
  "Wallet.Transaction.IncomingCollectible": [
   "Incoming collectible"
- ],
- "Wallet.Transaction.KeyUpdate": [
-  "Key Update"
  ],
  "Wallet.Transaction.NetworkFee": [
   "Network fee"
@@ -7956,9 +7409,6 @@
  "Wallet.Transaction.Sender": [
   "Sender"
  ],
- "Wallet.Transaction.Transfer": [
-  "Transfer"
- ],
  "Wallet.Transaction.Transfers": [
   "%@ transfer",
   "%@ transfers"
@@ -7966,14 +7416,8 @@
  "Wallet.Transaction.UnknownAddress": [
   "Unknown Address"
  ],
- "Wallet.Transaction.UnknownOperation": [
-  "Unknown Operation"
- ],
  "Wallet.Transaction.Username": [
   "Username"
- ],
- "Wallet.Transaction.Withdrawal": [
-  "Withdrawal"
  ],
  "Wallet.Transfer.AllBalance": [
   "All Balance"
@@ -7984,15 +7428,6 @@
  "Wallet.Transfer.DetailsHeader": [
   "DETAILS"
  ],
- "Wallet.Transfer.Header": [
-  "TRANSFER"
- ],
- "Wallet.Transfer.HeaderMultiple": [
-  "TRANSFERS"
- ],
- "Wallet.Transfer.PreviewHeader": [
-  "PREVIEW"
- ],
  "Wallet.Transfer.RecipientCount": [
   "%@ recipient",
   "%@ recipients"
@@ -8000,20 +7435,11 @@
  "Wallet.Transfer.Success": [
   "Grams have been sent to **%@**."
  ],
- "Wallet.Transfer.ToAddress": [
-  "to %@"
- ],
  "Wallet.Transfer.Unavailable": [
   "Unavailable"
  ],
  "Wallet.WaltBalance": [
   "You also have funds in Walt"
- ],
- "Wallet.Words.NewText": [
-  "A new secret phrase for your wallet has been generated. Write it down and keep it secret."
- ],
- "Wallet.Words.NewTitle": [
-  "New Secret Phrase"
  ],
  "Wallpaper.ErrorNotFound": [
   "Sorry, this chat wallpaper doesn't seem to exist."

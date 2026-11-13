@@ -305,8 +305,17 @@
  "MediaPicker.Videos": [
   "Videos"
  ],
+ "MediaPlayer.UnknownArtist": [
+  "Unknown Artist"
+ ],
+ "MediaPlayer.UnknownTrack": [
+  "Unknown Track"
+ ],
  "Message.Photo": [
   "Photo"
+ ],
+ "Message.VideoMessage": [
+  "Video Message"
  ],
  "MessagePoll.LabelAnonymous": [
   "Anonymous Poll"
@@ -324,6 +333,9 @@
  "MessagePoll.VotedCount": [
   "1 vote",
   "%@ votes"
+ ],
+ "MusicPlayer.VoiceNote": [
+  "Voice Message"
  ],
  "Paint.Arrow": [
   "Arrow"

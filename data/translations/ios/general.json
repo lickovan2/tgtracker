@@ -95,6 +95,21 @@
  "AdsInfo.Ads.Title": [
   "Can Be Removed"
  ],
+ "AdsInfo.Bot.Ads.Text": [
+  "You can turn off ads by subscribing to [Telegram Premium]()."
+ ],
+ "AdsInfo.Bot.Launch.Text": [
+  "Anyone can create ads to display in this bot – with minimal budgets. Check out the Telegram Ad Platform for details. [Learn More >]()"
+ ],
+ "AdsInfo.Bot.Respect.Text": [
+  "We don't use the contents of your private chats or contacts lists for ad targeting or other commercial purposes. "
+ ],
+ "AdsInfo.Bot.Split.Text": [
+  "50% of the revenue from Telegram Ads goes to the owner of the bot where they are displayed."
+ ],
+ "AdsInfo.Bot.Split.Title": [
+  "Help the Bot Creator"
+ ],
  "AdsInfo.Info": [
   "Telegram Ads are very different from ads on other platforms. Ads such as this one:"
  ],
@@ -9112,6 +9127,9 @@
  ],
  "Time.MonthOfYear_m1": [
   "January %@"
+ ],
+ "Time.MonthOfYear_m10": [
+  "October %@"
  ],
  "Time.MonthOfYear_m12": [
   "December %@"

@@ -5,6 +5,12 @@
  "Activity.ChoosingSticker": [
   "choosing a sticker"
  ],
+ "Activity.EnjoyingAnimations": [
+  "watching %@"
+ ],
+ "Activity.PlayingGame": [
+  "playing a game"
+ ],
  "Activity.RecordingAudio": [
   "recording voice"
  ],
@@ -512,6 +518,12 @@
  ],
  "Chat.MultipleTextMessagesDisabled": [
   "Slow Mode is enabled. You can't send multiple messages at once."
+ ],
+ "Chat.MultipleTypingMore": [
+  "%@ and %@ others"
+ ],
+ "Chat.MultipleTypingPair": [
+  "%@ and %@"
  ],
  "Chat.NonContactUser.AnonymousNumber": [
   "Collectible"
@@ -1048,6 +1060,15 @@
  "ChatSearch.ResultsTooltip": [
   "Tap to view as a list."
  ],
+ "ChatState.Connecting": [
+  "connecting..."
+ ],
+ "ChatState.Updating": [
+  "updating..."
+ ],
+ "ChatState.WaitingForNetwork": [
+  "waiting for network..."
+ ],
  "CloudStorage.Title": [
   "Cloud Storage"
  ],
@@ -1119,6 +1140,9 @@
  ],
  "Conversation.AutoremoveActionEdit": [
   "Edit Auto-Delete Settings"
+ ],
+ "Conversation.AutoremoveActionEnable": [
+  "Enable Auto-Delete"
  ],
  "Conversation.AutoremoveChanged": [
   "Auto-Delete timer set to %@."
@@ -1606,6 +1630,9 @@
  "Conversation.ScheduleMessage.SendOn": [
   "Send on %@ at %@"
  ],
+ "Conversation.ScheduleMessage.SendToday": [
+  "Send today at %@"
+ ],
  "Conversation.ScheduleMessage.SendTomorrow": [
   "Send tomorrow at %@"
  ],
@@ -1639,8 +1666,14 @@
  "Conversation.SearchNoResults": [
   "No Results"
  ],
+ "Conversation.SearchPlaceholder": [
+  "Search this chat"
+ ],
  "Conversation.SecretLinkPreviewAlert": [
   "Would you like to enable extended link previews in Secret Chats? Note that link previews are generated on Telegram servers."
+ ],
+ "Conversation.SelectMessages": [
+  "Select Messages"
  ],
  "Conversation.SelectedMessagesFormat": [
   "{} Selected",
@@ -1700,9 +1733,17 @@
  "Conversation.SlideToCancel": [
   "Slide to cancel"
  ],
+ "Conversation.StatusBotSubscribers": [
+  "1 monthly user",
+  "%d monthly users"
+ ],
  "Conversation.StatusMembers": [
   "1 member",
   "%@ members"
+ ],
+ "Conversation.StatusOnline": [
+  "1 online",
+  "%@ online"
  ],
  "Conversation.StatusSubscribers": [
   "%@ subscriber",
@@ -1792,6 +1833,26 @@
  "Conversation.Theme.Title": [
   "Select Theme"
  ],
+ "Conversation.TitleComments": [
+  "[%@]Comment",
+  "[%@]Comments"
+ ],
+ "Conversation.TitleCommentsEmpty": [
+  "Comments"
+ ],
+ "Conversation.TitleCommentsFormat": [
+  "%1$@ %2$@"
+ ],
+ "Conversation.TitleReplies": [
+  "[%@]Reply",
+  "[%@]Replies"
+ ],
+ "Conversation.TitleRepliesEmpty": [
+  "Replies"
+ ],
+ "Conversation.TitleRepliesFormat": [
+  "%1$@ %2$@"
+ ],
  "Conversation.TitleUnmute": [
   "Unmute"
  ],
@@ -1836,6 +1897,9 @@
  ],
  "Conversation.VoiceChatMediaRecordingRestricted": [
   "You can't record voice and video messages during a video chat."
+ ],
+ "Conversation.typing": [
+  "typing"
  ],
  "ConversationProfile.LeaveDeleteAndExit": [
   "Delete and Leave"
@@ -1889,6 +1953,9 @@
  ],
  "DialogList.MyNotes": [
   "My Notes"
+ ],
+ "DialogList.Replies": [
+  "Replies"
  ],
  "DialogList.You": [
   "You"
@@ -2014,6 +2081,9 @@
   "You can send **%@** more.",
   "You can send **%@** more."
  ],
+ "Gift.Send.Limited.Success.Text.None": [
+  "You've reached your limit on this gift."
+ ],
  "Gift.Send.Limited.Success.Title": [
   "Gift Sent!"
  ],
@@ -2055,6 +2125,15 @@
  ],
  "Gift.Transfer.UnlockPending.Title": [
   "Unlocking In Progress"
+ ],
+ "Gift.Unique.Backdrop": [
+  "Backdrop"
+ ],
+ "Gift.Unique.Model": [
+  "Model"
+ ],
+ "Gift.Unique.Symbol": [
+  "Symbol"
  ],
  "Gift.Upgrade.Upgrade": [
   "Upgrade"
@@ -2177,6 +2256,9 @@
  ],
  "Invitation.JoinGroupCall": [
   "Join Group Call"
+ ],
+ "Items.NOfM": [
+  "%1$@ of %2$@"
  ],
  "LastSeen.ALongTimeAgo": [
   "last seen a long time ago"
@@ -3179,6 +3261,9 @@
  ],
  "ScheduleMessage.Time": [
   "Time"
+ ],
+ "ScheduledMessages.ClearAllConfirmation": [
+  "Clear Scheduled Messages"
  ],
  "ScheduledMessages.Delete": [
   "Delete Scheduled Message"

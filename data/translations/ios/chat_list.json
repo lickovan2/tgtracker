@@ -993,6 +993,9 @@
  "Gallery.SaveVideo": [
   "Save Video"
  ],
+ "Gift.Delete.Success": [
+  "Gift Deleted"
+ ],
  "GlobalAutodeleteSettings.ApplyChatsPlaceholder": [
   "Select chats to apply a %@ self-destruct timer"
  ],
