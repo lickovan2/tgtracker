@@ -762,6 +762,9 @@
  "Channel.ChannelColor": [
   "Channel Color"
  ],
+ "Channel.EditAdmin.PermissionChangeInfo": [
+  "Change Channel Info"
+ ],
  "Channel.EditAdmin.PermissionCreateTopics": [
   "Create Topics"
  ],
@@ -786,6 +789,9 @@
  "Channel.EditAdmin.PermissionPostStories": [
   "Post Stories"
  ],
+ "Channel.EditAdmin.PermissionsHeader": [
+  "WHAT CAN THIS ADMIN DO?"
+ ],
  "Channel.EditAdmin.SectionMessages": [
   "Manage Messages"
  ],
@@ -794,6 +800,12 @@
  ],
  "Channel.Info.AutoTranslate": [
   "Auto-Translate Messages"
+ ],
+ "Channel.Management.AddAdmin": [
+  "Add Admin"
+ ],
+ "Channel.Management.AddModerator": [
+  "Add Admin"
  ],
  "Channel.MessagePhotoUpdated": [
   "Channel photo updated"
@@ -1816,6 +1828,9 @@
  "LastSeen.MinutesAgo": [
   "last seen 1 minute ago",
   "last seen %@ minutes ago"
+ ],
+ "LastSeen.TodayAt": [
+  "last seen today at %@"
  ],
  "Localization.DoNotTranslate": [
   "Do Not Translate"
@@ -4162,6 +4177,9 @@
  ],
  "Settings.Stars": [
   "My Stars"
+ ],
+ "Settings.SuggestSetupPasswordAction": [
+  "Set Additional Password"
  ],
  "Settings.SuggestSetupPasswordText": [
   "Set a password that will be required each time you log in with this phone number."

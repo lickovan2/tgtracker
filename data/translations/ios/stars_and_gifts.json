@@ -1,4 +1,7 @@
 {
+ "AffiliateProgram.ActionCopyLink": [
+  "Copy Link"
+ ],
  "AffiliateProgram.ActionJoin": [
   "Join Program"
  ],
@@ -10,6 +13,9 @@
  ],
  "AffiliateProgram.DurationLifetime": [
   "Lifetime"
+ ],
+ "AffiliateProgram.JoinSubtitleLifetime": [
+  "**{bot}** will share **{commission}** of the revenue from each user you refer to it **forever**."
  ],
  "AffiliateProgram.JoinSubtitleMonths": [
   "**{bot}** will share **{commission}** of the revenue from each user you refer to it for **1 month.**",
@@ -24,6 +30,20 @@
  ],
  "AffiliateProgram.JoinTitle": [
   "Affiliate Program"
+ ],
+ "AffiliateProgram.LinkSubtitleLifetime": [
+  "Share this link with your users to earn a **{commission}** commission on their spending in **{bot}** **forever** after they follow your link."
+ ],
+ "AffiliateProgram.LinkSubtitleMonths": [
+  "Share this link with your users to earn a **{commission}** commission on their spending in **{bot}** for **1 month** after they follow your link.",
+  "Share this link with your users to earn a **{commission}** commission on their spending in **{bot}** for **%d months** after they follow your link."
+ ],
+ "AffiliateProgram.LinkSubtitleYears": [
+  "Share this link with your users to earn a **{commission}** commission on their spending in **{bot}** for **1 year** after they follow your link.",
+  "Share this link with your users to earn a **{commission}** commission on their spending in **{bot}** for **%d years** after they follow your link."
+ ],
+ "AffiliateProgram.LinkTitle": [
+  "Referral Link"
  ],
  "AffiliateProgram.OpenBot": [
   "View %@"
@@ -45,6 +65,10 @@
  ],
  "AffiliateProgram.ToastLinkCopied.Title": [
   "Link copied to clipboard"
+ ],
+ "AffiliateProgram.UserCountFooter": [
+  "1 user opened {bot} through this link.",
+  "%d users opened {bot} through this link."
  ],
  "AffiliateProgram.ValueLongMonths": [
   "%@ MONTH",

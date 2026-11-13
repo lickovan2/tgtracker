@@ -91,6 +91,9 @@
  "Common.Cancel": [
   "Cancel"
  ],
+ "Common.Edit": [
+  "Edit"
+ ],
  "Common.OK": [
   "OK"
  ],
@@ -150,6 +153,10 @@
  ],
  "Conversation.SendMessage.SendSilently": [
   "Send Without Sound"
+ ],
+ "Conversation.StatusMembers": [
+  "1 member",
+  "%@ members"
  ],
  "Conversation.StopPoll": [
   "Stop Poll"
@@ -268,6 +275,10 @@
  ],
  "GroupInfo.SetGroupPhotoDelete": [
   "Remove Photo"
+ ],
+ "LastSeen.HoursAgo": [
+  "last seen 1 hour ago",
+  "last seen %@ hours ago"
  ],
  "MaskStickerSettings.Title": [
   "Masks"
@@ -496,6 +507,9 @@
  ],
  "Paint.Text": [
   "Text"
+ ],
+ "PeerInfo.PanePolls": [
+  "Polls"
  ],
  "PhotoEditor.BlurToolLinear": [
   "Linear"

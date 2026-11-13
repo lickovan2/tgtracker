@@ -60,6 +60,9 @@
  "Birthday.FloodError": [
   "Sorry, you can’t change your birthday so often."
  ],
+ "Bot.GenericBotStatus": [
+  "bot"
+ ],
  "BotPreviews.MenuDeleteLanguage": [
   "Delete %@"
  ],
@@ -126,6 +129,9 @@
  ],
  "CollectibleItemInfo.UsernameTitle": [
   "%@ is a collectible username that belongs to"
+ ],
+ "Common.Back": [
+  "Back"
  ],
  "Common.Cancel": [
   "Cancel"
@@ -311,6 +317,9 @@
  ],
  "Gift.RemoveDetails.Title": [
   "Remove Description"
+ ],
+ "Gift.Unique.Collectible": [
+  "Collectible"
  ],
  "Gift.Unique.CollectibleBy": [
   "collectible %1$@ by %2$@"
@@ -553,6 +562,27 @@
  "MediaPlayer.SavedMusic.RemovedFromProfile": [
   "Audio removed from your profile."
  ],
+ "Month.GenApril": [
+  "April"
+ ],
+ "Month.GenAugust": [
+  "August"
+ ],
+ "Month.GenJuly": [
+  "July"
+ ],
+ "Month.GenMarch": [
+  "March"
+ ],
+ "Month.GenMay": [
+  "May"
+ ],
+ "Month.GenSeptember": [
+  "September"
+ ],
+ "Month.ShortJune": [
+  "Jun"
+ ],
  "Month.ShortMarch": [
   "Mar"
  ],
@@ -708,6 +738,18 @@
  "PeerInfo.AllowedReactions.Title": [
   "Reactions"
  ],
+ "PeerInfo.AppFooter": [
+  "By launching this mini app, you agree to the [Terms of Service for Mini Apps](https://telegram.org/tos/mini-apps)."
+ ],
+ "PeerInfo.BotBalance.Stars": [
+  "Stars"
+ ],
+ "PeerInfo.BotBalance.Title": [
+  "BALANCE"
+ ],
+ "PeerInfo.BotBalance.Ton": [
+  "Grams"
+ ],
  "PeerInfo.BusinessHours.DayClosed": [
   "closed"
  ],
@@ -722,6 +764,10 @@
  ],
  "PeerInfo.BusinessHours.StatusOpen": [
   "Open"
+ ],
+ "PeerInfo.BusinessHours.StatusOpensInDays": [
+  "Opens in 1 day",
+  "Opens in %d days"
  ],
  "PeerInfo.BusinessHours.StatusOpensInHours": [
   "Opens in one hour",
@@ -788,11 +834,17 @@
  "PeerInfo.Gifts.AddedToCollectionUnique": [
   "**%1$@** has been added to **%2$@**."
  ],
+ "PeerInfo.Gifts.ChannelNotify": [
+  "Notify About New Gifts"
+ ],
  "PeerInfo.Gifts.CollectionLimitReached.Text": [
   "Please remove one of the existing collections to add a new one."
  ],
  "PeerInfo.Gifts.CollectionLimitReached.Title": [
   "Limit Reached"
+ ],
+ "PeerInfo.Gifts.Collections.Add": [
+  "Add Collection"
  ],
  "PeerInfo.Gifts.Collections.All": [
   "All Gifts"
@@ -887,6 +939,9 @@
  "PeerInfo.Gifts.Send": [
   "Send Gifts to Friends"
  ],
+ "PeerInfo.Gifts.SendGift": [
+  "Send Gift"
+ ],
  "PeerInfo.Gifts.ShareCollection": [
   "Share"
  ],
@@ -931,6 +986,16 @@
  "PeerInfo.NotesInfo": [
   "only visible to you"
  ],
+ "PeerInfo.NotificationMemberAdded": [
+  "**%1$@** added to the group."
+ ],
+ "PeerInfo.NotificationMultipleMembersAdded": [
+  "**%d** member added to the group.",
+  "**%d** members added to the group."
+ ],
+ "PeerInfo.OpenAppButton": [
+  "Open App"
+ ],
  "PeerInfo.PaneArchivedStories": [
   "Archived Posts"
  ],
@@ -946,8 +1011,14 @@
  "PeerInfo.PaneGifts": [
   "Gifts"
  ],
+ "PeerInfo.PaneGroups": [
+  "Groups"
+ ],
  "PeerInfo.PaneMedia": [
   "Media"
+ ],
+ "PeerInfo.PaneRecommended": [
+  "Similar Channels"
  ],
  "PeerInfo.PaneStories": [
   "Posts"
@@ -955,11 +1026,17 @@
  "PeerInfo.PaneVoiceAndVideo": [
   "Voice"
  ],
+ "PeerInfo.Permissions.Camera": [
+  "Camera"
+ ],
  "PeerInfo.Permissions.EmojiStatus": [
   "Emoji Status"
  ],
  "PeerInfo.Permissions.Geolocation": [
   "Geolocation"
+ ],
+ "PeerInfo.Permissions.Microphone": [
+  "Microphone"
  ],
  "PeerInfo.Permissions.Title": [
   "ALLOW ACCESS TO"
@@ -972,6 +1049,12 @@
  ],
  "PeerInfo.SetEmojiStatus": [
   "Set Emoji Status"
+ ],
+ "PeerInfo.SimilarBots.ShowMore": [
+  "Show More Bots"
+ ],
+ "PeerInfo.SimilarBots.ShowMoreInfo": [
+  "Subscribe to [Telegram Premium]()to unlock up to **100** similar bots."
  ],
  "PeerInfo.Tabs.SetMainTab": [
   "Set as Main Tab"
@@ -1549,6 +1632,9 @@
  "Story.HeaderYourStory": [
   "Your story"
  ],
+ "StoryList.ArchiveDescription": [
+  "Only you can see archived stories unless you choose to post them to your profile."
+ ],
  "StoryList.SavedEmptyPosts.Title": [
   "No posts yet..."
  ],
@@ -1671,6 +1757,9 @@
  "UserInfo.SetCustomPhoto.AlertSet": [
   "Set"
  ],
+ "UserInfo.SetCustomPhoto.AlertVideoText": [
+  "Do you want to set this photo for %@? It will replace any photo %@ sets — only you will see it."
+ ],
  "UserInfo.SetCustomPhoto.SuccessPhotoText": [
   "You will now always see this photo for **%@**."
  ],
@@ -1697,6 +1786,15 @@
  ],
  "UserInfo.SuggestPhoto": [
   "Suggest Photo for %@"
+ ],
+ "UserInfo.SuggestPhoto.AlertPhotoText": [
+  "Do you want to suggest this photo for %@'s Telegram profile?"
+ ],
+ "UserInfo.SuggestPhoto.AlertSuggest": [
+  "Suggest"
+ ],
+ "UserInfo.SuggestPhoto.AlertVideoText": [
+  "Do you want to suggest this photo for %@'s Telegram profile?"
  ],
  "UserInfo.TapToCall": [
   "Tap to make an end-to-end encrypted call"

@@ -118,6 +118,9 @@
  "Common.Cancel": [
   "Cancel"
  ],
+ "Common.Close": [
+  "Close"
+ ],
  "Common.Edit": [
   "Edit"
  ],
@@ -139,6 +142,36 @@
  "Conversation.StatusSubscribers": [
   "%@ subscriber",
   "%@ subscribers"
+ ],
+ "CreateExternalStream.Revoke.Revoke": [
+  "Revoke"
+ ],
+ "CreateExternalStream.Revoke.Text": [
+  "Do you want to revoke the stream key?"
+ ],
+ "CreateExternalStream.RevokeStreamKey": [
+  "Revoke Stream Key"
+ ],
+ "CreateExternalStream.ServerUrl": [
+  "server URL"
+ ],
+ "CreateExternalStream.StartStreaming": [
+  "Start Streaming"
+ ],
+ "CreateExternalStream.StartStreamingInfo": [
+  "Once you start broadcasting in your streamingapp, tap Start Streaming below."
+ ],
+ "CreateExternalStream.StreamKey": [
+  "stream key"
+ ],
+ "CreateExternalStream.StreamKeyTitle": [
+  "Stream Key"
+ ],
+ "CreateExternalStream.Text": [
+  "To stream video with another app, enterthis Server URL and Stream Key in yourstreaming app."
+ ],
+ "CreateExternalStream.Title": [
+  "Stream With..."
  ],
  "DialogList.Title": [
   "Chats"

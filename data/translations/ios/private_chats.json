@@ -324,6 +324,9 @@
   "1 person",
   "%d people"
  ],
+ "Chat.CallMessage.IncomingGroupCall": [
+  "Incoming Group Call"
+ ],
  "Chat.CallMessage.MissedGroupCall": [
   "Missed Group Call"
  ],
@@ -2265,6 +2268,12 @@
  "Conversation.SuggestedBirthdateTextYou": [
   "You suggested **%@** to add a birthday"
  ],
+ "Conversation.SuggestedPhotoSuccess": [
+  "Photo updated"
+ ],
+ "Conversation.SuggestedPhotoSuccessText": [
+  "You can change it in [Settings]()."
+ ],
  "Conversation.SuggestedPhotoTextExpanded": [
   "%@ suggests this photo for your Telegram profile."
  ],
@@ -2276,6 +2285,12 @@
  ],
  "Conversation.SuggestedPhotoView": [
   "View Photo"
+ ],
+ "Conversation.SuggestedVideoSuccess": [
+  "Profile Photo Updated"
+ ],
+ "Conversation.SuggestedVideoSuccessText": [
+  "You can change it in [Settings]()."
  ],
  "Conversation.SuggestedVideoText": [
   "**%@** suggests this photo for your Telegram profile."
@@ -2951,6 +2966,9 @@
  "Invitation.JoinGroupCall": [
   "Join Group Call"
  ],
+ "Invitation.JoinGroupCall.EnableMicrophone": [
+  "Turn on the microphone"
+ ],
  "Items.NOfM": [
   "%1$@ of %2$@"
  ],
@@ -3391,11 +3409,17 @@
  "Notification.BotWriteAllowedMenu": [
   "You allowed this bot to message you when you added it to your attachment menu."
  ],
+ "Notification.CallCanceled": [
+  "Canceled Call"
+ ],
  "Notification.CallFormat": [
   "%1$@, %2$@"
  ],
  "Notification.CallIncoming": [
   "Incoming Call"
+ ],
+ "Notification.CallMissed": [
+  "Missed Call"
  ],
  "Notification.CallOutgoing": [
   "Outgoing Call"
@@ -4093,6 +4117,10 @@
   "Opens in 1 day",
   "Opens in %d days"
  ],
+ "PeerInfo.BusinessHours.StatusOpensInHours": [
+  "Opens in one hour",
+  "Opens in %d hours"
+ ],
  "PeerInfo.ButtonCall": [
   "Call"
  ],
@@ -4104,6 +4132,9 @@
  ],
  "PeerInfo.ButtonMute": [
   "Mute"
+ ],
+ "PeerInfo.ButtonVideoCall": [
+  "Video"
  ],
  "PeerInfo.ClearConfirmationUser": [
   "Do you want to delete all messages with %@?"
@@ -4505,6 +4536,10 @@
  "ShareScreen.RecentChats": [
   "Recent chats"
  ],
+ "SharedMedia.CommonGroupCount": [
+  "%@ group in common",
+  "%@ groups in common"
+ ],
  "SponsoredMessageMenu.Hide": [
   "Hide"
  ],
@@ -4768,6 +4803,12 @@
  ],
  "Undo.Undo": [
   "Undo"
+ ],
+ "User.DeletedAccount": [
+  "Deleted Account"
+ ],
+ "UserInfo.AnonymousNumberLabel": [
+  "collectible number"
  ],
  "UserInfo.Birthday": [
   "birthday"

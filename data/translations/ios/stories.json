@@ -265,6 +265,9 @@
  "Common.Delete": [
   "Delete"
  ],
+ "Common.Done": [
+  "Done"
+ ],
  "Common.Edit": [
   "Edit"
  ],
@@ -706,6 +709,12 @@
  "Share.RepostStory": [
   "RepostStory"
  ],
+ "SharedMedia.ZoomIn": [
+  "Zoom In"
+ ],
+ "SharedMedia.ZoomOut": [
+  "Zoom Out"
+ ],
  "ShortTime.AtDate": [
   "%@"
  ],
@@ -787,6 +796,12 @@
  ],
  "StorageManagement.SectionStories": [
   "Stories"
+ ],
+ "Stories.AlbumAdd": [
+  "+ Add Album"
+ ],
+ "Stories.AlbumAll": [
+  "All Stories"
  ],
  "Stories.MenuAddToAlbum": [
   "Add to Album"
@@ -1791,6 +1806,9 @@
  ],
  "StoryList.ItemAction.Delete": [
   "Delete"
+ ],
+ "StoryList.ItemAction.Edit": [
+  "Edit"
  ],
  "StoryList.ItemAction.Forward": [
   "Forward"

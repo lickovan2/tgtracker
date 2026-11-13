@@ -6202,6 +6202,10 @@
   "%@mo",
   "%@mo"
  ],
+ "MessageTimer.Weeks": [
+  "%@ week",
+  "%@ weeks"
+ ],
  "MiniAppList.ListSectionHeader": [
   "APPS THAT ACCEPT STARS"
  ],

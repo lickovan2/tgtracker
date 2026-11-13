@@ -421,6 +421,9 @@
  "BoostGift.WinnersInfo": [
   "Choose whether to make the list of winners public when the giveaway ends."
  ],
+ "Bot.AddToChat.Add.AddAsAdmin": [
+  "Add Bot as Admin"
+ ],
  "Bot.AddToChat.Add.AdminAlertAdd": [
   "Add as Admin"
  ],
@@ -429,6 +432,12 @@
  ],
  "Bot.AddToChat.Add.AdminAlertTitle": [
   "Add Bot as Admin?"
+ ],
+ "Bot.AddToChat.Add.AdminRights": [
+  "Admin Rights"
+ ],
+ "Bot.AddToChat.Add.Title": [
+  "Add Bot"
  ],
  "Bot.GenericBotStatus": [
   "bot"
@@ -1276,8 +1285,14 @@
  "Channel.EditAdmin.PermissionDeleteMessagesOfOthers": [
   "Delete Messages of Others"
  ],
+ "Channel.EditAdmin.PermissionDeleteStoriesOfOthers": [
+  "Delete Stories of Others"
+ ],
  "Channel.EditAdmin.PermissionEditMessages": [
   "Edit Messages of Others"
+ ],
+ "Channel.EditAdmin.PermissionEditStoriesOfOthers": [
+  "Edit Stories of Others"
  ],
  "Channel.EditAdmin.PermissionInviteMembers": [
   "Add Members"
@@ -1306,6 +1321,9 @@
  "Channel.EditAdmin.PermissionPostMessages": [
   "Post Messages"
  ],
+ "Channel.EditAdmin.PermissionPostStories": [
+  "Post Stories"
+ ],
  "Channel.EditAdmin.PermissionProcessJoinRequests": [
   "Process Join Requests"
  ],
@@ -1313,6 +1331,9 @@
   "Allow this bot to approve new members using its own interfaces, such as captchas."
  ],
  "Channel.EditAdmin.PermissionSendWelcomeMessagesChannel": [
+  "Send Welcome Messages"
+ ],
+ "Channel.EditAdmin.PermissionSendWelcomeMessagesGroup": [
   "Send Welcome Messages"
  ],
  "Channel.EditAdmin.PermissionsHeader": [
@@ -1323,6 +1344,9 @@
  ],
  "Channel.EditAdmin.SectionStories": [
   "Manage Stories"
+ ],
+ "Channel.EditAdmin.TransferOwnership": [
+  "Transfer Channel Ownership"
  ],
  "Channel.ErrorAccessDenied": [
   "This channel is unavailable."
@@ -1893,8 +1917,14 @@
  "ChannelMessages.Info": [
   "Allow users to send messages to your channel, with the option to charge a fee for each message."
  ],
+ "ChannelMessages.LinkTitle": [
+  "LINK TO DIRECT MESSAGES"
+ ],
  "ChannelMessages.PriceSectionFooter": [
   "Your channel will receive 85% of the selected fee for each incoming message."
+ ],
+ "ChannelMessages.PriceSectionFooterValue": [
+  "You will receive %1$@% of the selected fee for each incoming message."
  ],
  "ChannelMessages.PriceSectionTitle": [
   "PRICE FOR EACH MESSAGE"
@@ -1990,6 +2020,9 @@
  "Chat.AdminActionSheet.ActionButton": [
   "Proceed"
  ],
+ "Chat.AdminActionSheet.BanFooterMultiple": [
+  "Fully ban users"
+ ],
  "Chat.AdminActionSheet.BanFooterSingle": [
   "Fully ban this user"
  ],
@@ -2021,6 +2054,9 @@
  "Chat.AdminActionSheet.PermissionsSectionHeader": [
   "WHAT CAN THIS USER DO?"
  ],
+ "Chat.AdminActionSheet.PermissionsSectionHeaderMultiple": [
+  "WHAT CAN THESE USERS DO?"
+ ],
  "Chat.AdminActionSheet.ReportSpam": [
   "Report Spam"
  ],
@@ -2029,6 +2065,9 @@
  ],
  "Chat.AdminActionSheet.RestrictFooterSingle": [
   "Partially restrict this user"
+ ],
+ "Chat.AdminActionSheet.RestrictMultiple": [
+  "Restrict Users"
  ],
  "Chat.AdminActionSheet.RestrictSectionHeader": [
   "ADDITIONAL ACTIONS"
@@ -2887,6 +2926,9 @@
  "ChatList.DeleteForCurrentUser": [
   "Delete just for me"
  ],
+ "ChatList.MonoforumLabel": [
+  "DIRECT"
+ ],
  "ChatList.PeerTypeChannel": [
   "channel"
  ],
@@ -2985,11 +3027,38 @@
  "Community.AdminActions.WarningTitle": [
   "Warning"
  ],
+ "Community.Admins.AddAdmin": [
+  "Add Admin"
+ ],
+ "Community.Admins.Info": [
+  "You can add admins to help you manage your community."
+ ],
+ "Community.Admins.SectionTitle": [
+  "COMMUNITY ADMINS"
+ ],
+ "Community.Admins.Title": [
+  "Admins"
+ ],
+ "Community.Blacklist.Info": [
+  "Users removed from the community by admins cannot rejoin it via invite links."
+ ],
+ "Community.Blacklist.RemoveUser": [
+  "Remove User"
+ ],
+ "Community.Blacklist.Title": [
+  "Removed Users"
+ ],
+ "Community.Blacklist.UsersSectionTitle": [
+  "REMOVED USERS"
+ ],
  "Community.CommunityAdded.View": [
   "View"
  ],
  "Community.Edit.AddChat": [
   "Add Chat to Community"
+ ],
+ "Community.Edit.Administrators": [
+  "Administrators"
  ],
  "Community.Edit.ChatsHeader": [
   "%@ CHAT",
@@ -2997,6 +3066,12 @@
  ],
  "Community.Edit.CommunityNamePlaceholder": [
   "Community Name"
+ ],
+ "Community.Edit.DeleteCommunity": [
+  "Delete Community"
+ ],
+ "Community.Edit.PendingRequests": [
+  "Pending Requests"
  ],
  "Community.Edit.PermissionAllMembers": [
   "All Members"
@@ -3010,11 +3085,29 @@
  "Community.Edit.PermissionOnlyAdminsInfo": [
   "Chats suggested by community members require admin approval."
  ],
+ "Community.Edit.RemovedUsers": [
+  "Removed Users"
+ ],
  "Community.Edit.WhoCanAddChats": [
   "WHO CAN ADD CHATS"
  ],
+ "Community.EditAdmin.PermissionAddAdmins": [
+  "Add Community Admins"
+ ],
+ "Community.EditAdmin.PermissionBanUsers": [
+  "Ban Members"
+ ],
+ "Community.EditAdmin.PermissionChangeInfo": [
+  "Edit Community Info"
+ ],
+ "Community.EditAdmin.PermissionManageLinkedPeers": [
+  "Edit Chat List"
+ ],
  "Community.Request.Add": [
   "Add"
+ ],
+ "Community.Request.AddAll": [
+  "Add All"
  ],
  "Community.Request.ApprovalInfo": [
   "Chats require admin approval before they're added to the community. [Change Settings >](settings)"
@@ -3025,8 +3118,17 @@
  "Community.Request.Decline": [
   "Decline"
  ],
+ "Community.Request.DeclineAll": [
+  "Decline All"
+ ],
  "Community.Request.DeclinedToast": [
   "You declined adding the chat to the community."
+ ],
+ "Community.Request.PrivateStatus": [
+  "visible only to its members"
+ ],
+ "Community.Request.RequesterSuggestsChannel": [
+  "%@ suggests this channel:"
  ],
  "Community.Request.RequesterSuggestsGroup": [
   "%@ suggests this group:"
@@ -3729,6 +3831,9 @@
  "CreateGroup.SoftUserLimitAlert": [
   "You will be able to add more members after you create the group."
  ],
+ "CreatePoll.AddOption": [
+  "Add an Option"
+ ],
  "CreatePoll.DiscardPoll": [
   "Discard Poll?"
  ],
@@ -3904,6 +4009,12 @@
  ],
  "FolderLinkScreen.ContextActionNameLink": [
   "Name Link"
+ ],
+ "FolderLinkScreen.LinkActionCopy": [
+  "Copy"
+ ],
+ "FolderLinkScreen.LinkActionShare": [
+  "Share"
  ],
  "FormattedDate.DaysAgo": [
   "%@ day ago",
@@ -4536,6 +4647,9 @@
  "GroupInfo.DeleteAndExitConfirmation": [
   "You will not be able to return to this group unless added by another member."
  ],
+ "GroupInfo.FakeGroupWarning": [
+  "⚠️ Warning: Many users reported that this account impersonates a famous person or organization."
+ ],
  "GroupInfo.GroupHistory": [
   "Chat History For New Members"
  ],
@@ -4831,6 +4945,16 @@
  "HashtagSearch.Stories": [
   "%@ Story",
   "%@ Stories"
+ ],
+ "Invitation.Group.AlreadyJoinedMultiple": [
+  "%@ already joined this group."
+ ],
+ "Invitation.Group.AlreadyJoinedMultipleWithCount": [
+  "{} and **%d** other person already joined this group.",
+  "{} and **%d** other people already joined this group."
+ ],
+ "Invitation.Group.AlreadyJoinedSingle": [
+  "**%@** already joined this group."
  ],
  "Invitation.JoinGroup": [
   "Join Group"
@@ -6182,6 +6306,9 @@
  "PeerInfo.Community.GroupInfo": [
   "Make your group part of a community with multiple related chats"
  ],
+ "PeerInfo.Community.RemoveChannel": [
+  "Remove Channel from Community"
+ ],
  "PeerInfo.Community.RemoveGroup": [
   "Remove Group from Community"
  ],
@@ -6215,8 +6342,23 @@
  "PeerInfo.Gifts.ChannelNotifyTooltip": [
   "Telegram will send you a message when your channel receives a gift."
  ],
+ "PeerInfo.Gifts.Collections.Add": [
+  "Add Collection"
+ ],
+ "PeerInfo.Gifts.Collections.All": [
+  "All Gifts"
+ ],
  "PeerInfo.Gifts.Displayed": [
   "Displayed"
+ ],
+ "PeerInfo.Gifts.EmptyCollection.Action": [
+  "Add Gifts"
+ ],
+ "PeerInfo.Gifts.EmptyCollection.Text": [
+  "Add some gifts to this collection."
+ ],
+ "PeerInfo.Gifts.EmptyCollection.Title": [
+  "Organize Your Gifts"
  ],
  "PeerInfo.Gifts.Hidden": [
   "Hidden"
@@ -6229,6 +6371,9 @@
  ],
  "PeerInfo.Gifts.NoResults.ViewAll": [
   "View All Gifts"
+ ],
+ "PeerInfo.Gifts.OneOf": [
+  "1 of %@"
  ],
  "PeerInfo.Gifts.SortByDate": [
   "Sort by Date"
@@ -6481,6 +6626,9 @@
  "Privacy.Messages.Stars": [
   "%@ Star",
   "%@ Stars"
+ ],
+ "Profile.AdditionalUsernames": [
+  "also %@"
  ],
  "Profile.CreateEncryptedChatError": [
   "An error occurred."
@@ -6843,6 +6991,19 @@
   "1 GIF",
   "%@ GIFs"
  ],
+ "SharedMedia.GiftCount": [
+  "%@ gift",
+  "%@ gifts"
+ ],
+ "SharedMedia.ShowCalendar": [
+  "Show Calendar"
+ ],
+ "SharedMedia.ShowPhotos": [
+  "Show Photos"
+ ],
+ "SharedMedia.ShowVideos": [
+  "Show Videos"
+ ],
  "SharedMedia.SimilarChannel.Subscribers": [
   "%@ subscriber",
   "%@ subscribers"
@@ -6857,6 +7018,12 @@
  "SharedMedia.VoiceMessageCount": [
   "1 voice message",
   "%@ voice messages"
+ ],
+ "SharedMedia.ZoomIn": [
+  "Zoom In"
+ ],
+ "SharedMedia.ZoomOut": [
+  "Zoom Out"
  ],
  "SponsoredMessageMenu.Hide": [
   "Hide"

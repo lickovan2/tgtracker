@@ -317,12 +317,6 @@
  "Bot.AddToChannel.Title": [
   "Add to Channel"
  ],
- "Bot.AddToChat.Add.AddAsAdmin": [
-  "Add Bot as Admin"
- ],
- "Bot.AddToChat.Add.AdminRights": [
-  "Admin Rights"
- ],
  "Bot.AddToChat.Add.MemberAlertAdd": [
   "Add as Member"
  ],
@@ -334,9 +328,6 @@
  ],
  "Bot.AddToChat.Add.MemberAlertTitle": [
   "Add Bot as Member?"
- ],
- "Bot.AddToChat.Add.Title": [
-  "Add Bot"
  ],
  "Bot.AddToChat.MyChannels": [
   "CHANNELS I MANAGE"
@@ -362,9 +353,6 @@
  "BotPreviews.SubtitleLoading": [
   "loading"
  ],
- "BotVerification.Added": [
-  "**%@** has been notified and will receive your verification mark and description upon accepting."
- ],
  "BotVerification.ChooseChat": [
   "Choose Chat to Verify"
  ],
@@ -385,9 +373,6 @@
  ],
  "BotVerification.Remove.User.Text": [
   "This user is already verified by you. Do you want to remove verification?"
- ],
- "BotVerification.Removed": [
-  "You have removed **%@'s** verification."
  ],
  "BotVerification.Verify.Bot.Text": [
   "Do you want to verify this bot with your verification mark and description?"
@@ -843,12 +828,6 @@
  "Channel.EditAdmin.PermissionEnabledByDefault": [
   "This option is permitted for all members in Group Permissions."
  ],
- "Channel.EditAdmin.PermissionSendWelcomeMessagesGroup": [
-  "Send Welcome Messages"
- ],
- "Channel.EditAdmin.TransferOwnership": [
-  "Transfer Channel Ownership"
- ],
  "Channel.Info.BoostLevelPlusBadge": [
   "Level %@+"
  ],
@@ -933,21 +912,6 @@
  "ChannelInfo.AddParticipantConfirmation": [
   "Add %@ to the channel?"
  ],
- "ChannelMessages.LinkTitle": [
-  "LINK TO DIRECT MESSAGES"
- ],
- "ChannelMessages.PriceSectionFooterValue": [
-  "You will receive %1$@% of the selected fee for each incoming message."
- ],
- "Chat.AdminActionSheet.BanFooterMultiple": [
-  "Fully ban users"
- ],
- "Chat.AdminActionSheet.PermissionsSectionHeaderMultiple": [
-  "WHAT CAN THESE USERS DO?"
- ],
- "Chat.AdminActionSheet.RestrictMultiple": [
-  "Restrict Users"
- ],
  "Chat.AlwaysUseAI.ErrorGeneric": [
   "Couldn't rewrite the message, so it wasn't sent. Tap Send to send it as it is."
  ],
@@ -956,9 +920,6 @@
  ],
  "Chat.AlwaysUseAI.ErrorTooLong": [
   "The message is too long for AI, so it wasn't sent. Tap Send to send it as it is."
- ],
- "Chat.CallMessage.IncomingGroupCall": [
-  "Incoming Group Call"
  ],
  "Chat.ClearReactionsAlertAction": [
   "Clear Recent Emoji"
@@ -1370,9 +1331,6 @@
  "Common.ActionNotAllowedError": [
   "Sorry, you are not allowed to do this."
  ],
- "Community.Blacklist.UsersSectionTitle": [
-  "REMOVED USERS"
- ],
  "Community.Edit.ChatsLimitReached": [
   "Sorry, this community has reached the maximum number of chats."
  ],
@@ -1492,20 +1450,8 @@
  "Conversation.SuggestedBirthdate.View": [
   "View"
  ],
- "Conversation.SuggestedPhotoSuccess": [
-  "Photo updated"
- ],
- "Conversation.SuggestedPhotoSuccessText": [
-  "You can change it in [Settings]()."
- ],
  "Conversation.SuggestedPhotoText": [
   "**%@** suggests this photo for your Telegram profile."
- ],
- "Conversation.SuggestedVideoSuccess": [
-  "Profile Photo Updated"
- ],
- "Conversation.SuggestedVideoSuccessText": [
-  "You can change it in [Settings]()."
  ],
  "Conversation.SuggestedVideoTextExpanded": [
   "%@ suggests this photo for your Telegram profile."
@@ -1531,17 +1477,8 @@
  "Conversation.VoiceMessagesRestricted": [
   "%@ doesn't accept voice or video messages"
  ],
- "CreateBot.UsernameEnding": [
-  "'%@'"
- ],
  "CreateBot.UsernameEndingDelimiter": [
   ", "
- ],
- "CreateBot.UsernameHintFree": [
-  "Must end in %@."
- ],
- "CreateExternalStream.StreamKeyTitle": [
-  "Stream Key"
  ],
  "CreateGroup.ErrorLocatedGroupsTooMuch": [
   "Sorry, you have too many location-based groups already. Please delete one of your existing ones first."
@@ -2188,9 +2125,6 @@
  "GroupBoost.Wallpaper": [
   "Set Group Wallpaper"
  ],
- "GroupInfo.FakeGroupWarning": [
-  "⚠️ Warning: Many users reported that this account impersonates a famous person or organization."
- ],
  "GroupInfo.InviteLink.RevokeAlert.Revoke": [
   "Revoke"
  ],
@@ -2271,19 +2205,6 @@
  ],
  "Intents.ErrorLockedTitle": [
   "Locked"
- ],
- "Invitation.Group.AlreadyJoinedMultiple": [
-  "%@ already joined this group."
- ],
- "Invitation.Group.AlreadyJoinedMultipleWithCount": [
-  "{} and **%d** other person already joined this group.",
-  "{} and **%d** other people already joined this group."
- ],
- "Invitation.Group.AlreadyJoinedSingle": [
-  "**%@** already joined this group."
- ],
- "Invitation.JoinGroupCall.EnableMicrophone": [
-  "Turn on the microphone"
  ],
  "Invitation.PrivateGroup": [
   "private group"
@@ -3493,9 +3414,6 @@
   "%@ Star",
   "%@ Stars"
  ],
- "PeerInfo.ButtonVideoCall": [
-  "Video"
- ],
  "PeerInfo.ChannelMessages": [
   "Direct Messages"
  ],
@@ -3503,33 +3421,17 @@
   "Delete 1 Message?",
   "Delete %@ Messages?"
  ],
- "PeerInfo.Gifts.SendGift": [
-  "Send Gift"
- ],
  "PeerInfo.GroupAboutItem": [
   "about"
  ],
  "PeerInfo.GroupsInCommon.CreateGroup": [
   "Create Group with %@"
  ],
- "PeerInfo.NotificationMemberAdded": [
-  "**%1$@** added to the group."
- ],
- "PeerInfo.NotificationMultipleMembersAdded": [
-  "**%d** member added to the group.",
-  "**%d** members added to the group."
- ],
  "PeerInfo.PaneVoice": [
   "Voice Messages"
  ],
  "PeerInfo.Permissions.Biometry": [
   "Biometrics"
- ],
- "PeerInfo.Permissions.Camera": [
-  "Camera"
- ],
- "PeerInfo.Permissions.Microphone": [
-  "Microphone"
  ],
  "PeerInfo.PrivateShareLinkInfo": [
   "This link will only work for group members."
@@ -3884,9 +3786,6 @@
  "Settings.PrivacyPolicy_URL": [
   "https://telegram.org/privacy"
  ],
- "Settings.SuggestSetupPasswordAction": [
-  "Set Additional Password"
- ],
  "Settings.Terms_URL": [
   "https://telegram.org/tos"
  ],
@@ -4184,9 +4083,6 @@
  ],
  "Story.Views.Commented": [
   " • commented"
- ],
- "StoryList.ItemAction.Edit": [
-  "Edit"
  ],
  "SuggestBirthdate.Accept.Title": [
   "Date of Birth"
@@ -4532,12 +4428,6 @@
  "UserInfo.AnonymousNumberInfo": [
   "This number is not tied to a SIM card and was acquired on [Fragment]()."
  ],
- "UserInfo.AnonymousNumberLabel": [
-  "collectible number"
- ],
- "UserInfo.FakeBotWarning": [
-  "⚠️ Warning: Many users reported that this account impersonates a famous person or organization."
- ],
  "UserInfo.PublicVideo": [
   "public video"
  ],
@@ -4546,18 +4436,6 @@
  ],
  "UserInfo.ResetCustomVideo": [
   "Reset to Original Video"
- ],
- "UserInfo.SetCustomPhoto.AlertVideoText": [
-  "Do you want to set this photo for %@? It will replace any photo %@ sets — only you will see it."
- ],
- "UserInfo.SuggestPhoto.AlertPhotoText": [
-  "Do you want to suggest this photo for %@'s Telegram profile?"
- ],
- "UserInfo.SuggestPhoto.AlertSuggest": [
-  "Suggest"
- ],
- "UserInfo.SuggestPhoto.AlertVideoText": [
-  "Do you want to suggest this photo for %@'s Telegram profile?"
  ],
  "UserInfo.SuggestPhotoTitle": [
   "Do you want to suggest a profile photo for %@?"
