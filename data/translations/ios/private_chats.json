@@ -35,6 +35,9 @@
  "Appearance.LargeEmoji": [
   "Large Emoji"
  ],
+ "AppointAnotherOwner.Title": [
+  "Choose New Owner"
+ ],
  "Attachment.Audio": [
   "Audio"
  ],
@@ -52,6 +55,9 @@
  ],
  "Attachment.Reply": [
   "Reply"
+ ],
+ "AutoremoveSetup.AdditionalGlobalSettingsInfo": [
+  "You can also set a default [self-destruct timer]() for all chats in Settings."
  ],
  "Birthday.Title": [
   "Birthday"
@@ -1476,6 +1482,21 @@
  "ContactInfo.PhoneLabelMobile": [
   "mobile"
  ],
+ "ContactList.Context.Call": [
+  "Call"
+ ],
+ "ContactList.Context.Delete": [
+  "Delete Contact"
+ ],
+ "ContactList.Context.Select": [
+  "Select"
+ ],
+ "ContactList.Context.SendMessage": [
+  "Send Message"
+ ],
+ "ContactList.Context.StartSecretChat": [
+  "Start Secret Chat"
+ ],
  "Contacts.InviteFriends": [
   "Invite Friends"
  ],
@@ -1500,6 +1521,12 @@
  "Contacts.SelectedContacts": [
   "%@ Selected",
   "%@ Selected"
+ ],
+ "Contacts.Sort.ByLastSeen": [
+  "by Last Seen"
+ ],
+ "Contacts.Sort.ByName": [
+  "by Name"
  ],
  "Contacts.SortedByPresence": [
   "Sorted by Last Seen Time"
@@ -2866,6 +2893,9 @@
  "Gift.View.ViewUpgraded": [
   "View Upgraded Gift"
  ],
+ "Group.GroupMembersHeader": [
+  "GROUP MEMBERS"
+ ],
  "Group.MessagePhotoRemoved": [
   "Group photo removed"
  ],
@@ -3213,6 +3243,10 @@
   "%@ minute",
   "%@ minutes"
  ],
+ "MessageTimer.Months": [
+  "%@ month",
+  "%@ months"
+ ],
  "MessageTimer.Seconds": [
   "%@ second",
   "%@ seconds"
@@ -3324,6 +3358,9 @@
  ],
  "Month.ShortJune": [
   "Jun"
+ ],
+ "Month.ShortMarch": [
+  "Mar"
  ],
  "Month.ShortMay": [
   "May"
@@ -4031,8 +4068,30 @@
  "PeerInfo.AddToContacts": [
   "Add to Contacts"
  ],
+ "PeerInfo.AdjustAutoDelete": [
+  "Adjust Auto-Delete"
+ ],
+ "PeerInfo.AutoDeleteDisable": [
+  "Disable"
+ ],
+ "PeerInfo.AutoDeleteInfo": [
+  "Automatically delete new messages sent in this chat after a certain period of time."
+ ],
+ "PeerInfo.AutoDeleteSettingOther": [
+  "Other..."
+ ],
  "PeerInfo.BioExpand": [
   "more"
+ ],
+ "PeerInfo.BusinessHours.Label": [
+  "business hours"
+ ],
+ "PeerInfo.BusinessHours.StatusClosed": [
+  "Closed"
+ ],
+ "PeerInfo.BusinessHours.StatusOpensInDays": [
+  "Opens in 1 day",
+  "Opens in %d days"
  ],
  "PeerInfo.ButtonCall": [
   "Call"
@@ -4055,6 +4114,9 @@
  "PeerInfo.DisableSharing": [
   "Disable Sharing"
  ],
+ "PeerInfo.DisableSound": [
+  "Disable Sound"
+ ],
  "PeerInfo.EnableAutoDelete": [
   "Enable Auto-Delete"
  ],
@@ -4064,14 +4126,26 @@
  "PeerInfo.HiddenStatusBadge": [
   "when?"
  ],
+ "PeerInfo.MuteFor": [
+  "Mute for..."
+ ],
  "PeerInfo.MuteForCustom": [
   "Mute until..."
+ ],
+ "PeerInfo.MuteForever": [
+  "Mute Forever"
+ ],
+ "PeerInfo.NotificationsCustomize": [
+  "Customize"
  ],
  "PeerInfo.PaneGroups": [
   "Groups"
  ],
  "PeerInfo.PanePolls": [
   "Polls"
+ ],
+ "PeerInfo.UnofficialSecurityRisk": [
+  "%@ uses an unofficial Telegram client – messages to this user may be less secure."
  ],
  "Permissions.ContactsAllowInSettings.v0": [
   "Allow in Settings"
@@ -4149,8 +4223,14 @@
  "PrivacyLastSeenSettings.EmpryUsersPlaceholder": [
   "Add Users"
  ],
+ "Profile.About": [
+  "bio"
+ ],
  "Profile.AddToExisting": [
   "Add to Existing Contact"
+ ],
+ "Profile.AdditionalUsernames": [
+  "also %@"
  ],
  "Profile.CreateNewContact": [
   "Create New Contact"
@@ -4179,11 +4259,17 @@
  "Profile.MessageLifetimeForever": [
   "Off"
  ],
+ "Profile.PersonalChannelSectionTitle": [
+  "CHANNEL"
+ ],
  "Profile.SendGift": [
   "Send a Gift"
  ],
  "Profile.ShareContactButton": [
   "Share Contact"
+ ],
+ "Profile.Username": [
+  "username"
  ],
  "QrStudio.NoPaidToken.Imported": [
   "You can now message %@ for free."
@@ -4683,6 +4769,9 @@
  "Undo.Undo": [
   "Undo"
  ],
+ "UserInfo.Birthday": [
+  "birthday"
+ ],
  "UserInfo.BlockActionTitle": [
   "Block %@"
  ],
@@ -4707,14 +4796,23 @@
  "UserInfo.ContactForwardTooltip.TwoChats.One": [
   "Contact sent to **%@** and **%@**."
  ],
+ "UserInfo.FakeUserWarning": [
+  "⚠️ Warning: Many users reported that this account impersonates a famous person or organization."
+ ],
  "UserInfo.GroupsInCommon": [
   "Groups In Common"
  ],
  "UserInfo.PhoneCall": [
   "Phone Call"
  ],
+ "UserInfo.ScamUserWarning": [
+  "⚠️ Warning: Many users reported this account as a scam or a fake account. Please be careful, especially if it asks you for money."
+ ],
  "UserInfo.StartSecretChat": [
   "Start Secret Chat"
+ ],
+ "VoiceChat.CopyInviteLink": [
+  "Copy Invite Link"
  ],
  "Wallet.CopyAddress": [
   "Copy Address"

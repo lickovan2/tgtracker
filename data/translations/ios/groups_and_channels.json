@@ -430,6 +430,9 @@
  "Bot.AddToChat.Add.AdminAlertTitle": [
   "Add Bot as Admin?"
  ],
+ "Bot.GenericBotStatus": [
+  "bot"
+ ],
  "Bot.GroupStatusDoesNotReadHistory": [
   "has no access to messages"
  ],
@@ -1153,6 +1156,9 @@
  "Channel.ChannelSubscribersHeader": [
   "CHANNEL SUBSCRIBERS"
  ],
+ "Channel.CommentsGroup.Header": [
+  "Select a group chat that will host comments from your channel."
+ ],
  "Channel.CommentsGroup.HeaderGroupSet": [
   "%@ links the group as its discussion board."
  ],
@@ -1197,6 +1203,9 @@
  ],
  "Channel.DiscussionGroup.PrivateGroup": [
   "private group"
+ ],
+ "Channel.DiscussionGroup.PublicChannelLink": [
+  "Make %1$@ the discussion group for %2$@?"
  ],
  "Channel.DiscussionGroup.UnlinkChannel": [
   "Unlink Channel"
@@ -1323,6 +1332,9 @@
  ],
  "Channel.ErrorAddTooMuch": [
   "Sorry, you can only add the first 200 subscribers to a channel. Note that an unlimited number of people may join via the channel's link."
+ ],
+ "Channel.ErrorAdminsTooMuch": [
+  "Sorry, too many administrators in this channel."
  ],
  "Channel.Info.AppearanceItem": [
   "Appearance"
@@ -1486,6 +1498,12 @@
  "Channel.Setup.LinkTypePublic": [
   "Public"
  ],
+ "Channel.Setup.LinksOrder": [
+  "LINK ORDER"
+ ],
+ "Channel.Setup.LinksOrderInfo": [
+  "Drag and drop links to change the order in which they will be displayed on the channel info page."
+ ],
  "Channel.Setup.PublicNoLink": [
   "Please choose a link for your public channel, so that people can find it in search and share with others.If you're not interested, we suggest creating a private channel instead."
  ],
@@ -1608,6 +1626,9 @@
  ],
  "Channel.Username.UsernameIsAvailable": [
   "%@ is available."
+ ],
+ "Channel.Username.UsernamePurchaseAvailable": [
+  "**This username is already taken.** However, it is currently available for purchase. [Learn more...]()"
  ],
  "ChannelBoost.AdditionalFeaturesText": [
   "By gaining **boosts**, your channel reaches higher levels and unlocks more features."
@@ -2947,6 +2968,13 @@
  "Community.Add.VisibilityVisibleInfo": [
   "Anyone in the community will be able to see this chat."
  ],
+ "Community.AdminActions.BanFromCommunity": [
+  "Ban from the Community"
+ ],
+ "Community.AdminActions.Footer": [
+  "The user will be removed from [%@ chat >](community)",
+  "The user will be removed from [%@ chats >](community)"
+ ],
  "Community.AdminActions.WarningChatCount": [
   "%@ chat",
   "%@ chats"
@@ -2985,17 +3013,51 @@
  "Community.Edit.WhoCanAddChats": [
   "WHO CAN ADD CHATS"
  ],
+ "Community.Request.Add": [
+  "Add"
+ ],
+ "Community.Request.ApprovalInfo": [
+  "Chats require admin approval before they're added to the community. [Change Settings >](settings)"
+ ],
  "Community.Request.ApprovedToast": [
   "You've added the chat to the community."
  ],
+ "Community.Request.Decline": [
+  "Decline"
+ ],
  "Community.Request.DeclinedToast": [
   "You declined adding the chat to the community."
+ ],
+ "Community.Request.RequesterSuggestsGroup": [
+  "%@ suggests this group:"
+ ],
+ "Community.Request.SectionTitle": [
+  "%@ CHAT SUGGESTED FOR THIS COMMUNITY",
+  "%@ CHATS SUGGESTED FOR THIS COMMUNITY"
+ ],
+ "Community.Request.Title": [
+  "Pending Requests"
+ ],
+ "Community.View.AddChatButton": [
+  "Add a Chat to Community"
  ],
  "Community.View.PendingRequestApprovedToast": [
   "You've added the group to the community."
  ],
  "Community.View.PendingRequestDeclinedToast": [
   "You declined adding the chat to the community."
+ ],
+ "Community.View.PendingRequestHeader": [
+  "PENDING REQUEST"
+ ],
+ "Community.View.SectionVisible": [
+  "CHATS YOU CAN VIEW"
+ ],
+ "Community.View.ShowAsOneChat": [
+  "Show as One Chat"
+ ],
+ "Community.View.ShowAsOneChatInfo": [
+  "Group all community chats into one item in the chat list."
  ],
  "Compose.ChannelMembers": [
   "Members"
@@ -3137,6 +3199,9 @@
  ],
  "Conversation.ContextMenuSendMessage": [
   "Send Message"
+ ],
+ "Conversation.ContextMenuTranslate": [
+  "Translate"
  ],
  "Conversation.ContextViewReplies": [
   "View %@ Reply",
@@ -4235,6 +4300,9 @@
  "Group.Setup.ForwardingChannelInfo": [
   "Subscribers will be able to copy, save and forward content from this channel."
  ],
+ "Group.Setup.ForwardingChannelInfoDisabled": [
+  "Subscribers won't be able to copy, save or forward content from this channel."
+ ],
  "Group.Setup.ForwardingChannelTitle": [
   "Saving And Copying Content"
  ],
@@ -4246,6 +4314,9 @@
  ],
  "Group.Setup.ForwardingGroupInfo": [
   "Members will be able to copy, save and forward content from this group."
+ ],
+ "Group.Setup.ForwardingGroupInfoDisabled": [
+  "Members won't be able to copy, save or forward content from this group."
  ],
  "Group.Setup.ForwardingGroupTitle": [
   "Forwarding From This Group"
@@ -4267,6 +4338,15 @@
  ],
  "Group.Setup.HistoryVisibleHelp": [
   "New members will see messages that were sent before they joined."
+ ],
+ "Group.Setup.LinkActive": [
+  "active"
+ ],
+ "Group.Setup.LinksOrder": [
+  "LINKS ORDER"
+ ],
+ "Group.Setup.LinksOrderInfo": [
+  "Drag and drop links to change the order in which they will be displayed on the group info page."
  ],
  "Group.Setup.TypeHeader": [
   "GROUP TYPE"
@@ -4405,6 +4485,9 @@
  "GroupInfo.ActionEditAdminRank": [
   "Edit Admin Tag"
  ],
+ "GroupInfo.ActionEditRank": [
+  "Edit Member Tag"
+ ],
  "GroupInfo.ActionPromote": [
   "Promote"
  ],
@@ -4534,6 +4617,15 @@
  ],
  "GroupInfo.Permissions.AddException": [
   "Add Exception"
+ ],
+ "GroupInfo.Permissions.BroadcastConvert": [
+  "Convert to Broadcast Group"
+ ],
+ "GroupInfo.Permissions.BroadcastConvertInfo": [
+  "Broadcast groups can have over %@ members, but only admins can send messages in them."
+ ],
+ "GroupInfo.Permissions.BroadcastTitle": [
+  "Broadcast Group"
  ],
  "GroupInfo.Permissions.ChargeForMessages": [
   "Charge Stars for Messages"
@@ -6074,6 +6166,25 @@
  "PeerInfo.ClearMessages": [
   "Clear Messages"
  ],
+ "PeerInfo.Community": [
+  "Community with %@ chat",
+  "Community with %@ chats"
+ ],
+ "PeerInfo.Community.AddChannel": [
+  "Add Channel to a Community"
+ ],
+ "PeerInfo.Community.AddGroup": [
+  "Add Group to a Community"
+ ],
+ "PeerInfo.Community.ChannelInfo": [
+  "Make your channel part of a community with multiple related chats"
+ ],
+ "PeerInfo.Community.GroupInfo": [
+  "Make your group part of a community with multiple related chats"
+ ],
+ "PeerInfo.Community.RemoveGroup": [
+  "Remove Group from Community"
+ ],
  "PeerInfo.DeleteChannelText": [
   "Do you want to delete the channel **%@** and all of its messages for all subscribers?"
  ],
@@ -6238,6 +6349,9 @@
  ],
  "PeerInfo.TooltipUnmuted": [
   "Notifications are unmuted."
+ ],
+ "PeerInfo.TopicIconInfoText": [
+  "This topic's icon is from **%@**."
  ],
  "PeerInfo.TopicNotificationExceptions": [
   "[1 topic]() is listed as an exception.",
@@ -6729,6 +6843,10 @@
   "1 GIF",
   "%@ GIFs"
  ],
+ "SharedMedia.SimilarChannel.Subscribers": [
+  "%@ subscriber",
+  "%@ subscribers"
+ ],
  "SharedMedia.SimilarChannelCount": [
   "%@ channel",
   "%@ channels"
@@ -7209,6 +7327,9 @@
  "Stats.MessageTitle": [
   "Message Statistics"
  ],
+ "Stats.MessageViews.NoViews": [
+  "No views"
+ ],
  "Stats.Monetization": [
   "Monetization"
  ],
@@ -7352,6 +7473,9 @@
  "Time.MediumDate": [
   "%1$@ at %2$@"
  ],
+ "Time.MonthOfYear_m10": [
+  "October %@"
+ ],
  "Time.PreciseDate_m10": [
   "Oct %1$@, %2$@ at %3$@"
  ],
@@ -7426,6 +7550,9 @@
  ],
  "User.DeletedAccount": [
   "Deleted Account"
+ ],
+ "UserInfo.BlockConfirmation": [
+  "Block %@?"
  ],
  "UserInfo.NotificationsDisable": [
   "Disable"
@@ -7886,8 +8013,26 @@
  "Weekday.Saturday": [
   "Saturday"
  ],
+ "Weekday.ShortFriday": [
+  "Fri"
+ ],
+ "Weekday.ShortMonday": [
+  "Mon"
+ ],
+ "Weekday.ShortSaturday": [
+  "Sat"
+ ],
  "Weekday.ShortSunday": [
   "Sun"
+ ],
+ "Weekday.ShortThursday": [
+  "Thu"
+ ],
+ "Weekday.ShortTuesday": [
+  "Tue"
+ ],
+ "Weekday.ShortWednesday": [
+  "Wed"
  ],
  "Weekday.Today": [
   "Today"

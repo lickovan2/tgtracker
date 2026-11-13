@@ -630,9 +630,6 @@
  "Premium.MaxExpiringStoriesText": [
   "You can post **%@** story in **24** hours. Subscribe to **Telegram Premium** to increase this limit to **%@**."
  ],
- "Premium.MaxStoriesWeeklyText": [
-  "You can post **%@** stories per week. Subscribe to **Telegram Premium** to increase this limit to **%@**."
- ],
  "Premium.New": [
   "NEW"
  ],

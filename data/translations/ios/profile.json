@@ -36,6 +36,9 @@
  "AvatarEditor.SetChannelPhoto": [
   "Set as Channel Photo"
  ],
+ "AvatarEditor.SetCommunityPhoto": [
+  "Set as Community Photo"
+ ],
  "AvatarEditor.SetGroupPhoto": [
   "Set as Group Photo"
  ],
@@ -97,11 +100,20 @@
  "Chat.PostSuggestion.Suggest.OfferButtonPrice": [
   "Offer  %@"
  ],
+ "CollectibleItemInfo.ButtonCopyPhone": [
+  "Copy Phone Number"
+ ],
  "CollectibleItemInfo.ButtonCopyUsername": [
   "Copy Link"
  ],
  "CollectibleItemInfo.ButtonOpenInfo": [
   "Learn More"
+ ],
+ "CollectibleItemInfo.PhoneText": [
+  "The phone number %1$@ was acquired on %2$@ on %3$@ for %4$@ (%5$@)."
+ ],
+ "CollectibleItemInfo.PhoneTitle": [
+  "%@ is a collectible phone number that belongs to"
  ],
  "CollectibleItemInfo.ShareInlineText.LearnMore": [
   "Learn more >"
@@ -166,6 +178,10 @@
  "Conversation.ShareMyContactInfo": [
   "Share My Contact Info"
  ],
+ "Conversation.StatusSubscribers": [
+  "%@ subscriber",
+  "%@ subscribers"
+ ],
  "Conversation.UnblockUser": [
   "Unblock User"
  ],
@@ -180,6 +196,9 @@
  ],
  "DialogList.Title": [
   "Chats"
+ ],
+ "EditProfile.NameAndPhotoOrVideoHelp": [
+  "Enter your name and add an optional profile photo."
  ],
  "EmojiSearch.SearchStatusesEmptyResult": [
   "No emoji found"
@@ -492,6 +511,9 @@
  "LastSeen.TodayAt": [
   "last seen today at %@"
  ],
+ "LastSeen.WithinAWeek": [
+  "last seen within a week"
+ ],
  "MediaEditor.Audio.Title": [
   "Audio"
  ],
@@ -530,6 +552,12 @@
  ],
  "MediaPlayer.SavedMusic.RemovedFromProfile": [
   "Audio removed from your profile."
+ ],
+ "Month.ShortMarch": [
+  "Mar"
+ ],
+ "Month.ShortOctober": [
+  "Oct"
  ],
  "MuteExpires.Days": [
   "in 1 day",
@@ -658,6 +686,9 @@
  ],
  "PeerInfo.AddNotesPlaceholder": [
   "Add Notes"
+ ],
+ "PeerInfo.AddToContacts": [
+  "Add to Contacts"
  ],
  "PeerInfo.AllowedReactions.GroupOptionNoInfo": [
   "Members of the group can't add any reactions to messages."
@@ -1009,6 +1040,9 @@
  "Profile.About": [
   "bio"
  ],
+ "Profile.AdditionalUsernames": [
+  "also %@"
+ ],
  "Profile.PersonalChannelSectionTitle": [
   "CHANNEL"
  ],
@@ -1051,6 +1085,9 @@
  "ProfileLevelInfo.CloseButton": [
   "Understood"
  ],
+ "ProfileLevelInfo.FutureRatingTitle": [
+  "Future Rating"
+ ],
  "ProfileLevelInfo.Item0.Badge": [
   "ADDED"
  ],
@@ -1082,11 +1119,47 @@
   "Level %@",
   "Level %@"
  ],
+ "ProfileLevelInfo.MyDescriptionDays": [
+  "%@ day",
+  "%@ days"
+ ],
+ "ProfileLevelInfo.MyDescriptionInPreview": [
+  "The rating will update in %1$@,after %2$@ added. [Back >]()"
+ ],
+ "ProfileLevelInfo.MyDescriptionInPreviewDays": [
+  "%@ day",
+  "%@ days"
+ ],
+ "ProfileLevelInfo.MyDescriptionInPreviewPoints": [
+  "%@ point is",
+  "%@ points are"
+ ],
+ "ProfileLevelInfo.MyDescriptionInPreviewToday": [
+  "This will be your rating today,after %@ added. [Back >]()",
+  "This will be your rating today,after %@ added. [Back >]()"
+ ],
+ "ProfileLevelInfo.MyDescriptionPoints": [
+  "%@ point is",
+  "%@ points are"
+ ],
+ "ProfileLevelInfo.MyDescriptionPreview": [
+  "The rating will update in %@.%@ pending. [Preview >]()"
+ ],
+ "ProfileLevelInfo.MyDescriptionToday": [
+  "The rating updates today.%@ point is pending.",
+  "The rating updates today.%@ points are pending."
+ ],
  "ProfileLevelInfo.MyText": [
   "This rating reflects your activityon Telegram. It is based on:"
  ],
+ "ProfileLevelInfo.NegativeRating": [
+  "Negative rating"
+ ],
  "ProfileLevelInfo.OtherDescription": [
   "The rating reflects **%@'s** activity on Telegram. It is based on:"
+ ],
+ "ProfileLevelInfo.RatingTitle": [
+  "Rating"
  ],
  "ProfileLevelInfo.Title": [
   "Rating"
@@ -1220,6 +1293,15 @@
  "Settings.About.PrivacyHelpNobody": [
   "Nobody can see your bio. [Change >]()"
  ],
+ "Settings.AddAnotherAccount": [
+  "Add Another Account"
+ ],
+ "Settings.AddAnotherAccount.Help": [
+  "You can connect multiple accounts with different phone numbers."
+ ],
+ "Settings.AddAnotherAccount.PremiumHelp": [
+  "You can add up to four accounts with different phone numbers."
+ ],
  "Settings.Birthday": [
   "Birthday"
  ],
@@ -1262,6 +1344,9 @@
  "Settings.EditVideo": [
   "Edit"
  ],
+ "Settings.Logout": [
+  "Log Out"
+ ],
  "Settings.MyProfile": [
   "My Profile"
  ],
@@ -1289,6 +1374,9 @@
  "Settings.PersonalChannelUpdatedToast": [
   "Personal channel updated."
  ],
+ "Settings.PhoneNumber": [
+  "Number"
+ ],
  "Settings.RemoveVideo": [
   "Remove Photo"
  ],
@@ -1298,11 +1386,20 @@
  "Settings.SetNewProfilePhotoOrVideo": [
   "Set New Photo"
  ],
+ "Settings.SetPhoto": [
+  "Set Photo"
+ ],
  "Settings.SetProfilePhotoOrVideo": [
   "Set Profile Photo"
  ],
  "Settings.SetUsername": [
   "Set Username"
+ ],
+ "Settings.Username": [
+  "Username"
+ ],
+ "Settings.YourColor": [
+  "Your Color"
  ],
  "ShareMenu.CopyShareLink": [
   "Copy Link"
@@ -1471,6 +1568,9 @@
  "Time.PreciseDate_m9": [
   "Sep %1$@, %2$@ at %3$@"
  ],
+ "UserInfo.About.Placeholder": [
+  "Bio"
+ ],
  "UserInfo.AddContact": [
   "Add to Contacts"
  ],
@@ -1507,6 +1607,9 @@
  ],
  "UserInfo.CustomVideo": [
   "photo set by you"
+ ],
+ "UserInfo.DeleteContact": [
+  "Delete Contact"
  ],
  "UserInfo.GenericPhoneLabel": [
   "mobile"
@@ -1612,6 +1715,24 @@
  ],
  "Username.InvalidValue": [
   "Sorry, this username is invalid."
+ ],
+ "Weekday.Friday": [
+  "Friday"
+ ],
+ "Weekday.Saturday": [
+  "Saturday"
+ ],
+ "Weekday.Sunday": [
+  "Sunday"
+ ],
+ "Weekday.Thursday": [
+  "Thursday"
+ ],
+ "Weekday.Tuesday": [
+  "Tuesday"
+ ],
+ "Weekday.Wednesday": [
+  "Wednesday"
  ],
  "Weekday.Yesterday": [
   "Yesterday"

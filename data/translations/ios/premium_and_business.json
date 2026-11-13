@@ -598,6 +598,9 @@
  "ChannelBoost.Boost": [
   "Boost"
  ],
+ "ChannelBoost.BoostAgain": [
+  "Boost Again"
+ ],
  "ChannelBoost.BoostChannel": [
   "Boost Channel"
  ],
@@ -616,8 +619,17 @@
  "ChannelBoost.BoostLinkForwardTooltip.TwoChats.One": [
   "Boost link forwarded to **%@** and **%@**"
  ],
+ "ChannelBoost.BoostedChannelMoreRequired": [
+  "%1$@ needed to be able to post %2$@."
+ ],
+ "ChannelBoost.BoostedChannelReachedLevel": [
+  "This channel reached **Level %1$@** and can now post %2$@."
+ ],
  "ChannelBoost.Copy": [
   "Copy"
+ ],
+ "ChannelBoost.CopyLink": [
+  "Copy Link"
  ],
  "ChannelBoost.CustomReactions": [
   "Custom Reactions"
@@ -630,6 +642,12 @@
  ],
  "ChannelBoost.EmojiStatus": [
   "Use Emoji Statuses"
+ ],
+ "ChannelBoost.EnableColors": [
+  "Enable Colors"
+ ],
+ "ChannelBoost.EnableColorsLevelText": [
+  "Your channel needs **Level %1$@** to change channel color.Ask your **Premium** subscribers to boost your channel with this link:"
  ],
  "ChannelBoost.EnableCustomWallpaperLevelText": [
   "Your channel needs **Level %1$@** to set a custom wallpaper."
@@ -655,11 +673,26 @@
  "ChannelBoost.EnableStories": [
   "Enable Stories"
  ],
+ "ChannelBoost.EnableStoriesForChannel": [
+  "Enable Stories for This Channel"
+ ],
+ "ChannelBoost.EnableStoriesForChannelText": [
+  "**%1$@** needs %2$@ to enable posting stories. Help make it possible!"
+ ],
+ "ChannelBoost.EnableStoriesForOtherChannel": [
+  "Enable Stories for the Channel"
+ ],
+ "ChannelBoost.EnableStoriesMoreRequired": [
+  "This channel needs %1$@ to enable stories."
+ ],
  "ChannelBoost.EnableStoriesText": [
   "Your channel needs %1$@ to enable posting stories.Ask your **Premium** subscribers to boost your channel with this link:"
  ],
  "ChannelBoost.EnableWallpaperLevelText": [
   "Your channel needs **Level %1$@** to set a wallpaper."
+ ],
+ "ChannelBoost.EnabledStoriesForChannelText": [
+  "This channel reached **Level 1** and can now post stories."
  ],
  "ChannelBoost.Error.BoostTooOftenText": [
   "You can only change the channel you boost once a day. You will be able to boost in **%@**."
@@ -682,6 +715,12 @@
  "ChannelBoost.Header.Giveaway": [
   "giveaway"
  ],
+ "ChannelBoost.HelpUpgradeChannel": [
+  "Help Upgrade This Channel"
+ ],
+ "ChannelBoost.HelpUpgradeChannelText": [
+  "**%1$@** needs %2$@ to be able to post %3$@."
+ ],
  "ChannelBoost.IncreaseLimit": [
   "Increase Story Limit"
  ],
@@ -699,6 +738,9 @@
  ],
  "ChannelBoost.MaxLevelReached.Text": [
   "**%1$@** reached **Level %2$@**."
+ ],
+ "ChannelBoost.MaxLevelReachedTextAuthor": [
+  "This channel reached **Level %1$@** and can now post %2$@."
  ],
  "ChannelBoost.MoreBoosts": [
   "**%@** more boost",
@@ -734,6 +776,9 @@
  ],
  "ChannelBoost.NoAds": [
   "Switch Off Ads"
+ ],
+ "ChannelBoost.Or": [
+  "or"
  ],
  "ChannelBoost.PremiumUsersCanBoost": [
   "**Premium** users can boost your channel with this link:"
@@ -792,6 +837,10 @@
   "Level %@ Unlocks:",
   "Level %@ Unlocks:"
  ],
+ "ChannelBoost.Table.NameColor": [
+  "%@ Channel Name Color",
+  "%@ Channel Name Colors"
+ ],
  "ChannelBoost.Table.NoAds": [
   "Switch Off Ads"
  ],
@@ -831,6 +880,9 @@
  ],
  "ChannelBoost.WearGiftLevelText": [
   "Your channel needs **Level %1$@** to wear collectibles."
+ ],
+ "ChannelBoost.YouBoostedChannelText": [
+  "You boosted %1$@!"
  ],
  "ChannelBoost.YouBoostedOtherChannelText": [
   "You boosted this channel"
@@ -1027,6 +1079,9 @@
  "Gift.Transfer.Title": [
   "Transfer"
  ],
+ "Group.Username.RemoveExistingUsernamesFinalInfo": [
+  "You have reserved too many public links. Try revoking the link from an older group or channel, or create a private one instead."
+ ],
  "GroupBoost.AdditionalFeaturesText": [
   "By gaining **boosts**, your group reaches higher levels and unlocks more features."
  ],
@@ -1185,6 +1240,9 @@
  "Premium.Biannual": [
   "2 Years"
  ],
+ "Premium.BoostByGiveawayDescription": [
+  "Get more boosts and subscribers for your channel by giving away prizes. [Get boosts >]()"
+ ],
  "Premium.Business": [
   "Telegram Business"
  ],
@@ -1293,6 +1351,12 @@
  "Premium.EmojiStatusInfo": [
   "Choose from thousands of emoji to display current activity next to your name."
  ],
+ "Premium.EmojiStatusShortTitle": [
+  "This is %1$@'s current status."
+ ],
+ "Premium.EmojiStatusText": [
+  "Emoji statuses are a premium feature. Other features included in **Telegram Premium**:"
+ ],
  "Premium.FasterSpeed": [
   "Faster Download Speed"
  ],
@@ -1319,6 +1383,9 @@
  ],
  "Premium.Free": [
   "Free"
+ ],
+ "Premium.Gift.ApplyLink": [
+  "Apply for Free"
  ],
  "Premium.Gift.ApplyLink.AlreadyHasPremium.Text": [
   "You can activate this gift link after **%@** or [send the link]() to a friend."
@@ -1361,6 +1428,42 @@
  ],
  "Premium.Gift.GiftSubscription": [
   "Gift Subscription for %@"
+ ],
+ "Premium.Gift.Link.Text": [
+  "This link allows you or [anyone you choose]() to activate a **Telegram Premium** subscription."
+ ],
+ "Premium.Gift.UsedLink.Text": [
+  "This link was used to activate a **Telegram Premium** subscription."
+ ],
+ "Premium.GiftedDescription": [
+  "You now have access to additional features."
+ ],
+ "Premium.GiftedDescriptionYou": [
+  "They now have access to additional features."
+ ],
+ "Premium.GiftedTitle": [
+  "Telegram Premium"
+ ],
+ "Premium.GiftedTitle.12Month": [
+  "[%@]() has gifted you a 12-month subscription to Telegram Premium"
+ ],
+ "Premium.GiftedTitle.3Month": [
+  "[%@]() has gifted you a 3-month subscription to Telegram Premium"
+ ],
+ "Premium.GiftedTitle.6Month": [
+  "[%@]() has gifted you a 6-month subscription to Telegram Premium"
+ ],
+ "Premium.GiftedTitleYou.12Month": [
+  "You gifted [%@]() a 12-month subscription to Telegram Premium"
+ ],
+ "Premium.GiftedTitleYou.3Month": [
+  "You gifted [%@]() a 3-month subscription to Telegram Premium"
+ ],
+ "Premium.GiftedTitleYou.6Month": [
+  "You gifted [%@]() a 6-month subscription to Telegram Premium"
+ ],
+ "Premium.Group.BoostByGiveawayDescription": [
+  "Get more boosts and members for your group by giving away prizes. [Get boosts >]()"
  ],
  "Premium.IncreaseLimit": [
   "Increase Limit"
@@ -1461,11 +1564,20 @@
  "Premium.MaxAccountsNoPremiumText": [
   "You have reached the limit of **%@** connected accounts."
  ],
+ "Premium.MaxAccountsText": [
+  "You have reached the limit of **%@** connected accounts. You can add more by subscribing to **Telegram Premium**."
+ ],
+ "Premium.MaxChannelsFinalText": [
+  "Sorry, you can only join **%1$@** groups and channels"
+ ],
  "Premium.MaxChannelsNoPremiumText": [
   "You can only join **%1$@** groups and channels. This limit may increase in the future."
  ],
  "Premium.MaxChannelsText": [
   "You can only join **%1$@** groups and channels. Upgrade to **Telegram Premium** to join up to **%2$@**."
+ ],
+ "Premium.MaxChatsInFolderFinalText": [
+  "Sorry, you can't add more than **%@** chats to a folder."
  ],
  "Premium.MaxChatsInFolderNoPremiumText": [
   "Sorry, you can't add more than **%1$@** chats to a folder. We are working to let you increase this limit in the future."
@@ -1487,6 +1599,17 @@
   "**%d** story",
   "**%d** stories"
  ],
+ "Premium.MaxExpiringStoriesTextFormat": [
+  "You can post %@ in **24** hours. Subscribe to **Telegram Premium** to increase this limit to **%@**."
+ ],
+ "Premium.MaxExpiringStoriesTextNumberFormat": [
+  "**%d** story",
+  "**%d** stories"
+ ],
+ "Premium.MaxExpiringStoriesTextPremiumNumberFormat": [
+  "**%d** story",
+  "**%d** stories"
+ ],
  "Premium.MaxFavedStickersFinalText": [
   "An older sticker was replaced with this one."
  ],
@@ -1495,6 +1618,9 @@
  ],
  "Premium.MaxFavedStickersTitle": [
   "Limit of %@ Stickers Reached"
+ ],
+ "Premium.MaxFileSizeFinalText": [
+  "The document can't be sent, because it is larger than **%@**."
  ],
  "Premium.MaxFileSizeNoPremiumText": [
   "The document can't be sent, because it is larger than **%@**. We are working to let you increase this limit in the future."
@@ -1517,6 +1643,9 @@
  "Premium.MaxPinsNoPremiumText": [
   "Sorry, you can't pin more than **%@** chats to the top. Unpin some that are currently pinned."
  ],
+ "Premium.MaxPinsText": [
+  "You can't pin more than **%1$@** chats to the top. Unpin some that are currently pinned – or subscribe to **Telegram Premium** to double the limit to **%2$@** chats."
+ ],
  "Premium.MaxSavedGifsFinalText": [
   "An older GIF was replaced with this one."
  ],
@@ -1526,8 +1655,14 @@
  "Premium.MaxSavedGifsTitle": [
   "Limit of %@ GIFs Reached"
  ],
+ "Premium.MaxSavedPinsFinalText": [
+  "Sorry, you can't pin more than **%@** chats to the top. Unpin some that are currently pinned."
+ ],
  "Premium.MaxSavedPinsNoPremiumText": [
   "Sorry, you can't pin more than **%@** chats to the top. Unpin some that are currently pinned."
+ ],
+ "Premium.MaxSavedPinsText": [
+  "Sorry, you can't pin more than **%1$@** chats to the top. Unpin some that are currently pinned or subscribe to **Telegram Premium** to double the limit to **%2$@** chats."
  ],
  "Premium.MaxSharedFolderLinksFinalText": [
   "Sorry, you can only create **%1$@** invite links"
@@ -1547,6 +1682,9 @@
  "Premium.MaxSharedFolderMembershipText": [
   "You can only add **%1$@** shareable folders. Upgrade to **Telegram Premium** to add up to **%2$@**."
  ],
+ "Premium.MaxStoriesMonthlyFinalText": [
+  "You have reached the limit of **%@** stories per month."
+ ],
  "Premium.MaxStoriesMonthlyNoPremiumText": [
   "You have reached the limit of **%@** stories per month."
  ],
@@ -1558,6 +1696,9 @@
  ],
  "Premium.MaxStoriesWeeklyNoPremiumText": [
   "You have reached the limit of **%@** stories per week."
+ ],
+ "Premium.MaxStoriesWeeklyText": [
+  "You can post **%@** stories per week. Subscribe to **Telegram Premium** to increase this limit to **%@**."
  ],
  "Premium.MessageEffects": [
   "Message Effects"
@@ -1613,6 +1754,12 @@
  "Premium.Premium": [
   "Premium"
  ],
+ "Premium.PremiumGift.Description": [
+  "Subscribe to **Telegram Premium** to send up to **5** of these gifts and unlock powerful features."
+ ],
+ "Premium.PremiumGift.Title": [
+  "Premium Gift"
+ ],
  "Premium.PricePerMonth": [
   "%@/month"
  ],
@@ -1624,6 +1771,9 @@
  ],
  "Premium.Purchase.ErrorNotAllowed": [
   "The device is not allowed to make the payment."
+ ],
+ "Premium.Purchase.ErrorTryLater": [
+  "An error occurred. Please try again."
  ],
  "Premium.Purchase.ErrorUnknown": [
   "An error occurred. Please try again."
@@ -1803,6 +1953,9 @@
  "Premium.Week.SignUp": [
   "Sign up for %@"
  ],
+ "Premium.Week.SignUpInfo": [
+  "Get Telegram Premium for 1 week"
+ ],
  "Premium.WhatsIncluded": [
   "WHAT'S INCLUDED"
  ],
@@ -1849,9 +2002,15 @@
  "QuickReply.TitleGreetingMessage": [
   "Greeting Message"
  ],
+ "ReassignBoost.AvailableIn": [
+  "Available in %@"
+ ],
  "ReassignBoost.Boosts": [
   "%@ boost is reassigned",
   "%@ boosts are reassigned"
+ ],
+ "ReassignBoost.DescriptionWithLink": [
+  "To boost **%1$@**, reassign a previous boost or [gift Telegram Premium]() to a friend to get **%2$@** additional boosts."
  ],
  "ReassignBoost.OtherChannels": [
   "%@ other chat",
@@ -1865,8 +2024,14 @@
   "%@ other group and channel",
   "%@ other groups and channels"
  ],
+ "ReassignBoost.ReassignBoosts": [
+  "Reassign Boosts"
+ ],
  "ReassignBoost.Success": [
   "%1$@ from %2$@."
+ ],
+ "ReassignBoost.Title": [
+  "Reassign Boosts"
  ],
  "ReassignBoost.WaitForCooldown": [
   "Wait until the boost is available or get **%1$@** more boosts by gifting a **Telegram Premium** subscription."

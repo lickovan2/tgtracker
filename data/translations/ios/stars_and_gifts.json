@@ -8,6 +8,13 @@
  "AffiliateProgram.DailyRevenueText": [
   "App's average daily revenue per user: #**%@**"
  ],
+ "AffiliateProgram.DurationLifetime": [
+  "Lifetime"
+ ],
+ "AffiliateProgram.JoinSubtitleMonths": [
+  "**{bot}** will share **{commission}** of the revenue from each user you refer to it for **1 month.**",
+  "**{bot}** will share **{commission}** of the revenue from each user you refer to it for **%d months.**"
+ ],
  "AffiliateProgram.JoinSubtitleYears": [
   "**{bot}** will share **{commission}** of the revenue from each user you refer to it for **1 year**.",
   "**{bot}** will share **{commission}** of the revenue from each user you refer to it for **%d years**."
@@ -21,6 +28,18 @@
  "AffiliateProgram.OpenBot": [
   "View %@"
  ],
+ "AffiliateProgram.PeerTypeSelf": [
+  "personal account"
+ ],
+ "AffiliateProgram.SortSelectorDate": [
+  "Date"
+ ],
+ "AffiliateProgram.SortSelectorProfitability": [
+  "Profitability"
+ ],
+ "AffiliateProgram.SortSelectorRevenue": [
+  "Revenue"
+ ],
  "AffiliateProgram.ToastLinkCopied.Text": [
   "Share this link and earn **%1$@%** of what people who use it spend in **%2$@**!"
  ],
@@ -31,6 +50,10 @@
   "%@ MONTH",
   "%@ MONTHS"
  ],
+ "AffiliateProgram.ValueLongYears": [
+  "%@ YEAR",
+  "%@ YEARS"
+ ],
  "AffiliateProgram.ValueShortMonths": [
   "%@m",
   "%@m"
@@ -38,6 +61,21 @@
  "AffiliateProgram.ValueShortYears": [
   "%@y",
   "%@y"
+ ],
+ "AffiliateSetup.AlertApply.Action": [
+  "Start"
+ ],
+ "AffiliateSetup.AlertApply.SectionCommission": [
+  "Commission"
+ ],
+ "AffiliateSetup.AlertApply.SectionDuration": [
+  "Duration"
+ ],
+ "AffiliateSetup.AlertApply.Text": [
+  "Once you start the affiliate program, you won't be able to decrease its commission or duration. You can only increase these parameters or end the program, which will disable all previously distributed referral links."
+ ],
+ "AffiliateSetup.AlertApply.Title": [
+  "Warning"
  ],
  "AffiliateSetup.AlertTerminate.Action": [
   "End Anyway"
@@ -47,6 +85,12 @@
  ],
  "AffiliateSetup.AlertTerminate.Title": [
   "Warning"
+ ],
+ "AffiliateSetup.ConnectedSectionTitle": [
+  "MY PROGRAMS"
+ ],
+ "AffiliateSetup.EndAction": [
+  "End Affiliate Program"
  ],
  "AffiliateSetup.ExistingPrograms.Action": [
   "View Existing Programs"
@@ -90,6 +134,18 @@
  "AffiliateSetup.IntroNew.Title3": [
   "Let affiliates promote you"
  ],
+ "AffiliateSetup.ProgramMenu.CopyLink": [
+  "Copy Link"
+ ],
+ "AffiliateSetup.ProgramMenu.Leave": [
+  "Leave"
+ ],
+ "AffiliateSetup.ProgramMenu.OpenApp": [
+  "Open App"
+ ],
+ "AffiliateSetup.ProgramMenu.OpenBot": [
+  "Open Bot"
+ ],
  "AffiliateSetup.SectionCommission": [
   "COMMISSION"
  ],
@@ -131,6 +187,9 @@
  ],
  "AffiliateSetup.ToastTerminated.Title": [
   "Affiliate Program Ended"
+ ],
+ "AffiliateSetup.UpdateTitle": [
+  "Update Affiliate Program"
  ],
  "Calls.TabTitle": [
   "Calls"
@@ -249,6 +308,9 @@
  "Gift.Auction.AveragePrice": [
   "Average Price"
  ],
+ "Gift.Auction.AveragePriceInfo": [
+  "**%1$@** is the average sale price for %2$@ gifts."
+ ],
  "Gift.Auction.Context.About": [
   "Learn More"
  ],
@@ -360,6 +422,10 @@
  "Gift.Auction.Seconds": [
   "%@ second",
   "%@ seconds"
+ ],
+ "Gift.Auction.Stars": [
+  "%@ Star",
+  "%@ Stars"
  ],
  "Gift.Auction.Start": [
   "Start"
@@ -733,6 +799,9 @@
  "Gift.Message.YourMessage": [
   "Your message..."
  ],
+ "Gift.MoveToGifts.Success": [
+  "Gift moved to your account."
+ ],
  "Gift.MoveToGifts.Text": [
   "Transfer this collectible off-chain to your Telegram account?"
  ],
@@ -744,6 +813,9 @@
  ],
  "Gift.MoveToWallet.Move": [
   "Move"
+ ],
+ "Gift.MoveToWallet.Success": [
+  "Gift moved to your wallet."
  ],
  "Gift.MoveToWallet.Text": [
   "Transfer this gift to your blockchain wallet?"
@@ -800,6 +872,10 @@
  "Gift.Options.Gift.Auction": [
   "auction"
  ],
+ "Gift.Options.Gift.BuyLimitReached": [
+  "You already sent %@ of these gifts, which is the limit.",
+  "You already sent %@ of these gifts, which is the limit."
+ ],
  "Gift.Options.Gift.Filter.AllGifts": [
   "All Gifts"
  ],
@@ -846,6 +922,9 @@
  ],
  "Gift.Options.GiftChannel.Title": [
   "Send a Gift"
+ ],
+ "Gift.Options.GiftLocked.Title": [
+  "Gift Locked"
  ],
  "Gift.Options.GiftSelf.Text": [
   "Buy yourself a gift to add to your profile or reserve for later.Limited-edition gifts upgraded to collectibles can be gifted to others."
@@ -943,6 +1022,10 @@
  ],
  "Gift.Send.Premium.Confirmation.Text": [
   "Are you sure you want to gift **Telegram Premium** to **%1$@** for **%2$@**?"
+ ],
+ "Gift.Send.Premium.Confirmation.Text.Stars": [
+  "%@ Star",
+  "%@ Stars"
  ],
  "Gift.Send.Premium.Confirmation.Title": [
   "Send a Gift"
@@ -1760,8 +1843,39 @@
  "GiftLink.UsedTitle": [
   "Used Gift Link"
  ],
+ "MessageTimer.Months": [
+  "%@ month",
+  "%@ months"
+ ],
  "Monetization.AdRevenueTitle": [
   "AD REWARDS"
+ ],
+ "Monetization.Balance.ComingLaterInfo": [
+  "In the coming weeks, you will be able to collect rewards using Fragment, a third-party platform used by advertisers to pay for ads. [Learn More >]()"
+ ],
+ "Monetization.Balance.StarsInfo": [
+  "You can collect rewards for Stars using Fragment, or use Stars to advertise your channel. You cannot withdraw less than 1000 stars. [Learn More >]()"
+ ],
+ "Monetization.Balance.StarsInfoGroup": [
+  "You can collect rewards for Stars using Fragment. You cannot withdraw less than 1000 stars. [Learn More >]()"
+ ],
+ "Monetization.Balance.ZeroInfo": [
+  "You will be able to collect rewards using Fragment, a third-party platform used by advertisers to pay for ads. [Terms & Conditions >]()"
+ ],
+ "Monetization.BalanceStarsBuyAds": [
+  "Buy Ads"
+ ],
+ "Monetization.BalanceStarsWithdraw": [
+  "Withdraw via Fragment"
+ ],
+ "Monetization.BalanceStarsWithdrawShort": [
+  "Withdraw"
+ ],
+ "Monetization.BalanceWithdraw": [
+  "Collect via Fragment"
+ ],
+ "Monetization.Bot.BalanceTitle": [
+  "AVAILABLE BALANCE"
  ],
  "Monetization.Bot.Header": [
   "Telegram shares 50% of the revenue from ads displayed in your bot as rewards. [Learn More >]()"
@@ -1814,8 +1928,56 @@
  "Monetization.Intro.Withdrawal.Title": [
   "Flexible Withdrawals"
  ],
+ "Monetization.Overview.Available": [
+  "Rewards Available for Collection"
+ ],
+ "Monetization.Overview.Current": [
+  "Rewards Since Last Collection"
+ ],
+ "Monetization.Overview.Total": [
+  "Total Lifetime Rewards"
+ ],
+ "Monetization.Proceeds.Stars.Info": [
+  "Stars from your total balance can be used for ads or withdrawn as rewards 21 days after they are earned."
+ ],
+ "Monetization.Proceeds.Ton.Info": [
+  "Grams from your total balance can be used for ads or withdrawn as rewards 3 days after they are earned. You cannot withdraw less than 10 Grams."
+ ],
+ "Monetization.Proceeds.TonAndStars.Info": [
+  "Stars and Grams from your total balance can be used for ads or withdrawn as rewards 21 and 3 days respectively after they are earned."
+ ],
+ "Monetization.StarsBalanceTitle": [
+  "STARS BALANCE"
+ ],
+ "Monetization.StarsProceeds.Available": [
+  "Available Balance"
+ ],
+ "Monetization.StarsProceeds.Current": [
+  "Total Balance"
+ ],
+ "Monetization.StarsProceeds.Title": [
+  "REWARDS OVERVIEW"
+ ],
+ "Monetization.StarsProceeds.Total": [
+  "Lifetime Proceeds"
+ ],
+ "Monetization.StarsRevenueTitle": [
+  "REVENUE"
+ ],
  "Monetization.StarsTransactions": [
   "Stars Transactions"
+ ],
+ "Monetization.SwitchOffAds": [
+  "Switch off Ads"
+ ],
+ "Monetization.SwitchOffAdsInfo": [
+  "You will not be eligible for any rewards if you switch off ads."
+ ],
+ "Monetization.TonBalanceTitle": [
+  "GRAM BALANCE"
+ ],
+ "Monetization.TonTransactions": [
+  "Gram Transactions"
  ],
  "Monetization.Transaction.Failed": [
   "Not Completed"
@@ -1823,11 +1985,27 @@
  "Monetization.Transaction.Pending": [
   "Pending"
  ],
+ "Monetization.Transaction.Proceeds": [
+  "Rewards from Ads"
+ ],
+ "Monetization.Transaction.Refund": [
+  "Refund"
+ ],
+ "Monetization.Transaction.ShowMoreTransactions": [
+  "Show %@ More Transaction",
+  "Show %@ More Transactions"
+ ],
+ "Monetization.Transaction.Withdrawal": [
+  "Collection via %@"
+ ],
  "Monetization.TransactionInfo.ViewInExplorer": [
   "View in Explorer"
  ],
  "Monetization.TransactionInfo.Withdrawal": [
   "Collecting Rewards via %@"
+ ],
+ "Monetization.TransactionsTitle": [
+  "TRANSACTION HISTORY"
  ],
  "Monetization.Withdraw.AmountTooSmallError": [
   "You cannot withdraw less than 10 Grams."
@@ -2019,6 +2197,10 @@
  ],
  "Stars.Intro.PurchasedText": [
   "**%@** added to your balance."
+ ],
+ "Stars.Intro.PurchasedText.Stars": [
+  "%@ Star",
+  "%@ Stars"
  ],
  "Stars.Intro.PurchasedTitle": [
   "Stars Acquired"
@@ -2355,8 +2537,26 @@
  "Stars.Transaction.GiftTransfer": [
   "Gift Transfer"
  ],
+ "Stars.Transaction.Giveaway.Boost.Boosts": [
+  "%@ Boost",
+  "%@ Boosts"
+ ],
+ "Stars.Transaction.Giveaway.Boost.Stars": [
+  "%@ Star",
+  "%@ Stars"
+ ],
+ "Stars.Transaction.Giveaway.Giveaway": [
+  "Giveaway"
+ ],
+ "Stars.Transaction.Giveaway.Prize": [
+  "Prize"
+ ],
  "Stars.Transaction.Giveaway.Reason": [
   "Reason"
+ ],
+ "Stars.Transaction.Giveaway.Stars": [
+  "%@ Star",
+  "%@ Stars"
  ],
  "Stars.Transaction.Id": [
   "Transaction ID"
@@ -2524,6 +2724,10 @@
  "Stars.Transfer.Pay": [
   "Confirm and Pay"
  ],
+ "Stars.Transfer.Purchased.Stars": [
+  "%@ Star",
+  "%@ Stars"
+ ],
  "Stars.Transfer.PurchasedText": [
   "You acquired **%1$@** in **%2$@** for **%3$@**."
  ],
@@ -2575,6 +2779,9 @@
  "Stars.Withdraw.Withdraw.ErrorMinimum.Stars": [
   "%@ Star",
   "%@ Stars"
+ ],
+ "Stars.Withdraw.Withdraw.ErrorTimeout": [
+  "Next withdrawal will be available in **%@**."
  ],
  "StarsBalance.GetMoreStars": [
   "Get More Stars >"

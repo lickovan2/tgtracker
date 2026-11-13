@@ -1040,6 +1040,19 @@
  "PeerInfo.ClearMessages": [
   "Clear Messages"
  ],
+ "PeerInfo.Community": [
+  "Community with %@ chat",
+  "Community with %@ chats"
+ ],
+ "PeerInfo.Community.AddBot": [
+  "Add Bot to a Community"
+ ],
+ "PeerInfo.Community.BotInfo": [
+  "Make your bot part of a community with multiple related chats"
+ ],
+ "PeerInfo.Community.RemoveBot": [
+  "Remove Bot from Community"
+ ],
  "PeerInfo.EnableAutoDelete": [
   "Enable Auto-Delete"
  ],
@@ -1069,6 +1082,9 @@
  ],
  "PeerInfo.SimilarBots.ShowMoreInfo": [
   "Subscribe to [Telegram Premium]()to unlock up to **100** similar bots."
+ ],
+ "PeerInfo.VerifyAccounts": [
+  "Verify Accounts"
  ],
  "Premium.EmojiStatus.Proceed": [
   "Unlock Emoji Statuses"
@@ -1274,8 +1290,15 @@
  "Settings.SetNewProfilePhotoOrVideo": [
   "Set New Photo"
  ],
+ "Settings.SetPhoto": [
+  "Set Photo"
+ ],
  "ShareMenu.CopyShareLinkGame": [
   "Copy link to game"
+ ],
+ "SharedMedia.SimilarBot.Users": [
+  "%@ monthly user",
+  "%@ monthly users"
  ],
  "SharedMedia.SimilarBotCount": [
   "%@ bot",

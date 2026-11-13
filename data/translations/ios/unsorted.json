@@ -233,9 +233,6 @@
  "Autoremove.SetCustomTime": [
   "Set Custom Time..."
  ],
- "AutoremoveSetup.AdditionalGlobalSettingsInfo": [
-  "You can also set a default [self-destruct timer]() for all chats in Settings."
- ],
  "Avatar.CancelUploadConfirmation.Title": [
   "Cancel Upload?"
  ],
@@ -244,9 +241,6 @@
  ],
  "AvatarEditor.PremiumNeeded.Emoji": [
   "Subscribe to Telegram Premium to choose this emoji."
- ],
- "AvatarEditor.SetCommunityPhoto": [
-  "Set as Community Photo"
  ],
  "AvatarEditor.Suggest": [
   "Suggest"
@@ -828,12 +822,6 @@
  "Channel.BotDoesntSupportGroups": [
   "Sorry, this bot is telling us it doesn't want to be added to groups. You can't add this bot unless its developers change their mind."
  ],
- "Channel.CommentsGroup.Header": [
-  "Select a group chat that will host comments from your channel."
- ],
- "Channel.DiscussionGroup.PublicChannelLink": [
-  "Make %1$@ the discussion group for %2$@?"
- ],
  "Channel.DiscussionGroup.SearchPlaceholder": [
   "Search"
  ],
@@ -860,9 +848,6 @@
  ],
  "Channel.EditAdmin.TransferOwnership": [
   "Transfer Channel Ownership"
- ],
- "Channel.ErrorAdminsTooMuch": [
-  "Sorry, too many administrators in this channel."
  ],
  "Channel.Info.BoostLevelPlusBadge": [
   "Level %@+"
@@ -915,12 +900,6 @@
  "Channel.Setup.DeactivateAlertTitle": [
   "Deactivate Link"
  ],
- "Channel.Setup.LinksOrder": [
-  "LINK ORDER"
- ],
- "Channel.Setup.LinksOrderInfo": [
-  "Drag and drop links to change the order in which they will be displayed on the channel info page."
- ],
  "Channel.Setup.PublicLink": [
   "PUBLIC LINK"
  ],
@@ -939,15 +918,6 @@
  "Channel.Username.RevokeExistingUsernamesInfo": [
   "You can revoke the link from one of your older groups or channels, or create a private channel instead."
  ],
- "Channel.Username.UsernamePurchaseAvailable": [
-  "**This username is already taken.** However, it is currently available for purchase. [Learn more...]()"
- ],
- "ChannelBoost.BoostedChannelMoreRequired": [
-  "%1$@ needed to be able to post %2$@."
- ],
- "ChannelBoost.EnableColorsLevelText": [
-  "Your channel needs **Level %1$@** to change channel color.Ask your **Premium** subscribers to boost your channel with this link:"
- ],
  "ChannelBoost.Error.GiftedPremiumNotAllowedText": [
   "Because your **Telegram Premium** subscription was gifted to you, you can't use it to boost channels."
  ],
@@ -955,9 +925,6 @@
   "Can't Boost with Gifted Premium"
  ],
  "ChannelBoost.MaxLevelReachedText": [
-  "This channel reached **Level %1$@** and can now post %2$@."
- ],
- "ChannelBoost.MaxLevelReachedTextAuthor": [
   "This channel reached **Level %1$@** and can now post %2$@."
  ],
  "ChannelBoost.Table.WearGift": [
@@ -1400,15 +1367,6 @@
  "ClearCache.StorageTitle": [
   "%@ STORAGE"
  ],
- "CollectibleItemInfo.ButtonCopyPhone": [
-  "Copy Phone Number"
- ],
- "CollectibleItemInfo.PhoneText": [
-  "The phone number %1$@ was acquired on %2$@ on %3$@ for %4$@ (%5$@)."
- ],
- "CollectibleItemInfo.PhoneTitle": [
-  "%@ is a collectible phone number that belongs to"
- ],
  "Common.ActionNotAllowedError": [
   "Sorry, you are not allowed to do this."
  ],
@@ -1423,9 +1381,6 @@
  ],
  "Community.View.ChatsLimitReached": [
   "Sorry, this community has reached the maximum number of chats."
- ],
- "Community.View.PendingRequestHeader": [
-  "PENDING REQUEST"
  ],
  "Community.View.Title": [
   "Community"
@@ -1446,12 +1401,6 @@
  ],
  "Contacts.Sort": [
   "Sort"
- ],
- "Contacts.Sort.ByLastSeen": [
-  "by Last Seen"
- ],
- "Contacts.Sort.ByName": [
-  "by Name"
  ],
  "Contacts.VoiceOver.AddContact": [
   "Add Contact"
@@ -1883,13 +1832,6 @@
  "GifSearch.SearchGifPlaceholder": [
   "Search GIFs"
  ],
- "Gift.Auction.AveragePriceInfo": [
-  "**%1$@** is the average sale price for %2$@ gifts."
- ],
- "Gift.Auction.Stars": [
-  "%@ Star",
-  "%@ Stars"
- ],
  "Gift.AuctionBid.CustomBid.Placeholder": [
   "Amount"
  ],
@@ -1899,12 +1841,6 @@
  ],
  "Gift.Craft.Select.SaleGifts": [
   "Suitable Gifts On Sale"
- ],
- "Gift.MoveToGifts.Success": [
-  "Gift moved to your account."
- ],
- "Gift.MoveToWallet.Success": [
-  "Gift moved to your wallet."
  ],
  "Gift.Onchain.Buy.Sent": [
   "Purchase sent. **%@** will appear in your wallet once the network confirms it."
@@ -2219,23 +2155,8 @@
  "Group.Setup.DeactivateAlertTitle": [
   "Deactivate Link"
  ],
- "Group.Setup.ForwardingChannelInfoDisabled": [
-  "Subscribers won't be able to copy, save or forward content from this channel."
- ],
- "Group.Setup.ForwardingGroupInfoDisabled": [
-  "Members won't be able to copy, save or forward content from this group."
- ],
- "Group.Setup.LinkActive": [
-  "active"
- ],
  "Group.Setup.LinkInactive": [
   "inactive"
- ],
- "Group.Setup.LinksOrder": [
-  "LINKS ORDER"
- ],
- "Group.Setup.LinksOrderInfo": [
-  "Drag and drop links to change the order in which they will be displayed on the group info page."
  ],
  "Group.Setup.PublicLink": [
   "PUBLIC LINK"
@@ -2245,9 +2166,6 @@
  ],
  "Group.Username.InvalidStartsWithUnderscore": [
   "Group names can't start with an underscore."
- ],
- "Group.Username.RemoveExistingUsernamesFinalInfo": [
-  "You have reserved too many public links. Try revoking the link from an older group or channel, or create a private one instead."
  ],
  "Group.Username.RemoveExistingUsernamesNoPremiumInfo": [
   "You have reserved too many public links. Try revoking the link from an older group or channel. We are working to let you increase this limit in the future."
@@ -2270,23 +2188,11 @@
  "GroupBoost.Wallpaper": [
   "Set Group Wallpaper"
  ],
- "GroupInfo.ActionEditRank": [
-  "Edit Member Tag"
- ],
  "GroupInfo.FakeGroupWarning": [
   "⚠️ Warning: Many users reported that this account impersonates a famous person or organization."
  ],
  "GroupInfo.InviteLink.RevokeAlert.Revoke": [
   "Revoke"
- ],
- "GroupInfo.Permissions.BroadcastConvert": [
-  "Convert to Broadcast Group"
- ],
- "GroupInfo.Permissions.BroadcastConvertInfo": [
-  "Broadcast groups can have over %@ members, but only admins can send messages in them."
- ],
- "GroupInfo.Permissions.BroadcastTitle": [
-  "Broadcast Group"
  ],
  "GroupInfo.Permissions.EditingDisabled": [
   "You cannot change this permission."
@@ -2841,31 +2747,7 @@
  "Monetization.Balance.AvailableInfo": [
   "You can collect your reward using Fragment, a third-party platform used by advertisers to pay for ads. [Terms & Conditions >]()"
  ],
- "Monetization.Balance.ComingLaterInfo": [
-  "In the coming weeks, you will be able to collect rewards using Fragment, a third-party platform used by advertisers to pay for ads. [Learn More >]()"
- ],
- "Monetization.BalanceWithdraw": [
-  "Collect via Fragment"
- ],
- "Monetization.Bot.BalanceTitle": [
-  "AVAILABLE BALANCE"
- ],
- "Monetization.Proceeds.TonAndStars.Info": [
-  "Stars and Grams from your total balance can be used for ads or withdrawn as rewards 21 and 3 days respectively after they are earned."
- ],
  "Monetization.StarsProceeds.Info": [],
- "Monetization.TonTransactions": [
-  "Gram Transactions"
- ],
- "Monetization.Transaction.Refund": [
-  "Refund"
- ],
- "Monetization.Transaction.Withdrawal": [
-  "Collection via %@"
- ],
- "Monetization.TransactionsTitle": [
-  "TRANSACTION HISTORY"
- ],
  "Monetization.Withdraw.SecurityCheck": [
   "Security Check"
  ],
@@ -2884,9 +2766,6 @@
  ],
  "NameColor.ChatPreview.Title": [
   "COLOR PREVIEW"
- ],
- "Navigation.AllChats": [
-  "All Chats"
  ],
  "News.Display.Compact": [
   "Compact"
@@ -3614,10 +3493,6 @@
   "%@ Star",
   "%@ Stars"
  ],
- "PeerInfo.BusinessHours.StatusOpensInDays": [
-  "Opens in 1 day",
-  "Opens in %d days"
- ],
  "PeerInfo.ButtonVideoCall": [
   "Video"
  ],
@@ -3661,15 +3536,6 @@
  ],
  "PeerInfo.TopicHeaderLocation": [
   "in %1$@"
- ],
- "PeerInfo.TopicIconInfoText": [
-  "This topic's icon is from **%@**."
- ],
- "PeerInfo.UnofficialSecurityRisk": [
-  "%@ uses an unofficial Telegram client – messages to this user may be less secure."
- ],
- "PeerInfo.VerifyAccounts": [
-  "Verify Accounts"
  ],
  "PeerInfo.ViewDiscussion": [
   "View Discussion"
@@ -3734,39 +3600,12 @@
  "Premium.Gift.Sent.One.Title": [
   "Gift Sent!"
  ],
- "Premium.Gift.UsedLink.Text": [
-  "This link was used to activate a **Telegram Premium** subscription."
- ],
  "Premium.Gift.Years": [
   "%@ Year",
   "%@ Years"
  ],
- "Premium.GiftedDescriptionYou": [
-  "They now have access to additional features."
- ],
- "Premium.GiftedTitle": [
-  "Telegram Premium"
- ],
- "Premium.GiftedTitle.12Month": [
-  "[%@]() has gifted you a 12-month subscription to Telegram Premium"
- ],
- "Premium.GiftedTitle.6Month": [
-  "[%@]() has gifted you a 6-month subscription to Telegram Premium"
- ],
  "Premium.GiftedTitle.Someone": [
   "Someone"
- ],
- "Premium.GiftedTitleYou.12Month": [
-  "You gifted [%@]() a 12-month subscription to Telegram Premium"
- ],
- "Premium.GiftedTitleYou.3Month": [
-  "You gifted [%@]() a 3-month subscription to Telegram Premium"
- ],
- "Premium.GiftedTitleYou.6Month": [
-  "You gifted [%@]() a 6-month subscription to Telegram Premium"
- ],
- "Premium.MaxChatsInFolderFinalText": [
-  "Sorry, you can't add more than **%@** chats to a folder."
  ],
  "Premium.MaxExpiringStoriesFinalText": [
   "You've reached the limit of **%@** story in **24** hours."
@@ -3774,34 +3613,8 @@
  "Premium.MaxExpiringStoriesNoPremiumText": [
   "You've reached the limit of **%@** story in **24** hours."
  ],
- "Premium.MaxExpiringStoriesTextFormat": [
-  "You can post %@ in **24** hours. Subscribe to **Telegram Premium** to increase this limit to **%@**."
- ],
- "Premium.MaxExpiringStoriesTextNumberFormat": [
-  "**%d** story",
-  "**%d** stories"
- ],
- "Premium.MaxExpiringStoriesTextPremiumNumberFormat": [
-  "**%d** story",
-  "**%d** stories"
- ],
- "Premium.MaxPinsText": [
-  "You can't pin more than **%1$@** chats to the top. Unpin some that are currently pinned – or subscribe to **Telegram Premium** to double the limit to **%2$@** chats."
- ],
- "Premium.MaxSavedPinsFinalText": [
-  "Sorry, you can't pin more than **%@** chats to the top. Unpin some that are currently pinned."
- ],
- "Premium.MaxSavedPinsText": [
-  "Sorry, you can't pin more than **%1$@** chats to the top. Unpin some that are currently pinned or subscribe to **Telegram Premium** to double the limit to **%2$@** chats."
- ],
- "Premium.MaxStoriesMonthlyFinalText": [
-  "You have reached the limit of **%@** stories per month."
- ],
  "Premium.PricePerYear": [
   "%@/year"
- ],
- "Premium.Purchase.ErrorTryLater": [
-  "An error occurred. Please try again."
  ],
  "Premium.Restore.ErrorUnknown": [
   "An error occurred. Please try again."
@@ -3848,9 +3661,6 @@
  "PrivacySettings.ValueCloseFriendsAndPremiumPlus": [
   "Close Friends, Premium +%@"
  ],
- "Profile.AdditionalUsernames": [
-  "also %@"
- ],
  "ProfileColorSetup.AccountColorInfoLabel": [
   "Choose a color for your profile"
  ],
@@ -3859,42 +3669,6 @@
  ],
  "ProfileColorSetup.NoProfileGiftsPlaceholder": [
   "You don't have any gifts you can use as styles for your profile."
- ],
- "ProfileLevelInfo.FutureRatingTitle": [
-  "Future Rating"
- ],
- "ProfileLevelInfo.MyDescriptionDays": [
-  "%@ day",
-  "%@ days"
- ],
- "ProfileLevelInfo.MyDescriptionInPreview": [
-  "The rating will update in %1$@,after %2$@ added. [Back >]()"
- ],
- "ProfileLevelInfo.MyDescriptionInPreviewDays": [
-  "%@ day",
-  "%@ days"
- ],
- "ProfileLevelInfo.MyDescriptionInPreviewPoints": [
-  "%@ point is",
-  "%@ points are"
- ],
- "ProfileLevelInfo.MyDescriptionInPreviewToday": [
-  "This will be your rating today,after %@ added. [Back >]()",
-  "This will be your rating today,after %@ added. [Back >]()"
- ],
- "ProfileLevelInfo.MyDescriptionPoints": [
-  "%@ point is",
-  "%@ points are"
- ],
- "ProfileLevelInfo.MyDescriptionPreview": [
-  "The rating will update in %@.%@ pending. [Preview >]()"
- ],
- "ProfileLevelInfo.MyDescriptionToday": [
-  "The rating updates today.%@ point is pending.",
-  "The rating updates today.%@ points are pending."
- ],
- "ProfileLevelInfo.RatingTitle": [
-  "Rating"
  ],
  "ProfilePhoto.OpenInEditor": [
   "Open in Editor"
@@ -4083,9 +3857,6 @@
   "Set for 1 minute",
   "Set for %@ minutes"
  ],
- "Settings.AddAnotherAccount.PremiumHelp": [
-  "You can add up to four accounts with different phone numbers."
- ],
  "Settings.AppLanguage.Unofficial": [
   "UNOFFICIAL"
  ],
@@ -4197,14 +3968,6 @@
  "ShareScreen.CreateGroupTooltip": [
   "Create a group and share with it"
  ],
- "SharedMedia.SimilarBot.Users": [
-  "%@ monthly user",
-  "%@ monthly users"
- ],
- "SharedMedia.SimilarChannel.Subscribers": [
-  "%@ subscriber",
-  "%@ subscribers"
- ],
  "Shortcut.AppIcon": [
   "Edit App Icon"
  ],
@@ -4283,10 +4046,6 @@
  "Stars.Transaction.Unsupported.Title": [
   "Unsupported"
  ],
- "Stars.Transfer.Purchased.Stars": [
-  "%@ Star",
-  "%@ Stars"
- ],
  "Stars.Transfer.Terms_URL": [
   "https://telegram.org/tos/stars"
  ],
@@ -4314,9 +4073,6 @@
  "Stats.MessageViews": [
   "%@ view",
   "%@ views"
- ],
- "Stats.MessageViews.NoViews": [
-  "No views"
  ],
  "Stats.ReactionsByEmotionTitle": [
   "REACTIONS BY EMOTION"
@@ -4780,9 +4536,6 @@
   "collectible number"
  ],
  "UserInfo.FakeBotWarning": [
-  "⚠️ Warning: Many users reported that this account impersonates a famous person or organization."
- ],
- "UserInfo.FakeUserWarning": [
   "⚠️ Warning: Many users reported that this account impersonates a famous person or organization."
  ],
  "UserInfo.PublicVideo": [
@@ -5688,15 +5441,6 @@
  ],
  "WebBrowser.PassExistsError": [
   "This pass is already added to Wallet."
- ],
- "Weekday.Friday": [
-  "Friday"
- ],
- "Weekday.Sunday": [
-  "Sunday"
- ],
- "Weekday.Thursday": [
-  "Thursday"
  ],
  "Widget.MessageAutoremoveTimerRemoved": [
   "Auto-delete timer disabled"
