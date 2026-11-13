@@ -138,6 +138,9 @@
  "Channel.OwnershipTransfer.PasswordPlaceholder": [
   "Password"
  ],
+ "ChannelReactions.LevelRequiredLabel": [
+  "Level %1$@ Required"
+ ],
  "ChatList.ArchivedChatsTitle": [
   "Archived Chats"
  ],
@@ -207,8 +210,14 @@
  "Gift.Attribute.Epic": [
   "epic"
  ],
+ "Gift.Attribute.Legendary": [
+  "legendary"
+ ],
  "Gift.Attribute.Rare": [
   "rare"
+ ],
+ "Gift.Attribute.Uncommon": [
+  "uncommon"
  ],
  "Gift.Auction.Availability": [
   "Availability"
@@ -1086,14 +1095,29 @@
  "Gift.Unique.Backdrop": [
   "Backdrop"
  ],
+ "Gift.Unique.Collectible": [
+  "Collectible"
+ ],
  "Gift.Unique.Issued": [
   "%@ issued"
+ ],
+ "Gift.Unique.LearnMore": [
+  "learn more"
  ],
  "Gift.Unique.Model": [
   "Model"
  ],
+ "Gift.Unique.OriginalInfo": [
+  "Gifted to %1$@ on %2$@."
+ ],
+ "Gift.Unique.OriginalInfoSender": [
+  "Gifted by %1$@ to %2$@ on %3$@."
+ ],
  "Gift.Unique.OriginalInfoSenderWithText": [
   "Gifted by %1$@ to %2$@ on %3$@ with comment \"%4$@\"."
+ ],
+ "Gift.Unique.OriginalInfoWithText": [
+  "Gifted to %1$@ on %2$@ with comment \"%3$@\"."
  ],
  "Gift.Unique.Owner": [
   "Owner"
@@ -1103,6 +1127,9 @@
  ],
  "Gift.Unique.Telegram": [
   "Telegram"
+ ],
+ "Gift.Unique.Value": [
+  "Value"
  ],
  "Gift.Unpin.Replace": [
   "Replace"
@@ -1188,11 +1215,33 @@
  "Gift.Upgrade.Wearable.Title": [
   "Wearable"
  ],
+ "Gift.UpgradeCost.AdditionalDescription": [
+  "Upgrade cost drops every minute."
+ ],
+ "Gift.UpgradeCost.Description": [
+  "Users who upgrade their gifts first get collectibles with lower numbers."
+ ],
+ "Gift.UpgradeCost.Done": [
+  "Understood"
+ ],
+ "Gift.UpgradeCost.Stars": [
+  "%@ Star",
+  "%@ Stars"
+ ],
+ "Gift.UpgradeCost.Title": [
+  "Upgrade Cost"
+ ],
  "Gift.Value.AveragePrice": [
   "Average Price"
  ],
  "Gift.Value.AveragePriceInfo": [
   "**%1$@** is the average sale price for %2$@ gifts listed on Telegram and Fragment over the past month."
+ ],
+ "Gift.Value.DescriptionAveragePrice": [
+  "The average sale price of **%@** gifts on Telegram and Fragment over the past month."
+ ],
+ "Gift.Value.DescriptionLastPriceFragment": [
+  "This is the last price at which **%@** was last sold on Fragment."
  ],
  "Gift.Value.DescriptionLastPriceTelegram": [
   "This is the price at which **%@** was last sold on Telegram."
@@ -1237,6 +1286,10 @@
   "**%@** unique backdrop",
   "**%@** unique backdrops"
  ],
+ "Gift.Variants.CollectionInfo.CraftableModel": [
+  "**%@** craftable model",
+  "**%@** craftable models"
+ ],
  "Gift.Variants.CollectionInfo.Model": [
   "**%@** unique model",
   "**%@** unique models"
@@ -1262,6 +1315,12 @@
  ],
  "Gift.Variants.Symbols": [
   "Symbols"
+ ],
+ "Gift.Variants.ViewCraftableModels": [
+  "View Craftable Models"
+ ],
+ "Gift.Variants.ViewPrimaryModels": [
+  "View Primary Models"
  ],
  "Gift.View.Availability": [
   "Availability"
@@ -1388,6 +1447,9 @@
  "Gift.View.OnSale": [
   "On sale for %@"
  ],
+ "Gift.View.OpenChatTheme": [
+  "This gift is the chat's theme. [Change Theme >]()"
+ ],
  "Gift.View.OtherDescription": [
   "%1$@ can add this gift to their profile or convert it to %2$@. [More About Stars >]()"
  ],
@@ -1409,6 +1471,9 @@
  ],
  "Gift.View.ReceivedTitle": [
   "Received Gift"
+ ],
+ "Gift.View.ReleasedBy": [
+  "released by %@"
  ],
  "Gift.View.Resale.List.Success": [
   "%@ is now for sale!"
@@ -1475,6 +1540,9 @@
  "Gift.View.Title": [
   "Gift"
  ],
+ "Gift.View.TonGiftAddressInfo": [
+  "This gift is on the TON Blockchain. [View >]()"
+ ],
  "Gift.View.TookOff": [
   "You took off %@"
  ],
@@ -1502,6 +1570,9 @@
  "Gift.View.Upgrade": [
   "Upgrade"
  ],
+ "Gift.View.UpgradeDescription": [
+  "Upgrade this gift to turn it into a unique collectible."
+ ],
  "Gift.View.UpgradeForFree": [
   "Upgrade for Free"
  ],
@@ -1514,11 +1585,17 @@
  "Gift.View.ViewUpgraded": [
   "View Upgraded Gift"
  ],
+ "Gift.Wear.Badge.ChannelText": [
+  "This gift will be displayed next to your channel's name with a glittering icon."
+ ],
  "Gift.Wear.Badge.Text": [
   "This gift will be displayed next to your name with a glittering icon."
  ],
  "Gift.Wear.Badge.Title": [
   "Radiant Badge"
+ ],
+ "Gift.Wear.Design.ChannelText": [
+  "Your channel's profile will have the same backdrop and symbol as this gift."
  ],
  "Gift.Wear.Design.Text": [
   "Your profile will have the same backdrop and symbol as this gift."
@@ -1528,6 +1605,9 @@
  ],
  "Gift.Wear.GetBenefits": [
   "and get these benefits:"
+ ],
+ "Gift.Wear.Proof.ChannelText": [
+  "Tapping the icon next to your channel's name will show the gift's owner and attributes."
  ],
  "Gift.Wear.Proof.Text": [
   "Tapping the icon next to your name will show the gift's owner and attributes."
@@ -1583,6 +1663,15 @@
  "Gift.Withdraw.Title": [
   "Manage with Fragment"
  ],
+ "GiftLink.Date": [
+  "Date"
+ ],
+ "GiftLink.From": [
+  "From"
+ ],
+ "GiftLink.Gift": [
+  "Gift"
+ ],
  "GiftLink.LinkHidden": [
   "Only the recipient can see the link."
  ],
@@ -1591,6 +1680,22 @@
  ],
  "GiftLink.LinkSharedToSavedMessages": [
   "Gift link forwarded to **Saved Messages**"
+ ],
+ "GiftLink.NotUsedFooter": [
+  "This link hasn't been used yet."
+ ],
+ "GiftLink.PersonalDescription": [
+  "This link allows **%@** to activate a **Telegram Premium** subscription."
+ ],
+ "GiftLink.TelegramPremium": [
+  "Telegram Premium for %@ month",
+  "Telegram Premium for %@ months"
+ ],
+ "GiftLink.Title": [
+  "Gift Link"
+ ],
+ "GiftLink.To": [
+  "To"
  ],
  "Monetization.AdRevenueTitle": [
   "AD REWARDS"
@@ -1768,11 +1873,17 @@
  "Stars.BotRevenue.Withdraw.WithdrawShort": [
   "Withdraw"
  ],
+ "Stars.Gift.Received.Title": [
+  "Received Gift"
+ ],
  "Stars.Gift.Sent.Text": [
   "With Stars, %@ will be able to unlock content and services on Telegram. [See Examples >]()"
  ],
  "Stars.Gift.Sent.Title": [
   "Sent Gift"
+ ],
+ "Stars.Gift.Ton.Text": [
+  "Use Grams to buy gifts and suggest posts to channels."
  ],
  "Stars.Intro.AllTransactions": [
   "All Transactions"
@@ -2084,8 +2195,20 @@
  "Stars.Transaction.FragmentWithdrawalTon.Title": [
   "Gram Withdrawal"
  ],
+ "Stars.Transaction.From": [
+  "From"
+ ],
  "Stars.Transaction.GiftAuctionBid": [
   "Gift Auction Bid"
+ ],
+ "Stars.Transaction.GiftSale": [
+  "Gift Sale"
+ ],
+ "Stars.Transaction.GiftTransfer": [
+  "Gift Transfer"
+ ],
+ "Stars.Transaction.Giveaway.Reason": [
+  "Reason"
  ],
  "Stars.Transaction.Id": [
   "Transaction ID"
@@ -2097,8 +2220,58 @@
  "Stars.Transaction.LiveStreamPaidMessage.Text": [
   "You receive **%@%** of the price that you charge for each incoming message."
  ],
+ "Stars.Transaction.LiveStreamReaction": [
+  "Live Stream Reaction"
+ ],
+ "Stars.Transaction.LiveStreamReaction.Text": [
+  "You receive **%@%** of the amount from each reaction."
+ ],
+ "Stars.Transaction.Media": [
+  "Media"
+ ],
+ "Stars.Transaction.MediaAnd": [
+  "%1$@ and %2$@"
+ ],
+ "Stars.Transaction.MediaPurchase": [
+  "Media Purchase"
+ ],
+ "Stars.Transaction.Paid": [
+  "Full Price"
+ ],
+ "Stars.Transaction.PaidMessage": [
+  "Fee for %@ Message",
+  "Fee for %@ Messages"
+ ],
+ "Stars.Transaction.PaidMessage.Text": [
+  "You receive **%@%** of the price that you charge for each incoming message. [Change Fee >]()"
+ ],
+ "Stars.Transaction.Photos": [
+  "%@ Photo",
+  "%@ Photos"
+ ],
+ "Stars.Transaction.Reaction.Post": [
+  "Post"
+ ],
+ "Stars.Transaction.Reaction.Title": [
+  "Star reaction"
+ ],
+ "Stars.Transaction.SinglePhoto": [
+  "Photo"
+ ],
+ "Stars.Transaction.SingleVideo": [
+  "Video"
+ ],
+ "Stars.Transaction.Subscription": [
+  "Subscription"
+ ],
  "Stars.Transaction.Subscription.Active": [
   "If you cancel now, you can still access your subscription until %@"
+ ],
+ "Stars.Transaction.Subscription.Bot": [
+  "Bot"
+ ],
+ "Stars.Transaction.Subscription.Business": [
+  "Business"
  ],
  "Stars.Transaction.Subscription.Cancel": [
   "Cancel Subscription"
@@ -2111,6 +2284,12 @@
  ],
  "Stars.Transaction.Subscription.Cancelled.Title": [
   "Subscription canceled"
+ ],
+ "Stars.Transaction.Subscription.CancelledByBot": [
+  "Your subscription was canceled by the bot."
+ ],
+ "Stars.Transaction.Subscription.CancelledByBusiness": [
+  "Your subscription was canceled by the business."
  ],
  "Stars.Transaction.Subscription.Expired": [
   "Your subscription expired on %@."
@@ -2172,6 +2351,10 @@
  ],
  "Stars.Transaction.Via": [
   "Via"
+ ],
+ "Stars.Transaction.Videos": [
+  "%@ Video",
+  "%@ Videos"
  ],
  "Stars.Transfer.Balance": [
   "Balance"

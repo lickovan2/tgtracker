@@ -1153,49 +1153,13 @@
  "Chat.Gifs.TrendingSectionHeader": [
   "TRENDING GIFS"
  ],
- "Chat.Giveaway.Info.AlmostOver": [
-  "The giveaway is almost over."
- ],
- "Chat.Giveaway.Info.EndedMany": [
-  "On **%1$@**, Telegram automatically selected %2$@ of **%3$@** and other listed communities."
- ],
- "Chat.Giveaway.Info.EndedNew": [
-  "On **%1$@**, Telegram automatically selected %2$@ that joined **%3$@** after **%4$@**."
- ],
- "Chat.Giveaway.Info.EndedNewMany": [
-  "On **%1$@**, Telegram automatically selected %2$@ that joined **%3$@** and other listed channels after **%4$@**."
- ],
- "Chat.Giveaway.Info.Group.RandomMembers": [
-  "**%@** random member",
-  "**%@** random members"
- ],
- "Chat.Giveaway.Info.NotAllowedJoinedEarly": [
-  "You are not eligible to participate in this giveaway because you joined this channel on **%@**, which is before the contest started."
- ],
- "Chat.Giveaway.Info.NotQualified": [
-  "To take part in this giveaway please join the channel **%1$@** before **%2$@**."
- ],
- "Chat.Giveaway.Info.OngoingNewMany": [
-  "On **%1$@**, Telegram will automatically select %2$@ that joined **%3$@** and %4$@ after **%5$@**."
- ],
  "Chat.Giveaway.Info.OtherChannelsAndGroups": [
   "**%@** other listed channel and group",
   "**%@** other listed channels and groups"
  ],
- "Chat.Giveaway.Info.OtherGroups": [
-  "**%@** other listed group",
-  "**%@** other listed groups"
- ],
  "Chat.Giveaway.Info.OtherGroupsAndChannels": [
   "**%@** other listed group and channel",
   "**%@** other listed groups and channels"
- ],
- "Chat.Giveaway.Info.ParticipatingMany": [
-  "You are participating in this giveaway because you joined the channel **%1$@** (and %2$@)."
- ],
- "Chat.Giveaway.Info.Subscriptions": [
-  "**%@ Telegram Premium** subscription",
-  "**%@ Telegram Premium** subscriptions"
  ],
  "Chat.Giveaway.Message.CountriesDelimiter": [
   ", "
@@ -2737,9 +2701,6 @@
  "Gift.UnavailableAction.UnlistText": [
   "Unlist this gift from sale to unlock this action."
  ],
- "Gift.Unique.OriginalInfoWithText": [
-  "Gifted to %1$@ on %2$@ with comment \"%3$@\"."
- ],
  "Gift.Upgrade.GiftDescription": [
   "Let %@ turn this gift into a unique collectible."
  ],
@@ -2754,25 +2715,6 @@
  ],
  "Gift.Upgrade.UpgradeFor": [
   "Upgrade for %@"
- ],
- "Gift.UpgradeCost.AdditionalDescription": [
-  "Upgrade cost drops every minute."
- ],
- "Gift.UpgradeCost.Description": [
-  "Users who upgrade their gifts first get collectibles with lower numbers."
- ],
- "Gift.UpgradeCost.Done": [
-  "Understood"
- ],
- "Gift.UpgradeCost.Stars": [
-  "%@ Star",
-  "%@ Stars"
- ],
- "Gift.UpgradeCost.Title": [
-  "Upgrade Cost"
- ],
- "Gift.Value.DescriptionLastPriceFragment": [
-  "This is the last price at which **%@** was last sold on Fragment."
  ],
  "Gift.Variants.Randomize": [
   "Randomize Traits"
@@ -2789,26 +2731,8 @@
  "Gift.View.KeepUpgradeOrConvertDescription.Channel": [
   "Your channel can keep this gift, upgrade it, or sell it for %@. [More About Stars >]()"
  ],
- "Gift.View.OpenChatTheme": [
-  "This gift is the chat's theme. [Change Theme >]()"
- ],
  "Gift.View.UpgradeFreeDescription": [
   "Upgrade this gift for free to turn it into a unique collectible."
- ],
- "Gift.Wear.Badge.ChannelText": [
-  "This gift will be displayed next to your channel's name with a glittering icon."
- ],
- "Gift.Wear.Design.ChannelText": [
-  "Your channel's profile will have the same backdrop and symbol as this gift."
- ],
- "Gift.Wear.Proof.ChannelText": [
-  "Tapping the icon next to your channel's name will show the gift's owner and attributes."
- ],
- "GiftLink.NotUsedFooter": [
-  "This link hasn't been used yet."
- ],
- "GiftLink.PersonalDescription": [
-  "This link allows **%@** to activate a **Telegram Premium** subscription."
  ],
  "GiftLink.PersonalUsedDescription": [
   "This link allowed **%@** to activate a **Telegram Premium** subscription."
@@ -5671,9 +5595,6 @@
  "Stars.Transaction.GiftFrom": [
   "Gift From"
  ],
- "Stars.Transaction.GiftTransfer": [
-  "Gift Transfer"
- ],
  "Stars.Transaction.GiftUpgrade": [
   "Gift Upgrade"
  ],
@@ -5690,21 +5611,6 @@
  ],
  "Stars.Transaction.GoogleTopUp.Title": [
   "Stars Top-Up"
- ],
- "Stars.Transaction.Subscription": [
-  "Subscription"
- ],
- "Stars.Transaction.Subscription.Bot": [
-  "Bot"
- ],
- "Stars.Transaction.Subscription.Business": [
-  "Business"
- ],
- "Stars.Transaction.Subscription.CancelledByBot": [
-  "Your subscription was canceled by the bot."
- ],
- "Stars.Transaction.Subscription.CancelledByBusiness": [
-  "Your subscription was canceled by the business."
  ],
  "Stars.Transaction.TelegramAds.Subtitle": [
   "Telegram Ads"

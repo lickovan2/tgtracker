@@ -2041,6 +2041,18 @@
  "Chat.Giveaway.Info.AdditionalPrizes": [
   "**%1$@** also included **%2$@** with the prizes. The channel admins are responsible for delivering these prizes."
  ],
+ "Chat.Giveaway.Info.DidntWin": [
+  "You didn't win a prize in this giveaway."
+ ],
+ "Chat.Giveaway.Info.EndedIntro": [
+  "The giveaway was sponsored by the admins of **%1$@**, who acquired %2$@ for %3$@ for its followers."
+ ],
+ "Chat.Giveaway.Info.EndedNewMany": [
+  "On **%1$@**, Telegram automatically selected %2$@ that joined **%3$@** and other listed channels after **%4$@**."
+ ],
+ "Chat.Giveaway.Info.EndedTitle": [
+  "Giveaway Ended"
+ ],
  "Chat.Giveaway.Info.FullDate": [
   "**%1$@** on **%2$@**"
  ],
@@ -2049,6 +2061,10 @@
  ],
  "Chat.Giveaway.Info.Group.OngoingIntro": [
   "The giveaway is sponsored by the admins of **%1$@**, who acquired %2$@ for %3$@ for its members."
+ ],
+ "Chat.Giveaway.Info.Months": [
+  "**%@** month",
+  "**%@** months"
  ],
  "Chat.Giveaway.Info.NotAllowedAdminGroup": [
   "You are not eligible to participate in this giveaway, because you are an admin of participating group (**%@**)."
@@ -2059,15 +2075,25 @@
  "Chat.Giveaway.Info.NotQualifiedMany": [
   "To take part in this giveaway please join the channel **%1$@** (and %2$@) before **%3$@**."
  ],
+ "Chat.Giveaway.Info.OngoingIntro": [
+  "The giveaway is sponsored by the admins of **%1$@**, who acquired %2$@ for %3$@ for its followers."
+ ],
  "Chat.Giveaway.Info.OngoingMany": [
   "On **%1$@**, Telegram will automatically select %2$@ of **%3$@** and %4$@."
  ],
  "Chat.Giveaway.Info.OngoingNew": [
   "On **%1$@**, Telegram will automatically select %2$@ that joined **%3$@** after **%4$@**."
  ],
+ "Chat.Giveaway.Info.OngoingNewMany": [
+  "On **%1$@**, Telegram will automatically select %2$@ that joined **%3$@** and %4$@ after **%5$@**."
+ ],
  "Chat.Giveaway.Info.OtherChannels": [
   "**%@** other listed channel",
   "**%@** other listed channels"
+ ],
+ "Chat.Giveaway.Info.OtherGroups": [
+  "**%@** other listed group",
+  "**%@** other listed groups"
  ],
  "Chat.Giveaway.Info.RandomSubscribers": [
   "**%@** random subscriber",
@@ -2095,6 +2121,13 @@
  "Chat.Giveaway.Info.Stars.Stars": [
   "**%@ Star**",
   "**%@ Stars**"
+ ],
+ "Chat.Giveaway.Info.Subscriptions": [
+  "**%@ Telegram Premium** subscription",
+  "**%@ Telegram Premium** subscriptions"
+ ],
+ "Chat.Giveaway.Info.Title": [
+  "About This Giveaway"
  ],
  "Chat.Giveaway.Message.CountriesFrom": [
   "from %@"
@@ -6585,6 +6618,9 @@
  ],
  "Time.MediumDate": [
   "%1$@ at %2$@"
+ ],
+ "Time.PreciseDate_m10": [
+  "Oct %1$@, %2$@ at %3$@"
  ],
  "Time.PreciseDate_m12": [
   "Dec %1$@, %2$@ at %3$@"
