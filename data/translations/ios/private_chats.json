@@ -114,6 +114,9 @@
  "Call.StatusWaiting": [
   "Waiting..."
  ],
+ "CallList.DeleteConfirmation": [
+  "Do you want to delete the information about this call?"
+ ],
  "Calls.NotNow": [
   "Not Now"
  ],
@@ -455,6 +458,9 @@
  "Chat.ReactionSelectionTitleEditTag": [
   "Edit tags of selected messages"
  ],
+ "Chat.ReinstatePaidMessages": [
+  "Charge Message Fee"
+ ],
  "Chat.SavedMessagesModeMenu.ViewAsChats": [
   "View as Chats"
  ],
@@ -515,6 +521,9 @@
  ],
  "ChatList.ClearSavedMessagesConfirmation": [
   "Are you sure you want to permanently delete all your Saved Messages?"
+ ],
+ "ChatList.Context.Delete": [
+  "Delete"
  ],
  "ChatList.DeleteForAllSubscribers": [
   "Delete for all subscribers"
@@ -721,8 +730,17 @@
  "Conversation.ReportSpam": [
   "Report Spam"
  ],
+ "Conversation.ReportSpamAndLeave": [
+  "Report Spam and Leave"
+ ],
+ "Conversation.ReportSpamChannelConfirmation": [
+  "Are you sure you want to report this channel for spam?"
+ ],
  "Conversation.ReportSpamConfirmation": [
   "Are you sure you want to report spam from this user?"
+ ],
+ "Conversation.ReportSpamGroupConfirmation": [
+  "Are you sure you want to report this group for spam?"
  ],
  "Conversation.SavedMessages": [
   "Saved Messages"
@@ -822,6 +840,9 @@
  ],
  "Conversation.UserSendMessage": [
   "SEND MESSAGE"
+ ],
+ "Conversation.ViewInChannel": [
+  "View in Channel"
  ],
  "ConversationProfile.LeaveDeleteAndExit": [
   "Delete and Leave"
@@ -1849,6 +1870,9 @@
  ],
  "UserInfo.BlockActionTitle": [
   "Block %@"
+ ],
+ "UserInfo.BlockConfirmation": [
+  "Block %@?"
  ],
  "UserInfo.BlockConfirmationTitle": [
   "Do you want to block %@ from messaging and calling you on Telegram?"

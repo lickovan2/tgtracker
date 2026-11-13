@@ -44,8 +44,20 @@
  "Call.VoiceChatInProgressTitle": [
   "Video Chat in Progress"
  ],
+ "CallList.DeleteAllForEveryone": [
+  "Delete for me and Others"
+ ],
+ "CallList.DeleteAllForMe": [
+  "Delete for me"
+ ],
+ "Calls.HideCallsTab": [
+  "Hide Calls Tab"
+ ],
  "Calls.NotNow": [
   "Not Now"
+ ],
+ "Calls.StartNewCall": [
+  "Start New Call"
  ],
  "Common.Cancel": [
   "Cancel"
@@ -53,11 +65,20 @@
  "Common.OK": [
   "OK"
  ],
+ "GroupCall.RevokeLinkText": [
+  "Are you sure you want to revoke this link? Once you do, no one will be able to join the call using it."
+ ],
+ "GroupInfo.InviteLink.RevokeLink": [
+  "Revoke Link"
+ ],
  "LiveStream.AnonymousDisabledAlertText": [
   "Sorry, you can't join live streams as an anonymous admin."
  ],
  "LiveStream.CreateNewVoiceChatText": [
   "Live stream ended. Start a new one?"
+ ],
+ "NewCall.ParticipantLimitAlert": [
+  "A call can have up to %@ participants."
  ],
  "Passport.NotLoggedInMessage": [
   "Please log in to your account to use Telegram Passport"

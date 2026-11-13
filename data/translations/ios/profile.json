@@ -109,6 +109,9 @@
  "Common.ChoosePhoto": [
   "Choose Photo"
  ],
+ "Common.Delete": [
+  "Delete"
+ ],
  "Common.OK": [
   "OK"
  ],
@@ -141,6 +144,9 @@
  ],
  "EmojiSearch.SearchStatusesPlaceholder": [
   "Search Statuses"
+ ],
+ "EmojiStatusSetup.TimerOther": [
+  "Other"
  ],
  "Gift.Buy.Confirm.BuyFor": [
   "Buy for %@ Star",

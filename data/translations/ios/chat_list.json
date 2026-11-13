@@ -1044,6 +1044,9 @@
  "Premium.MaxSharedFolderLinksText": [
   "You can only create **%1$@** invite links. Upgrade to **Telegram Premium** to create up to **%2$@**."
  ],
+ "RequestPeer.SelectionConfirmationSend": [
+  "Send"
+ ],
  "State.Connecting": [
   "Connecting..."
  ],

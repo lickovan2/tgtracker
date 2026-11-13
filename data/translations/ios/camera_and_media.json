@@ -124,6 +124,12 @@
  "Conversation.Processing": [
   "Processing..."
  ],
+ "Conversation.SendMessage.ScheduleMessage": [
+  "Schedule Message"
+ ],
+ "Conversation.SendMessage.SendSilently": [
+  "Send Without Sound"
+ ],
  "Conversation.StopPoll": [
   "Stop Poll"
  ],
@@ -291,6 +297,9 @@
  "Paint.Arrow": [
   "Arrow"
  ],
+ "Paint.Bubble": [
+  "Bubble"
+ ],
  "Paint.Clear": [
   "Clear All"
  ],
@@ -305,6 +314,9 @@
  ],
  "Paint.Edit": [
   "Edit"
+ ],
+ "Paint.Ellipse": [
+  "Ellipse"
  ],
  "Paint.Framed": [
   "Framed"
@@ -327,8 +339,14 @@
  "Paint.RecentStickers": [
   "Recent"
  ],
+ "Paint.Rectangle": [
+  "Rectangle"
+ ],
  "Paint.Regular": [
   "Regular"
+ ],
+ "Paint.Star": [
+  "Star"
  ],
  "Paint.Stickers": [
   "Stickers"
@@ -422,6 +440,12 @@
  ],
  "PhotoEditor.WarmthTool": [
   "Warmth"
+ ],
+ "Preview.Gif.AddCaption": [
+  "Add Caption"
+ ],
+ "Preview.Gif.Edit": [
+  "Edit"
  ],
  "Preview.OpenInInstagram": [
   "Open in Instagram"

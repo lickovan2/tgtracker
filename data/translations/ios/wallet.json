@@ -47,6 +47,15 @@
  "Wallet.Import.InvalidPhraseTitle": [
   "Invalid Secret Phrase"
  ],
+ "Wallet.Import.PhraseChangedText": [
+  "The key for this wallet has changed. Enter the current 24-word secret phrase."
+ ],
+ "Wallet.Import.PhraseChangedTitle": [
+  "Secret Phrase Has Changed"
+ ],
+ "Wallet.Import.Proceed": [
+  "Proceed"
+ ],
  "Wallet.Recipient.Error": [
   "An unknown error occurred. Please try again later."
  ],

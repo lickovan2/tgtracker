@@ -254,6 +254,9 @@
  "Attachment.PublicMusic": [
   "PUBLIC CHATS"
  ],
+ "AuthCode.Alert": [
+  "Your login code is %@. Enter it in the Telegram app where you are trying to log in.Do not give this code to anyone."
+ ],
  "AuthConfirmation.DescriptionApp": [
   "This app will receive your **name**,**username** and **profile photo**."
  ],
@@ -277,9 +280,6 @@
  ],
  "AuthSessions.AddedDeviceTitle": [
   "Login Successful"
- ],
- "AuthSessions.LogOutApplicationsText": [
-  "Are you sure you want to disconnect all websites where you logged in with Telegram?"
  ],
  "AuthSessions.MessageApp": [
   "You allowed this bot to message you when you opened %@."
@@ -439,6 +439,9 @@
  ],
  "Bot.AddToChat.Add.MemberAlertAdd": [
   "Add as Member"
+ ],
+ "Bot.AddToChat.Add.MemberAlertTextChannel": [
+  "Are you sure you want to add the bot as a subscriber in **%@**?"
  ],
  "Bot.AddToChat.Add.MemberAlertTextGroup": [
   "Are you sure you want to add the bot as a member in **%@**?"
@@ -981,9 +984,6 @@
  ],
  "Channel.BanUser.BlockFor": [
   "Block For"
- ],
- "Channel.BanUser.PermissionEditOwnRank": [
-  "Edit Own Tags"
  ],
  "Channel.BanUser.PermissionsHeader": [
   "User Restrictions"
@@ -1730,9 +1730,6 @@
  "Chat.ReactionSection.Recent": [
   "Recently Used"
  ],
- "Chat.ReinstatePaidMessages": [
-  "Charge Message Fee"
- ],
  "Chat.RemoveWallpaper.Remove": [
   "Remove"
  ],
@@ -1930,12 +1927,6 @@
  ],
  "ChatContextMenu.TextSelectionTip2": [
   "Hold a word, then move cursor to select more| text to copy or quote."
- ],
- "ChatImport.SelectionConfirmationGroupWithoutTitle": [
-  "Do you want to import messages into **%@**?Messages will be imported into the current day but will also include their original timestamps. All members will see the messages."
- ],
- "ChatImport.SelectionConfirmationUserWithoutTitle": [
-  "Do you want to import messages into the chat with **%@?**Messages will be imported into the current day but will also include their original timestamps. Both sides will see the messages."
  ],
  "ChatImport.SelectionErrorGroupGeneric": [
   "Sorry, you can't import history to this group."
@@ -2346,9 +2337,6 @@
  "Community.Edit.ChatsLimitReached": [
   "Sorry, this community has reached the maximum number of chats."
  ],
- "Community.Edit.DeleteConfirmationText": [
-  "Are you sure you want to delete this community?"
- ],
  "Community.Request.ApprovedToast": [
   "You've added the chat to the community."
  ],
@@ -2474,9 +2462,6 @@
  ],
  "Conversation.ContextMenuOpenInfo": [
   "Open Info"
- ],
- "Conversation.ContextMenuReportFalsePositive": [
-  "Report False Positive"
  ],
  "Conversation.ContextMenuWatched": [
   "1 Listened",
@@ -2655,12 +2640,6 @@
  ],
  "Conversation.ReadMore": [
   "Read More"
- ],
- "Conversation.ReportSpamChannelConfirmation": [
-  "Are you sure you want to report this channel for spam?"
- ],
- "Conversation.ReportSpamGroupConfirmation": [
-  "Are you sure you want to report this group for spam?"
  ],
  "Conversation.RequestToJoinChannel": [
   "REQUEST TO JOIN"
@@ -2866,9 +2845,6 @@
  "Conversation.VideoTimeLinkCopied": [
   "Link with start time at %@ copied to clipboard."
  ],
- "Conversation.ViewInChannel": [
-  "View in Channel"
- ],
  "Conversation.ViewPollStats": [
   "View Statistics"
  ],
@@ -2988,9 +2964,6 @@
  ],
  "DialogList.UnknownPinLimitError": [
   "Sorry, you can't pin any more chats to the top."
- ],
- "DownloadList.IncreaseSpeed": [
-  "Increase Speed"
  ],
  "DownloadList.ResumeAll": [
   "Resume All"
@@ -3132,9 +3105,6 @@
  ],
  "EmojiStatusSetup.SetUntil": [
   "Set Until"
- ],
- "EmojiStatusSetup.TimerOther": [
-  "Other"
  ],
  "Exceptions.AddToExceptions": [
   "ADD TO EXCEPTIONS"
@@ -4250,9 +4220,6 @@
  "Invitation.PublicGroup": [
   "public group"
  ],
- "InviteLink.ContextDelete": [
-  "Delete"
- ],
  "InviteLink.Create.RequestApprovalOffInfoGroup": [
   "Turn this on if you want users to join only after they are approved by an admin."
  ],
@@ -4933,9 +4900,6 @@
  "Monetization.Bot.BalanceTitle": [
   "AVAILABLE BALANCE"
  ],
- "Monetization.Bot.Header": [
-  "Telegram shares 50% of the revenue from ads displayed in your bot as rewards. [Learn More >]()"
- ],
  "Monetization.Intro.Bot.Ads.Text": [
   "Telegram can display ads in your bot."
  ],
@@ -5114,12 +5078,6 @@
  ],
  "News.Swipe.Expand": [
   "Expand"
- ],
- "News.Swipe.Interesting": [
-  "Interesting"
- ],
- "News.Swipe.NotInterested": [
-  "Not Interested"
  ],
  "News.Time.Days": [
   "%@d"
@@ -6108,9 +6066,6 @@
  "PUSH_VIDEO_CALL_REQUEST": [
   "%1$@|is calling you!"
  ],
- "Paint.Bubble": [
-  "Bubble"
- ],
  "Paint.ColorGrid": [
   "Grid"
  ],
@@ -6129,20 +6084,11 @@
  "Paint.Draw": [
   "Draw"
  ],
- "Paint.Ellipse": [
-  "Ellipse"
- ],
  "Paint.Flip": [
   "Flip"
  ],
  "Paint.MoveForward": [
   "Move Forward"
- ],
- "Paint.Rectangle": [
-  "Rectangle"
- ],
- "Paint.Star": [
-  "Star"
  ],
  "Paint.Sticker": [
   "Sticker"
@@ -6284,10 +6230,6 @@
  ],
  "PeerInfo.TopicIconInfoText": [
   "This topic's icon is from **%@**."
- ],
- "PeerInfo.TopicNotificationExceptions": [
-  "[1 topic]() is listed as an exception.",
-  "[%d topics]() are listed as exceptions."
  ],
  "PeerInfo.Topics.Sidebar": [
   "Sidebar"
@@ -6861,6 +6803,9 @@
  "REACT_THEME": [
   "%1$@|reacted %2$@ to your theme change"
  ],
+ "REACT_TODO_APPEND": [
+  "%1$@|reacted %2$@ to your task update"
+ ],
  "REACT_TODO_DONE": [
   "%1$@|reacted %2$@ to your task update"
  ],
@@ -7022,9 +6967,6 @@
  ],
  "RequestPeer.SelectionConfirmationInviteWithRightsText": [
   "This will also add %1$@ to %2$@ with the following rights:%3$@"
- ],
- "RequestPeer.SelectionConfirmationSend": [
-  "Send"
  ],
  "RequestPeer.UsersAllEmpty": [
   "You don't know any users."
@@ -7679,9 +7621,6 @@
  "Stats.SharesPerStory": [
   "Shares Per Story"
  ],
- "Stats.TonBotRevenue.Title": [
-  "Gram Balance"
- ],
  "Stats.ViewsPerStory": [
   "Views Per Story"
  ],
@@ -7706,9 +7645,6 @@
  "StickerPack.RemoveEmojiPacksCount": [
   "Remove 1 Emoji Pack",
   "Remove %@ Emoji Packs"
- ],
- "StickerPack.RemoveStickerSet": [
-  "Remove Sticker Set"
  ],
  "StickerPackActionInfo.ArchivedTitle": [
   "Stickers Archived"
@@ -7940,9 +7876,6 @@
  ],
  "Theme.Context.Apply": [
   "Apply"
- ],
- "Theme.Context.ChangeColors": [
-  "Change Colors"
  ],
  "Theme.ThemeChanged": [
   "Color Theme Changed"
@@ -9141,15 +9074,6 @@
  ],
  "Wallet.Import.ErrorTitle": [
   "Couldn’t Import Wallet"
- ],
- "Wallet.Import.PhraseChangedText": [
-  "The key for this wallet has changed. Enter the current 24-word secret phrase."
- ],
- "Wallet.Import.PhraseChangedTitle": [
-  "Secret Phrase Has Changed"
- ],
- "Wallet.Import.Proceed": [
-  "Proceed"
  ],
  "Wallet.Import.RecoveryExplanation": [
   "Since you disabled backups for your wallet, you have to manually enter your Secret Phrase in every new Telegram session."

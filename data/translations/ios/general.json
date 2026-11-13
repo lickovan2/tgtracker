@@ -2195,8 +2195,14 @@
  "ChatImport.SelectionConfirmationGroupWithTitle": [
   "Do you want to import messages from **%1$@** into **%2$@**?Messages will be imported into the current day but will also include their original timestamps. All members will see the messages."
  ],
+ "ChatImport.SelectionConfirmationGroupWithoutTitle": [
+  "Do you want to import messages into **%@**?Messages will be imported into the current day but will also include their original timestamps. All members will see the messages."
+ ],
  "ChatImport.SelectionConfirmationUserWithTitle": [
   "Do you want to import messages from **%1$@** into the chat with **%2$@**?Messages will be imported into the current day but will also include their original timestamps. Both sides will see the messages."
+ ],
+ "ChatImport.SelectionConfirmationUserWithoutTitle": [
+  "Do you want to import messages into the chat with **%@?**Messages will be imported into the current day but will also include their original timestamps. Both sides will see the messages."
  ],
  "ChatImport.SelectionErrorNotAdmin": [
   "You must to be an admin in the group to import messages to it."
@@ -2565,6 +2571,9 @@
  "CocoonInfo.Understood": [
   "Understood"
  ],
+ "Common.Back": [
+  "Back"
+ ],
  "Common.Cancel": [
   "Cancel"
  ],
@@ -2692,6 +2701,9 @@
  ],
  "Community.Edit.DeleteCommunity": [
   "Delete Community"
+ ],
+ "Community.Edit.DeleteConfirmationText": [
+  "Are you sure you want to delete this community?"
  ],
  "Community.Edit.PendingRequests": [
   "Pending Requests"
@@ -3133,6 +3145,9 @@
  "Conversation.ContextMenuSeen": [
   "%@ Seen",
   "%@ Seen"
+ ],
+ "Conversation.ContextMenuSelect": [
+  "Select"
  ],
  "Conversation.ContextMenuShare": [
   "Share"
@@ -4162,9 +4177,6 @@
  ],
  "Gallery.WaitForVideoDownoad": [
   "Please wait until the video is fully downloaded."
- ],
- "Generic.OpenHiddenLinkAlert": [
-  "Open %@?"
  ],
  "Gif.Emotion.Angry": [
   "Angry"
@@ -6294,6 +6306,12 @@
  "NewContact.Title": [
   "New Contact"
  ],
+ "News.Swipe.Interesting": [
+  "Interesting"
+ ],
+ "News.Swipe.NotInterested": [
+  "Not Interested"
+ ],
  "Notification.CallBack": [
   "Call Back"
  ],
@@ -8281,6 +8299,9 @@
   "1 video",
   "%@ videos"
  ],
+ "SharedMedia.ViewInChat": [
+  "Show in Chat"
+ ],
  "SharedMedia.ZoomIn": [
   "Zoom In"
  ],
@@ -8750,6 +8771,9 @@
  "StickerPack.RemoveMaskCount": [
   "Remove 1 Mask",
   "Remove %@ Masks"
+ ],
+ "StickerPack.RemoveStickerSet": [
+  "Remove Sticker Set"
  ],
  "StickerPack.Reorder": [
   "Reorder"

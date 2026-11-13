@@ -41,6 +41,9 @@
  "BusinessLink.AlertTextLimitText": [
   "The message text limit is 4096 characters"
  ],
+ "BusinessLink.ErrorExpired": [
+  "Link Expired"
+ ],
  "BusinessLocationSetup.AlertUnsavedChanges.ResetAction": [
   "Undo"
  ],
@@ -83,6 +86,24 @@
  ],
  "ChatbotSetup.ErrorBotNotBusinessCapable": [
   "This bot doesn't support Secretary Mode yet."
+ ],
+ "ChatbotSetup.Gift.Warning.CombinedText": [
+  "The bot **%@** will be able to **manage your gifts and stars**, including giving them away to other users."
+ ],
+ "ChatbotSetup.Gift.Warning.GiftsText": [
+  "The bot **%@** will be able to **manage your gifts**, including giving them away to other users."
+ ],
+ "ChatbotSetup.Gift.Warning.Proceed": [
+  "Proceed"
+ ],
+ "ChatbotSetup.Gift.Warning.StarsText": [
+  "The bot **%@** will be able to **transfer your stars**."
+ ],
+ "ChatbotSetup.Gift.Warning.Title": [
+  "Warning"
+ ],
+ "ChatbotSetup.Gift.Warning.UsernameText": [
+  "The bot **%@** will be able to **set and remove usernames** for your account, which may result in the loss of your current username."
  ],
  "ChatbotSetup.SetupNotCompleted.Leave": [
   "Leave"

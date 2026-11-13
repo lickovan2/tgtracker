@@ -17,6 +17,15 @@
  "Common.OK": [
   "OK"
  ],
+ "Gift.Auction.Context.About": [
+  "Learn More"
+ ],
+ "Gift.Auction.Context.CopyLink": [
+  "Copy Link"
+ ],
+ "Gift.Auction.Context.Share": [
+  "Share"
+ ],
  "Gift.Buy.Confirm.BuyFor": [
   "Buy for %@ Star",
   "Buy for %@ Stars"
@@ -93,11 +102,23 @@
  "Gift.Send.Premium.Confirmation.Title": [
   "Send a Gift"
  ],
+ "Gift.Store.NoResults": [
+  "No Results"
+ ],
+ "Gift.Store.SelectAll": [
+  "Select All"
+ ],
  "Gift.Transfer.Unavailable.Text": [
   "You will be able to transfer this gift on %@."
  ],
  "Gift.Transfer.Unavailable.Title": [
   "Try Later"
+ ],
+ "Gift.Transfer.UnlockPending.Text": [
+  "In %@, you'll be able to send this collectible to any TON blockchain address outside Telegram for sale or auction."
+ ],
+ "Gift.Transfer.UnlockPending.Title": [
+  "Unlocking In Progress"
  ],
  "Gift.UnavailableAction.MoveToProfileText": [
   "Move this gift from your wallet to your profile to unlock this action."
@@ -111,6 +132,9 @@
  "Gift.UnavailableAction.Title": [
   "Action Locked"
  ],
+ "Gift.View.Context.Delete": [
+  "Delete Gift"
+ ],
  "Gift.View.Resale.Unlist.Text": [
   "It will no longer be for sale."
  ],
@@ -120,10 +144,22 @@
  "Gift.View.Resale.Unlist.Unlist": [
   "Unlist"
  ],
+ "Monetization.AdRevenueTitle": [
+  "AD REWARDS"
+ ],
+ "Monetization.Bot.Header": [
+  "Telegram shares 50% of the revenue from ads displayed in your bot as rewards. [Learn More >]()"
+ ],
+ "Monetization.ImpressionsTitle": [
+  "AD IMPRESSIONS (BY HOURS)"
+ ],
  "Monetization.Withdraw.AmountTooSmallError": [
   "You cannot withdraw less than 10 Grams."
  ],
  "Stars.Transfer.Unavailable": [
   "Sorry, purchasing Stars is not available in your country."
+ ],
+ "Stats.TonBotRevenue.Title": [
+  "Gram Balance"
  ]
 }

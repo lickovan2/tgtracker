@@ -1026,6 +1026,9 @@
  "Channel.BanUser.PermissionChangeGroupInfo": [
   "Change Group Info"
  ],
+ "Channel.BanUser.PermissionEditOwnRank": [
+  "Edit Own Tags"
+ ],
  "Channel.BanUser.PermissionEditRank": [
   "Edit Member Tag"
  ],
@@ -1172,6 +1175,9 @@
  ],
  "Channel.EditAdmin.PermissionChangeInfo": [
   "Change Channel Info"
+ ],
+ "Channel.EditAdmin.PermissionCreateTopics": [
+  "Create Topics"
  ],
  "Channel.EditAdmin.PermissionDeleteMessages": [
   "Delete Messages"
@@ -2559,6 +2565,9 @@
  "Conversation.ContextMenuReply": [
   "Reply"
  ],
+ "Conversation.ContextMenuReportFalsePositive": [
+  "Report False Positive"
+ ],
  "Conversation.ContextMenuSearchMessages": [
   "Search Messages"
  ],
@@ -2664,6 +2673,9 @@
  ],
  "Conversation.LinkCopied": [
   "Link copied to clipboard."
+ ],
+ "Conversation.LinkDialogOpen": [
+  "Open"
  ],
  "Conversation.MessageDialogDelete": [
   "Delete"
@@ -2982,6 +2994,9 @@
  "DownloadList.DownloadingHeader": [
   "Downloading"
  ],
+ "DownloadList.IncreaseSpeed": [
+  "Increase Speed"
+ ],
  "DownloadList.OptionManageDeviceStorage": [
   "Manage Device Storage"
  ],
@@ -3067,9 +3082,15 @@
  "FolderLinkScreen.ChatsSectionHeaderActionDeselectAll": [
   "DESELECT ALL"
  ],
+ "FolderLinkScreen.ContextActionNameLink": [
+  "Name Link"
+ ],
  "ForwardedMessages": [
   "Forwarded message",
   "%@ forwarded messages"
+ ],
+ "Generic.OpenHiddenLinkAlert": [
+  "Open %@?"
  ],
  "Gift.Displayed.ChannelText": [
   "The gift is now visible on the channel's profile."
@@ -3861,6 +3882,9 @@
  "InviteLink.ContextCopy": [
   "Copy"
  ],
+ "InviteLink.ContextDelete": [
+  "Delete"
+ ],
  "InviteLink.ContextEdit": [
   "Edit"
  ],
@@ -4353,6 +4377,18 @@
  "MessageTimer.Months": [
   "%@ month",
   "%@ months"
+ ],
+ "MessageTimer.ShortHours": [
+  "%@h",
+  "%@h"
+ ],
+ "MessageTimer.ShortMinutes": [
+  "%@m",
+  "%@m"
+ ],
+ "MessageTimer.ShortSeconds": [
+  "%@s",
+  "%@s"
  ],
  "MessageTimer.ShortYears": [
   "%@y",
@@ -5057,6 +5093,10 @@
  ],
  "PeerInfo.TooltipUnmuted": [
   "Notifications are unmuted."
+ ],
+ "PeerInfo.TopicNotificationExceptions": [
+  "[1 topic]() is listed as an exception.",
+  "[%d topics]() are listed as exceptions."
  ],
  "PeerInfo.Topics.DisplayAs": [
   "DISPLAY AS"
@@ -6395,6 +6435,9 @@
  ],
  "VoiceOver.Chat.PollNoVotes": [
   "No votes"
+ ],
+ "Wallet.Send.DiscardAlertText": [
+  "Discard this transfer?"
  ],
  "Wallpaper.ApplyForChannel": [
   "Apply Wallpaper"
