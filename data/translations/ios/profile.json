@@ -106,6 +106,9 @@
  "Chat.PostSuggestion.Suggest.OfferButtonPrice": [
   "Offer  %@"
  ],
+ "ChatList.ArchivedChatsTitle": [
+  "Archived Chats"
+ ],
  "CollectibleItemInfo.ButtonCopyPhone": [
   "Copy Phone Number"
  ],
@@ -160,6 +163,12 @@
  "Common.Search": [
   "Search"
  ],
+ "ContactInfo.BirthdayLabel": [
+  "birthday"
+ ],
+ "ContactInfo.Note": [
+  "note"
+ ],
  "ContactInfo.PhoneLabelMain": [
   "main"
  ],
@@ -189,6 +198,10 @@
  ],
  "Conversation.ShareMyContactInfo": [
   "Share My Contact Info"
+ ],
+ "Conversation.StatusMembers": [
+  "1 member",
+  "%@ members"
  ],
  "Conversation.StatusSubscribers": [
   "%@ subscriber",
@@ -511,6 +524,12 @@
  "Gift.Withdraw.EnterPassword.Title": [
   "Enter Password"
  ],
+ "Group.Setup.LinkActive": [
+  "active"
+ ],
+ "Group.Setup.LinkInactive": [
+  "inactive"
+ ],
  "GroupInfo.ScamGroupWarning": [
   "⚠️ Warning: Many users reported this group as a scam or a fake account. Please be careful, especially if it asks you for money."
  ],
@@ -573,6 +592,9 @@
  ],
  "Month.GenAugust": [
   "August"
+ ],
+ "Month.GenFebruary": [
+  "February"
  ],
  "Month.GenJuly": [
   "July"
@@ -692,6 +714,21 @@
  ],
  "NameColor.ChatPreview.Description.Account": [
   "This color will be used for your name, the links you send, and replies to your messages."
+ ],
+ "NameColor.ChatPreview.LinkSite": [
+  "Telegram"
+ ],
+ "NameColor.ChatPreview.LinkText": [
+  "Previews of links you send will also use this color."
+ ],
+ "NameColor.ChatPreview.LinkTitle": [
+  "Link Preview"
+ ],
+ "NameColor.ChatPreview.MessageText.Account": [
+  "Your name and replies to your messages will be shown in the selected color."
+ ],
+ "NameColor.ChatPreview.ReplyText.Account": [
+  "Reply to your message"
  ],
  "NameColor.GiftInfo": [
   "Apply your collectible's unique look to your profile."
@@ -1331,6 +1368,9 @@
  "QrStudio.Toast.Expires": [
   "This code will expire in 1 minute."
  ],
+ "QrStudio.Toast.Failed": [
+  "Something went wrong. Please try again."
+ ],
  "QrStudio.Toast.FeeRemoved": [
   "Messages with this code are now free."
  ],
@@ -1823,8 +1863,32 @@
  "UserInfo.UnblockConfirmation": [
   "Unblock %@?"
  ],
+ "Username.BotLinkHint": [
+  "This username cannot be edited."
+ ],
+ "Username.BotLinksOrderInfo": [
+  "Drag and drop links to change the order in which they will be displayed on the bot info page."
+ ],
+ "Username.BotTitle": [
+  "Public Links"
+ ],
+ "Username.Help": [
+  "You can choose a username on **Telegram**. If you do, people will be able to find you by this username and contact you without needing your phone number.You can use **a–z**, **0–9** and underscores. Minimum length is **5** characters."
+ ],
  "Username.InvalidValue": [
   "Sorry, this username is invalid."
+ ],
+ "Username.LinksOrder": [
+  "USERNAME ORDER"
+ ],
+ "Username.LinksOrderInfo": [
+  "Drag and drop links to change the order in which they will be displayed on your info page."
+ ],
+ "Username.Title": [
+  "Username"
+ ],
+ "Username.Username": [
+  "USERNAME"
  ],
  "Weekday.Friday": [
   "Friday"

@@ -336,6 +336,9 @@
  "Business.Intro.IntroTitlePlaceholder": [
   "Title"
  ],
+ "Business.Intro.ResetToDefault": [
+  "Reset to Default"
+ ],
  "Business.Intro.Title": [
   "Start Page"
  ],
@@ -376,6 +379,15 @@
  "Business.Links.ItemNoText": [
   "No text"
  ],
+ "Business.Links.LinkNameInputPlaceholder": [
+  "Name this link..."
+ ],
+ "Business.Links.LinkNameText": [
+  "Add a name for this link that only you will see."
+ ],
+ "Business.Links.LinkNameTitle": [
+  "Link Name"
+ ],
  "Business.Links.LinksSectionHeader": [
   "LINKS TO CHAT"
  ],
@@ -387,6 +399,12 @@
  ],
  "Business.Links.SimpleLinkInfoPhone": [
   "You can also use a simple link for a chat with you — [t.me/⁠+⁠%@](phone)."
+ ],
+ "Business.Links.SimpleLinkInfoUsername": [
+  "You can also use a simple link for a chat with you — [t.me/%@](username)."
+ ],
+ "Business.Links.SimpleLinkInfoUsernamePhone": [
+  "You can also use a simple link for a chat with you — [t.me/%1$@](username) or [t.me/⁠+⁠%2$@](phone)."
  ],
  "Business.Links.Text": [
   "Give your customers short links that start a chat with you — and suggest the first message from them to you."
@@ -436,6 +454,33 @@
  "Business.Title": [
   "Telegram Business"
  ],
+ "BusinessHoursSetup.AddAction": [
+  "Add a Set of Hours"
+ ],
+ "BusinessHoursSetup.AddSectionFooter": [
+  "Specify your working hours during the day."
+ ],
+ "BusinessHoursSetup.DayClosed": [
+  "Closed"
+ ],
+ "BusinessHoursSetup.DayIntervalEnd": [
+  "Closing time"
+ ],
+ "BusinessHoursSetup.DayIntervalRemove": [
+  "Remove"
+ ],
+ "BusinessHoursSetup.DayIntervalStart": [
+  "Opening time"
+ ],
+ "BusinessHoursSetup.DayOpen24h": [
+  "Open 24 Hours"
+ ],
+ "BusinessHoursSetup.DaySwitch": [
+  "Open On This Day"
+ ],
+ "BusinessHoursSetup.DaysSectionTitle": [
+  "BUSINESS HOURS"
+ ],
  "BusinessHoursSetup.ErrorIntersectingDays.ResetAction": [
   "Reset"
  ],
@@ -453,6 +498,9 @@
  ],
  "BusinessHoursSetup.Text": [
   "Turn this on to show your opening hours schedule to your customers."
+ ],
+ "BusinessHoursSetup.TimeZone": [
+  "Time Zone"
  ],
  "BusinessHoursSetup.Title": [
   "Business Hours"
@@ -498,6 +546,21 @@
  ],
  "BusinessMessageSetup.ErrorNoRecipients.Text": [
   "No recipients selected. Reset?"
+ ],
+ "BusinessMessageSetup.ErrorScheduleEndTimeBeforeStartTime.Text": [
+  "Custom schedule end time must be larger than start time."
+ ],
+ "BusinessMessageSetup.ErrorScheduleEndTimeMissing.Text": [
+  "Custom schedule end time is missing."
+ ],
+ "BusinessMessageSetup.ErrorScheduleStartTimeMissing.Text": [
+  "Custom schedule start time is missing."
+ ],
+ "BusinessMessageSetup.ErrorScheduleTime.ResetAction": [
+  "Reset"
+ ],
+ "BusinessMessageSetup.ErrorScheduleTimeMissing.Text": [
+  "Custom schedule time is missing."
  ],
  "BusinessMessageSetup.GreetingMessageSectionHeader": [
   "GREETING MESSAGE"
@@ -564,6 +627,9 @@
  ],
  "BusinessMessageSetup.ScheduleStartTime": [
   "Start Time"
+ ],
+ "BusinessMessageSetup.ScheduleTimePlaceholder": [
+  "Set"
  ],
  "BusinessMessageSetup.SendWhenOffline": [
   "Only if Offline"
@@ -918,8 +984,17 @@
  "ChatList.PeerTypeNonContactUser": [
   "non-contact"
  ],
+ "ChatbotSetup.BotAddAction": [
+  "ADD"
+ ],
  "ChatbotSetup.BotInstalled": [
   "%@ now manages your account."
+ ],
+ "ChatbotSetup.BotNotFoundStatus": [
+  "Chatbot not found"
+ ],
+ "ChatbotSetup.BotSearchPlaceholder": [
+  "Bot Username or Link"
  ],
  "ChatbotSetup.BotSectionFooter": [
   "Choose a bot to manage your chats automatically."
@@ -964,11 +1039,20 @@
   "1 item",
   "%d items"
  ],
+ "ChatbotSetup.Recipients.AddUsers": [
+  "Add Users"
+ ],
+ "ChatbotSetup.Recipients.ExcludedListTitle": [
+  "Excluded Chats"
+ ],
  "ChatbotSetup.Recipients.ExcludedSectionFooter": [
   "Select chats or entire chat categories which the bot **WILL NOT** have access to."
  ],
  "ChatbotSetup.Recipients.IncludedSectionFooter": [
   "Select chats or entire chat categories which the bot **WILL** have access to."
+ ],
+ "ChatbotSetup.Recipients.RemoveAll": [
+  "Remove All Exceptions"
  ],
  "ChatbotSetup.RecipientsSectionHeader": [
   "CHATS THE BOT CAN ACCESS"
@@ -1008,6 +1092,9 @@
  ],
  "Common.Delete": [
   "Delete"
+ ],
+ "Common.Done": [
+  "Done"
  ],
  "Common.Edit": [
   "Edit"
@@ -1999,8 +2086,28 @@
  "QuickReply.ChatRemoveGreetingMessage.Title": [
   "Remove Greeting Message"
  ],
+ "QuickReply.CreateShortcutTitle": [
+  "New Quick Reply"
+ ],
+ "QuickReply.DeleteAction": [
+  "Delete 1 Quick Reply",
+  "Delete %d Quick Replies"
+ ],
+ "QuickReply.EditShortcutText": [
+  "Add a new name for your shortcut."
+ ],
+ "QuickReply.EditShortcutTitle": [
+  "Edit Shortcut"
+ ],
  "QuickReply.InlineCreateAction": [
   "New Quick Reply"
+ ],
+ "QuickReply.SelectedTitle": [
+  "%d Selected",
+  "%d Selected"
+ ],
+ "QuickReply.ShortcutExistsInlineError": [
+  "Shortcut with that name already exists"
  ],
  "QuickReply.Title": [
   "Quick Replies"
@@ -2087,7 +2194,28 @@
  "Story.PremiumUpgradeStoriesButton": [
   "Upgrade Stories"
  ],
+ "Weekday.Friday": [
+  "Friday"
+ ],
+ "Weekday.Monday": [
+  "Monday"
+ ],
+ "Weekday.Saturday": [
+  "Saturday"
+ ],
  "Weekday.ShortSaturday": [
   "Sat"
+ ],
+ "Weekday.Sunday": [
+  "Sunday"
+ ],
+ "Weekday.Thursday": [
+  "Thursday"
+ ],
+ "Weekday.Tuesday": [
+  "Tuesday"
+ ],
+ "Weekday.Wednesday": [
+  "Wednesday"
  ]
 }

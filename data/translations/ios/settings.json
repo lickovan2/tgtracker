@@ -32,6 +32,9 @@
  "Appearance.AccentColor": [
   "Accent Color"
  ],
+ "Appearance.Animations": [
+  "ANIMATIONS"
+ ],
  "Appearance.AppIcon": [
   "App Icon"
  ],
@@ -233,6 +236,30 @@
  "Appearance.ThemePreview.ChatList.3.Text": [
   "We just reached 2,500 members! WOO!"
  ],
+ "Appearance.ThemePreview.ChatList.4.Name": [
+  "Veronica"
+ ],
+ "Appearance.ThemePreview.ChatList.4.Text": [
+  "Table for four, 2PM. Be there."
+ ],
+ "Appearance.ThemePreview.ChatList.5.Name": [
+  "Animal Videos"
+ ],
+ "Appearance.ThemePreview.ChatList.5.Text": [
+  "Vote now! Moar cat videos in this channel?"
+ ],
+ "Appearance.ThemePreview.ChatList.6.Name": [
+  "Little Sister"
+ ],
+ "Appearance.ThemePreview.ChatList.6.Text": [
+  "Don't tell mom yet, but I got the job! I'm going to ROME!"
+ ],
+ "Appearance.ThemePreview.ChatList.7.Name": [
+  "Jennie Alpha"
+ ],
+ "Appearance.ThemePreview.ChatList.7.Text": [
+  "🖼 Check these out"
+ ],
  "Appearance.Title": [
   "Appearance"
  ],
@@ -289,6 +316,12 @@
  ],
  "AuthSessions.AddDeviceIntro.Title": [
   "Log in by QR Code"
+ ],
+ "AuthSessions.AddedDeviceTerminate": [
+  "Terminate"
+ ],
+ "AuthSessions.AddedDeviceTitle": [
+  "Login Successful"
  ],
  "AuthSessions.AppUnofficial": [
   "(ID: %@)"
@@ -473,6 +506,9 @@
  "AutoDownloadSettings.OnForAll": [
   "On for all chats"
  ],
+ "AutoDownloadSettings.OnForContacts": [
+  "On for contacts"
+ ],
  "AutoDownloadSettings.Photos": [
   "Photos"
  ],
@@ -653,6 +689,9 @@
  "Cache.ClearEmpty": [
   "Empty"
  ],
+ "Cache.ClearNone": [
+  "Clear"
+ ],
  "Cache.ClearProgress": [
   "Please Wait..."
  ],
@@ -710,6 +749,9 @@
  ],
  "CallSettings.RecentCalls": [
   "Recent Calls"
+ ],
+ "CallSettings.TabIcon": [
+  "Show Calls Tab"
  ],
  "CallSettings.UseLessData": [
   "Use Less Data"
@@ -833,6 +875,15 @@
  ],
  "ChatList.ChannelsSection": [
   "Channels"
+ ],
+ "ChatList.PeerTypeContact": [
+  "contact"
+ ],
+ "ChatList.PeerTypeGroup": [
+  "group"
+ ],
+ "ChatList.PeerTypeNonContactUser": [
+  "non-contact"
  ],
  "ChatListFilter.AlertCreateFolderBeforeSharingText": [
   "Please finish creating this folder to share it."
@@ -1217,6 +1268,10 @@
   "1 member",
   "%@ members"
  ],
+ "Currency.Grams": [
+  "%@ Gram",
+  "%@ Grams"
+ ],
  "DataUsage.AutoDownloadSettings": [
   "Auto-Download Settings"
  ],
@@ -1405,6 +1460,9 @@
  ],
  "DialogList.Title": [
   "Chats"
+ ],
+ "DialogList.Typing": [
+  "typing"
  ],
  "DoNotTranslate.Title": [
   "Do Not Translate"
@@ -1687,6 +1745,19 @@
  "ForcedPasswordSetup.Intro.Title": [
   "Set a Password"
  ],
+ "Gift.Options.Gift.Filter.MyGifts": [
+  "My Gifts"
+ ],
+ "GlobalAutodeleteSettings.ApplyChatsSubject": [
+  "%@ chat",
+  "%@ chats"
+ ],
+ "GlobalAutodeleteSettings.ApplyChatsToast": [
+  "You applied the %1$@ self-destruct timer to %2$@."
+ ],
+ "GlobalAutodeleteSettings.InfoDisabled": [
+  "If enabled, all new messages in chats you start will be automatically deleted for everyone at some point after they have been sent. This will not affect your existing chats."
+ ],
  "GlobalAutodeleteSettings.InfoEnabled": [
   "All new messages in chats you start will be automatically deleted for everyone %@ after they are sent. You can also [apply this setting for your existing chats]()."
  ],
@@ -1695,6 +1766,12 @@
  ],
  "GlobalAutodeleteSettings.OptionsHeader": [
   "SELF-DESTRUCT TIMER"
+ ],
+ "GlobalAutodeleteSettings.SetConfirmToastDisabled": [
+  "Messages in all new chats you start will not be automatically deleted."
+ ],
+ "GlobalAutodeleteSettings.SetConfirmToastEnabled": [
+  "Messages in all new chats you start will be automatically deleted after %@."
  ],
  "GlobalAutodeleteSettings.SetCustomTime": [
   "Set Custom Time..."
@@ -2161,6 +2238,12 @@
  ],
  "NotificationSettings.ShowNotificationsFromAccountsSection": [
   "SHOW NOTIFICATIONS FROM"
+ ],
+ "NotificationSettings.Stories.CompactHideName": [
+  "Hide name"
+ ],
+ "NotificationSettings.Stories.CompactShowName": [
+  "Show name"
  ],
  "NotificationSettings.Stories.ShowImportantFooter": [
   "Automatically enable story notifications from the 5 users you contact most frequently."
@@ -2656,11 +2739,17 @@
  "PasscodeSettings.WalletConfirmWithPasscode": [
   "Confirm with Passcode"
  ],
+ "PasscodeSettings.WalletConfirmWithTouchId": [
+  "Confirm with Touch ID"
+ ],
  "PasscodeSettings.WalletProtectionInfo": [
   "Required when sending funds or confirming other sensitive actions."
  ],
  "Passkeys.ButtonCreate": [
   "Create Passkey"
+ ],
+ "Passkeys.ButtonSkip": [
+  "Skip"
  ],
  "Passkeys.DeleteAlert.Action": [
   "Delete"
@@ -2740,6 +2829,9 @@
  ],
  "Permissions.NotificationsUnreachableText.v0": [
   "Please note that you partly disabled message notifications in your Settings."
+ ],
+ "Permissions.PrivacyPolicy": [
+  "Privacy Policy"
  ],
  "PhoneNumberHelp.Alert": [
   "Users will see your new number if they have it in their address book or your privacy settings allow them to see it. You can modify this in Settings > Privacy and Security > Phone number."
@@ -3737,6 +3829,9 @@
  "PrivacySettings.LastSeen": [
   "Last Seen & Online"
  ],
+ "PrivacySettings.LastSeenCloseFriends": [
+  "Close Friends"
+ ],
  "PrivacySettings.LastSeenCloseFriendsPlus": [
   "Close Friends (+%@)"
  ],
@@ -3824,6 +3919,12 @@
  "PrivacySettings.ValueBotsPlus": [
   "Mini Apps +%@"
  ],
+ "PrivacySettings.ValueCloseFriendsAndPremium": [
+  "Close Friends, Premium"
+ ],
+ "PrivacySettings.ValueCloseFriendsAndPremiumPlus": [
+  "Close Friends, Premium +%@"
+ ],
  "PrivacySettings.ValuePremium": [
   "Premium Users"
  ],
@@ -3850,6 +3951,12 @@
  ],
  "ProfilePhoto.SetEmoji": [
   "Set Emoji"
+ ],
+ "RecentSession.ConnectedBot.Subtitle": [
+  "Chat Automation Bot"
+ ],
+ "RecentSessions.ConnectedBot.ConnectedTime": [
+  "connected %@"
  ],
  "ReportPeer.ReasonOther.Placeholder": [
   "Description"
@@ -3931,6 +4038,9 @@
  ],
  "Settings.AutosaveMediaVideo": [
   "Videos up to %@"
+ ],
+ "Settings.Birthday": [
+  "Birthday"
  ],
  "Settings.BlockedUsers": [
   "Blocked Users"
@@ -4019,6 +4129,9 @@
  "Settings.LogoutConfirmationText": [
   "This will cancel all your Secret Chats.You can use Telegram on all your devices at once and use several accounts in the same app."
  ],
+ "Settings.LogoutConfirmationTextWithWallets": [
+  "This will cancel all your Secret Chats and **delete wallet backups holding %@**. You will lose access to these funds if you haven't saved their Secret Phrases.You can use Telegram on all your devices at once and use several accounts in the same app."
+ ],
  "Settings.LogoutConfirmationTitle": [
   "Log out?"
  ],
@@ -4027,6 +4140,9 @@
  ],
  "Settings.MyProfile": [
   "My Profile"
+ ],
+ "Settings.MyStories": [
+  "My Stories"
  ],
  "Settings.MyTon": [
   "Gram Earnings"
@@ -4039,6 +4155,9 @@
  ],
  "Settings.PauseMusicOnRecording": [
   "Pause Music While Recording"
+ ],
+ "Settings.PersonalChannelItem": [
+  "Channel"
  ],
  "Settings.PhoneNumber": [
   "Number"
@@ -4186,6 +4305,9 @@
  ],
  "Settings.Stars": [
   "My Stars"
+ ],
+ "Settings.StoriesArchive": [
+  "Story Archive"
  ],
  "Settings.SuggestSetupPasswordAction": [
   "Set Additional Password"
@@ -4383,6 +4505,10 @@
   "1 emoji",
   "%@ emoji"
  ],
+ "StickerPack.MaskCount": [
+  "1 mask",
+  "%@ masks"
+ ],
  "StickerPack.RemoveEmojiCount": [
   "Remove 1 Emoji",
   "Remove %@ Emoji"
@@ -4490,6 +4616,9 @@
  ],
  "StickerSettings.ContextInfo": [
   "If you archive a sticker set, you can quickly restore it later from the Archived Stickers section."
+ ],
+ "StickerSettings.EmojiContextInfo": [
+  "If you archive an emoji pack, you can quickly restore it later from the Archived Emoji section."
  ],
  "StickerSettings.MaskContextInfo": [
   "If you archive a set of masks, you can quickly restore it later from the Archived Masks section."
@@ -4707,6 +4836,10 @@
  "Time.PreciseDate_m9": [
   "Sep %1$@, %2$@ at %3$@"
  ],
+ "Time.TimerWeeks": [
+  "%@-week",
+  "%@-week"
+ ],
  "Time.TodayAt": [
   "today at %@"
  ],
@@ -4764,6 +4897,9 @@
  "TwoFactorSetup.Email.Title": [
   "Recovery Email"
  ],
+ "TwoFactorSetup.EmailVerification.Action": [
+  "Continue"
+ ],
  "TwoFactorSetup.EmailVerification.ChangeAction": [
   "Change Email"
  ],
@@ -4811,6 +4947,9 @@
  ],
  "TwoFactorSetup.Password.Title": [
   "Create Password"
+ ],
+ "TwoFactorSetup.PasswordRecovery.Action": [
+  "Continue"
  ],
  "TwoFactorSetup.PasswordRecovery.PlaceholderConfirmPassword": [
   "Re-enter New Password"
@@ -5037,6 +5176,9 @@
  "Undo.Undo": [
   "Undo"
  ],
+ "User.DeletedAccount": [
+  "Deleted Account"
+ ],
  "UserCount": [
   "1 user",
   "%@ users"
@@ -5091,6 +5233,9 @@
  ],
  "Username.UsernameIsAvailable": [
   "%@ is available."
+ ],
+ "VoiceChat.RemovePeer": [
+  "Remove"
  ],
  "Wallpaper.ApplyForAll": [
   "Apply For All Chats"

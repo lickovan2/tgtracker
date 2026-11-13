@@ -186,6 +186,12 @@
  "CreatePoll.AddOption": [
   "Add an Option"
  ],
+ "CreatePoll.AddingOptions": [
+  "Allow Adding Options"
+ ],
+ "CreatePoll.AddingOptionsInfo": [
+  "Participants can suggest new options"
+ ],
  "CreatePoll.AllOptionsAdded": [
   "You have added the maximum number of options."
  ],
@@ -195,11 +201,50 @@
  "CreatePoll.Create": [
   "Send"
  ],
+ "CreatePoll.EnableQuiz": [
+  "Set Correct Answer"
+ ],
+ "CreatePoll.EnableQuizMultiInfo": [
+  "Mark one or more options as the right answer"
+ ],
+ "CreatePoll.LimitDuration": [
+  "Limit Duration"
+ ],
+ "CreatePoll.LimitDurationInfo": [
+  "Automatically close the poll at a set time"
+ ],
+ "CreatePoll.MultiAnswer": [
+  "Allow Multiple Answers"
+ ],
+ "CreatePoll.MultiAnswerInfo": [
+  "Voters can select more than one option"
+ ],
  "CreatePoll.OptionPlaceholder": [
   "Option"
  ],
  "CreatePoll.OptionsHeader": [
   "POLL OPTIONS"
+ ],
+ "CreatePoll.Revoting": [
+  "Allow Revoting"
+ ],
+ "CreatePoll.RevotingInfo": [
+  "Voters can change their vote"
+ ],
+ "CreatePoll.SettingsTitle": [
+  "SETTINGS"
+ ],
+ "CreatePoll.ShowWhoVoted": [
+  "Show Who Voted"
+ ],
+ "CreatePoll.ShowWhoVotedInfo": [
+  "Display voter names on each option"
+ ],
+ "CreatePoll.ShuffleOptions": [
+  "Shuffle Options"
+ ],
+ "CreatePoll.ShuffleOptionsInfo": [
+  "Answers appear in a random order for each voter"
  ],
  "CreatePoll.TextHeader": [
   "QUESTION"

@@ -134,9 +134,6 @@
  "AdsInfo.Understood": [
   "Understood"
  ],
- "Appearance.Animations": [
-  "ANIMATIONS"
- ],
  "Appearance.ThemePreview.ChatList.1.Name": [
   "Alicia Torreaux"
  ],
@@ -2884,9 +2881,6 @@
  "ContactInfo.Job": [
   "job"
  ],
- "ContactInfo.Note": [
-  "note"
- ],
  "ContactInfo.PhoneLabelHome": [
   "home"
  ],
@@ -4013,6 +4007,16 @@
  ],
  "EmojiInput.SectionTitleCollectibles": [
   "COLLECTIBLES"
+ ],
+ "EmojiPack.Added": [
+  "Added"
+ ],
+ "EmojiPack.Emoji": [
+  "%@ emoji",
+  "%@ emoji"
+ ],
+ "EmojiPack.Title": [
+  "Emoji"
  ],
  "EmojiStake.Description": [
   "An emoji game for users with **Level 5** or higher. 💎 earned in the game can only be spent on Telegram gifts and posts."
@@ -6200,6 +6204,10 @@
  "MessageTimer.Days": [
   "%@ day",
   "%@ days"
+ ],
+ "MessageTimer.Hours": [
+  "%@ hour",
+  "%@ hours"
  ],
  "MessageTimer.ShortMonths": [
   "%@mo",
@@ -8794,6 +8802,9 @@
  "StickerPack.CopyLink": [
   "Copy Link"
  ],
+ "StickerPack.CopyLinks": [
+  "Copy Links"
+ ],
  "StickerPack.CreateNew": [
   "Create a New Sticker"
  ],
@@ -8835,6 +8846,10 @@
  ],
  "StickerPack.HideStickers": [
   "Hide Stickers"
+ ],
+ "StickerPack.RemoveEmojiPacksCount": [
+  "Remove 1 Emoji Pack",
+  "Remove %@ Emoji Packs"
  ],
  "StickerPack.RemoveMaskCount": [
   "Remove 1 Mask",
@@ -9210,9 +9225,6 @@
  ],
  "Time.MonthOfYear_m9": [
   "September %@"
- ],
- "Time.PreciseDate_m1": [
-  "Jan %1$@, %2$@ at %3$@"
  ],
  "Time.PreciseDate_m11": [
   "Nov %1$@, %2$@ at %3$@"

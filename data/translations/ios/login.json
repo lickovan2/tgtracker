@@ -23,6 +23,12 @@
  "ChangePhoneNumberCode.Called": [
   "Telegram dialed your number"
  ],
+ "ChangePhoneNumberNumber.Help": [
+  "Your new number will receive a confirmation code via call or SMS."
+ ],
+ "ChatList.ArchivedChatsTitle": [
+  "Archived Chats"
+ ],
  "ChatList.SessionReview.ConfirmToastText": [
   "You can check the list of your active logins in [Settings > Devices]()."
  ],
@@ -56,11 +62,17 @@
  "Common.Done": [
   "Done"
  ],
+ "Common.Edit": [
+  "Edit"
+ ],
  "Common.Next": [
   "Next"
  ],
  "Common.OK": [
   "OK"
+ ],
+ "Common.Search": [
+  "Search"
  ],
  "EnterPasscode.EnterPasscode": [
   "Enter your Telegram Passcode"
@@ -76,6 +88,18 @@
  ],
  "Login.AddEmailText": [
   "You will receive Telegram login codes via email and not SMS. Please enter an email address to which you have access."
+ ],
+ "Login.Announce.DontNotify": [
+  "Do Not Notify"
+ ],
+ "Login.Announce.Info": [
+  "Notify people on Telegram who know my phone number that I signed up."
+ ],
+ "Login.Announce.Notify": [
+  "Notify"
+ ],
+ "Login.AnonymousNumbers": [
+  "Collectible Numbers"
  ],
  "Login.BannedPhoneBody": [
   "I'm trying to use my mobile phone number: %@But Telegram says it's banned, please help."
@@ -143,11 +167,29 @@
  "Login.Email.CantAccess": [
   "Can't access this email?"
  ],
+ "Login.Email.ElapsedTime": [
+  "in %@"
+ ],
  "Login.Email.PremiumRequiredText": [
   "Due to high cost of SMS in your country, you need to have a **Telegram Premium** account to reset this email via an SMS code.You can ask a friend to gift a Premium subscription for your account**%@**"
  ],
  "Login.Email.PremiumRequiredTitle": [
   "Telegram Premium Required"
+ ],
+ "Login.Email.Reset": [
+  "Reset"
+ ],
+ "Login.Email.ResetNowViaSMS": [
+  "Reset now via SMS"
+ ],
+ "Login.Email.ResetText": [
+  "You can change your login email if you are logged into Telegram from another device. Otherwise, if you don't have access to email %1$@, you can reset this email with an **SMS** code **%2$@**."
+ ],
+ "Login.Email.ResetTitle": [
+  "Reset Email"
+ ],
+ "Login.Email.WillBeResetIn": [
+  "Email will be reset %@"
  ],
  "Login.EmailChanged": [
   "Your email has been changed."
@@ -212,8 +254,58 @@
  "Login.EnterWordPlaceholder": [
   "Enter Word from SMS"
  ],
+ "Login.EnterWordText": [
+  "We've sent you an SMS with a secret word to your phone **%@**."
+ ],
  "Login.EnterWordTitle": [
   "Enter Word"
+ ],
+ "Login.Fee.GetPremiumForAWeek": [
+  "Get Telegram Premium for 1 week"
+ ],
+ "Login.Fee.GetPremiumForDays": [
+  "Get Telegram Premium for %@"
+ ],
+ "Login.Fee.GetPremiumForDays.Days": [
+  "%@ day",
+  "%@ days"
+ ],
+ "Login.Fee.GetPremiumNone": [
+  "Get Telegram Premium"
+ ],
+ "Login.Fee.SignUp": [
+  "Sign Up for %@"
+ ],
+ "Login.Fee.SmsCost.Text": [
+  "Due to fake accounts and high SMS costs in your country, you’ll need to cover your signup fee."
+ ],
+ "Login.Fee.SmsCost.Title": [
+  "High SMS Costs"
+ ],
+ "Login.Fee.Support.NewText": [
+  "Sign up for %@ of Telegram Premium to help cover the SMS costs."
+ ],
+ "Login.Fee.Support.NewText.Days": [
+  "%@ day",
+  "%@ days"
+ ],
+ "Login.Fee.Support.NewTextNone": [
+  "Sign up for Telegram Premium to help cover the SMS costs."
+ ],
+ "Login.Fee.Support.Text": [
+  "Sign up for 1 week of Telegram Premium to help cover the SMS costs."
+ ],
+ "Login.Fee.Support.Title": [
+  "Support via [Telegram Premium >]()"
+ ],
+ "Login.Fee.Title": [
+  "One-time SMS Fee"
+ ],
+ "Login.Fee.Verification.Text": [
+  "Telegram needs to send you an SMS with a verification code to confirm your phone number."
+ ],
+ "Login.Fee.Verification.Title": [
+  "Verification Required"
  ],
  "Login.GetCodeViaFragment": [
   "Get a code via Fragment"
@@ -260,6 +352,9 @@
  "Login.NetworkError": [
   "Please check your Internet connection and try again."
  ],
+ "Login.NewNumber": [
+  "New Number"
+ ],
  "Login.OpenFragment": [
   "Open Fragment"
  ],
@@ -301,6 +396,9 @@
  ],
  "Login.PhoneTitle": [
   "Your Phone"
+ ],
+ "Login.PhoneWithPasskeySubtitle": [
+  "Enter your phone numberor [log in using Passkey >](passkey)"
  ],
  "Login.ResetAccountProtected.LimitExceeded": [
   "Your recent attempts to reset this account have been canceled by its active user. Please try again in 7 days."
@@ -380,6 +478,15 @@
  "Login.WillSendSms": [
   "Telegram will send you an SMS in %@"
  ],
+ "Login.WrongCodeError": [
+  "Wrong code, please try again."
+ ],
+ "Login.WrongPhraseError": [
+  "Incorrect, please try again."
+ ],
+ "Login.Yes": [
+  "Yes"
+ ],
  "LoginEmail.Description": [
   "You will receive Telegram login codes via email and not SMS. Please enter an email address to which you have access."
  ],
@@ -422,6 +529,10 @@
   "%@ minute",
   "%@ minutes"
  ],
+ "MuteExpires.Days": [
+  "in 1 day",
+  "in %@ days"
+ ],
  "Notifications.PermissionsAllow": [
   "Turn Notifications ON"
  ],
@@ -446,6 +557,9 @@
  ],
  "Permissions.Skip": [
   "Skip"
+ ],
+ "Privacy.ContactsSync": [
+  "Sync Contacts"
  ],
  "PrivacyPolicy.Accept": [
   "Accept & Continue"

@@ -158,9 +158,6 @@
  "Appstore.new.Powerful.chat2.name": [
   "You"
  ],
- "ArchiveInfo.TextKeepArchivedUnmuted": [
-  "Archived chats will remain in the Archive when you receive a new message. [Tap to change >]()"
- ],
  "Attachment.BoostToUnlock": [
   "Boost to Unlock"
  ],
@@ -188,23 +185,11 @@
  "AuthCode.Alert": [
   "Your login code is %@. Enter it in the Telegram app where you are trying to log in.Do not give this code to anyone."
  ],
- "AuthConfirmation.DescriptionApp": [
-  "This app will receive your **name**,**username** and **profile photo**."
- ],
  "AuthConfirmation.Emoji.Description": [
   "Telegram wants to make sure it's really you."
  ],
- "AuthConfirmation.UnverifiedApp": [
-  "Unverified App"
- ],
  "AuthSessions.AddDevice.InvalidQRCode": [
   "Invalid QR Code"
- ],
- "AuthSessions.AddedDeviceTerminate": [
-  "Terminate"
- ],
- "AuthSessions.AddedDeviceTitle": [
-  "Login Successful"
  ],
  "AuthSessions.MessageApp": [
   "You allowed this bot to message you when you opened %@."
@@ -214,9 +199,6 @@
  ],
  "AuthSessions.View.OS": [
   "Operating System"
- ],
- "AutoDownloadSettings.OnForContacts": [
-  "On for contacts"
  ],
  "AutoNightTheme.NotAvailable": [
   "N/A"
@@ -257,9 +239,6 @@
  "BackgroundTasks.UploadingStories": [
   "Uploading Story",
   "Uploading %d Stories"
- ],
- "BlockedUsers.SelectUserTitle": [
-  "Block User"
  ],
  "BoostGift.ChannelsOrGroups.MaximumReached": [
   "You can select maximum %@ channels and groups."
@@ -356,9 +335,6 @@
  "Business.Links.DeleteItemAlert.Title": [
   "Delete Link?"
  ],
- "Business.Links.SimpleLinkInfoUsername": [
-  "You can also use a simple link for a chat with you — [t.me/%@](username)."
- ],
  "BusinessLocationSetup.ErrorAddressEmpty.ResetAction": [
   "Delete"
  ],
@@ -406,9 +382,6 @@
  ],
  "CHAT_VOICECHAT_START": [
   "%1$@ started a video chat"
- ],
- "Cache.ClearNone": [
-  "Clear"
  ],
  "Cache.LowDiskSpaceText": [
   "Your phone has run out of available storage. Please free some space to download or upload media."
@@ -953,9 +926,6 @@
  "Chat.SlowmodeAttachmentLimitReached": [
   "Slow Mode is enabled. You can't select more items."
  ],
- "Chat.ToastMessagesTagged.Text": [
-  "Messages tagged with %@"
- ],
  "Chat.VideoProcessingInfo": [
   "The video will be published once converted and optimized."
  ],
@@ -1422,24 +1392,11 @@
  "EmojiPack.Add": [
   "Add"
  ],
- "EmojiPack.Added": [
-  "Added"
- ],
- "EmojiPack.Emoji": [
-  "%@ emoji",
-  "%@ emoji"
- ],
- "EmojiPack.Title": [
-  "Emoji"
- ],
  "EmojiPackActionInfo.AddedText": [
   "%@ has been added to your emoji."
  ],
  "EmojiPackActionInfo.AddedTitle": [
   "Emoji Added"
- ],
- "EmojiPackActionInfo.ArchivedTitle": [
-  "Emoji Archived"
  ],
  "EmojiPackActionInfo.MultipleAddedText": [
   "%@ pack has been added to your emoji.",
@@ -1448,12 +1405,6 @@
  "EmojiPackActionInfo.MultipleRemovedText": [
   "%@ pack is no longer in your emoji.",
   "%@ packs are no longer in your emoji."
- ],
- "EmojiPackActionInfo.RemovedText": [
-  "%@ is no longer in your emoji."
- ],
- "EmojiPackActionInfo.RemovedTitle": [
-  "Emoji Removed"
  ],
  "EmojiPreview.CopyEmoji": [
   "Copy Emoji"
@@ -1527,9 +1478,6 @@
  "FastTwoStepSetup.Title": [
   "Password & Email"
  ],
- "FolderLinkScreen.AlertTextUnavailablePublicChannel": [
-  "You don't have the admin rights to share invite links to this channel."
- ],
  "ForcedPasswordSetup.Intro.DismissActionCancel": [
   "No, let me set a password"
  ],
@@ -1554,9 +1502,6 @@
  ],
  "Forward.ErrorTodoDisabledInChannels": [
   "Sorry, checklists can’t be forwarded to channels."
- ],
- "FrozenAccount.Violation.TextNew": [
-  "Your account was frozen for breaking Telegram's [Terms of Service]()."
  ],
  "FrozenAccount.Violation.TextNew_URL": [
   "https://telegram.org/tos"
@@ -1599,10 +1544,6 @@
  ],
  "Gift.AuctionBid.CustomBid.Placeholder": [
   "Amount"
- ],
- "Gift.Buy.ErrorPriceChanged.Text.Stars": [
-  "%@ Star",
-  "%@ Stars"
  ],
  "Gift.Craft.Select.SaleGifts": [
   "Suitable Gifts On Sale"
@@ -1838,13 +1779,6 @@
  "Gift.View.UpgradeFreeDescription": [
   "Upgrade this gift for free to turn it into a unique collectible."
  ],
- "GlobalAutodeleteSettings.ApplyChatsSubject": [
-  "%@ chat",
-  "%@ chats"
- ],
- "GlobalAutodeleteSettings.ApplyChatsToast": [
-  "You applied the %1$@ self-destruct timer to %2$@."
- ],
  "GlobalAutodeleteSettings.AttemptDisabledChannelSelection": [
   "You need admin rights in this channel to enable auto-delete."
  ],
@@ -1854,9 +1788,6 @@
  "GlobalAutodeleteSettings.AttemptDisabledGroupSelection": [
   "You must be an admin to enable auto-delete in this group."
  ],
- "GlobalAutodeleteSettings.InfoDisabled": [
-  "If enabled, all new messages in chats you start will be automatically deleted for everyone at some point after they have been sent. This will not affect your existing chats."
- ],
  "GlobalAutodeleteSettings.SetConfirmAction": [
   "Enable Auto-Deletion"
  ],
@@ -1865,12 +1796,6 @@
  ],
  "GlobalAutodeleteSettings.SetConfirmTitle": [
   "Self-Destruct Timer"
- ],
- "GlobalAutodeleteSettings.SetConfirmToastDisabled": [
-  "Messages in all new chats you start will not be automatically deleted."
- ],
- "GlobalAutodeleteSettings.SetConfirmToastEnabled": [
-  "Messages in all new chats you start will be automatically deleted after %@."
  ],
  "Group.Appearance.EmojiPackUpdated": [
   "Group emoji pack updated."
@@ -1919,9 +1844,6 @@
  ],
  "Group.Setup.DeactivateAlertTitle": [
   "Deactivate Link"
- ],
- "Group.Setup.LinkInactive": [
-  "inactive"
  ],
  "Group.Setup.PublicLink": [
   "PUBLIC LINK"
@@ -2037,9 +1959,6 @@
  "InviteLink.Create.RequestApprovalOnInfoGroup": [
   "Turn this on if you want users to join only after they are approved by an admin."
  ],
- "InviteLink.Create.RequestApprovalPublicGroupUnavailable": [
-  "This option is unavailable because anyone can join and send messages through the public group link."
- ],
  "InviteLink.Create.RequestApprovalUnavailableInfo": [
   "You can't enable admin approval for links that require a monthly fee."
  ],
@@ -2063,9 +1982,6 @@
  ],
  "InviteLink.PermanentLink": [
   "Invite Link"
- ],
- "InviteLink.QRCode.InfoChannel": [
-  "Everyone on Telegram can scan this code to join your channel."
  ],
  "InviteLink.Subscription.Fee": [
   "Subscription Fee"
@@ -2151,18 +2067,6 @@
  "Login.AddEmailTitle": [
   "Choose a login email"
  ],
- "Login.Announce.DontNotify": [
-  "Do Not Notify"
- ],
- "Login.Announce.Info": [
-  "Notify people on Telegram who know my phone number that I signed up."
- ],
- "Login.Announce.Notify": [
-  "Notify"
- ],
- "Login.AnonymousNumbers": [
-  "Collectible Numbers"
- ],
  "Login.BackToCode": [
   "Back to entering the code"
  ],
@@ -2187,26 +2091,8 @@
  "Login.CodeExpired": [
   "Code expired, please login again."
  ],
- "Login.Email.ElapsedTime": [
-  "in %@"
- ],
- "Login.Email.Reset": [
-  "Reset"
- ],
- "Login.Email.ResetNowViaSMS": [
-  "Reset now via SMS"
- ],
- "Login.Email.ResetText": [
-  "You can change your login email if you are logged into Telegram from another device. Otherwise, if you don't have access to email %1$@, you can reset this email with an **SMS** code **%2$@**."
- ],
- "Login.Email.ResetTitle": [
-  "Reset Email"
- ],
  "Login.Email.ResetingNow": [
   "Please wait..."
- ],
- "Login.Email.WillBeResetIn": [
-  "Email will be reset %@"
  ],
  "Login.EmailNotAllowedError": [
   "Sorry, this email can't be used."
@@ -2220,53 +2106,6 @@
  "Login.ErrorAppOutdated": [
   "Please update Telegram to the latest version to log in."
  ],
- "Login.Fee.GetPremiumForAWeek": [
-  "Get Telegram Premium for 1 week"
- ],
- "Login.Fee.GetPremiumForDays": [
-  "Get Telegram Premium for %@"
- ],
- "Login.Fee.GetPremiumForDays.Days": [
-  "%@ day",
-  "%@ days"
- ],
- "Login.Fee.GetPremiumNone": [
-  "Get Telegram Premium"
- ],
- "Login.Fee.SignUp": [
-  "Sign Up for %@"
- ],
- "Login.Fee.SmsCost.Text": [
-  "Due to fake accounts and high SMS costs in your country, you’ll need to cover your signup fee."
- ],
- "Login.Fee.SmsCost.Title": [
-  "High SMS Costs"
- ],
- "Login.Fee.Support.NewText": [
-  "Sign up for %@ of Telegram Premium to help cover the SMS costs."
- ],
- "Login.Fee.Support.NewText.Days": [
-  "%@ day",
-  "%@ days"
- ],
- "Login.Fee.Support.NewTextNone": [
-  "Sign up for Telegram Premium to help cover the SMS costs."
- ],
- "Login.Fee.Support.Text": [
-  "Sign up for 1 week of Telegram Premium to help cover the SMS costs."
- ],
- "Login.Fee.Support.Title": [
-  "Support via [Telegram Premium >]()"
- ],
- "Login.Fee.Title": [
-  "One-time SMS Fee"
- ],
- "Login.Fee.Verification.Text": [
-  "Telegram needs to send you an SMS with a verification code to confirm your phone number."
- ],
- "Login.Fee.Verification.Title": [
-  "Verification Required"
- ],
  "Login.InvalidEmailAddressError": [
   "An error occurred. Please try again."
  ],
@@ -2275,9 +2114,6 @@
  ],
  "Login.InvalidEmailTokenError": [
   "An error occurred. Please try again."
- ],
- "Login.NewNumber": [
-  "New Number"
  ],
  "Login.PhoneGenericEmailBody": [
   "I'm trying to use my mobile phone number: %1$@But Telegram shows an error. Please help.Error: %2$@App version: %3$@OS version: %4$@Locale: %5$@MNC: %6$@"
@@ -2299,15 +2135,6 @@
  ],
  "Login.VoiceOver.PhoneNumber": [
   "Phone number"
- ],
- "Login.WrongCodeError": [
-  "Wrong code, please try again."
- ],
- "Login.WrongPhraseError": [
-  "Incorrect, please try again."
- ],
- "Login.Yes": [
-  "Yes"
  ],
  "MESSAGE_GIFTCODE": [
   "%1$@ sent you a Gift Code for %2$@ months of Telegram Premium"
@@ -2356,15 +2183,6 @@
  ],
  "Map.Work": [
   "Work"
- ],
- "MaskPackActionInfo.ArchivedTitle": [
-  "Masks Archived"
- ],
- "MaskPackActionInfo.RemovedText": [
-  "%@ is no longer in your masks."
- ],
- "MaskPackActionInfo.RemovedTitle": [
-  "Masks Removed"
  ],
  "Media.SendWithTimer": [
   "Send With Timer"
@@ -3190,9 +3008,6 @@
  "PasscodeSettings.VerificationError": [
   "Couldn't verify the passcode. Please try again."
  ],
- "PasscodeSettings.WalletConfirmWithTouchId": [
-  "Confirm with Touch ID"
- ],
  "PasscodeSettings.WalletEnableBiometricsReason": [
   "Enable biometrics for your wallets"
  ],
@@ -3201,9 +3016,6 @@
  ],
  "Passkeys.AddPasskey": [
   "Add Passkey"
- ],
- "Passkeys.ButtonSkip": [
-  "Skip"
  ],
  "Passport.PasswordCompleteSetup": [
   "Complete Password Setup"
@@ -3352,20 +3164,11 @@
  "PrivacyPhoneNumberSettings.CustomHelp": [
   "Users who have your number saved in their contacts will also see it on Telegram."
  ],
- "PrivacySettings.LastSeenCloseFriends": [
-  "Close Friends"
- ],
  "PrivacySettings.LoginEmailSetupInfo": [
   "Setup your email address for Telegram login codes."
  ],
  "PrivacySettings.SecurityTitle": [
   "SECURITY"
- ],
- "PrivacySettings.ValueCloseFriendsAndPremium": [
-  "Close Friends, Premium"
- ],
- "PrivacySettings.ValueCloseFriendsAndPremiumPlus": [
-  "Close Friends, Premium +%@"
  ],
  "ProfileColorSetup.AccountColorInfoLabel": [
   "Choose a color for your profile"
@@ -3381,9 +3184,6 @@
  ],
  "QrStudio.Colors.Themes": [
   "Themes"
- ],
- "QrStudio.Toast.Failed": [
-  "Something went wrong. Please try again."
  ],
  "QuickReply.DeleteAlert.TextMultiple": [
   "These quick replies and all their messages will be deleted."
@@ -3580,9 +3380,6 @@
  ],
  "Settings.EditAccount": [
   "Edit Account"
- ],
- "Settings.LogoutConfirmationTextWithWallets": [
-  "This will cancel all your Secret Chats and **delete wallet backups holding %@**. You will lose access to these funds if you haven't saved their Secret Phrases.You can use Telegram on all your devices at once and use several accounts in the same app."
  ],
  "Settings.New": [
   "NEW"
@@ -3791,20 +3588,6 @@
  "StickerPack.AddSticker": [
   "Add Sticker"
  ],
- "StickerPack.CopyLinks": [
-  "Copy Links"
- ],
- "StickerPack.MaskCount": [
-  "1 mask",
-  "%@ masks"
- ],
- "StickerPack.RemoveEmojiPacksCount": [
-  "Remove 1 Emoji Pack",
-  "Remove %@ Emoji Packs"
- ],
- "StickerPackActionInfo.ArchivedTitle": [
-  "Stickers Archived"
- ],
  "StickerPackActionInfo.MultipleRemovedText": [
   "%@ pack is no longer in your stickers.",
   "%@ packs are no longer in your stickers."
@@ -3843,9 +3626,6 @@
  ],
  "StickerPacksSettings.ArchivedMasks.Info": [
   "You can add up to 200 sets of masks.Unused sets are archived when you add more."
- ],
- "StickerSettings.EmojiContextInfo": [
-  "If you archive an emoji pack, you can quickly restore it later from the Archived Emoji section."
  ],
  "Stickers.EmojiPackInfoText": [
   "This message contains **%@** emoji."
@@ -4167,14 +3947,8 @@
  "Translation.LanguageTo.ZH": [
   "Chinese"
  ],
- "TwoFactorSetup.EmailVerification.Action": [
-  "Continue"
- ],
  "TwoFactorSetup.EmailVerification.Placeholder": [
   "Code"
- ],
- "TwoFactorSetup.PasswordRecovery.Action": [
-  "Continue"
  ],
  "TwoFactorSetup.ResetDone.Action": [
   "Continue"
@@ -4262,9 +4036,6 @@
  "Username.BotDeactivateAlertText": [
   "Do you want to hide this link from the bot's info page?"
  ],
- "Username.BotLinksOrderInfo": [
-  "Drag and drop links to change the order in which they will be displayed on the bot info page."
- ],
  "Username.DeactivateAlertHide": [
   "Hide"
  ],
@@ -4282,12 +4053,6 @@
  ],
  "Username.LinkCopied": [
   "Link copied to clipboard."
- ],
- "Username.LinksOrder": [
-  "USERNAME ORDER"
- ],
- "Username.LinksOrderInfo": [
-  "Drag and drop links to change the order in which they will be displayed on your info page."
  ],
  "Username.TooManyPublicUsernamesError": [
   "Sorry, you have reserved too many public usernames."

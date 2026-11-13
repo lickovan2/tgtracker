@@ -609,6 +609,10 @@
  "Gift.Buy.ErrorPriceChanged.Text": [
   "The price has increased from **%1$@** to **%2$@**. Buy the gift anyway?"
  ],
+ "Gift.Buy.ErrorPriceChanged.Text.Stars": [
+  "%@ Star",
+  "%@ Stars"
+ ],
  "Gift.Buy.ErrorPriceChanged.Title": [
   "Warning"
  ],

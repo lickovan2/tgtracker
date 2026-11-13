@@ -5,6 +5,48 @@
  "Activity.TappingInteractiveEmoji": [
   "tapping on %@"
  ],
+ "Appearance.ThemePreview.ChatList.1.Name": [
+  "Alicia Torreaux"
+ ],
+ "Appearance.ThemePreview.ChatList.1.Text": [
+  "Bob says hi. 😊 ❤️ 😱"
+ ],
+ "Appearance.ThemePreview.ChatList.2.Name": [
+  "Roberto"
+ ],
+ "Appearance.ThemePreview.ChatList.3.AuthorName": [
+  "Jennie Alpha"
+ ],
+ "Appearance.ThemePreview.ChatList.3.Name": [
+  "Campus Public Chat"
+ ],
+ "Appearance.ThemePreview.ChatList.3.Text": [
+  "We just reached 2,500 members! WOO!"
+ ],
+ "Appearance.ThemePreview.ChatList.4.Name": [
+  "Veronica"
+ ],
+ "Appearance.ThemePreview.ChatList.4.Text": [
+  "Table for four, 2PM. Be there."
+ ],
+ "Appearance.ThemePreview.ChatList.5.Name": [
+  "Animal Videos"
+ ],
+ "Appearance.ThemePreview.ChatList.5.Text": [
+  "Vote now! Moar cat videos in this channel?"
+ ],
+ "Appearance.ThemePreview.ChatList.6.Name": [
+  "Little Sister"
+ ],
+ "Appearance.ThemePreview.ChatList.6.Text": [
+  "Don't tell mom yet, but I got the job! I'm going to ROME!"
+ ],
+ "Appearance.ThemePreview.ChatList.7.Name": [
+  "Jennie Alpha"
+ ],
+ "Appearance.ThemePreview.ChatList.7.Text": [
+  "🖼 Check these out"
+ ],
  "ArchivedChats.IntroText1": [
   "Chats with enabled notifications getunarchived when new messages arrive."
  ],
@@ -40,6 +82,9 @@
  ],
  "BlockedUsers.LeavePrefix": [
   "Leave "
+ ],
+ "BlockedUsers.SelectUserTitle": [
+  "Block User"
  ],
  "Cache.ByPeerHeader": [
   "CHATS"
@@ -401,6 +446,9 @@
  ],
  "ChatList.GlobalSearch.StartPlaceholder.Title": [
   "Global Search"
+ ],
+ "ChatList.HeaderImportIntoAnExistingGroup": [
+  "SELECT A CHAT TO IMPORT MESSAGES TO"
  ],
  "ChatList.HeaderPublicPosts": [
   "PUBLIC POSTS"
@@ -857,6 +905,9 @@
  "ChatListFolderSettings.Title": [
   "Folders"
  ],
+ "ChatbotSetup.Recipients.SelectionTitle": [
+  "Add Exception"
+ ],
  "Common.Cancel": [
   "Cancel"
  ],
@@ -877,6 +928,9 @@
  ],
  "Common.Search": [
   "Search"
+ ],
+ "Common.Select": [
+  "Select"
  ],
  "Community.PrivateChat.Info": [
   "This chat is invite-only.Only its members can view it."
@@ -1226,11 +1280,23 @@
  "DownloadList.ResumeAll": [
   "Resume All"
  ],
+ "EmojiPackActionInfo.ArchivedTitle": [
+  "Emoji Archived"
+ ],
+ "EmojiPackActionInfo.RemovedText": [
+  "%@ is no longer in your emoji."
+ ],
+ "EmojiPackActionInfo.RemovedTitle": [
+  "Emoji Removed"
+ ],
  "Exceptions.AddToExceptions": [
   "ADD TO EXCEPTIONS"
  ],
  "FileSize.GB": [
   "%@ GB"
+ ],
+ "FileSize.KB": [
+  "%@ KB"
  ],
  "FolderLinkPreview.ButtonDoNotJoinChats": [
   "Do Not Join Any Chats"
@@ -1340,6 +1406,9 @@
  "FolderLinkPreview.ToastLeftTitleV2": [
   "Folder {folder} deleted"
  ],
+ "FolderLinkScreen.AlertTextUnavailablePublicChannel": [
+  "You don't have the admin rights to share invite links to this channel."
+ ],
  "FolderLinkScreen.SaveUnknownError": [
   "An error occurred while updating the link"
  ],
@@ -1369,6 +1438,9 @@
  ],
  "FrozenAccount.Violation.Text": [
   "Your account was frozen for violating Telegram’s Terms of Service."
+ ],
+ "FrozenAccount.Violation.TextNew": [
+  "Your account was frozen for breaking Telegram's [Terms of Service]()."
  ],
  "FrozenAccount.Violation.Title": [
   "Violation of Terms"
@@ -1428,6 +1500,15 @@
  ],
  "Map.OpenIn": [
   "Open In"
+ ],
+ "MaskPackActionInfo.ArchivedTitle": [
+  "Masks Archived"
+ ],
+ "MaskPackActionInfo.RemovedText": [
+  "%@ is no longer in your masks."
+ ],
+ "MaskPackActionInfo.RemovedTitle": [
+  "Masks Removed"
  ],
  "MemberSearch.BotSection": [
   "BOTS"
@@ -1535,8 +1616,17 @@
  "Monetization.TransactionInfo.Refund": [
   "Refund"
  ],
+ "Month.GenApril": [
+  "April"
+ ],
  "Month.GenAugust": [
   "August"
+ ],
+ "Month.GenFebruary": [
+  "February"
+ ],
+ "Month.GenMarch": [
+  "March"
  ],
  "Month.GenSeptember": [
   "September"
@@ -1655,6 +1745,9 @@
  ],
  "Notifications.AddExceptionTitle": [
   "Add Exception"
+ ],
+ "PeerSelection.ImportIntoNewGroup": [
+  "Import to a New Group"
  ],
  "Permissions.ContactsAllowInSettings.v0": [
   "Allow in Settings"
@@ -1797,6 +1890,9 @@
  "State.connecting": [
   "connecting"
  ],
+ "StickerPackActionInfo.ArchivedTitle": [
+  "Stickers Archived"
+ ],
  "StickerPackActionInfo.RemovedText": [
   "%@ is no longer in your stickers."
  ],
@@ -1841,6 +1937,12 @@
  ],
  "TextProcessing.Translate.ToLanguage": [
   "To {}"
+ ],
+ "Time.MonthOfYear_m9": [
+  "September %@"
+ ],
+ "Time.PreciseDate_m1": [
+  "Jan %1$@, %2$@ at %3$@"
  ],
  "Time.PreciseDate_m10": [
   "Oct %1$@, %2$@ at %3$@"
@@ -1911,6 +2013,9 @@
  ],
  "User.DeletedAccount": [
   "Deleted Account"
+ ],
+ "Wallpaper.ApplyForAll": [
+  "Apply For All Chats"
  ],
  "Watch.ChatList.Compose": [
   "New Message"

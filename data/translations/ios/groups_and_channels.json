@@ -191,6 +191,9 @@
  "AutoremoveSetup.TimerInfoChannel": [
   "Automatically delete new messages sent in this channel after a certain period of time."
  ],
+ "AutoremoveSetup.TimerInfoChat": [
+  "Automatically delete new messages sent in this chat after a certain period of time."
+ ],
  "AutoremoveSetup.TimerValueAfter": [
   "After %@"
  ],
@@ -3058,8 +3061,23 @@
  "ChatList.PeerTypeChannel": [
   "channel"
  ],
+ "ChatList.Search.FilterApps": [
+  "Apps"
+ ],
+ "ChatList.Search.FilterChats": [
+  "Chats"
+ ],
  "ChatList.Search.FilterDownloads": [
   "Downloads"
+ ],
+ "ChatList.Search.FilterGlobalPosts": [
+  "Posts"
+ ],
+ "ChatList.Search.SectionActionShowMore": [
+  "Show More"
+ ],
+ "ChatList.Search.SectionLocalChannels": [
+  "CHANNELS YOU JOINED"
  ],
  "ChatSearch.SearchPlaceholder": [
   "Search"
@@ -3307,6 +3325,12 @@
  ],
  "Compose.TokenListPlaceholder": [
   "Who would you like to add?"
+ ],
+ "ContactInfo.BirthdayLabel": [
+  "birthday"
+ ],
+ "ContactInfo.Note": [
+  "note"
  ],
  "Contacts.MemberSearchSectionTitleGroup": [
   "Group Members"
@@ -5182,6 +5206,9 @@
  "InviteLink.Create.RequestApprovalOnInfoChannel": [
   "Turn this on if you want users to join only after they are approved by an admin."
  ],
+ "InviteLink.Create.RequestApprovalPublicGroupUnavailable": [
+  "This option is unavailable because anyone can join and send messages through the public group link."
+ ],
  "InviteLink.Create.Revoke": [
   "Revoke Link"
  ],
@@ -5330,6 +5357,9 @@
  ],
  "InviteLink.QRCode.Info": [
   "Everyone on Telegram can scan this code to join your group."
+ ],
+ "InviteLink.QRCode.InfoChannel": [
+  "Everyone on Telegram can scan this code to join your channel."
  ],
  "InviteLink.QRCode.Share": [
   "Share QR Code"
@@ -5903,6 +5933,9 @@
  ],
  "NameColor.ChatPreview.ReplyText.Channel": [
   "Reply to your channel message"
+ ],
+ "NewContact.Title": [
+  "New Contact"
  ],
  "Notification.Boost.Multiple": [
   "%1$@ boosted the group %2$@"
@@ -7859,6 +7892,9 @@
  ],
  "User.DeletedAccount": [
   "Deleted Account"
+ ],
+ "UserInfo.AddPhone": [
+  "add phone"
  ],
  "UserInfo.BlockConfirmation": [
   "Block %@?"

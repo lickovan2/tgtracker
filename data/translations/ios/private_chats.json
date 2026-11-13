@@ -1251,6 +1251,9 @@
  "Chat.ToastMessageTagged.Text": [
   "Message tagged with %@"
  ],
+ "Chat.ToastMessagesTagged.Text": [
+  "Messages tagged with %@"
+ ],
  "Chat.ToastMessagingRestrictedToPremium.Action": [
   "View"
  ],
@@ -3327,14 +3330,26 @@
   "%@ year",
   "%@ years"
  ],
+ "Month.GenApril": [
+  "April"
+ ],
  "Month.GenAugust": [
   "August"
  ],
  "Month.GenDecember": [
   "December"
  ],
+ "Month.GenJanuary": [
+  "January"
+ ],
  "Month.GenJuly": [
   "July"
+ ],
+ "Month.GenMarch": [
+  "March"
+ ],
+ "Month.GenMay": [
+  "May"
  ],
  "Month.GenNovember": [
   "November"

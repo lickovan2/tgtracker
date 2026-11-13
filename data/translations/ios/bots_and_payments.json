@@ -254,6 +254,9 @@
  "AuthConfirmation.Description": [
   "This site will receive your **name**,**username** and **profile photo**."
  ],
+ "AuthConfirmation.DescriptionApp": [
+  "This app will receive your **name**,**username** and **profile photo**."
+ ],
  "AuthConfirmation.Device": [
   "Device"
  ],
@@ -298,6 +301,9 @@
  ],
  "AuthConfirmation.Title": [
   "Log in to **%@**"
+ ],
+ "AuthConfirmation.UnverifiedApp": [
+  "Unverified App"
  ],
  "AuthSessions.Message": [
   "You allowed this bot to message you when you logged in on %@."
@@ -1556,9 +1562,6 @@
  ],
  "UserInfo.ShareMyContactInfo": [
   "Share My Contact Info"
- ],
- "Username.BotLinkHint": [
-  "This username cannot be edited."
  ],
  "Username.BotLinkHintExtended": [
   "This username cannot be edited. You can acquire additional usernames on [Fragment]()."
