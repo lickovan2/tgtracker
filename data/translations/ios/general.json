@@ -4056,6 +4056,9 @@
  "FeatureDisabled.Oops": [
   "Oops"
  ],
+ "FileSize.KB": [
+  "%@ KB"
+ ],
  "Forward.ConfirmMultipleFiles": [
   "Send 1 file to {target}?",
   "Send %@ files to {target}?"
@@ -9150,11 +9153,20 @@
  "Time.MonthOfYear_m10": [
   "October %@"
  ],
+ "Time.MonthOfYear_m11": [
+  "November %@"
+ ],
  "Time.MonthOfYear_m12": [
   "December %@"
  ],
  "Time.MonthOfYear_m2": [
   "February %@"
+ ],
+ "Time.MonthOfYear_m3": [
+  "March %@"
+ ],
+ "Time.MonthOfYear_m4": [
+  "April %@"
  ],
  "Time.MonthOfYear_m5": [
   "May %@"
@@ -9165,6 +9177,9 @@
  "Time.MonthOfYear_m7": [
   "July %@"
  ],
+ "Time.MonthOfYear_m8": [
+  "August %@"
+ ],
  "Time.MonthOfYear_m9": [
   "September %@"
  ],
@@ -9174,17 +9189,8 @@
  "Time.PreciseDate_m11": [
   "Nov %1$@, %2$@ at %3$@"
  ],
- "Time.PreciseDate_m2": [
-  "Feb %1$@, %2$@ at %3$@"
- ],
  "Time.PreciseDate_m3": [
   "Mar %1$@, %2$@ at %3$@"
- ],
- "Time.PreciseDate_m4": [
-  "Apr %1$@, %2$@ at %3$@"
- ],
- "Time.PreciseDate_m5": [
-  "May %1$@, %2$@ at %3$@"
  ],
  "Time.PreciseDate_m6": [
   "Jun %1$@, %2$@ at %3$@"

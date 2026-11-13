@@ -1127,12 +1127,6 @@
  "Chat.InlineTopicMenu.TabAll": [
   "All"
  ],
- "Chat.MessageForwardInfo.StoryHeader": [
-  "Forwarded story from"
- ],
- "Chat.MessageForwardInfo.UnavailableStoryHeader": [
-  "Expired story from"
- ],
  "Chat.NextChannelFolderSwipeActionV2": [
   "Release to go to the {folder} folder"
  ],
@@ -1144,18 +1138,6 @@
  ],
  "Chat.PauseVideoMessageTooltip": [
   "Pause to trim or replay."
- ],
- "Chat.PostSuggestion.UserChangePTA": [
-  "You suggested a new price,time and attachments for this post."
- ],
- "Chat.PostSuggestion.UserChangePTC": [
-  "You suggested a new price,time and contents for this post."
- ],
- "Chat.PostSuggestion.UserChangePTT": [
-  "You suggested a new price,time and text for this post."
- ],
- "Chat.PostSuggestion.UserPost": [
-  "You suggested a post."
  ],
  "Chat.PsaTooltip.covid": [
   "This message provides you with a public service announcement in relation to the ongoing COVID-19 pandemic. Learn more about this initiative at https://telegram.org/blog/coronavirus"
@@ -1637,29 +1619,14 @@
  "Conversation.SuggestedPhotoText": [
   "**%@** suggests this photo for your Telegram profile."
  ],
- "Conversation.SuggestedPhotoTextYou": [
-  "You suggested this photo for **%@'s** Telegram profile."
- ],
- "Conversation.SuggestedPhotoView": [
-  "View Photo"
- ],
  "Conversation.SuggestedVideoSuccess": [
   "Profile Photo Updated"
  ],
  "Conversation.SuggestedVideoSuccessText": [
   "You can change it in [Settings]()."
  ],
- "Conversation.SuggestedVideoText": [
-  "**%@** suggests this photo for your Telegram profile."
- ],
  "Conversation.SuggestedVideoTextExpanded": [
   "%@ suggests this photo for your Telegram profile."
- ],
- "Conversation.SuggestedVideoTextYou": [
-  "You suggested this photo for **%@'s** Telegram profile."
- ],
- "Conversation.SuggestedVideoView": [
-  "View Photo"
  ],
  "Conversation.Summary.Limit.Title": [
   "AI Summary"
@@ -1977,73 +1944,8 @@
  "ForcedPasswordSetup.Intro.DoneAction": [
   "Done"
  ],
- "FormattedDate.DaysAgo": [
-  "%@ day ago",
-  "%@ days ago"
- ],
- "FormattedDate.HoursAgo": [
-  "%@ hour ago",
-  "%@ hours ago"
- ],
- "FormattedDate.InDays": [
-  "in %@ day",
-  "in %@ days"
- ],
- "FormattedDate.InHours": [
-  "in %@ hour",
-  "in %@ hours"
- ],
- "FormattedDate.InMinutes": [
-  "in %@ minute",
-  "in %@ minutes"
- ],
- "FormattedDate.InSeconds": [
-  "in %@ second",
-  "in %@ seconds"
- ],
- "FormattedDate.LongDate_m1": [
-  "January %1$@, %2$@"
- ],
- "FormattedDate.LongDate_m10": [
-  "October %1$@, %2$@"
- ],
- "FormattedDate.LongDate_m11": [
-  "November %1$@, %2$@"
- ],
  "FormattedDate.LongDate_m12": [
   "December %1$@, %2$@"
- ],
- "FormattedDate.LongDate_m2": [
-  "February %1$@, %2$@"
- ],
- "FormattedDate.LongDate_m3": [
-  "March %1$@, %2$@"
- ],
- "FormattedDate.LongDate_m4": [
-  "April %1$@, %2$@"
- ],
- "FormattedDate.LongDate_m5": [
-  "May %1$@, %2$@"
- ],
- "FormattedDate.LongDate_m6": [
-  "June %1$@, %2$@"
- ],
- "FormattedDate.LongDate_m7": [
-  "July %1$@, %2$@"
- ],
- "FormattedDate.LongDate_m8": [
-  "August %1$@, %2$@"
- ],
- "FormattedDate.LongDate_m9": [
-  "September %1$@, %2$@"
- ],
- "FormattedDate.MinutesAgo": [
-  "%@ minute ago",
-  "%@ minutes ago"
- ],
- "FormattedDate.SecondsAgo": [
-  "%@ second ago",
-  "%@ seconds ago"
  ],
  "Forward.ErrorDisabledForChat": [
   "Sorry, you can't forward messages to this chat."
@@ -2969,9 +2871,6 @@
  "MediaEditor.Audio.ShowMore": [
   "Show More"
  ],
- "MediaEditor.Audio.Title": [
-  "Audio"
- ],
  "MediaEditor.Draft": [
   "Draft"
  ],
@@ -3065,10 +2964,6 @@
  ],
  "MessagePoll.BackToVote": [
   "< Vote"
- ],
- "MessagePoll.EndsInDays": [
-  "ends in %@ day",
-  "ends in %@ days"
  ],
  "MessageTimer.LargeShortDays": [
   "%@d",
@@ -3254,27 +3149,6 @@
  "Notification.ChannelMessagePriceZeroChangedAndEnabledChannelMessage": [
   "%@ now accepts private messages"
  ],
- "Notification.ForumTopicClosed": [
-  "Topic closed"
- ],
- "Notification.ForumTopicHidden": [
-  "Topic hidden"
- ],
- "Notification.ForumTopicIconChanged": [
-  "Topic icon changed to %1$@"
- ],
- "Notification.ForumTopicRenamed": [
-  "Topic renamed to \"%1$@\""
- ],
- "Notification.ForumTopicRenamedIconChangedAuthor": [
-  "%1$@ changed the topic name and icon to %2$@ %3$@"
- ],
- "Notification.ForumTopicReopened": [
-  "Topic reopened"
- ],
- "Notification.ForumTopicUnhidden": [
-  "Topic unhidden"
- ],
  "Notification.GameScoreSelfExtended": [
   "scored %@ in {game}",
   "scored %@ in {game}"
@@ -3288,9 +3162,6 @@
  ],
  "Notification.GiveawayStartedStarsGroup": [
   "%1$@ just started a giveaway of %2$@ Telegram Stars for its members."
- ],
- "Notification.GramTransfer": [
-  "%1$@ sent you %2$@"
  ],
  "Notification.GramTransferReceived": [
   "You received %@"
@@ -3325,12 +3196,6 @@
  "Notification.NoPaidMessagesTokenUsed": [
   "%@ used your link to message you for free"
  ],
- "Notification.OverviewTopicCreated": [
-  "%1$@ \"%2$@\" was created"
- ],
- "Notification.OverviewTopicReopened": [
-  "%1$@ reopened %2$@ %3$@"
- ],
  "Notification.PaymentSentNoTitle": [
   "You successfully transferred {amount} to {name}"
  ],
@@ -3349,9 +3214,6 @@
  ],
  "Notification.RequestedPeerMultiple": [
   "You shared %1$@ with %2$@."
- ],
- "Notification.StarGift.Sold": [
-  "sold"
  ],
  "Notification.StarGift.Subtitle.Downgraded": [
   "This gift was downgraded because a request to refund the payment related to this gift was made, and the money was returned."
@@ -3410,9 +3272,6 @@
  "Notification.StarGiftOnchainOffer.Withdraw": [
   "Withdraw"
  ],
- "Notification.StarsGift.BoughtYou": [
-  "You gifted %1$@ for %2$@"
- ],
  "Notification.StarsGift.SentUpgradeOther": [
   "%1$@ sent an upgrade worth %2$@ for the gift you received from %3$@"
  ],
@@ -3422,13 +3281,6 @@
  "Notification.StarsGiftOffer.Accepted": [
   "%1$@ accepted your offer and sold you %2$@ for %3$@"
  ],
- "Notification.StarsGiftOffer.Accepted.Stars": [
-  "%@ Star",
-  "%@ Stars"
- ],
- "Notification.StarsGiftOffer.AcceptedYou": [
-  "You sold %1$@ to %2$@ for %3$@"
- ],
  "Notification.StarsGiftOffer.AcceptedYou.Stars": [
   "%@ Star",
   "%@ Stars"
@@ -3436,13 +3288,6 @@
  "Notification.StarsGiftOffer.Expired.Hours": [
   "%@ hours",
   "%@ hours"
- ],
- "Notification.StarsGiftOffer.ExpiredYou": [
-  "The offer from %1$@ to buy your %2$@ for %3$@ has expired"
- ],
- "Notification.StarsGiftOffer.ExpiredYou.Stars": [
-  "%@ Star",
-  "%@ Stars"
  ],
  "Notification.StarsGiftOffer.Rejected.Stars": [
   "%@ Star",
@@ -3484,9 +3329,6 @@
  "Notification.TodoTasksUndone": [
   "%@ task as not done",
   "%@ tasks as not done"
- ],
- "Notification.Ton.SubtitleYou": [
-  "With Grams, %@ will be able to submit post suggestions to channels."
  ],
  "Notification.TopicClosed": [
   "Topic closed"
@@ -4529,27 +4371,6 @@
  "RichText.ButtonActionCopy": [
   "Copies text"
  ],
- "RichText.ButtonActionDisabled": [
-  "Disabled"
- ],
- "RichText.ButtonActionTypeCopy": [
-  "Copy Text"
- ],
- "RichText.ButtonActionTypeURL": [
-  "URL"
- ],
- "RichText.ButtonActionTypeUserProfile": [
-  "User Profile"
- ],
- "RichText.ButtonChooseUser": [
-  "Choose User"
- ],
- "RichText.ButtonCopyTextPlaceholder": [
-  "Text to Copy"
- ],
- "RichText.ButtonSectionAction": [
-  "ACTION"
- ],
  "RichText.PlaceholderCodeLanguage": [
   "Language"
  ],
@@ -4713,9 +4534,6 @@
  "SettingsSearch.Synonyms.Premium.VoiceToText": [
   "Transcribe"
  ],
- "Share.VideoStartAt": [
-  "Start at %@"
- ],
  "ShareScreen.Caption": [
   "Add a caption..."
  ],
@@ -4724,9 +4542,6 @@
  ],
  "ShareScreen.RecentChats": [
   "Recent chats"
- ],
- "ShareScreen.Title": [
-  "Share with"
  ],
  "SharedMedia.SimilarBot.Users": [
   "%@ monthly user",
@@ -4972,9 +4787,6 @@
  "TextFormat.Format": [
   "Format"
  ],
- "TextProcessing.ActionClose": [
-  "Close"
- ],
  "TextProcessing.AlertTooManyStyles.Text": [
   "Please delete some of your saved styles to create a new one."
  ],
@@ -5002,17 +4814,8 @@
  "TextProcessing.AlwaysUseSummaryWithEmoji": [
   "%@ + emoji"
  ],
- "TextProcessing.StyleFooterCreatedByFormat": [
-  "%1$@. %2$@"
- ],
- "TextProcessing.StyleFooterCreatedBySimpleFormat": [
-  "%@."
- ],
  "TextProcessing.StyleTooltip": [
   "Select Style"
- ],
- "TextProcessing.TitleTranslate": [
-  "Translation"
  ],
  "Theme.Colors.Background": [
   "Background"
@@ -5028,9 +4831,6 @@
  ],
  "Theme.Context.Apply": [
   "Apply"
- ],
- "Time.AtPreciseDate": [
-  "%@ at %@"
  ],
  "Ton.Withdraw": [
   "Withdraw"
@@ -6331,9 +6131,6 @@
  ],
  "Weekday.Friday": [
   "Friday"
- ],
- "Weekday.Saturday": [
-  "Saturday"
  ],
  "Weekday.Sunday": [
   "Sunday"

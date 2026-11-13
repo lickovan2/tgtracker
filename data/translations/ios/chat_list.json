@@ -896,6 +896,9 @@
  "Contacts.Title": [
   "Contacts"
  ],
+ "Conversation.ContextMenuCopy": [
+  "Copy"
+ ],
  "Conversation.ContextMenuCopyLink": [
   "Copy Link"
  ],
@@ -1575,6 +1578,9 @@
  "Presence.online": [
   "online"
  ],
+ "Preview.SaveToCameraRoll": [
+  "Add to Photos"
+ ],
  "PrivacySettings.LastSeenContacts": [
   "My Contacts"
  ],
@@ -1598,6 +1604,18 @@
  ],
  "RichText.ButtonRowAlignRight": [
   "Right"
+ ],
+ "RichText.FormulaAdd": [
+  "Add Formula"
+ ],
+ "RichText.FormulaEdit": [
+  "Edit Formula"
+ ],
+ "RichText.FormulaSectionResultTitle": [
+  "RESULT"
+ ],
+ "RichText.FormulaSectionSourceTitle": [
+  "LATEX"
  ],
  "RichText.MenuButtonInline": [
   "Inline"
@@ -1632,6 +1650,18 @@
  "Settings.Title": [
   "Settings"
  ],
+ "Share.VideoStartAt": [
+  "Start at %@"
+ ],
+ "ShareMenu.CopyShareLink": [
+  "Copy Link"
+ ],
+ "ShareMenu.SelectChats": [
+  "Select chats"
+ ],
+ "ShareScreen.Title": [
+  "Share with"
+ ],
  "State.Connecting": [
   "Connecting..."
  ],
@@ -1658,6 +1688,33 @@
  ],
  "Target.ShareGameConfirmationPrivate": [
   "Share the game with %@?"
+ ],
+ "TextProcessing.ActionApply": [
+  "Apply"
+ ],
+ "TextProcessing.ActionGenerate": [
+  "Generate"
+ ],
+ "TextProcessing.Emojify": [
+  "Emojify"
+ ],
+ "TextProcessing.PromptPlaceholder": [
+  "Generate text, formulas, or tables..."
+ ],
+ "TextProcessing.TextExpand": [
+  "more"
+ ],
+ "TextProcessing.TitleAICompose": [
+  "Create with AI"
+ ],
+ "TextProcessing.TitleTranslate": [
+  "Translation"
+ ],
+ "TextProcessing.Translate.FromLanguage": [
+  "From {}"
+ ],
+ "TextProcessing.Translate.ToLanguage": [
+  "To {}"
  ],
  "Time.PreciseDate_m10": [
   "Oct %1$@, %2$@ at %3$@"

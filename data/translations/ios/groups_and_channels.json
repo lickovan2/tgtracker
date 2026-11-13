@@ -2532,8 +2532,20 @@
  "Chat.PostSuggestion.ChannelChange": [
   "**%@** suggested changesto this post."
  ],
+ "Chat.PostSuggestion.ChannelChangeP": [
+  "**%@** suggested a new pricefor this post."
+ ],
  "Chat.PostSuggestion.ChannelChangePT": [
   "**%@** suggested a new price and timefor this post."
+ ],
+ "Chat.PostSuggestion.ChannelChangePTA": [
+  "**%@** suggested a new price,time and attachments for this post."
+ ],
+ "Chat.PostSuggestion.ChannelChangePTC": [
+  "**%@** suggested a new price,time and contents for this post."
+ ],
+ "Chat.PostSuggestion.ChannelChangePTT": [
+  "**%@** suggested a new price,time and text for this post."
  ],
  "Chat.PostSuggestion.ChannelChangeT": [
   "**%@** suggested a new timefor this post."
@@ -2652,8 +2664,20 @@
  "Chat.PostSuggestion.UserChangePT": [
   "You suggested a new price and timefor this post."
  ],
+ "Chat.PostSuggestion.UserChangePTA": [
+  "You suggested a new price,time and attachments for this post."
+ ],
+ "Chat.PostSuggestion.UserChangePTC": [
+  "You suggested a new price,time and contents for this post."
+ ],
+ "Chat.PostSuggestion.UserChangePTT": [
+  "You suggested a new price,time and text for this post."
+ ],
  "Chat.PostSuggestion.UserChangeT": [
   "You suggested a new timefor this post."
+ ],
+ "Chat.PostSuggestion.UserPost": [
+  "You suggested a post."
  ],
  "Chat.PremiumReactionToastAction": [
   "More"
@@ -3703,9 +3727,77 @@
  "FolderLinkScreen.ContextActionNameLink": [
   "Name Link"
  ],
+ "FormattedDate.DaysAgo": [
+  "%@ day ago",
+  "%@ days ago"
+ ],
+ "FormattedDate.HoursAgo": [
+  "%@ hour ago",
+  "%@ hours ago"
+ ],
+ "FormattedDate.InDays": [
+  "in %@ day",
+  "in %@ days"
+ ],
+ "FormattedDate.InHours": [
+  "in %@ hour",
+  "in %@ hours"
+ ],
+ "FormattedDate.InMinutes": [
+  "in %@ minute",
+  "in %@ minutes"
+ ],
+ "FormattedDate.InSeconds": [
+  "in %@ second",
+  "in %@ seconds"
+ ],
+ "FormattedDate.LongDate_m1": [
+  "January %1$@, %2$@"
+ ],
+ "FormattedDate.LongDate_m10": [
+  "October %1$@, %2$@"
+ ],
+ "FormattedDate.LongDate_m11": [
+  "November %1$@, %2$@"
+ ],
+ "FormattedDate.LongDate_m2": [
+  "February %1$@, %2$@"
+ ],
+ "FormattedDate.LongDate_m3": [
+  "March %1$@, %2$@"
+ ],
+ "FormattedDate.LongDate_m4": [
+  "April %1$@, %2$@"
+ ],
+ "FormattedDate.LongDate_m5": [
+  "May %1$@, %2$@"
+ ],
+ "FormattedDate.LongDate_m6": [
+  "June %1$@, %2$@"
+ ],
+ "FormattedDate.LongDate_m7": [
+  "July %1$@, %2$@"
+ ],
+ "FormattedDate.LongDate_m8": [
+  "August %1$@, %2$@"
+ ],
+ "FormattedDate.LongDate_m9": [
+  "September %1$@, %2$@"
+ ],
+ "FormattedDate.MinutesAgo": [
+  "%@ minute ago",
+  "%@ minutes ago"
+ ],
+ "FormattedDate.SecondsAgo": [
+  "%@ second ago",
+  "%@ seconds ago"
+ ],
  "ForwardedMessages": [
   "Forwarded message",
   "%@ forwarded messages"
+ ],
+ "Gallery.SaveVideo": [
+  "Save Video"
  ],
  "Generic.ErrorMoreInfo": [
   "Learn More"
@@ -5944,6 +6036,9 @@
  "PeerInfo.PaneVoiceAndVideo": [
   "Voice"
  ],
+ "PeerInfo.QRCode.Scan": [
+  "Scan QR Code"
+ ],
  "PeerInfo.Reactions": [
   "Reactions"
  ],
@@ -6077,6 +6172,9 @@
  ],
  "Presence.online": [
   "online"
+ ],
+ "Preview.SaveToCameraRoll": [
+  "Add to Photos"
  ],
  "Privacy.GroupsAndChannels.InviteToChannelError": [
   "Sorry, you cannot add %@ to channels because of %@'s privacy settings."
@@ -6421,6 +6519,9 @@
  "Share.UploadProgress": [
   "Uploading • %d%"
  ],
+ "Share.VideoStartAt": [
+  "Start at %@"
+ ],
  "ShareMenu.Comment": [
   "Add a comment..."
  ],
@@ -6434,6 +6535,9 @@
   "Send"
  ],
  "ShareMenu.ShareTo": [
+  "Share with"
+ ],
+ "ShareScreen.Title": [
   "Share with"
  ],
  "SharedMedia.GifCount": [
@@ -7057,14 +7161,41 @@
  "Target.SelectGroup": [
   "Choose a Group"
  ],
+ "Time.AtPreciseDate": [
+  "%@ at %@"
+ ],
  "Time.MediumDate": [
   "%1$@ at %2$@"
  ],
  "Time.PreciseDate_m10": [
   "Oct %1$@, %2$@ at %3$@"
  ],
+ "Time.PreciseDate_m11": [
+  "Nov %1$@, %2$@ at %3$@"
+ ],
  "Time.PreciseDate_m12": [
   "Dec %1$@, %2$@ at %3$@"
+ ],
+ "Time.PreciseDate_m2": [
+  "Feb %1$@, %2$@ at %3$@"
+ ],
+ "Time.PreciseDate_m3": [
+  "Mar %1$@, %2$@ at %3$@"
+ ],
+ "Time.PreciseDate_m4": [
+  "Apr %1$@, %2$@ at %3$@"
+ ],
+ "Time.PreciseDate_m5": [
+  "May %1$@, %2$@ at %3$@"
+ ],
+ "Time.PreciseDate_m6": [
+  "Jun %1$@, %2$@ at %3$@"
+ ],
+ "Time.PreciseDate_m7": [
+  "Jul %1$@, %2$@ at %3$@"
+ ],
+ "Time.PreciseDate_m8": [
+  "Aug %1$@, %2$@ at %3$@"
  ],
  "Time.PreciseDate_m9": [
   "Sep %1$@, %2$@ at %3$@"
@@ -7566,6 +7697,9 @@
  ],
  "Watch.UserInfo.MuteTitle": [
   "Mute"
+ ],
+ "Weekday.Saturday": [
+  "Saturday"
  ],
  "Weekday.ShortSunday": [
   "Sun"

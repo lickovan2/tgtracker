@@ -12,6 +12,9 @@
  "Attachment.ProfileMusic": [
   "PROFILE MUSIC"
  ],
+ "Attachment.SelectFromFiles": [
+  "Select from Files"
+ ],
  "AvatarEditor.Background": [
   "BACKGROUND"
  ],
@@ -124,6 +127,9 @@
  "Common.OK": [
   "OK"
  ],
+ "Common.Search": [
+  "Search"
+ ],
  "ContactInfo.PhoneLabelMain": [
   "main"
  ],
@@ -159,6 +165,9 @@
  ],
  "ConversationProfile.ErrorCreatingConversation": [
   "An error occurred"
+ ],
+ "DialogList.SavedMessages": [
+  "Saved Messages"
  ],
  "EmojiSearch.SearchStatusesEmptyResult": [
   "No emoji found"
@@ -470,6 +479,9 @@
  ],
  "LastSeen.TodayAt": [
   "last seen today at %@"
+ ],
+ "MediaEditor.Audio.Title": [
+  "Audio"
  ],
  "MediaPicker.RemovePhoto": [
   "Remove Photo"
@@ -1264,6 +1276,15 @@
  ],
  "Settings.SetNewProfilePhotoOrVideo": [
   "Set New Photo"
+ ],
+ "ShareMenu.CopyShareLink": [
+  "Copy Link"
+ ],
+ "ShareMenu.SelectChats": [
+  "Select chats"
+ ],
+ "ShareScreen.Title": [
+  "Share with"
  ],
  "SharedMedia.CalendarTooltip": [
   "Tap on this icon for calendar view"

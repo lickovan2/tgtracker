@@ -68,6 +68,27 @@
  "BusinessLink.ErrorExpired": [
   "Link Expired"
  ],
+ "Calendar.ShortFri": [
+  "F"
+ ],
+ "Calendar.ShortMon": [
+  "M"
+ ],
+ "Calendar.ShortSat": [
+  "S"
+ ],
+ "Calendar.ShortSun": [
+  "S"
+ ],
+ "Calendar.ShortThu": [
+  "T"
+ ],
+ "Calendar.ShortTue": [
+  "T"
+ ],
+ "Calendar.ShortWed": [
+  "W"
+ ],
  "Call.AnsweringWithAccount": [
   "Answering as %@"
  ],
@@ -703,6 +724,9 @@
  "Chat.MessageForwardInfo.MessageHeader": [
   "Forwarded from"
  ],
+ "Chat.MessageForwardInfo.StoryHeader": [
+  "Forwarded story from"
+ ],
  "Chat.MessageHeaderBotNewThread": [
   "New Thread"
  ],
@@ -1165,6 +1189,9 @@
  ],
  "Chat.SpeedLimitAlert.Upload.Title": [
   "Upload speed limited"
+ ],
+ "Chat.StoryMentionAction": [
+  "View Story"
  ],
  "Chat.SubtitleQuoteSelectionTip": [
   "You can select a specific part to quote"
@@ -1692,6 +1719,9 @@
  "Conversation.DateReminderSet": [
   "You have set a reminder in [Saved Messages]()."
  ],
+ "Conversation.DeleteManyMessages": [
+  "Delete Messages"
+ ],
  "Conversation.DeleteMessagesFor": [
   "Delete for me and %@"
  ],
@@ -2205,11 +2235,26 @@
  "Conversation.SuggestedPhotoTextExpanded": [
   "%@ suggests this photo for your Telegram profile."
  ],
+ "Conversation.SuggestedPhotoTextYou": [
+  "You suggested this photo for **%@'s** Telegram profile."
+ ],
  "Conversation.SuggestedPhotoTitle": [
   "Suggested Photo"
  ],
+ "Conversation.SuggestedPhotoView": [
+  "View Photo"
+ ],
+ "Conversation.SuggestedVideoText": [
+  "**%@** suggests this photo for your Telegram profile."
+ ],
+ "Conversation.SuggestedVideoTextYou": [
+  "You suggested this photo for **%@'s** Telegram profile."
+ ],
  "Conversation.SuggestedVideoTitle": [
   "Suggested Photo"
+ ],
+ "Conversation.SuggestedVideoView": [
+  "View Photo"
  ],
  "Conversation.SwipeToReplyHintText": [
   "Swipe left on any message to reply to it."
@@ -2399,6 +2444,12 @@
  "CreatePoll.ExplanationInfo": [
   "Users will see this comment after choosing a wrong answer, good for educational purposes."
  ],
+ "CreatePoll.LimitCountry": [
+  "Limit by Country"
+ ],
+ "CreatePoll.LimitCountryInfo": [
+  "Only users from selected countries can vote"
+ ],
  "CreatePoll.LimitDuration": [
   "Limit Duration"
  ],
@@ -2419,6 +2470,12 @@
  ],
  "CreatePoll.QuizTitle": [
   "New Quiz"
+ ],
+ "CreatePoll.RestrictToSubscribers": [
+  "Restrict to Subscribers"
+ ],
+ "CreatePoll.RestrictToSubscribersInfo": [
+  "Only subscribers who joined 24+ hours ago can vote"
  ],
  "CreatePoll.Revoting": [
   "Allow Revoting"
@@ -3027,8 +3084,15 @@
   "Are you sure you want to delete all messages for the selected day?",
   "Are you sure you want to delete all messages for the selected %@ days?"
  ],
+ "MessageCalendar.Title": [
+  "Calendar"
+ ],
  "MessagePoll.EndsIn": [
   "ends in %@"
+ ],
+ "MessagePoll.EndsInDays": [
+  "ends in %@ day",
+  "ends in %@ days"
  ],
  "MessagePoll.LabelAnonymous": [
   "Anonymous Poll"
@@ -3057,6 +3121,17 @@
  ],
  "MessagePoll.ResultsIn": [
   "results in %@"
+ ],
+ "MessagePoll.ResultsInDays": [
+  "results in %@ day",
+  "results in %@ days"
+ ],
+ "MessagePoll.ViewResults": [
+  "View Results"
+ ],
+ "MessagePoll.ViewVote": [
+  "%@ vote >",
+  "%@ votes >"
  ],
  "MessagePoll.ViewVotes": [
   "View Votes (%@)"
@@ -3275,17 +3350,38 @@
  "Notification.CreatedGroup": [
   "Group created"
  ],
+ "Notification.ForumTopicClosed": [
+  "Topic closed"
+ ],
  "Notification.ForumTopicClosedAuthor": [
   "%1$@ closed topic"
+ ],
+ "Notification.ForumTopicHidden": [
+  "Topic hidden"
  ],
  "Notification.ForumTopicHiddenAuthor": [
   "%1$@ hid the topic"
  ],
+ "Notification.ForumTopicIconChanged": [
+  "Topic icon changed to %1$@"
+ ],
  "Notification.ForumTopicIconChangedAuthor": [
   "%1$@ changed the topic icon to %2$@"
  ],
+ "Notification.ForumTopicRenamed": [
+  "Topic renamed to \"%1$@\""
+ ],
  "Notification.ForumTopicRenamedAuthor": [
   "%1$@ changed the topic name to \"%2$@\""
+ ],
+ "Notification.ForumTopicRenamedIconChangedAuthor": [
+  "%1$@ changed the topic name and icon to %2$@ %3$@"
+ ],
+ "Notification.ForumTopicReopened": [
+  "Topic reopened"
+ ],
+ "Notification.ForumTopicUnhidden": [
+  "Topic unhidden"
  ],
  "Notification.ForumTopicUnhiddenAuthor": [
   "%1$@ unhid the topic"
@@ -3316,6 +3412,9 @@
  ],
  "Notification.GiveawayStarted": [
   "%1$@ just started a giveaway of Telegram Premium subscriptions for its followers."
+ ],
+ "Notification.GramTransfer": [
+  "%1$@ sent you %2$@"
  ],
  "Notification.GramTransfer.UnknownUser": [
   "UNKNOWN USER"
@@ -3380,8 +3479,14 @@
  "Notification.OverviewTopicClosed": [
   "%1$@ closed %2$@ %3$@"
  ],
+ "Notification.OverviewTopicCreated": [
+  "%1$@ \"%2$@\" was created"
+ ],
  "Notification.OverviewTopicHidden": [
   "%1$@ hid %2$@ %3$@"
+ ],
+ "Notification.OverviewTopicReopened": [
+  "%1$@ reopened %2$@ %3$@"
  ],
  "Notification.OverviewTopicUnhidden": [
   "%1$@ unhid %2$@ %3$@"
@@ -3556,6 +3661,9 @@
  "Notification.StarGift.ReleasedBy": [
   "released by %@"
  ],
+ "Notification.StarGift.Sold": [
+  "sold"
+ ],
  "Notification.StarGift.Subtitle": [
   "Add this gift to your profile or convert it to %@."
  ],
@@ -3657,6 +3765,9 @@
  "Notification.StarsGift.BoughtForYouself": [
   "You bought this gift for %1$@"
  ],
+ "Notification.StarsGift.BoughtYou": [
+  "You gifted %1$@ for %2$@"
+ ],
  "Notification.StarsGift.Channel.Sent": [
   "%1$@ sent a gift to %2$@ for %3$@"
  ],
@@ -3728,10 +3839,24 @@
  "Notification.StarsGift.UpgradeYou": [
   "You turned the gift from %@ into a unique collectible"
  ],
+ "Notification.StarsGiftOffer.Accepted.Stars": [
+  "%@ Star",
+  "%@ Stars"
+ ],
+ "Notification.StarsGiftOffer.AcceptedYou": [
+  "You sold %1$@ to %2$@ for %3$@"
+ ],
  "Notification.StarsGiftOffer.Expired": [
   "%1$@ didn't respond to your offer for %2$@ – your %4$@ have been refunded"
  ],
  "Notification.StarsGiftOffer.Expired.Stars": [
+  "%@ Star",
+  "%@ Stars"
+ ],
+ "Notification.StarsGiftOffer.ExpiredYou": [
+  "The offer from %1$@ to buy your %2$@ for %3$@ has expired"
+ ],
+ "Notification.StarsGiftOffer.ExpiredYou.Stars": [
   "%@ Star",
   "%@ Stars"
  ],
@@ -3772,6 +3897,9 @@
  ],
  "Notification.TodoCompleted": [
   "%1$@ marked \"%2$@\" as done"
+ ],
+ "Notification.Ton.SubtitleYou": [
+  "With Grams, %@ will be able to submit post suggestions to channels."
  ],
  "Notification.VideoCallCanceled": [
   "Canceled Video Call"
@@ -4017,6 +4145,60 @@
  "RequestPeer.SelectUsers.SearchPlaceholder": [
   "Search"
  ],
+ "RichText.ButtonActionDisabled": [
+  "Disabled"
+ ],
+ "RichText.ButtonActionTypeCopy": [
+  "Copy Text"
+ ],
+ "RichText.ButtonActionTypeURL": [
+  "URL"
+ ],
+ "RichText.ButtonActionTypeUserProfile": [
+  "User Profile"
+ ],
+ "RichText.ButtonChooseUser": [
+  "Choose User"
+ ],
+ "RichText.ButtonCopyTextPlaceholder": [
+  "Text to Copy"
+ ],
+ "RichText.ButtonDelete": [
+  "Delete Button"
+ ],
+ "RichText.ButtonEditorTitle": [
+  "Button"
+ ],
+ "RichText.ButtonLabelPlaceholder": [
+  "Label"
+ ],
+ "RichText.ButtonSectionAction": [
+  "ACTION"
+ ],
+ "RichText.ButtonSectionContent": [
+  "CONTENT"
+ ],
+ "RichText.ButtonSectionStyle": [
+  "STYLE"
+ ],
+ "RichText.ButtonStyleDanger": [
+  "Red"
+ ],
+ "RichText.ButtonStyleDefault": [
+  "Default"
+ ],
+ "RichText.ButtonStyleLink": [
+  "Link"
+ ],
+ "RichText.ButtonStylePrimary": [
+  "Blue"
+ ],
+ "RichText.ButtonStyleSuccess": [
+  "Green"
+ ],
+ "RichText.ButtonURLPlaceholder": [
+  "URL"
+ ],
  "RichText.MenuFormulaInline": [
   "Inline"
  ],
@@ -4234,6 +4416,61 @@
  "SuggestPost.SetTimeFormat.Date": [
   "%@"
  ],
+ "TextProcessing.ActionClose": [
+  "Close"
+ ],
+ "TextProcessing.Emojify": [
+  "Emojify"
+ ],
+ "TextProcessing.StyleFooterCreatedBy": [
+  "Created by [%@]()"
+ ],
+ "TextProcessing.StyleFooterCreatedByFormat": [
+  "%1$@. %2$@"
+ ],
+ "TextProcessing.StyleFooterCreatedBySimpleFormat": [
+  "%@."
+ ],
+ "TextProcessing.StyleFooterUserCount": [
+  "Used by 1 person",
+  "Used by %d people"
+ ],
+ "TextProcessing.StyleMenu.ButtonAdd": [
+  "Add Style"
+ ],
+ "TextProcessing.StyleMenu.ButtonClose": [
+  "Close"
+ ],
+ "TextProcessing.StylePreview.After": [
+  "After"
+ ],
+ "TextProcessing.StylePreview.Before": [
+  "Before"
+ ],
+ "TextProcessing.StylePreview.ExampleHeader": [
+  "EXAMPLE"
+ ],
+ "TextProcessing.StylePreview.ExampleHeaderRefresh": [
+  "ANOTHER EXAMPLE"
+ ],
+ "TextProcessing.StylePreview.Subtitle": [
+  "Add this style to instantlyrewrite your messages."
+ ],
+ "TextProcessing.TextExpand": [
+  "more"
+ ],
+ "TextProcessing.TitleTranslate": [
+  "Translation"
+ ],
+ "TextProcessing.Translate.FromLanguage": [
+  "From {}"
+ ],
+ "TextProcessing.Translate.ToLanguage": [
+  "To {}"
+ ],
+ "TextProcessingStyle.Neutral": [
+  "Neutral"
+ ],
  "Time.HoursAgo": [
   "%@ hour ago",
   "%@ hours ago"
@@ -4256,11 +4493,17 @@
  "Time.MonthOfYear_m8": [
   "August %@"
  ],
+ "Time.MonthOfYear_m9": [
+  "September %@"
+ ],
  "Time.PreciseDate_m12": [
   "Dec %1$@, %2$@ at %3$@"
  ],
  "Time.PreciseDate_m9": [
   "Sep %1$@, %2$@ at %3$@"
+ ],
+ "Translate.CopyTranslation": [
+  "Copy Translation"
  ],
  "Translation.Language.ar": [
   "Arabic"

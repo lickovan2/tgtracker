@@ -217,6 +217,9 @@
  "ChannelBoost.YouBoostedOtherChannel": [
   "You Boosted The Channel"
  ],
+ "Chat.MessageForwardInfo.UnavailableStoryHeader": [
+  "Expired story from"
+ ],
  "Chat.MessageSeenTimestamp.TodayAt": [
   "today at %@"
  ],
@@ -295,6 +298,9 @@
  "Conversation.ContextMenuSelect": [
   "Select"
  ],
+ "Conversation.InputTextPlaceholder": [
+  "Message"
+ ],
  "Conversation.StatusMembers": [
   "1 member",
   "%@ members"
@@ -335,6 +341,9 @@
  ],
  "CreateExternalStream.RevokeStreamKey": [
   "Revoke Stream Key"
+ ],
+ "Date.ChatDateHeader": [
+  "%1$@ %2$@"
  ],
  "DialogList.SavedMessages": [
   "Saved Messages"
@@ -515,6 +524,9 @@
  "MessageTimer.Minutes": [
   "%@ minute",
   "%@ minutes"
+ ],
+ "Month.GenAugust": [
+  "August"
  ],
  "Notification.Exceptions.AddException": [
   "Add Exception"
