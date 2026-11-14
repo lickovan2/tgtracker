@@ -32,9 +32,6 @@
  "ArchiveInfo.TextKeepArchivedDefault": [
   "When you receive a new message, muted chats will remain in the Archive, while unmuted chats will be moved to Chats. [Tap to change >]()"
  ],
- "ArchiveInfo.TextKeepArchivedUnmuted": [
-  "Archived chats will remain in the Archive when you receive a new message. [Tap to change >]()"
- ],
  "ArchiveInfo.Title": [
   "This is Your Archive"
  ],
@@ -546,12 +543,6 @@
   "%@ minute",
   "%@ minutes"
  ],
- "Monetization.AdRevenueTitle": [
-  "AD REWARDS"
- ],
- "Monetization.StarsRevenueTitle": [
-  "REVENUE"
- ],
  "Month.GenAugust": [
   "August"
  ],
@@ -815,9 +806,6 @@
  ],
  "Stats.Boosts.ToBeDistributed": [
   "To Be Distributed"
- ],
- "Stats.Monetization": [
-  "Monetization"
  ],
  "Stats.Statistics": [
   "Statistics"

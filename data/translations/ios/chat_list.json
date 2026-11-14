@@ -47,6 +47,66 @@
  "Appearance.ThemePreview.ChatList.7.Text": [
   "🖼 Check these out"
  ],
+ "ArchiveInfo.ChatsText": [
+  "Move any chat into your Archive and back by swiping on it."
+ ],
+ "ArchiveInfo.ChatsTitle": [
+  "Archived Chats"
+ ],
+ "ArchiveInfo.CloseAction": [
+  "Got it"
+ ],
+ "ArchiveInfo.HideText": [
+  "Hide the Archive from your main screen by swiping on it."
+ ],
+ "ArchiveInfo.HideTitle": [
+  "Hiding Archive"
+ ],
+ "ArchiveInfo.StoriesText": [
+  "Archive Stories from your contacts separately from chats with them."
+ ],
+ "ArchiveInfo.StoriesTitle": [
+  "Stories"
+ ],
+ "ArchiveInfo.TextKeepArchivedDefault": [
+  "When you receive a new message, muted chats will remain in the Archive, while unmuted chats will be moved to Chats. [Tap to change >]()"
+ ],
+ "ArchiveInfo.TextKeepArchivedUnmuted": [
+  "Archived chats will remain in the Archive when you receive a new message. [Tap to change >]()"
+ ],
+ "ArchiveInfo.Title": [
+  "This is Your Archive"
+ ],
+ "ArchiveSettings.AutomaticallyArchive": [
+  "Automatically Archive"
+ ],
+ "ArchiveSettings.FolderChatsFooter": [
+  "Keep archived chats from folders in the Archive even if they are unmuted and get a new message."
+ ],
+ "ArchiveSettings.FolderChatsHeader": [
+  "CHATS FROM FOLDERS"
+ ],
+ "ArchiveSettings.KeepArchived": [
+  "Always Keep Archived"
+ ],
+ "ArchiveSettings.Title": [
+  "Archive Settings"
+ ],
+ "ArchiveSettings.TooltipPremiumRequired": [
+  "This setting is available only to the subscribers of [Telegram Premium]()."
+ ],
+ "ArchiveSettings.UnknownChatsFooter": [
+  "Automatically archive and mute new private chats, groups and channels from non-contacts."
+ ],
+ "ArchiveSettings.UnknownChatsHeader": [
+  "NEW CHATS FROM UNKNOWN USERS"
+ ],
+ "ArchiveSettings.UnmutedChatsFooter": [
+  "Keep archived chats in the Archive even if they are unmuted and get a new message."
+ ],
+ "ArchiveSettings.UnmutedChatsHeader": [
+  "UNMUTED CHATS"
+ ],
  "ArchivedChats.IntroText1": [
   "Chats with enabled notifications getunarchived when new messages arrive."
  ],
