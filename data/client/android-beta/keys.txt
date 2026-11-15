@@ -148,6 +148,12 @@ array_completeness
 arrow_axis
 aspect_ratio
 aspect_ratio_info_present_flag
+asr_auto
+asr_google
+asr_langs
+asr_live_captions
+asr_local_free
+asr_local_premium
 atop_macro
 atopwithdelims_macro
 attach_bot
@@ -726,6 +732,9 @@ delivery_metrics_exported_to_big_query_enabled
 delta_rps_sign
 description_document
 description_photo
+design_dictation_mode
+design_voice_live_field
+design_voice_live_transcript
 destructive_text_color
 detached_preview
 device_capabilities
@@ -775,6 +784,8 @@ dialog_photos
 dialog_settings
 dialog_show_translate_count
 dialogs_hint
+dict_glow_day2_contrast
+dict_glow_day2_preset
 diff_text
 digital_credential_payload
 direct_share
@@ -2286,6 +2297,7 @@ result_id
 result_receiver
 result_text
 result_url
+results_recognition
 resuming_sender
 retry_contacts
 retry_date
@@ -2544,6 +2556,10 @@ sort_by_price
 sort_by_value
 source_groups
 space_between
+speech_model
+speech_models
+speech_models_build
+speech_models_checked
 speed_accuracy
 spend_purpose_peer
 sponsor_info
@@ -2860,6 +2876,9 @@ timezone_id
 timing_info_present_flag
 tint_list
 tint_mode
+tinylid_checked
+tinylid_etag
+tinylid_lang
 tip_amount
 title_missing
 title_noanimate

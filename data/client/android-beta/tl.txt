@@ -1931,6 +1931,8 @@ TL_messages_getStickerSet
 TL_messages_getStickers
 TL_messages_getSuggestedDialogFilters
 TL_messages_getTopReactions
+TL_messages_getTranscriptionLangs
+TL_messages_getTranscriptionModels
 TL_messages_getUnreadMentions
 TL_messages_getUnreadPollVotes
 TL_messages_getUnreadReactions
@@ -2867,6 +2869,7 @@ TL_topPeerCategoryForwardUsers
 TL_topPeerCategoryGroups
 TL_topPeerCategoryPeers
 TL_topPeerCategoryPhoneCalls
+TL_transcriptionModel
 TL_update
 TL_update.TL_updateAiComposeTones
 TL_update.TL_updateAttachMenuBots
