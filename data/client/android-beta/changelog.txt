@@ -2,3 +2,5 @@
 - text dictation feature from locked voice recording
 - word/characters timestamps on local voice transcriptions
 - (experimental) live captions in calls
+- fix detecting language for transcribing voice message when selected different language in settings
+- fixed downloading models with test backend account

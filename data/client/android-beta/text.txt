@@ -2813,6 +2813,7 @@ DefaultTeXFont.xml: the default text style mapping '
 DefaultTrackSelector is accessed on the wrong thread.
 Deferring native open session:
 Delay for:
+Delete all local transcriptions
 Delete all models
 Deleted corrupt file:
 Deleted previous Crashlytics file system:
@@ -8676,6 +8677,7 @@ loading contacts 3 query time =
 loading remote themes, hash
 loading text
 local transcription of msg_id=
+local transcriptions deleted
 localId != reqId
 local_id =
 locale does not support dates before 1868 AD) Unparseable date: "
