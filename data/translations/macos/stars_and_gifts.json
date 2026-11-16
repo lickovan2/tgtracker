@@ -1,0 +1,23 @@
+{
+ "StarGift.OnchainOffer.Balance": [
+  "Balance:"
+ ],
+ "StarGift.OnchainOffer.BuyerRefund": [
+  "Buyer refund: %1$@"
+ ],
+ "StarGift.OnchainOffer.CancellationFee": [
+  "Cancellation fee: %1$@"
+ ],
+ "StarGift.OnchainOffer.CancellationProcessing": [
+  "Cancellation and refund are processing."
+ ],
+ "StarGift.OnchainOffer.GiftPurchased": [
+  "Offer accepted. You bought this gift."
+ ],
+ "StarGift.OnchainOffer.GramsToOffer": [
+  "Grams to offer"
+ ],
+ "StarGift.OnchainOffer.InsufficientFunds": [
+  "Insufficient funds. [%1$@ ›](deposit)"
+ ]
+}

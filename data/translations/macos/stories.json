@@ -221,6 +221,125 @@
  "Story.Controls.YourStory": [
   "Your Story"
  ],
+ "Story.CreationCoverController.SaveCover": [
+  "Save Cover"
+ ],
+ "Story.CreationCoverController.StoryCover": [
+  "Story Cover"
+ ],
+ "Story.CreationRendering.All": [
+  "All"
+ ],
+ "Story.CreationRendering.Blue": [
+  "Blue"
+ ],
+ "Story.CreationRendering.Brightness": [
+  "Brightness"
+ ],
+ "Story.CreationRendering.Contrast": [
+  "Contrast"
+ ],
+ "Story.CreationRendering.Enhance": [
+  "Enhance"
+ ],
+ "Story.CreationRendering.Fade": [
+  "Fade"
+ ],
+ "Story.CreationRendering.Grain": [
+  "Grain"
+ ],
+ "Story.CreationRendering.Green": [
+  "Green"
+ ],
+ "Story.CreationRendering.Highlights": [
+  "Highlights"
+ ],
+ "Story.CreationRendering.Linear": [
+  "Linear"
+ ],
+ "Story.CreationRendering.Off": [
+  "Off"
+ ],
+ "Story.CreationRendering.Radial": [
+  "Radial"
+ ],
+ "Story.CreationRendering.Red": [
+  "Red"
+ ],
+ "Story.CreationRendering.Saturation": [
+  "Saturation"
+ ],
+ "Story.CreationRendering.Shadows": [
+  "Shadows"
+ ],
+ "Story.CreationRendering.Vignette": [
+  "Vignette"
+ ],
+ "Story.CreationRendering.Warmth": [
+  "Warmth"
+ ],
+ "Story.CreationView.Adjustments": [
+  "Adjustments"
+ ],
+ "Story.CreationView.Audio": [
+  "Audio"
+ ],
+ "Story.CreationView.CaptureMode": [
+  "Capture mode"
+ ],
+ "Story.CreationView.ChooseMedia": [
+  "Choose Media"
+ ],
+ "Story.CreationView.ClipVolume": [
+  "Clip volume"
+ ],
+ "Story.CreationView.Collage": [
+  "Collage"
+ ],
+ "Story.CreationView.CollageProgress": [
+  "Collage · %1$d / %2$d",
+  "Collage · %1$d / %2$d"
+ ],
+ "Story.CreationView.Crop": [
+  "Crop"
+ ],
+ "Story.CreationView.Drafts": [
+  "Drafts"
+ ],
+ "Story.CreationView.DragTilesToReorder": [
+  "Drag tiles to reorder"
+ ],
+ "Story.CreationView.Draw": [
+  "Draw"
+ ],
+ "Story.CreationView.DropMediaToImport": [
+  "Drop media to import"
+ ],
+ "Story.CreationView.DualCamera": [
+  "Dual Camera"
+ ],
+ "Story.CreationView.EditCollage": [
+  "Edit Collage"
+ ],
+ "Story.CreationView.EnableCamera": [
+  "Enable Camera"
+ ],
+ "Story.CreationView.EnhanceValue": [
+  "Enhance  %1$d",
+  "Enhance  %1$d"
+ ],
+ "Story.CreationView.SoundtrackVolume": [
+  "Soundtrack volume"
+ ],
+ "Story.CreationView.Stickers": [
+  "Stickers"
+ ],
+ "Story.CreationView.Text": [
+  "Text"
+ ],
+ "Story.CreationView.Unmute": [
+  "Unmute"
+ ],
  "Story.Error.NotExist": [
   "This story is no longer available"
  ],
@@ -235,6 +354,15 @@
  ],
  "Story.Input.Placeholder": [
   "Reply Privately..."
+ ],
+ "Story.LocationChoices.City": [
+  "City"
+ ],
+ "Story.LocationChoices.Location": [
+  "Location"
+ ],
+ "Story.LocationChoices.Street": [
+  "Street"
  ],
  "Story.Media.Unsupported": [
   "This story is not supported by your version of Telegram. Please update the app to the latest version."
@@ -266,6 +394,41 @@
  ],
  "Story.NoReplyInput.NoReply": [
   "You can't reply to this story"
+ ],
+ "Story.PrivacyModalController.ActiveLimitReached": [
+  "You’ve reached your active story limit."
+ ],
+ "Story.PrivacyModalController.CaptionLimit": [
+  "Story captions can be up to %1$d character.",
+  "Story captions can be up to %1$d characters."
+ ],
+ "Story.PrivacyModalController.KeepOnProfile": [
+  "Keep this story on your profile even after it expires in %1$@. Privacy settings will apply."
+ ],
+ "Story.PrivacyModalController.MediaPreparationFailed": [
+  "This media could not be prepared for posting."
+ ],
+ "Story.PrivacyModalController.MonthlyLimitReached": [
+  "You’ve reached your monthly story limit."
+ ],
+ "Story.PrivacyModalController.PostStory": [
+  "Post Story"
+ ],
+ "Story.PrivacyModalController.PreparingStory": [
+  "Preparing Story…"
+ ],
+ "Story.PrivacyModalController.RemainingStories": [
+  "You can post up to %1$d more story right now.",
+  "You can post up to %1$d more stories right now."
+ ],
+ "Story.PrivacyModalController.ShareStory": [
+  "Share Story"
+ ],
+ "Story.PrivacyModalController.UploadingStory": [
+  "Uploading story…"
+ ],
+ "Story.PrivacyModalController.WeeklyLimitReached": [
+  "You’ve reached your weekly story limit."
  ],
  "Story.Report.SuccessText": [
   "Telegram moderators will review your report. Thank you!"
