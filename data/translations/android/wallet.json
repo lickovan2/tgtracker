@@ -1,0 +1,14 @@
+{
+ "WalletFeePaidByTelegram": [
+  "Free (paid by Telegram)"
+ ],
+ "WalletNetworkFee": [
+  "Network fee"
+ ],
+ "WalletNetworkFeeInfo": [
+  "Every transfer costs a small network fee (**~%1$s**). Telegram covers your first **5** transfers each day."
+ ],
+ "WalletOK": [
+  "OK"
+ ]
+}

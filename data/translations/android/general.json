@@ -8676,9 +8676,6 @@
  "WalletFee": [
   "Fee"
  ],
- "WalletFeePaidByTelegram": [
-  "Free (paid by Telegram)"
- ],
  "WalletGiftAddToCard": [
   "Add to Card"
  ],
@@ -8754,23 +8751,14 @@
  "WalletMovedToProfile": [
   "moved to profile"
  ],
- "WalletNetworkFee": [
-  "Network fee"
- ],
  "WalletNetworkFeeAmount": [
   "Network fee: %1$s"
- ],
- "WalletNetworkFeeInfo": [
-  "Every transfer costs a small network fee (**~%1$s**). Telegram covers your first **5** transfers each day."
  ],
  "WalletNoFees": [
   "Zero Fees"
  ],
  "WalletNoFeesInfo": [
   "The first 5 transfers each day are free. The rest cost almost nothing."
- ],
- "WalletOK": [
-  "OK"
  ],
  "WalletOpenMyMoney": [
   "Open My Money"
