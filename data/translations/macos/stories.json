@@ -328,6 +328,33 @@
   "Enhance  %1$d",
   "Enhance  %1$d"
  ],
+ "Story.CreationView.Link": [
+  "Link"
+ ],
+ "Story.CreationView.Mute": [
+  "Mute"
+ ],
+ "Story.CreationView.Pause": [
+  "Pause"
+ ],
+ "Story.CreationView.PauseClip": [
+  "Pause Clip"
+ ],
+ "Story.CreationView.Play": [
+  "Play"
+ ],
+ "Story.CreationView.PlayClip": [
+  "Play Clip"
+ ],
+ "Story.CreationView.PositionAndZoom": [
+  "Drag to position · Scroll or pinch to zoom"
+ ],
+ "Story.CreationView.RecordVideoNote": [
+  "Record Video Note"
+ ],
+ "Story.CreationView.RemoveVideoNote": [
+  "Remove Video Note"
+ ],
  "Story.CreationView.SoundtrackVolume": [
   "Soundtrack volume"
  ],
