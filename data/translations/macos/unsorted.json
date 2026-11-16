@@ -21414,7 +21414,7 @@
   "Save Media"
  ],
  "Story.CreationView.StopVideoNote": [
-  "Stop Video Note"
+  "Stop Video Message"
  ],
  "Story.CreationView.StoryCaption": [
   "Story caption"
@@ -21794,7 +21794,7 @@
   "Remove Last Tile"
  ],
  "StoryCreationController.RemoveVideoNote": [
-  "Remove this video note?"
+  "Remove this video message?"
  ],
  "StoryCreationController.ReplaceAudio": [
   "Replace Audio"
@@ -21822,16 +21822,16 @@
   "Video"
  ],
  "StoryCreationController.VideoNoteCameraAccessRequired": [
-  "Allow camera access to record a video note."
+  "Allow camera access to record a video message."
  ],
  "StoryCreationController.VideoNoteCameraUnavailable": [
-  "No camera available to record a video note."
+  "No camera available to record a video message."
  ],
  "StoryCreationController.VideoNoteRecordingFailed": [
-  "Telegram couldn’t record this video note."
+  "Telegram couldn’t record this video message."
  ],
  "StoryCreationController.VideoNoteTimeline": [
-  "Video note timeline"
+  "Video message timeline"
  ],
  "StoryCreationController.VideoRecordingFailed": [
   "Telegram couldn’t record this video. Try again."
