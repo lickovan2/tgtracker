@@ -13915,7 +13915,7 @@
   "@%1$@ didn't resolve to a chat or bot: it may not exist, or Telegram is limiting username lookups right now. Nothing was opened."
  ],
  "LocalAgent.EngineActions.DownloadAFileFrom": [
-  "download a file from “%1$@”"
+  "download a file from \"%1$@\""
  ],
  "LocalAgent.EngineActions.HasNoTopicsItIsnTAForum": [
   "“%1$@” has no topics; it isn't a forum."
