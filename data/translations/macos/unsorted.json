@@ -10057,9 +10057,6 @@
  "CrashReport.Caption": [
   "Crash report from Telegram %1$@ (%2$@, %3$@)"
  ],
- "CrashReport.CardInfo": [
-  "Send the report to help us fix it."
- ],
  "CrashReport.CardTitle": [
   "Telegram quit unexpectedly"
  ],
