@@ -21647,17 +21647,11 @@
  "StoryCreationAdjustmentsView.Orange": [
   "Orange"
  ],
- "StoryCreationAdjustmentsView.Purple": [
-  "Purple"
- ],
  "StoryCreationAdjustmentsView.Red": [
   "Red"
  ],
  "StoryCreationAdjustmentsView.Tint": [
   "Tint"
- ],
- "StoryCreationAdjustmentsView.TintIntensity": [
-  "Tint intensity"
  ],
  "StoryCreationAdjustmentsView.Yellow": [
   "Yellow"
@@ -21670,15 +21664,6 @@
  ],
  "StoryCreationCamera.DragUpToZoom": [
   "Drag up to zoom"
- ],
- "StoryCreationCamera.LockRecording": [
-  "Lock Recording"
- ],
- "StoryCreationCamera.RecordVideo": [
-  "Record Video"
- ],
- "StoryCreationCamera.RecordingDuration": [
-  "Recording duration"
  ],
  "StoryCreationCamera.ReleaseToLock": [
   "Release to lock"

@@ -565,6 +565,21 @@
  "Story.Tooltip.VideoSent": [
   "Video Sent."
  ],
+ "StoryCreationAdjustmentsView.Purple": [
+  "Purple"
+ ],
+ "StoryCreationAdjustmentsView.TintIntensity": [
+  "Tint intensity"
+ ],
+ "StoryCreationCamera.LockRecording": [
+  "Lock Recording"
+ ],
+ "StoryCreationCamera.RecordVideo": [
+  "Record Video"
+ ],
+ "StoryCreationCamera.RecordingDuration": [
+  "Recording duration"
+ ],
  "StoryFeed.TooltipArchive": [
   "Stories from %@ were moved to the Archive."
  ],
