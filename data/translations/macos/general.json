@@ -2760,6 +2760,9 @@
  "Telegram.LayoutRecentCallsViewController": [
   "Recent Calls"
  ],
+ "Telegram.UpgradeDatabase.Text": [
+  "Telegram needs to optimize its database after this update. This may take a few minutes, sorry for the inconvenience."
+ ],
  "Text.Context.Copy.Code": [
   "Copy Code"
  ],
