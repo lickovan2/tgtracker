@@ -6057,7 +6057,7 @@
   "Add my name to the gift"
  ],
  "Gift2AddMyNameNameChannel": [
-  "Add channel's name to the gift"
+  "Add channel name to the gift"
  ],
  "Gift2AddSenderName": [
   "Add sender's name to the gift"
@@ -6135,7 +6135,7 @@
   "Do you want to buy **{1}** for **{0} Stars** and gift it to **{2}**?"
  ],
  "Gift2CantDoText": [
-  "Transfer this gift to your Telegram account on Fragment to unlock this action."
+  "Move this gift from your wallet to your profile to unlock this action."
  ],
  "Gift2CantDoTitle": [
   "Action Locked"
@@ -6144,13 +6144,13 @@
   "Change Price"
  ],
  "Gift2ChannelMadePrivate": [
-  "Gift is now hidden from visitors of your channel."
+  "Gift is now hidden from your channel's profile."
  ],
  "Gift2ChannelMadePrivateTitle": [
   "Gift Hidden"
  ],
  "Gift2ChannelMadePublic": [
-  "Gift is now visible in in your channel's Gifts."
+  "Gift is now visible on your channel's profile."
  ],
  "Gift2ChannelMadePublicTitle": [
   "Gift Shown"
@@ -6273,7 +6273,7 @@
   "Owner"
  ],
  "Gift2InBlockchain": [
-  "This gift is in TON Blockchain. **View >**"
+  "This gift is on the TON Blockchain. **View >**"
  ],
  "Gift2InSenderHidden2": [
   "Only you can see the senderʼs name."
@@ -6286,7 +6286,7 @@
   "You can add this gift to your profile or convert it to **{0}** Stars."
  ],
  "Gift2Info2BotKeep": [
-  "You can keep this gift in your Profile."
+  "You can add this gift to your profile or hide it."
  ],
  "Gift2Info2BotRemove": [
   "You can remove this gift from your Profile."
@@ -6295,7 +6295,7 @@
   "Your channel can keep this gift in channel's Gifts."
  ],
  "Gift2Info2ChannelRemove": [
-  "Your channel can hide this gift from channel's Gifts."
+  "Your channel can hide this gift from its profile."
  ],
  "Gift2Info2Expired": [
   "You can add this gift of {0} Star to your profile.",
@@ -6330,7 +6330,7 @@
   "{1} can add this gift to their profile or convert it to **{0}** Stars."
  ],
  "Gift2InfoOutPinned": [
-  "{0} kept this gift in your Profile."
+  "{0} added this gift to their profile."
  ],
  "Gift2InfoPinned": [
   "You added this gift to your profile."
@@ -6841,7 +6841,7 @@
   "See how this price will decrease >"
  ],
  "Gift2UpgradeCostsText": [
-  "Users who upgrade their gift first get collectibles with shorter numbers."
+  "Users who upgrade their gift first get collectibles with lower numbers."
  ],
  "Gift2UpgradeCostsTitle": [
   "Upgrade Cost"
@@ -6916,13 +6916,13 @@
   "Radiant Badge"
  ],
  "Gift2WearFeature2Text": [
-  "Your profile page will get the color and the symbol of this item."
+  "Your profile will have the same backdrop and symbol as this gift."
  ],
  "Gift2WearFeature2Title": [
   "Unique Profile Design"
  ],
  "Gift2WearFeature3Text": [
-  "Tapping the icon of this item next to your name will show its info and owner."
+  "Tapping the icon next to your name will show the gift's owner and attributes."
  ],
  "Gift2WearFeature3Title": [
   "Proof of Ownership"
@@ -6959,7 +6959,7 @@
   "This gift can't be used as the first one in crafting because it has been recorded on the blockchain."
  ],
  "GiftCraftCantChooseFirstTitle": [
-  "Can’t Choose First"
+  "Can't Choose as First"
  ],
  "GiftCraftFailedText": [
   "The crafting attempt was unsuccessful.**{0}** gift was lost.",
@@ -7395,10 +7395,10 @@
   "Upgrade your gifts to get a unique number, model, backdrop and symbol."
  ],
  "GiftsFeature2Text": [
-  "Sell your gift on Telegram or on third-part NFT marketplace"
+  "Sell your gift on Telegram or on third-party NFT marketplaces."
  ],
  "GiftsFeature3Text": [
-  "Display gifts on your page and set them as profile covers or statuses."
+  "Display gifts on your profile and set them as your cover or status."
  ],
  "GiftsFeature3Title": [
   "Wearable"
