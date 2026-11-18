@@ -22056,9 +22056,6 @@
  "StoryStealth.Actions.EnableStealthMode": [
   "The agent wants to turn on stealth mode: stories you viewed in the last 5 minutes and the next 25 won't show you as a viewer."
  ],
- "StoryStealth.Actions.StealthModeTitle": [
-  "Stealth mode"
- ],
  "StoryStealth.Actions.TurnOn": [
   "Turn On"
  ],

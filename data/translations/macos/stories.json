@@ -667,6 +667,9 @@
  "StoryMedia.Title.MyStories": [
   "My Stories"
  ],
+ "StoryStealth.Actions.StealthModeTitle": [
+  "Stealth mode"
+ ],
  "StoryView.ContextMenu.Block": [
   "Block User"
  ],
