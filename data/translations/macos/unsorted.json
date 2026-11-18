@@ -21416,18 +21416,6 @@
  "Story.CreationView.StopVideoNote": [
   "Stop Video Message"
  ],
- "Story.CreationView.StoryCaption": [
-  "Story caption"
- ],
- "Story.CreationView.StoryDuration": [
-  "Story duration"
- ],
- "Story.CreationView.StoryPreview": [
-  "Story preview"
- ],
- "Story.CreationView.SwitchCamera": [
-  "Switch Camera"
- ],
  "Story.Input.EmojiLimitReached": [
   "Emoji limit reached. Add Stars to increase limit."
  ],
@@ -21558,12 +21546,6 @@
  ],
  "StoryArchive.Actions.SeeStories": [
   "see your %1$@"
- ],
- "StoryArchive.Actions.SeeStoryAlbums": [
-  "see your story albums"
- ],
- "StoryArchive.Actions.Show": [
-  "Show"
  ],
  "StoryArchive.Actions.ShowOnProfile": [
   "The agent wants to show %1$@ on your profile, where everyone who can see your stories finds them."

@@ -361,6 +361,18 @@
  "Story.CreationView.Stickers": [
   "Stickers"
  ],
+ "Story.CreationView.StoryCaption": [
+  "Story caption"
+ ],
+ "Story.CreationView.StoryDuration": [
+  "Story duration"
+ ],
+ "Story.CreationView.StoryPreview": [
+  "Story preview"
+ ],
+ "Story.CreationView.SwitchCamera": [
+  "Switch Camera"
+ ],
  "Story.CreationView.Text": [
   "Text"
  ],
@@ -564,6 +576,12 @@
  ],
  "Story.Tooltip.VideoSent": [
   "Video Sent."
+ ],
+ "StoryArchive.Actions.SeeStoryAlbums": [
+  "see your story albums"
+ ],
+ "StoryArchive.Actions.Show": [
+  "Show"
  ],
  "StoryCreationAdjustmentsView.Purple": [
   "Purple"
