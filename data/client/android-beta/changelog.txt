@@ -1,3 +1,1 @@
-- allow dictation to contact who blocked receiving voice messages
-- updated tinyasr, better en-ru-uk model, update button for models
-- minor fixes
+- tinyasr speech to text: x2 faster speed, 40% less ram usage

@@ -455,7 +455,6 @@
 , buildId=
 , buildIdMappingForArch=
 , buildVersion=
-, bundles from the app zygote
 , but
 , but assuming AAC LC.
 , but current index is
@@ -7033,7 +7032,6 @@ app paused =
 app resume count
 app start time =
 app zygote preload failed
-app zygote: library and bundles in
 app:theme is now deprecated. Please move to using android:theme instead.
 appContext must not be null
 appIdToRouteInfo has these appId route keys:
@@ -7591,6 +7589,7 @@ decrypting transaction comment, failed to get secret phrase
 default browser name =
 defaultProcess
 deferred codec release: encoder threads exited
+deferred in all); last:
 delay notification start, onlineReason =
 delay reached
 delay update - contacts add =
@@ -7835,7 +7834,6 @@ endTime
 endX value must be in the range [0, 1]
 ended
 ended keep-alive job
-engine up:
 entries when adding custom keys. Maximum allowable:
 enum value
 eof
@@ -8231,6 +8229,7 @@ height must be positive or -1
 height:
 height="
 height_to_viewport_ratio_permille:
+held by the CPU quota:
 helvetica neue
 hevc encoder isn't hardware accelerated
 hex digit
@@ -8799,7 +8798,7 @@ moveto RESTORE_VIEW_STATE:
 moveto RESUMED:
 moveto STARTED:
 ms
-ms (bundles
+ms (JavaScript
 ms (captured
 ms (requested up to
 ms [
@@ -8809,7 +8808,6 @@ ms ago, subscribed
 ms already)
 ms busy,
 ms from
-ms from fork to onCreate, library
 ms getFile{time_ms=
 ms in
 ms in all
@@ -8825,10 +8823,9 @@ ms to its start)
 ms)
 ms,
 ms, chunks=
-ms, fonts in
+ms, layout queries
 ms, max=
-ms, seccomp
-ms, the validator in
+ms, validator
 ms.
 ms:
 ms: top
@@ -9706,7 +9703,6 @@ service=
 serviceNumber is non-zero (
 session
 session created: device=
-session in
 session request failed
 session summary: terminal=
 sessionCommand is already set. Only one of sessionCommand and playerCommand should be set.
@@ -10023,6 +10019,7 @@ tail=
 target=
 targetRequestCode=
 targetWho=
+tasks deferred in
 tasks to
 templateVersion
 temporary file deletion failed:
@@ -10342,7 +10339,6 @@ warm camera disconnected: id=
 warm camera error: id=
 warm camera open requested: id=
 warm camera opened: id=
-warm: bundles in
 warmup failed
 warning, not allowed in main thread
 was
@@ -10396,7 +10392,6 @@ while trying to fail enqueued calls.
 widget
 widget call
 widget engine process
-widget engine:
 widget height
 widget heights cleared
 widget payload:
