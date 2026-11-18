@@ -84,6 +84,9 @@ VOLATILE = [
     # Сервер отдаёт канонический адрес то со слешем, то без него.
     (re.compile(r"<link rel=\"canonical\"[^>]*>"), ""),
     (re.compile(r"(cdn\d*\.(?:telesco\.pe|cdn-telegram\.org)/file/[^\"'\s?]+)\?token=[^\"'\s]+"), r"\1"),
+    # Вопрос FAQ про TAKE IT DOWN Act (закон США) сайт показывает только американским IP.
+    # IP раннеров GitHub меняются, и блок то появлялся, то пропадал каждый день.
+    (re.compile(r"<h4>\s*<a class=\"anchor\" name=\"[^\"]*take-it-down-act\".*?</h4>\s*<p>.*?</p>\s*(?:<p>\s*</p>)?", re.S), ""),
 ]
 LINK_RE = re.compile(r"""<a\b[^>]*?href\s*=\s*["']([^"'#]+)""", re.I)
 ASSET_TAG = re.compile(r"""<(?:link|script|img|source)\b[^>]*>""", re.I)
