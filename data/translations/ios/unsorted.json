@@ -296,6 +296,34 @@
  "Bot.Slow": [
   "bot replies slowly"
  ],
+ "BotInvite.Error.AlreadyStarted": [
+  "This user already has a chat with the bot."
+ ],
+ "BotInvite.Error.AlreadyStartedMultiple": [
+  "These users already have a chat with the bot."
+ ],
+ "BotInvite.Error.Generic": [
+  "Unable to invite users. Please try again later."
+ ],
+ "BotInvite.Error.NotOwner": [
+  "Only the owner of the bot can invite users."
+ ],
+ "BotInvite.Error.Privacy": [
+  "Privacy settings of this user don't allow inviting them to bots."
+ ],
+ "BotInvite.Error.RateLimited": [
+  "Too many attempts. Please try again later."
+ ],
+ "BotInvite.Error.TooMany": [
+  "You can invite up to 10 users at a time."
+ ],
+ "BotInvite.SelectUsers.Title": [
+  "Invite to Bot"
+ ],
+ "BotInvite.Sent": [
+  "The invitation has been sent.",
+  "%@ invitations have been sent."
+ ],
  "BotPreview.DeleteConfirmation.Title": [
   "Delete Preview?"
  ],
@@ -704,6 +732,9 @@
  ],
  "Chat.AlwaysUseAI.ErrorTooLong": [
   "The message is too long for AI, so it wasn't sent. Tap Send to send it as it is."
+ ],
+ "Chat.BotInvite.OwnedBy": [
+  "%1$@ is owned by %2$@"
  ],
  "Chat.ClearReactionsAlertAction": [
   "Clear Recent Emoji"
@@ -1134,6 +1165,12 @@
  "Contacts.VoiceOver.AddContact": [
   "Add Contact"
  ],
+ "Conversation.BotInvite.InvitedBy": [
+  "%@ invited you to use this chatbot"
+ ],
+ "Conversation.BotInvite.ReportSpamAndBlock": [
+  "Report Spam and Block"
+ ],
  "Conversation.CantPhoneCallAnonymousNumberError": [
   "You can't call this phone number."
  ],
@@ -1473,8 +1510,17 @@
  "Gift.Craft.Select.SaleGifts": [
   "Suitable Gifts On Sale"
  ],
+ "Gift.MoveToWallet.KeepOnProfile": [
+  "Keep showing on my profile"
+ ],
  "Gift.Onchain.Buy.Sent": [
   "Purchase sent. **%@** will appear in your wallet once the network confirms it."
+ ],
+ "Gift.Onchain.Buy.SentGift": [
+  "Gift sent. **%1$@** will be delivered to **%2$@** shortly."
+ ],
+ "Gift.Onchain.Buy.SentGiftNoName": [
+  "Gift sent. **%@** will be delivered to the recipient shortly."
  ],
  "Gift.Onchain.Error.CancellationPending": [
   "Your gift was removed from sale, but the network hasn't confirmed it yet. Set the new price once it's confirmed."
@@ -1518,6 +1564,9 @@
  "Gift.Onchain.OpenWallet": [
   "Open My Money"
  ],
+ "Gift.Onchain.Reprice.Sent": [
+  "**%1$@** was repriced to **%2$@**."
+ ],
  "Gift.Onchain.Unlist.Sent": [
   "**%@** will be removed from sale once the network confirms it."
  ],
@@ -1547,6 +1596,9 @@
  ],
  "Gift.OnchainOffer.Confirm.Expires": [
   "Offer expires"
+ ],
+ "Gift.OnchainOffer.Confirm.OwnerReceives": [
+  "Owner receives"
  ],
  "Gift.OnchainOffer.Confirm.PlatformFee": [
   "Platform fee"
@@ -1602,6 +1654,9 @@
  "Gift.OnchainOffer.MinAmountToast": [
   "You cannot offer less than %@ for this gift"
  ],
+ "Gift.OnchainOffer.OwnerWillReceive": [
+  "The owner will receive **%@**."
+ ],
  "Gift.OnchainOffer.PriceDescription": [
   "Enter the number of Grams you'd like to offer for **%@**."
  ],
@@ -1616,6 +1671,9 @@
  ],
  "Gift.OnchainOffer.Sale.Sent": [
   "Sale submitted. You'll receive **%@** once it's confirmed on-chain."
+ ],
+ "Gift.OnchainOffer.Sale.Sent.Title": [
+  "Offer accepted"
  ],
  "Gift.OnchainOffer.Sale.Text": [
   "Sell **%1$@** for **%2$@**?"
@@ -2310,6 +2368,18 @@
  "News.Title": [
   "News"
  ],
+ "Notification.BotInvite.Invited": [
+  "%@ invited you to this bot"
+ ],
+ "Notification.BotInvite.InvitedUnknown": [
+  "You were invited to this bot"
+ ],
+ "Notification.BotInvite.UserInvited": [
+  "%@ invited this user to the bot"
+ ],
+ "Notification.BotInvite.UserInvitedUnknown": [
+  "This user was invited to the bot"
+ ],
  "Notification.ChannelMessagePriceChangedAndEnabledChannelMessage": [
   "{name} now accepts private messages for %d Star",
   "{name} now accepts private messages for %d Stars"
@@ -2349,6 +2419,9 @@
  "Notification.PremiumGift.Title": [
   "Telegram Premium"
  ],
+ "Notification.StarGift.Bought": [
+  "bought"
+ ],
  "Notification.StarGift.Subtitle.Downgraded": [
   "This gift was downgraded because a request to refund the payment related to this gift was made, and the money was returned."
  ],
@@ -2369,6 +2442,33 @@
  ],
  "Notification.StarGiftOnchainOffer.OfferYou": [
   "You offered **%1$@** for **%2$@**."
+ ],
+ "Notification.StarGiftOnchainOffer.Outcome.Accepted": [
+  "You accepted the offer"
+ ],
+ "Notification.StarGiftOnchainOffer.Outcome.AcceptedYou": [
+  "Your offer of **%1$@** for **%2$@** was accepted"
+ ],
+ "Notification.StarGiftOnchainOffer.Outcome.Declined": [
+  "You declined the offer"
+ ],
+ "Notification.StarGiftOnchainOffer.Outcome.DeclinedYou": [
+  "Your offer of **%1$@** for **%2$@** was declined"
+ ],
+ "Notification.StarGiftOnchainOffer.Outcome.Expired": [
+  "The offer of **%1$@** for **%2$@** has expired"
+ ],
+ "Notification.StarGiftOnchainOffer.Outcome.ExpiredYou": [
+  "Your offer of **%1$@** for **%2$@** has expired"
+ ],
+ "Notification.StarGiftOnchainOffer.Outcome.Sold": [
+  "You sold **%1$@** for **%2$@**"
+ ],
+ "Notification.StarGiftOnchainOffer.Outcome.Withdrawn": [
+  "The offer of **%1$@** for **%2$@** was withdrawn"
+ ],
+ "Notification.StarGiftOnchainOffer.Outcome.WithdrawnYou": [
+  "You withdrew your offer of **%1$@** for **%2$@**"
  ],
  "Notification.StarGiftOnchainOffer.Review": [
   "Review"
@@ -2868,11 +2968,17 @@
   "Delete 1 Message?",
   "Delete %@ Messages?"
  ],
+ "PeerInfo.Gifts.OnSale": [
+  "On Sale"
+ ],
  "PeerInfo.GroupAboutItem": [
   "about"
  ],
  "PeerInfo.GroupsInCommon.CreateGroup": [
   "Create Group with %@"
+ ],
+ "PeerInfo.InviteToBot": [
+  "Invite to Bot"
  ],
  "PeerInfo.PaneVoice": [
   "Voice Messages"
@@ -2991,6 +3097,9 @@
  ],
  "PrivacySettings.SecurityTitle": [
   "SECURITY"
+ ],
+ "Profile.Music.ShowPlaylist": [
+  "Show Playlist"
  ],
  "ProfileColorSetup.AccountColorInfoLabel": [
   "Choose a color for your profile"
@@ -3136,11 +3245,17 @@
  "RichText.ButtonActionCopy": [
   "Copies text"
  ],
+ "RichText.CaptionRemoveFormattingText": [
+  "Media captions can't contain buttons, headings, lists, tables or other rich formatting. The caption will be saved as text without them."
+ ],
  "RichText.PlaceholderCodeLanguage": [
   "Language"
  ],
  "RichText.PlaceholderQuoteAuthor": [
   "Add author"
+ ],
+ "RichText.SaveWithoutFormatting": [
+  "Save Without Formatting"
  ],
  "RichTextPreview.Formula": [
   "[formula]"
@@ -3283,6 +3398,9 @@
  ],
  "SettingsSearch.Synonyms.Premium.VoiceToText": [
   "Transcribe"
+ ],
+ "Share.Sending": [
+  "Sending"
  ],
  "ShareScreen.CreateGroupTooltip": [
   "Create a group and share with it"
@@ -4354,8 +4472,17 @@
  "Wallet.Transaction.CollectibleRepriced": [
   "Repriced to %@"
  ],
+ "Wallet.Transaction.CollectibleRepricedTitle": [
+  "Repriced"
+ ],
+ "Wallet.Transaction.CollectibleRepricedTo": [
+  "Repriced to %@"
+ ],
  "Wallet.Transaction.CollectibleSent": [
   "Sent"
+ ],
+ "Wallet.Transaction.CollectibleSold": [
+  "Sold"
  ],
  "Wallet.Transaction.CommentPrivacy": [
   "Comment privacy"
@@ -4365,6 +4492,9 @@
  ],
  "Wallet.Transaction.NetworkFee": [
   "Network fee"
+ ],
+ "Wallet.Transaction.NewPrice": [
+  "New Price"
  ],
  "Wallet.Transaction.OfferBuyer": [
   "Buyer"
@@ -4383,6 +4513,9 @@
  ],
  "Wallet.Transaction.OfferSeller": [
   "Seller"
+ ],
+ "Wallet.Transaction.OldPrice": [
+  "Old Price"
  ],
  "Wallet.Transaction.OutgoingCollectible": [
   "Outgoing collectible"
