@@ -157,14 +157,15 @@
 'wght' 500
 (Kotlin reflection is not available)
 (WEB)
+(app zygote)
 (at
 (candidates
 (captured
 (cpu_count =
 (edit=
-(engine started:
 (expected M4A or M4P)
 (experimental)
+(external
 (failed to query capabilities)
 (fallback from
 (from
@@ -269,6 +270,8 @@
 ): playing from
 ): playing from attachPath
 ): playing from null?
+): the engine does not start
+): the engine makes no session
 ): videoCapturer.startCapture
 ): videoCapturer.startCapture CAMERA
 ): videoCapturer.startCapture SCREEN
@@ -276,6 +279,7 @@
 ): videoCapturer.switchCamera CAMERA
 ): widths come from the client
 ** IS FORCE-RELEASED ON TIMEOUT **
++ Emoji
 +++ /dev/null
 +message did=
 +story did=
@@ -451,6 +455,7 @@
 , buildId=
 , buildIdMappingForArch=
 , buildVersion=
+, bundles from the app zygote
 , but
 , but assuming AAC LC.
 , but current index is
@@ -939,6 +944,7 @@
 , newHolder=
 , nextRequestWaitMillis=
 , no model for it)
+, no transaction of the wallet yet
 , no widget yet
 , nodeId=
 , nonMonotonicAudioPts=
@@ -1122,6 +1128,7 @@
 , rotation
 , routeGroupId=
 , rows=
+, rss
 , rss=
 , running
 , saltAuth=
@@ -1196,6 +1203,7 @@
 , startedAt=
 , state=
 , stats: [
+, status
 , status=
 , statusMessage=
 , statusbar height:
@@ -1348,6 +1356,7 @@
 , wait for it
 , waitForAccurateLocation
 , wallClock=
+, wallet tx id=
 , warm=
 , watchfaceCategories=
 , wearDetails=
@@ -1474,6 +1483,7 @@
 : diagnostic=
 : domain=
 : engine process died
+: exit reason
 : integrity check failed to give a token in
 : integrity check failes to parse project id
 : integrity check gave null token in
@@ -1619,9 +1629,6 @@ AC-4 level
 ACCOUNT NOT ACTIVATED
 ACCOUNT NOT FOUND
 AESSettingsCipherMode
-AI server failed:
-AI server ok:
-AI server timeout (25 s):
 AND
 AND ((end >=
 AND ((seq_out_start >=
@@ -1724,7 +1731,6 @@ APPLY PTS
 ATTACH DATABASE "
 AVI Header List not found
 AXON 7 mini
-About 30 MB per language. Keep only the ones you need.
 Accept exceeded fixed size of %d
 AccessibilityActionCompat:
 Acid Jazz
@@ -1765,7 +1771,6 @@ Advertised atom size (
 Airplane Mode:
 Algorithm with COSE value
 Algorithmic Synthesis and Audio FX
-All Styles
 All products must have the same package name.
 All products should be of the same product type.
 All products should have same ProductType.
@@ -1783,6 +1788,7 @@ Already resumed, but proposed with update
 Already suspended
 Alternative billing only dialog finished with resultCode
 AlternativeBillingListener and UserChoiceBillingListener is null.
+Always use in this chat
 American Express
 AmsEntityUpdateParcelable{, mEntityId=
 An Activity context is required to call this API.
@@ -1808,7 +1814,6 @@ An unexpected error has occurred.
 An unknown field for index
 AnalyticsConnector now available.
 AncsNotificationParcelable{, id=
-And it was good.
 Android Auto
 Android Pay
 Android Registration/Login Billing Issue #billing_issue
@@ -2004,7 +2009,6 @@ Before Buddhist
 Begin size %d is not equal to fixed size %d
 Beginning index larger than ending index:
 Beginning index:
-Behold, brethren:
 Best-effort write calls cannot pass methods that should auto-resolve missing features.
 Big Band
 Big beat
@@ -2082,7 +2086,6 @@ BoundedInputStream failed to skip
 Box Grey
 Box Red
 Box_Grey 2
-Breathe in.
 Broadcasting download intent for dependency
 Bubble requires non-null pending intent
 Budhhist Era
@@ -2287,6 +2290,7 @@ Cannot compute scroll delta before calling start()
 Cannot contain more than Integer.MAX_VALUE elements!
 Cannot create SeekableByteOrderedDataInputStream with stream that does not support mark/reset
 Cannot create an instance of
+Cannot create bundle directory
 Cannot create fragment
 Cannot create media decoder
 Cannot create media encoder
@@ -2373,6 +2377,7 @@ Carrot Juice
 CastDevice parameter cannot be null
 Category for SessionProvider must not be null or empty string.
 Cell status:
+Cells with cached hashes are not supported
 Celtic Blue
 Cesta bez názvu
 Ceļš bez nosaukuma
@@ -2472,7 +2477,6 @@ Commit:
 Communication with the client broken
 Communication with the client broken, or an bug in the handler code
 Comp 1
-Compact languages
 Compile error
 Complete with:
 Completed exception processing, but no default exception handler.
@@ -2644,7 +2648,6 @@ Could not synthesize final report file for
 Could not unparcel the data.
 Could not unparcel the extra data.
 Couldn't create XmlPullParserFactory instance
-Couldn't download the speech recognition model
 Couldn't encode request, returning with 400
 Couldn't find a double value
 Couldn't find a integer value
@@ -2671,7 +2674,7 @@ Couldn't parse timestamp:
 Couldn't parse value of
 Couldn't resolve menu item onClick handler
 Couldn't retrieve information from network
-Couldn't start speech recognition
+Couldn't rewrite the message. It wasn't sent.
 Couldn't use Java reflection to implement protocol message reflection.
 Count must be greater than or equal to the maximum of all grid indices (and spans) defined in the LayoutParams of each child
 Count overflow has happened.
@@ -2786,7 +2789,6 @@ Dead object in setShuffleMode.
 Dead object in unregisterCallback.
 DeadObjectException thrown while calling register listener method.
 DeadObjectException thrown while running ApiCallRunner.
-Dear all,
 Death Metal
 Debug metadata version mismatch. Expected: 1, got
 Decline ToS update
@@ -2813,8 +2815,6 @@ DefaultTeXFont.xml: the default text style mapping '
 DefaultTrackSelector is accessed on the wrong thread.
 Deferring native open session:
 Delay for:
-Delete all local transcriptions
-Delete all models
 Deleted corrupt file:
 Deleted previous Crashlytics file system:
 Deleted report file:
@@ -2908,8 +2908,6 @@ Download timed out
 Downloaded
 Downloading
 Downloading file...
-Downloading models…
-Downloading model…
 Draw action bar shadow
 Drawable resource ID must not be 0
 Drm session requires secure decoder for
@@ -3153,6 +3151,7 @@ Error: Update listeners must be added beforethe animation.
 ErrorCode should not be 0.
 Estrada sem nome
 Every 5 minutes
+Every message you send in this chat will be rewritten with these settings.
 Every minute
 Exactly one of sessionCommand and playerCommand should be set
 Exceeded cutoff limit for max depth of cbor value
@@ -3225,6 +3224,7 @@ Expected numeric literal
 Expected object header. Got 0x
 Expected one JSON data parameter
 Expected one JSON transaction parameter
+Expected one root cell
 Expected positive parallelism level, but got
 Expected size
 Expected size must be >= 0
@@ -3500,7 +3500,6 @@ Failure in canAuthenticate(). FingerprintManager was null.
 Failure not sent to client. Client is not awaiting a result.
 Failure occurred while trying to finish a future.
 Failure.exception is unexpectedly null.
-Fallback to Google
 Fallbacks with blocking fetches are not supported for performance reasons
 Fast Fusion
 Fatal exception in coroutines machinery for
@@ -3564,7 +3563,6 @@ Font color has not been defined.
 Font color not defined
 Font load failed
 FontRequest {mProviderAuthority:
-For other languages, app can use system speech recognition. This might send your voice data to Google or other vendor servers.
 Force Forum Tabs
 Force TCP
 Force performance class
@@ -3718,34 +3716,27 @@ HW AEC will not be used.
 HW NS not supported
 HW NS will be used.
 HW NS will not be used.
-Hail, shield-brothers!
 Half root index out of range
 Handling uncaught exception "
 Hard Rock
 HashCode#asInt() requires >= 4 bytes (it only has %s bytes).
 Header:
-Hear me, my tribe!
 Heavy Metal
 Heif meta:
 Height and width must be at least 1
 Hello World!
-Hello everyone
-Hello everyone, I hope you are all doing well.
-Hey guys
 Hey guys, how are you?
-Hey! Running ten minutes late, see you at the café near the station ·
 Highlighter is closed
 Hijrah date out of range
 Hint Track
+Hold to dictate
 Holder at
 Host unresponsive when dispatching call
 Hunter Green
 Hz
 Hz isn't a multiple of 16 kHz: no transcript
 I don't know how to deal with UInt64! long is not sufficient and I don't want to use BigInt
-I hope you are all doing well
 I recorded it this morning on my way to the office.
-I think
 I think dictation looks really nice now and the text keeps every word even when I pause for a while
 I think dictation looks really nice now, and the text keeps every word even when I pause for a while.
 I'm trying to use my mobile phone number:
@@ -3895,7 +3886,6 @@ Image Loader image is empty =
 Image exceeds max size of 1048576
 ImageLabelerOptions can not be null
 ImportingService timeout, type =
-In my opinion,
 In-app billing API does not support subscription on this device.
 In-app billing API version 3 is not supported on this device.
 Incomplete Mp4Webvtt Top Level box header found.
@@ -4201,6 +4191,7 @@ Invalid percentage-based rating value
 Invalid phone number:
 Invalid pixel format:
 Invalid pointerId=
+Invalid prepared message count
 Invalid program cache
 Invalid purchase token.
 Invalid rating style (
@@ -4291,7 +4282,6 @@ Key/provisioning request produced an unexpected exception. Not retrying.
 Keys in CBOR Map not in strictly ascending natural order: Previous key:
 Khaki Green
 Kif inti
-Kind regards.
 Kotlin reflection implementation is not found at runtime. Make sure you have kotlin-reflect.jar in the classpath
 Kotlin reflection is not yet supported for synthetic Java properties. Please follow/upvote https://youtrack.jetbrains.com/issue/KT-55980
 L = \int_a^b \sqrt{ \left|\sum_{i,j=1}^ng_{ij}(\gamma(t))\left(\frac{d}{dt}x^i\circ\gamma(t)\right)\left(\frac{d}{dt}x^j\circ\gamma(t)\right)\right|}\,dt\\
@@ -4325,7 +4315,6 @@ Legacy decoding is disabled, can't handle %s samples (expected %s).
 Length Required
 Length too large:
 Lengths did not match: %d %d %d
-Let's align on next steps and circle back by EOD. ������
 Library not found, arch =
 Library operation cancelled
 Library operation failed
@@ -4350,9 +4339,6 @@ Listener key cannot be null.
 Listener must not be null
 Listener shouldn't be null
 Listener type must not be empty
-Live Captions
-Live captions aren't available: the speech model couldn't be loaded.
-Live transcript
 Load local lib
 Loaded FfmpegAudioRenderer.
 Loaded FfmpegVideoRenderer.
@@ -4405,6 +4391,8 @@ Low latency mode will be used.
 Lowering AudioTrack buffer size from
 LruCache.sizeOf() is reporting inconsistent results!
 MB
+MB, over
+MB: the engine stops
 MEMORY_LEAK observer
 MIUI: no permission to show when locked but the screen is locked. ¯\_(ツ)_/¯
 MM-dd HH:mm:ss
@@ -4507,8 +4495,6 @@ Method Not Allowed
 Method is not supported
 Method to create IInterface from a Binder is not accessible for interface:
 Mexican Pink
-Microphone error
-Microphone permission needed
 Midnight Blue
 Migration from
 Min API level (androidx.car.app.minCarApiLevel=
@@ -4642,7 +4628,6 @@ Native noise suppressor is already released
 Native token is outside its parent
 NavigationLayout added in non-activity context!
 Navy Blue
-Needs Android 13 or newer.
 Negative size:
 Negative text must be set and non-empty.
 Negative text must not be set if device credential authentication is allowed.
@@ -4698,7 +4683,6 @@ No cached settings data found.
 No camera to switch to.
 No cameras attached.
 No cancellationSignal found
-No connection for speech recognition
 No constant state support for SDK < 24.
 No context available. Manually call MlKit.initialize(), otherwise ML Kit will not be functional.
 No crash reports are available to be sent.
@@ -4755,14 +4739,12 @@ No response
 No response set.
 No result cursor
 No rich message copied
-No rush — all in good time. ������
 No seed set
 No shared EglBase.Context. Encoders will not use texture mode.
 No start tag found
 No such camera:
 No such package:
 No supported capture formats.
-No text recognized
 No time remaining for reconnection attempt.
 No time-zone data files registered
 No userId set for session
@@ -4794,6 +4776,7 @@ Nonexistent connection status for service config:
 Not Acceptable
 Not Found
 Not Implemented
+Not JSON
 Not Modified
 Not a JPEG:
 Not a binary PGM (P5), got:
@@ -4823,7 +4806,6 @@ Not running on main thread when it is required to
 Not showing biometric prompt. Context is null.
 Not supported by GmsCore
 Not supported for bimaps
-Nothing leaves the phone
 Nothing recognised — type here
 Notification Channel requested (
 Notification Channel set in AndroidManifest.xml has not been created by the app. Default value will be used.
@@ -4915,6 +4897,7 @@ Numeric value overflow
 ON_ANY must not been send by anybody
 OR
 OR unread_count > 0)
+OR used_at >
 OS name
 OS version: SDK
 Object for unknown class:
@@ -4932,7 +4915,6 @@ Offsets must not be equal
 Old Gold
 Old SKU purchase information(token/id) or original external transaction id must be provided.
 OldProductId must not be one of the products to be purchased. Invalid old product id:
-On-device transcription
 OnBackPressedCallback enabled=
 OnBackPressedCallback for FragmentManager
 One of the API components you attempted to connect to is not available.
@@ -5081,6 +5063,7 @@ PRAGMA user_version = 179
 PRAGMA user_version = 18
 PRAGMA user_version = 180
 PRAGMA user_version = 181
+PRAGMA user_version = 182
 PRAGMA user_version = 19
 PRAGMA user_version = 2
 PRAGMA user_version = 20
@@ -5302,7 +5285,6 @@ Previous sessions could not be finalized.
 Previous wallet send is still unresolved
 Primitive descriptor does not have elements
 PriorityMapping is missing known Priority value
-Private by design
 Problem closing file
 Problem encountered deleting Crashlytics initialization marker.
 Problem in loading the class at
@@ -5371,7 +5353,6 @@ Querying owned items, item type:
 Querying product details is not supported.
 Queue size:
 Queueing
-Quick sync:
 Quitting render thread.
 REPLACE INTO
 RLottieDrawable nativePtr == 0
@@ -5417,7 +5398,6 @@ Received null app settings, cannot send reports at crash time.
 Received null response from onSignInSuccess
 Received response for unknown request:
 Received response to request:
-Recognized on your phone
 Reconnection failed due to timeout limit reached.
 Reconnection failed with result:
 Reconnection succeeded with result:
@@ -5648,7 +5628,6 @@ SelfStoryViewsPage load next
 SelfStoryViewsPage reactions
 SelfStoryViewsPage reactions load next
 Senc sample count
-Send as text
 Send email...
 Send log
 Send:
@@ -5722,7 +5701,6 @@ Shortcut must have an intent
 ShortcutInfoCompatSaver started with an exceptions
 Shouldn't reach here.
 Show blur settings
-Show text while recording
 Showing incoming call notification
 Showing notification
 Shutting down is not allowed.
@@ -5730,6 +5708,7 @@ Sign in result data cannot be null
 Sign-in mode should have been set explicitly by auto-manage.
 Sign-in succeeded with resolve account failure:
 Sign-out occurred while this API call was in progress.
+Signal too long
 Signal:
 Signal: unknown
 Signing out
@@ -5780,7 +5759,6 @@ Skipping unsupported compressed or encrypted frame
 Skipping unsupported emsg version:
 Sku is owned:
 Sky Blue
-Skål! ⚔️
 Slow Jam
 Slow Rock
 SlowMotion: segments=
@@ -5814,13 +5792,6 @@ SpecialEffectsController: Processing Progress
 SpecialEffectsController: Removing view
 SpecialEffectsController: Setting view
 Specify a proper usage in the audio attributes for audio focus handling. Using AUDIOFOCUS_GAIN by default.
-Speech recognition isn't available
-Speech recognition isn't available on this device
-Speech recognition language isn't available
-Speech recognition stopped (
-Speech to Text
-Speech to Text settings
-Speech turns into text right on this phone, even offline.
 SpoilerEffect2, compile fragment shader error:
 SpoilerEffect2, compile vertex shader error:
 SpoilerEffect2, link draw program error:
@@ -6012,7 +5983,6 @@ Test User
 Test session already enabled - `enableTestSession` should only be called once.
 Test-keys aren't accepted on this build.
 Text can not be null
-Text in a field above the recorder
 Text too long
 Texture frame captured but camera is no longer running.
 Texture height must be positive, but was
@@ -6087,7 +6057,6 @@ The device does not contain a restore credential.
 The device doesn't have valid Play Billing Lab.
 The device doesn't have valid Play Store.
 The device implements a fixed volume policy.
-The drums have spoken. ������
 The encrypted comment exceeds 960 UTF-8 bytes
 The encryption IV attribute must be present when an initialization segment is encrypted with METHOD=AES-128.
 The end of the stream has been reached unexpectedly.
@@ -6200,7 +6169,7 @@ Thrash Metal
 Thread #
 Thread:
 ThumbnailMetadata: presentationTimeUs=
-Tilt needs to be between 0 and 90 inclusive:
+Tilt needs to be between 0 and 90 inclusive: %s
 Time in milliseconds as long
 Time must be midnight when end of day flag is true
 Time out while launching billing flow. Try to reconnect
@@ -6660,6 +6629,7 @@ Unsorted EPK3 IDs
 Unsubscribe from topic:
 Unsupported
 Unsupported AC-4 DSI version:
+Unsupported BOC
 Unsupported BOC flags
 Unsupported ID3v2 version:
 Unsupported JS expression
@@ -6816,9 +6786,6 @@ VoIPPreNotification.answer(): pending intent is not found
 VoIPPreNotification.show(): call or intent is null
 VoIPService: trying to open group call without call
 VoIPService: user == null AND chat == null
-Voice message transcription and dictation
-Voice messages are transcribed on this phone. Private: nothing leaves it.
-Voice messages turn into text right here, on your phone.
 Volume cannot be
 Volume slider background color cannot be translucent: #
 Volume slider progress and thumb color cannot be translucent: #
@@ -6859,16 +6826,13 @@ Wavetable synthesis
 We have not been given a Window
 We should never reach this state
 WebAuthn PRF��
-What are your thoughts on
-What do you think about
 When attempting to convert get response, null credential found
-While a locked voice recording runs, the speech appears in a field above the recorder. Trimming the recording trims the text, resuming adds to it; send it as text or Enhance it.
-While a locked voice recording runs, the speech is also shown as text over the blurred chat, with Edit and Send to turn it into a text message.
 While parsing a protocol message, the input ended unexpectedly in the middle of a field. This could mean either that the input has been truncated or that an embedded message misreported its own length.
 Wi-Fi:
 Wibe Big
 Wibe Big 3
 Wibe Small
+Widget 0123
 Widget bundles are missing
 Widget bundles:
 Widget client:
@@ -6877,6 +6841,10 @@ Widget engine did not start
 Widget engine service is unavailable
 Widget engine stopped
 Widget engine: argument too large
+Widget engine: every process shows another bot's widget
+Widget engine: no seccomp filter on this device
+Widget engine: too many calls at once
+Widget engine: too many signals
 Widget heights cleared
 Widgets are disabled by the app config
 Window callback may not be null
@@ -6914,7 +6882,6 @@ You should now use the AppCompatDelegate.FEATURE_SUPPORT_ACTION_BAR_OVERLAY id w
 You should override computeScrollVectorForPosition when the LayoutManager does not implement
 Your activity is not yet attached to the Application instance. You can't request ViewModel before onCreate call.
 Your device doesn't support credential manager
-Your voice and its text are never sent to a server for this.
 ZTE B2017G
 Zone offset hours not in valid range: value
 Zone offset minutes and seconds must be negative because hours is negative
@@ -7016,13 +6983,13 @@ after animation is cancelled, item should not be in mMoveAnimations list
 after animation is cancelled, item should not be in mRemoveAnimations list
 after document change
 ageMs=
+aicompose.setChatStyle failed:
 alert already showed for
 align="
 alignPending=
 all networks are unavailable.
 allCount =
 allowScroll
-alpha
 alpha must be between 0 and 255.
 already added
 already added to this fragment.
@@ -7065,6 +7032,8 @@ app initied
 app paused =
 app resume count
 app start time =
+app zygote preload failed
+app zygote: library and bundles in
 app:theme is now deprecated. Please move to using android:theme instead.
 appContext must not be null
 appIdToRouteInfo has these appId route keys:
@@ -7405,6 +7374,7 @@ chars → field
 chars)
 chars, recording
 chars=
+chars>
 chat paused
 chat=
 chatItemAnimator disable notifications
@@ -7454,7 +7424,6 @@ codecs:
 collection too large
 colon ':'
 color format:
-color=
 colorRange must be the same for both views
 colorSpace must be the same for both views
 colorTransfer must be the same for both views
@@ -7468,6 +7437,7 @@ commit morph from circle
 common A/V start armed; waiting for next camera frame: segmentElapsedMs=
 common A/V start completed: segmentElapsedMs=
 common=
+complete=
 completed
 completed pending transaction: msg_hash=
 composer isn't a direct child of the root: overlay on top
@@ -7677,6 +7647,7 @@ dictCount =
 did
 did =
 did IN (
+did not answer a tick
 did not call through to super.onActivityCreated()
 did not call through to super.onAttach()
 did not call through to super.onCreate()
@@ -7688,6 +7659,7 @@ did not call through to super.onResume()
 did not call through to super.onStart()
 did not call through to super.onStop()
 did not create a view.
+did not make a session in 15000 ms
 did not return a View from onCreateView() or this was called before onCreateView().
 did=
 didCrash=
@@ -7768,8 +7740,6 @@ download failed (
 download queue: dc
 download stalled
 downloaded duplicate file part
-draft draw settle=
-draft from=
 draft gone
 draw=
 drop frame startTime =
@@ -7821,6 +7791,7 @@ emulate disable backup: no engine!
 emulate disable backup: ready
 emulate disable backup: when ready
 emulateDepositNFT: invalid payload
+emulatePreparedMessage: invalid message
 enable backup
 enable backup: diagnostics sharesReconstructPaddedMnemonic=
 enable backup: didnt get backup holders:
@@ -8164,16 +8135,19 @@ getSecretPhrase: couldn't decrypt
 getSecretPhrase: device has secured phrase, requesting
 getSecretPhrase: encryption error
 getSecretPhrase: exportSecretPhrase through password request
+getSecretPhrase: local phrase unavailable:
 getSecretPhrase: mnemonic public key doesn't match one from server: server=
 getSecretPhrase: no parts???
 getSecretPhrase: no secret parts, zero dcs
 getSecretPhrase: no secret parts:
 getSecretPhrase: no server backup!
 getSecretPhrase: part
+getSecretPhrase: password request closed without a result
 getSecretPhrase: ready!
 getSecretPhrase: received
 getSecretPhrase: received all parts
 getSecretPhrase: requesting
+getSecretPhrase: unlock canceled
 getSecretPhrase: whenReady...
 getSkuDetails() failed for queryProductDetailsAsync. Response code:
 getSkuDetails() returned a bundle with neither an error nor a product detail list for queryProductDetailsAsync.
@@ -8191,8 +8165,6 @@ glCreateShader() failed. GLES20 error:
 glError:
 global Firebase setting
 gmpAppId
-going to
-gonna
 got
 got error
 got hole
@@ -8427,6 +8399,7 @@ in unsafe mode.
 in viewport
 in=
 inSel=
+in_msg=
 incoming=
 index
 index:
@@ -8677,7 +8650,6 @@ loading contacts 3 query time =
 loading remote themes, hash
 loading text
 local transcription of msg_id=
-local transcriptions deleted
 localId != reqId
 local_id =
 locale does not support dates before 1868 AD) Unparseable date: "
@@ -8690,8 +8662,6 @@ log session ended with error = %d
 logging failed.
 login token to check
 long="
-looks really nice
-looks really nice now,
 lookup IN (
 lookup folder
 lookup type greater than 2 not decodable:
@@ -8781,6 +8751,8 @@ messages =
 messages load time =
 messages.getMessages error:
 metadata cannot be null
+microphone error
+microphone permission needed
 mid =
 mid=
 mids =
@@ -8841,22 +8813,24 @@ ms from fork to onCreate, library
 ms getFile{time_ms=
 ms in
 ms in all
+ms in process
 ms of audio in
 ms of audio,
 ms of speech in
 ms since start)
 ms speech in
 ms to
-ms to bind)
 ms to fit to
+ms to its start)
 ms)
 ms,
 ms, chunks=
+ms, fonts in
 ms, max=
 ms, seccomp
+ms, the validator in
 ms.
 ms:
-ms: "
 ms: top
 ms; errorCode=
 ms]
@@ -8894,6 +8868,7 @@ name must not be null
 name=
 namespaces cannot be null
 nanoseconds
+native heap
 nativeOutputSampleRate:
 nativeTrack may not be null
 need fix parsing csd data
@@ -8937,7 +8912,10 @@ next attempt
 next task =
 nextIfdOffset: %d
 nextIfdType:
+no answer in 45000 ms
+no binding
 no calls to next() since the last call to remove()
+no connection for speech recognition
 no error message provided
 no event down from
 no event up from
@@ -8947,6 +8925,7 @@ no parent
 no path defined
 no protocol version specified, strange. Assuming HTTP/1.1.
 no purpose under
+no seccomp filter in this kernel (errno
 no service supports any language → no dictation
 no space left on device
 nonce =
@@ -8974,6 +8953,7 @@ not found. Known fields are
 not found. Notification will use default icon.
 not implemented
 not in (
+not on chain yet
 not recording
 not recyclable(
 not seekable to start
@@ -8995,8 +8975,6 @@ notify transferring with type = %d
 notifyEvent
 notifyEvent viewport_changed dropped for untrusted document
 now
-now looks truly polished
-now looks truly polished,
 null Intent
 null and empty keys are not allowed
 null application Context
@@ -9155,7 +9133,7 @@ onRemoveQueueItem(): Media ID shouldn't be null
 onRenderProcessGone priority=
 onReportServiceBinding must be called on the GoogleApiClient handler thread
 onRequestDialog(%s): got null dialog intent
-onResults "
+onResults
 onRouteSelected with reason = %d, routeId = %s
 onRouteUnselected with reason = %d, routeId = %s
 onSeekTo %d
@@ -9254,7 +9232,7 @@ parser error
 parsing details of
 part
 part from dc
-partial "
+partial
 password == null
 password should not be empty
 path is empty
@@ -9267,7 +9245,6 @@ pause requested: durationMs=
 paymentDataRequestJson cannot be null!
 paymentPurpose=
 pc
-peace be upon you
 peer pubkey out of range
 peer settings loaded for
 peer_access_hash=
@@ -9357,6 +9334,7 @@ preview surface size changed: view=
 priority
 priority=
 probably forgot to put setCallback
+process
 process load media messagesCount
 process participant
 process time=
@@ -9503,7 +9481,6 @@ registrationStatus
 reinstalling
 rejected (
 release deferred: output is still finishing
-release it
 release waits for camera open results: pending=
 release without a matched acquire!
 release() called on a session that's already fully released.
@@ -9629,7 +9606,6 @@ running=[NOT STARTED YET]
 running=[RUNNING ON
 s for report:
 sActiveHandler.mPopup == null
-sail it to glory
 sample rate =
 sample rates=
 sampleRate.support,
@@ -9684,12 +9660,13 @@ sdk=
 sdkVersion
 search migrate id
 search(): Ignoring empty query
+seccomp filter refused (errno
 secret =
 seek to data offset:
 seekTo ignored because an ad is playing
 seeking from photo viewer to animation object
 seen_range_ratio_permille:
-segment "
+segment
 segmentBase must be of type SingleSegmentBase or MultiSegmentBase
 segmentation optional module to be downloaded
 segoe ui
@@ -9703,12 +9680,15 @@ self-check ok: chunks=
 selfUserId=
 send
 send ->
+send completed by the chain: msg_hash=
 send from listening (
 send message user_id =
 send message with in_seq =
 send reqId
 send request
 send to
+sendPreparedMessage: invalid gasless message, sending the normal one
+sendPreparedMessage: invalid message
 sendResponse(): Status can't be null.
 sendTransfer:
 sending Transcription request, msg_id=
@@ -9731,6 +9711,8 @@ session request failed
 session summary: terminal=
 sessionCommand is already set. Only one of sessionCommand and playerCommand should be set.
 sessionToken must not be null
+sessions
+sessions makes room for another bot
 sessions=
 set VoIPService.callIShouldHavePutIntoIntent =
 set as patched
@@ -9780,7 +9762,6 @@ shader code:
 shape detector learning debug
 shape#
 share =
-ship it
 should be
 should be at least 1
 should be greater than or equals to core pool size
@@ -9850,25 +9831,28 @@ sms listener registered
 smta: captureFrameRate=
 snap preference should be one of the constants defined in SmoothScroller, starting with SNAP_
 sniff failures:
-so let us
 source already consumed or closed
 source is out of range of [0, 5] (too high)
 source is out of range of [0, 5] (too low)
 source mismatch my =
 source size
 source=
-source=test-file
-southern latitude exceeds northern latitude (
+southern latitude exceeds northern latitude (%s > %s)
 southwest must not be null.
 spam =
 spans but GridLayoutManager has only
 spans.
-spans:
 speech begins
+speech model download failed
 speech models:
 speech models: cached list unreadable:
 speech models: couldn't store
 speech models: list failed:
+speech recognition failed to start
+speech recognition language unavailable
+speech recognition stopped (
+speech recognition unavailable
+speech recognition unavailable on this device
 spoiler gles error
 sqlite busy
 sqlite busy, waiting...
@@ -9943,6 +9927,7 @@ state
 state =
 state changed to
 state:
+state=
 step
 sticker in EmojiAnimations
 stop encoder
@@ -9958,6 +9943,7 @@ stop: no final within 1.6 s, keeping the partial
 stop=
 stopped
 stopped (
+stopped with error:
 stopping VoIP service, Ga == null
 stopping VoIP service, Ga hash doesn't match
 stopping VoIP service, bad Ga and Gb
@@ -9983,7 +9969,7 @@ stripByteCounts should not be null or have zero length.
 stripOffsets and stripByteCounts should have same length.
 stripOffsets should not be null or have zero length.
 stripped=
-styles from server tones:
+style request failed (no error from the server)
 sub chain (we requested
 subchain at #
 subchain, next_offset=
@@ -9994,6 +9980,7 @@ subscription error; id=
 subscription fee
 subscription rejected
 succeeded.
+success=
 superState must be null
 superState must not be null
 support probe:
@@ -10040,10 +10027,6 @@ tasks to
 templateVersion
 temporary file deletion failed:
 tenc atom is mandatory
-test source
-test source closed:
-test source done
-test source:
 test_number_token is invalid
 tex =
 text=
@@ -10095,7 +10078,7 @@ tinyasr → Google in
 tinyasr:
 tinyasr: can't decode
 tinyasr: can't transcribe
-tinyasr: events
+tinyasr: decode failed
 tinyasr: file
 tinyasr: file pass in
 tinyasr: finished,
@@ -10105,6 +10088,8 @@ tinyasr: models, VAD and tinylid deleted
 tinyasr: session
 tinyasr: switching to
 tinyasr: tinylid
+tinyasr: transcription failed
+tinyasr: unreadable events (
 tinyasr: words
 tinylid
 tinylid: download failed:
@@ -10117,7 +10102,7 @@ tinylid: not on the server
 title=? AND account_type=? AND account_name=?
 tmpDetached
 to
-to 181
+to 182
 to Container
 to GONE
 to INVISIBLE
@@ -10165,6 +10150,7 @@ totalCount=
 totalSize=
 totalVideoFrameProcessingOffsetUs=
 tr =
+trace=
 track types =
 transactions=
 transfer is sent, msg_hash=
@@ -10245,6 +10231,7 @@ unsupported block
 unsupported field type.
 unsupported view type
 unzip failed:
+up in
 update
 update Cast device to %s
 update message short userId =
@@ -10351,8 +10338,6 @@ wallet read-back mismatch
 wallet staging cleanup
 wallet too large
 wallet-engine transaction
-wanna
-want to
 warm camera disconnected: id=
 warm camera error: id=
 warm camera open requested: id=
@@ -10410,11 +10395,15 @@ while other had
 while trying to fail enqueued calls.
 widget
 widget call
+widget engine process
+widget engine:
 widget height
+widget heights cleared
 widget payload:
 widget preview
 widget sendTransfer
 widget sign data
+widgets are off: the kernel has no seccomp filter for the engine's process
 width and height must not be negative
 width:
 width="
@@ -10481,6 +10470,7 @@ you get approximately %1$s %2$s
 yyyy-MM-dd HH:mm:ss
 yyyy-MM-dd HH:mm:ss.SSS
 yyyy:MM:dd HH:mm:ss
+zoom requested
 zoom="
 { accountName: '
 { actionStatus: '
@@ -10553,6 +10543,5 @@ zoom="
 Сайн уу
 ← NOT full-screen: a strip stays unblurred
 → Google?
-→ mock
 ️⃣ emoji in FestiveFontEmoji
 ������ Got it

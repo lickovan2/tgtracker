@@ -65,7 +65,9 @@ advanced_chat_management
 after_id
 agent_bot_ids
 aggregation_mode
+ai_chat_styles
 ai_compose
+ai_style
 ai_styles
 aicompose_tone_examples_num
 aicompose_tone_prompt_length_max
@@ -112,6 +114,7 @@ android_round_video_recorder_v2_disabled
 android_side_menu_static
 android_sound
 android_x86
+anim_ai_always
 animated_emoji
 animated_userpics
 animator_duration_scale
@@ -328,6 +331,7 @@ bot_info_v2
 bot_info_version
 bot_inline_geo
 bot_inline_placeholder
+bot_inviter_id
 bot_keyboard
 bot_keyboard_topics
 bot_managed
@@ -335,6 +339,7 @@ bot_manager_id
 bot_menu_webview
 bot_name
 bot_nochats
+bot_owner_id
 bot_participant
 bot_payload
 bot_preview_medias_max
@@ -381,6 +386,7 @@ button_id
 button_text
 button_text_color
 buy_allowed
+buyer_refund
 by_location
 by_me
 bytes_so_far
@@ -646,6 +652,7 @@ cooldown_until_date
 copy_text
 correct_answers
 count_remains
+counterparty_address
 countries_iso2
 countries_langs
 country_code
@@ -937,11 +944,13 @@ exclude_unsaved
 exclude_unupgradable
 exclude_upgradable
 exclude_users
+execution_allowance
 existing_chats
 existing_instance_identifier
 exit_code
 exp_month
 exp_year
+expected_amount
 experiment_ids_clear_blob
 experiment_ids_encrypted_blob
 experimental_settings_allowed
@@ -962,6 +971,7 @@ extend_media
 extend_top
 extended_media
 external_exceptions
+external_hash
 external_offer_flow_pending_intent
 external_offer_flow_result_receiver
 external_payment_dialog_pending_intent
@@ -990,6 +1000,7 @@ feature_usage_package_name
 feature_usage_sdk_version
 featured_hidden
 fee_amount
+fee_bps
 few_value
 fgcolor_macro
 file_download_requested
@@ -1030,6 +1041,7 @@ first_name_native
 first_party
 first_sale_date
 fixed_frame_rate_flag
+fixed_sale
 floating_debug
 floodskip_number
 floor_price
@@ -1073,6 +1085,7 @@ forum_sidebar
 forum_tabs
 forum_topic
 forum_upgrade_participants_min
+forward_amount
 forward_chats
 forward_into_channel
 forward_to
@@ -1091,6 +1104,7 @@ fpnv_verify_phone_number
 frac_macro
 fragment_listed_count
 fragment_listed_url
+fragment_only
 frame_only_constraint_flag
 frame_start
 free_form
@@ -1142,6 +1156,9 @@ g_b
 game_hash
 game_id
 game_outcome
+gasless_available
+gasless_message
+gasless_messages
 general_constraint_indicator_flags
 general_level_idc
 general_profile_compatibility_flags
@@ -1194,6 +1211,7 @@ google_signin_allowed
 google_storage_bucket
 google_token
 gpay_parameters
+gram_earnings_wallet_withdraws
 gram_wallet
 greeting_message
 grkaccent_macro
@@ -1321,6 +1339,7 @@ incoming_calls3
 incoming_calls4
 incoming_number
 infinite_reactions
+init_state
 initial_sale_date
 initial_sale_price
 initial_sale_stars
@@ -1370,6 +1389,7 @@ is_app
 is_copy
 is_fullscreen
 is_fully_rolled_out
+is_incomplete
 is_megagroup
 is_outgoing
 is_output_switcher_enabled
@@ -1445,6 +1465,8 @@ last_call_time
 last_checked
 last_gift_num
 last_message_date
+last_msg_date
+last_msg_id
 last_name
 last_name_card
 last_name_native
@@ -1685,6 +1707,7 @@ my_profile_gift
 my_public_key
 my_public_key_id
 my_results
+my_sale
 my_stories_from
 my_user_id
 n_0
@@ -1736,6 +1759,7 @@ new_participant
 new_password
 new_password_hash
 new_photo
+new_price
 new_public_key
 new_rank
 new_secure_algo
@@ -1797,6 +1821,9 @@ oauth_result_confirmed
 oauth_result_failed
 oauth_supported
 oauth_url
+offer_address
+offer_id
+offer_min_amount
 offer_min_stars
 offer_msg_id
 official_app
@@ -1813,10 +1840,12 @@ offset_topic
 offset_user
 ogonek_macro
 oint_macro
+old_price
 old_text
 on_demand_backoff_base
 on_demand_backoff_step_duration_seconds
 on_demand_upload_rate_per_minute
+onchain_sale
 one_value
 online_cloud_timeout_ms
 online_count
@@ -1824,6 +1853,7 @@ online_update_period_ms
 only_boosts
 only_left
 only_new_subscribers
+onramp_provider_name
 open_answers
 open_common
 open_external_browser
@@ -1926,6 +1956,7 @@ peer_tag
 peer_type
 peer_types
 pending_intent
+pending_messages
 pending_reset_date
 pending_suggestions
 pending_tasks
@@ -2215,6 +2246,7 @@ reflectbox_macro
 refract_index
 refract_intensity
 refresh_rate
+refund_amount
 refund_charged
 registerview_first
 registerview_last
@@ -2230,6 +2262,7 @@ released_by
 remote_version
 renewcommand_macro
 renewenvironment_macro
+rent_budget
 rental_agreement
 repeat_messages
 replies_pts
@@ -2344,6 +2377,7 @@ rtmp_stream
 rule_macro
 safe_area_changed
 safety_net_token
+sale_address
 same_origin
 same_peer
 sample_adaptive_offset_enabled_flag
@@ -2465,6 +2499,7 @@ seq_in
 seq_out
 seq_start
 sequence_num
+service_fee
 session_id
 session_ids
 session_timeout_seconds
@@ -2560,6 +2595,7 @@ speech_model
 speech_models
 speech_models_build
 speech_models_checked
+speech_to_text
 speed_accuracy
 spend_purpose_peer
 sponsor_info
@@ -2592,8 +2628,13 @@ stargifts_collections_limit
 stargifts_convert_period_max
 stargifts_count
 stargifts_craft_attribute_permilles
+stargifts_craft_minted_first_source
+stargifts_fixed_sale_enabled
+stargifts_fragment_resale_enabled
 stargifts_message_length_max
 stargifts_pinned_to_top_limit
+stargifts_stars_resale
+stargifts_ton_resale
 starref_amount
 starref_commission_permille
 starref_connect_allowed
@@ -2775,6 +2816,7 @@ supports_message_handled
 supports_quote
 supports_streaming
 surd_macro
+suspected_spam
 switch_pm
 switch_webview
 symbol_left
@@ -2804,6 +2846,7 @@ telegram_auction
 telegram_background
 telegram_bot
 telegram_botapp
+telegram_botinvite
 telegram_call
 telegram_channel
 telegram_channel_boost
@@ -2900,6 +2943,7 @@ tokenize_url
 ton_addr
 ton_amount
 ton_blockchain_explorer_url
+ton_only
 ton_proof
 ton_proxy_address
 ton_stakedice_stake_amount_max
@@ -2920,6 +2964,7 @@ top_admins
 top_bidders
 top_donors
 top_hours_graph
+top_icons
 top_inviters
 top_message
 top_msg_id
@@ -2940,11 +2985,14 @@ total_stores_hidden
 total_voters
 trace_external_hash_norm
 trace_id
+trace_info
 trace_invalidated
+trace_state
 trait_type
 transaction_date
 transaction_id
 transaction_url
+transactions_order
 transcribe_audio_trial_cooldown_until
 transcribe_audio_trial_duration_max
 transcribe_audio_trial_weekly_number
@@ -3269,6 +3317,7 @@ widget_id
 widget_link
 widget_state
 widgets_disabled
+widgets_processes
 wifi_p2p_state
 window_flags
 winners_are_visible

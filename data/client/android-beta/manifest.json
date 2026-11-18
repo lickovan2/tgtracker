@@ -1,6 +1,6 @@
 {
  "version": "13.3.0",
- "code": "73229",
+ "code": "73369",
  "package": "org.telegram.messenger.beta",
  "min_sdk": "23",
  "target_sdk": "36",
@@ -96,7 +96,8 @@
   "org.telegram.ui.PopupNotificationActivity",
   "org.telegram.ui.ShareActivity",
   "org.telegram.ui.VoIPFeedbackActivity",
-  "org.telegram.ui.VoIPPermissionActivity"
+  "org.telegram.ui.VoIPPermissionActivity",
+  "org.telegram.ui.WidgetConformanceActivity"
  ],
  "services": [
   "androidx.car.app.CarAppMetadataHolderService",
@@ -131,7 +132,8 @@
   "org.telegram.messenger.voip.TelegramConnectionService",
   "org.telegram.messenger.voip.VoIPService",
   "org.telegram.ui.Stories.recorder.StoryUploadingService",
-  "org.telegram.utils.twidget.WidgetEngineService"
+  "org.telegram.utils.twidget.WidgetEngineService",
+  "org.telegram.utils.twidget.WidgetEngineService$Forked"
  ],
  "receivers": [
   "androidx.car.app.notification.CarAppNotificationBroadcastReceiver",

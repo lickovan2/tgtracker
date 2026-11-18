@@ -603,6 +603,7 @@ ui/Wallet/WalletEngine2$SendCallbacks
 ui/Wallet/WalletEngine2$SendPhase
 ui/Wallet/WalletEngine2$SendResolution
 ui/WallpapersListActivity
+ui/WidgetConformanceActivity
 ui/web/BotWebViewContainer$BotWebViewProxy
 ui/web/BotWebViewContainer$WebViewProxy
 ui/web/HttpGetFileTask
@@ -611,6 +612,8 @@ utils/recorder/audio/AudioNoiseSuppressor
 utils/recorder/audio/AudioRecorderNative
 utils/twidget/WidgetClientNative
 utils/twidget/WidgetEngineBackend
+utils/twidget/WidgetEnginePreload
 utils/twidget/WidgetEngineService
+utils/twidget/WidgetEngineService$Forked
 utils/twidget/WidgetSandboxBackend
 utils/twidget/WidgetSandboxNative
