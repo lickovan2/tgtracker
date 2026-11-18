@@ -189,6 +189,9 @@
  "AccDescrChatInfo": [
   "Chat info"
  ],
+ "AccDescrChatPinned": [
+  "Pinned"
+ ],
  "AccDescrChecked": [
   "Checked"
  ],
@@ -4923,6 +4926,9 @@
  "DoNotTranslateLanguage": [
   "Don't translate {0}"
  ],
+ "DockedLayout": [
+  "Docked Header and Composer"
+ ],
  "DoubleClickReact": [
   "Add Reaction"
  ],
@@ -6008,6 +6014,9 @@
  "Gift2ActionSelfTitle": [
   "Saved Gift"
  ],
+ "Gift2ActionShare": [
+  "Share"
+ ],
  "Gift2ActionTitle": [
   "Gift from {0}"
  ],
@@ -6029,8 +6038,26 @@
  "Gift2ActionUpgradeOut": [
   "{0} can turn this gift into a unique collectible."
  ],
+ "Gift2ActionWear": [
+  "Wear"
+ ],
+ "Gift2ActionWearDone": [
+  "You put on **{0}**"
+ ],
+ "Gift2ActionWearNeededPremium": [
+  "Subscribe to **Telegram Premium** to wear collectibles."
+ ],
+ "Gift2ActionWearOff": [
+  "Take Off"
+ ],
+ "Gift2ActionWearOffDone": [
+  "You took off **{0}**"
+ ],
  "Gift2AddMyNameName": [
   "Add my name to the gift"
+ ],
+ "Gift2AddMyNameNameChannel": [
+  "Add channel's name to the gift"
  ],
  "Gift2AddSenderName": [
   "Add sender's name to the gift"
@@ -6096,6 +6123,9 @@
   "sell for {0} Star",
   "sell for {0} Stars"
  ],
+ "Gift2ButtonSendGift": [
+  "send a gift"
+ ],
  "Gift2BuyPriceSelfText": [
   "Do you want to buy **{1}** for **{0} Star**?",
   "Do you want to buy **{1}** for **{0} Stars**?"
@@ -6104,8 +6134,26 @@
   "Do you want to buy **{1}** for **{0} Star** and gift it to **{2}**?",
   "Do you want to buy **{1}** for **{0} Stars** and gift it to **{2}**?"
  ],
+ "Gift2CantDoText": [
+  "Transfer this gift to your Telegram account on Fragment to unlock this action."
+ ],
+ "Gift2CantDoTitle": [
+  "Action Locked"
+ ],
  "Gift2ChangePrice": [
   "Change Price"
+ ],
+ "Gift2ChannelMadePrivate": [
+  "Gift is now hidden from visitors of your channel."
+ ],
+ "Gift2ChannelMadePrivateTitle": [
+  "Gift Hidden"
+ ],
+ "Gift2ChannelMadePublic": [
+  "Gift is now visible in in your channel's Gifts."
+ ],
+ "Gift2ChannelMadePublicTitle": [
+  "Gift Shown"
  ],
  "Gift2ChannelProfileInvisible3": [
   "This gift is hidden from visitors to your channel. **Show >**"
@@ -6138,8 +6186,21 @@
   "{0} Star was sent to your balance",
   "{0} Star were sent to your balance"
  ],
+ "Gift2ConvertedChannel": [
+  "{0} Star was sent to channel's balance",
+  "{0} Stars were sent to channel's balance"
+ ],
  "Gift2ConvertedTitle": [
   "Converted Gift"
+ ],
+ "Gift2DeleteOption": [
+  "Delete Gift"
+ ],
+ "Gift2DeleteText": [
+  "Do you want to delete this gift?It will disappear from your profile and can't be restored."
+ ],
+ "Gift2Deleted": [
+  "Gift deleted"
  ],
  "Gift2ExportTONFragmentText": [
   "You can use Fragment, a third-party service, to transfer **{0}** to the TON blockchain. After that, you can manage it as an NFT with any TON wallet application.You can also move such NFTs back to your Telegram account via Fragment."
@@ -6190,6 +6251,9 @@
  "Gift2Hide": [
   "Hide My Name"
  ],
+ "Gift2HideFromProfile": [
+  "Hide from Profile"
+ ],
  "Gift2HideGift": [
   "Hide"
  ],
@@ -6202,9 +6266,36 @@
  "Gift2HideSelfInfo": [
   "Hide my name and message from visitors to my profile"
  ],
+ "Gift2Host": [
+  "Telegram"
+ ],
+ "Gift2HostAddress": [
+  "Owner"
+ ],
+ "Gift2InBlockchain": [
+  "This gift is in TON Blockchain. **View >**"
+ ],
+ "Gift2InSenderHidden2": [
+  "Only you can see the senderʼs name."
+ ],
+ "Gift2InSenderMessageHidden2": [
+  "Only you can see the senderʼs name and message."
+ ],
  "Gift2Info": [
   "You can add this gift to your profile or convert it to **{0}** Star.",
   "You can add this gift to your profile or convert it to **{0}** Stars."
+ ],
+ "Gift2Info2BotKeep": [
+  "You can keep this gift in your Profile."
+ ],
+ "Gift2Info2BotRemove": [
+  "You can remove this gift from your Profile."
+ ],
+ "Gift2Info2ChannelKeep": [
+  "Your channel can keep this gift in channel's Gifts."
+ ],
+ "Gift2Info2ChannelRemove": [
+  "Your channel can hide this gift from channel's Gifts."
  ],
  "Gift2Info2Expired": [
   "You can add this gift of {0} Star to your profile.",
@@ -6212,6 +6303,17 @@
  ],
  "Gift2Info2OutExpired": [
   "{0} can add this gift to their Profile."
+ ],
+ "Gift2Info2OutUpgrade": [
+  "{0} can keep this gift in their Profile or upgrade to unique collectible."
+ ],
+ "Gift2Info3": [
+  "You can keep this gift in your Profile or convert it to **{0}** Star.",
+  "You can keep this gift in your Profile or convert it to **{0}** Stars."
+ ],
+ "Gift2Info3Channel": [
+  "Your channel can keep this gift in channel's Gifts or convert it to **{0}** Star.",
+  "Your channel can keep this gift in channel's Gifts or convert it to **{0}** Stars."
  ],
  "Gift2InfoConverted": [
   "You converted this gift to **{0}** Star.",
@@ -6226,6 +6328,9 @@
  "Gift2InfoOut": [
   "{1} can add this gift to their profile or convert it to **{0}** Star.",
   "{1} can add this gift to their profile or convert it to **{0}** Stars."
+ ],
+ "Gift2InfoOutPinned": [
+  "{0} kept this gift in your Profile."
  ],
  "Gift2InfoPinned": [
   "You added this gift to your profile."
@@ -6299,6 +6404,12 @@
  ],
  "Gift2OnSale": [
   "on sale"
+ ],
+ "Gift2OutSenderHidden2": [
+  "Only {0} can see the senderʼs name."
+ ],
+ "Gift2OutSenderMessageHidden2": [
+  "Only {0} can see the senderʼs name and message."
  ],
  "Gift2Owner": [
   "Owner"
@@ -6413,6 +6524,9 @@
  "Gift2RarityHint": [
   "Only {0} of such collectibles have this attribute"
  ],
+ "Gift2Refunded": [
+  "This gift was downgraded because a request to refund the payment related to this gift was made, and the money was returned."
+ ],
  "Gift2ReleasedBy": [
   "released by **{0}**"
  ],
@@ -6468,6 +6582,16 @@
  "Gift2ResellTimeoutTitle": [
   "Try Later"
  ],
+ "Gift2SelfInfo": [
+  "You can display this gift on your page."
+ ],
+ "Gift2SelfInfoConvert": [
+  "Display this gift on your page or convert it to **{0} Star**.",
+  "Display this gift on your page or convert it to **{0} Stars**."
+ ],
+ "Gift2SelfInfoUpgrade": [
+  "You can display this gift on your page or turn it into a unique collectible and send to others."
+ ],
  "Gift2Send": [
   "Send a Gift for ⭐️ {0}",
   "Send a Gift for ⭐️ {0}"
@@ -6484,6 +6608,9 @@
  ],
  "Gift2ShowGift": [
   "Show"
+ ],
+ "Gift2ShowOnProfile": [
+  "Show on Profile"
  ],
  "Gift2SoldOut": [
   "sold out"
@@ -6564,8 +6691,14 @@
  "Gift2Title": [
   "Send a Gift"
  ],
+ "Gift2TitleProfile": [
+  "Gift"
+ ],
  "Gift2TitleReceived": [
   "Received Gift"
+ ],
+ "Gift2TitleSaved": [
+  "Saved Gift"
  ],
  "Gift2TitleSent": [
   "Sent Gift"
@@ -6665,6 +6798,9 @@
  "Gift2UniqueTitle": [
   "Gift from {0}"
  ],
+ "Gift2UniqueTitle2": [
+  "Gift"
+ ],
  "Gift2UniqueView": [
   "View"
  ],
@@ -6680,6 +6816,9 @@
  "Gift2Unpin": [
   "Unpin"
  ],
+ "Gift2Unpinned": [
+  "Gift unpinned"
+ ],
  "Gift2Unwear": [
   "Take Off"
  ],
@@ -6694,6 +6833,18 @@
  ],
  "Gift2UpgradeButtonGift": [
   "Upgrade"
+ ],
+ "Gift2UpgradeCostsFooter": [
+  "Upgrade cost drops every minute."
+ ],
+ "Gift2UpgradeCostsInfo": [
+  "See how this price will decrease >"
+ ],
+ "Gift2UpgradeCostsText": [
+  "Users who upgrade their gift first get collectibles with shorter numbers."
+ ],
+ "Gift2UpgradeCostsTitle": [
+  "Upgrade Cost"
  ],
  "Gift2UpgradeFeature1Text": [
   "Get a unique number, model, backdrop and symbol for your gift."
@@ -6728,11 +6879,20 @@
  "Gift2UpgradeInfo": [
   "Enable this to let {0} turn your gift into a unique collectible. **Learn More >**"
  ],
+ "Gift2UpgradeNext": [
+  "Upgrade Next Gift"
+ ],
  "Gift2UpgradeText": [
   "Turn your gift into a unique collectible that you can transfer or auction."
  ],
  "Gift2UpgradeTitle": [
   "Upgrade Gift"
+ ],
+ "Gift2UpgradedText": [
+  "Your gift **{0}** now has unique attributes and can be transferred to others."
+ ],
+ "Gift2UpgradedTitle": [
+  "Gift Upgraded"
  ],
  "Gift2Value": [
   "Value"
@@ -6748,6 +6908,33 @@
  ],
  "Gift2Wear": [
   "Wear"
+ ],
+ "Gift2WearFeature1Text": [
+  "The glittering icon of this item will be displayed next to your name."
+ ],
+ "Gift2WearFeature1Title": [
+  "Radiant Badge"
+ ],
+ "Gift2WearFeature2Text": [
+  "Your profile page will get the color and the symbol of this item."
+ ],
+ "Gift2WearFeature2Title": [
+  "Unique Profile Design"
+ ],
+ "Gift2WearFeature3Text": [
+  "Tapping the icon of this item next to your name will show its info and owner."
+ ],
+ "Gift2WearFeature3Title": [
+  "Proof of Ownership"
+ ],
+ "Gift2WearStart": [
+  "Start Wearing"
+ ],
+ "Gift2WearSubtitle": [
+  "and get these benefits"
+ ],
+ "Gift2WearTitle": [
+  "Wear {0}"
  ],
  "GiftAddedToCollectionTitle": [
   "{0} gift saved to **{1}**",
@@ -6768,12 +6955,24 @@
  "GiftCraftButtonFailed": [
   "Craft New Gift"
  ],
+ "GiftCraftCantChooseFirst": [
+  "This gift can’t be used as the first one in crafting, because it has been recorded on the blockchain."
+ ],
+ "GiftCraftCantChooseFirstTitle": [
+  "Can’t Choose First"
+ ],
  "GiftCraftFailedText": [
   "The crafting attempt was unsuccessful.**{0}** gift was lost.",
   "The crafting attempt was unsuccessful.**{0}** gifts were lost."
  ],
  "GiftCraftFailedTitle": [
   "Crafting Failed"
+ ],
+ "GiftCraftLaterText": [
+  "You will be able to craft this gift {0}."
+ ],
+ "GiftCraftLaterTitle": [
+  "Try Later"
  ],
  "GiftCraftProgressSuccessChance": [
   "{0} success chance"
@@ -6801,6 +7000,15 @@
  ],
  "GiftCraftTitle": [
   "Craft Gift"
+ ],
+ "GiftCraftUnavailableText": [
+  "These gifts currently can't be crafted."
+ ],
+ "GiftCraftUnavailableTextTime": [
+  "This gift will become available for crafting on **{0}**."
+ ],
+ "GiftCraftUnavailableTitle": [
+  "Crafting Unavailable"
  ],
  "GiftCraftViewAllVariants": [
   "View all craftable models  >"
@@ -7054,6 +7262,9 @@
  "GiftRemovedFromCollectionX": [
   "This gift has been removed from **{0}** collection."
  ],
+ "GiftSkipAnimation": [
+  "Skip"
+ ],
  "GiftStarsSubtitle": [
   "With Stars, **{0}** will be able to unlock content and services on Telegram."
  ],
@@ -7179,6 +7390,18 @@
  ],
  "GiftsCollectionTitleInputHint": [
   "Title"
+ ],
+ "GiftsFeature1Text": [
+  "Upgrade your gifts to get a unique number, model, backdrop and symbol."
+ ],
+ "GiftsFeature2Text": [
+  "Sell your gift on Telegram or on third-part NFT marketplace"
+ ],
+ "GiftsFeature3Text": [
+  "Display gifts on your page and set them as profile covers or statuses."
+ ],
+ "GiftsFeature3Title": [
+  "Wearable"
  ],
  "GiftsPinLimit": [
   "You can't pin more than {0} gift.",
@@ -7617,6 +7840,9 @@
  "Info": [
   "Info"
  ],
+ "InstanceNotResponding": [
+  "Telegram is already running, but it is not responding.Do you want to close it and start Telegram again?"
+ ],
  "InstantView": [
   "INSTANT VIEW"
  ],
@@ -7976,6 +8202,9 @@
  ],
  "LinkForBoosting": [
   "Link for boosting"
+ ],
+ "LinkHashExpired": [
+  "Link is no longer active"
  ],
  "LinkInfo": [
   "Anyone who has Telegram installed will be able to join your group by following this link."
@@ -12308,6 +12537,9 @@
  "StarsGiftUpgradeCompleted": [
   "Gift Upgrade sent!"
  ],
+ "StarsGiftUpgradeCompletedMoreButton": [
+  "Gift More"
+ ],
  "StarsGiftUpgradeCompletedText": [
   "{0} can now upgrade this gift for free."
  ],
@@ -12316,6 +12548,9 @@
  ],
  "StarsNeededText": [
   "Buy **Stars** and use them in **{0}** and other mini apps."
+ ],
+ "StarsNeededTextBuySubscription": [
+  "Buy **Stars** and subscribe to **{0}** and other channels."
  ],
  "StarsNeededTextReactions": [
   "Buy **Stars** to send paid reactions to **{0}** and other channels."
@@ -12387,6 +12622,22 @@
  "StarsSentUndo": [
   "Undo"
  ],
+ "StarsSubscribeButton": [
+  "Subscribe"
+ ],
+ "StarsSubscribeInfo": [
+  "By subscribing you agree to the **Terms of Service**."
+ ],
+ "StarsSubscribeInfoLink": [
+  "https://telegram.org/tos/stars"
+ ],
+ "StarsSubscribeText": [
+  "Do you want to subscribe to **{1}** for **{0} Star** per month?",
+  "Do you want to subscribe to **{1}** for **{0} Stars** per month?"
+ ],
+ "StarsSubscribeTitle": [
+  "Subscribe to the Channel"
+ ],
  "StarsSubscriptionAgain": [
   "Subscribe Again"
  ],
@@ -12401,6 +12652,13 @@
  ],
  "StarsSubscriptionChannel": [
   "Subscription"
+ ],
+ "StarsSubscriptionCompleted": [
+  "Subscription successful!"
+ ],
+ "StarsSubscriptionCompletedText": [
+  "{0} Star transferred to **{1}**.",
+  "{0} Stars transferred to **{1}**."
  ],
  "StarsSubscriptionExpired": [
   "expired on {0}"
@@ -12624,6 +12882,201 @@
  ],
  "StorageUsageTelegramLess": [
   "Telegram uses {0} of your device storage."
+ ],
+ "StoreScreenshot1Subtitle": [
+  "Simple, reliable and syncedacross all your devices."
+ ],
+ "StoreScreenshot1Title": [
+  "Fast"
+ ],
+ "StoreScreenshot2Subtitle": [
+  "No limits on the size ofgroups and broadcasts."
+ ],
+ "StoreScreenshot2Title": [
+  "Powerful"
+ ],
+ "StoreScreenshot3Subtitle": [
+  "Your data is never disclosed.Only you are in control."
+ ],
+ "StoreScreenshot3Title": [
+  "Private"
+ ],
+ "StoreScreenshot4Subtitle": [
+  "All chats are protectedwith strong encryption."
+ ],
+ "StoreScreenshot4Title": [
+  "Secure"
+ ],
+ "StoreScreenshot5Subtitle": [
+  "Color themes, stickers, GIFs,video messages and more."
+ ],
+ "StoreScreenshot5Title": [
+  "Creative"
+ ],
+ "StoreScreenshot6Subtitle": [
+  "Unlimited storage for chats,media and documents."
+ ],
+ "StoreScreenshot6Title": [
+  "Cloud-based"
+ ],
+ "StoreScreenshotAlexName": [
+  "Alex Morgan"
+ ],
+ "StoreScreenshotBookClubMessage1": [
+  "Next meeting is Thursday at 7, bring snacks 🍪"
+ ],
+ "StoreScreenshotBookClubTitle": [
+  "Book Club"
+ ],
+ "StoreScreenshotDanielMessage1": [
+  "Sent you the tickets for Saturday 🎟️"
+ ],
+ "StoreScreenshotDanielName": [
+  "Daniel Kim"
+ ],
+ "StoreScreenshotDigitalNomadsEmmaName": [
+  "Emma"
+ ],
+ "StoreScreenshotDigitalNomadsMessage1": [
+  "Good morning! 👋"
+ ],
+ "StoreScreenshotDigitalNomadsMessage2": [
+  "Do you have any idea what time it is? 🤣😴"
+ ],
+ "StoreScreenshotDigitalNomadsMessage3": [
+  "We just reached 2,500 members! WOO!"
+ ],
+ "StoreScreenshotDigitalNomadsPollOption1": [
+  "Sure!"
+ ],
+ "StoreScreenshotDigitalNomadsPollOption2": [
+  "Not sure"
+ ],
+ "StoreScreenshotDigitalNomadsPollQuestion": [
+  "Is it still morning? 🤔"
+ ],
+ "StoreScreenshotDigitalNomadsTitle": [
+  "Digital Nomads"
+ ],
+ "StoreScreenshotDwayneName": [
+  "Dwayne"
+ ],
+ "StoreScreenshotEmmaMessage1": [
+  "Send a dice emoji to roll a die!"
+ ],
+ "StoreScreenshotEmmaMessage2": [
+  "Advance to Illinois Ave. If you pass Go, collect coffee"
+ ],
+ "StoreScreenshotEmmaMessage3": [
+  "Passed! 🎉"
+ ],
+ "StoreScreenshotEmmaMessage4": [
+  "Okay"
+ ],
+ "StoreScreenshotEmmaMessage5": [
+  "Wait for me there."
+ ],
+ "StoreScreenshotEmmaMessage6": [
+  "Bob says hi."
+ ],
+ "StoreScreenshotEmmaName": [
+  "Emma Torreaux"
+ ],
+ "StoreScreenshotHalbertName": [
+  "Halbert"
+ ],
+ "StoreScreenshotJamesMessage1": [
+  "Check these out!"
+ ],
+ "StoreScreenshotJamesName": [
+  "James"
+ ],
+ "StoreScreenshotJennieName": [
+  "Jennie"
+ ],
+ "StoreScreenshotLittleSisterMessage1": [
+  "Any gift ideas for mom?"
+ ],
+ "StoreScreenshotLittleSisterMessage2": [
+  "A dog!"
+ ],
+ "StoreScreenshotLittleSisterMessage3": [
+  "I’m serious. Let’s get her a puppy. 🐶"
+ ],
+ "StoreScreenshotLittleSisterMessage4": [
+  "I saw this!"
+ ],
+ "StoreScreenshotLittleSisterMessage5": [
+  "I needed proof this was your idea! 😨🤫"
+ ],
+ "StoreScreenshotLittleSisterName": [
+  "Little Sister"
+ ],
+ "StoreScreenshotLucyName": [
+  "Lucy Garner"
+ ],
+ "StoreScreenshotMayaName": [
+  "Maya"
+ ],
+ "StoreScreenshotNinaName": [
+  "Nina"
+ ],
+ "StoreScreenshotPenelopeMessage1": [
+  "Lunch tomorrow? My treat 🍝"
+ ],
+ "StoreScreenshotPenelopeMessage2": [
+  "Table for four, 2 PM. Be there."
+ ],
+ "StoreScreenshotPenelopeMessage3": [
+  "No limits on the size of your cats."
+ ],
+ "StoreScreenshotPenelopeName": [
+  "Penelope"
+ ],
+ "StoreScreenshotRoadTripChecklistTask1": [
+  "Fill up the tank ⛽"
+ ],
+ "StoreScreenshotRoadTripChecklistTask2": [
+  "Snacks for the drive 🍪"
+ ],
+ "StoreScreenshotRoadTripChecklistTask3": [
+  "Sunscreen 🧴"
+ ],
+ "StoreScreenshotRoadTripChecklistTitle": [
+  "Before Friday 🗓️"
+ ],
+ "StoreScreenshotRoadTripMessage1": [
+  "Who's in charge of the playlist? 🎶"
+ ],
+ "StoreScreenshotRoadTripMessage2": [
+  "Our ride for the weekend 😍"
+ ],
+ "StoreScreenshotRoadTripMessage3": [
+  "Please tell me it has AC 😅"
+ ],
+ "StoreScreenshotRoadTripTitle": [
+  "Road Trip 🚗"
+ ],
+ "StoreScreenshotRobertoMessage1": [
+  "Say hello to Emma."
+ ],
+ "StoreScreenshotRobertoName": [
+  "Roberto"
+ ],
+ "StoreScreenshotRoxanneBio": [
+  "23 y.o. pianist from Vienna."
+ ],
+ "StoreScreenshotRoxanneMessage1": [
+  "Rehearsal recording from last night 🎹"
+ ],
+ "StoreScreenshotRoxanneName": [
+  "Roxanne"
+ ],
+ "StoreScreenshotWeekendRecipesMessage1": [
+  "Lemon pasta in 15 minutes 🍋"
+ ],
+ "StoreScreenshotWeekendRecipesTitle": [
+  "Weekend Recipes"
  ],
  "StoriesAlbumAddAlbum": [
   "Add Album"
@@ -13539,6 +13992,12 @@
  ],
  "TopicsLayoutTabs": [
   "Tabs"
+ ],
+ "TopicsPanelAllMessages": [
+  "All Messages"
+ ],
+ "TopicsSidebar": [
+  "Sidebar"
  ],
  "TopicsTitle": [
   "Topics"
@@ -14661,6 +15120,9 @@
  ],
  "WalletAddress": [
   "Address"
+ ],
+ "WalletAddressCopied": [
+  "Wallet address is copied to clipboard"
  ],
  "WalletAddressCopiedShort": [
   "Address copied"
