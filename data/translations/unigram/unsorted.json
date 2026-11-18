@@ -6969,7 +6969,7 @@
   "Crafting Failed"
  ],
  "GiftCraftLaterText": [
-  "You will be able to craft this gift {0}."
+  "You will be able to craft this gift on {0}."
  ],
  "GiftCraftLaterTitle": [
   "Try Later"
