@@ -497,6 +497,86 @@
  "CallNoLongerActive": [
   "This call is no longer active"
  ],
+ "CallOngoingIncoming": [
+  "Ongoing Call"
+ ],
+ "CallOngoingOutgoing": [
+  "Outgoing Call"
+ ],
+ "CallProblemAppChannel": [
+  "Incoming calls don't pop up"
+ ],
+ "CallProblemAppChannelGuide": [
+  "Notifications of **Incoming Call Screen** are turned off, kept off the screen or hidden on the lock screen in the system settings, so incoming calls can't show over other apps and over the lock screen.Tap **Open settings of incoming calls**, let them pop on screen and show them on the lock screen."
+ ],
+ "CallProblemBackground": [
+  "Calls may not come while the app is closed"
+ ],
+ "CallProblemBackgroundAction": [
+  "Open battery settings"
+ ],
+ "CallProblemBackgroundGuide": [
+  "Background activity of **Telegram X** is restricted in the battery settings of your phone, so incoming calls may not come while the app is closed.Tap **Open battery settings**, then **Battery**, and lift the background restriction of Telegram X."
+ ],
+ "CallProblemChannel": [
+  "Incoming calls are silenced"
+ ],
+ "CallProblemChannelAction": [
+  "Open settings of incoming calls"
+ ],
+ "CallProblemChannelGuide": [
+  "Notifications of **Incoming Calls** of this account are silenced or turned off in the system settings, so incoming calls don't ring and don't show over the lock screen.Tap **Open settings of incoming calls** and let them make sound and pop on screen."
+ ],
+ "CallProblemFullScreen": [
+  "Calls can't show on the lock screen"
+ ],
+ "CallProblemFullScreenAction": [
+  "Allow calls on the lock screen"
+ ],
+ "CallProblemFullScreenGuide": [
+  "While the phone is locked, incoming calls come only as a notification: **Telegram X** isn't allowed to turn on the screen and show them."
+ ],
+ "CallProblemFullScreenSteps": [
+  "Open **Full-screen notifications** and turn on **Allow full-screen notifications from this app** so that you don't miss calls while the app is closed."
+ ],
+ "CallProblemFullScreenStepsSamsung": [
+  "Open **Full screen alerts** and turn on **Allow permission** so that you don't miss calls while the app is closed."
+ ],
+ "CallProblemOngoingChannel": [
+  "Calls in progress have no notification"
+ ],
+ "CallProblemOngoingChannelAction": [
+  "Open settings of ongoing calls"
+ ],
+ "CallProblemOngoingChannelGuide": [
+  "Notifications of **Ongoing Calls** are turned off in the system settings, so a call in progress has no notification to go back to it or hang up.Tap **Open settings of ongoing calls** and turn them on."
+ ],
+ "CallRingtoneUserHint": [
+  "You can set custom ringtone for specific users on their profile page."
+ ],
+ "CallSettingsReset": [
+  "Reset to Default"
+ ],
+ "CallSettingsResetConfirm": [
+  "Would you like to reset call settings to default?"
+ ],
+ "CallSettingsResetConfirmCustom": [
+  "Would you like to reset call settings to default including %1$s custom one?",
+  "Would you like to reset call settings to default including %1$s custom ones?"
+ ],
+ "CallSettingsResetOthers": [
+  "Reset for %1$s other account",
+  "Reset for %1$s other accounts"
+ ],
+ "CallTapToSeeCaller": [
+  "Tap to see who is calling"
+ ],
+ "CallUnlock": [
+  "Unlock"
+ ],
+ "CallUnlockToAnswer": [
+  "Unlock the app to answer the call"
+ ],
  "CameraSettings": [
   "Camera Settings"
  ],
@@ -749,6 +829,9 @@
  ],
  "ChatContentVoiceChatStarted_outgoing": [
   "Started a video chat"
+ ],
+ "ChatContentWidget": [
+  "Widget"
  ],
  "ChatDisabledAudio": [
   "Only admins can send music in this group"
@@ -1562,6 +1645,12 @@
  "FromAnonymous": [
   "Admin"
  ],
+ "FullScreenAlerts": [
+  "Full screen alerts"
+ ],
+ "FullScreenNotifications": [
+  "Full-screen notifications"
+ ],
  "GameInvite": [
   "Invite to play"
  ],
@@ -2240,8 +2329,26 @@
  "NotificationChannelCall": [
   "Incoming Call"
  ],
+ "NotificationChannelCommonCalls": [
+  "Default ringtone settings for all incoming calls."
+ ],
+ "NotificationChannelCustomCalls": [
+  "Calls: %1$s"
+ ],
+ "NotificationChannelIncomingCallScreen": [
+  "Incoming Call Screen"
+ ],
+ "NotificationChannelIncomingCalls": [
+  "Incoming Calls"
+ ],
  "NotificationChannelMaybe": [
   "Missed notifications"
+ ],
+ "NotificationChannelOngoingCalls": [
+  "Ongoing Calls"
+ ],
+ "NotificationChannelUserCalls": [
+  "Custom ringtone settings for calls from %1$s."
  ],
  "NotificationImportanceDefaultMuted": [
   "Silent"
@@ -2308,14 +2415,26 @@
  "NotificationsGuideBlockedAll": [
   "Notifications from Telegram are blocked in your device settings.To enable notifications:• Tap System Notification Settings.• Turn on Show Notifications."
  ],
+ "NotificationsGuideBlockedAll2": [
+  "Notifications from Telegram are blocked in your device settings. Incoming calls don't show either: they can only ring, and you answer them in the app.To enable notifications:• Tap System Notification Settings.• Turn on Show Notifications."
+ ],
+ "NotificationsGuideBlockedApp2": [
+  "Notifications from Telegram are blocked in system settings. Incoming calls don't show either: they can only ring, and you answer them in the app. Tap System Notification Settings to unblock notifications."
+ ],
  "NotificationsGuideBlockedCategory": [
   "Notifications for the current account are disabled in system settings.To enable notifications:• Tap System Notification Settings• Find the \"%1$s\" notification category• Turn the toggle on to unblock notifications."
+ ],
+ "NotificationsGuideBlockedCategory2": [
+  "Notifications for the current account are disabled in system settings. Incoming calls of this account still ring and show: Telegram X rings them by itself.To enable notifications:• Tap System Notification Settings• Find the \"%1$s\" notification category• Turn the toggle on to unblock notifications."
  ],
  "NotificationsGuideCategoryLimit": [
   "**Telegram X** was unable to display some notifications for this account due to notification categories system limit.Please make sure:• All system updates are installed• Telegram X is up-to-date• There are no notification restrictions in system settings.If the steps above do not help, you might want to ask @tgandroidtests for troubleshooting tips for your device, or re-install Telegram X, which should help resolving this error, but requires logging in to your account again."
  ],
  "NotificationsGuideCategoryLimitErrorChat": [
   "**Telegram X** was unable to display some notifications from %1$s due to notification categories system limit.Please make sure:• All system updates are installed• Telegram X is up-to-date• There are no notification restrictions in system settings.If the steps above do not help, you might want to ask @tgandroidtests for troubleshooting tips for your device, or re-install Telegram X, which should help resolving this error, but requires logging in to your account again."
+ ],
+ "NotificationsGuidePermission2": [
+  "Notifications from Telegram are blocked in your system settings. Incoming calls don't show either: they can only ring, and you answer them in the app.To enable notifications:• Go to system settings – Applications – Telegram X.• Tap Notifications – Allow notifications."
  ],
  "NotificationsGuideSyncAppOff": [
   "You have data sync turned off for Telegram X. Notifications may not arrive when app is closed.Data sync may be implicitly turned off by the battery optimization mode on your device."
@@ -2372,6 +2491,12 @@
  ],
  "PasscodeMismatchFingerprint": [
   "Fingerprints do not match"
+ ],
+ "PasscodeRequireForCalls": [
+  "Require for Incoming Calls"
+ ],
+ "PasscodeRequireForCallsInfo": [
+  "If enabled, you will not be able to answer incoming calls without unlocking the app with Passcode Lock first."
  ],
  "PasswordIsInvalid": [
   "The password you have entered is invalid"
@@ -2988,6 +3113,9 @@
  "RequestToJoinGroupInfo": [
   "This group accepts new members only after they are being accepted by admins."
  ],
+ "RequirePasscodeToAnswerDisabled": [
+  "Enable Passcode to activate this feature"
+ ],
  "Resend": [
   "Resend"
  ],
@@ -3054,6 +3182,15 @@
  ],
  "RightWelcomeMessages": [
   "Manage welcome messages"
+ ],
+ "RingtoneSilent": [
+  "Silent"
+ ],
+ "RingtoneSystemDefault": [
+  "System Default"
+ ],
+ "RingtoneTelegramCall": [
+  "Telegram Call"
  ],
  "RoleChannel": [
   "channel"
@@ -3450,6 +3587,9 @@
  "UsernamesMyHint": [
   "Drag and drop usernames to change order of their appearance on the profile screen."
  ],
+ "VibrateEnabled": [
+  "Enabled"
+ ],
  "VideoErrorLog": [
   "Error log"
  ],
@@ -3515,6 +3655,9 @@
  ],
  "VoipFeedbackCommentHint": [
   "Add an optional comment"
+ ],
+ "VoipMicrophoneOff": [
+  "Microphone is off. Open the call to turn it on"
  ],
  "VoipMissed": [
   "Call missed"
