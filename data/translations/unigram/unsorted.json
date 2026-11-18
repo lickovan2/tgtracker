@@ -6910,7 +6910,7 @@
   "Wear"
  ],
  "Gift2WearFeature1Text": [
-  "The glittering icon of this item will be displayed next to your name."
+  "This gift will be displayed next to your name with a glittering icon."
  ],
  "Gift2WearFeature1Title": [
   "Radiant Badge"
@@ -6956,7 +6956,7 @@
   "Craft New Gift"
  ],
  "GiftCraftCantChooseFirst": [
-  "This gift can’t be used as the first one in crafting, because it has been recorded on the blockchain."
+  "This gift can't be used as the first one in crafting because it has been recorded on the blockchain."
  ],
  "GiftCraftCantChooseFirstTitle": [
   "Can’t Choose First"
@@ -15122,7 +15122,7 @@
   "Address"
  ],
  "WalletAddressCopied": [
-  "Wallet address is copied to clipboard"
+  "Wallet address copied to clipboard"
  ],
  "WalletAddressCopiedShort": [
   "Address copied"
