@@ -6906,6 +6906,9 @@
  "PUSH_LOCKED_MESSAGE": [
   "You have a new message%1$@"
  ],
+ "PUSH_MARK_FORWARDED": [
+  "Forwarded"
+ ],
  "PUSH_MESSAGES": [
   "%1$@|📷📹 Album",
   "%1$@|📷📹 Albums"
