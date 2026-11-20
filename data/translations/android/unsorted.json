@@ -7556,6 +7556,121 @@
  "SomeReactions": [
   "Some reactions"
  ],
+ "SpeechToTextAllStyles": [
+  "All Styles"
+ ],
+ "SpeechToTextApplyingStyle": [
+  "%1$s…"
+ ],
+ "SpeechToTextAutoDetect": [
+  "Auto-Detect"
+ ],
+ "SpeechToTextDeleteModels": [
+  "Delete all models"
+ ],
+ "SpeechToTextDeleteTranscriptions": [
+  "Delete all local transcriptions"
+ ],
+ "SpeechToTextDetecting": [
+  "Detecting…"
+ ],
+ "SpeechToTextDownload": [
+  "Download"
+ ],
+ "SpeechToTextDownloadProgress": [
+  "%1$d / %2$d MB"
+ ],
+ "SpeechToTextDownloadingModel": [
+  "Downloading model…"
+ ],
+ "SpeechToTextDownloadingModels": [
+  "Downloading models… %1$d / %2$d MB"
+ ],
+ "SpeechToTextEnhance": [
+  "Enhance"
+ ],
+ "SpeechToTextEnhancing": [
+  "Enhancing…"
+ ],
+ "SpeechToTextGoogleFallback": [
+  "Fallback to Google"
+ ],
+ "SpeechToTextGoogleFallbackInfo": [
+  "For other languages, the app can use system speech recognition. This might send your voice data to Google or other vendor servers."
+ ],
+ "SpeechToTextLanguages": [
+  "Languages"
+ ],
+ "SpeechToTextLearnMore": [
+  "**Learn more** >"
+ ],
+ "SpeechToTextListening": [
+  "Listening…"
+ ],
+ "SpeechToTextLiveCaptions": [
+  "Live Captions"
+ ],
+ "SpeechToTextLiveCaptionsOff": [
+  "Disabled"
+ ],
+ "SpeechToTextLiveCaptionsOn": [
+  "Enabled"
+ ],
+ "SpeechToTextNoText": [
+  "No text recognized"
+ ],
+ "SpeechToTextOnDevice": [
+  "On-device transcription"
+ ],
+ "SpeechToTextOnDeviceInfo": [
+  "Voice messages are transcribed on this phone. Private: nothing leaves it."
+ ],
+ "SpeechToTextPrivacyCompact": [
+  "Compact languages"
+ ],
+ "SpeechToTextPrivacyCompactText": [
+  "About 30 MB per language. Keep only the ones you need."
+ ],
+ "SpeechToTextPrivacyDemo": [
+  "Hey! Running ten minutes late, see you at the café near the station"
+ ],
+ "SpeechToTextPrivacyNothingLeaves": [
+  "Nothing leaves the phone"
+ ],
+ "SpeechToTextPrivacyNothingLeavesText": [
+  "Your voice and its text are never sent to a server for this."
+ ],
+ "SpeechToTextPrivacyOnPhone": [
+  "Recognized on your phone"
+ ],
+ "SpeechToTextPrivacyOnPhoneText": [
+  "Speech turns into text right on this phone, even offline."
+ ],
+ "SpeechToTextPrivacySubtitle": [
+  "Voice messages turn into textright here, on your phone."
+ ],
+ "SpeechToTextPrivacyTitle": [
+  "Private by design"
+ ],
+ "SpeechToTextSendAsText": [
+  "Send as text"
+ ],
+ "SpeechToTextSettings": [
+  "Settings"
+ ],
+ "SpeechToTextSettingsSubtitle": [
+  "Voice message transcription and dictation"
+ ],
+ "SpeechToTextTitle": [
+  "Speech to Text"
+ ],
+ "SpeechToTextTranscriptionsDeleted": [
+  "%1$d local transcription deleted",
+  "%1$d local transcriptions deleted"
+ ],
+ "SpeechToTextUpdate": [
+  "Update"
+ ],
  "SpeedMedium": [
   "Medium"
  ],
