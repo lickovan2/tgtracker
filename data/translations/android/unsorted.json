@@ -4036,7 +4036,7 @@
   "Buy"
  ],
  "GiftOnchainBuyConfirmText": [
-  "Buy **%1$s** on Fragment for **%2$s**?"
+  "Buy **%1$s** for **%2$s**?"
  ],
  "GiftOnchainBuyConfirmTextFixed": [
   "Buy **%1$s** for **%2$s**?"
@@ -4277,9 +4277,6 @@
  ],
  "GiftOnchainOfferOut": [
   "You offered **%1$s** for **%2$s**."
- ],
- "GiftOnchainOfferOwnerReceives": [
-  "The owner will receive **%1$s Gram** after the %2$s fee."
  ],
  "GiftOnchainOfferOwnerReceivesNoFee": [
   "The owner will receive **%1$s Gram**."

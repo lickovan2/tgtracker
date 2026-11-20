@@ -1445,11 +1445,159 @@
  "lng_bot_earn_total": [
   "Total lifetime proceeds"
  ],
+ "lng_bot_info_about": [
+  "About"
+ ],
+ "lng_bot_info_about_caption": [
+  "Shown in the profile of the bot and when sharing it."
+ ],
+ "lng_bot_info_about_placeholder": [
+  "Short description"
+ ],
+ "lng_bot_info_action_ai": [
+  "Rewrite with AI"
+ ],
+ "lng_bot_info_action_reset": [
+  "Use Default"
+ ],
+ "lng_bot_info_intro": [
+  "Intro"
+ ],
+ "lng_bot_info_intro_caption": [
+  "Shown in the empty chat before the user starts the bot."
+ ],
+ "lng_bot_info_intro_placeholder": [
+  "What can this bot do?"
+ ],
+ "lng_bot_info_name": [
+  "Name"
+ ],
+ "lng_bot_info_name_placeholder": [
+  "Bot name"
+ ],
+ "lng_bot_info_saved": [
+  "Bot info updated."
+ ],
  "lng_bot_keyboard_hide": [
   "Hide bot keyboard"
  ],
  "lng_bot_keyboard_show": [
   "Show bot keyboard"
+ ],
+ "lng_bot_languages_add": [
+  "Add Language"
+ ],
+ "lng_bot_languages_apply_confirm": [
+  "Apply"
+ ],
+ "lng_bot_languages_apply_sure": [
+  "{count} change will be visible to all users of the bot right away.",
+  "{count} changes will be visible to all users of the bot right away."
+ ],
+ "lng_bot_languages_applying": [
+  "Applying changes: {done} / {total}"
+ ],
+ "lng_bot_languages_busy": [
+  "Please wait until the current operation finishes."
+ ],
+ "lng_bot_languages_default": [
+  "Default"
+ ],
+ "lng_bot_languages_discard": [
+  "Discard Changes"
+ ],
+ "lng_bot_languages_export": [
+  "Export to File..."
+ ],
+ "lng_bot_languages_exported": [
+  "Languages exported."
+ ],
+ "lng_bot_languages_file_code": [
+  "Not a language code: {code}. Use default or two lowercase letters."
+ ],
+ "lng_bot_languages_file_duplicate": [
+  "Set twice: {key}"
+ ],
+ "lng_bot_languages_file_key": [
+  "Unknown key: {key}"
+ ],
+ "lng_bot_languages_file_large": [
+  "The file is too large."
+ ],
+ "lng_bot_languages_file_other_bot": [
+  "This file was exported for @{bot}. Import it anyway?"
+ ],
+ "lng_bot_languages_file_other_bot_confirm": [
+  "Import"
+ ],
+ "lng_bot_languages_file_read": [
+  "Could not read the file."
+ ],
+ "lng_bot_languages_file_shape": [
+  "The file must contain an object named languages with one object per language."
+ ],
+ "lng_bot_languages_file_string": [
+  "The value must be a string: {key}"
+ ],
+ "lng_bot_languages_file_syntax": [
+  "Invalid JSON at line {line}, column {column}: {error}."
+ ],
+ "lng_bot_languages_file_write": [
+  "Could not save the file."
+ ],
+ "lng_bot_languages_import": [
+  "Import from File..."
+ ],
+ "lng_bot_languages_imported": [
+  "Imported {count} change.",
+  "Imported {count} changes."
+ ],
+ "lng_bot_languages_imported_none": [
+  "The file has nothing new."
+ ],
+ "lng_bot_languages_imported_problems": [
+  "{count} language needs attention.",
+  "{count} languages need attention."
+ ],
+ "lng_bot_languages_loading": [
+  "Checking translations: {done} / {total}"
+ ],
+ "lng_bot_languages_paste": [
+  "Paste from Clipboard"
+ ],
+ "lng_bot_languages_paused": [
+  "Paused by server limits, continues in {time}"
+ ],
+ "lng_bot_languages_stop": [
+  "Stop"
+ ],
+ "lng_bot_languages_stopped": [
+  "Stopped by server limits. Please try again later."
+ ],
+ "lng_bot_languages_translate": [
+  "Translate to..."
+ ],
+ "lng_bot_languages_translate_about": [
+  "Translations are added as unsaved changes. Review them before saving."
+ ],
+ "lng_bot_languages_translate_button": [
+  "Translate"
+ ],
+ "lng_bot_languages_translate_failed": [
+  "Could not translate. Please try again later."
+ ],
+ "lng_bot_languages_translate_title": [
+  "Translate to"
+ ],
+ "lng_bot_languages_translated": [
+  "{count} language translated. Review it before saving.",
+  "{count} languages translated. Review them before saving."
+ ],
+ "lng_bot_languages_translating": [
+  "Translating: {done} / {total}"
+ ],
+ "lng_bot_languages_translating_title": [
+  "Translating"
  ],
  "lng_bot_menu_not_supported": [
   "This bot can't be added to the attachment menu."
@@ -1459,6 +1607,9 @@
  ],
  "lng_bot_remove_from_side_menu_done": [
   "Bot removed from the main menu."
+ ],
+ "lng_bot_share_story_failed": [
+  "Couldn't load media to share."
  ],
  "lng_bot_sure_add": [
   "Add as admin"
@@ -1967,6 +2118,10 @@
  ],
  "lng_contact_link_invalid": [
   "This link is invalid or has expired."
+ ],
+ "lng_contacts_selected": [
+  "{count} contact selected",
+  "{count} contacts selected"
  ],
  "lng_context_add_factcheck": [
   "Add Fact Check"
@@ -3350,6 +3505,30 @@
  "lng_location_address": [
   "Enter Address"
  ],
+ "lng_logout_add_account_about": [
+  "Connect another Telegram account and easily switch between your accounts."
+ ],
+ "lng_logout_alternatives": [
+  "Alternative options"
+ ],
+ "lng_logout_clear_cache": [
+  "Clear Cache"
+ ],
+ "lng_logout_clear_cache_about": [
+  "Free up disk space by removing cached media."
+ ],
+ "lng_logout_contact_support": [
+  "Contact Support"
+ ],
+ "lng_logout_contact_support_about": [
+  "Tell us about any issues. Logging out doesn't usually help."
+ ],
+ "lng_logout_set_passcode": [
+  "Set a Passcode"
+ ],
+ "lng_logout_set_passcode_about": [
+  "Lock Telegram Desktop with a passcode so that others can't open it."
+ ],
  "lng_mac_cant_open_chooser": [
   "Couldn't open the application chooser."
  ],
@@ -3398,6 +3577,13 @@
  ],
  "lng_manage_peer_bot_balance_currency": [
   "Grams"
+ ],
+ "lng_manage_peer_bot_edit_info": [
+  "Edit Info"
+ ],
+ "lng_manage_peer_bot_info_unsaved": [
+  "{count} unsaved",
+  "{count} unsaved"
  ],
  "lng_manage_peer_bot_public_links": [
   "Public Links"
@@ -3800,6 +3986,9 @@
  "lng_photo_editor_corners_circle": [
   "Circle"
  ],
+ "lng_photo_editor_enhance": [
+  "Enhance"
+ ],
  "lng_photo_editor_keep_ratio": [
   "Keep original aspect ratio"
  ],
@@ -3823,6 +4012,9 @@
  ],
  "lng_photo_editor_keys_double_click": [
   "Double click"
+ ],
+ "lng_photo_editor_keys_enhance": [
+  "Enhance photo"
  ],
  "lng_photo_editor_keys_fixed_pan": [
   "Move picture inside the frame"
@@ -3862,6 +4054,12 @@
  ],
  "lng_photo_editor_keys_objects_flip": [
   "Flip selection horizontally"
+ ],
+ "lng_photo_editor_keys_objects_lower": [
+  "Lower selection one step"
+ ],
+ "lng_photo_editor_keys_objects_raise": [
+  "Raise selection one step"
  ],
  "lng_photo_editor_keys_objects_rotate": [
   "Rotate only, in 45° steps"
@@ -4211,6 +4409,9 @@
  "lng_profile_accept_video_sure": [
   "{user} suggests this photo for your Telegram profile."
  ],
+ "lng_profile_action_return_story_button": [
+  "Return Story button"
+ ],
  "lng_profile_action_short_channel": [
   "Channel"
  ],
@@ -4282,6 +4483,10 @@
  ],
  "lng_proxy_box_status": [
   "Status"
+ ],
+ "lng_proxy_selected": [
+  "{count} proxy selected",
+  "{count} proxies selected"
  ],
  "lng_qr_box_colors": [
   "Colors"
@@ -4469,6 +4674,9 @@
  ],
  "lng_report_sponsored_reported": [
   "We will review this ad to ensure it matches our {link}."
+ ],
+ "lng_repost_to_story": [
+  "Repostto Story"
  ],
  "lng_request_bot_no": [
   "No bots"
@@ -4820,6 +5028,9 @@
  ],
  "lng_send_media_invalid_files": [
   "Sorry, no valid files found."
+ ],
+ "lng_send_reply_to_forward": [
+  "Reply to forward"
  ],
  "lng_send_text_no": [
   "Text not allowed."
@@ -5508,8 +5719,283 @@
  "lng_stories_live_finished": [
   "The live story has ended."
  ],
+ "lng_stories_location_add": [
+  "Add This Location"
+ ],
  "lng_stories_view_anonymously": [
   "View Anonymously"
+ ],
+ "lng_stories_widget_location": [
+  "Location"
+ ],
+ "lng_story_add_button": [
+  "Add Story"
+ ],
+ "lng_story_albums": [
+  "Album"
+ ],
+ "lng_story_albums_count": [
+  "{count} Album",
+  "{count} Albums"
+ ],
+ "lng_story_blocklist_count": [
+  "{link} will never see your stories."
+ ],
+ "lng_story_blocklist_count_link": [
+  "{count} person",
+  "{count} people"
+ ],
+ "lng_story_blocklist_empty": [
+  "{link} who will never see your stories."
+ ],
+ "lng_story_blocklist_empty_link": [
+  "Select people"
+ ],
+ "lng_story_blocklist_title": [
+  "Hide My Stories From"
+ ],
+ "lng_story_boosts_required": [
+  "This channel needs more boosts to post stories."
+ ],
+ "lng_story_caption_ph": [
+  "Add a caption..."
+ ],
+ "lng_story_choose_media": [
+  "Choose photo or video"
+ ],
+ "lng_story_delete_draft": [
+  "Delete Draft"
+ ],
+ "lng_story_discard_button": [
+  "Discard"
+ ],
+ "lng_story_discard_text": [
+  "Are you sure you want to discard all changes?"
+ ],
+ "lng_story_discard_title": [
+  "Discard changes"
+ ],
+ "lng_story_draft_failed": [
+  "Could not save the draft."
+ ],
+ "lng_story_draft_lost": [
+  "The draft media could not be loaded."
+ ],
+ "lng_story_draft_photo": [
+  "Photo"
+ ],
+ "lng_story_draft_saved": [
+  "Draft saved"
+ ],
+ "lng_story_draft_video": [
+  "Video"
+ ],
+ "lng_story_drafts_button": [
+  "Drafts"
+ ],
+ "lng_story_drafts_empty": [
+  "No drafts yet"
+ ],
+ "lng_story_drafts_title": [
+  "Drafts"
+ ],
+ "lng_story_edit": [
+  "Edit Story"
+ ],
+ "lng_story_edit_privacy": [
+  "Edit Privacy"
+ ],
+ "lng_story_edit_privacy_title": [
+  "Edit Privacy Settings"
+ ],
+ "lng_story_edited": [
+  "Story updated."
+ ],
+ "lng_story_entities_premium": [
+  "Only Telegram Premium subscribers can use formatting in story captions."
+ ],
+ "lng_story_keep": [
+  "Post to My Profile"
+ ],
+ "lng_story_keep_about": [
+  "Keep this story on your profile even after it expires in {count} hour. Privacy settings will apply.",
+  "Keep this story on your profile even after it expires in {count} hours. Privacy settings will apply."
+ ],
+ "lng_story_keep_channel": [
+  "Post to Channel Page"
+ ],
+ "lng_story_keep_channel_about": [
+  "Keep this story on the channel page even after it expires in {count} hour.",
+  "Keep this story on the channel page even after it expires in {count} hours."
+ ],
+ "lng_story_keep_draft": [
+  "Keep Draft"
+ ],
+ "lng_story_keep_group": [
+  "Post to Group Page"
+ ],
+ "lng_story_keep_group_about": [
+  "Keep this story on the group page even after it expires in {count} hour.",
+  "Keep this story on the group page even after it expires in {count} hours."
+ ],
+ "lng_story_limit_count": [
+  "You can post **{count}** story in **24** hours. Subscribe to **Telegram Premium** to increase this limit.",
+  "You can post **{count}** stories in **24** hours. Subscribe to **Telegram Premium** to increase this limit."
+ ],
+ "lng_story_limit_count_premium": [
+  "Sorry, you can't post more than **{count}** story in **24** hours.",
+  "Sorry, you can't post more than **{count}** stories in **24** hours."
+ ],
+ "lng_story_limit_monthly": [
+  "You can post **{count}** story in a month. Subscribe to **Telegram Premium** to increase this limit.",
+  "You can post **{count}** stories in a month. Subscribe to **Telegram Premium** to increase this limit."
+ ],
+ "lng_story_limit_monthly_premium": [
+  "Sorry, you can't post more than **{count}** story in a month.",
+  "Sorry, you can't post more than **{count}** stories in a month."
+ ],
+ "lng_story_limit_title": [
+  "Limit Reached"
+ ],
+ "lng_story_limit_weekly": [
+  "You can post **{count}** story in a week. Subscribe to **Telegram Premium** to increase this limit.",
+  "You can post **{count}** stories in a week. Subscribe to **Telegram Premium** to increase this limit."
+ ],
+ "lng_story_limit_weekly_premium": [
+  "Sorry, you can't post more than **{count}** story in a week.",
+  "Sorry, you can't post more than **{count}** stories in a week."
+ ],
+ "lng_story_link_premium": [
+  "Links in stories are available with {link}."
+ ],
+ "lng_story_live_already": [
+  "A live story is already being streamed."
+ ],
+ "lng_story_location_change": [
+  "Change Location"
+ ],
+ "lng_story_my_story": [
+  "My Story"
+ ],
+ "lng_story_period_about": [
+  "Choose how long the story will be visible."
+ ],
+ "lng_story_period_premium": [
+  "Subscribe to {link} to make your stories disappear after {count} hour.",
+  "Subscribe to {link} to make your stories disappear after {count} hours."
+ ],
+ "lng_story_period_premium_link": [
+  "Telegram Premium"
+ ],
+ "lng_story_post_as": [
+  "Post story as"
+ ],
+ "lng_story_post_as_personal": [
+  "personal account"
+ ],
+ "lng_story_post_button": [
+  "Post Story"
+ ],
+ "lng_story_post_title": [
+  "New Story"
+ ],
+ "lng_story_posted": [
+  "Story posted."
+ ],
+ "lng_story_preparing_video": [
+  "Preparing video..."
+ ],
+ "lng_story_privacy_close_friends": [
+  "Close Friends"
+ ],
+ "lng_story_privacy_close_friends_title": [
+  "Close Friends"
+ ],
+ "lng_story_privacy_contacts": [
+  "My Contacts"
+ ],
+ "lng_story_privacy_edit_list": [
+  "edit list"
+ ],
+ "lng_story_privacy_everyone": [
+  "Everyone"
+ ],
+ "lng_story_privacy_except_one": [
+  "except {user}"
+ ],
+ "lng_story_privacy_exclude": [
+  "exclude people"
+ ],
+ "lng_story_privacy_exclude_title": [
+  "Exclude Contacts"
+ ],
+ "lng_story_privacy_excluded": [
+  "except {count} person",
+  "except {count} people"
+ ],
+ "lng_story_privacy_header": [
+  "Who can view your story"
+ ],
+ "lng_story_privacy_people": [
+  "{count} person",
+  "{count} people"
+ ],
+ "lng_story_privacy_select_title": [
+  "Select Contacts"
+ ],
+ "lng_story_privacy_selected": [
+  "Selected Users"
+ ],
+ "lng_story_repost": [
+  "Repost Story"
+ ],
+ "lng_story_round_failed": [
+  "Could not record the video message."
+ ],
+ "lng_story_save_draft": [
+  "Save Draft"
+ ],
+ "lng_story_save_file": [
+  "Save to File"
+ ],
+ "lng_story_save_file_done": [
+  "Story saved to file."
+ ],
+ "lng_story_save_file_failed": [
+  "Failed to save story."
+ ],
+ "lng_story_save_settings": [
+  "Save Settings"
+ ],
+ "lng_story_screenshots": [
+  "Allow Screenshots"
+ ],
+ "lng_story_stop_button": [
+  "Stop"
+ ],
+ "lng_story_sure_stop": [
+  "Are you sure you want to stop uploading the story?"
+ ],
+ "lng_story_sure_stop_title": [
+  "Stop uploading"
+ ],
+ "lng_story_upload_cancel": [
+  "Remove"
+ ],
+ "lng_story_upload_failed": [
+  "Failed to upload the story."
+ ],
+ "lng_story_upload_retry": [
+  "Try Again"
+ ],
+ "lng_story_video_lock": [
+  "Lock Video"
+ ],
+ "lng_story_video_unlock": [
+  "Unlock Video"
+ ],
+ "lng_story_weather_failed": [
+  "Could not load weather."
  ],
  "lng_suggest_accept_pay_now_ton": [
   "You will pay **{count} Gram** for publishing right now.",
@@ -5591,6 +6077,10 @@
  ],
  "lng_suggest_warn_title_ton": [
   "Grams Will Be Lost"
+ ],
+ "lng_sure_delete_contacts": [
+  "Are you sure you want to delete {count} contact from your contact list?",
+  "Are you sure you want to delete {count} contacts from your contact list?"
  ],
  "lng_sure_logout_wallet_local": [
   "Your wallet's keys are stored only on this device and Telegram has no backup of them. Continuing destroys them — only your Secret Phrase can restore the wallet.",
@@ -5733,8 +6223,33 @@
  "lng_ttl_voice_sent": [
   "You sent a self-destructing voice message."
  ],
+ "lng_unconfirmed_auth_confirmed_bot": [
+  "New Bot Allowed"
+ ],
+ "lng_unconfirmed_auth_confirmed_bot_message": [
+  "You can manage your connected bot in {link}."
+ ],
+ "lng_unconfirmed_auth_connections": [
+  "We detected {count} new connection to your account. Was this you?",
+  "We detected {count} new connections to your account. Was this you?"
+ ],
+ "lng_unconfirmed_auth_connections_allowed": [
+  "New Connections Allowed"
+ ],
+ "lng_unconfirmed_auth_connections_denied": [
+  "Access Revoked"
+ ],
  "lng_unconfirmed_auth_denied_multiple": [
   "We have terminated the login attempts from: {country}"
+ ],
+ "lng_unconfirmed_auth_denied_single_bot": [
+  "We have disconnected the bot connected from {country}."
+ ],
+ "lng_unconfirmed_auth_denied_title_bot": [
+  "Bot Disconnected"
+ ],
+ "lng_unconfirmed_auth_denied_warning_bot": [
+  "Only connect bots you trust. Connected bots can access your messages and act on your behalf!"
  ],
  "lng_unconfirmed_auth_multiple": [
   "We detected new {count} login to your account. Is it you?",
@@ -5743,6 +6258,15 @@
  "lng_unconfirmed_auth_multiple_from": [
   "We detected new {count} login to your account from {country}. Is it you?",
   "We detected new {count} logins to your account from {country}. Is it you?"
+ ],
+ "lng_unconfirmed_auth_review_failed": [
+  "Couldn't complete the request. Please try again."
+ ],
+ "lng_unconfirmed_auth_single_bot": [
+  "{bot} connected to your account from {from}. Was this you?"
+ ],
+ "lng_unconfirmed_auth_title_bot": [
+  "A bot just got access to your messages!"
  ],
  "lng_unlock_tags": [
   "Unlock"
