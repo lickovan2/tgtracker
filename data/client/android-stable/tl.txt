@@ -229,11 +229,13 @@ TL_aicompose.deleteTone
 TL_aicompose.getTone
 TL_aicompose.getToneExample
 TL_aicompose.getTones
+TL_aicompose.inputAiComposeStyle
 TL_aicompose.inputAiComposeToneDefault
 TL_aicompose.inputAiComposeToneID
 TL_aicompose.inputAiComposeToneSingleUse
 TL_aicompose.inputAiComposeToneSlug
 TL_aicompose.saveTone
+TL_aicompose.setChatStyle
 TL_aicompose.updateTone
 TL_appWebViewResultUrl
 TL_attachMenuBot
@@ -579,7 +581,6 @@ TL_channels_getAdminedPublicChannels
 TL_channels_getChannelRecommendations
 TL_channels_getChannels
 TL_channels_getFullChannel
-TL_channels_getFutureCreatorAfterLeave
 TL_channels_getGroupsForDiscussion
 TL_channels_getInactiveChannels
 TL_channels_getMessageAuthor
@@ -731,6 +732,7 @@ TL_communities.TL_communities_togglePeerLinkRequestApproval
 TL_community
 TL_communityForbidden
 TL_communityFull
+TL_communityFull_layer233
 TL_composedMessageWithAI
 TL_composedRichMessageWithAI
 TL_config
@@ -862,11 +864,13 @@ TL_document_layer92
 TL_document_old
 TL_draftMessage
 TL_draftMessageEmpty
+TL_draftMessageEmpty_layer233
 TL_draftMessageEmpty_layer81
 TL_draftMessage_layer165
 TL_draftMessage_layer181
 TL_draftMessage_layer205
 TL_draftMessage_layer226
+TL_draftMessage_layer233
 TL_editCloseFriends
 TL_editFactCheck
 TL_emailVerificationApple
@@ -1309,6 +1313,7 @@ TL_iv.pageBlockAuthorDate
 TL_iv.pageBlockAuthorDate_layer60
 TL_iv.pageBlockBlockquote
 TL_iv.pageBlockBlockquoteBlocks
+TL_iv.pageBlockBlockquoteBlocks_layer233
 TL_iv.pageBlockBlockquote_layer228
 TL_iv.pageBlockButtonRow
 TL_iv.pageBlockChannel
@@ -1493,6 +1498,7 @@ TL_messageActionAttachMenuBotAllowed
 TL_messageActionBoostApply
 TL_messageActionBotAllowed
 TL_messageActionBotAllowed_layer153
+TL_messageActionBotInvite
 TL_messageActionChangeCommunity
 TL_messageActionChangeCreator
 TL_messageActionChannelCreate
@@ -1535,6 +1541,7 @@ TL_messageActionGiveawayLaunch_layer186
 TL_messageActionGiveawayResults
 TL_messageActionGiveawayResults_layer186
 TL_messageActionGramTransfer
+TL_messageActionGramTransfer_layer233
 TL_messageActionGroupCall
 TL_messageActionGroupCallScheduled
 TL_messageActionHistoryClear
@@ -1573,6 +1580,7 @@ TL_messageActionSetMessagesTTL
 TL_messageActionSetMessagesTTL_layer149
 TL_messageActionSetSameChatWallPaper
 TL_messageActionStarGift
+TL_messageActionStarGiftOnchainOffer
 TL_messageActionStarGiftPurchaseOffer
 TL_messageActionStarGiftPurchaseOfferDeclined
 TL_messageActionStarGiftUnique
@@ -1884,6 +1892,7 @@ TL_messages_getFavedStickers
 TL_messages_getFeaturedEmojiStickers
 TL_messages_getFeaturedStickers
 TL_messages_getFullChat
+TL_messages_getFutureChatCreatorAfterLeave
 TL_messages_getGameHighScores
 TL_messages_getHistory
 TL_messages_getInlineBotResults
@@ -1923,7 +1932,6 @@ TL_messages_getScheduledMessages
 TL_messages_getSearchCounters
 TL_messages_getSearchResultsCalendar
 TL_messages_getSearchResultsPositions
-TL_messages_getShareTheme
 TL_messages_getShareThemeBackdrops
 TL_messages_getSponsoredMessages
 TL_messages_getStatsURL
@@ -1931,6 +1939,8 @@ TL_messages_getStickerSet
 TL_messages_getStickers
 TL_messages_getSuggestedDialogFilters
 TL_messages_getTopReactions
+TL_messages_getTranscriptionLangs
+TL_messages_getTranscriptionModels
 TL_messages_getUnreadMentions
 TL_messages_getUnreadPollVotes
 TL_messages_getUnreadReactions
@@ -1947,6 +1957,7 @@ TL_messages_importChatInvite
 TL_messages_inactiveChats
 TL_messages_initHistoryImport
 TL_messages_installStickerSet
+TL_messages_inviteUsersToBot
 TL_messages_invitedUsers
 TL_messages_markDialogUnread
 TL_messages_messageEditData
@@ -2176,6 +2187,7 @@ TL_payments_starsRevenueStats
 TL_payments_starsRevenueWithdrawalUrl
 TL_payments_validateRequestedInfo
 TL_payments_validatedRequestedInfo
+TL_payments_withdrawStarsRevenueToWallet
 TL_peerBlocked
 TL_peerChannel
 TL_peerChannel_layer131
@@ -2194,6 +2206,7 @@ TL_peerSelfLocated
 TL_peerSettings
 TL_peerSettings_layer176
 TL_peerSettings_layer199
+TL_peerSettings_layer233
 TL_peerUser
 TL_peerUser_layer131
 TL_pendingSuggestion
@@ -2478,6 +2491,7 @@ TL_stars.StarGiftAttributeRarity
 TL_stars.StarGiftAuctionRound
 TL_stars.StarGiftAuctionState
 TL_stars.StarGiftCollections
+TL_stars.StarGiftOnchainSalePayload
 TL_stars.StarGiftUpgradePrice
 TL_stars.StarGifts
 TL_stars.StarsAmount
@@ -2504,6 +2518,11 @@ TL_stars.TL_payments_getStarsTopupOptions
 TL_stars.TL_payments_getStarsTransactions
 TL_stars.TL_payments_savedStarGifts
 TL_stars.TL_payments_sendStarsForm
+TL_stars.TL_payments_starGiftOnchainFixedSalePayload
+TL_stars.TL_payments_starGiftOnchainOfferTx
+TL_stars.TL_payments_starGiftOnchainOfferTxInitState
+TL_stars.TL_payments_starGiftOnchainOfferTxMessage
+TL_stars.TL_payments_starGiftOnchainSalePayload
 TL_stars.TL_payments_starsStatus
 TL_stars.TL_payments_starsStatus_layer194
 TL_stars.TL_payments_uniqueStarGift
@@ -2543,6 +2562,8 @@ TL_stars.TL_starGiftUnique_layer214
 TL_stars.TL_starGiftUnique_layer215
 TL_stars.TL_starGiftUnique_layer219
 TL_stars.TL_starGiftUnique_layer221
+TL_stars.TL_starGiftUnique_layer233
+TL_stars.TL_starGiftUnique_layer234_old
 TL_stars.TL_starGift_layer190
 TL_stars.TL_starGift_layer195
 TL_stars.TL_starGift_layer202
@@ -2584,12 +2605,17 @@ TL_stars.TL_starsTransaction_layer199_2
 TL_stars.TL_starsTransaction_layer205
 TL_stars.Tl_starsRating
 TL_stars.UniqueStarGiftValueInfo
+TL_stars.acceptStarGiftOnchainOffer
+TL_stars.buyStarGiftOnchain
+TL_stars.cancelStarGiftOnchainOffer
+TL_stars.cancelStarGiftOnchainSale
 TL_stars.checkCanSendGift
 TL_stars.checkCanSendGiftResultFail
 TL_stars.checkCanSendGiftResultOk
 TL_stars.convertStarGift
 TL_stars.craftStarGift
 TL_stars.createStarGiftCollection
+TL_stars.declineStarGiftOnchainOffer
 TL_stars.deleteStarGift
 TL_stars.deleteStarGiftCollection
 TL_stars.depositStarGift
@@ -2611,6 +2637,7 @@ TL_stars.paidReactionPrivacyPeer
 TL_stars.reorderStarGiftCollections
 TL_stars.resaleStarGifts
 TL_stars.saveStarGift
+TL_stars.sendStarGiftOnchainOffer
 TL_stars.starGiftAttributeBackdrop
 TL_stars.starGiftAttributeBackdrop_layer202
 TL_stars.starGiftAttributeBackdrop_layer221
@@ -2633,6 +2660,7 @@ TL_stars.toggleStarGiftsPinnedToTop
 TL_stars.transferStarGift
 TL_stars.updatePaidMessagesPrice
 TL_stars.updateStarGiftCollection
+TL_stars.updateStarGiftOnchainPrice
 TL_stars.updateStarGiftPrice
 TL_stars.upgradeStarGift
 TL_stars.withdrawStarGift
@@ -2867,6 +2895,7 @@ TL_topPeerCategoryForwardUsers
 TL_topPeerCategoryGroups
 TL_topPeerCategoryPeers
 TL_topPeerCategoryPhoneCalls
+TL_transcriptionModel
 TL_update
 TL_update.TL_updateAiComposeTones
 TL_update.TL_updateAttachMenuBots
@@ -3007,6 +3036,7 @@ TL_update.TL_updateStoryID
 TL_update.TL_updateTheme
 TL_update.TL_updateTranscribeAudio
 TL_update.TL_updateTranscribedAudio
+TL_update.TL_updateTranscribedAudioFile
 TL_update.TL_updateUser
 TL_update.TL_updateUserEmojiStatus
 TL_update.TL_updateUserName
@@ -3161,6 +3191,7 @@ TL_wallet
 TL_wallet.InputWalletReplacement
 TL_wallet.TL_walletState
 TL_wallet.TL_walletStateEmpty
+TL_wallet.WalletOnchainGiftAction
 TL_wallet.WalletState
 TL_wallet.WalletTransactionPeer
 TL_wallet.card
@@ -3215,10 +3246,19 @@ TL_wallet.tonConnectSessions
 TL_wallet.tonConnectSubmitConnectResult
 TL_wallet.tonConnectSubmitResponse
 TL_wallet.userAddresses
+TL_wallet.walletOnchainGiftActionBuy
+TL_wallet.walletOnchainGiftActionChangePrice
+TL_wallet.walletOnchainGiftActionDelist
+TL_wallet.walletOnchainGiftActionOfferAccept
+TL_wallet.walletOnchainGiftActionOfferCancel
+TL_wallet.walletOnchainGiftActionOfferCreate
+TL_wallet.walletOnchainGiftActionOfferDecline
+TL_wallet.walletOnchainGiftActionOfferExpire
 TL_wallet.walletOwnershipProof
 TL_wallet.walletTransaction
 TL_wallet.walletTransactionPeerAddress
 TL_wallet.walletTransactionPeerChannel
+TL_wallet.walletTransactionPeerOnchainGift
 TL_wallet.walletTransactionPeerOnramp
 TL_wallet.walletTransactionPeerTelegramGift
 TL_wallet.walletTransactionPeerUnsupported

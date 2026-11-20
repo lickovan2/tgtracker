@@ -496,6 +496,7 @@ tgnet/TL_smsjobs$TL_updateSmsJob
 tgnet/Vector
 tgnet/Vector$Int
 tgnet/Vector$Long
+tgnet/Vector$Strings
 tgnet/Vector$TLDeserializer
 tgnet/VectorLegacy
 tgnet/WriteToSocketDelegate
@@ -568,6 +569,8 @@ ui/ContactsActivity
 ui/ContactsWidgetConfigActivity
 ui/DataAutoDownloadActivity
 ui/DataSettingsActivity
+ui/Dictation/DictationAsr
+ui/Dictation/DictationLid
 ui/ExternalActionActivity
 ui/FiltersSetupActivity
 ui/IUpdateLayout
@@ -614,6 +617,7 @@ ui/Wallet/WalletEngine2$SendCallbacks
 ui/Wallet/WalletEngine2$SendPhase
 ui/Wallet/WalletEngine2$SendResolution
 ui/WallpapersListActivity
+ui/WidgetConformanceActivity
 ui/web/BotWebViewContainer$BotWebViewProxy
 ui/web/BotWebViewContainer$WebViewProxy
 ui/web/HttpGetFileTask
@@ -622,6 +626,8 @@ utils/recorder/audio/AudioNoiseSuppressor
 utils/recorder/audio/AudioRecorderNative
 utils/twidget/WidgetClientNative
 utils/twidget/WidgetEngineBackend
+utils/twidget/WidgetEnginePreload
 utils/twidget/WidgetEngineService
+utils/twidget/WidgetEngineService$Forked
 utils/twidget/WidgetSandboxBackend
 utils/twidget/WidgetSandboxNative
