@@ -1843,10 +1843,10 @@
   "WebView not available. Please update it to use WebView bots."
  ],
  "BotWebViewRequestCameraMicPermission": [
-  "Allow **%1$s** to access to your camera and microphone?The developer of **%1$s** will be able to access your camera and microphone when this web app is open."
+  "Allow **%1$s** to access your camera and microphone?The developer of **%1$s** will be able to access your camera and microphone when this web app is open."
  ],
  "BotWebViewRequestCameraMicPermissionWithHint": [
-  "Allow **%1$s** to access to your camera and microphone?The developer of **%1$s** will be able to access your camera and microphone when this web app is open.Enable camera access in Settings > Permissions > Camera."
+  "Allow **%1$s** to access your camera and microphone?The developer of **%1$s** will be able to access your camera and microphone when this web app is open.Enable camera access in Settings > Permissions > Camera."
  ],
  "BotWebViewRequestWriteMessage": [
   "Allow this bot to send you messages?"
@@ -9725,16 +9725,16 @@
   "No history yet"
  ],
  "WebViewRequestCameraMicPermissionWithHint": [
-  "Allow **%1$s** to access to your camera and microphone?**%1$s** will be able to access your camera and microphone when this website is open.Enable camera access in Settings > Permissions > Camera."
+  "Allow **%1$s** to access your camera and microphone?**%1$s** will be able to access your camera and microphone when this website is open.Enable camera access in Settings > Permissions > Camera."
  ],
  "WebViewRequestCameraPermissionWithHint": [
-  "Allow **%1$s** to access to your camera?**%1$s** will be able to access your camera when this website is open.Enable camera access in Settings > Permissions > Camera."
+  "Allow **%1$s** to access your camera?**%1$s** will be able to access your camera when this website is open.Enable camera access in Settings > Permissions > Camera."
  ],
  "WebViewRequestGeolocationPermissionWithHint": [
-  "Allow **%1$s** to access to your location?**%1$s** will be able to access your location when this website is open.Go to Settings > Permissions and turn **Location** on to share location data."
+  "Allow **%1$s** to access your location?**%1$s** will be able to access your location when this website is open.Go to Settings > Permissions and turn **Location** on to share location data."
  ],
  "WebViewRequestMicrophonePermissionWithHint": [
-  "Allow **%1$s** to access to your microphone?**%1$s** will be able to access your microphone when this website is open.Enable microphone access in Settings > Permissions > Microphone."
+  "Allow **%1$s** to access your microphone?**%1$s** will be able to access your microphone when this website is open.Enable microphone access in Settings > Permissions > Microphone."
  ],
  "WhoCanAddMembers": [
   "Who can add members?"

@@ -557,7 +557,7 @@
   "Allow **%1$s** to access your microphone?The developer of **%1$s** will be able to access your microphone when this web app is open."
  ],
  "BotWebViewRequestMicrophonePermissionWithHint": [
-  "Allow **%1$s** to access to your microphone?The developer of **%1$s** will be able to access your microphone when this web app is open.Enable microphone access in Settings > Permissions > Microphone."
+  "Allow **%1$s** to access your microphone?The developer of **%1$s** will be able to access your microphone when this web app is open.Enable microphone access in Settings > Permissions > Microphone."
  ],
  "BotWebViewSettings": [
   "Settings"
