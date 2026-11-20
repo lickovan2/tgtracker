@@ -4994,6 +4994,30 @@
  "JustNowAgo": [
   "just now"
  ],
+ "KeyboardKeyBackspace": [
+  "Backspace"
+ ],
+ "KeyboardKeyDelete": [
+  "Del"
+ ],
+ "KeyboardKeyEnter": [
+  "Enter"
+ ],
+ "KeyboardKeyEsc": [
+  "Esc"
+ ],
+ "KeyboardKeySpace": [
+  "Space"
+ ],
+ "KeyboardKeyTab": [
+  "Tab"
+ ],
+ "KeyboardShortcuts": [
+  "Keyboard Shortcuts"
+ ],
+ "KeyboardShortcutsDesc": [
+  "Hotkeys, conflicts and custom keys"
+ ],
  "KickFromSupergroup": [
   "Restrict user"
  ],
@@ -7700,6 +7724,9 @@
  "SettingsKeywordsSessions": [
   "devices, sessions, log out, terminate"
  ],
+ "SettingsKeywordsShortcuts": [
+  "hotkeys, shortcuts, keyboard, keys, keybindings"
+ ],
  "SettingsKeywordsStickers": [
   "stickers, emoji, gifs, masks, reactions"
  ],
@@ -7829,9 +7856,6 @@
  "SettingsSearchEmpty": [
   "Start typing to find a setting"
  ],
- "SettingsSendPlusEnterDescription": [
-  "Press Enter for new line"
- ],
  "SettingsSessionsDesc": [
   "Sessions, Automatically terminate"
  ],
@@ -7864,6 +7888,195 @@
  ],
  "Sharpen": [
   "Sharpen"
+ ],
+ "ShortcutAlsoUsedBy": [
+  "Also used by: {action}"
+ ],
+ "ShortcutBold": [
+  "Bold"
+ ],
+ "ShortcutChatByNumber": [
+  "Open chat by number"
+ ],
+ "ShortcutCloseOrGoBack": [
+  "Close or go back"
+ ],
+ "ShortcutComboCondition": [
+  "{keys} — {condition}"
+ ],
+ "ShortcutCopyFormats": [
+  "Copy as text, HTML or Markdown"
+ ],
+ "ShortcutCopySelected": [
+  "Copy selected messages"
+ ],
+ "ShortcutDeleteLayer": [
+  "Delete layer"
+ ],
+ "ShortcutDeleteSelected": [
+  "Delete selected messages"
+ ],
+ "ShortcutEditLastMessage": [
+  "Edit last message"
+ ],
+ "ShortcutFocusMessageInput": [
+  "Focus message field"
+ ],
+ "ShortcutFolderByNumber": [
+  "Open folder by number"
+ ],
+ "ShortcutFrameStep": [
+  "Previous or next frame"
+ ],
+ "ShortcutGlobalSearch": [
+  "Search chats and messages"
+ ],
+ "ShortcutHeadings": [
+  "Headings 1–6"
+ ],
+ "ShortcutHint": [
+  "{action} ({keys})"
+ ],
+ "ShortcutHoldInMessageMenu": [
+  "hold in the message menu"
+ ],
+ "ShortcutInFullscreen": [
+  "in fullscreen"
+ ],
+ "ShortcutItalic": [
+  "Italic"
+ ],
+ "ShortcutMonospace": [
+  "Monospace"
+ ],
+ "ShortcutMuteUnmute": [
+  "Mute / unmute"
+ ],
+ "ShortcutNeedsModifier": [
+  "Use it with {modifiers}"
+ ],
+ "ShortcutNewLine": [
+  "New line"
+ ],
+ "ShortcutNextChat": [
+  "Next chat"
+ ],
+ "ShortcutNextMedia": [
+  "Next media"
+ ],
+ "ShortcutNextStory": [
+  "Next story"
+ ],
+ "ShortcutNotSet": [
+  "Not set"
+ ],
+ "ShortcutPauseRecording": [
+  "Pause voice recording"
+ ],
+ "ShortcutPlayPause": [
+  "Play / pause"
+ ],
+ "ShortcutPreviousChat": [
+  "Previous chat"
+ ],
+ "ShortcutPreviousMedia": [
+  "Previous media"
+ ],
+ "ShortcutPreviousStory": [
+  "Previous story"
+ ],
+ "ShortcutQuickChatPicker": [
+  "Quick chat switcher"
+ ],
+ "ShortcutRecording": [
+  "Press keys…"
+ ],
+ "ShortcutRecordingHint": [
+  "Esc to cancel, Backspace to clear"
+ ],
+ "ShortcutReplaceText": [
+  "{keys} is already used by {actions}. It will be removed from there."
+ ],
+ "ShortcutReplaceTitle": [
+  "Replace Shortcut?"
+ ],
+ "ShortcutReplyToNext": [
+  "Reply to next message"
+ ],
+ "ShortcutReplyToPrevious": [
+  "Reply to previous message"
+ ],
+ "ShortcutReserved": [
+  "{keys} is reserved by the browser or system"
+ ],
+ "ShortcutResetAll": [
+  "Reset All Shortcuts"
+ ],
+ "ShortcutResetAllText": [
+  "Reset all keyboard shortcuts to their default values?"
+ ],
+ "ShortcutSearchInChat": [
+  "Search in chat"
+ ],
+ "ShortcutSeekVideo": [
+  "Seek backward or forward"
+ ],
+ "ShortcutSendMessage": [
+  "Send message"
+ ],
+ "ShortcutStrikethrough": [
+  "Strikethrough"
+ ],
+ "ShortcutSubscript": [
+  "Subscript"
+ ],
+ "ShortcutSuperscript": [
+  "Superscript"
+ ],
+ "ShortcutUnderline": [
+  "Underline"
+ ],
+ "ShortcutUsedByFixed": [
+  "{keys} is used by {action}"
+ ],
+ "ShortcutWhenInputEmpty": [
+  "when the message field is empty"
+ ],
+ "ShortcutWhenNoSelection": [
+  "without selected text"
+ ],
+ "ShortcutWhenSelection": [
+  "with text selected"
+ ],
+ "ShortcutsFormattingInfo": [
+  "Select text in the message field to apply formatting."
+ ],
+ "ShortcutsSectionChat": [
+  "Chat"
+ ],
+ "ShortcutsSectionChatList": [
+  "Chat List"
+ ],
+ "ShortcutsSectionFormatting": [
+  "Text Formatting"
+ ],
+ "ShortcutsSectionGeneral": [
+  "General"
+ ],
+ "ShortcutsSectionMediaEditor": [
+  "Media Editor"
+ ],
+ "ShortcutsSectionMediaViewer": [
+  "Media Viewer"
+ ],
+ "ShortcutsSectionRoundVideo": [
+  "Video Messages"
+ ],
+ "ShortcutsSectionSending": [
+  "Sending Messages"
+ ],
+ "ShortcutsSectionStories": [
+  "Stories"
  ],
  "ShowFolderTags": [
   "Show Folder Tags"
@@ -9344,6 +9557,12 @@
  "VoiceChatInactive": [
   "This video chat is not active"
  ],
+ "VoiceChatJoinConfirm": [
+  "Join the video chat **{chat}**?"
+ ],
+ "VoiceChatJoinConfirmChannel": [
+  "Do you want to join the live stream **{chat}**?"
+ ],
  "VoiceChatJoinFailed": [
   "Failed to join video chat"
  ],
@@ -9465,6 +9684,9 @@
  "WalletConnectActionCallContract": [
   "Call Contract"
  ],
+ "WalletConnectActionCollectible": [
+  "Collectible Transfer"
+ ],
  "WalletConnectActionDeployContract": [
   "Deploy Contract"
  ],
@@ -9473,6 +9695,9 @@
  ],
  "WalletConnectActionExcess": [
   "Excess"
+ ],
+ "WalletConnectActionToken": [
+  "Token Transfer"
  ],
  "WalletConnectActionTransfer": [
   "Transfer"
@@ -10234,6 +10459,9 @@
  ],
  "WalletTransactionSending": [
   "Sending…"
+ ],
+ "WalletTransactionSimulationFailed": [
+  "Transaction simulation failed"
  ],
  "WalletTransactionTitle": [
   "Transaction"
