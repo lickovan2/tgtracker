@@ -7623,7 +7623,7 @@
   "On-device transcription"
  ],
  "SpeechToTextOnDeviceInfo": [
-  "Voice messages are transcribed on this phone. Private: nothing leaves it."
+  "Voice messages are transcribed on this device. Private: nothing leaves it."
  ],
  "SpeechToTextPrivacyCompact": [
   "Compact languages"
@@ -7635,19 +7635,19 @@
   "Hey! Running ten minutes late, see you at the café near the station"
  ],
  "SpeechToTextPrivacyNothingLeaves": [
-  "Nothing leaves the phone"
+  "Nothing leaves the device"
  ],
  "SpeechToTextPrivacyNothingLeavesText": [
   "Your voice and its text are never sent to a server for this."
  ],
  "SpeechToTextPrivacyOnPhone": [
-  "Recognized on your phone"
+  "Recognized on your device"
  ],
  "SpeechToTextPrivacyOnPhoneText": [
-  "Speech turns into text right on this phone, even offline."
+  "Speech turns into text right on this device, even offline."
  ],
  "SpeechToTextPrivacySubtitle": [
-  "Voice messages turn into textright here, on your phone."
+  "Voice messages turn into textright here, on your device."
  ],
  "SpeechToTextPrivacyTitle": [
   "Private by design"
