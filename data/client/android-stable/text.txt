@@ -1358,6 +1358,7 @@
 : make sure class name exists
 : make sure class name exists, is public, and has an empty constructor that is public
 : mimeType=
+: no model and no auto-download, opening speech settings
 : no webview or delegate!
 : not found
 : null
@@ -3383,7 +3384,6 @@ Hey guys, how are you?
 Highlighter is closed
 Hijrah date out of range
 Hint Track
-Hold to dictate
 Holder at
 Host unresponsive when dispatching call
 Hunter Green
@@ -9801,4 +9801,3 @@ zoom="
 ← NOT full-screen: a strip stays unblurred
 → Google?
 ️⃣ emoji in FestiveFontEmoji
-������ Got it
