@@ -152,11 +152,12 @@ arrow_axis
 aspect_ratio
 aspect_ratio_info_present_flag
 asr_auto
-asr_google
 asr_langs
 asr_live_captions
+asr_live_text
 asr_local_free
 asr_local_premium
+asr_video_captions
 atop_macro
 atopwithdelims_macro
 attach_bot
@@ -741,7 +742,6 @@ description_document
 description_photo
 design_dictation_mode
 design_voice_live_field
-design_voice_live_transcript
 destructive_text_color
 detached_preview
 device_capabilities
@@ -2330,7 +2330,6 @@ result_id
 result_receiver
 result_text
 result_url
-results_recognition
 resuming_sender
 retry_contacts
 retry_date

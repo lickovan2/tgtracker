@@ -188,8 +188,6 @@
 (template#
 (the voice recording goes on)
 (threshold=
-(tinylid)
-(tinylid:
 (uid=
 (valid values
 (value "
@@ -942,7 +940,6 @@
 , new value
 , newHolder=
 , nextRequestWaitMillis=
-, no model for it)
 , no transaction of the wallet yet
 , no widget yet
 , nodeId=
@@ -1504,9 +1501,11 @@
 : remainingSynchronizationSamples
 : replaying
 : server requests integrity classic check with project =
+: staying in
 : the required <
 : tinylid
 : unbindService failed
+: unknown language, no words
 : unsupported complex color tag
 : url=
 : values=
@@ -5578,7 +5577,6 @@ SSL PROTOCOL FAILURE:
 ST2084 PQ
 STALE final ignored (current
 STALE partial ignored (current
-STALE segment ignored:
 START PROCESSING
 STREAM_RING stream volume:
 SUCCESS, result=[
@@ -7079,7 +7077,6 @@ audio capture
 audio capture failed while stopping
 audio capture ready; waiting for common A/V start frame
 audio encoder configure: codec=
-audio from
 audio mode is:
 audio path =
 audio read
@@ -7265,10 +7262,13 @@ camera switch path: waiting for DUAL_ACTIVE standby session
 camera switch started: target=
 camera target must not be null.
 can be annotated with ParseDetail
+can be made,
 can only be used with a compatible window decor layout
 can only be used with android:layout_height="wrap_content"
 can only be used with android:layout_width="match_parent" (or fill_parent)
 can write
+can't be heard (
+can't be made (no speech in a language with a model)
 can't convert gift to inputgift to add into the collection
 can't create background surface. render thread is null
 can't create logs directory
@@ -7335,6 +7335,9 @@ cant import contact token. token=
 cant init encoder
 cant resume audio encoder
 capabilities changed:
+captions:
+captions: can't hear the video
+captions: player video
 capture FPS range selected:
 capture error after session end
 capture failed
@@ -7366,7 +7369,6 @@ character is not a valid unicode code point
 character outside of valid range
 chars
 chars as text
-chars from
 chars in
 chars → field
 chars)
@@ -7392,9 +7394,6 @@ chunks=
 class="
 classGuid =
 classes in
-clean (voice)
-clean done in
-clean failed:
 cleanup: isUpdating = false
 clear history by overwrite firstLoading=
 clearCredentialStateAsync no provider dependencies found - please ensure the desired provider dependencies are added
@@ -7504,7 +7503,6 @@ create new channel
 create new database
 create new tgvoip instance, version
 create photo encoder
-create recognizer
 create(Any?;Continuation) has not been overridden
 create(Continuation) has not been overridden
 createCredential is not supported on this device
@@ -7632,7 +7630,6 @@ detached
 detect a shape
 detected contacts change
 detected emu
-detecting among
 device
 device = manufacturer=
 device has
@@ -7681,7 +7678,6 @@ disable backup: sendTransfer:
 disable backup: transfer is sent, msg_hash=
 disableBackupWithoutUpdatingPhrase:
 discardCall
-discarded:
 disconnect session
 disconnect(); ServiceListener=%s, isConnected=%b
 disconnected
@@ -7822,8 +7818,6 @@ end cannot be negative
 end change if necessary
 end index
 end index (%s) must not be less than start index (%s)
-end of segmented session
-end of speech
 end of the array ']'
 end of the input
 end of the object '}'
@@ -7934,7 +7928,6 @@ fcntl failed: EAGAIN
 feat
 feat.
 featuring
-feed closed:
 fetchFonts failed (
 fetchFonts failed (empty result)
 fetchFonts result is not OK. (
@@ -7981,6 +7974,7 @@ fillMessagesWithStories: getStoriesByID did=
 fillMessagesWithStories: getStoriesByID error
 filterByAuthorizedAccounts and requestVerifiedPhoneNumber must not both be true; the Verified Phone Number feature only works in sign-ups.
 filters must not be null
+final
 final =
 final message not added
 final message not added, add
@@ -8085,7 +8079,6 @@ ft.
 fullObject=
 function
 future is already set
-gap=
 generateNewId() must be called before retrieving ids.
 generation=
 generator
@@ -8182,6 +8175,7 @@ handleOnBackCancelled. PREDICTIVE_BACK = true fragment manager
 handleOnBackPressed. PREDICTIVE_BACK = true fragment manager
 handleOnBackProgressed. PREDICTIVE_BACK = true fragment manager
 handleOnBackStarted. PREDICTIVE_BACK = true fragment manager
+has
 has already been destroyed. Nested fragments should always use the child FragmentManager.
 has an invalid '
 has an invalid class name value!
@@ -8223,6 +8217,7 @@ hasVolumeChanged=%b, mFirstDeviceStatusUpdate=%b
 has_phone_number = ?
 hashed PRF value with wrong length
 hdrl expected, found:
+heard from
 heartbeat timed out
 height =
 height must be positive or -1
@@ -8565,9 +8560,6 @@ keystore key missing
 keystore key type
 langpack
 langpack because of patch (
-language
-language candidates
-language locked:
 large_operations=
 last char not ')'
 last video
@@ -8605,7 +8597,6 @@ linkToDeath failed
 live captions
 live captions:
 live story pip:
-live transcript: no switch to
 load cacheOffset =
 load contacts don't change
 load contacts from cache
@@ -8751,7 +8742,6 @@ messages load time =
 messages.getMessages error:
 metadata cannot be null
 microphone error
-microphone permission needed
 mid =
 mid=
 mids =
@@ -8799,7 +8789,6 @@ moveto RESUMED:
 moveto STARTED:
 ms
 ms (JavaScript
-ms (captured
 ms (requested up to
 ms [
 ms after scheduled time)
@@ -8812,23 +8801,24 @@ ms getFile{time_ms=
 ms in
 ms in all
 ms in process
+ms of audio (peak
 ms of audio in
 ms of audio,
-ms of speech in
 ms since start)
 ms speech in
 ms to
 ms to fit to
 ms to its start)
 ms)
+ms),
 ms,
 ms, chunks=
+ms, decoded in
 ms, layout queries
 ms, max=
 ms, validator
 ms.
 ms:
-ms: top
 ms; errorCode=
 ms]
 msg_hash=
@@ -8910,20 +8900,21 @@ next task =
 nextIfdOffset: %d
 nextIfdType:
 no answer in 45000 ms
+no audio
 no binding
 no calls to next() since the last call to remove()
-no connection for speech recognition
 no error message provided
 no event down from
 no event up from
 no fonts in this process (
 no included points
+no match
 no parent
 no path defined
 no protocol version specified, strange. Assuming HTTP/1.1.
 no purpose under
 no seccomp filter in this kernel (errno
-no service supports any language → no dictation
+no single file
 no space left on device
 nonce =
 northeast must not be null.
@@ -9084,11 +9075,9 @@ onCreateWindow: newWebView=
 onCustomAction with action = %s
 onDestroy:
 onDestroy: mServiceHandler not set, did you override onCreate() but forget to call super.onCreate()? component=
-onDevice=
 onDismiss called for DialogFragment
 onDownloadStart
 onDraw (none)
-onError
 onEventReceived
 onEventReceived ignore
 onFailure
@@ -9130,7 +9119,6 @@ onRemoveQueueItem(): Media ID shouldn't be null
 onRenderProcessGone priority=
 onReportServiceBinding must be called on the GoogleApiClient handler thread
 onRequestDialog(%s): got null dialog intent
-onResults
 onRouteSelected with reason = %d, routeId = %s
 onRouteUnselected with reason = %d, routeId = %s
 onSeekTo %d
@@ -9171,7 +9159,6 @@ onUpdateMemberRoutes: Specified route not found. routeId=
 onWebEventReceived
 onWebEventReceived ignore
 oneWay=
-online=
 only remove and update ops can be dispatched in first pass
 op #
 op should be remove or update.
@@ -9212,7 +9199,7 @@ overlay consumed (handle)
 overlay removed
 overlay shown at index
 overwrite stories
-own audio capture unavailable → the recogniser's microphone
+own audio capture unavailable
 package info is not set correctly
 package not found
 package shouldn't be null
@@ -9229,7 +9216,6 @@ parser error
 parsing details of
 part
 part from dc
-partial
 password == null
 password should not be empty
 path is empty
@@ -9247,7 +9233,6 @@ peer settings loaded for
 peer_access_hash=
 peer_did =
 pending translation +
-pending=
 pendingIntent or createCredentialResponse must be specified.
 per 5 minutes
 per each minute
@@ -9420,7 +9405,6 @@ read string error
 read-only file system
 readExifSegment: Byte Align II
 readExifSegment: Byte Align MM
-ready in
 reason =
 reasonCode
 receive <-
@@ -9663,7 +9647,6 @@ seek to data offset:
 seekTo ignored because an ad is playing
 seeking from photo viewer to animation object
 seen_range_ratio_permille:
-segment
 segmentBase must be of type SingleSegmentBase or MultiSegmentBase
 segmentation optional module to be downloaded
 segoe ui
@@ -9838,17 +9821,12 @@ southwest must not be null.
 spam =
 spans but GridLayoutManager has only
 spans.
-speech begins
 speech model download failed
 speech models:
 speech models: cached list unreadable:
 speech models: couldn't store
 speech models: list failed:
-speech recognition failed to start
-speech recognition language unavailable
-speech recognition stopped (
 speech recognition unavailable
-speech recognition unavailable on this device
 spoiler gles error
 sqlite busy
 sqlite busy, waiting...
@@ -9882,7 +9860,6 @@ start ignored: running=
 start import contacts
 start import service
 start index
-start lang=
 start listen
 start listen by proximity only
 start loading file to temp =
@@ -9934,9 +9911,6 @@ stop recording internal filename
 stop recording internal in queue
 stop recording recordingAudioFileToSend == null in queue
 stop requested (session
-stop: current session is empty → finish now
-stop: no final within 1.6 s, keeping the partial
-stop=
 stopped
 stopped (
 stopped with error:
@@ -9979,11 +9953,6 @@ succeeded.
 success=
 superState must be null
 superState must not be null
-support probe:
-support probe: error
-support probe: installed=
-support probe: no answer
-support probe: no recognition service
 sure
 surface already created
 surface mode:
@@ -10071,7 +10040,6 @@ timezoneOffsetSeconds
 tint=
 tinyasr route:
 tinyasr stop: tinylid
-tinyasr → Google in
 tinyasr:
 tinyasr: can't decode
 tinyasr: can't transcribe
@@ -10088,13 +10056,12 @@ tinyasr: tinylid
 tinyasr: transcription failed
 tinyasr: unreadable events (
 tinyasr: words
-tinylid
+tinylid: a newer model on the server, updating
 tinylid: download failed:
 tinylid: file,
 tinylid: load failed
 tinylid: loaded
 tinylid: model rejected (
-tinylid: no model
 tinylid: not on the server
 title=? AND account_type=? AND account_name=?
 tmpDetached
@@ -10213,6 +10180,7 @@ unknown delay
 unknown fido gms exception -
 unknown flag for pos
 unknown issue
+unknown language
 unknown message
 unknown status code:
 unknown topic need reload
@@ -10537,5 +10505,4 @@ zoom="
 Пat bez ime
 Сайн уу
 ← NOT full-screen: a strip stays unblurred
-→ Google?
 ️⃣ emoji in FestiveFontEmoji

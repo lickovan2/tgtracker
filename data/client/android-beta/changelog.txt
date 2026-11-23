@@ -1,4 +1,3 @@
-- voice dictation 4x speed up (from 0.57s to 0.14s for text appearing)
-- fixed downloading speech to text models, open settings if auto-download is off
-- talkback in speech to text settings
-- tinyasr update, language variants selection
+- captions widget in stories editor with local speech to text models
+- and in video editor
+- oh, and in video player!
