@@ -502,6 +502,12 @@
  "lng_action_bot_allowed_from_app": [
   "You allowed this bot to message you when you opened {app}."
  ],
+ "lng_action_bot_invited_user": [
+  "{from} was invited by {user}."
+ ],
+ "lng_action_bot_invited_you": [
+  "{user} invited you to this bot."
+ ],
  "lng_action_change_creator": [
   "{from} made {user} the new owner of the group."
  ],
@@ -541,6 +547,51 @@
  ],
  "lng_action_gift_offer_time_small": [
   "{minutes} m"
+ ],
+ "lng_action_gift_onchain_offer_bought": [
+  "You bought {name} for {amount}."
+ ],
+ "lng_action_gift_onchain_offer_buying": [
+  "The purchase is being completed."
+ ],
+ "lng_action_gift_onchain_offer_cancelling": [
+  "The offer is being withdrawn."
+ ],
+ "lng_action_gift_onchain_offer_declined": [
+  "The offer was declined."
+ ],
+ "lng_action_gift_onchain_offer_declined_you": [
+  "You declined the offer."
+ ],
+ "lng_action_gift_onchain_offer_expired": [
+  "The offer has expired."
+ ],
+ "lng_action_gift_onchain_offer_expired_refunding": [
+  "The offer has expired. Your refund is on its way."
+ ],
+ "lng_action_gift_onchain_offer_expires": [
+  "The offer expires in{time}"
+ ],
+ "lng_action_gift_onchain_offer_fine": [
+  "A fine of {amount} was withheld."
+ ],
+ "lng_action_gift_onchain_offer_incoming": [
+  "You were offered {amount} for {name}."
+ ],
+ "lng_action_gift_onchain_offer_refund": [
+  "You were refunded {amount}."
+ ],
+ "lng_action_gift_onchain_offer_review": [
+  "Review"
+ ],
+ "lng_action_gift_onchain_offer_selling": [
+  "The sale is being completed."
+ ],
+ "lng_action_gift_onchain_offer_sold": [
+  "You sold {name} for {amount}."
+ ],
+ "lng_action_gift_onchain_offer_withdrawn": [
+  "The offer was withdrawn."
  ],
  "lng_action_gift_received_me": [
   "You sent to {user} a gift for {cost}"
@@ -1478,6 +1529,31 @@
  "lng_bot_info_saved": [
   "Bot info updated."
  ],
+ "lng_bot_invite_already_many": [
+  "The chosen users already have a chat with this bot."
+ ],
+ "lng_bot_invite_already_one": [
+  "{user} already has a chat with this bot."
+ ],
+ "lng_bot_invite_button": [
+  "Invite"
+ ],
+ "lng_bot_invite_failed": [
+  "None of the chosen users could be invited."
+ ],
+ "lng_bot_invite_limit": [
+  "You can invite up to {count} user at a time.",
+  "You can invite up to {count} users at a time."
+ ],
+ "lng_bot_invite_sent_many": [
+  "Invitations sent."
+ ],
+ "lng_bot_invite_sent_one": [
+  "Invitation sent."
+ ],
+ "lng_bot_invite_title": [
+  "Invite to Bot"
+ ],
  "lng_bot_keyboard_hide": [
   "Hide bot keyboard"
  ],
@@ -1598,6 +1674,66 @@
  ],
  "lng_bot_languages_translating_title": [
   "Translating"
+ ],
+ "lng_bot_media_previews": [
+  "Preview"
+ ],
+ "lng_bot_media_previews_add": [
+  "Add Preview"
+ ],
+ "lng_bot_media_previews_count": [
+  "{count} preview",
+  "{count} previews"
+ ],
+ "lng_bot_media_previews_delete_language": [
+  "Delete Translation"
+ ],
+ "lng_bot_media_previews_delete_language_sure": [
+  "Delete all preview media for this language?"
+ ],
+ "lng_bot_media_previews_delete_many": [
+  "Delete this preview?",
+  "Delete these {count} previews?"
+ ],
+ "lng_bot_media_previews_empty": [
+  "No Preview"
+ ],
+ "lng_bot_media_previews_general_about": [
+  "This preview is shown to users who don't have a translation for their language."
+ ],
+ "lng_bot_media_previews_intro": [
+  "Upload up to {count} screenshot or video demo for your mini app.",
+  "Upload up to {count} screenshots and video demos for your mini app."
+ ],
+ "lng_bot_media_previews_language_about": [
+  "This preview is shown to users who have {language} set as their language."
+ ],
+ "lng_bot_media_previews_load_failed": [
+  "Could not load preview media."
+ ],
+ "lng_bot_media_previews_published": [
+  "Preview published."
+ ],
+ "lng_bot_media_previews_reorder_hint": [
+  "Drag previews to change their order."
+ ],
+ "lng_bot_media_previews_save_failed": [
+  "Could not update preview media."
+ ],
+ "lng_bot_media_previews_saving": [
+  "Saving changes…"
+ ],
+ "lng_bot_media_previews_updated": [
+  "Preview updated."
+ ],
+ "lng_bot_media_previews_upload_failed": [
+  "Could not upload this photo or video."
+ ],
+ "lng_bot_media_previews_uploading": [
+  "Uploading preview…"
+ ],
+ "lng_bot_media_previews_use_cover": [
+  "Use Current Frame as Cover"
  ],
  "lng_bot_menu_not_supported": [
   "This bot can't be added to the attachment menu."
@@ -2327,6 +2463,27 @@
  "lng_credits_currency_summary_subtitle": [
   "You can withdraw your Grams using Fragment."
  ],
+ "lng_credits_currency_withdraw_button": [
+  "Withdraw"
+ ],
+ "lng_credits_currency_withdraw_error": [
+  "Please try again later."
+ ],
+ "lng_credits_currency_withdraw_open": [
+  "Open"
+ ],
+ "lng_credits_currency_withdraw_sent": [
+  "{amount} Sent"
+ ],
+ "lng_credits_currency_withdraw_sent_path": [
+  "Check {menu} {arrow} {money}"
+ ],
+ "lng_credits_currency_withdraw_text": [
+  "The Grams will go to your self-custodial wallet ({menu} {arrow} {money})."
+ ],
+ "lng_credits_currency_withdraw_title": [
+  "Withdraw {amount}"
+ ],
  "lng_credits_enough": [
   "You have enough stars at the moment. {link}"
  ],
@@ -2857,6 +3014,39 @@
  "lng_gift_availability_none": [
   "None of {amount} left"
  ],
+ "lng_gift_bought_tag": [
+  "bought"
+ ],
+ "lng_gift_buy_onchain_already_sent": [
+  "This purchase has already been sent."
+ ],
+ "lng_gift_buy_onchain_done": [
+  "The gift will appear in {path} and on your profile once the purchase is confirmed."
+ ],
+ "lng_gift_buy_onchain_done_recipient": [
+  "{user} will receive the gift once the purchase is confirmed."
+ ],
+ "lng_gift_buy_onchain_earnings_proceed": [
+  "Proceed"
+ ],
+ "lng_gift_buy_onchain_earnings_text": [
+  "{amount} will be moved from Gram Earnings to your balance and used to buy this gift."
+ ],
+ "lng_gift_buy_onchain_earnings_title": [
+  "Use Gram Earnings?"
+ ],
+ "lng_gift_buy_onchain_error": [
+  "Please try again later."
+ ],
+ "lng_gift_buy_onchain_gas": [
+  "Gas"
+ ],
+ "lng_gift_buy_onchain_not_for_sale": [
+  "This gift is no longer for sale."
+ ],
+ "lng_gift_buy_onchain_total": [
+  "Total"
+ ],
  "lng_gift_collectible_tag": [
   "gift"
  ],
@@ -2923,14 +3113,140 @@
  "lng_gift_offer_higher": [
   "The price of this offer is {percent} higher than the average price for {name}."
  ],
+ "lng_gift_offer_onchain_about": [
+  "Enter the number of Grams you'd like to offer for {name}."
+ ],
+ "lng_gift_offer_onchain_add_funds": [
+  "Add funds {arrow}"
+ ],
+ "lng_gift_offer_onchain_already_sent": [
+  "This offer has already been sent."
+ ],
+ "lng_gift_offer_onchain_confirm_text": [
+  "Do you want to make this offer to {user} for {name}?"
+ ],
+ "lng_gift_offer_onchain_duration_about": [
+  "Choose how long the owner has to accept your offer. When it expires, your Grams will be automatically refunded."
+ ],
+ "lng_gift_offer_onchain_escrow_fee": [
+  "Escrow fee"
+ ],
+ "lng_gift_offer_onchain_expires": [
+  "Offer expires"
+ ],
+ "lng_gift_offer_onchain_field": [
+  "Grams to offer"
+ ],
+ "lng_gift_offer_onchain_insufficient": [
+  "Insufficient funds. {link}"
+ ],
+ "lng_gift_offer_onchain_max": [
+  "Maximum offer is {amount}."
+ ],
+ "lng_gift_offer_onchain_min": [
+  "Minimum offer is {amount}."
+ ],
+ "lng_gift_offer_onchain_owner_receives": [
+  "Owner receives"
+ ],
+ "lng_gift_offer_onchain_platform_fee": [
+  "Platform fee"
+ ],
+ "lng_gift_offer_onchain_refund_note": [
+  "If the owner declines your offer or it expires, your Grams will be returned automatically."
+ ],
+ "lng_gift_offer_onchain_sent_text": [
+  "{amount} held until {date}."
+ ],
+ "lng_gift_offer_onchain_sent_title": [
+  "Offer sent"
+ ],
+ "lng_gift_offer_onchain_you_pay": [
+  "You pay"
+ ],
+ "lng_gift_offer_onchain_you_receive": [
+  "You receive"
+ ],
  "lng_gift_offer_table_fee": [
   "Fee"
+ ],
+ "lng_gift_onchain_offer_confirm_text": [
+  "Sell {name} for {amount}?"
+ ],
+ "lng_gift_onchain_offer_confirm_title": [
+  "Confirm Sale"
+ ],
+ "lng_gift_onchain_offer_decline_sure": [
+  "Decline this offer? The buyer will get their Grams back."
+ ],
+ "lng_gift_onchain_offer_network_fee": [
+  "Network fee: {amount}."
+ ],
+ "lng_gift_onchain_offer_on_sale": [
+  "{name} is on sale. Unlist it before accepting an offer."
+ ],
+ "lng_gift_onchain_offer_withdraw": [
+  "Withdraw"
+ ],
+ "lng_gift_onchain_offer_withdraw_error": [
+  "Please try again later."
+ ],
+ "lng_gift_onchain_offer_withdraw_fine": [
+  "Withdrawing early costs {amount}."
+ ],
+ "lng_gift_onchain_offer_withdraw_for": [
+  "Withdraw for {amount}"
+ ],
+ "lng_gift_onchain_offer_withdraw_rest": [
+  "The rest of your {amount} will be returned to you."
+ ],
+ "lng_gift_onchain_offer_withdraw_title": [
+  "Withdraw Offer?"
  ],
  "lng_gift_resale_early": [
   "You will be able to resell this gift in {duration}."
  ],
+ "lng_gift_resale_for_grams": [
+  "For Grams"
+ ],
+ "lng_gift_resale_for_stars": [
+  "For Stars"
+ ],
+ "lng_gift_resale_from_fragment": [
+  "From Fragment"
+ ],
  "lng_gift_resale_transfer_early_title": [
   "Try Later"
+ ],
+ "lng_gift_sell_max_price": [
+  "Maximum price is {amount}."
+ ],
+ "lng_gift_sell_onchain_already_sent": [
+  "This operation has already been sent."
+ ],
+ "lng_gift_sell_onchain_confirm": [
+  "Put {name} on sale for {price}?"
+ ],
+ "lng_gift_sell_onchain_fee_deducted": [
+  "A {percent} fee is deducted from the price."
+ ],
+ "lng_gift_sell_onchain_listing_fee": [
+  "Listing fee"
+ ],
+ "lng_gift_sell_onchain_pending": [
+  "{name} will go on sale for {price} once the network confirms the listing."
+ ],
+ "lng_gift_sell_onchain_toast": [
+  "{name} is on sale for {price}."
+ ],
+ "lng_gift_sell_onchain_unlist_fee": [
+  "Unlisting fee"
+ ],
+ "lng_gift_sell_onchain_unlist_first": [
+  "{name} is already on sale. Unlist it first, then put it on sale at the new price."
+ ],
+ "lng_gift_sell_onchain_you_receive": [
+  "You receive"
  ],
  "lng_gift_send_message_restricted": [
   "This user doesn't accept gifts with messages. Please remove the message and try again."
@@ -2944,6 +3260,9 @@
  ],
  "lng_gift_sent_resale_done_self": [
   "{gift} is now yours."
+ ],
+ "lng_gift_sold_tag": [
+  "sold"
  ],
  "lng_gift_stars_about_collectibles": [
   "Collectible gifts are unique digital items you can exchange or sell. {link}"
@@ -3742,6 +4061,12 @@
  "lng_mute_menu_unmute": [
   "Unmute"
  ],
+ "lng_new_contact_block_bot": [
+  "Block bot"
+ ],
+ "lng_new_contact_bot_invited_owner": [
+  "{user} invited you to this bot owned by {owner}."
+ ],
  "lng_new_contact_common_groups": [
   "Common groups"
  ],
@@ -3988,6 +4313,9 @@
  ],
  "lng_photo_editor_enhance": [
   "Enhance"
+ ],
+ "lng_photo_editor_insert_emoji": [
+  "Insert emoji"
  ],
  "lng_photo_editor_keep_ratio": [
   "Keep original aspect ratio"
@@ -4415,6 +4743,9 @@
  "lng_profile_action_short_channel": [
   "Channel"
  ],
+ "lng_profile_action_short_edit_info": [
+  "Edit Info"
+ ],
  "lng_profile_bot_privacy_url": [
   "https://telegram.org/privacy-tpa"
  ],
@@ -4438,6 +4769,9 @@
  ],
  "lng_profile_hide_participants_about": [
   "Switch this on to hide the list of members in this group. Admins will remain visible."
+ ],
+ "lng_profile_invite_to_bot": [
+  "Invite to Bot"
  ],
  "lng_profile_invite_to_group_about": [
   "This bot is able to manage a group."
@@ -4668,6 +5002,9 @@
  ],
  "lng_report_group_video_title": [
   "Report group photo"
+ ],
+ "lng_report_spam_sure_bot_inviter": [
+  "Are you sure you want to report {user}, who invited you to this bot, for spam?"
  ],
  "lng_report_sponsored_hidden": [
   "Sponsored messages will be hidden."
@@ -5766,6 +6103,9 @@
  "lng_story_delete_draft": [
   "Delete Draft"
  ],
+ "lng_story_delete_draft_sure": [
+  "Are you sure you want to delete this story draft?"
+ ],
  "lng_story_discard_button": [
   "Discard"
  ],
@@ -5845,6 +6185,9 @@
  "lng_story_limit_count_premium": [
   "Sorry, you can't post more than **{count}** story in **24** hours.",
   "Sorry, you can't post more than **{count}** stories in **24** hours."
+ ],
+ "lng_story_limit_increase": [
+  "Subscribe to **Telegram Premium** to increase this limit to **{limit}**."
  ],
  "lng_story_limit_monthly": [
   "You can post **{count}** story in a month. Subscribe to **Telegram Premium** to increase this limit.",
@@ -6388,6 +6731,9 @@
  "lng_view_button_bot_app": [
   "Launch"
  ],
+ "lng_view_button_botinvite": [
+  "Invite to Bot"
+ ],
  "lng_view_button_external_link": [
   "Open link"
  ],
@@ -6521,6 +6867,9 @@
  ],
  "lng_wallet_collectible_show_in_gifts": [
   "also show in my gifts"
+ ],
+ "lng_wallet_collectible_transfer_on_sale": [
+  "Unlist this gift from sale before transferring it."
  ],
  "lng_wallet_collectible_username_about": [
   "The {username} username on Telegram."
@@ -6709,6 +7058,63 @@
  "lng_wallet_details_fee_unknown": [
   "Lookup failed"
  ],
+ "lng_wallet_details_onchain_buyer": [
+  "Buyer"
+ ],
+ "lng_wallet_details_onchain_delisted": [
+  "Removed from sale"
+ ],
+ "lng_wallet_details_onchain_escrow": [
+  "Escrow costs"
+ ],
+ "lng_wallet_details_onchain_expires": [
+  "Expires"
+ ],
+ "lng_wallet_details_onchain_fine": [
+  "Fine"
+ ],
+ "lng_wallet_details_onchain_listed": [
+  "Put on sale"
+ ],
+ "lng_wallet_details_onchain_new_price": [
+  "New price"
+ ],
+ "lng_wallet_details_onchain_offer_accepted": [
+  "Offer accepted"
+ ],
+ "lng_wallet_details_onchain_offer_cancelled": [
+  "Offer cancelled"
+ ],
+ "lng_wallet_details_onchain_offer_declined": [
+  "Offer declined"
+ ],
+ "lng_wallet_details_onchain_offer_expired": [
+  "Offer expired"
+ ],
+ "lng_wallet_details_onchain_offer_sent": [
+  "Offer sent"
+ ],
+ "lng_wallet_details_onchain_old_price": [
+  "Old price"
+ ],
+ "lng_wallet_details_onchain_price": [
+  "Price"
+ ],
+ "lng_wallet_details_onchain_purchased": [
+  "Purchased"
+ ],
+ "lng_wallet_details_onchain_refund": [
+  "Refund"
+ ],
+ "lng_wallet_details_onchain_repriced": [
+  "Repriced"
+ ],
+ "lng_wallet_details_onchain_seller": [
+  "Seller"
+ ],
+ "lng_wallet_details_onchain_service_fee": [
+  "Service fee"
+ ],
  "lng_wallet_details_status": [
   "Status"
  ],
@@ -6850,8 +7256,44 @@
  "lng_wallet_row_collectible_out": [
   "Outgoing collectible"
  ],
+ "lng_wallet_row_fragment": [
+  "Fragment"
+ ],
  "lng_wallet_row_key_change": [
   "Key update"
+ ],
+ "lng_wallet_row_onchain_bought": [
+  "Bought for {amount}"
+ ],
+ "lng_wallet_row_onchain_delisted": [
+  "Removed from sale"
+ ],
+ "lng_wallet_row_onchain_listed": [
+  "Put on sale"
+ ],
+ "lng_wallet_row_onchain_listed_for": [
+  "Put on sale for {amount}"
+ ],
+ "lng_wallet_row_onchain_offer_accepted": [
+  "Offer accepted"
+ ],
+ "lng_wallet_row_onchain_offer_accepted_for": [
+  "Offer accepted for {amount}"
+ ],
+ "lng_wallet_row_onchain_offer_cancelled": [
+  "Offer cancelled"
+ ],
+ "lng_wallet_row_onchain_offer_declined": [
+  "Offer declined"
+ ],
+ "lng_wallet_row_onchain_offer_expired": [
+  "Offer expired"
+ ],
+ "lng_wallet_row_onchain_offer_sent": [
+  "Offer sent"
+ ],
+ "lng_wallet_row_onchain_repriced_to": [
+  "Repriced to {amount}"
  ],
  "lng_wallet_row_sending": [
   "Sending"
