@@ -4613,7 +4613,7 @@
   "Gram Earnings"
  ],
  "GramEarningsTextWallet": [
-  "Your Gram from gifts and ads."
+  "Your Grams from gifts and ads."
  ],
  "GramEarningsUseArrived": [
   "The Grams from Gram Earnings are in your wallet. You can buy the gift now."
@@ -7623,7 +7623,7 @@
   "On-device transcription"
  ],
  "SpeechToTextOnDeviceInfo": [
-  "Voice messages are transcribed on this device. Private: nothing leaves it."
+  "Voice messages are transcribed privately – nothing leaves this device. "
  ],
  "SpeechToTextPrivacyCompact": [
   "Compact languages"
@@ -7638,7 +7638,7 @@
   "Nothing leaves the device"
  ],
  "SpeechToTextPrivacyNothingLeavesText": [
-  "Your voice and its text are never sent to a server for this."
+  "Your voice and its text are never sent to any server."
  ],
  "SpeechToTextPrivacyOnPhone": [
   "Recognized on your device"
@@ -9581,7 +9581,7 @@
   "Offer accepted for %s"
  ],
  "WalletOnchainGiftOfferCancelled": [
-  "Offer cancelled"
+  "Offer canceled"
  ],
  "WalletOnchainGiftOfferDeclined": [
   "Offer declined"

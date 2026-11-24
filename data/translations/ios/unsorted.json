@@ -4572,13 +4572,13 @@
   "**%@** can now have access to your camera and microphone."
  ],
  "WebApp.CameraMicrophonePermission.Text": [
-  "**%1$@** requests access to your **camera** and **microphone**. You will be able to revoke this access in the profile page of **%2$@**."
+  "**%1$@** has requested access to your **camera** and **microphone**. You can manage its access via the profile of **%2$@**."
  ],
  "WebApp.CameraPermission.Succeed": [
   "**%@** can now have access to your camera."
  ],
  "WebApp.CameraPermission.Text": [
-  "**%1$@** requests access to your **camera**. You will be able to revoke this access in the profile page of **%2$@**."
+  "**%1$@** has requested access to your **camera**. You can manage its access via the profile of **%2$@**."
  ],
  "WebApp.ImportData.AccountHeader": [
   "ACCOUNT TO IMPORT DATA FROM"
@@ -4614,7 +4614,7 @@
   "**%@** can now have access to your microphone."
  ],
  "WebApp.MicrophonePermission.Text": [
-  "**%1$@** requests access to your **microphone**. You will be able to revoke this access in the profile page of **%2$@**."
+  "**%1$@** has requested access to your **microphone**. You can manage its access via the profile of **%2$@**."
  ],
  "WebApp.SelectChat": [
   "Select Chat"
