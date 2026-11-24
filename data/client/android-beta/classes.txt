@@ -66,8 +66,6 @@ messenger/Utilities
 messenger/VideoEncodingService
 messenger/WearAuthListenerService
 messenger/WearReplyReceiver
-messenger/camera/Camera2Session
-messenger/camera/Camera2Session$CompareSizesByArea
 messenger/camera/CameraController
 messenger/camera/CameraController$CompareSizesByArea
 messenger/camera/CameraController$ErrorCallback
@@ -77,13 +75,12 @@ messenger/camera/CameraInfo
 messenger/camera/CameraSession
 messenger/camera/CameraSessionWrapper
 messenger/camera/CameraView
+messenger/camera/CameraView$AudioBufferInfo
 messenger/camera/CameraView$CameraGLThread
 messenger/camera/CameraView$CameraViewDelegate
 messenger/camera/CameraView$EncoderHandler
 messenger/camera/CameraView$VideoRecorder
 messenger/camera/Size
-messenger/car/HomeScreen
-messenger/car/MusicSongsScreen
 messenger/chromecast/ChromecastOptionsProvider
 messenger/secretmedia/EncryptedFileDataSource
 messenger/secretmedia/EncryptedFileDataSource$EncryptedFileDataSourceException
@@ -201,9 +198,8 @@ messenger/voip/Instance$ServerConfig
 messenger/voip/Instance$TrafficStats
 messenger/voip/NativeInstance
 messenger/voip/NativeInstance$AudioLevelsCallback
+messenger/voip/NativeInstance$BroadcastStateCallback
 messenger/voip/NativeInstance$PayloadCallback
-messenger/voip/NativeInstance$RequestBroadcastPartCallback
-messenger/voip/NativeInstance$RequestCurrentTimeCallback
 messenger/voip/NativeInstance$SsrcGroup
 messenger/voip/NativeInstance$VideoSourcesCallback
 messenger/voip/TelegramConnectionService

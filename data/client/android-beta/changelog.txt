@@ -1,3 +1,4 @@
-- captions widget in stories editor with local speech to text models
-- and in video editor
-- oh, and in video player!
+- tgcalls update
+- wallpaper bugfixes
+- twidget update
+- pkpass support

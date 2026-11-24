@@ -105,12 +105,10 @@ android_check_reset_langpack
 android_collect_device_stats
 android_disable_blur_in_dark_theme
 android_disable_blur_in_light_theme
-android_disable_round_camera2
 android_download_improvement_killswitch
 android_dual_camera
 android_id
 android_log_tag
-android_round_video_recorder_v2_disabled
 android_side_menu_static
 android_sound
 android_x86
@@ -173,7 +171,6 @@ attributes_hash
 auction_acquired
 auction_slug
 auction_start_date
-audio_bitrate
 audio_id
 audio_preload_next
 audio_recorder_noise_suppression
@@ -1444,7 +1441,6 @@ key_sheet_other
 key_to_public_key
 key_use_count_in
 key_use_count_out
-keyframes_thumb_queue
 kicked_by
 kicked_count
 km_p1
@@ -2005,6 +2001,7 @@ pinned_msg_id
 pinned_peers
 pinned_to_top
 pixelated_video
+pkpass_preview_disabled
 placeholder_path
 placeholder_static
 placeholder_svg_path
@@ -2359,17 +2356,14 @@ romannumeral_macro
 rotatebox_macro
 round_end_close
 round_message
-round_video_camera2_enabled
 round_video_camera_resolution
 round_video_composition
-round_video_encoding
 round_video_frame_rate
 round_video_last_camera
 round_video_output_resolution
 round_video_switch_back_to_front_ms
 round_video_switch_front_to_back_ms
 round_video_video_bitrate
-rounddual_available
 rounded_corner_radius
 rounded_corner_radius_top
 rtmp_stream
@@ -2820,7 +2814,6 @@ switch_pm
 switch_webview
 symbol_left
 system_version
-tab_notifications
 table_background
 table_border
 tag_1
@@ -2890,7 +2883,6 @@ textsc_macro
 textstyle_macro
 textstyle_macros
 tflite_dynamite
-tg_camera2
 tg_placeholders_android
 tg_superplaceholders_android_2
 theme_available
@@ -2951,8 +2943,6 @@ ton_stakedice_stake_suggested_amounts
 ton_stargift_resale_amount_max
 ton_stargift_resale_amount_min
 ton_stargift_resale_commission_permille
-ton_suggested_post_amount_max
-ton_suggested_post_amount_min
 ton_suggested_post_commission_permille
 ton_usd_rate
 tonconnect_session
@@ -3144,7 +3134,6 @@ vibrate_group
 vibrate_messages
 vibrate_react
 vibrate_stories
-video_bitrate
 video_call
 video_calls_available
 video_channel
@@ -3217,6 +3206,8 @@ wallet_tonconnect
 wallet_transfer_min_nanos
 wallet_warm_up_ui_process
 wallpaper_overridden
+wallpaper_patterns
+wallpaper_patterns_test
 wallpaper_settings
 wear3_oem_companion
 wear_consent
