@@ -1,4 +1,1 @@
-- tgcalls update
-- wallpaper bugfixes
-- twidget update
-- pkpass support
+- minimize APK and fixes

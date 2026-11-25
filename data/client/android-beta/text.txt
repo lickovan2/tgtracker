@@ -6840,8 +6840,6 @@ Widget engine: too many calls at once
 Widget engine: too many signals
 Widget heights cleared
 Widgets are disabled by the app config
-Widgets opened from now on run on Nova
-Widgets opened from now on run on QuickJS
 Window callback may not be null
 Window feature must be requested before adding content
 World Music
