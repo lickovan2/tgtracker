@@ -1754,10 +1754,10 @@
   "Name This Link"
  ],
  "FolderLinkScreen.SaveAlertActionApply": [
-  "Apply"
+  "Cancel"
  ],
  "FolderLinkScreen.SaveAlertActionContinue": [
-  "Cancel"
+  "Apply"
  ],
  "FolderLinkScreen.SaveAlertActionDiscard": [
   "Discard"
