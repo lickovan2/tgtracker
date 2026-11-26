@@ -1341,7 +1341,7 @@
   "Clear"
  ],
  "lng_local_storage_cleared": [
-  "Cleared!"
+  "{size} freed on your device!"
  ],
  "lng_local_storage_clearing": [
   "Clearing..."
