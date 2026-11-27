@@ -101,13 +101,17 @@ anchor_public_key
 android_active_animated
 android_animated
 android_audio_recorder_v2_disabled
+android_call_audio_device
 android_check_reset_langpack
 android_collect_device_stats
 android_disable_blur_in_dark_theme
 android_disable_blur_in_light_theme
 android_download_improvement_killswitch
 android_dual_camera
+android_group_call_engine
 android_id
+android_killswitch_disable_call_dred
+android_killswitch_disable_group_call_dred_receive
 android_log_tag
 android_side_menu_static
 android_sound
@@ -153,8 +157,8 @@ asr_auto
 asr_langs
 asr_live_captions
 asr_live_text
-asr_local_free
 asr_local_premium
+asr_show_detected
 asr_video_captions
 atop_macro
 atopwithdelims_macro
@@ -341,6 +345,7 @@ bot_owner_id
 bot_participant
 bot_payload
 bot_preview_medias_max
+bot_profile_widget
 bot_share_to
 bot_url
 bot_verification
@@ -469,6 +474,7 @@ caption_length_max
 caption_limit
 carrier_auth
 cast_media_notification
+category_ids
 cdn_supported
 cedilla_macro
 center_color
@@ -491,6 +497,7 @@ channel_intro
 channel_min_level
 channel_post
 channel_profile_bg_icon_level_min
+channel_rec
 channel_restrict_sponsored_level_min
 channel_revenue_withdrawal_enabled
 channel_users_v2
@@ -514,6 +521,7 @@ chat_id
 chat_instance
 chat_invite
 chat_invite_hash
+chat_list
 chat_notifications_enabled
 chat_photo
 chat_pinned_count
@@ -647,6 +655,7 @@ convert_stars
 converting_toast
 converting_toast_from
 cooldown_until_date
+copy_link
 copy_text
 correct_answers
 count_remains
@@ -702,9 +711,11 @@ date_active
 date_created
 date_modified
 day_of_week
+dbg_call_audio_device
 dbg_dump_call_stats
 dbg_force_connection_service
 dbg_force_tcp_in_calls
+dbg_group_call_engine
 dc_api
 dc_id
 dc_options
@@ -735,6 +746,7 @@ delete_stories
 deleted_messages
 delivery_metrics_exported_to_big_query_enabled
 delta_rps_sign
+deposits_closed
 description_document
 description_photo
 design_dictation_mode
@@ -766,6 +778,7 @@ dialog_bar_location
 dialog_bar_replied
 dialog_bar_report
 dialog_bar_share
+dialog_bar_spam
 dialog_bar_vis3
 dialog_botflags
 dialog_botid
@@ -834,6 +847,7 @@ drop_zeros
 dstrok_macro
 dual_available
 duration_months
+duration_ms
 edge_color
 edit_bio
 edit_date
@@ -866,6 +880,7 @@ embed_url
 embed_width
 emoji_button_alpha
 emoji_button_scale
+emoji_document_id
 emoji_featured_hidden
 emoji_groups
 emoji_hash
@@ -917,6 +932,7 @@ event_id
 event_metadata
 event_payloads
 event_sequence_number
+event_time
 event_timestamp
 event_timestamps
 event_type
@@ -998,6 +1014,7 @@ feature_usage_sdk_version
 featured_hidden
 fee_amount
 fee_bps
+feed_events
 few_value
 fgcolor_macro
 file_download_requested
@@ -1061,6 +1078,7 @@ for_craft
 for_everyone
 for_import
 for_live_stories
+for_news
 for_paid_reactions
 for_personal
 for_profile
@@ -1117,6 +1135,7 @@ from_dc_id
 from_ephemeral
 from_id
 from_name
+from_news
 from_offer
 from_peer
 from_rank
@@ -1181,6 +1200,7 @@ gift_boosts
 gift_code_slug
 gift_emoji_id
 gift_id
+gift_ids
 gift_msg_id
 gift_num
 gift_ribbon
@@ -1210,12 +1230,14 @@ google_token
 gpay_parameters
 gram_earnings_wallet_withdraws
 gram_wallet
+gram_wallet_topups
 greeting_message
 grkaccent_macro
 groove_across
 groove_along
 group_by
 group_call
+group_call_dred_loss
 group_call_invite_msg_id
 group_call_message_length_limit
 group_call_message_ttl
@@ -1315,6 +1337,7 @@ img_search_username
 impact_style
 import_head
 import_id
+in_app
 in_app_message_result_receiver
 in_app_origin
 in_msg
@@ -1388,6 +1411,7 @@ is_fullscreen
 is_fully_rolled_out
 is_incomplete
 is_megagroup
+is_new
 is_outgoing
 is_output_switcher_enabled
 is_persistent
@@ -1405,6 +1429,7 @@ jlatexmathcumsub_macro
 jlatexmathcumsup_macro
 jlmv_background
 jlmv_latex
+jni_zero
 join_as
 join_date_asc
 join_muted
@@ -1499,6 +1524,7 @@ linked_chat_id
 linked_community_id
 linked_monoforum_id
 linked_peers
+list_view
 listed_count
 listened_duration
 listeners_hidden
@@ -1595,6 +1621,7 @@ max_display_duration
 max_id
 max_layer
 max_msg_id
+max_position
 max_qts
 max_quantity
 max_read_id
@@ -1665,6 +1692,7 @@ min_finality
 min_id
 min_layer
 min_msg_id
+min_position
 min_spatial_segmentation_idc
 minuscolon_macro
 minuscoloncolon_macro
@@ -1767,6 +1795,8 @@ new_topic
 new_value
 newcommand_macro
 newenvironment_macro
+news_expanded
+news_feed
 next_level_boosts
 next_level_stars
 next_media_on_tap
@@ -1782,6 +1812,7 @@ nft_address
 nicklaus_f
 no_activity_days
 no_ads
+no_animate
 no_forwards_request_expire_period
 no_funds
 no_joined_notifications
@@ -1831,7 +1862,9 @@ offset_id
 offset_id_offset
 offset_link
 offset_peer
+offset_position
 offset_rate
+offset_to_max_read
 offset_topic
 offset_user
 ogonek_macro
@@ -1851,15 +1884,23 @@ only_left
 only_new_subscribers
 onramp_provider_name
 open_answers
+open_channel
 open_common
 open_external_browser
 open_gifts
 open_gifts_collection
 open_gifts_upgradable
+open_iv
+open_link
+open_media
 open_now
+open_post
 open_search
 open_story_album_id
 open_urls
+opus_dred
+opus_dred_weights_modified
+opus_dred_weights_size
 order_by_create_date
 order_by_date
 order_by_revenue
@@ -1956,6 +1997,7 @@ pending_messages
 pending_reset_date
 pending_suggestions
 pending_tasks
+pending_ton
 pending_updates_count
 per_user_remains
 per_user_stars
@@ -2212,6 +2254,7 @@ read_dates_private
 read_inbox_max_id
 read_loaded
 read_max_id
+read_max_position
 read_messages
 read_outbox_max_id
 recaptcha_site_key
@@ -2228,6 +2271,9 @@ recent_requesters
 recent_viewers
 recent_voters
 recipient_id
+recommendation_id
+recommendation_rank
+recommendation_role
 recommended_channels_limit_default
 recommended_channels_limit_premium
 record_start_date
@@ -2354,6 +2400,7 @@ rm_macro
 rmoustache_macro
 romannumeral_macro
 rotatebox_macro
+round_closes_at
 round_end_close
 round_message
 round_video_camera_resolution
@@ -2582,6 +2629,7 @@ solution_media
 sort_by_num
 sort_by_price
 sort_by_value
+sort_desc
 source_groups
 space_between
 speech_model
@@ -2608,6 +2656,7 @@ st_mode
 stack_size
 stackbin_macro
 stackrel_macro
+stake_all
 stake_ton_amount
 stargift_auction_bid
 stargift_drop_original_details
@@ -2624,6 +2673,7 @@ stargifts_craft_attribute_permilles
 stargifts_craft_minted_first_source
 stargifts_fixed_sale_enabled
 stargifts_fragment_resale_enabled
+stargifts_merged_resale_collections_limit
 stargifts_message_length_max
 stargifts_pinned_to_top_limit
 stargifts_stars_resale
@@ -2654,6 +2704,7 @@ stars_prize
 stars_purchase_blocked
 stars_rating
 stars_rating_learnmore_url
+stars_resale_ton_topup_enabled
 stars_revenue_withdrawal_min
 stars_spend_topup_invoice_disabled
 stars_stargift_resale_amount_max
@@ -3041,6 +3092,7 @@ unread_count
 unread_important_count
 unread_mark
 unread_mentions_count
+unread_muted_count
 unread_muted_messages_count
 unread_muted_peers_count
 unread_poll_votes
@@ -3314,6 +3366,7 @@ winners_are_visible
 winners_count
 with_my_score
 with_wallet
+withdraw_all
 withdrawal_enabled
 woods_f
 woods_fn

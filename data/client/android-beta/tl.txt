@@ -356,6 +356,7 @@ TL_bots.TL_botInfo_layer48
 TL_bots.TL_botMenuButton
 TL_bots.TL_botMenuButtonCommands
 TL_bots.TL_botMenuButtonDefault
+TL_bots.TL_botProfileWidget
 TL_bots.TL_botVerifierSettings
 TL_bots.TL_botVerifierSettings_layer229
 TL_bots.TL_bots_addUsername
@@ -372,6 +373,8 @@ TL_bots.checkUsername
 TL_bots.createBot
 TL_bots.deletePreviewMedia
 TL_bots.editPreviewMedia
+TL_bots.editProfileWidgetChatData
+TL_bots.editProfileWidgetData
 TL_bots.exportBotToken
 TL_bots.exportedBotToken
 TL_bots.getAdminedBots
@@ -381,6 +384,8 @@ TL_bots.getBotRecommendations
 TL_bots.getPopularAppBots
 TL_bots.getPreviewInfo
 TL_bots.getPreviewMedias
+TL_bots.getProfileWidgetPublicData
+TL_bots.getProfileWidgetQueryAnswer
 TL_bots.getRequestedWebViewButton
 TL_bots.invokeWebViewCustomMethod
 TL_bots.popularAppBots
@@ -571,6 +576,7 @@ TL_channels_deleteMessages
 TL_channels_deleteParticipantHistory
 TL_channels_editAdmin
 TL_channels_editBanned
+TL_channels_editChannelNews
 TL_channels_editCreator
 TL_channels_editLocation
 TL_channels_editPhoto
@@ -581,6 +587,7 @@ TL_channels_getAdminedPublicChannels
 TL_channels_getChannelRecommendations
 TL_channels_getChannels
 TL_channels_getFullChannel
+TL_channels_getFutureCreatorAfterLeave
 TL_channels_getGroupsForDiscussion
 TL_channels_getInactiveChannels
 TL_channels_getMessageAuthor
@@ -936,6 +943,27 @@ TL_exportedNoPaidMessagesToken
 TL_exportedNoPaidMessagesToken_layer232
 TL_exportedNoPaidMessagesToken_legacy
 TL_factCheck
+TL_feed
+TL_feed.FeedItem
+TL_feed.FeedMessages
+TL_feed.FeedPosition
+TL_feed.ForYouFeed
+TL_feed.InterestCategories
+TL_feed.InterestCategory
+TL_feed.TL_feedItemInterestCategories
+TL_feed.TL_feedItemMessage
+TL_feed.TL_feedItemMessageGroup
+TL_feed.TL_feedMessages
+TL_feed.TL_feedMessagesNotModified
+TL_feed.TL_feed_dislikePost
+TL_feed.TL_feed_getFeed
+TL_feed.TL_feed_getForYou
+TL_feed.TL_feed_getInterestCategories
+TL_feed.TL_feed_likePost
+TL_feed.TL_feed_readFeed
+TL_feed.TL_feed_setInterestCategories
+TL_feed.TL_interestCategories
+TL_feed.TL_interestCategoriesNotModified
 TL_fileEncryptedLocation
 TL_fileHash
 TL_fileLocationToBeDeprecated
@@ -1080,6 +1108,7 @@ TL_inputEncryptedFileBigUploaded
 TL_inputEncryptedFileEmpty
 TL_inputEncryptedFileLocation
 TL_inputEncryptedFileUploaded
+TL_inputFeedEvent
 TL_inputFile
 TL_inputFileBig
 TL_inputFileLocation
@@ -1329,6 +1358,7 @@ TL_iv.pageBlockEmbedPost_layer82
 TL_iv.pageBlockEmbed_layer60
 TL_iv.pageBlockEmbed_layer82
 TL_iv.pageBlockFooter
+TL_iv.pageBlockGroup
 TL_iv.pageBlockHeader
 TL_iv.pageBlockHeading1
 TL_iv.pageBlockHeading2
@@ -1406,7 +1436,6 @@ TL_jsonObject
 TL_jsonObjectValue
 TL_jsonString
 TL_keyboard
-TL_keyboard.1
 TL_keyboard.ButtonType
 TL_keyboard.ButtonTypeProto
 TL_keyboard.InlineButtonType
@@ -1892,7 +1921,6 @@ TL_messages_getFavedStickers
 TL_messages_getFeaturedEmojiStickers
 TL_messages_getFeaturedStickers
 TL_messages_getFullChat
-TL_messages_getFutureChatCreatorAfterLeave
 TL_messages_getGameHighScores
 TL_messages_getHistory
 TL_messages_getInlineBotResults
@@ -1932,6 +1960,7 @@ TL_messages_getScheduledMessages
 TL_messages_getSearchCounters
 TL_messages_getSearchResultsCalendar
 TL_messages_getSearchResultsPositions
+TL_messages_getShareTheme
 TL_messages_getShareThemeBackdrops
 TL_messages_getSponsoredMessages
 TL_messages_getStatsURL
@@ -1944,6 +1973,7 @@ TL_messages_getTranscriptionModels
 TL_messages_getUnreadMentions
 TL_messages_getUnreadPollVotes
 TL_messages_getUnreadReactions
+TL_messages_getVoipModels
 TL_messages_getWebPage
 TL_messages_getWebViewResult
 TL_messages_getWidgetPublicData
@@ -1999,7 +2029,9 @@ TL_messages_reorderQuickReplies
 TL_messages_reorderStickerSets
 TL_messages_report
 TL_messages_reportEncryptedSpam
+TL_messages_reportFeedEvents
 TL_messages_reportMusicListen
+TL_messages_reportNotSpam
 TL_messages_reportReaction
 TL_messages_reportReadMetrics
 TL_messages_reportSpam
@@ -2622,6 +2654,7 @@ TL_stars.depositStarGift
 TL_stars.displayStarGift
 TL_stars.getCraftStarGifts
 TL_stars.getResaleStarGifts
+TL_stars.getResaleStarGiftsMerged
 TL_stars.getSavedStarGift
 TL_stars.getSavedStarGifts
 TL_stars.getStarGiftCollections
@@ -2900,6 +2933,9 @@ TL_update
 TL_update.TL_updateAiComposeTones
 TL_update.TL_updateAttachMenuBots
 TL_update.TL_updateBotCommands
+TL_update.TL_updateBotProfileWidget
+TL_update.TL_updateBotProfileWidgetData
+TL_update.TL_updateBotProfileWidgetQuery
 TL_update.TL_updateBotPurchasedPaidMedia
 TL_update.TL_updateBotSubscriptionExpire
 TL_update.TL_updateBotWidgetCopyQuery
@@ -3009,6 +3045,7 @@ TL_update.TL_updateReadChannelInbox
 TL_update.TL_updateReadChannelOutbox
 TL_update.TL_updateReadFeaturedEmojiStickers
 TL_update.TL_updateReadFeaturedStickers
+TL_update.TL_updateReadFeed
 TL_update.TL_updateReadHistoryInbox
 TL_update.TL_updateReadHistoryOutbox
 TL_update.TL_updateReadMessagesContents
@@ -3122,6 +3159,7 @@ TL_userFull_layer215
 TL_userFull_layer223
 TL_userFull_layer231
 TL_userFull_layer232
+TL_userFull_layer234_old
 TL_userFull_layer98
 TL_userProfilePhoto
 TL_userProfilePhotoEmpty
@@ -3179,6 +3217,7 @@ TL_video_layer45
 TL_video_old
 TL_video_old2
 TL_video_old3
+TL_voipModel
 TL_wallPaper
 TL_wallPaperNoFile
 TL_wallPaperNoFile_layer128
@@ -3192,6 +3231,7 @@ TL_wallet.InputWalletReplacement
 TL_wallet.TL_walletState
 TL_wallet.TL_walletStateEmpty
 TL_wallet.WalletOnchainGiftAction
+TL_wallet.WalletStakingAction
 TL_wallet.WalletState
 TL_wallet.WalletTransactionPeer
 TL_wallet.card
@@ -3210,6 +3250,7 @@ TL_wallet.getExistingWaltBalance
 TL_wallet.getGaslessInfo
 TL_wallet.getNfts
 TL_wallet.getProofChallenge
+TL_wallet.getStakingInfo
 TL_wallet.getState
 TL_wallet.getTransactions
 TL_wallet.getTransactionsByIDs
@@ -3229,6 +3270,7 @@ TL_wallet.replaceWallet
 TL_wallet.secretPhraseParts
 TL_wallet.sendTransfer
 TL_wallet.setCardStickers
+TL_wallet.stake
 TL_wallet.tonConnectChallenge
 TL_wallet.tonConnectClaimRequest
 TL_wallet.tonConnectCloseSession
@@ -3245,6 +3287,7 @@ TL_wallet.tonConnectSession
 TL_wallet.tonConnectSessions
 TL_wallet.tonConnectSubmitConnectResult
 TL_wallet.tonConnectSubmitResponse
+TL_wallet.unstake
 TL_wallet.userAddresses
 TL_wallet.walletOnchainGiftActionBuy
 TL_wallet.walletOnchainGiftActionChangePrice
@@ -3255,11 +3298,17 @@ TL_wallet.walletOnchainGiftActionOfferCreate
 TL_wallet.walletOnchainGiftActionOfferDecline
 TL_wallet.walletOnchainGiftActionOfferExpire
 TL_wallet.walletOwnershipProof
+TL_wallet.walletStakingActionDeposit
+TL_wallet.walletStakingActionWithdraw
+TL_wallet.walletStakingActionWithdrawPending
+TL_wallet.walletStakingInfo
+TL_wallet.walletStakingPrepared
 TL_wallet.walletTransaction
 TL_wallet.walletTransactionPeerAddress
 TL_wallet.walletTransactionPeerChannel
 TL_wallet.walletTransactionPeerOnchainGift
 TL_wallet.walletTransactionPeerOnramp
+TL_wallet.walletTransactionPeerStaking
 TL_wallet.walletTransactionPeerTelegramGift
 TL_wallet.walletTransactionPeerUnsupported
 TL_wallet.walletTransactionPeerUser

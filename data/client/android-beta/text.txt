@@ -1387,10 +1387,13 @@
 -----start log
 -> reload
 . Assuming:
+. Average render time:
+. Average swapBuffer time:
 . By default, non-finite floating point values are prohibited because they do not conform JSON specification
 . By default, non-finite floating point values are prohibited because they do not conform JSON specification. It is possible to deserialize them using 'JsonBuilder.allowSpecialFloatingPointValues = true' Current output:
 . Cycle detected.
 . Dependencies should be added at class load time.
+. Dropped:
 . Emit fallback session
 . Failed to query camera name.
 . Falling back to default.
@@ -1404,6 +1407,8 @@
 . Please read KDoc to 'handleFatalException' method and report this incident to maintainers
 . Please refer to 'flow' documentation or use 'flowOn' instead
 . Please update the Kotlin standard library.
+. Render fps:
+. Rendered:
 . Requires
 . Set account in GoogleSignInOptions.Builder instead.
 . Setting mimeType to audio/x-unknown
@@ -1429,7 +1434,6 @@
 . You must ensure the ActivityResultLauncher is registered before calling launch().
 . You must have the following declaration within the <application> element: <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
 . You should either maintain your DataStore as a singleton or confirm that there is no two DataStore's active on the same file (by confirming that the scope is cancelled).
-. isEGL14Supported:
 .Carrier:
 .MCC:
 .MNC:
@@ -1463,6 +1467,7 @@
 8.3 and 8.4 SDKs require non-null email
 8.3 and 8.4 SDKs require non-null userId
 8px
+8px 16px
 9. currentTask = mozilla
 : <item> tag requires a 'color' attribute and a 'offset' attribute!
 : <item> tag requires a 'drawable' attribute or child tag defining a drawable
@@ -2145,6 +2150,13 @@ Call
 Call is null, wtf
 Call next() before removing an element.
 Call updated:
+CallAudioDevice record init:
+CallAudioDevice record start:
+CallAudioDevice record:
+CallAudioDevice track init:
+CallAudioDevice track start:
+CallAudioDevice track:
+CallAudioDevice:
 Callback from a different camera. This should never happen.
 Callback must not be null
 Callback proxy
@@ -2170,7 +2182,7 @@ Calling play() omitted due to COMMAND_PLAY_PAUSE not being available. If this pl
 Calling popBackStackImmediate via onBackPressed callback
 Calling updateData inside updateData on the same DataStore instance is not supported since updates made in the parent updateData call will not be visible to the nested updateData call. See https://issuetracker.google.com/issues/241760537 for details.
 Camera
-Camera access exception:
+Camera access exception
 Camera and media
 Camera capture session configuration failed
 Camera capture session configured.
@@ -2339,8 +2351,6 @@ Cannot read metadata.
 Cannot remove Fragment attached to a different FragmentManager. Fragment
 Cannot remove item decoration during a scroll or layout
 Cannot restore root transform instance
-Cannot retrieve decoder codec info
-Cannot retrieve encoder codec info
 Cannot return null from a non-@Nullable @Provides method
 Cannot scroll to position a LayoutManager set. Call setLayoutManager with a non-null argument.
 Cannot scroll without a LayoutManager set. Call setLayoutManager with a non-null argument.
@@ -2793,7 +2803,6 @@ Data too big for any version
 Data too big for requested version
 Data too large for an Aztec code
 Data too short to be an ID3 tag
-DataChannel has been disposed.
 DataStore running in process
 DataStore scope was cancelled before updateData could complete
 Database closed
@@ -2940,7 +2949,6 @@ Dropping report due to queue being full:
 Drum & Bass
 Drum Solo
 Drum fără nume
-DtmfSender has been disposed.
 DtvCcPacket ended prematurely; size is
 Dump detailed stats
 Duplicate binding with the same ServiceConnection: %s, %s, %s.
@@ -2948,6 +2956,7 @@ Duplicate character: %s
 Duplicate connect item
 DuplicateTaskCompletionException can only be created from completed Task.
 Duration is not valid. See proto definition for valid values. Seconds (%s) must be in range [-315,576,000,000, +315,576,000,000]. Nanos (%s) must be in range [-999,999,999, +999,999,999]. Nanos must have the same sign as seconds
+Duration:
 During begin sign in, failure response from one tap:
 During begin sign in, one tap ui intent sender failure:
 During clear credential sign out failed with
@@ -2996,8 +3005,6 @@ Each API in the isOptionalMap must have a corresponding client in the clients ma
 Each ClientCallbacks must have a corresponding API in the isOptionalMap
 Easy Listening
 Edit:
-EglBase.create shared context
-EglBase10.create context
 EglRenderer stack trace:
 Either
 Either contentID or contentUrl or entity should be set
@@ -3163,6 +3170,7 @@ Error while delivering the message to the serviceIntent
 Error while delivering the message: ServiceIntent not found.
 Error while disconnecting the controller interface
 Error while drawing frame
+Error while eglMakeCurrent
 Error while parsing Base64 encoded string:
 Error while parsing timestamp in GCM event
 Error while parsing use_device_time in GCM event
@@ -3186,7 +3194,8 @@ Exception in invokeOnCancellation handler for
 Exception in resume onCancellation handler for
 Exception in using media1 API
 Exception must not be null
-Exception on EglRenderer thread
+Exception on EglThread
+Exception on VoIPEglRenderer thread
 Exception parsing HEIF file type box.
 Exception parsing rollout assignment!
 Exception reporting failure
@@ -3309,6 +3318,7 @@ Failed to call observer method
 Failed to check device credential. Client FragmentActivity not found.
 Failed to check feature availability
 Failed to check for beta update at null received:
+Failed to check if camera2 is supported
 Failed to close file output stream
 Failed to close key/value metadata file.
 Failed to close rollouts state file.
@@ -3323,6 +3333,7 @@ Failed to connect to
 Failed to connect to dynamite module ContentResolver.
 Failed to connect when checking package
 Failed to convert MediaMetadataCompat to MediaMetadata
+Failed to convert TextureBuffer
 Failed to convert payload data into a string:
 Failed to convert predefined custom command:
 Failed to covert logging to UTF-8 byte array
@@ -3359,6 +3370,7 @@ Failed to download image:
 Failed to encode "
 Failed to encode token:
 Failed to enumerate thread/threadgroup
+Failed to execute command with argument class ViewCommandArgument:
 Failed to fetch cached settings
 Failed to fetch the Verification Support Info
 Failed to fetch the Verification Support Info:
@@ -3469,6 +3481,7 @@ Failed to read system property
 Failed to read xml resource
 Failed to register lifecycle callbacks, unexpected context
 Failed to register listener on re-connection.
+Failed to registerNetworkCallback for unifiedCommunications
 Failed to release child source.
 Failed to release legacy image labeler.
 Failed to release placeholder surface
@@ -3601,6 +3614,7 @@ Format exceeds selected codec's capabilities [
 Format:
 Format: Start, End, ReadOrder, Layer, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Formula expands too much
+Formula is too complex to parse
 Formula is too large to lay out!
 Formula too large after macro expansion
 Found JPEG segment indicator:
@@ -3787,7 +3801,6 @@ IOException when revoking access:
 IObjectWrapper declared field not private!
 IPMP Stream - defined in ISO/IEC JTC1/SC29/WG11 - CODING OF MOVING PICTURES AND AUDIO
 ISO-8601 date String
-ISO-8859-1 is unsupported
 ISignInCallbacks#onSignInComplete should be executed from the same process, unexpected RemoteException.
 Icon not found:
 Icon resource
@@ -3937,7 +3950,9 @@ Init playout error:
 Init recording error:
 Init session datastore failed with exception message:
 InitCall: keyID=
+InitPlayout error:
 InitRecording called twice without StopRecording.
+InitRecording error:
 Initial camera is required
 Initial capacity must be non-negative
 Initialization failed.
@@ -3949,6 +3964,7 @@ Initializing Crashlytics blocked main for
 Initializing EglRenderer
 Initializing Firebase Crashlytics 20.1.1 for
 Initializing Firebase Sessions 3.0.8.
+Initializing VoIPEglRenderer
 Initiate binding to the service.
 Input Array of elements is too big, cutting off.
 Input buffer size:
@@ -4226,6 +4242,8 @@ Items that belong to selectable lists can't have a toggle
 Items that belong to selectable lists can't have an onClickListener. Use the OnSelectedListener of the list instead
 Iterator has failed.
 Ivory White
+JNI Zero internal error: if the pointer is 0, it should be converted to null
+JNI Zero multiplexing hashes do not align. Native:
 JPEG segment:
 JSON Parse error
 JSON input:
@@ -4240,6 +4258,7 @@ Java 8+ API desugaring (library desugaring) cannot convert from java.util.LongSu
 Java 8+ API desugaring (library desugaring) cannot convert to java.util.DoubleSummaryStatistics
 Java 8+ API desugaring (library desugaring) cannot convert to java.util.IntSummaryStatistics
 Java 8+ API desugaring (library desugaring) cannot convert to java.util.LongSummaryStatistics
+Java:
 Job
 Job is still new or active:
 Job was cancelled
@@ -4441,9 +4460,6 @@ MediaRouter.RouteProviderInfo{ packageName=
 MediaRouterDiscoveryCallback.updateRouteToAppIds (add=%b) route %s
 MediaSession.QueueItem { Description=
 MediaSession.QueueItem {Description=
-MediaSource has been disposed.
-MediaStream has been disposed.
-MediaStreamTrack has been disposed.
 Memory Leak Found
 Memory: class=
 MenuPopupHelper cannot be used without an anchor
@@ -4607,10 +4623,10 @@ Negative text must not be set if device credential authentication is allowed.
 Neon Blue
 Network
 Network Error
-Network becomes available:
 Network connectivity changed, type is:
 Network error occurred. Please retry request later.
 Network error: unable to obtain integrity details. Ask the user to check for a connection.
+Network handle:
 NetworkLocationStatus: Wifi status:
 Neue Deutsche Welle
 New Age
@@ -4896,6 +4912,7 @@ One of the API components you attempted to connect to is not available.
 Only 8-bit PGM supported (maxval=255), got:
 Only Bitmap.Config.ALPHA_8 is supported
 Only String keys are currently supported in maps, got %s of type %s instead.
+Only an EGL 1.4 context can be shared
 Only methods in subclasses of
 Only one active OEM CredentialProvider allowed
 Only supports full channel mask-based audio presentation
@@ -4916,6 +4933,9 @@ Operands are too large for longdiv
 Operation is not supported for read-only collection
 Optional.get() cannot be called on an absent value
 Opus encoder started: prefix=
+OpusDred: no weights after 2000 ms, the call starts without DRED
+OpusDred: no weights:
+OpusDred: weights saved
 Order of dexfiles in metadata did not match baseline
 Out of bound index with offput: 0 and length:
 Out of limit
@@ -4929,6 +4949,7 @@ Output listener is required
 Output must be 2 or 1 channels
 Output resolution is required
 Output sample rate overridden to:
+Output thread slow to stop delivering frames
 Overlap
 Overread allowed size end=
 Override has both \pos(x,y) and \move(x1,y1,x2,y2); using \pos values. override='
@@ -5160,7 +5181,6 @@ Path 5
 Path 6
 Payload Too Large
 PeerConnectionFactory builder does not accept a null AudioProcessingFactory.
-PeerConnectionFactory has been disposed.
 PeerConnectionFactory was initialized without an injected Loggable. Any existing Loggable will be deleted.
 PeerConnectionFactory.Builder does not accept a null AudioDecoderFactoryFactory.
 PeerConnectionFactory.Builder does not accept a null AudioEncoderFactoryFactory.
@@ -5516,9 +5536,6 @@ Route sans nom
 Router is released. Cancel transfer
 Routes reset. appIdToRouteInfo has these appId route keys:
 Rrugë pa emër
-RtpReceiver has been disposed.
-RtpSender has been disposed.
-RtpTransceiver has been disposed.
 Run-time playback error:
 Run-time recording error:
 Run:
@@ -5533,7 +5550,6 @@ SCTE-35 TimeSignalCommand { ptsTime=
 SCTE-35 splice command: type=
 SDK
 SDK Unknown
-SDK version:
 SDR SMPTE 170M
 SELF-CHECK FAILED: no PCM from the recorder tap 1.5 s after lock (neither MediaController nor AudioCapture fed it)
 SERVER INTERNAL ERROR: IOException:
@@ -5557,6 +5573,9 @@ STALE partial ignored (current
 START PROCESSING
 STREAM_RING stream volume:
 SUCCESS, result=[
+Safe JNI Pointer violation: Attempted to access a JniPtr after it was released.
+Safe JNI Pointer violation: Attempted to access a JniUniquePtr after it was destroyed.
+Safe JNI Pointer violation: Attempted to use a JniRawPtr after it has already been released.
 SafeAtomicHelper is broken!
 Saiz sample count
 Sample MIME type is null.
@@ -5674,6 +5693,7 @@ Shortcut must have a non-empty label
 Shortcut must have an intent
 ShortcutInfoCompatSaver started with an exceptions
 Shouldn't reach here.
+Show Detected Languages
 Show blur settings
 Showing incoming call notification
 Showing notification
@@ -5717,6 +5737,7 @@ Skipping codec
 Skipping cue with bad header:
 Skipping dialogue line before complete format:
 Skipping dialogue line with fewer columns than format:
+Skipping frame rendering - fps reduction is active.
 Skipping image analysis log due to rate limiting
 Skipping invalid index:
 Skipping invalid timing:
@@ -6172,7 +6193,6 @@ Timeout must be positive
 Timeout waiting for ServiceConnection callback
 Timestamp is not valid. Input seconds is too large. Seconds (%s) must be in range [-62,135,596,800, +253,402,300,799].
 Timestamp is not valid. See proto definition for valid values. Seconds (%s) must be in range [-62,135,596,800, +253,402,300,799]. Nanos (%s) must be in range [0, +999,999,999].
-TimestampAligner has been disposed.
 Timing out connection while resuming.
 Timing out request:
 Timing out service connection.
@@ -6243,7 +6263,6 @@ Trying to recycle an ignored view holder. You should first call stopIgnoringView
 Trying to send message on a dead thread.
 Trying to set out of range star-based rating
 Trying to unbind a GmsServiceConnection that was not bound before. config=
-TurnCustomizer has been disposed.
 Two different ViewHolders have the same change ID. This might happen due to inconsistent Adapter update events or if the LayoutManager lays out the same View multiple times. ViewHolder 1:
 Two different ViewHolders have the same stable ID. Stable IDs in your adapter MUST BE unique and SHOULD NOT change. ViewHolder 1:
 Type mismatch, expected
@@ -6594,6 +6613,7 @@ Unrecognized APV level index:
 Unrecognized APV profile:
 Unrecognized Car API level:
 Unrecognized Context
+Unrecognized EglConnection
 Unrecognized FolderType:
 Unrecognized IAMF AAC profile:
 Unrecognized IAMF FLAC profile:
@@ -6775,6 +6795,7 @@ ViewStub must have a valid layoutResource
 Views added to a FragmentContainerView must be associated with a Fragment. View
 Views cannot have both real and virtual children
 Visual Basic
+VoIPEglBase.create context, shared:
 VoIPPreNotification.answer(): pending intent is not found
 VoIPPreNotification.show(): call or intent is null
 VoIPService: trying to open group call without call
@@ -6940,7 +6961,6 @@ active repeating request rejected
 active request submission failed
 active session configuration failed
 active=
-active_time_in_view_ms:
 activity is cancelled by the user.
 activity with result code:
 actual=
@@ -6985,6 +7005,7 @@ align="
 alignPending=
 all networks are unavailable.
 allCount =
+allocateDirect failed:
 allowScroll
 alpha must be between 0 and 255.
 already added
@@ -7112,6 +7133,7 @@ baseAddress
 batteryVelocity
 because it has type
 because there's already active one
+becomes available:
 beep boop.
 before download updated file ref from file ref cache!
 begin
@@ -7475,8 +7497,10 @@ continueWith is not implemented
 continueWithTask is not implemented
 continuing pending switch after DUAL_ACTIVE fallback
 conversion failed, retrying without codec speedups
+convert failed
 convertVideoInternal original=
 copy malformed files
+copyI420Buffer failed
 cores
 cost=
 could not delete file
@@ -7727,6 +7751,7 @@ done loading contacts
 done processing contacts
 done. Time spent:
 done:
+download failed
 download failed (
 download queue: dc
 download stalled
@@ -7907,6 +7932,7 @@ failed to get mozilla txt result
 failed to get public key from secret phrase
 failed to get public key of
 failed to load prefs
+failed to load top-ups
 failed to open round
 failed to parse COSE key
 failed to parse attestation object
@@ -7915,6 +7941,7 @@ failed to prove:
 failed to release!
 failed to resume, server doesn't support partial content. downloading from the beginning
 failed to save prefs
+failed to save top-ups
 failed to translate a text
 failed with error:
 failed with status:
@@ -8165,6 +8192,7 @@ guid
 gzip, deflate
 h:mm a
 h:mm:ss a
+handle:
 handleOnBackCancelled. PREDICTIVE_BACK = true fragment manager
 handleOnBackPressed. PREDICTIVE_BACK = true fragment manager
 handleOnBackProgressed. PREDICTIVE_BACK = true fragment manager
@@ -8182,6 +8210,7 @@ has an unknown constant name as value : '
 has an unknown temporary TeXFormula name as value : '
 has an unknown value '
 has an update, not on Wi-Fi / auto-download
+has been disposed.
 has been inflated via the <fragment> tag: id=0x
 has been re-attached via the <fragment> tag: id=0x
 has completed normally
@@ -8214,7 +8243,6 @@ height =
 height must be positive or -1
 height:
 height="
-height_to_viewport_ratio_permille:
 held by the CPU quota:
 helvetica neue
 hevc encoder isn't hardware accelerated
@@ -8376,11 +8404,9 @@ in onInterceptTouchEvent
 in onPostInitHandler; statusCode=%d
 in onTouchEvent
 in place on
-in screen
 in shader:
 in the window
 in unsafe mode.
-in viewport
 in=
 inSel=
 in_msg=
@@ -8491,6 +8517,7 @@ is not defined ! Use newenvironment instead ...
 is not found.
 is not in the range -18 to 18
 is not in the range -59 to 59
+is not logged in
 is not supported
 is not supported. Falling back to OpenGl tone mapping.
 is not valid for month
@@ -8736,6 +8763,7 @@ messages
 messages =
 messages load time =
 messages.getMessages error:
+messages.getVoipModels gave no blob of 1998208 bytes
 metadata cannot be null
 microphone error
 mid =
@@ -8815,6 +8843,7 @@ ms, max=
 ms, target
 ms, validator
 ms.
+ms. Frames received:
 ms:
 ms; errorCode=
 ms]
@@ -8989,6 +9018,7 @@ objimg: no objects
 of
 of new fallback session
 of new session
+of speech
 of type
 off=
 offerToken can not be empty
@@ -9137,6 +9167,7 @@ open menu msg_id=
 open operation=
 opening websocket; attempt=
 options cannot be null
+or
 or we're trying to assign a unique ID for an already added route
 order does not contain a valid category.
 order=
@@ -9150,9 +9181,6 @@ our pubkey invalid (extremely unlikely)
 ours
 out of
 out of range: %s
-out of screen
-out of time
-out of viewport:
 outLab must have a length of 3.
 outResult must have a length of 3.
 outXyz must have a length of 3.
@@ -9469,6 +9497,7 @@ removeFragmentFromStackInternal
 removeFrameListener must not be called on the render thread.
 removeObserver allowed only from MAIN thread
 removePostponeNotificationsCallback allowed only from MAIN thread
+removeRenderListener must not be called on the render thread.
 removed
 removing
 removing all MessageReceivedCallbacks
@@ -9504,7 +9533,6 @@ resampler self-test (expect 1000Hz≈0dB, 12000Hz<-50dB):
 reset app pause time
 reset lastPauseTime onActivityResult
 reset lastPauseTime onPasscodeResume
-resetCodec
 resetting routes. appIdToRouteInfo has these appId route keys:
 residueType greater than 2 is not decodable
 resolve username from cache
@@ -9631,7 +9659,6 @@ secret =
 seek to data offset:
 seekTo ignored because an ad is playing
 seeking from photo viewer to animation object
-seen_range_ratio_permille:
 segment
 segmentBase must be of type SingleSegmentBase or MultiSegmentBase
 segmentation optional module to be downloaded
@@ -9705,7 +9732,6 @@ setIsPreloadVideoOperation
 setLogSessionId failed.
 setMicrophoneMute:
 setMirrorHorizontally:
-setMirrorVertically:
 setNoiseSuppressorEnabled:
 setObject is required before calling build().
 setPageLoaded: already loaded
@@ -9991,8 +10017,10 @@ that was already processed from queue
 that was not found in the set of active Fragments
 the API
 the Unsafe
+the anchor must implement SearchCloseAnchor
 the callback has already been registered
 the callback has never been registered
+the downloaded file is not the blob
 the flow has been canceled
 the maximum supported array length is 9223372036854775807
 the maximum supported byte/text string length is 2147483647 bytes
@@ -10007,6 +10035,7 @@ this device requires a Google Play Services update for the given feature to be s
 this future
 this should only be called when the cursor is valid
 thread, but got
+threadChecker.checkIsOnValidThread failed:
 thread_time=
 threw
 thrown from get()]
@@ -10015,7 +10044,7 @@ time =
 time diff =
 time=
 timeSinceEpochMillis must be greater than or equal to zero
-time_in_view_ms:
+timed out
 times new roman
 timestamp
 timestamp =
@@ -10040,12 +10069,14 @@ tinyasr: tinylid
 tinyasr: transcription failed
 tinyasr: unreadable events (
 tinyasr: words
+tinylid:
 tinylid: a newer model on the server, updating
 tinylid: download failed:
 tinylid: file,
 tinylid: load failed
 tinylid: loaded
 tinylid: model rejected (
+tinylid: no verdict yet
 tinylid: not on the server
 title=? AND account_type=? AND account_name=?
 tmpDetached
@@ -10191,6 +10222,7 @@ updateInputFormat format:
 updatePhoneCall: svc=
 updateStoriesInLists
 updateSurfaceSize. Layout size:
+updateTexImage failed
 updating=
 upload story destroy
 uploading from
@@ -10205,6 +10237,7 @@ url cannot be null
 url=
 urls == null || urls.isEmpty():
 urls element is null:
+us
 usage write
 usage=
 use Optional.orNull() instead of Optional.or(null)

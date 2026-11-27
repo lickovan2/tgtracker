@@ -171,13 +171,17 @@ messenger/video/VideoPlayerHolderBase
 messenger/video/VideoPlayerRewinder
 messenger/video/WebmEncoder
 messenger/video/WebmEncoder$FrameDrawer
+messenger/voip/CallAudioDevice
+messenger/voip/CallAudioDevice$SamplesCallback
 messenger/voip/CallNotificationSoundProvider
+messenger/voip/CameraRotationObserver
 messenger/voip/ConferenceCall
 messenger/voip/ConferenceCall$CallParticipant
 messenger/voip/ConferenceCall$CallState
 messenger/voip/ConferenceCall$CallVerificationState
 messenger/voip/ConferenceCall$CallVerificationWords
 messenger/voip/EncryptionKeyEmojifier
+messenger/voip/GroupCallEngine
 messenger/voip/GroupCallMessage
 messenger/voip/GroupCallMessagesController
 messenger/voip/GroupCallMessagesController$CallMessageListener
@@ -202,6 +206,10 @@ messenger/voip/NativeInstance$BroadcastStateCallback
 messenger/voip/NativeInstance$PayloadCallback
 messenger/voip/NativeInstance$SsrcGroup
 messenger/voip/NativeInstance$VideoSourcesCallback
+messenger/voip/OpusDred
+messenger/voip/OpusDred$GroupSettings
+messenger/voip/OrientationHelper
+messenger/voip/ScreenCapturer
 messenger/voip/TelegramConnectionService
 messenger/voip/VideoCapturerDevice
 messenger/voip/VoIPActionsReceiver
@@ -531,7 +539,6 @@ ui/Components/FragmentContextView
 ui/Components/GroupCreateCheckBox
 ui/Components/NumberTextView
 ui/Components/Paint/Views/ColorPicker
-ui/Components/PipRoundVideoView
 ui/Components/PollVotesAlert$UserCell
 ui/Components/Premium/LimitPreviewView
 ui/Components/RLottieNative
