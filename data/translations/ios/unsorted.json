@@ -505,6 +505,9 @@
  "Call.Video": [
   "video"
  ],
+ "Call.VideoMessageRecordingDisabledMessage": [
+  "Please end your call before recording a video message."
+ ],
  "Call.VoiceOver.Minimize": [
   "Minimize Call"
  ],
@@ -733,6 +736,27 @@
  "Chat.AlwaysUseAI.ErrorTooLong": [
   "The message is too long for AI, so it wasn't sent. Tap Send to send it as it is."
  ],
+ "Chat.AlwaysUseAI.HintOffText": [
+  "Tap and hold to turn it on."
+ ],
+ "Chat.AlwaysUseAI.HintOffTitle": [
+  "Auto-Rewrite is OFF"
+ ],
+ "Chat.AlwaysUseAI.HintText": [
+  "Tap and hold to turn it off."
+ ],
+ "Chat.AlwaysUseAI.HintTitle": [
+  "Auto-Rewrite is ON"
+ ],
+ "Chat.AlwaysUseAI.LimitGetPremium": [
+  "Get Premium"
+ ],
+ "Chat.AlwaysUseAI.LimitText": [
+  "Auto-Rewrite can't rewrite more messages for now, so this one wasn't sent. Get Telegram Premium for higher AI limits, or turn Auto-Rewrite off to send messages as you write them."
+ ],
+ "Chat.AlwaysUseAI.LimitTitle": [
+  "AI Limit Reached"
+ ],
  "Chat.BotInvite.OwnedBy": [
   "%1$@ is owned by %2$@"
  ],
@@ -765,6 +789,12 @@
  ],
  "Chat.Dictation.ConvertToText": [
   "Convert to Text"
+ ],
+ "Chat.Dictation.Downloading": [
+  "Downloading… %@"
+ ],
+ "Chat.Dictation.DownloadingModels": [
+  "Downloading models… %@"
  ],
  "Chat.Dictation.Enhance": [
   "Enhance"
@@ -891,6 +921,12 @@
  "Chat.ReplyPanel.HintReplyOptionsShort": [
   "Tap here for options"
  ],
+ "Chat.SendMessageMenu.AIRewriteTurnOff": [
+  "Turn Off Auto-Rewrite"
+ ],
+ "Chat.SendMessageMenu.RewriteWithAI": [
+  "Rewrite with AI"
+ ],
  "Chat.SendNotAllowedAudioMessage": [
   "Sending voice messages is not allowed in this group"
  ],
@@ -929,6 +965,9 @@
  ],
  "Chat.SlowmodeAttachmentLimitReached": [
   "Slow Mode is enabled. You can't select more items."
+ ],
+ "Chat.SpamBadge": [
+  "Spam"
  ],
  "Chat.VideoProcessingInfo": [
   "The video will be published once converted and optimized."
@@ -1165,6 +1204,9 @@
  "Contacts.VoiceOver.AddContact": [
   "Add Contact"
  ],
+ "Conversation.AutoSpamInfo": [
+  "This message was automatically marked as spam."
+ ],
  "Conversation.BotInvite.InvitedBy": [
   "%@ invited you to use this chatbot"
  ],
@@ -1210,8 +1252,17 @@
  "Conversation.LaunchApp": [
   "LAUNCH APP"
  ],
+ "Conversation.LiveStreamVideoMessageRecordingRestricted": [
+  "You can't record video messages during a live stream."
+ ],
  "Conversation.MessageLeaveCommentShort": [
   "Comment"
+ ],
+ "Conversation.NotSpam": [
+  "Not Spam"
+ ],
+ "Conversation.NotSpamDone.Title": [
+  "Noted!"
  ],
  "Conversation.OpenLink": [
   "OPEN LINK"
@@ -1269,6 +1320,9 @@
  ],
  "Conversation.ViewPost": [
   "VIEW POST"
+ ],
+ "Conversation.VoiceChatVideoMessageRecordingRestricted": [
+  "You can't record video messages during a video chat."
  ],
  "Conversation.VoiceMessagesRestricted": [
   "%@ doesn't accept voice or video messages"
@@ -1707,6 +1761,19 @@
  ],
  "Gift.Send.SendShort": [
   "Send"
+ ],
+ "Gift.StarsResaleTon.BuyStars": [
+  "Buy Stars"
+ ],
+ "Gift.StarsResaleTon.Pay": [
+  "Pay %@ Gram",
+  "Pay %@ Grams"
+ ],
+ "Gift.StarsResaleTon.Text": [
+  "You can pay **%1$@** from your wallet to buy **%2$@** for %3$@."
+ ],
+ "Gift.StarsResaleTon.Title": [
+  "Not Enough Stars"
  ],
  "Gift.Store.Filter.FixedSale": [
   "On-Chain Sales"
@@ -2178,6 +2245,15 @@
  ],
  "MediaPlayer.ContextMenu.Forward": [
   "Forward"
+ ],
+ "Message.AudioTranscription.ErrorLanguage": [
+  "%@ can't be transcribed on this device yet."
+ ],
+ "Message.AudioTranscription.ErrorLanguageUnknown": [
+  "This language can't be transcribed on this device yet."
+ ],
+ "Message.AudioTranscription.ErrorOnDevice": [
+  "Couldn't transcribe this on your device."
  ],
  "Message.FakeAccount": [
   "Fake"
@@ -3411,6 +3487,90 @@
  "SocksProxySetup.UseSocks5": [
   "Use SOCKS5 Proxy"
  ],
+ "SpeechToText.ActionDownload": [
+  "Download"
+ ],
+ "SpeechToText.ActionPause": [
+  "Pause"
+ ],
+ "SpeechToText.ActionUpdate": [
+  "Update"
+ ],
+ "SpeechToText.ActionVariants": [
+  "Choose Variant"
+ ],
+ "SpeechToText.AutoDetect": [
+  "Auto-Detect"
+ ],
+ "SpeechToText.DeleteAllModels": [
+  "Delete All Models"
+ ],
+ "SpeechToText.DeleteAllModelsText": [
+  "Delete the downloaded speech models? They download again when you need them."
+ ],
+ "SpeechToText.DownloadProgress": [
+  "%1$@ / %2$@"
+ ],
+ "SpeechToText.IntroText": [
+  "Voice messages you dictate are transcribed on this device. It's fully private."
+ ],
+ "SpeechToText.LanguagesHeader": [
+  "Languages"
+ ],
+ "SpeechToText.LearnMore": [
+  "Learn More"
+ ],
+ "SpeechToText.LiveText": [
+  "Live Text While Recording"
+ ],
+ "SpeechToText.LiveTextInfo": [
+  "Lets you send text instead of a voice message. Transcription is done on your device."
+ ],
+ "SpeechToText.Title": [
+  "Dictation"
+ ],
+ "SpeechToText.UpdateSize": [
+  "Update available · %@"
+ ],
+ "SpeechToText.VariantMixed": [
+  "%@ (Mixed)"
+ ],
+ "SpeechToText.VoiceTranscription": [
+  "On-Device Voice Transcription"
+ ],
+ "SpeechToText.VoiceTranscriptionInfo": [
+  "Voice messages are transcribed privately – nothing leaves this device. "
+ ],
+ "SpeechToTextInfo.Compact.Text": [
+  "Only 30 MB per language group. Keep only the ones you need."
+ ],
+ "SpeechToTextInfo.Compact.Title": [
+  "Compact Languages"
+ ],
+ "SpeechToTextInfo.Description": [
+  "Voice messages turn into text right here, on your device."
+ ],
+ "SpeechToTextInfo.Models.Text": [
+  "Custom speech-to-text AI models trained in-house by Telegram."
+ ],
+ "SpeechToTextInfo.Models.Title": [
+  "Models by Telegram"
+ ],
+ "SpeechToTextInfo.Private.Text": [
+  "Nothing leaves the phone. Transcription is done on your device."
+ ],
+ "SpeechToTextInfo.Private.Title": [
+  "Fully Private"
+ ],
+ "SpeechToTextInfo.Sample": [
+  "Hey! Running ten minutes late, see you at the café near the station"
+ ],
+ "SpeechToTextInfo.Title": [
+  "Private by Design"
+ ],
+ "SpeechToTextInfo.Understood": [
+  "Understood"
+ ],
  "Stars.BotRevenue.Transactions.Title": [
   "Transaction History"
  ],
@@ -3538,6 +3698,27 @@
  ],
  "Story.DeleteConfirmation.Title": [
   "Delete Story?"
+ ],
+ "Story.Editor.Captions.Clear": [
+  "Clear"
+ ],
+ "Story.Editor.Captions.Downloading": [
+  "Downloading…"
+ ],
+ "Story.Editor.Captions.EditHint": [
+  "Tap a word to edit"
+ ],
+ "Story.Editor.Captions.NoSpeech": [
+  "No speech detected"
+ ],
+ "Story.Editor.Captions.Title": [
+  "Captions"
+ ],
+ "Story.Editor.Captions.Transcribing": [
+  "Transcribing audio…"
+ ],
+ "Story.Editor.Captions.UnsupportedLanguage": [
+  "Captions aren't available for this language"
  ],
  "Story.Footer.Views": [
   "1 view",

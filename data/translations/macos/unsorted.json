@@ -4712,7 +4712,7 @@
   "The call ended."
  ],
  "CallControlActions.ChangeHowYouTakePartInTheVoiceChat": [
-  "change how you take part in the voice chat"
+  "change how you take part in the video chat"
  ],
  "CallControlActions.ChangeTheCallInProgress": [
   "change the call in progress"
@@ -4721,25 +4721,25 @@
   "end the call in progress"
  ],
  "CallControlActions.LeaveTheVoiceChat": [
-  "leave the voice chat"
+  "leave the video chat"
  ],
  "CallControlActions.MutedByAdmin": [
-  "An admin muted you in this voice chat; raise your hand to ask to speak."
+  "An admin muted you in this video chat; raise your hand to ask to speak."
  ],
  "CallControlActions.NoCall": [
   "There is no call in progress."
  ],
  "CallControlActions.NoVoiceChat": [
-  "You are not in a voice chat."
+  "You are not in a video chat."
  ],
  "CallControlActions.SeeTheCallInProgress": [
   "see the call in progress"
  ],
  "CallControlActions.SeeTheVoiceChatYouAreIn": [
-  "see the voice chat you are in"
+  "see the video chat you are in"
  ],
  "CallControlActions.VoiceChatLeft": [
-  "You left the voice chat."
+  "You left the video chat."
  ],
  "CallFeedback.Success": [
   "Thanks foryour feedback"
@@ -13295,13 +13295,13 @@
   "Join"
  ],
  "Insights.Actions.JoinTheVoiceChatTitle": [
-  "Join the voice chat?"
+  "Join the video chat?"
  ],
  "Insights.Actions.JoinVoiceChatConfirmation": [
-  "The agent wants to open the voice chat in “%1$@” and join it with your microphone."
+  "The agent wants to open the video chat in “%1$@” and join it with your microphone."
  ],
  "Insights.Actions.NoActiveVoiceChat": [
-  "“%1$@” has no voice chat going right now"
+  "“%1$@” has no video chat going right now"
  ],
  "Insights.Actions.PostNotFound": [
   "There is no post %1$d in “%2$@”; read_messages shows the ids"
@@ -13328,7 +13328,7 @@
   "see your recent calls"
  ],
  "Insights.Actions.ViewVoiceChat": [
-  "see the voice chat in “%1$@”"
+  "see the video chat in “%1$@”"
  ],
  "Invite.ChannelsTooMuch": [
   "Sorry, the target user is a member of too many groups and channels. Please ask them to leave some first."

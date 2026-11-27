@@ -892,14 +892,30 @@
  "ActionTakeScreenshootYou": [
   "You took a screenshot!"
  ],
+ "ActionUniqueGiftResaleInbound": [
+  "**un1** bought you a gift for {0} Star!",
+  "**un1** bought you a gift for {0} Stars!"
+ ],
  "ActionUniqueGiftResaleInboundTON": [
   "**un1** bought you a gift for {0} Grams!"
+ ],
+ "ActionUniqueGiftResaleOutbound": [
+  "You bought this gift for {0} Star",
+  "You bought this gift for {0} Stars"
  ],
  "ActionUniqueGiftResaleOutboundTON": [
   "You bought this gift for {0} Grams"
  ],
+ "ActionUniqueGiftResaleService": [
+  "**un1** sent a gift to **un2** for {0} Star!",
+  "**un1** sent a gift to **un2** for {0} Stars!"
+ ],
  "ActionUniqueGiftResaleServiceTON": [
   "**un1** sent a gift to **un2** for {0} Grams!"
+ ],
+ "ActionUniqueGiftResaleSoldOutbound": [
+  "You sold this gift for {0} Star",
+  "You sold this gift for {0} Stars"
  ],
  "ActionUniqueGiftResaleSoldOutboundTON": [
   "You sold this gift for {0} Grams"
@@ -2759,6 +2775,10 @@
  ],
  "BotInviteDone": [
   "**{0}** was invited to **{1}**."
+ ],
+ "BotInviteDoneMany": [
+  "{0} user was invited to **{1}**.",
+  "{0} users were invited to **{1}**."
  ],
  "BotInviteErrorAlreadyStarted": [
   "**{0}** already has a chat with **{1}**."
@@ -4991,7 +5011,7 @@
   "Disable screenshots and screen recordings in this chat."
  ],
  "DisableSharingInfoText2": [
-  "Disable message forwarding to other chats."
+  "Disable forwarding messages to other chats."
  ],
  "DisableSharingInfoText3": [
   "Disable copying text and saving photos or videos."
@@ -6054,6 +6074,10 @@
  "FootsShort": [
   "{0} ft"
  ],
+ "ForceSetPasswordAlertMessageShort": [
+  "If you do not set a password, you will only be able to log into your account via SMS once every {0} day. Do you want to proceed without a password?",
+  "If you do not set a password, you will only be able to log into your account via SMS once every {0} days. Do you want to proceed without a password?"
+ ],
  "ForceSetPasswordCancel": [
   "Yes, I'm sure"
  ],
@@ -6304,6 +6328,10 @@
  "Gift2ButtonSendGift": [
   "send a gift"
  ],
+ "Gift2BuyDoPrice2": [
+  "Buy for ⭐️{0}",
+  "Buy for ⭐️{0}"
+ ],
  "Gift2BuyDoPrice2TON": [
   "Buy for ⭐️{0}"
  ],
@@ -6343,7 +6371,7 @@
   "Change Price"
  ],
  "Gift2ChannelDoesntSupportGiftsText": [
-  "This channel can't receive any star gifts."
+  "This channel can't receive Telegram gifts."
  ],
  "Gift2ChannelDoesntSupportGiftsTitle": [
   "Not Available"
@@ -6553,7 +6581,7 @@
   "Keep showing on my profile"
  ],
  "Gift2LearnMoreText": [
-  "Let {0} turn your gift into a unique collectible."
+  "Let {0} turn this gift into a unique collectible."
  ],
  "Gift2LearnMoreTitle": [
   "Make Unique"
@@ -7111,7 +7139,7 @@
   "Upgrade"
  ],
  "Gift2UpgradeChannelInfo": [
-  "Enable this to let the admins of {0} to turn your gift into a unique collectible. **Learn More >**"
+  "Enable this to let the admins of {0} convert your gift to a unique collectible. **Learn More >**"
  ],
  "Gift2UpgradeCostsFooter": [
   "Upgrade cost drops every minute."
@@ -8999,16 +9027,16 @@
   "Subscribe to **Telegram Premium** to increase this limit to **{0}**."
  ],
  "LimitReachedStoriesMonthly": [
-  "You can post **{0}** stories in a month.Subscribe to **Telegram Premium** to increase this limit to **{1}**."
+  "You can post **{0}** stories per month.Subscribe to **Telegram Premium** to increase this limit to **{1}**."
  ],
  "LimitReachedStoriesMonthlyPremium": [
-  "Sorry, you can’t post more than **{0}** stories in a month."
+  "Sorry, you can't post more than **{0}** stories per month."
  ],
  "LimitReachedStoriesWeekly": [
-  "You can post **{0}** stories in a week.Subscribe to **Telegram Premium** to increase this limit to **{1}**."
+  "You can post **{0}** stories per week.Subscribe to **Telegram Premium** to increase this limit to **{1}**."
  ],
  "LimitReachedStoriesWeeklyPremium": [
-  "Sorry, you can’t post more than **{0}** stories in a week."
+  "Sorry, you can't post more than **{0}** stories per week."
  ],
  "LinkAbove": [
   "Move Up"
@@ -9117,7 +9145,7 @@
   "Automatically switch to low power usage when your system is in Battery Saving Mode."
  ],
  "LiveStoryAlreadyStreaming": [
-  "You have already live stream running."
+  "You already have an active live stream."
  ],
  "LiveStoryAlreadyStreamingTitle": [
   "Already Live"
@@ -11499,6 +11527,12 @@
   "{0} gift",
   "{0} gifts"
  ],
+ "ProfileGiftsNotFoundButton": [
+  "View All Gifts"
+ ],
+ "ProfileGiftsNotFoundTitle": [
+  "No matching gifts"
+ ],
  "ProfileNotes": [
   "Notes"
  ],
@@ -12356,7 +12390,7 @@
   "Add to GIFs"
  ],
  "SaveToPosts": [
-  "Save to Posts"
+  "Post to Profile"
  ],
  "SaveToProfile": [
   "Post to Profile"
@@ -12693,7 +12727,7 @@
   "We’ve sent an SMS with an activation code to your phone **{0}**."
  ],
  "ServerErrorViewers": [
-  "Information about the viewers wasn't recorded."
+  "Information about viewers wasn't recorded."
  ],
  "ServerErrorViewersFull": [
   "Information about the other viewers wasn't recorded."
@@ -13620,6 +13654,10 @@
  "StarsSubscriptionExpiredHintText": [
   "Insufficient funds to cover your subscription."
  ],
+ "StarsSubscriptionExpiredHintTitle2": [
+  "⭐️{0} Star needed for {1}",
+  "⭐️{0} Stars needed for {1}"
+ ],
  "StarsSubscriptionExpiredInfo": [
   "Your subscription expired on {0}."
  ],
@@ -14204,10 +14242,10 @@
   "Subscribe to **Telegram Premium** to make your stories disappear after {0} hours."
  ],
  "StoryPinnedToPosts": [
-  "Story saved to the channel’s profile"
+  "Story posted to the channel page"
  ],
  "StoryPinnedToPostsDescription": [
-  "Saved stories can be viewed by others on the channel’s profile until an admin removes them."
+  "Posted stories can be viewed by others on the channel page until an admin removes them."
  ],
  "StoryPremiumFormatting": [
   "Subscribe to **Telegram Premium** to add links and formatting to your story captions."
@@ -14249,7 +14287,7 @@
   "edit list"
  ],
  "StoryPrivacyOptionContacts": [
-  "Contacts"
+  "My Contacts"
  ],
  "StoryPrivacyOptionContactsDetail": [
   "exclude people"
@@ -14266,7 +14304,7 @@
   "{0} people"
  ],
  "StoryPrivacyOptionSelectedContacts": [
-  "Selected Contacts"
+  "Selected Users"
  ],
  "StoryPrivacyOptionSelectedContactsDetail": [
   "edit list"
@@ -14282,7 +14320,7 @@
  ],
  "StoryReactionsWidgetLimit2": [
   "",
-  "You can’t add up more than {0} reactions tags to a story."
+  "You can’t add more than {0} reaction stickers to a story."
  ],
  "StoryRemovedFromAlbumTitle": [
   "{0} story removed from **{1}**",
@@ -14311,7 +14349,7 @@
   "**{0}** will be able to see your stories again."
  ],
  "StoryUnpinnedFromPosts": [
-  "Story removed from the channel’s profile"
+  "Story removed from the channel page"
  ],
  "StoryViewGift": [
   "Show Gift >"
@@ -14623,7 +14661,7 @@
   "Emoji statuses are a premium feature. Other features included in **Telegram Premium**:"
  ],
  "TelegramPremiumUserStatusDialogTitle": [
-  "This is {0}'s current status from {1}."
+  "{0} set this emoji from {1} as their current status."
  ],
  "TelegramStars": [
   "Telegram Stars"
@@ -15476,7 +15514,7 @@
   "You have changed your color or icon settings. Apply changes?"
  ],
  "UserDisallowedGifts": [
-  "**{0}** disallowed sending themselves gifts."
+  "**{0}** disabled receiving gifts."
  ],
  "UserProfileColorReset": [
   "Reset Profile Color"

@@ -524,7 +524,7 @@
   "%s deleted a message:"
  ],
  "AdminLog.DiscardGroupCall": [
-  "%s ended the voice chat"
+  "%s ended the video chat"
  ],
  "AdminLog.EditedMessage": [
   "%s edited a message:"
@@ -599,7 +599,7 @@
   "%s removed the group link"
  ],
  "AdminLog.StartGroupCall": [
-  "%s started a voice chat"
+  "%s started a video chat"
  ],
  "AdminLog.ToggleAntiSpamDisabled": [
   "%s disabled anti-spam"
