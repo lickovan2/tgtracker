@@ -205,8 +205,8 @@
 ) > fence(
 ) >= end (
 ) AND
+) AND +flags = 0
 ) AND dialog_id =
-) AND flags = 0
 ) AND is_channel = 0
 ) AND topic_id =
 ) AND uid =
@@ -392,6 +392,7 @@
 , array_completeness=
 , arrays=
 , attached=
+, attempts before =
 , attestationConveyancePreference=
 , attributes=
 , audio=
@@ -1643,6 +1644,15 @@ AND ((end >=
 AND ((seq_out_start >=
 AND (start >=
 AND (top_message >
+AND +m.mid <=
+AND +m.mid > 0 AND +m.mid <
+AND +m.mid > 0 AND +m.mid >=
+AND +m.mid > 0 AND m.type =
+AND +m.mid >=
+AND +mid
+AND +mid <
+AND +mid >
+AND +mid > 0
 AND album_id =
 AND count > 0
 AND date <=
@@ -1660,12 +1670,7 @@ AND id IN (
 AND last_mid <=
 AND m.date = 0 AND m.mid < 0 AND s.seq_out <=
 AND m.mid <
-AND m.mid <=
 AND m.mid >
-AND m.mid > 0 AND m.mid <
-AND m.mid > 0 AND m.mid >=
-AND m.mid > 0 AND m.type =
-AND m.mid >=
 AND m.out = 1 AND s.seq_out >=
 AND m.topic_id =
 AND m.type =
@@ -1673,27 +1678,19 @@ AND max_read_id <
 AND media = 0
 AND media = 1
 AND mention = 1 AND read_state IN(0, 1)
-AND mid
 AND mid !=
-AND mid != 0 AND out = 0 AND read_state IN(0,2)
-AND mid <
 AND mid < 0
 AND mid <=
 AND mid =
 AND mid >
 AND mid > 0
 AND mid > 0 AND mid <=
-AND mid > 0 AND out = 0 AND read_state IN(0,2)
-AND mid > 0 AND read_state IN(0,2) AND out = 0
-AND mid >=
 AND mid IN (
 AND mid IN(
 AND out =
-AND out = 0 AND read_state IN(0,2)
 AND out = 0 AND read_state IN(0,2) AND mid < 0
 AND out = 0 AND read_state IN(0,2) AND mid >
 AND out = 0 AND read_state IN(0,2) AND mid > 0
-AND out = 1
 AND pinned <=
 AND pinned IN (
 AND profile_stories.type =
@@ -1701,8 +1698,6 @@ AND profile_stories_albums_links.album_id =
 AND profile_stories_albums_links.dialog_id =
 AND read_state > 0 AND ttl > 0 AND date <=
 AND read_state IN(0, 1) AND out = 0
-AND read_state IN(0, 2) AND out = 0
-AND read_state IN(0,2) AND out = 0
 AND read_state IN(0,2) AND out = 1
 AND s.seq_out <=
 AND send_state = 0 AND media != 1
@@ -1986,6 +1981,7 @@ BAD REQUEST: Missing URI. Usage: GET /example/file.html
 BAD REQUEST: Syntax error. HTTP verb
 BAD REQUEST: Syntax error. Usage: GET /example/file.html
 BASE-ID field is missing in a PATHWAY-CLONE object
+BEGIN IMMEDIATE
 BIOMETRIC_STRONG | DEVICE_CREDENTIAL
 BIOMETRIC_WEAK | DEVICE_CREDENTIAL
 BOC integer overflow
@@ -3317,7 +3313,7 @@ Failed to call newCastContextImpl
 Failed to call observer method
 Failed to check device credential. Client FragmentActivity not found.
 Failed to check feature availability
-Failed to check for beta update at null received:
+Failed to check for beta update at https://telegram.org/dl/android/apk-public-beta.json received:
 Failed to check if camera2 is supported
 Failed to close file output stream
 Failed to close key/value metadata file.
@@ -3699,6 +3695,7 @@ Given String is empty or null
 Given job ID
 Giving up on delivering
 GlTextureFrameBuffer setSize
+Go back to the chat list: the hint stays for 15 seconds
 Google Play In-app Billing API version is less than 3
 Google Play In-app Billing API version is less than 9
 Google Play Services
@@ -3792,6 +3789,8 @@ IDynamite loader version = 2
 IDynamite loader version = 2, no high precision latency measurement.
 IGNORING: Receive (type=binary, ns=%s) <%d bytes>
 IGmsServiceBroker.getService failed
+INDEXED BY unread_idx_messages_topics
+INDEXED BY unread_idx_messages_v2
 INNER JOIN tag_message_id t ON m.mid = t.mid
 INVOICE DISABLED
 IOException during API request to Stripe (https://api.stripe.com/v1/tokens):
@@ -4383,6 +4382,7 @@ Low latency mode will be used.
 Lowering AudioTrack buffer size from
 LruCache.sizeOf() is reporting inconsistent results!
 MB
+MB in
 MB, over
 MB: the engine stops
 MEMORY_LEAK observer
@@ -4965,6 +4965,7 @@ PENDING, info=[
 PIN must not be empty
 PIN must not be longer than 12 characters
 POST INIT APP
+PRAGMA busy_timeout = 2000
 PRAGMA journal_mode = WAL
 PRAGMA journal_size_limit = -1
 PRAGMA journal_size_limit = 0
@@ -5061,6 +5062,8 @@ PRAGMA user_version = 18
 PRAGMA user_version = 180
 PRAGMA user_version = 181
 PRAGMA user_version = 182
+PRAGMA user_version = 183
+PRAGMA user_version = 184
 PRAGMA user_version = 19
 PRAGMA user_version = 2
 PRAGMA user_version = 20
@@ -7092,6 +7095,7 @@ atom type mismatch, expected
 atom type mismatch, not found:
 attach:
 attempt to read gservices key
+attempts
 attestation object missing authData
 audio and video recording started: timeOriginNs=
 audio capture
@@ -7184,10 +7188,13 @@ bufferSize =
 bufferSize must be >= 0
 bufferSizeInBytes:
 buffering: recorder tap on
+build started, db size
 buildClient must be implemented
 buildId
 buildVersion
 buildVersion =
+built during migration in
+built in
 but actual wrapped format:
 but found
 but future completed as timeout expired
@@ -7576,6 +7583,7 @@ data-type="copy" data-copy-text="
 data-type="url" data-url="
 data-type="user-profile" data-user-id="
 data:
+database is locked
 database recovered time
 database restored!!
 datatransport/3.3.0 android/
@@ -7584,6 +7592,7 @@ date =
 date DESC
 date DESC LIMIT 5
 date_added DESC
+db migration:
 dc =
 dc=
 dcId=
@@ -7613,6 +7622,8 @@ default browser name =
 defaultProcess
 deferred codec release: encoder threads exited
 deferred in all); last:
+deferred index
+deferred index prewarm
 delay notification start, onlineReason =
 delay reached
 delay update - contacts add =
@@ -8170,6 +8181,7 @@ getting available effects error
 getting classic integrity with nonce =
 getting layout inflater for DialogFragment
 getting web settings error
+given up for this launch after
 gl initied
 glCreateProgram() failed. GLES20 error:
 glCreateShader() failed. GLES20 error:
@@ -8340,6 +8352,7 @@ https://telegram.org/
 https://telegram.org/blog/telegram-stars
 https://telegram.org/deactivate?phone=
 https://telegram.org/dl
+https://telegram.org/dl/android/apk-public-beta.json
 https://telegram.org/embed
 https://tgb-playground.smart-glocal.com/cds/v1/tokenize/card
 https://tgb.smart-glocal.com/cds/v1/tokenize/card
@@ -8445,6 +8458,8 @@ internal error during password creation
 internal error during public key credential creation
 internal error during the begin sign in operation
 internal error during the sign-in intent operation
+interrupted: the app's connection is in a transaction (
+interrupted: the app's connection started a transaction
 into queue
 into saved state
 invalid
@@ -8835,8 +8850,10 @@ ms to its start)
 ms)
 ms),
 ms,
+ms, attempts before =
 ms, buffer
 ms, chunks=
+ms, db size
 ms, decoded in
 ms, layout queries
 ms, max=
@@ -8948,6 +8965,7 @@ no purpose under
 no seccomp filter in this kernel (errno
 no single file
 no space left on device
+no transaction
 nonce =
 northeast must not be null.
 nosound_video = true
@@ -8957,6 +8975,7 @@ not associated with a fragment manager.
 not attached to Activity
 not attached to a context.
 not attached to an activity.
+not built after
 not done
 not existed
 not found
@@ -9398,6 +9417,7 @@ rating=
 ratio
 raw_contact_id=? AND mimetype=?
 rawresource:// URI must have exactly one path element, found
+read
 read byte array error
 read byte error
 read bytes error
@@ -9926,6 +9946,7 @@ stop requested (session
 stopped
 stopped (
 stopped with error:
+stopped,
 stopping VoIP service, Ga == null
 stopping VoIP service, Ga hash doesn't match
 stopping VoIP service, bad Ga and Gb
@@ -10081,7 +10102,7 @@ tinylid: not on the server
 title=? AND account_type=? AND account_name=?
 tmpDetached
 to
-to 182
+to 184, db size
 to Long
 to a ByteString threw an IOException (should never happen).
 to a byte array threw an IOException (should never happen).

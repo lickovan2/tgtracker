@@ -1,3 +1,1 @@
-- webrtc update
-- sqlite update
-- crash fixes
+- local database optimizations (requires migration, but speed ups should be worth it; if db is large, happens in background); x10-1000 on retrieving chats list, opening chat messages, jumping by date, topics etc

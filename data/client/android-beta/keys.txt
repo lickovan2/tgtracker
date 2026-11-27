@@ -104,6 +104,7 @@ android_audio_recorder_v2_disabled
 android_call_audio_device
 android_check_reset_langpack
 android_collect_device_stats
+android_database_migration
 android_disable_blur_in_dark_theme
 android_disable_blur_in_light_theme
 android_download_improvement_killswitch
@@ -3071,6 +3072,7 @@ u_diffuse
 u_tex
 udp_p2p
 udp_reflector
+uid_type_date_mid_idx_media_topics_v2
 unclaimed_count
 underaccent_macro
 underbrace_macro
@@ -3089,6 +3091,8 @@ unmuted_video_count
 unmuted_video_limit
 unofficial_security_risk
 unread_count
+unread_idx_messages_topics
+unread_idx_messages_v2
 unread_important_count
 unread_mark
 unread_mentions_count
@@ -3102,6 +3106,7 @@ unread_reactions
 unread_reactions_count
 unread_unmuted_messages_count
 unread_unmuted_peers_count
+unsent_idx_messages_v2
 unshuffled_index
 unsupported_stories_checked
 until_date
